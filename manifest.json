@@ -2,6 +2,7 @@
   "sitemap": {
     "fileOptions": {
       "api/*": {
+        "baseUrl": "https://team-stormhawk.github.io/ClearSkiesDocuments/",
         "changefreq": "daily"
       }
     },
@@ -20,6 +21,42 @@
         }
       },
       "is_incremental": false
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClearSkies.Runtime.Test.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClearSkies.Runtime.Test.html",
+          "hash": "D4RAYH98PzRvq5vcGSBnU5TDNDBvDbuav8GdpOUMm4U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClearSkies.Runtime.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClearSkies.Runtime.html",
+          "hash": "1kM1f+pu1M1UWXaBOfYLRcJs9QvI3KIMGhKSxTH446I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "5LqoEmu87BUT2VZA3GHDZq4fPI8h1nsVr0Lp52W6iXM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
     },
     {
       "type": "Conceptual",
@@ -42,7 +79,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "GkqRvUX4aHPK8en2VX+VPlhYLGzWD9Ajmsj5Pj1q6Hc="
+          "hash": "Z7E+A4C89NhrZSNZ3D1DEHX3ZrIOFpA1hFW2KO8UObc="
         }
       },
       "is_incremental": false,
@@ -64,6 +101,12 @@
           "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 1,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 2,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {

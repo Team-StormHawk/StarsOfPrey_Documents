@@ -28,7 +28,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ClearSkies.Runtime.Test.html",
-          "hash": "D4RAYH98PzRvq5vcGSBnU5TDNDBvDbuav8GdpOUMm4U="
+          "hash": "ypKLob5TUQgsNg5A+ztwiPaVS81+ovtwnUBqbtRMip8="
         }
       },
       "is_incremental": false,
@@ -40,7 +40,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ClearSkies.Runtime.html",
-          "hash": "1kM1f+pu1M1UWXaBOfYLRcJs9QvI3KIMGhKSxTH446I="
+          "hash": "8o5pLnbQ63H+8BOo8YFNeCcWRTHWqJ5tTE70MsAB1sY="
         }
       },
       "is_incremental": false,
@@ -64,7 +64,19 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "wgOrDUg2IUNejJE3LXesZkgpOwrz50QGb64C+MWfRFc="
+          "hash": "cbp/GZL+qRKQoZzhdSVGGtlcBk+CBJt9kZ96HJORR88="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/manual-sample.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/manual-sample.html",
+          "hash": "TOii6ExiHxKTYa5qihy7u6DmzXqfyHkLIpsEuiW3rgg="
         }
       },
       "is_incremental": false,
@@ -72,14 +84,48 @@
     },
     {
       "log_codes": [
-        "InvalidFileLink"
+        "EmptyTocItemName"
       ],
+      "type": "Toc",
+      "source_relative_path": "manual/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "manual/toc.html",
+          "hash": "I0NzEmcs3Uk1xa+I7vJ7g3GmHD9yvGEX3eewnp8gw60="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/ExampleManual.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/ExampleManual.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/ExampleScriptingApi.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/ExampleScriptingApi.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Toc",
       "source_relative_path": "toc.yml",
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "Z7E+A4C89NhrZSNZ3D1DEHX3ZrIOFpA1hFW2KO8UObc="
+          "hash": "a2MFrWgz69EhlMOGE7UFUEznIKQIyRRvZxfi/Z5fPTM="
         }
       },
       "is_incremental": false,
@@ -100,13 +146,20 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 1,
+          "total_file_count": 2,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 2,
+          "skipped_file_count": 0
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {

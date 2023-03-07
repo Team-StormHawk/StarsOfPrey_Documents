@@ -5,11 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class Test
-   | Developer Reference </title>
+    <title>Formatting Code | Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class Test
-   | Developer Reference ">
+    <meta name="title" content="Formatting Code | Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
@@ -78,31 +76,24 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="ClearSkies.Runtime.Test">
-  
-  
-  <h1 id="ClearSkies_Runtime_Test" data-uid="ClearSkies.Runtime.Test" class="text-break">Class Test
-  </h1>
-  <div class="markdown level0 summary"></div>
-  <div class="markdown level0 conceptual"></div>
-  <div class="inheritance">
-    <h5>Inheritance</h5>
-    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">Test</span></div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="ClearSkies.Runtime.html">ClearSkies.Runtime</a></h6>
-  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="ClearSkies_Runtime_Test_syntax">Syntax</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Test : MonoBehaviour</code></pre>
-  </div>
-</article>
+            <article class="content wrap" id="_content" data-uid="">
+<h2 id="formatting-code">Formatting Code</h2>
+
+<p>저희는 <a href="https://github.com/dotnet/format">dotnet/format</a>을 사용해서 코드를 관리합니다. 저희 repository에서 code format을 확인한 후, 그 결과가 approved 될 경우에만 main 브랜치에 머지가 됩니다.</p>
+<p>위의 <code>dotnet-format</code> 을 사용하기 위해서는 먼저 설치를 해야합니다. 설치하는 방법은 아래와 같습니다.</p>
+<pre><code>dotnet tool install -g dotnet-format --version 5.0.142902 --add-source https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet-tools/nuget/v3/index.json
+</code></pre><p>그 이후 Unity에서 생성해준 <code>.csproj</code> 파일의 위치에서 아래의 명령을 입력하면 자동으로 code를 format해줍니다.</p>
+<pre><code>dotnet-format ClearSkies.sln --fix-style warn
+</code></pre></article>
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
+                  <li>
+                    <a href="https://github.com/Team-StormHawk/ClearSkies/blob/main/Documentation/manual/formatting-code.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">

@@ -2,7 +2,6 @@
   "sitemap": {
     "fileOptions": {
       "api/*": {
-        "baseUrl": "https://team-stormhawk.github.io/ClearSkiesDocuments/",
         "changefreq": "daily"
       }
     },
@@ -23,42 +22,6 @@
       "is_incremental": false
     },
     {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ClearSkies.Runtime.Test.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ClearSkies.Runtime.Test.html",
-          "hash": "ypKLob5TUQgsNg5A+ztwiPaVS81+ovtwnUBqbtRMip8="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ClearSkies.Runtime.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ClearSkies.Runtime.html",
-          "hash": "8o5pLnbQ63H+8BOo8YFNeCcWRTHWqJ5tTE70MsAB1sY="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "api/toc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/toc.html",
-          "hash": "5LqoEmu87BUT2VZA3GHDZq4fPI8h1nsVr0Lp52W6iXM="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
       "type": "Conceptual",
       "source_relative_path": "index.md",
       "output": {
@@ -72,11 +35,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "manual/manual-sample.md",
+      "source_relative_path": "manual/formatting-code.md",
       "output": {
         ".html": {
-          "relative_path": "manual/manual-sample.html",
-          "hash": "TOii6ExiHxKTYa5qihy7u6DmzXqfyHkLIpsEuiW3rgg="
+          "relative_path": "manual/formatting-code.html",
+          "hash": "An63erJLkq9gyEuAJZfsyVV2xi8tfMYOZF+DOm9Mwx0="
         }
       },
       "is_incremental": false,
@@ -91,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/toc.html",
-          "hash": "I0NzEmcs3Uk1xa+I7vJ7g3GmHD9yvGEX3eewnp8gw60="
+          "hash": "EmTxX/0JucsExzGfd4785EeSXWECPaPDA21qzHA6NqM="
         }
       },
       "is_incremental": false,
@@ -125,7 +88,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "a2MFrWgz69EhlMOGE7UFUEznIKQIyRRvZxfi/Z5fPTM="
+          "hash": "hWroo3fvMlAUWHOSKWY0hGNGM111iZftbMSxNO6tv+s="
         }
       },
       "is_incremental": false,
@@ -144,12 +107,6 @@
       },
       "processors": {
         "ConceptualDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 2,
-          "skipped_file_count": 0
-        },
-        "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 2,

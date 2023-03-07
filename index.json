@@ -1,22 +1,12 @@
 {
-  "api/ClearSkies.Runtime.html": {
-    "href": "api/ClearSkies.Runtime.html",
-    "title": "Namespace ClearSkies.Runtime | Developer Reference",
-    "keywords": "Namespace ClearSkies.Runtime Classes Test"
-  },
-  "api/ClearSkies.Runtime.Test.html": {
-    "href": "api/ClearSkies.Runtime.Test.html",
-    "title": "Class Test | Developer Reference",
-    "keywords": "Class Test Inheritance Object Test Namespace : ClearSkies.Runtime Assembly : cs.temp.dll.dll Syntax public class Test : MonoBehaviour"
-  },
   "index.html": {
     "href": "index.html",
     "title": "BehaviorTree | Developer Reference",
     "keywords": "BehaviorTree"
   },
-  "manual/manual-sample.html": {
-    "href": "manual/manual-sample.html",
-    "title": "Manual Sample page | Developer Reference",
-    "keywords": "Manual Sample page"
+  "manual/formatting-code.html": {
+    "href": "manual/formatting-code.html",
+    "title": "Formatting Code | Developer Reference",
+    "keywords": "Formatting Code 저희는 dotnet/format 을 사용해서 코드를 관리합니다. 저희 repository에서 code format을 확인한 후, 그 결과가 approved 될 경우에만 main 브랜치에 머지가 됩니다. 위의 dotnet-format 을 사용하기 위해서는 먼저 설치를 해야합니다. 설치하는 방법은 아래와 같습니다. dotnet tool install -g dotnet-format --version 5.0.142902 --add-source https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet-tools/nuget/v3/index.json 그 이후 Unity에서 생성해준 .csproj 파일의 위치에서 아래의 명령을 입력하면 자동으로 code를 format해줍니다. dotnet-format ClearSkies.sln --fix-style warn"
   }
 }

@@ -2,6 +2,7 @@
   "sitemap": {
     "fileOptions": {
       "api/*": {
+        "baseUrl": "https://team-stormhawk.github.io/ClearSkiesDocuments/",
         "changefreq": "daily"
       }
     },
@@ -20,6 +21,78 @@
         }
       },
       "is_incremental": false
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/StormHawks.Runtime.Entity.EntityMovementSO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StormHawks.Runtime.Entity.EntityMovementSO.html",
+          "hash": "iMa7Mmc5S5icaq02lY+6Q4c/0oyO+xc0wOKJ1oJ2G10="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/StormHawks.Runtime.Entity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StormHawks.Runtime.Entity.html",
+          "hash": "giDHkXfMNXxhGKa0IaLjQusmePMLgnQa37+EO/lOINo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/StormHawks.Runtime.Player.PlayerInteractSO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StormHawks.Runtime.Player.PlayerInteractSO.html",
+          "hash": "klCWM/zwSf3oNRuv0nOnmAiA0yVa4T1svGH5cc2x6pQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/StormHawks.Runtime.Player.PlayerMovementSO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StormHawks.Runtime.Player.PlayerMovementSO.html",
+          "hash": "zUnDXTv0tZfQT4mKxIKwMtrHWZXbtBDVbhwRDI2dNfw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/StormHawks.Runtime.Player.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StormHawks.Runtime.Player.html",
+          "hash": "Inf/6HZdvOKc7En4SL9hs2OLQpTWcxIWAxSi0LZYurU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "R0AnP9yVW29ODdnrlgZTp/zmPNcjMpCXcq2a3SuLGYo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
     },
     {
       "type": "Conceptual",
@@ -88,7 +161,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "hWroo3fvMlAUWHOSKWY0hGNGM111iZftbMSxNO6tv+s="
+          "hash": "lcsLEaSIuQmKv6IjNAwn2W8tMYvGKVlIqarhEDlGlyo="
         }
       },
       "is_incremental": false,
@@ -110,6 +183,12 @@
           "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 2,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 5,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

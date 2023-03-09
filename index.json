@@ -1,29 +1,4 @@
 {
-  "api/StormHawks.Runtime.Entity.EntityMovementSO.html": {
-    "href": "api/StormHawks.Runtime.Entity.EntityMovementSO.html",
-    "title": "Class EntityMovementSO | Developer Reference",
-    "keywords": "Class EntityMovementSO Inheritance Object EntityMovementSO Namespace : StormHawks.Runtime.Entity Assembly : cs.temp.dll.dll Syntax public abstract class EntityMovementSO : ScriptableObject Properties FaceDirection Entity의 forward 방향 벡터 (length is 1) Declaration public Vector3 FaceDirection { get; set; } Property Value Type Description Vector3 MaxDrivingForce Entity가 움직일 때 가해지는 추진력의 최대량 Declaration public float MaxDrivingForce { get; } Property Value Type Description Single MinDrivingForce Entity가 움직일 때 가해지는 추진력의 최소량 Declaration public float MinDrivingForce { get; } Property Value Type Description Single MoveTransitionValue Entity의 현재 Velocity에서 FaceDirection으로 Velocity 벡터가 변화할 때 변화량 Declaration public float MoveTransitionValue { get; } Property Value Type Description Single Position Declaration public Vector3 Position { get; } Property Value Type Description Vector3 RotateTransitionValue Entity의 현재 forward에서 FaceDirection으로 회전할 때 변화량 Declaration public float RotateTransitionValue { get; } Property Value Type Description Single Velocity Entity의 움직이는 속도 Declaration public Vector3 Velocity { get; set; } Property Value Type Description Vector3 Methods UpdatePosition(Vector3) Declaration public void UpdatePosition(Vector3 newPos) Parameters Type Name Description Vector3 newPos"
-  },
-  "api/StormHawks.Runtime.Entity.html": {
-    "href": "api/StormHawks.Runtime.Entity.html",
-    "title": "Namespace StormHawks.Runtime.Entity | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Entity Classes EntityMovementSO"
-  },
-  "api/StormHawks.Runtime.Player.html": {
-    "href": "api/StormHawks.Runtime.Player.html",
-    "title": "Namespace StormHawks.Runtime.Player | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Player Classes PlayerInteractSO PlayerMovementSO"
-  },
-  "api/StormHawks.Runtime.Player.PlayerInteractSO.html": {
-    "href": "api/StormHawks.Runtime.Player.PlayerInteractSO.html",
-    "title": "Class PlayerInteractSO | Developer Reference",
-    "keywords": "Class PlayerInteractSO Inheritance Object PlayerInteractSO Namespace : StormHawks.Runtime.Player Assembly : cs.temp.dll.dll Syntax public class PlayerInteractSO : ScriptableObject Properties Radius Declaration public float Radius { get; } Property Value Type Description Single Methods SetRadius(Single) Declaration public void SetRadius(float newVal) Parameters Type Name Description Single newVal"
-  },
-  "api/StormHawks.Runtime.Player.PlayerMovementSO.html": {
-    "href": "api/StormHawks.Runtime.Player.PlayerMovementSO.html",
-    "title": "Class PlayerMovementSO | Developer Reference",
-    "keywords": "Class PlayerMovementSO Inheritance Object PlayerMovementSO Namespace : StormHawks.Runtime.Player Assembly : cs.temp.dll.dll Syntax public class PlayerMovementSO : EntityMovementSO"
-  },
   "index.html": {
     "href": "index.html",
     "title": "BehaviorTree | Developer Reference",

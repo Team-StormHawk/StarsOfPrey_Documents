@@ -1,4 +1,214 @@
 {
+  "api/StormHawks.Editor.BehaviorTreeEditor.BehaviorTreeEditor.html": {
+    "href": "api/StormHawks.Editor.BehaviorTreeEditor.BehaviorTreeEditor.html",
+    "title": "Class BehaviorTreeEditor | Developer Reference",
+    "keywords": "Class BehaviorTreeEditor Inheritance Object BehaviorTreeEditor Namespace : StormHawks.Editor.BehaviorTreeEditor Assembly : cs.temp.dll.dll Syntax public class BehaviorTreeEditor : EditorWindow Methods CreateGUI() Editor 생성 Declaration public void CreateGUI() OnOpenAsset(Int32, Int32) Asset을 열었을 때의 CALLBACK함수. Declaration public static bool OnOpenAsset(int instanceId, int line) Parameters Type Name Description Int32 instanceId Int32 line Returns Type Description Boolean OpenBehaviorTreeEditor() Declaration public static void OpenBehaviorTreeEditor()"
+  },
+  "api/StormHawks.Editor.BehaviorTreeEditor.BehaviorTreeView.html": {
+    "href": "api/StormHawks.Editor.BehaviorTreeEditor.BehaviorTreeView.html",
+    "title": "Class BehaviorTreeView | Developer Reference",
+    "keywords": "Class BehaviorTreeView Inheritance Object BehaviorTreeView Namespace : StormHawks.Editor.BehaviorTreeEditor Assembly : cs.temp.dll.dll Syntax public class BehaviorTreeView : GraphView Constructors BehaviorTreeView() Declaration public BehaviorTreeView() Fields OnNodeSelected Declaration public Action<NodeView> OnNodeSelected Field Value Type Description Action < NodeView > Methods BuildContextualMenu(ContextualMenuPopulateEvent) GraphView에서 오른쪽 클릭을 통해 menu를 열었을 때, 추가할 Action들을 설정함. Declaration public override void BuildContextualMenu(ContextualMenuPopulateEvent evt) Parameters Type Name Description ContextualMenuPopulateEvent evt GetCompatiblePorts(Port, NodeAdapter) Node의 Port들의 연결 관계를 Input -> Output, Output -> Input만 가능하도록 설정함. Declaration public override List<Port> GetCompatiblePorts(Port startPort, NodeAdapter nodeAdapter) Parameters Type Name Description Port startPort NodeAdapter nodeAdapter Returns Type Description List < Port > PopulateView(BehaviorTreeSO) BehaviorTreeSO를 이용해서 View를 재구성함. Declaration public void PopulateView(BehaviorTreeSO bt) Parameters Type Name Description BehaviorTreeSO bt View를 구성하기 위한 BehaviorTree UpdateNodeState() NodeView의 상태를 업데이트함. Declaration public void UpdateNodeState()"
+  },
+  "api/StormHawks.Editor.BehaviorTreeEditor.BehaviorTreeView.UxmlFactory.html": {
+    "href": "api/StormHawks.Editor.BehaviorTreeEditor.BehaviorTreeView.UxmlFactory.html",
+    "title": "Class BehaviorTreeView.UxmlFactory | Developer Reference",
+    "keywords": "Class BehaviorTreeView.UxmlFactory Inheritance Object BehaviorTreeView.UxmlFactory Namespace : StormHawks.Editor.BehaviorTreeEditor Assembly : cs.temp.dll.dll Syntax public class UxmlFactory : BehaviorTreeView.UxmlFactory<BehaviorTreeView, GraphView.UxmlTraits>"
+  },
+  "api/StormHawks.Editor.BehaviorTreeEditor.html": {
+    "href": "api/StormHawks.Editor.BehaviorTreeEditor.html",
+    "title": "Namespace StormHawks.Editor.BehaviorTreeEditor | Developer Reference",
+    "keywords": "Namespace StormHawks.Editor.BehaviorTreeEditor Classes BehaviorTreeEditor BehaviorTreeView BehaviorTreeView.UxmlFactory InspectorView BehaviorNodeSO 의 Inspector창을 표시하기위한 View InspectorView.UxmlFactory NodeView Node를 GraphView에서 표시하기위한 View. SplitView SplitView.UxmlFactory"
+  },
+  "api/StormHawks.Editor.BehaviorTreeEditor.InspectorView.html": {
+    "href": "api/StormHawks.Editor.BehaviorTreeEditor.InspectorView.html",
+    "title": "Class InspectorView | Developer Reference",
+    "keywords": "Class InspectorView BehaviorNodeSO 의 Inspector창을 표시하기위한 View Inheritance Object InspectorView Namespace : StormHawks.Editor.BehaviorTreeEditor Assembly : cs.temp.dll.dll Syntax public class InspectorView : VisualElement"
+  },
+  "api/StormHawks.Editor.BehaviorTreeEditor.InspectorView.UxmlFactory.html": {
+    "href": "api/StormHawks.Editor.BehaviorTreeEditor.InspectorView.UxmlFactory.html",
+    "title": "Class InspectorView.UxmlFactory | Developer Reference",
+    "keywords": "Class InspectorView.UxmlFactory Inheritance Object InspectorView.UxmlFactory Namespace : StormHawks.Editor.BehaviorTreeEditor Assembly : cs.temp.dll.dll Syntax public class UxmlFactory : InspectorView.UxmlFactory<InspectorView, VisualElement.UxmlTraits>"
+  },
+  "api/StormHawks.Editor.BehaviorTreeEditor.NodeView.html": {
+    "href": "api/StormHawks.Editor.BehaviorTreeEditor.NodeView.html",
+    "title": "Class NodeView | Developer Reference",
+    "keywords": "Class NodeView Node를 GraphView에서 표시하기위한 View. Inheritance Object NodeView Namespace : StormHawks.Editor.BehaviorTreeEditor Assembly : cs.temp.dll.dll Syntax public class NodeView : Node Constructors NodeView(BehaviorNodeSO) Declaration public NodeView(BehaviorNodeSO node) Parameters Type Name Description BehaviorNodeSO node Fields InputPort Declaration public Port InputPort Field Value Type Description Port Node Declaration public BehaviorNodeSO Node Field Value Type Description BehaviorNodeSO OnNodeSelected Declaration public Action<NodeView> OnNodeSelected Field Value Type Description Action < NodeView > OutputPort Declaration public Port OutputPort Field Value Type Description Port Methods OnSelected() Declaration public override void OnSelected() SetPosition(Rect) Declaration public override void SetPosition(Rect newPos) Parameters Type Name Description Rect newPos SortChildern() NodeView의 x좌표에 따라 sort함. Declaration public void SortChildern() UpdateState() Node의 현 상태에 따라 표시를 하기 위해 Class를 추가함. Declaration public void UpdateState()"
+  },
+  "api/StormHawks.Editor.BehaviorTreeEditor.SplitView.html": {
+    "href": "api/StormHawks.Editor.BehaviorTreeEditor.SplitView.html",
+    "title": "Class SplitView | Developer Reference",
+    "keywords": "Class SplitView Inheritance Object SplitView Namespace : StormHawks.Editor.BehaviorTreeEditor Assembly : cs.temp.dll.dll Syntax public class SplitView : TwoPaneSplitView"
+  },
+  "api/StormHawks.Editor.BehaviorTreeEditor.SplitView.UxmlFactory.html": {
+    "href": "api/StormHawks.Editor.BehaviorTreeEditor.SplitView.UxmlFactory.html",
+    "title": "Class SplitView.UxmlFactory | Developer Reference",
+    "keywords": "Class SplitView.UxmlFactory Inheritance Object SplitView.UxmlFactory Namespace : StormHawks.Editor.BehaviorTreeEditor Assembly : cs.temp.dll.dll Syntax public class UxmlFactory : SplitView.UxmlFactory<SplitView, TwoPaneSplitView.UxmlTraits>"
+  },
+  "api/StormHawks.Runtime.BehaviorTree.BehaviorTreeRunner.html": {
+    "href": "api/StormHawks.Runtime.BehaviorTree.BehaviorTreeRunner.html",
+    "title": "Class BehaviorTreeRunner | Developer Reference",
+    "keywords": "Class BehaviorTreeRunner Behavior Tree를 실행시키는 Component. Inheritance Object BehaviorTreeRunner Namespace : StormHawks.Runtime.BehaviorTree Assembly : cs.temp.dll.dll Syntax public class BehaviorTreeRunner : MonoBehaviour Properties BehaviorTree Declaration public BehaviorTreeSO BehaviorTree { get; } Property Value Type Description BehaviorTreeSO Methods Start() Declaration protected virtual void Start() Update() Declaration protected virtual void Update()"
+  },
+  "api/StormHawks.Runtime.BehaviorTree.Core.Actions.ActionNode.html": {
+    "href": "api/StormHawks.Runtime.BehaviorTree.Core.Actions.ActionNode.html",
+    "title": "Class ActionNode | Developer Reference",
+    "keywords": "Class ActionNode Action노드는 자식을 가질 수 없으며, 노드 이름과 같이 액션을 실행함. Inheritance Object BehaviorNodeSO ActionNode LogNode WaitNode Inherited Members BehaviorNodeSO.State BehaviorNodeSO.Guid BehaviorNodeSO.Position BehaviorNodeSO.Description BehaviorNodeSO._runner BehaviorNodeSO.Awake() BehaviorNodeSO.Initialize(GameObject) BehaviorNodeSO.Dispose() BehaviorNodeSO.Run() BehaviorNodeSO.Abort() BehaviorNodeSO.OnEnter() BehaviorNodeSO.OnRun() BehaviorNodeSO.OnExit() BehaviorNodeSO.OnInitialize() BehaviorNodeSO.OnDispose() BehaviorNodeSO.OnAbort() BehaviorNodeSO.Clone() BehaviorNodeSO.ResetNode() Namespace : StormHawks.Runtime.BehaviorTree.Core.Actions Assembly : cs.temp.dll.dll Syntax public abstract class ActionNode : BehaviorNodeSO"
+  },
+  "api/StormHawks.Runtime.BehaviorTree.Core.Actions.html": {
+    "href": "api/StormHawks.Runtime.BehaviorTree.Core.Actions.html",
+    "title": "Namespace StormHawks.Runtime.BehaviorTree.Core.Actions | Developer Reference",
+    "keywords": "Namespace StormHawks.Runtime.BehaviorTree.Core.Actions Classes ActionNode Action노드는 자식을 가질 수 없으며, 노드 이름과 같이 액션을 실행함. LogNode 로그를 출력하는 ActionNode . WaitNode 지정한 시간동안 대기하는 ActionNode ."
+  },
+  "api/StormHawks.Runtime.BehaviorTree.Core.Actions.LogNode.html": {
+    "href": "api/StormHawks.Runtime.BehaviorTree.Core.Actions.LogNode.html",
+    "title": "Class LogNode | Developer Reference",
+    "keywords": "Class LogNode 로그를 출력하는 ActionNode . Inheritance Object BehaviorNodeSO ActionNode LogNode Inherited Members BehaviorNodeSO.State BehaviorNodeSO.Guid BehaviorNodeSO.Position BehaviorNodeSO.Description BehaviorNodeSO._runner BehaviorNodeSO.Initialize(GameObject) BehaviorNodeSO.Dispose() BehaviorNodeSO.Run() BehaviorNodeSO.Abort() BehaviorNodeSO.OnEnter() BehaviorNodeSO.OnExit() BehaviorNodeSO.OnInitialize() BehaviorNodeSO.OnDispose() BehaviorNodeSO.OnAbort() BehaviorNodeSO.Clone() BehaviorNodeSO.ResetNode() Namespace : StormHawks.Runtime.BehaviorTree.Core.Actions Assembly : cs.temp.dll.dll Syntax public class LogNode : ActionNode Methods Awake() Declaration protected override void Awake() Overrides BehaviorNodeSO.Awake() OnRun() Declaration protected override BehaviorNodeState OnRun() Returns Type Description BehaviorNodeState Overrides BehaviorNodeSO.OnRun()"
+  },
+  "api/StormHawks.Runtime.BehaviorTree.Core.Actions.WaitNode.html": {
+    "href": "api/StormHawks.Runtime.BehaviorTree.Core.Actions.WaitNode.html",
+    "title": "Class WaitNode | Developer Reference",
+    "keywords": "Class WaitNode 지정한 시간동안 대기하는 ActionNode . Inheritance Object BehaviorNodeSO ActionNode WaitNode Inherited Members BehaviorNodeSO.State BehaviorNodeSO.Guid BehaviorNodeSO.Position BehaviorNodeSO.Description BehaviorNodeSO._runner BehaviorNodeSO.Initialize(GameObject) BehaviorNodeSO.Dispose() BehaviorNodeSO.Run() BehaviorNodeSO.Abort() BehaviorNodeSO.OnExit() BehaviorNodeSO.OnInitialize() BehaviorNodeSO.OnDispose() BehaviorNodeSO.OnAbort() BehaviorNodeSO.Clone() BehaviorNodeSO.ResetNode() Namespace : StormHawks.Runtime.BehaviorTree.Core.Actions Assembly : cs.temp.dll.dll Syntax public class WaitNode : ActionNode Methods Awake() Declaration protected override void Awake() Overrides BehaviorNodeSO.Awake() OnEnter() Declaration protected override void OnEnter() Overrides BehaviorNodeSO.OnEnter() OnRun() Declaration protected override BehaviorNodeState OnRun() Returns Type Description BehaviorNodeState Overrides BehaviorNodeSO.OnRun()"
+  },
+  "api/StormHawks.Runtime.BehaviorTree.Core.BehaviorNodeSO.html": {
+    "href": "api/StormHawks.Runtime.BehaviorTree.Core.BehaviorNodeSO.html",
+    "title": "Class BehaviorNodeSO | Developer Reference",
+    "keywords": "Class BehaviorNodeSO 모든 BehaviorNode의 Base class. Inheritance Object BehaviorNodeSO ActionNode CompositeNode ConditionalNode DecoratorNode RootNode Namespace : StormHawks.Runtime.BehaviorTree.Core Assembly : cs.temp.dll.dll Syntax public abstract class BehaviorNodeSO : ScriptableObject Fields _runner Declaration protected GameObject _runner Field Value Type Description GameObject Description Declaration public string Description Field Value Type Description String Guid Declaration public string Guid Field Value Type Description String Position Declaration public Vector2 Position Field Value Type Description Vector2 Properties State Declaration public BehaviorNodeState State { get; } Property Value Type Description BehaviorNodeState Methods Abort() Declaration public BehaviorNodeState Abort() Returns Type Description BehaviorNodeState Awake() Declaration protected virtual void Awake() Clone() Declaration public virtual BehaviorNodeSO Clone() Returns Type Description BehaviorNodeSO Dispose() Declaration public virtual void Dispose() Initialize(GameObject) Declaration public virtual void Initialize(GameObject runner) Parameters Type Name Description GameObject runner OnAbort() Declaration protected virtual void OnAbort() OnDispose() Declaration protected virtual void OnDispose() OnEnter() 노드가 처음 실행되었을 때, 호출함. Declaration protected virtual void OnEnter() OnExit() Declaration protected virtual void OnExit() OnInitialize() Declaration protected virtual void OnInitialize() OnRun() 노드를 실행시켰을 때, 발생하는 Callback함수. Declaration protected abstract BehaviorNodeState OnRun() Returns Type Description BehaviorNodeState ResetNode() Declaration public virtual void ResetNode() Run() Declaration public BehaviorNodeState Run() Returns Type Description BehaviorNodeState"
+  },
+  "api/StormHawks.Runtime.BehaviorTree.Core.BehaviorNodeState.html": {
+    "href": "api/StormHawks.Runtime.BehaviorTree.Core.BehaviorNodeState.html",
+    "title": "Enum BehaviorNodeState | Developer Reference",
+    "keywords": "Enum BehaviorNodeState 노드의 상태를 표시해주는 Enum. Namespace : StormHawks.Runtime.BehaviorTree.Core Assembly : cs.temp.dll.dll Syntax public enum BehaviorNodeState Fields Name Description Failure Invalid Running Success"
+  },
+  "api/StormHawks.Runtime.BehaviorTree.Core.BehaviorTreeSO.html": {
+    "href": "api/StormHawks.Runtime.BehaviorTree.Core.BehaviorTreeSO.html",
+    "title": "Class BehaviorTreeSO | Developer Reference",
+    "keywords": "Class BehaviorTreeSO BehaviorTreeSO 와 BehaviorNodeSO 들을 관리하는 ScriptableObject. Inheritance Object BehaviorTreeSO Namespace : StormHawks.Runtime.BehaviorTree.Core Assembly : cs.temp.dll.dll Syntax public sealed class BehaviorTreeSO : ScriptableObject Properties Nodes Declaration public List<BehaviorNodeSO> Nodes { get; } Property Value Type Description List < BehaviorNodeSO > RootNode Declaration public BehaviorNodeSO RootNode { get; } Property Value Type Description BehaviorNodeSO Methods Clone() 우리는 BehaviorTreeSO >를 ScriptableObject로 생성하기 때문에 Clone을 해주지 않는다면 원본에 변경이 발생하기 때문에 Clone을 해주어야함. Declaration public BehaviorTreeSO Clone() Returns Type Description BehaviorTreeSO 원본의 복사본이 반환됨. GetChild(BehaviorNodeSO) Declaration public static List<BehaviorNodeSO> GetChild(BehaviorNodeSO parent) Parameters Type Name Description BehaviorNodeSO parent Returns Type Description List < BehaviorNodeSO > Initialize(GameObject) Declaration public void Initialize(GameObject gameObject) Parameters Type Name Description GameObject gameObject SetRootNode(BehaviorNodeSO) Declaration public void SetRootNode(BehaviorNodeSO rootNode) Parameters Type Name Description BehaviorNodeSO rootNode Update() Declaration public void Update()"
+  },
+  "api/StormHawks.Runtime.BehaviorTree.Core.Composites.AllNode.html": {
+    "href": "api/StormHawks.Runtime.BehaviorTree.Core.Composites.AllNode.html",
+    "title": "Class AllNode | Developer Reference",
+    "keywords": "Class AllNode 모든 자식 노드들을 실행 시키는 CompositeNode . 만약 하나의 자식 노드라도 Failure 를 반환한다면, Failure 모든 자식노드가 Success 라면 Success 하나의 자식노드라도 Running 이라면 Running Inheritance Object BehaviorNodeSO CompositeNode AllNode Inherited Members CompositeNode._children CompositeNode.Children CompositeNode.OnInitialize() CompositeNode.AddChild(BehaviorNodeSO) CompositeNode.RemoveChild(BehaviorNodeSO) CompositeNode.Clone() CompositeNode.ResetNode() BehaviorNodeSO.State BehaviorNodeSO.Guid BehaviorNodeSO.Position BehaviorNodeSO.Description BehaviorNodeSO._runner BehaviorNodeSO.Initialize(GameObject) BehaviorNodeSO.Dispose() BehaviorNodeSO.Run() BehaviorNodeSO.Abort() BehaviorNodeSO.OnEnter() BehaviorNodeSO.OnExit() BehaviorNodeSO.OnDispose() Namespace : StormHawks.Runtime.BehaviorTree.Core.Composites Assembly : cs.temp.dll.dll Syntax public class AllNode : CompositeNode Methods Awake() Declaration protected override void Awake() Overrides BehaviorNodeSO.Awake() OnAbort() Declaration protected override void OnAbort() Overrides BehaviorNodeSO.OnAbort() OnRun() Declaration protected override BehaviorNodeState OnRun() Returns Type Description BehaviorNodeState Overrides BehaviorNodeSO.OnRun()"
+  },
+  "api/StormHawks.Runtime.BehaviorTree.Core.Composites.CompositeNode.html": {
+    "href": "api/StormHawks.Runtime.BehaviorTree.Core.Composites.CompositeNode.html",
+    "title": "Class CompositeNode | Developer Reference",
+    "keywords": "Class CompositeNode 자식노드들을 실행시킬 방식을 가지고 있는 노드. Inheritance Object BehaviorNodeSO CompositeNode AllNode RandomSelectorNode SelectorNode SequenceNode Inherited Members BehaviorNodeSO.State BehaviorNodeSO.Guid BehaviorNodeSO.Position BehaviorNodeSO.Description BehaviorNodeSO._runner BehaviorNodeSO.Awake() BehaviorNodeSO.Initialize(GameObject) BehaviorNodeSO.Dispose() BehaviorNodeSO.Run() BehaviorNodeSO.Abort() BehaviorNodeSO.OnEnter() BehaviorNodeSO.OnRun() BehaviorNodeSO.OnExit() BehaviorNodeSO.OnDispose() BehaviorNodeSO.OnAbort() Namespace : StormHawks.Runtime.BehaviorTree.Core.Composites Assembly : cs.temp.dll.dll Syntax public abstract class CompositeNode : BehaviorNodeSO Fields _children Declaration protected List<BehaviorNodeSO> _children Field Value Type Description List < BehaviorNodeSO > Properties Children Declaration public List<BehaviorNodeSO> Children { get; } Property Value Type Description List < BehaviorNodeSO > Methods AddChild(BehaviorNodeSO) Declaration public void AddChild(BehaviorNodeSO child) Parameters Type Name Description BehaviorNodeSO child Clone() Declaration public override BehaviorNodeSO Clone() Returns Type Description BehaviorNodeSO Overrides BehaviorNodeSO.Clone() OnInitialize() Declaration protected override void OnInitialize() Overrides BehaviorNodeSO.OnInitialize() RemoveChild(BehaviorNodeSO) Declaration public void RemoveChild(BehaviorNodeSO child) Parameters Type Name Description BehaviorNodeSO child ResetNode() Declaration public override void ResetNode() Overrides BehaviorNodeSO.ResetNode()"
+  },
+  "api/StormHawks.Runtime.BehaviorTree.Core.Composites.html": {
+    "href": "api/StormHawks.Runtime.BehaviorTree.Core.Composites.html",
+    "title": "Namespace StormHawks.Runtime.BehaviorTree.Core.Composites | Developer Reference",
+    "keywords": "Namespace StormHawks.Runtime.BehaviorTree.Core.Composites Classes AllNode 모든 자식 노드들을 실행 시키는 CompositeNode . 만약 하나의 자식 노드라도 Failure 를 반환한다면, Failure 모든 자식노드가 Success 라면 Success 하나의 자식노드라도 Running 이라면 Running CompositeNode 자식노드들을 실행시킬 방식을 가지고 있는 노드. RandomSelectorNode 자식 노드들 중에서 하나를 램덤으로 선택해서 실행시키는 CompositeNode . SelectorNode 자식노드들을 왼쪽부터 실행시키며, 그 중에 먼저 실행 가능한 자식노드를 발견한다면 그 자식노드를 실행시는 CompositeNode . SequenceNode 자식노드들을 왼쪽부터 실행시키는 CompositeNode 만약 실행시킨 자식노드가 Failure를 반환한다면, Failure . 모든 자식노드가 정상적으로 실행되었다면, Success . 자식노드 중 하나라도 실행중이라면, Running ."
+  },
+  "api/StormHawks.Runtime.BehaviorTree.Core.Composites.RandomSelectorNode.html": {
+    "href": "api/StormHawks.Runtime.BehaviorTree.Core.Composites.RandomSelectorNode.html",
+    "title": "Class RandomSelectorNode | Developer Reference",
+    "keywords": "Class RandomSelectorNode 자식 노드들 중에서 하나를 램덤으로 선택해서 실행시키는 CompositeNode . Inheritance Object BehaviorNodeSO CompositeNode RandomSelectorNode Inherited Members CompositeNode._children CompositeNode.Children CompositeNode.OnInitialize() CompositeNode.AddChild(BehaviorNodeSO) CompositeNode.RemoveChild(BehaviorNodeSO) CompositeNode.Clone() BehaviorNodeSO.State BehaviorNodeSO.Guid BehaviorNodeSO.Position BehaviorNodeSO.Description BehaviorNodeSO._runner BehaviorNodeSO.Initialize(GameObject) BehaviorNodeSO.Dispose() BehaviorNodeSO.Run() BehaviorNodeSO.Abort() BehaviorNodeSO.OnExit() BehaviorNodeSO.OnDispose() Namespace : StormHawks.Runtime.BehaviorTree.Core.Composites Assembly : cs.temp.dll.dll Syntax public class RandomSelectorNode : CompositeNode Methods Awake() Declaration protected override void Awake() Overrides BehaviorNodeSO.Awake() OnAbort() Declaration protected override void OnAbort() Overrides BehaviorNodeSO.OnAbort() OnEnter() Declaration protected override void OnEnter() Overrides BehaviorNodeSO.OnEnter() OnRun() Declaration protected override BehaviorNodeState OnRun() Returns Type Description BehaviorNodeState Overrides BehaviorNodeSO.OnRun() ResetNode() Declaration public override void ResetNode() Overrides CompositeNode.ResetNode()"
+  },
+  "api/StormHawks.Runtime.BehaviorTree.Core.Composites.SelectorNode.html": {
+    "href": "api/StormHawks.Runtime.BehaviorTree.Core.Composites.SelectorNode.html",
+    "title": "Class SelectorNode | Developer Reference",
+    "keywords": "Class SelectorNode 자식노드들을 왼쪽부터 실행시키며, 그 중에 먼저 실행 가능한 자식노드를 발견한다면 그 자식노드를 실행시는 CompositeNode . Inheritance Object BehaviorNodeSO CompositeNode SelectorNode Inherited Members CompositeNode._children CompositeNode.Children CompositeNode.OnInitialize() CompositeNode.AddChild(BehaviorNodeSO) CompositeNode.RemoveChild(BehaviorNodeSO) CompositeNode.Clone() BehaviorNodeSO.State BehaviorNodeSO.Guid BehaviorNodeSO.Position BehaviorNodeSO.Description BehaviorNodeSO._runner BehaviorNodeSO.Initialize(GameObject) BehaviorNodeSO.Dispose() BehaviorNodeSO.Run() BehaviorNodeSO.Abort() BehaviorNodeSO.OnExit() BehaviorNodeSO.OnDispose() Namespace : StormHawks.Runtime.BehaviorTree.Core.Composites Assembly : cs.temp.dll.dll Syntax public class SelectorNode : CompositeNode Methods Awake() Declaration protected override void Awake() Overrides BehaviorNodeSO.Awake() OnAbort() Declaration protected override void OnAbort() Overrides BehaviorNodeSO.OnAbort() OnEnter() Declaration protected override void OnEnter() Overrides BehaviorNodeSO.OnEnter() OnRun() Declaration protected override BehaviorNodeState OnRun() Returns Type Description BehaviorNodeState Overrides BehaviorNodeSO.OnRun() ResetNode() Declaration public override void ResetNode() Overrides CompositeNode.ResetNode()"
+  },
+  "api/StormHawks.Runtime.BehaviorTree.Core.Composites.SequenceNode.html": {
+    "href": "api/StormHawks.Runtime.BehaviorTree.Core.Composites.SequenceNode.html",
+    "title": "Class SequenceNode | Developer Reference",
+    "keywords": "Class SequenceNode 자식노드들을 왼쪽부터 실행시키는 CompositeNode 만약 실행시킨 자식노드가 Failure를 반환한다면, Failure . 모든 자식노드가 정상적으로 실행되었다면, Success . 자식노드 중 하나라도 실행중이라면, Running . Inheritance Object BehaviorNodeSO CompositeNode SequenceNode Inherited Members CompositeNode._children CompositeNode.Children CompositeNode.OnInitialize() CompositeNode.AddChild(BehaviorNodeSO) CompositeNode.RemoveChild(BehaviorNodeSO) CompositeNode.Clone() BehaviorNodeSO.State BehaviorNodeSO.Guid BehaviorNodeSO.Position BehaviorNodeSO.Description BehaviorNodeSO._runner BehaviorNodeSO.Initialize(GameObject) BehaviorNodeSO.Dispose() BehaviorNodeSO.Run() BehaviorNodeSO.Abort() BehaviorNodeSO.OnExit() BehaviorNodeSO.OnDispose() Namespace : StormHawks.Runtime.BehaviorTree.Core.Composites Assembly : cs.temp.dll.dll Syntax public class SequenceNode : CompositeNode Methods Awake() Declaration protected override void Awake() Overrides BehaviorNodeSO.Awake() OnAbort() Declaration protected override void OnAbort() Overrides BehaviorNodeSO.OnAbort() OnEnter() Declaration protected override void OnEnter() Overrides BehaviorNodeSO.OnEnter() OnRun() Declaration protected override BehaviorNodeState OnRun() Returns Type Description BehaviorNodeState Overrides BehaviorNodeSO.OnRun() ResetNode() Declaration public override void ResetNode() Overrides CompositeNode.ResetNode()"
+  },
+  "api/StormHawks.Runtime.BehaviorTree.Core.Conditionals.ConditionalNode.html": {
+    "href": "api/StormHawks.Runtime.BehaviorTree.Core.Conditionals.ConditionalNode.html",
+    "title": "Class ConditionalNode | Developer Reference",
+    "keywords": "Class ConditionalNode 조건을 표시해주는 노드 만약 조건에 만족한다면, Success . 만약 조건에 불만족한다면, Failure . Inheritance Object BehaviorNodeSO ConditionalNode Inherited Members BehaviorNodeSO.State BehaviorNodeSO.Guid BehaviorNodeSO.Position BehaviorNodeSO.Description BehaviorNodeSO._runner BehaviorNodeSO.Awake() BehaviorNodeSO.Initialize(GameObject) BehaviorNodeSO.Dispose() BehaviorNodeSO.Run() BehaviorNodeSO.Abort() BehaviorNodeSO.OnEnter() BehaviorNodeSO.OnExit() BehaviorNodeSO.OnInitialize() BehaviorNodeSO.OnDispose() BehaviorNodeSO.OnAbort() BehaviorNodeSO.ResetNode() Namespace : StormHawks.Runtime.BehaviorTree.Core.Conditionals Assembly : cs.temp.dll.dll Syntax public abstract class ConditionalNode : BehaviorNodeSO Methods Clone() Declaration public override BehaviorNodeSO Clone() Returns Type Description BehaviorNodeSO Overrides BehaviorNodeSO.Clone() Condition() Declaration protected abstract bool Condition() Returns Type Description Boolean OnRun() Declaration protected sealed override BehaviorNodeState OnRun() Returns Type Description BehaviorNodeState Overrides BehaviorNodeSO.OnRun()"
+  },
+  "api/StormHawks.Runtime.BehaviorTree.Core.Conditionals.html": {
+    "href": "api/StormHawks.Runtime.BehaviorTree.Core.Conditionals.html",
+    "title": "Namespace StormHawks.Runtime.BehaviorTree.Core.Conditionals | Developer Reference",
+    "keywords": "Namespace StormHawks.Runtime.BehaviorTree.Core.Conditionals Classes ConditionalNode 조건을 표시해주는 노드 만약 조건에 만족한다면, Success . 만약 조건에 불만족한다면, Failure ."
+  },
+  "api/StormHawks.Runtime.BehaviorTree.Core.Decorators.DecoratorNode.html": {
+    "href": "api/StormHawks.Runtime.BehaviorTree.Core.Decorators.DecoratorNode.html",
+    "title": "Class DecoratorNode | Developer Reference",
+    "keywords": "Class DecoratorNode 자식노드를 수정(꾸며주는)하는 노드. Inheritance Object BehaviorNodeSO DecoratorNode RepeatNode Inherited Members BehaviorNodeSO.State BehaviorNodeSO.Guid BehaviorNodeSO.Position BehaviorNodeSO.Description BehaviorNodeSO._runner BehaviorNodeSO.Awake() BehaviorNodeSO.Initialize(GameObject) BehaviorNodeSO.Dispose() BehaviorNodeSO.Run() BehaviorNodeSO.Abort() BehaviorNodeSO.OnEnter() BehaviorNodeSO.OnRun() BehaviorNodeSO.OnExit() BehaviorNodeSO.OnDispose() BehaviorNodeSO.OnAbort() Namespace : StormHawks.Runtime.BehaviorTree.Core.Decorators Assembly : cs.temp.dll.dll Syntax public abstract class DecoratorNode : BehaviorNodeSO Fields _child Declaration protected BehaviorNodeSO _child Field Value Type Description BehaviorNodeSO Properties Child Declaration public BehaviorNodeSO Child { get; } Property Value Type Description BehaviorNodeSO Methods Clone() Declaration public override BehaviorNodeSO Clone() Returns Type Description BehaviorNodeSO Overrides BehaviorNodeSO.Clone() OnInitialize() Declaration protected override void OnInitialize() Overrides BehaviorNodeSO.OnInitialize() ResetNode() Declaration public override void ResetNode() Overrides BehaviorNodeSO.ResetNode() SetChild(BehaviorNodeSO) Declaration public void SetChild(BehaviorNodeSO child) Parameters Type Name Description BehaviorNodeSO child"
+  },
+  "api/StormHawks.Runtime.BehaviorTree.Core.Decorators.html": {
+    "href": "api/StormHawks.Runtime.BehaviorTree.Core.Decorators.html",
+    "title": "Namespace StormHawks.Runtime.BehaviorTree.Core.Decorators | Developer Reference",
+    "keywords": "Namespace StormHawks.Runtime.BehaviorTree.Core.Decorators Classes DecoratorNode 자식노드를 수정(꾸며주는)하는 노드. RepeatNode 자식노드를 계속해서 결과와 상관없이 반복시키는 DecoratorNode ."
+  },
+  "api/StormHawks.Runtime.BehaviorTree.Core.Decorators.RepeatNode.html": {
+    "href": "api/StormHawks.Runtime.BehaviorTree.Core.Decorators.RepeatNode.html",
+    "title": "Class RepeatNode | Developer Reference",
+    "keywords": "Class RepeatNode 자식노드를 계속해서 결과와 상관없이 반복시키는 DecoratorNode . Inheritance Object BehaviorNodeSO DecoratorNode RepeatNode Inherited Members DecoratorNode._child DecoratorNode.Child DecoratorNode.OnInitialize() DecoratorNode.SetChild(BehaviorNodeSO) DecoratorNode.Clone() DecoratorNode.ResetNode() BehaviorNodeSO.State BehaviorNodeSO.Guid BehaviorNodeSO.Position BehaviorNodeSO.Description BehaviorNodeSO._runner BehaviorNodeSO.Initialize(GameObject) BehaviorNodeSO.Dispose() BehaviorNodeSO.Run() BehaviorNodeSO.Abort() BehaviorNodeSO.OnEnter() BehaviorNodeSO.OnExit() BehaviorNodeSO.OnDispose() BehaviorNodeSO.OnAbort() Namespace : StormHawks.Runtime.BehaviorTree.Core.Decorators Assembly : cs.temp.dll.dll Syntax public class RepeatNode : DecoratorNode Methods Awake() Declaration protected override void Awake() Overrides BehaviorNodeSO.Awake() OnRun() Declaration protected override BehaviorNodeState OnRun() Returns Type Description BehaviorNodeState Overrides BehaviorNodeSO.OnRun()"
+  },
+  "api/StormHawks.Runtime.BehaviorTree.Core.html": {
+    "href": "api/StormHawks.Runtime.BehaviorTree.Core.html",
+    "title": "Namespace StormHawks.Runtime.BehaviorTree.Core | Developer Reference",
+    "keywords": "Namespace StormHawks.Runtime.BehaviorTree.Core Classes BehaviorNodeSO 모든 BehaviorNode의 Base class. BehaviorTreeSO BehaviorTreeSO 와 BehaviorNodeSO 들을 관리하는 ScriptableObject. RootNode BehaviorTreeSO 의 시작 노드. Enums BehaviorNodeState 노드의 상태를 표시해주는 Enum."
+  },
+  "api/StormHawks.Runtime.BehaviorTree.Core.RootNode.html": {
+    "href": "api/StormHawks.Runtime.BehaviorTree.Core.RootNode.html",
+    "title": "Class RootNode | Developer Reference",
+    "keywords": "Class RootNode BehaviorTreeSO 의 시작 노드. Inheritance Object BehaviorNodeSO RootNode Inherited Members BehaviorNodeSO.State BehaviorNodeSO.Guid BehaviorNodeSO.Position BehaviorNodeSO.Description BehaviorNodeSO._runner BehaviorNodeSO.Initialize(GameObject) BehaviorNodeSO.Dispose() BehaviorNodeSO.Run() BehaviorNodeSO.Abort() BehaviorNodeSO.OnEnter() BehaviorNodeSO.OnExit() BehaviorNodeSO.OnDispose() BehaviorNodeSO.OnAbort() Namespace : StormHawks.Runtime.BehaviorTree.Core Assembly : cs.temp.dll.dll Syntax public sealed class RootNode : BehaviorNodeSO Properties Child Declaration public BehaviorNodeSO Child { get; } Property Value Type Description BehaviorNodeSO Methods Awake() Declaration protected override void Awake() Overrides BehaviorNodeSO.Awake() Clone() Declaration public override BehaviorNodeSO Clone() Returns Type Description BehaviorNodeSO Overrides BehaviorNodeSO.Clone() OnInitialize() Declaration protected override void OnInitialize() Overrides BehaviorNodeSO.OnInitialize() OnRun() Declaration protected override BehaviorNodeState OnRun() Returns Type Description BehaviorNodeState Overrides BehaviorNodeSO.OnRun() ResetNode() Declaration public override void ResetNode() Overrides BehaviorNodeSO.ResetNode() SetChild(BehaviorNodeSO) Declaration public void SetChild(BehaviorNodeSO child) Parameters Type Name Description BehaviorNodeSO child"
+  },
+  "api/StormHawks.Runtime.BehaviorTree.html": {
+    "href": "api/StormHawks.Runtime.BehaviorTree.html",
+    "title": "Namespace StormHawks.Runtime.BehaviorTree | Developer Reference",
+    "keywords": "Namespace StormHawks.Runtime.BehaviorTree Classes BehaviorTreeRunner Behavior Tree를 실행시키는 Component."
+  },
+  "api/StormHawks.Runtime.Entities.Interfaces.html": {
+    "href": "api/StormHawks.Runtime.Entities.Interfaces.html",
+    "title": "Namespace StormHawks.Runtime.Entities.Interfaces | Developer Reference",
+    "keywords": "Namespace StormHawks.Runtime.Entities.Interfaces Interfaces IDetectable IDetectHandler"
+  },
+  "api/StormHawks.Runtime.Entities.Interfaces.IDetectable.html": {
+    "href": "api/StormHawks.Runtime.Entities.Interfaces.IDetectable.html",
+    "title": "Interface IDetectable | Developer Reference",
+    "keywords": "Interface IDetectable Namespace : StormHawks.Runtime.Entities.Interfaces Assembly : cs.temp.dll.dll Syntax public interface IDetectable Methods CanDetect() Declaration bool CanDetect() Returns Type Description Boolean GetDetectedObject() Declaration GameObject GetDetectedObject() Returns Type Description GameObject"
+  },
+  "api/StormHawks.Runtime.Entities.Interfaces.IDetectHandler.html": {
+    "href": "api/StormHawks.Runtime.Entities.Interfaces.IDetectHandler.html",
+    "title": "Interface IDetectHandler | Developer Reference",
+    "keywords": "Interface IDetectHandler Namespace : StormHawks.Runtime.Entities.Interfaces Assembly : cs.temp.dll.dll Syntax public interface IDetectHandler Methods GetDetectResults(Single, LayerMask) Declaration List<IDetectable> GetDetectResults(float radius, LayerMask layerMask) Parameters Type Name Description Single radius LayerMask layerMask Returns Type Description List < IDetectable >"
+  },
+  "api/StormHawks.Runtime.Entities.Nodes.Actions.EntityActionNode.html": {
+    "href": "api/StormHawks.Runtime.Entities.Nodes.Actions.EntityActionNode.html",
+    "title": "Class EntityActionNode | Developer Reference",
+    "keywords": "Class EntityActionNode Inheritance Object EntityActionNode MoveAction RotateAction Namespace : StormHawks.Runtime.Entities.Nodes.Actions Assembly : cs.temp.dll.dll Syntax public abstract class EntityActionNode : ActionNode Fields _rigidbody Declaration protected Rigidbody _rigidbody Field Value Type Description Rigidbody _transform Declaration protected Transform _transform Field Value Type Description Transform Methods OnInitialize() Declaration protected override void OnInitialize()"
+  },
+  "api/StormHawks.Runtime.Entities.Nodes.Actions.html": {
+    "href": "api/StormHawks.Runtime.Entities.Nodes.Actions.html",
+    "title": "Namespace StormHawks.Runtime.Entities.Nodes.Actions | Developer Reference",
+    "keywords": "Namespace StormHawks.Runtime.Entities.Nodes.Actions Classes EntityActionNode MoveAction RotateAction"
+  },
+  "api/StormHawks.Runtime.Entities.Nodes.Actions.MoveAction.html": {
+    "href": "api/StormHawks.Runtime.Entities.Nodes.Actions.MoveAction.html",
+    "title": "Class MoveAction | Developer Reference",
+    "keywords": "Class MoveAction Inheritance Object EntityActionNode MoveAction Inherited Members EntityActionNode._rigidbody EntityActionNode._transform EntityActionNode.OnInitialize() Namespace : StormHawks.Runtime.Entities.Nodes.Actions Assembly : cs.temp.dll.dll Syntax public class MoveAction : EntityActionNode Methods OnEnter() Declaration protected override void OnEnter() OnExit() Declaration protected override void OnExit() OnRun() Declaration protected override BehaviorNodeState OnRun() Returns Type Description BehaviorNodeState"
+  },
+  "api/StormHawks.Runtime.Entities.Nodes.Actions.RotateAction.html": {
+    "href": "api/StormHawks.Runtime.Entities.Nodes.Actions.RotateAction.html",
+    "title": "Class RotateAction | Developer Reference",
+    "keywords": "Class RotateAction Inheritance Object EntityActionNode RotateAction Inherited Members EntityActionNode._rigidbody EntityActionNode._transform EntityActionNode.OnInitialize() Namespace : StormHawks.Runtime.Entities.Nodes.Actions Assembly : cs.temp.dll.dll Syntax public class RotateAction : EntityActionNode Methods OnEnter() Declaration protected override void OnEnter() OnRun() Declaration protected override BehaviorNodeState OnRun() Returns Type Description BehaviorNodeState"
+  },
+  "api/StormHawks.Runtime.Entities.Nodes.Conditionals.html": {
+    "href": "api/StormHawks.Runtime.Entities.Nodes.Conditionals.html",
+    "title": "Namespace StormHawks.Runtime.Entities.Nodes.Conditionals | Developer Reference",
+    "keywords": "Namespace StormHawks.Runtime.Entities.Nodes.Conditionals Classes IsDetect"
+  },
+  "api/StormHawks.Runtime.Entities.Nodes.Conditionals.IsDetect.html": {
+    "href": "api/StormHawks.Runtime.Entities.Nodes.Conditionals.IsDetect.html",
+    "title": "Class IsDetect | Developer Reference",
+    "keywords": "Class IsDetect Inheritance Object IsDetect Namespace : StormHawks.Runtime.Entities.Nodes.Conditionals Assembly : cs.temp.dll.dll Syntax public class IsDetect : ConditionalNode Methods Condition() Declaration protected override bool Condition() Returns Type Description Boolean"
+  },
+  "api/StormHawks.Runtime.Entities.Players.html": {
+    "href": "api/StormHawks.Runtime.Entities.Players.html",
+    "title": "Namespace StormHawks.Runtime.Entities.Players | Developer Reference",
+    "keywords": "Namespace StormHawks.Runtime.Entities.Players Classes PlayerDetectHandler"
+  },
+  "api/StormHawks.Runtime.Entities.Players.PlayerDetectHandler.html": {
+    "href": "api/StormHawks.Runtime.Entities.Players.PlayerDetectHandler.html",
+    "title": "Class PlayerDetectHandler | Developer Reference",
+    "keywords": "Class PlayerDetectHandler Inheritance Object PlayerDetectHandler Implements IDetectHandler Namespace : StormHawks.Runtime.Entities.Players Assembly : cs.temp.dll.dll Syntax public class PlayerDetectHandler : MonoBehaviour Methods GetDetectResults(Single, LayerMask) Declaration public List<IDetectable> GetDetectResults(float radius, LayerMask layerMask) Parameters Type Name Description Single radius LayerMask layerMask Returns Type Description List < IDetectable > Implements IDetectHandler"
+  },
   "api/StormHawks.Runtime.Entity.EntityMovementSO.html": {
     "href": "api/StormHawks.Runtime.Entity.EntityMovementSO.html",
     "title": "Class EntityMovementSO | Developer Reference",
@@ -52,7 +262,7 @@
   "api/StormHawks.Runtime.XR.Input.XRInputAction.html": {
     "href": "api/StormHawks.Runtime.XR.Input.XRInputAction.html",
     "title": "Class XRInputAction | Developer Reference",
-    "keywords": "Class XRInputAction Inheritance Object XRInputAction Implements IDisposable Namespace : StormHawks.Runtime.XR.Input Assembly : cs.temp.dll.dll Syntax public class XRInputAction : IInputActionCollection2 Constructors XRInputAction() Declaration public XRInputAction() Properties asset Declaration public InputActionAsset asset { get; } Property Value Type Description InputActionAsset bindingMask Declaration public InputBinding? bindingMask { get; set; } Property Value Type Description Nullable < InputBinding > bindings Declaration public IEnumerable<InputBinding> bindings { get; } Property Value Type Description IEnumerable < InputBinding > ContinuousMoveScheme Declaration public InputControlScheme ContinuousMoveScheme { get; } Property Value Type Description InputControlScheme controlSchemes Declaration public ReadOnlyArray<InputControlScheme> controlSchemes { get; } Property Value Type Description ReadOnlyArray < InputControlScheme > devices Declaration public ReadOnlyArray<InputDevice>? devices { get; set; } Property Value Type Description Nullable < ReadOnlyArray < InputDevice >> GenericXRControllerScheme Declaration public InputControlScheme GenericXRControllerScheme { get; } Property Value Type Description InputControlScheme NoncontinuousMoveScheme Declaration public InputControlScheme NoncontinuousMoveScheme { get; } Property Value Type Description InputControlScheme XRIHead Declaration public XRInputAction.XRIHeadActions XRIHead { get; } Property Value Type Description XRInputAction.XRIHeadActions XRILeftHand Declaration public XRInputAction.XRILeftHandActions XRILeftHand { get; } Property Value Type Description XRInputAction.XRILeftHandActions XRILeftHandInteraction Declaration public XRInputAction.XRILeftHandInteractionActions XRILeftHandInteraction { get; } Property Value Type Description XRInputAction.XRILeftHandInteractionActions XRILeftHandLocomotion Declaration public XRInputAction.XRILeftHandLocomotionActions XRILeftHandLocomotion { get; } Property Value Type Description XRInputAction.XRILeftHandLocomotionActions XRIRightHand Declaration public XRInputAction.XRIRightHandActions XRIRightHand { get; } Property Value Type Description XRInputAction.XRIRightHandActions XRIRightHandInteraction Declaration public XRInputAction.XRIRightHandInteractionActions XRIRightHandInteraction { get; } Property Value Type Description XRInputAction.XRIRightHandInteractionActions XRIRightHandLocomotion Declaration public XRInputAction.XRIRightHandLocomotionActions XRIRightHandLocomotion { get; } Property Value Type Description XRInputAction.XRIRightHandLocomotionActions XRIUI Declaration public XRInputAction.XRIUIActions XRIUI { get; } Property Value Type Description XRInputAction.XRIUIActions Methods Contains(InputAction) Declaration public bool Contains(InputAction action) Parameters Type Name Description InputAction action Returns Type Description Boolean Disable() Declaration public void Disable() Dispose() Declaration public void Dispose() Enable() Declaration public void Enable() FindAction(String, Boolean) Declaration public InputAction FindAction(string actionNameOrId, bool throwIfNotFound = false) Parameters Type Name Description String actionNameOrId Boolean throwIfNotFound Returns Type Description InputAction FindBinding(InputBinding, out InputAction) Declaration public int FindBinding(InputBinding bindingMask, out InputAction action) Parameters Type Name Description InputBinding bindingMask InputAction action Returns Type Description Int32 GetEnumerator() Declaration public IEnumerator<InputAction> GetEnumerator() Returns Type Description IEnumerator < InputAction > Implements IDisposable"
+    "keywords": "Class XRInputAction Inheritance Object XRInputAction Namespace : StormHawks.Runtime.XR.Input Assembly : cs.temp.dll.dll Syntax public class XRInputAction : IInputActionCollection2, IDisposable Constructors XRInputAction() Declaration public XRInputAction() Properties asset Declaration public InputActionAsset asset { get; } Property Value Type Description InputActionAsset bindingMask Declaration public InputBinding? bindingMask { get; set; } Property Value Type Description Nullable < InputBinding > bindings Declaration public IEnumerable<InputBinding> bindings { get; } Property Value Type Description IEnumerable < InputBinding > ContinuousMoveScheme Declaration public InputControlScheme ContinuousMoveScheme { get; } Property Value Type Description InputControlScheme controlSchemes Declaration public ReadOnlyArray<InputControlScheme> controlSchemes { get; } Property Value Type Description ReadOnlyArray < InputControlScheme > devices Declaration public ReadOnlyArray<InputDevice>? devices { get; set; } Property Value Type Description Nullable < ReadOnlyArray < InputDevice >> GenericXRControllerScheme Declaration public InputControlScheme GenericXRControllerScheme { get; } Property Value Type Description InputControlScheme NoncontinuousMoveScheme Declaration public InputControlScheme NoncontinuousMoveScheme { get; } Property Value Type Description InputControlScheme XRIHead Declaration public XRInputAction.XRIHeadActions XRIHead { get; } Property Value Type Description XRInputAction.XRIHeadActions XRILeftHand Declaration public XRInputAction.XRILeftHandActions XRILeftHand { get; } Property Value Type Description XRInputAction.XRILeftHandActions XRILeftHandInteraction Declaration public XRInputAction.XRILeftHandInteractionActions XRILeftHandInteraction { get; } Property Value Type Description XRInputAction.XRILeftHandInteractionActions XRILeftHandLocomotion Declaration public XRInputAction.XRILeftHandLocomotionActions XRILeftHandLocomotion { get; } Property Value Type Description XRInputAction.XRILeftHandLocomotionActions XRIRightHand Declaration public XRInputAction.XRIRightHandActions XRIRightHand { get; } Property Value Type Description XRInputAction.XRIRightHandActions XRIRightHandInteraction Declaration public XRInputAction.XRIRightHandInteractionActions XRIRightHandInteraction { get; } Property Value Type Description XRInputAction.XRIRightHandInteractionActions XRIRightHandLocomotion Declaration public XRInputAction.XRIRightHandLocomotionActions XRIRightHandLocomotion { get; } Property Value Type Description XRInputAction.XRIRightHandLocomotionActions XRIUI Declaration public XRInputAction.XRIUIActions XRIUI { get; } Property Value Type Description XRInputAction.XRIUIActions Methods Contains(InputAction) Declaration public bool Contains(InputAction action) Parameters Type Name Description InputAction action Returns Type Description Boolean Disable() Declaration public void Disable() Dispose() Declaration public void Dispose() Enable() Declaration public void Enable() FindAction(String, Boolean) Declaration public InputAction FindAction(string actionNameOrId, bool throwIfNotFound = false) Parameters Type Name Description String actionNameOrId Boolean throwIfNotFound Returns Type Description InputAction FindBinding(InputBinding, out InputAction) Declaration public int FindBinding(InputBinding bindingMask, out InputAction action) Parameters Type Name Description InputBinding bindingMask InputAction action Returns Type Description Int32 GetEnumerator() Declaration public IEnumerator<InputAction> GetEnumerator() Returns Type Description IEnumerator < InputAction >"
   },
   "api/StormHawks.Runtime.XR.Input.XRInputAction.IXRIHeadActions.html": {
     "href": "api/StormHawks.Runtime.XR.Input.XRInputAction.IXRIHeadActions.html",
@@ -143,6 +353,11 @@
     "href": "index.html",
     "title": "BehaviorTree | Developer Reference",
     "keywords": "BehaviorTree"
+  },
+  "manual/behaviorTree-management.html": {
+    "href": "manual/behaviorTree-management.html",
+    "title": "BehaviorTree Management | Developer Reference",
+    "keywords": "BehaviorTree Management BehaviorTree(BT)를 관리(수정)하기 위한 문서입니다. BT는 무엇인지, 그리고 왜 사용하는지에 대한 정보 또한 얻을 수 있습니다. BehaviorTree란? BehaviorTree 란 게임에서 Behavior(행동) 을 [Tree]( https://ko.wikipedia.org/wiki/%ED%8A%B8%EB%A6%AC_%EA%B5%AC%EC%A1%B0#:~:text=%ED%8A%B8%EB%A6%AC%20%EA%B5%AC%EC%A1%B0(tree%20%E6%A7%8B%E9%80%A0%2C%20%EB%AC%B8%ED%99%94%EC%96%B4,%EC%9D%B4%20%EC%97%86%EB%8A%94%20%EC%97%B0%EA%B2%B0%20%EA%B7%B8%EB%9E%98%ED%94%84%EC%9D%B4%EB%8B%A4)구조로 만들어 AI의 행동을 관리(제어) 하는 것이다. 즉, BT는 Tree구조로 이루어져 있고, 그 Tree는 Node 를 저장하는 컨테이너로 볼 수 있다. Node란, 사용자가 정의할 수 있거나 이미 정의되어 있는 타입이 저장되어 있을 수 있다. BT에서는 행동이 Node로 저장되어 있다. BT는 Node 탐색을 DFS 순서에 따라 노드를 실행시킨다. BT에서는 Node를 방문시 무조건 그 Node를 실행시킨다. 그리고 반환값이 존재하며 실행시킨 Node에게서 반환값을 받는다. 그 반환값에 따라 우선순위 혹은 건너뛰기 등을 알거나 할 수 있다. 우리가 사용할 BT에서는 여러가지 Category로 Node들이 나뉘어져 있는데, Action, Decorator, Composite, Conditonal가 대표적이다. Node상태는 Invalid, Running, Success, Failure로 이루어져있다. Node를 실행시키게 된다면 앞의 Node상태를 반환값으로 받는다. Node 종류 Composite Sequence : 자식노드를 왼쪽에서부터 오른쪽으로 실행시킨다. 만약 자식노드가 Failure를 반환한다면, Composite노드 또한 Failure상태를 부모노드에게 반환한다. 모든 자식노드가 Success를 반환한다면 Success상태를 반환한다. 만약 하나의 자식노드라도 Running상태라면 부모노드에게 Running상태를 반환한다. Selector : 자식노드들을 왼쪽에서부터 오른쪽으로 탐색하며 실행시킨다. 만약 하나의 노드라도 Success를 반환 받는다면, 탐색을 중지하고 부모노드에게 Success를 반환한다. RandomSelector : 자식노드들의 순서와 상관없이 Random으로 자식노드를 실행시킨다. 만약 실행시킨 자식노드가 Success를 반환한다면 부모노드에게 Success를 반환한다. ... Decorator Repeat : 자식노드의 반환값에 관계없이 계속해서 자식노드를 실행시킨다. ... Conditional 미리 정의된 조건에 부합한다면, Success를 반환한다. 아니라면 Failure. Action BT가 코드를 실행시킨 뒤, AI가 특정 행동을 하도록 시키는 노드. Unity에서 BehaviorTree 활용하기 우리가 사용할 BT는 ScriptableObject(SO)로 제작되었으며, Node들 또한 SO 제작되었다. BehaviorTree 만들기 BehaviorTree Editor 사용법 이제 우리는 생성한 BT를 수정(편집)해기 위해서는 BT Editor를 열어야한다. 생성된 BT를 더블 클릭하면 Editor를 열 수 있다. 열린 BT Editor의 모습. 노드 관리 노드 생성 다른 노드를을 생성하기 위해서는 TreeView(Grid)쪽에서 오른쪽 마우스 클릭을 한 후, 생성하고 싶은 노드를 선택하면 생성할 수 있다. 노드 연결 예시로 만들어본 BT. Node들끼리 Edge를 통해서 연결 할 수 있다. (이때 부모 자식간의 관계가 설정된다.) 노드 정보 또한 Node를 선택하면 그 Node의 Inspector창이 열리는데, 그 때 그 노드에 관한 정보를 수정할 수 있다. BT 실행 BT Runner component 추가 이렇게 생성된 BT는 BehaviorTreeRunner 가 실행시킬 수 있다. 실행시킨 결과"
   },
   "manual/formatting-code.html": {
     "href": "manual/formatting-code.html",

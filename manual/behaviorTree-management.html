@@ -82,7 +82,7 @@
 <p>BehaviorTree(BT)를 관리(수정)하기 위한 문서입니다. BT는 무엇인지, 그리고 왜 사용하는지에 대한 정보 또한 얻을 수 있습니다.</p>
 <h3 id="behaviortree란">BehaviorTree란?</h3>
 <hr>
-<p><a href="https://en.wikipedia.org/wiki/Behavior_tree_(artificial_intelligence,_robotics_and_control)">BehaviorTree</a>란 게임에서 <strong>Behavior(행동)</strong> 을 [Tree](<a href="https://ko.wikipedia.org/wiki/%ED%8A%B8%EB%A6%AC_%EA%B5%AC%EC%A1%B0#:~:text=%ED%8A%B8%EB%A6%AC%20%EA%B5%AC%EC%A1%B0(tree%20%E6%A7%8B%E9%80%A0%2C%20%EB%AC%B8%ED%99%94%EC%96%B4,%EC%9D%B4%20%EC%97%86%EB%8A%94%20%EC%97%B0%EA%B2%B0%20%EA%B7%B8%EB%9E%98%ED%94%84%EC%9D%B4%EB%8B%A4)구조로">https://ko.wikipedia.org/wiki/%ED%8A%B8%EB%A6%AC_%EA%B5%AC%EC%A1%B0#:~:text=%ED%8A%B8%EB%A6%AC%20%EA%B5%AC%EC%A1%B0(tree%20%E6%A7%8B%E9%80%A0%2C%20%EB%AC%B8%ED%99%94%EC%96%B4,%EC%9D%B4%20%EC%97%86%EB%8A%94%20%EC%97%B0%EA%B2%B0%20%EA%B7%B8%EB%9E%98%ED%94%84%EC%9D%B4%EB%8B%A4)구조로</a> 만들어 AI의 행동을 관리(제어) 하는 것이다.</p>
+<p><a href="https://en.wikipedia.org/wiki/Behavior_tree_(artificial_intelligence,_robotics_and_control)">BehaviorTree</a>란 게임에서 <strong>Behavior(행동)</strong> 을 <a href="https://gmlwjd9405.github.io/2018/08/12/data-structure-tree.html">Tree</a>구조로 만들어 AI의 행동을 관리(제어) 하는 것이다.</p>
 <p>즉, BT는 Tree구조로 이루어져 있고, 그 Tree는 <strong>Node</strong>를 저장하는 컨테이너로 볼 수 있다.</p>
 <blockquote><p>Node란, 사용자가 정의할 수 있거나 이미 정의되어 있는 타입이 저장되어 있을 수 있다. BT에서는 행동이 Node로 저장되어 있다.</p>
 </blockquote>
@@ -127,19 +127,19 @@ Node상태는 Invalid, Running, Success, Failure로 이루어져있다. Node를 
 <h5 id="노드-관리">노드 관리</h5>
 <h6 id="노드-생성">노드 생성</h6>
 <p>다른 노드를을 생성하기 위해서는 TreeView(Grid)쪽에서 오른쪽 마우스 클릭을 한 후, 생성하고 싶은 노드를 선택하면 생성할 수 있다.</p>
-<p><img src="https://file+.vscode-resource.vscode-cdn.net/e%3A/Programming%20Files/Unity/ClearSkies/Documentation/resources/BehaviorTree/create-new-node.png" alt="Create_New_Node"></p>
+<p><img src="../resources/BehaviorTree/create-new-node.png" alt="Create_New_Node"></p>
 <h6 id="노드-연결">노드 연결</h6>
 <p>예시로 만들어본 BT. Node들끼리 Edge를 통해서 연결 할 수 있다. (이때 부모 자식간의 관계가 설정된다.)</p>
-<p><img src="https://file+.vscode-resource.vscode-cdn.net/e%3A/Programming%20Files/Unity/ClearSkies/Documentation/resources/BehaviorTree/bt-example.png" alt="BehaviorTree_Example"></p>
+<p><img src="../resources/BehaviorTree/bt-example.png" alt="BehaviorTree_Example"></p>
 <h6 id="노드-정보">노드 정보</h6>
 <p>또한 Node를 선택하면 그 Node의 Inspector창이 열리는데, 그 때 그 노드에 관한 정보를 수정할 수 있다.</p>
-<p><img src="https://file+.vscode-resource.vscode-cdn.net/e%3A/Programming%20Files/Unity/ClearSkies/Documentation/resources/BehaviorTree/node-inspector.png" alt="Node_Inspector"></p>
+<p><img src="../resources/BehaviorTree/node-inspector.png" alt="Node_Inspector"></p>
 <h5 id="bt-실행">BT 실행</h5>
 <h6 id="bt-runner-component-추가">BT Runner component 추가</h6>
 <p>이렇게 생성된 BT는 <code>BehaviorTreeRunner</code> 가 실행시킬 수 있다.</p>
-<p><img src="https://file+.vscode-resource.vscode-cdn.net/e%3A/Programming%20Files/Unity/ClearSkies/Documentation/resources/BehaviorTree/bt-runner.png" alt="BehaviorTree_Runner"></p>
+<p><img src="../resources/BehaviorTree/bt-runner.png" alt="BehaviorTree_Runner"></p>
 <h6 id="실행시킨-결과">실행시킨 결과</h6>
-<p><img src="https://file+.vscode-resource.vscode-cdn.net/e%3A/Programming%20Files/Unity/ClearSkies/Documentation/resources/BehaviorTree/bt-runner-result.gif" alt="Behavior-Runner-Result"></p>
+<p><img src="../resources/BehaviorTree/bt-runner-result.gif" alt="Behavior-Runner-Result"></p>
 </article>
           </div>
           

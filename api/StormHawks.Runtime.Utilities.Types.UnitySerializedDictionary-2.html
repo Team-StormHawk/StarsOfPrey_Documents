@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class PlayerDetectHandler
+    <title>Class UnitySerializedDictionary&lt;TKey, TValue&gt;
    | Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class PlayerDetectHandler
+    <meta name="title" content="Class UnitySerializedDictionary&lt;TKey, TValue&gt;
    | Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -78,80 +78,72 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Entities.Players.PlayerDetectHandler">
+            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Utilities.Types.UnitySerializedDictionary`2">
   
   
-  <h1 id="StormHawks_Runtime_Entities_Players_PlayerDetectHandler" data-uid="StormHawks.Runtime.Entities.Players.PlayerDetectHandler" class="text-break">Class PlayerDetectHandler
+  <h1 id="StormHawks_Runtime_Utilities_Types_UnitySerializedDictionary_2" data-uid="StormHawks.Runtime.Utilities.Types.UnitySerializedDictionary`2" class="text-break">Class UnitySerializedDictionary&lt;TKey, TValue&gt;
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">PlayerDetectHandler</span></div>
+    <div class="level1"><span class="xref">UnitySerializedDictionary&lt;TKey, TValue&gt;</span></div>
   </div>
   <div class="implements">
     <h5>Implements</h5>
-    <div><span class="xref">IDetectHandler</span></div>
+    <div><span class="xref">ISerializationCallbackReceiver</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Entities.Players.html">StormHawks.Runtime.Entities.Players</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Utilities.Types.html">StormHawks.Runtime.Utilities.Types</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="StormHawks_Runtime_Entities_Players_PlayerDetectHandler_syntax">Syntax</h5>
+  <h5 id="StormHawks_Runtime_Utilities_Types_UnitySerializedDictionary_2_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class PlayerDetectHandler : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class UnitySerializedDictionary&lt;TKey, TValue&gt; : Dictionary&lt;TKey, TValue&gt;</code></pre>
   </div>
-  <h3 id="methods">Methods
-  </h3>
-  
-  
-  <a id="StormHawks_Runtime_Entities_Players_PlayerDetectHandler_GetDetectResults_" data-uid="StormHawks.Runtime.Entities.Players.PlayerDetectHandler.GetDetectResults*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Players_PlayerDetectHandler_GetDetectResults_System_Single_LayerMask_" data-uid="StormHawks.Runtime.Entities.Players.PlayerDetectHandler.GetDetectResults(System.Single,LayerMask)">GetDetectResults(Single, LayerMask)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public List&lt;IDetectable&gt; GetDetectResults(float radius, LayerMask layerMask)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
         <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td><span class="parametername">radius</span></td>
+        <td><span class="parametername">TKey</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">LayerMask</span></td>
-        <td><span class="parametername">layerMask</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">List</span>&lt;<span class="xref">IDetectable</span>&gt;</td>
+        <td><span class="parametername">TValue</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="StormHawks_Runtime_Utilities_Types_UnitySerializedDictionary_2_OnAfterDeserialize_" data-uid="StormHawks.Runtime.Utilities.Types.UnitySerializedDictionary`2.OnAfterDeserialize*"></a>
+  <h4 id="StormHawks_Runtime_Utilities_Types_UnitySerializedDictionary_2_OnAfterDeserialize" data-uid="StormHawks.Runtime.Utilities.Types.UnitySerializedDictionary`2.OnAfterDeserialize">OnAfterDeserialize()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnAfterDeserialize()</code></pre>
+  </div>
+  
+  
+  <a id="StormHawks_Runtime_Utilities_Types_UnitySerializedDictionary_2_OnBeforeSerialize_" data-uid="StormHawks.Runtime.Utilities.Types.UnitySerializedDictionary`2.OnBeforeSerialize*"></a>
+  <h4 id="StormHawks_Runtime_Utilities_Types_UnitySerializedDictionary_2_OnBeforeSerialize" data-uid="StormHawks.Runtime.Utilities.Types.UnitySerializedDictionary`2.OnBeforeSerialize">OnBeforeSerialize()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnBeforeSerialize()</code></pre>
+  </div>
   <h3 id="implements">Implements</h3>
   <div>
-      <span class="xref">IDetectHandler</span>
+      <span class="xref">ISerializationCallbackReceiver</span>
   </div>
 </article>
           </div>

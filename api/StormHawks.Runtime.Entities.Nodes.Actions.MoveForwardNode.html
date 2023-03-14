@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class UnitySerializedDictionary&lt;TKey, TValue&gt;
+    <title>Class MoveForwardNode
    | Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class UnitySerializedDictionary&lt;TKey, TValue&gt;
+    <meta name="title" content="Class MoveForwardNode
    | Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -78,73 +78,112 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Utitlites.Types.UnitySerializedDictionary`2">
+            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Entities.Nodes.Actions.MoveForwardNode">
   
   
-  <h1 id="StormHawks_Runtime_Utitlites_Types_UnitySerializedDictionary_2" data-uid="StormHawks.Runtime.Utitlites.Types.UnitySerializedDictionary`2" class="text-break">Class UnitySerializedDictionary&lt;TKey, TValue&gt;
+  <h1 id="StormHawks_Runtime_Entities_Nodes_Actions_MoveForwardNode" data-uid="StormHawks.Runtime.Entities.Nodes.Actions.MoveForwardNode" class="text-break">Class MoveForwardNode
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Transform.forward 방향으로 Duration시간 동안 이동함.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">UnitySerializedDictionary&lt;TKey, TValue&gt;</span></div>
+    <div class="level1"><a class="xref" href="StormHawks.Runtime.Entities.Nodes.Actions.EntityActionNode.html">EntityActionNode</a></div>
+    <div class="level2"><span class="xref">MoveForwardNode</span></div>
   </div>
-  <div class="implements">
-    <h5>Implements</h5>
-    <div><span class="xref">ISerializationCallbackReceiver</span></div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Entities.Nodes.Actions.EntityActionNode.html#StormHawks_Runtime_Entities_Nodes_Actions_EntityActionNode__rigidbody">EntityActionNode._rigidbody</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Entities.Nodes.Actions.EntityActionNode.html#StormHawks_Runtime_Entities_Nodes_Actions_EntityActionNode__transform">EntityActionNode._transform</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Entities.Nodes.Actions.EntityActionNode.html#StormHawks_Runtime_Entities_Nodes_Actions_EntityActionNode_OnInitialize">EntityActionNode.OnInitialize()</a>
+    </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Utitlites.Types.html">StormHawks.Runtime.Utitlites.Types</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Entities.Nodes.Actions.html">StormHawks.Runtime.Entities.Nodes.Actions</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="StormHawks_Runtime_Utitlites_Types_UnitySerializedDictionary_2_syntax">Syntax</h5>
+  <h5 id="StormHawks_Runtime_Entities_Nodes_Actions_MoveForwardNode_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class UnitySerializedDictionary&lt;TKey, TValue&gt; : Dictionary&lt;TKey, TValue&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public class MoveForwardNode : EntityActionNode</code></pre>
   </div>
-  <h5 class="typeParameters">Type Parameters</h5>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="StormHawks_Runtime_Entities_Nodes_Actions_MoveForwardNode_Initialize_" data-uid="StormHawks.Runtime.Entities.Nodes.Actions.MoveForwardNode.Initialize*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Nodes_Actions_MoveForwardNode_Initialize_GameObject_" data-uid="StormHawks.Runtime.Entities.Nodes.Actions.MoveForwardNode.Initialize(GameObject)">Initialize(GameObject)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Initialize(GameObject runner)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
+        <th>Type</th>
         <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">TKey</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="parametername">TValue</span></td>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">runner</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h3 id="methods">Methods
-  </h3>
   
   
-  <a id="StormHawks_Runtime_Utitlites_Types_UnitySerializedDictionary_2_OnAfterDeserialize_" data-uid="StormHawks.Runtime.Utitlites.Types.UnitySerializedDictionary`2.OnAfterDeserialize*"></a>
-  <h4 id="StormHawks_Runtime_Utitlites_Types_UnitySerializedDictionary_2_OnAfterDeserialize" data-uid="StormHawks.Runtime.Utitlites.Types.UnitySerializedDictionary`2.OnAfterDeserialize">OnAfterDeserialize()</h4>
+  <a id="StormHawks_Runtime_Entities_Nodes_Actions_MoveForwardNode_OnEnter_" data-uid="StormHawks.Runtime.Entities.Nodes.Actions.MoveForwardNode.OnEnter*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Nodes_Actions_MoveForwardNode_OnEnter" data-uid="StormHawks.Runtime.Entities.Nodes.Actions.MoveForwardNode.OnEnter">OnEnter()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnAfterDeserialize()</code></pre>
+    <pre><code class="lang-csharp hljs">protected override void OnEnter()</code></pre>
   </div>
   
   
-  <a id="StormHawks_Runtime_Utitlites_Types_UnitySerializedDictionary_2_OnBeforeSerialize_" data-uid="StormHawks.Runtime.Utitlites.Types.UnitySerializedDictionary`2.OnBeforeSerialize*"></a>
-  <h4 id="StormHawks_Runtime_Utitlites_Types_UnitySerializedDictionary_2_OnBeforeSerialize" data-uid="StormHawks.Runtime.Utitlites.Types.UnitySerializedDictionary`2.OnBeforeSerialize">OnBeforeSerialize()</h4>
+  <a id="StormHawks_Runtime_Entities_Nodes_Actions_MoveForwardNode_OnExit_" data-uid="StormHawks.Runtime.Entities.Nodes.Actions.MoveForwardNode.OnExit*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Nodes_Actions_MoveForwardNode_OnExit" data-uid="StormHawks.Runtime.Entities.Nodes.Actions.MoveForwardNode.OnExit">OnExit()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnBeforeSerialize()</code></pre>
+    <pre><code class="lang-csharp hljs">protected override void OnExit()</code></pre>
   </div>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <span class="xref">ISerializationCallbackReceiver</span>
+  
+  
+  <a id="StormHawks_Runtime_Entities_Nodes_Actions_MoveForwardNode_OnRun_" data-uid="StormHawks.Runtime.Entities.Nodes.Actions.MoveForwardNode.OnRun*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Nodes_Actions_MoveForwardNode_OnRun" data-uid="StormHawks.Runtime.Entities.Nodes.Actions.MoveForwardNode.OnRun">OnRun()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override BehaviorNodeState OnRun()</code></pre>
   </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="StormHawks.Runtime.BehaviorTree.Core.BehaviorNodeState.html">BehaviorNodeState</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           

@@ -181,6 +181,31 @@ Clone을 해주지 않는다면 원본에 변경이 발생하기 때문에 Clone
   </table>
   
   
+  <a id="StormHawks_Runtime_BehaviorTree_Core_BehaviorTreeSO_GetBlackboard_" data-uid="StormHawks.Runtime.BehaviorTree.Core.BehaviorTreeSO.GetBlackboard*"></a>
+  <h4 id="StormHawks_Runtime_BehaviorTree_Core_BehaviorTreeSO_GetBlackboard" data-uid="StormHawks.Runtime.BehaviorTree.Core.BehaviorTreeSO.GetBlackboard">GetBlackboard()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BlackboardSO GetBlackboard()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="StormHawks.Runtime.BehaviorTree.Core.BlackboardSO.html">BlackboardSO</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="StormHawks_Runtime_BehaviorTree_Core_BehaviorTreeSO_GetChild_" data-uid="StormHawks.Runtime.BehaviorTree.Core.BehaviorTreeSO.GetChild*"></a>
   <h4 id="StormHawks_Runtime_BehaviorTree_Core_BehaviorTreeSO_GetChild_StormHawks_Runtime_BehaviorTree_Core_BehaviorNodeSO_" data-uid="StormHawks.Runtime.BehaviorTree.Core.BehaviorTreeSO.GetChild(StormHawks.Runtime.BehaviorTree.Core.BehaviorNodeSO)">GetChild(BehaviorNodeSO)</h4>
   <div class="markdown level1 summary"></div>
@@ -250,13 +275,13 @@ Clone을 해주지 않는다면 원본에 변경이 발생하기 때문에 Clone
   </table>
   
   
-  <a id="StormHawks_Runtime_BehaviorTree_Core_BehaviorTreeSO_SetRootNode_" data-uid="StormHawks.Runtime.BehaviorTree.Core.BehaviorTreeSO.SetRootNode*"></a>
-  <h4 id="StormHawks_Runtime_BehaviorTree_Core_BehaviorTreeSO_SetRootNode_StormHawks_Runtime_BehaviorTree_Core_BehaviorNodeSO_" data-uid="StormHawks.Runtime.BehaviorTree.Core.BehaviorTreeSO.SetRootNode(StormHawks.Runtime.BehaviorTree.Core.BehaviorNodeSO)">SetRootNode(BehaviorNodeSO)</h4>
+  <a id="StormHawks_Runtime_BehaviorTree_Core_BehaviorTreeSO_OnInstantiated_" data-uid="StormHawks.Runtime.BehaviorTree.Core.BehaviorTreeSO.OnInstantiated*"></a>
+  <h4 id="StormHawks_Runtime_BehaviorTree_Core_BehaviorTreeSO_OnInstantiated_StormHawks_Runtime_BehaviorTree_Core_BehaviorNodeSO_" data-uid="StormHawks.Runtime.BehaviorTree.Core.BehaviorTreeSO.OnInstantiated(StormHawks.Runtime.BehaviorTree.Core.BehaviorNodeSO)">OnInstantiated(BehaviorNodeSO)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetRootNode(BehaviorNodeSO rootNode)</code></pre>
+    <pre><code class="lang-csharp hljs">public void OnInstantiated(BehaviorNodeSO rootNode)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -271,6 +296,33 @@ Clone을 해주지 않는다면 원본에 변경이 발생하기 때문에 Clone
       <tr>
         <td><a class="xref" href="StormHawks.Runtime.BehaviorTree.Core.BehaviorNodeSO.html">BehaviorNodeSO</a></td>
         <td><span class="parametername">rootNode</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StormHawks_Runtime_BehaviorTree_Core_BehaviorTreeSO_SetBlackBoard_" data-uid="StormHawks.Runtime.BehaviorTree.Core.BehaviorTreeSO.SetBlackBoard*"></a>
+  <h4 id="StormHawks_Runtime_BehaviorTree_Core_BehaviorTreeSO_SetBlackBoard_StormHawks_Runtime_BehaviorTree_Core_BlackboardSO_" data-uid="StormHawks.Runtime.BehaviorTree.Core.BehaviorTreeSO.SetBlackBoard(StormHawks.Runtime.BehaviorTree.Core.BlackboardSO)">SetBlackBoard(BlackboardSO)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetBlackBoard(BlackboardSO blackboard)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="StormHawks.Runtime.BehaviorTree.Core.BlackboardSO.html">BlackboardSO</a></td>
+        <td><span class="parametername">blackboard</span></td>
         <td></td>
       </tr>
     </tbody>

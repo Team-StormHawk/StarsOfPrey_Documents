@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class BlackboardKey.LookTarget
+    <title>Interface ISteerBehavior
    | Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class BlackboardKey.LookTarget
+    <meta name="title" content="Interface ISteerBehavior
    | Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -78,54 +78,57 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Entity.Nodes.BlackboardKey.LookTarget">
+            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Entities.Interfaces.ISteerBehavior">
   
   
-  <h1 id="StormHawks_Runtime_Entity_Nodes_BlackboardKey_LookTarget" data-uid="StormHawks.Runtime.Entity.Nodes.BlackboardKey.LookTarget" class="text-break">Class BlackboardKey.LookTarget
+  <h1 id="StormHawks_Runtime_Entities_Interfaces_ISteerBehavior" data-uid="StormHawks.Runtime.Entities.Interfaces.ISteerBehavior" class="text-break">Interface ISteerBehavior
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
-  <div class="inheritance">
-    <h5>Inheritance</h5>
-    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">BlackboardKey.LookTarget</span></div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Entity.Nodes.html">StormHawks.Runtime.Entity.Nodes</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Entities.Interfaces.html">StormHawks.Runtime.Entities.Interfaces</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="StormHawks_Runtime_Entity_Nodes_BlackboardKey_LookTarget_syntax">Syntax</h5>
+  <h5 id="StormHawks_Runtime_Entities_Interfaces_ISteerBehavior_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class LookTarget</code></pre>
+    <pre><code class="lang-csharp hljs">public interface ISteerBehavior</code></pre>
   </div>
-  <h3 id="methods">Methods
+  <h3 id="properties">Properties
   </h3>
   
   
-  <a id="StormHawks_Runtime_Entity_Nodes_BlackboardKey_LookTarget_GetLookTargetKey_" data-uid="StormHawks.Runtime.Entity.Nodes.BlackboardKey.LookTarget.GetLookTargetKey*"></a>
-  <h4 id="StormHawks_Runtime_Entity_Nodes_BlackboardKey_LookTarget_GetLookTargetKey_InterctionTargetType_" data-uid="StormHawks.Runtime.Entity.Nodes.BlackboardKey.LookTarget.GetLookTargetKey(InterctionTargetType)">GetLookTargetKey(InterctionTargetType)</h4>
+  <a id="StormHawks_Runtime_Entities_Interfaces_ISteerBehavior_Active_" data-uid="StormHawks.Runtime.Entities.Interfaces.ISteerBehavior.Active*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Interfaces_ISteerBehavior_Active" data-uid="StormHawks.Runtime.Entities.Interfaces.ISteerBehavior.Active">Active</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string GetLookTargetKey(InterctionTargetType targetType)</code></pre>
+    <pre><code class="lang-csharp hljs">bool Active { get; }</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">InterctionTargetType</span></td>
-        <td><span class="parametername">targetType</span></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
+  
+  
+  <a id="StormHawks_Runtime_Entities_Interfaces_ISteerBehavior_Weight_" data-uid="StormHawks.Runtime.Entities.Interfaces.ISteerBehavior.Weight*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Interfaces_ISteerBehavior_Weight" data-uid="StormHawks.Runtime.Entities.Interfaces.ISteerBehavior.Weight">Weight</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">float Weight { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -135,7 +138,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
         <td></td>
       </tr>
     </tbody>

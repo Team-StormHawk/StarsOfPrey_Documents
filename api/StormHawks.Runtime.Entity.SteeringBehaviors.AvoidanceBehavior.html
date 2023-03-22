@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Interface IRotator
+    <title>Class AvoidanceBehavior
    | Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Interface IRotator
+    <meta name="title" content="Class AvoidanceBehavior
    | Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -78,157 +78,53 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Entities.Interfaces.IRotator">
+            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Entity.SteeringBehaviors.AvoidanceBehavior">
   
   
-  <h1 id="StormHawks_Runtime_Entities_Interfaces_IRotator" data-uid="StormHawks.Runtime.Entities.Interfaces.IRotator" class="text-break">Interface IRotator
+  <h1 id="StormHawks_Runtime_Entity_SteeringBehaviors_AvoidanceBehavior" data-uid="StormHawks.Runtime.Entity.SteeringBehaviors.AvoidanceBehavior" class="text-break">Class AvoidanceBehavior
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>장애물을 피하는 force를 계산함.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Entities.Interfaces.html">StormHawks.Runtime.Entities.Interfaces</a></h6>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><a class="xref" href="StormHawks.Runtime.Entity.SteeringBehaviors.SteeringBehavior.html">SteeringBehavior</a></div>
+    <div class="level2"><span class="xref">AvoidanceBehavior</span></div>
+  </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">ISteerBehavior</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Entity.SteeringBehaviors.SteeringBehavior.html#StormHawks_Runtime_Entity_SteeringBehaviors_SteeringBehavior_Active">SteeringBehavior.Active</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Entity.SteeringBehaviors.SteeringBehavior.html#StormHawks_Runtime_Entity_SteeringBehaviors_SteeringBehavior_Weight">SteeringBehavior.Weight</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Entity.SteeringBehaviors.SteeringBehavior.html#StormHawks_Runtime_Entity_SteeringBehaviors_SteeringBehavior__steerEntity">SteeringBehavior._steerEntity</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Entity.SteeringBehaviors.html">StormHawks.Runtime.Entity.SteeringBehaviors</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="StormHawks_Runtime_Entities_Interfaces_IRotator_syntax">Syntax</h5>
+  <h5 id="StormHawks_Runtime_Entity_SteeringBehaviors_AvoidanceBehavior_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface IRotator</code></pre>
+    <pre><code class="lang-csharp hljs">public class AvoidanceBehavior : SteeringBehavior</code></pre>
   </div>
-  <h3 id="properties">Properties
-  </h3>
-  
-  
-  <a id="StormHawks_Runtime_Entities_Interfaces_IRotator_FaceDirection_" data-uid="StormHawks.Runtime.Entities.Interfaces.IRotator.FaceDirection*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Interfaces_IRotator_FaceDirection" data-uid="StormHawks.Runtime.Entities.Interfaces.IRotator.FaceDirection">FaceDirection</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Vector3 FaceDirection { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Vector3</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="StormHawks_Runtime_Entities_Interfaces_IRotator_RotateSpeed_" data-uid="StormHawks.Runtime.Entities.Interfaces.IRotator.RotateSpeed*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Interfaces_IRotator_RotateSpeed" data-uid="StormHawks.Runtime.Entities.Interfaces.IRotator.RotateSpeed">RotateSpeed</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">float RotateSpeed { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="StormHawks_Runtime_Entities_Interfaces_IRotator_GetForward_" data-uid="StormHawks.Runtime.Entities.Interfaces.IRotator.GetForward*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Interfaces_IRotator_GetForward" data-uid="StormHawks.Runtime.Entities.Interfaces.IRotator.GetForward">GetForward()</h4>
+  <a id="StormHawks_Runtime_Entity_SteeringBehaviors_AvoidanceBehavior_Initialize_" data-uid="StormHawks.Runtime.Entity.SteeringBehaviors.AvoidanceBehavior.Initialize*"></a>
+  <h4 id="StormHawks_Runtime_Entity_SteeringBehaviors_AvoidanceBehavior_Initialize_ISteerEntity_" data-uid="StormHawks.Runtime.Entity.SteeringBehaviors.AvoidanceBehavior.Initialize(ISteerEntity)">Initialize(ISteerEntity)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Vector3 GetForward()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Vector3</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="StormHawks_Runtime_Entities_Interfaces_IRotator_GetRotation_" data-uid="StormHawks.Runtime.Entities.Interfaces.IRotator.GetRotation*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Interfaces_IRotator_GetRotation" data-uid="StormHawks.Runtime.Entities.Interfaces.IRotator.GetRotation">GetRotation()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Quaternion GetRotation()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Quaternion</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="StormHawks_Runtime_Entities_Interfaces_IRotator_GetUp_" data-uid="StormHawks.Runtime.Entities.Interfaces.IRotator.GetUp*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Interfaces_IRotator_GetUp" data-uid="StormHawks.Runtime.Entities.Interfaces.IRotator.GetUp">GetUp()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Vector3 GetUp()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Vector3</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="StormHawks_Runtime_Entities_Interfaces_IRotator_RotateTo_" data-uid="StormHawks.Runtime.Entities.Interfaces.IRotator.RotateTo*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Interfaces_IRotator_RotateTo_Vector3_" data-uid="StormHawks.Runtime.Entities.Interfaces.IRotator.RotateTo(Vector3)">RotateTo(Vector3)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void RotateTo(Vector3 lookDir)</code></pre>
+    <pre><code class="lang-csharp hljs">public override void Initialize(ISteerEntity entity)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -241,12 +137,123 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Vector3</span></td>
-        <td><span class="parametername">lookDir</span></td>
+        <td><span class="xref">ISteerEntity</span></td>
+        <td><span class="parametername">entity</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="StormHawks.Runtime.Entity.SteeringBehaviors.SteeringBehavior.html#StormHawks_Runtime_Entity_SteeringBehaviors_SteeringBehavior_Initialize_ISteerEntity_">SteeringBehavior.Initialize(ISteerEntity)</a></div>
+  
+  
+  <a id="StormHawks_Runtime_Entity_SteeringBehaviors_AvoidanceBehavior_OnEnter_" data-uid="StormHawks.Runtime.Entity.SteeringBehaviors.AvoidanceBehavior.OnEnter*"></a>
+  <h4 id="StormHawks_Runtime_Entity_SteeringBehaviors_AvoidanceBehavior_OnEnter_System_Single_" data-uid="StormHawks.Runtime.Entity.SteeringBehaviors.AvoidanceBehavior.OnEnter(System.Single)">OnEnter(Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnEnter(float weight)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">weight</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="StormHawks.Runtime.Entity.SteeringBehaviors.SteeringBehavior.html#StormHawks_Runtime_Entity_SteeringBehaviors_SteeringBehavior_OnEnter_System_Single_">SteeringBehavior.OnEnter(Single)</a></div>
+  
+  
+  <a id="StormHawks_Runtime_Entity_SteeringBehaviors_AvoidanceBehavior_OnExit_" data-uid="StormHawks.Runtime.Entity.SteeringBehaviors.AvoidanceBehavior.OnExit*"></a>
+  <h4 id="StormHawks_Runtime_Entity_SteeringBehaviors_AvoidanceBehavior_OnExit" data-uid="StormHawks.Runtime.Entity.SteeringBehaviors.AvoidanceBehavior.OnExit">OnExit()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnExit()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="StormHawks.Runtime.Entity.SteeringBehaviors.SteeringBehavior.html#StormHawks_Runtime_Entity_SteeringBehaviors_SteeringBehavior_OnExit">SteeringBehavior.OnExit()</a></div>
+  
+  
+  <a id="StormHawks_Runtime_Entity_SteeringBehaviors_AvoidanceBehavior_OnRun_" data-uid="StormHawks.Runtime.Entity.SteeringBehaviors.AvoidanceBehavior.OnRun*"></a>
+  <h4 id="StormHawks_Runtime_Entity_SteeringBehaviors_AvoidanceBehavior_OnRun_System_Single_LayerMask_System_Single_" data-uid="StormHawks.Runtime.Entity.SteeringBehaviors.AvoidanceBehavior.OnRun(System.Single,LayerMask,System.Single)">OnRun(Single, LayerMask, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnRun(float avoidRadius, LayerMask obstacleLayerMask, float avoidSpeed)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">avoidRadius</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">LayerMask</span></td>
+        <td><span class="parametername">obstacleLayerMask</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">avoidSpeed</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StormHawks_Runtime_Entity_SteeringBehaviors_AvoidanceBehavior_SteerForce_" data-uid="StormHawks.Runtime.Entity.SteeringBehaviors.AvoidanceBehavior.SteerForce*"></a>
+  <h4 id="StormHawks_Runtime_Entity_SteeringBehaviors_AvoidanceBehavior_SteerForce" data-uid="StormHawks.Runtime.Entity.SteeringBehaviors.AvoidanceBehavior.SteerForce">SteerForce()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override Vector3 SteerForce()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="StormHawks.Runtime.Entity.SteeringBehaviors.SteeringBehavior.html#StormHawks_Runtime_Entity_SteeringBehaviors_SteeringBehavior_SteerForce">SteeringBehavior.SteerForce()</a></div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">ISteerBehavior</span>
+  </div>
 </article>
           </div>
           

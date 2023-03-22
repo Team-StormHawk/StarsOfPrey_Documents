@@ -57,7 +57,7 @@
   "api/StormHawks.Runtime.BehaviorTree.BehaviorTreeRunner.html": {
     "href": "api/StormHawks.Runtime.BehaviorTree.BehaviorTreeRunner.html",
     "title": "Class BehaviorTreeRunner | Developer Reference",
-    "keywords": "Class BehaviorTreeRunner Behavior Tree를 실행시키는 Component. Inheritance Object BehaviorTreeRunner Namespace : StormHawks.Runtime.BehaviorTree Assembly : cs.temp.dll.dll Syntax public class BehaviorTreeRunner : MonoBehaviour Properties BehaviorTree Declaration public BehaviorTreeSO BehaviorTree { get; } Property Value Type Description BehaviorTreeSO Methods Start() Declaration protected virtual void Start() Update() Declaration protected virtual void Update()"
+    "keywords": "Class BehaviorTreeRunner Behavior Tree를 실행시키는 Component. Inheritance Object BehaviorTreeRunner Namespace : StormHawks.Runtime.BehaviorTree Assembly : cs.temp.dll.dll Syntax public class BehaviorTreeRunner : MonoBehaviour Properties BehaviorTree Declaration public BehaviorTreeSO BehaviorTree { get; } Property Value Type Description BehaviorTreeSO Methods Update() Declaration protected virtual void Update()"
   },
   "api/StormHawks.Runtime.BehaviorTree.Core.Actions.ActionNode.html": {
     "href": "api/StormHawks.Runtime.BehaviorTree.Core.Actions.ActionNode.html",
@@ -212,7 +212,12 @@
   "api/StormHawks.Runtime.Entities.Interfaces.html": {
     "href": "api/StormHawks.Runtime.Entities.Interfaces.html",
     "title": "Namespace StormHawks.Runtime.Entities.Interfaces | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Entities.Interfaces Interfaces IDetectable IDetectHandler IMover IRotator"
+    "keywords": "Namespace StormHawks.Runtime.Entities.Interfaces Interfaces IAggressive IDetectable IDetectHandler IHasGroup IHasHealth IRotator ISteerBehavior ISteerEntity"
+  },
+  "api/StormHawks.Runtime.Entities.Interfaces.IAggressive.html": {
+    "href": "api/StormHawks.Runtime.Entities.Interfaces.IAggressive.html",
+    "title": "Interface IAggressive | Developer Reference",
+    "keywords": "Interface IAggressive Namespace : StormHawks.Runtime.Entities.Interfaces Assembly : cs.temp.dll.dll Syntax public interface IAggressive Properties AggroTarget Declaration Transform AggroTarget { get; } Property Value Type Description Transform IsAggressive Declaration bool IsAggressive { get; } Property Value Type Description Boolean Methods CanAggressive() Declaration bool CanAggressive() Returns Type Description Boolean OnAggressive(GameObject) Declaration void OnAggressive(GameObject target) Parameters Type Name Description GameObject target"
   },
   "api/StormHawks.Runtime.Entities.Interfaces.IDetectable.html": {
     "href": "api/StormHawks.Runtime.Entities.Interfaces.IDetectable.html",
@@ -224,65 +229,100 @@
     "title": "Interface IDetectHandler | Developer Reference",
     "keywords": "Interface IDetectHandler Namespace : StormHawks.Runtime.Entities.Interfaces Assembly : cs.temp.dll.dll Syntax public interface IDetectHandler Methods GetDetectResults(LayerMask) Declaration List<IDetectable> GetDetectResults(LayerMask targetLayer) Parameters Type Name Description LayerMask targetLayer Returns Type Description List < IDetectable >"
   },
-  "api/StormHawks.Runtime.Entities.Interfaces.IMover.html": {
-    "href": "api/StormHawks.Runtime.Entities.Interfaces.IMover.html",
-    "title": "Interface IMover | Developer Reference",
-    "keywords": "Interface IMover Namespace : StormHawks.Runtime.Entities.Interfaces Assembly : cs.temp.dll.dll Syntax public interface IMover Methods MoveTo(Vector3) Declaration void MoveTo(Vector3 direction) Parameters Type Name Description Vector3 direction"
+  "api/StormHawks.Runtime.Entities.Interfaces.IHasGroup.html": {
+    "href": "api/StormHawks.Runtime.Entities.Interfaces.IHasGroup.html",
+    "title": "Interface IHasGroup | Developer Reference",
+    "keywords": "Interface IHasGroup Namespace : StormHawks.Runtime.Entities.Interfaces Assembly : cs.temp.dll.dll Syntax public interface IHasGroup Properties GroupIndex Declaration int GroupIndex { get; } Property Value Type Description Int32 HasGroup Declaration bool HasGroup { get; } Property Value Type Description Boolean Methods JoinGroup(Int32) Declaration void JoinGroup(int groupIndex) Parameters Type Name Description Int32 groupIndex"
+  },
+  "api/StormHawks.Runtime.Entities.Interfaces.IHasHealth.html": {
+    "href": "api/StormHawks.Runtime.Entities.Interfaces.IHasHealth.html",
+    "title": "Interface IHasHealth | Developer Reference",
+    "keywords": "Interface IHasHealth Namespace : StormHawks.Runtime.Entities.Interfaces Assembly : cs.temp.dll.dll Syntax public interface IHasHealth Properties CurrentHealth Declaration float CurrentHealth { get; } Property Value Type Description Single MaxHealth Declaration float MaxHealth { get; } Property Value Type Description Single"
   },
   "api/StormHawks.Runtime.Entities.Interfaces.IRotator.html": {
     "href": "api/StormHawks.Runtime.Entities.Interfaces.IRotator.html",
     "title": "Interface IRotator | Developer Reference",
-    "keywords": "Interface IRotator Namespace : StormHawks.Runtime.Entities.Interfaces Assembly : cs.temp.dll.dll Syntax public interface IRotator Methods GetForward() Declaration Vector3 GetForward() Returns Type Description Vector3 GetRotation() Declaration Quaternion GetRotation() Returns Type Description Quaternion GetUp() Declaration Vector3 GetUp() Returns Type Description Vector3 RotateTo(Vector3) Declaration void RotateTo(Vector3 lookDir) Parameters Type Name Description Vector3 lookDir"
+    "keywords": "Interface IRotator Namespace : StormHawks.Runtime.Entities.Interfaces Assembly : cs.temp.dll.dll Syntax public interface IRotator Properties FaceDirection Declaration Vector3 FaceDirection { get; } Property Value Type Description Vector3 RotateSpeed Declaration float RotateSpeed { get; } Property Value Type Description Single Methods GetForward() Declaration Vector3 GetForward() Returns Type Description Vector3 GetRotation() Declaration Quaternion GetRotation() Returns Type Description Quaternion GetUp() Declaration Vector3 GetUp() Returns Type Description Vector3 RotateTo(Vector3) Declaration void RotateTo(Vector3 lookDir) Parameters Type Name Description Vector3 lookDir"
+  },
+  "api/StormHawks.Runtime.Entities.Interfaces.ISteerBehavior.html": {
+    "href": "api/StormHawks.Runtime.Entities.Interfaces.ISteerBehavior.html",
+    "title": "Interface ISteerBehavior | Developer Reference",
+    "keywords": "Interface ISteerBehavior Namespace : StormHawks.Runtime.Entities.Interfaces Assembly : cs.temp.dll.dll Syntax public interface ISteerBehavior Properties Active Declaration bool Active { get; } Property Value Type Description Boolean Weight Declaration float Weight { get; } Property Value Type Description Single"
+  },
+  "api/StormHawks.Runtime.Entities.Interfaces.ISteerEntity.html": {
+    "href": "api/StormHawks.Runtime.Entities.Interfaces.ISteerEntity.html",
+    "title": "Interface ISteerEntity | Developer Reference",
+    "keywords": "Interface ISteerEntity Namespace : StormHawks.Runtime.Entities.Interfaces Assembly : cs.temp.dll.dll Syntax public interface ISteerEntity Properties MaxForce Declaration float MaxForce { get; } Property Value Type Description Single MaxSpeed Declaration float MaxSpeed { get; } Property Value Type Description Single Rigidbody Declaration Rigidbody Rigidbody { get; } Property Value Type Description Rigidbody Methods AddSteeringBehavior<T>() Declaration T AddSteeringBehavior<T>() where T : SteeringBehavior Returns Type Description T Type Parameters Name Description T Stop() Declaration void Stop()"
+  },
+  "api/StormHawks.Runtime.Entities.Nodes.Actions.ArriveAction.html": {
+    "href": "api/StormHawks.Runtime.Entities.Nodes.Actions.ArriveAction.html",
+    "title": "Class ArriveAction | Developer Reference",
+    "keywords": "Class ArriveAction 특정 목표 지점까지 Arrive하는 액션 Slowdown범위 안에 들어오면 속도를 점점 줄이고, Stop범위까지 들어오게 된다면, 멈춤. Inheritance Object EntityActionNode EntitySteerActionNode ArriveAction Inherited Members EntitySteerActionNode._entity EntitySteerActionNode.GetSteerBehavior<T>() EntityActionNode._transform EntityActionNode._rotator EntityActionNode.OnInitialize() Namespace : StormHawks.Runtime.Entities.Nodes.Actions Assembly : cs.temp.dll.dll Syntax public class ArriveAction : EntitySteerActionNode Methods OnAbort() Declaration protected override void OnAbort() OnEnter() Declaration protected override void OnEnter() OnExit() Declaration protected override void OnExit() OnRun() Declaration protected override BehaviorNodeState OnRun() Returns Type Description BehaviorNodeState"
+  },
+  "api/StormHawks.Runtime.Entities.Nodes.Actions.BoidsAction.html": {
+    "href": "api/StormHawks.Runtime.Entities.Nodes.Actions.BoidsAction.html",
+    "title": "Class BoidsAction | Developer Reference",
+    "keywords": "Class BoidsAction Inheritance Object EntityActionNode EntitySteerActionNode BoidsAction Inherited Members EntitySteerActionNode._entity EntitySteerActionNode.GetSteerBehavior<T>() EntityActionNode._transform EntityActionNode._rotator EntityActionNode.OnInitialize() Namespace : StormHawks.Runtime.Entities.Nodes.Actions Assembly : cs.temp.dll.dll Syntax public class BoidsAction : EntitySteerActionNode Methods OnAbort() Declaration protected override void OnAbort() OnEnter() Declaration protected override void OnEnter() OnExit() Declaration protected override void OnExit() OnRun() Declaration protected override BehaviorNodeState OnRun() Returns Type Description BehaviorNodeState"
   },
   "api/StormHawks.Runtime.Entities.Nodes.Actions.EntityActionNode.html": {
     "href": "api/StormHawks.Runtime.Entities.Nodes.Actions.EntityActionNode.html",
     "title": "Class EntityActionNode | Developer Reference",
-    "keywords": "Class EntityActionNode Entity가 사용할 기본 ActionNode Inheritance Object EntityActionNode FireBullet LookAtNode MoveAction MoveForwardNode RotateAction SeekAction Namespace : StormHawks.Runtime.Entities.Nodes.Actions Assembly : cs.temp.dll.dll Syntax public abstract class EntityActionNode : ActionNode Fields _rigidbody Declaration protected Rigidbody _rigidbody Field Value Type Description Rigidbody _transform Declaration protected Transform _transform Field Value Type Description Transform Methods OnInitialize() Declaration protected override void OnInitialize()"
+    "keywords": "Class EntityActionNode Entity가 사용할 기본 ActionNode Inheritance Object EntityActionNode EntitySteerActionNode Namespace : StormHawks.Runtime.Entities.Nodes.Actions Assembly : cs.temp.dll.dll Syntax public abstract class EntityActionNode : ActionNode Fields _rotator Declaration protected IRotator _rotator Field Value Type Description IRotator _transform Declaration protected Transform _transform Field Value Type Description Transform Methods OnInitialize() Declaration protected override void OnInitialize()"
   },
-  "api/StormHawks.Runtime.Entities.Nodes.Actions.FireBullet.html": {
-    "href": "api/StormHawks.Runtime.Entities.Nodes.Actions.FireBullet.html",
-    "title": "Class FireBullet | Developer Reference",
-    "keywords": "Class FireBullet Inheritance Object EntityActionNode FireBullet Inherited Members EntityActionNode._rigidbody EntityActionNode._transform EntityActionNode.OnInitialize() Namespace : StormHawks.Runtime.Entities.Nodes.Actions Assembly : cs.temp.dll.dll Syntax public class FireBullet : EntityActionNode Methods OnEnter() Declaration protected override void OnEnter() OnRun() Declaration protected override BehaviorNodeState OnRun() Returns Type Description BehaviorNodeState"
+  "api/StormHawks.Runtime.Entities.Nodes.Actions.EntitySteerActionNode.html": {
+    "href": "api/StormHawks.Runtime.Entities.Nodes.Actions.EntitySteerActionNode.html",
+    "title": "Class EntitySteerActionNode | Developer Reference",
+    "keywords": "Class EntitySteerActionNode Inheritance Object EntityActionNode EntitySteerActionNode ArriveAction BoidsAction FleeAction SeekAction WanderNode Inherited Members EntityActionNode._transform EntityActionNode._rotator EntityActionNode.OnInitialize() Namespace : StormHawks.Runtime.Entities.Nodes.Actions Assembly : cs.temp.dll.dll Syntax public abstract class EntitySteerActionNode : EntityActionNode Fields _entity Declaration protected ISteerEntity _entity Field Value Type Description ISteerEntity Methods GetSteerBehavior<T>() Declaration protected T GetSteerBehavior<T>() where T : SteeringBehavior Returns Type Description T Type Parameters Name Description T"
+  },
+  "api/StormHawks.Runtime.Entities.Nodes.Actions.FleeAction.html": {
+    "href": "api/StormHawks.Runtime.Entities.Nodes.Actions.FleeAction.html",
+    "title": "Class FleeAction | Developer Reference",
+    "keywords": "Class FleeAction 특정 타겟으로부터 도망침. Inheritance Object EntityActionNode EntitySteerActionNode FleeAction Inherited Members EntitySteerActionNode._entity EntitySteerActionNode.GetSteerBehavior<T>() EntityActionNode._transform EntityActionNode._rotator EntityActionNode.OnInitialize() Namespace : StormHawks.Runtime.Entities.Nodes.Actions Assembly : cs.temp.dll.dll Syntax public class FleeAction : EntitySteerActionNode Methods OnAbort() Declaration protected override void OnAbort() OnEnter() Declaration protected override void OnEnter() OnExit() Declaration protected override void OnExit() OnRun() Declaration protected override BehaviorNodeState OnRun() Returns Type Description BehaviorNodeState"
   },
   "api/StormHawks.Runtime.Entities.Nodes.Actions.html": {
     "href": "api/StormHawks.Runtime.Entities.Nodes.Actions.html",
     "title": "Namespace StormHawks.Runtime.Entities.Nodes.Actions | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Entities.Nodes.Actions Classes EntityActionNode Entity가 사용할 기본 ActionNode FireBullet LookAtNode MoveAction MoveForwardNode Transform.forward 방향으로 Duration시간 동안 이동함. RotateAction SeekAction InterctionTargetType를 향해 이동함."
-  },
-  "api/StormHawks.Runtime.Entities.Nodes.Actions.LookAtNode.html": {
-    "href": "api/StormHawks.Runtime.Entities.Nodes.Actions.LookAtNode.html",
-    "title": "Class LookAtNode | Developer Reference",
-    "keywords": "Class LookAtNode Inheritance Object EntityActionNode LookAtNode Inherited Members EntityActionNode._rigidbody EntityActionNode._transform EntityActionNode.OnInitialize() Namespace : StormHawks.Runtime.Entities.Nodes.Actions Assembly : cs.temp.dll.dll Syntax public class LookAtNode : EntityActionNode Methods OnEnter() Declaration protected override void OnEnter() OnRun() Declaration protected override BehaviorNodeState OnRun() Returns Type Description BehaviorNodeState"
-  },
-  "api/StormHawks.Runtime.Entities.Nodes.Actions.MoveAction.html": {
-    "href": "api/StormHawks.Runtime.Entities.Nodes.Actions.MoveAction.html",
-    "title": "Class MoveAction | Developer Reference",
-    "keywords": "Class MoveAction Inheritance Object EntityActionNode MoveAction Inherited Members EntityActionNode._rigidbody EntityActionNode._transform EntityActionNode.OnInitialize() Namespace : StormHawks.Runtime.Entities.Nodes.Actions Assembly : cs.temp.dll.dll Syntax public class MoveAction : EntityActionNode Methods OnEnter() Declaration protected override void OnEnter() OnExit() Declaration protected override void OnExit() OnRun() Declaration protected override BehaviorNodeState OnRun() Returns Type Description BehaviorNodeState"
-  },
-  "api/StormHawks.Runtime.Entities.Nodes.Actions.MoveForwardNode.html": {
-    "href": "api/StormHawks.Runtime.Entities.Nodes.Actions.MoveForwardNode.html",
-    "title": "Class MoveForwardNode | Developer Reference",
-    "keywords": "Class MoveForwardNode Transform.forward 방향으로 Duration시간 동안 이동함. Inheritance Object EntityActionNode MoveForwardNode Inherited Members EntityActionNode._rigidbody EntityActionNode._transform EntityActionNode.OnInitialize() Namespace : StormHawks.Runtime.Entities.Nodes.Actions Assembly : cs.temp.dll.dll Syntax public class MoveForwardNode : EntityActionNode Methods Initialize(GameObject) Declaration public override void Initialize(GameObject runner) Parameters Type Name Description GameObject runner OnEnter() Declaration protected override void OnEnter() OnExit() Declaration protected override void OnExit() OnRun() Declaration protected override BehaviorNodeState OnRun() Returns Type Description BehaviorNodeState"
-  },
-  "api/StormHawks.Runtime.Entities.Nodes.Actions.RotateAction.html": {
-    "href": "api/StormHawks.Runtime.Entities.Nodes.Actions.RotateAction.html",
-    "title": "Class RotateAction | Developer Reference",
-    "keywords": "Class RotateAction Inheritance Object EntityActionNode RotateAction Inherited Members EntityActionNode._rigidbody EntityActionNode._transform EntityActionNode.OnInitialize() Namespace : StormHawks.Runtime.Entities.Nodes.Actions Assembly : cs.temp.dll.dll Syntax public class RotateAction : EntityActionNode Methods OnEnter() Declaration protected override void OnEnter() OnRun() Declaration protected override BehaviorNodeState OnRun() Returns Type Description BehaviorNodeState"
+    "keywords": "Namespace StormHawks.Runtime.Entities.Nodes.Actions Classes ArriveAction 특정 목표 지점까지 Arrive하는 액션 Slowdown범위 안에 들어오면 속도를 점점 줄이고, Stop범위까지 들어오게 된다면, 멈춤. BoidsAction EntityActionNode Entity가 사용할 기본 ActionNode EntitySteerActionNode FleeAction 특정 타겟으로부터 도망침. SeekAction InterctionTargetType를 향해 이동함. SetAggroTarget Aggro를 할 타겟을 설정함. WanderNode 랜덤한 위치로 이동함."
   },
   "api/StormHawks.Runtime.Entities.Nodes.Actions.SeekAction.html": {
     "href": "api/StormHawks.Runtime.Entities.Nodes.Actions.SeekAction.html",
     "title": "Class SeekAction | Developer Reference",
-    "keywords": "Class SeekAction InterctionTargetType를 향해 이동함. Inheritance Object EntityActionNode SeekAction Inherited Members EntityActionNode._rigidbody EntityActionNode._transform EntityActionNode.OnInitialize() Namespace : StormHawks.Runtime.Entities.Nodes.Actions Assembly : cs.temp.dll.dll Syntax public class SeekAction : EntityActionNode Methods Initialize(GameObject) Declaration public override void Initialize(GameObject runner) Parameters Type Name Description GameObject runner OnAbort() Declaration protected override void OnAbort() OnEnter() Declaration protected override void OnEnter() OnExit() Declaration protected override void OnExit() OnRun() Declaration protected override BehaviorNodeState OnRun() Returns Type Description BehaviorNodeState"
+    "keywords": "Class SeekAction InterctionTargetType를 향해 이동함. Inheritance Object EntityActionNode EntitySteerActionNode SeekAction Inherited Members EntitySteerActionNode._entity EntitySteerActionNode.GetSteerBehavior<T>() EntityActionNode._transform EntityActionNode._rotator EntityActionNode.OnInitialize() Namespace : StormHawks.Runtime.Entities.Nodes.Actions Assembly : cs.temp.dll.dll Syntax public class SeekAction : EntitySteerActionNode Methods Initialize(GameObject) Declaration public override void Initialize(GameObject runner) Parameters Type Name Description GameObject runner OnAbort() Declaration protected override void OnAbort() OnEnter() Declaration protected override void OnEnter() OnExit() Declaration protected override void OnExit() OnRun() Declaration protected override BehaviorNodeState OnRun() Returns Type Description BehaviorNodeState"
+  },
+  "api/StormHawks.Runtime.Entities.Nodes.Actions.SetAggroTarget.html": {
+    "href": "api/StormHawks.Runtime.Entities.Nodes.Actions.SetAggroTarget.html",
+    "title": "Class SetAggroTarget | Developer Reference",
+    "keywords": "Class SetAggroTarget Aggro를 할 타겟을 설정함. Inheritance Object SetAggroTarget Namespace : StormHawks.Runtime.Entities.Nodes.Actions Assembly : cs.temp.dll.dll Syntax public class SetAggroTarget : ActionNode Methods OnEnter() Declaration protected override void OnEnter() OnRun() Declaration protected override BehaviorNodeState OnRun() Returns Type Description BehaviorNodeState"
+  },
+  "api/StormHawks.Runtime.Entities.Nodes.Actions.WanderNode.html": {
+    "href": "api/StormHawks.Runtime.Entities.Nodes.Actions.WanderNode.html",
+    "title": "Class WanderNode | Developer Reference",
+    "keywords": "Class WanderNode 랜덤한 위치로 이동함. Inheritance Object EntityActionNode EntitySteerActionNode WanderNode Inherited Members EntitySteerActionNode._entity EntitySteerActionNode.GetSteerBehavior<T>() EntityActionNode._transform EntityActionNode._rotator EntityActionNode.OnInitialize() Namespace : StormHawks.Runtime.Entities.Nodes.Actions Assembly : cs.temp.dll.dll Syntax public class WanderNode : EntitySteerActionNode Methods OnAbort() Declaration protected override void OnAbort() OnEnter() Declaration protected override void OnEnter() OnExit() Declaration protected override void OnExit() OnRun() Declaration protected override BehaviorNodeState OnRun() Returns Type Description BehaviorNodeState"
   },
   "api/StormHawks.Runtime.Entities.Nodes.Conditionals.CanSeePlayer.html": {
     "href": "api/StormHawks.Runtime.Entities.Nodes.Conditionals.CanSeePlayer.html",
     "title": "Class CanSeePlayer | Developer Reference",
     "keywords": "Class CanSeePlayer Player가 시야(IDetectHandler의 의해 정해짐) 안에 들어오게 된다면, Blackboard에 Player의 GameObject를 설정함. Inheritance Object CanSeePlayer Namespace : StormHawks.Runtime.Entities.Nodes.Conditionals Assembly : cs.temp.dll.dll Syntax public class CanSeePlayer : ConditionalNode Methods Condition() Declaration protected override bool Condition() Returns Type Description Boolean OnEnter() Declaration protected override void OnEnter()"
   },
+  "api/StormHawks.Runtime.Entities.Nodes.Conditionals.CompareDistance.html": {
+    "href": "api/StormHawks.Runtime.Entities.Nodes.Conditionals.CompareDistance.html",
+    "title": "Class CompareDistance | Developer Reference",
+    "keywords": "Class CompareDistance 타겟과의 거리를 비교함 Inheritance Object CompareDistance Namespace : StormHawks.Runtime.Entities.Nodes.Conditionals Assembly : cs.temp.dll.dll Syntax public class CompareDistance : ConditionalNode Methods Condition() Declaration protected override bool Condition() Returns Type Description Boolean OnEnter() Declaration protected override void OnEnter()"
+  },
+  "api/StormHawks.Runtime.Entities.Nodes.Conditionals.CompareHealth.html": {
+    "href": "api/StormHawks.Runtime.Entities.Nodes.Conditionals.CompareHealth.html",
+    "title": "Class CompareHealth | Developer Reference",
+    "keywords": "Class CompareHealth 체력을 비교함 Inheritance Object CompareHealth Namespace : StormHawks.Runtime.Entities.Nodes.Conditionals Assembly : cs.temp.dll.dll Syntax public class CompareHealth : ConditionalNode Methods Condition() Declaration protected override bool Condition() Returns Type Description Boolean OnEnter() Declaration protected override void OnEnter()"
+  },
   "api/StormHawks.Runtime.Entities.Nodes.Conditionals.html": {
     "href": "api/StormHawks.Runtime.Entities.Nodes.Conditionals.html",
     "title": "Namespace StormHawks.Runtime.Entities.Nodes.Conditionals | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Entities.Nodes.Conditionals Classes CanSeePlayer Player가 시야(IDetectHandler의 의해 정해짐) 안에 들어오게 된다면, Blackboard에 Player의 GameObject를 설정함."
+    "keywords": "Namespace StormHawks.Runtime.Entities.Nodes.Conditionals Classes CanSeePlayer Player가 시야(IDetectHandler의 의해 정해짐) 안에 들어오게 된다면, Blackboard에 Player의 GameObject를 설정함. CompareDistance 타겟과의 거리를 비교함 CompareHealth 체력을 비교함 IsAggressive Aggro상태인지 확인"
+  },
+  "api/StormHawks.Runtime.Entities.Nodes.Conditionals.IsAggressive.html": {
+    "href": "api/StormHawks.Runtime.Entities.Nodes.Conditionals.IsAggressive.html",
+    "title": "Class IsAggressive | Developer Reference",
+    "keywords": "Class IsAggressive Aggro상태인지 확인 Inheritance Object IsAggressive Namespace : StormHawks.Runtime.Entities.Nodes.Conditionals Assembly : cs.temp.dll.dll Syntax public class IsAggressive : ConditionalNode Methods Condition() Declaration protected override bool Condition() Returns Type Description Boolean OnEnter() Declaration protected override void OnEnter()"
   },
   "api/StormHawks.Runtime.Entities.Players.html": {
     "href": "api/StormHawks.Runtime.Entities.Players.html",
@@ -339,35 +379,110 @@
     "title": "Class PlayerRotator | Developer Reference",
     "keywords": "Class PlayerRotator Inheritance Object PlayerRotator Namespace : StormHawks.Runtime.Entities.Players Assembly : cs.temp.dll.dll Syntax public class PlayerRotator : MonoBehaviour Methods AddAxisRotation(Single, Single, Single) 해당 축을 기준으로 플레이어의 회전값을 더하는 함수 Declaration public void AddAxisRotation(float x, float y, float z) Parameters Type Name Description Single x X축 중심의 회전값에 더할 값 Single y Y축 중심의 회전값에 더할 값 Single z Z축 중심의 회전값에 더할 값 AddXAxisRotation(Single) Declaration public void AddXAxisRotation(float value) Parameters Type Name Description Single value AddYAxisRotation(Single) Declaration public void AddYAxisRotation(float value) Parameters Type Name Description Single value AddZAxisRotation(Single) Declaration public void AddZAxisRotation(float value) Parameters Type Name Description Single value LerpRotation() 플레이어의 현재 회전값에서 계산된 회전값으로 Lerp 해 적용하는 함수 Declaration public void LerpRotation()"
   },
+  "api/StormHawks.Runtime.Entity.Core.EnemyRotator.html": {
+    "href": "api/StormHawks.Runtime.Entity.Core.EnemyRotator.html",
+    "title": "Class EnemyRotator | Developer Reference",
+    "keywords": "Class EnemyRotator Entity의 회전을 관리할 클래스. Inheritance Object EnemyRotator Implements IRotator Namespace : StormHawks.Runtime.Entity.Core Assembly : cs.temp.dll.dll Syntax public class EnemyRotator : MonoBehaviour Properties FaceDirection Declaration public Vector3 FaceDirection { get; } Property Value Type Description Vector3 RotateSpeed Declaration public float RotateSpeed { get; } Property Value Type Description Single Methods GetForward() Declaration public Vector3 GetForward() Returns Type Description Vector3 GetRotation() Declaration public Quaternion GetRotation() Returns Type Description Quaternion GetUp() Declaration public Vector3 GetUp() Returns Type Description Vector3 RotateTo(Vector3) Declaration public void RotateTo(Vector3 rotateDir) Parameters Type Name Description Vector3 rotateDir Implements IRotator"
+  },
+  "api/StormHawks.Runtime.Entity.Core.html": {
+    "href": "api/StormHawks.Runtime.Entity.Core.html",
+    "title": "Namespace StormHawks.Runtime.Entity.Core | Developer Reference",
+    "keywords": "Namespace StormHawks.Runtime.Entity.Core Classes EnemyRotator Entity의 회전을 관리할 클래스."
+  },
+  "api/StormHawks.Runtime.Entity.Enemies.BossEntity.html": {
+    "href": "api/StormHawks.Runtime.Entity.Enemies.BossEntity.html",
+    "title": "Class BossEntity | Developer Reference",
+    "keywords": "Class BossEntity Inheritance Object BossEntity Implements IHasHealth Namespace : StormHawks.Runtime.Entity.Enemies Assembly : cs.temp.dll.dll Syntax public class BossEntity : MonoBehaviour Properties CurrentHealth Declaration public float CurrentHealth { get; } Property Value Type Description Single MaxHealth Declaration public float MaxHealth { get; } Property Value Type Description Single Methods GetBoidsGroup(Int32) Declaration public EntityGroup GetBoidsGroup(int groupIndex) Parameters Type Name Description Int32 groupIndex Returns Type Description EntityGroup GetEmptyBoidsGroup() Declaration public EntityGroup GetEmptyBoidsGroup() Returns Type Description EntityGroup IsBoidsGroupFull() Declaration public bool IsBoidsGroupFull() Returns Type Description Boolean Implements IHasHealth"
+  },
+  "api/StormHawks.Runtime.Entity.Enemies.EntityGroup.html": {
+    "href": "api/StormHawks.Runtime.Entity.Enemies.EntityGroup.html",
+    "title": "Class EntityGroup | Developer Reference",
+    "keywords": "Class EntityGroup Inheritance Object EntityGroup Namespace : StormHawks.Runtime.Entity.Enemies Assembly : cs.temp.dll.dll Syntax [Serializable] public class EntityGroup Constructors EntityGroup(Int32, Int32) Declaration public EntityGroup(int groupIndex, int maxCount) Parameters Type Name Description Int32 groupIndex Int32 maxCount Properties IsActive Declaration public bool IsActive { get; } Property Value Type Description Boolean Methods AddEntity(SteeringEntity) Declaration public void AddEntity(SteeringEntity entity) Parameters Type Name Description SteeringEntity entity GetEntities() Declaration public List<SteeringEntity> GetEntities() Returns Type Description List < SteeringEntity > GetGroupIndex() Declaration public int GetGroupIndex() Returns Type Description Int32 IsFull() Declaration public bool IsFull() Returns Type Description Boolean RemoveEntity(SteeringEntity) Declaration public void RemoveEntity(SteeringEntity entity) Parameters Type Name Description SteeringEntity entity"
+  },
+  "api/StormHawks.Runtime.Entity.Enemies.FollowingEnemy.html": {
+    "href": "api/StormHawks.Runtime.Entity.Enemies.FollowingEnemy.html",
+    "title": "Class FollowingEnemy | Developer Reference",
+    "keywords": "Class FollowingEnemy Inheritance Object FollowingEnemy Implements IHasHealth IAggressive IHasGroup Namespace : StormHawks.Runtime.Entity.Enemies Assembly : cs.temp.dll.dll Syntax public class FollowingEnemy : SteeringEntity Properties AggroTarget Declaration public Transform AggroTarget { get; } Property Value Type Description Transform CurrentHealth Declaration public float CurrentHealth { get; } Property Value Type Description Single GroupIndex Declaration public int GroupIndex { get; } Property Value Type Description Int32 HasGroup Declaration public bool HasGroup { get; } Property Value Type Description Boolean IsAggressive Declaration public bool IsAggressive { get; } Property Value Type Description Boolean MaxHealth Declaration public float MaxHealth { get; set; } Property Value Type Description Single Methods CanAggressive() Declaration public bool CanAggressive() Returns Type Description Boolean JoinGroup(Int32) Declaration public void JoinGroup(int groupIndex) Parameters Type Name Description Int32 groupIndex OnAggressive(GameObject) Declaration public void OnAggressive(GameObject target) Parameters Type Name Description GameObject target Start() Declaration protected override void Start() Update() Declaration protected override void Update() Implements IHasHealth IAggressive IHasGroup"
+  },
+  "api/StormHawks.Runtime.Entity.Enemies.html": {
+    "href": "api/StormHawks.Runtime.Entity.Enemies.html",
+    "title": "Namespace StormHawks.Runtime.Entity.Enemies | Developer Reference",
+    "keywords": "Namespace StormHawks.Runtime.Entity.Enemies Classes BossEntity EntityGroup FollowingEnemy"
+  },
   "api/StormHawks.Runtime.Entity.Nodes.BlackboardKey.html": {
     "href": "api/StormHawks.Runtime.Entity.Nodes.BlackboardKey.html",
     "title": "Class BlackboardKey | Developer Reference",
-    "keywords": "Class BlackboardKey Blackbaord에 설정할 수 있는 Key Inheritance Object BlackboardKey Namespace : StormHawks.Runtime.Entity.Nodes Assembly : cs.temp.dll.dll Syntax public class BlackboardKey Fields PLAYER Declaration public const string PLAYER = \"Player\" Field Value Type Description String"
+    "keywords": "Class BlackboardKey Blackbaord에 설정할 수 있는 Key Inheritance Object BlackboardKey Namespace : StormHawks.Runtime.Entity.Nodes Assembly : cs.temp.dll.dll Syntax public class BlackboardKey Fields AGGRO_TARGET Declaration public const string AGGRO_TARGET = \"AggroTarget\" Field Value Type Description String PLAYER Declaration public const string PLAYER = \"Player\" Field Value Type Description String"
   },
-  "api/StormHawks.Runtime.Entity.Nodes.BlackboardKey.LookTarget.html": {
-    "href": "api/StormHawks.Runtime.Entity.Nodes.BlackboardKey.LookTarget.html",
-    "title": "Class BlackboardKey.LookTarget | Developer Reference",
-    "keywords": "Class BlackboardKey.LookTarget Inheritance Object BlackboardKey.LookTarget Namespace : StormHawks.Runtime.Entity.Nodes Assembly : cs.temp.dll.dll Syntax public class LookTarget Methods GetLookTargetKey(InterctionTargetType) Declaration public static string GetLookTargetKey(InterctionTargetType targetType) Parameters Type Name Description InterctionTargetType targetType Returns Type Description String"
-  },
-  "api/StormHawks.Runtime.Entity.Nodes.BlackboardKey.SeekTarget.html": {
-    "href": "api/StormHawks.Runtime.Entity.Nodes.BlackboardKey.SeekTarget.html",
-    "title": "Class BlackboardKey.SeekTarget | Developer Reference",
-    "keywords": "Class BlackboardKey.SeekTarget Inheritance Object BlackboardKey.SeekTarget Namespace : StormHawks.Runtime.Entity.Nodes Assembly : cs.temp.dll.dll Syntax public class SeekTarget Methods GetSeekTargetKey(InterctionTargetType) Declaration public static string GetSeekTargetKey(InterctionTargetType targetType) Parameters Type Name Description InterctionTargetType targetType Returns Type Description String"
+  "api/StormHawks.Runtime.Entity.Nodes.BlackboardKey.InteractionTarget.html": {
+    "href": "api/StormHawks.Runtime.Entity.Nodes.BlackboardKey.InteractionTarget.html",
+    "title": "Class BlackboardKey.InteractionTarget | Developer Reference",
+    "keywords": "Class BlackboardKey.InteractionTarget Inheritance Object BlackboardKey.InteractionTarget Namespace : StormHawks.Runtime.Entity.Nodes Assembly : cs.temp.dll.dll Syntax public class InteractionTarget Methods GetInteractTypeKey(InteractionTargetType) Declaration public static string GetInteractTypeKey(InteractionTargetType targetType) Parameters Type Name Description InteractionTargetType targetType Returns Type Description String"
   },
   "api/StormHawks.Runtime.Entity.Nodes.Enums.html": {
     "href": "api/StormHawks.Runtime.Entity.Nodes.Enums.html",
     "title": "Namespace StormHawks.Runtime.Entity.Nodes.Enums | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Entity.Nodes.Enums Enums InterctionTargetType 상호작용가능한 Target 타입."
+    "keywords": "Namespace StormHawks.Runtime.Entity.Nodes.Enums Enums InteractionTargetType 상호작용가능한 Target 타입."
   },
-  "api/StormHawks.Runtime.Entity.Nodes.Enums.InterctionTargetType.html": {
-    "href": "api/StormHawks.Runtime.Entity.Nodes.Enums.InterctionTargetType.html",
-    "title": "Enum InterctionTargetType | Developer Reference",
-    "keywords": "Enum InterctionTargetType 상호작용가능한 Target 타입. Namespace : StormHawks.Runtime.Entity.Nodes.Enums Assembly : cs.temp.dll.dll Syntax public enum InterctionTargetType Fields Name Description Null Player"
+  "api/StormHawks.Runtime.Entity.Nodes.Enums.InteractionTargetType.html": {
+    "href": "api/StormHawks.Runtime.Entity.Nodes.Enums.InteractionTargetType.html",
+    "title": "Enum InteractionTargetType | Developer Reference",
+    "keywords": "Enum InteractionTargetType 상호작용가능한 Target 타입. Namespace : StormHawks.Runtime.Entity.Nodes.Enums Assembly : cs.temp.dll.dll Syntax public enum InteractionTargetType Fields Name Description AggroTarget Null Player"
   },
   "api/StormHawks.Runtime.Entity.Nodes.html": {
     "href": "api/StormHawks.Runtime.Entity.Nodes.html",
     "title": "Namespace StormHawks.Runtime.Entity.Nodes | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Entity.Nodes Classes BlackboardKey Blackbaord에 설정할 수 있는 Key BlackboardKey.LookTarget BlackboardKey.SeekTarget"
+    "keywords": "Namespace StormHawks.Runtime.Entity.Nodes Classes BlackboardKey Blackbaord에 설정할 수 있는 Key BlackboardKey.InteractionTarget"
+  },
+  "api/StormHawks.Runtime.Entity.SteeringBehaviors.AlignBehavior.html": {
+    "href": "api/StormHawks.Runtime.Entity.SteeringBehaviors.AlignBehavior.html",
+    "title": "Class AlignBehavior | Developer Reference",
+    "keywords": "Class AlignBehavior Inheritance Object SteeringBehavior AlignBehavior Implements ISteerBehavior Inherited Members SteeringBehavior.Active SteeringBehavior.Weight SteeringBehavior._steerEntity Namespace : StormHawks.Runtime.Entity.SteeringBehaviors Assembly : cs.temp.dll.dll Syntax public class AlignBehavior : SteeringBehavior Methods Initialize(ISteerEntity) Declaration public override void Initialize(ISteerEntity steerEntity) Parameters Type Name Description ISteerEntity steerEntity Overrides SteeringBehavior.Initialize(ISteerEntity) OnEnter(Single) Declaration public override void OnEnter(float weight) Parameters Type Name Description Single weight Overrides SteeringBehavior.OnEnter(Single) OnExit() Declaration public override void OnExit() Overrides SteeringBehavior.OnExit() OnRun(Vector3) Declaration public void OnRun(Vector3 forward) Parameters Type Name Description Vector3 forward SteerForce() Declaration public override Vector3 SteerForce() Returns Type Description Vector3 Overrides SteeringBehavior.SteerForce() Implements ISteerBehavior"
+  },
+  "api/StormHawks.Runtime.Entity.SteeringBehaviors.ArriveBehavior.html": {
+    "href": "api/StormHawks.Runtime.Entity.SteeringBehaviors.ArriveBehavior.html",
+    "title": "Class ArriveBehavior | Developer Reference",
+    "keywords": "Class ArriveBehavior Arrive force를 계산하는 클래스. BT에 Arrive action이 있으면 (자동으로 추가됨) Inheritance Object SteeringBehavior ArriveBehavior Implements ISteerBehavior Inherited Members SteeringBehavior.Active SteeringBehavior.Weight SteeringBehavior._steerEntity SteeringBehavior.Initialize(ISteerEntity) Namespace : StormHawks.Runtime.Entity.SteeringBehaviors Assembly : cs.temp.dll.dll Syntax public class ArriveBehavior : SteeringBehavior Methods OnEnter(Single) Declaration public override void OnEnter(float weight) Parameters Type Name Description Single weight Overrides SteeringBehavior.OnEnter(Single) OnExit() Declaration public override void OnExit() Overrides SteeringBehavior.OnExit() OnRun(Vector3, Single, Single, Single, Single) Declaration public void OnRun(Vector3 targetPos, float slowDownRadius, float stopRadius, float stopSpeed, float decelFactor) Parameters Type Name Description Vector3 targetPos Single slowDownRadius Single stopRadius Single stopSpeed Single decelFactor SteerForce() Declaration public override Vector3 SteerForce() Returns Type Description Vector3 Overrides SteeringBehavior.SteerForce() Implements ISteerBehavior"
+  },
+  "api/StormHawks.Runtime.Entity.SteeringBehaviors.AvoidanceBehavior.html": {
+    "href": "api/StormHawks.Runtime.Entity.SteeringBehaviors.AvoidanceBehavior.html",
+    "title": "Class AvoidanceBehavior | Developer Reference",
+    "keywords": "Class AvoidanceBehavior 장애물을 피하는 force를 계산함. Inheritance Object SteeringBehavior AvoidanceBehavior Implements ISteerBehavior Inherited Members SteeringBehavior.Active SteeringBehavior.Weight SteeringBehavior._steerEntity Namespace : StormHawks.Runtime.Entity.SteeringBehaviors Assembly : cs.temp.dll.dll Syntax public class AvoidanceBehavior : SteeringBehavior Methods Initialize(ISteerEntity) Declaration public override void Initialize(ISteerEntity entity) Parameters Type Name Description ISteerEntity entity Overrides SteeringBehavior.Initialize(ISteerEntity) OnEnter(Single) Declaration public override void OnEnter(float weight) Parameters Type Name Description Single weight Overrides SteeringBehavior.OnEnter(Single) OnExit() Declaration public override void OnExit() Overrides SteeringBehavior.OnExit() OnRun(Single, LayerMask, Single) Declaration public void OnRun(float avoidRadius, LayerMask obstacleLayerMask, float avoidSpeed) Parameters Type Name Description Single avoidRadius LayerMask obstacleLayerMask Single avoidSpeed SteerForce() Declaration public override Vector3 SteerForce() Returns Type Description Vector3 Overrides SteeringBehavior.SteerForce() Implements ISteerBehavior"
+  },
+  "api/StormHawks.Runtime.Entity.SteeringBehaviors.CohesionBehavior.html": {
+    "href": "api/StormHawks.Runtime.Entity.SteeringBehaviors.CohesionBehavior.html",
+    "title": "Class CohesionBehavior | Developer Reference",
+    "keywords": "Class CohesionBehavior Inheritance Object SteeringBehavior CohesionBehavior Implements ISteerBehavior Inherited Members SteeringBehavior.Active SteeringBehavior.Weight SteeringBehavior._steerEntity Namespace : StormHawks.Runtime.Entity.SteeringBehaviors Assembly : cs.temp.dll.dll Syntax public class CohesionBehavior : SteeringBehavior Methods Initialize(ISteerEntity) Declaration public override void Initialize(ISteerEntity entity) Parameters Type Name Description ISteerEntity entity Overrides SteeringBehavior.Initialize(ISteerEntity) OnEnter(Single) Declaration public override void OnEnter(float weight) Parameters Type Name Description Single weight Overrides SteeringBehavior.OnEnter(Single) OnExit() Declaration public override void OnExit() Overrides SteeringBehavior.OnExit() OnRun(Single) Declaration public void OnRun(float cohesionSpeed) Parameters Type Name Description Single cohesionSpeed SteerForce() Declaration public override Vector3 SteerForce() Returns Type Description Vector3 Overrides SteeringBehavior.SteerForce() Implements ISteerBehavior"
+  },
+  "api/StormHawks.Runtime.Entity.SteeringBehaviors.FleeBehavior.html": {
+    "href": "api/StormHawks.Runtime.Entity.SteeringBehaviors.FleeBehavior.html",
+    "title": "Class FleeBehavior | Developer Reference",
+    "keywords": "Class FleeBehavior Flee force를 계산하는 클래스. Inheritance Object SteeringBehavior FleeBehavior Implements ISteerBehavior Inherited Members SteeringBehavior.Active SteeringBehavior.Weight SteeringBehavior._steerEntity SteeringBehavior.Initialize(ISteerEntity) Namespace : StormHawks.Runtime.Entity.SteeringBehaviors Assembly : cs.temp.dll.dll Syntax public class FleeBehavior : SteeringBehavior Methods OnEnter(Single) Declaration public override void OnEnter(float weight) Parameters Type Name Description Single weight Overrides SteeringBehavior.OnEnter(Single) OnExit() Declaration public override void OnExit() Overrides SteeringBehavior.OnExit() OnRun(Vector3, Single) Declaration public void OnRun(Vector3 targetPos, float fleeSpeed) Parameters Type Name Description Vector3 targetPos Single fleeSpeed SteerForce() Declaration public override Vector3 SteerForce() Returns Type Description Vector3 Overrides SteeringBehavior.SteerForce() Implements ISteerBehavior"
+  },
+  "api/StormHawks.Runtime.Entity.SteeringBehaviors.html": {
+    "href": "api/StormHawks.Runtime.Entity.SteeringBehaviors.html",
+    "title": "Namespace StormHawks.Runtime.Entity.SteeringBehaviors | Developer Reference",
+    "keywords": "Namespace StormHawks.Runtime.Entity.SteeringBehaviors Classes AlignBehavior ArriveBehavior Arrive force를 계산하는 클래스. BT에 Arrive action이 있으면 (자동으로 추가됨) AvoidanceBehavior 장애물을 피하는 force를 계산함. CohesionBehavior FleeBehavior Flee force를 계산하는 클래스. SeekBehavior Seek force를 계산하는 클래스. SeparationBehavior SteeringBehavior Steering Force를 계산하는 base 클래스. BT에 Action이 있을 경우 자동으로 추가됨. SteeringEntity Steering behavior를 하는 Entity의 base 클래스."
+  },
+  "api/StormHawks.Runtime.Entity.SteeringBehaviors.SeekBehavior.html": {
+    "href": "api/StormHawks.Runtime.Entity.SteeringBehaviors.SeekBehavior.html",
+    "title": "Class SeekBehavior | Developer Reference",
+    "keywords": "Class SeekBehavior Seek force를 계산하는 클래스. Inheritance Object SteeringBehavior SeekBehavior Implements ISteerBehavior Inherited Members SteeringBehavior.Active SteeringBehavior.Weight SteeringBehavior._steerEntity SteeringBehavior.Initialize(ISteerEntity) Namespace : StormHawks.Runtime.Entity.SteeringBehaviors Assembly : cs.temp.dll.dll Syntax public class SeekBehavior : SteeringBehavior Methods OnEnter(Single) Declaration public override void OnEnter(float weight) Parameters Type Name Description Single weight Overrides SteeringBehavior.OnEnter(Single) OnExit() Declaration public override void OnExit() Overrides SteeringBehavior.OnExit() OnRun(Vector3, Single) Declaration public void OnRun(Vector3 targetPos, float seekSpeed) Parameters Type Name Description Vector3 targetPos Single seekSpeed SteerForce() Declaration public override Vector3 SteerForce() Returns Type Description Vector3 Overrides SteeringBehavior.SteerForce() Implements ISteerBehavior"
+  },
+  "api/StormHawks.Runtime.Entity.SteeringBehaviors.SeparationBehavior.html": {
+    "href": "api/StormHawks.Runtime.Entity.SteeringBehaviors.SeparationBehavior.html",
+    "title": "Class SeparationBehavior | Developer Reference",
+    "keywords": "Class SeparationBehavior Inheritance Object SteeringBehavior SeparationBehavior Implements ISteerBehavior Inherited Members SteeringBehavior.Active SteeringBehavior.Weight SteeringBehavior._steerEntity Namespace : StormHawks.Runtime.Entity.SteeringBehaviors Assembly : cs.temp.dll.dll Syntax public class SeparationBehavior : SteeringBehavior Methods Initialize(ISteerEntity) Declaration public override void Initialize(ISteerEntity steerEntity) Parameters Type Name Description ISteerEntity steerEntity Overrides SteeringBehavior.Initialize(ISteerEntity) OnEnter(Single) Declaration public override void OnEnter(float weight) Parameters Type Name Description Single weight Overrides SteeringBehavior.OnEnter(Single) OnExit() Declaration public override void OnExit() Overrides SteeringBehavior.OnExit() OnRun(Single) Declaration public void OnRun(float separationSpeed) Parameters Type Name Description Single separationSpeed SteerForce() Declaration public override Vector3 SteerForce() Returns Type Description Vector3 Overrides SteeringBehavior.SteerForce() Implements ISteerBehavior"
+  },
+  "api/StormHawks.Runtime.Entity.SteeringBehaviors.SteeringBehavior.html": {
+    "href": "api/StormHawks.Runtime.Entity.SteeringBehaviors.SteeringBehavior.html",
+    "title": "Class SteeringBehavior | Developer Reference",
+    "keywords": "Class SteeringBehavior Steering Force를 계산하는 base 클래스. BT에 Action이 있을 경우 자동으로 추가됨. Inheritance Object SteeringBehavior AlignBehavior ArriveBehavior AvoidanceBehavior CohesionBehavior FleeBehavior SeekBehavior SeparationBehavior Implements ISteerBehavior Namespace : StormHawks.Runtime.Entity.SteeringBehaviors Assembly : cs.temp.dll.dll Syntax public abstract class SteeringBehavior : MonoBehaviour Fields _steerEntity Declaration protected ISteerEntity _steerEntity Field Value Type Description ISteerEntity Properties Active Declaration public bool Active { get; protected set; } Property Value Type Description Boolean Weight Declaration public float Weight { get; protected set; } Property Value Type Description Single Methods Initialize(ISteerEntity) Declaration public virtual void Initialize(ISteerEntity steerEntity) Parameters Type Name Description ISteerEntity steerEntity OnEnter(Single) Declaration public abstract void OnEnter(float weight) Parameters Type Name Description Single weight OnExit() Declaration public abstract void OnExit() SteerForce() Declaration public abstract Vector3 SteerForce() Returns Type Description Vector3 Implements ISteerBehavior"
+  },
+  "api/StormHawks.Runtime.Entity.SteeringBehaviors.SteeringEntity.html": {
+    "href": "api/StormHawks.Runtime.Entity.SteeringBehaviors.SteeringEntity.html",
+    "title": "Class SteeringEntity | Developer Reference",
+    "keywords": "Class SteeringEntity Steering behavior를 하는 Entity의 base 클래스. Inheritance Object SteeringEntity Implements ISteerEntity Namespace : StormHawks.Runtime.Entity.SteeringBehaviors Assembly : cs.temp.dll.dll Syntax public abstract class SteeringEntity : MonoBehaviour Fields _blackboard Declaration protected BlackboardSO _blackboard Field Value Type Description BlackboardSO Properties MaxForce Declaration public float MaxForce { get; set; } Property Value Type Description Single MaxSpeed Declaration public float MaxSpeed { get; set; } Property Value Type Description Single Rigidbody Declaration public Rigidbody Rigidbody { get; } Property Value Type Description Rigidbody Methods AddSteeringBehavior<T>() Declaration public T AddSteeringBehavior<T>() where T : SteeringBehavior Returns Type Description T Type Parameters Name Description T GetBlackboard() Declaration public BlackboardSO GetBlackboard() Returns Type Description BlackboardSO GetForward() Declaration public Vector3 GetForward() Returns Type Description Vector3 Start() Declaration protected virtual void Start() Stop() Declaration public void Stop() Update() Declaration protected virtual void Update() Implements ISteerEntity"
   },
   "api/StormHawks.Runtime.Player.html": {
     "href": "api/StormHawks.Runtime.Player.html",

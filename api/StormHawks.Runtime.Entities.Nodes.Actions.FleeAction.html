@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Interface IMover
+    <title>Class FleeAction
    | Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Interface IMover
+    <meta name="title" content="Class FleeAction
    | Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -78,44 +78,98 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Entities.Interfaces.IMover">
+            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Entities.Nodes.Actions.FleeAction">
   
   
-  <h1 id="StormHawks_Runtime_Entities_Interfaces_IMover" data-uid="StormHawks.Runtime.Entities.Interfaces.IMover" class="text-break">Interface IMover
+  <h1 id="StormHawks_Runtime_Entities_Nodes_Actions_FleeAction" data-uid="StormHawks.Runtime.Entities.Nodes.Actions.FleeAction" class="text-break">Class FleeAction
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>특정 타겟으로부터 도망침.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Entities.Interfaces.html">StormHawks.Runtime.Entities.Interfaces</a></h6>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><a class="xref" href="StormHawks.Runtime.Entities.Nodes.Actions.EntityActionNode.html">EntityActionNode</a></div>
+    <div class="level2"><a class="xref" href="StormHawks.Runtime.Entities.Nodes.Actions.EntitySteerActionNode.html">EntitySteerActionNode</a></div>
+    <div class="level3"><span class="xref">FleeAction</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Entities.Nodes.Actions.EntitySteerActionNode.html#StormHawks_Runtime_Entities_Nodes_Actions_EntitySteerActionNode__entity">EntitySteerActionNode._entity</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Entities.Nodes.Actions.EntitySteerActionNode.html#StormHawks_Runtime_Entities_Nodes_Actions_EntitySteerActionNode_GetSteerBehavior__1">EntitySteerActionNode.GetSteerBehavior&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Entities.Nodes.Actions.EntityActionNode.html#StormHawks_Runtime_Entities_Nodes_Actions_EntityActionNode__transform">EntityActionNode._transform</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Entities.Nodes.Actions.EntityActionNode.html#StormHawks_Runtime_Entities_Nodes_Actions_EntityActionNode__rotator">EntityActionNode._rotator</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Entities.Nodes.Actions.EntityActionNode.html#StormHawks_Runtime_Entities_Nodes_Actions_EntityActionNode_OnInitialize">EntityActionNode.OnInitialize()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Entities.Nodes.Actions.html">StormHawks.Runtime.Entities.Nodes.Actions</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="StormHawks_Runtime_Entities_Interfaces_IMover_syntax">Syntax</h5>
+  <h5 id="StormHawks_Runtime_Entities_Nodes_Actions_FleeAction_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface IMover</code></pre>
+    <pre><code class="lang-csharp hljs">public class FleeAction : EntitySteerActionNode</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="StormHawks_Runtime_Entities_Interfaces_IMover_MoveTo_" data-uid="StormHawks.Runtime.Entities.Interfaces.IMover.MoveTo*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Interfaces_IMover_MoveTo_Vector3_" data-uid="StormHawks.Runtime.Entities.Interfaces.IMover.MoveTo(Vector3)">MoveTo(Vector3)</h4>
+  <a id="StormHawks_Runtime_Entities_Nodes_Actions_FleeAction_OnAbort_" data-uid="StormHawks.Runtime.Entities.Nodes.Actions.FleeAction.OnAbort*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Nodes_Actions_FleeAction_OnAbort" data-uid="StormHawks.Runtime.Entities.Nodes.Actions.FleeAction.OnAbort">OnAbort()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void MoveTo(Vector3 direction)</code></pre>
+    <pre><code class="lang-csharp hljs">protected override void OnAbort()</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
+  
+  
+  <a id="StormHawks_Runtime_Entities_Nodes_Actions_FleeAction_OnEnter_" data-uid="StormHawks.Runtime.Entities.Nodes.Actions.FleeAction.OnEnter*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Nodes_Actions_FleeAction_OnEnter" data-uid="StormHawks.Runtime.Entities.Nodes.Actions.FleeAction.OnEnter">OnEnter()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnEnter()</code></pre>
+  </div>
+  
+  
+  <a id="StormHawks_Runtime_Entities_Nodes_Actions_FleeAction_OnExit_" data-uid="StormHawks.Runtime.Entities.Nodes.Actions.FleeAction.OnExit*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Nodes_Actions_FleeAction_OnExit" data-uid="StormHawks.Runtime.Entities.Nodes.Actions.FleeAction.OnExit">OnExit()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnExit()</code></pre>
+  </div>
+  
+  
+  <a id="StormHawks_Runtime_Entities_Nodes_Actions_FleeAction_OnRun_" data-uid="StormHawks.Runtime.Entities.Nodes.Actions.FleeAction.OnRun*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Nodes_Actions_FleeAction_OnRun" data-uid="StormHawks.Runtime.Entities.Nodes.Actions.FleeAction.OnRun">OnRun()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override BehaviorNodeState OnRun()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Vector3</span></td>
-        <td><span class="parametername">direction</span></td>
+        <td><a class="xref" href="StormHawks.Runtime.BehaviorTree.Core.BehaviorNodeState.html">BehaviorNodeState</a></td>
         <td></td>
       </tr>
     </tbody>

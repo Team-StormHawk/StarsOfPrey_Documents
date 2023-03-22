@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class TurretRotator
+    <title>Class PlayerRotationSO
    | Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class TurretRotator
+    <meta name="title" content="Class PlayerRotationSO
    | Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -78,41 +78,37 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Entity.Enemies.Turrets.TurretRotator">
+            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Entities.Players.PlayerRotationSO">
   
   
-  <h1 id="StormHawks_Runtime_Entity_Enemies_Turrets_TurretRotator" data-uid="StormHawks.Runtime.Entity.Enemies.Turrets.TurretRotator" class="text-break">Class TurretRotator
+  <h1 id="StormHawks_Runtime_Entities_Players_PlayerRotationSO" data-uid="StormHawks.Runtime.Entities.Players.PlayerRotationSO" class="text-break">Class PlayerRotationSO
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">TurretRotator</span></div>
+    <div class="level1"><span class="xref">PlayerRotationSO</span></div>
   </div>
-  <div class="implements">
-    <h5>Implements</h5>
-    <div><span class="xref">IRotator</span></div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Entity.Enemies.Turrets.html">StormHawks.Runtime.Entity.Enemies.Turrets</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Entities.Players.html">StormHawks.Runtime.Entities.Players</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="StormHawks_Runtime_Entity_Enemies_Turrets_TurretRotator_syntax">Syntax</h5>
+  <h5 id="StormHawks_Runtime_Entities_Players_PlayerRotationSO_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class TurretRotator : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public class PlayerRotationSO : ScriptableObject</code></pre>
   </div>
-  <h3 id="methods">Methods
+  <h3 id="properties">Properties
   </h3>
   
   
-  <a id="StormHawks_Runtime_Entity_Enemies_Turrets_TurretRotator_GetForward_" data-uid="StormHawks.Runtime.Entity.Enemies.Turrets.TurretRotator.GetForward*"></a>
-  <h4 id="StormHawks_Runtime_Entity_Enemies_Turrets_TurretRotator_GetForward" data-uid="StormHawks.Runtime.Entity.Enemies.Turrets.TurretRotator.GetForward">GetForward()</h4>
+  <a id="StormHawks_Runtime_Entities_Players_PlayerRotationSO_FaceDirection_" data-uid="StormHawks.Runtime.Entities.Players.PlayerRotationSO.FaceDirection*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Players_PlayerRotationSO_FaceDirection" data-uid="StormHawks.Runtime.Entities.Players.PlayerRotationSO.FaceDirection">FaceDirection</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Vector3 GetForward()</code></pre>
+    <pre><code class="lang-csharp hljs">public Vector3 FaceDirection { get; }</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -129,15 +125,41 @@
   </table>
   
   
-  <a id="StormHawks_Runtime_Entity_Enemies_Turrets_TurretRotator_GetRotation_" data-uid="StormHawks.Runtime.Entity.Enemies.Turrets.TurretRotator.GetRotation*"></a>
-  <h4 id="StormHawks_Runtime_Entity_Enemies_Turrets_TurretRotator_GetRotation" data-uid="StormHawks.Runtime.Entity.Enemies.Turrets.TurretRotator.GetRotation">GetRotation()</h4>
+  <a id="StormHawks_Runtime_Entities_Players_PlayerRotationSO_RotateSpeed_" data-uid="StormHawks.Runtime.Entities.Players.PlayerRotationSO.RotateSpeed*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Players_PlayerRotationSO_RotateSpeed" data-uid="StormHawks.Runtime.Entities.Players.PlayerRotationSO.RotateSpeed">RotateSpeed</h4>
+  <div class="markdown level1 summary"><p>Player가 Rotate하는 속도</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AxisValue RotateSpeed { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">AxisValue</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StormHawks_Runtime_Entities_Players_PlayerRotationSO_Rotation_" data-uid="StormHawks.Runtime.Entities.Players.PlayerRotationSO.Rotation*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Players_PlayerRotationSO_Rotation" data-uid="StormHawks.Runtime.Entities.Players.PlayerRotationSO.Rotation">Rotation</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Quaternion GetRotation()</code></pre>
+    <pre><code class="lang-csharp hljs">public Quaternion Rotation { get; }</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -154,15 +176,16 @@
   </table>
   
   
-  <a id="StormHawks_Runtime_Entity_Enemies_Turrets_TurretRotator_GetUp_" data-uid="StormHawks.Runtime.Entity.Enemies.Turrets.TurretRotator.GetUp*"></a>
-  <h4 id="StormHawks_Runtime_Entity_Enemies_Turrets_TurretRotator_GetUp" data-uid="StormHawks.Runtime.Entity.Enemies.Turrets.TurretRotator.GetUp">GetUp()</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="StormHawks_Runtime_Entities_Players_PlayerRotationSO_RotationLerpValue_" data-uid="StormHawks.Runtime.Entities.Players.PlayerRotationSO.RotationLerpValue*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Players_PlayerRotationSO_RotationLerpValue" data-uid="StormHawks.Runtime.Entities.Players.PlayerRotationSO.RotationLerpValue">RotationLerpValue</h4>
+  <div class="markdown level1 summary"><p>Entity의 현재 forward에서 FaceDirection으로 회전할 때 변화량</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Vector3 GetUp()</code></pre>
+    <pre><code class="lang-csharp hljs">public float RotationLerpValue { get; }</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -172,20 +195,49 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Vector3</span></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="StormHawks_Runtime_Entities_Players_PlayerRotationSO_AddRotationValue_" data-uid="StormHawks.Runtime.Entities.Players.PlayerRotationSO.AddRotationValue*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Players_PlayerRotationSO_AddRotationValue_Quaternion_" data-uid="StormHawks.Runtime.Entities.Players.PlayerRotationSO.AddRotationValue(Quaternion)">AddRotationValue(Quaternion)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddRotationValue(Quaternion value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Quaternion</span></td>
+        <td><span class="parametername">value</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="StormHawks_Runtime_Entity_Enemies_Turrets_TurretRotator_RotateTo_" data-uid="StormHawks.Runtime.Entity.Enemies.Turrets.TurretRotator.RotateTo*"></a>
-  <h4 id="StormHawks_Runtime_Entity_Enemies_Turrets_TurretRotator_RotateTo_Vector3_" data-uid="StormHawks.Runtime.Entity.Enemies.Turrets.TurretRotator.RotateTo(Vector3)">RotateTo(Vector3)</h4>
+  <a id="StormHawks_Runtime_Entities_Players_PlayerRotationSO_SetFaceDirection_" data-uid="StormHawks.Runtime.Entities.Players.PlayerRotationSO.SetFaceDirection*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Players_PlayerRotationSO_SetFaceDirection_Vector3_" data-uid="StormHawks.Runtime.Entities.Players.PlayerRotationSO.SetFaceDirection(Vector3)">SetFaceDirection(Vector3)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void RotateTo(Vector3 rotateDir)</code></pre>
+    <pre><code class="lang-csharp hljs">public void SetFaceDirection(Vector3 dir)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -199,15 +251,38 @@
     <tbody>
       <tr>
         <td><span class="xref">Vector3</span></td>
-        <td><span class="parametername">rotateDir</span></td>
+        <td><span class="parametername">dir</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <span class="xref">IRotator</span>
+  
+  
+  <a id="StormHawks_Runtime_Entities_Players_PlayerRotationSO_SetRotation_" data-uid="StormHawks.Runtime.Entities.Players.PlayerRotationSO.SetRotation*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Players_PlayerRotationSO_SetRotation_Quaternion_" data-uid="StormHawks.Runtime.Entities.Players.PlayerRotationSO.SetRotation(Quaternion)">SetRotation(Quaternion)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetRotation(Quaternion value)</code></pre>
   </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Quaternion</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           

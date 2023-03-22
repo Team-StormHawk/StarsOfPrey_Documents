@@ -287,12 +287,27 @@
   "api/StormHawks.Runtime.Entities.Players.html": {
     "href": "api/StormHawks.Runtime.Entities.Players.html",
     "title": "Namespace StormHawks.Runtime.Entities.Players | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Entities.Players Classes PlayerInputReader PlayerInputSettingSO Enums PlayerInputType 플레이어가 기체를 움직일 때 컨트롤러의 기준점 종류"
+    "keywords": "Namespace StormHawks.Runtime.Entities.Players Classes PlayerController 플레이어의 컨트롤러 요소를 관리하는 Class PlayerInputReader PlayerInputSettingSO PlayerMovementSO PlayerMover 플레이어의 이동을 전반적으로 담당하는 클래스 PlayerRotationSO PlayerRotator Enums PlayerInputType 플레이어가 기체를 움직일 때 컨트롤러의 기준점 종류"
+  },
+  "api/StormHawks.Runtime.Entities.Players.Pivot.html": {
+    "href": "api/StormHawks.Runtime.Entities.Players.Pivot.html",
+    "title": "Namespace StormHawks.Runtime.Entities.Players.Pivot | Developer Reference",
+    "keywords": "Namespace StormHawks.Runtime.Entities.Players.Pivot Classes PivotController"
+  },
+  "api/StormHawks.Runtime.Entities.Players.Pivot.PivotController.html": {
+    "href": "api/StormHawks.Runtime.Entities.Players.Pivot.PivotController.html",
+    "title": "Class PivotController | Developer Reference",
+    "keywords": "Class PivotController Inheritance Object PivotController Namespace : StormHawks.Runtime.Entities.Players.Pivot Assembly : cs.temp.dll.dll Syntax public class PivotController : MonoBehaviour Properties IsFrozen Declaration public bool IsFrozen { get; } Property Value Type Description Boolean Transform Declaration public Transform Transform { get; } Property Value Type Description Transform Methods FreezePivot() Declaration public void FreezePivot() UnfreezePivot() Declaration public void UnfreezePivot()"
+  },
+  "api/StormHawks.Runtime.Entities.Players.PlayerController.html": {
+    "href": "api/StormHawks.Runtime.Entities.Players.PlayerController.html",
+    "title": "Class PlayerController | Developer Reference",
+    "keywords": "Class PlayerController 플레이어의 컨트롤러 요소를 관리하는 Class Inheritance Object PlayerController Namespace : StormHawks.Runtime.Entities.Players Assembly : cs.temp.dll.dll Syntax public class PlayerController : MonoBehaviour"
   },
   "api/StormHawks.Runtime.Entities.Players.PlayerInputReader.html": {
     "href": "api/StormHawks.Runtime.Entities.Players.PlayerInputReader.html",
     "title": "Class PlayerInputReader | Developer Reference",
-    "keywords": "Class PlayerInputReader Inheritance Object PlayerInputReader Namespace : StormHawks.Runtime.Entities.Players Assembly : cs.temp.dll.dll Syntax public class PlayerInputReader : MonoBehaviour Methods GetAxisPointFromPivot(Transform) Declaration public (Vector3 left, Vector3 right) GetAxisPointFromPivot(Transform pivot) Parameters Type Name Description Transform pivot Returns Type Description (T1, T2) < Vector3 , Vector3 > GetNormalizedVectorFromPivot(Transform, PlayerInputType) Pivot을 기준으로 -1 ~ 1 사이로 Normalized된 해당 Input타입의 Point를 반환 Declaration public Vector3 GetNormalizedVectorFromPivot(Transform pivot, PlayerInputType type) Parameters Type Name Description Transform pivot 기준이 되는 Pivot PlayerInputType type Player의 움직임에 반영될 Input의 종류 Returns Type Description Vector3 Normalized된 해당 PlayerInputType의 Point GetVectorFromPivot(Transform, PlayerInputType) Pivot을 기준으로 해당 Input타입의 Point를 반환 Declaration public Vector3 GetVectorFromPivot(Transform pivot, PlayerInputType type) Parameters Type Name Description Transform pivot 기준이 되는 Pivot PlayerInputType type Player의 움직임에 반영될 Input의 종류 Returns Type Description Vector3 해당 PlayerInputType의 Point IsBothGripped() Declaration public bool IsBothGripped() Returns Type Description Boolean"
+    "keywords": "Class PlayerInputReader Inheritance Object PlayerInputReader Namespace : StormHawks.Runtime.Entities.Players Assembly : cs.temp.dll.dll Syntax public class PlayerInputReader : MonoBehaviour Methods GetAxisPointFromPivot(Transform) Declaration public (Vector3 left, Vector3 right) GetAxisPointFromPivot(Transform pivot) Parameters Type Name Description Transform pivot Returns Type Description (T1, T2) < Vector3 , Vector3 > GetNormalizedVectorFromPivot(Transform, PlayerInputType) Pivot을 기준으로 -1 ~ 1 사이로 Normalized된 해당 Input타입의 Point를 반환 Declaration public Vector3 GetNormalizedVectorFromPivot(Transform pivot, PlayerInputType type) Parameters Type Name Description Transform pivot 기준이 되는 Pivot PlayerInputType type Player의 움직임에 반영될 Input의 종류 Returns Type Description Vector3 Normalized된 해당 PlayerInputType의 Point GetVectorFromPivot(Transform, PlayerInputType) Pivot을 기준으로 해당 Input타입의 Point를 반환 Declaration public Vector3 GetVectorFromPivot(Transform pivot, PlayerInputType type) Parameters Type Name Description Transform pivot 기준이 되는 Pivot PlayerInputType type Player의 움직임에 반영될 Input의 종류 Returns Type Description Vector3 해당 PlayerInputType의 Point IsAllGripPressed() Declaration public bool IsAllGripPressed() Returns Type Description Boolean IsAllPositiveY(Transform) Declaration public bool IsAllPositiveY(Transform pivot) Parameters Type Name Description Transform pivot Returns Type Description Boolean"
   },
   "api/StormHawks.Runtime.Entities.Players.PlayerInputSettingSO.html": {
     "href": "api/StormHawks.Runtime.Entities.Players.PlayerInputSettingSO.html",
@@ -304,40 +319,25 @@
     "title": "Enum PlayerInputType | Developer Reference",
     "keywords": "Enum PlayerInputType 플레이어가 기체를 움직일 때 컨트롤러의 기준점 종류 Namespace : StormHawks.Runtime.Entities.Players Assembly : cs.temp.dll.dll Syntax public enum PlayerInputType Fields Name Description Between Center"
   },
-  "api/StormHawks.Runtime.Entity.Core.EntityMover.html": {
-    "href": "api/StormHawks.Runtime.Entity.Core.EntityMover.html",
-    "title": "Class EntityMover | Developer Reference",
-    "keywords": "Class EntityMover Entity의 움직임을 위한 클래스. Inheritance Object EntityMover Implements IMover Namespace : StormHawks.Runtime.Entity.Core Assembly : cs.temp.dll.dll Syntax public class EntityMover : MonoBehaviour Methods MoveTo(Vector3) Declaration public void MoveTo(Vector3 direction) Parameters Type Name Description Vector3 direction Implements IMover"
+  "api/StormHawks.Runtime.Entities.Players.PlayerMovementSO.html": {
+    "href": "api/StormHawks.Runtime.Entities.Players.PlayerMovementSO.html",
+    "title": "Class PlayerMovementSO | Developer Reference",
+    "keywords": "Class PlayerMovementSO Inheritance Object PlayerMovementSO Namespace : StormHawks.Runtime.Entities.Players Assembly : cs.temp.dll.dll Syntax public class PlayerMovementSO : ScriptableObject Properties DrivingForce Player가 움직일 때 가해지는 추진력의 최대량 Declaration public RangeValue DrivingForce { get; } Property Value Type Description RangeValue MovementLerpValue Entity의 현재 Velocity에서 FaceDirection으로 Velocity 벡터가 변화할 때 변화량 Declaration public float MovementLerpValue { get; } Property Value Type Description Single Position Declaration public Vector3 Position { get; } Property Value Type Description Vector3 Velocity Player가 움직이는 속도 Declaration public Vector3 Velocity { get; set; } Property Value Type Description Vector3 Methods SetPosition(Vector3) Declaration public void SetPosition(Vector3 pos) Parameters Type Name Description Vector3 pos"
   },
-  "api/StormHawks.Runtime.Entity.Core.EntityRotator.html": {
-    "href": "api/StormHawks.Runtime.Entity.Core.EntityRotator.html",
-    "title": "Class EntityRotator | Developer Reference",
-    "keywords": "Class EntityRotator Entity의 회전을 관리할 클래스. Inheritance Object EntityRotator Implements IRotator Namespace : StormHawks.Runtime.Entity.Core Assembly : cs.temp.dll.dll Syntax public class EntityRotator : MonoBehaviour Methods GetForward() Declaration public Vector3 GetForward() Returns Type Description Vector3 GetRotation() Declaration public Quaternion GetRotation() Returns Type Description Quaternion GetUp() Declaration public Vector3 GetUp() Returns Type Description Vector3 RotateTo(Vector3) Declaration public void RotateTo(Vector3 rotateDir) Parameters Type Name Description Vector3 rotateDir Implements IRotator"
+  "api/StormHawks.Runtime.Entities.Players.PlayerMover.html": {
+    "href": "api/StormHawks.Runtime.Entities.Players.PlayerMover.html",
+    "title": "Class PlayerMover | Developer Reference",
+    "keywords": "Class PlayerMover 플레이어의 이동을 전반적으로 담당하는 클래스 Inheritance Object PlayerMover Namespace : StormHawks.Runtime.Entities.Players Assembly : cs.temp.dll.dll Syntax public class PlayerMover : MonoBehaviour Methods GetDrivingForce(Single) Declaration public float GetDrivingForce(float multiplier) Parameters Type Name Description Single multiplier Returns Type Description Single LerpVelocity(Vector3) 플레이어의 이동 속도를 Lerp하는 함수 Declaration public void LerpVelocity(Vector3 target) Parameters Type Name Description Vector3 target Lerp의 목표가 되는 속도"
   },
-  "api/StormHawks.Runtime.Entity.Core.html": {
-    "href": "api/StormHawks.Runtime.Entity.Core.html",
-    "title": "Namespace StormHawks.Runtime.Entity.Core | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Entity.Core Classes EntityMover Entity의 움직임을 위한 클래스. EntityRotator Entity의 회전을 관리할 클래스."
+  "api/StormHawks.Runtime.Entities.Players.PlayerRotationSO.html": {
+    "href": "api/StormHawks.Runtime.Entities.Players.PlayerRotationSO.html",
+    "title": "Class PlayerRotationSO | Developer Reference",
+    "keywords": "Class PlayerRotationSO Inheritance Object PlayerRotationSO Namespace : StormHawks.Runtime.Entities.Players Assembly : cs.temp.dll.dll Syntax public class PlayerRotationSO : ScriptableObject Properties FaceDirection Declaration public Vector3 FaceDirection { get; } Property Value Type Description Vector3 RotateSpeed Player가 Rotate하는 속도 Declaration public AxisValue RotateSpeed { get; } Property Value Type Description AxisValue Rotation Declaration public Quaternion Rotation { get; } Property Value Type Description Quaternion RotationLerpValue Entity의 현재 forward에서 FaceDirection으로 회전할 때 변화량 Declaration public float RotationLerpValue { get; } Property Value Type Description Single Methods AddRotationValue(Quaternion) Declaration public void AddRotationValue(Quaternion value) Parameters Type Name Description Quaternion value SetFaceDirection(Vector3) Declaration public void SetFaceDirection(Vector3 dir) Parameters Type Name Description Vector3 dir SetRotation(Quaternion) Declaration public void SetRotation(Quaternion value) Parameters Type Name Description Quaternion value"
   },
-  "api/StormHawks.Runtime.Entity.Enemies.EnemyMovementSO.html": {
-    "href": "api/StormHawks.Runtime.Entity.Enemies.EnemyMovementSO.html",
-    "title": "Class EnemyMovementSO | Developer Reference",
-    "keywords": "Class EnemyMovementSO Inheritance Object EnemyMovementSO Namespace : StormHawks.Runtime.Entity.Enemies Assembly : cs.temp.dll.dll Syntax public class EnemyMovementSO : EntityMovementSO"
-  },
-  "api/StormHawks.Runtime.Entity.Enemies.html": {
-    "href": "api/StormHawks.Runtime.Entity.Enemies.html",
-    "title": "Namespace StormHawks.Runtime.Entity.Enemies | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Entity.Enemies Classes EnemyMovementSO"
-  },
-  "api/StormHawks.Runtime.Entity.Enemies.Turrets.html": {
-    "href": "api/StormHawks.Runtime.Entity.Enemies.Turrets.html",
-    "title": "Namespace StormHawks.Runtime.Entity.Enemies.Turrets | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Entity.Enemies.Turrets Classes TurretRotator"
-  },
-  "api/StormHawks.Runtime.Entity.Enemies.Turrets.TurretRotator.html": {
-    "href": "api/StormHawks.Runtime.Entity.Enemies.Turrets.TurretRotator.html",
-    "title": "Class TurretRotator | Developer Reference",
-    "keywords": "Class TurretRotator Inheritance Object TurretRotator Implements IRotator Namespace : StormHawks.Runtime.Entity.Enemies.Turrets Assembly : cs.temp.dll.dll Syntax public class TurretRotator : MonoBehaviour Methods GetForward() Declaration public Vector3 GetForward() Returns Type Description Vector3 GetRotation() Declaration public Quaternion GetRotation() Returns Type Description Quaternion GetUp() Declaration public Vector3 GetUp() Returns Type Description Vector3 RotateTo(Vector3) Declaration public void RotateTo(Vector3 rotateDir) Parameters Type Name Description Vector3 rotateDir Implements IRotator"
+  "api/StormHawks.Runtime.Entities.Players.PlayerRotator.html": {
+    "href": "api/StormHawks.Runtime.Entities.Players.PlayerRotator.html",
+    "title": "Class PlayerRotator | Developer Reference",
+    "keywords": "Class PlayerRotator Inheritance Object PlayerRotator Namespace : StormHawks.Runtime.Entities.Players Assembly : cs.temp.dll.dll Syntax public class PlayerRotator : MonoBehaviour Methods AddAxisRotation(Single, Single, Single) 해당 축을 기준으로 플레이어의 회전값을 더하는 함수 Declaration public void AddAxisRotation(float x, float y, float z) Parameters Type Name Description Single x X축 중심의 회전값에 더할 값 Single y Y축 중심의 회전값에 더할 값 Single z Z축 중심의 회전값에 더할 값 AddXAxisRotation(Single) Declaration public void AddXAxisRotation(float value) Parameters Type Name Description Single value AddYAxisRotation(Single) Declaration public void AddYAxisRotation(float value) Parameters Type Name Description Single value AddZAxisRotation(Single) Declaration public void AddZAxisRotation(float value) Parameters Type Name Description Single value LerpRotation() 플레이어의 현재 회전값에서 계산된 회전값으로 Lerp 해 적용하는 함수 Declaration public void LerpRotation()"
   },
   "api/StormHawks.Runtime.Entity.Nodes.BlackboardKey.html": {
     "href": "api/StormHawks.Runtime.Entity.Nodes.BlackboardKey.html",
@@ -368,21 +368,6 @@
     "href": "api/StormHawks.Runtime.Entity.Nodes.html",
     "title": "Namespace StormHawks.Runtime.Entity.Nodes | Developer Reference",
     "keywords": "Namespace StormHawks.Runtime.Entity.Nodes Classes BlackboardKey Blackbaord에 설정할 수 있는 Key BlackboardKey.LookTarget BlackboardKey.SeekTarget"
-  },
-  "api/StormHawks.Runtime.Entity.Player.html": {
-    "href": "api/StormHawks.Runtime.Entity.Player.html",
-    "title": "Namespace StormHawks.Runtime.Entity.Player | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Entity.Player Classes PlayerMovement PlayerMovementSO"
-  },
-  "api/StormHawks.Runtime.Entity.Player.PlayerMovement.html": {
-    "href": "api/StormHawks.Runtime.Entity.Player.PlayerMovement.html",
-    "title": "Class PlayerMovement | Developer Reference",
-    "keywords": "Class PlayerMovement Inheritance Object PlayerMovement Namespace : StormHawks.Runtime.Entity.Player Assembly : cs.temp.dll.dll Syntax public class PlayerMovement : MonoBehaviour"
-  },
-  "api/StormHawks.Runtime.Entity.Player.PlayerMovementSO.html": {
-    "href": "api/StormHawks.Runtime.Entity.Player.PlayerMovementSO.html",
-    "title": "Class PlayerMovementSO | Developer Reference",
-    "keywords": "Class PlayerMovementSO Inheritance Object PlayerMovementSO Namespace : StormHawks.Runtime.Entity.Player Assembly : cs.temp.dll.dll Syntax public class PlayerMovementSO : ScriptableObject Properties DrivingForce Player가 움직일 때 가해지는 추진력의 최대량 Declaration public RangeValue DrivingForce { get; } Property Value Type Description RangeValue FaceDirection Player의 forward 방향 벡터 Declaration public Vector3 FaceDirection { get; set; } Property Value Type Description Vector3 Remarks Length is 1 MovementLerpValue Entity의 현재 Velocity에서 FaceDirection으로 Velocity 벡터가 변화할 때 변화량 Declaration public float MovementLerpValue { get; } Property Value Type Description Single Position Declaration public Vector3 Position { get; } Property Value Type Description Vector3 RotateSpeed Player가 Rotate하는 속도 Declaration public AxisValue RotateSpeed { get; } Property Value Type Description AxisValue RotationLerpValue Entity의 현재 forward에서 FaceDirection으로 회전할 때 변화량 Declaration public float RotationLerpValue { get; } Property Value Type Description Single Velocity Player가 움직이는 속도 Declaration public Vector3 Velocity { get; set; } Property Value Type Description Vector3 Methods UpdatePosition(Vector3) Declaration public void UpdatePosition(Vector3 newPos) Parameters Type Name Description Vector3 newPos"
   },
   "api/StormHawks.Runtime.Player.html": {
     "href": "api/StormHawks.Runtime.Player.html",

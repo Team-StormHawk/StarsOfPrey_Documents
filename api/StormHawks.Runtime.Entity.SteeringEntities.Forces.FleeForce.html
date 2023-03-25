@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class EntityGroup
+    <title>Class FleeForce
    | Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class EntityGroup
+    <meta name="title" content="Class FleeForce
    | Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -78,36 +78,52 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Entity.Enemies.EntityGroup">
+            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Entity.SteeringEntities.Forces.FleeForce">
   
   
-  <h1 id="StormHawks_Runtime_Entity_Enemies_EntityGroup" data-uid="StormHawks.Runtime.Entity.Enemies.EntityGroup" class="text-break">Class EntityGroup
+  <h1 id="StormHawks_Runtime_Entity_SteeringEntities_Forces_FleeForce" data-uid="StormHawks.Runtime.Entity.SteeringEntities.Forces.FleeForce" class="text-break">Class FleeForce
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>특정 위치로부터 멀어지려고 하는 힘을 계산하는 클래스.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">EntityGroup</span></div>
+    <div class="level1"><a class="xref" href="StormHawks.Runtime.Entity.SteeringEntities.Forces.SteeringForce.html">SteeringForce</a></div>
+    <div class="level2"><span class="xref">FleeForce</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Entity.Enemies.html">StormHawks.Runtime.Entity.Enemies</a></h6>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Entity.SteeringEntities.Forces.SteeringForce.html#StormHawks_Runtime_Entity_SteeringEntities_Forces_SteeringForce_Weight">SteeringForce.Weight</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Entity.SteeringEntities.Forces.SteeringForce.html#StormHawks_Runtime_Entity_SteeringEntities_Forces_SteeringForce__steerEntity">SteeringForce._steerEntity</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Entity.SteeringEntities.Forces.SteeringForce.html#StormHawks_Runtime_Entity_SteeringEntities_Forces_SteeringForce__cachedTransform">SteeringForce._cachedTransform</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Entity.SteeringEntities.Forces.SteeringForce.html#StormHawks_Runtime_Entity_SteeringEntities_Forces_SteeringForce_ForcePriority">SteeringForce.ForcePriority</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Entity.SteeringEntities.Forces.html">StormHawks.Runtime.Entity.SteeringEntities.Forces</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="StormHawks_Runtime_Entity_Enemies_EntityGroup_syntax">Syntax</h5>
+  <h5 id="StormHawks_Runtime_Entity_SteeringEntities_Forces_FleeForce_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Serializable]
-public class EntityGroup</code></pre>
+    <pre><code class="lang-csharp hljs">public class FleeForce : SteeringForce</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   
   
-  <a id="StormHawks_Runtime_Entity_Enemies_EntityGroup__ctor_" data-uid="StormHawks.Runtime.Entity.Enemies.EntityGroup.#ctor*"></a>
-  <h4 id="StormHawks_Runtime_Entity_Enemies_EntityGroup__ctor_System_Int32_System_Int32_" data-uid="StormHawks.Runtime.Entity.Enemies.EntityGroup.#ctor(System.Int32,System.Int32)">EntityGroup(Int32, Int32)</h4>
+  <a id="StormHawks_Runtime_Entity_SteeringEntities_Forces_FleeForce__ctor_" data-uid="StormHawks.Runtime.Entity.SteeringEntities.Forces.FleeForce.#ctor*"></a>
+  <h4 id="StormHawks_Runtime_Entity_SteeringEntities_Forces_FleeForce__ctor_ISteerEntity_Transform_" data-uid="StormHawks.Runtime.Entity.SteeringEntities.Forces.FleeForce.#ctor(ISteerEntity,Transform)">FleeForce(ISteerEntity, Transform)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EntityGroup(int groupIndex, int maxCount)</code></pre>
+    <pre><code class="lang-csharp hljs">public FleeForce(ISteerEntity steerEntity, Transform transform)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -120,40 +136,13 @@ public class EntityGroup</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">groupIndex</span></td>
+        <td><span class="xref">ISteerEntity</span></td>
+        <td><span class="parametername">steerEntity</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">maxCount</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="properties">Properties
-  </h3>
-  
-  
-  <a id="StormHawks_Runtime_Entity_Enemies_EntityGroup_IsActive_" data-uid="StormHawks.Runtime.Entity.Enemies.EntityGroup.IsActive*"></a>
-  <h4 id="StormHawks_Runtime_Entity_Enemies_EntityGroup_IsActive" data-uid="StormHawks.Runtime.Entity.Enemies.EntityGroup.IsActive">IsActive</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool IsActive { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="xref">Transform</span></td>
+        <td><span class="parametername">transform</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -162,13 +151,13 @@ public class EntityGroup</code></pre>
   </h3>
   
   
-  <a id="StormHawks_Runtime_Entity_Enemies_EntityGroup_AddEntity_" data-uid="StormHawks.Runtime.Entity.Enemies.EntityGroup.AddEntity*"></a>
-  <h4 id="StormHawks_Runtime_Entity_Enemies_EntityGroup_AddEntity_SteeringEntity_" data-uid="StormHawks.Runtime.Entity.Enemies.EntityGroup.AddEntity(SteeringEntity)">AddEntity(SteeringEntity)</h4>
+  <a id="StormHawks_Runtime_Entity_SteeringEntities_Forces_FleeForce_OnEnter_" data-uid="StormHawks.Runtime.Entity.SteeringEntities.Forces.FleeForce.OnEnter*"></a>
+  <h4 id="StormHawks_Runtime_Entity_SteeringEntities_Forces_FleeForce_OnEnter_System_Single_" data-uid="StormHawks.Runtime.Entity.SteeringEntities.Forces.FleeForce.OnEnter(System.Single)">OnEnter(Single)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void AddEntity(SteeringEntity entity)</code></pre>
+    <pre><code class="lang-csharp hljs">public override void OnEnter(float weight)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -181,96 +170,35 @@ public class EntityGroup</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">SteeringEntity</span></td>
-        <td><span class="parametername">entity</span></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">weight</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="StormHawks.Runtime.Entity.SteeringEntities.Forces.SteeringForce.html#StormHawks_Runtime_Entity_SteeringEntities_Forces_SteeringForce_OnEnter_System_Single_">SteeringForce.OnEnter(Single)</a></div>
   
   
-  <a id="StormHawks_Runtime_Entity_Enemies_EntityGroup_GetEntities_" data-uid="StormHawks.Runtime.Entity.Enemies.EntityGroup.GetEntities*"></a>
-  <h4 id="StormHawks_Runtime_Entity_Enemies_EntityGroup_GetEntities" data-uid="StormHawks.Runtime.Entity.Enemies.EntityGroup.GetEntities">GetEntities()</h4>
+  <a id="StormHawks_Runtime_Entity_SteeringEntities_Forces_FleeForce_OnExit_" data-uid="StormHawks.Runtime.Entity.SteeringEntities.Forces.FleeForce.OnExit*"></a>
+  <h4 id="StormHawks_Runtime_Entity_SteeringEntities_Forces_FleeForce_OnExit" data-uid="StormHawks.Runtime.Entity.SteeringEntities.Forces.FleeForce.OnExit">OnExit()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public List&lt;SteeringEntity&gt; GetEntities()</code></pre>
+    <pre><code class="lang-csharp hljs">public override void OnExit()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">List</span>&lt;<span class="xref">SteeringEntity</span>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="StormHawks.Runtime.Entity.SteeringEntities.Forces.SteeringForce.html#StormHawks_Runtime_Entity_SteeringEntities_Forces_SteeringForce_OnExit">SteeringForce.OnExit()</a></div>
   
   
-  <a id="StormHawks_Runtime_Entity_Enemies_EntityGroup_GetGroupIndex_" data-uid="StormHawks.Runtime.Entity.Enemies.EntityGroup.GetGroupIndex*"></a>
-  <h4 id="StormHawks_Runtime_Entity_Enemies_EntityGroup_GetGroupIndex" data-uid="StormHawks.Runtime.Entity.Enemies.EntityGroup.GetGroupIndex">GetGroupIndex()</h4>
+  <a id="StormHawks_Runtime_Entity_SteeringEntities_Forces_FleeForce_OnRun_" data-uid="StormHawks.Runtime.Entity.SteeringEntities.Forces.FleeForce.OnRun*"></a>
+  <h4 id="StormHawks_Runtime_Entity_SteeringEntities_Forces_FleeForce_OnRun_Vector3_System_Single_" data-uid="StormHawks.Runtime.Entity.SteeringEntities.Forces.FleeForce.OnRun(Vector3,System.Single)">OnRun(Vector3, Single)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int GetGroupIndex()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="StormHawks_Runtime_Entity_Enemies_EntityGroup_IsFull_" data-uid="StormHawks.Runtime.Entity.Enemies.EntityGroup.IsFull*"></a>
-  <h4 id="StormHawks_Runtime_Entity_Enemies_EntityGroup_IsFull" data-uid="StormHawks.Runtime.Entity.Enemies.EntityGroup.IsFull">IsFull()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool IsFull()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="StormHawks_Runtime_Entity_Enemies_EntityGroup_RemoveEntity_" data-uid="StormHawks.Runtime.Entity.Enemies.EntityGroup.RemoveEntity*"></a>
-  <h4 id="StormHawks_Runtime_Entity_Enemies_EntityGroup_RemoveEntity_SteeringEntity_" data-uid="StormHawks.Runtime.Entity.Enemies.EntityGroup.RemoveEntity(SteeringEntity)">RemoveEntity(SteeringEntity)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void RemoveEntity(SteeringEntity entity)</code></pre>
+    <pre><code class="lang-csharp hljs">public void OnRun(Vector3 targetPos, float fleeSpeed)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -283,12 +211,44 @@ public class EntityGroup</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">SteeringEntity</span></td>
-        <td><span class="parametername">entity</span></td>
+        <td><span class="xref">Vector3</span></td>
+        <td><span class="parametername">targetPos</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">fleeSpeed</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  
+  
+  <a id="StormHawks_Runtime_Entity_SteeringEntities_Forces_FleeForce_SteerForce_" data-uid="StormHawks.Runtime.Entity.SteeringEntities.Forces.FleeForce.SteerForce*"></a>
+  <h4 id="StormHawks_Runtime_Entity_SteeringEntities_Forces_FleeForce_SteerForce" data-uid="StormHawks.Runtime.Entity.SteeringEntities.Forces.FleeForce.SteerForce">SteerForce()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override Vector3 SteerForce()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="StormHawks.Runtime.Entity.SteeringEntities.Forces.SteeringForce.html#StormHawks_Runtime_Entity_SteeringEntities_Forces_SteeringForce_SteerForce">SteeringForce.SteerForce()</a></div>
 </article>
           </div>
           

@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class SeekBehavior
+    <title>Class AvoidObstacleAction
    | Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class SeekBehavior
+    <meta name="title" content="Class AvoidObstacleAction
    | Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -78,129 +78,85 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Entity.SteeringBehaviors.SeekBehavior">
+            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Entities.Nodes.Actions.AvoidObstacleAction">
   
   
-  <h1 id="StormHawks_Runtime_Entity_SteeringBehaviors_SeekBehavior" data-uid="StormHawks.Runtime.Entity.SteeringBehaviors.SeekBehavior" class="text-break">Class SeekBehavior
+  <h1 id="StormHawks_Runtime_Entities_Nodes_Actions_AvoidObstacleAction" data-uid="StormHawks.Runtime.Entities.Nodes.Actions.AvoidObstacleAction" class="text-break">Class AvoidObstacleAction
   </h1>
-  <div class="markdown level0 summary"><p>Seek force를 계산하는 클래스.</p>
-</div>
+  <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><a class="xref" href="StormHawks.Runtime.Entity.SteeringBehaviors.SteeringBehavior.html">SteeringBehavior</a></div>
-    <div class="level2"><span class="xref">SeekBehavior</span></div>
-  </div>
-  <div class="implements">
-    <h5>Implements</h5>
-    <div><span class="xref">ISteerBehavior</span></div>
+    <div class="level1"><a class="xref" href="StormHawks.Runtime.Entities.Nodes.Actions.EntityActionNode.html">EntityActionNode</a></div>
+    <div class="level2"><a class="xref" href="StormHawks.Runtime.Entities.Nodes.Actions.EntitySteerActionNode.html">EntitySteerActionNode</a></div>
+    <div class="level3"><span class="xref">AvoidObstacleAction</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <a class="xref" href="StormHawks.Runtime.Entity.SteeringBehaviors.SteeringBehavior.html#StormHawks_Runtime_Entity_SteeringBehaviors_SteeringBehavior_Active">SteeringBehavior.Active</a>
+      <a class="xref" href="StormHawks.Runtime.Entities.Nodes.Actions.EntitySteerActionNode.html#StormHawks_Runtime_Entities_Nodes_Actions_EntitySteerActionNode__entity">EntitySteerActionNode._entity</a>
     </div>
     <div>
-      <a class="xref" href="StormHawks.Runtime.Entity.SteeringBehaviors.SteeringBehavior.html#StormHawks_Runtime_Entity_SteeringBehaviors_SteeringBehavior_Weight">SteeringBehavior.Weight</a>
+      <a class="xref" href="StormHawks.Runtime.Entities.Nodes.Actions.EntitySteerActionNode.html#StormHawks_Runtime_Entities_Nodes_Actions_EntitySteerActionNode_Initialize_GameObject_">EntitySteerActionNode.Initialize(GameObject)</a>
     </div>
     <div>
-      <a class="xref" href="StormHawks.Runtime.Entity.SteeringBehaviors.SteeringBehavior.html#StormHawks_Runtime_Entity_SteeringBehaviors_SteeringBehavior__steerEntity">SteeringBehavior._steerEntity</a>
+      <a class="xref" href="StormHawks.Runtime.Entities.Nodes.Actions.EntityActionNode.html#StormHawks_Runtime_Entities_Nodes_Actions_EntityActionNode__runnerTransform">EntityActionNode._runnerTransform</a>
     </div>
     <div>
-      <a class="xref" href="StormHawks.Runtime.Entity.SteeringBehaviors.SteeringBehavior.html#StormHawks_Runtime_Entity_SteeringBehaviors_SteeringBehavior_Initialize_ISteerEntity_">SteeringBehavior.Initialize(ISteerEntity)</a>
+      <a class="xref" href="StormHawks.Runtime.Entities.Nodes.Actions.EntityActionNode.html#StormHawks_Runtime_Entities_Nodes_Actions_EntityActionNode__rotator">EntityActionNode._rotator</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Entities.Nodes.Actions.EntityActionNode.html#StormHawks_Runtime_Entities_Nodes_Actions_EntityActionNode_OnInitialize">EntityActionNode.OnInitialize()</a>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Entity.SteeringBehaviors.html">StormHawks.Runtime.Entity.SteeringBehaviors</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Entities.Nodes.Actions.html">StormHawks.Runtime.Entities.Nodes.Actions</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="StormHawks_Runtime_Entity_SteeringBehaviors_SeekBehavior_syntax">Syntax</h5>
+  <h5 id="StormHawks_Runtime_Entities_Nodes_Actions_AvoidObstacleAction_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class SeekBehavior : SteeringBehavior</code></pre>
+    <pre><code class="lang-csharp hljs">public class AvoidObstacleAction : EntitySteerActionNode</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="StormHawks_Runtime_Entity_SteeringBehaviors_SeekBehavior_OnEnter_" data-uid="StormHawks.Runtime.Entity.SteeringBehaviors.SeekBehavior.OnEnter*"></a>
-  <h4 id="StormHawks_Runtime_Entity_SteeringBehaviors_SeekBehavior_OnEnter_System_Single_" data-uid="StormHawks.Runtime.Entity.SteeringBehaviors.SeekBehavior.OnEnter(System.Single)">OnEnter(Single)</h4>
+  <a id="StormHawks_Runtime_Entities_Nodes_Actions_AvoidObstacleAction_OnAbort_" data-uid="StormHawks.Runtime.Entities.Nodes.Actions.AvoidObstacleAction.OnAbort*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Nodes_Actions_AvoidObstacleAction_OnAbort" data-uid="StormHawks.Runtime.Entities.Nodes.Actions.AvoidObstacleAction.OnAbort">OnAbort()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void OnEnter(float weight)</code></pre>
+    <pre><code class="lang-csharp hljs">protected override void OnAbort()</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td><span class="parametername">weight</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="StormHawks.Runtime.Entity.SteeringBehaviors.SteeringBehavior.html#StormHawks_Runtime_Entity_SteeringBehaviors_SteeringBehavior_OnEnter_System_Single_">SteeringBehavior.OnEnter(Single)</a></div>
   
   
-  <a id="StormHawks_Runtime_Entity_SteeringBehaviors_SeekBehavior_OnExit_" data-uid="StormHawks.Runtime.Entity.SteeringBehaviors.SeekBehavior.OnExit*"></a>
-  <h4 id="StormHawks_Runtime_Entity_SteeringBehaviors_SeekBehavior_OnExit" data-uid="StormHawks.Runtime.Entity.SteeringBehaviors.SeekBehavior.OnExit">OnExit()</h4>
+  <a id="StormHawks_Runtime_Entities_Nodes_Actions_AvoidObstacleAction_OnEnter_" data-uid="StormHawks.Runtime.Entities.Nodes.Actions.AvoidObstacleAction.OnEnter*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Nodes_Actions_AvoidObstacleAction_OnEnter" data-uid="StormHawks.Runtime.Entities.Nodes.Actions.AvoidObstacleAction.OnEnter">OnEnter()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void OnExit()</code></pre>
+    <pre><code class="lang-csharp hljs">protected override void OnEnter()</code></pre>
   </div>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="StormHawks.Runtime.Entity.SteeringBehaviors.SteeringBehavior.html#StormHawks_Runtime_Entity_SteeringBehaviors_SteeringBehavior_OnExit">SteeringBehavior.OnExit()</a></div>
   
   
-  <a id="StormHawks_Runtime_Entity_SteeringBehaviors_SeekBehavior_OnRun_" data-uid="StormHawks.Runtime.Entity.SteeringBehaviors.SeekBehavior.OnRun*"></a>
-  <h4 id="StormHawks_Runtime_Entity_SteeringBehaviors_SeekBehavior_OnRun_Vector3_System_Single_" data-uid="StormHawks.Runtime.Entity.SteeringBehaviors.SeekBehavior.OnRun(Vector3,System.Single)">OnRun(Vector3, Single)</h4>
+  <a id="StormHawks_Runtime_Entities_Nodes_Actions_AvoidObstacleAction_OnExit_" data-uid="StormHawks.Runtime.Entities.Nodes.Actions.AvoidObstacleAction.OnExit*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Nodes_Actions_AvoidObstacleAction_OnExit" data-uid="StormHawks.Runtime.Entities.Nodes.Actions.AvoidObstacleAction.OnExit">OnExit()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnRun(Vector3 targetPos, float seekSpeed)</code></pre>
+    <pre><code class="lang-csharp hljs">protected override void OnExit()</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Vector3</span></td>
-        <td><span class="parametername">targetPos</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td><span class="parametername">seekSpeed</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   
   
-  <a id="StormHawks_Runtime_Entity_SteeringBehaviors_SeekBehavior_SteerForce_" data-uid="StormHawks.Runtime.Entity.SteeringBehaviors.SeekBehavior.SteerForce*"></a>
-  <h4 id="StormHawks_Runtime_Entity_SteeringBehaviors_SeekBehavior_SteerForce" data-uid="StormHawks.Runtime.Entity.SteeringBehaviors.SeekBehavior.SteerForce">SteerForce()</h4>
+  <a id="StormHawks_Runtime_Entities_Nodes_Actions_AvoidObstacleAction_OnRun_" data-uid="StormHawks.Runtime.Entities.Nodes.Actions.AvoidObstacleAction.OnRun*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Nodes_Actions_AvoidObstacleAction_OnRun" data-uid="StormHawks.Runtime.Entities.Nodes.Actions.AvoidObstacleAction.OnRun">OnRun()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override Vector3 SteerForce()</code></pre>
+    <pre><code class="lang-csharp hljs">protected override BehaviorNodeState OnRun()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -212,17 +168,11 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Vector3</span></td>
+        <td><a class="xref" href="StormHawks.Runtime.BehaviorTree.Core.BehaviorNodeState.html">BehaviorNodeState</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="StormHawks.Runtime.Entity.SteeringBehaviors.SteeringBehavior.html#StormHawks_Runtime_Entity_SteeringBehaviors_SteeringBehavior_SteerForce">SteeringBehavior.SteerForce()</a></div>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <span class="xref">ISteerBehavior</span>
-  </div>
 </article>
           </div>
           

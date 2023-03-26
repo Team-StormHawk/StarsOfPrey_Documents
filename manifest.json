@@ -504,6 +504,42 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/StormHawks.Runtime.Entities.Controllers.HandController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StormHawks.Runtime.Entities.Controllers.HandController.html",
+          "hash": "Gy1ltkHsuwmcP/6uo1FU8m2hU/qC5zGgeDxtUV2Pv50="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/StormHawks.Runtime.Entities.Controllers.HandControllerVisualizer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StormHawks.Runtime.Entities.Controllers.HandControllerVisualizer.html",
+          "hash": "GW3qeGJB2iRQUnxAVLxq4RkZ80TSvMBR7Zeaa++ktl4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/StormHawks.Runtime.Entities.Controllers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StormHawks.Runtime.Entities.Controllers.html",
+          "hash": "eOJEH2deu8D0En7ViOPCQKAJGlZRwrZSGWAc5UVxEsM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/StormHawks.Runtime.Entities.Detectors.AlwaysDetect.yml",
       "output": {
         ".html": {
@@ -916,7 +952,7 @@
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.Entities.Players.Pivot.PivotController.html",
-          "hash": "A0PmzOzOhAanGW0toScF/vecjN04I42mDHYS3uQl9xs="
+          "hash": "KntUY0jm0wp1IaFbs4NoSfxHenk0zAWy1ypOTRR4I94="
         }
       },
       "is_incremental": false,
@@ -936,11 +972,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StormHawks.Runtime.Entities.Players.PlayerController.yml",
+      "source_relative_path": "api/StormHawks.Runtime.Entities.Players.PlayerControlSO.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StormHawks.Runtime.Entities.Players.PlayerController.html",
-          "hash": "Ws0ivXT7mBXBdm8EtAPDtunpvFMW/wVNQDsL1NpSIwM="
+          "relative_path": "api/StormHawks.Runtime.Entities.Players.PlayerControlSO.html",
+          "hash": "GdXHPbkAjsYi9MUFI6JkagH91O5V3DZZEiOveNqJdMk="
         }
       },
       "is_incremental": false,
@@ -948,35 +984,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StormHawks.Runtime.Entities.Players.PlayerInputReader.yml",
+      "source_relative_path": "api/StormHawks.Runtime.Entities.Players.PlayerInteractSO.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StormHawks.Runtime.Entities.Players.PlayerInputReader.html",
-          "hash": "VyrF5JX1JrowIEPOcyY84CvD3o5MM2dR6MZKgvNzVW8="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/StormHawks.Runtime.Entities.Players.PlayerInputSettingSO.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/StormHawks.Runtime.Entities.Players.PlayerInputSettingSO.html",
-          "hash": "ba3CymR0DrxbEI79hDFz++DYepI51xfdjcqgxXMg8cA="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/StormHawks.Runtime.Entities.Players.PlayerInputType.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/StormHawks.Runtime.Entities.Players.PlayerInputType.html",
-          "hash": "E/pbMsOwMlA+7ip+iPZ7PKCcvOh3SwJ4nKkKuNGTmOw="
+          "relative_path": "api/StormHawks.Runtime.Entities.Players.PlayerInteractSO.html",
+          "hash": "PlJSEz+FL+3rjgS1PwetBnLtHW9Yu1BoNvoWKm/ZH4I="
         }
       },
       "is_incremental": false,
@@ -988,7 +1000,7 @@
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.Entities.Players.PlayerMovementSO.html",
-          "hash": "Y2SH0A1uZkmR/vgNIvk8b6AgPJvwf1KHzBVD1Oj5ZjQ="
+          "hash": "n2okTtCYKyIyVZW224RW6lL5mfh0hCGN6Frc9Kzt6Es="
         }
       },
       "is_incremental": false,
@@ -1000,19 +1012,7 @@
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.Entities.Players.PlayerMover.html",
-          "hash": "cITOiULPbTMuJ4fqIB0fJRyvco5BaFNJXSGpk5u1IzU="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/StormHawks.Runtime.Entities.Players.PlayerRotationSO.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/StormHawks.Runtime.Entities.Players.PlayerRotationSO.html",
-          "hash": "oGxfA3096wygPeZEmkeIzk2HuWGzBD3gzG+nVe84W90="
+          "hash": "0VqDWq2i+w6iEXSgXXN35Kn5okb2u48BjmRIZyCYzMs="
         }
       },
       "is_incremental": false,
@@ -1024,7 +1024,7 @@
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.Entities.Players.PlayerRotator.html",
-          "hash": "VdYY/lwYVZ3Tvh9v+275kx53QczAl7Zrpqij9HE5Kjs="
+          "hash": "ZdEETAwjuqvWnZtFd2HvamkOpMngmzG/nvrx/cfCFF0="
         }
       },
       "is_incremental": false,
@@ -1036,7 +1036,7 @@
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.Entities.Players.html",
-          "hash": "XVLZCoHTwISTKCYuP4YC5qh0ZDEoQLXUBudZXJ4FA30="
+          "hash": "fpjM+OoI+r8AhRG/uANdUDrfD94UqRryy+M/bj3kbJw="
         }
       },
       "is_incremental": false,
@@ -1308,23 +1308,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StormHawks.Runtime.Player.PlayerInteractSO.yml",
+      "source_relative_path": "api/StormHawks.Runtime.Utilities.Types.SimpleTransform.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StormHawks.Runtime.Player.PlayerInteractSO.html",
-          "hash": "klCWM/zwSf3oNRuv0nOnmAiA0yVa4T1svGH5cc2x6pQ="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/StormHawks.Runtime.Player.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/StormHawks.Runtime.Player.html",
-          "hash": "BuDGjNDPUWUUKSxA4ZLAuxEyVoJZdnLE4IW3NJ0blCA="
+          "relative_path": "api/StormHawks.Runtime.Utilities.Types.SimpleTransform.html",
+          "hash": "Y3ztJwJrqbcrDRd4WGOf5RO1LFEh5YWbM50BNJOhNfE="
         }
       },
       "is_incremental": false,
@@ -1348,7 +1336,7 @@
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.Utilities.Types.html",
-          "hash": "LWWERpJEjG9BiJn21LD/LkaUdyuSHzFm0NwYro6Jwuc="
+          "hash": "/QKd8vKY+JA/VVghvUdbIM6qHhTcvAAob51Bz0HaVts="
         }
       },
       "is_incremental": false,
@@ -1464,11 +1452,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StormHawks.Runtime.XR.Input.Controller.XRControllerInput.yml",
+      "source_relative_path": "api/StormHawks.Runtime.XR.Input.Button.XRAnalogButton.State.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StormHawks.Runtime.XR.Input.Controller.XRControllerInput.html",
-          "hash": "hVuYAoarR4BOBsbugDpylV/kt/iVCsqfKugV+HpX3Ck="
+          "relative_path": "api/StormHawks.Runtime.XR.Input.Button.XRAnalogButton.State.html",
+          "hash": "xiqXkVNQKrZleVdF7zL7RqNcQu/doWnnYxybdhjqiJo="
         }
       },
       "is_incremental": false,
@@ -1476,11 +1464,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StormHawks.Runtime.XR.Input.Controller.XRInputActionSO.yml",
+      "source_relative_path": "api/StormHawks.Runtime.XR.Input.Button.XRAnalogButton.Type.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StormHawks.Runtime.XR.Input.Controller.XRInputActionSO.html",
-          "hash": "p3uU+bhrnQ0VMorT6IavMLkCRaYVvNp+bixw8EhwVdA="
+          "relative_path": "api/StormHawks.Runtime.XR.Input.Button.XRAnalogButton.Type.html",
+          "hash": "aNUfnlxYl4JD7v/i0YotGDNiOYv90J2Io9QiNvsxNIU="
         }
       },
       "is_incremental": false,
@@ -1488,11 +1476,47 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StormHawks.Runtime.XR.Input.Controller.yml",
+      "source_relative_path": "api/StormHawks.Runtime.XR.Input.Button.XRAnalogButton.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StormHawks.Runtime.XR.Input.Controller.html",
-          "hash": "kwpk0KHuV5tPmF7PM3b3toiA5+G+OcmqAfXglWc1Hd4="
+          "relative_path": "api/StormHawks.Runtime.XR.Input.Button.XRAnalogButton.html",
+          "hash": "k47ScIgIqGcZEIbtd+oduDfW8GiueWMbtlFKwykWlYU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/StormHawks.Runtime.XR.Input.Button.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StormHawks.Runtime.XR.Input.Button.html",
+          "hash": "jRmYiKWR264Wl6e6ZbWIihCzeBrUqZhnRmToo4Kf/nw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/StormHawks.Runtime.XR.Input.XRControllerSO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StormHawks.Runtime.XR.Input.XRControllerSO.html",
+          "hash": "xfNAUJH+ekAI/AaNWs4Z5Y/O0Vflpm+Xb+6DhxJ2Qww="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/StormHawks.Runtime.XR.Input.XRControllerUpdater.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StormHawks.Runtime.XR.Input.XRControllerUpdater.html",
+          "hash": "dzrjpzpEOOyhsfy+ptTCxrJs29aVPX84fDK7+hDLB7U="
         }
       },
       "is_incremental": false,
@@ -1560,11 +1584,35 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/StormHawks.Runtime.XR.Input.XRInputManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StormHawks.Runtime.XR.Input.XRInputManager.html",
+          "hash": "T4/VHxyKRAYg/7Ry2SxhxDSPdqgCCFoRC3hEX4hwdag="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/StormHawks.Runtime.XR.Input.XRInputSettingSO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StormHawks.Runtime.XR.Input.XRInputSettingSO.html",
+          "hash": "AxYhnKfbwMqb+NKvCewD9BEKraSvFtBRAHcuo4W889E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/StormHawks.Runtime.XR.Input.yml",
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.XR.Input.html",
-          "hash": "Gkbm2KpqFVbKmlRPstNvyjs7JbB6hHhyzDNuDheFaRs="
+          "hash": "/c3Eg0nxPlvuoYq4WCajsCcKaAUNswlwzg4yKMY+zlY="
         }
       },
       "is_incremental": false,
@@ -1576,7 +1624,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "T6rvBybw1GeJEJ3aerotsJCLNEWrp3FZiq2+A6PVIe0="
+          "hash": "4ciQGal7aV1u/ub9RvlwWdWSvUH6RRg+RoqUF4d7nkM="
         }
       },
       "is_incremental": false,
@@ -1777,7 +1825,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 129,
+          "total_file_count": 133,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

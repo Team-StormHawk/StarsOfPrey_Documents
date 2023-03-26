@@ -4562,12 +4562,12 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Entity.SteeringEntities.Forces.SteeringForce.SteeringForce
   nameWithType: SteeringForce.SteeringForce
-- uid: StormHawks.Runtime.Entity.SteeringEntities.Forces.SteeringForce._cachedTransform
-  name: _cachedTransform
-  href: api/StormHawks.Runtime.Entity.SteeringEntities.Forces.SteeringForce.html#StormHawks_Runtime_Entity_SteeringEntities_Forces_SteeringForce__cachedTransform
-  commentId: F:StormHawks.Runtime.Entity.SteeringEntities.Forces.SteeringForce._cachedTransform
-  fullName: StormHawks.Runtime.Entity.SteeringEntities.Forces.SteeringForce._cachedTransform
-  nameWithType: SteeringForce._cachedTransform
+- uid: StormHawks.Runtime.Entity.SteeringEntities.Forces.SteeringForce._runnerTransform
+  name: _runnerTransform
+  href: api/StormHawks.Runtime.Entity.SteeringEntities.Forces.SteeringForce.html#StormHawks_Runtime_Entity_SteeringEntities_Forces_SteeringForce__runnerTransform
+  commentId: F:StormHawks.Runtime.Entity.SteeringEntities.Forces.SteeringForce._runnerTransform
+  fullName: StormHawks.Runtime.Entity.SteeringEntities.Forces.SteeringForce._runnerTransform
+  nameWithType: SteeringForce._runnerTransform
 - uid: StormHawks.Runtime.Entity.SteeringEntities.Forces.SteeringForce._steerEntity
   name: _steerEntity
   href: api/StormHawks.Runtime.Entity.SteeringEntities.Forces.SteeringForce.html#StormHawks_Runtime_Entity_SteeringEntities_Forces_SteeringForce__steerEntity
@@ -4805,6 +4805,69 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Entity.SteeringEntities.SteeringEntity.Update
   nameWithType: SteeringEntity.Update
+- uid: StormHawks.Runtime.Utilities.ScriptableObjects
+  name: StormHawks.Runtime.Utilities.ScriptableObjects
+  href: api/StormHawks.Runtime.Utilities.ScriptableObjects.html
+  commentId: N:StormHawks.Runtime.Utilities.ScriptableObjects
+  fullName: StormHawks.Runtime.Utilities.ScriptableObjects
+  nameWithType: StormHawks.Runtime.Utilities.ScriptableObjects
+- uid: StormHawks.Runtime.Utilities.ScriptableObjects.BossRuntimeSet
+  name: BossRuntimeSet
+  href: api/StormHawks.Runtime.Utilities.ScriptableObjects.BossRuntimeSet.html
+  commentId: T:StormHawks.Runtime.Utilities.ScriptableObjects.BossRuntimeSet
+  fullName: StormHawks.Runtime.Utilities.ScriptableObjects.BossRuntimeSet
+  nameWithType: BossRuntimeSet
+- uid: StormHawks.Runtime.Utilities.ScriptableObjects.RuntimeSet`1
+  name: RuntimeSet<T>
+  href: api/StormHawks.Runtime.Utilities.ScriptableObjects.RuntimeSet-1.html
+  commentId: T:StormHawks.Runtime.Utilities.ScriptableObjects.RuntimeSet`1
+  name.vb: RuntimeSet(Of T)
+  fullName: StormHawks.Runtime.Utilities.ScriptableObjects.RuntimeSet<T>
+  fullName.vb: StormHawks.Runtime.Utilities.ScriptableObjects.RuntimeSet(Of T)
+  nameWithType: RuntimeSet<T>
+  nameWithType.vb: RuntimeSet(Of T)
+- uid: StormHawks.Runtime.Utilities.ScriptableObjects.RuntimeSet`1.Add(`0)
+  name: Add(T)
+  href: api/StormHawks.Runtime.Utilities.ScriptableObjects.RuntimeSet-1.html#StormHawks_Runtime_Utilities_ScriptableObjects_RuntimeSet_1_Add__0_
+  commentId: M:StormHawks.Runtime.Utilities.ScriptableObjects.RuntimeSet`1.Add(`0)
+  fullName: StormHawks.Runtime.Utilities.ScriptableObjects.RuntimeSet<T>.Add(T)
+  fullName.vb: StormHawks.Runtime.Utilities.ScriptableObjects.RuntimeSet(Of T).Add(T)
+  nameWithType: RuntimeSet<T>.Add(T)
+  nameWithType.vb: RuntimeSet(Of T).Add(T)
+- uid: StormHawks.Runtime.Utilities.ScriptableObjects.RuntimeSet`1.Add*
+  name: Add
+  href: api/StormHawks.Runtime.Utilities.ScriptableObjects.RuntimeSet-1.html#StormHawks_Runtime_Utilities_ScriptableObjects_RuntimeSet_1_Add_
+  commentId: Overload:StormHawks.Runtime.Utilities.ScriptableObjects.RuntimeSet`1.Add
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Utilities.ScriptableObjects.RuntimeSet<T>.Add
+  fullName.vb: StormHawks.Runtime.Utilities.ScriptableObjects.RuntimeSet(Of T).Add
+  nameWithType: RuntimeSet<T>.Add
+  nameWithType.vb: RuntimeSet(Of T).Add
+- uid: StormHawks.Runtime.Utilities.ScriptableObjects.RuntimeSet`1.Items
+  name: Items
+  href: api/StormHawks.Runtime.Utilities.ScriptableObjects.RuntimeSet-1.html#StormHawks_Runtime_Utilities_ScriptableObjects_RuntimeSet_1_Items
+  commentId: F:StormHawks.Runtime.Utilities.ScriptableObjects.RuntimeSet`1.Items
+  fullName: StormHawks.Runtime.Utilities.ScriptableObjects.RuntimeSet<T>.Items
+  fullName.vb: StormHawks.Runtime.Utilities.ScriptableObjects.RuntimeSet(Of T).Items
+  nameWithType: RuntimeSet<T>.Items
+  nameWithType.vb: RuntimeSet(Of T).Items
+- uid: StormHawks.Runtime.Utilities.ScriptableObjects.RuntimeSet`1.Remove(`0)
+  name: Remove(T)
+  href: api/StormHawks.Runtime.Utilities.ScriptableObjects.RuntimeSet-1.html#StormHawks_Runtime_Utilities_ScriptableObjects_RuntimeSet_1_Remove__0_
+  commentId: M:StormHawks.Runtime.Utilities.ScriptableObjects.RuntimeSet`1.Remove(`0)
+  fullName: StormHawks.Runtime.Utilities.ScriptableObjects.RuntimeSet<T>.Remove(T)
+  fullName.vb: StormHawks.Runtime.Utilities.ScriptableObjects.RuntimeSet(Of T).Remove(T)
+  nameWithType: RuntimeSet<T>.Remove(T)
+  nameWithType.vb: RuntimeSet(Of T).Remove(T)
+- uid: StormHawks.Runtime.Utilities.ScriptableObjects.RuntimeSet`1.Remove*
+  name: Remove
+  href: api/StormHawks.Runtime.Utilities.ScriptableObjects.RuntimeSet-1.html#StormHawks_Runtime_Utilities_ScriptableObjects_RuntimeSet_1_Remove_
+  commentId: Overload:StormHawks.Runtime.Utilities.ScriptableObjects.RuntimeSet`1.Remove
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Utilities.ScriptableObjects.RuntimeSet<T>.Remove
+  fullName.vb: StormHawks.Runtime.Utilities.ScriptableObjects.RuntimeSet(Of T).Remove
+  nameWithType: RuntimeSet<T>.Remove
+  nameWithType.vb: RuntimeSet(Of T).Remove
 - uid: StormHawks.Runtime.Utilities.Types
   name: StormHawks.Runtime.Utilities.Types
   href: api/StormHawks.Runtime.Utilities.Types.html

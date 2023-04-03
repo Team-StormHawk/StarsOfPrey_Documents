@@ -385,6 +385,25 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.BehaviorTree.Core.Actions.LogNode.OnRun
   nameWithType: LogNode.OnRun
+- uid: StormHawks.Runtime.BehaviorTree.Core.Actions.SetBoolVariable
+  name: SetBoolVariable
+  href: api/StormHawks.Runtime.BehaviorTree.Core.Actions.SetBoolVariable.html
+  commentId: T:StormHawks.Runtime.BehaviorTree.Core.Actions.SetBoolVariable
+  fullName: StormHawks.Runtime.BehaviorTree.Core.Actions.SetBoolVariable
+  nameWithType: SetBoolVariable
+- uid: StormHawks.Runtime.BehaviorTree.Core.Actions.SetBoolVariable.OnRun
+  name: OnRun()
+  href: api/StormHawks.Runtime.BehaviorTree.Core.Actions.SetBoolVariable.html#StormHawks_Runtime_BehaviorTree_Core_Actions_SetBoolVariable_OnRun
+  commentId: M:StormHawks.Runtime.BehaviorTree.Core.Actions.SetBoolVariable.OnRun
+  fullName: StormHawks.Runtime.BehaviorTree.Core.Actions.SetBoolVariable.OnRun()
+  nameWithType: SetBoolVariable.OnRun()
+- uid: StormHawks.Runtime.BehaviorTree.Core.Actions.SetBoolVariable.OnRun*
+  name: OnRun
+  href: api/StormHawks.Runtime.BehaviorTree.Core.Actions.SetBoolVariable.html#StormHawks_Runtime_BehaviorTree_Core_Actions_SetBoolVariable_OnRun_
+  commentId: Overload:StormHawks.Runtime.BehaviorTree.Core.Actions.SetBoolVariable.OnRun
+  isSpec: "True"
+  fullName: StormHawks.Runtime.BehaviorTree.Core.Actions.SetBoolVariable.OnRun
+  nameWithType: SetBoolVariable.OnRun
 - uid: StormHawks.Runtime.BehaviorTree.Core.Actions.WaitNode
   name: WaitNode
   href: api/StormHawks.Runtime.BehaviorTree.Core.Actions.WaitNode.html
@@ -506,6 +525,19 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.BehaviorTree.Core.BehaviorNodeSO.Dispose
   nameWithType: BehaviorNodeSO.Dispose
+- uid: StormHawks.Runtime.BehaviorTree.Core.BehaviorNodeSO.GetBlackboardBoolKeys
+  name: GetBlackboardBoolKeys()
+  href: api/StormHawks.Runtime.BehaviorTree.Core.BehaviorNodeSO.html#StormHawks_Runtime_BehaviorTree_Core_BehaviorNodeSO_GetBlackboardBoolKeys
+  commentId: M:StormHawks.Runtime.BehaviorTree.Core.BehaviorNodeSO.GetBlackboardBoolKeys
+  fullName: StormHawks.Runtime.BehaviorTree.Core.BehaviorNodeSO.GetBlackboardBoolKeys()
+  nameWithType: BehaviorNodeSO.GetBlackboardBoolKeys()
+- uid: StormHawks.Runtime.BehaviorTree.Core.BehaviorNodeSO.GetBlackboardBoolKeys*
+  name: GetBlackboardBoolKeys
+  href: api/StormHawks.Runtime.BehaviorTree.Core.BehaviorNodeSO.html#StormHawks_Runtime_BehaviorTree_Core_BehaviorNodeSO_GetBlackboardBoolKeys_
+  commentId: Overload:StormHawks.Runtime.BehaviorTree.Core.BehaviorNodeSO.GetBlackboardBoolKeys
+  isSpec: "True"
+  fullName: StormHawks.Runtime.BehaviorTree.Core.BehaviorNodeSO.GetBlackboardBoolKeys
+  nameWithType: BehaviorNodeSO.GetBlackboardBoolKeys
 - uid: StormHawks.Runtime.BehaviorTree.Core.BehaviorNodeSO.GetBlackboardFloatKeys
   name: GetBlackboardFloatKeys()
   href: api/StormHawks.Runtime.BehaviorTree.Core.BehaviorNodeSO.html#StormHawks_Runtime_BehaviorTree_Core_BehaviorNodeSO_GetBlackboardFloatKeys
@@ -978,6 +1010,12 @@ references:
   commentId: T:StormHawks.Runtime.BehaviorTree.Core.BlackboardVariables.BlackboardKeys
   fullName: StormHawks.Runtime.BehaviorTree.Core.BlackboardVariables.BlackboardKeys
   nameWithType: BlackboardKeys
+- uid: StormHawks.Runtime.BehaviorTree.Core.BlackboardVariables.BlackboardKeys.BoolKeys
+  name: BoolKeys
+  href: api/StormHawks.Runtime.BehaviorTree.Core.BlackboardVariables.BlackboardKeys.html#StormHawks_Runtime_BehaviorTree_Core_BlackboardVariables_BlackboardKeys_BoolKeys
+  commentId: F:StormHawks.Runtime.BehaviorTree.Core.BlackboardVariables.BlackboardKeys.BoolKeys
+  fullName: StormHawks.Runtime.BehaviorTree.Core.BlackboardVariables.BlackboardKeys.BoolKeys
+  nameWithType: BlackboardKeys.BoolKeys
 - uid: StormHawks.Runtime.BehaviorTree.Core.BlackboardVariables.BlackboardKeys.FloatKeys
   name: FloatKeys
   href: api/StormHawks.Runtime.BehaviorTree.Core.BlackboardVariables.BlackboardKeys.html#StormHawks_Runtime_BehaviorTree_Core_BlackboardVariables_BlackboardKeys_FloatKeys
@@ -1072,6 +1110,38 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.BehaviorTree.Core.BlackboardVariables.BlackboardVariable.Key
   nameWithType: BlackboardVariable.Key
+- uid: StormHawks.Runtime.BehaviorTree.Core.BlackboardVariables.BoolVariable
+  name: BoolVariable
+  href: api/StormHawks.Runtime.BehaviorTree.Core.BlackboardVariables.BoolVariable.html
+  commentId: T:StormHawks.Runtime.BehaviorTree.Core.BlackboardVariables.BoolVariable
+  fullName: StormHawks.Runtime.BehaviorTree.Core.BlackboardVariables.BoolVariable
+  nameWithType: BoolVariable
+- uid: StormHawks.Runtime.BehaviorTree.Core.BlackboardVariables.BoolVariable.GetBlackboardKeys
+  name: GetBlackboardKeys()
+  href: api/StormHawks.Runtime.BehaviorTree.Core.BlackboardVariables.BoolVariable.html#StormHawks_Runtime_BehaviorTree_Core_BlackboardVariables_BoolVariable_GetBlackboardKeys
+  commentId: M:StormHawks.Runtime.BehaviorTree.Core.BlackboardVariables.BoolVariable.GetBlackboardKeys
+  fullName: StormHawks.Runtime.BehaviorTree.Core.BlackboardVariables.BoolVariable.GetBlackboardKeys()
+  nameWithType: BoolVariable.GetBlackboardKeys()
+- uid: StormHawks.Runtime.BehaviorTree.Core.BlackboardVariables.BoolVariable.GetBlackboardKeys*
+  name: GetBlackboardKeys
+  href: api/StormHawks.Runtime.BehaviorTree.Core.BlackboardVariables.BoolVariable.html#StormHawks_Runtime_BehaviorTree_Core_BlackboardVariables_BoolVariable_GetBlackboardKeys_
+  commentId: Overload:StormHawks.Runtime.BehaviorTree.Core.BlackboardVariables.BoolVariable.GetBlackboardKeys
+  isSpec: "True"
+  fullName: StormHawks.Runtime.BehaviorTree.Core.BlackboardVariables.BoolVariable.GetBlackboardKeys
+  nameWithType: BoolVariable.GetBlackboardKeys
+- uid: StormHawks.Runtime.BehaviorTree.Core.BlackboardVariables.BoolVariable.IsEquals(System.Boolean,System.Boolean)
+  name: IsEquals(Boolean, Boolean)
+  href: api/StormHawks.Runtime.BehaviorTree.Core.BlackboardVariables.BoolVariable.html#StormHawks_Runtime_BehaviorTree_Core_BlackboardVariables_BoolVariable_IsEquals_System_Boolean_System_Boolean_
+  commentId: M:StormHawks.Runtime.BehaviorTree.Core.BlackboardVariables.BoolVariable.IsEquals(System.Boolean,System.Boolean)
+  fullName: StormHawks.Runtime.BehaviorTree.Core.BlackboardVariables.BoolVariable.IsEquals(System.Boolean, System.Boolean)
+  nameWithType: BoolVariable.IsEquals(Boolean, Boolean)
+- uid: StormHawks.Runtime.BehaviorTree.Core.BlackboardVariables.BoolVariable.IsEquals*
+  name: IsEquals
+  href: api/StormHawks.Runtime.BehaviorTree.Core.BlackboardVariables.BoolVariable.html#StormHawks_Runtime_BehaviorTree_Core_BlackboardVariables_BoolVariable_IsEquals_
+  commentId: Overload:StormHawks.Runtime.BehaviorTree.Core.BlackboardVariables.BoolVariable.IsEquals
+  isSpec: "True"
+  fullName: StormHawks.Runtime.BehaviorTree.Core.BlackboardVariables.BoolVariable.IsEquals
+  nameWithType: BoolVariable.IsEquals
 - uid: StormHawks.Runtime.BehaviorTree.Core.BlackboardVariables.FloatVariable
   name: FloatVariable
   href: api/StormHawks.Runtime.BehaviorTree.Core.BlackboardVariables.FloatVariable.html
@@ -3068,6 +3138,38 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Entities.Interfaces.IDetectHandler.GetDetectResults
   nameWithType: IDetectHandler.GetDetectResults
+- uid: StormHawks.Runtime.Entities.Interfaces.IEnemyFire
+  name: IEnemyFire
+  href: api/StormHawks.Runtime.Entities.Interfaces.IEnemyFire.html
+  commentId: T:StormHawks.Runtime.Entities.Interfaces.IEnemyFire
+  fullName: StormHawks.Runtime.Entities.Interfaces.IEnemyFire
+  nameWithType: IEnemyFire
+- uid: StormHawks.Runtime.Entities.Interfaces.IEnemyFire.Fire(Vector3,Vector3)
+  name: Fire(Vector3, Vector3)
+  href: api/StormHawks.Runtime.Entities.Interfaces.IEnemyFire.html#StormHawks_Runtime_Entities_Interfaces_IEnemyFire_Fire_Vector3_Vector3_
+  commentId: M:StormHawks.Runtime.Entities.Interfaces.IEnemyFire.Fire(Vector3,Vector3)
+  fullName: StormHawks.Runtime.Entities.Interfaces.IEnemyFire.Fire(Vector3, Vector3)
+  nameWithType: IEnemyFire.Fire(Vector3, Vector3)
+- uid: StormHawks.Runtime.Entities.Interfaces.IEnemyFire.Fire*
+  name: Fire
+  href: api/StormHawks.Runtime.Entities.Interfaces.IEnemyFire.html#StormHawks_Runtime_Entities_Interfaces_IEnemyFire_Fire_
+  commentId: Overload:StormHawks.Runtime.Entities.Interfaces.IEnemyFire.Fire
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Entities.Interfaces.IEnemyFire.Fire
+  nameWithType: IEnemyFire.Fire
+- uid: StormHawks.Runtime.Entities.Interfaces.IEnemyFire.OnShootFinished
+  name: OnShootFinished
+  href: api/StormHawks.Runtime.Entities.Interfaces.IEnemyFire.html#StormHawks_Runtime_Entities_Interfaces_IEnemyFire_OnShootFinished
+  commentId: P:StormHawks.Runtime.Entities.Interfaces.IEnemyFire.OnShootFinished
+  fullName: StormHawks.Runtime.Entities.Interfaces.IEnemyFire.OnShootFinished
+  nameWithType: IEnemyFire.OnShootFinished
+- uid: StormHawks.Runtime.Entities.Interfaces.IEnemyFire.OnShootFinished*
+  name: OnShootFinished
+  href: api/StormHawks.Runtime.Entities.Interfaces.IEnemyFire.html#StormHawks_Runtime_Entities_Interfaces_IEnemyFire_OnShootFinished_
+  commentId: Overload:StormHawks.Runtime.Entities.Interfaces.IEnemyFire.OnShootFinished
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Entities.Interfaces.IEnemyFire.OnShootFinished
+  nameWithType: IEnemyFire.OnShootFinished
 - uid: StormHawks.Runtime.Entities.Interfaces.IEntityGroupMember
   name: IEntityGroupMember
   href: api/StormHawks.Runtime.Entities.Interfaces.IEntityGroupMember.html
@@ -3599,38 +3701,38 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Entities.Nodes.Actions.EntitySteerActionNode.Initialize
   nameWithType: EntitySteerActionNode.Initialize
-- uid: StormHawks.Runtime.Entities.Nodes.Actions.FireBullet
-  name: FireBullet
-  href: api/StormHawks.Runtime.Entities.Nodes.Actions.FireBullet.html
-  commentId: T:StormHawks.Runtime.Entities.Nodes.Actions.FireBullet
-  fullName: StormHawks.Runtime.Entities.Nodes.Actions.FireBullet
-  nameWithType: FireBullet
-- uid: StormHawks.Runtime.Entities.Nodes.Actions.FireBullet.OnEnter
+- uid: StormHawks.Runtime.Entities.Nodes.Actions.FireInterruptedShot
+  name: FireInterruptedShot
+  href: api/StormHawks.Runtime.Entities.Nodes.Actions.FireInterruptedShot.html
+  commentId: T:StormHawks.Runtime.Entities.Nodes.Actions.FireInterruptedShot
+  fullName: StormHawks.Runtime.Entities.Nodes.Actions.FireInterruptedShot
+  nameWithType: FireInterruptedShot
+- uid: StormHawks.Runtime.Entities.Nodes.Actions.FireInterruptedShot.OnEnter
   name: OnEnter()
-  href: api/StormHawks.Runtime.Entities.Nodes.Actions.FireBullet.html#StormHawks_Runtime_Entities_Nodes_Actions_FireBullet_OnEnter
-  commentId: M:StormHawks.Runtime.Entities.Nodes.Actions.FireBullet.OnEnter
-  fullName: StormHawks.Runtime.Entities.Nodes.Actions.FireBullet.OnEnter()
-  nameWithType: FireBullet.OnEnter()
-- uid: StormHawks.Runtime.Entities.Nodes.Actions.FireBullet.OnEnter*
+  href: api/StormHawks.Runtime.Entities.Nodes.Actions.FireInterruptedShot.html#StormHawks_Runtime_Entities_Nodes_Actions_FireInterruptedShot_OnEnter
+  commentId: M:StormHawks.Runtime.Entities.Nodes.Actions.FireInterruptedShot.OnEnter
+  fullName: StormHawks.Runtime.Entities.Nodes.Actions.FireInterruptedShot.OnEnter()
+  nameWithType: FireInterruptedShot.OnEnter()
+- uid: StormHawks.Runtime.Entities.Nodes.Actions.FireInterruptedShot.OnEnter*
   name: OnEnter
-  href: api/StormHawks.Runtime.Entities.Nodes.Actions.FireBullet.html#StormHawks_Runtime_Entities_Nodes_Actions_FireBullet_OnEnter_
-  commentId: Overload:StormHawks.Runtime.Entities.Nodes.Actions.FireBullet.OnEnter
+  href: api/StormHawks.Runtime.Entities.Nodes.Actions.FireInterruptedShot.html#StormHawks_Runtime_Entities_Nodes_Actions_FireInterruptedShot_OnEnter_
+  commentId: Overload:StormHawks.Runtime.Entities.Nodes.Actions.FireInterruptedShot.OnEnter
   isSpec: "True"
-  fullName: StormHawks.Runtime.Entities.Nodes.Actions.FireBullet.OnEnter
-  nameWithType: FireBullet.OnEnter
-- uid: StormHawks.Runtime.Entities.Nodes.Actions.FireBullet.OnRun
+  fullName: StormHawks.Runtime.Entities.Nodes.Actions.FireInterruptedShot.OnEnter
+  nameWithType: FireInterruptedShot.OnEnter
+- uid: StormHawks.Runtime.Entities.Nodes.Actions.FireInterruptedShot.OnRun
   name: OnRun()
-  href: api/StormHawks.Runtime.Entities.Nodes.Actions.FireBullet.html#StormHawks_Runtime_Entities_Nodes_Actions_FireBullet_OnRun
-  commentId: M:StormHawks.Runtime.Entities.Nodes.Actions.FireBullet.OnRun
-  fullName: StormHawks.Runtime.Entities.Nodes.Actions.FireBullet.OnRun()
-  nameWithType: FireBullet.OnRun()
-- uid: StormHawks.Runtime.Entities.Nodes.Actions.FireBullet.OnRun*
+  href: api/StormHawks.Runtime.Entities.Nodes.Actions.FireInterruptedShot.html#StormHawks_Runtime_Entities_Nodes_Actions_FireInterruptedShot_OnRun
+  commentId: M:StormHawks.Runtime.Entities.Nodes.Actions.FireInterruptedShot.OnRun
+  fullName: StormHawks.Runtime.Entities.Nodes.Actions.FireInterruptedShot.OnRun()
+  nameWithType: FireInterruptedShot.OnRun()
+- uid: StormHawks.Runtime.Entities.Nodes.Actions.FireInterruptedShot.OnRun*
   name: OnRun
-  href: api/StormHawks.Runtime.Entities.Nodes.Actions.FireBullet.html#StormHawks_Runtime_Entities_Nodes_Actions_FireBullet_OnRun_
-  commentId: Overload:StormHawks.Runtime.Entities.Nodes.Actions.FireBullet.OnRun
+  href: api/StormHawks.Runtime.Entities.Nodes.Actions.FireInterruptedShot.html#StormHawks_Runtime_Entities_Nodes_Actions_FireInterruptedShot_OnRun_
+  commentId: Overload:StormHawks.Runtime.Entities.Nodes.Actions.FireInterruptedShot.OnRun
   isSpec: "True"
-  fullName: StormHawks.Runtime.Entities.Nodes.Actions.FireBullet.OnRun
-  nameWithType: FireBullet.OnRun
+  fullName: StormHawks.Runtime.Entities.Nodes.Actions.FireInterruptedShot.OnRun
+  nameWithType: FireInterruptedShot.OnRun
 - uid: StormHawks.Runtime.Entities.Nodes.Actions.FleeAction
   name: FleeAction
   href: api/StormHawks.Runtime.Entities.Nodes.Actions.FleeAction.html
@@ -4201,6 +4303,25 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Entities.Nodes.Conditionals.IsAggressive.OnEnter
   nameWithType: IsAggressive.OnEnter
+- uid: StormHawks.Runtime.Entities.Nodes.Conditionals.IsFiring
+  name: IsFiring
+  href: api/StormHawks.Runtime.Entities.Nodes.Conditionals.IsFiring.html
+  commentId: T:StormHawks.Runtime.Entities.Nodes.Conditionals.IsFiring
+  fullName: StormHawks.Runtime.Entities.Nodes.Conditionals.IsFiring
+  nameWithType: IsFiring
+- uid: StormHawks.Runtime.Entities.Nodes.Conditionals.IsFiring.Condition
+  name: Condition()
+  href: api/StormHawks.Runtime.Entities.Nodes.Conditionals.IsFiring.html#StormHawks_Runtime_Entities_Nodes_Conditionals_IsFiring_Condition
+  commentId: M:StormHawks.Runtime.Entities.Nodes.Conditionals.IsFiring.Condition
+  fullName: StormHawks.Runtime.Entities.Nodes.Conditionals.IsFiring.Condition()
+  nameWithType: IsFiring.Condition()
+- uid: StormHawks.Runtime.Entities.Nodes.Conditionals.IsFiring.Condition*
+  name: Condition
+  href: api/StormHawks.Runtime.Entities.Nodes.Conditionals.IsFiring.html#StormHawks_Runtime_Entities_Nodes_Conditionals_IsFiring_Condition_
+  commentId: Overload:StormHawks.Runtime.Entities.Nodes.Conditionals.IsFiring.Condition
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Entities.Nodes.Conditionals.IsFiring.Condition
+  nameWithType: IsFiring.Condition
 - uid: StormHawks.Runtime.Entities.Nodes.Conditionals.IsInEntityGroup
   name: IsInEntityGroup
   href: api/StormHawks.Runtime.Entities.Nodes.Conditionals.IsInEntityGroup.html
@@ -5008,6 +5129,32 @@ references:
   commentId: T:StormHawks.Runtime.Entity.Nodes.Decorators.Inverter
   fullName: StormHawks.Runtime.Entity.Nodes.Decorators.Inverter
   nameWithType: Inverter
+- uid: StormHawks.Runtime.Entity.Nodes.Decorators.Inverter.IsRunnable
+  name: IsRunnable()
+  href: api/StormHawks.Runtime.Entity.Nodes.Decorators.Inverter.html#StormHawks_Runtime_Entity_Nodes_Decorators_Inverter_IsRunnable
+  commentId: M:StormHawks.Runtime.Entity.Nodes.Decorators.Inverter.IsRunnable
+  fullName: StormHawks.Runtime.Entity.Nodes.Decorators.Inverter.IsRunnable()
+  nameWithType: Inverter.IsRunnable()
+- uid: StormHawks.Runtime.Entity.Nodes.Decorators.Inverter.IsRunnable*
+  name: IsRunnable
+  href: api/StormHawks.Runtime.Entity.Nodes.Decorators.Inverter.html#StormHawks_Runtime_Entity_Nodes_Decorators_Inverter_IsRunnable_
+  commentId: Overload:StormHawks.Runtime.Entity.Nodes.Decorators.Inverter.IsRunnable
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Entity.Nodes.Decorators.Inverter.IsRunnable
+  nameWithType: Inverter.IsRunnable
+- uid: StormHawks.Runtime.Entity.Nodes.Decorators.Inverter.OnInitialize
+  name: OnInitialize()
+  href: api/StormHawks.Runtime.Entity.Nodes.Decorators.Inverter.html#StormHawks_Runtime_Entity_Nodes_Decorators_Inverter_OnInitialize
+  commentId: M:StormHawks.Runtime.Entity.Nodes.Decorators.Inverter.OnInitialize
+  fullName: StormHawks.Runtime.Entity.Nodes.Decorators.Inverter.OnInitialize()
+  nameWithType: Inverter.OnInitialize()
+- uid: StormHawks.Runtime.Entity.Nodes.Decorators.Inverter.OnInitialize*
+  name: OnInitialize
+  href: api/StormHawks.Runtime.Entity.Nodes.Decorators.Inverter.html#StormHawks_Runtime_Entity_Nodes_Decorators_Inverter_OnInitialize_
+  commentId: Overload:StormHawks.Runtime.Entity.Nodes.Decorators.Inverter.OnInitialize
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Entity.Nodes.Decorators.Inverter.OnInitialize
+  nameWithType: Inverter.OnInitialize
 - uid: StormHawks.Runtime.Entity.Nodes.Decorators.Inverter.OnRun
   name: OnRun()
   href: api/StormHawks.Runtime.Entity.Nodes.Decorators.Inverter.html#StormHawks_Runtime_Entity_Nodes_Decorators_Inverter_OnRun

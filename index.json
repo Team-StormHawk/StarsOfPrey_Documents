@@ -1037,7 +1037,7 @@
   "api/StormHawks.Runtime.Utilities.Types.Dictionaries.UnitySerializedDictionary-2.html": {
     "href": "api/StormHawks.Runtime.Utilities.Types.Dictionaries.UnitySerializedDictionary-2.html",
     "title": "Class UnitySerializedDictionary<TKey, TValue> | Developer Reference",
-    "keywords": "Class UnitySerializedDictionary<TKey, TValue> Inheritance Object UnitySerializedDictionary<TKey, TValue> EnumDictionary<TKey, TValue> Implements ISerializationCallbackReceiver Namespace : StormHawks.Runtime.Utilities.Types.Dictionaries Assembly : cs.temp.dll.dll Syntax public abstract class UnitySerializedDictionary<TKey, TValue> : Dictionary<TKey, TValue> Type Parameters Name Description TKey TValue Methods OnAfterDeserialize() Declaration public void OnAfterDeserialize() OnBeforeSerialize() Declaration public void OnBeforeSerialize() Implements ISerializationCallbackReceiver"
+    "keywords": "Class UnitySerializedDictionary<TKey, TValue> Inheritance Object UnitySerializedDictionary<TKey, TValue> EnumDictionary<TKey, TValue> Implements ISerializationCallbackReceiver Namespace : StormHawks.Runtime.Utilities.Types.Dictionaries Assembly : cs.temp.dll.dll Syntax [Serializable] public abstract class UnitySerializedDictionary<TKey, TValue> : Dictionary<TKey, TValue> Type Parameters Name Description TKey TValue Methods OnAfterDeserialize() Declaration public void OnAfterDeserialize() OnBeforeSerialize() Declaration public void OnBeforeSerialize() Implements ISerializationCallbackReceiver"
   },
   "api/StormHawks.Runtime.Utilities.Types.html": {
     "href": "api/StormHawks.Runtime.Utilities.Types.html",

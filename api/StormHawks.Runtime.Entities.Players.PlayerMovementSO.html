@@ -96,6 +96,57 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class PlayerMovementSO : ScriptableObject</code></pre>
   </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="StormHawks_Runtime_Entities_Players_PlayerMovementSO_faceDirection" data-uid="StormHawks.Runtime.Entities.Players.PlayerMovementSO.faceDirection">faceDirection</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 faceDirection</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="StormHawks_Runtime_Entities_Players_PlayerMovementSO_velocity" data-uid="StormHawks.Runtime.Entities.Players.PlayerMovementSO.velocity">velocity</h4>
+  <div class="markdown level1 summary"><p>Player가 움직이는 속도</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 velocity</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="properties">Properties
   </h3>
   
@@ -126,31 +177,6 @@
   </table>
   
   
-  <a id="StormHawks_Runtime_Entities_Players_PlayerMovementSO_FaceDirection_" data-uid="StormHawks.Runtime.Entities.Players.PlayerMovementSO.FaceDirection*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Players_PlayerMovementSO_FaceDirection" data-uid="StormHawks.Runtime.Entities.Players.PlayerMovementSO.FaceDirection">FaceDirection</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Vector3 FaceDirection { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Vector3</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
   <a id="StormHawks_Runtime_Entities_Players_PlayerMovementSO_MovementLerpValue_" data-uid="StormHawks.Runtime.Entities.Players.PlayerMovementSO.MovementLerpValue*"></a>
   <h4 id="StormHawks_Runtime_Entities_Players_PlayerMovementSO_MovementLerpValue" data-uid="StormHawks.Runtime.Entities.Players.PlayerMovementSO.MovementLerpValue">MovementLerpValue</h4>
   <div class="markdown level1 summary"><p>Entity의 현재 Velocity에서 FaceDirection으로 Velocity 벡터가 변화할 때 변화량</p>
@@ -171,6 +197,31 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StormHawks_Runtime_Entities_Players_PlayerMovementSO_Point_" data-uid="StormHawks.Runtime.Entities.Players.PlayerMovementSO.Point*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Players_PlayerMovementSO_Point" data-uid="StormHawks.Runtime.Entities.Players.PlayerMovementSO.Point">Point</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PointValue Point { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">PointValue</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -223,86 +274,6 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="StormHawks_Runtime_Entities_Players_PlayerMovementSO_Transform_" data-uid="StormHawks.Runtime.Entities.Players.PlayerMovementSO.Transform*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Players_PlayerMovementSO_Transform" data-uid="StormHawks.Runtime.Entities.Players.PlayerMovementSO.Transform">Transform</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SimpleTransform Transform { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">SimpleTransform</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="StormHawks_Runtime_Entities_Players_PlayerMovementSO_Velocity_" data-uid="StormHawks.Runtime.Entities.Players.PlayerMovementSO.Velocity*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Players_PlayerMovementSO_Velocity" data-uid="StormHawks.Runtime.Entities.Players.PlayerMovementSO.Velocity">Velocity</h4>
-  <div class="markdown level1 summary"><p>Player가 움직이는 속도</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Vector3 Velocity { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Vector3</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="methods">Methods
-  </h3>
-  
-  
-  <a id="StormHawks_Runtime_Entities_Players_PlayerMovementSO_SetFaceDirection_" data-uid="StormHawks.Runtime.Entities.Players.PlayerMovementSO.SetFaceDirection*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Players_PlayerMovementSO_SetFaceDirection_Vector3_" data-uid="StormHawks.Runtime.Entities.Players.PlayerMovementSO.SetFaceDirection(Vector3)">SetFaceDirection(Vector3)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetFaceDirection(Vector3 dir)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Vector3</span></td>
-        <td><span class="parametername">dir</span></td>
         <td></td>
       </tr>
     </tbody>

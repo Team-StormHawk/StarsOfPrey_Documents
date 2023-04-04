@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class Vector3Extensions
+    <title>Class XRAnalogButton
    | Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class Vector3Extensions
+    <meta name="title" content="Class XRAnalogButton
    | Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -78,35 +78,142 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Utilities.Extensions.Vector3Extensions">
+            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Inputs.XR.Buttons.XRAnalogButton">
   
   
-  <h1 id="StormHawks_Runtime_Utilities_Extensions_Vector3Extensions" data-uid="StormHawks.Runtime.Utilities.Extensions.Vector3Extensions" class="text-break">Class Vector3Extensions
+  <h1 id="StormHawks_Runtime_Inputs_XR_Buttons_XRAnalogButton" data-uid="StormHawks.Runtime.Inputs.XR.Buttons.XRAnalogButton" class="text-break">Class XRAnalogButton
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">Vector3Extensions</span></div>
+    <div class="level1"><a class="xref" href="StormHawks.Runtime.Inputs.XR.Buttons.XRButton.html">XRButton</a></div>
+    <div class="level2"><span class="xref">XRAnalogButton</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Utilities.Extensions.html">StormHawks.Runtime.Utilities.Extensions</a></h6>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Inputs.XR.Buttons.XRButton.html#StormHawks_Runtime_Inputs_XR_Buttons_XRButton_Pressed">XRButton.Pressed</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Inputs.XR.Buttons.XRButton.html#StormHawks_Runtime_Inputs_XR_Buttons_XRButton_OnPressedChange">XRButton.OnPressedChange</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Inputs.XR.Buttons.XRButton.html#StormHawks_Runtime_Inputs_XR_Buttons_XRButton_IsInitialized">XRButton.IsInitialized</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Inputs.XR.Buttons.XRButton.html#StormHawks_Runtime_Inputs_XR_Buttons_XRButton_SetPressed_System_Boolean_">XRButton.SetPressed(Boolean)</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Inputs.XR.Buttons.html">StormHawks.Runtime.Inputs.XR.Buttons</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="StormHawks_Runtime_Utilities_Extensions_Vector3Extensions_syntax">Syntax</h5>
+  <h5 id="StormHawks_Runtime_Inputs_XR_Buttons_XRAnalogButton_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class Vector3Extensions</code></pre>
+    <pre><code class="lang-csharp hljs">[Serializable]
+public class XRAnalogButton : XRButton</code></pre>
   </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="StormHawks_Runtime_Inputs_XR_Buttons_XRAnalogButton_OnStateChanged" data-uid="StormHawks.Runtime.Inputs.XR.Buttons.XRAnalogButton.OnStateChanged">OnStateChanged</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityAction&lt;XRAnalogButton.State&gt; OnStateChanged</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityAction</span>&lt;<a class="xref" href="StormHawks.Runtime.Inputs.XR.Buttons.XRAnalogButton.State.html">XRAnalogButton.State</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="StormHawks_Runtime_Inputs_XR_Buttons_XRAnalogButton_PressState_" data-uid="StormHawks.Runtime.Inputs.XR.Buttons.XRAnalogButton.PressState*"></a>
+  <h4 id="StormHawks_Runtime_Inputs_XR_Buttons_XRAnalogButton_PressState" data-uid="StormHawks.Runtime.Inputs.XR.Buttons.XRAnalogButton.PressState">PressState</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public XRAnalogButton.State PressState { get; protected set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="StormHawks.Runtime.Inputs.XR.Buttons.XRAnalogButton.State.html">XRAnalogButton.State</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StormHawks_Runtime_Inputs_XR_Buttons_XRAnalogButton_PressValue_" data-uid="StormHawks.Runtime.Inputs.XR.Buttons.XRAnalogButton.PressValue*"></a>
+  <h4 id="StormHawks_Runtime_Inputs_XR_Buttons_XRAnalogButton_PressValue" data-uid="StormHawks.Runtime.Inputs.XR.Buttons.XRAnalogButton.PressValue">PressValue</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float PressValue { get; protected set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="StormHawks_Runtime_Utilities_Extensions_Vector3Extensions_GetLocalPositionFromPivot_" data-uid="StormHawks.Runtime.Utilities.Extensions.Vector3Extensions.GetLocalPositionFromPivot*"></a>
-  <h4 id="StormHawks_Runtime_Utilities_Extensions_Vector3Extensions_GetLocalPositionFromPivot_Vector3_Transform_" data-uid="StormHawks.Runtime.Utilities.Extensions.Vector3Extensions.GetLocalPositionFromPivot(Vector3,Transform)">GetLocalPositionFromPivot(Vector3, Transform)</h4>
+  <a id="StormHawks_Runtime_Inputs_XR_Buttons_XRAnalogButton_Initialize_" data-uid="StormHawks.Runtime.Inputs.XR.Buttons.XRAnalogButton.Initialize*"></a>
+  <h4 id="StormHawks_Runtime_Inputs_XR_Buttons_XRAnalogButton_Initialize" data-uid="StormHawks.Runtime.Inputs.XR.Buttons.XRAnalogButton.Initialize">Initialize()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Vector3 GetLocalPositionFromPivot(this Vector3 worldVec, Transform pivot)</code></pre>
+    <pre><code class="lang-csharp hljs">public override void Initialize()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="StormHawks.Runtime.Inputs.XR.Buttons.XRButton.html#StormHawks_Runtime_Inputs_XR_Buttons_XRButton_Initialize">XRButton.Initialize()</a></div>
+  
+  
+  <a id="StormHawks_Runtime_Inputs_XR_Buttons_XRAnalogButton_SetPressValue_" data-uid="StormHawks.Runtime.Inputs.XR.Buttons.XRAnalogButton.SetPressValue*"></a>
+  <h4 id="StormHawks_Runtime_Inputs_XR_Buttons_XRAnalogButton_SetPressValue_System_Single_" data-uid="StormHawks.Runtime.Inputs.XR.Buttons.XRAnalogButton.SetPressValue(System.Single)">SetPressValue(Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetPressValue(float value)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -119,206 +226,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Vector3</span></td>
-        <td><span class="parametername">worldVec</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">Transform</span></td>
-        <td><span class="parametername">pivot</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Vector3</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="StormHawks_Runtime_Utilities_Extensions_Vector3Extensions_IgnoreByRange_" data-uid="StormHawks.Runtime.Utilities.Extensions.Vector3Extensions.IgnoreByRange*"></a>
-  <h4 id="StormHawks_Runtime_Utilities_Extensions_Vector3Extensions_IgnoreByRange_Vector3_AxisValue_" data-uid="StormHawks.Runtime.Utilities.Extensions.Vector3Extensions.IgnoreByRange(Vector3,AxisValue)">IgnoreByRange(Vector3, AxisValue)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Vector3 IgnoreByRange(this Vector3 vec, AxisValue range)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Vector3</span></td>
-        <td><span class="parametername">vec</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">AxisValue</span></td>
-        <td><span class="parametername">range</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Vector3</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="StormHawks_Runtime_Utilities_Extensions_Vector3Extensions_IsZero_" data-uid="StormHawks.Runtime.Utilities.Extensions.Vector3Extensions.IsZero*"></a>
-  <h4 id="StormHawks_Runtime_Utilities_Extensions_Vector3Extensions_IsZero_Vector3_" data-uid="StormHawks.Runtime.Utilities.Extensions.Vector3Extensions.IsZero(Vector3)">IsZero(Vector3)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsZero(this Vector3 v)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Vector3</span></td>
-        <td><span class="parametername">v</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="StormHawks_Runtime_Utilities_Extensions_Vector3Extensions_NearZero_" data-uid="StormHawks.Runtime.Utilities.Extensions.Vector3Extensions.NearZero*"></a>
-  <h4 id="StormHawks_Runtime_Utilities_Extensions_Vector3Extensions_NearZero_Vector3_" data-uid="StormHawks.Runtime.Utilities.Extensions.Vector3Extensions.NearZero(Vector3)">NearZero(Vector3)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool NearZero(this Vector3 v)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Vector3</span></td>
-        <td><span class="parametername">v</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="StormHawks_Runtime_Utilities_Extensions_Vector3Extensions_NormalizeByRange_" data-uid="StormHawks.Runtime.Utilities.Extensions.Vector3Extensions.NormalizeByRange*"></a>
-  <h4 id="StormHawks_Runtime_Utilities_Extensions_Vector3Extensions_NormalizeByRange_Vector3_AxisValue_" data-uid="StormHawks.Runtime.Utilities.Extensions.Vector3Extensions.NormalizeByRange(Vector3,AxisValue)">NormalizeByRange(Vector3, AxisValue)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Vector3 NormalizeByRange(this Vector3 vec, AxisValue range)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Vector3</span></td>
-        <td><span class="parametername">vec</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">AxisValue</span></td>
-        <td><span class="parametername">range</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Vector3</span></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">value</span></td>
         <td></td>
       </tr>
     </tbody>

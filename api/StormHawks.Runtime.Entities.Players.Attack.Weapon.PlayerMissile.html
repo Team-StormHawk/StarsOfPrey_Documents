@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class EntityDetectCamera
+    <title>Class PlayerMissile
    | Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class EntityDetectCamera
+    <meta name="title" content="Class PlayerMissile
    | Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -78,36 +78,41 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Entities.Cameras.EntityDetectCamera">
+            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Entities.Players.Attack.Weapon.PlayerMissile">
   
   
-  <h1 id="StormHawks_Runtime_Entities_Cameras_EntityDetectCamera" data-uid="StormHawks.Runtime.Entities.Cameras.EntityDetectCamera" class="text-break">Class EntityDetectCamera
+  <h1 id="StormHawks_Runtime_Entities_Players_Attack_Weapon_PlayerMissile" data-uid="StormHawks.Runtime.Entities.Players.Attack.Weapon.PlayerMissile" class="text-break">Class PlayerMissile
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">EntityDetectCamera</span></div>
+    <div class="level1"><span class="xref">PlayerMissile</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Entities.Cameras.html">StormHawks.Runtime.Entities.Cameras</a></h6>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">IInitializable</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Entities.Players.Attack.Weapon.html">StormHawks.Runtime.Entities.Players.Attack.Weapon</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="StormHawks_Runtime_Entities_Cameras_EntityDetectCamera_syntax">Syntax</h5>
+  <h5 id="StormHawks_Runtime_Entities_Players_Attack_Weapon_PlayerMissile_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class EntityDetectCamera : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public class PlayerMissile : SteeringEntity</code></pre>
   </div>
-  <h3 id="fields">Fields
+  <h3 id="properties">Properties
   </h3>
   
   
-  <h4 id="StormHawks_Runtime_Entities_Cameras_EntityDetectCamera_OnDetectEntity" data-uid="StormHawks.Runtime.Entities.Cameras.EntityDetectCamera.OnDetectEntity">OnDetectEntity</h4>
+  <a id="StormHawks_Runtime_Entities_Players_Attack_Weapon_PlayerMissile_IsInitialized_" data-uid="StormHawks.Runtime.Entities.Players.Attack.Weapon.PlayerMissile.IsInitialized*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Players_Attack_Weapon_PlayerMissile_IsInitialized" data-uid="StormHawks.Runtime.Entities.Players.Attack.Weapon.PlayerMissile.IsInitialized">IsInitialized</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public UnityAction&lt;DetectableEntity&gt; OnDetectEntity</code></pre>
+    <pre><code class="lang-csharp hljs">public bool IsInitialized { get; }</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -117,31 +122,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">UnityAction</span>&lt;<span class="xref">DetectableEntity</span>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="StormHawks_Runtime_Entities_Cameras_EntityDetectCamera_OnReleaseEntity" data-uid="StormHawks.Runtime.Entities.Cameras.EntityDetectCamera.OnReleaseEntity">OnReleaseEntity</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public UnityAction&lt;DetectableEntity&gt; OnReleaseEntity</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">UnityAction</span>&lt;<span class="xref">DetectableEntity</span>&gt;</td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -150,63 +131,23 @@
   </h3>
   
   
-  <a id="StormHawks_Runtime_Entities_Cameras_EntityDetectCamera_GetDetectableEntitiesArray_" data-uid="StormHawks.Runtime.Entities.Cameras.EntityDetectCamera.GetDetectableEntitiesArray*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Cameras_EntityDetectCamera_GetDetectableEntitiesArray" data-uid="StormHawks.Runtime.Entities.Cameras.EntityDetectCamera.GetDetectableEntitiesArray">GetDetectableEntitiesArray()</h4>
+  <a id="StormHawks_Runtime_Entities_Players_Attack_Weapon_PlayerMissile_Initialize_" data-uid="StormHawks.Runtime.Entities.Players.Attack.Weapon.PlayerMissile.Initialize*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Players_Attack_Weapon_PlayerMissile_Initialize" data-uid="StormHawks.Runtime.Entities.Players.Attack.Weapon.PlayerMissile.Initialize">Initialize()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DetectableEntity[] GetDetectableEntitiesArray()</code></pre>
+    <pre><code class="lang-csharp hljs">public void Initialize()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">DetectableEntity</span>[]</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   
   
-  <a id="StormHawks_Runtime_Entities_Cameras_EntityDetectCamera_GetTopPriorityDetectedEntity_" data-uid="StormHawks.Runtime.Entities.Cameras.EntityDetectCamera.GetTopPriorityDetectedEntity*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Cameras_EntityDetectCamera_GetTopPriorityDetectedEntity" data-uid="StormHawks.Runtime.Entities.Cameras.EntityDetectCamera.GetTopPriorityDetectedEntity">GetTopPriorityDetectedEntity()</h4>
+  <a id="StormHawks_Runtime_Entities_Players_Attack_Weapon_PlayerMissile_SetTarget_" data-uid="StormHawks.Runtime.Entities.Players.Attack.Weapon.PlayerMissile.SetTarget*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Players_Attack_Weapon_PlayerMissile_SetTarget_DetectableEntity_" data-uid="StormHawks.Runtime.Entities.Players.Attack.Weapon.PlayerMissile.SetTarget(DetectableEntity)">SetTarget(DetectableEntity)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DetectableEntity GetTopPriorityDetectedEntity()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">DetectableEntity</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="StormHawks_Runtime_Entities_Cameras_EntityDetectCamera_RegisterEntity_" data-uid="StormHawks.Runtime.Entities.Cameras.EntityDetectCamera.RegisterEntity*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Cameras_EntityDetectCamera_RegisterEntity_DetectableEntity_" data-uid="StormHawks.Runtime.Entities.Cameras.EntityDetectCamera.RegisterEntity(DetectableEntity)">RegisterEntity(DetectableEntity)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void RegisterEntity(DetectableEntity entity)</code></pre>
+    <pre><code class="lang-csharp hljs">public void SetTarget(DetectableEntity target)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -220,38 +161,25 @@
     <tbody>
       <tr>
         <td><span class="xref">DetectableEntity</span></td>
-        <td><span class="parametername">entity</span></td>
+        <td><span class="parametername">target</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="StormHawks_Runtime_Entities_Cameras_EntityDetectCamera_UnregisterEntity_" data-uid="StormHawks.Runtime.Entities.Cameras.EntityDetectCamera.UnregisterEntity*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Cameras_EntityDetectCamera_UnregisterEntity_DetectableEntity_" data-uid="StormHawks.Runtime.Entities.Cameras.EntityDetectCamera.UnregisterEntity(DetectableEntity)">UnregisterEntity(DetectableEntity)</h4>
+  <a id="StormHawks_Runtime_Entities_Players_Attack_Weapon_PlayerMissile_Update_" data-uid="StormHawks.Runtime.Entities.Players.Attack.Weapon.PlayerMissile.Update*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Players_Attack_Weapon_PlayerMissile_Update" data-uid="StormHawks.Runtime.Entities.Players.Attack.Weapon.PlayerMissile.Update">Update()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void UnregisterEntity(DetectableEntity entity)</code></pre>
+    <pre><code class="lang-csharp hljs">protected override void Update()</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">DetectableEntity</span></td>
-        <td><span class="parametername">entity</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">IInitializable</span>
+  </div>
 </article>
           </div>
           

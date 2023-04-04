@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class PlayerMover
+    <title>Class InitEnumDictionary&lt;TKey, TValue&gt;
    | Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class PlayerMover
+    <meta name="title" content="Class InitEnumDictionary&lt;TKey, TValue&gt;
    | Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -78,55 +78,109 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Entities.Players.PlayerMover">
+            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Utilities.Types.Dictionaries.InitEnumDictionary`2">
   
   
-  <h1 id="StormHawks_Runtime_Entities_Players_PlayerMover" data-uid="StormHawks.Runtime.Entities.Players.PlayerMover" class="text-break">Class PlayerMover
+  <h1 id="StormHawks_Runtime_Utilities_Types_Dictionaries_InitEnumDictionary_2" data-uid="StormHawks.Runtime.Utilities.Types.Dictionaries.InitEnumDictionary`2" class="text-break">Class InitEnumDictionary&lt;TKey, TValue&gt;
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">PlayerMover</span></div>
+    <div class="level1"><a class="xref" href="StormHawks.Runtime.Utilities.Types.Dictionaries.UnitySerializedDictionary-2.html">UnitySerializedDictionary</a>&lt;TKey, TValue&gt;</div>
+    <div class="level2"><a class="xref" href="StormHawks.Runtime.Utilities.Types.Dictionaries.EnumDictionary-2.html">EnumDictionary</a>&lt;TKey, TValue&gt;</div>
+    <div class="level3"><span class="xref">InitEnumDictionary&lt;TKey, TValue&gt;</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Entities.Players.html">StormHawks.Runtime.Entities.Players</a></h6>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">ISerializationCallbackReceiver</span></div>
+    <div><span class="xref">IInitializable</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Utilities.Types.Dictionaries.EnumDictionary-2.html#StormHawks_Runtime_Utilities_Types_Dictionaries_EnumDictionary_2_GetValue__0_">EnumDictionary&lt;TKey, TValue&gt;.GetValue(TKey)</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Utilities.Types.Dictionaries.UnitySerializedDictionary-2.html#StormHawks_Runtime_Utilities_Types_Dictionaries_UnitySerializedDictionary_2_OnBeforeSerialize">UnitySerializedDictionary&lt;TKey, TValue&gt;.OnBeforeSerialize()</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Utilities.Types.Dictionaries.UnitySerializedDictionary-2.html#StormHawks_Runtime_Utilities_Types_Dictionaries_UnitySerializedDictionary_2_OnAfterDeserialize">UnitySerializedDictionary&lt;TKey, TValue&gt;.OnAfterDeserialize()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Utilities.Types.Dictionaries.html">StormHawks.Runtime.Utilities.Types.Dictionaries</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="StormHawks_Runtime_Entities_Players_PlayerMover_syntax">Syntax</h5>
+  <h5 id="StormHawks_Runtime_Utilities_Types_Dictionaries_InitEnumDictionary_2_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class PlayerMover : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">[Serializable]
+public class InitEnumDictionary&lt;TKey, TValue&gt; : EnumDictionary&lt;TKey, TValue&gt; where TKey : Enum where TValue : class, IInitializable, new()</code></pre>
   </div>
-  <h3 id="methods">Methods
-  </h3>
-  
-  
-  <a id="StormHawks_Runtime_Entities_Players_PlayerMover_LerpVelocity_" data-uid="StormHawks.Runtime.Entities.Players.PlayerMover.LerpVelocity*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Players_PlayerMover_LerpVelocity_Vector3_" data-uid="StormHawks.Runtime.Entities.Players.PlayerMover.LerpVelocity(Vector3)">LerpVelocity(Vector3)</h4>
-  <div class="markdown level1 summary"><p>플레이어의 이동 속도를 Lerp하는 함수</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void LerpVelocity(Vector3 target)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
         <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Vector3</span></td>
-        <td><span class="parametername">target</span></td>
-        <td><p>Lerp의 목표가 되는 속도</p>
-</td>
+        <td><span class="parametername">TKey</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TValue</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="StormHawks_Runtime_Utilities_Types_Dictionaries_InitEnumDictionary_2_IsInitialized_" data-uid="StormHawks.Runtime.Utilities.Types.Dictionaries.InitEnumDictionary`2.IsInitialized*"></a>
+  <h4 id="StormHawks_Runtime_Utilities_Types_Dictionaries_InitEnumDictionary_2_IsInitialized" data-uid="StormHawks.Runtime.Utilities.Types.Dictionaries.InitEnumDictionary`2.IsInitialized">IsInitialized</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsInitialized { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="StormHawks_Runtime_Utilities_Types_Dictionaries_InitEnumDictionary_2_Initialize_" data-uid="StormHawks.Runtime.Utilities.Types.Dictionaries.InitEnumDictionary`2.Initialize*"></a>
+  <h4 id="StormHawks_Runtime_Utilities_Types_Dictionaries_InitEnumDictionary_2_Initialize" data-uid="StormHawks.Runtime.Utilities.Types.Dictionaries.InitEnumDictionary`2.Initialize">Initialize()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Initialize()</code></pre>
+  </div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">ISerializationCallbackReceiver</span>
+  </div>
+  <div>
+      <span class="xref">IInitializable</span>
+  </div>
 </article>
           </div>
           

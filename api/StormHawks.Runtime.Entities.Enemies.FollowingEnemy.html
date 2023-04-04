@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class PlayerMissile
+    <title>Class FollowingEnemy
    | Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class PlayerMissile
+    <meta name="title" content="Class FollowingEnemy
    | Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -78,86 +78,68 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Entities.Players.Attack.Weapon.PlayerMissile">
+            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Entities.Enemies.FollowingEnemy">
   
   
-  <h1 id="StormHawks_Runtime_Entities_Players_Attack_Weapon_PlayerMissile" data-uid="StormHawks.Runtime.Entities.Players.Attack.Weapon.PlayerMissile" class="text-break">Class PlayerMissile
+  <h1 id="StormHawks_Runtime_Entities_Enemies_FollowingEnemy" data-uid="StormHawks.Runtime.Entities.Enemies.FollowingEnemy" class="text-break">Class FollowingEnemy
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">PlayerMissile</span></div>
+    <div class="level1"><a class="xref" href="StormHawks.Runtime.Entities.Enemies.EnemyBase.html">EnemyBase</a></div>
+    <div class="level2"><span class="xref">FollowingEnemy</span></div>
   </div>
   <div class="implements">
     <h5>Implements</h5>
-    <div><span class="xref">IInitializable</span></div>
+    <div><span class="xref">IHasHealth</span></div>
+    <div><span class="xref">IFollower</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Entities.Players.Attack.Weapon.html">StormHawks.Runtime.Entities.Players.Attack.Weapon</a></h6>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Entities.Enemies.EnemyBase.html#StormHawks_Runtime_Entities_Enemies_EnemyBase__bossEntity">EnemyBase._bossEntity</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Entities.Enemies.EnemyBase.html#StormHawks_Runtime_Entities_Enemies_EnemyBase__aggressive">EnemyBase._aggressive</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Entities.Enemies.EnemyBase.html#StormHawks_Runtime_Entities_Enemies_EnemyBase__blackboard">EnemyBase._blackboard</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Entities.Enemies.EnemyBase.html#StormHawks_Runtime_Entities_Enemies_EnemyBase_MaxHealth">EnemyBase.MaxHealth</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Entities.Enemies.EnemyBase.html#StormHawks_Runtime_Entities_Enemies_EnemyBase_CurrentHealth">EnemyBase.CurrentHealth</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Entities.Enemies.EnemyBase.html#StormHawks_Runtime_Entities_Enemies_EnemyBase_GetBlackboard">EnemyBase.GetBlackboard()</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Entities.Enemies.EnemyBase.html#StormHawks_Runtime_Entities_Enemies_EnemyBase_Target">EnemyBase.Target</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Entities.Enemies.EnemyBase.html#StormHawks_Runtime_Entities_Enemies_EnemyBase_SetFollowTarget_GameObject_">EnemyBase.SetFollowTarget(GameObject)</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Entities.Enemies.html">StormHawks.Runtime.Entities.Enemies</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="StormHawks_Runtime_Entities_Players_Attack_Weapon_PlayerMissile_syntax">Syntax</h5>
+  <h5 id="StormHawks_Runtime_Entities_Enemies_FollowingEnemy_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class PlayerMissile : SteeringEntity</code></pre>
+    <pre><code class="lang-csharp hljs">public class FollowingEnemy : EnemyBase</code></pre>
   </div>
-  <h3 id="properties">Properties
-  </h3>
-  
-  
-  <a id="StormHawks_Runtime_Entities_Players_Attack_Weapon_PlayerMissile_IsInitialized_" data-uid="StormHawks.Runtime.Entities.Players.Attack.Weapon.PlayerMissile.IsInitialized*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Players_Attack_Weapon_PlayerMissile_IsInitialized" data-uid="StormHawks.Runtime.Entities.Players.Attack.Weapon.PlayerMissile.IsInitialized">IsInitialized</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool IsInitialized { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="StormHawks_Runtime_Entities_Players_Attack_Weapon_PlayerMissile_Initialize_" data-uid="StormHawks.Runtime.Entities.Players.Attack.Weapon.PlayerMissile.Initialize*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Players_Attack_Weapon_PlayerMissile_Initialize" data-uid="StormHawks.Runtime.Entities.Players.Attack.Weapon.PlayerMissile.Initialize">Initialize()</h4>
+  <a id="StormHawks_Runtime_Entities_Enemies_FollowingEnemy_OnAggressive_" data-uid="StormHawks.Runtime.Entities.Enemies.FollowingEnemy.OnAggressive*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Enemies_FollowingEnemy_OnAggressive_GameObject_" data-uid="StormHawks.Runtime.Entities.Enemies.FollowingEnemy.OnAggressive(GameObject)">OnAggressive(GameObject)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Initialize()</code></pre>
-  </div>
-  
-  
-  <a id="StormHawks_Runtime_Entities_Players_Attack_Weapon_PlayerMissile_RotateTo_" data-uid="StormHawks.Runtime.Entities.Players.Attack.Weapon.PlayerMissile.RotateTo*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Players_Attack_Weapon_PlayerMissile_RotateTo" data-uid="StormHawks.Runtime.Entities.Players.Attack.Weapon.PlayerMissile.RotateTo">RotateTo()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void RotateTo()</code></pre>
-  </div>
-  
-  
-  <a id="StormHawks_Runtime_Entities_Players_Attack_Weapon_PlayerMissile_SetTarget_" data-uid="StormHawks.Runtime.Entities.Players.Attack.Weapon.PlayerMissile.SetTarget*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Players_Attack_Weapon_PlayerMissile_SetTarget_DetectableEntity_" data-uid="StormHawks.Runtime.Entities.Players.Attack.Weapon.PlayerMissile.SetTarget(DetectableEntity)">SetTarget(DetectableEntity)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetTarget(DetectableEntity target)</code></pre>
+    <pre><code class="lang-csharp hljs">protected override void OnAggressive(GameObject aggroTarget)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -170,16 +152,52 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">DetectableEntity</span></td>
-        <td><span class="parametername">target</span></td>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">aggroTarget</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="StormHawks.Runtime.Entities.Enemies.EnemyBase.html#StormHawks_Runtime_Entities_Enemies_EnemyBase_OnAggressive_GameObject_">EnemyBase.OnAggressive(GameObject)</a></div>
   
   
-  <a id="StormHawks_Runtime_Entities_Players_Attack_Weapon_PlayerMissile_Update_" data-uid="StormHawks.Runtime.Entities.Players.Attack.Weapon.PlayerMissile.Update*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Players_Attack_Weapon_PlayerMissile_Update" data-uid="StormHawks.Runtime.Entities.Players.Attack.Weapon.PlayerMissile.Update">Update()</h4>
+  <a id="StormHawks_Runtime_Entities_Enemies_FollowingEnemy_OnDestroy_" data-uid="StormHawks.Runtime.Entities.Enemies.FollowingEnemy.OnDestroy*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Enemies_FollowingEnemy_OnDestroy" data-uid="StormHawks.Runtime.Entities.Enemies.FollowingEnemy.OnDestroy">OnDestroy()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnDestroy()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="StormHawks.Runtime.Entities.Enemies.EnemyBase.html#StormHawks_Runtime_Entities_Enemies_EnemyBase_OnDestroy">EnemyBase.OnDestroy()</a></div>
+  
+  
+  <a id="StormHawks_Runtime_Entities_Enemies_FollowingEnemy_RotateTo_" data-uid="StormHawks.Runtime.Entities.Enemies.FollowingEnemy.RotateTo*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Enemies_FollowingEnemy_RotateTo" data-uid="StormHawks.Runtime.Entities.Enemies.FollowingEnemy.RotateTo">RotateTo()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void RotateTo()</code></pre>
+  </div>
+  
+  
+  <a id="StormHawks_Runtime_Entities_Enemies_FollowingEnemy_Start_" data-uid="StormHawks.Runtime.Entities.Enemies.FollowingEnemy.Start*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Enemies_FollowingEnemy_Start" data-uid="StormHawks.Runtime.Entities.Enemies.FollowingEnemy.Start">Start()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void Start()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="StormHawks.Runtime.Entities.Enemies.EnemyBase.html#StormHawks_Runtime_Entities_Enemies_EnemyBase_Start">EnemyBase.Start()</a></div>
+  
+  
+  <a id="StormHawks_Runtime_Entities_Enemies_FollowingEnemy_Update_" data-uid="StormHawks.Runtime.Entities.Enemies.FollowingEnemy.Update*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Enemies_FollowingEnemy_Update" data-uid="StormHawks.Runtime.Entities.Enemies.FollowingEnemy.Update">Update()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -188,7 +206,10 @@
   </div>
   <h3 id="implements">Implements</h3>
   <div>
-      <span class="xref">IInitializable</span>
+      <span class="xref">IHasHealth</span>
+  </div>
+  <div>
+      <span class="xref">IFollower</span>
   </div>
 </article>
           </div>

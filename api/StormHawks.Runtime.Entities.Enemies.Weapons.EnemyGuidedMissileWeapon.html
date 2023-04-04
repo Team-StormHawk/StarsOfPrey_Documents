@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class EnemyRotator
+    <title>Class EnemyGuidedMissileWeapon
    | Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class EnemyRotator
+    <meta name="title" content="Class EnemyGuidedMissileWeapon
    | Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -78,167 +78,35 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Entity.Core.EnemyRotator">
+            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Entities.Enemies.Weapons.EnemyGuidedMissileWeapon">
   
   
-  <h1 id="StormHawks_Runtime_Entity_Core_EnemyRotator" data-uid="StormHawks.Runtime.Entity.Core.EnemyRotator" class="text-break">Class EnemyRotator
+  <h1 id="StormHawks_Runtime_Entities_Enemies_Weapons_EnemyGuidedMissileWeapon" data-uid="StormHawks.Runtime.Entities.Enemies.Weapons.EnemyGuidedMissileWeapon" class="text-break">Class EnemyGuidedMissileWeapon
   </h1>
-  <div class="markdown level0 summary"><p>Entity의 회전을 관리할 클래스.</p>
-</div>
+  <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">EnemyRotator</span></div>
+    <div class="level1"><span class="xref">EnemyGuidedMissileWeapon</span></div>
   </div>
-  <div class="implements">
-    <h5>Implements</h5>
-    <div><span class="xref">IRotator</span></div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Entity.Core.html">StormHawks.Runtime.Entity.Core</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Entities.Enemies.Weapons.html">StormHawks.Runtime.Entities.Enemies.Weapons</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="StormHawks_Runtime_Entity_Core_EnemyRotator_syntax">Syntax</h5>
+  <h5 id="StormHawks_Runtime_Entities_Enemies_Weapons_EnemyGuidedMissileWeapon_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class EnemyRotator : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public class EnemyGuidedMissileWeapon : IEnemyWeapon</code></pre>
   </div>
-  <h3 id="properties">Properties
+  <h3 id="constructors">Constructors
   </h3>
   
   
-  <a id="StormHawks_Runtime_Entity_Core_EnemyRotator_FaceDirection_" data-uid="StormHawks.Runtime.Entity.Core.EnemyRotator.FaceDirection*"></a>
-  <h4 id="StormHawks_Runtime_Entity_Core_EnemyRotator_FaceDirection" data-uid="StormHawks.Runtime.Entity.Core.EnemyRotator.FaceDirection">FaceDirection</h4>
+  <a id="StormHawks_Runtime_Entities_Enemies_Weapons_EnemyGuidedMissileWeapon__ctor_" data-uid="StormHawks.Runtime.Entities.Enemies.Weapons.EnemyGuidedMissileWeapon.#ctor*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Enemies_Weapons_EnemyGuidedMissileWeapon__ctor_StormHawks_Runtime_Entities_Enemies_Weapons_WeaponContext_" data-uid="StormHawks.Runtime.Entities.Enemies.Weapons.EnemyGuidedMissileWeapon.#ctor(StormHawks.Runtime.Entities.Enemies.Weapons.WeaponContext)">EnemyGuidedMissileWeapon(WeaponContext)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Vector3 FaceDirection { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Vector3</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="StormHawks_Runtime_Entity_Core_EnemyRotator_RotateSpeed_" data-uid="StormHawks.Runtime.Entity.Core.EnemyRotator.RotateSpeed*"></a>
-  <h4 id="StormHawks_Runtime_Entity_Core_EnemyRotator_RotateSpeed" data-uid="StormHawks.Runtime.Entity.Core.EnemyRotator.RotateSpeed">RotateSpeed</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float RotateSpeed { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="methods">Methods
-  </h3>
-  
-  
-  <a id="StormHawks_Runtime_Entity_Core_EnemyRotator_GetForward_" data-uid="StormHawks.Runtime.Entity.Core.EnemyRotator.GetForward*"></a>
-  <h4 id="StormHawks_Runtime_Entity_Core_EnemyRotator_GetForward" data-uid="StormHawks.Runtime.Entity.Core.EnemyRotator.GetForward">GetForward()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Vector3 GetForward()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Vector3</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="StormHawks_Runtime_Entity_Core_EnemyRotator_GetRotation_" data-uid="StormHawks.Runtime.Entity.Core.EnemyRotator.GetRotation*"></a>
-  <h4 id="StormHawks_Runtime_Entity_Core_EnemyRotator_GetRotation" data-uid="StormHawks.Runtime.Entity.Core.EnemyRotator.GetRotation">GetRotation()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Quaternion GetRotation()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Quaternion</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="StormHawks_Runtime_Entity_Core_EnemyRotator_GetUp_" data-uid="StormHawks.Runtime.Entity.Core.EnemyRotator.GetUp*"></a>
-  <h4 id="StormHawks_Runtime_Entity_Core_EnemyRotator_GetUp" data-uid="StormHawks.Runtime.Entity.Core.EnemyRotator.GetUp">GetUp()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Vector3 GetUp()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Vector3</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="StormHawks_Runtime_Entity_Core_EnemyRotator_RotateTo_" data-uid="StormHawks.Runtime.Entity.Core.EnemyRotator.RotateTo*"></a>
-  <h4 id="StormHawks_Runtime_Entity_Core_EnemyRotator_RotateTo_Vector3_" data-uid="StormHawks.Runtime.Entity.Core.EnemyRotator.RotateTo(Vector3)">RotateTo(Vector3)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void RotateTo(Vector3 rotateDir)</code></pre>
+    <pre><code class="lang-csharp hljs">public EnemyGuidedMissileWeapon(WeaponContext context)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -251,16 +119,76 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Vector3</span></td>
-        <td><span class="parametername">rotateDir</span></td>
+        <td><a class="xref" href="StormHawks.Runtime.Entities.Enemies.Weapons.WeaponContext.html">WeaponContext</a></td>
+        <td><span class="parametername">context</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <span class="xref">IRotator</span>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="StormHawks_Runtime_Entities_Enemies_Weapons_EnemyGuidedMissileWeapon_OnShootFinished_" data-uid="StormHawks.Runtime.Entities.Enemies.Weapons.EnemyGuidedMissileWeapon.OnShootFinished*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Enemies_Weapons_EnemyGuidedMissileWeapon_OnShootFinished" data-uid="StormHawks.Runtime.Entities.Enemies.Weapons.EnemyGuidedMissileWeapon.OnShootFinished">OnShootFinished</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityAction OnShootFinished { get; set; }</code></pre>
   </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityAction</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="StormHawks_Runtime_Entities_Enemies_Weapons_EnemyGuidedMissileWeapon_Fire_" data-uid="StormHawks.Runtime.Entities.Enemies.Weapons.EnemyGuidedMissileWeapon.Fire*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Enemies_Weapons_EnemyGuidedMissileWeapon_Fire" data-uid="StormHawks.Runtime.Entities.Enemies.Weapons.EnemyGuidedMissileWeapon.Fire">Fire()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Fire()</code></pre>
+  </div>
+  
+  
+  <a id="StormHawks_Runtime_Entities_Enemies_Weapons_EnemyGuidedMissileWeapon_GetContext_" data-uid="StormHawks.Runtime.Entities.Enemies.Weapons.EnemyGuidedMissileWeapon.GetContext*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Enemies_Weapons_EnemyGuidedMissileWeapon_GetContext" data-uid="StormHawks.Runtime.Entities.Enemies.Weapons.EnemyGuidedMissileWeapon.GetContext">GetContext()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public WeaponContext GetContext()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="StormHawks.Runtime.Entities.Enemies.Weapons.WeaponContext.html">WeaponContext</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           

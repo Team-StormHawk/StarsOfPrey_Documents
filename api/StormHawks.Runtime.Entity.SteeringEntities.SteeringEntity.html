@@ -90,7 +90,6 @@
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
     <div class="level1"><span class="xref">SteeringEntity</span></div>
-      <div class="level2"><a class="xref" href="StormHawks.Runtime.Entity.SteeringEntities.FollowingEnemy.html">FollowingEnemy</a></div>
   </div>
   <div class="implements">
     <h5>Implements</h5>
@@ -106,12 +105,12 @@
   </h3>
   
   
-  <h4 id="StormHawks_Runtime_Entity_SteeringEntities_SteeringEntity__blackboard" data-uid="StormHawks.Runtime.Entity.SteeringEntities.SteeringEntity._blackboard">_blackboard</h4>
+  <h4 id="StormHawks_Runtime_Entity_SteeringEntities_SteeringEntity__faceDirection" data-uid="StormHawks.Runtime.Entity.SteeringEntities.SteeringEntity._faceDirection">_faceDirection</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected BlackboardSO _blackboard</code></pre>
+    <pre><code class="lang-csharp hljs">protected Vector3 _faceDirection</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -123,7 +122,31 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="StormHawks.Runtime.BehaviorTree.Core.BlackboardSO.html">BlackboardSO</a></td>
+        <td><span class="xref">Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="StormHawks_Runtime_Entity_SteeringEntities_SteeringEntity__rotator" data-uid="StormHawks.Runtime.Entity.SteeringEntities.SteeringEntity._rotator">_rotator</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected IRotator _rotator</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IRotator</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -252,29 +275,14 @@
   </table>
   
   
-  <a id="StormHawks_Runtime_Entity_SteeringEntities_SteeringEntity_GetBlackboard_" data-uid="StormHawks.Runtime.Entity.SteeringEntities.SteeringEntity.GetBlackboard*"></a>
-  <h4 id="StormHawks_Runtime_Entity_SteeringEntities_SteeringEntity_GetBlackboard" data-uid="StormHawks.Runtime.Entity.SteeringEntities.SteeringEntity.GetBlackboard">GetBlackboard()</h4>
+  <a id="StormHawks_Runtime_Entity_SteeringEntities_SteeringEntity_FixedUpdate_" data-uid="StormHawks.Runtime.Entity.SteeringEntities.SteeringEntity.FixedUpdate*"></a>
+  <h4 id="StormHawks_Runtime_Entity_SteeringEntities_SteeringEntity_FixedUpdate" data-uid="StormHawks.Runtime.Entity.SteeringEntities.SteeringEntity.FixedUpdate">FixedUpdate()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public BlackboardSO GetBlackboard()</code></pre>
+    <pre><code class="lang-csharp hljs">protected virtual void FixedUpdate()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="StormHawks.Runtime.BehaviorTree.Core.BlackboardSO.html">BlackboardSO</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   
   
   <a id="StormHawks_Runtime_Entity_SteeringEntities_SteeringEntity_GetForward_" data-uid="StormHawks.Runtime.Entity.SteeringEntities.SteeringEntity.GetForward*"></a>
@@ -343,6 +351,16 @@
       </tr>
     </tbody>
   </table>
+  
+  
+  <a id="StormHawks_Runtime_Entity_SteeringEntities_SteeringEntity_RotateTo_" data-uid="StormHawks.Runtime.Entity.SteeringEntities.SteeringEntity.RotateTo*"></a>
+  <h4 id="StormHawks_Runtime_Entity_SteeringEntities_SteeringEntity_RotateTo" data-uid="StormHawks.Runtime.Entity.SteeringEntities.SteeringEntity.RotateTo">RotateTo()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract void RotateTo()</code></pre>
+  </div>
   
   
   <a id="StormHawks_Runtime_Entity_SteeringEntities_SteeringEntity_Start_" data-uid="StormHawks.Runtime.Entity.SteeringEntities.SteeringEntity.Start*"></a>

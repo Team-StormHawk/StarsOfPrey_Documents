@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class EntityGroup
+    <title>Class EnemyGroupMember
    | Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class EntityGroup
+    <meta name="title" content="Class EnemyGroupMember
    | Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -78,56 +78,99 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Entities.Groups.EntityGroup">
+            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Entities.Groups.EnemyGroupMember">
   
   
-  <h1 id="StormHawks_Runtime_Entities_Groups_EntityGroup" data-uid="StormHawks.Runtime.Entities.Groups.EntityGroup" class="text-break">Class EntityGroup
+  <h1 id="StormHawks_Runtime_Entities_Groups_EnemyGroupMember" data-uid="StormHawks.Runtime.Entities.Groups.EnemyGroupMember" class="text-break">Class EnemyGroupMember
   </h1>
-  <div class="markdown level0 summary"><p>EntityGroupMember container</p>
+  <div class="markdown level0 summary"><p><a class="xref" href="StormHawks.Runtime.Entities.Groups.EnemyGroup.html">EnemyGroup</a>에 들어갈 수 있는 member 클래스.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">EntityGroup</span></div>
+    <div class="level1"><span class="xref">EnemyGroupMember</span></div>
+  </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">IEnemyGroupMember</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Entities.Groups.html">StormHawks.Runtime.Entities.Groups</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="StormHawks_Runtime_Entities_Groups_EntityGroup_syntax">Syntax</h5>
+  <h5 id="StormHawks_Runtime_Entities_Groups_EnemyGroupMember_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Serializable]
-public class EntityGroup</code></pre>
+    <pre><code class="lang-csharp hljs">public class EnemyGroupMember : MonoBehaviour</code></pre>
   </div>
-  <h3 id="constructors">Constructors
+  <h3 id="fields">Fields
   </h3>
   
   
-  <a id="StormHawks_Runtime_Entities_Groups_EntityGroup__ctor_" data-uid="StormHawks.Runtime.Entities.Groups.EntityGroup.#ctor*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Groups_EntityGroup__ctor_System_Int32_System_Int32_" data-uid="StormHawks.Runtime.Entities.Groups.EntityGroup.#ctor(System.Int32,System.Int32)">EntityGroup(Int32, Int32)</h4>
+  <h4 id="StormHawks_Runtime_Entities_Groups_EnemyGroupMember__bossEntity" data-uid="StormHawks.Runtime.Entities.Groups.EnemyGroupMember._bossEntity">_bossEntity</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EntityGroup(int groupIndex, int maxCount)</code></pre>
+    <pre><code class="lang-csharp hljs">protected BossEntity _bossEntity</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">groupIndex</span></td>
+        <td><span class="xref">BossEntity</span></td>
         <td></td>
       </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="StormHawks_Runtime_Entities_Groups_EnemyGroupMember_OnJoinedGroup" data-uid="StormHawks.Runtime.Entities.Groups.EnemyGroupMember.OnJoinedGroup">OnJoinedGroup</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Action&lt;int&gt; OnJoinedGroup</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">maxCount</span></td>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="StormHawks_Runtime_Entities_Groups_EnemyGroupMember_OnStepOutOfGroup" data-uid="StormHawks.Runtime.Entities.Groups.EnemyGroupMember.OnStepOutOfGroup">OnStepOutOfGroup</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Action OnStepOutOfGroup</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -136,13 +179,63 @@ public class EntityGroup</code></pre>
   </h3>
   
   
-  <a id="StormHawks_Runtime_Entities_Groups_EntityGroup_IsActive_" data-uid="StormHawks.Runtime.Entities.Groups.EntityGroup.IsActive*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Groups_EntityGroup_IsActive" data-uid="StormHawks.Runtime.Entities.Groups.EntityGroup.IsActive">IsActive</h4>
+  <a id="StormHawks_Runtime_Entities_Groups_EnemyGroupMember_Enemy_" data-uid="StormHawks.Runtime.Entities.Groups.EnemyGroupMember.Enemy*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Groups_EnemyGroupMember_Enemy" data-uid="StormHawks.Runtime.Entities.Groups.EnemyGroupMember.Enemy">Enemy</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool IsActive { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public EnemyBase Enemy { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">EnemyBase</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StormHawks_Runtime_Entities_Groups_EnemyGroupMember_GroupIndex_" data-uid="StormHawks.Runtime.Entities.Groups.EnemyGroupMember.GroupIndex*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Groups_EnemyGroupMember_GroupIndex" data-uid="StormHawks.Runtime.Entities.Groups.EnemyGroupMember.GroupIndex">GroupIndex</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int GroupIndex { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StormHawks_Runtime_Entities_Groups_EnemyGroupMember_InGroup_" data-uid="StormHawks.Runtime.Entities.Groups.EnemyGroupMember.InGroup*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Groups_EnemyGroupMember_InGroup" data-uid="StormHawks.Runtime.Entities.Groups.EnemyGroupMember.InGroup">InGroup</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool InGroup { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -163,13 +256,33 @@ public class EntityGroup</code></pre>
   </h3>
   
   
-  <a id="StormHawks_Runtime_Entities_Groups_EntityGroup_AddEntity_" data-uid="StormHawks.Runtime.Entities.Groups.EntityGroup.AddEntity*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Groups_EntityGroup_AddEntity_StormHawks_Runtime_Entities_Groups_EntityGroupMember_" data-uid="StormHawks.Runtime.Entities.Groups.EntityGroup.AddEntity(StormHawks.Runtime.Entities.Groups.EntityGroupMember)">AddEntity(EntityGroupMember)</h4>
+  <a id="StormHawks_Runtime_Entities_Groups_EnemyGroupMember_CreateGroup_" data-uid="StormHawks.Runtime.Entities.Groups.EnemyGroupMember.CreateGroup*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Groups_EnemyGroupMember_CreateGroup" data-uid="StormHawks.Runtime.Entities.Groups.EnemyGroupMember.CreateGroup">CreateGroup()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void AddEntity(EntityGroupMember entity)</code></pre>
+    <pre><code class="lang-csharp hljs">public void CreateGroup()</code></pre>
+  </div>
+  
+  
+  <a id="StormHawks_Runtime_Entities_Groups_EnemyGroupMember_Initialize_" data-uid="StormHawks.Runtime.Entities.Groups.EnemyGroupMember.Initialize*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Groups_EnemyGroupMember_Initialize" data-uid="StormHawks.Runtime.Entities.Groups.EnemyGroupMember.Initialize">Initialize()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Initialize()</code></pre>
+  </div>
+  
+  
+  <a id="StormHawks_Runtime_Entities_Groups_EnemyGroupMember_JoinGroup_" data-uid="StormHawks.Runtime.Entities.Groups.EnemyGroupMember.JoinGroup*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Groups_EnemyGroupMember_JoinGroup_System_Int32_" data-uid="StormHawks.Runtime.Entities.Groups.EnemyGroupMember.JoinGroup(System.Int32)">JoinGroup(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool JoinGroup(int groupIndex)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -177,102 +290,17 @@ public class EntityGroup</code></pre>
       <tr>
         <th>Type</th>
         <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="StormHawks.Runtime.Entities.Groups.EntityGroupMember.html">EntityGroupMember</a></td>
-        <td><span class="parametername">entity</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="StormHawks_Runtime_Entities_Groups_EntityGroup_GetEntities_" data-uid="StormHawks.Runtime.Entities.Groups.EntityGroup.GetEntities*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Groups_EntityGroup_GetEntities" data-uid="StormHawks.Runtime.Entities.Groups.EntityGroup.GetEntities">GetEntities()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public List&lt;EntityGroupMember&gt; GetEntities()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">List</span>&lt;<a class="xref" href="StormHawks.Runtime.Entities.Groups.EntityGroupMember.html">EntityGroupMember</a>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="StormHawks_Runtime_Entities_Groups_EntityGroup_GetGroupCenterPosition_" data-uid="StormHawks.Runtime.Entities.Groups.EntityGroup.GetGroupCenterPosition*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Groups_EntityGroup_GetGroupCenterPosition" data-uid="StormHawks.Runtime.Entities.Groups.EntityGroup.GetGroupCenterPosition">GetGroupCenterPosition()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Vector3 GetGroupCenterPosition()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Vector3</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="StormHawks_Runtime_Entities_Groups_EntityGroup_GetGroupIndex_" data-uid="StormHawks.Runtime.Entities.Groups.EntityGroup.GetGroupIndex*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Groups_EntityGroup_GetGroupIndex" data-uid="StormHawks.Runtime.Entities.Groups.EntityGroup.GetGroupIndex">GetGroupIndex()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int GetGroupIndex()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">groupIndex</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  
-  
-  <a id="StormHawks_Runtime_Entities_Groups_EntityGroup_IsEmpty_" data-uid="StormHawks.Runtime.Entities.Groups.EntityGroup.IsEmpty*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Groups_EntityGroup_IsEmpty" data-uid="StormHawks.Runtime.Entities.Groups.EntityGroup.IsEmpty">IsEmpty()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool IsEmpty()</code></pre>
-  </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -290,38 +318,23 @@ public class EntityGroup</code></pre>
   </table>
   
   
-  <a id="StormHawks_Runtime_Entities_Groups_EntityGroup_IsFull_" data-uid="StormHawks.Runtime.Entities.Groups.EntityGroup.IsFull*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Groups_EntityGroup_IsFull" data-uid="StormHawks.Runtime.Entities.Groups.EntityGroup.IsFull">IsFull()</h4>
+  <a id="StormHawks_Runtime_Entities_Groups_EnemyGroupMember_ResetColor_" data-uid="StormHawks.Runtime.Entities.Groups.EnemyGroupMember.ResetColor*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Groups_EnemyGroupMember_ResetColor" data-uid="StormHawks.Runtime.Entities.Groups.EnemyGroupMember.ResetColor">ResetColor()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool IsFull()</code></pre>
+    <pre><code class="lang-csharp hljs">public void ResetColor()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   
   
-  <a id="StormHawks_Runtime_Entities_Groups_EntityGroup_RemoveEntity_" data-uid="StormHawks.Runtime.Entities.Groups.EntityGroup.RemoveEntity*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Groups_EntityGroup_RemoveEntity_StormHawks_Runtime_Entities_Groups_EntityGroupMember_" data-uid="StormHawks.Runtime.Entities.Groups.EntityGroup.RemoveEntity(StormHawks.Runtime.Entities.Groups.EntityGroupMember)">RemoveEntity(EntityGroupMember)</h4>
+  <a id="StormHawks_Runtime_Entities_Groups_EnemyGroupMember_SetColor_" data-uid="StormHawks.Runtime.Entities.Groups.EnemyGroupMember.SetColor*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Groups_EnemyGroupMember_SetColor_Color_" data-uid="StormHawks.Runtime.Entities.Groups.EnemyGroupMember.SetColor(Color)">SetColor(Color)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void RemoveEntity(EntityGroupMember entity)</code></pre>
+    <pre><code class="lang-csharp hljs">public void SetColor(Color color)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -334,12 +347,26 @@ public class EntityGroup</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="StormHawks.Runtime.Entities.Groups.EntityGroupMember.html">EntityGroupMember</a></td>
-        <td><span class="parametername">entity</span></td>
+        <td><span class="xref">Color</span></td>
+        <td><span class="parametername">color</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  
+  
+  <a id="StormHawks_Runtime_Entities_Groups_EnemyGroupMember_StepOutOfGroup_" data-uid="StormHawks.Runtime.Entities.Groups.EnemyGroupMember.StepOutOfGroup*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Groups_EnemyGroupMember_StepOutOfGroup" data-uid="StormHawks.Runtime.Entities.Groups.EnemyGroupMember.StepOutOfGroup">StepOutOfGroup()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void StepOutOfGroup()</code></pre>
+  </div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">IEnemyGroupMember</span>
+  </div>
 </article>
           </div>
           

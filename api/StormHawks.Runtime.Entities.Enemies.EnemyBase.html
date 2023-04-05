@@ -90,8 +90,8 @@
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
     <div class="level1"><span class="xref">EnemyBase</span></div>
       <div class="level2"><a class="xref" href="StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.html">BossEntity</a></div>
+      <div class="level2"><a class="xref" href="StormHawks.Runtime.Entities.Enemies.ChasingEnemy.html">ChasingEnemy</a></div>
       <div class="level2"><a class="xref" href="StormHawks.Runtime.Entities.Enemies.Elites.BaseEliteEnemy.html">BaseEliteEnemy</a></div>
-      <div class="level2"><a class="xref" href="StormHawks.Runtime.Entities.Enemies.FollowingEnemy.html">FollowingEnemy</a></div>
   </div>
   <div class="implements">
     <h5>Implements</h5>
@@ -106,30 +106,6 @@
   </div>
   <h3 id="fields">Fields
   </h3>
-  
-  
-  <h4 id="StormHawks_Runtime_Entities_Enemies_EnemyBase__aggressive" data-uid="StormHawks.Runtime.Entities.Enemies.EnemyBase._aggressive">_aggressive</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected Aggressive _aggressive</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="StormHawks.Runtime.Entities.Enemies.Aggressive.html">Aggressive</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   
   
   <h4 id="StormHawks_Runtime_Entities_Enemies_EnemyBase__blackboard" data-uid="StormHawks.Runtime.Entities.Enemies.EnemyBase._blackboard">_blackboard</h4>
@@ -174,6 +150,30 @@
     <tbody>
       <tr>
         <td><span class="xref">BossEntity</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="StormHawks_Runtime_Entities_Enemies_EnemyBase__gameObjectSet" data-uid="StormHawks.Runtime.Entities.Enemies.EnemyBase._gameObjectSet">_gameObjectSet</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected GameObjectSetVariable _gameObjectSet</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObjectSetVariable</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -282,43 +282,6 @@
       </tr>
     </tbody>
   </table>
-  
-  
-  <a id="StormHawks_Runtime_Entities_Enemies_EnemyBase_OnAggressive_" data-uid="StormHawks.Runtime.Entities.Enemies.EnemyBase.OnAggressive*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Enemies_EnemyBase_OnAggressive_GameObject_" data-uid="StormHawks.Runtime.Entities.Enemies.EnemyBase.OnAggressive(GameObject)">OnAggressive(GameObject)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected abstract void OnAggressive(GameObject aggroTarget)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">GameObject</span></td>
-        <td><span class="parametername">aggroTarget</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="StormHawks_Runtime_Entities_Enemies_EnemyBase_OnDestroy_" data-uid="StormHawks.Runtime.Entities.Enemies.EnemyBase.OnDestroy*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Enemies_EnemyBase_OnDestroy" data-uid="StormHawks.Runtime.Entities.Enemies.EnemyBase.OnDestroy">OnDestroy()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual void OnDestroy()</code></pre>
-  </div>
   
   
   <a id="StormHawks_Runtime_Entities_Enemies_EnemyBase_SetFollowTarget_" data-uid="StormHawks.Runtime.Entities.Enemies.EnemyBase.SetFollowTarget*"></a>

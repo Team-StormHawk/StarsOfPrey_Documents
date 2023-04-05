@@ -94,19 +94,19 @@
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="StormHawks_Runtime_Entities_Enemies_Weapons_EnemyInterruptedShot_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class EnemyInterruptedShot : IEnemyWeapon</code></pre>
+    <pre><code class="lang-csharp hljs">public class EnemyInterruptedShot : IEnemyFire</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   
   
   <a id="StormHawks_Runtime_Entities_Enemies_Weapons_EnemyInterruptedShot__ctor_" data-uid="StormHawks.Runtime.Entities.Enemies.Weapons.EnemyInterruptedShot.#ctor*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Enemies_Weapons_EnemyInterruptedShot__ctor_StormHawks_Runtime_Entities_Enemies_Weapons_WeaponContext_" data-uid="StormHawks.Runtime.Entities.Enemies.Weapons.EnemyInterruptedShot.#ctor(StormHawks.Runtime.Entities.Enemies.Weapons.WeaponContext)">EnemyInterruptedShot(WeaponContext)</h4>
+  <h4 id="StormHawks_Runtime_Entities_Enemies_Weapons_EnemyInterruptedShot__ctor_StormHawks_Runtime_Entities_Enemies_Weapons_WeaponContext_System_Boolean_" data-uid="StormHawks.Runtime.Entities.Enemies.Weapons.EnemyInterruptedShot.#ctor(StormHawks.Runtime.Entities.Enemies.Weapons.WeaponContext,System.Boolean)">EnemyInterruptedShot(WeaponContext, Boolean)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EnemyInterruptedShot(WeaponContext context)</code></pre>
+    <pre><code class="lang-csharp hljs">public EnemyInterruptedShot(WeaponContext context, bool tracking = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -121,6 +121,43 @@
       <tr>
         <td><a class="xref" href="StormHawks.Runtime.Entities.Enemies.Weapons.WeaponContext.html">WeaponContext</a></td>
         <td><span class="parametername">context</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">tracking</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StormHawks_Runtime_Entities_Enemies_Weapons_EnemyInterruptedShot__ctor_" data-uid="StormHawks.Runtime.Entities.Enemies.Weapons.EnemyInterruptedShot.#ctor*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Enemies_Weapons_EnemyInterruptedShot__ctor_StormHawks_Runtime_Entities_Enemies_Weapons_WeaponContext_System_Single_" data-uid="StormHawks.Runtime.Entities.Enemies.Weapons.EnemyInterruptedShot.#ctor(StormHawks.Runtime.Entities.Enemies.Weapons.WeaponContext,System.Single)">EnemyInterruptedShot(WeaponContext, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EnemyInterruptedShot(WeaponContext context, float shotAngle)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="StormHawks.Runtime.Entities.Enemies.Weapons.WeaponContext.html">WeaponContext</a></td>
+        <td><span class="parametername">context</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">shotAngle</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -157,34 +194,26 @@
   
   
   <a id="StormHawks_Runtime_Entities_Enemies_Weapons_EnemyInterruptedShot_Fire_" data-uid="StormHawks.Runtime.Entities.Enemies.Weapons.EnemyInterruptedShot.Fire*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Enemies_Weapons_EnemyInterruptedShot_Fire" data-uid="StormHawks.Runtime.Entities.Enemies.Weapons.EnemyInterruptedShot.Fire">Fire()</h4>
+  <h4 id="StormHawks_Runtime_Entities_Enemies_Weapons_EnemyInterruptedShot_Fire_Transform_" data-uid="StormHawks.Runtime.Entities.Enemies.Weapons.EnemyInterruptedShot.Fire(Transform)">Fire(Transform)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Fire()</code></pre>
+    <pre><code class="lang-csharp hljs">public void Fire(Transform transform)</code></pre>
   </div>
-  
-  
-  <a id="StormHawks_Runtime_Entities_Enemies_Weapons_EnemyInterruptedShot_GetContext_" data-uid="StormHawks.Runtime.Entities.Enemies.Weapons.EnemyInterruptedShot.GetContext*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Enemies_Weapons_EnemyInterruptedShot_GetContext" data-uid="StormHawks.Runtime.Entities.Enemies.Weapons.EnemyInterruptedShot.GetContext">GetContext()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public WeaponContext GetContext()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
+        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="StormHawks.Runtime.Entities.Enemies.Weapons.WeaponContext.html">WeaponContext</a></td>
+        <td><span class="xref">Transform</span></td>
+        <td><span class="parametername">transform</span></td>
         <td></td>
       </tr>
     </tbody>

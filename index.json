@@ -557,7 +557,7 @@
   "api/StormHawks.Runtime.Interfaces.html": {
     "href": "api/StormHawks.Runtime.Interfaces.html",
     "title": "Namespace StormHawks.Runtime.Interfaces | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Interfaces Interfaces IAggressive IDetectable IDetectHandler IEnemyFire IEnemyGroupMember IFollower IHasHealth IInitializable IRotator ISteerEntity ISteeringForce"
+    "keywords": "Namespace StormHawks.Runtime.Interfaces Interfaces IAggressive IDetectable IDetectHandler IEnemyFire IEnemyGroupMember IFollower IHasHealth IInitializable IPoolObject<T> IRotator ISteerEntity ISteeringForce"
   },
   "api/StormHawks.Runtime.Interfaces.IAggressive.html": {
     "href": "api/StormHawks.Runtime.Interfaces.IAggressive.html",
@@ -599,6 +599,11 @@
     "title": "Interface IInitializable | Developer Reference",
     "keywords": "Interface IInitializable Namespace : StormHawks.Runtime.Interfaces Assembly : cs.temp.dll.dll Syntax public interface IInitializable Properties IsInitialized Declaration bool IsInitialized { get; } Property Value Type Description Boolean Methods Initialize() Declaration void Initialize()"
   },
+  "api/StormHawks.Runtime.Interfaces.IPoolObject-1.html": {
+    "href": "api/StormHawks.Runtime.Interfaces.IPoolObject-1.html",
+    "title": "Interface IPoolObject<T> | Developer Reference",
+    "keywords": "Interface IPoolObject<T> Namespace : StormHawks.Runtime.Interfaces Assembly : cs.temp.dll.dll Syntax public interface IPoolObject<T> where T : PoolObject<T> Type Parameters Name Description T Properties Pool Declaration MonoObjectPool<T> Pool { get; } Property Value Type Description MonoObjectPool <T> Methods OnRelease() Declaration void OnRelease() OnSpawn() Declaration void OnSpawn() SetPool(MonoObjectPool<T>) Declaration void SetPool(MonoObjectPool<T> pool) Parameters Type Name Description MonoObjectPool <T> pool"
+  },
   "api/StormHawks.Runtime.Interfaces.IRotator.html": {
     "href": "api/StormHawks.Runtime.Interfaces.IRotator.html",
     "title": "Interface IRotator | Developer Reference",
@@ -614,26 +619,6 @@
     "title": "Interface ISteeringForce | Developer Reference",
     "keywords": "Interface ISteeringForce Namespace : StormHawks.Runtime.Interfaces Assembly : cs.temp.dll.dll Syntax public interface ISteeringForce Properties Weight Declaration float Weight { get; } Property Value Type Description Single Methods SteerForce() Declaration Vector3 SteerForce() Returns Type Description Vector3"
   },
-  "api/StormHawks.Runtime.ObjectPools.BulletPool.html": {
-    "href": "api/StormHawks.Runtime.ObjectPools.BulletPool.html",
-    "title": "Class BulletPool | Developer Reference",
-    "keywords": "Class BulletPool Inheritance Object BulletPool Namespace : StormHawks.Runtime.ObjectPools Assembly : cs.temp.dll.dll Syntax public class BulletPool : ObjectPool<PlayerBullet>"
-  },
-  "api/StormHawks.Runtime.ObjectPools.CrossHairPool.html": {
-    "href": "api/StormHawks.Runtime.ObjectPools.CrossHairPool.html",
-    "title": "Class CrossHairPool | Developer Reference",
-    "keywords": "Class CrossHairPool Inheritance Object CrossHairPool Namespace : StormHawks.Runtime.ObjectPools Assembly : cs.temp.dll.dll Syntax public class CrossHairPool : ObjectPool<CrossHair>"
-  },
-  "api/StormHawks.Runtime.ObjectPools.html": {
-    "href": "api/StormHawks.Runtime.ObjectPools.html",
-    "title": "Namespace StormHawks.Runtime.ObjectPools | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.ObjectPools Classes BulletPool CrossHairPool MissilePool"
-  },
-  "api/StormHawks.Runtime.ObjectPools.MissilePool.html": {
-    "href": "api/StormHawks.Runtime.ObjectPools.MissilePool.html",
-    "title": "Class MissilePool | Developer Reference",
-    "keywords": "Class MissilePool Inheritance Object MissilePool Namespace : StormHawks.Runtime.ObjectPools Assembly : cs.temp.dll.dll Syntax public class MissilePool : ObjectPool<PlayerMissile>"
-  },
   "api/StormHawks.Runtime.Players.Attack.html": {
     "href": "api/StormHawks.Runtime.Players.Attack.html",
     "title": "Namespace StormHawks.Runtime.Players.Attack | Developer Reference",
@@ -642,7 +627,7 @@
   "api/StormHawks.Runtime.Players.Attack.PlayerAttack-1.html": {
     "href": "api/StormHawks.Runtime.Players.Attack.PlayerAttack-1.html",
     "title": "Class PlayerAttack<T> | Developer Reference",
-    "keywords": "Class PlayerAttack<T> Inheritance Object PlayerAttack<T> PlayerBulletAttack PlayerMissileAttack Namespace : StormHawks.Runtime.Players.Attack Assembly : cs.temp.dll.dll Syntax public abstract class PlayerAttack<T> : MonoBehaviour where T : MonoBehaviour Type Parameters Name Description T Fields detectCamera Declaration protected EntityDetectCamera detectCamera Field Value Type Description EntityDetectCamera inputHandler Declaration protected PlayerInputHandler inputHandler Field Value Type Description PlayerInputHandler leftLaunchPoint Declaration protected Transform leftLaunchPoint Field Value Type Description Transform objectPool Declaration protected ObjectPool<T> objectPool Field Value Type Description ObjectPool <T> rightLaunchPoint Declaration protected Transform rightLaunchPoint Field Value Type Description Transform Methods Attack(Transform) Declaration protected abstract void Attack(Transform launchPoint) Parameters Type Name Description Transform launchPoint"
+    "keywords": "Class PlayerAttack<T> Inheritance Object PlayerAttack<T> PlayerBulletAttack PlayerMissileAttack Namespace : StormHawks.Runtime.Players.Attack Assembly : cs.temp.dll.dll Syntax public abstract class PlayerAttack<T> : MonoBehaviour where T : PoolObject<T> Type Parameters Name Description T Fields detectCamera Declaration protected EntityDetectCamera detectCamera Field Value Type Description EntityDetectCamera inputHandler Declaration protected PlayerInputHandler inputHandler Field Value Type Description PlayerInputHandler leftLaunchPoint Declaration protected Transform leftLaunchPoint Field Value Type Description Transform objectPool Declaration protected MonoObjectPool<T> objectPool Field Value Type Description MonoObjectPool <T> rightLaunchPoint Declaration protected Transform rightLaunchPoint Field Value Type Description Transform Methods Attack(Transform) Declaration protected abstract void Attack(Transform launchPoint) Parameters Type Name Description Transform launchPoint"
   },
   "api/StormHawks.Runtime.Players.Attack.PlayerBulletAttack.html": {
     "href": "api/StormHawks.Runtime.Players.Attack.PlayerBulletAttack.html",
@@ -662,12 +647,12 @@
   "api/StormHawks.Runtime.Players.Attack.Weapon.PlayerBullet.html": {
     "href": "api/StormHawks.Runtime.Players.Attack.Weapon.PlayerBullet.html",
     "title": "Class PlayerBullet | Developer Reference",
-    "keywords": "Class PlayerBullet Inheritance Object PlayerBullet Implements IInitializable Namespace : StormHawks.Runtime.Players.Attack.Weapon Assembly : cs.temp.dll.dll Syntax public class PlayerBullet : MonoBehaviour Properties IsInitialized Declaration public bool IsInitialized { get; } Property Value Type Description Boolean Methods Initialize() Declaration public void Initialize() SetForward(Vector3) Declaration public void SetForward(Vector3 moveDir) Parameters Type Name Description Vector3 moveDir Implements IInitializable"
+    "keywords": "Class PlayerBullet Inheritance Object PlayerBullet Namespace : StormHawks.Runtime.Players.Attack.Weapon Assembly : cs.temp.dll.dll Syntax public class PlayerBullet : PoolObject<PlayerBullet> Properties IsInitialized Declaration public bool IsInitialized { get; } Property Value Type Description Boolean Methods Initialize() Declaration public void Initialize() OnRelease() Declaration public override void OnRelease() OnSpawn() Declaration public override void OnSpawn() SetForward(Vector3) Declaration public void SetForward(Vector3 moveDir) Parameters Type Name Description Vector3 moveDir"
   },
   "api/StormHawks.Runtime.Players.Attack.Weapon.PlayerMissile.html": {
     "href": "api/StormHawks.Runtime.Players.Attack.Weapon.PlayerMissile.html",
     "title": "Class PlayerMissile | Developer Reference",
-    "keywords": "Class PlayerMissile Inheritance Object PlayerMissile Implements IInitializable Namespace : StormHawks.Runtime.Players.Attack.Weapon Assembly : cs.temp.dll.dll Syntax public class PlayerMissile : SteeringEntity Properties IsInitialized Declaration public bool IsInitialized { get; } Property Value Type Description Boolean Methods Initialize() Declaration public void Initialize() RotateTo() Declaration protected override void RotateTo() SetTarget(DetectableEntity) Declaration public void SetTarget(DetectableEntity target) Parameters Type Name Description DetectableEntity target Update() Declaration protected override void Update() Implements IInitializable"
+    "keywords": "Class PlayerMissile Inheritance Object PlayerMissile Namespace : StormHawks.Runtime.Players.Attack.Weapon Assembly : cs.temp.dll.dll Syntax public class PlayerMissile : PoolObject<PlayerMissile> Properties IsInitialized Declaration public bool IsInitialized { get; } Property Value Type Description Boolean Methods Initialize() Declaration public void Initialize() OnRelease() Declaration public override void OnRelease() OnSpawn() Declaration public override void OnSpawn() RotateTo() Declaration protected void RotateTo() SetTarget(DetectableEntity) Declaration public void SetTarget(DetectableEntity target) Parameters Type Name Description DetectableEntity target Update() Declaration protected void Update()"
   },
   "api/StormHawks.Runtime.Players.Controllers.HandController.html": {
     "href": "api/StormHawks.Runtime.Players.Controllers.HandController.html",
@@ -697,7 +682,7 @@
   "api/StormHawks.Runtime.Players.CrossHair.CrossHair.html": {
     "href": "api/StormHawks.Runtime.Players.CrossHair.CrossHair.html",
     "title": "Class CrossHair | Developer Reference",
-    "keywords": "Class CrossHair Inheritance Object CrossHair Namespace : StormHawks.Runtime.Players.CrossHair Assembly : cs.temp.dll.dll Syntax [Serializable] public class CrossHair : MonoBehaviour Properties TargetEntity Declaration public DetectableEntity TargetEntity { get; } Property Value Type Description DetectableEntity Methods RegisterTarget(DetectableEntity) Declaration public void RegisterTarget(DetectableEntity target) Parameters Type Name Description DetectableEntity target UnregisterTarget() Declaration public void UnregisterTarget() Update() Declaration public void Update() UpdatePosition() Declaration public void UpdatePosition()"
+    "keywords": "Class CrossHair Inheritance Object CrossHair Namespace : StormHawks.Runtime.Players.CrossHair Assembly : cs.temp.dll.dll Syntax [Serializable] public class CrossHair : PoolObject<CrossHair> Properties IsInitialized Declaration public bool IsInitialized { get; } Property Value Type Description Boolean TargetEntity Declaration public DetectableEntity TargetEntity { get; } Property Value Type Description DetectableEntity Methods Initialize() Declaration public void Initialize() OnRelease() Declaration public override void OnRelease() OnSpawn() Declaration public override void OnSpawn() RegisterTarget(DetectableEntity) Declaration public void RegisterTarget(DetectableEntity target) Parameters Type Name Description DetectableEntity target UnregisterTarget() Declaration public void UnregisterTarget() Update() Declaration public void Update() UpdatePosition() Declaration public void UpdatePosition()"
   },
   "api/StormHawks.Runtime.Players.CrossHair.CrossHairManager.html": {
     "href": "api/StormHawks.Runtime.Players.CrossHair.CrossHairManager.html",
@@ -944,15 +929,50 @@
     "title": "Class Vector3Extensions | Developer Reference",
     "keywords": "Class Vector3Extensions Inheritance Object Vector3Extensions Namespace : StormHawks.Runtime.Utilities.Extensions Assembly : cs.temp.dll.dll Syntax public static class Vector3Extensions Methods GetLocalPositionFromPivot(Vector3, Transform) Declaration public static Vector3 GetLocalPositionFromPivot(this Vector3 worldVec, Transform pivot) Parameters Type Name Description Vector3 worldVec Transform pivot Returns Type Description Vector3 IgnoreByRange(Vector3, AxisValue) Declaration public static Vector3 IgnoreByRange(this Vector3 vec, AxisValue range) Parameters Type Name Description Vector3 vec AxisValue range Returns Type Description Vector3 IsZero(Vector3) Declaration public static bool IsZero(this Vector3 v) Parameters Type Name Description Vector3 v Returns Type Description Boolean NearZero(Vector3) Declaration public static bool NearZero(this Vector3 v) Parameters Type Name Description Vector3 v Returns Type Description Boolean NormalizeByRange(Vector3, AxisValue) Declaration public static Vector3 NormalizeByRange(this Vector3 vec, AxisValue range) Parameters Type Name Description Vector3 vec AxisValue range Returns Type Description Vector3"
   },
-  "api/StormHawks.Runtime.Utilities.html": {
-    "href": "api/StormHawks.Runtime.Utilities.html",
-    "title": "Namespace StormHawks.Runtime.Utilities | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Utilities Classes ObjectPool<T>"
+  "api/StormHawks.Runtime.Utilities.ObjectPools.BulletPool.html": {
+    "href": "api/StormHawks.Runtime.Utilities.ObjectPools.BulletPool.html",
+    "title": "Class BulletPool | Developer Reference",
+    "keywords": "Class BulletPool Inheritance Object MonoObjectPool < PlayerBullet > BulletPool Inherited Members MonoObjectPool<PlayerBullet>.CreateObject() MonoObjectPool<PlayerBullet>.OnGetObject(PlayerBullet) MonoObjectPool<PlayerBullet>.OnReleaseObject(PlayerBullet) MonoObjectPool<PlayerBullet>.OnDestroyObject(PlayerBullet) MonoObjectPool<PlayerBullet>.Get() MonoObjectPool<PlayerBullet>.Release(PlayerBullet) Namespace : StormHawks.Runtime.Utilities.ObjectPools Assembly : cs.temp.dll.dll Syntax public class BulletPool : MonoObjectPool<PlayerBullet>"
   },
-  "api/StormHawks.Runtime.Utilities.ObjectPool-1.html": {
-    "href": "api/StormHawks.Runtime.Utilities.ObjectPool-1.html",
-    "title": "Class ObjectPool<T> | Developer Reference",
-    "keywords": "Class ObjectPool<T> Inheritance Object ObjectPool<T> Namespace : StormHawks.Runtime.Utilities Assembly : cs.temp.dll.dll Syntax public class ObjectPool<T> : MonoBehaviour where T : MonoBehaviour Type Parameters Name Description T Methods Get() Declaration public T Get() Returns Type Description T Release(T) Declaration public void Release(T obj) Parameters Type Name Description T obj"
+  "api/StormHawks.Runtime.Utilities.ObjectPools.CrossHairPool.html": {
+    "href": "api/StormHawks.Runtime.Utilities.ObjectPools.CrossHairPool.html",
+    "title": "Class CrossHairPool | Developer Reference",
+    "keywords": "Class CrossHairPool Inheritance Object MonoObjectPool < CrossHair > CrossHairPool Inherited Members MonoObjectPool<CrossHair>.CreateObject() MonoObjectPool<CrossHair>.OnGetObject(CrossHair) MonoObjectPool<CrossHair>.OnReleaseObject(CrossHair) MonoObjectPool<CrossHair>.OnDestroyObject(CrossHair) MonoObjectPool<CrossHair>.Get() MonoObjectPool<CrossHair>.Release(CrossHair) Namespace : StormHawks.Runtime.Utilities.ObjectPools Assembly : cs.temp.dll.dll Syntax public class CrossHairPool : MonoObjectPool<CrossHair>"
+  },
+  "api/StormHawks.Runtime.Utilities.ObjectPools.Dummy.html": {
+    "href": "api/StormHawks.Runtime.Utilities.ObjectPools.Dummy.html",
+    "title": "Namespace StormHawks.Runtime.Utilities.ObjectPools.Dummy | Developer Reference",
+    "keywords": "Namespace StormHawks.Runtime.Utilities.ObjectPools.Dummy Classes ObjectPoolTestBridge TriggerEventKeyDown"
+  },
+  "api/StormHawks.Runtime.Utilities.ObjectPools.Dummy.ObjectPoolTestBridge.html": {
+    "href": "api/StormHawks.Runtime.Utilities.ObjectPools.Dummy.ObjectPoolTestBridge.html",
+    "title": "Class ObjectPoolTestBridge | Developer Reference",
+    "keywords": "Class ObjectPoolTestBridge Inheritance Object ObjectPoolTestBridge Namespace : StormHawks.Runtime.Utilities.ObjectPools.Dummy Assembly : cs.temp.dll.dll Syntax public class ObjectPoolTestBridge : MonoBehaviour Methods GetFromPool() Declaration public void GetFromPool()"
+  },
+  "api/StormHawks.Runtime.Utilities.ObjectPools.Dummy.TriggerEventKeyDown.html": {
+    "href": "api/StormHawks.Runtime.Utilities.ObjectPools.Dummy.TriggerEventKeyDown.html",
+    "title": "Class TriggerEventKeyDown | Developer Reference",
+    "keywords": "Class TriggerEventKeyDown Inheritance Object TriggerEventKeyDown Namespace : StormHawks.Runtime.Utilities.ObjectPools.Dummy Assembly : cs.temp.dll.dll Syntax public class TriggerEventKeyDown : MonoBehaviour"
+  },
+  "api/StormHawks.Runtime.Utilities.ObjectPools.html": {
+    "href": "api/StormHawks.Runtime.Utilities.ObjectPools.html",
+    "title": "Namespace StormHawks.Runtime.Utilities.ObjectPools | Developer Reference",
+    "keywords": "Namespace StormHawks.Runtime.Utilities.ObjectPools Classes BulletPool CrossHairPool MissilePool MonoObjectPool<T> PoolObject<T>"
+  },
+  "api/StormHawks.Runtime.Utilities.ObjectPools.MissilePool.html": {
+    "href": "api/StormHawks.Runtime.Utilities.ObjectPools.MissilePool.html",
+    "title": "Class MissilePool | Developer Reference",
+    "keywords": "Class MissilePool Inheritance Object MonoObjectPool < PlayerMissile > MissilePool Inherited Members MonoObjectPool<PlayerMissile>.CreateObject() MonoObjectPool<PlayerMissile>.OnGetObject(PlayerMissile) MonoObjectPool<PlayerMissile>.OnReleaseObject(PlayerMissile) MonoObjectPool<PlayerMissile>.OnDestroyObject(PlayerMissile) MonoObjectPool<PlayerMissile>.Get() MonoObjectPool<PlayerMissile>.Release(PlayerMissile) Namespace : StormHawks.Runtime.Utilities.ObjectPools Assembly : cs.temp.dll.dll Syntax public class MissilePool : MonoObjectPool<PlayerMissile>"
+  },
+  "api/StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool-1.html": {
+    "href": "api/StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool-1.html",
+    "title": "Class MonoObjectPool<T> | Developer Reference",
+    "keywords": "Class MonoObjectPool<T> Inheritance Object MonoObjectPool<T> BulletPool CrossHairPool MissilePool Namespace : StormHawks.Runtime.Utilities.ObjectPools Assembly : cs.temp.dll.dll Syntax public abstract class MonoObjectPool<T> : MonoBehaviour where T : PoolObject<T> Type Parameters Name Description T Methods CreateObject() Declaration protected virtual T CreateObject() Returns Type Description T Get() Declaration public T Get() Returns Type Description T OnDestroyObject(T) Declaration protected virtual void OnDestroyObject(T obj) Parameters Type Name Description T obj OnGetObject(T) Declaration protected virtual void OnGetObject(T obj) Parameters Type Name Description T obj OnReleaseObject(T) Declaration protected virtual void OnReleaseObject(T obj) Parameters Type Name Description T obj Release(T) Declaration public void Release(T obj) Parameters Type Name Description T obj"
+  },
+  "api/StormHawks.Runtime.Utilities.ObjectPools.PoolObject-1.html": {
+    "href": "api/StormHawks.Runtime.Utilities.ObjectPools.PoolObject-1.html",
+    "title": "Class PoolObject<T> | Developer Reference",
+    "keywords": "Class PoolObject<T> Inheritance Object PoolObject<T> Implements IPoolObject <T> Namespace : StormHawks.Runtime.Utilities.ObjectPools Assembly : cs.temp.dll.dll Syntax public abstract class PoolObject<T> : MonoBehaviour where T : PoolObject<T> Type Parameters Name Description T Properties Pool Declaration public MonoObjectPool<T> Pool { get; } Property Value Type Description MonoObjectPool <T> Methods OnRelease() Declaration public abstract void OnRelease() OnSpawn() Declaration public abstract void OnSpawn() SetPool(MonoObjectPool<T>) Declaration public void SetPool(MonoObjectPool<T> pool) Parameters Type Name Description MonoObjectPool <T> pool Implements IPoolObject<>"
   },
   "api/StormHawks.Runtime.Utilities.RuntimeSet.BlackboardGameObjectSet.html": {
     "href": "api/StormHawks.Runtime.Utilities.RuntimeSet.BlackboardGameObjectSet.html",
@@ -1002,7 +1022,7 @@
   "api/StormHawks.Runtime.Utilities.Types.html": {
     "href": "api/StormHawks.Runtime.Utilities.Types.html",
     "title": "Namespace StormHawks.Runtime.Utilities.Types | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Utilities.Types Classes PointValue RuntimeSet<T> Structs AxisValue RangeValue"
+    "keywords": "Namespace StormHawks.Runtime.Utilities.Types Classes PointValue RangeValue RuntimeSet<T> Structs AxisValue"
   },
   "api/StormHawks.Runtime.Utilities.Types.PointValue.html": {
     "href": "api/StormHawks.Runtime.Utilities.Types.PointValue.html",
@@ -1011,8 +1031,8 @@
   },
   "api/StormHawks.Runtime.Utilities.Types.RangeValue.html": {
     "href": "api/StormHawks.Runtime.Utilities.Types.RangeValue.html",
-    "title": "Struct RangeValue | Developer Reference",
-    "keywords": "Struct RangeValue Namespace : StormHawks.Runtime.Utilities.Types Assembly : cs.temp.dll.dll Syntax [Serializable] public struct RangeValue Properties Average Declaration public readonly float Average { get; } Property Value Type Description Single Max Declaration public float Max { readonly get; } Property Value Type Description Single Min Declaration public float Min { readonly get; } Property Value Type Description Single Methods Clamp(Single) Value가 Min보다 작으면 Min을 반환, Max보다 크면 Max를 반환함 Declaration public float Clamp(float value) Parameters Type Name Description Single value 범위 안에 있는지 검사할 Value Returns Type Description Single 범위내로 수정된 Value Clamp(Single, Single, Single) Value가 Min보다 작으면 매개변수 min을 반환, Max보다 크면 매개변수 max를 반환함 Declaration public float Clamp(float value, float min, float max) Parameters Type Name Description Single value 범위 안에 있는지 검사할 Value Single min Min보다 Value가 작을 경우 반환할 값 Single max Max보다 Value가 클 경우 반환할 값 Returns Type Description Single IgnoreRange(Single) Declaration public float IgnoreRange(float value) Parameters Type Name Description Single value Returns Type Description Single Lerp(Single) Declaration public float Lerp(float value) Parameters Type Name Description Single value Returns Type Description Single"
+    "title": "Class RangeValue | Developer Reference",
+    "keywords": "Class RangeValue Inheritance Object RangeValue Namespace : StormHawks.Runtime.Utilities.Types Assembly : cs.temp.dll.dll Syntax [Serializable] public class RangeValue Properties Average Declaration public float Average { get; } Property Value Type Description Single Max Declaration public float Max { get; } Property Value Type Description Single Min Declaration public float Min { get; } Property Value Type Description Single Methods Clamp(Single) Value가 Min보다 작으면 Min을 반환, Max보다 크면 Max를 반환함 Declaration public float Clamp(float value) Parameters Type Name Description Single value 범위 안에 있는지 검사할 Value Returns Type Description Single 범위내로 수정된 Value Clamp(Single, Single, Single) Value가 Min보다 작으면 매개변수 min을 반환, Max보다 크면 매개변수 max를 반환함 Declaration public float Clamp(float value, float min, float max) Parameters Type Name Description Single value 범위 안에 있는지 검사할 Value Single min Min보다 Value가 작을 경우 반환할 값 Single max Max보다 Value가 클 경우 반환할 값 Returns Type Description Single IgnoreRange(Single) Declaration public float IgnoreRange(float value) Parameters Type Name Description Single value Returns Type Description Single Lerp(Single) Declaration public float Lerp(float value) Parameters Type Name Description Single value Returns Type Description Single"
   },
   "api/StormHawks.Runtime.Utilities.Types.RuntimeSet-1.html": {
     "href": "api/StormHawks.Runtime.Utilities.Types.RuntimeSet-1.html",

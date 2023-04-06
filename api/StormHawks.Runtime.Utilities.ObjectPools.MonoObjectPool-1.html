@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class RangeValue
+    <title>Class MonoObjectPool&lt;T&gt;
    | Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class RangeValue
+    <meta name="title" content="Class MonoObjectPool&lt;T&gt;
    | Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -78,98 +78,38 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Utilities.Types.RangeValue">
+            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool`1">
   
   
-  <h1 id="StormHawks_Runtime_Utilities_Types_RangeValue" data-uid="StormHawks.Runtime.Utilities.Types.RangeValue" class="text-break">Class RangeValue
+  <h1 id="StormHawks_Runtime_Utilities_ObjectPools_MonoObjectPool_1" data-uid="StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool`1" class="text-break">Class MonoObjectPool&lt;T&gt;
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">RangeValue</span></div>
+    <div class="level1"><span class="xref">MonoObjectPool&lt;T&gt;</span></div>
+      <div class="level2"><a class="xref" href="StormHawks.Runtime.Utilities.ObjectPools.BulletPool.html">BulletPool</a></div>
+      <div class="level2"><a class="xref" href="StormHawks.Runtime.Utilities.ObjectPools.CrossHairPool.html">CrossHairPool</a></div>
+      <div class="level2"><a class="xref" href="StormHawks.Runtime.Utilities.ObjectPools.MissilePool.html">MissilePool</a></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Utilities.Types.html">StormHawks.Runtime.Utilities.Types</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Utilities.ObjectPools.html">StormHawks.Runtime.Utilities.ObjectPools</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="StormHawks_Runtime_Utilities_Types_RangeValue_syntax">Syntax</h5>
+  <h5 id="StormHawks_Runtime_Utilities_ObjectPools_MonoObjectPool_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Serializable]
-public class RangeValue</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class MonoObjectPool&lt;T&gt; : MonoBehaviour where T : PoolObject&lt;T&gt;</code></pre>
   </div>
-  <h3 id="properties">Properties
-  </h3>
-  
-  
-  <a id="StormHawks_Runtime_Utilities_Types_RangeValue_Average_" data-uid="StormHawks.Runtime.Utilities.Types.RangeValue.Average*"></a>
-  <h4 id="StormHawks_Runtime_Utilities_Types_RangeValue_Average" data-uid="StormHawks.Runtime.Utilities.Types.RangeValue.Average">Average</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float Average { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="StormHawks_Runtime_Utilities_Types_RangeValue_Max_" data-uid="StormHawks.Runtime.Utilities.Types.RangeValue.Max*"></a>
-  <h4 id="StormHawks_Runtime_Utilities_Types_RangeValue_Max" data-uid="StormHawks.Runtime.Utilities.Types.RangeValue.Max">Max</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float Max { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="StormHawks_Runtime_Utilities_Types_RangeValue_Min_" data-uid="StormHawks.Runtime.Utilities.Types.RangeValue.Min*"></a>
-  <h4 id="StormHawks_Runtime_Utilities_Types_RangeValue_Min" data-uid="StormHawks.Runtime.Utilities.Types.RangeValue.Min">Min</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float Min { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">T</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -178,132 +118,14 @@ public class RangeValue</code></pre>
   </h3>
   
   
-  <a id="StormHawks_Runtime_Utilities_Types_RangeValue_Clamp_" data-uid="StormHawks.Runtime.Utilities.Types.RangeValue.Clamp*"></a>
-  <h4 id="StormHawks_Runtime_Utilities_Types_RangeValue_Clamp_System_Single_" data-uid="StormHawks.Runtime.Utilities.Types.RangeValue.Clamp(System.Single)">Clamp(Single)</h4>
-  <div class="markdown level1 summary"><p>Value가 Min보다 작으면 Min을 반환, Max보다 크면 Max를 반환함</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float Clamp(float value)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td><span class="parametername">value</span></td>
-        <td><p>범위 안에 있는지 검사할 Value</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td><p>범위내로 수정된 Value</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="StormHawks_Runtime_Utilities_Types_RangeValue_Clamp_" data-uid="StormHawks.Runtime.Utilities.Types.RangeValue.Clamp*"></a>
-  <h4 id="StormHawks_Runtime_Utilities_Types_RangeValue_Clamp_System_Single_System_Single_System_Single_" data-uid="StormHawks.Runtime.Utilities.Types.RangeValue.Clamp(System.Single,System.Single,System.Single)">Clamp(Single, Single, Single)</h4>
-  <div class="markdown level1 summary"><p>Value가 Min보다 작으면 매개변수 min을 반환, Max보다 크면 매개변수 max를 반환함</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float Clamp(float value, float min, float max)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td><span class="parametername">value</span></td>
-        <td><p>범위 안에 있는지 검사할 Value</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td><span class="parametername">min</span></td>
-        <td><p>Min보다 Value가 작을 경우 반환할 값</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td><span class="parametername">max</span></td>
-        <td><p>Max보다 Value가 클 경우 반환할 값</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="StormHawks_Runtime_Utilities_Types_RangeValue_IgnoreRange_" data-uid="StormHawks.Runtime.Utilities.Types.RangeValue.IgnoreRange*"></a>
-  <h4 id="StormHawks_Runtime_Utilities_Types_RangeValue_IgnoreRange_System_Single_" data-uid="StormHawks.Runtime.Utilities.Types.RangeValue.IgnoreRange(System.Single)">IgnoreRange(Single)</h4>
+  <a id="StormHawks_Runtime_Utilities_ObjectPools_MonoObjectPool_1_CreateObject_" data-uid="StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool`1.CreateObject*"></a>
+  <h4 id="StormHawks_Runtime_Utilities_ObjectPools_MonoObjectPool_1_CreateObject" data-uid="StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool`1.CreateObject">CreateObject()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float IgnoreRange(float value)</code></pre>
+    <pre><code class="lang-csharp hljs">protected virtual T CreateObject()</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td><span class="parametername">value</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -314,20 +136,45 @@ public class RangeValue</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="xref">T</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="StormHawks_Runtime_Utilities_Types_RangeValue_Lerp_" data-uid="StormHawks.Runtime.Utilities.Types.RangeValue.Lerp*"></a>
-  <h4 id="StormHawks_Runtime_Utilities_Types_RangeValue_Lerp_System_Single_" data-uid="StormHawks.Runtime.Utilities.Types.RangeValue.Lerp(System.Single)">Lerp(Single)</h4>
+  <a id="StormHawks_Runtime_Utilities_ObjectPools_MonoObjectPool_1_Get_" data-uid="StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool`1.Get*"></a>
+  <h4 id="StormHawks_Runtime_Utilities_ObjectPools_MonoObjectPool_1_Get" data-uid="StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool`1.Get">Get()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float Lerp(float value)</code></pre>
+    <pre><code class="lang-csharp hljs">public T Get()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StormHawks_Runtime_Utilities_ObjectPools_MonoObjectPool_1_OnDestroyObject_" data-uid="StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool`1.OnDestroyObject*"></a>
+  <h4 id="StormHawks_Runtime_Utilities_ObjectPools_MonoObjectPool_1_OnDestroyObject__0_" data-uid="StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool`1.OnDestroyObject(`0)">OnDestroyObject(T)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnDestroyObject(T obj)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -340,23 +187,89 @@ public class RangeValue</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td><span class="parametername">value</span></td>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">obj</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
+  
+  
+  <a id="StormHawks_Runtime_Utilities_ObjectPools_MonoObjectPool_1_OnGetObject_" data-uid="StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool`1.OnGetObject*"></a>
+  <h4 id="StormHawks_Runtime_Utilities_ObjectPools_MonoObjectPool_1_OnGetObject__0_" data-uid="StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool`1.OnGetObject(`0)">OnGetObject(T)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnGetObject(T obj)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
+        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">obj</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StormHawks_Runtime_Utilities_ObjectPools_MonoObjectPool_1_OnReleaseObject_" data-uid="StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool`1.OnReleaseObject*"></a>
+  <h4 id="StormHawks_Runtime_Utilities_ObjectPools_MonoObjectPool_1_OnReleaseObject__0_" data-uid="StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool`1.OnReleaseObject(`0)">OnReleaseObject(T)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnReleaseObject(T obj)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">obj</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StormHawks_Runtime_Utilities_ObjectPools_MonoObjectPool_1_Release_" data-uid="StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool`1.Release*"></a>
+  <h4 id="StormHawks_Runtime_Utilities_ObjectPools_MonoObjectPool_1_Release__0_" data-uid="StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool`1.Release(`0)">Release(T)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Release(T obj)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">obj</span></td>
         <td></td>
       </tr>
     </tbody>

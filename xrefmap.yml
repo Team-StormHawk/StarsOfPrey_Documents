@@ -6573,6 +6573,84 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Interfaces.IInitializable.IsInitialized
   nameWithType: IInitializable.IsInitialized
+- uid: StormHawks.Runtime.Interfaces.IPoolObject`1
+  name: IPoolObject<T>
+  href: api/StormHawks.Runtime.Interfaces.IPoolObject-1.html
+  commentId: T:StormHawks.Runtime.Interfaces.IPoolObject`1
+  name.vb: IPoolObject(Of T)
+  fullName: StormHawks.Runtime.Interfaces.IPoolObject<T>
+  fullName.vb: StormHawks.Runtime.Interfaces.IPoolObject(Of T)
+  nameWithType: IPoolObject<T>
+  nameWithType.vb: IPoolObject(Of T)
+- uid: StormHawks.Runtime.Interfaces.IPoolObject`1.OnRelease
+  name: OnRelease()
+  href: api/StormHawks.Runtime.Interfaces.IPoolObject-1.html#StormHawks_Runtime_Interfaces_IPoolObject_1_OnRelease
+  commentId: M:StormHawks.Runtime.Interfaces.IPoolObject`1.OnRelease
+  fullName: StormHawks.Runtime.Interfaces.IPoolObject<T>.OnRelease()
+  fullName.vb: StormHawks.Runtime.Interfaces.IPoolObject(Of T).OnRelease()
+  nameWithType: IPoolObject<T>.OnRelease()
+  nameWithType.vb: IPoolObject(Of T).OnRelease()
+- uid: StormHawks.Runtime.Interfaces.IPoolObject`1.OnRelease*
+  name: OnRelease
+  href: api/StormHawks.Runtime.Interfaces.IPoolObject-1.html#StormHawks_Runtime_Interfaces_IPoolObject_1_OnRelease_
+  commentId: Overload:StormHawks.Runtime.Interfaces.IPoolObject`1.OnRelease
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Interfaces.IPoolObject<T>.OnRelease
+  fullName.vb: StormHawks.Runtime.Interfaces.IPoolObject(Of T).OnRelease
+  nameWithType: IPoolObject<T>.OnRelease
+  nameWithType.vb: IPoolObject(Of T).OnRelease
+- uid: StormHawks.Runtime.Interfaces.IPoolObject`1.OnSpawn
+  name: OnSpawn()
+  href: api/StormHawks.Runtime.Interfaces.IPoolObject-1.html#StormHawks_Runtime_Interfaces_IPoolObject_1_OnSpawn
+  commentId: M:StormHawks.Runtime.Interfaces.IPoolObject`1.OnSpawn
+  fullName: StormHawks.Runtime.Interfaces.IPoolObject<T>.OnSpawn()
+  fullName.vb: StormHawks.Runtime.Interfaces.IPoolObject(Of T).OnSpawn()
+  nameWithType: IPoolObject<T>.OnSpawn()
+  nameWithType.vb: IPoolObject(Of T).OnSpawn()
+- uid: StormHawks.Runtime.Interfaces.IPoolObject`1.OnSpawn*
+  name: OnSpawn
+  href: api/StormHawks.Runtime.Interfaces.IPoolObject-1.html#StormHawks_Runtime_Interfaces_IPoolObject_1_OnSpawn_
+  commentId: Overload:StormHawks.Runtime.Interfaces.IPoolObject`1.OnSpawn
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Interfaces.IPoolObject<T>.OnSpawn
+  fullName.vb: StormHawks.Runtime.Interfaces.IPoolObject(Of T).OnSpawn
+  nameWithType: IPoolObject<T>.OnSpawn
+  nameWithType.vb: IPoolObject(Of T).OnSpawn
+- uid: StormHawks.Runtime.Interfaces.IPoolObject`1.Pool
+  name: Pool
+  href: api/StormHawks.Runtime.Interfaces.IPoolObject-1.html#StormHawks_Runtime_Interfaces_IPoolObject_1_Pool
+  commentId: P:StormHawks.Runtime.Interfaces.IPoolObject`1.Pool
+  fullName: StormHawks.Runtime.Interfaces.IPoolObject<T>.Pool
+  fullName.vb: StormHawks.Runtime.Interfaces.IPoolObject(Of T).Pool
+  nameWithType: IPoolObject<T>.Pool
+  nameWithType.vb: IPoolObject(Of T).Pool
+- uid: StormHawks.Runtime.Interfaces.IPoolObject`1.Pool*
+  name: Pool
+  href: api/StormHawks.Runtime.Interfaces.IPoolObject-1.html#StormHawks_Runtime_Interfaces_IPoolObject_1_Pool_
+  commentId: Overload:StormHawks.Runtime.Interfaces.IPoolObject`1.Pool
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Interfaces.IPoolObject<T>.Pool
+  fullName.vb: StormHawks.Runtime.Interfaces.IPoolObject(Of T).Pool
+  nameWithType: IPoolObject<T>.Pool
+  nameWithType.vb: IPoolObject(Of T).Pool
+- uid: StormHawks.Runtime.Interfaces.IPoolObject`1.SetPool(MonoObjectPool{`0})
+  name: SetPool(MonoObjectPool<T>)
+  href: api/StormHawks.Runtime.Interfaces.IPoolObject-1.html#StormHawks_Runtime_Interfaces_IPoolObject_1_SetPool_MonoObjectPool__0__
+  commentId: M:StormHawks.Runtime.Interfaces.IPoolObject`1.SetPool(MonoObjectPool{`0})
+  name.vb: SetPool(MonoObjectPool(Of T))
+  fullName: StormHawks.Runtime.Interfaces.IPoolObject<T>.SetPool(MonoObjectPool<T>)
+  fullName.vb: StormHawks.Runtime.Interfaces.IPoolObject(Of T).SetPool(MonoObjectPool(Of T))
+  nameWithType: IPoolObject<T>.SetPool(MonoObjectPool<T>)
+  nameWithType.vb: IPoolObject(Of T).SetPool(MonoObjectPool(Of T))
+- uid: StormHawks.Runtime.Interfaces.IPoolObject`1.SetPool*
+  name: SetPool
+  href: api/StormHawks.Runtime.Interfaces.IPoolObject-1.html#StormHawks_Runtime_Interfaces_IPoolObject_1_SetPool_
+  commentId: Overload:StormHawks.Runtime.Interfaces.IPoolObject`1.SetPool
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Interfaces.IPoolObject<T>.SetPool
+  fullName.vb: StormHawks.Runtime.Interfaces.IPoolObject(Of T).SetPool
+  nameWithType: IPoolObject<T>.SetPool
+  nameWithType.vb: IPoolObject(Of T).SetPool
 - uid: StormHawks.Runtime.Interfaces.IRotator
   name: IRotator
   href: api/StormHawks.Runtime.Interfaces.IRotator.html
@@ -6779,30 +6857,6 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Interfaces.ISteeringForce.Weight
   nameWithType: ISteeringForce.Weight
-- uid: StormHawks.Runtime.ObjectPools
-  name: StormHawks.Runtime.ObjectPools
-  href: api/StormHawks.Runtime.ObjectPools.html
-  commentId: N:StormHawks.Runtime.ObjectPools
-  fullName: StormHawks.Runtime.ObjectPools
-  nameWithType: StormHawks.Runtime.ObjectPools
-- uid: StormHawks.Runtime.ObjectPools.BulletPool
-  name: BulletPool
-  href: api/StormHawks.Runtime.ObjectPools.BulletPool.html
-  commentId: T:StormHawks.Runtime.ObjectPools.BulletPool
-  fullName: StormHawks.Runtime.ObjectPools.BulletPool
-  nameWithType: BulletPool
-- uid: StormHawks.Runtime.ObjectPools.CrossHairPool
-  name: CrossHairPool
-  href: api/StormHawks.Runtime.ObjectPools.CrossHairPool.html
-  commentId: T:StormHawks.Runtime.ObjectPools.CrossHairPool
-  fullName: StormHawks.Runtime.ObjectPools.CrossHairPool
-  nameWithType: CrossHairPool
-- uid: StormHawks.Runtime.ObjectPools.MissilePool
-  name: MissilePool
-  href: api/StormHawks.Runtime.ObjectPools.MissilePool.html
-  commentId: T:StormHawks.Runtime.ObjectPools.MissilePool
-  fullName: StormHawks.Runtime.ObjectPools.MissilePool
-  nameWithType: MissilePool
 - uid: StormHawks.Runtime.Players
   name: StormHawks.Runtime.Players
   href: api/StormHawks.Runtime.Players.html
@@ -6957,6 +7011,32 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Players.Attack.Weapon.PlayerBullet.IsInitialized
   nameWithType: PlayerBullet.IsInitialized
+- uid: StormHawks.Runtime.Players.Attack.Weapon.PlayerBullet.OnRelease
+  name: OnRelease()
+  href: api/StormHawks.Runtime.Players.Attack.Weapon.PlayerBullet.html#StormHawks_Runtime_Players_Attack_Weapon_PlayerBullet_OnRelease
+  commentId: M:StormHawks.Runtime.Players.Attack.Weapon.PlayerBullet.OnRelease
+  fullName: StormHawks.Runtime.Players.Attack.Weapon.PlayerBullet.OnRelease()
+  nameWithType: PlayerBullet.OnRelease()
+- uid: StormHawks.Runtime.Players.Attack.Weapon.PlayerBullet.OnRelease*
+  name: OnRelease
+  href: api/StormHawks.Runtime.Players.Attack.Weapon.PlayerBullet.html#StormHawks_Runtime_Players_Attack_Weapon_PlayerBullet_OnRelease_
+  commentId: Overload:StormHawks.Runtime.Players.Attack.Weapon.PlayerBullet.OnRelease
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Players.Attack.Weapon.PlayerBullet.OnRelease
+  nameWithType: PlayerBullet.OnRelease
+- uid: StormHawks.Runtime.Players.Attack.Weapon.PlayerBullet.OnSpawn
+  name: OnSpawn()
+  href: api/StormHawks.Runtime.Players.Attack.Weapon.PlayerBullet.html#StormHawks_Runtime_Players_Attack_Weapon_PlayerBullet_OnSpawn
+  commentId: M:StormHawks.Runtime.Players.Attack.Weapon.PlayerBullet.OnSpawn
+  fullName: StormHawks.Runtime.Players.Attack.Weapon.PlayerBullet.OnSpawn()
+  nameWithType: PlayerBullet.OnSpawn()
+- uid: StormHawks.Runtime.Players.Attack.Weapon.PlayerBullet.OnSpawn*
+  name: OnSpawn
+  href: api/StormHawks.Runtime.Players.Attack.Weapon.PlayerBullet.html#StormHawks_Runtime_Players_Attack_Weapon_PlayerBullet_OnSpawn_
+  commentId: Overload:StormHawks.Runtime.Players.Attack.Weapon.PlayerBullet.OnSpawn
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Players.Attack.Weapon.PlayerBullet.OnSpawn
+  nameWithType: PlayerBullet.OnSpawn
 - uid: StormHawks.Runtime.Players.Attack.Weapon.PlayerBullet.SetForward(Vector3)
   name: SetForward(Vector3)
   href: api/StormHawks.Runtime.Players.Attack.Weapon.PlayerBullet.html#StormHawks_Runtime_Players_Attack_Weapon_PlayerBullet_SetForward_Vector3_
@@ -7002,6 +7082,32 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Players.Attack.Weapon.PlayerMissile.IsInitialized
   nameWithType: PlayerMissile.IsInitialized
+- uid: StormHawks.Runtime.Players.Attack.Weapon.PlayerMissile.OnRelease
+  name: OnRelease()
+  href: api/StormHawks.Runtime.Players.Attack.Weapon.PlayerMissile.html#StormHawks_Runtime_Players_Attack_Weapon_PlayerMissile_OnRelease
+  commentId: M:StormHawks.Runtime.Players.Attack.Weapon.PlayerMissile.OnRelease
+  fullName: StormHawks.Runtime.Players.Attack.Weapon.PlayerMissile.OnRelease()
+  nameWithType: PlayerMissile.OnRelease()
+- uid: StormHawks.Runtime.Players.Attack.Weapon.PlayerMissile.OnRelease*
+  name: OnRelease
+  href: api/StormHawks.Runtime.Players.Attack.Weapon.PlayerMissile.html#StormHawks_Runtime_Players_Attack_Weapon_PlayerMissile_OnRelease_
+  commentId: Overload:StormHawks.Runtime.Players.Attack.Weapon.PlayerMissile.OnRelease
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Players.Attack.Weapon.PlayerMissile.OnRelease
+  nameWithType: PlayerMissile.OnRelease
+- uid: StormHawks.Runtime.Players.Attack.Weapon.PlayerMissile.OnSpawn
+  name: OnSpawn()
+  href: api/StormHawks.Runtime.Players.Attack.Weapon.PlayerMissile.html#StormHawks_Runtime_Players_Attack_Weapon_PlayerMissile_OnSpawn
+  commentId: M:StormHawks.Runtime.Players.Attack.Weapon.PlayerMissile.OnSpawn
+  fullName: StormHawks.Runtime.Players.Attack.Weapon.PlayerMissile.OnSpawn()
+  nameWithType: PlayerMissile.OnSpawn()
+- uid: StormHawks.Runtime.Players.Attack.Weapon.PlayerMissile.OnSpawn*
+  name: OnSpawn
+  href: api/StormHawks.Runtime.Players.Attack.Weapon.PlayerMissile.html#StormHawks_Runtime_Players_Attack_Weapon_PlayerMissile_OnSpawn_
+  commentId: Overload:StormHawks.Runtime.Players.Attack.Weapon.PlayerMissile.OnSpawn
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Players.Attack.Weapon.PlayerMissile.OnSpawn
+  nameWithType: PlayerMissile.OnSpawn
 - uid: StormHawks.Runtime.Players.Attack.Weapon.PlayerMissile.RotateTo
   name: RotateTo()
   href: api/StormHawks.Runtime.Players.Attack.Weapon.PlayerMissile.html#StormHawks_Runtime_Players_Attack_Weapon_PlayerMissile_RotateTo
@@ -7200,6 +7306,58 @@ references:
   commentId: T:StormHawks.Runtime.Players.CrossHair.CrossHair
   fullName: StormHawks.Runtime.Players.CrossHair.CrossHair
   nameWithType: CrossHair
+- uid: StormHawks.Runtime.Players.CrossHair.CrossHair.Initialize
+  name: Initialize()
+  href: api/StormHawks.Runtime.Players.CrossHair.CrossHair.html#StormHawks_Runtime_Players_CrossHair_CrossHair_Initialize
+  commentId: M:StormHawks.Runtime.Players.CrossHair.CrossHair.Initialize
+  fullName: StormHawks.Runtime.Players.CrossHair.CrossHair.Initialize()
+  nameWithType: CrossHair.Initialize()
+- uid: StormHawks.Runtime.Players.CrossHair.CrossHair.Initialize*
+  name: Initialize
+  href: api/StormHawks.Runtime.Players.CrossHair.CrossHair.html#StormHawks_Runtime_Players_CrossHair_CrossHair_Initialize_
+  commentId: Overload:StormHawks.Runtime.Players.CrossHair.CrossHair.Initialize
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Players.CrossHair.CrossHair.Initialize
+  nameWithType: CrossHair.Initialize
+- uid: StormHawks.Runtime.Players.CrossHair.CrossHair.IsInitialized
+  name: IsInitialized
+  href: api/StormHawks.Runtime.Players.CrossHair.CrossHair.html#StormHawks_Runtime_Players_CrossHair_CrossHair_IsInitialized
+  commentId: P:StormHawks.Runtime.Players.CrossHair.CrossHair.IsInitialized
+  fullName: StormHawks.Runtime.Players.CrossHair.CrossHair.IsInitialized
+  nameWithType: CrossHair.IsInitialized
+- uid: StormHawks.Runtime.Players.CrossHair.CrossHair.IsInitialized*
+  name: IsInitialized
+  href: api/StormHawks.Runtime.Players.CrossHair.CrossHair.html#StormHawks_Runtime_Players_CrossHair_CrossHair_IsInitialized_
+  commentId: Overload:StormHawks.Runtime.Players.CrossHair.CrossHair.IsInitialized
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Players.CrossHair.CrossHair.IsInitialized
+  nameWithType: CrossHair.IsInitialized
+- uid: StormHawks.Runtime.Players.CrossHair.CrossHair.OnRelease
+  name: OnRelease()
+  href: api/StormHawks.Runtime.Players.CrossHair.CrossHair.html#StormHawks_Runtime_Players_CrossHair_CrossHair_OnRelease
+  commentId: M:StormHawks.Runtime.Players.CrossHair.CrossHair.OnRelease
+  fullName: StormHawks.Runtime.Players.CrossHair.CrossHair.OnRelease()
+  nameWithType: CrossHair.OnRelease()
+- uid: StormHawks.Runtime.Players.CrossHair.CrossHair.OnRelease*
+  name: OnRelease
+  href: api/StormHawks.Runtime.Players.CrossHair.CrossHair.html#StormHawks_Runtime_Players_CrossHair_CrossHair_OnRelease_
+  commentId: Overload:StormHawks.Runtime.Players.CrossHair.CrossHair.OnRelease
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Players.CrossHair.CrossHair.OnRelease
+  nameWithType: CrossHair.OnRelease
+- uid: StormHawks.Runtime.Players.CrossHair.CrossHair.OnSpawn
+  name: OnSpawn()
+  href: api/StormHawks.Runtime.Players.CrossHair.CrossHair.html#StormHawks_Runtime_Players_CrossHair_CrossHair_OnSpawn
+  commentId: M:StormHawks.Runtime.Players.CrossHair.CrossHair.OnSpawn
+  fullName: StormHawks.Runtime.Players.CrossHair.CrossHair.OnSpawn()
+  nameWithType: CrossHair.OnSpawn()
+- uid: StormHawks.Runtime.Players.CrossHair.CrossHair.OnSpawn*
+  name: OnSpawn
+  href: api/StormHawks.Runtime.Players.CrossHair.CrossHair.html#StormHawks_Runtime_Players_CrossHair_CrossHair_OnSpawn_
+  commentId: Overload:StormHawks.Runtime.Players.CrossHair.CrossHair.OnSpawn
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Players.CrossHair.CrossHair.OnSpawn
+  nameWithType: CrossHair.OnSpawn
 - uid: StormHawks.Runtime.Players.CrossHair.CrossHair.RegisterTarget(DetectableEntity)
   name: RegisterTarget(DetectableEntity)
   href: api/StormHawks.Runtime.Players.CrossHair.CrossHair.html#StormHawks_Runtime_Players_CrossHair_CrossHair_RegisterTarget_DetectableEntity_
@@ -7456,12 +7614,6 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Players.PlayerRotator.LerpRotation
   nameWithType: PlayerRotator.LerpRotation
-- uid: StormHawks.Runtime.Utilities
-  name: StormHawks.Runtime.Utilities
-  href: api/StormHawks.Runtime.Utilities.html
-  commentId: N:StormHawks.Runtime.Utilities
-  fullName: StormHawks.Runtime.Utilities
-  nameWithType: StormHawks.Runtime.Utilities
 - uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions
   name: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions
   href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.html
@@ -8870,49 +9022,250 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Utilities.Extensions.Vector3Extensions.NormalizeByRange
   nameWithType: Vector3Extensions.NormalizeByRange
-- uid: StormHawks.Runtime.Utilities.ObjectPool`1
-  name: ObjectPool<T>
-  href: api/StormHawks.Runtime.Utilities.ObjectPool-1.html
-  commentId: T:StormHawks.Runtime.Utilities.ObjectPool`1
-  name.vb: ObjectPool(Of T)
-  fullName: StormHawks.Runtime.Utilities.ObjectPool<T>
-  fullName.vb: StormHawks.Runtime.Utilities.ObjectPool(Of T)
-  nameWithType: ObjectPool<T>
-  nameWithType.vb: ObjectPool(Of T)
-- uid: StormHawks.Runtime.Utilities.ObjectPool`1.Get
+- uid: StormHawks.Runtime.Utilities.ObjectPools
+  name: StormHawks.Runtime.Utilities.ObjectPools
+  href: api/StormHawks.Runtime.Utilities.ObjectPools.html
+  commentId: N:StormHawks.Runtime.Utilities.ObjectPools
+  fullName: StormHawks.Runtime.Utilities.ObjectPools
+  nameWithType: StormHawks.Runtime.Utilities.ObjectPools
+- uid: StormHawks.Runtime.Utilities.ObjectPools.BulletPool
+  name: BulletPool
+  href: api/StormHawks.Runtime.Utilities.ObjectPools.BulletPool.html
+  commentId: T:StormHawks.Runtime.Utilities.ObjectPools.BulletPool
+  fullName: StormHawks.Runtime.Utilities.ObjectPools.BulletPool
+  nameWithType: BulletPool
+- uid: StormHawks.Runtime.Utilities.ObjectPools.CrossHairPool
+  name: CrossHairPool
+  href: api/StormHawks.Runtime.Utilities.ObjectPools.CrossHairPool.html
+  commentId: T:StormHawks.Runtime.Utilities.ObjectPools.CrossHairPool
+  fullName: StormHawks.Runtime.Utilities.ObjectPools.CrossHairPool
+  nameWithType: CrossHairPool
+- uid: StormHawks.Runtime.Utilities.ObjectPools.Dummy
+  name: StormHawks.Runtime.Utilities.ObjectPools.Dummy
+  href: api/StormHawks.Runtime.Utilities.ObjectPools.Dummy.html
+  commentId: N:StormHawks.Runtime.Utilities.ObjectPools.Dummy
+  fullName: StormHawks.Runtime.Utilities.ObjectPools.Dummy
+  nameWithType: StormHawks.Runtime.Utilities.ObjectPools.Dummy
+- uid: StormHawks.Runtime.Utilities.ObjectPools.Dummy.ObjectPoolTestBridge
+  name: ObjectPoolTestBridge
+  href: api/StormHawks.Runtime.Utilities.ObjectPools.Dummy.ObjectPoolTestBridge.html
+  commentId: T:StormHawks.Runtime.Utilities.ObjectPools.Dummy.ObjectPoolTestBridge
+  fullName: StormHawks.Runtime.Utilities.ObjectPools.Dummy.ObjectPoolTestBridge
+  nameWithType: ObjectPoolTestBridge
+- uid: StormHawks.Runtime.Utilities.ObjectPools.Dummy.ObjectPoolTestBridge.GetFromPool
+  name: GetFromPool()
+  href: api/StormHawks.Runtime.Utilities.ObjectPools.Dummy.ObjectPoolTestBridge.html#StormHawks_Runtime_Utilities_ObjectPools_Dummy_ObjectPoolTestBridge_GetFromPool
+  commentId: M:StormHawks.Runtime.Utilities.ObjectPools.Dummy.ObjectPoolTestBridge.GetFromPool
+  fullName: StormHawks.Runtime.Utilities.ObjectPools.Dummy.ObjectPoolTestBridge.GetFromPool()
+  nameWithType: ObjectPoolTestBridge.GetFromPool()
+- uid: StormHawks.Runtime.Utilities.ObjectPools.Dummy.ObjectPoolTestBridge.GetFromPool*
+  name: GetFromPool
+  href: api/StormHawks.Runtime.Utilities.ObjectPools.Dummy.ObjectPoolTestBridge.html#StormHawks_Runtime_Utilities_ObjectPools_Dummy_ObjectPoolTestBridge_GetFromPool_
+  commentId: Overload:StormHawks.Runtime.Utilities.ObjectPools.Dummy.ObjectPoolTestBridge.GetFromPool
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Utilities.ObjectPools.Dummy.ObjectPoolTestBridge.GetFromPool
+  nameWithType: ObjectPoolTestBridge.GetFromPool
+- uid: StormHawks.Runtime.Utilities.ObjectPools.Dummy.TriggerEventKeyDown
+  name: TriggerEventKeyDown
+  href: api/StormHawks.Runtime.Utilities.ObjectPools.Dummy.TriggerEventKeyDown.html
+  commentId: T:StormHawks.Runtime.Utilities.ObjectPools.Dummy.TriggerEventKeyDown
+  fullName: StormHawks.Runtime.Utilities.ObjectPools.Dummy.TriggerEventKeyDown
+  nameWithType: TriggerEventKeyDown
+- uid: StormHawks.Runtime.Utilities.ObjectPools.MissilePool
+  name: MissilePool
+  href: api/StormHawks.Runtime.Utilities.ObjectPools.MissilePool.html
+  commentId: T:StormHawks.Runtime.Utilities.ObjectPools.MissilePool
+  fullName: StormHawks.Runtime.Utilities.ObjectPools.MissilePool
+  nameWithType: MissilePool
+- uid: StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool`1
+  name: MonoObjectPool<T>
+  href: api/StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool-1.html
+  commentId: T:StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool`1
+  name.vb: MonoObjectPool(Of T)
+  fullName: StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool<T>
+  fullName.vb: StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool(Of T)
+  nameWithType: MonoObjectPool<T>
+  nameWithType.vb: MonoObjectPool(Of T)
+- uid: StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool`1.CreateObject
+  name: CreateObject()
+  href: api/StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool-1.html#StormHawks_Runtime_Utilities_ObjectPools_MonoObjectPool_1_CreateObject
+  commentId: M:StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool`1.CreateObject
+  fullName: StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool<T>.CreateObject()
+  fullName.vb: StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool(Of T).CreateObject()
+  nameWithType: MonoObjectPool<T>.CreateObject()
+  nameWithType.vb: MonoObjectPool(Of T).CreateObject()
+- uid: StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool`1.CreateObject*
+  name: CreateObject
+  href: api/StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool-1.html#StormHawks_Runtime_Utilities_ObjectPools_MonoObjectPool_1_CreateObject_
+  commentId: Overload:StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool`1.CreateObject
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool<T>.CreateObject
+  fullName.vb: StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool(Of T).CreateObject
+  nameWithType: MonoObjectPool<T>.CreateObject
+  nameWithType.vb: MonoObjectPool(Of T).CreateObject
+- uid: StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool`1.Get
   name: Get()
-  href: api/StormHawks.Runtime.Utilities.ObjectPool-1.html#StormHawks_Runtime_Utilities_ObjectPool_1_Get
-  commentId: M:StormHawks.Runtime.Utilities.ObjectPool`1.Get
-  fullName: StormHawks.Runtime.Utilities.ObjectPool<T>.Get()
-  fullName.vb: StormHawks.Runtime.Utilities.ObjectPool(Of T).Get()
-  nameWithType: ObjectPool<T>.Get()
-  nameWithType.vb: ObjectPool(Of T).Get()
-- uid: StormHawks.Runtime.Utilities.ObjectPool`1.Get*
+  href: api/StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool-1.html#StormHawks_Runtime_Utilities_ObjectPools_MonoObjectPool_1_Get
+  commentId: M:StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool`1.Get
+  fullName: StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool<T>.Get()
+  fullName.vb: StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool(Of T).Get()
+  nameWithType: MonoObjectPool<T>.Get()
+  nameWithType.vb: MonoObjectPool(Of T).Get()
+- uid: StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool`1.Get*
   name: Get
-  href: api/StormHawks.Runtime.Utilities.ObjectPool-1.html#StormHawks_Runtime_Utilities_ObjectPool_1_Get_
-  commentId: Overload:StormHawks.Runtime.Utilities.ObjectPool`1.Get
+  href: api/StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool-1.html#StormHawks_Runtime_Utilities_ObjectPools_MonoObjectPool_1_Get_
+  commentId: Overload:StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool`1.Get
   isSpec: "True"
-  fullName: StormHawks.Runtime.Utilities.ObjectPool<T>.Get
-  fullName.vb: StormHawks.Runtime.Utilities.ObjectPool(Of T).Get
-  nameWithType: ObjectPool<T>.Get
-  nameWithType.vb: ObjectPool(Of T).Get
-- uid: StormHawks.Runtime.Utilities.ObjectPool`1.Release(`0)
+  fullName: StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool<T>.Get
+  fullName.vb: StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool(Of T).Get
+  nameWithType: MonoObjectPool<T>.Get
+  nameWithType.vb: MonoObjectPool(Of T).Get
+- uid: StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool`1.OnDestroyObject(`0)
+  name: OnDestroyObject(T)
+  href: api/StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool-1.html#StormHawks_Runtime_Utilities_ObjectPools_MonoObjectPool_1_OnDestroyObject__0_
+  commentId: M:StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool`1.OnDestroyObject(`0)
+  fullName: StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool<T>.OnDestroyObject(T)
+  fullName.vb: StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool(Of T).OnDestroyObject(T)
+  nameWithType: MonoObjectPool<T>.OnDestroyObject(T)
+  nameWithType.vb: MonoObjectPool(Of T).OnDestroyObject(T)
+- uid: StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool`1.OnDestroyObject*
+  name: OnDestroyObject
+  href: api/StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool-1.html#StormHawks_Runtime_Utilities_ObjectPools_MonoObjectPool_1_OnDestroyObject_
+  commentId: Overload:StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool`1.OnDestroyObject
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool<T>.OnDestroyObject
+  fullName.vb: StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool(Of T).OnDestroyObject
+  nameWithType: MonoObjectPool<T>.OnDestroyObject
+  nameWithType.vb: MonoObjectPool(Of T).OnDestroyObject
+- uid: StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool`1.OnGetObject(`0)
+  name: OnGetObject(T)
+  href: api/StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool-1.html#StormHawks_Runtime_Utilities_ObjectPools_MonoObjectPool_1_OnGetObject__0_
+  commentId: M:StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool`1.OnGetObject(`0)
+  fullName: StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool<T>.OnGetObject(T)
+  fullName.vb: StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool(Of T).OnGetObject(T)
+  nameWithType: MonoObjectPool<T>.OnGetObject(T)
+  nameWithType.vb: MonoObjectPool(Of T).OnGetObject(T)
+- uid: StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool`1.OnGetObject*
+  name: OnGetObject
+  href: api/StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool-1.html#StormHawks_Runtime_Utilities_ObjectPools_MonoObjectPool_1_OnGetObject_
+  commentId: Overload:StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool`1.OnGetObject
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool<T>.OnGetObject
+  fullName.vb: StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool(Of T).OnGetObject
+  nameWithType: MonoObjectPool<T>.OnGetObject
+  nameWithType.vb: MonoObjectPool(Of T).OnGetObject
+- uid: StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool`1.OnReleaseObject(`0)
+  name: OnReleaseObject(T)
+  href: api/StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool-1.html#StormHawks_Runtime_Utilities_ObjectPools_MonoObjectPool_1_OnReleaseObject__0_
+  commentId: M:StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool`1.OnReleaseObject(`0)
+  fullName: StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool<T>.OnReleaseObject(T)
+  fullName.vb: StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool(Of T).OnReleaseObject(T)
+  nameWithType: MonoObjectPool<T>.OnReleaseObject(T)
+  nameWithType.vb: MonoObjectPool(Of T).OnReleaseObject(T)
+- uid: StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool`1.OnReleaseObject*
+  name: OnReleaseObject
+  href: api/StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool-1.html#StormHawks_Runtime_Utilities_ObjectPools_MonoObjectPool_1_OnReleaseObject_
+  commentId: Overload:StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool`1.OnReleaseObject
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool<T>.OnReleaseObject
+  fullName.vb: StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool(Of T).OnReleaseObject
+  nameWithType: MonoObjectPool<T>.OnReleaseObject
+  nameWithType.vb: MonoObjectPool(Of T).OnReleaseObject
+- uid: StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool`1.Release(`0)
   name: Release(T)
-  href: api/StormHawks.Runtime.Utilities.ObjectPool-1.html#StormHawks_Runtime_Utilities_ObjectPool_1_Release__0_
-  commentId: M:StormHawks.Runtime.Utilities.ObjectPool`1.Release(`0)
-  fullName: StormHawks.Runtime.Utilities.ObjectPool<T>.Release(T)
-  fullName.vb: StormHawks.Runtime.Utilities.ObjectPool(Of T).Release(T)
-  nameWithType: ObjectPool<T>.Release(T)
-  nameWithType.vb: ObjectPool(Of T).Release(T)
-- uid: StormHawks.Runtime.Utilities.ObjectPool`1.Release*
+  href: api/StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool-1.html#StormHawks_Runtime_Utilities_ObjectPools_MonoObjectPool_1_Release__0_
+  commentId: M:StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool`1.Release(`0)
+  fullName: StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool<T>.Release(T)
+  fullName.vb: StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool(Of T).Release(T)
+  nameWithType: MonoObjectPool<T>.Release(T)
+  nameWithType.vb: MonoObjectPool(Of T).Release(T)
+- uid: StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool`1.Release*
   name: Release
-  href: api/StormHawks.Runtime.Utilities.ObjectPool-1.html#StormHawks_Runtime_Utilities_ObjectPool_1_Release_
-  commentId: Overload:StormHawks.Runtime.Utilities.ObjectPool`1.Release
+  href: api/StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool-1.html#StormHawks_Runtime_Utilities_ObjectPools_MonoObjectPool_1_Release_
+  commentId: Overload:StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool`1.Release
   isSpec: "True"
-  fullName: StormHawks.Runtime.Utilities.ObjectPool<T>.Release
-  fullName.vb: StormHawks.Runtime.Utilities.ObjectPool(Of T).Release
-  nameWithType: ObjectPool<T>.Release
-  nameWithType.vb: ObjectPool(Of T).Release
+  fullName: StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool<T>.Release
+  fullName.vb: StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool(Of T).Release
+  nameWithType: MonoObjectPool<T>.Release
+  nameWithType.vb: MonoObjectPool(Of T).Release
+- uid: StormHawks.Runtime.Utilities.ObjectPools.PoolObject`1
+  name: PoolObject<T>
+  href: api/StormHawks.Runtime.Utilities.ObjectPools.PoolObject-1.html
+  commentId: T:StormHawks.Runtime.Utilities.ObjectPools.PoolObject`1
+  name.vb: PoolObject(Of T)
+  fullName: StormHawks.Runtime.Utilities.ObjectPools.PoolObject<T>
+  fullName.vb: StormHawks.Runtime.Utilities.ObjectPools.PoolObject(Of T)
+  nameWithType: PoolObject<T>
+  nameWithType.vb: PoolObject(Of T)
+- uid: StormHawks.Runtime.Utilities.ObjectPools.PoolObject`1.OnRelease
+  name: OnRelease()
+  href: api/StormHawks.Runtime.Utilities.ObjectPools.PoolObject-1.html#StormHawks_Runtime_Utilities_ObjectPools_PoolObject_1_OnRelease
+  commentId: M:StormHawks.Runtime.Utilities.ObjectPools.PoolObject`1.OnRelease
+  fullName: StormHawks.Runtime.Utilities.ObjectPools.PoolObject<T>.OnRelease()
+  fullName.vb: StormHawks.Runtime.Utilities.ObjectPools.PoolObject(Of T).OnRelease()
+  nameWithType: PoolObject<T>.OnRelease()
+  nameWithType.vb: PoolObject(Of T).OnRelease()
+- uid: StormHawks.Runtime.Utilities.ObjectPools.PoolObject`1.OnRelease*
+  name: OnRelease
+  href: api/StormHawks.Runtime.Utilities.ObjectPools.PoolObject-1.html#StormHawks_Runtime_Utilities_ObjectPools_PoolObject_1_OnRelease_
+  commentId: Overload:StormHawks.Runtime.Utilities.ObjectPools.PoolObject`1.OnRelease
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Utilities.ObjectPools.PoolObject<T>.OnRelease
+  fullName.vb: StormHawks.Runtime.Utilities.ObjectPools.PoolObject(Of T).OnRelease
+  nameWithType: PoolObject<T>.OnRelease
+  nameWithType.vb: PoolObject(Of T).OnRelease
+- uid: StormHawks.Runtime.Utilities.ObjectPools.PoolObject`1.OnSpawn
+  name: OnSpawn()
+  href: api/StormHawks.Runtime.Utilities.ObjectPools.PoolObject-1.html#StormHawks_Runtime_Utilities_ObjectPools_PoolObject_1_OnSpawn
+  commentId: M:StormHawks.Runtime.Utilities.ObjectPools.PoolObject`1.OnSpawn
+  fullName: StormHawks.Runtime.Utilities.ObjectPools.PoolObject<T>.OnSpawn()
+  fullName.vb: StormHawks.Runtime.Utilities.ObjectPools.PoolObject(Of T).OnSpawn()
+  nameWithType: PoolObject<T>.OnSpawn()
+  nameWithType.vb: PoolObject(Of T).OnSpawn()
+- uid: StormHawks.Runtime.Utilities.ObjectPools.PoolObject`1.OnSpawn*
+  name: OnSpawn
+  href: api/StormHawks.Runtime.Utilities.ObjectPools.PoolObject-1.html#StormHawks_Runtime_Utilities_ObjectPools_PoolObject_1_OnSpawn_
+  commentId: Overload:StormHawks.Runtime.Utilities.ObjectPools.PoolObject`1.OnSpawn
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Utilities.ObjectPools.PoolObject<T>.OnSpawn
+  fullName.vb: StormHawks.Runtime.Utilities.ObjectPools.PoolObject(Of T).OnSpawn
+  nameWithType: PoolObject<T>.OnSpawn
+  nameWithType.vb: PoolObject(Of T).OnSpawn
+- uid: StormHawks.Runtime.Utilities.ObjectPools.PoolObject`1.Pool
+  name: Pool
+  href: api/StormHawks.Runtime.Utilities.ObjectPools.PoolObject-1.html#StormHawks_Runtime_Utilities_ObjectPools_PoolObject_1_Pool
+  commentId: P:StormHawks.Runtime.Utilities.ObjectPools.PoolObject`1.Pool
+  fullName: StormHawks.Runtime.Utilities.ObjectPools.PoolObject<T>.Pool
+  fullName.vb: StormHawks.Runtime.Utilities.ObjectPools.PoolObject(Of T).Pool
+  nameWithType: PoolObject<T>.Pool
+  nameWithType.vb: PoolObject(Of T).Pool
+- uid: StormHawks.Runtime.Utilities.ObjectPools.PoolObject`1.Pool*
+  name: Pool
+  href: api/StormHawks.Runtime.Utilities.ObjectPools.PoolObject-1.html#StormHawks_Runtime_Utilities_ObjectPools_PoolObject_1_Pool_
+  commentId: Overload:StormHawks.Runtime.Utilities.ObjectPools.PoolObject`1.Pool
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Utilities.ObjectPools.PoolObject<T>.Pool
+  fullName.vb: StormHawks.Runtime.Utilities.ObjectPools.PoolObject(Of T).Pool
+  nameWithType: PoolObject<T>.Pool
+  nameWithType.vb: PoolObject(Of T).Pool
+- uid: StormHawks.Runtime.Utilities.ObjectPools.PoolObject`1.SetPool(StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool{`0})
+  name: SetPool(MonoObjectPool<T>)
+  href: api/StormHawks.Runtime.Utilities.ObjectPools.PoolObject-1.html#StormHawks_Runtime_Utilities_ObjectPools_PoolObject_1_SetPool_StormHawks_Runtime_Utilities_ObjectPools_MonoObjectPool__0__
+  commentId: M:StormHawks.Runtime.Utilities.ObjectPools.PoolObject`1.SetPool(StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool{`0})
+  name.vb: SetPool(MonoObjectPool(Of T))
+  fullName: StormHawks.Runtime.Utilities.ObjectPools.PoolObject<T>.SetPool(StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool<T>)
+  fullName.vb: StormHawks.Runtime.Utilities.ObjectPools.PoolObject(Of T).SetPool(StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool(Of T))
+  nameWithType: PoolObject<T>.SetPool(MonoObjectPool<T>)
+  nameWithType.vb: PoolObject(Of T).SetPool(MonoObjectPool(Of T))
+- uid: StormHawks.Runtime.Utilities.ObjectPools.PoolObject`1.SetPool*
+  name: SetPool
+  href: api/StormHawks.Runtime.Utilities.ObjectPools.PoolObject-1.html#StormHawks_Runtime_Utilities_ObjectPools_PoolObject_1_SetPool_
+  commentId: Overload:StormHawks.Runtime.Utilities.ObjectPools.PoolObject`1.SetPool
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Utilities.ObjectPools.PoolObject<T>.SetPool
+  fullName.vb: StormHawks.Runtime.Utilities.ObjectPools.PoolObject(Of T).SetPool
+  nameWithType: PoolObject<T>.SetPool
+  nameWithType.vb: PoolObject(Of T).SetPool
 - uid: StormHawks.Runtime.Utilities.RuntimeSet
   name: StormHawks.Runtime.Utilities.RuntimeSet
   href: api/StormHawks.Runtime.Utilities.RuntimeSet.html

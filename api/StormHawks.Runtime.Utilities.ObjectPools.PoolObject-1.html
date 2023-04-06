@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class ObjectPool&lt;T&gt;
+    <title>Class PoolObject&lt;T&gt;
    | Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class ObjectPool&lt;T&gt;
+    <meta name="title" content="Class PoolObject&lt;T&gt;
    | Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -78,23 +78,27 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Utilities.ObjectPool`1">
+            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Utilities.ObjectPools.PoolObject`1">
   
   
-  <h1 id="StormHawks_Runtime_Utilities_ObjectPool_1" data-uid="StormHawks.Runtime.Utilities.ObjectPool`1" class="text-break">Class ObjectPool&lt;T&gt;
+  <h1 id="StormHawks_Runtime_Utilities_ObjectPools_PoolObject_1" data-uid="StormHawks.Runtime.Utilities.ObjectPools.PoolObject`1" class="text-break">Class PoolObject&lt;T&gt;
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">ObjectPool&lt;T&gt;</span></div>
+    <div class="level1"><span class="xref">PoolObject&lt;T&gt;</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Utilities.html">StormHawks.Runtime.Utilities</a></h6>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">IPoolObject</span>&lt;T&gt;</div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Utilities.ObjectPools.html">StormHawks.Runtime.Utilities.ObjectPools</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="StormHawks_Runtime_Utilities_ObjectPool_1_syntax">Syntax</h5>
+  <h5 id="StormHawks_Runtime_Utilities_ObjectPools_PoolObject_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ObjectPool&lt;T&gt; : MonoBehaviour where T : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class PoolObject&lt;T&gt; : MonoBehaviour where T : PoolObject&lt;T&gt;</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -111,19 +115,19 @@
       </tr>
     </tbody>
   </table>
-  <h3 id="methods">Methods
+  <h3 id="properties">Properties
   </h3>
   
   
-  <a id="StormHawks_Runtime_Utilities_ObjectPool_1_Get_" data-uid="StormHawks.Runtime.Utilities.ObjectPool`1.Get*"></a>
-  <h4 id="StormHawks_Runtime_Utilities_ObjectPool_1_Get" data-uid="StormHawks.Runtime.Utilities.ObjectPool`1.Get">Get()</h4>
+  <a id="StormHawks_Runtime_Utilities_ObjectPools_PoolObject_1_Pool_" data-uid="StormHawks.Runtime.Utilities.ObjectPools.PoolObject`1.Pool*"></a>
+  <h4 id="StormHawks_Runtime_Utilities_ObjectPools_PoolObject_1_Pool" data-uid="StormHawks.Runtime.Utilities.ObjectPools.PoolObject`1.Pool">Pool</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public T Get()</code></pre>
+    <pre><code class="lang-csharp hljs">public MonoObjectPool&lt;T&gt; Pool { get; }</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -133,20 +137,42 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">T</span></td>
+        <td><a class="xref" href="StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool-1.html">MonoObjectPool</a>&lt;T&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  <h3 id="methods">Methods
+  </h3>
   
   
-  <a id="StormHawks_Runtime_Utilities_ObjectPool_1_Release_" data-uid="StormHawks.Runtime.Utilities.ObjectPool`1.Release*"></a>
-  <h4 id="StormHawks_Runtime_Utilities_ObjectPool_1_Release__0_" data-uid="StormHawks.Runtime.Utilities.ObjectPool`1.Release(`0)">Release(T)</h4>
+  <a id="StormHawks_Runtime_Utilities_ObjectPools_PoolObject_1_OnRelease_" data-uid="StormHawks.Runtime.Utilities.ObjectPools.PoolObject`1.OnRelease*"></a>
+  <h4 id="StormHawks_Runtime_Utilities_ObjectPools_PoolObject_1_OnRelease" data-uid="StormHawks.Runtime.Utilities.ObjectPools.PoolObject`1.OnRelease">OnRelease()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Release(T obj)</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract void OnRelease()</code></pre>
+  </div>
+  
+  
+  <a id="StormHawks_Runtime_Utilities_ObjectPools_PoolObject_1_OnSpawn_" data-uid="StormHawks.Runtime.Utilities.ObjectPools.PoolObject`1.OnSpawn*"></a>
+  <h4 id="StormHawks_Runtime_Utilities_ObjectPools_PoolObject_1_OnSpawn" data-uid="StormHawks.Runtime.Utilities.ObjectPools.PoolObject`1.OnSpawn">OnSpawn()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void OnSpawn()</code></pre>
+  </div>
+  
+  
+  <a id="StormHawks_Runtime_Utilities_ObjectPools_PoolObject_1_SetPool_" data-uid="StormHawks.Runtime.Utilities.ObjectPools.PoolObject`1.SetPool*"></a>
+  <h4 id="StormHawks_Runtime_Utilities_ObjectPools_PoolObject_1_SetPool_StormHawks_Runtime_Utilities_ObjectPools_MonoObjectPool__0__" data-uid="StormHawks.Runtime.Utilities.ObjectPools.PoolObject`1.SetPool(StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool{`0})">SetPool(MonoObjectPool&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetPool(MonoObjectPool&lt;T&gt; pool)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -159,12 +185,16 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">T</span></td>
-        <td><span class="parametername">obj</span></td>
+        <td><a class="xref" href="StormHawks.Runtime.Utilities.ObjectPools.MonoObjectPool-1.html">MonoObjectPool</a>&lt;T&gt;</td>
+        <td><span class="parametername">pool</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">IPoolObject&lt;&gt;</span>
+  </div>
 </article>
           </div>
           

@@ -90,15 +90,11 @@
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
     <div class="level1"><span class="xref">PlayerMissile</span></div>
   </div>
-  <div class="implements">
-    <h5>Implements</h5>
-    <div><span class="xref">IInitializable</span></div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Players.Attack.Weapon.html">StormHawks.Runtime.Players.Attack.Weapon</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="StormHawks_Runtime_Players_Attack_Weapon_PlayerMissile_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class PlayerMissile : SteeringEntity</code></pre>
+    <pre><code class="lang-csharp hljs">public class PlayerMissile : PoolObject&lt;PlayerMissile&gt;</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
@@ -141,13 +137,33 @@
   </div>
   
   
+  <a id="StormHawks_Runtime_Players_Attack_Weapon_PlayerMissile_OnRelease_" data-uid="StormHawks.Runtime.Players.Attack.Weapon.PlayerMissile.OnRelease*"></a>
+  <h4 id="StormHawks_Runtime_Players_Attack_Weapon_PlayerMissile_OnRelease" data-uid="StormHawks.Runtime.Players.Attack.Weapon.PlayerMissile.OnRelease">OnRelease()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnRelease()</code></pre>
+  </div>
+  
+  
+  <a id="StormHawks_Runtime_Players_Attack_Weapon_PlayerMissile_OnSpawn_" data-uid="StormHawks.Runtime.Players.Attack.Weapon.PlayerMissile.OnSpawn*"></a>
+  <h4 id="StormHawks_Runtime_Players_Attack_Weapon_PlayerMissile_OnSpawn" data-uid="StormHawks.Runtime.Players.Attack.Weapon.PlayerMissile.OnSpawn">OnSpawn()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnSpawn()</code></pre>
+  </div>
+  
+  
   <a id="StormHawks_Runtime_Players_Attack_Weapon_PlayerMissile_RotateTo_" data-uid="StormHawks.Runtime.Players.Attack.Weapon.PlayerMissile.RotateTo*"></a>
   <h4 id="StormHawks_Runtime_Players_Attack_Weapon_PlayerMissile_RotateTo" data-uid="StormHawks.Runtime.Players.Attack.Weapon.PlayerMissile.RotateTo">RotateTo()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void RotateTo()</code></pre>
+    <pre><code class="lang-csharp hljs">protected void RotateTo()</code></pre>
   </div>
   
   
@@ -184,11 +200,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void Update()</code></pre>
-  </div>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <span class="xref">IInitializable</span>
+    <pre><code class="lang-csharp hljs">protected void Update()</code></pre>
   </div>
 </article>
           </div>

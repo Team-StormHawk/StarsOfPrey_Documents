@@ -88,41 +88,34 @@
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">PlayerBullet</span></div>
+    <div class="level1"><a class="xref" href="StormHawks.Runtime.Players.Attack.Weapon.PlayerWeapon-1.html">PlayerWeapon</a>&lt;<a class="xref" href="StormHawks.Runtime.Players.Attack.Weapon.PlayerBullet.html">PlayerBullet</a>&gt;</div>
+    <div class="level2"><span class="xref">PlayerBullet</span></div>
+  </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">IDamagable</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Players.Attack.Weapon.PlayerWeapon-1.html#StormHawks_Runtime_Players_Attack_Weapon_PlayerWeapon_1_DamageSO">PlayerWeapon&lt;PlayerBullet&gt;.DamageSO</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Players.Attack.Weapon.PlayerWeapon-1.html#StormHawks_Runtime_Players_Attack_Weapon_PlayerWeapon_1_OnRelease">PlayerWeapon&lt;PlayerBullet&gt;.OnRelease()</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Players.Attack.Weapon.PlayerWeapon-1.html#StormHawks_Runtime_Players_Attack_Weapon_PlayerWeapon_1_DealDamage_IHasHealth_System_Single_">PlayerWeapon&lt;PlayerBullet&gt;.DealDamage(IHasHealth, Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Players.Attack.Weapon.PlayerWeapon-1.html#StormHawks_Runtime_Players_Attack_Weapon_PlayerWeapon_1_DealDamage_IHasHealth_">PlayerWeapon&lt;PlayerBullet&gt;.DealDamage(IHasHealth)</a>
+    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Players.Attack.Weapon.html">StormHawks.Runtime.Players.Attack.Weapon</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="StormHawks_Runtime_Players_Attack_Weapon_PlayerBullet_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class PlayerBullet : PoolObject&lt;PlayerBullet&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public class PlayerBullet : PlayerWeapon&lt;PlayerBullet&gt;</code></pre>
   </div>
-  <h3 id="properties">Properties
-  </h3>
-  
-  
-  <a id="StormHawks_Runtime_Players_Attack_Weapon_PlayerBullet_IsInitialized_" data-uid="StormHawks.Runtime.Players.Attack.Weapon.PlayerBullet.IsInitialized*"></a>
-  <h4 id="StormHawks_Runtime_Players_Attack_Weapon_PlayerBullet_IsInitialized" data-uid="StormHawks.Runtime.Players.Attack.Weapon.PlayerBullet.IsInitialized">IsInitialized</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool IsInitialized { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="methods">Methods
   </h3>
   
@@ -133,28 +126,20 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Initialize()</code></pre>
+    <pre><code class="lang-csharp hljs">public override void Initialize()</code></pre>
   </div>
   
   
-  <a id="StormHawks_Runtime_Players_Attack_Weapon_PlayerBullet_OnRelease_" data-uid="StormHawks.Runtime.Players.Attack.Weapon.PlayerBullet.OnRelease*"></a>
-  <h4 id="StormHawks_Runtime_Players_Attack_Weapon_PlayerBullet_OnRelease" data-uid="StormHawks.Runtime.Players.Attack.Weapon.PlayerBullet.OnRelease">OnRelease()</h4>
+  <a id="StormHawks_Runtime_Players_Attack_Weapon_PlayerBullet_ReleaseParticle_" data-uid="StormHawks.Runtime.Players.Attack.Weapon.PlayerBullet.ReleaseParticle*"></a>
+  <h4 id="StormHawks_Runtime_Players_Attack_Weapon_PlayerBullet_ReleaseParticle" data-uid="StormHawks.Runtime.Players.Attack.Weapon.PlayerBullet.ReleaseParticle">ReleaseParticle()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void OnRelease()</code></pre>
+    <pre><code class="lang-csharp hljs">protected override void ReleaseParticle()</code></pre>
   </div>
-  
-  
-  <a id="StormHawks_Runtime_Players_Attack_Weapon_PlayerBullet_OnSpawn_" data-uid="StormHawks.Runtime.Players.Attack.Weapon.PlayerBullet.OnSpawn*"></a>
-  <h4 id="StormHawks_Runtime_Players_Attack_Weapon_PlayerBullet_OnSpawn" data-uid="StormHawks.Runtime.Players.Attack.Weapon.PlayerBullet.OnSpawn">OnSpawn()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void OnSpawn()</code></pre>
-  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">StormHawks.Runtime.Players.Attack.Weapon.PlayerWeapon&lt;StormHawks.Runtime.Players.Attack.Weapon.PlayerBullet&gt;.ReleaseParticle()</span></div>
   
   
   <a id="StormHawks_Runtime_Players_Attack_Weapon_PlayerBullet_SetForward_" data-uid="StormHawks.Runtime.Players.Attack.Weapon.PlayerBullet.SetForward*"></a>
@@ -163,7 +148,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetForward(Vector3 moveDir)</code></pre>
+    <pre><code class="lang-csharp hljs">public void SetForward(Vector3 vec)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -177,11 +162,15 @@
     <tbody>
       <tr>
         <td><span class="xref">Vector3</span></td>
-        <td><span class="parametername">moveDir</span></td>
+        <td><span class="parametername">vec</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">IDamagable</span>
+  </div>
 </article>
           </div>
           

@@ -207,13 +207,13 @@
   </table>
   
   
-  <a id="StormHawks_Runtime_Entities_Enemies_EnemyBase_MaxHealth_" data-uid="StormHawks.Runtime.Entities.Enemies.EnemyBase.MaxHealth*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Enemies_EnemyBase_MaxHealth" data-uid="StormHawks.Runtime.Entities.Enemies.EnemyBase.MaxHealth">MaxHealth</h4>
+  <a id="StormHawks_Runtime_Entities_Enemies_EnemyBase_HealthSO_" data-uid="StormHawks.Runtime.Entities.Enemies.EnemyBase.HealthSO*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Enemies_EnemyBase_HealthSO" data-uid="StormHawks.Runtime.Entities.Enemies.EnemyBase.HealthSO">HealthSO</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float MaxHealth { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public EntityHealthSO HealthSO { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -225,7 +225,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><a class="xref" href="StormHawks.Runtime.Entities.EntityHealthSO.html">EntityHealthSO</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -319,6 +319,33 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected override void Start()</code></pre>
   </div>
+  
+  
+  <a id="StormHawks_Runtime_Entities_Enemies_EnemyBase_TakeDamage_" data-uid="StormHawks.Runtime.Entities.Enemies.EnemyBase.TakeDamage*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Enemies_EnemyBase_TakeDamage_System_Single_" data-uid="StormHawks.Runtime.Entities.Enemies.EnemyBase.TakeDamage(System.Single)">TakeDamage(Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void TakeDamage(float damage)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">damage</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="implements">Implements</h3>
   <div>
       <span class="xref">IHasHealth</span>

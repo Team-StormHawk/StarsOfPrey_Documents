@@ -92,6 +92,7 @@
       <div class="level2"><a class="xref" href="StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.html">BossEntity</a></div>
       <div class="level2"><a class="xref" href="StormHawks.Runtime.Entities.Enemies.ChasingEnemy.html">ChasingEnemy</a></div>
       <div class="level2"><a class="xref" href="StormHawks.Runtime.Entities.Enemies.Elites.BaseEliteEnemy.html">BaseEliteEnemy</a></div>
+      <div class="level2"><a class="xref" href="StormHawks.Runtime.Entities.Enemies.LookerEnemy.html">LookerEnemy</a></div>
   </div>
   <div class="implements">
     <h5>Implements</h5>
@@ -113,7 +114,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected BlackboardSO _blackboard</code></pre>
+    <pre><code class="lang-csharp hljs">protected Blackboard _blackboard</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -125,7 +126,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="StormHawks.Runtime.BehaviorTree.Core.BlackboardSO.html">BlackboardSO</a></td>
+        <td><span class="xref">Blackboard</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -156,12 +157,12 @@
   </table>
   
   
-  <h4 id="StormHawks_Runtime_Entities_Enemies_EnemyBase__gameObjectSet" data-uid="StormHawks.Runtime.Entities.Enemies.EnemyBase._gameObjectSet">_gameObjectSet</h4>
+  <h4 id="StormHawks_Runtime_Entities_Enemies_EnemyBase__bossEntityRuntimeSet" data-uid="StormHawks.Runtime.Entities.Enemies.EnemyBase._bossEntityRuntimeSet">_bossEntityRuntimeSet</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected GameObjectSetVariable _gameObjectSet</code></pre>
+    <pre><code class="lang-csharp hljs">protected BossRuntimeSet _bossEntityRuntimeSet</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -173,7 +174,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">GameObjectSetVariable</span></td>
+        <td><span class="xref">BossRuntimeSet</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -265,7 +266,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public BlackboardSO GetBlackboard()</code></pre>
+    <pre><code class="lang-csharp hljs">public Blackboard GetBlackboard()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -277,7 +278,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="StormHawks.Runtime.BehaviorTree.Core.BlackboardSO.html">BlackboardSO</a></td>
+        <td><span class="xref">Blackboard</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -327,7 +328,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void TakeDamage(float damage)</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual void TakeDamage(float damage)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

@@ -83,102 +83,36 @@
   
   <h1 id="StormHawks_Runtime_BehaviorTree_Core_Composites_SequenceNode" data-uid="StormHawks.Runtime.BehaviorTree.Core.Composites.SequenceNode" class="text-break">Class SequenceNode
   </h1>
-  <div class="markdown level0 summary"><p>자식노드들을 왼쪽부터 실행시키는 <a class="xref" href="StormHawks.Runtime.BehaviorTree.Core.Composites.CompositeNode.html">CompositeNode</a>
-만약 실행시킨 자식노드가 Failure를 반환한다면, <a class="xref" href="StormHawks.Runtime.BehaviorTree.Core.BehaviorNodeState.html#StormHawks_Runtime_BehaviorTree_Core_BehaviorNodeState_Failure">Failure</a>.
-모든 자식노드가 정상적으로 실행되었다면, <a class="xref" href="StormHawks.Runtime.BehaviorTree.Core.BehaviorNodeState.html#StormHawks_Runtime_BehaviorTree_Core_BehaviorNodeState_Success">Success</a>.
-자식노드 중 하나라도 실행중이라면, <a class="xref" href="StormHawks.Runtime.BehaviorTree.Core.BehaviorNodeState.html#StormHawks_Runtime_BehaviorTree_Core_BehaviorNodeState_Running">Running</a>.</p>
+  <div class="markdown level0 summary"><p>자식노드들을 왼쪽부터 실행시키는 <see cref="!:CompositeNode"></see>
+만약 실행시킨 자식노드가 Failure를 반환한다면, <see cref="!:BehaviorNodeState.Failure"></see>.
+모든 자식노드가 정상적으로 실행되었다면, <see cref="!:BehaviorNodeState.Success"></see>.
+자식노드 중 하나라도 실행중이라면, <see cref="!:BehaviorNodeState.Running"></see>.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><a class="xref" href="StormHawks.Runtime.BehaviorTree.Core.BehaviorNodeSO.html">BehaviorNodeSO</a></div>
-    <div class="level2"><a class="xref" href="StormHawks.Runtime.BehaviorTree.Core.Composites.CompositeNode.html">CompositeNode</a></div>
-    <div class="level3"><span class="xref">SequenceNode</span></div>
-  </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <a class="xref" href="StormHawks.Runtime.BehaviorTree.Core.Composites.CompositeNode.html#StormHawks_Runtime_BehaviorTree_Core_Composites_CompositeNode__children">CompositeNode._children</a>
-    </div>
-    <div>
-      <a class="xref" href="StormHawks.Runtime.BehaviorTree.Core.Composites.CompositeNode.html#StormHawks_Runtime_BehaviorTree_Core_Composites_CompositeNode_Children">CompositeNode.Children</a>
-    </div>
-    <div>
-      <a class="xref" href="StormHawks.Runtime.BehaviorTree.Core.Composites.CompositeNode.html#StormHawks_Runtime_BehaviorTree_Core_Composites_CompositeNode_OnInitialize">CompositeNode.OnInitialize()</a>
-    </div>
-    <div>
-      <a class="xref" href="StormHawks.Runtime.BehaviorTree.Core.Composites.CompositeNode.html#StormHawks_Runtime_BehaviorTree_Core_Composites_CompositeNode_AddChild_StormHawks_Runtime_BehaviorTree_Core_BehaviorNodeSO_">CompositeNode.AddChild(BehaviorNodeSO)</a>
-    </div>
-    <div>
-      <a class="xref" href="StormHawks.Runtime.BehaviorTree.Core.Composites.CompositeNode.html#StormHawks_Runtime_BehaviorTree_Core_Composites_CompositeNode_RemoveChild_StormHawks_Runtime_BehaviorTree_Core_BehaviorNodeSO_">CompositeNode.RemoveChild(BehaviorNodeSO)</a>
-    </div>
-    <div>
-      <a class="xref" href="StormHawks.Runtime.BehaviorTree.Core.Composites.CompositeNode.html#StormHawks_Runtime_BehaviorTree_Core_Composites_CompositeNode_Clone">CompositeNode.Clone()</a>
-    </div>
-    <div>
-      <a class="xref" href="StormHawks.Runtime.BehaviorTree.Core.BehaviorNodeSO.html#StormHawks_Runtime_BehaviorTree_Core_BehaviorNodeSO_Guid">BehaviorNodeSO.Guid</a>
-    </div>
-    <div>
-      <a class="xref" href="StormHawks.Runtime.BehaviorTree.Core.BehaviorNodeSO.html#StormHawks_Runtime_BehaviorTree_Core_BehaviorNodeSO_Position">BehaviorNodeSO.Position</a>
-    </div>
-    <div>
-      <a class="xref" href="StormHawks.Runtime.BehaviorTree.Core.BehaviorNodeSO.html#StormHawks_Runtime_BehaviorTree_Core_BehaviorNodeSO_Description">BehaviorNodeSO.Description</a>
-    </div>
-    <div>
-      <a class="xref" href="StormHawks.Runtime.BehaviorTree.Core.BehaviorNodeSO.html#StormHawks_Runtime_BehaviorTree_Core_BehaviorNodeSO__runner">BehaviorNodeSO._runner</a>
-    </div>
-    <div>
-      <a class="xref" href="StormHawks.Runtime.BehaviorTree.Core.BehaviorNodeSO.html#StormHawks_Runtime_BehaviorTree_Core_BehaviorNodeSO__blackboard">BehaviorNodeSO._blackboard</a>
-    </div>
-    <div>
-      <a class="xref" href="StormHawks.Runtime.BehaviorTree.Core.BehaviorNodeSO.html#StormHawks_Runtime_BehaviorTree_Core_BehaviorNodeSO_State">BehaviorNodeSO.State</a>
-    </div>
-    <div>
-      <a class="xref" href="StormHawks.Runtime.BehaviorTree.Core.BehaviorNodeSO.html#StormHawks_Runtime_BehaviorTree_Core_BehaviorNodeSO_Initialize_GameObject_">BehaviorNodeSO.Initialize(GameObject)</a>
-    </div>
-    <div>
-      <a class="xref" href="StormHawks.Runtime.BehaviorTree.Core.BehaviorNodeSO.html#StormHawks_Runtime_BehaviorTree_Core_BehaviorNodeSO_SetBlackboard_StormHawks_Runtime_BehaviorTree_Core_BlackboardSO_">BehaviorNodeSO.SetBlackboard(BlackboardSO)</a>
-    </div>
-    <div>
-      <a class="xref" href="StormHawks.Runtime.BehaviorTree.Core.BehaviorNodeSO.html#StormHawks_Runtime_BehaviorTree_Core_BehaviorNodeSO_Dispose">BehaviorNodeSO.Dispose()</a>
-    </div>
-    <div>
-      <a class="xref" href="StormHawks.Runtime.BehaviorTree.Core.BehaviorNodeSO.html#StormHawks_Runtime_BehaviorTree_Core_BehaviorNodeSO_Run">BehaviorNodeSO.Run()</a>
-    </div>
-    <div>
-      <a class="xref" href="StormHawks.Runtime.BehaviorTree.Core.BehaviorNodeSO.html#StormHawks_Runtime_BehaviorTree_Core_BehaviorNodeSO_Abort">BehaviorNodeSO.Abort()</a>
-    </div>
-    <div>
-      <a class="xref" href="StormHawks.Runtime.BehaviorTree.Core.BehaviorNodeSO.html#StormHawks_Runtime_BehaviorTree_Core_BehaviorNodeSO_OnExit">BehaviorNodeSO.OnExit()</a>
-    </div>
-    <div>
-      <a class="xref" href="StormHawks.Runtime.BehaviorTree.Core.BehaviorNodeSO.html#StormHawks_Runtime_BehaviorTree_Core_BehaviorNodeSO_OnDispose">BehaviorNodeSO.OnDispose()</a>
-    </div>
-    <div>
-      <a class="xref" href="StormHawks.Runtime.BehaviorTree.Core.BehaviorNodeSO.html#StormHawks_Runtime_BehaviorTree_Core_BehaviorNodeSO_ResetNode">BehaviorNodeSO.ResetNode()</a>
-    </div>
-    <div>
-      <a class="xref" href="StormHawks.Runtime.BehaviorTree.Core.BehaviorNodeSO.html#StormHawks_Runtime_BehaviorTree_Core_BehaviorNodeSO_GetBlackboardRuntimeSetKeys">BehaviorNodeSO.GetBlackboardRuntimeSetKeys()</a>
-    </div>
-    <div>
-      <a class="xref" href="StormHawks.Runtime.BehaviorTree.Core.BehaviorNodeSO.html#StormHawks_Runtime_BehaviorTree_Core_BehaviorNodeSO_GetBlackboardGameObjectKeys">BehaviorNodeSO.GetBlackboardGameObjectKeys()</a>
-    </div>
-    <div>
-      <a class="xref" href="StormHawks.Runtime.BehaviorTree.Core.BehaviorNodeSO.html#StormHawks_Runtime_BehaviorTree_Core_BehaviorNodeSO_GetBlackboardFloatKeys">BehaviorNodeSO.GetBlackboardFloatKeys()</a>
-    </div>
-    <div>
-      <a class="xref" href="StormHawks.Runtime.BehaviorTree.Core.BehaviorNodeSO.html#StormHawks_Runtime_BehaviorTree_Core_BehaviorNodeSO_GetBlackboardBoolKeys">BehaviorNodeSO.GetBlackboardBoolKeys()</a>
-    </div>
+    <div class="level1"><span class="xref">SequenceNode</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.BehaviorTree.Core.Composites.html">StormHawks.Runtime.BehaviorTree.Core.Composites</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="StormHawks_Runtime_BehaviorTree_Core_Composites_SequenceNode_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class SequenceNode : CompositeNode</code></pre>
+    <pre><code class="lang-csharp hljs">[Serializable]
+public class SequenceNode : CompositeNode</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
+  
+  
+  <a id="StormHawks_Runtime_BehaviorTree_Core_Composites_SequenceNode_Abort_" data-uid="StormHawks.Runtime.BehaviorTree.Core.Composites.SequenceNode.Abort*"></a>
+  <h4 id="StormHawks_Runtime_BehaviorTree_Core_Composites_SequenceNode_Abort" data-uid="StormHawks.Runtime.BehaviorTree.Core.Composites.SequenceNode.Abort">Abort()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Abort()</code></pre>
+  </div>
   
   
   <a id="StormHawks_Runtime_BehaviorTree_Core_Composites_SequenceNode_Awake_" data-uid="StormHawks.Runtime.BehaviorTree.Core.Composites.SequenceNode.Awake*"></a>
@@ -189,8 +123,6 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected override void Awake()</code></pre>
   </div>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="StormHawks.Runtime.BehaviorTree.Core.BehaviorNodeSO.html#StormHawks_Runtime_BehaviorTree_Core_BehaviorNodeSO_Awake">BehaviorNodeSO.Awake()</a></div>
   
   
   <a id="StormHawks_Runtime_BehaviorTree_Core_Composites_SequenceNode_IsRunnable_" data-uid="StormHawks.Runtime.BehaviorTree.Core.Composites.SequenceNode.IsRunnable*"></a>
@@ -216,20 +148,6 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="StormHawks.Runtime.BehaviorTree.Core.BehaviorNodeSO.html#StormHawks_Runtime_BehaviorTree_Core_BehaviorNodeSO_IsRunnable">BehaviorNodeSO.IsRunnable()</a></div>
-  
-  
-  <a id="StormHawks_Runtime_BehaviorTree_Core_Composites_SequenceNode_OnAbort_" data-uid="StormHawks.Runtime.BehaviorTree.Core.Composites.SequenceNode.OnAbort*"></a>
-  <h4 id="StormHawks_Runtime_BehaviorTree_Core_Composites_SequenceNode_OnAbort" data-uid="StormHawks.Runtime.BehaviorTree.Core.Composites.SequenceNode.OnAbort">OnAbort()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void OnAbort()</code></pre>
-  </div>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="StormHawks.Runtime.BehaviorTree.Core.Composites.CompositeNode.html#StormHawks_Runtime_BehaviorTree_Core_Composites_CompositeNode_OnAbort">CompositeNode.OnAbort()</a></div>
   
   
   <a id="StormHawks_Runtime_BehaviorTree_Core_Composites_SequenceNode_OnEnter_" data-uid="StormHawks.Runtime.BehaviorTree.Core.Composites.SequenceNode.OnEnter*"></a>
@@ -240,8 +158,6 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected override void OnEnter()</code></pre>
   </div>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="StormHawks.Runtime.BehaviorTree.Core.BehaviorNodeSO.html#StormHawks_Runtime_BehaviorTree_Core_BehaviorNodeSO_OnEnter">BehaviorNodeSO.OnEnter()</a></div>
   
   
   <a id="StormHawks_Runtime_BehaviorTree_Core_Composites_SequenceNode_OnRun_" data-uid="StormHawks.Runtime.BehaviorTree.Core.Composites.SequenceNode.OnRun*"></a>
@@ -262,13 +178,11 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="StormHawks.Runtime.BehaviorTree.Core.BehaviorNodeState.html">BehaviorNodeState</a></td>
+        <td><span class="xref">BehaviorNodeState</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="StormHawks.Runtime.BehaviorTree.Core.BehaviorNodeSO.html#StormHawks_Runtime_BehaviorTree_Core_BehaviorNodeSO_OnRun">BehaviorNodeSO.OnRun()</a></div>
 </article>
           </div>
           

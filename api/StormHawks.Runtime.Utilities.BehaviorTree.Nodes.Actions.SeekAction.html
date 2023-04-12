@@ -112,19 +112,30 @@
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_SeekAction_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class SeekAction : EntitySteerActionNode</code></pre>
+    <pre><code class="lang-csharp hljs">[Serializable]
+public class SeekAction : EntitySteerActionNode</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_SeekAction_Initialize_" data-uid="StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SeekAction.Initialize*"></a>
-  <h4 id="StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_SeekAction_Initialize_GameObject_" data-uid="StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SeekAction.Initialize(GameObject)">Initialize(GameObject)</h4>
+  <a id="StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_SeekAction_Abort_" data-uid="StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SeekAction.Abort*"></a>
+  <h4 id="StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_SeekAction_Abort" data-uid="StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SeekAction.Abort">Abort()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void Initialize(GameObject runner)</code></pre>
+    <pre><code class="lang-csharp hljs">public override void Abort()</code></pre>
+  </div>
+  
+  
+  <a id="StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_SeekAction_Initialize_" data-uid="StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SeekAction.Initialize*"></a>
+  <h4 id="StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_SeekAction_Initialize_BehaviorTreeRunner_" data-uid="StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SeekAction.Initialize(BehaviorTreeRunner)">Initialize(BehaviorTreeRunner)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Initialize(BehaviorTreeRunner runner)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -137,24 +148,14 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">GameObject</span></td>
+        <td><span class="xref">BehaviorTreeRunner</span></td>
         <td><span class="parametername">runner</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EntitySteerActionNode.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_EntitySteerActionNode_Initialize_GameObject_">EntitySteerActionNode.Initialize(GameObject)</a></div>
-  
-  
-  <a id="StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_SeekAction_OnAbort_" data-uid="StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SeekAction.OnAbort*"></a>
-  <h4 id="StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_SeekAction_OnAbort" data-uid="StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SeekAction.OnAbort">OnAbort()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void OnAbort()</code></pre>
-  </div>
+  <div><a class="xref" href="StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EntitySteerActionNode.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_EntitySteerActionNode_Initialize_BehaviorTreeRunner_">EntitySteerActionNode.Initialize(BehaviorTreeRunner)</a></div>
   
   
   <a id="StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_SeekAction_OnEnter_" data-uid="StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SeekAction.OnEnter*"></a>
@@ -164,16 +165,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected override void OnEnter()</code></pre>
-  </div>
-  
-  
-  <a id="StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_SeekAction_OnExit_" data-uid="StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SeekAction.OnExit*"></a>
-  <h4 id="StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_SeekAction_OnExit" data-uid="StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SeekAction.OnExit">OnExit()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void OnExit()</code></pre>
   </div>
   
   
@@ -195,7 +186,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="StormHawks.Runtime.BehaviorTree.Core.BehaviorNodeState.html">BehaviorNodeState</a></td>
+        <td><span class="xref">BehaviorNodeState</span></td>
         <td></td>
       </tr>
     </tbody>

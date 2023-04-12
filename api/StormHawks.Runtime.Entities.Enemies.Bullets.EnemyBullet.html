@@ -94,19 +94,19 @@
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="StormHawks_Runtime_Entities_Enemies_Bullets_EnemyBullet_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class EnemyBullet : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public class EnemyBullet : PoolObject&lt;EnemyBullet&gt;</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
   
   
   <a id="StormHawks_Runtime_Entities_Enemies_Bullets_EnemyBullet_Fire_" data-uid="StormHawks.Runtime.Entities.Enemies.Bullets.EnemyBullet.Fire*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Enemies_Bullets_EnemyBullet_Fire_Vector3_System_Boolean_" data-uid="StormHawks.Runtime.Entities.Enemies.Bullets.EnemyBullet.Fire(Vector3,System.Boolean)">Fire(Vector3, Boolean)</h4>
+  <h4 id="StormHawks_Runtime_Entities_Enemies_Bullets_EnemyBullet_Fire_Vector3_" data-uid="StormHawks.Runtime.Entities.Enemies.Bullets.EnemyBullet.Fire(Vector3)">Fire(Vector3)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Fire(Vector3 direction, bool scatterShot = false)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Fire(Vector3 direction)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -121,11 +121,6 @@
       <tr>
         <td><span class="xref">Vector3</span></td>
         <td><span class="parametername">direction</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td><span class="parametername">scatterShot</span></td>
         <td></td>
       </tr>
     </tbody>

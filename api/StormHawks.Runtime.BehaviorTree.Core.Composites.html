@@ -87,30 +87,19 @@
   <div class="markdown level0 remarks"></div>
     <h3 id="classes">Classes
   </h3>
-      <h4><a class="xref" href="StormHawks.Runtime.BehaviorTree.Core.Composites.AllNode.html">AllNode</a></h4>
-      <section><p>모든 자식 노드들을 실행 시키는 <a class="xref" href="StormHawks.Runtime.BehaviorTree.Core.Composites.CompositeNode.html">CompositeNode</a>.
-만약 하나의 자식 노드라도 <a class="xref" href="StormHawks.Runtime.BehaviorTree.Core.BehaviorNodeState.html#StormHawks_Runtime_BehaviorTree_Core_BehaviorNodeState_Failure">Failure</a>를 반환한다면, Failure
-모든 자식노드가 <a class="xref" href="StormHawks.Runtime.BehaviorTree.Core.BehaviorNodeState.html#StormHawks_Runtime_BehaviorTree_Core_BehaviorNodeState_Success">Success</a>라면 Success
-하나의 자식노드라도 <a class="xref" href="StormHawks.Runtime.BehaviorTree.Core.BehaviorNodeState.html#StormHawks_Runtime_BehaviorTree_Core_BehaviorNodeState_Running">Running</a>이라면 Running</p>
-</section>
-      <h4><a class="xref" href="StormHawks.Runtime.BehaviorTree.Core.Composites.CompositeNode.html">CompositeNode</a></h4>
-      <section><p>자식노드들을 실행시킬 방식을 가지고 있는 노드.</p>
-</section>
       <h4><a class="xref" href="StormHawks.Runtime.BehaviorTree.Core.Composites.RandomSelectorNode.html">RandomSelectorNode</a></h4>
-      <section><p>자식 노드들 중에서 하나를 램덤으로 선택해서 실행시키는 <a class="xref" href="StormHawks.Runtime.BehaviorTree.Core.Composites.CompositeNode.html">CompositeNode</a>.</p>
+      <section><p>자식 노드들 중에서 하나를 램덤으로 선택해서 실행시키는 <see cref="!:CompositeNode"></see>.</p>
 </section>
       <h4><a class="xref" href="StormHawks.Runtime.BehaviorTree.Core.Composites.SelectorNode.html">SelectorNode</a></h4>
       <section><p>자식노드들을 왼쪽부터 실행시키며, 그 중에 먼저 실행 가능한 자식노드를 발견한다면
-그 자식노드를 실행시는 <a class="xref" href="StormHawks.Runtime.BehaviorTree.Core.Composites.CompositeNode.html">CompositeNode</a>.</p>
+그 자식노드를 실행시는 <see cref="!:CompositeNode"></see>.</p>
 </section>
       <h4><a class="xref" href="StormHawks.Runtime.BehaviorTree.Core.Composites.SequenceNode.html">SequenceNode</a></h4>
-      <section><p>자식노드들을 왼쪽부터 실행시키는 <a class="xref" href="StormHawks.Runtime.BehaviorTree.Core.Composites.CompositeNode.html">CompositeNode</a>
-만약 실행시킨 자식노드가 Failure를 반환한다면, <a class="xref" href="StormHawks.Runtime.BehaviorTree.Core.BehaviorNodeState.html#StormHawks_Runtime_BehaviorTree_Core_BehaviorNodeState_Failure">Failure</a>.
-모든 자식노드가 정상적으로 실행되었다면, <a class="xref" href="StormHawks.Runtime.BehaviorTree.Core.BehaviorNodeState.html#StormHawks_Runtime_BehaviorTree_Core_BehaviorNodeState_Success">Success</a>.
-자식노드 중 하나라도 실행중이라면, <a class="xref" href="StormHawks.Runtime.BehaviorTree.Core.BehaviorNodeState.html#StormHawks_Runtime_BehaviorTree_Core_BehaviorNodeState_Running">Running</a>.</p>
+      <section><p>자식노드들을 왼쪽부터 실행시키는 <see cref="!:CompositeNode"></see>
+만약 실행시킨 자식노드가 Failure를 반환한다면, <see cref="!:BehaviorNodeState.Failure"></see>.
+모든 자식노드가 정상적으로 실행되었다면, <see cref="!:BehaviorNodeState.Success"></see>.
+자식노드 중 하나라도 실행중이라면, <see cref="!:BehaviorNodeState.Running"></see>.</p>
 </section>
-      <h4><a class="xref" href="StormHawks.Runtime.BehaviorTree.Core.Composites.UntilSuccess.html">UntilSuccess</a></h4>
-      <section></section>
 </article>
           </div>
           

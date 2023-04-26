@@ -90,12 +90,43 @@
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
     <div class="level1"><span class="xref">EnemyBullet</span></div>
   </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">IPoolable</span>&lt;<a class="xref" href="StormHawks.Runtime.Entities.Enemies.Bullets.EnemyBullet.html">EnemyBullet</a>&gt;</div>
+  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Entities.Enemies.Bullets.html">StormHawks.Runtime.Entities.Enemies.Bullets</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="StormHawks_Runtime_Entities_Enemies_Bullets_EnemyBullet_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class EnemyBullet : PoolObject&lt;EnemyBullet&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public class EnemyBullet : MonoBehaviour</code></pre>
   </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="StormHawks_Runtime_Entities_Enemies_Bullets_EnemyBullet_Pool_" data-uid="StormHawks.Runtime.Entities.Enemies.Bullets.EnemyBullet.Pool*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Enemies_Bullets_EnemyBullet_Pool" data-uid="StormHawks.Runtime.Entities.Enemies.Bullets.EnemyBullet.Pool">Pool</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MonoObjectPool&lt;EnemyBullet&gt; Pool { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">MonoObjectPool</span>&lt;<a class="xref" href="StormHawks.Runtime.Entities.Enemies.Bullets.EnemyBullet.html">EnemyBullet</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
   </h3>
   
@@ -125,6 +156,56 @@
       </tr>
     </tbody>
   </table>
+  
+  
+  <a id="StormHawks_Runtime_Entities_Enemies_Bullets_EnemyBullet_OnRelease_" data-uid="StormHawks.Runtime.Entities.Enemies.Bullets.EnemyBullet.OnRelease*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Enemies_Bullets_EnemyBullet_OnRelease" data-uid="StormHawks.Runtime.Entities.Enemies.Bullets.EnemyBullet.OnRelease">OnRelease()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnRelease()</code></pre>
+  </div>
+  
+  
+  <a id="StormHawks_Runtime_Entities_Enemies_Bullets_EnemyBullet_OnSpawn_" data-uid="StormHawks.Runtime.Entities.Enemies.Bullets.EnemyBullet.OnSpawn*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Enemies_Bullets_EnemyBullet_OnSpawn" data-uid="StormHawks.Runtime.Entities.Enemies.Bullets.EnemyBullet.OnSpawn">OnSpawn()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnSpawn()</code></pre>
+  </div>
+  <h3 id="events">Events
+  </h3>
+  
+  
+  <h4 id="StormHawks_Runtime_Entities_Enemies_Bullets_EnemyBullet_OnReleased" data-uid="StormHawks.Runtime.Entities.Enemies.Bullets.EnemyBullet.OnReleased">OnReleased</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event UnityAction&lt;EnemyBullet&gt; OnReleased</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityAction</span>&lt;<a class="xref" href="StormHawks.Runtime.Entities.Enemies.Bullets.EnemyBullet.html">EnemyBullet</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">IPoolable&lt;&gt;</span>
+  </div>
 </article>
           </div>
           

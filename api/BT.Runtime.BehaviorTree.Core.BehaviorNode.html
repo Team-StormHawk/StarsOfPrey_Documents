@@ -1,0 +1,447 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class BehaviorNode
+   | Developer Reference </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class BehaviorNode
+   | Developer Reference ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="BT.Runtime.BehaviorTree.Core.BehaviorNode">
+  
+  
+  <h1 id="BT_Runtime_BehaviorTree_Core_BehaviorNode" data-uid="BT.Runtime.BehaviorTree.Core.BehaviorNode" class="text-break">Class BehaviorNode
+  </h1>
+  <div class="markdown level0 summary"><p>모든 BehaviorNode의 Base class.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">BehaviorNode</span></div>
+      <div class="level2"><a class="xref" href="BT.Runtime.BehaviorTree.Core.Actions.ActionNode.html">ActionNode</a></div>
+      <div class="level2"><a class="xref" href="BT.Runtime.BehaviorTree.Core.Composites.CompositeNode.html">CompositeNode</a></div>
+      <div class="level2"><a class="xref" href="BT.Runtime.BehaviorTree.Core.Conditionals.ConditionalNode.html">ConditionalNode</a></div>
+      <div class="level2"><a class="xref" href="BT.Runtime.BehaviorTree.Core.Decorators.DecoratorNode.html">DecoratorNode</a></div>
+      <div class="level2"><a class="xref" href="BT.Runtime.BehaviorTree.Core.RootNode.html">RootNode</a></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="BT.Runtime.BehaviorTree.Core.html">BT.Runtime.BehaviorTree.Core</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="BT_Runtime_BehaviorTree_Core_BehaviorNode_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Serializable]
+public abstract class BehaviorNode</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="BT_Runtime_BehaviorTree_Core_BehaviorNode__runner" data-uid="BT.Runtime.BehaviorTree.Core.BehaviorNode._runner">_runner</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected BehaviorTreeRunner _runner</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="BT.Runtime.BehaviorTree.BehaviorTreeRunner.html">BehaviorTreeRunner</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="BT_Runtime_BehaviorTree_Core_BehaviorNode_Blackboard" data-uid="BT.Runtime.BehaviorTree.Core.BehaviorNode.Blackboard">Blackboard</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Blackboard Blackboard</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="BT.Runtime.BehaviorTree.Core.Blackboard.html">Blackboard</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="BT_Runtime_BehaviorTree_Core_BehaviorNode_Description" data-uid="BT.Runtime.BehaviorTree.Core.BehaviorNode.Description">Description</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Description</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="BT_Runtime_BehaviorTree_Core_BehaviorNode_Guid" data-uid="BT.Runtime.BehaviorTree.Core.BehaviorNode.Guid">Guid</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Guid</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="BT_Runtime_BehaviorTree_Core_BehaviorNode_Position" data-uid="BT.Runtime.BehaviorTree.Core.BehaviorNode.Position">Position</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector2 Position</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="BT_Runtime_BehaviorTree_Core_BehaviorNode_State_" data-uid="BT.Runtime.BehaviorTree.Core.BehaviorNode.State*"></a>
+  <h4 id="BT_Runtime_BehaviorTree_Core_BehaviorNode_State" data-uid="BT.Runtime.BehaviorTree.Core.BehaviorNode.State">State</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BehaviorNodeState State { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="BT.Runtime.BehaviorTree.Core.BehaviorNodeState.html">BehaviorNodeState</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="BT_Runtime_BehaviorTree_Core_BehaviorNode_Abort_" data-uid="BT.Runtime.BehaviorTree.Core.BehaviorNode.Abort*"></a>
+  <h4 id="BT_Runtime_BehaviorTree_Core_BehaviorNode_Abort" data-uid="BT.Runtime.BehaviorTree.Core.BehaviorNode.Abort">Abort()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Abort()</code></pre>
+  </div>
+  
+  
+  <a id="BT_Runtime_BehaviorTree_Core_BehaviorNode_Awake_" data-uid="BT.Runtime.BehaviorTree.Core.BehaviorNode.Awake*"></a>
+  <h4 id="BT_Runtime_BehaviorTree_Core_BehaviorNode_Awake" data-uid="BT.Runtime.BehaviorTree.Core.BehaviorNode.Awake">Awake()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void Awake()</code></pre>
+  </div>
+  
+  
+  <a id="BT_Runtime_BehaviorTree_Core_BehaviorNode_Initialize_" data-uid="BT.Runtime.BehaviorTree.Core.BehaviorNode.Initialize*"></a>
+  <h4 id="BT_Runtime_BehaviorTree_Core_BehaviorNode_Initialize_BT_Runtime_BehaviorTree_BehaviorTreeRunner_" data-uid="BT.Runtime.BehaviorTree.Core.BehaviorNode.Initialize(BT.Runtime.BehaviorTree.BehaviorTreeRunner)">Initialize(BehaviorTreeRunner)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Initialize(BehaviorTreeRunner runner)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="BT.Runtime.BehaviorTree.BehaviorTreeRunner.html">BehaviorTreeRunner</a></td>
+        <td><span class="parametername">runner</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="BT_Runtime_BehaviorTree_Core_BehaviorNode_IsRunnable_" data-uid="BT.Runtime.BehaviorTree.Core.BehaviorNode.IsRunnable*"></a>
+  <h4 id="BT_Runtime_BehaviorTree_Core_BehaviorNode_IsRunnable" data-uid="BT.Runtime.BehaviorTree.Core.BehaviorNode.IsRunnable">IsRunnable()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual bool IsRunnable()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="BT_Runtime_BehaviorTree_Core_BehaviorNode_OnEnter_" data-uid="BT.Runtime.BehaviorTree.Core.BehaviorNode.OnEnter*"></a>
+  <h4 id="BT_Runtime_BehaviorTree_Core_BehaviorNode_OnEnter" data-uid="BT.Runtime.BehaviorTree.Core.BehaviorNode.OnEnter">OnEnter()</h4>
+  <div class="markdown level1 summary"><p>노드가 처음 실행되었을 때, 호출함.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnEnter()</code></pre>
+  </div>
+  
+  
+  <a id="BT_Runtime_BehaviorTree_Core_BehaviorNode_OnExit_" data-uid="BT.Runtime.BehaviorTree.Core.BehaviorNode.OnExit*"></a>
+  <h4 id="BT_Runtime_BehaviorTree_Core_BehaviorNode_OnExit" data-uid="BT.Runtime.BehaviorTree.Core.BehaviorNode.OnExit">OnExit()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnExit()</code></pre>
+  </div>
+  
+  
+  <a id="BT_Runtime_BehaviorTree_Core_BehaviorNode_OnInitialize_" data-uid="BT.Runtime.BehaviorTree.Core.BehaviorNode.OnInitialize*"></a>
+  <h4 id="BT_Runtime_BehaviorTree_Core_BehaviorNode_OnInitialize" data-uid="BT.Runtime.BehaviorTree.Core.BehaviorNode.OnInitialize">OnInitialize()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnInitialize()</code></pre>
+  </div>
+  
+  
+  <a id="BT_Runtime_BehaviorTree_Core_BehaviorNode_OnRun_" data-uid="BT.Runtime.BehaviorTree.Core.BehaviorNode.OnRun*"></a>
+  <h4 id="BT_Runtime_BehaviorTree_Core_BehaviorNode_OnRun" data-uid="BT.Runtime.BehaviorTree.Core.BehaviorNode.OnRun">OnRun()</h4>
+  <div class="markdown level1 summary"><p>노드를 실행시켰을 때, 발생하는 Callback함수.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract BehaviorNodeState OnRun()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="BT.Runtime.BehaviorTree.Core.BehaviorNodeState.html">BehaviorNodeState</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="BT_Runtime_BehaviorTree_Core_BehaviorNode_Run_" data-uid="BT.Runtime.BehaviorTree.Core.BehaviorNode.Run*"></a>
+  <h4 id="BT_Runtime_BehaviorTree_Core_BehaviorNode_Run" data-uid="BT.Runtime.BehaviorTree.Core.BehaviorNode.Run">Run()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual BehaviorNodeState Run()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="BT.Runtime.BehaviorTree.Core.BehaviorNodeState.html">BehaviorNodeState</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

@@ -96,6 +96,7 @@
     <div><span class="xref">IHasHealth</span></div>
     <div><span class="xref">IFollower</span></div>
     <div><span class="xref">IAggressive</span></div>
+    <div><span class="xref">IDetectable</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -119,6 +120,9 @@
     </div>
     <div>
       <a class="xref" href="StormHawks.Runtime.Entities.Enemies.EnemyBase.html#StormHawks_Runtime_Entities_Enemies_EnemyBase_SetFollowTarget_GameObject_">EnemyBase.SetFollowTarget(GameObject)</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Entities.Enemies.EnemyBase.html#StormHawks_Runtime_Entities_Enemies_EnemyBase_TakeDamage_System_Single_">EnemyBase.TakeDamage(Single)</a>
     </div>
     <div>
       <a class="xref" href="StormHawks.Runtime.Entities.Enemies.EnemyBase.html#StormHawks_Runtime_Entities_Enemies_EnemyBase_GetBlackboard">EnemyBase.GetBlackboard()</a>
@@ -159,6 +163,31 @@
   </table>
   
   
+  <a id="StormHawks_Runtime_Entities_Enemies_LookerEnemy_DetectingCoolTime_" data-uid="StormHawks.Runtime.Entities.Enemies.LookerEnemy.DetectingCoolTime*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Enemies_LookerEnemy_DetectingCoolTime" data-uid="StormHawks.Runtime.Entities.Enemies.LookerEnemy.DetectingCoolTime">DetectingCoolTime</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float DetectingCoolTime { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="StormHawks_Runtime_Entities_Enemies_LookerEnemy_IsAggressive_" data-uid="StormHawks.Runtime.Entities.Enemies.LookerEnemy.IsAggressive*"></a>
   <h4 id="StormHawks_Runtime_Entities_Enemies_LookerEnemy_IsAggressive" data-uid="StormHawks.Runtime.Entities.Enemies.LookerEnemy.IsAggressive">IsAggressive</h4>
   <div class="markdown level1 summary"></div>
@@ -178,6 +207,81 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StormHawks_Runtime_Entities_Enemies_LookerEnemy_IsDetectable_" data-uid="StormHawks.Runtime.Entities.Enemies.LookerEnemy.IsDetectable*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Enemies_LookerEnemy_IsDetectable" data-uid="StormHawks.Runtime.Entities.Enemies.LookerEnemy.IsDetectable">IsDetectable</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsDetectable { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StormHawks_Runtime_Entities_Enemies_LookerEnemy_OnDestroyed_" data-uid="StormHawks.Runtime.Entities.Enemies.LookerEnemy.OnDestroyed*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Enemies_LookerEnemy_OnDestroyed" data-uid="StormHawks.Runtime.Entities.Enemies.LookerEnemy.OnDestroyed">OnDestroyed</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Action&lt;IDetectable&gt; OnDestroyed { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<span class="xref">IDetectable</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StormHawks_Runtime_Entities_Enemies_LookerEnemy_OnReleased_" data-uid="StormHawks.Runtime.Entities.Enemies.LookerEnemy.OnReleased*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Enemies_LookerEnemy_OnReleased" data-uid="StormHawks.Runtime.Entities.Enemies.LookerEnemy.OnReleased">OnReleased</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Action&lt;IDetectable&gt; OnReleased { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<span class="xref">IDetectable</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -248,13 +352,73 @@
   </table>
   
   
-  <a id="StormHawks_Runtime_Entities_Enemies_LookerEnemy_FixedUpdate_" data-uid="StormHawks.Runtime.Entities.Enemies.LookerEnemy.FixedUpdate*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Enemies_LookerEnemy_FixedUpdate" data-uid="StormHawks.Runtime.Entities.Enemies.LookerEnemy.FixedUpdate">FixedUpdate()</h4>
+  <a id="StormHawks_Runtime_Entities_Enemies_LookerEnemy_CanDetectable_" data-uid="StormHawks.Runtime.Entities.Enemies.LookerEnemy.CanDetectable*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Enemies_LookerEnemy_CanDetectable" data-uid="StormHawks.Runtime.Entities.Enemies.LookerEnemy.CanDetectable">CanDetectable()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void FixedUpdate()</code></pre>
+    <pre><code class="lang-csharp hljs">public bool CanDetectable()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StormHawks_Runtime_Entities_Enemies_LookerEnemy_GetCollider_" data-uid="StormHawks.Runtime.Entities.Enemies.LookerEnemy.GetCollider*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Enemies_LookerEnemy_GetCollider" data-uid="StormHawks.Runtime.Entities.Enemies.LookerEnemy.GetCollider">GetCollider()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Collider GetCollider()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Collider</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StormHawks_Runtime_Entities_Enemies_LookerEnemy_OnDetect_" data-uid="StormHawks.Runtime.Entities.Enemies.LookerEnemy.OnDetect*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Enemies_LookerEnemy_OnDetect" data-uid="StormHawks.Runtime.Entities.Enemies.LookerEnemy.OnDetect">OnDetect()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnDetect()</code></pre>
+  </div>
+  
+  
+  <a id="StormHawks_Runtime_Entities_Enemies_LookerEnemy_OnRelease_" data-uid="StormHawks.Runtime.Entities.Enemies.LookerEnemy.OnRelease*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Enemies_LookerEnemy_OnRelease" data-uid="StormHawks.Runtime.Entities.Enemies.LookerEnemy.OnRelease">OnRelease()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnRelease()</code></pre>
   </div>
   
   
@@ -288,50 +452,6 @@
   </div>
   <h5 class="overrides">Overrides</h5>
   <div><a class="xref" href="StormHawks.Runtime.Entities.Enemies.EnemyBase.html#StormHawks_Runtime_Entities_Enemies_EnemyBase_Start">EnemyBase.Start()</a></div>
-  
-  
-  <a id="StormHawks_Runtime_Entities_Enemies_LookerEnemy_TakeDamage_" data-uid="StormHawks.Runtime.Entities.Enemies.LookerEnemy.TakeDamage*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Enemies_LookerEnemy_TakeDamage_Vector3_System_Single_" data-uid="StormHawks.Runtime.Entities.Enemies.LookerEnemy.TakeDamage(Vector3,System.Single)">TakeDamage(Vector3, Single)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void TakeDamage(Vector3 dir, float damage)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Vector3</span></td>
-        <td><span class="parametername">dir</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td><span class="parametername">damage</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="StormHawks.Runtime.Entities.Enemies.EnemyBase.html#StormHawks_Runtime_Entities_Enemies_EnemyBase_TakeDamage_Vector3_System_Single_">EnemyBase.TakeDamage(Vector3, Single)</a></div>
-  
-  
-  <a id="StormHawks_Runtime_Entities_Enemies_LookerEnemy_Update_" data-uid="StormHawks.Runtime.Entities.Enemies.LookerEnemy.Update*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Enemies_LookerEnemy_Update" data-uid="StormHawks.Runtime.Entities.Enemies.LookerEnemy.Update">Update()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void Update()</code></pre>
-  </div>
   <h3 id="implements">Implements</h3>
   <div>
       <span class="xref">IHasHealth</span>
@@ -341,6 +461,9 @@
   </div>
   <div>
       <span class="xref">IAggressive</span>
+  </div>
+  <div>
+      <span class="xref">IDetectable</span>
   </div>
 </article>
           </div>

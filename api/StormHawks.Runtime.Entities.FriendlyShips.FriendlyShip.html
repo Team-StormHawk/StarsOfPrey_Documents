@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class WeaponContext
+    <title>Class FriendlyShip
    | Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class WeaponContext
+    <meta name="title" content="Class FriendlyShip
    | Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -78,80 +78,39 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Entities.Enemies.Weapons.WeaponContext">
+            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Entities.FriendlyShips.FriendlyShip">
   
   
-  <h1 id="StormHawks_Runtime_Entities_Enemies_Weapons_WeaponContext" data-uid="StormHawks.Runtime.Entities.Enemies.Weapons.WeaponContext" class="text-break">Class WeaponContext
+  <h1 id="StormHawks_Runtime_Entities_FriendlyShips_FriendlyShip" data-uid="StormHawks.Runtime.Entities.FriendlyShips.FriendlyShip" class="text-break">Class FriendlyShip
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">WeaponContext</span></div>
-      <div class="level2"><a class="xref" href="StormHawks.Runtime.Entities.Enemies.Weapons.LaserWeaponContext.html">LaserWeaponContext</a></div>
-      <div class="level2"><a class="xref" href="StormHawks.Runtime.Entities.Enemies.Weapons.WeaponContext-1.html">WeaponContext&lt;T&gt;</a></div>
+    <div class="level1"><span class="xref">FriendlyShip</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Entities.Enemies.Weapons.html">StormHawks.Runtime.Entities.Enemies.Weapons</a></h6>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">IFollower</span></div>
+    <div><span class="xref">IAggressive</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Entities.FriendlyShips.html">StormHawks.Runtime.Entities.FriendlyShips</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="StormHawks_Runtime_Entities_Enemies_Weapons_WeaponContext_syntax">Syntax</h5>
+  <h5 id="StormHawks_Runtime_Entities_FriendlyShips_FriendlyShip_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class WeaponContext</code></pre>
+    <pre><code class="lang-csharp hljs">public class FriendlyShip : SteeringEntity</code></pre>
   </div>
-  <h3 id="constructors">Constructors
-  </h3>
-  
-  
-  <a id="StormHawks_Runtime_Entities_Enemies_Weapons_WeaponContext__ctor_" data-uid="StormHawks.Runtime.Entities.Enemies.Weapons.WeaponContext.#ctor*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Enemies_Weapons_WeaponContext__ctor_StormHawks_Runtime_Entities_Enemies_Weapons_EnemyWeapon_System_Int32_System_Single_System_Single_" data-uid="StormHawks.Runtime.Entities.Enemies.Weapons.WeaponContext.#ctor(StormHawks.Runtime.Entities.Enemies.Weapons.EnemyWeapon,System.Int32,System.Single,System.Single)">WeaponContext(EnemyWeapon, Int32, Single, Single)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public WeaponContext(EnemyWeapon weapon, int shootCount, float delay, float reloadTime)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="StormHawks.Runtime.Entities.Enemies.Weapons.EnemyWeapon.html">EnemyWeapon</a></td>
-        <td><span class="parametername">weapon</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">shootCount</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td><span class="parametername">delay</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td><span class="parametername">reloadTime</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="fields">Fields
   </h3>
   
   
-  <h4 id="StormHawks_Runtime_Entities_Enemies_Weapons_WeaponContext_Weapon" data-uid="StormHawks.Runtime.Entities.Enemies.Weapons.WeaponContext.Weapon">Weapon</h4>
+  <h4 id="StormHawks_Runtime_Entities_FriendlyShips_FriendlyShip__blackboard" data-uid="StormHawks.Runtime.Entities.FriendlyShips.FriendlyShip._blackboard">_blackboard</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EnemyWeapon Weapon</code></pre>
+    <pre><code class="lang-csharp hljs">protected Blackboard _blackboard</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -163,7 +122,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="StormHawks.Runtime.Entities.Enemies.Weapons.EnemyWeapon.html">EnemyWeapon</a></td>
+        <td><span class="xref">Blackboard</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -172,13 +131,13 @@
   </h3>
   
   
-  <a id="StormHawks_Runtime_Entities_Enemies_Weapons_WeaponContext_ConstantFireDirection_" data-uid="StormHawks.Runtime.Entities.Enemies.Weapons.WeaponContext.ConstantFireDirection*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Enemies_Weapons_WeaponContext_ConstantFireDirection" data-uid="StormHawks.Runtime.Entities.Enemies.Weapons.WeaponContext.ConstantFireDirection">ConstantFireDirection</h4>
+  <a id="StormHawks_Runtime_Entities_FriendlyShips_FriendlyShip_AggroTarget_" data-uid="StormHawks.Runtime.Entities.FriendlyShips.FriendlyShip.AggroTarget*"></a>
+  <h4 id="StormHawks_Runtime_Entities_FriendlyShips_FriendlyShip_AggroTarget" data-uid="StormHawks.Runtime.Entities.FriendlyShips.FriendlyShip.AggroTarget">AggroTarget</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Vector3 ConstantFireDirection { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public GameObject AggroTarget { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -190,20 +149,20 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Vector3</span></td>
+        <td><span class="xref">GameObject</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="StormHawks_Runtime_Entities_Enemies_Weapons_WeaponContext_Delay_" data-uid="StormHawks.Runtime.Entities.Enemies.Weapons.WeaponContext.Delay*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Enemies_Weapons_WeaponContext_Delay" data-uid="StormHawks.Runtime.Entities.Enemies.Weapons.WeaponContext.Delay">Delay</h4>
+  <a id="StormHawks_Runtime_Entities_FriendlyShips_FriendlyShip_IsAggressive_" data-uid="StormHawks.Runtime.Entities.FriendlyShips.FriendlyShip.IsAggressive*"></a>
+  <h4 id="StormHawks_Runtime_Entities_FriendlyShips_FriendlyShip_IsAggressive" data-uid="StormHawks.Runtime.Entities.FriendlyShips.FriendlyShip.IsAggressive">IsAggressive</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float Delay { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public bool IsAggressive { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -215,90 +174,15 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="StormHawks_Runtime_Entities_Enemies_Weapons_WeaponContext_FireTime_" data-uid="StormHawks.Runtime.Entities.Enemies.Weapons.WeaponContext.FireTime*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Enemies_Weapons_WeaponContext_FireTime" data-uid="StormHawks.Runtime.Entities.Enemies.Weapons.WeaponContext.FireTime">FireTime</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float FireTime { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="StormHawks_Runtime_Entities_Enemies_Weapons_WeaponContext_ReloadTime_" data-uid="StormHawks.Runtime.Entities.Enemies.Weapons.WeaponContext.ReloadTime*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Enemies_Weapons_WeaponContext_ReloadTime" data-uid="StormHawks.Runtime.Entities.Enemies.Weapons.WeaponContext.ReloadTime">ReloadTime</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float ReloadTime { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="StormHawks_Runtime_Entities_Enemies_Weapons_WeaponContext_ShootCount_" data-uid="StormHawks.Runtime.Entities.Enemies.Weapons.WeaponContext.ShootCount*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Enemies_Weapons_WeaponContext_ShootCount" data-uid="StormHawks.Runtime.Entities.Enemies.Weapons.WeaponContext.ShootCount">ShootCount</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int ShootCount { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="StormHawks_Runtime_Entities_Enemies_Weapons_WeaponContext_Target_" data-uid="StormHawks.Runtime.Entities.Enemies.Weapons.WeaponContext.Target*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Enemies_Weapons_WeaponContext_Target" data-uid="StormHawks.Runtime.Entities.Enemies.Weapons.WeaponContext.Target">Target</h4>
+  <a id="StormHawks_Runtime_Entities_FriendlyShips_FriendlyShip_Target_" data-uid="StormHawks.Runtime.Entities.FriendlyShips.FriendlyShip.Target*"></a>
+  <h4 id="StormHawks_Runtime_Entities_FriendlyShips_FriendlyShip_Target" data-uid="StormHawks.Runtime.Entities.FriendlyShips.FriendlyShip.Target">Target</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -324,67 +208,23 @@
   </h3>
   
   
-  <a id="StormHawks_Runtime_Entities_Enemies_Weapons_WeaponContext_SetConstantFireDirection_" data-uid="StormHawks.Runtime.Entities.Enemies.Weapons.WeaponContext.SetConstantFireDirection*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Enemies_Weapons_WeaponContext_SetConstantFireDirection_Vector3_" data-uid="StormHawks.Runtime.Entities.Enemies.Weapons.WeaponContext.SetConstantFireDirection(Vector3)">SetConstantFireDirection(Vector3)</h4>
+  <a id="StormHawks_Runtime_Entities_FriendlyShips_FriendlyShip_AfterAggressive_" data-uid="StormHawks.Runtime.Entities.FriendlyShips.FriendlyShip.AfterAggressive*"></a>
+  <h4 id="StormHawks_Runtime_Entities_FriendlyShips_FriendlyShip_AfterAggressive" data-uid="StormHawks.Runtime.Entities.FriendlyShips.FriendlyShip.AfterAggressive">AfterAggressive()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetConstantFireDirection(Vector3 dir)</code></pre>
+    <pre><code class="lang-csharp hljs">public void AfterAggressive()</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Vector3</span></td>
-        <td><span class="parametername">dir</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   
   
-  <a id="StormHawks_Runtime_Entities_Enemies_Weapons_WeaponContext_SetFireTime_" data-uid="StormHawks.Runtime.Entities.Enemies.Weapons.WeaponContext.SetFireTime*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Enemies_Weapons_WeaponContext_SetFireTime_System_Single_" data-uid="StormHawks.Runtime.Entities.Enemies.Weapons.WeaponContext.SetFireTime(System.Single)">SetFireTime(Single)</h4>
+  <a id="StormHawks_Runtime_Entities_FriendlyShips_FriendlyShip_BeAggressive_" data-uid="StormHawks.Runtime.Entities.FriendlyShips.FriendlyShip.BeAggressive*"></a>
+  <h4 id="StormHawks_Runtime_Entities_FriendlyShips_FriendlyShip_BeAggressive_GameObject_" data-uid="StormHawks.Runtime.Entities.FriendlyShips.FriendlyShip.BeAggressive(GameObject)">BeAggressive(GameObject)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetFireTime(float fireTime)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td><span class="parametername">fireTime</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="StormHawks_Runtime_Entities_Enemies_Weapons_WeaponContext_SetTarget_" data-uid="StormHawks.Runtime.Entities.Enemies.Weapons.WeaponContext.SetTarget*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Enemies_Weapons_WeaponContext_SetTarget_GameObject_" data-uid="StormHawks.Runtime.Entities.Enemies.Weapons.WeaponContext.SetTarget(GameObject)">SetTarget(GameObject)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetTarget(GameObject target)</code></pre>
+    <pre><code class="lang-csharp hljs">public void BeAggressive(GameObject target)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -403,6 +243,120 @@
       </tr>
     </tbody>
   </table>
+  
+  
+  <a id="StormHawks_Runtime_Entities_FriendlyShips_FriendlyShip_CanAggressive_" data-uid="StormHawks.Runtime.Entities.FriendlyShips.FriendlyShip.CanAggressive*"></a>
+  <h4 id="StormHawks_Runtime_Entities_FriendlyShips_FriendlyShip_CanAggressive" data-uid="StormHawks.Runtime.Entities.FriendlyShips.FriendlyShip.CanAggressive">CanAggressive()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CanAggressive()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StormHawks_Runtime_Entities_FriendlyShips_FriendlyShip_GetBlackboard_" data-uid="StormHawks.Runtime.Entities.FriendlyShips.FriendlyShip.GetBlackboard*"></a>
+  <h4 id="StormHawks_Runtime_Entities_FriendlyShips_FriendlyShip_GetBlackboard" data-uid="StormHawks.Runtime.Entities.FriendlyShips.FriendlyShip.GetBlackboard">GetBlackboard()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Blackboard GetBlackboard()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Blackboard</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StormHawks_Runtime_Entities_FriendlyShips_FriendlyShip_ReleaseAggressive_" data-uid="StormHawks.Runtime.Entities.FriendlyShips.FriendlyShip.ReleaseAggressive*"></a>
+  <h4 id="StormHawks_Runtime_Entities_FriendlyShips_FriendlyShip_ReleaseAggressive" data-uid="StormHawks.Runtime.Entities.FriendlyShips.FriendlyShip.ReleaseAggressive">ReleaseAggressive()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ReleaseAggressive()</code></pre>
+  </div>
+  
+  
+  <a id="StormHawks_Runtime_Entities_FriendlyShips_FriendlyShip_RotateTo_" data-uid="StormHawks.Runtime.Entities.FriendlyShips.FriendlyShip.RotateTo*"></a>
+  <h4 id="StormHawks_Runtime_Entities_FriendlyShips_FriendlyShip_RotateTo" data-uid="StormHawks.Runtime.Entities.FriendlyShips.FriendlyShip.RotateTo">RotateTo()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void RotateTo()</code></pre>
+  </div>
+  
+  
+  <a id="StormHawks_Runtime_Entities_FriendlyShips_FriendlyShip_SetFollowTarget_" data-uid="StormHawks.Runtime.Entities.FriendlyShips.FriendlyShip.SetFollowTarget*"></a>
+  <h4 id="StormHawks_Runtime_Entities_FriendlyShips_FriendlyShip_SetFollowTarget_GameObject_" data-uid="StormHawks.Runtime.Entities.FriendlyShips.FriendlyShip.SetFollowTarget(GameObject)">SetFollowTarget(GameObject)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetFollowTarget(GameObject target)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">target</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StormHawks_Runtime_Entities_FriendlyShips_FriendlyShip_Start_" data-uid="StormHawks.Runtime.Entities.FriendlyShips.FriendlyShip.Start*"></a>
+  <h4 id="StormHawks_Runtime_Entities_FriendlyShips_FriendlyShip_Start" data-uid="StormHawks.Runtime.Entities.FriendlyShips.FriendlyShip.Start">Start()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void Start()</code></pre>
+  </div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">IFollower</span>
+  </div>
+  <div>
+      <span class="xref">IAggressive</span>
+  </div>
 </article>
           </div>
           

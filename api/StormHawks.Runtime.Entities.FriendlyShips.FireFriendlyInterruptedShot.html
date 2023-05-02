@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class FireEnemyLaser
+    <title>Class FireFriendlyInterruptedShot
    | Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class FireEnemyLaser
+    <meta name="title" content="Class FireFriendlyInterruptedShot
    | Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -78,35 +78,35 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Entities.Enemies.Weapons.FireEnemyLaser">
+            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Entities.FriendlyShips.FireFriendlyInterruptedShot">
   
   
-  <h1 id="StormHawks_Runtime_Entities_Enemies_Weapons_FireEnemyLaser" data-uid="StormHawks.Runtime.Entities.Enemies.Weapons.FireEnemyLaser" class="text-break">Class FireEnemyLaser
+  <h1 id="StormHawks_Runtime_Entities_FriendlyShips_FireFriendlyInterruptedShot" data-uid="StormHawks.Runtime.Entities.FriendlyShips.FireFriendlyInterruptedShot" class="text-break">Class FireFriendlyInterruptedShot
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">FireEnemyLaser</span></div>
+    <div class="level1"><span class="xref">FireFriendlyInterruptedShot</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Entities.Enemies.Weapons.html">StormHawks.Runtime.Entities.Enemies.Weapons</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Entities.FriendlyShips.html">StormHawks.Runtime.Entities.FriendlyShips</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="StormHawks_Runtime_Entities_Enemies_Weapons_FireEnemyLaser_syntax">Syntax</h5>
+  <h5 id="StormHawks_Runtime_Entities_FriendlyShips_FireFriendlyInterruptedShot_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class FireEnemyLaser : IEnemyFire</code></pre>
+    <pre><code class="lang-csharp hljs">public class FireFriendlyInterruptedShot : IEntityFire</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   
   
-  <a id="StormHawks_Runtime_Entities_Enemies_Weapons_FireEnemyLaser__ctor_" data-uid="StormHawks.Runtime.Entities.Enemies.Weapons.FireEnemyLaser.#ctor*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Enemies_Weapons_FireEnemyLaser__ctor_StormHawks_Runtime_Entities_Enemies_Weapons_LaserWeaponContext_" data-uid="StormHawks.Runtime.Entities.Enemies.Weapons.FireEnemyLaser.#ctor(StormHawks.Runtime.Entities.Enemies.Weapons.LaserWeaponContext)">FireEnemyLaser(LaserWeaponContext)</h4>
+  <a id="StormHawks_Runtime_Entities_FriendlyShips_FireFriendlyInterruptedShot__ctor_" data-uid="StormHawks.Runtime.Entities.FriendlyShips.FireFriendlyInterruptedShot.#ctor*"></a>
+  <h4 id="StormHawks_Runtime_Entities_FriendlyShips_FireFriendlyInterruptedShot__ctor_WeaponContext_PlayerBullet__System_Single_" data-uid="StormHawks.Runtime.Entities.FriendlyShips.FireFriendlyInterruptedShot.#ctor(WeaponContext{PlayerBullet},System.Single)">FireFriendlyInterruptedShot(WeaponContext&lt;PlayerBullet&gt;, Single)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public FireEnemyLaser(LaserWeaponContext context)</code></pre>
+    <pre><code class="lang-csharp hljs">public FireFriendlyInterruptedShot(WeaponContext&lt;PlayerBullet&gt; context, float shotAngle)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -119,8 +119,13 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="StormHawks.Runtime.Entities.Enemies.Weapons.LaserWeaponContext.html">LaserWeaponContext</a></td>
+        <td><span class="xref">WeaponContext</span>&lt;<span class="xref">PlayerBullet</span>&gt;</td>
         <td><span class="parametername">context</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">shotAngle</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -129,8 +134,8 @@
   </h3>
   
   
-  <a id="StormHawks_Runtime_Entities_Enemies_Weapons_FireEnemyLaser_OnShootFinished_" data-uid="StormHawks.Runtime.Entities.Enemies.Weapons.FireEnemyLaser.OnShootFinished*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Enemies_Weapons_FireEnemyLaser_OnShootFinished" data-uid="StormHawks.Runtime.Entities.Enemies.Weapons.FireEnemyLaser.OnShootFinished">OnShootFinished</h4>
+  <a id="StormHawks_Runtime_Entities_FriendlyShips_FireFriendlyInterruptedShot_OnShootFinished_" data-uid="StormHawks.Runtime.Entities.FriendlyShips.FireFriendlyInterruptedShot.OnShootFinished*"></a>
+  <h4 id="StormHawks_Runtime_Entities_FriendlyShips_FireFriendlyInterruptedShot_OnShootFinished" data-uid="StormHawks.Runtime.Entities.FriendlyShips.FireFriendlyInterruptedShot.OnShootFinished">OnShootFinished</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -156,8 +161,8 @@
   </h3>
   
   
-  <a id="StormHawks_Runtime_Entities_Enemies_Weapons_FireEnemyLaser_Cancel_" data-uid="StormHawks.Runtime.Entities.Enemies.Weapons.FireEnemyLaser.Cancel*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Enemies_Weapons_FireEnemyLaser_Cancel" data-uid="StormHawks.Runtime.Entities.Enemies.Weapons.FireEnemyLaser.Cancel">Cancel()</h4>
+  <a id="StormHawks_Runtime_Entities_FriendlyShips_FireFriendlyInterruptedShot_Cancel_" data-uid="StormHawks.Runtime.Entities.FriendlyShips.FireFriendlyInterruptedShot.Cancel*"></a>
+  <h4 id="StormHawks_Runtime_Entities_FriendlyShips_FireFriendlyInterruptedShot_Cancel" data-uid="StormHawks.Runtime.Entities.FriendlyShips.FireFriendlyInterruptedShot.Cancel">Cancel()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -166,13 +171,13 @@
   </div>
   
   
-  <a id="StormHawks_Runtime_Entities_Enemies_Weapons_FireEnemyLaser_Fire_" data-uid="StormHawks.Runtime.Entities.Enemies.Weapons.FireEnemyLaser.Fire*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Enemies_Weapons_FireEnemyLaser_Fire_Transform_" data-uid="StormHawks.Runtime.Entities.Enemies.Weapons.FireEnemyLaser.Fire(Transform)">Fire(Transform)</h4>
+  <a id="StormHawks_Runtime_Entities_FriendlyShips_FireFriendlyInterruptedShot_Fire_" data-uid="StormHawks.Runtime.Entities.FriendlyShips.FireFriendlyInterruptedShot.Fire*"></a>
+  <h4 id="StormHawks_Runtime_Entities_FriendlyShips_FireFriendlyInterruptedShot_Fire_Transform_" data-uid="StormHawks.Runtime.Entities.FriendlyShips.FireFriendlyInterruptedShot.Fire(Transform)">Fire(Transform)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Fire(Transform weaponTransform)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Fire(Transform transform)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -186,15 +191,15 @@
     <tbody>
       <tr>
         <td><span class="xref">Transform</span></td>
-        <td><span class="parametername">weaponTransform</span></td>
+        <td><span class="parametername">transform</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="StormHawks_Runtime_Entities_Enemies_Weapons_FireEnemyLaser_PlayMuzzleEffects_" data-uid="StormHawks.Runtime.Entities.Enemies.Weapons.FireEnemyLaser.PlayMuzzleEffects*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Enemies_Weapons_FireEnemyLaser_PlayMuzzleEffects" data-uid="StormHawks.Runtime.Entities.Enemies.Weapons.FireEnemyLaser.PlayMuzzleEffects">PlayMuzzleEffects()</h4>
+  <a id="StormHawks_Runtime_Entities_FriendlyShips_FireFriendlyInterruptedShot_PlayMuzzleEffects_" data-uid="StormHawks.Runtime.Entities.FriendlyShips.FireFriendlyInterruptedShot.PlayMuzzleEffects*"></a>
+  <h4 id="StormHawks_Runtime_Entities_FriendlyShips_FireFriendlyInterruptedShot_PlayMuzzleEffects" data-uid="StormHawks.Runtime.Entities.FriendlyShips.FireFriendlyInterruptedShot.PlayMuzzleEffects">PlayMuzzleEffects()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>

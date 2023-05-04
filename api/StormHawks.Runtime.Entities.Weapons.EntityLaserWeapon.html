@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class PlayerMissileLauncher
+    <title>Class EntityLaserWeapon
    | Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class PlayerMissileLauncher
+    <meta name="title" content="Class EntityLaserWeapon
    | Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -78,70 +78,120 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Players.Attack.Projectile.Launcher.PlayerMissileLauncher">
+            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Entities.Weapons.EntityLaserWeapon">
   
   
-  <h1 id="StormHawks_Runtime_Players_Attack_Projectile_Launcher_PlayerMissileLauncher" data-uid="StormHawks.Runtime.Players.Attack.Projectile.Launcher.PlayerMissileLauncher" class="text-break">Class PlayerMissileLauncher
+  <h1 id="StormHawks_Runtime_Entities_Weapons_EntityLaserWeapon" data-uid="StormHawks.Runtime.Entities.Weapons.EntityLaserWeapon" class="text-break">Class EntityLaserWeapon
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><a class="xref" href="StormHawks.Runtime.Players.Attack.Projectile.Launcher.ProjectileLauncher-1.html">ProjectileLauncher</a>&lt;<a class="xref" href="StormHawks.Runtime.Players.Attack.Projectile.Weapon.Projectile.html">Projectile</a>&gt;</div>
-    <div class="level2"><span class="xref">PlayerMissileLauncher</span></div>
+    <div class="level1"><a class="xref" href="StormHawks.Runtime.Entities.Weapons.EntityWeapon.html">EntityWeapon</a></div>
+    <div class="level2"><span class="xref">EntityLaserWeapon</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <a class="xref" href="StormHawks.Runtime.Players.Attack.Projectile.Launcher.ProjectileLauncher-1.html#StormHawks_Runtime_Players_Attack_Projectile_Launcher_ProjectileLauncher_1_launchPoint">ProjectileLauncher&lt;Projectile&gt;.launchPoint</a>
+      <a class="xref" href="StormHawks.Runtime.Entities.Weapons.EntityWeapon.html#StormHawks_Runtime_Entities_Weapons_EntityWeapon_FmodEvent">EntityWeapon.FmodEvent</a>
     </div>
     <div>
-      <a class="xref" href="StormHawks.Runtime.Players.Attack.Projectile.Launcher.ProjectileLauncher-1.html#StormHawks_Runtime_Players_Attack_Projectile_Launcher_ProjectileLauncher_1_CanLaunch">ProjectileLauncher&lt;Projectile&gt;.CanLaunch</a>
+      <a class="xref" href="StormHawks.Runtime.Entities.Weapons.EntityWeapon.html#StormHawks_Runtime_Entities_Weapons_EntityWeapon_IsFiring">EntityWeapon.IsFiring</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Entities.Weapons.EntityWeapon.html#StormHawks_Runtime_Entities_Weapons_EntityWeapon_OnEnable">EntityWeapon.OnEnable()</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Entities.Weapons.EntityWeapon.html#StormHawks_Runtime_Entities_Weapons_EntityWeapon_OnDisable">EntityWeapon.OnDisable()</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Entities.Weapons.EntityWeapon.html#StormHawks_Runtime_Entities_Weapons_EntityWeapon_OnDestroy">EntityWeapon.OnDestroy()</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Entities.Weapons.EntityWeapon.html#StormHawks_Runtime_Entities_Weapons_EntityWeapon_SetWeapon_IEntityFire_">EntityWeapon.SetWeapon(IEntityFire)</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Entities.Weapons.EntityWeapon.html#StormHawks_Runtime_Entities_Weapons_EntityWeapon_Fire">EntityWeapon.Fire()</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Entities.Weapons.EntityWeapon.html#StormHawks_Runtime_Entities_Weapons_EntityWeapon_Cancel">EntityWeapon.Cancel()</a>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Players.Attack.Projectile.Launcher.html">StormHawks.Runtime.Players.Attack.Projectile.Launcher</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Entities.Weapons.html">StormHawks.Runtime.Entities.Weapons</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="StormHawks_Runtime_Players_Attack_Projectile_Launcher_PlayerMissileLauncher_syntax">Syntax</h5>
+  <h5 id="StormHawks_Runtime_Entities_Weapons_EntityLaserWeapon_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class PlayerMissileLauncher : ProjectileLauncher&lt;Projectile&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public class EntityLaserWeapon : EntityWeapon</code></pre>
   </div>
-  <h3 id="methods">Methods
+  <h3 id="properties">Properties
   </h3>
   
   
-  <a id="StormHawks_Runtime_Players_Attack_Projectile_Launcher_PlayerMissileLauncher_Launch_" data-uid="StormHawks.Runtime.Players.Attack.Projectile.Launcher.PlayerMissileLauncher.Launch*"></a>
-  <h4 id="StormHawks_Runtime_Players_Attack_Projectile_Launcher_PlayerMissileLauncher_Launch_StormHawks_Runtime_Players_Attack_Projectile_Weapon_Projectile_DetectableEntity_" data-uid="StormHawks.Runtime.Players.Attack.Projectile.Launcher.PlayerMissileLauncher.Launch(StormHawks.Runtime.Players.Attack.Projectile.Weapon.Projectile,DetectableEntity)">Launch(Projectile, DetectableEntity)</h4>
+  <a id="StormHawks_Runtime_Entities_Weapons_EntityLaserWeapon_LineRenderer_" data-uid="StormHawks.Runtime.Entities.Weapons.EntityLaserWeapon.LineRenderer*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Weapons_EntityLaserWeapon_LineRenderer" data-uid="StormHawks.Runtime.Entities.Weapons.EntityLaserWeapon.LineRenderer">LineRenderer</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void Launch(Projectile missile, DetectableEntity target = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public LineRenderer LineRenderer { get; }</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="StormHawks.Runtime.Players.Attack.Projectile.Weapon.Projectile.html">Projectile</a></td>
-        <td><span class="parametername">missile</span></td>
+        <td><span class="xref">LineRenderer</span></td>
         <td></td>
       </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="StormHawks_Runtime_Entities_Weapons_EntityLaserWeapon_GetMuzzleEffects_" data-uid="StormHawks.Runtime.Entities.Weapons.EntityLaserWeapon.GetMuzzleEffects*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Weapons_EntityLaserWeapon_GetMuzzleEffects" data-uid="StormHawks.Runtime.Entities.Weapons.EntityLaserWeapon.GetMuzzleEffects">GetMuzzleEffects()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override ParticleSystem[] GetMuzzleEffects()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
       <tr>
-        <td><span class="xref">DetectableEntity</span></td>
-        <td><span class="parametername">target</span></td>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ParticleSystem</span>[]</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">StormHawks.Runtime.Players.Attack.Projectile.Launcher.ProjectileLauncher&lt;StormHawks.Runtime.Players.Attack.Projectile.Weapon.Projectile&gt;.Launch(StormHawks.Runtime.Players.Attack.Projectile.Weapon.Projectile, DetectableEntity)</span></div>
+  <div><a class="xref" href="StormHawks.Runtime.Entities.Weapons.EntityWeapon.html#StormHawks_Runtime_Entities_Weapons_EntityWeapon_GetMuzzleEffects">EntityWeapon.GetMuzzleEffects()</a></div>
+  
+  
+  <a id="StormHawks_Runtime_Entities_Weapons_EntityLaserWeapon_Start_" data-uid="StormHawks.Runtime.Entities.Weapons.EntityLaserWeapon.Start*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Weapons_EntityLaserWeapon_Start" data-uid="StormHawks.Runtime.Entities.Weapons.EntityLaserWeapon.Start">Start()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void Start()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="StormHawks.Runtime.Entities.Weapons.EntityWeapon.html#StormHawks_Runtime_Entities_Weapons_EntityWeapon_Start">EntityWeapon.Start()</a></div>
 </article>
           </div>
           

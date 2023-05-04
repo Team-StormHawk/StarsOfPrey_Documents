@@ -93,7 +93,7 @@
   </div>
   <div class="implements">
     <h5>Implements</h5>
-    <div><span class="xref">IPoolable</span>&lt;<a class="xref" href="StormHawks.Runtime.Players.Attack.Projectile.Weapon.PlayerMissile.html">PlayerMissile</a>&gt;</div>
+    <div><span class="xref">IPoolable</span>&lt;<a class="xref" href="StormHawks.Runtime.Players.Attack.Projectile.Weapon.Projectile.html">Projectile</a>&gt;</div>
     <div><span class="xref">IDamageable</span></div>
   </div>
   <div class="inheritedMembers">
@@ -108,16 +108,31 @@
       <a class="xref" href="StormHawks.Runtime.Players.Attack.Projectile.Weapon.Projectile.html#StormHawks_Runtime_Players_Attack_Projectile_Weapon_Projectile__disableCancellation">Projectile._disableCancellation</a>
     </div>
     <div>
+      <a class="xref" href="StormHawks.Runtime.Players.Attack.Projectile.Weapon.Projectile.html#StormHawks_Runtime_Players_Attack_Projectile_Weapon_Projectile__target">Projectile._target</a>
+    </div>
+    <div>
       <a class="xref" href="StormHawks.Runtime.Players.Attack.Projectile.Weapon.Projectile.html#StormHawks_Runtime_Players_Attack_Projectile_Weapon_Projectile_Awake">Projectile.Awake()</a>
     </div>
     <div>
       <a class="xref" href="StormHawks.Runtime.Players.Attack.Projectile.Weapon.Projectile.html#StormHawks_Runtime_Players_Attack_Projectile_Weapon_Projectile_OnDisable">Projectile.OnDisable()</a>
     </div>
     <div>
+      <a class="xref" href="StormHawks.Runtime.Players.Attack.Projectile.Weapon.Projectile.html#StormHawks_Runtime_Players_Attack_Projectile_Weapon_Projectile_SetForward_Vector3_">Projectile.SetForward(Vector3)</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Players.Attack.Projectile.Weapon.Projectile.html#StormHawks_Runtime_Players_Attack_Projectile_Weapon_Projectile_SetTarget_GameObject_">Projectile.SetTarget(GameObject)</a>
+    </div>
+    <div>
       <a class="xref" href="StormHawks.Runtime.Players.Attack.Projectile.Weapon.Projectile.html#StormHawks_Runtime_Players_Attack_Projectile_Weapon_Projectile_LifetimeCheck_System_Single_Action_">Projectile.LifetimeCheck(Single, Action)</a>
     </div>
     <div>
       <a class="xref" href="StormHawks.Runtime.Players.Attack.Projectile.Weapon.Projectile.html#StormHawks_Runtime_Players_Attack_Projectile_Weapon_Projectile_HitCheck_Collider_Action_">Projectile.HitCheck(Collider, Action)</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Players.Attack.Projectile.Weapon.Projectile.html#StormHawks_Runtime_Players_Attack_Projectile_Weapon_Projectile_Pool">Projectile.Pool</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Players.Attack.Projectile.Weapon.Projectile.html#StormHawks_Runtime_Players_Attack_Projectile_Weapon_Projectile_OnReleased">Projectile.OnReleased</a>
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Players.Attack.Projectile.Weapon.html">StormHawks.Runtime.Players.Attack.Projectile.Weapon</a></h6>
@@ -126,33 +141,6 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class PlayerMissile : Projectile</code></pre>
   </div>
-  <h3 id="properties">Properties
-  </h3>
-  
-  
-  <a id="StormHawks_Runtime_Players_Attack_Projectile_Weapon_PlayerMissile_Pool_" data-uid="StormHawks.Runtime.Players.Attack.Projectile.Weapon.PlayerMissile.Pool*"></a>
-  <h4 id="StormHawks_Runtime_Players_Attack_Projectile_Weapon_PlayerMissile_Pool" data-uid="StormHawks.Runtime.Players.Attack.Projectile.Weapon.PlayerMissile.Pool">Pool</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public MonoObjectPool&lt;PlayerMissile&gt; Pool { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">MonoObjectPool</span>&lt;<a class="xref" href="StormHawks.Runtime.Players.Attack.Projectile.Weapon.PlayerMissile.html">PlayerMissile</a>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="methods">Methods
   </h3>
   
@@ -207,8 +195,10 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnRelease()</code></pre>
+    <pre><code class="lang-csharp hljs">public override void OnRelease()</code></pre>
   </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="StormHawks.Runtime.Players.Attack.Projectile.Weapon.Projectile.html#StormHawks_Runtime_Players_Attack_Projectile_Weapon_Projectile_OnRelease">Projectile.OnRelease()</a></div>
   
   
   <a id="StormHawks_Runtime_Players_Attack_Projectile_Weapon_PlayerMissile_OnSpawn_" data-uid="StormHawks.Runtime.Players.Attack.Projectile.Weapon.PlayerMissile.OnSpawn*"></a>
@@ -217,8 +207,10 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnSpawn()</code></pre>
+    <pre><code class="lang-csharp hljs">public override void OnSpawn()</code></pre>
   </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="StormHawks.Runtime.Players.Attack.Projectile.Weapon.Projectile.html#StormHawks_Runtime_Players_Attack_Projectile_Weapon_Projectile_OnSpawn">Projectile.OnSpawn()</a></div>
   
   
   <a id="StormHawks_Runtime_Players_Attack_Projectile_Weapon_PlayerMissile_ProjectileMove_" data-uid="StormHawks.Runtime.Players.Attack.Projectile.Weapon.PlayerMissile.ProjectileMove*"></a>
@@ -248,59 +240,6 @@
   </table>
   <h5 class="overrides">Overrides</h5>
   <div><a class="xref" href="StormHawks.Runtime.Players.Attack.Projectile.Weapon.Projectile.html#StormHawks_Runtime_Players_Attack_Projectile_Weapon_Projectile_ProjectileMove_System_Single_">Projectile.ProjectileMove(Single)</a></div>
-  
-  
-  <a id="StormHawks_Runtime_Players_Attack_Projectile_Weapon_PlayerMissile_SetTarget_" data-uid="StormHawks.Runtime.Players.Attack.Projectile.Weapon.PlayerMissile.SetTarget*"></a>
-  <h4 id="StormHawks_Runtime_Players_Attack_Projectile_Weapon_PlayerMissile_SetTarget_DetectableEntity_" data-uid="StormHawks.Runtime.Players.Attack.Projectile.Weapon.PlayerMissile.SetTarget(DetectableEntity)">SetTarget(DetectableEntity)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetTarget(DetectableEntity target)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">DetectableEntity</span></td>
-        <td><span class="parametername">target</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="events">Events
-  </h3>
-  
-  
-  <h4 id="StormHawks_Runtime_Players_Attack_Projectile_Weapon_PlayerMissile_OnReleased" data-uid="StormHawks.Runtime.Players.Attack.Projectile.Weapon.PlayerMissile.OnReleased">OnReleased</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public event UnityAction&lt;PlayerMissile&gt; OnReleased</code></pre>
-  </div>
-  <h5 class="eventType">Event Type</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">UnityAction</span>&lt;<a class="xref" href="StormHawks.Runtime.Players.Attack.Projectile.Weapon.PlayerMissile.html">PlayerMissile</a>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="implements">Implements</h3>
   <div>
       <span class="xref">IPoolable&lt;&gt;</span>

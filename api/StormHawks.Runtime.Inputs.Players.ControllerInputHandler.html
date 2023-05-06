@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class XRAnalogButton
+    <title>Class ControllerInputHandler
    | Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class XRAnalogButton
+    <meta name="title" content="Class ControllerInputHandler
    | Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -78,174 +78,61 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Inputs.XR.Buttons.XRAnalogButton">
+            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Inputs.Players.ControllerInputHandler">
   
   
-  <h1 id="StormHawks_Runtime_Inputs_XR_Buttons_XRAnalogButton" data-uid="StormHawks.Runtime.Inputs.XR.Buttons.XRAnalogButton" class="text-break">Class XRAnalogButton
+  <h1 id="StormHawks_Runtime_Inputs_Players_ControllerInputHandler" data-uid="StormHawks.Runtime.Inputs.Players.ControllerInputHandler" class="text-break">Class ControllerInputHandler
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><a class="xref" href="StormHawks.Runtime.Inputs.InputObjectBase.html">InputObjectBase</a></div>
-    <div class="level2"><a class="xref" href="StormHawks.Runtime.Inputs.XR.Buttons.XRButton.html">XRButton</a></div>
-    <div class="level3"><span class="xref">XRAnalogButton</span></div>
+    <div class="level1"><a class="xref" href="StormHawks.Runtime.Inputs.Players.InputHandlerBase.html">InputHandlerBase</a></div>
+    <div class="level2"><span class="xref">ControllerInputHandler</span></div>
   </div>
   <div class="implements">
     <h5>Implements</h5>
-    <div><span class="xref">IInitializable</span></div>
+    <div><a class="xref" href="StormHawks.Runtime.Inputs.Players.PlayerInputActions.IControllerActions.html">PlayerInputActions.IControllerActions</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <a class="xref" href="StormHawks.Runtime.Inputs.XR.Buttons.XRButton.html#StormHawks_Runtime_Inputs_XR_Buttons_XRButton_Pressed">XRButton.Pressed</a>
+      <a class="xref" href="StormHawks.Runtime.Inputs.Players.InputHandlerBase.html#StormHawks_Runtime_Inputs_Players_InputHandlerBase_PlayerInputActions">InputHandlerBase.PlayerInputActions</a>
     </div>
     <div>
-      <a class="xref" href="StormHawks.Runtime.Inputs.XR.Buttons.XRButton.html#StormHawks_Runtime_Inputs_XR_Buttons_XRButton_OnPressedChanged">XRButton.OnPressedChanged</a>
-    </div>
-    <div>
-      <a class="xref" href="StormHawks.Runtime.Inputs.XR.Buttons.XRButton.html#StormHawks_Runtime_Inputs_XR_Buttons_XRButton_IsInitialized">XRButton.IsInitialized</a>
-    </div>
-    <div>
-      <a class="xref" href="StormHawks.Runtime.Inputs.XR.Buttons.XRButton.html#StormHawks_Runtime_Inputs_XR_Buttons_XRButton_SetPressed_System_Boolean_">XRButton.SetPressed(Boolean)</a>
-    </div>
-    <div>
-      <a class="xref" href="StormHawks.Runtime.Inputs.InputObjectBase.html#StormHawks_Runtime_Inputs_InputObjectBase_CurrentPhase">InputObjectBase.CurrentPhase</a>
-    </div>
-    <div>
-      <a class="xref" href="StormHawks.Runtime.Inputs.InputObjectBase.html#StormHawks_Runtime_Inputs_InputObjectBase_OnPhaseChanged">InputObjectBase.OnPhaseChanged</a>
-    </div>
-    <div>
-      <a class="xref" href="StormHawks.Runtime.Inputs.InputObjectBase.html#StormHawks_Runtime_Inputs_InputObjectBase_OnPerformed">InputObjectBase.OnPerformed</a>
-    </div>
-    <div>
-      <a class="xref" href="StormHawks.Runtime.Inputs.InputObjectBase.html#StormHawks_Runtime_Inputs_InputObjectBase_OnReleased">InputObjectBase.OnReleased</a>
-    </div>
-    <div>
-      <a class="xref" href="StormHawks.Runtime.Inputs.InputObjectBase.html#StormHawks_Runtime_Inputs_InputObjectBase_SetCurrentPhase_InputActionPhase_">InputObjectBase.SetCurrentPhase(InputActionPhase)</a>
+      <a class="xref" href="StormHawks.Runtime.Inputs.Players.InputHandlerBase.html#StormHawks_Runtime_Inputs_Players_InputHandlerBase_OnApplicationQuit">InputHandlerBase.OnApplicationQuit()</a>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Inputs.XR.Buttons.html">StormHawks.Runtime.Inputs.XR.Buttons</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Inputs.Players.html">StormHawks.Runtime.Inputs.Players</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="StormHawks_Runtime_Inputs_XR_Buttons_XRAnalogButton_syntax">Syntax</h5>
+  <h5 id="StormHawks_Runtime_Inputs_Players_ControllerInputHandler_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class XRAnalogButton : XRButton</code></pre>
+    <pre><code class="lang-csharp hljs">public class ControllerInputHandler : InputHandlerBase, PlayerInputActions.IControllerActions</code></pre>
   </div>
-  <h3 id="constructors">Constructors
-  </h3>
-  
-  
-  <a id="StormHawks_Runtime_Inputs_XR_Buttons_XRAnalogButton__ctor_" data-uid="StormHawks.Runtime.Inputs.XR.Buttons.XRAnalogButton.#ctor*"></a>
-  <h4 id="StormHawks_Runtime_Inputs_XR_Buttons_XRAnalogButton__ctor" data-uid="StormHawks.Runtime.Inputs.XR.Buttons.XRAnalogButton.#ctor">XRAnalogButton()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public XRAnalogButton()</code></pre>
-  </div>
-  
-  
-  <a id="StormHawks_Runtime_Inputs_XR_Buttons_XRAnalogButton__ctor_" data-uid="StormHawks.Runtime.Inputs.XR.Buttons.XRAnalogButton.#ctor*"></a>
-  <h4 id="StormHawks_Runtime_Inputs_XR_Buttons_XRAnalogButton__ctor_System_Boolean_" data-uid="StormHawks.Runtime.Inputs.XR.Buttons.XRAnalogButton.#ctor(System.Boolean)">XRAnalogButton(Boolean)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public XRAnalogButton(bool pressedByValue)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td><span class="parametername">pressedByValue</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="properties">Properties
-  </h3>
-  
-  
-  <a id="StormHawks_Runtime_Inputs_XR_Buttons_XRAnalogButton_PressState_" data-uid="StormHawks.Runtime.Inputs.XR.Buttons.XRAnalogButton.PressState*"></a>
-  <h4 id="StormHawks_Runtime_Inputs_XR_Buttons_XRAnalogButton_PressState" data-uid="StormHawks.Runtime.Inputs.XR.Buttons.XRAnalogButton.PressState">PressState</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public XRAnalogButton.State PressState { get; protected set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="StormHawks.Runtime.Inputs.XR.Buttons.XRAnalogButton.State.html">XRAnalogButton.State</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="StormHawks_Runtime_Inputs_XR_Buttons_XRAnalogButton_PressValue_" data-uid="StormHawks.Runtime.Inputs.XR.Buttons.XRAnalogButton.PressValue*"></a>
-  <h4 id="StormHawks_Runtime_Inputs_XR_Buttons_XRAnalogButton_PressValue" data-uid="StormHawks.Runtime.Inputs.XR.Buttons.XRAnalogButton.PressValue">PressValue</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float PressValue { get; protected set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="StormHawks_Runtime_Inputs_XR_Buttons_XRAnalogButton_Initialize_" data-uid="StormHawks.Runtime.Inputs.XR.Buttons.XRAnalogButton.Initialize*"></a>
-  <h4 id="StormHawks_Runtime_Inputs_XR_Buttons_XRAnalogButton_Initialize" data-uid="StormHawks.Runtime.Inputs.XR.Buttons.XRAnalogButton.Initialize">Initialize()</h4>
+  <a id="StormHawks_Runtime_Inputs_Players_ControllerInputHandler_OnEnable_" data-uid="StormHawks.Runtime.Inputs.Players.ControllerInputHandler.OnEnable*"></a>
+  <h4 id="StormHawks_Runtime_Inputs_Players_ControllerInputHandler_OnEnable" data-uid="StormHawks.Runtime.Inputs.Players.ControllerInputHandler.OnEnable">OnEnable()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void Initialize()</code></pre>
+    <pre><code class="lang-csharp hljs">protected override void OnEnable()</code></pre>
   </div>
   <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="StormHawks.Runtime.Inputs.XR.Buttons.XRButton.html#StormHawks_Runtime_Inputs_XR_Buttons_XRButton_Initialize">XRButton.Initialize()</a></div>
+  <div><a class="xref" href="StormHawks.Runtime.Inputs.Players.InputHandlerBase.html#StormHawks_Runtime_Inputs_Players_InputHandlerBase_OnEnable">InputHandlerBase.OnEnable()</a></div>
   
   
-  <a id="StormHawks_Runtime_Inputs_XR_Buttons_XRAnalogButton_SetPressValue_" data-uid="StormHawks.Runtime.Inputs.XR.Buttons.XRAnalogButton.SetPressValue*"></a>
-  <h4 id="StormHawks_Runtime_Inputs_XR_Buttons_XRAnalogButton_SetPressValue_System_Single_" data-uid="StormHawks.Runtime.Inputs.XR.Buttons.XRAnalogButton.SetPressValue(System.Single)">SetPressValue(Single)</h4>
+  <a id="StormHawks_Runtime_Inputs_Players_ControllerInputHandler_OnLeftPosition_" data-uid="StormHawks.Runtime.Inputs.Players.ControllerInputHandler.OnLeftPosition*"></a>
+  <h4 id="StormHawks_Runtime_Inputs_Players_ControllerInputHandler_OnLeftPosition_InputAction_CallbackContext_" data-uid="StormHawks.Runtime.Inputs.Players.ControllerInputHandler.OnLeftPosition(InputAction.CallbackContext)">OnLeftPosition(InputAction.CallbackContext)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetPressValue(float value)</code></pre>
+    <pre><code class="lang-csharp hljs">public void OnLeftPosition(InputAction.CallbackContext context)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -258,8 +145,89 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td><span class="parametername">value</span></td>
+        <td><span class="xref">InputAction.CallbackContext</span></td>
+        <td><span class="parametername">context</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StormHawks_Runtime_Inputs_Players_ControllerInputHandler_OnLeftRotation_" data-uid="StormHawks.Runtime.Inputs.Players.ControllerInputHandler.OnLeftRotation*"></a>
+  <h4 id="StormHawks_Runtime_Inputs_Players_ControllerInputHandler_OnLeftRotation_InputAction_CallbackContext_" data-uid="StormHawks.Runtime.Inputs.Players.ControllerInputHandler.OnLeftRotation(InputAction.CallbackContext)">OnLeftRotation(InputAction.CallbackContext)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnLeftRotation(InputAction.CallbackContext context)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">InputAction.CallbackContext</span></td>
+        <td><span class="parametername">context</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StormHawks_Runtime_Inputs_Players_ControllerInputHandler_OnRightPosition_" data-uid="StormHawks.Runtime.Inputs.Players.ControllerInputHandler.OnRightPosition*"></a>
+  <h4 id="StormHawks_Runtime_Inputs_Players_ControllerInputHandler_OnRightPosition_InputAction_CallbackContext_" data-uid="StormHawks.Runtime.Inputs.Players.ControllerInputHandler.OnRightPosition(InputAction.CallbackContext)">OnRightPosition(InputAction.CallbackContext)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnRightPosition(InputAction.CallbackContext context)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">InputAction.CallbackContext</span></td>
+        <td><span class="parametername">context</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StormHawks_Runtime_Inputs_Players_ControllerInputHandler_OnRightRotation_" data-uid="StormHawks.Runtime.Inputs.Players.ControllerInputHandler.OnRightRotation*"></a>
+  <h4 id="StormHawks_Runtime_Inputs_Players_ControllerInputHandler_OnRightRotation_InputAction_CallbackContext_" data-uid="StormHawks.Runtime.Inputs.Players.ControllerInputHandler.OnRightRotation(InputAction.CallbackContext)">OnRightRotation(InputAction.CallbackContext)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnRightRotation(InputAction.CallbackContext context)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">InputAction.CallbackContext</span></td>
+        <td><span class="parametername">context</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -268,12 +236,12 @@
   </h3>
   
   
-  <h4 id="StormHawks_Runtime_Inputs_XR_Buttons_XRAnalogButton_OnStateChanged" data-uid="StormHawks.Runtime.Inputs.XR.Buttons.XRAnalogButton.OnStateChanged">OnStateChanged</h4>
+  <h4 id="StormHawks_Runtime_Inputs_Players_ControllerInputHandler_OnLeftInputChanged" data-uid="StormHawks.Runtime.Inputs.Players.ControllerInputHandler.OnLeftInputChanged">OnLeftInputChanged</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public event Action&lt;XRAnalogButton.State&gt; OnStateChanged</code></pre>
+    <pre><code class="lang-csharp hljs">public event ControllerInputHandler.ControllerInputDelegate OnLeftInputChanged</code></pre>
   </div>
   <h5 class="eventType">Event Type</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -285,14 +253,38 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Action</span>&lt;<a class="xref" href="StormHawks.Runtime.Inputs.XR.Buttons.XRAnalogButton.State.html">XRAnalogButton.State</a>&gt;</td>
+        <td><a class="xref" href="StormHawks.Runtime.Inputs.Players.ControllerInputHandler.ControllerInputDelegate.html">ControllerInputHandler.ControllerInputDelegate</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="StormHawks_Runtime_Inputs_Players_ControllerInputHandler_OnRightInputChanged" data-uid="StormHawks.Runtime.Inputs.Players.ControllerInputHandler.OnRightInputChanged">OnRightInputChanged</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event ControllerInputHandler.ControllerInputDelegate OnRightInputChanged</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="StormHawks.Runtime.Inputs.Players.ControllerInputHandler.ControllerInputDelegate.html">ControllerInputHandler.ControllerInputDelegate</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <h3 id="implements">Implements</h3>
   <div>
-      <span class="xref">IInitializable</span>
+      <a class="xref" href="StormHawks.Runtime.Inputs.Players.PlayerInputActions.IControllerActions.html">PlayerInputActions.IControllerActions</a>
   </div>
 </article>
           </div>

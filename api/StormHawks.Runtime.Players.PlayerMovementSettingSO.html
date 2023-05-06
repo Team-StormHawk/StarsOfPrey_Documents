@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class Vector3Extensions
+    <title>Class PlayerMovementSettingSO
    | Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class Vector3Extensions
+    <meta name="title" content="Class PlayerMovementSettingSO
    | Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -78,59 +78,37 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Utilities.Extensions.Vector3Extensions">
+            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Players.PlayerMovementSettingSO">
   
   
-  <h1 id="StormHawks_Runtime_Utilities_Extensions_Vector3Extensions" data-uid="StormHawks.Runtime.Utilities.Extensions.Vector3Extensions" class="text-break">Class Vector3Extensions
+  <h1 id="StormHawks_Runtime_Players_PlayerMovementSettingSO" data-uid="StormHawks.Runtime.Players.PlayerMovementSettingSO" class="text-break">Class PlayerMovementSettingSO
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">Vector3Extensions</span></div>
+    <div class="level1"><span class="xref">PlayerMovementSettingSO</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Utilities.Extensions.html">StormHawks.Runtime.Utilities.Extensions</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Players.html">StormHawks.Runtime.Players</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="StormHawks_Runtime_Utilities_Extensions_Vector3Extensions_syntax">Syntax</h5>
+  <h5 id="StormHawks_Runtime_Players_PlayerMovementSettingSO_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class Vector3Extensions</code></pre>
+    <pre><code class="lang-csharp hljs">public class PlayerMovementSettingSO : ScriptableObject</code></pre>
   </div>
-  <h3 id="methods">Methods
+  <h3 id="properties">Properties
   </h3>
   
   
-  <a id="StormHawks_Runtime_Utilities_Extensions_Vector3Extensions_GetLocalPositionFromPivot_" data-uid="StormHawks.Runtime.Utilities.Extensions.Vector3Extensions.GetLocalPositionFromPivot*"></a>
-  <h4 id="StormHawks_Runtime_Utilities_Extensions_Vector3Extensions_GetLocalPositionFromPivot_Vector3_Transform_" data-uid="StormHawks.Runtime.Utilities.Extensions.Vector3Extensions.GetLocalPositionFromPivot(Vector3,Transform)">GetLocalPositionFromPivot(Vector3, Transform)</h4>
+  <a id="StormHawks_Runtime_Players_PlayerMovementSettingSO_IdleThrust_" data-uid="StormHawks.Runtime.Players.PlayerMovementSettingSO.IdleThrust*"></a>
+  <h4 id="StormHawks_Runtime_Players_PlayerMovementSettingSO_IdleThrust" data-uid="StormHawks.Runtime.Players.PlayerMovementSettingSO.IdleThrust">IdleThrust</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Vector3 GetLocalPositionFromPivot(this Vector3 worldVec, Transform pivot)</code></pre>
+    <pre><code class="lang-csharp hljs">public float IdleThrust { get; }</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Vector3</span></td>
-        <td><span class="parametername">worldVec</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">Transform</span></td>
-        <td><span class="parametername">pivot</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -140,44 +118,22 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Vector3</span></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="StormHawks_Runtime_Utilities_Extensions_Vector3Extensions_IgnoreByRange_" data-uid="StormHawks.Runtime.Utilities.Extensions.Vector3Extensions.IgnoreByRange*"></a>
-  <h4 id="StormHawks_Runtime_Utilities_Extensions_Vector3Extensions_IgnoreByRange_Vector3_AxisValue_" data-uid="StormHawks.Runtime.Utilities.Extensions.Vector3Extensions.IgnoreByRange(Vector3,AxisValue)">IgnoreByRange(Vector3, AxisValue)</h4>
+  <a id="StormHawks_Runtime_Players_PlayerMovementSettingSO_MaxThrust_" data-uid="StormHawks.Runtime.Players.PlayerMovementSettingSO.MaxThrust*"></a>
+  <h4 id="StormHawks_Runtime_Players_PlayerMovementSettingSO_MaxThrust" data-uid="StormHawks.Runtime.Players.PlayerMovementSettingSO.MaxThrust">MaxThrust</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Vector3 IgnoreByRange(this Vector3 vec, AxisValue range)</code></pre>
+    <pre><code class="lang-csharp hljs">public float MaxThrust { get; }</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Vector3</span></td>
-        <td><span class="parametername">vec</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">AxisValue</span></td>
-        <td><span class="parametername">range</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -187,44 +143,22 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Vector3</span></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="StormHawks_Runtime_Utilities_Extensions_Vector3Extensions_IgnoreByRange_" data-uid="StormHawks.Runtime.Utilities.Extensions.Vector3Extensions.IgnoreByRange*"></a>
-  <h4 id="StormHawks_Runtime_Utilities_Extensions_Vector3Extensions_IgnoreByRange_Vector3_Vector3_" data-uid="StormHawks.Runtime.Utilities.Extensions.Vector3Extensions.IgnoreByRange(Vector3,Vector3)">IgnoreByRange(Vector3, Vector3)</h4>
+  <a id="StormHawks_Runtime_Players_PlayerMovementSettingSO_MinThrust_" data-uid="StormHawks.Runtime.Players.PlayerMovementSettingSO.MinThrust*"></a>
+  <h4 id="StormHawks_Runtime_Players_PlayerMovementSettingSO_MinThrust" data-uid="StormHawks.Runtime.Players.PlayerMovementSettingSO.MinThrust">MinThrust</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Vector3 IgnoreByRange(this Vector3 vec, Vector3 range)</code></pre>
+    <pre><code class="lang-csharp hljs">public float MinThrust { get; }</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Vector3</span></td>
-        <td><span class="parametername">vec</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">Vector3</span></td>
-        <td><span class="parametername">range</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -234,39 +168,22 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Vector3</span></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="StormHawks_Runtime_Utilities_Extensions_Vector3Extensions_IsZero_" data-uid="StormHawks.Runtime.Utilities.Extensions.Vector3Extensions.IsZero*"></a>
-  <h4 id="StormHawks_Runtime_Utilities_Extensions_Vector3Extensions_IsZero_Vector3_" data-uid="StormHawks.Runtime.Utilities.Extensions.Vector3Extensions.IsZero(Vector3)">IsZero(Vector3)</h4>
+  <a id="StormHawks_Runtime_Players_PlayerMovementSettingSO_PitchTorque_" data-uid="StormHawks.Runtime.Players.PlayerMovementSettingSO.PitchTorque*"></a>
+  <h4 id="StormHawks_Runtime_Players_PlayerMovementSettingSO_PitchTorque" data-uid="StormHawks.Runtime.Players.PlayerMovementSettingSO.PitchTorque">PitchTorque</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsZero(this Vector3 v)</code></pre>
+    <pre><code class="lang-csharp hljs">public float PitchTorque { get; }</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Vector3</span></td>
-        <td><span class="parametername">v</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -276,39 +193,22 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="StormHawks_Runtime_Utilities_Extensions_Vector3Extensions_NearZero_" data-uid="StormHawks.Runtime.Utilities.Extensions.Vector3Extensions.NearZero*"></a>
-  <h4 id="StormHawks_Runtime_Utilities_Extensions_Vector3Extensions_NearZero_Vector3_" data-uid="StormHawks.Runtime.Utilities.Extensions.Vector3Extensions.NearZero(Vector3)">NearZero(Vector3)</h4>
+  <a id="StormHawks_Runtime_Players_PlayerMovementSettingSO_RollTorque_" data-uid="StormHawks.Runtime.Players.PlayerMovementSettingSO.RollTorque*"></a>
+  <h4 id="StormHawks_Runtime_Players_PlayerMovementSettingSO_RollTorque" data-uid="StormHawks.Runtime.Players.PlayerMovementSettingSO.RollTorque">RollTorque</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool NearZero(this Vector3 v)</code></pre>
+    <pre><code class="lang-csharp hljs">public float RollTorque { get; }</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Vector3</span></td>
-        <td><span class="parametername">v</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -318,44 +218,22 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="StormHawks_Runtime_Utilities_Extensions_Vector3Extensions_NormalizeByRange_" data-uid="StormHawks.Runtime.Utilities.Extensions.Vector3Extensions.NormalizeByRange*"></a>
-  <h4 id="StormHawks_Runtime_Utilities_Extensions_Vector3Extensions_NormalizeByRange_Vector3_AxisValue_" data-uid="StormHawks.Runtime.Utilities.Extensions.Vector3Extensions.NormalizeByRange(Vector3,AxisValue)">NormalizeByRange(Vector3, AxisValue)</h4>
+  <a id="StormHawks_Runtime_Players_PlayerMovementSettingSO_ThrustAccelerateTime_" data-uid="StormHawks.Runtime.Players.PlayerMovementSettingSO.ThrustAccelerateTime*"></a>
+  <h4 id="StormHawks_Runtime_Players_PlayerMovementSettingSO_ThrustAccelerateTime" data-uid="StormHawks.Runtime.Players.PlayerMovementSettingSO.ThrustAccelerateTime">ThrustAccelerateTime</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Vector3 NormalizeByRange(this Vector3 vec, AxisValue range)</code></pre>
+    <pre><code class="lang-csharp hljs">public float ThrustAccelerateTime { get; }</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Vector3</span></td>
-        <td><span class="parametername">vec</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">AxisValue</span></td>
-        <td><span class="parametername">range</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -365,44 +243,47 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Vector3</span></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="StormHawks_Runtime_Utilities_Extensions_Vector3Extensions_NormalizeByRange_" data-uid="StormHawks.Runtime.Utilities.Extensions.Vector3Extensions.NormalizeByRange*"></a>
-  <h4 id="StormHawks_Runtime_Utilities_Extensions_Vector3Extensions_NormalizeByRange_Vector3_Vector3_" data-uid="StormHawks.Runtime.Utilities.Extensions.Vector3Extensions.NormalizeByRange(Vector3,Vector3)">NormalizeByRange(Vector3, Vector3)</h4>
+  <a id="StormHawks_Runtime_Players_PlayerMovementSettingSO_ThrustDecelerationTime_" data-uid="StormHawks.Runtime.Players.PlayerMovementSettingSO.ThrustDecelerationTime*"></a>
+  <h4 id="StormHawks_Runtime_Players_PlayerMovementSettingSO_ThrustDecelerationTime" data-uid="StormHawks.Runtime.Players.PlayerMovementSettingSO.ThrustDecelerationTime">ThrustDecelerationTime</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Vector3 NormalizeByRange(this Vector3 vec, Vector3 range)</code></pre>
+    <pre><code class="lang-csharp hljs">public float ThrustDecelerationTime { get; }</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Vector3</span></td>
-        <td><span class="parametername">vec</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">Vector3</span></td>
-        <td><span class="parametername">range</span></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
+  
+  
+  <a id="StormHawks_Runtime_Players_PlayerMovementSettingSO_TorqueChangeTime_" data-uid="StormHawks.Runtime.Players.PlayerMovementSettingSO.TorqueChangeTime*"></a>
+  <h4 id="StormHawks_Runtime_Players_PlayerMovementSettingSO_TorqueChangeTime" data-uid="StormHawks.Runtime.Players.PlayerMovementSettingSO.TorqueChangeTime">TorqueChangeTime</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float TorqueChangeTime { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -412,7 +293,82 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Vector3</span></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StormHawks_Runtime_Players_PlayerMovementSettingSO_VelocityChangeThreshold_" data-uid="StormHawks.Runtime.Players.PlayerMovementSettingSO.VelocityChangeThreshold*"></a>
+  <h4 id="StormHawks_Runtime_Players_PlayerMovementSettingSO_VelocityChangeThreshold" data-uid="StormHawks.Runtime.Players.PlayerMovementSettingSO.VelocityChangeThreshold">VelocityChangeThreshold</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float VelocityChangeThreshold { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StormHawks_Runtime_Players_PlayerMovementSettingSO_VelocityChangeTime_" data-uid="StormHawks.Runtime.Players.PlayerMovementSettingSO.VelocityChangeTime*"></a>
+  <h4 id="StormHawks_Runtime_Players_PlayerMovementSettingSO_VelocityChangeTime" data-uid="StormHawks.Runtime.Players.PlayerMovementSettingSO.VelocityChangeTime">VelocityChangeTime</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float VelocityChangeTime { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StormHawks_Runtime_Players_PlayerMovementSettingSO_YawTorque_" data-uid="StormHawks.Runtime.Players.PlayerMovementSettingSO.YawTorque*"></a>
+  <h4 id="StormHawks_Runtime_Players_PlayerMovementSettingSO_YawTorque" data-uid="StormHawks.Runtime.Players.PlayerMovementSettingSO.YawTorque">YawTorque</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float YawTorque { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
         <td></td>
       </tr>
     </tbody>

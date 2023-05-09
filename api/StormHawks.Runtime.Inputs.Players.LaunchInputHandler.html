@@ -110,6 +110,83 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class LaunchInputHandler : InputHandlerBase, PlayerInputActions.ILaunchActions</code></pre>
   </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="StormHawks_Runtime_Inputs_Players_LaunchInputHandler_AnySideBulletLaunching_" data-uid="StormHawks.Runtime.Inputs.Players.LaunchInputHandler.AnySideBulletLaunching*"></a>
+  <h4 id="StormHawks_Runtime_Inputs_Players_LaunchInputHandler_AnySideBulletLaunching" data-uid="StormHawks.Runtime.Inputs.Players.LaunchInputHandler.AnySideBulletLaunching">AnySideBulletLaunching</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool AnySideBulletLaunching { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StormHawks_Runtime_Inputs_Players_LaunchInputHandler_LeftBulletLaunching_" data-uid="StormHawks.Runtime.Inputs.Players.LaunchInputHandler.LeftBulletLaunching*"></a>
+  <h4 id="StormHawks_Runtime_Inputs_Players_LaunchInputHandler_LeftBulletLaunching" data-uid="StormHawks.Runtime.Inputs.Players.LaunchInputHandler.LeftBulletLaunching">LeftBulletLaunching</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool LeftBulletLaunching { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StormHawks_Runtime_Inputs_Players_LaunchInputHandler_RightBulletLaunching_" data-uid="StormHawks.Runtime.Inputs.Players.LaunchInputHandler.RightBulletLaunching*"></a>
+  <h4 id="StormHawks_Runtime_Inputs_Players_LaunchInputHandler_RightBulletLaunching" data-uid="StormHawks.Runtime.Inputs.Players.LaunchInputHandler.RightBulletLaunching">RightBulletLaunching</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool RightBulletLaunching { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
   </h3>
   
@@ -206,12 +283,12 @@
   </table>
   
   
-  <h4 id="StormHawks_Runtime_Inputs_Players_LaunchInputHandler_OnLeftMissileLaunch" data-uid="StormHawks.Runtime.Inputs.Players.LaunchInputHandler.OnLeftMissileLaunch">OnLeftMissileLaunch</h4>
+  <h4 id="StormHawks_Runtime_Inputs_Players_LaunchInputHandler_OnMissileLaunch" data-uid="StormHawks.Runtime.Inputs.Players.LaunchInputHandler.OnMissileLaunch">OnMissileLaunch</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public event Action OnLeftMissileLaunch</code></pre>
+    <pre><code class="lang-csharp hljs">public event Action OnMissileLaunch</code></pre>
   </div>
   <h5 class="eventType">Event Type</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -230,12 +307,12 @@
   </table>
   
   
-  <h4 id="StormHawks_Runtime_Inputs_Players_LaunchInputHandler_OnLeftMissileReady" data-uid="StormHawks.Runtime.Inputs.Players.LaunchInputHandler.OnLeftMissileReady">OnLeftMissileReady</h4>
+  <h4 id="StormHawks_Runtime_Inputs_Players_LaunchInputHandler_OnMissileReady" data-uid="StormHawks.Runtime.Inputs.Players.LaunchInputHandler.OnMissileReady">OnMissileReady</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public event Action OnLeftMissileReady</code></pre>
+    <pre><code class="lang-csharp hljs">public event Action OnMissileReady</code></pre>
   </div>
   <h5 class="eventType">Event Type</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -272,54 +349,6 @@
     <tbody>
       <tr>
         <td><span class="xref">Action</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="StormHawks_Runtime_Inputs_Players_LaunchInputHandler_OnRightMissileLaunch" data-uid="StormHawks.Runtime.Inputs.Players.LaunchInputHandler.OnRightMissileLaunch">OnRightMissileLaunch</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public event Action OnRightMissileLaunch</code></pre>
-  </div>
-  <h5 class="eventType">Event Type</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Action</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="StormHawks_Runtime_Inputs_Players_LaunchInputHandler_OnRightMissileReady" data-uid="StormHawks.Runtime.Inputs.Players.LaunchInputHandler.OnRightMissileReady">OnRightMissileReady</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public event Action OnRightMissileReady</code></pre>
-  </div>
-  <h5 class="eventType">Event Type</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Action</span></td>
         <td></td>
       </tr>
     </tbody>

@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class HandController
+    <title>Class PlayerMovementStateSO
    | Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class HandController
+    <meta name="title" content="Class PlayerMovementStateSO
    | Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -78,72 +78,87 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Players.Controllers.HandController">
+            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Players.PlayerMovementStateSO">
   
   
-  <h1 id="StormHawks_Runtime_Players_Controllers_HandController" data-uid="StormHawks.Runtime.Players.Controllers.HandController" class="text-break">Class HandController
+  <h1 id="StormHawks_Runtime_Players_PlayerMovementStateSO" data-uid="StormHawks.Runtime.Players.PlayerMovementStateSO" class="text-break">Class PlayerMovementStateSO
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">HandController</span></div>
+    <div class="level1"><span class="xref">PlayerMovementStateSO</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Players.Controllers.html">StormHawks.Runtime.Players.Controllers</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Players.html">StormHawks.Runtime.Players</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="StormHawks_Runtime_Players_Controllers_HandController_syntax">Syntax</h5>
+  <h5 id="StormHawks_Runtime_Players_PlayerMovementStateSO_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class HandController</code></pre>
+    <pre><code class="lang-csharp hljs">public class PlayerMovementStateSO : ScriptableObject</code></pre>
   </div>
-  <h3 id="methods">Methods
+  <h3 id="properties">Properties
   </h3>
   
   
-  <a id="StormHawks_Runtime_Players_Controllers_HandController_Initialize_" data-uid="StormHawks.Runtime.Players.Controllers.HandController.Initialize*"></a>
-  <h4 id="StormHawks_Runtime_Players_Controllers_HandController_Initialize" data-uid="StormHawks.Runtime.Players.Controllers.HandController.Initialize">Initialize()</h4>
+  <a id="StormHawks_Runtime_Players_PlayerMovementStateSO_Position_" data-uid="StormHawks.Runtime.Players.PlayerMovementStateSO.Position*"></a>
+  <h4 id="StormHawks_Runtime_Players_PlayerMovementStateSO_Position" data-uid="StormHawks.Runtime.Players.PlayerMovementStateSO.Position">Position</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Initialize()</code></pre>
+    <pre><code class="lang-csharp hljs">public Vector3 Position { get; }</code></pre>
   </div>
-  
-  
-  <a id="StormHawks_Runtime_Players_Controllers_HandController_SetReadyRingVisible_" data-uid="StormHawks.Runtime.Players.Controllers.HandController.SetReadyRingVisible*"></a>
-  <h4 id="StormHawks_Runtime_Players_Controllers_HandController_SetReadyRingVisible_System_Boolean_" data-uid="StormHawks.Runtime.Players.Controllers.HandController.SetReadyRingVisible(System.Boolean)">SetReadyRingVisible(Boolean)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetReadyRingVisible(bool visible)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td><span class="parametername">visible</span></td>
+        <td><span class="xref">Vector3</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="StormHawks_Runtime_Players_Controllers_HandController_SetRingVisible_" data-uid="StormHawks.Runtime.Players.Controllers.HandController.SetRingVisible*"></a>
-  <h4 id="StormHawks_Runtime_Players_Controllers_HandController_SetRingVisible_System_Boolean_" data-uid="StormHawks.Runtime.Players.Controllers.HandController.SetRingVisible(System.Boolean)">SetRingVisible(Boolean)</h4>
+  <a id="StormHawks_Runtime_Players_PlayerMovementStateSO_Velocity_" data-uid="StormHawks.Runtime.Players.PlayerMovementStateSO.Velocity*"></a>
+  <h4 id="StormHawks_Runtime_Players_PlayerMovementStateSO_Velocity" data-uid="StormHawks.Runtime.Players.PlayerMovementStateSO.Velocity">Velocity</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetRingVisible(bool visible)</code></pre>
+    <pre><code class="lang-csharp hljs">public Vector3 Velocity { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="StormHawks_Runtime_Players_PlayerMovementStateSO_SetPosition_" data-uid="StormHawks.Runtime.Players.PlayerMovementStateSO.SetPosition*"></a>
+  <h4 id="StormHawks_Runtime_Players_PlayerMovementStateSO_SetPosition_Vector3_" data-uid="StormHawks.Runtime.Players.PlayerMovementStateSO.SetPosition(Vector3)">SetPosition(Vector3)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetPosition(Vector3 position)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -156,8 +171,35 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td><span class="parametername">visible</span></td>
+        <td><span class="xref">Vector3</span></td>
+        <td><span class="parametername">position</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StormHawks_Runtime_Players_PlayerMovementStateSO_SetVelocity_" data-uid="StormHawks.Runtime.Players.PlayerMovementStateSO.SetVelocity*"></a>
+  <h4 id="StormHawks_Runtime_Players_PlayerMovementStateSO_SetVelocity_Vector3_" data-uid="StormHawks.Runtime.Players.PlayerMovementStateSO.SetVelocity(Vector3)">SetVelocity(Vector3)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetVelocity(Vector3 velocity)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td><span class="parametername">velocity</span></td>
         <td></td>
       </tr>
     </tbody>

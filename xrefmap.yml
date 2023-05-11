@@ -3973,6 +3973,19 @@ references:
   commentId: T:StormHawks.Runtime.Entities.Enemies.Boss.BossEntity
   fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossEntity
   nameWithType: BossEntity
+- uid: StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.AggressiveGroup
+  name: AggressiveGroup
+  href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.html#StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_AggressiveGroup
+  commentId: P:StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.AggressiveGroup
+  fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.AggressiveGroup
+  nameWithType: BossEntity.AggressiveGroup
+- uid: StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.AggressiveGroup*
+  name: AggressiveGroup
+  href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.html#StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_AggressiveGroup_
+  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.AggressiveGroup
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.AggressiveGroup
+  nameWithType: BossEntity.AggressiveGroup
 - uid: StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.Awake
   name: Awake()
   href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.html#StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_Awake
@@ -4012,32 +4025,6 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.FixedUpdate
   nameWithType: BossEntity.FixedUpdate
-- uid: StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.GetClosestEnemyGroup(Vector3)
-  name: GetClosestEnemyGroup(Vector3)
-  href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.html#StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_GetClosestEnemyGroup_Vector3_
-  commentId: M:StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.GetClosestEnemyGroup(Vector3)
-  fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.GetClosestEnemyGroup(Vector3)
-  nameWithType: BossEntity.GetClosestEnemyGroup(Vector3)
-- uid: StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.GetClosestEnemyGroup*
-  name: GetClosestEnemyGroup
-  href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.html#StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_GetClosestEnemyGroup_
-  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.GetClosestEnemyGroup
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.GetClosestEnemyGroup
-  nameWithType: BossEntity.GetClosestEnemyGroup
-- uid: StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.GetEnemyGroup(System.Int32)
-  name: GetEnemyGroup(Int32)
-  href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.html#StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_GetEnemyGroup_System_Int32_
-  commentId: M:StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.GetEnemyGroup(System.Int32)
-  fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.GetEnemyGroup(System.Int32)
-  nameWithType: BossEntity.GetEnemyGroup(Int32)
-- uid: StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.GetEnemyGroup*
-  name: GetEnemyGroup
-  href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.html#StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_GetEnemyGroup_
-  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.GetEnemyGroup
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.GetEnemyGroup
-  nameWithType: BossEntity.GetEnemyGroup
 - uid: StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.GetRandomEliteEnemyPath
   name: GetRandomEliteEnemyPath()
   href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.html#StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_GetRandomEliteEnemyPath
@@ -4051,58 +4038,32 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.GetRandomEliteEnemyPath
   nameWithType: BossEntity.GetRandomEliteEnemyPath
-- uid: StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.GetRandomEnemyGroup
-  name: GetRandomEnemyGroup()
-  href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.html#StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_GetRandomEnemyGroup
-  commentId: M:StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.GetRandomEnemyGroup
-  fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.GetRandomEnemyGroup()
-  nameWithType: BossEntity.GetRandomEnemyGroup()
-- uid: StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.GetRandomEnemyGroup*
-  name: GetRandomEnemyGroup
-  href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.html#StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_GetRandomEnemyGroup_
-  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.GetRandomEnemyGroup
+- uid: StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.GetRandomGroupPath
+  name: GetRandomGroupPath()
+  href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.html#StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_GetRandomGroupPath
+  commentId: M:StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.GetRandomGroupPath
+  fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.GetRandomGroupPath()
+  nameWithType: BossEntity.GetRandomGroupPath()
+- uid: StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.GetRandomGroupPath*
+  name: GetRandomGroupPath
+  href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.html#StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_GetRandomGroupPath_
+  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.GetRandomGroupPath
   isSpec: "True"
-  fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.GetRandomEnemyGroup
-  nameWithType: BossEntity.GetRandomEnemyGroup
-- uid: StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.IsGroupFull
-  name: IsGroupFull()
-  href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.html#StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_IsGroupFull
-  commentId: M:StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.IsGroupFull
-  fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.IsGroupFull()
-  nameWithType: BossEntity.IsGroupFull()
-- uid: StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.IsGroupFull*
-  name: IsGroupFull
-  href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.html#StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_IsGroupFull_
-  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.IsGroupFull
+  fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.GetRandomGroupPath
+  nameWithType: BossEntity.GetRandomGroupPath
+- uid: StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.ReleaseEnemyGroupFromPath(EnemyGroup)
+  name: ReleaseEnemyGroupFromPath(EnemyGroup)
+  href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.html#StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_ReleaseEnemyGroupFromPath_EnemyGroup_
+  commentId: M:StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.ReleaseEnemyGroupFromPath(EnemyGroup)
+  fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.ReleaseEnemyGroupFromPath(EnemyGroup)
+  nameWithType: BossEntity.ReleaseEnemyGroupFromPath(EnemyGroup)
+- uid: StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.ReleaseEnemyGroupFromPath*
+  name: ReleaseEnemyGroupFromPath
+  href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.html#StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_ReleaseEnemyGroupFromPath_
+  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.ReleaseEnemyGroupFromPath
   isSpec: "True"
-  fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.IsGroupFull
-  nameWithType: BossEntity.IsGroupFull
-- uid: StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.JoinEmptyGroup(IEnemyGroupMember)
-  name: JoinEmptyGroup(IEnemyGroupMember)
-  href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.html#StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_JoinEmptyGroup_IEnemyGroupMember_
-  commentId: M:StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.JoinEmptyGroup(IEnemyGroupMember)
-  fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.JoinEmptyGroup(IEnemyGroupMember)
-  nameWithType: BossEntity.JoinEmptyGroup(IEnemyGroupMember)
-- uid: StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.JoinEmptyGroup*
-  name: JoinEmptyGroup
-  href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.html#StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_JoinEmptyGroup_
-  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.JoinEmptyGroup
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.JoinEmptyGroup
-  nameWithType: BossEntity.JoinEmptyGroup
-- uid: StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.MaxElementCount
-  name: MaxElementCount
-  href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.html#StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_MaxElementCount
-  commentId: P:StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.MaxElementCount
-  fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.MaxElementCount
-  nameWithType: BossEntity.MaxElementCount
-- uid: StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.MaxElementCount*
-  name: MaxElementCount
-  href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.html#StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_MaxElementCount_
-  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.MaxElementCount
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.MaxElementCount
-  nameWithType: BossEntity.MaxElementCount
+  fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.ReleaseEnemyGroupFromPath
+  nameWithType: BossEntity.ReleaseEnemyGroupFromPath
 - uid: StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.RotateTo
   name: RotateTo()
   href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.html#StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_RotateTo
@@ -4604,6 +4565,12 @@ references:
   commentId: F:StormHawks.Runtime.Entities.Enemies.EnemyBase._bossEntityRuntimeSet
   fullName: StormHawks.Runtime.Entities.Enemies.EnemyBase._bossEntityRuntimeSet
   nameWithType: EnemyBase._bossEntityRuntimeSet
+- uid: StormHawks.Runtime.Entities.Enemies.EnemyBase._groupSet
+  name: _groupSet
+  href: api/StormHawks.Runtime.Entities.Enemies.EnemyBase.html#StormHawks_Runtime_Entities_Enemies_EnemyBase__groupSet
+  commentId: F:StormHawks.Runtime.Entities.Enemies.EnemyBase._groupSet
+  fullName: StormHawks.Runtime.Entities.Enemies.EnemyBase._groupSet
+  nameWithType: EnemyBase._groupSet
 - uid: StormHawks.Runtime.Entities.Enemies.EnemyBase.CurrentHealth
   name: CurrentHealth
   href: api/StormHawks.Runtime.Entities.Enemies.EnemyBase.html#StormHawks_Runtime_Entities_Enemies_EnemyBase_CurrentHealth
@@ -4947,19 +4914,31 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroup.IsFull
   nameWithType: EnemyGroup.IsFull
+- uid: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroup.MemberCount
+  name: MemberCount
+  href: api/StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroup.html#StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroup_MemberCount
+  commentId: P:StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroup.MemberCount
+  fullName: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroup.MemberCount
+  nameWithType: EnemyGroup.MemberCount
+- uid: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroup.MemberCount*
+  name: MemberCount
+  href: api/StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroup.html#StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroup_MemberCount_
+  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroup.MemberCount
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroup.MemberCount
+  nameWithType: EnemyGroup.MemberCount
 - uid: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroup.OnAggressive
   name: OnAggressive
   href: api/StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroup.html#StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroup_OnAggressive
-  commentId: P:StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroup.OnAggressive
+  commentId: E:StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroup.OnAggressive
   fullName: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroup.OnAggressive
   nameWithType: EnemyGroup.OnAggressive
-- uid: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroup.OnAggressive*
-  name: OnAggressive
-  href: api/StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroup.html#StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroup_OnAggressive_
-  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroup.OnAggressive
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroup.OnAggressive
-  nameWithType: EnemyGroup.OnAggressive
+- uid: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroup.OnReleaseAggro
+  name: OnReleaseAggro
+  href: api/StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroup.html#StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroup_OnReleaseAggro
+  commentId: E:StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroup.OnReleaseAggro
+  fullName: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroup.OnReleaseAggro
+  nameWithType: EnemyGroup.OnReleaseAggro
 - uid: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroup.Owner
   name: Owner
   href: api/StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroup.html#StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroup_Owner
@@ -4986,19 +4965,6 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroup.ReleaseAggro
   nameWithType: EnemyGroup.ReleaseAggro
-- uid: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroup.RemoveEnemy(StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember)
-  name: RemoveEnemy(EnemyGroupMember)
-  href: api/StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroup.html#StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroup_RemoveEnemy_StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroupMember_
-  commentId: M:StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroup.RemoveEnemy(StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember)
-  fullName: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroup.RemoveEnemy(StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember)
-  nameWithType: EnemyGroup.RemoveEnemy(EnemyGroupMember)
-- uid: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroup.RemoveEnemy*
-  name: RemoveEnemy
-  href: api/StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroup.html#StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroup_RemoveEnemy_
-  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroup.RemoveEnemy
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroup.RemoveEnemy
-  nameWithType: EnemyGroup.RemoveEnemy
 - uid: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroup.SetAggroTarget(GameObject)
   name: SetAggroTarget(GameObject)
   href: api/StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroup.html#StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroup_SetAggroTarget_GameObject_
@@ -5057,131 +5023,28 @@ references:
   commentId: T:StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController
   fullName: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController
   nameWithType: EnemyGroupController
-- uid: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.CreatedGroups(List{StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember})
-  name: CreatedGroups(List<EnemyGroupMember>)
-  href: api/StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.html#StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroupController_CreatedGroups_List_StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroupMember__
-  commentId: M:StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.CreatedGroups(List{StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember})
-  name.vb: CreatedGroups(List(Of EnemyGroupMember))
-  fullName: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.CreatedGroups(List<StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember>)
-  fullName.vb: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.CreatedGroups(List(Of StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember))
-  nameWithType: EnemyGroupController.CreatedGroups(List<EnemyGroupMember>)
-  nameWithType.vb: EnemyGroupController.CreatedGroups(List(Of EnemyGroupMember))
-- uid: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.CreatedGroups*
-  name: CreatedGroups
-  href: api/StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.html#StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroupController_CreatedGroups_
-  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.CreatedGroups
+- uid: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.OrganizeGroups(List{StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember})
+  name: OrganizeGroups(List<EnemyGroupMember>)
+  href: api/StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.html#StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroupController_OrganizeGroups_List_StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroupMember__
+  commentId: M:StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.OrganizeGroups(List{StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember})
+  name.vb: OrganizeGroups(List(Of EnemyGroupMember))
+  fullName: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.OrganizeGroups(List<StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember>)
+  fullName.vb: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.OrganizeGroups(List(Of StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember))
+  nameWithType: EnemyGroupController.OrganizeGroups(List<EnemyGroupMember>)
+  nameWithType.vb: EnemyGroupController.OrganizeGroups(List(Of EnemyGroupMember))
+- uid: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.OrganizeGroups*
+  name: OrganizeGroups
+  href: api/StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.html#StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroupController_OrganizeGroups_
+  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.OrganizeGroups
   isSpec: "True"
-  fullName: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.CreatedGroups
-  nameWithType: EnemyGroupController.CreatedGroups
-- uid: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.GetEmptyGroup
-  name: GetEmptyGroup()
-  href: api/StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.html#StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroupController_GetEmptyGroup
-  commentId: M:StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.GetEmptyGroup
-  fullName: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.GetEmptyGroup()
-  nameWithType: EnemyGroupController.GetEmptyGroup()
-- uid: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.GetEmptyGroup*
-  name: GetEmptyGroup
-  href: api/StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.html#StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroupController_GetEmptyGroup_
-  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.GetEmptyGroup
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.GetEmptyGroup
-  nameWithType: EnemyGroupController.GetEmptyGroup
-- uid: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.GetEnemyGroup(System.Int32)
-  name: GetEnemyGroup(Int32)
-  href: api/StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.html#StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroupController_GetEnemyGroup_System_Int32_
-  commentId: M:StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.GetEnemyGroup(System.Int32)
-  fullName: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.GetEnemyGroup(System.Int32)
-  nameWithType: EnemyGroupController.GetEnemyGroup(Int32)
-- uid: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.GetEnemyGroup*
-  name: GetEnemyGroup
-  href: api/StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.html#StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroupController_GetEnemyGroup_
-  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.GetEnemyGroup
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.GetEnemyGroup
-  nameWithType: EnemyGroupController.GetEnemyGroup
-- uid: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.GetEnemyGroups
-  name: GetEnemyGroups()
-  href: api/StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.html#StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroupController_GetEnemyGroups
-  commentId: M:StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.GetEnemyGroups
-  fullName: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.GetEnemyGroups()
-  nameWithType: EnemyGroupController.GetEnemyGroups()
-- uid: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.GetEnemyGroups*
-  name: GetEnemyGroups
-  href: api/StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.html#StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroupController_GetEnemyGroups_
-  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.GetEnemyGroups
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.GetEnemyGroups
-  nameWithType: EnemyGroupController.GetEnemyGroups
-- uid: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.IsGroupEmpty
-  name: IsGroupEmpty()
-  href: api/StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.html#StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroupController_IsGroupEmpty
-  commentId: M:StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.IsGroupEmpty
-  fullName: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.IsGroupEmpty()
-  nameWithType: EnemyGroupController.IsGroupEmpty()
-- uid: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.IsGroupEmpty*
-  name: IsGroupEmpty
-  href: api/StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.html#StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroupController_IsGroupEmpty_
-  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.IsGroupEmpty
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.IsGroupEmpty
-  nameWithType: EnemyGroupController.IsGroupEmpty
-- uid: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.IsGroupFull
-  name: IsGroupFull()
-  href: api/StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.html#StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroupController_IsGroupFull
-  commentId: M:StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.IsGroupFull
-  fullName: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.IsGroupFull()
-  nameWithType: EnemyGroupController.IsGroupFull()
-- uid: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.IsGroupFull*
-  name: IsGroupFull
-  href: api/StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.html#StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroupController_IsGroupFull_
-  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.IsGroupFull
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.IsGroupFull
-  nameWithType: EnemyGroupController.IsGroupFull
-- uid: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.MaxElementCount
-  name: MaxElementCount
-  href: api/StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.html#StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroupController_MaxElementCount
-  commentId: P:StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.MaxElementCount
-  fullName: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.MaxElementCount
-  nameWithType: EnemyGroupController.MaxElementCount
-- uid: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.MaxElementCount*
-  name: MaxElementCount
-  href: api/StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.html#StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroupController_MaxElementCount_
-  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.MaxElementCount
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.MaxElementCount
-  nameWithType: EnemyGroupController.MaxElementCount
-- uid: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.OnCreatedGroups
-  name: OnCreatedGroups
-  href: api/StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.html#StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroupController_OnCreatedGroups
-  commentId: F:StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.OnCreatedGroups
-  fullName: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.OnCreatedGroups
-  nameWithType: EnemyGroupController.OnCreatedGroups
+  fullName: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.OrganizeGroups
+  nameWithType: EnemyGroupController.OrganizeGroups
 - uid: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember
   name: EnemyGroupMember
   href: api/StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember.html
   commentId: T:StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember
   fullName: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember
   nameWithType: EnemyGroupMember
-- uid: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember._bossEntity
-  name: _bossEntity
-  href: api/StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember.html#StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroupMember__bossEntity
-  commentId: F:StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember._bossEntity
-  fullName: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember._bossEntity
-  nameWithType: EnemyGroupMember._bossEntity
-- uid: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember.CreateGroup
-  name: CreateGroup()
-  href: api/StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember.html#StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroupMember_CreateGroup
-  commentId: M:StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember.CreateGroup
-  fullName: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember.CreateGroup()
-  nameWithType: EnemyGroupMember.CreateGroup()
-- uid: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember.CreateGroup*
-  name: CreateGroup
-  href: api/StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember.html#StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroupMember_CreateGroup_
-  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember.CreateGroup
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember.CreateGroup
-  nameWithType: EnemyGroupMember.CreateGroup
 - uid: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember.Enemy
   name: Enemy
   href: api/StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember.html#StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroupMember_Enemy
@@ -5234,57 +5097,22 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember.Initialize
   nameWithType: EnemyGroupMember.Initialize
-- uid: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember.JoinGroup(System.Int32)
-  name: JoinGroup(Int32)
-  href: api/StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember.html#StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroupMember_JoinGroup_System_Int32_
-  commentId: M:StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember.JoinGroup(System.Int32)
-  fullName: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember.JoinGroup(System.Int32)
-  nameWithType: EnemyGroupMember.JoinGroup(Int32)
-- uid: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember.JoinGroup*
-  name: JoinGroup
-  href: api/StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember.html#StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroupMember_JoinGroup_
-  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember.JoinGroup
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember.JoinGroup
-  nameWithType: EnemyGroupMember.JoinGroup
-- uid: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember.OnJoinedGroup
+- uid: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember.OnJoinedGroup(System.Int32,Action{StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember})
+  name: OnJoinedGroup(Int32, Action<EnemyGroupMember>)
+  href: api/StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember.html#StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroupMember_OnJoinedGroup_System_Int32_Action_StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroupMember__
+  commentId: M:StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember.OnJoinedGroup(System.Int32,Action{StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember})
+  name.vb: OnJoinedGroup(Int32, Action(Of EnemyGroupMember))
+  fullName: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember.OnJoinedGroup(System.Int32, Action<StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember>)
+  fullName.vb: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember.OnJoinedGroup(System.Int32, Action(Of StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember))
+  nameWithType: EnemyGroupMember.OnJoinedGroup(Int32, Action<EnemyGroupMember>)
+  nameWithType.vb: EnemyGroupMember.OnJoinedGroup(Int32, Action(Of EnemyGroupMember))
+- uid: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember.OnJoinedGroup*
   name: OnJoinedGroup
-  href: api/StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember.html#StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroupMember_OnJoinedGroup
-  commentId: F:StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember.OnJoinedGroup
+  href: api/StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember.html#StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroupMember_OnJoinedGroup_
+  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember.OnJoinedGroup
+  isSpec: "True"
   fullName: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember.OnJoinedGroup
   nameWithType: EnemyGroupMember.OnJoinedGroup
-- uid: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember.OnStepOutOfGroup
-  name: OnStepOutOfGroup
-  href: api/StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember.html#StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroupMember_OnStepOutOfGroup
-  commentId: F:StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember.OnStepOutOfGroup
-  fullName: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember.OnStepOutOfGroup
-  nameWithType: EnemyGroupMember.OnStepOutOfGroup
-- uid: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember.ResetColor
-  name: ResetColor()
-  href: api/StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember.html#StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroupMember_ResetColor
-  commentId: M:StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember.ResetColor
-  fullName: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember.ResetColor()
-  nameWithType: EnemyGroupMember.ResetColor()
-- uid: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember.ResetColor*
-  name: ResetColor
-  href: api/StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember.html#StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroupMember_ResetColor_
-  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember.ResetColor
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember.ResetColor
-  nameWithType: EnemyGroupMember.ResetColor
-- uid: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember.SetColor(Color)
-  name: SetColor(Color)
-  href: api/StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember.html#StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroupMember_SetColor_Color_
-  commentId: M:StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember.SetColor(Color)
-  fullName: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember.SetColor(Color)
-  nameWithType: EnemyGroupMember.SetColor(Color)
-- uid: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember.SetColor*
-  name: SetColor
-  href: api/StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember.html#StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroupMember_SetColor_
-  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember.SetColor
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember.SetColor
-  nameWithType: EnemyGroupMember.SetColor
 - uid: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember.StepOutOfGroup
   name: StepOutOfGroup()
   href: api/StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember.html#StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroupMember_StepOutOfGroup
@@ -5310,6 +5138,18 @@ references:
   commentId: F:StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupRequester._bossEntity
   fullName: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupRequester._bossEntity
   nameWithType: EnemyGroupRequester._bossEntity
+- uid: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupRequester._bossEntityRuntimeSet
+  name: _bossEntityRuntimeSet
+  href: api/StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupRequester.html#StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroupRequester__bossEntityRuntimeSet
+  commentId: F:StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupRequester._bossEntityRuntimeSet
+  fullName: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupRequester._bossEntityRuntimeSet
+  nameWithType: EnemyGroupRequester._bossEntityRuntimeSet
+- uid: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupRequester._groupSet
+  name: _groupSet
+  href: api/StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupRequester.html#StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroupRequester__groupSet
+  commentId: F:StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupRequester._groupSet
+  fullName: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupRequester._groupSet
+  nameWithType: EnemyGroupRequester._groupSet
 - uid: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupRequester.RequestedGroup
   name: RequestedGroup
   href: api/StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupRequester.html#StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroupRequester_RequestedGroup
@@ -6603,12 +6443,12 @@ references:
   commentId: T:StormHawks.Runtime.Entities.SteeringEntities.Forces.AlignForce
   fullName: StormHawks.Runtime.Entities.SteeringEntities.Forces.AlignForce
   nameWithType: AlignForce
-- uid: StormHawks.Runtime.Entities.SteeringEntities.Forces.AlignForce.#ctor(ISteerEntity,Transform,BossEntity,IEnemyGroupMember)
-  name: AlignForce(ISteerEntity, Transform, BossEntity, IEnemyGroupMember)
-  href: api/StormHawks.Runtime.Entities.SteeringEntities.Forces.AlignForce.html#StormHawks_Runtime_Entities_SteeringEntities_Forces_AlignForce__ctor_ISteerEntity_Transform_BossEntity_IEnemyGroupMember_
-  commentId: M:StormHawks.Runtime.Entities.SteeringEntities.Forces.AlignForce.#ctor(ISteerEntity,Transform,BossEntity,IEnemyGroupMember)
-  fullName: StormHawks.Runtime.Entities.SteeringEntities.Forces.AlignForce.AlignForce(ISteerEntity, Transform, BossEntity, IEnemyGroupMember)
-  nameWithType: AlignForce.AlignForce(ISteerEntity, Transform, BossEntity, IEnemyGroupMember)
+- uid: StormHawks.Runtime.Entities.SteeringEntities.Forces.AlignForce.#ctor(ISteerEntity,Transform,EnemyGroupSet,IEnemyGroupMember)
+  name: AlignForce(ISteerEntity, Transform, EnemyGroupSet, IEnemyGroupMember)
+  href: api/StormHawks.Runtime.Entities.SteeringEntities.Forces.AlignForce.html#StormHawks_Runtime_Entities_SteeringEntities_Forces_AlignForce__ctor_ISteerEntity_Transform_EnemyGroupSet_IEnemyGroupMember_
+  commentId: M:StormHawks.Runtime.Entities.SteeringEntities.Forces.AlignForce.#ctor(ISteerEntity,Transform,EnemyGroupSet,IEnemyGroupMember)
+  fullName: StormHawks.Runtime.Entities.SteeringEntities.Forces.AlignForce.AlignForce(ISteerEntity, Transform, EnemyGroupSet, IEnemyGroupMember)
+  nameWithType: AlignForce.AlignForce(ISteerEntity, Transform, EnemyGroupSet, IEnemyGroupMember)
 - uid: StormHawks.Runtime.Entities.SteeringEntities.Forces.AlignForce.#ctor*
   name: AlignForce
   href: api/StormHawks.Runtime.Entities.SteeringEntities.Forces.AlignForce.html#StormHawks_Runtime_Entities_SteeringEntities_Forces_AlignForce__ctor_
@@ -6816,12 +6656,12 @@ references:
   commentId: T:StormHawks.Runtime.Entities.SteeringEntities.Forces.CohesionForce
   fullName: StormHawks.Runtime.Entities.SteeringEntities.Forces.CohesionForce
   nameWithType: CohesionForce
-- uid: StormHawks.Runtime.Entities.SteeringEntities.Forces.CohesionForce.#ctor(ISteerEntity,Transform,BossEntity,IEnemyGroupMember,IAggressive)
-  name: CohesionForce(ISteerEntity, Transform, BossEntity, IEnemyGroupMember, IAggressive)
-  href: api/StormHawks.Runtime.Entities.SteeringEntities.Forces.CohesionForce.html#StormHawks_Runtime_Entities_SteeringEntities_Forces_CohesionForce__ctor_ISteerEntity_Transform_BossEntity_IEnemyGroupMember_IAggressive_
-  commentId: M:StormHawks.Runtime.Entities.SteeringEntities.Forces.CohesionForce.#ctor(ISteerEntity,Transform,BossEntity,IEnemyGroupMember,IAggressive)
-  fullName: StormHawks.Runtime.Entities.SteeringEntities.Forces.CohesionForce.CohesionForce(ISteerEntity, Transform, BossEntity, IEnemyGroupMember, IAggressive)
-  nameWithType: CohesionForce.CohesionForce(ISteerEntity, Transform, BossEntity, IEnemyGroupMember, IAggressive)
+- uid: StormHawks.Runtime.Entities.SteeringEntities.Forces.CohesionForce.#ctor(ISteerEntity,Transform,EnemyGroupSet,IEnemyGroupMember,IAggressive)
+  name: CohesionForce(ISteerEntity, Transform, EnemyGroupSet, IEnemyGroupMember, IAggressive)
+  href: api/StormHawks.Runtime.Entities.SteeringEntities.Forces.CohesionForce.html#StormHawks_Runtime_Entities_SteeringEntities_Forces_CohesionForce__ctor_ISteerEntity_Transform_EnemyGroupSet_IEnemyGroupMember_IAggressive_
+  commentId: M:StormHawks.Runtime.Entities.SteeringEntities.Forces.CohesionForce.#ctor(ISteerEntity,Transform,EnemyGroupSet,IEnemyGroupMember,IAggressive)
+  fullName: StormHawks.Runtime.Entities.SteeringEntities.Forces.CohesionForce.CohesionForce(ISteerEntity, Transform, EnemyGroupSet, IEnemyGroupMember, IAggressive)
+  nameWithType: CohesionForce.CohesionForce(ISteerEntity, Transform, EnemyGroupSet, IEnemyGroupMember, IAggressive)
 - uid: StormHawks.Runtime.Entities.SteeringEntities.Forces.CohesionForce.#ctor*
   name: CohesionForce
   href: api/StormHawks.Runtime.Entities.SteeringEntities.Forces.CohesionForce.html#StormHawks_Runtime_Entities_SteeringEntities_Forces_CohesionForce__ctor_
@@ -7029,12 +6869,12 @@ references:
   commentId: T:StormHawks.Runtime.Entities.SteeringEntities.Forces.SeparationForce
   fullName: StormHawks.Runtime.Entities.SteeringEntities.Forces.SeparationForce
   nameWithType: SeparationForce
-- uid: StormHawks.Runtime.Entities.SteeringEntities.Forces.SeparationForce.#ctor(ISteerEntity,Transform,BossEntity,IEnemyGroupMember)
-  name: SeparationForce(ISteerEntity, Transform, BossEntity, IEnemyGroupMember)
-  href: api/StormHawks.Runtime.Entities.SteeringEntities.Forces.SeparationForce.html#StormHawks_Runtime_Entities_SteeringEntities_Forces_SeparationForce__ctor_ISteerEntity_Transform_BossEntity_IEnemyGroupMember_
-  commentId: M:StormHawks.Runtime.Entities.SteeringEntities.Forces.SeparationForce.#ctor(ISteerEntity,Transform,BossEntity,IEnemyGroupMember)
-  fullName: StormHawks.Runtime.Entities.SteeringEntities.Forces.SeparationForce.SeparationForce(ISteerEntity, Transform, BossEntity, IEnemyGroupMember)
-  nameWithType: SeparationForce.SeparationForce(ISteerEntity, Transform, BossEntity, IEnemyGroupMember)
+- uid: StormHawks.Runtime.Entities.SteeringEntities.Forces.SeparationForce.#ctor(ISteerEntity,Transform,EnemyGroupSet,IEnemyGroupMember)
+  name: SeparationForce(ISteerEntity, Transform, EnemyGroupSet, IEnemyGroupMember)
+  href: api/StormHawks.Runtime.Entities.SteeringEntities.Forces.SeparationForce.html#StormHawks_Runtime_Entities_SteeringEntities_Forces_SeparationForce__ctor_ISteerEntity_Transform_EnemyGroupSet_IEnemyGroupMember_
+  commentId: M:StormHawks.Runtime.Entities.SteeringEntities.Forces.SeparationForce.#ctor(ISteerEntity,Transform,EnemyGroupSet,IEnemyGroupMember)
+  fullName: StormHawks.Runtime.Entities.SteeringEntities.Forces.SeparationForce.SeparationForce(ISteerEntity, Transform, EnemyGroupSet, IEnemyGroupMember)
+  nameWithType: SeparationForce.SeparationForce(ISteerEntity, Transform, EnemyGroupSet, IEnemyGroupMember)
 - uid: StormHawks.Runtime.Entities.SteeringEntities.Forces.SeparationForce.#ctor*
   name: SeparationForce
   href: api/StormHawks.Runtime.Entities.SteeringEntities.Forces.SeparationForce.html#StormHawks_Runtime_Entities_SteeringEntities_Forces_SeparationForce__ctor_
@@ -8268,6 +8108,19 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Environments.EnemyGroupPath.RegisterEnemyGroup
   nameWithType: EnemyGroupPath.RegisterEnemyGroup
+- uid: StormHawks.Runtime.Environments.EnemyGroupPath.ReleaseEnemyGroup(EnemyGroup)
+  name: ReleaseEnemyGroup(EnemyGroup)
+  href: api/StormHawks.Runtime.Environments.EnemyGroupPath.html#StormHawks_Runtime_Environments_EnemyGroupPath_ReleaseEnemyGroup_EnemyGroup_
+  commentId: M:StormHawks.Runtime.Environments.EnemyGroupPath.ReleaseEnemyGroup(EnemyGroup)
+  fullName: StormHawks.Runtime.Environments.EnemyGroupPath.ReleaseEnemyGroup(EnemyGroup)
+  nameWithType: EnemyGroupPath.ReleaseEnemyGroup(EnemyGroup)
+- uid: StormHawks.Runtime.Environments.EnemyGroupPath.ReleaseEnemyGroup*
+  name: ReleaseEnemyGroup
+  href: api/StormHawks.Runtime.Environments.EnemyGroupPath.html#StormHawks_Runtime_Environments_EnemyGroupPath_ReleaseEnemyGroup_
+  commentId: Overload:StormHawks.Runtime.Environments.EnemyGroupPath.ReleaseEnemyGroup
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Environments.EnemyGroupPath.ReleaseEnemyGroup
+  nameWithType: EnemyGroupPath.ReleaseEnemyGroup
 - uid: StormHawks.Runtime.Inputs.Players
   name: StormHawks.Runtime.Inputs.Players
   href: api/StormHawks.Runtime.Inputs.Players.html
@@ -10075,19 +9928,22 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Interfaces.IEnemyGroupMember.InGroup
   nameWithType: IEnemyGroupMember.InGroup
-- uid: StormHawks.Runtime.Interfaces.IEnemyGroupMember.JoinGroup(System.Int32)
-  name: JoinGroup(Int32)
-  href: api/StormHawks.Runtime.Interfaces.IEnemyGroupMember.html#StormHawks_Runtime_Interfaces_IEnemyGroupMember_JoinGroup_System_Int32_
-  commentId: M:StormHawks.Runtime.Interfaces.IEnemyGroupMember.JoinGroup(System.Int32)
-  fullName: StormHawks.Runtime.Interfaces.IEnemyGroupMember.JoinGroup(System.Int32)
-  nameWithType: IEnemyGroupMember.JoinGroup(Int32)
-- uid: StormHawks.Runtime.Interfaces.IEnemyGroupMember.JoinGroup*
-  name: JoinGroup
-  href: api/StormHawks.Runtime.Interfaces.IEnemyGroupMember.html#StormHawks_Runtime_Interfaces_IEnemyGroupMember_JoinGroup_
-  commentId: Overload:StormHawks.Runtime.Interfaces.IEnemyGroupMember.JoinGroup
+- uid: StormHawks.Runtime.Interfaces.IEnemyGroupMember.OnJoinedGroup(System.Int32,Action{EnemyGroupMember})
+  name: OnJoinedGroup(Int32, Action<EnemyGroupMember>)
+  href: api/StormHawks.Runtime.Interfaces.IEnemyGroupMember.html#StormHawks_Runtime_Interfaces_IEnemyGroupMember_OnJoinedGroup_System_Int32_Action_EnemyGroupMember__
+  commentId: M:StormHawks.Runtime.Interfaces.IEnemyGroupMember.OnJoinedGroup(System.Int32,Action{EnemyGroupMember})
+  name.vb: OnJoinedGroup(Int32, Action(Of EnemyGroupMember))
+  fullName: StormHawks.Runtime.Interfaces.IEnemyGroupMember.OnJoinedGroup(System.Int32, Action<EnemyGroupMember>)
+  fullName.vb: StormHawks.Runtime.Interfaces.IEnemyGroupMember.OnJoinedGroup(System.Int32, Action(Of EnemyGroupMember))
+  nameWithType: IEnemyGroupMember.OnJoinedGroup(Int32, Action<EnemyGroupMember>)
+  nameWithType.vb: IEnemyGroupMember.OnJoinedGroup(Int32, Action(Of EnemyGroupMember))
+- uid: StormHawks.Runtime.Interfaces.IEnemyGroupMember.OnJoinedGroup*
+  name: OnJoinedGroup
+  href: api/StormHawks.Runtime.Interfaces.IEnemyGroupMember.html#StormHawks_Runtime_Interfaces_IEnemyGroupMember_OnJoinedGroup_
+  commentId: Overload:StormHawks.Runtime.Interfaces.IEnemyGroupMember.OnJoinedGroup
   isSpec: "True"
-  fullName: StormHawks.Runtime.Interfaces.IEnemyGroupMember.JoinGroup
-  nameWithType: IEnemyGroupMember.JoinGroup
+  fullName: StormHawks.Runtime.Interfaces.IEnemyGroupMember.OnJoinedGroup
+  nameWithType: IEnemyGroupMember.OnJoinedGroup
 - uid: StormHawks.Runtime.Interfaces.IEnemyGroupMember.StepOutOfGroup
   name: StepOutOfGroup()
   href: api/StormHawks.Runtime.Interfaces.IEnemyGroupMember.html#StormHawks_Runtime_Interfaces_IEnemyGroupMember_StepOutOfGroup
@@ -11743,6 +11599,12 @@ references:
   commentId: T:StormHawks.Runtime.Utilities.BehaviorTree.BossEntityKey
   fullName: StormHawks.Runtime.Utilities.BehaviorTree.BossEntityKey
   nameWithType: BossEntityKey
+- uid: StormHawks.Runtime.Utilities.BehaviorTree.EnemyGroupControllerKey
+  name: EnemyGroupControllerKey
+  href: api/StormHawks.Runtime.Utilities.BehaviorTree.EnemyGroupControllerKey.html
+  commentId: T:StormHawks.Runtime.Utilities.BehaviorTree.EnemyGroupControllerKey
+  fullName: StormHawks.Runtime.Utilities.BehaviorTree.EnemyGroupControllerKey
+  nameWithType: EnemyGroupControllerKey
 - uid: StormHawks.Runtime.Utilities.BehaviorTree.EnemyGroupKey
   name: EnemyGroupKey
   href: api/StormHawks.Runtime.Utilities.BehaviorTree.EnemyGroupKey.html
@@ -11844,6 +11706,38 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.AvoidObstacleAction.OnRun
   nameWithType: AvoidObstacleAction.OnRun
+- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EnemyGroupInterfereWithPlayer
+  name: EnemyGroupInterfereWithPlayer
+  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EnemyGroupInterfereWithPlayer.html
+  commentId: T:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EnemyGroupInterfereWithPlayer
+  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EnemyGroupInterfereWithPlayer
+  nameWithType: EnemyGroupInterfereWithPlayer
+- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EnemyGroupInterfereWithPlayer.OnEnter
+  name: OnEnter()
+  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EnemyGroupInterfereWithPlayer.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_EnemyGroupInterfereWithPlayer_OnEnter
+  commentId: M:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EnemyGroupInterfereWithPlayer.OnEnter
+  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EnemyGroupInterfereWithPlayer.OnEnter()
+  nameWithType: EnemyGroupInterfereWithPlayer.OnEnter()
+- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EnemyGroupInterfereWithPlayer.OnEnter*
+  name: OnEnter
+  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EnemyGroupInterfereWithPlayer.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_EnemyGroupInterfereWithPlayer_OnEnter_
+  commentId: Overload:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EnemyGroupInterfereWithPlayer.OnEnter
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EnemyGroupInterfereWithPlayer.OnEnter
+  nameWithType: EnemyGroupInterfereWithPlayer.OnEnter
+- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EnemyGroupInterfereWithPlayer.OnRun
+  name: OnRun()
+  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EnemyGroupInterfereWithPlayer.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_EnemyGroupInterfereWithPlayer_OnRun
+  commentId: M:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EnemyGroupInterfereWithPlayer.OnRun
+  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EnemyGroupInterfereWithPlayer.OnRun()
+  nameWithType: EnemyGroupInterfereWithPlayer.OnRun()
+- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EnemyGroupInterfereWithPlayer.OnRun*
+  name: OnRun
+  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EnemyGroupInterfereWithPlayer.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_EnemyGroupInterfereWithPlayer_OnRun_
+  commentId: Overload:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EnemyGroupInterfereWithPlayer.OnRun
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EnemyGroupInterfereWithPlayer.OnRun
+  nameWithType: EnemyGroupInterfereWithPlayer.OnRun
 - uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EntityActionNode
   name: EntityActionNode
   href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EntityActionNode.html
@@ -12676,6 +12570,25 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SeekAction.OnRun
   nameWithType: SeekAction.OnRun
+- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SelectEnemyGroupBy
+  name: SelectEnemyGroupBy
+  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SelectEnemyGroupBy.html
+  commentId: T:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SelectEnemyGroupBy
+  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SelectEnemyGroupBy
+  nameWithType: SelectEnemyGroupBy
+- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SelectEnemyGroupBy.OnRun
+  name: OnRun()
+  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SelectEnemyGroupBy.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_SelectEnemyGroupBy_OnRun
+  commentId: M:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SelectEnemyGroupBy.OnRun
+  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SelectEnemyGroupBy.OnRun()
+  nameWithType: SelectEnemyGroupBy.OnRun()
+- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SelectEnemyGroupBy.OnRun*
+  name: OnRun
+  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SelectEnemyGroupBy.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_SelectEnemyGroupBy_OnRun_
+  commentId: Overload:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SelectEnemyGroupBy.OnRun
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SelectEnemyGroupBy.OnRun
+  nameWithType: SelectEnemyGroupBy.OnRun
 - uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SetAggroTarget
   name: SetAggroTarget
   href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SetAggroTarget.html
@@ -12841,6 +12754,25 @@ references:
   commentId: N:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals
   fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals
   nameWithType: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals
+- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.CanBecomeAggressiveEnemyGroup
+  name: CanBecomeAggressiveEnemyGroup
+  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.CanBecomeAggressiveEnemyGroup.html
+  commentId: T:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.CanBecomeAggressiveEnemyGroup
+  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.CanBecomeAggressiveEnemyGroup
+  nameWithType: CanBecomeAggressiveEnemyGroup
+- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.CanBecomeAggressiveEnemyGroup.Condition
+  name: Condition()
+  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.CanBecomeAggressiveEnemyGroup.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Conditionals_CanBecomeAggressiveEnemyGroup_Condition
+  commentId: M:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.CanBecomeAggressiveEnemyGroup.Condition
+  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.CanBecomeAggressiveEnemyGroup.Condition()
+  nameWithType: CanBecomeAggressiveEnemyGroup.Condition()
+- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.CanBecomeAggressiveEnemyGroup.Condition*
+  name: Condition
+  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.CanBecomeAggressiveEnemyGroup.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Conditionals_CanBecomeAggressiveEnemyGroup_Condition_
+  commentId: Overload:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.CanBecomeAggressiveEnemyGroup.Condition
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.CanBecomeAggressiveEnemyGroup.Condition
+  nameWithType: CanBecomeAggressiveEnemyGroup.Condition
 - uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.CanSeeEnemy
   name: CanSeeEnemy
   href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.CanSeeEnemy.html
@@ -13070,19 +13002,6 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.HasActiveEnemyGroup.Condition
   nameWithType: HasActiveEnemyGroup.Condition
-- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.HasActiveEnemyGroup.OnEnter
-  name: OnEnter()
-  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.HasActiveEnemyGroup.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Conditionals_HasActiveEnemyGroup_OnEnter
-  commentId: M:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.HasActiveEnemyGroup.OnEnter
-  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.HasActiveEnemyGroup.OnEnter()
-  nameWithType: HasActiveEnemyGroup.OnEnter()
-- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.HasActiveEnemyGroup.OnEnter*
-  name: OnEnter
-  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.HasActiveEnemyGroup.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Conditionals_HasActiveEnemyGroup_OnEnter_
-  commentId: Overload:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.HasActiveEnemyGroup.OnEnter
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.HasActiveEnemyGroup.OnEnter
-  nameWithType: HasActiveEnemyGroup.OnEnter
 - uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.HasAggroTargetGroup
   name: HasAggroTargetGroup
   href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.HasAggroTargetGroup.html
@@ -13102,6 +13021,25 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.HasAggroTargetGroup.Condition
   nameWithType: HasAggroTargetGroup.Condition
+- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.HasSelectedEnemyGroup
+  name: HasSelectedEnemyGroup
+  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.HasSelectedEnemyGroup.html
+  commentId: T:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.HasSelectedEnemyGroup
+  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.HasSelectedEnemyGroup
+  nameWithType: HasSelectedEnemyGroup
+- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.HasSelectedEnemyGroup.Condition
+  name: Condition()
+  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.HasSelectedEnemyGroup.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Conditionals_HasSelectedEnemyGroup_Condition
+  commentId: M:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.HasSelectedEnemyGroup.Condition
+  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.HasSelectedEnemyGroup.Condition()
+  nameWithType: HasSelectedEnemyGroup.Condition()
+- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.HasSelectedEnemyGroup.Condition*
+  name: Condition
+  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.HasSelectedEnemyGroup.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Conditionals_HasSelectedEnemyGroup_Condition_
+  commentId: Overload:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.HasSelectedEnemyGroup.Condition
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.HasSelectedEnemyGroup.Condition
+  nameWithType: HasSelectedEnemyGroup.Condition
 - uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsAggressive
   name: IsAggressive
   href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsAggressive.html
@@ -13134,6 +13072,25 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsAggressive.OnEnter
   nameWithType: IsAggressive.OnEnter
+- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsAggressiveEnemyGroup
+  name: IsAggressiveEnemyGroup
+  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsAggressiveEnemyGroup.html
+  commentId: T:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsAggressiveEnemyGroup
+  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsAggressiveEnemyGroup
+  nameWithType: IsAggressiveEnemyGroup
+- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsAggressiveEnemyGroup.Condition
+  name: Condition()
+  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsAggressiveEnemyGroup.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Conditionals_IsAggressiveEnemyGroup_Condition
+  commentId: M:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsAggressiveEnemyGroup.Condition
+  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsAggressiveEnemyGroup.Condition()
+  nameWithType: IsAggressiveEnemyGroup.Condition()
+- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsAggressiveEnemyGroup.Condition*
+  name: Condition
+  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsAggressiveEnemyGroup.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Conditionals_IsAggressiveEnemyGroup_Condition_
+  commentId: Overload:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsAggressiveEnemyGroup.Condition
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsAggressiveEnemyGroup.Condition
+  nameWithType: IsAggressiveEnemyGroup.Condition
 - uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsFiring
   name: IsFiring
   href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsFiring.html
@@ -13287,6 +13244,25 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsNotAggressive.OnEnter
   nameWithType: IsNotAggressive.OnEnter
+- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsOverTime
+  name: IsOverTime
+  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsOverTime.html
+  commentId: T:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsOverTime
+  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsOverTime
+  nameWithType: IsOverTime
+- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsOverTime.Condition
+  name: Condition()
+  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsOverTime.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Conditionals_IsOverTime_Condition
+  commentId: M:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsOverTime.Condition
+  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsOverTime.Condition()
+  nameWithType: IsOverTime.Condition()
+- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsOverTime.Condition*
+  name: Condition
+  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsOverTime.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Conditionals_IsOverTime_Condition_
+  commentId: Overload:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsOverTime.Condition
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsOverTime.Condition
+  nameWithType: IsOverTime.Condition
 - uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Decorators
   name: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Decorators
   href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Decorators.html
@@ -13721,12 +13697,102 @@ references:
   commentId: T:StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupMemberSet
   fullName: StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupMemberSet
   nameWithType: EnemyGroupMemberSet
-- uid: StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupMemberSet.OnCreatedGroups
-  name: OnCreatedGroups
-  href: api/StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupMemberSet.html#StormHawks_Runtime_Utilities_RuntimeSet_EnemyGroupMemberSet_OnCreatedGroups
-  commentId: F:StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupMemberSet.OnCreatedGroups
-  fullName: StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupMemberSet.OnCreatedGroups
-  nameWithType: EnemyGroupMemberSet.OnCreatedGroups
+- uid: StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupSet
+  name: EnemyGroupSet
+  href: api/StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupSet.html
+  commentId: T:StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupSet
+  fullName: StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupSet
+  nameWithType: EnemyGroupSet
+- uid: StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupSet.Add(EnemyGroup)
+  name: Add(EnemyGroup)
+  href: api/StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupSet.html#StormHawks_Runtime_Utilities_RuntimeSet_EnemyGroupSet_Add_EnemyGroup_
+  commentId: M:StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupSet.Add(EnemyGroup)
+  fullName: StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupSet.Add(EnemyGroup)
+  nameWithType: EnemyGroupSet.Add(EnemyGroup)
+- uid: StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupSet.Add*
+  name: Add
+  href: api/StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupSet.html#StormHawks_Runtime_Utilities_RuntimeSet_EnemyGroupSet_Add_
+  commentId: Overload:StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupSet.Add
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupSet.Add
+  nameWithType: EnemyGroupSet.Add
+- uid: StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupSet.GetClosestEnemyGroup(Vector3,EnemyBase)
+  name: GetClosestEnemyGroup(Vector3, EnemyBase)
+  href: api/StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupSet.html#StormHawks_Runtime_Utilities_RuntimeSet_EnemyGroupSet_GetClosestEnemyGroup_Vector3_EnemyBase_
+  commentId: M:StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupSet.GetClosestEnemyGroup(Vector3,EnemyBase)
+  fullName: StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupSet.GetClosestEnemyGroup(Vector3, EnemyBase)
+  nameWithType: EnemyGroupSet.GetClosestEnemyGroup(Vector3, EnemyBase)
+- uid: StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupSet.GetClosestEnemyGroup*
+  name: GetClosestEnemyGroup
+  href: api/StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupSet.html#StormHawks_Runtime_Utilities_RuntimeSet_EnemyGroupSet_GetClosestEnemyGroup_
+  commentId: Overload:StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupSet.GetClosestEnemyGroup
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupSet.GetClosestEnemyGroup
+  nameWithType: EnemyGroupSet.GetClosestEnemyGroup
+- uid: StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupSet.GetEmptyGroup
+  name: GetEmptyGroup()
+  href: api/StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupSet.html#StormHawks_Runtime_Utilities_RuntimeSet_EnemyGroupSet_GetEmptyGroup
+  commentId: M:StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupSet.GetEmptyGroup
+  fullName: StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupSet.GetEmptyGroup()
+  nameWithType: EnemyGroupSet.GetEmptyGroup()
+- uid: StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupSet.GetEmptyGroup*
+  name: GetEmptyGroup
+  href: api/StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupSet.html#StormHawks_Runtime_Utilities_RuntimeSet_EnemyGroupSet_GetEmptyGroup_
+  commentId: Overload:StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupSet.GetEmptyGroup
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupSet.GetEmptyGroup
+  nameWithType: EnemyGroupSet.GetEmptyGroup
+- uid: StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupSet.GetEnemyGroup(System.Int32)
+  name: GetEnemyGroup(Int32)
+  href: api/StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupSet.html#StormHawks_Runtime_Utilities_RuntimeSet_EnemyGroupSet_GetEnemyGroup_System_Int32_
+  commentId: M:StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupSet.GetEnemyGroup(System.Int32)
+  fullName: StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupSet.GetEnemyGroup(System.Int32)
+  nameWithType: EnemyGroupSet.GetEnemyGroup(Int32)
+- uid: StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupSet.GetEnemyGroup*
+  name: GetEnemyGroup
+  href: api/StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupSet.html#StormHawks_Runtime_Utilities_RuntimeSet_EnemyGroupSet_GetEnemyGroup_
+  commentId: Overload:StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupSet.GetEnemyGroup
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupSet.GetEnemyGroup
+  nameWithType: EnemyGroupSet.GetEnemyGroup
+- uid: StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupSet.GetRandomEnemyGroup
+  name: GetRandomEnemyGroup()
+  href: api/StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupSet.html#StormHawks_Runtime_Utilities_RuntimeSet_EnemyGroupSet_GetRandomEnemyGroup
+  commentId: M:StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupSet.GetRandomEnemyGroup
+  fullName: StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupSet.GetRandomEnemyGroup()
+  nameWithType: EnemyGroupSet.GetRandomEnemyGroup()
+- uid: StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupSet.GetRandomEnemyGroup*
+  name: GetRandomEnemyGroup
+  href: api/StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupSet.html#StormHawks_Runtime_Utilities_RuntimeSet_EnemyGroupSet_GetRandomEnemyGroup_
+  commentId: Overload:StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupSet.GetRandomEnemyGroup
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupSet.GetRandomEnemyGroup
+  nameWithType: EnemyGroupSet.GetRandomEnemyGroup
+- uid: StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupSet.MaxCount
+  name: MaxCount
+  href: api/StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupSet.html#StormHawks_Runtime_Utilities_RuntimeSet_EnemyGroupSet_MaxCount
+  commentId: F:StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupSet.MaxCount
+  fullName: StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupSet.MaxCount
+  nameWithType: EnemyGroupSet.MaxCount
+- uid: StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupSet.MaxElementCount
+  name: MaxElementCount
+  href: api/StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupSet.html#StormHawks_Runtime_Utilities_RuntimeSet_EnemyGroupSet_MaxElementCount
+  commentId: F:StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupSet.MaxElementCount
+  fullName: StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupSet.MaxElementCount
+  nameWithType: EnemyGroupSet.MaxElementCount
+- uid: StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupSet.OnOrganized
+  name: OnOrganized
+  href: api/StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupSet.html#StormHawks_Runtime_Utilities_RuntimeSet_EnemyGroupSet_OnOrganized
+  commentId: P:StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupSet.OnOrganized
+  fullName: StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupSet.OnOrganized
+  nameWithType: EnemyGroupSet.OnOrganized
+- uid: StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupSet.OnOrganized*
+  name: OnOrganized
+  href: api/StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupSet.html#StormHawks_Runtime_Utilities_RuntimeSet_EnemyGroupSet_OnOrganized_
+  commentId: Overload:StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupSet.OnOrganized
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupSet.OnOrganized
+  nameWithType: EnemyGroupSet.OnOrganized
 - uid: StormHawks.Runtime.Utilities.TweenUtility
   name: TweenUtility
   href: api/StormHawks.Runtime.Utilities.TweenUtility.html

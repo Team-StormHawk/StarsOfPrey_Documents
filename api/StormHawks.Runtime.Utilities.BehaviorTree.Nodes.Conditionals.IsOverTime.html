@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Interface IEnemyGroupMember
+    <title>Class IsOverTime
    | Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Interface IEnemyGroupMember
+    <meta name="title" content="Class IsOverTime
    | Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -78,57 +78,38 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Interfaces.IEnemyGroupMember">
+            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsOverTime">
   
   
-  <h1 id="StormHawks_Runtime_Interfaces_IEnemyGroupMember" data-uid="StormHawks.Runtime.Interfaces.IEnemyGroupMember" class="text-break">Interface IEnemyGroupMember
+  <h1 id="StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Conditionals_IsOverTime" data-uid="StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsOverTime" class="text-break">Class IsOverTime
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Interfaces.html">StormHawks.Runtime.Interfaces</a></h6>
-  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="StormHawks_Runtime_Interfaces_IEnemyGroupMember_syntax">Syntax</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface IEnemyGroupMember</code></pre>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">IsOverTime</span></div>
   </div>
-  <h3 id="properties">Properties
+  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.html">StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Conditionals_IsOverTime_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Serializable]
+public class IsOverTime : ConditionalNode</code></pre>
+  </div>
+  <h3 id="methods">Methods
   </h3>
   
   
-  <a id="StormHawks_Runtime_Interfaces_IEnemyGroupMember_GroupIndex_" data-uid="StormHawks.Runtime.Interfaces.IEnemyGroupMember.GroupIndex*"></a>
-  <h4 id="StormHawks_Runtime_Interfaces_IEnemyGroupMember_GroupIndex" data-uid="StormHawks.Runtime.Interfaces.IEnemyGroupMember.GroupIndex">GroupIndex</h4>
+  <a id="StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Conditionals_IsOverTime_Condition_" data-uid="StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsOverTime.Condition*"></a>
+  <h4 id="StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Conditionals_IsOverTime_Condition" data-uid="StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsOverTime.Condition">Condition()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int GroupIndex { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">protected override bool Condition()</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="StormHawks_Runtime_Interfaces_IEnemyGroupMember_InGroup_" data-uid="StormHawks.Runtime.Interfaces.IEnemyGroupMember.InGroup*"></a>
-  <h4 id="StormHawks_Runtime_Interfaces_IEnemyGroupMember_InGroup" data-uid="StormHawks.Runtime.Interfaces.IEnemyGroupMember.InGroup">InGroup</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">bool InGroup { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -143,50 +124,6 @@
       </tr>
     </tbody>
   </table>
-  <h3 id="methods">Methods
-  </h3>
-  
-  
-  <a id="StormHawks_Runtime_Interfaces_IEnemyGroupMember_OnJoinedGroup_" data-uid="StormHawks.Runtime.Interfaces.IEnemyGroupMember.OnJoinedGroup*"></a>
-  <h4 id="StormHawks_Runtime_Interfaces_IEnemyGroupMember_OnJoinedGroup_System_Int32_Action_EnemyGroupMember__" data-uid="StormHawks.Runtime.Interfaces.IEnemyGroupMember.OnJoinedGroup(System.Int32,Action{EnemyGroupMember})">OnJoinedGroup(Int32, Action&lt;EnemyGroupMember&gt;)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void OnJoinedGroup(int groupIndex, Action&lt;EnemyGroupMember&gt; onStepOutOfGroup)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">groupIndex</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">Action</span>&lt;<span class="xref">EnemyGroupMember</span>&gt;</td>
-        <td><span class="parametername">onStepOutOfGroup</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="StormHawks_Runtime_Interfaces_IEnemyGroupMember_StepOutOfGroup_" data-uid="StormHawks.Runtime.Interfaces.IEnemyGroupMember.StepOutOfGroup*"></a>
-  <h4 id="StormHawks_Runtime_Interfaces_IEnemyGroupMember_StepOutOfGroup" data-uid="StormHawks.Runtime.Interfaces.IEnemyGroupMember.StepOutOfGroup">StepOutOfGroup()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void StepOutOfGroup()</code></pre>
-  </div>
 </article>
           </div>
           

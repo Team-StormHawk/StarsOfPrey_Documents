@@ -185,13 +185,13 @@
   </table>
   
   
-  <a id="StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroup_OnAggressive_" data-uid="StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroup.OnAggressive*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroup_OnAggressive" data-uid="StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroup.OnAggressive">OnAggressive</h4>
+  <a id="StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroup_MemberCount_" data-uid="StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroup.MemberCount*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroup_MemberCount" data-uid="StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroup.MemberCount">MemberCount</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Action&lt;EnemyGroup&gt; OnAggressive { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public int MemberCount { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -203,7 +203,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Action</span>&lt;<a class="xref" href="StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroup.html">EnemyGroup</a>&gt;</td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -508,33 +508,6 @@
   </div>
   
   
-  <a id="StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroup_RemoveEnemy_" data-uid="StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroup.RemoveEnemy*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroup_RemoveEnemy_StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroupMember_" data-uid="StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroup.RemoveEnemy(StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember)">RemoveEnemy(EnemyGroupMember)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void RemoveEnemy(EnemyGroupMember enemy)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember.html">EnemyGroupMember</a></td>
-        <td><span class="parametername">enemy</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
   <a id="StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroup_SetAggroTarget_" data-uid="StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroup.SetAggroTarget*"></a>
   <h4 id="StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroup_SetAggroTarget_GameObject_" data-uid="StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroup.SetAggroTarget(GameObject)">SetAggroTarget(GameObject)</h4>
   <div class="markdown level1 summary"></div>
@@ -637,6 +610,56 @@
       <tr>
         <td><a class="xref" href="StormHawks.Runtime.Entities.Enemies.EnemyBase.html">EnemyBase</a></td>
         <td><span class="parametername">owner</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="events">Events
+  </h3>
+  
+  
+  <h4 id="StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroup_OnAggressive" data-uid="StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroup.OnAggressive">OnAggressive</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action&lt;EnemyGroup&gt; OnAggressive</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<a class="xref" href="StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroup.html">EnemyGroup</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroup_OnReleaseAggro" data-uid="StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroup.OnReleaseAggro">OnReleaseAggro</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action&lt;EnemyGroup&gt; OnReleaseAggro</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<a class="xref" href="StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroup.html">EnemyGroup</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>

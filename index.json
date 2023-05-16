@@ -449,6 +449,16 @@
     "title": "Namespace StormHawks.Editor.EntitySensors | Developer Reference",
     "keywords": "Namespace StormHawks.Editor.EntitySensors Classes FieldOfViewDetectorEditor"
   },
+  "api/StormHawks.Editor.Gizmos.AlignTransformUtilityEditor.html": {
+    "href": "api/StormHawks.Editor.Gizmos.AlignTransformUtilityEditor.html",
+    "title": "Class AlignTransformUtilityEditor | Developer Reference",
+    "keywords": "Class AlignTransformUtilityEditor Inheritance Object AlignTransformUtilityEditor Namespace : StormHawks.Editor.Gizmos Assembly : cs.temp.dll.dll Syntax public class AlignTransformUtilityEditor : UnityEditor.Editor Methods OnInspectorGUI() Declaration public override void OnInspectorGUI()"
+  },
+  "api/StormHawks.Editor.Gizmos.html": {
+    "href": "api/StormHawks.Editor.Gizmos.html",
+    "title": "Namespace StormHawks.Editor.Gizmos | Developer Reference",
+    "keywords": "Namespace StormHawks.Editor.Gizmos Classes AlignTransformUtilityEditor"
+  },
   "api/StormHawks.Editor.Utilities.CommonEditorUtility.html": {
     "href": "api/StormHawks.Editor.Utilities.CommonEditorUtility.html",
     "title": "Class CommonEditorUtility | Developer Reference",
@@ -1259,6 +1269,26 @@
     "title": "Class PlayerRotator | Developer Reference",
     "keywords": "Class PlayerRotator Inheritance Object PlayerRotator Namespace : StormHawks.Runtime.Players Assembly : cs.temp.dll.dll Syntax public class PlayerRotator : MonoBehaviour"
   },
+  "api/StormHawks.Runtime.Rig.html": {
+    "href": "api/StormHawks.Runtime.Rig.html",
+    "title": "Namespace StormHawks.Runtime.Rig | Developer Reference",
+    "keywords": "Namespace StormHawks.Runtime.Rig Classes RigMap RigOffsetSO VRPlayerRig"
+  },
+  "api/StormHawks.Runtime.Rig.RigMap.html": {
+    "href": "api/StormHawks.Runtime.Rig.RigMap.html",
+    "title": "Class RigMap | Developer Reference",
+    "keywords": "Class RigMap Inheritance Object RigMap Namespace : StormHawks.Runtime.Rig Assembly : cs.temp.dll.dll Syntax [Serializable] public class RigMap Methods Remap() Declaration public void Remap()"
+  },
+  "api/StormHawks.Runtime.Rig.RigOffsetSO.html": {
+    "href": "api/StormHawks.Runtime.Rig.RigOffsetSO.html",
+    "title": "Class RigOffsetSO | Developer Reference",
+    "keywords": "Class RigOffsetSO Inheritance Object RigOffsetSO Namespace : StormHawks.Runtime.Rig Assembly : cs.temp.dll.dll Syntax public class RigOffsetSO : ScriptableObject Methods GetModifiedPosition(Transform) Declaration public Vector3 GetModifiedPosition(Transform origin) Parameters Type Name Description Transform origin Returns Type Description Vector3 GetModifiedRotation(Transform) Declaration public Quaternion GetModifiedRotation(Transform origin) Parameters Type Name Description Transform origin Returns Type Description Quaternion"
+  },
+  "api/StormHawks.Runtime.Rig.VRPlayerRig.html": {
+    "href": "api/StormHawks.Runtime.Rig.VRPlayerRig.html",
+    "title": "Class VRPlayerRig | Developer Reference",
+    "keywords": "Class VRPlayerRig Inheritance Object VRPlayerRig Namespace : StormHawks.Runtime.Rig Assembly : cs.temp.dll.dll Syntax public class VRPlayerRig : MonoBehaviour"
+  },
   "api/StormHawks.Runtime.UI.html": {
     "href": "api/StormHawks.Runtime.UI.html",
     "title": "Namespace StormHawks.Runtime.UI | Developer Reference",
@@ -1288,6 +1318,16 @@
     "href": "api/StormHawks.Runtime.UI.YawCompass.html",
     "title": "Class YawCompass | Developer Reference",
     "keywords": "Class YawCompass Inheritance Object YawCompass Namespace : StormHawks.Runtime.UI Assembly : cs.temp.dll.dll Syntax public class YawCompass : MonoBehaviour"
+  },
+  "api/StormHawks.Runtime.Utilities.AlignTransformUtility.Axis.html": {
+    "href": "api/StormHawks.Runtime.Utilities.AlignTransformUtility.Axis.html",
+    "title": "Enum AlignTransformUtility.Axis | Developer Reference",
+    "keywords": "Enum AlignTransformUtility.Axis Namespace : StormHawks.Runtime.Utilities Assembly : cs.temp.dll.dll Syntax public enum Axis Fields Name Description ReverseX ReverseY ReverseZ X Y Z"
+  },
+  "api/StormHawks.Runtime.Utilities.AlignTransformUtility.html": {
+    "href": "api/StormHawks.Runtime.Utilities.AlignTransformUtility.html",
+    "title": "Class AlignTransformUtility | Developer Reference",
+    "keywords": "Class AlignTransformUtility Inheritance Object AlignTransformUtility Namespace : StormHawks.Runtime.Utilities Assembly : cs.temp.dll.dll Syntax public class AlignTransformUtility : MonoBehaviour Properties AlignForwardAxis Declaration public AlignTransformUtility.Axis AlignForwardAxis { get; } Property Value Type Description AlignTransformUtility.Axis AlignTarget Declaration public Transform AlignTarget { get; } Property Value Type Description Transform AlignUpwardAxis Declaration public AlignTransformUtility.Axis AlignUpwardAxis { get; } Property Value Type Description AlignTransformUtility.Axis ArrowSize Declaration public float ArrowSize { get; } Property Value Type Description Single DistFromCenter Declaration public float DistFromCenter { get; } Property Value Type Description Single EnableArrowHead Declaration public bool EnableArrowHead { get; } Property Value Type Description Boolean XAxisColor Declaration public Color XAxisColor { get; } Property Value Type Description Color YAxisColor Declaration public Color YAxisColor { get; } Property Value Type Description Color ZAxisColor Declaration public Color ZAxisColor { get; } Property Value Type Description Color Methods AlignController() Declaration public void AlignController()"
   },
   "api/StormHawks.Runtime.Utilities.BehaviorTree.BossEntityKey.html": {
     "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.BossEntityKey.html",
@@ -1637,7 +1677,7 @@
   "api/StormHawks.Runtime.Utilities.html": {
     "href": "api/StormHawks.Runtime.Utilities.html",
     "title": "Namespace StormHawks.Runtime.Utilities | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Utilities Classes TweenUtility UIUtility"
+    "keywords": "Namespace StormHawks.Runtime.Utilities Classes AlignTransformUtility TweenUtility UIUtility Enums AlignTransformUtility.Axis"
   },
   "api/StormHawks.Runtime.Utilities.ObjectPools.html": {
     "href": "api/StormHawks.Runtime.Utilities.ObjectPools.html",

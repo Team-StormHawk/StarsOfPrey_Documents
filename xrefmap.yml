@@ -3319,44 +3319,6 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Detectors.Comparers.DetectableDistanceComparer.Compare
   nameWithType: DetectableDistanceComparer.Compare
-- uid: StormHawks.Runtime.Detectors.CountableDetectorHandler
-  name: CountableDetectorHandler
-  href: api/StormHawks.Runtime.Detectors.CountableDetectorHandler.html
-  commentId: T:StormHawks.Runtime.Detectors.CountableDetectorHandler
-  fullName: StormHawks.Runtime.Detectors.CountableDetectorHandler
-  nameWithType: CountableDetectorHandler
-- uid: StormHawks.Runtime.Detectors.CountableDetectorHandler.FixedUpdate
-  name: FixedUpdate()
-  href: api/StormHawks.Runtime.Detectors.CountableDetectorHandler.html#StormHawks_Runtime_Detectors_CountableDetectorHandler_FixedUpdate
-  commentId: M:StormHawks.Runtime.Detectors.CountableDetectorHandler.FixedUpdate
-  fullName: StormHawks.Runtime.Detectors.CountableDetectorHandler.FixedUpdate()
-  nameWithType: CountableDetectorHandler.FixedUpdate()
-- uid: StormHawks.Runtime.Detectors.CountableDetectorHandler.FixedUpdate*
-  name: FixedUpdate
-  href: api/StormHawks.Runtime.Detectors.CountableDetectorHandler.html#StormHawks_Runtime_Detectors_CountableDetectorHandler_FixedUpdate_
-  commentId: Overload:StormHawks.Runtime.Detectors.CountableDetectorHandler.FixedUpdate
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Detectors.CountableDetectorHandler.FixedUpdate
-  nameWithType: CountableDetectorHandler.FixedUpdate
-- uid: StormHawks.Runtime.Detectors.CountableDetectorHandler.maxDetectCount
-  name: maxDetectCount
-  href: api/StormHawks.Runtime.Detectors.CountableDetectorHandler.html#StormHawks_Runtime_Detectors_CountableDetectorHandler_maxDetectCount
-  commentId: F:StormHawks.Runtime.Detectors.CountableDetectorHandler.maxDetectCount
-  fullName: StormHawks.Runtime.Detectors.CountableDetectorHandler.maxDetectCount
-  nameWithType: CountableDetectorHandler.maxDetectCount
-- uid: StormHawks.Runtime.Detectors.CountableDetectorHandler.SetMaxCount(System.Int32)
-  name: SetMaxCount(Int32)
-  href: api/StormHawks.Runtime.Detectors.CountableDetectorHandler.html#StormHawks_Runtime_Detectors_CountableDetectorHandler_SetMaxCount_System_Int32_
-  commentId: M:StormHawks.Runtime.Detectors.CountableDetectorHandler.SetMaxCount(System.Int32)
-  fullName: StormHawks.Runtime.Detectors.CountableDetectorHandler.SetMaxCount(System.Int32)
-  nameWithType: CountableDetectorHandler.SetMaxCount(Int32)
-- uid: StormHawks.Runtime.Detectors.CountableDetectorHandler.SetMaxCount*
-  name: SetMaxCount
-  href: api/StormHawks.Runtime.Detectors.CountableDetectorHandler.html#StormHawks_Runtime_Detectors_CountableDetectorHandler_SetMaxCount_
-  commentId: Overload:StormHawks.Runtime.Detectors.CountableDetectorHandler.SetMaxCount
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Detectors.CountableDetectorHandler.SetMaxCount
-  nameWithType: CountableDetectorHandler.SetMaxCount
 - uid: StormHawks.Runtime.Detectors.DetectableEntity
   name: DetectableEntity
   href: api/StormHawks.Runtime.Detectors.DetectableEntity.html
@@ -3493,24 +3455,18 @@ references:
   commentId: T:StormHawks.Runtime.Detectors.DetectorHandler
   fullName: StormHawks.Runtime.Detectors.DetectorHandler
   nameWithType: DetectorHandler
-- uid: StormHawks.Runtime.Detectors.DetectorHandler._comparer
-  name: _comparer
-  href: api/StormHawks.Runtime.Detectors.DetectorHandler.html#StormHawks_Runtime_Detectors_DetectorHandler__comparer
-  commentId: F:StormHawks.Runtime.Detectors.DetectorHandler._comparer
-  fullName: StormHawks.Runtime.Detectors.DetectorHandler._comparer
-  nameWithType: DetectorHandler._comparer
+- uid: StormHawks.Runtime.Detectors.DetectorHandler._active
+  name: _active
+  href: api/StormHawks.Runtime.Detectors.DetectorHandler.html#StormHawks_Runtime_Detectors_DetectorHandler__active
+  commentId: F:StormHawks.Runtime.Detectors.DetectorHandler._active
+  fullName: StormHawks.Runtime.Detectors.DetectorHandler._active
+  nameWithType: DetectorHandler._active
 - uid: StormHawks.Runtime.Detectors.DetectorHandler._newlyDetectedSet
   name: _newlyDetectedSet
   href: api/StormHawks.Runtime.Detectors.DetectorHandler.html#StormHawks_Runtime_Detectors_DetectorHandler__newlyDetectedSet
   commentId: F:StormHawks.Runtime.Detectors.DetectorHandler._newlyDetectedSet
   fullName: StormHawks.Runtime.Detectors.DetectorHandler._newlyDetectedSet
   nameWithType: DetectorHandler._newlyDetectedSet
-- uid: StormHawks.Runtime.Detectors.DetectorHandler.active
-  name: active
-  href: api/StormHawks.Runtime.Detectors.DetectorHandler.html#StormHawks_Runtime_Detectors_DetectorHandler_active
-  commentId: F:StormHawks.Runtime.Detectors.DetectorHandler.active
-  fullName: StormHawks.Runtime.Detectors.DetectorHandler.active
-  nameWithType: DetectorHandler.active
 - uid: StormHawks.Runtime.Detectors.DetectorHandler.Active
   name: Active
   href: api/StormHawks.Runtime.Detectors.DetectorHandler.html#StormHawks_Runtime_Detectors_DetectorHandler_Active
@@ -3537,31 +3493,6 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Detectors.DetectorHandler.ActiveDetector
   nameWithType: DetectorHandler.ActiveDetector
-- uid: StormHawks.Runtime.Detectors.DetectorHandler.AddDetected(StormHawks.Runtime.Detectors.DetectableEntity)
-  name: AddDetected(DetectableEntity)
-  href: api/StormHawks.Runtime.Detectors.DetectorHandler.html#StormHawks_Runtime_Detectors_DetectorHandler_AddDetected_StormHawks_Runtime_Detectors_DetectableEntity_
-  commentId: M:StormHawks.Runtime.Detectors.DetectorHandler.AddDetected(StormHawks.Runtime.Detectors.DetectableEntity)
-  fullName: StormHawks.Runtime.Detectors.DetectorHandler.AddDetected(StormHawks.Runtime.Detectors.DetectableEntity)
-  nameWithType: DetectorHandler.AddDetected(DetectableEntity)
-- uid: StormHawks.Runtime.Detectors.DetectorHandler.AddDetected*
-  name: AddDetected
-  href: api/StormHawks.Runtime.Detectors.DetectorHandler.html#StormHawks_Runtime_Detectors_DetectorHandler_AddDetected_
-  commentId: Overload:StormHawks.Runtime.Detectors.DetectorHandler.AddDetected
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Detectors.DetectorHandler.AddDetected
-  nameWithType: DetectorHandler.AddDetected
-- uid: StormHawks.Runtime.Detectors.DetectorHandler.detectedList
-  name: detectedList
-  href: api/StormHawks.Runtime.Detectors.DetectorHandler.html#StormHawks_Runtime_Detectors_DetectorHandler_detectedList
-  commentId: F:StormHawks.Runtime.Detectors.DetectorHandler.detectedList
-  fullName: StormHawks.Runtime.Detectors.DetectorHandler.detectedList
-  nameWithType: DetectorHandler.detectedList
-- uid: StormHawks.Runtime.Detectors.DetectorHandler.detectInterval
-  name: detectInterval
-  href: api/StormHawks.Runtime.Detectors.DetectorHandler.html#StormHawks_Runtime_Detectors_DetectorHandler_detectInterval
-  commentId: F:StormHawks.Runtime.Detectors.DetectorHandler.detectInterval
-  fullName: StormHawks.Runtime.Detectors.DetectorHandler.detectInterval
-  nameWithType: DetectorHandler.detectInterval
 - uid: StormHawks.Runtime.Detectors.DetectorHandler.detectors
   name: detectors
   href: api/StormHawks.Runtime.Detectors.DetectorHandler.html#StormHawks_Runtime_Detectors_DetectorHandler_detectors
@@ -3581,70 +3512,194 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Detectors.DetectorHandler.FixedUpdate
   nameWithType: DetectorHandler.FixedUpdate
-- uid: StormHawks.Runtime.Detectors.DetectorHandler.GetDetected(System.Int32)
+- uid: StormHawks.Runtime.Detectors.DetectorHandler`1
+  name: DetectorHandler<T>
+  href: api/StormHawks.Runtime.Detectors.DetectorHandler-1.html
+  commentId: T:StormHawks.Runtime.Detectors.DetectorHandler`1
+  name.vb: DetectorHandler(Of T)
+  fullName: StormHawks.Runtime.Detectors.DetectorHandler<T>
+  fullName.vb: StormHawks.Runtime.Detectors.DetectorHandler(Of T)
+  nameWithType: DetectorHandler<T>
+  nameWithType.vb: DetectorHandler(Of T)
+- uid: StormHawks.Runtime.Detectors.DetectorHandler`1.AddDetected(`0)
+  name: AddDetected(T)
+  href: api/StormHawks.Runtime.Detectors.DetectorHandler-1.html#StormHawks_Runtime_Detectors_DetectorHandler_1_AddDetected__0_
+  commentId: M:StormHawks.Runtime.Detectors.DetectorHandler`1.AddDetected(`0)
+  fullName: StormHawks.Runtime.Detectors.DetectorHandler<T>.AddDetected(T)
+  fullName.vb: StormHawks.Runtime.Detectors.DetectorHandler(Of T).AddDetected(T)
+  nameWithType: DetectorHandler<T>.AddDetected(T)
+  nameWithType.vb: DetectorHandler(Of T).AddDetected(T)
+- uid: StormHawks.Runtime.Detectors.DetectorHandler`1.AddDetected*
+  name: AddDetected
+  href: api/StormHawks.Runtime.Detectors.DetectorHandler-1.html#StormHawks_Runtime_Detectors_DetectorHandler_1_AddDetected_
+  commentId: Overload:StormHawks.Runtime.Detectors.DetectorHandler`1.AddDetected
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Detectors.DetectorHandler<T>.AddDetected
+  fullName.vb: StormHawks.Runtime.Detectors.DetectorHandler(Of T).AddDetected
+  nameWithType: DetectorHandler<T>.AddDetected
+  nameWithType.vb: DetectorHandler(Of T).AddDetected
+- uid: StormHawks.Runtime.Detectors.DetectorHandler`1.detectedList
+  name: detectedList
+  href: api/StormHawks.Runtime.Detectors.DetectorHandler-1.html#StormHawks_Runtime_Detectors_DetectorHandler_1_detectedList
+  commentId: F:StormHawks.Runtime.Detectors.DetectorHandler`1.detectedList
+  fullName: StormHawks.Runtime.Detectors.DetectorHandler<T>.detectedList
+  fullName.vb: StormHawks.Runtime.Detectors.DetectorHandler(Of T).detectedList
+  nameWithType: DetectorHandler<T>.detectedList
+  nameWithType.vb: DetectorHandler(Of T).detectedList
+- uid: StormHawks.Runtime.Detectors.DetectorHandler`1.GetDetected(System.Int32)
   name: GetDetected(Int32)
-  href: api/StormHawks.Runtime.Detectors.DetectorHandler.html#StormHawks_Runtime_Detectors_DetectorHandler_GetDetected_System_Int32_
-  commentId: M:StormHawks.Runtime.Detectors.DetectorHandler.GetDetected(System.Int32)
-  fullName: StormHawks.Runtime.Detectors.DetectorHandler.GetDetected(System.Int32)
-  nameWithType: DetectorHandler.GetDetected(Int32)
-- uid: StormHawks.Runtime.Detectors.DetectorHandler.GetDetected*
+  href: api/StormHawks.Runtime.Detectors.DetectorHandler-1.html#StormHawks_Runtime_Detectors_DetectorHandler_1_GetDetected_System_Int32_
+  commentId: M:StormHawks.Runtime.Detectors.DetectorHandler`1.GetDetected(System.Int32)
+  fullName: StormHawks.Runtime.Detectors.DetectorHandler<T>.GetDetected(System.Int32)
+  fullName.vb: StormHawks.Runtime.Detectors.DetectorHandler(Of T).GetDetected(System.Int32)
+  nameWithType: DetectorHandler<T>.GetDetected(Int32)
+  nameWithType.vb: DetectorHandler(Of T).GetDetected(Int32)
+- uid: StormHawks.Runtime.Detectors.DetectorHandler`1.GetDetected*
   name: GetDetected
-  href: api/StormHawks.Runtime.Detectors.DetectorHandler.html#StormHawks_Runtime_Detectors_DetectorHandler_GetDetected_
-  commentId: Overload:StormHawks.Runtime.Detectors.DetectorHandler.GetDetected
+  href: api/StormHawks.Runtime.Detectors.DetectorHandler-1.html#StormHawks_Runtime_Detectors_DetectorHandler_1_GetDetected_
+  commentId: Overload:StormHawks.Runtime.Detectors.DetectorHandler`1.GetDetected
   isSpec: "True"
-  fullName: StormHawks.Runtime.Detectors.DetectorHandler.GetDetected
-  nameWithType: DetectorHandler.GetDetected
-- uid: StormHawks.Runtime.Detectors.DetectorHandler.GetDetectedList(System.Int32)
+  fullName: StormHawks.Runtime.Detectors.DetectorHandler<T>.GetDetected
+  fullName.vb: StormHawks.Runtime.Detectors.DetectorHandler(Of T).GetDetected
+  nameWithType: DetectorHandler<T>.GetDetected
+  nameWithType.vb: DetectorHandler(Of T).GetDetected
+- uid: StormHawks.Runtime.Detectors.DetectorHandler`1.GetDetectedList(System.Int32)
   name: GetDetectedList(Int32)
-  href: api/StormHawks.Runtime.Detectors.DetectorHandler.html#StormHawks_Runtime_Detectors_DetectorHandler_GetDetectedList_System_Int32_
-  commentId: M:StormHawks.Runtime.Detectors.DetectorHandler.GetDetectedList(System.Int32)
-  fullName: StormHawks.Runtime.Detectors.DetectorHandler.GetDetectedList(System.Int32)
-  nameWithType: DetectorHandler.GetDetectedList(Int32)
-- uid: StormHawks.Runtime.Detectors.DetectorHandler.GetDetectedList*
+  href: api/StormHawks.Runtime.Detectors.DetectorHandler-1.html#StormHawks_Runtime_Detectors_DetectorHandler_1_GetDetectedList_System_Int32_
+  commentId: M:StormHawks.Runtime.Detectors.DetectorHandler`1.GetDetectedList(System.Int32)
+  fullName: StormHawks.Runtime.Detectors.DetectorHandler<T>.GetDetectedList(System.Int32)
+  fullName.vb: StormHawks.Runtime.Detectors.DetectorHandler(Of T).GetDetectedList(System.Int32)
+  nameWithType: DetectorHandler<T>.GetDetectedList(Int32)
+  nameWithType.vb: DetectorHandler(Of T).GetDetectedList(Int32)
+- uid: StormHawks.Runtime.Detectors.DetectorHandler`1.GetDetectedList*
   name: GetDetectedList
-  href: api/StormHawks.Runtime.Detectors.DetectorHandler.html#StormHawks_Runtime_Detectors_DetectorHandler_GetDetectedList_
-  commentId: Overload:StormHawks.Runtime.Detectors.DetectorHandler.GetDetectedList
+  href: api/StormHawks.Runtime.Detectors.DetectorHandler-1.html#StormHawks_Runtime_Detectors_DetectorHandler_1_GetDetectedList_
+  commentId: Overload:StormHawks.Runtime.Detectors.DetectorHandler`1.GetDetectedList
   isSpec: "True"
-  fullName: StormHawks.Runtime.Detectors.DetectorHandler.GetDetectedList
-  nameWithType: DetectorHandler.GetDetectedList
-- uid: StormHawks.Runtime.Detectors.DetectorHandler.InactiveDetector
+  fullName: StormHawks.Runtime.Detectors.DetectorHandler<T>.GetDetectedList
+  fullName.vb: StormHawks.Runtime.Detectors.DetectorHandler(Of T).GetDetectedList
+  nameWithType: DetectorHandler<T>.GetDetectedList
+  nameWithType.vb: DetectorHandler(Of T).GetDetectedList
+- uid: StormHawks.Runtime.Detectors.DetectorHandler`1.InactiveDetector
   name: InactiveDetector()
-  href: api/StormHawks.Runtime.Detectors.DetectorHandler.html#StormHawks_Runtime_Detectors_DetectorHandler_InactiveDetector
-  commentId: M:StormHawks.Runtime.Detectors.DetectorHandler.InactiveDetector
-  fullName: StormHawks.Runtime.Detectors.DetectorHandler.InactiveDetector()
-  nameWithType: DetectorHandler.InactiveDetector()
-- uid: StormHawks.Runtime.Detectors.DetectorHandler.InactiveDetector*
+  href: api/StormHawks.Runtime.Detectors.DetectorHandler-1.html#StormHawks_Runtime_Detectors_DetectorHandler_1_InactiveDetector
+  commentId: M:StormHawks.Runtime.Detectors.DetectorHandler`1.InactiveDetector
+  fullName: StormHawks.Runtime.Detectors.DetectorHandler<T>.InactiveDetector()
+  fullName.vb: StormHawks.Runtime.Detectors.DetectorHandler(Of T).InactiveDetector()
+  nameWithType: DetectorHandler<T>.InactiveDetector()
+  nameWithType.vb: DetectorHandler(Of T).InactiveDetector()
+- uid: StormHawks.Runtime.Detectors.DetectorHandler`1.InactiveDetector*
   name: InactiveDetector
-  href: api/StormHawks.Runtime.Detectors.DetectorHandler.html#StormHawks_Runtime_Detectors_DetectorHandler_InactiveDetector_
-  commentId: Overload:StormHawks.Runtime.Detectors.DetectorHandler.InactiveDetector
+  href: api/StormHawks.Runtime.Detectors.DetectorHandler-1.html#StormHawks_Runtime_Detectors_DetectorHandler_1_InactiveDetector_
+  commentId: Overload:StormHawks.Runtime.Detectors.DetectorHandler`1.InactiveDetector
   isSpec: "True"
-  fullName: StormHawks.Runtime.Detectors.DetectorHandler.InactiveDetector
-  nameWithType: DetectorHandler.InactiveDetector
-- uid: StormHawks.Runtime.Detectors.DetectorHandler.OnDetect
+  fullName: StormHawks.Runtime.Detectors.DetectorHandler<T>.InactiveDetector
+  fullName.vb: StormHawks.Runtime.Detectors.DetectorHandler(Of T).InactiveDetector
+  nameWithType: DetectorHandler<T>.InactiveDetector
+  nameWithType.vb: DetectorHandler(Of T).InactiveDetector
+- uid: StormHawks.Runtime.Detectors.DetectorHandler`1.OnDetect
   name: OnDetect
-  href: api/StormHawks.Runtime.Detectors.DetectorHandler.html#StormHawks_Runtime_Detectors_DetectorHandler_OnDetect
-  commentId: F:StormHawks.Runtime.Detectors.DetectorHandler.OnDetect
-  fullName: StormHawks.Runtime.Detectors.DetectorHandler.OnDetect
-  nameWithType: DetectorHandler.OnDetect
-- uid: StormHawks.Runtime.Detectors.DetectorHandler.OnReleased
+  href: api/StormHawks.Runtime.Detectors.DetectorHandler-1.html#StormHawks_Runtime_Detectors_DetectorHandler_1_OnDetect
+  commentId: F:StormHawks.Runtime.Detectors.DetectorHandler`1.OnDetect
+  fullName: StormHawks.Runtime.Detectors.DetectorHandler<T>.OnDetect
+  fullName.vb: StormHawks.Runtime.Detectors.DetectorHandler(Of T).OnDetect
+  nameWithType: DetectorHandler<T>.OnDetect
+  nameWithType.vb: DetectorHandler(Of T).OnDetect
+- uid: StormHawks.Runtime.Detectors.DetectorHandler`1.OnReleased
   name: OnReleased
-  href: api/StormHawks.Runtime.Detectors.DetectorHandler.html#StormHawks_Runtime_Detectors_DetectorHandler_OnReleased
-  commentId: F:StormHawks.Runtime.Detectors.DetectorHandler.OnReleased
-  fullName: StormHawks.Runtime.Detectors.DetectorHandler.OnReleased
-  nameWithType: DetectorHandler.OnReleased
-- uid: StormHawks.Runtime.Detectors.DetectorHandler.RemoveDetected(StormHawks.Runtime.Detectors.DetectableEntity)
-  name: RemoveDetected(DetectableEntity)
-  href: api/StormHawks.Runtime.Detectors.DetectorHandler.html#StormHawks_Runtime_Detectors_DetectorHandler_RemoveDetected_StormHawks_Runtime_Detectors_DetectableEntity_
-  commentId: M:StormHawks.Runtime.Detectors.DetectorHandler.RemoveDetected(StormHawks.Runtime.Detectors.DetectableEntity)
-  fullName: StormHawks.Runtime.Detectors.DetectorHandler.RemoveDetected(StormHawks.Runtime.Detectors.DetectableEntity)
-  nameWithType: DetectorHandler.RemoveDetected(DetectableEntity)
-- uid: StormHawks.Runtime.Detectors.DetectorHandler.RemoveDetected*
+  href: api/StormHawks.Runtime.Detectors.DetectorHandler-1.html#StormHawks_Runtime_Detectors_DetectorHandler_1_OnReleased
+  commentId: F:StormHawks.Runtime.Detectors.DetectorHandler`1.OnReleased
+  fullName: StormHawks.Runtime.Detectors.DetectorHandler<T>.OnReleased
+  fullName.vb: StormHawks.Runtime.Detectors.DetectorHandler(Of T).OnReleased
+  nameWithType: DetectorHandler<T>.OnReleased
+  nameWithType.vb: DetectorHandler(Of T).OnReleased
+- uid: StormHawks.Runtime.Detectors.DetectorHandler`1.RemoveDetected(`0)
+  name: RemoveDetected(T)
+  href: api/StormHawks.Runtime.Detectors.DetectorHandler-1.html#StormHawks_Runtime_Detectors_DetectorHandler_1_RemoveDetected__0_
+  commentId: M:StormHawks.Runtime.Detectors.DetectorHandler`1.RemoveDetected(`0)
+  fullName: StormHawks.Runtime.Detectors.DetectorHandler<T>.RemoveDetected(T)
+  fullName.vb: StormHawks.Runtime.Detectors.DetectorHandler(Of T).RemoveDetected(T)
+  nameWithType: DetectorHandler<T>.RemoveDetected(T)
+  nameWithType.vb: DetectorHandler(Of T).RemoveDetected(T)
+- uid: StormHawks.Runtime.Detectors.DetectorHandler`1.RemoveDetected*
   name: RemoveDetected
-  href: api/StormHawks.Runtime.Detectors.DetectorHandler.html#StormHawks_Runtime_Detectors_DetectorHandler_RemoveDetected_
-  commentId: Overload:StormHawks.Runtime.Detectors.DetectorHandler.RemoveDetected
+  href: api/StormHawks.Runtime.Detectors.DetectorHandler-1.html#StormHawks_Runtime_Detectors_DetectorHandler_1_RemoveDetected_
+  commentId: Overload:StormHawks.Runtime.Detectors.DetectorHandler`1.RemoveDetected
   isSpec: "True"
-  fullName: StormHawks.Runtime.Detectors.DetectorHandler.RemoveDetected
-  nameWithType: DetectorHandler.RemoveDetected
+  fullName: StormHawks.Runtime.Detectors.DetectorHandler<T>.RemoveDetected
+  fullName.vb: StormHawks.Runtime.Detectors.DetectorHandler(Of T).RemoveDetected
+  nameWithType: DetectorHandler<T>.RemoveDetected
+  nameWithType.vb: DetectorHandler(Of T).RemoveDetected
+- uid: StormHawks.Runtime.Detectors.EntityDetectorHandler
+  name: EntityDetectorHandler
+  href: api/StormHawks.Runtime.Detectors.EntityDetectorHandler.html
+  commentId: T:StormHawks.Runtime.Detectors.EntityDetectorHandler
+  fullName: StormHawks.Runtime.Detectors.EntityDetectorHandler
+  nameWithType: EntityDetectorHandler
+- uid: StormHawks.Runtime.Detectors.EntityDetectorHandler._comparer
+  name: _comparer
+  href: api/StormHawks.Runtime.Detectors.EntityDetectorHandler.html#StormHawks_Runtime_Detectors_EntityDetectorHandler__comparer
+  commentId: F:StormHawks.Runtime.Detectors.EntityDetectorHandler._comparer
+  fullName: StormHawks.Runtime.Detectors.EntityDetectorHandler._comparer
+  nameWithType: EntityDetectorHandler._comparer
+- uid: StormHawks.Runtime.Detectors.EntityDetectorHandler.AddDetected(StormHawks.Runtime.Detectors.DetectableEntity)
+  name: AddDetected(DetectableEntity)
+  href: api/StormHawks.Runtime.Detectors.EntityDetectorHandler.html#StormHawks_Runtime_Detectors_EntityDetectorHandler_AddDetected_StormHawks_Runtime_Detectors_DetectableEntity_
+  commentId: M:StormHawks.Runtime.Detectors.EntityDetectorHandler.AddDetected(StormHawks.Runtime.Detectors.DetectableEntity)
+  fullName: StormHawks.Runtime.Detectors.EntityDetectorHandler.AddDetected(StormHawks.Runtime.Detectors.DetectableEntity)
+  nameWithType: EntityDetectorHandler.AddDetected(DetectableEntity)
+- uid: StormHawks.Runtime.Detectors.EntityDetectorHandler.AddDetected*
+  name: AddDetected
+  href: api/StormHawks.Runtime.Detectors.EntityDetectorHandler.html#StormHawks_Runtime_Detectors_EntityDetectorHandler_AddDetected_
+  commentId: Overload:StormHawks.Runtime.Detectors.EntityDetectorHandler.AddDetected
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Detectors.EntityDetectorHandler.AddDetected
+  nameWithType: EntityDetectorHandler.AddDetected
+- uid: StormHawks.Runtime.Detectors.EntityDetectorHandler.FixedUpdate
+  name: FixedUpdate()
+  href: api/StormHawks.Runtime.Detectors.EntityDetectorHandler.html#StormHawks_Runtime_Detectors_EntityDetectorHandler_FixedUpdate
+  commentId: M:StormHawks.Runtime.Detectors.EntityDetectorHandler.FixedUpdate
+  fullName: StormHawks.Runtime.Detectors.EntityDetectorHandler.FixedUpdate()
+  nameWithType: EntityDetectorHandler.FixedUpdate()
+- uid: StormHawks.Runtime.Detectors.EntityDetectorHandler.FixedUpdate*
+  name: FixedUpdate
+  href: api/StormHawks.Runtime.Detectors.EntityDetectorHandler.html#StormHawks_Runtime_Detectors_EntityDetectorHandler_FixedUpdate_
+  commentId: Overload:StormHawks.Runtime.Detectors.EntityDetectorHandler.FixedUpdate
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Detectors.EntityDetectorHandler.FixedUpdate
+  nameWithType: EntityDetectorHandler.FixedUpdate
+- uid: StormHawks.Runtime.Detectors.EntityDetectorHandler.maxDetectCount
+  name: maxDetectCount
+  href: api/StormHawks.Runtime.Detectors.EntityDetectorHandler.html#StormHawks_Runtime_Detectors_EntityDetectorHandler_maxDetectCount
+  commentId: F:StormHawks.Runtime.Detectors.EntityDetectorHandler.maxDetectCount
+  fullName: StormHawks.Runtime.Detectors.EntityDetectorHandler.maxDetectCount
+  nameWithType: EntityDetectorHandler.maxDetectCount
+- uid: StormHawks.Runtime.Detectors.EntityDetectorHandler.RemoveDetected(StormHawks.Runtime.Detectors.DetectableEntity)
+  name: RemoveDetected(DetectableEntity)
+  href: api/StormHawks.Runtime.Detectors.EntityDetectorHandler.html#StormHawks_Runtime_Detectors_EntityDetectorHandler_RemoveDetected_StormHawks_Runtime_Detectors_DetectableEntity_
+  commentId: M:StormHawks.Runtime.Detectors.EntityDetectorHandler.RemoveDetected(StormHawks.Runtime.Detectors.DetectableEntity)
+  fullName: StormHawks.Runtime.Detectors.EntityDetectorHandler.RemoveDetected(StormHawks.Runtime.Detectors.DetectableEntity)
+  nameWithType: EntityDetectorHandler.RemoveDetected(DetectableEntity)
+- uid: StormHawks.Runtime.Detectors.EntityDetectorHandler.RemoveDetected*
+  name: RemoveDetected
+  href: api/StormHawks.Runtime.Detectors.EntityDetectorHandler.html#StormHawks_Runtime_Detectors_EntityDetectorHandler_RemoveDetected_
+  commentId: Overload:StormHawks.Runtime.Detectors.EntityDetectorHandler.RemoveDetected
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Detectors.EntityDetectorHandler.RemoveDetected
+  nameWithType: EntityDetectorHandler.RemoveDetected
+- uid: StormHawks.Runtime.Detectors.EntityDetectorHandler.SetMaxCount(System.Int32)
+  name: SetMaxCount(Int32)
+  href: api/StormHawks.Runtime.Detectors.EntityDetectorHandler.html#StormHawks_Runtime_Detectors_EntityDetectorHandler_SetMaxCount_System_Int32_
+  commentId: M:StormHawks.Runtime.Detectors.EntityDetectorHandler.SetMaxCount(System.Int32)
+  fullName: StormHawks.Runtime.Detectors.EntityDetectorHandler.SetMaxCount(System.Int32)
+  nameWithType: EntityDetectorHandler.SetMaxCount(Int32)
+- uid: StormHawks.Runtime.Detectors.EntityDetectorHandler.SetMaxCount*
+  name: SetMaxCount
+  href: api/StormHawks.Runtime.Detectors.EntityDetectorHandler.html#StormHawks_Runtime_Detectors_EntityDetectorHandler_SetMaxCount_
+  commentId: Overload:StormHawks.Runtime.Detectors.EntityDetectorHandler.SetMaxCount
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Detectors.EntityDetectorHandler.SetMaxCount
+  nameWithType: EntityDetectorHandler.SetMaxCount
 - uid: StormHawks.Runtime.Detectors.FieldOfViewDetector
   name: FieldOfViewDetector
   href: api/StormHawks.Runtime.Detectors.FieldOfViewDetector.html
@@ -3712,12 +3767,127 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Detectors.LineDetector.Detect
   nameWithType: LineDetector.Detect
-- uid: StormHawks.Runtime.Detectors.LockOnActiveHandler
-  name: LockOnActiveHandler
-  href: api/StormHawks.Runtime.Detectors.LockOnActiveHandler.html
-  commentId: T:StormHawks.Runtime.Detectors.LockOnActiveHandler
-  fullName: StormHawks.Runtime.Detectors.LockOnActiveHandler
-  nameWithType: LockOnActiveHandler
+- uid: StormHawks.Runtime.Detectors.LockOn
+  name: StormHawks.Runtime.Detectors.LockOn
+  href: api/StormHawks.Runtime.Detectors.LockOn.html
+  commentId: N:StormHawks.Runtime.Detectors.LockOn
+  fullName: StormHawks.Runtime.Detectors.LockOn
+  nameWithType: StormHawks.Runtime.Detectors.LockOn
+- uid: StormHawks.Runtime.Detectors.LockOn.EntityLockOnSender
+  name: EntityLockOnSender
+  href: api/StormHawks.Runtime.Detectors.LockOn.EntityLockOnSender.html
+  commentId: T:StormHawks.Runtime.Detectors.LockOn.EntityLockOnSender
+  fullName: StormHawks.Runtime.Detectors.LockOn.EntityLockOnSender
+  nameWithType: EntityLockOnSender
+- uid: StormHawks.Runtime.Detectors.LockOn.LockOnReceiver
+  name: LockOnReceiver
+  href: api/StormHawks.Runtime.Detectors.LockOn.LockOnReceiver.html
+  commentId: T:StormHawks.Runtime.Detectors.LockOn.LockOnReceiver
+  fullName: StormHawks.Runtime.Detectors.LockOn.LockOnReceiver
+  nameWithType: LockOnReceiver
+- uid: StormHawks.Runtime.Detectors.LockOn.LockOnReceiver.LockOff(StormHawks.Runtime.Detectors.LockOn.LockOnType)
+  name: LockOff(LockOnType)
+  href: api/StormHawks.Runtime.Detectors.LockOn.LockOnReceiver.html#StormHawks_Runtime_Detectors_LockOn_LockOnReceiver_LockOff_StormHawks_Runtime_Detectors_LockOn_LockOnType_
+  commentId: M:StormHawks.Runtime.Detectors.LockOn.LockOnReceiver.LockOff(StormHawks.Runtime.Detectors.LockOn.LockOnType)
+  fullName: StormHawks.Runtime.Detectors.LockOn.LockOnReceiver.LockOff(StormHawks.Runtime.Detectors.LockOn.LockOnType)
+  nameWithType: LockOnReceiver.LockOff(LockOnType)
+- uid: StormHawks.Runtime.Detectors.LockOn.LockOnReceiver.LockOff*
+  name: LockOff
+  href: api/StormHawks.Runtime.Detectors.LockOn.LockOnReceiver.html#StormHawks_Runtime_Detectors_LockOn_LockOnReceiver_LockOff_
+  commentId: Overload:StormHawks.Runtime.Detectors.LockOn.LockOnReceiver.LockOff
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Detectors.LockOn.LockOnReceiver.LockOff
+  nameWithType: LockOnReceiver.LockOff
+- uid: StormHawks.Runtime.Detectors.LockOn.LockOnReceiver.LockOn(StormHawks.Runtime.Detectors.LockOn.LockOnType)
+  name: LockOn(LockOnType)
+  href: api/StormHawks.Runtime.Detectors.LockOn.LockOnReceiver.html#StormHawks_Runtime_Detectors_LockOn_LockOnReceiver_LockOn_StormHawks_Runtime_Detectors_LockOn_LockOnType_
+  commentId: M:StormHawks.Runtime.Detectors.LockOn.LockOnReceiver.LockOn(StormHawks.Runtime.Detectors.LockOn.LockOnType)
+  fullName: StormHawks.Runtime.Detectors.LockOn.LockOnReceiver.LockOn(StormHawks.Runtime.Detectors.LockOn.LockOnType)
+  nameWithType: LockOnReceiver.LockOn(LockOnType)
+- uid: StormHawks.Runtime.Detectors.LockOn.LockOnReceiver.LockOn*
+  name: LockOn
+  href: api/StormHawks.Runtime.Detectors.LockOn.LockOnReceiver.html#StormHawks_Runtime_Detectors_LockOn_LockOnReceiver_LockOn_
+  commentId: Overload:StormHawks.Runtime.Detectors.LockOn.LockOnReceiver.LockOn
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Detectors.LockOn.LockOnReceiver.LockOn
+  nameWithType: LockOnReceiver.LockOn
+- uid: StormHawks.Runtime.Detectors.LockOn.LockOnSender`1
+  name: LockOnSender<T>
+  href: api/StormHawks.Runtime.Detectors.LockOn.LockOnSender-1.html
+  commentId: T:StormHawks.Runtime.Detectors.LockOn.LockOnSender`1
+  name.vb: LockOnSender(Of T)
+  fullName: StormHawks.Runtime.Detectors.LockOn.LockOnSender<T>
+  fullName.vb: StormHawks.Runtime.Detectors.LockOn.LockOnSender(Of T)
+  nameWithType: LockOnSender<T>
+  nameWithType.vb: LockOnSender(Of T)
+- uid: StormHawks.Runtime.Detectors.LockOn.LockOnSender`1._detectorHandler
+  name: _detectorHandler
+  href: api/StormHawks.Runtime.Detectors.LockOn.LockOnSender-1.html#StormHawks_Runtime_Detectors_LockOn_LockOnSender_1__detectorHandler
+  commentId: F:StormHawks.Runtime.Detectors.LockOn.LockOnSender`1._detectorHandler
+  fullName: StormHawks.Runtime.Detectors.LockOn.LockOnSender<T>._detectorHandler
+  fullName.vb: StormHawks.Runtime.Detectors.LockOn.LockOnSender(Of T)._detectorHandler
+  nameWithType: LockOnSender<T>._detectorHandler
+  nameWithType.vb: LockOnSender(Of T)._detectorHandler
+- uid: StormHawks.Runtime.Detectors.LockOn.LockOnSender`1.OnEnable
+  name: OnEnable()
+  href: api/StormHawks.Runtime.Detectors.LockOn.LockOnSender-1.html#StormHawks_Runtime_Detectors_LockOn_LockOnSender_1_OnEnable
+  commentId: M:StormHawks.Runtime.Detectors.LockOn.LockOnSender`1.OnEnable
+  fullName: StormHawks.Runtime.Detectors.LockOn.LockOnSender<T>.OnEnable()
+  fullName.vb: StormHawks.Runtime.Detectors.LockOn.LockOnSender(Of T).OnEnable()
+  nameWithType: LockOnSender<T>.OnEnable()
+  nameWithType.vb: LockOnSender(Of T).OnEnable()
+- uid: StormHawks.Runtime.Detectors.LockOn.LockOnSender`1.OnEnable*
+  name: OnEnable
+  href: api/StormHawks.Runtime.Detectors.LockOn.LockOnSender-1.html#StormHawks_Runtime_Detectors_LockOn_LockOnSender_1_OnEnable_
+  commentId: Overload:StormHawks.Runtime.Detectors.LockOn.LockOnSender`1.OnEnable
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Detectors.LockOn.LockOnSender<T>.OnEnable
+  fullName.vb: StormHawks.Runtime.Detectors.LockOn.LockOnSender(Of T).OnEnable
+  nameWithType: LockOnSender<T>.OnEnable
+  nameWithType.vb: LockOnSender(Of T).OnEnable
+- uid: StormHawks.Runtime.Detectors.LockOn.LockOnType
+  name: LockOnType
+  href: api/StormHawks.Runtime.Detectors.LockOn.LockOnType.html
+  commentId: T:StormHawks.Runtime.Detectors.LockOn.LockOnType
+  fullName: StormHawks.Runtime.Detectors.LockOn.LockOnType
+  nameWithType: LockOnType
+- uid: StormHawks.Runtime.Detectors.LockOn.LockOnType.Bullet
+  name: Bullet
+  href: api/StormHawks.Runtime.Detectors.LockOn.LockOnType.html#StormHawks_Runtime_Detectors_LockOn_LockOnType_Bullet
+  commentId: F:StormHawks.Runtime.Detectors.LockOn.LockOnType.Bullet
+  fullName: StormHawks.Runtime.Detectors.LockOn.LockOnType.Bullet
+  nameWithType: LockOnType.Bullet
+- uid: StormHawks.Runtime.Detectors.LockOn.LockOnType.Missile
+  name: Missile
+  href: api/StormHawks.Runtime.Detectors.LockOn.LockOnType.html#StormHawks_Runtime_Detectors_LockOn_LockOnType_Missile
+  commentId: F:StormHawks.Runtime.Detectors.LockOn.LockOnType.Missile
+  fullName: StormHawks.Runtime.Detectors.LockOn.LockOnType.Missile
+  nameWithType: LockOnType.Missile
+- uid: StormHawks.Runtime.Detectors.LockOn.LockOnType.Part
+  name: Part
+  href: api/StormHawks.Runtime.Detectors.LockOn.LockOnType.html#StormHawks_Runtime_Detectors_LockOn_LockOnType_Part
+  commentId: F:StormHawks.Runtime.Detectors.LockOn.LockOnType.Part
+  fullName: StormHawks.Runtime.Detectors.LockOn.LockOnType.Part
+  nameWithType: LockOnType.Part
+- uid: StormHawks.Runtime.Detectors.LockOn.PartLockOnSender
+  name: PartLockOnSender
+  href: api/StormHawks.Runtime.Detectors.LockOn.PartLockOnSender.html
+  commentId: T:StormHawks.Runtime.Detectors.LockOn.PartLockOnSender
+  fullName: StormHawks.Runtime.Detectors.LockOn.PartLockOnSender
+  nameWithType: PartLockOnSender
+- uid: StormHawks.Runtime.Detectors.LockOn.PartLockOnSender.OnEnable
+  name: OnEnable()
+  href: api/StormHawks.Runtime.Detectors.LockOn.PartLockOnSender.html#StormHawks_Runtime_Detectors_LockOn_PartLockOnSender_OnEnable
+  commentId: M:StormHawks.Runtime.Detectors.LockOn.PartLockOnSender.OnEnable
+  fullName: StormHawks.Runtime.Detectors.LockOn.PartLockOnSender.OnEnable()
+  nameWithType: PartLockOnSender.OnEnable()
+- uid: StormHawks.Runtime.Detectors.LockOn.PartLockOnSender.OnEnable*
+  name: OnEnable
+  href: api/StormHawks.Runtime.Detectors.LockOn.PartLockOnSender.html#StormHawks_Runtime_Detectors_LockOn_PartLockOnSender_OnEnable_
+  commentId: Overload:StormHawks.Runtime.Detectors.LockOn.PartLockOnSender.OnEnable
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Detectors.LockOn.PartLockOnSender.OnEnable
+  nameWithType: PartLockOnSender.OnEnable
 - uid: StormHawks.Runtime.Detectors.MissileDetectorHandler
   name: MissileDetectorHandler
   href: api/StormHawks.Runtime.Detectors.MissileDetectorHandler.html
@@ -3737,6 +3907,77 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Detectors.MissileDetectorHandler.FixedUpdate
   nameWithType: MissileDetectorHandler.FixedUpdate
+- uid: StormHawks.Runtime.Detectors.PartDetectorHandler
+  name: PartDetectorHandler
+  href: api/StormHawks.Runtime.Detectors.PartDetectorHandler.html
+  commentId: T:StormHawks.Runtime.Detectors.PartDetectorHandler
+  fullName: StormHawks.Runtime.Detectors.PartDetectorHandler
+  nameWithType: PartDetectorHandler
+- uid: StormHawks.Runtime.Detectors.PartDetectorHandler.AddDetected(PartBase)
+  name: AddDetected(PartBase)
+  href: api/StormHawks.Runtime.Detectors.PartDetectorHandler.html#StormHawks_Runtime_Detectors_PartDetectorHandler_AddDetected_PartBase_
+  commentId: M:StormHawks.Runtime.Detectors.PartDetectorHandler.AddDetected(PartBase)
+  fullName: StormHawks.Runtime.Detectors.PartDetectorHandler.AddDetected(PartBase)
+  nameWithType: PartDetectorHandler.AddDetected(PartBase)
+- uid: StormHawks.Runtime.Detectors.PartDetectorHandler.AddDetected*
+  name: AddDetected
+  href: api/StormHawks.Runtime.Detectors.PartDetectorHandler.html#StormHawks_Runtime_Detectors_PartDetectorHandler_AddDetected_
+  commentId: Overload:StormHawks.Runtime.Detectors.PartDetectorHandler.AddDetected
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Detectors.PartDetectorHandler.AddDetected
+  nameWithType: PartDetectorHandler.AddDetected
+- uid: StormHawks.Runtime.Detectors.PartDetectorHandler.FixedUpdate
+  name: FixedUpdate()
+  href: api/StormHawks.Runtime.Detectors.PartDetectorHandler.html#StormHawks_Runtime_Detectors_PartDetectorHandler_FixedUpdate
+  commentId: M:StormHawks.Runtime.Detectors.PartDetectorHandler.FixedUpdate
+  fullName: StormHawks.Runtime.Detectors.PartDetectorHandler.FixedUpdate()
+  nameWithType: PartDetectorHandler.FixedUpdate()
+- uid: StormHawks.Runtime.Detectors.PartDetectorHandler.FixedUpdate*
+  name: FixedUpdate
+  href: api/StormHawks.Runtime.Detectors.PartDetectorHandler.html#StormHawks_Runtime_Detectors_PartDetectorHandler_FixedUpdate_
+  commentId: Overload:StormHawks.Runtime.Detectors.PartDetectorHandler.FixedUpdate
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Detectors.PartDetectorHandler.FixedUpdate
+  nameWithType: PartDetectorHandler.FixedUpdate
+- uid: StormHawks.Runtime.Detectors.PartDetectorHandler.NearestPart
+  name: NearestPart
+  href: api/StormHawks.Runtime.Detectors.PartDetectorHandler.html#StormHawks_Runtime_Detectors_PartDetectorHandler_NearestPart
+  commentId: P:StormHawks.Runtime.Detectors.PartDetectorHandler.NearestPart
+  fullName: StormHawks.Runtime.Detectors.PartDetectorHandler.NearestPart
+  nameWithType: PartDetectorHandler.NearestPart
+- uid: StormHawks.Runtime.Detectors.PartDetectorHandler.NearestPart*
+  name: NearestPart
+  href: api/StormHawks.Runtime.Detectors.PartDetectorHandler.html#StormHawks_Runtime_Detectors_PartDetectorHandler_NearestPart_
+  commentId: Overload:StormHawks.Runtime.Detectors.PartDetectorHandler.NearestPart
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Detectors.PartDetectorHandler.NearestPart
+  nameWithType: PartDetectorHandler.NearestPart
+- uid: StormHawks.Runtime.Detectors.PartDetectorHandler.PartDirVec
+  name: PartDirVec
+  href: api/StormHawks.Runtime.Detectors.PartDetectorHandler.html#StormHawks_Runtime_Detectors_PartDetectorHandler_PartDirVec
+  commentId: P:StormHawks.Runtime.Detectors.PartDetectorHandler.PartDirVec
+  fullName: StormHawks.Runtime.Detectors.PartDetectorHandler.PartDirVec
+  nameWithType: PartDetectorHandler.PartDirVec
+- uid: StormHawks.Runtime.Detectors.PartDetectorHandler.PartDirVec*
+  name: PartDirVec
+  href: api/StormHawks.Runtime.Detectors.PartDetectorHandler.html#StormHawks_Runtime_Detectors_PartDetectorHandler_PartDirVec_
+  commentId: Overload:StormHawks.Runtime.Detectors.PartDetectorHandler.PartDirVec
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Detectors.PartDetectorHandler.PartDirVec
+  nameWithType: PartDetectorHandler.PartDirVec
+- uid: StormHawks.Runtime.Detectors.PartDetectorHandler.RemoveDetected(PartBase)
+  name: RemoveDetected(PartBase)
+  href: api/StormHawks.Runtime.Detectors.PartDetectorHandler.html#StormHawks_Runtime_Detectors_PartDetectorHandler_RemoveDetected_PartBase_
+  commentId: M:StormHawks.Runtime.Detectors.PartDetectorHandler.RemoveDetected(PartBase)
+  fullName: StormHawks.Runtime.Detectors.PartDetectorHandler.RemoveDetected(PartBase)
+  nameWithType: PartDetectorHandler.RemoveDetected(PartBase)
+- uid: StormHawks.Runtime.Detectors.PartDetectorHandler.RemoveDetected*
+  name: RemoveDetected
+  href: api/StormHawks.Runtime.Detectors.PartDetectorHandler.html#StormHawks_Runtime_Detectors_PartDetectorHandler_RemoveDetected_
+  commentId: Overload:StormHawks.Runtime.Detectors.PartDetectorHandler.RemoveDetected
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Detectors.PartDetectorHandler.RemoveDetected
+  nameWithType: PartDetectorHandler.RemoveDetected
 - uid: StormHawks.Runtime.Detectors.Settings
   name: StormHawks.Runtime.Detectors.Settings
   href: api/StormHawks.Runtime.Detectors.Settings.html
@@ -5414,38 +5655,6 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Entities.EntityLifeTime.SetLifeTime
   nameWithType: EntityLifeTime.SetLifeTime
-- uid: StormHawks.Runtime.Entities.EntityLockOnActivator
-  name: EntityLockOnActivator
-  href: api/StormHawks.Runtime.Entities.EntityLockOnActivator.html
-  commentId: T:StormHawks.Runtime.Entities.EntityLockOnActivator
-  fullName: StormHawks.Runtime.Entities.EntityLockOnActivator
-  nameWithType: EntityLockOnActivator
-- uid: StormHawks.Runtime.Entities.EntityLockOnActivator.Active
-  name: Active()
-  href: api/StormHawks.Runtime.Entities.EntityLockOnActivator.html#StormHawks_Runtime_Entities_EntityLockOnActivator_Active
-  commentId: M:StormHawks.Runtime.Entities.EntityLockOnActivator.Active
-  fullName: StormHawks.Runtime.Entities.EntityLockOnActivator.Active()
-  nameWithType: EntityLockOnActivator.Active()
-- uid: StormHawks.Runtime.Entities.EntityLockOnActivator.Active*
-  name: Active
-  href: api/StormHawks.Runtime.Entities.EntityLockOnActivator.html#StormHawks_Runtime_Entities_EntityLockOnActivator_Active_
-  commentId: Overload:StormHawks.Runtime.Entities.EntityLockOnActivator.Active
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Entities.EntityLockOnActivator.Active
-  nameWithType: EntityLockOnActivator.Active
-- uid: StormHawks.Runtime.Entities.EntityLockOnActivator.InActive
-  name: InActive()
-  href: api/StormHawks.Runtime.Entities.EntityLockOnActivator.html#StormHawks_Runtime_Entities_EntityLockOnActivator_InActive
-  commentId: M:StormHawks.Runtime.Entities.EntityLockOnActivator.InActive
-  fullName: StormHawks.Runtime.Entities.EntityLockOnActivator.InActive()
-  nameWithType: EntityLockOnActivator.InActive()
-- uid: StormHawks.Runtime.Entities.EntityLockOnActivator.InActive*
-  name: InActive
-  href: api/StormHawks.Runtime.Entities.EntityLockOnActivator.html#StormHawks_Runtime_Entities_EntityLockOnActivator_InActive_
-  commentId: Overload:StormHawks.Runtime.Entities.EntityLockOnActivator.InActive
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Entities.EntityLockOnActivator.InActive
-  nameWithType: EntityLockOnActivator.InActive
 - uid: StormHawks.Runtime.Entities.Fires
   name: StormHawks.Runtime.Entities.Fires
   href: api/StormHawks.Runtime.Entities.Fires.html
@@ -11563,24 +11772,101 @@ references:
   commentId: N:StormHawks.Runtime.UI
   fullName: StormHawks.Runtime.UI
   nameWithType: StormHawks.Runtime.UI
-- uid: StormHawks.Runtime.UI.HUD
-  name: StormHawks.Runtime.UI.HUD
-  href: api/StormHawks.Runtime.UI.HUD.html
-  commentId: N:StormHawks.Runtime.UI.HUD
-  fullName: StormHawks.Runtime.UI.HUD
-  nameWithType: StormHawks.Runtime.UI.HUD
-- uid: StormHawks.Runtime.UI.HUD.PartsRader
+- uid: StormHawks.Runtime.UI.PartsRader
   name: PartsRader
-  href: api/StormHawks.Runtime.UI.HUD.PartsRader.html
-  commentId: T:StormHawks.Runtime.UI.HUD.PartsRader
-  fullName: StormHawks.Runtime.UI.HUD.PartsRader
+  href: api/StormHawks.Runtime.UI.PartsRader.html
+  commentId: T:StormHawks.Runtime.UI.PartsRader
+  fullName: StormHawks.Runtime.UI.PartsRader
   nameWithType: PartsRader
+- uid: StormHawks.Runtime.UI.PitchBar
+  name: PitchBar
+  href: api/StormHawks.Runtime.UI.PitchBar.html
+  commentId: T:StormHawks.Runtime.UI.PitchBar
+  fullName: StormHawks.Runtime.UI.PitchBar
+  nameWithType: PitchBar
+- uid: StormHawks.Runtime.UI.PitchBar.Angle
+  name: Angle
+  href: api/StormHawks.Runtime.UI.PitchBar.html#StormHawks_Runtime_UI_PitchBar_Angle
+  commentId: P:StormHawks.Runtime.UI.PitchBar.Angle
+  fullName: StormHawks.Runtime.UI.PitchBar.Angle
+  nameWithType: PitchBar.Angle
+- uid: StormHawks.Runtime.UI.PitchBar.Angle*
+  name: Angle
+  href: api/StormHawks.Runtime.UI.PitchBar.html#StormHawks_Runtime_UI_PitchBar_Angle_
+  commentId: Overload:StormHawks.Runtime.UI.PitchBar.Angle
+  isSpec: "True"
+  fullName: StormHawks.Runtime.UI.PitchBar.Angle
+  nameWithType: PitchBar.Angle
+- uid: StormHawks.Runtime.UI.PitchBar.SetActive(System.Boolean)
+  name: SetActive(Boolean)
+  href: api/StormHawks.Runtime.UI.PitchBar.html#StormHawks_Runtime_UI_PitchBar_SetActive_System_Boolean_
+  commentId: M:StormHawks.Runtime.UI.PitchBar.SetActive(System.Boolean)
+  fullName: StormHawks.Runtime.UI.PitchBar.SetActive(System.Boolean)
+  nameWithType: PitchBar.SetActive(Boolean)
+- uid: StormHawks.Runtime.UI.PitchBar.SetActive*
+  name: SetActive
+  href: api/StormHawks.Runtime.UI.PitchBar.html#StormHawks_Runtime_UI_PitchBar_SetActive_
+  commentId: Overload:StormHawks.Runtime.UI.PitchBar.SetActive
+  isSpec: "True"
+  fullName: StormHawks.Runtime.UI.PitchBar.SetActive
+  nameWithType: PitchBar.SetActive
+- uid: StormHawks.Runtime.UI.PitchBar.SetAngle(System.Int32)
+  name: SetAngle(Int32)
+  href: api/StormHawks.Runtime.UI.PitchBar.html#StormHawks_Runtime_UI_PitchBar_SetAngle_System_Int32_
+  commentId: M:StormHawks.Runtime.UI.PitchBar.SetAngle(System.Int32)
+  fullName: StormHawks.Runtime.UI.PitchBar.SetAngle(System.Int32)
+  nameWithType: PitchBar.SetAngle(Int32)
+- uid: StormHawks.Runtime.UI.PitchBar.SetAngle*
+  name: SetAngle
+  href: api/StormHawks.Runtime.UI.PitchBar.html#StormHawks_Runtime_UI_PitchBar_SetAngle_
+  commentId: Overload:StormHawks.Runtime.UI.PitchBar.SetAngle
+  isSpec: "True"
+  fullName: StormHawks.Runtime.UI.PitchBar.SetAngle
+  nameWithType: PitchBar.SetAngle
+- uid: StormHawks.Runtime.UI.PitchBar.SetHeight(System.Single)
+  name: SetHeight(Single)
+  href: api/StormHawks.Runtime.UI.PitchBar.html#StormHawks_Runtime_UI_PitchBar_SetHeight_System_Single_
+  commentId: M:StormHawks.Runtime.UI.PitchBar.SetHeight(System.Single)
+  fullName: StormHawks.Runtime.UI.PitchBar.SetHeight(System.Single)
+  nameWithType: PitchBar.SetHeight(Single)
+- uid: StormHawks.Runtime.UI.PitchBar.SetHeight*
+  name: SetHeight
+  href: api/StormHawks.Runtime.UI.PitchBar.html#StormHawks_Runtime_UI_PitchBar_SetHeight_
+  commentId: Overload:StormHawks.Runtime.UI.PitchBar.SetHeight
+  isSpec: "True"
+  fullName: StormHawks.Runtime.UI.PitchBar.SetHeight
+  nameWithType: PitchBar.SetHeight
+- uid: StormHawks.Runtime.UI.PitchBar.SetText(System.Int32)
+  name: SetText(Int32)
+  href: api/StormHawks.Runtime.UI.PitchBar.html#StormHawks_Runtime_UI_PitchBar_SetText_System_Int32_
+  commentId: M:StormHawks.Runtime.UI.PitchBar.SetText(System.Int32)
+  fullName: StormHawks.Runtime.UI.PitchBar.SetText(System.Int32)
+  nameWithType: PitchBar.SetText(Int32)
+- uid: StormHawks.Runtime.UI.PitchBar.SetText*
+  name: SetText
+  href: api/StormHawks.Runtime.UI.PitchBar.html#StormHawks_Runtime_UI_PitchBar_SetText_
+  commentId: Overload:StormHawks.Runtime.UI.PitchBar.SetText
+  isSpec: "True"
+  fullName: StormHawks.Runtime.UI.PitchBar.SetText
+  nameWithType: PitchBar.SetText
+- uid: StormHawks.Runtime.UI.PitchLadder
+  name: PitchLadder
+  href: api/StormHawks.Runtime.UI.PitchLadder.html
+  commentId: T:StormHawks.Runtime.UI.PitchLadder
+  fullName: StormHawks.Runtime.UI.PitchLadder
+  nameWithType: PitchLadder
 - uid: StormHawks.Runtime.UI.PlayerMissileReloadUIHandler
   name: PlayerMissileReloadUIHandler
   href: api/StormHawks.Runtime.UI.PlayerMissileReloadUIHandler.html
   commentId: T:StormHawks.Runtime.UI.PlayerMissileReloadUIHandler
   fullName: StormHawks.Runtime.UI.PlayerMissileReloadUIHandler
   nameWithType: PlayerMissileReloadUIHandler
+- uid: StormHawks.Runtime.UI.YawCompass
+  name: YawCompass
+  href: api/StormHawks.Runtime.UI.YawCompass.html
+  commentId: T:StormHawks.Runtime.UI.YawCompass
+  fullName: StormHawks.Runtime.UI.YawCompass
+  nameWithType: YawCompass
 - uid: StormHawks.Runtime.Utilities
   name: StormHawks.Runtime.Utilities
   href: api/StormHawks.Runtime.Utilities.html

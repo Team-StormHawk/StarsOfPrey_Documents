@@ -529,11 +529,6 @@
     "title": "Namespace StormHawks.Runtime.Detectors.Comparers | Developer Reference",
     "keywords": "Namespace StormHawks.Runtime.Detectors.Comparers Classes DetectableAngleComparer DetectableDistanceComparer"
   },
-  "api/StormHawks.Runtime.Detectors.CountableDetectorHandler.html": {
-    "href": "api/StormHawks.Runtime.Detectors.CountableDetectorHandler.html",
-    "title": "Class CountableDetectorHandler | Developer Reference",
-    "keywords": "Class CountableDetectorHandler Inheritance Object DetectorHandler CountableDetectorHandler MissileDetectorHandler Inherited Members DetectorHandler.detectors DetectorHandler.detectedList DetectorHandler.detectInterval DetectorHandler._comparer DetectorHandler._newlyDetectedSet DetectorHandler.OnDetect DetectorHandler.OnReleased DetectorHandler.Active DetectorHandler.active DetectorHandler.ActiveDetector() DetectorHandler.InactiveDetector() DetectorHandler.AddDetected(DetectableEntity) DetectorHandler.RemoveDetected(DetectableEntity) DetectorHandler.GetDetected(Int32) DetectorHandler.GetDetectedList(Int32) Namespace : StormHawks.Runtime.Detectors Assembly : cs.temp.dll.dll Syntax public class CountableDetectorHandler : DetectorHandler Fields maxDetectCount Declaration protected int maxDetectCount Field Value Type Description Int32 Methods FixedUpdate() Declaration protected override void FixedUpdate() Overrides DetectorHandler.FixedUpdate() SetMaxCount(Int32) Declaration public void SetMaxCount(int count) Parameters Type Name Description Int32 count"
-  },
   "api/StormHawks.Runtime.Detectors.DetectableEntity.html": {
     "href": "api/StormHawks.Runtime.Detectors.DetectableEntity.html",
     "title": "Class DetectableEntity | Developer Reference",
@@ -547,7 +542,17 @@
   "api/StormHawks.Runtime.Detectors.DetectorHandler.html": {
     "href": "api/StormHawks.Runtime.Detectors.DetectorHandler.html",
     "title": "Class DetectorHandler | Developer Reference",
-    "keywords": "Class DetectorHandler Inheritance Object DetectorHandler CountableDetectorHandler Namespace : StormHawks.Runtime.Detectors Assembly : cs.temp.dll.dll Syntax public abstract class DetectorHandler : MonoBehaviour Fields _comparer Declaration protected IComparer<DetectableEntity> _comparer Field Value Type Description IComparer < DetectableEntity > _newlyDetectedSet Declaration protected HashSet<Collider> _newlyDetectedSet Field Value Type Description HashSet < Collider > active Declaration protected bool active Field Value Type Description Boolean detectedList Declaration protected List<DetectableEntity> detectedList Field Value Type Description List < DetectableEntity > detectInterval Declaration protected int detectInterval Field Value Type Description Int32 detectors Declaration protected DetectorBase[] detectors Field Value Type Description DetectorBase [] OnDetect Declaration public UnityAction<DetectableEntity> OnDetect Field Value Type Description UnityAction < DetectableEntity > OnReleased Declaration public UnityAction<DetectableEntity> OnReleased Field Value Type Description UnityAction < DetectableEntity > Properties Active Declaration public bool Active { get; } Property Value Type Description Boolean Methods ActiveDetector() Declaration public void ActiveDetector() AddDetected(DetectableEntity) Declaration protected void AddDetected(DetectableEntity detectableEntity) Parameters Type Name Description DetectableEntity detectableEntity FixedUpdate() Declaration protected abstract void FixedUpdate() GetDetected(Int32) Declaration public DetectableEntity GetDetected(int index) Parameters Type Name Description Int32 index Returns Type Description DetectableEntity GetDetectedList(Int32) Declaration public List<DetectableEntity> GetDetectedList(int count) Parameters Type Name Description Int32 count Returns Type Description List < DetectableEntity > InactiveDetector() Declaration public void InactiveDetector() RemoveDetected(DetectableEntity) Declaration protected void RemoveDetected(DetectableEntity detectableEntity) Parameters Type Name Description DetectableEntity detectableEntity"
+    "keywords": "Class DetectorHandler Inheritance Object DetectorHandler DetectorHandler<T> Namespace : StormHawks.Runtime.Detectors Assembly : cs.temp.dll.dll Syntax public abstract class DetectorHandler : MonoBehaviour Fields _active Declaration protected bool _active Field Value Type Description Boolean _newlyDetectedSet Declaration protected HashSet<Collider> _newlyDetectedSet Field Value Type Description HashSet < Collider > detectors Declaration protected DetectorBase[] detectors Field Value Type Description DetectorBase [] Properties Active Declaration public bool Active { get; } Property Value Type Description Boolean Methods ActiveDetector() Declaration public void ActiveDetector() FixedUpdate() Declaration protected abstract void FixedUpdate()"
+  },
+  "api/StormHawks.Runtime.Detectors.DetectorHandler-1.html": {
+    "href": "api/StormHawks.Runtime.Detectors.DetectorHandler-1.html",
+    "title": "Class DetectorHandler<T> | Developer Reference",
+    "keywords": "Class DetectorHandler<T> Inheritance Object DetectorHandler DetectorHandler<T> EntityDetectorHandler PartDetectorHandler Inherited Members DetectorHandler.detectors DetectorHandler._newlyDetectedSet DetectorHandler.Active DetectorHandler._active DetectorHandler.FixedUpdate() DetectorHandler.ActiveDetector() Namespace : StormHawks.Runtime.Detectors Assembly : cs.temp.dll.dll Syntax public abstract class DetectorHandler<T> : DetectorHandler where T : MonoBehaviour Type Parameters Name Description T Fields detectedList Declaration protected List<T> detectedList Field Value Type Description List <T> OnDetect Declaration public UnityAction<T> OnDetect Field Value Type Description UnityAction <T> OnReleased Declaration public UnityAction<T> OnReleased Field Value Type Description UnityAction <T> Methods AddDetected(T) Declaration protected virtual void AddDetected(T detectableEntity) Parameters Type Name Description T detectableEntity GetDetected(Int32) Declaration public T GetDetected(int index) Parameters Type Name Description Int32 index Returns Type Description T GetDetectedList(Int32) Declaration public List<T> GetDetectedList(int count) Parameters Type Name Description Int32 count Returns Type Description List <T> InactiveDetector() Declaration public void InactiveDetector() RemoveDetected(T) Declaration protected virtual void RemoveDetected(T detectableEntity) Parameters Type Name Description T detectableEntity"
+  },
+  "api/StormHawks.Runtime.Detectors.EntityDetectorHandler.html": {
+    "href": "api/StormHawks.Runtime.Detectors.EntityDetectorHandler.html",
+    "title": "Class EntityDetectorHandler | Developer Reference",
+    "keywords": "Class EntityDetectorHandler Inheritance Object DetectorHandler DetectorHandler < DetectableEntity > EntityDetectorHandler MissileDetectorHandler Inherited Members DetectorHandler<DetectableEntity>.detectedList DetectorHandler<DetectableEntity>.OnDetect DetectorHandler<DetectableEntity>.OnReleased DetectorHandler<DetectableEntity>.InactiveDetector() DetectorHandler<DetectableEntity>.GetDetected(Int32) DetectorHandler<DetectableEntity>.GetDetectedList(Int32) DetectorHandler.detectors DetectorHandler._newlyDetectedSet DetectorHandler.Active DetectorHandler._active DetectorHandler.ActiveDetector() Namespace : StormHawks.Runtime.Detectors Assembly : cs.temp.dll.dll Syntax public class EntityDetectorHandler : DetectorHandler<DetectableEntity> Fields _comparer Declaration protected IComparer<DetectableEntity> _comparer Field Value Type Description IComparer < DetectableEntity > maxDetectCount Declaration protected int maxDetectCount Field Value Type Description Int32 Methods AddDetected(DetectableEntity) Declaration protected override void AddDetected(DetectableEntity detectableEntity) Parameters Type Name Description DetectableEntity detectableEntity Overrides StormHawks.Runtime.Detectors.DetectorHandler<StormHawks.Runtime.Detectors.DetectableEntity>.AddDetected(StormHawks.Runtime.Detectors.DetectableEntity) FixedUpdate() Declaration protected override void FixedUpdate() Overrides DetectorHandler.FixedUpdate() RemoveDetected(DetectableEntity) Declaration protected override void RemoveDetected(DetectableEntity detectableEntity) Parameters Type Name Description DetectableEntity detectableEntity Overrides StormHawks.Runtime.Detectors.DetectorHandler<StormHawks.Runtime.Detectors.DetectableEntity>.RemoveDetected(StormHawks.Runtime.Detectors.DetectableEntity) SetMaxCount(Int32) Declaration public void SetMaxCount(int count) Parameters Type Name Description Int32 count"
   },
   "api/StormHawks.Runtime.Detectors.FieldOfViewDetector.html": {
     "href": "api/StormHawks.Runtime.Detectors.FieldOfViewDetector.html",
@@ -557,22 +562,52 @@
   "api/StormHawks.Runtime.Detectors.html": {
     "href": "api/StormHawks.Runtime.Detectors.html",
     "title": "Namespace StormHawks.Runtime.Detectors | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Detectors Classes AngleDetector BoxDetector CountableDetectorHandler DetectableEntity DetectorBase DetectorHandler FieldOfViewDetector FOV안에 들어온 오브젝트들 중 감지 가능한 오브젝트를 감지함. LineDetector LockOnActiveHandler MissileDetectorHandler SphereDetector"
+    "keywords": "Namespace StormHawks.Runtime.Detectors Classes AngleDetector BoxDetector DetectableEntity DetectorBase DetectorHandler DetectorHandler<T> EntityDetectorHandler FieldOfViewDetector FOV안에 들어온 오브젝트들 중 감지 가능한 오브젝트를 감지함. LineDetector MissileDetectorHandler PartDetectorHandler SphereDetector"
   },
   "api/StormHawks.Runtime.Detectors.LineDetector.html": {
     "href": "api/StormHawks.Runtime.Detectors.LineDetector.html",
     "title": "Class LineDetector | Developer Reference",
     "keywords": "Class LineDetector Inheritance Object DetectorBase LineDetector Inherited Members DetectorBase.maxDetectCount DetectorBase.detectLayer Namespace : StormHawks.Runtime.Detectors Assembly : cs.temp.dll.dll Syntax public class LineDetector : DetectorBase Methods Detect(ref HashSet<Collider>) Declaration public override void Detect(ref HashSet<Collider> set) Parameters Type Name Description HashSet < Collider > set Overrides DetectorBase.Detect(ref HashSet<Collider>)"
   },
-  "api/StormHawks.Runtime.Detectors.LockOnActiveHandler.html": {
-    "href": "api/StormHawks.Runtime.Detectors.LockOnActiveHandler.html",
-    "title": "Class LockOnActiveHandler | Developer Reference",
-    "keywords": "Class LockOnActiveHandler Inheritance Object LockOnActiveHandler Namespace : StormHawks.Runtime.Detectors Assembly : cs.temp.dll.dll Syntax public class LockOnActiveHandler : MonoBehaviour"
+  "api/StormHawks.Runtime.Detectors.LockOn.EntityLockOnSender.html": {
+    "href": "api/StormHawks.Runtime.Detectors.LockOn.EntityLockOnSender.html",
+    "title": "Class EntityLockOnSender | Developer Reference",
+    "keywords": "Class EntityLockOnSender Inheritance Object LockOnSender < DetectableEntity > EntityLockOnSender Inherited Members LockOnSender<DetectableEntity>._detectorHandler LockOnSender<DetectableEntity>.OnEnable() Namespace : StormHawks.Runtime.Detectors.LockOn Assembly : cs.temp.dll.dll Syntax public class EntityLockOnSender : LockOnSender<DetectableEntity>"
+  },
+  "api/StormHawks.Runtime.Detectors.LockOn.html": {
+    "href": "api/StormHawks.Runtime.Detectors.LockOn.html",
+    "title": "Namespace StormHawks.Runtime.Detectors.LockOn | Developer Reference",
+    "keywords": "Namespace StormHawks.Runtime.Detectors.LockOn Classes EntityLockOnSender LockOnReceiver LockOnSender<T> PartLockOnSender Enums LockOnType"
+  },
+  "api/StormHawks.Runtime.Detectors.LockOn.LockOnReceiver.html": {
+    "href": "api/StormHawks.Runtime.Detectors.LockOn.LockOnReceiver.html",
+    "title": "Class LockOnReceiver | Developer Reference",
+    "keywords": "Class LockOnReceiver Inheritance Object LockOnReceiver Namespace : StormHawks.Runtime.Detectors.LockOn Assembly : cs.temp.dll.dll Syntax public class LockOnReceiver : MonoBehaviour Methods LockOff(LockOnType) Declaration public bool LockOff(LockOnType type) Parameters Type Name Description LockOnType type Returns Type Description Boolean LockOn(LockOnType) Declaration public bool LockOn(LockOnType type) Parameters Type Name Description LockOnType type Returns Type Description Boolean"
+  },
+  "api/StormHawks.Runtime.Detectors.LockOn.LockOnSender-1.html": {
+    "href": "api/StormHawks.Runtime.Detectors.LockOn.LockOnSender-1.html",
+    "title": "Class LockOnSender<T> | Developer Reference",
+    "keywords": "Class LockOnSender<T> Inheritance Object LockOnSender<T> EntityLockOnSender PartLockOnSender Namespace : StormHawks.Runtime.Detectors.LockOn Assembly : cs.temp.dll.dll Syntax public abstract class LockOnSender<T> : MonoBehaviour where T : MonoBehaviour Type Parameters Name Description T Fields _detectorHandler Declaration protected DetectorHandler<T> _detectorHandler Field Value Type Description DetectorHandler <T> Methods OnEnable() Declaration protected virtual void OnEnable()"
+  },
+  "api/StormHawks.Runtime.Detectors.LockOn.LockOnType.html": {
+    "href": "api/StormHawks.Runtime.Detectors.LockOn.LockOnType.html",
+    "title": "Enum LockOnType | Developer Reference",
+    "keywords": "Enum LockOnType Namespace : StormHawks.Runtime.Detectors.LockOn Assembly : cs.temp.dll.dll Syntax public enum LockOnType Fields Name Description Bullet Missile Part"
+  },
+  "api/StormHawks.Runtime.Detectors.LockOn.PartLockOnSender.html": {
+    "href": "api/StormHawks.Runtime.Detectors.LockOn.PartLockOnSender.html",
+    "title": "Class PartLockOnSender | Developer Reference",
+    "keywords": "Class PartLockOnSender Inheritance Object LockOnSender < PartBase > PartLockOnSender Inherited Members LockOnSender<PartBase>._detectorHandler Namespace : StormHawks.Runtime.Detectors.LockOn Assembly : cs.temp.dll.dll Syntax public class PartLockOnSender : LockOnSender<PartBase> Methods OnEnable() Declaration protected override void OnEnable() Overrides StormHawks.Runtime.Detectors.LockOn.LockOnSender<PartBase>.OnEnable()"
   },
   "api/StormHawks.Runtime.Detectors.MissileDetectorHandler.html": {
     "href": "api/StormHawks.Runtime.Detectors.MissileDetectorHandler.html",
     "title": "Class MissileDetectorHandler | Developer Reference",
-    "keywords": "Class MissileDetectorHandler Inheritance Object DetectorHandler CountableDetectorHandler MissileDetectorHandler Inherited Members CountableDetectorHandler.maxDetectCount CountableDetectorHandler.SetMaxCount(Int32) DetectorHandler.detectors DetectorHandler.detectedList DetectorHandler.detectInterval DetectorHandler._comparer DetectorHandler._newlyDetectedSet DetectorHandler.OnDetect DetectorHandler.OnReleased DetectorHandler.Active DetectorHandler.active DetectorHandler.ActiveDetector() DetectorHandler.InactiveDetector() DetectorHandler.AddDetected(DetectableEntity) DetectorHandler.RemoveDetected(DetectableEntity) DetectorHandler.GetDetected(Int32) DetectorHandler.GetDetectedList(Int32) Namespace : StormHawks.Runtime.Detectors Assembly : cs.temp.dll.dll Syntax public class MissileDetectorHandler : CountableDetectorHandler Methods FixedUpdate() Declaration protected override void FixedUpdate() Overrides CountableDetectorHandler.FixedUpdate()"
+    "keywords": "Class MissileDetectorHandler Inheritance Object DetectorHandler DetectorHandler < DetectableEntity > EntityDetectorHandler MissileDetectorHandler Inherited Members EntityDetectorHandler._comparer EntityDetectorHandler.maxDetectCount EntityDetectorHandler.SetMaxCount(Int32) EntityDetectorHandler.AddDetected(DetectableEntity) EntityDetectorHandler.RemoveDetected(DetectableEntity) DetectorHandler<DetectableEntity>.detectedList DetectorHandler<DetectableEntity>.OnDetect DetectorHandler<DetectableEntity>.OnReleased DetectorHandler<DetectableEntity>.InactiveDetector() DetectorHandler<DetectableEntity>.GetDetected(Int32) DetectorHandler<DetectableEntity>.GetDetectedList(Int32) DetectorHandler.detectors DetectorHandler._newlyDetectedSet DetectorHandler.Active DetectorHandler._active DetectorHandler.ActiveDetector() Namespace : StormHawks.Runtime.Detectors Assembly : cs.temp.dll.dll Syntax public class MissileDetectorHandler : EntityDetectorHandler Methods FixedUpdate() Declaration protected override void FixedUpdate() Overrides EntityDetectorHandler.FixedUpdate()"
+  },
+  "api/StormHawks.Runtime.Detectors.PartDetectorHandler.html": {
+    "href": "api/StormHawks.Runtime.Detectors.PartDetectorHandler.html",
+    "title": "Class PartDetectorHandler | Developer Reference",
+    "keywords": "Class PartDetectorHandler Inheritance Object DetectorHandler DetectorHandler < PartBase > PartDetectorHandler Inherited Members DetectorHandler<PartBase>.detectedList DetectorHandler<PartBase>.OnDetect DetectorHandler<PartBase>.OnReleased DetectorHandler<PartBase>.InactiveDetector() DetectorHandler<PartBase>.GetDetected(Int32) DetectorHandler<PartBase>.GetDetectedList(Int32) DetectorHandler.detectors DetectorHandler._newlyDetectedSet DetectorHandler.Active DetectorHandler._active DetectorHandler.ActiveDetector() Namespace : StormHawks.Runtime.Detectors Assembly : cs.temp.dll.dll Syntax public class PartDetectorHandler : DetectorHandler<PartBase> Properties NearestPart Declaration public PartBase NearestPart { get; } Property Value Type Description PartBase PartDirVec Declaration public Vector3 PartDirVec { get; } Property Value Type Description Vector3 Methods AddDetected(PartBase) Declaration protected override void AddDetected(PartBase part) Parameters Type Name Description PartBase part Overrides StormHawks.Runtime.Detectors.DetectorHandler<PartBase>.AddDetected(PartBase) FixedUpdate() Declaration protected override void FixedUpdate() Overrides DetectorHandler.FixedUpdate() RemoveDetected(PartBase) Declaration protected override void RemoveDetected(PartBase part) Parameters Type Name Description PartBase part Overrides StormHawks.Runtime.Detectors.DetectorHandler<PartBase>.RemoveDetected(PartBase)"
   },
   "api/StormHawks.Runtime.Detectors.Settings.DetectBoundSettingSO.html": {
     "href": "api/StormHawks.Runtime.Detectors.Settings.DetectBoundSettingSO.html",
@@ -714,11 +749,6 @@
     "title": "Class EntityLifeTime | Developer Reference",
     "keywords": "Class EntityLifeTime Inheritance Object EntityLifeTime Namespace : StormHawks.Runtime.Entities Assembly : cs.temp.dll.dll Syntax public class EntityLifeTime : MonoBehaviour Methods SetLifeTime(Single) Declaration public void SetLifeTime(float lifeTime) Parameters Type Name Description Single lifeTime Events OnEnd Declaration public event Action OnEnd Event Type Type Description Action"
   },
-  "api/StormHawks.Runtime.Entities.EntityLockOnActivator.html": {
-    "href": "api/StormHawks.Runtime.Entities.EntityLockOnActivator.html",
-    "title": "Class EntityLockOnActivator | Developer Reference",
-    "keywords": "Class EntityLockOnActivator Inheritance Object EntityLockOnActivator Namespace : StormHawks.Runtime.Entities Assembly : cs.temp.dll.dll Syntax public class EntityLockOnActivator : MonoBehaviour Methods Active() Declaration public void Active() InActive() Declaration public void InActive()"
-  },
   "api/StormHawks.Runtime.Entities.Fires.FireAutomaticShot.html": {
     "href": "api/StormHawks.Runtime.Entities.Fires.FireAutomaticShot.html",
     "title": "Class FireAutomaticShot | Developer Reference",
@@ -767,7 +797,7 @@
   "api/StormHawks.Runtime.Entities.html": {
     "href": "api/StormHawks.Runtime.Entities.html",
     "title": "Namespace StormHawks.Runtime.Entities | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Entities Classes EntityDamageSO EntityHealthSO EntityLifeTime EntityLockOnActivator"
+    "keywords": "Namespace StormHawks.Runtime.Entities Classes EntityDamageSO EntityHealthSO EntityLifeTime"
   },
   "api/StormHawks.Runtime.Entities.Parts.AggressivePart.html": {
     "href": "api/StormHawks.Runtime.Entities.Parts.AggressivePart.html",
@@ -1202,22 +1232,32 @@
   "api/StormHawks.Runtime.UI.html": {
     "href": "api/StormHawks.Runtime.UI.html",
     "title": "Namespace StormHawks.Runtime.UI | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.UI Classes PlayerMissileReloadUIHandler"
+    "keywords": "Namespace StormHawks.Runtime.UI Classes PartsRader PitchBar PitchLadder PlayerMissileReloadUIHandler YawCompass"
   },
-  "api/StormHawks.Runtime.UI.HUD.html": {
-    "href": "api/StormHawks.Runtime.UI.HUD.html",
-    "title": "Namespace StormHawks.Runtime.UI.HUD | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.UI.HUD Classes PartsRader"
-  },
-  "api/StormHawks.Runtime.UI.HUD.PartsRader.html": {
-    "href": "api/StormHawks.Runtime.UI.HUD.PartsRader.html",
+  "api/StormHawks.Runtime.UI.PartsRader.html": {
+    "href": "api/StormHawks.Runtime.UI.PartsRader.html",
     "title": "Class PartsRader | Developer Reference",
-    "keywords": "Class PartsRader Inheritance Object PartsRader Namespace : StormHawks.Runtime.UI.HUD Assembly : cs.temp.dll.dll Syntax public class PartsRader : MonoBehaviour"
+    "keywords": "Class PartsRader Inheritance Object PartsRader Namespace : StormHawks.Runtime.UI Assembly : cs.temp.dll.dll Syntax public class PartsRader : MonoBehaviour"
+  },
+  "api/StormHawks.Runtime.UI.PitchBar.html": {
+    "href": "api/StormHawks.Runtime.UI.PitchBar.html",
+    "title": "Class PitchBar | Developer Reference",
+    "keywords": "Class PitchBar Inheritance Object PitchBar Namespace : StormHawks.Runtime.UI Assembly : cs.temp.dll.dll Syntax public class PitchBar : MonoBehaviour Properties Angle Declaration public int Angle { get; } Property Value Type Description Int32 Methods SetActive(Boolean) Declaration public void SetActive(bool active) Parameters Type Name Description Boolean active SetAngle(Int32) Declaration public PitchBar SetAngle(int angle) Parameters Type Name Description Int32 angle Returns Type Description PitchBar SetHeight(Single) Declaration public PitchBar SetHeight(float height) Parameters Type Name Description Single height Returns Type Description PitchBar SetText(Int32) Declaration public PitchBar SetText(int angle) Parameters Type Name Description Int32 angle Returns Type Description PitchBar"
+  },
+  "api/StormHawks.Runtime.UI.PitchLadder.html": {
+    "href": "api/StormHawks.Runtime.UI.PitchLadder.html",
+    "title": "Class PitchLadder | Developer Reference",
+    "keywords": "Class PitchLadder Inheritance Object PitchLadder Namespace : StormHawks.Runtime.UI Assembly : cs.temp.dll.dll Syntax public class PitchLadder : MonoBehaviour"
   },
   "api/StormHawks.Runtime.UI.PlayerMissileReloadUIHandler.html": {
     "href": "api/StormHawks.Runtime.UI.PlayerMissileReloadUIHandler.html",
     "title": "Class PlayerMissileReloadUIHandler | Developer Reference",
     "keywords": "Class PlayerMissileReloadUIHandler Inheritance Object PlayerMissileReloadUIHandler Namespace : StormHawks.Runtime.UI Assembly : cs.temp.dll.dll Syntax public class PlayerMissileReloadUIHandler : MonoBehaviour"
+  },
+  "api/StormHawks.Runtime.UI.YawCompass.html": {
+    "href": "api/StormHawks.Runtime.UI.YawCompass.html",
+    "title": "Class YawCompass | Developer Reference",
+    "keywords": "Class YawCompass Inheritance Object YawCompass Namespace : StormHawks.Runtime.UI Assembly : cs.temp.dll.dll Syntax public class YawCompass : MonoBehaviour"
   },
   "api/StormHawks.Runtime.Utilities.BehaviorTree.BossEntityKey.html": {
     "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.BossEntityKey.html",

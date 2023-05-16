@@ -1296,18 +1296,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StormHawks.Runtime.Detectors.CountableDetectorHandler.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/StormHawks.Runtime.Detectors.CountableDetectorHandler.html",
-          "hash": "KNe1b044FcbVv/aO3yD+n6gSg+lU1Nyd/aAcoDz+hII="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/StormHawks.Runtime.Detectors.DetectableEntity.yml",
       "output": {
         ".html": {
@@ -1332,11 +1320,35 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/StormHawks.Runtime.Detectors.DetectorHandler-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StormHawks.Runtime.Detectors.DetectorHandler-1.html",
+          "hash": "X/CGuDvcFElLUmRzTh6o4+WDWFUH0xddisXqI0R4j6U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/StormHawks.Runtime.Detectors.DetectorHandler.yml",
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.Detectors.DetectorHandler.html",
-          "hash": "pbGUSJ+sjAyS5OYvGqkmC6tX0Fa7od5gVuOK35kDgyI="
+          "hash": "TJ9MsDZgl5/yngLM8FFFx9R6bp9iS7jr8+KrdkB5/Hw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/StormHawks.Runtime.Detectors.EntityDetectorHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StormHawks.Runtime.Detectors.EntityDetectorHandler.html",
+          "hash": "3pYi40z8fSUGwL/qyOEKPiIazT8xCo6RZjO8oiDhs/8="
         }
       },
       "is_incremental": false,
@@ -1368,11 +1380,71 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StormHawks.Runtime.Detectors.LockOnActiveHandler.yml",
+      "source_relative_path": "api/StormHawks.Runtime.Detectors.LockOn.EntityLockOnSender.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StormHawks.Runtime.Detectors.LockOnActiveHandler.html",
-          "hash": "e6UC1ZmpFHnmTVgPVnHYGfVywfNFvzTBYdDGOeqwMcI="
+          "relative_path": "api/StormHawks.Runtime.Detectors.LockOn.EntityLockOnSender.html",
+          "hash": "XvGA70EAw3fwEbiicJ5gp6WOX/2nm7Y+9corHHd4R00="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/StormHawks.Runtime.Detectors.LockOn.LockOnReceiver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StormHawks.Runtime.Detectors.LockOn.LockOnReceiver.html",
+          "hash": "n4IfIxg6Pwph2IJSXS87lThZDa692F4jLNLva5g4HJI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/StormHawks.Runtime.Detectors.LockOn.LockOnSender-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StormHawks.Runtime.Detectors.LockOn.LockOnSender-1.html",
+          "hash": "VEFlO7WdTmCyr1KTC5T6n7bVOeP1yVx74Kp+OzlViU0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/StormHawks.Runtime.Detectors.LockOn.LockOnType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StormHawks.Runtime.Detectors.LockOn.LockOnType.html",
+          "hash": "PbHQElqPy7VAQJunpZ8EOUtebQCu4DlBOTwlE9whssQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/StormHawks.Runtime.Detectors.LockOn.PartLockOnSender.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StormHawks.Runtime.Detectors.LockOn.PartLockOnSender.html",
+          "hash": "4UNekmOSJwUG42aeytk4umq96QOA7s5uYjeE5/SRjKI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/StormHawks.Runtime.Detectors.LockOn.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StormHawks.Runtime.Detectors.LockOn.html",
+          "hash": "Vb6PlXLTF7XBWCOWiGLry9B/mK+M8uuY8LKNlTysq8c="
         }
       },
       "is_incremental": false,
@@ -1384,7 +1456,19 @@
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.Detectors.MissileDetectorHandler.html",
-          "hash": "RnZzqWF02uZdSSajcxpGVqujIzvmkRbYfcqiZuh7aRE="
+          "hash": "F5BIAC0GgcTH2qLk/9B7+tdb/4uIwVNPY37ipDKTEXk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/StormHawks.Runtime.Detectors.PartDetectorHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StormHawks.Runtime.Detectors.PartDetectorHandler.html",
+          "hash": "OI2VxZA2MF6NFRZY8nA9XF6BFXZlfWuO/OeXcoGQkeA="
         }
       },
       "is_incremental": false,
@@ -1432,7 +1516,7 @@
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.Detectors.html",
-          "hash": "3Yp+bBkEOIk/bh/e5i/QiNEQs/eDqoP/8x7c8x2uK80="
+          "hash": "Ek65IzknNNj27vO2pdgEI9AhOv4MweLeBOAqEScpLhI="
         }
       },
       "is_incremental": false,
@@ -1733,18 +1817,6 @@
         ".html": {
           "relative_path": "api/StormHawks.Runtime.Entities.EntityLifeTime.html",
           "hash": "9VVjLm/6WqWCTsCtanjWnUT9X3g6/zVb7IsDHR8q/AQ="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/StormHawks.Runtime.Entities.EntityLockOnActivator.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/StormHawks.Runtime.Entities.EntityLockOnActivator.html",
-          "hash": "P7+cMeqh3jzKgUwKIzKkzA4G4qzanIA6MQ4+cfd89IY="
         }
       },
       "is_incremental": false,
@@ -2188,7 +2260,7 @@
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.Entities.html",
-          "hash": "Dyevk37Fw6RupkpXci0IftLWFdBJSCT0koTkFtaTXW4="
+          "hash": "LOvERUhYNnU8+7QbXu3pwDDDlGPb55EnGYEH5oTYMB8="
         }
       },
       "is_incremental": false,
@@ -2904,11 +2976,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StormHawks.Runtime.UI.HUD.PartsRader.yml",
+      "source_relative_path": "api/StormHawks.Runtime.UI.PartsRader.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StormHawks.Runtime.UI.HUD.PartsRader.html",
-          "hash": "SHlipZA1VP1rUd7Nyx5/jxYwGthFmlgaaFYU9Cen/uc="
+          "relative_path": "api/StormHawks.Runtime.UI.PartsRader.html",
+          "hash": "eMwVmvVEL+VZ17kCGRuHRCUtQQKhYC8LjNj20eCH5uU="
         }
       },
       "is_incremental": false,
@@ -2916,11 +2988,23 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StormHawks.Runtime.UI.HUD.yml",
+      "source_relative_path": "api/StormHawks.Runtime.UI.PitchBar.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StormHawks.Runtime.UI.HUD.html",
-          "hash": "Ct7iCID2K6LwVLAH6ea+Tn0oOM9ikKAWoLhZmKA2750="
+          "relative_path": "api/StormHawks.Runtime.UI.PitchBar.html",
+          "hash": "LQGwvZomV/+J+XeC5LLTESR5eF4qs4uCXTWrPfPSeG4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/StormHawks.Runtime.UI.PitchLadder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StormHawks.Runtime.UI.PitchLadder.html",
+          "hash": "b5Tm07QVKolwkb7oZNzdOXRjDOl8dOOt0hqQcyGb9Gc="
         }
       },
       "is_incremental": false,
@@ -2940,11 +3024,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/StormHawks.Runtime.UI.YawCompass.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StormHawks.Runtime.UI.YawCompass.html",
+          "hash": "x6melURO8xsPlaycDHOZiHrvNwzgp33WbucT747wal0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/StormHawks.Runtime.UI.yml",
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.UI.html",
-          "hash": "trVI4dr6fjyv7G9E4Bt+9mhZ0gwATe5aiT7yj4CYWvY="
+          "hash": "T/4p1puo2pfXBaJS5635wFvLq3W1NtlRUXlbVJvTkoU="
         }
       },
       "is_incremental": false,
@@ -4000,7 +4096,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "xdhhEqnAINUkm9zwuCdnKeYjfKeFv3fZUVQRSa/sUHg="
+          "hash": "vqbgqhFwq4tqkgBR/gDiHgzCBTL3G4julm/gKB4uPkc="
         }
       },
       "is_incremental": false,
@@ -4201,7 +4297,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 331,
+          "total_file_count": 339,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

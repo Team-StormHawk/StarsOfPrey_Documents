@@ -1247,17 +1247,17 @@
   "api/StormHawks.Runtime.Players.html": {
     "href": "api/StormHawks.Runtime.Players.html",
     "title": "Namespace StormHawks.Runtime.Players | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Players Classes PlayerMovementConfigSO PlayerMovementStateSO PlayerMover PlayerRotator"
+    "keywords": "Namespace StormHawks.Runtime.Players Classes PlayerContext PlayerMovementConfigSO PlayerMover PlayerRotator"
+  },
+  "api/StormHawks.Runtime.Players.PlayerContext.html": {
+    "href": "api/StormHawks.Runtime.Players.PlayerContext.html",
+    "title": "Class PlayerContext | Developer Reference",
+    "keywords": "Class PlayerContext Inheritance Object PlayerContext Namespace : StormHawks.Runtime.Players Assembly : cs.temp.dll.dll Syntax public class PlayerContext : ScriptableObject Properties Position Declaration public Vector3 Position { get; } Property Value Type Description Vector3 Rigidbody Declaration public Rigidbody Rigidbody { get; } Property Value Type Description Rigidbody Transform Declaration public Transform Transform { get; } Property Value Type Description Transform Velocity Declaration public Vector3 Velocity { get; } Property Value Type Description Vector3 Methods Initialize(Transform, Rigidbody) Declaration public void Initialize(Transform trs, Rigidbody rig) Parameters Type Name Description Transform trs Rigidbody rig"
   },
   "api/StormHawks.Runtime.Players.PlayerMovementConfigSO.html": {
     "href": "api/StormHawks.Runtime.Players.PlayerMovementConfigSO.html",
     "title": "Class PlayerMovementConfigSO | Developer Reference",
     "keywords": "Class PlayerMovementConfigSO Inheritance Object PlayerMovementConfigSO Namespace : StormHawks.Runtime.Players Assembly : cs.temp.dll.dll Syntax public class PlayerMovementConfigSO : ScriptableObject Properties IdleThrust Declaration public float IdleThrust { get; } Property Value Type Description Single MaxThrust Declaration public float MaxThrust { get; } Property Value Type Description Single MinThrust Declaration public float MinThrust { get; } Property Value Type Description Single PitchTorque Declaration public float PitchTorque { get; } Property Value Type Description Single RollTorque Declaration public float RollTorque { get; } Property Value Type Description Single ThrustAccelerateTime Declaration public float ThrustAccelerateTime { get; } Property Value Type Description Single ThrustDecelerationTime Declaration public float ThrustDecelerationTime { get; } Property Value Type Description Single TorqueChangeTime Declaration public float TorqueChangeTime { get; } Property Value Type Description Single VelocityChangeThreshold Declaration public float VelocityChangeThreshold { get; } Property Value Type Description Single VelocityChangeTime Declaration public float VelocityChangeTime { get; } Property Value Type Description Single YawTorque Declaration public float YawTorque { get; } Property Value Type Description Single"
-  },
-  "api/StormHawks.Runtime.Players.PlayerMovementStateSO.html": {
-    "href": "api/StormHawks.Runtime.Players.PlayerMovementStateSO.html",
-    "title": "Class PlayerMovementStateSO | Developer Reference",
-    "keywords": "Class PlayerMovementStateSO Inheritance Object PlayerMovementStateSO Namespace : StormHawks.Runtime.Players Assembly : cs.temp.dll.dll Syntax public class PlayerMovementStateSO : ScriptableObject Properties Position Declaration public Vector3 Position { get; } Property Value Type Description Vector3 Velocity Declaration public Vector3 Velocity { get; } Property Value Type Description Vector3 Methods SetPosition(Vector3) Declaration public void SetPosition(Vector3 position) Parameters Type Name Description Vector3 position SetVelocity(Vector3) Declaration public void SetVelocity(Vector3 velocity) Parameters Type Name Description Vector3 velocity"
   },
   "api/StormHawks.Runtime.Players.PlayerMover.html": {
     "href": "api/StormHawks.Runtime.Players.PlayerMover.html",
@@ -1432,7 +1432,7 @@
   "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.html": {
     "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.html",
     "title": "Namespace StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions Classes ArriveAction 특정 목표 지점까지 Arrive하는 액션 Slowdown범위 안에 들어오면 속도를 점점 줄이고, Stop범위까지 들어오게 된다면, 멈춤. AvoidObstacleAction EnemyGroupInterfereWithPlayer EntityActionNode Entity가 사용할 기본 ActionNode EntitySteerActionNode FireAutomaticShotNode FireHomingMissileNode FireInterruptedShotNode FireLaserNode FirePredictShotNode FlashToPlayer FleeAction 특정 타겟으로부터 도망침. FlockingAction FollowToPlayer IncrementFloatProperty LookAt MoveDirection MoveForwardNode MoveToBossAction PlayParticle ReleaseAggressive RequireEnemyGroup RotateNode ScaleNode SeekAction InterctionTargetType를 향해 이동함. SelectEnemyGroupBy SetAggroTarget Aggro를 할 타겟을 설정함. SetAggroTargetInEnemyGroup SetAggroTargetToPlayer SetBoolProperty SetFloatProperty WanderNode 랜덤한 위치로 이동함."
+    "keywords": "Namespace StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions Classes ArriveAction 특정 목표 지점까지 Arrive하는 액션 Slowdown범위 안에 들어오면 속도를 점점 줄이고, Stop범위까지 들어오게 된다면, 멈춤. AvoidObstacleAction EnemyGroupInterfereWithPlayer EntityActionNode Entity가 사용할 기본 ActionNode EntitySteerActionNode FireAutomaticShotNode FireHomingMissileNode FireInterruptedShotNode FireLaserNode FirePredictShotNode FlashToPlayer FleeAction 특정 타겟으로부터 도망침. FlockingAction FollowToPlayer IncrementFloatProperty LookAt MoveDirection MoveForwardNode MoveToBossAction PlayParticle ReleaseAggressive RequireEnemyGroup RotateNode ScaleNode SeekAction InterctionTargetType를 향해 이동함. SelectEnemyGroupInPlayerFOV SetAggroTarget Aggro를 할 타겟을 설정함. SetAggroTargetInEnemyGroup SetAggroTargetToPlayer SetBoolProperty SetFloatProperty WanderNode 랜덤한 위치로 이동함."
   },
   "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.IncrementFloatProperty.html": {
     "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.IncrementFloatProperty.html",
@@ -1489,10 +1489,10 @@
     "title": "Class SeekAction | Developer Reference",
     "keywords": "Class SeekAction InterctionTargetType를 향해 이동함. Inheritance Object EntityActionNode EntitySteerActionNode SeekAction Inherited Members EntitySteerActionNode._entity EntitySteerActionNode._rigidbody EntityActionNode._rotator EntityActionNode._runnerTransform EntityActionNode.OnInitialize() Namespace : StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions Assembly : cs.temp.dll.dll Syntax [Serializable] public class SeekAction : EntitySteerActionNode Methods Abort() Declaration public override void Abort() Initialize(BehaviorTreeRunner) Declaration public override void Initialize(BehaviorTreeRunner runner) Parameters Type Name Description BehaviorTreeRunner runner Overrides EntitySteerActionNode.Initialize(BehaviorTreeRunner) OnEnter() Declaration protected override void OnEnter() OnRun() Declaration protected override BehaviorNodeState OnRun() Returns Type Description BehaviorNodeState"
   },
-  "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SelectEnemyGroupBy.html": {
-    "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SelectEnemyGroupBy.html",
-    "title": "Class SelectEnemyGroupBy | Developer Reference",
-    "keywords": "Class SelectEnemyGroupBy Inheritance Object SelectEnemyGroupBy Namespace : StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions Assembly : cs.temp.dll.dll Syntax [Serializable] public class SelectEnemyGroupBy : ActionNode Methods OnRun() Declaration protected override BehaviorNodeState OnRun() Returns Type Description BehaviorNodeState"
+  "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SelectEnemyGroupInPlayerFOV.html": {
+    "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SelectEnemyGroupInPlayerFOV.html",
+    "title": "Class SelectEnemyGroupInPlayerFOV | Developer Reference",
+    "keywords": "Class SelectEnemyGroupInPlayerFOV Inheritance Object SelectEnemyGroupInPlayerFOV Namespace : StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions Assembly : cs.temp.dll.dll Syntax [Serializable] public class SelectEnemyGroupInPlayerFOV : ActionNode Methods OnRun() Declaration protected override BehaviorNodeState OnRun() Returns Type Description BehaviorNodeState"
   },
   "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SetAggroTarget.html": {
     "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SetAggroTarget.html",
@@ -1507,7 +1507,7 @@
   "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SetAggroTargetToPlayer.html": {
     "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SetAggroTargetToPlayer.html",
     "title": "Class SetAggroTargetToPlayer | Developer Reference",
-    "keywords": "Class SetAggroTargetToPlayer Inheritance Object SetAggroTarget SetAggroTargetToPlayer Inherited Members SetAggroTarget._aggressive Namespace : StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions Assembly : cs.temp.dll.dll Syntax [Serializable] public class SetAggroTargetToPlayer : SetAggroTarget Methods OnEnter() Declaration protected override void OnEnter() Overrides SetAggroTarget.OnEnter() OnRun() Declaration protected override BehaviorNodeState OnRun() Returns Type Description BehaviorNodeState"
+    "keywords": "Class SetAggroTargetToPlayer Inheritance Object SetAggroTarget SetAggroTargetToPlayer Inherited Members SetAggroTarget._aggressive SetAggroTarget.OnEnter() Namespace : StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions Assembly : cs.temp.dll.dll Syntax [Serializable] public class SetAggroTargetToPlayer : SetAggroTarget Methods OnRun() Declaration protected override BehaviorNodeState OnRun() Returns Type Description BehaviorNodeState"
   },
   "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SetBoolProperty.html": {
     "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SetBoolProperty.html",

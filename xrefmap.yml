@@ -12507,6 +12507,77 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Players.Controllers.PlayerControlSettingSO.RollAngleNormalizeRange
   nameWithType: PlayerControlSettingSO.RollAngleNormalizeRange
+- uid: StormHawks.Runtime.Players.PlayerContext
+  name: PlayerContext
+  href: api/StormHawks.Runtime.Players.PlayerContext.html
+  commentId: T:StormHawks.Runtime.Players.PlayerContext
+  fullName: StormHawks.Runtime.Players.PlayerContext
+  nameWithType: PlayerContext
+- uid: StormHawks.Runtime.Players.PlayerContext.Initialize(Transform,Rigidbody)
+  name: Initialize(Transform, Rigidbody)
+  href: api/StormHawks.Runtime.Players.PlayerContext.html#StormHawks_Runtime_Players_PlayerContext_Initialize_Transform_Rigidbody_
+  commentId: M:StormHawks.Runtime.Players.PlayerContext.Initialize(Transform,Rigidbody)
+  fullName: StormHawks.Runtime.Players.PlayerContext.Initialize(Transform, Rigidbody)
+  nameWithType: PlayerContext.Initialize(Transform, Rigidbody)
+- uid: StormHawks.Runtime.Players.PlayerContext.Initialize*
+  name: Initialize
+  href: api/StormHawks.Runtime.Players.PlayerContext.html#StormHawks_Runtime_Players_PlayerContext_Initialize_
+  commentId: Overload:StormHawks.Runtime.Players.PlayerContext.Initialize
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Players.PlayerContext.Initialize
+  nameWithType: PlayerContext.Initialize
+- uid: StormHawks.Runtime.Players.PlayerContext.Position
+  name: Position
+  href: api/StormHawks.Runtime.Players.PlayerContext.html#StormHawks_Runtime_Players_PlayerContext_Position
+  commentId: P:StormHawks.Runtime.Players.PlayerContext.Position
+  fullName: StormHawks.Runtime.Players.PlayerContext.Position
+  nameWithType: PlayerContext.Position
+- uid: StormHawks.Runtime.Players.PlayerContext.Position*
+  name: Position
+  href: api/StormHawks.Runtime.Players.PlayerContext.html#StormHawks_Runtime_Players_PlayerContext_Position_
+  commentId: Overload:StormHawks.Runtime.Players.PlayerContext.Position
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Players.PlayerContext.Position
+  nameWithType: PlayerContext.Position
+- uid: StormHawks.Runtime.Players.PlayerContext.Rigidbody
+  name: Rigidbody
+  href: api/StormHawks.Runtime.Players.PlayerContext.html#StormHawks_Runtime_Players_PlayerContext_Rigidbody
+  commentId: P:StormHawks.Runtime.Players.PlayerContext.Rigidbody
+  fullName: StormHawks.Runtime.Players.PlayerContext.Rigidbody
+  nameWithType: PlayerContext.Rigidbody
+- uid: StormHawks.Runtime.Players.PlayerContext.Rigidbody*
+  name: Rigidbody
+  href: api/StormHawks.Runtime.Players.PlayerContext.html#StormHawks_Runtime_Players_PlayerContext_Rigidbody_
+  commentId: Overload:StormHawks.Runtime.Players.PlayerContext.Rigidbody
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Players.PlayerContext.Rigidbody
+  nameWithType: PlayerContext.Rigidbody
+- uid: StormHawks.Runtime.Players.PlayerContext.Transform
+  name: Transform
+  href: api/StormHawks.Runtime.Players.PlayerContext.html#StormHawks_Runtime_Players_PlayerContext_Transform
+  commentId: P:StormHawks.Runtime.Players.PlayerContext.Transform
+  fullName: StormHawks.Runtime.Players.PlayerContext.Transform
+  nameWithType: PlayerContext.Transform
+- uid: StormHawks.Runtime.Players.PlayerContext.Transform*
+  name: Transform
+  href: api/StormHawks.Runtime.Players.PlayerContext.html#StormHawks_Runtime_Players_PlayerContext_Transform_
+  commentId: Overload:StormHawks.Runtime.Players.PlayerContext.Transform
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Players.PlayerContext.Transform
+  nameWithType: PlayerContext.Transform
+- uid: StormHawks.Runtime.Players.PlayerContext.Velocity
+  name: Velocity
+  href: api/StormHawks.Runtime.Players.PlayerContext.html#StormHawks_Runtime_Players_PlayerContext_Velocity
+  commentId: P:StormHawks.Runtime.Players.PlayerContext.Velocity
+  fullName: StormHawks.Runtime.Players.PlayerContext.Velocity
+  nameWithType: PlayerContext.Velocity
+- uid: StormHawks.Runtime.Players.PlayerContext.Velocity*
+  name: Velocity
+  href: api/StormHawks.Runtime.Players.PlayerContext.html#StormHawks_Runtime_Players_PlayerContext_Velocity_
+  commentId: Overload:StormHawks.Runtime.Players.PlayerContext.Velocity
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Players.PlayerContext.Velocity
+  nameWithType: PlayerContext.Velocity
 - uid: StormHawks.Runtime.Players.PlayerMovementConfigSO
   name: PlayerMovementConfigSO
   href: api/StormHawks.Runtime.Players.PlayerMovementConfigSO.html
@@ -12656,64 +12727,6 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Players.PlayerMovementConfigSO.YawTorque
   nameWithType: PlayerMovementConfigSO.YawTorque
-- uid: StormHawks.Runtime.Players.PlayerMovementStateSO
-  name: PlayerMovementStateSO
-  href: api/StormHawks.Runtime.Players.PlayerMovementStateSO.html
-  commentId: T:StormHawks.Runtime.Players.PlayerMovementStateSO
-  fullName: StormHawks.Runtime.Players.PlayerMovementStateSO
-  nameWithType: PlayerMovementStateSO
-- uid: StormHawks.Runtime.Players.PlayerMovementStateSO.Position
-  name: Position
-  href: api/StormHawks.Runtime.Players.PlayerMovementStateSO.html#StormHawks_Runtime_Players_PlayerMovementStateSO_Position
-  commentId: P:StormHawks.Runtime.Players.PlayerMovementStateSO.Position
-  fullName: StormHawks.Runtime.Players.PlayerMovementStateSO.Position
-  nameWithType: PlayerMovementStateSO.Position
-- uid: StormHawks.Runtime.Players.PlayerMovementStateSO.Position*
-  name: Position
-  href: api/StormHawks.Runtime.Players.PlayerMovementStateSO.html#StormHawks_Runtime_Players_PlayerMovementStateSO_Position_
-  commentId: Overload:StormHawks.Runtime.Players.PlayerMovementStateSO.Position
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Players.PlayerMovementStateSO.Position
-  nameWithType: PlayerMovementStateSO.Position
-- uid: StormHawks.Runtime.Players.PlayerMovementStateSO.SetPosition(Vector3)
-  name: SetPosition(Vector3)
-  href: api/StormHawks.Runtime.Players.PlayerMovementStateSO.html#StormHawks_Runtime_Players_PlayerMovementStateSO_SetPosition_Vector3_
-  commentId: M:StormHawks.Runtime.Players.PlayerMovementStateSO.SetPosition(Vector3)
-  fullName: StormHawks.Runtime.Players.PlayerMovementStateSO.SetPosition(Vector3)
-  nameWithType: PlayerMovementStateSO.SetPosition(Vector3)
-- uid: StormHawks.Runtime.Players.PlayerMovementStateSO.SetPosition*
-  name: SetPosition
-  href: api/StormHawks.Runtime.Players.PlayerMovementStateSO.html#StormHawks_Runtime_Players_PlayerMovementStateSO_SetPosition_
-  commentId: Overload:StormHawks.Runtime.Players.PlayerMovementStateSO.SetPosition
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Players.PlayerMovementStateSO.SetPosition
-  nameWithType: PlayerMovementStateSO.SetPosition
-- uid: StormHawks.Runtime.Players.PlayerMovementStateSO.SetVelocity(Vector3)
-  name: SetVelocity(Vector3)
-  href: api/StormHawks.Runtime.Players.PlayerMovementStateSO.html#StormHawks_Runtime_Players_PlayerMovementStateSO_SetVelocity_Vector3_
-  commentId: M:StormHawks.Runtime.Players.PlayerMovementStateSO.SetVelocity(Vector3)
-  fullName: StormHawks.Runtime.Players.PlayerMovementStateSO.SetVelocity(Vector3)
-  nameWithType: PlayerMovementStateSO.SetVelocity(Vector3)
-- uid: StormHawks.Runtime.Players.PlayerMovementStateSO.SetVelocity*
-  name: SetVelocity
-  href: api/StormHawks.Runtime.Players.PlayerMovementStateSO.html#StormHawks_Runtime_Players_PlayerMovementStateSO_SetVelocity_
-  commentId: Overload:StormHawks.Runtime.Players.PlayerMovementStateSO.SetVelocity
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Players.PlayerMovementStateSO.SetVelocity
-  nameWithType: PlayerMovementStateSO.SetVelocity
-- uid: StormHawks.Runtime.Players.PlayerMovementStateSO.Velocity
-  name: Velocity
-  href: api/StormHawks.Runtime.Players.PlayerMovementStateSO.html#StormHawks_Runtime_Players_PlayerMovementStateSO_Velocity
-  commentId: P:StormHawks.Runtime.Players.PlayerMovementStateSO.Velocity
-  fullName: StormHawks.Runtime.Players.PlayerMovementStateSO.Velocity
-  nameWithType: PlayerMovementStateSO.Velocity
-- uid: StormHawks.Runtime.Players.PlayerMovementStateSO.Velocity*
-  name: Velocity
-  href: api/StormHawks.Runtime.Players.PlayerMovementStateSO.html#StormHawks_Runtime_Players_PlayerMovementStateSO_Velocity_
-  commentId: Overload:StormHawks.Runtime.Players.PlayerMovementStateSO.Velocity
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Players.PlayerMovementStateSO.Velocity
-  nameWithType: PlayerMovementStateSO.Velocity
 - uid: StormHawks.Runtime.Players.PlayerMover
   name: PlayerMover
   href: api/StormHawks.Runtime.Players.PlayerMover.html
@@ -14057,25 +14070,25 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SeekAction.OnRun
   nameWithType: SeekAction.OnRun
-- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SelectEnemyGroupBy
-  name: SelectEnemyGroupBy
-  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SelectEnemyGroupBy.html
-  commentId: T:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SelectEnemyGroupBy
-  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SelectEnemyGroupBy
-  nameWithType: SelectEnemyGroupBy
-- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SelectEnemyGroupBy.OnRun
+- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SelectEnemyGroupInPlayerFOV
+  name: SelectEnemyGroupInPlayerFOV
+  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SelectEnemyGroupInPlayerFOV.html
+  commentId: T:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SelectEnemyGroupInPlayerFOV
+  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SelectEnemyGroupInPlayerFOV
+  nameWithType: SelectEnemyGroupInPlayerFOV
+- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SelectEnemyGroupInPlayerFOV.OnRun
   name: OnRun()
-  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SelectEnemyGroupBy.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_SelectEnemyGroupBy_OnRun
-  commentId: M:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SelectEnemyGroupBy.OnRun
-  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SelectEnemyGroupBy.OnRun()
-  nameWithType: SelectEnemyGroupBy.OnRun()
-- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SelectEnemyGroupBy.OnRun*
+  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SelectEnemyGroupInPlayerFOV.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_SelectEnemyGroupInPlayerFOV_OnRun
+  commentId: M:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SelectEnemyGroupInPlayerFOV.OnRun
+  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SelectEnemyGroupInPlayerFOV.OnRun()
+  nameWithType: SelectEnemyGroupInPlayerFOV.OnRun()
+- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SelectEnemyGroupInPlayerFOV.OnRun*
   name: OnRun
-  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SelectEnemyGroupBy.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_SelectEnemyGroupBy_OnRun_
-  commentId: Overload:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SelectEnemyGroupBy.OnRun
+  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SelectEnemyGroupInPlayerFOV.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_SelectEnemyGroupInPlayerFOV_OnRun_
+  commentId: Overload:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SelectEnemyGroupInPlayerFOV.OnRun
   isSpec: "True"
-  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SelectEnemyGroupBy.OnRun
-  nameWithType: SelectEnemyGroupBy.OnRun
+  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SelectEnemyGroupInPlayerFOV.OnRun
+  nameWithType: SelectEnemyGroupInPlayerFOV.OnRun
 - uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SetAggroTarget
   name: SetAggroTarget
   href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SetAggroTarget.html
@@ -14126,19 +14139,6 @@ references:
   commentId: T:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SetAggroTargetToPlayer
   fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SetAggroTargetToPlayer
   nameWithType: SetAggroTargetToPlayer
-- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SetAggroTargetToPlayer.OnEnter
-  name: OnEnter()
-  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SetAggroTargetToPlayer.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_SetAggroTargetToPlayer_OnEnter
-  commentId: M:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SetAggroTargetToPlayer.OnEnter
-  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SetAggroTargetToPlayer.OnEnter()
-  nameWithType: SetAggroTargetToPlayer.OnEnter()
-- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SetAggroTargetToPlayer.OnEnter*
-  name: OnEnter
-  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SetAggroTargetToPlayer.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_SetAggroTargetToPlayer_OnEnter_
-  commentId: Overload:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SetAggroTargetToPlayer.OnEnter
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SetAggroTargetToPlayer.OnEnter
-  nameWithType: SetAggroTargetToPlayer.OnEnter
 - uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SetAggroTargetToPlayer.OnRun
   name: OnRun()
   href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SetAggroTargetToPlayer.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_SetAggroTargetToPlayer_OnRun

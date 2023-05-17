@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class EnemyBullet
+    <title>Class FireLaserToTargetNode
    | Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class EnemyBullet
+    <meta name="title" content="Class FireLaserToTargetNode
    | Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -78,56 +78,95 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Entities.Enemies.Bullets.EnemyBullet">
+            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.FireLaserToTargetNode">
   
   
-  <h1 id="StormHawks_Runtime_Entities_Enemies_Bullets_EnemyBullet" data-uid="StormHawks.Runtime.Entities.Enemies.Bullets.EnemyBullet" class="text-break">Class EnemyBullet
+  <h1 id="StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_FireLaserToTargetNode" data-uid="StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.FireLaserToTargetNode" class="text-break">Class FireLaserToTargetNode
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">EnemyBullet</span></div>
+    <div class="level1"><a class="xref" href="StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EntityActionNode.html">EntityActionNode</a></div>
+    <div class="level2"><span class="xref">FireLaserToTargetNode</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Entities.Enemies.Bullets.html">StormHawks.Runtime.Entities.Enemies.Bullets</a></h6>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EntityActionNode.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_EntityActionNode__rotator">EntityActionNode._rotator</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EntityActionNode.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_EntityActionNode__runnerTransform">EntityActionNode._runnerTransform</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EntityActionNode.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_EntityActionNode_OnInitialize">EntityActionNode.OnInitialize()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.html">StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="StormHawks_Runtime_Entities_Enemies_Bullets_EnemyBullet_syntax">Syntax</h5>
+  <h5 id="StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_FireLaserToTargetNode_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class EnemyBullet : Projectile</code></pre>
+    <pre><code class="lang-csharp hljs">[Serializable]
+public class FireLaserToTargetNode : EntityActionNode</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="StormHawks_Runtime_Entities_Enemies_Bullets_EnemyBullet_Awake_" data-uid="StormHawks.Runtime.Entities.Enemies.Bullets.EnemyBullet.Awake*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Enemies_Bullets_EnemyBullet_Awake" data-uid="StormHawks.Runtime.Entities.Enemies.Bullets.EnemyBullet.Awake">Awake()</h4>
+  <a id="StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_FireLaserToTargetNode_Abort_" data-uid="StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.FireLaserToTargetNode.Abort*"></a>
+  <h4 id="StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_FireLaserToTargetNode_Abort" data-uid="StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.FireLaserToTargetNode.Abort">Abort()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void Awake()</code></pre>
+    <pre><code class="lang-csharp hljs">public override void Abort()</code></pre>
   </div>
   
   
-  <a id="StormHawks_Runtime_Entities_Enemies_Bullets_EnemyBullet_OnRelease_" data-uid="StormHawks.Runtime.Entities.Enemies.Bullets.EnemyBullet.OnRelease*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Enemies_Bullets_EnemyBullet_OnRelease" data-uid="StormHawks.Runtime.Entities.Enemies.Bullets.EnemyBullet.OnRelease">OnRelease()</h4>
+  <a id="StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_FireLaserToTargetNode_OnEnter_" data-uid="StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.FireLaserToTargetNode.OnEnter*"></a>
+  <h4 id="StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_FireLaserToTargetNode_OnEnter" data-uid="StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.FireLaserToTargetNode.OnEnter">OnEnter()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void OnRelease()</code></pre>
+    <pre><code class="lang-csharp hljs">protected override void OnEnter()</code></pre>
   </div>
   
   
-  <a id="StormHawks_Runtime_Entities_Enemies_Bullets_EnemyBullet_OnSpawn_" data-uid="StormHawks.Runtime.Entities.Enemies.Bullets.EnemyBullet.OnSpawn*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Enemies_Bullets_EnemyBullet_OnSpawn" data-uid="StormHawks.Runtime.Entities.Enemies.Bullets.EnemyBullet.OnSpawn">OnSpawn()</h4>
+  <a id="StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_FireLaserToTargetNode_OnExit_" data-uid="StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.FireLaserToTargetNode.OnExit*"></a>
+  <h4 id="StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_FireLaserToTargetNode_OnExit" data-uid="StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.FireLaserToTargetNode.OnExit">OnExit()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void OnSpawn()</code></pre>
+    <pre><code class="lang-csharp hljs">protected override void OnExit()</code></pre>
   </div>
+  
+  
+  <a id="StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_FireLaserToTargetNode_OnRun_" data-uid="StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.FireLaserToTargetNode.OnRun*"></a>
+  <h4 id="StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_FireLaserToTargetNode_OnRun" data-uid="StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.FireLaserToTargetNode.OnRun">OnRun()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override BehaviorNodeState OnRun()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">BehaviorNodeState</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           

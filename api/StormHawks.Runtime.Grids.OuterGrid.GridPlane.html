@@ -107,7 +107,7 @@ public class GridPlane</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GridPlane(Vector3 centerPosition, Vector2 size, int cellCount)</code></pre>
+    <pre><code class="lang-csharp hljs">public GridPlane(Vector3 centerPosition, Vector2 scale, int cellCount)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -126,7 +126,7 @@ public class GridPlane</code></pre>
       </tr>
       <tr>
         <td><span class="xref">Vector2</span></td>
-        <td><span class="parametername">size</span></td>
+        <td><span class="parametername">scale</span></td>
         <td></td>
       </tr>
       <tr>
@@ -159,6 +159,31 @@ public class GridPlane</code></pre>
     <tbody>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StormHawks_Runtime_Grids_OuterGrid_GridPlane_Position_" data-uid="StormHawks.Runtime.Grids.OuterGrid.GridPlane.Position*"></a>
+  <h4 id="StormHawks_Runtime_Grids_OuterGrid_GridPlane_Position" data-uid="StormHawks.Runtime.Grids.OuterGrid.GridPlane.Position">Position</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 Position { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -210,6 +235,73 @@ public class GridPlane</code></pre>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void Draw()</code></pre>
   </div>
+  
+  
+  <a id="StormHawks_Runtime_Grids_OuterGrid_GridPlane_GetBoundingBox_" data-uid="StormHawks.Runtime.Grids.OuterGrid.GridPlane.GetBoundingBox*"></a>
+  <h4 id="StormHawks_Runtime_Grids_OuterGrid_GridPlane_GetBoundingBox" data-uid="StormHawks.Runtime.Grids.OuterGrid.GridPlane.GetBoundingBox">GetBoundingBox()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Bounds GetBoundingBox()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Bounds</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StormHawks_Runtime_Grids_OuterGrid_GridPlane_GetVectorsOverBound_" data-uid="StormHawks.Runtime.Grids.OuterGrid.GridPlane.GetVectorsOverBound*"></a>
+  <h4 id="StormHawks_Runtime_Grids_OuterGrid_GridPlane_GetVectorsOverBound_System_Single_" data-uid="StormHawks.Runtime.Grids.OuterGrid.GridPlane.GetVectorsOverBound(System.Single)">GetVectorsOverBound(Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3[] GetVectorsOverBound(float angle)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">angle</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector3</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="StormHawks_Runtime_Grids_OuterGrid_GridPlane_MoveVertices_" data-uid="StormHawks.Runtime.Grids.OuterGrid.GridPlane.MoveVertices*"></a>

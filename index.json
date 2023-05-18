@@ -642,7 +642,7 @@
   "api/StormHawks.Runtime.Effects.html": {
     "href": "api/StormHawks.Runtime.Effects.html",
     "title": "Namespace StormHawks.Runtime.Effects | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Effects Classes PHExplosionEffect PHFireEffect ShieldRippleEffect"
+    "keywords": "Namespace StormHawks.Runtime.Effects Classes PHExplosionEffect PHFireEffect ShieldRippleEffect WarningPlane"
   },
   "api/StormHawks.Runtime.Effects.PHExplosionEffect.html": {
     "href": "api/StormHawks.Runtime.Effects.PHExplosionEffect.html",
@@ -658,6 +658,11 @@
     "href": "api/StormHawks.Runtime.Effects.ShieldRippleEffect.html",
     "title": "Class ShieldRippleEffect | Developer Reference",
     "keywords": "Class ShieldRippleEffect Inheritance Object ShieldRippleEffect Namespace : StormHawks.Runtime.Effects Assembly : cs.temp.dll.dll Syntax public class ShieldRippleEffect : MonoBehaviour Methods SetSphereCenter(Vector3) Declaration public void SetSphereCenter(Vector3 dir) Parameters Type Name Description Vector3 dir"
+  },
+  "api/StormHawks.Runtime.Effects.WarningPlane.html": {
+    "href": "api/StormHawks.Runtime.Effects.WarningPlane.html",
+    "title": "Class WarningPlane | Developer Reference",
+    "keywords": "Class WarningPlane Inheritance Object WarningPlane Namespace : StormHawks.Runtime.Effects Assembly : cs.temp.dll.dll Syntax public class WarningPlane : MonoBehaviour Methods PlayEffect(Transform, Single, Vector3, Single, Single, Ease) Declaration public void PlayEffect(Transform weaponTransform, float length, Vector3 center, float angle, float duration, Ease ease) Parameters Type Name Description Transform weaponTransform Single length Vector3 center Single angle Single duration Ease ease ResetEffect() Declaration public void ResetEffect()"
   },
   "api/StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.html": {
     "href": "api/StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.html",
@@ -932,7 +937,7 @@
   "api/StormHawks.Runtime.Entities.Weapons.EntityLaserWeapon.html": {
     "href": "api/StormHawks.Runtime.Entities.Weapons.EntityLaserWeapon.html",
     "title": "Class EntityLaserWeapon | Developer Reference",
-    "keywords": "Class EntityLaserWeapon Inheritance Object EntityWeapon EntityLaserWeapon Inherited Members EntityWeapon.FmodEvent EntityWeapon.IsFiring EntityWeapon.VirtualTarget EntityWeapon.OnEnable() EntityWeapon.OnDisable() EntityWeapon.OnDestroy() EntityWeapon.SetWeapon(IEntityFire) EntityWeapon.Fire() EntityWeapon.Cancel() Namespace : StormHawks.Runtime.Entities.Weapons Assembly : cs.temp.dll.dll Syntax public class EntityLaserWeapon : EntityWeapon Properties LineRenderer Declaration public LineRenderer LineRenderer { get; } Property Value Type Description LineRenderer Methods GetMuzzleEffects() Declaration public override ParticleSystem[] GetMuzzleEffects() Returns Type Description ParticleSystem [] Overrides EntityWeapon.GetMuzzleEffects() Start() Declaration protected override void Start() Overrides EntityWeapon.Start()"
+    "keywords": "Class EntityLaserWeapon Inheritance Object EntityWeapon EntityLaserWeapon Inherited Members EntityWeapon.FmodEvent EntityWeapon.IsFiring EntityWeapon.VirtualTarget EntityWeapon.OnEnable() EntityWeapon.OnDisable() EntityWeapon.OnDestroy() EntityWeapon.SetWeapon(IEntityFire) EntityWeapon.Fire() EntityWeapon.Cancel() Namespace : StormHawks.Runtime.Entities.Weapons Assembly : cs.temp.dll.dll Syntax public class EntityLaserWeapon : EntityWeapon Properties LineRenderer Declaration public LineRenderer LineRenderer { get; } Property Value Type Description LineRenderer WarningPlane Declaration public WarningPlane WarningPlane { get; } Property Value Type Description WarningPlane Methods GetMuzzleEffects() Declaration public override ParticleSystem[] GetMuzzleEffects() Returns Type Description ParticleSystem [] Overrides EntityWeapon.GetMuzzleEffects() Start() Declaration protected override void Start() Overrides EntityWeapon.Start()"
   },
   "api/StormHawks.Runtime.Entities.Weapons.EntityProjectileWeapon.html": {
     "href": "api/StormHawks.Runtime.Entities.Weapons.EntityProjectileWeapon.html",
@@ -997,32 +1002,37 @@
   "api/StormHawks.Runtime.Grids.html": {
     "href": "api/StormHawks.Runtime.Grids.html",
     "title": "Namespace StormHawks.Runtime.Grids | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Grids Classes OuterGrid OuterGrid.GridPlane Path Structs PathPosition Enums PlaneType"
+    "keywords": "Namespace StormHawks.Runtime.Grids Classes OuterGrid OuterGrid.GridPlane Path Vertices Structs VertexPosition Enums PlaneType"
   },
   "api/StormHawks.Runtime.Grids.OuterGrid.GridPlane.html": {
     "href": "api/StormHawks.Runtime.Grids.OuterGrid.GridPlane.html",
     "title": "Class OuterGrid.GridPlane | Developer Reference",
-    "keywords": "Class OuterGrid.GridPlane Inheritance Object OuterGrid.GridPlane Namespace : StormHawks.Runtime.Grids Assembly : cs.temp.dll.dll Syntax [Serializable] public class GridPlane Constructors GridPlane(Vector3, Vector2, Int32) Declaration public GridPlane(Vector3 centerPosition, Vector2 size, int cellCount) Parameters Type Name Description Vector3 centerPosition Vector2 size Int32 cellCount Properties CellCount Declaration public int CellCount { get; } Property Value Type Description Int32 Vertices Declaration public Vector3[, ] Vertices { get; } Property Value Type Description Vector3 [,] Methods AlignVertices() Declaration public void AlignVertices() Draw() Declaration public void Draw() MoveVertices(Vector3) Declaration public void MoveVertices(Vector3 translate) Parameters Type Name Description Vector3 translate RotateVertices(Quaternion, Vector3) Declaration public void RotateVertices(Quaternion rotation, Vector3 pivot) Parameters Type Name Description Quaternion rotation Vector3 pivot"
+    "keywords": "Class OuterGrid.GridPlane Inheritance Object OuterGrid.GridPlane Namespace : StormHawks.Runtime.Grids Assembly : cs.temp.dll.dll Syntax [Serializable] public class GridPlane Constructors GridPlane(Vector3, Vector2, Int32) Declaration public GridPlane(Vector3 centerPosition, Vector2 scale, int cellCount) Parameters Type Name Description Vector3 centerPosition Vector2 scale Int32 cellCount Properties CellCount Declaration public int CellCount { get; } Property Value Type Description Int32 Position Declaration public Vector3 Position { get; } Property Value Type Description Vector3 Vertices Declaration public Vector3[, ] Vertices { get; } Property Value Type Description Vector3 [,] Methods AlignVertices() Declaration public void AlignVertices() Draw() Declaration public void Draw() GetBoundingBox() Declaration public Bounds GetBoundingBox() Returns Type Description Bounds GetVectorsOverBound(Single) Declaration public Vector3[] GetVectorsOverBound(float angle) Parameters Type Name Description Single angle Returns Type Description Vector3 [] MoveVertices(Vector3) Declaration public void MoveVertices(Vector3 translate) Parameters Type Name Description Vector3 translate RotateVertices(Quaternion, Vector3) Declaration public void RotateVertices(Quaternion rotation, Vector3 pivot) Parameters Type Name Description Quaternion rotation Vector3 pivot"
   },
   "api/StormHawks.Runtime.Grids.OuterGrid.html": {
     "href": "api/StormHawks.Runtime.Grids.OuterGrid.html",
     "title": "Class OuterGrid | Developer Reference",
-    "keywords": "Class OuterGrid Inheritance Object OuterGrid Namespace : StormHawks.Runtime.Grids Assembly : cs.temp.dll.dll Syntax public class OuterGrid : MonoBehaviour Properties BackGridPlane Declaration public OuterGrid.GridPlane BackGridPlane { get; } Property Value Type Description OuterGrid.GridPlane CellCount Declaration public int CellCount { get; } Property Value Type Description Int32 DownGridPlane Declaration public OuterGrid.GridPlane DownGridPlane { get; } Property Value Type Description OuterGrid.GridPlane FrontGridPlane Declaration public OuterGrid.GridPlane FrontGridPlane { get; } Property Value Type Description OuterGrid.GridPlane LeftGridPlane Declaration public OuterGrid.GridPlane LeftGridPlane { get; } Property Value Type Description OuterGrid.GridPlane RightGridPlane Declaration public OuterGrid.GridPlane RightGridPlane { get; } Property Value Type Description OuterGrid.GridPlane UpGridPlane Declaration public OuterGrid.GridPlane UpGridPlane { get; } Property Value Type Description OuterGrid.GridPlane Methods GetBackLeftDown() Declaration public Vector3 GetBackLeftDown() Returns Type Description Vector3 GetBackLeftUp() Declaration public Vector3 GetBackLeftUp() Returns Type Description Vector3 GetBackRightDown() Declaration public Vector3 GetBackRightDown() Returns Type Description Vector3 GetBackRightUp() Declaration public Vector3 GetBackRightUp() Returns Type Description Vector3 GetForwardLeftDown() Declaration public Vector3 GetForwardLeftDown() Returns Type Description Vector3 GetForwardLeftUp() Declaration public Vector3 GetForwardLeftUp() Returns Type Description Vector3 GetForwardRightDown() Declaration public Vector3 GetForwardRightDown() Returns Type Description Vector3 GetForwardRightUp() Declaration public Vector3 GetForwardRightUp() Returns Type Description Vector3"
+    "keywords": "Class OuterGrid Inheritance Object OuterGrid Namespace : StormHawks.Runtime.Grids Assembly : cs.temp.dll.dll Syntax public class OuterGrid : MonoBehaviour Properties BackGridPlane Declaration public OuterGrid.GridPlane BackGridPlane { get; } Property Value Type Description OuterGrid.GridPlane CellCount Declaration public int CellCount { get; } Property Value Type Description Int32 CenterPosition Declaration public Vector3 CenterPosition { get; } Property Value Type Description Vector3 DownGridPlane Declaration public OuterGrid.GridPlane DownGridPlane { get; } Property Value Type Description OuterGrid.GridPlane FrontGridPlane Declaration public OuterGrid.GridPlane FrontGridPlane { get; } Property Value Type Description OuterGrid.GridPlane LeftGridPlane Declaration public OuterGrid.GridPlane LeftGridPlane { get; } Property Value Type Description OuterGrid.GridPlane RightGridPlane Declaration public OuterGrid.GridPlane RightGridPlane { get; } Property Value Type Description OuterGrid.GridPlane UpGridPlane Declaration public OuterGrid.GridPlane UpGridPlane { get; } Property Value Type Description OuterGrid.GridPlane XSize Declaration public float XSize { get; } Property Value Type Description Single ZSize Declaration public float ZSize { get; } Property Value Type Description Single Methods GetBackLeftDown() Declaration public Vector3 GetBackLeftDown() Returns Type Description Vector3 GetBackLeftUp() Declaration public Vector3 GetBackLeftUp() Returns Type Description Vector3 GetBackRightDown() Declaration public Vector3 GetBackRightDown() Returns Type Description Vector3 GetBackRightUp() Declaration public Vector3 GetBackRightUp() Returns Type Description Vector3 GetForwardLeftDown() Declaration public Vector3 GetForwardLeftDown() Returns Type Description Vector3 GetForwardLeftUp() Declaration public Vector3 GetForwardLeftUp() Returns Type Description Vector3 GetForwardRightDown() Declaration public Vector3 GetForwardRightDown() Returns Type Description Vector3 GetForwardRightUp() Declaration public Vector3 GetForwardRightUp() Returns Type Description Vector3"
   },
   "api/StormHawks.Runtime.Grids.Path.html": {
     "href": "api/StormHawks.Runtime.Grids.Path.html",
     "title": "Class Path | Developer Reference",
     "keywords": "Class Path Inheritance Object Path Namespace : StormHawks.Runtime.Grids Assembly : cs.temp.dll.dll Syntax [Serializable] public class Path Properties Ease Declaration public Ease Ease { get; } Property Value Type Description Ease Type Declaration public PathType Type { get; } Property Value Type Description PathType Methods GetPositions(OuterGrid) Declaration public Vector3[] GetPositions(OuterGrid grid) Parameters Type Name Description OuterGrid grid Returns Type Description Vector3 []"
   },
-  "api/StormHawks.Runtime.Grids.PathPosition.html": {
-    "href": "api/StormHawks.Runtime.Grids.PathPosition.html",
-    "title": "Struct PathPosition | Developer Reference",
-    "keywords": "Struct PathPosition Namespace : StormHawks.Runtime.Grids Assembly : cs.temp.dll.dll Syntax [Serializable] public struct PathPosition Methods GetPlaneType() Declaration public PlaneType GetPlaneType() Returns Type Description PlaneType GetPosition() Declaration public Vector2Int GetPosition() Returns Type Description Vector2Int"
-  },
   "api/StormHawks.Runtime.Grids.PlaneType.html": {
     "href": "api/StormHawks.Runtime.Grids.PlaneType.html",
     "title": "Enum PlaneType | Developer Reference",
     "keywords": "Enum PlaneType Namespace : StormHawks.Runtime.Grids Assembly : cs.temp.dll.dll Syntax public enum PlaneType Fields Name Description Back Down Front Left Right Up"
+  },
+  "api/StormHawks.Runtime.Grids.VertexPosition.html": {
+    "href": "api/StormHawks.Runtime.Grids.VertexPosition.html",
+    "title": "Struct VertexPosition | Developer Reference",
+    "keywords": "Struct VertexPosition Namespace : StormHawks.Runtime.Grids Assembly : cs.temp.dll.dll Syntax [Serializable] public struct VertexPosition Methods GetPlaneType() Declaration public PlaneType GetPlaneType() Returns Type Description PlaneType GetPosition() Declaration public Vector2Int GetPosition() Returns Type Description Vector2Int"
+  },
+  "api/StormHawks.Runtime.Grids.Vertices.html": {
+    "href": "api/StormHawks.Runtime.Grids.Vertices.html",
+    "title": "Class Vertices | Developer Reference",
+    "keywords": "Class Vertices Inheritance Object Vertices Namespace : StormHawks.Runtime.Grids Assembly : cs.temp.dll.dll Syntax [Serializable] public class Vertices Methods GetPositions(OuterGrid) Declaration public Vector3[] GetPositions(OuterGrid grid) Parameters Type Name Description OuterGrid grid Returns Type Description Vector3 []"
   },
   "api/StormHawks.Runtime.Inputs.Players.ControllerInputHandler.ControllerInputDelegate.html": {
     "href": "api/StormHawks.Runtime.Inputs.Players.ControllerInputHandler.ControllerInputDelegate.html",
@@ -1439,6 +1449,16 @@
     "title": "Class AvoidObstacleAction | Developer Reference",
     "keywords": "Class AvoidObstacleAction Inheritance Object EntityActionNode EntitySteerActionNode AvoidObstacleAction Inherited Members EntitySteerActionNode._entity EntitySteerActionNode._rigidbody EntitySteerActionNode.Initialize(BehaviorTreeRunner) EntityActionNode._rotator EntityActionNode._runnerTransform EntityActionNode.OnInitialize() Namespace : StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions Assembly : cs.temp.dll.dll Syntax [Serializable] public class AvoidObstacleAction : EntitySteerActionNode Methods Abort() Declaration public override void Abort() OnEnter() Declaration protected override void OnEnter() OnRun() Declaration protected override BehaviorNodeState OnRun() Returns Type Description BehaviorNodeState"
   },
+  "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BladeLaser.html": {
+    "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BladeLaser.html",
+    "title": "Class BladeLaser | Developer Reference",
+    "keywords": "Class BladeLaser Inheritance Object EntityActionNode BladeLaser Inherited Members EntityActionNode._rotator EntityActionNode._runnerTransform EntityActionNode.OnInitialize() Namespace : StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions Assembly : cs.temp.dll.dll Syntax [Serializable] public class BladeLaser : EntityActionNode Methods Abort() Declaration public override void Abort() OnEnter() Declaration protected override void OnEnter() OnExit() Declaration protected override void OnExit() OnRun() Declaration protected override BehaviorNodeState OnRun() Returns Type Description BehaviorNodeState"
+  },
+  "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BladeLaserToPlayer.html": {
+    "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BladeLaserToPlayer.html",
+    "title": "Class BladeLaserToPlayer | Developer Reference",
+    "keywords": "Class BladeLaserToPlayer Inheritance Object EntityActionNode BladeLaserToPlayer Inherited Members EntityActionNode._rotator EntityActionNode._runnerTransform EntityActionNode.OnInitialize() Namespace : StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions Assembly : cs.temp.dll.dll Syntax [Serializable] public class BladeLaserToPlayer : EntityActionNode Methods Abort() Declaration public override void Abort() OnEnter() Declaration protected override void OnEnter() OnExit() Declaration protected override void OnExit() OnRun() Declaration protected override BehaviorNodeState OnRun() Returns Type Description BehaviorNodeState"
+  },
   "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EnemyGroupInterfereWithPlayer.html": {
     "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EnemyGroupInterfereWithPlayer.html",
     "title": "Class EnemyGroupInterfereWithPlayer | Developer Reference",
@@ -1447,7 +1467,7 @@
   "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EntityActionNode.html": {
     "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EntityActionNode.html",
     "title": "Class EntityActionNode | Developer Reference",
-    "keywords": "Class EntityActionNode Entity가 사용할 기본 ActionNode Inheritance Object EntityActionNode EntitySteerActionNode FireAutomaticShotNode FireBulletToVirtualTarget FireFenceNode FireHomingMissileNode FireInterruptedShotNode FireLaserToTargetNode FireLaserToVirtualTarget FirePredictLaserNode FirePredictShotNode LookAt Namespace : StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions Assembly : cs.temp.dll.dll Syntax [Serializable] public abstract class EntityActionNode : ActionNode Fields _rotator Declaration protected IRotator _rotator Field Value Type Description IRotator _runnerTransform Declaration protected Transform _runnerTransform Field Value Type Description Transform Methods OnInitialize() Declaration protected override void OnInitialize()"
+    "keywords": "Class EntityActionNode Entity가 사용할 기본 ActionNode Inheritance Object EntityActionNode BladeLaser BladeLaserToPlayer EntitySteerActionNode FireAutomaticShotNode FireBulletToVirtualTarget FireFenceNode FireHomingMissileNode FireInterruptedShotNode FireLaserToTargetNode FireLaserToVirtualTarget FirePredictLaserNode FirePredictShotNode LookAt Namespace : StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions Assembly : cs.temp.dll.dll Syntax [Serializable] public abstract class EntityActionNode : ActionNode Fields _rotator Declaration protected IRotator _rotator Field Value Type Description IRotator _runnerTransform Declaration protected Transform _runnerTransform Field Value Type Description Transform Methods OnInitialize() Declaration protected override void OnInitialize()"
   },
   "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EntitySteerActionNode.html": {
     "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EntitySteerActionNode.html",
@@ -1522,7 +1542,7 @@
   "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.html": {
     "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.html",
     "title": "Namespace StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions Classes ArriveAction 특정 목표 지점까지 Arrive하는 액션 Slowdown범위 안에 들어오면 속도를 점점 줄이고, Stop범위까지 들어오게 된다면, 멈춤. AvoidObstacleAction EnemyGroupInterfereWithPlayer EntityActionNode Entity가 사용할 기본 ActionNode EntitySteerActionNode FireAutomaticShotNode FireBulletToVirtualTarget FireFenceNode FireHomingMissileNode FireInterruptedShotNode FireLaserToTargetNode FireLaserToVirtualTarget FirePredictLaserNode FirePredictShotNode FlashToPlayer FleeAction 특정 타겟으로부터 도망침. FlockingAction FollowToPlayer IncrementFloatProperty LookAt MoveDirection MoveForwardNode MoveToBossAction PlayParticle ReleaseAggressive RequireEnemyGroup RotateNode ScaleNode SeekAction InterctionTargetType를 향해 이동함. SelectEnemyGroupInPlayerFOV SetAggroTarget Aggro를 할 타겟을 설정함. SetAggroTargetInEnemyGroup SetAggroTargetToPlayer SetBoolProperty SetFloatProperty WanderNode 랜덤한 위치로 이동함."
+    "keywords": "Namespace StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions Classes ArriveAction 특정 목표 지점까지 Arrive하는 액션 Slowdown범위 안에 들어오면 속도를 점점 줄이고, Stop범위까지 들어오게 된다면, 멈춤. AvoidObstacleAction BladeLaser BladeLaserToPlayer EnemyGroupInterfereWithPlayer EntityActionNode Entity가 사용할 기본 ActionNode EntitySteerActionNode FireAutomaticShotNode FireBulletToVirtualTarget FireFenceNode FireHomingMissileNode FireInterruptedShotNode FireLaserToTargetNode FireLaserToVirtualTarget FirePredictLaserNode FirePredictShotNode FlashToPlayer FleeAction 특정 타겟으로부터 도망침. FlockingAction FollowToPlayer IncrementFloatProperty LookAt MoveDirection MoveForwardNode MoveToBossAction PlayParticle ReleaseAggressive RequireEnemyGroup RotateNode ScaleNode SeekAction InterctionTargetType를 향해 이동함. SelectEnemyGroupInPlayerFOV SetAggroTarget Aggro를 할 타겟을 설정함. SetAggroTargetInEnemyGroup SetAggroTargetToPlayer SetBoolProperty SetFloatProperty WanderNode 랜덤한 위치로 이동함."
   },
   "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.IncrementFloatProperty.html": {
     "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.IncrementFloatProperty.html",

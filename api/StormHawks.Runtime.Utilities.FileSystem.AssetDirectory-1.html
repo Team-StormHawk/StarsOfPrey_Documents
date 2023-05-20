@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class DetectorBase
+    <title>Class AssetDirectory&lt;T&gt;
    | Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class DetectorBase
+    <meta name="title" content="Class AssetDirectory&lt;T&gt;
    | Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -78,89 +78,51 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Detectors.DetectorBase">
+            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Utilities.FileSystem.AssetDirectory`1">
   
   
-  <h1 id="StormHawks_Runtime_Detectors_DetectorBase" data-uid="StormHawks.Runtime.Detectors.DetectorBase" class="text-break">Class DetectorBase
+  <h1 id="StormHawks_Runtime_Utilities_FileSystem_AssetDirectory_1" data-uid="StormHawks.Runtime.Utilities.FileSystem.AssetDirectory`1" class="text-break">Class AssetDirectory&lt;T&gt;
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">DetectorBase</span></div>
-      <div class="level2"><a class="xref" href="StormHawks.Runtime.Detectors.AngleDetector.html">AngleDetector</a></div>
-      <div class="level2"><a class="xref" href="StormHawks.Runtime.Detectors.BoxDetector.html">BoxDetector</a></div>
-      <div class="level2"><a class="xref" href="StormHawks.Runtime.Detectors.Handlers.LineDetector.html">LineDetector</a></div>
-      <div class="level2"><a class="xref" href="StormHawks.Runtime.Detectors.SphereDetector.html">SphereDetector</a></div>
+    <div class="level1"><span class="xref">AssetDirectory&lt;T&gt;</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Detectors.html">StormHawks.Runtime.Detectors</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Utilities.FileSystem.html">StormHawks.Runtime.Utilities.FileSystem</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="StormHawks_Runtime_Detectors_DetectorBase_syntax">Syntax</h5>
+  <h5 id="StormHawks_Runtime_Utilities_FileSystem_AssetDirectory_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class DetectorBase : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public class AssetDirectory&lt;T&gt;
+    where T : Object</code></pre>
   </div>
-  <h3 id="fields">Fields
-  </h3>
-  
-  
-  <h4 id="StormHawks_Runtime_Detectors_DetectorBase_detectLayer" data-uid="StormHawks.Runtime.Detectors.DetectorBase.detectLayer">detectLayer</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected LayerMask detectLayer</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">LayerMask</span></td>
+        <td><span class="parametername">T</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  
-  
-  <h4 id="StormHawks_Runtime_Detectors_DetectorBase_maxDetectCount" data-uid="StormHawks.Runtime.Detectors.DetectorBase.maxDetectCount">maxDetectCount</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected int maxDetectCount</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="methods">Methods
+  <h3 id="constructors">Constructors
   </h3>
   
   
-  <a id="StormHawks_Runtime_Detectors_DetectorBase_Detect_" data-uid="StormHawks.Runtime.Detectors.DetectorBase.Detect*"></a>
-  <h4 id="StormHawks_Runtime_Detectors_DetectorBase_Detect_HashSet_Collider___" data-uid="StormHawks.Runtime.Detectors.DetectorBase.Detect(HashSet{Collider}@)">Detect(ref HashSet&lt;Collider&gt;)</h4>
+  <a id="StormHawks_Runtime_Utilities_FileSystem_AssetDirectory_1__ctor_" data-uid="StormHawks.Runtime.Utilities.FileSystem.AssetDirectory`1.#ctor*"></a>
+  <h4 id="StormHawks_Runtime_Utilities_FileSystem_AssetDirectory_1__ctor_System_String_" data-uid="StormHawks.Runtime.Utilities.FileSystem.AssetDirectory`1.#ctor(System.String)">AssetDirectory(String)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract void Detect(ref HashSet&lt;Collider&gt; set)</code></pre>
+    <pre><code class="lang-csharp hljs">public AssetDirectory(string path)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -173,8 +135,85 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">HashSet</span>&lt;<span class="xref">Collider</span>&gt;</td>
-        <td><span class="parametername">set</span></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">path</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="StormHawks_Runtime_Utilities_FileSystem_AssetDirectory_1_ChildFiles_" data-uid="StormHawks.Runtime.Utilities.FileSystem.AssetDirectory`1.ChildFiles*"></a>
+  <h4 id="StormHawks_Runtime_Utilities_FileSystem_AssetDirectory_1_ChildFiles" data-uid="StormHawks.Runtime.Utilities.FileSystem.AssetDirectory`1.ChildFiles">ChildFiles</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;AssetFile&lt;T&gt;&gt; ChildFiles { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="StormHawks.Runtime.Utilities.FileSystem.AssetFile-1.html">AssetFile</a>&lt;T&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StormHawks_Runtime_Utilities_FileSystem_AssetDirectory_1_Name_" data-uid="StormHawks.Runtime.Utilities.FileSystem.AssetDirectory`1.Name*"></a>
+  <h4 id="StormHawks_Runtime_Utilities_FileSystem_AssetDirectory_1_Name" data-uid="StormHawks.Runtime.Utilities.FileSystem.AssetDirectory`1.Name">Name</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Name { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StormHawks_Runtime_Utilities_FileSystem_AssetDirectory_1_Path_" data-uid="StormHawks.Runtime.Utilities.FileSystem.AssetDirectory`1.Path*"></a>
+  <h4 id="StormHawks_Runtime_Utilities_FileSystem_AssetDirectory_1_Path" data-uid="StormHawks.Runtime.Utilities.FileSystem.AssetDirectory`1.Path">Path</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Path { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
         <td></td>
       </tr>
     </tbody>

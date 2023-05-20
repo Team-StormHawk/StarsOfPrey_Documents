@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Namespace StormHawks.Runtime.Utilities
+    <title>Class GameSceneManager
    | Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Namespace StormHawks.Runtime.Utilities
+    <meta name="title" content="Class GameSceneManager
    | Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -78,29 +78,110 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Utilities">
+            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Managers.GameSceneManager">
   
-  <h1 id="StormHawks_Runtime_Utilities" data-uid="StormHawks.Runtime.Utilities" class="text-break">Namespace StormHawks.Runtime.Utilities
+  
+  <h1 id="StormHawks_Runtime_Managers_GameSceneManager" data-uid="StormHawks.Runtime.Managers.GameSceneManager" class="text-break">Class GameSceneManager
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
-  <div class="markdown level0 remarks"></div>
-    <h3 id="classes">Classes
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">GameSceneManager</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Managers.html">StormHawks.Runtime.Managers</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="StormHawks_Runtime_Managers_GameSceneManager_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class GameSceneManager : MonoSingleton&lt;GameSceneManager&gt;</code></pre>
+  </div>
+  <h3 id="methods">Methods
   </h3>
-      <h4><a class="xref" href="StormHawks.Runtime.Utilities.AlignTransformUtility.html">AlignTransformUtility</a></h4>
-      <section></section>
-      <h4><a class="xref" href="StormHawks.Runtime.Utilities.MonoObjectPool-1.html">MonoObjectPool&lt;T&gt;</a></h4>
-      <section></section>
-      <h4><a class="xref" href="StormHawks.Runtime.Utilities.MonoSingleton-1.html">MonoSingleton&lt;T&gt;</a></h4>
-      <section></section>
-      <h4><a class="xref" href="StormHawks.Runtime.Utilities.TweenUtility.html">TweenUtility</a></h4>
-      <section></section>
-      <h4><a class="xref" href="StormHawks.Runtime.Utilities.UIUtility.html">UIUtility</a></h4>
-      <section></section>
-    <h3 id="enums">Enums
-  </h3>
-      <h4><a class="xref" href="StormHawks.Runtime.Utilities.AlignTransformUtility.Axis.html">AlignTransformUtility.Axis</a></h4>
-      <section></section>
+  
+  
+  <a id="StormHawks_Runtime_Managers_GameSceneManager_AddSubScene_" data-uid="StormHawks.Runtime.Managers.GameSceneManager.AddSubScene*"></a>
+  <h4 id="StormHawks_Runtime_Managers_GameSceneManager_AddSubScene_IGameScene_" data-uid="StormHawks.Runtime.Managers.GameSceneManager.AddSubScene(IGameScene)">AddSubScene(IGameScene)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async UniTask&lt;SceneInstance&gt; AddSubScene(IGameScene scene)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IGameScene</span></td>
+        <td><span class="parametername">scene</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UniTask</span>&lt;<span class="xref">SceneInstance</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StormHawks_Runtime_Managers_GameSceneManager_ChangeScene_" data-uid="StormHawks.Runtime.Managers.GameSceneManager.ChangeScene*"></a>
+  <h4 id="StormHawks_Runtime_Managers_GameSceneManager_ChangeScene_IGameScene_" data-uid="StormHawks.Runtime.Managers.GameSceneManager.ChangeScene(IGameScene)">ChangeScene(IGameScene)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async UniTask&lt;SceneInstance&gt; ChangeScene(IGameScene scene)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IGameScene</span></td>
+        <td><span class="parametername">scene</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UniTask</span>&lt;<span class="xref">SceneInstance</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           

@@ -8857,6 +8857,32 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Entities.Weapons.LaserWeaponContext.SetLineRenderer
   nameWithType: LaserWeaponContext.SetLineRenderer
+- uid: StormHawks.Runtime.Entities.Weapons.LaserWeaponContext.SetSize(System.Single)
+  name: SetSize(Single)
+  href: api/StormHawks.Runtime.Entities.Weapons.LaserWeaponContext.html#StormHawks_Runtime_Entities_Weapons_LaserWeaponContext_SetSize_System_Single_
+  commentId: M:StormHawks.Runtime.Entities.Weapons.LaserWeaponContext.SetSize(System.Single)
+  fullName: StormHawks.Runtime.Entities.Weapons.LaserWeaponContext.SetSize(System.Single)
+  nameWithType: LaserWeaponContext.SetSize(Single)
+- uid: StormHawks.Runtime.Entities.Weapons.LaserWeaponContext.SetSize*
+  name: SetSize
+  href: api/StormHawks.Runtime.Entities.Weapons.LaserWeaponContext.html#StormHawks_Runtime_Entities_Weapons_LaserWeaponContext_SetSize_
+  commentId: Overload:StormHawks.Runtime.Entities.Weapons.LaserWeaponContext.SetSize
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Entities.Weapons.LaserWeaponContext.SetSize
+  nameWithType: LaserWeaponContext.SetSize
+- uid: StormHawks.Runtime.Entities.Weapons.LaserWeaponContext.Size
+  name: Size
+  href: api/StormHawks.Runtime.Entities.Weapons.LaserWeaponContext.html#StormHawks_Runtime_Entities_Weapons_LaserWeaponContext_Size
+  commentId: P:StormHawks.Runtime.Entities.Weapons.LaserWeaponContext.Size
+  fullName: StormHawks.Runtime.Entities.Weapons.LaserWeaponContext.Size
+  nameWithType: LaserWeaponContext.Size
+- uid: StormHawks.Runtime.Entities.Weapons.LaserWeaponContext.Size*
+  name: Size
+  href: api/StormHawks.Runtime.Entities.Weapons.LaserWeaponContext.html#StormHawks_Runtime_Entities_Weapons_LaserWeaponContext_Size_
+  commentId: Overload:StormHawks.Runtime.Entities.Weapons.LaserWeaponContext.Size
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Entities.Weapons.LaserWeaponContext.Size
+  nameWithType: LaserWeaponContext.Size
 - uid: StormHawks.Runtime.Entities.Weapons.LaserWeaponContext.UpdateDirection(Vector3)
   name: UpdateDirection(Vector3)
   href: api/StormHawks.Runtime.Entities.Weapons.LaserWeaponContext.html#StormHawks_Runtime_Entities_Weapons_LaserWeaponContext_UpdateDirection_Vector3_
@@ -12231,6 +12257,19 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Managers.GameSceneManager.ChangeScene
   nameWithType: GameSceneManager.ChangeScene
+- uid: StormHawks.Runtime.Managers.GameSceneManager.ReloadCurrentScene
+  name: ReloadCurrentScene()
+  href: api/StormHawks.Runtime.Managers.GameSceneManager.html#StormHawks_Runtime_Managers_GameSceneManager_ReloadCurrentScene
+  commentId: M:StormHawks.Runtime.Managers.GameSceneManager.ReloadCurrentScene
+  fullName: StormHawks.Runtime.Managers.GameSceneManager.ReloadCurrentScene()
+  nameWithType: GameSceneManager.ReloadCurrentScene()
+- uid: StormHawks.Runtime.Managers.GameSceneManager.ReloadCurrentScene*
+  name: ReloadCurrentScene
+  href: api/StormHawks.Runtime.Managers.GameSceneManager.html#StormHawks_Runtime_Managers_GameSceneManager_ReloadCurrentScene_
+  commentId: Overload:StormHawks.Runtime.Managers.GameSceneManager.ReloadCurrentScene
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Managers.GameSceneManager.ReloadCurrentScene
+  nameWithType: GameSceneManager.ReloadCurrentScene
 - uid: StormHawks.Runtime.Players
   name: StormHawks.Runtime.Players
   href: api/StormHawks.Runtime.Players.html
@@ -12946,6 +12985,19 @@ references:
   commentId: T:StormHawks.Runtime.Players.Attack.Projectiles.Weapon.ProjectileConfigSO
   fullName: StormHawks.Runtime.Players.Attack.Projectiles.Weapon.ProjectileConfigSO
   nameWithType: ProjectileConfigSO
+- uid: StormHawks.Runtime.Players.Attack.Projectiles.Weapon.ProjectileConfigSO.Damage
+  name: Damage
+  href: api/StormHawks.Runtime.Players.Attack.Projectiles.Weapon.ProjectileConfigSO.html#StormHawks_Runtime_Players_Attack_Projectiles_Weapon_ProjectileConfigSO_Damage
+  commentId: P:StormHawks.Runtime.Players.Attack.Projectiles.Weapon.ProjectileConfigSO.Damage
+  fullName: StormHawks.Runtime.Players.Attack.Projectiles.Weapon.ProjectileConfigSO.Damage
+  nameWithType: ProjectileConfigSO.Damage
+- uid: StormHawks.Runtime.Players.Attack.Projectiles.Weapon.ProjectileConfigSO.Damage*
+  name: Damage
+  href: api/StormHawks.Runtime.Players.Attack.Projectiles.Weapon.ProjectileConfigSO.html#StormHawks_Runtime_Players_Attack_Projectiles_Weapon_ProjectileConfigSO_Damage_
+  commentId: Overload:StormHawks.Runtime.Players.Attack.Projectiles.Weapon.ProjectileConfigSO.Damage
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Players.Attack.Projectiles.Weapon.ProjectileConfigSO.Damage
+  nameWithType: ProjectileConfigSO.Damage
 - uid: StormHawks.Runtime.Players.Attack.Projectiles.Weapon.ProjectileConfigSO.LifeTime
   name: LifeTime
   href: api/StormHawks.Runtime.Players.Attack.Projectiles.Weapon.ProjectileConfigSO.html#StormHawks_Runtime_Players_Attack_Projectiles_Weapon_ProjectileConfigSO_LifeTime
@@ -13229,6 +13281,51 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Players.PlayerContext.Velocity
   nameWithType: PlayerContext.Velocity
+- uid: StormHawks.Runtime.Players.PlayerHealth
+  name: PlayerHealth
+  href: api/StormHawks.Runtime.Players.PlayerHealth.html
+  commentId: T:StormHawks.Runtime.Players.PlayerHealth
+  fullName: StormHawks.Runtime.Players.PlayerHealth
+  nameWithType: PlayerHealth
+- uid: StormHawks.Runtime.Players.PlayerHealth.CurrentHealth
+  name: CurrentHealth
+  href: api/StormHawks.Runtime.Players.PlayerHealth.html#StormHawks_Runtime_Players_PlayerHealth_CurrentHealth
+  commentId: P:StormHawks.Runtime.Players.PlayerHealth.CurrentHealth
+  fullName: StormHawks.Runtime.Players.PlayerHealth.CurrentHealth
+  nameWithType: PlayerHealth.CurrentHealth
+- uid: StormHawks.Runtime.Players.PlayerHealth.CurrentHealth*
+  name: CurrentHealth
+  href: api/StormHawks.Runtime.Players.PlayerHealth.html#StormHawks_Runtime_Players_PlayerHealth_CurrentHealth_
+  commentId: Overload:StormHawks.Runtime.Players.PlayerHealth.CurrentHealth
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Players.PlayerHealth.CurrentHealth
+  nameWithType: PlayerHealth.CurrentHealth
+- uid: StormHawks.Runtime.Players.PlayerHealth.HealthSO
+  name: HealthSO
+  href: api/StormHawks.Runtime.Players.PlayerHealth.html#StormHawks_Runtime_Players_PlayerHealth_HealthSO
+  commentId: P:StormHawks.Runtime.Players.PlayerHealth.HealthSO
+  fullName: StormHawks.Runtime.Players.PlayerHealth.HealthSO
+  nameWithType: PlayerHealth.HealthSO
+- uid: StormHawks.Runtime.Players.PlayerHealth.HealthSO*
+  name: HealthSO
+  href: api/StormHawks.Runtime.Players.PlayerHealth.html#StormHawks_Runtime_Players_PlayerHealth_HealthSO_
+  commentId: Overload:StormHawks.Runtime.Players.PlayerHealth.HealthSO
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Players.PlayerHealth.HealthSO
+  nameWithType: PlayerHealth.HealthSO
+- uid: StormHawks.Runtime.Players.PlayerHealth.TakeDamage(Vector3,System.Single)
+  name: TakeDamage(Vector3, Single)
+  href: api/StormHawks.Runtime.Players.PlayerHealth.html#StormHawks_Runtime_Players_PlayerHealth_TakeDamage_Vector3_System_Single_
+  commentId: M:StormHawks.Runtime.Players.PlayerHealth.TakeDamage(Vector3,System.Single)
+  fullName: StormHawks.Runtime.Players.PlayerHealth.TakeDamage(Vector3, System.Single)
+  nameWithType: PlayerHealth.TakeDamage(Vector3, Single)
+- uid: StormHawks.Runtime.Players.PlayerHealth.TakeDamage*
+  name: TakeDamage
+  href: api/StormHawks.Runtime.Players.PlayerHealth.html#StormHawks_Runtime_Players_PlayerHealth_TakeDamage_
+  commentId: Overload:StormHawks.Runtime.Players.PlayerHealth.TakeDamage
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Players.PlayerHealth.TakeDamage
+  nameWithType: PlayerHealth.TakeDamage
 - uid: StormHawks.Runtime.Players.PlayerMovementConfigSO
   name: PlayerMovementConfigSO
   href: api/StormHawks.Runtime.Players.PlayerMovementConfigSO.html
@@ -13472,6 +13569,19 @@ references:
   commentId: T:StormHawks.Runtime.Scenes.BossStageGameSceneContexts
   fullName: StormHawks.Runtime.Scenes.BossStageGameSceneContexts
   nameWithType: BossStageGameSceneContexts
+- uid: StormHawks.Runtime.Scenes.BossStageGameSceneContexts.#ctor
+  name: BossStageGameSceneContexts()
+  href: api/StormHawks.Runtime.Scenes.BossStageGameSceneContexts.html#StormHawks_Runtime_Scenes_BossStageGameSceneContexts__ctor
+  commentId: M:StormHawks.Runtime.Scenes.BossStageGameSceneContexts.#ctor
+  fullName: StormHawks.Runtime.Scenes.BossStageGameSceneContexts.BossStageGameSceneContexts()
+  nameWithType: BossStageGameSceneContexts.BossStageGameSceneContexts()
+- uid: StormHawks.Runtime.Scenes.BossStageGameSceneContexts.#ctor*
+  name: BossStageGameSceneContexts
+  href: api/StormHawks.Runtime.Scenes.BossStageGameSceneContexts.html#StormHawks_Runtime_Scenes_BossStageGameSceneContexts__ctor_
+  commentId: Overload:StormHawks.Runtime.Scenes.BossStageGameSceneContexts.#ctor
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Scenes.BossStageGameSceneContexts.BossStageGameSceneContexts
+  nameWithType: BossStageGameSceneContexts.BossStageGameSceneContexts
 - uid: StormHawks.Runtime.Scenes.BossStageGameSceneContexts.GetSceneAddress
   name: GetSceneAddress()
   href: api/StormHawks.Runtime.Scenes.BossStageGameSceneContexts.html#StormHawks_Runtime_Scenes_BossStageGameSceneContexts_GetSceneAddress
@@ -13529,6 +13639,19 @@ references:
   commentId: T:StormHawks.Runtime.Scenes.FlightStageGameSceneContexts
   fullName: StormHawks.Runtime.Scenes.FlightStageGameSceneContexts
   nameWithType: FlightStageGameSceneContexts
+- uid: StormHawks.Runtime.Scenes.FlightStageGameSceneContexts.#ctor
+  name: FlightStageGameSceneContexts()
+  href: api/StormHawks.Runtime.Scenes.FlightStageGameSceneContexts.html#StormHawks_Runtime_Scenes_FlightStageGameSceneContexts__ctor
+  commentId: M:StormHawks.Runtime.Scenes.FlightStageGameSceneContexts.#ctor
+  fullName: StormHawks.Runtime.Scenes.FlightStageGameSceneContexts.FlightStageGameSceneContexts()
+  nameWithType: FlightStageGameSceneContexts.FlightStageGameSceneContexts()
+- uid: StormHawks.Runtime.Scenes.FlightStageGameSceneContexts.#ctor*
+  name: FlightStageGameSceneContexts
+  href: api/StormHawks.Runtime.Scenes.FlightStageGameSceneContexts.html#StormHawks_Runtime_Scenes_FlightStageGameSceneContexts__ctor_
+  commentId: Overload:StormHawks.Runtime.Scenes.FlightStageGameSceneContexts.#ctor
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Scenes.FlightStageGameSceneContexts.FlightStageGameSceneContexts
+  nameWithType: FlightStageGameSceneContexts.FlightStageGameSceneContexts
 - uid: StormHawks.Runtime.Scenes.FlightStageGameSceneContexts.GetSceneAddress
   name: GetSceneAddress()
   href: api/StormHawks.Runtime.Scenes.FlightStageGameSceneContexts.html#StormHawks_Runtime_Scenes_FlightStageGameSceneContexts_GetSceneAddress
@@ -14719,6 +14842,38 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.FireHomingMissileNode.OnRun
   nameWithType: FireHomingMissileNode.OnRun
+- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.FireHomingMissileToPlayer
+  name: FireHomingMissileToPlayer
+  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.FireHomingMissileToPlayer.html
+  commentId: T:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.FireHomingMissileToPlayer
+  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.FireHomingMissileToPlayer
+  nameWithType: FireHomingMissileToPlayer
+- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.FireHomingMissileToPlayer.OnEnter
+  name: OnEnter()
+  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.FireHomingMissileToPlayer.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_FireHomingMissileToPlayer_OnEnter
+  commentId: M:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.FireHomingMissileToPlayer.OnEnter
+  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.FireHomingMissileToPlayer.OnEnter()
+  nameWithType: FireHomingMissileToPlayer.OnEnter()
+- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.FireHomingMissileToPlayer.OnEnter*
+  name: OnEnter
+  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.FireHomingMissileToPlayer.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_FireHomingMissileToPlayer_OnEnter_
+  commentId: Overload:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.FireHomingMissileToPlayer.OnEnter
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.FireHomingMissileToPlayer.OnEnter
+  nameWithType: FireHomingMissileToPlayer.OnEnter
+- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.FireHomingMissileToPlayer.OnRun
+  name: OnRun()
+  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.FireHomingMissileToPlayer.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_FireHomingMissileToPlayer_OnRun
+  commentId: M:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.FireHomingMissileToPlayer.OnRun
+  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.FireHomingMissileToPlayer.OnRun()
+  nameWithType: FireHomingMissileToPlayer.OnRun()
+- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.FireHomingMissileToPlayer.OnRun*
+  name: OnRun
+  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.FireHomingMissileToPlayer.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_FireHomingMissileToPlayer_OnRun_
+  commentId: Overload:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.FireHomingMissileToPlayer.OnRun
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.FireHomingMissileToPlayer.OnRun
+  nameWithType: FireHomingMissileToPlayer.OnRun
 - uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.FireInterruptedShotNode
   name: FireInterruptedShotNode
   href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.FireInterruptedShotNode.html
@@ -15909,6 +16064,31 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.CompareHealth.OnEnter
   nameWithType: CompareHealth.OnEnter
+- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.ComparePlayerDistance
+  name: ComparePlayerDistance
+  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.ComparePlayerDistance.html
+  commentId: T:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.ComparePlayerDistance
+  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.ComparePlayerDistance
+  nameWithType: ComparePlayerDistance
+- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.ComparePlayerDistance.Condition
+  name: Condition()
+  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.ComparePlayerDistance.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Conditionals_ComparePlayerDistance_Condition
+  commentId: M:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.ComparePlayerDistance.Condition
+  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.ComparePlayerDistance.Condition()
+  nameWithType: ComparePlayerDistance.Condition()
+- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.ComparePlayerDistance.Condition*
+  name: Condition
+  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.ComparePlayerDistance.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Conditionals_ComparePlayerDistance_Condition_
+  commentId: Overload:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.ComparePlayerDistance.Condition
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.ComparePlayerDistance.Condition
+  nameWithType: ComparePlayerDistance.Condition
+- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.ComparePlayerDistance.Distance
+  name: Distance
+  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.ComparePlayerDistance.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Conditionals_ComparePlayerDistance_Distance
+  commentId: F:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.ComparePlayerDistance.Distance
+  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.ComparePlayerDistance.Distance
+  nameWithType: ComparePlayerDistance.Distance
 - uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.GetBoolProperty
   name: GetBoolProperty
   href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.GetBoolProperty.html

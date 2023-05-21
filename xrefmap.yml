@@ -13396,63 +13396,70 @@ references:
   commentId: N:StormHawks.Runtime.Rig
   fullName: StormHawks.Runtime.Rig
   nameWithType: StormHawks.Runtime.Rig
-- uid: StormHawks.Runtime.Rig.RigMap
-  name: RigMap
-  href: api/StormHawks.Runtime.Rig.RigMap.html
-  commentId: T:StormHawks.Runtime.Rig.RigMap
-  fullName: StormHawks.Runtime.Rig.RigMap
-  nameWithType: RigMap
-- uid: StormHawks.Runtime.Rig.RigMap.Remap
-  name: Remap()
-  href: api/StormHawks.Runtime.Rig.RigMap.html#StormHawks_Runtime_Rig_RigMap_Remap
-  commentId: M:StormHawks.Runtime.Rig.RigMap.Remap
-  fullName: StormHawks.Runtime.Rig.RigMap.Remap()
-  nameWithType: RigMap.Remap()
-- uid: StormHawks.Runtime.Rig.RigMap.Remap*
-  name: Remap
-  href: api/StormHawks.Runtime.Rig.RigMap.html#StormHawks_Runtime_Rig_RigMap_Remap_
-  commentId: Overload:StormHawks.Runtime.Rig.RigMap.Remap
+- uid: StormHawks.Runtime.Rig.RigMapper
+  name: RigMapper
+  href: api/StormHawks.Runtime.Rig.RigMapper.html
+  commentId: T:StormHawks.Runtime.Rig.RigMapper
+  fullName: StormHawks.Runtime.Rig.RigMapper
+  nameWithType: RigMapper
+- uid: StormHawks.Runtime.Rig.RigMapper.GetModifiedPosition(Transform,Vector3)
+  name: GetModifiedPosition(Transform, Vector3)
+  href: api/StormHawks.Runtime.Rig.RigMapper.html#StormHawks_Runtime_Rig_RigMapper_GetModifiedPosition_Transform_Vector3_
+  commentId: M:StormHawks.Runtime.Rig.RigMapper.GetModifiedPosition(Transform,Vector3)
+  fullName: StormHawks.Runtime.Rig.RigMapper.GetModifiedPosition(Transform, Vector3)
+  nameWithType: RigMapper.GetModifiedPosition(Transform, Vector3)
+- uid: StormHawks.Runtime.Rig.RigMapper.GetModifiedPosition*
+  name: GetModifiedPosition
+  href: api/StormHawks.Runtime.Rig.RigMapper.html#StormHawks_Runtime_Rig_RigMapper_GetModifiedPosition_
+  commentId: Overload:StormHawks.Runtime.Rig.RigMapper.GetModifiedPosition
   isSpec: "True"
-  fullName: StormHawks.Runtime.Rig.RigMap.Remap
-  nameWithType: RigMap.Remap
+  fullName: StormHawks.Runtime.Rig.RigMapper.GetModifiedPosition
+  nameWithType: RigMapper.GetModifiedPosition
+- uid: StormHawks.Runtime.Rig.RigMapper.GetModifiedRotation(Transform,Vector3)
+  name: GetModifiedRotation(Transform, Vector3)
+  href: api/StormHawks.Runtime.Rig.RigMapper.html#StormHawks_Runtime_Rig_RigMapper_GetModifiedRotation_Transform_Vector3_
+  commentId: M:StormHawks.Runtime.Rig.RigMapper.GetModifiedRotation(Transform,Vector3)
+  fullName: StormHawks.Runtime.Rig.RigMapper.GetModifiedRotation(Transform, Vector3)
+  nameWithType: RigMapper.GetModifiedRotation(Transform, Vector3)
+- uid: StormHawks.Runtime.Rig.RigMapper.GetModifiedRotation*
+  name: GetModifiedRotation
+  href: api/StormHawks.Runtime.Rig.RigMapper.html#StormHawks_Runtime_Rig_RigMapper_GetModifiedRotation_
+  commentId: Overload:StormHawks.Runtime.Rig.RigMapper.GetModifiedRotation
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Rig.RigMapper.GetModifiedRotation
+  nameWithType: RigMapper.GetModifiedRotation
 - uid: StormHawks.Runtime.Rig.RigOffsetSO
   name: RigOffsetSO
   href: api/StormHawks.Runtime.Rig.RigOffsetSO.html
   commentId: T:StormHawks.Runtime.Rig.RigOffsetSO
   fullName: StormHawks.Runtime.Rig.RigOffsetSO
   nameWithType: RigOffsetSO
-- uid: StormHawks.Runtime.Rig.RigOffsetSO.GetModifiedPosition(Transform)
-  name: GetModifiedPosition(Transform)
-  href: api/StormHawks.Runtime.Rig.RigOffsetSO.html#StormHawks_Runtime_Rig_RigOffsetSO_GetModifiedPosition_Transform_
-  commentId: M:StormHawks.Runtime.Rig.RigOffsetSO.GetModifiedPosition(Transform)
-  fullName: StormHawks.Runtime.Rig.RigOffsetSO.GetModifiedPosition(Transform)
-  nameWithType: RigOffsetSO.GetModifiedPosition(Transform)
-- uid: StormHawks.Runtime.Rig.RigOffsetSO.GetModifiedPosition*
-  name: GetModifiedPosition
-  href: api/StormHawks.Runtime.Rig.RigOffsetSO.html#StormHawks_Runtime_Rig_RigOffsetSO_GetModifiedPosition_
-  commentId: Overload:StormHawks.Runtime.Rig.RigOffsetSO.GetModifiedPosition
+- uid: StormHawks.Runtime.Rig.RigOffsetSO.PositionOffset
+  name: PositionOffset
+  href: api/StormHawks.Runtime.Rig.RigOffsetSO.html#StormHawks_Runtime_Rig_RigOffsetSO_PositionOffset
+  commentId: P:StormHawks.Runtime.Rig.RigOffsetSO.PositionOffset
+  fullName: StormHawks.Runtime.Rig.RigOffsetSO.PositionOffset
+  nameWithType: RigOffsetSO.PositionOffset
+- uid: StormHawks.Runtime.Rig.RigOffsetSO.PositionOffset*
+  name: PositionOffset
+  href: api/StormHawks.Runtime.Rig.RigOffsetSO.html#StormHawks_Runtime_Rig_RigOffsetSO_PositionOffset_
+  commentId: Overload:StormHawks.Runtime.Rig.RigOffsetSO.PositionOffset
   isSpec: "True"
-  fullName: StormHawks.Runtime.Rig.RigOffsetSO.GetModifiedPosition
-  nameWithType: RigOffsetSO.GetModifiedPosition
-- uid: StormHawks.Runtime.Rig.RigOffsetSO.GetModifiedRotation(Transform)
-  name: GetModifiedRotation(Transform)
-  href: api/StormHawks.Runtime.Rig.RigOffsetSO.html#StormHawks_Runtime_Rig_RigOffsetSO_GetModifiedRotation_Transform_
-  commentId: M:StormHawks.Runtime.Rig.RigOffsetSO.GetModifiedRotation(Transform)
-  fullName: StormHawks.Runtime.Rig.RigOffsetSO.GetModifiedRotation(Transform)
-  nameWithType: RigOffsetSO.GetModifiedRotation(Transform)
-- uid: StormHawks.Runtime.Rig.RigOffsetSO.GetModifiedRotation*
-  name: GetModifiedRotation
-  href: api/StormHawks.Runtime.Rig.RigOffsetSO.html#StormHawks_Runtime_Rig_RigOffsetSO_GetModifiedRotation_
-  commentId: Overload:StormHawks.Runtime.Rig.RigOffsetSO.GetModifiedRotation
+  fullName: StormHawks.Runtime.Rig.RigOffsetSO.PositionOffset
+  nameWithType: RigOffsetSO.PositionOffset
+- uid: StormHawks.Runtime.Rig.RigOffsetSO.RotationOffset
+  name: RotationOffset
+  href: api/StormHawks.Runtime.Rig.RigOffsetSO.html#StormHawks_Runtime_Rig_RigOffsetSO_RotationOffset
+  commentId: P:StormHawks.Runtime.Rig.RigOffsetSO.RotationOffset
+  fullName: StormHawks.Runtime.Rig.RigOffsetSO.RotationOffset
+  nameWithType: RigOffsetSO.RotationOffset
+- uid: StormHawks.Runtime.Rig.RigOffsetSO.RotationOffset*
+  name: RotationOffset
+  href: api/StormHawks.Runtime.Rig.RigOffsetSO.html#StormHawks_Runtime_Rig_RigOffsetSO_RotationOffset_
+  commentId: Overload:StormHawks.Runtime.Rig.RigOffsetSO.RotationOffset
   isSpec: "True"
-  fullName: StormHawks.Runtime.Rig.RigOffsetSO.GetModifiedRotation
-  nameWithType: RigOffsetSO.GetModifiedRotation
-- uid: StormHawks.Runtime.Rig.VRPlayerRig
-  name: VRPlayerRig
-  href: api/StormHawks.Runtime.Rig.VRPlayerRig.html
-  commentId: T:StormHawks.Runtime.Rig.VRPlayerRig
-  fullName: StormHawks.Runtime.Rig.VRPlayerRig
-  nameWithType: VRPlayerRig
+  fullName: StormHawks.Runtime.Rig.RigOffsetSO.RotationOffset
+  nameWithType: RigOffsetSO.RotationOffset
 - uid: StormHawks.Runtime.Scenes
   name: StormHawks.Runtime.Scenes
   href: api/StormHawks.Runtime.Scenes.html

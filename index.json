@@ -1407,22 +1407,17 @@
   "api/StormHawks.Runtime.Rig.html": {
     "href": "api/StormHawks.Runtime.Rig.html",
     "title": "Namespace StormHawks.Runtime.Rig | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Rig Classes RigMap RigOffsetSO VRPlayerRig"
+    "keywords": "Namespace StormHawks.Runtime.Rig Classes RigMapper RigOffsetSO"
   },
-  "api/StormHawks.Runtime.Rig.RigMap.html": {
-    "href": "api/StormHawks.Runtime.Rig.RigMap.html",
-    "title": "Class RigMap | Developer Reference",
-    "keywords": "Class RigMap Inheritance Object RigMap Namespace : StormHawks.Runtime.Rig Assembly : cs.temp.dll.dll Syntax [Serializable] public class RigMap Methods Remap() Declaration public void Remap()"
+  "api/StormHawks.Runtime.Rig.RigMapper.html": {
+    "href": "api/StormHawks.Runtime.Rig.RigMapper.html",
+    "title": "Class RigMapper | Developer Reference",
+    "keywords": "Class RigMapper Inheritance Object RigMapper Namespace : StormHawks.Runtime.Rig Assembly : cs.temp.dll.dll Syntax public class RigMapper : MonoBehaviour Methods GetModifiedPosition(Transform, Vector3) Declaration public Vector3 GetModifiedPosition(Transform origin, Vector3 offset) Parameters Type Name Description Transform origin Vector3 offset Returns Type Description Vector3 GetModifiedRotation(Transform, Vector3) Declaration public Quaternion GetModifiedRotation(Transform origin, Vector3 offset) Parameters Type Name Description Transform origin Vector3 offset Returns Type Description Quaternion"
   },
   "api/StormHawks.Runtime.Rig.RigOffsetSO.html": {
     "href": "api/StormHawks.Runtime.Rig.RigOffsetSO.html",
     "title": "Class RigOffsetSO | Developer Reference",
-    "keywords": "Class RigOffsetSO Inheritance Object RigOffsetSO Namespace : StormHawks.Runtime.Rig Assembly : cs.temp.dll.dll Syntax public class RigOffsetSO : ScriptableObject Methods GetModifiedPosition(Transform) Declaration public Vector3 GetModifiedPosition(Transform origin) Parameters Type Name Description Transform origin Returns Type Description Vector3 GetModifiedRotation(Transform) Declaration public Quaternion GetModifiedRotation(Transform origin) Parameters Type Name Description Transform origin Returns Type Description Quaternion"
-  },
-  "api/StormHawks.Runtime.Rig.VRPlayerRig.html": {
-    "href": "api/StormHawks.Runtime.Rig.VRPlayerRig.html",
-    "title": "Class VRPlayerRig | Developer Reference",
-    "keywords": "Class VRPlayerRig Inheritance Object VRPlayerRig Namespace : StormHawks.Runtime.Rig Assembly : cs.temp.dll.dll Syntax public class VRPlayerRig : MonoBehaviour"
+    "keywords": "Class RigOffsetSO Inheritance Object RigOffsetSO Namespace : StormHawks.Runtime.Rig Assembly : cs.temp.dll.dll Syntax public class RigOffsetSO : ScriptableObject Properties PositionOffset Declaration public Vector3 PositionOffset { get; } Property Value Type Description Vector3 RotationOffset Declaration public Vector3 RotationOffset { get; } Property Value Type Description Vector3"
   },
   "api/StormHawks.Runtime.Scenes.BossStageGameSceneContexts.html": {
     "href": "api/StormHawks.Runtime.Scenes.BossStageGameSceneContexts.html",

@@ -1512,7 +1512,7 @@
   "api/StormHawks.Runtime.UI.html": {
     "href": "api/StormHawks.Runtime.UI.html",
     "title": "Namespace StormHawks.Runtime.UI | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.UI Classes PartsRader PitchBar PitchLadder PlayerMissileReloadUIHandler YawCompass"
+    "keywords": "Namespace StormHawks.Runtime.UI Classes PartsRader PitchBar PitchLadder PlayerMissileReloadUIHandler PlayerThrustUIHandler YawCompass"
   },
   "api/StormHawks.Runtime.UI.PartsRader.html": {
     "href": "api/StormHawks.Runtime.UI.PartsRader.html",
@@ -1533,6 +1533,11 @@
     "href": "api/StormHawks.Runtime.UI.PlayerMissileReloadUIHandler.html",
     "title": "Class PlayerMissileReloadUIHandler | Developer Reference",
     "keywords": "Class PlayerMissileReloadUIHandler Inheritance Object PlayerMissileReloadUIHandler Namespace : StormHawks.Runtime.UI Assembly : cs.temp.dll.dll Syntax public class PlayerMissileReloadUIHandler : MonoBehaviour"
+  },
+  "api/StormHawks.Runtime.UI.PlayerThrustUIHandler.html": {
+    "href": "api/StormHawks.Runtime.UI.PlayerThrustUIHandler.html",
+    "title": "Class PlayerThrustUIHandler | Developer Reference",
+    "keywords": "Class PlayerThrustUIHandler Inheritance Object PlayerThrustUIHandler Namespace : StormHawks.Runtime.UI Assembly : cs.temp.dll.dll Syntax public class PlayerThrustUIHandler : MonoBehaviour"
   },
   "api/StormHawks.Runtime.UI.YawCompass.html": {
     "href": "api/StormHawks.Runtime.UI.YawCompass.html",
@@ -1977,7 +1982,7 @@
   "api/StormHawks.Runtime.Utilities.html": {
     "href": "api/StormHawks.Runtime.Utilities.html",
     "title": "Namespace StormHawks.Runtime.Utilities | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Utilities Classes AlignTransformUtility MonoObjectPool<T> MonoSingleton<T> TweenUtility UIUtility Enums AlignTransformUtility.Axis"
+    "keywords": "Namespace StormHawks.Runtime.Utilities Classes AlignTransformUtility MonoObjectPool<T> MonoSingleton<T> UIUtility Enums AlignTransformUtility.Axis"
   },
   "api/StormHawks.Runtime.Utilities.MonoObjectPool-1.html": {
     "href": "api/StormHawks.Runtime.Utilities.MonoObjectPool-1.html",
@@ -2008,11 +2013,6 @@
     "href": "api/StormHawks.Runtime.Utilities.RuntimeSet.html",
     "title": "Namespace StormHawks.Runtime.Utilities.RuntimeSet | Developer Reference",
     "keywords": "Namespace StormHawks.Runtime.Utilities.RuntimeSet Classes BossRuntimeSet EnemyGroupMemberSet EnemyGroupSet"
-  },
-  "api/StormHawks.Runtime.Utilities.TweenUtility.html": {
-    "href": "api/StormHawks.Runtime.Utilities.TweenUtility.html",
-    "title": "Class TweenUtility | Developer Reference",
-    "keywords": "Class TweenUtility Inheritance Object TweenUtility Namespace : StormHawks.Runtime.Utilities Assembly : cs.temp.dll.dll Syntax public static class TweenUtility Methods ImageFillTween(Image, Single, Action, Action) Declaration public static Tweener ImageFillTween(this Image image, float time, Action onPlay = null, Action onComplete = null) Parameters Type Name Description Image image Single time Action onPlay Action onComplete Returns Type Description Tweener ImageFillTweenTask(Image, Single, Action, CancellationToken) Declaration public static async UniTaskVoid ImageFillTweenTask(this Image image, float time, Action onPlay = null, CancellationToken token = null) Parameters Type Name Description Image image Single time Action onPlay CancellationToken token Returns Type Description UniTaskVoid"
   },
   "api/StormHawks.Runtime.Utilities.Types.AxisValue.html": {
     "href": "api/StormHawks.Runtime.Utilities.Types.AxisValue.html",

@@ -1177,7 +1177,7 @@
   "api/StormHawks.Runtime.Interfaces.html": {
     "href": "api/StormHawks.Runtime.Interfaces.html",
     "title": "Namespace StormHawks.Runtime.Interfaces | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Interfaces Interfaces IAggressive IDamageable IEnemyGroupMember IEntityFire IFollower IGameMode IGameScene IHasHealth IInitializable IPoolable<T> IRotator ISteerEntity ISteeringForce"
+    "keywords": "Namespace StormHawks.Runtime.Interfaces Interfaces IAggressive IDamageable IEnemyGroupMember IEntityFire IFollower IGameMode IGameScene IHasHealth IInitializable IPlayerMovement IPoolable<T> IRotator ISteerEntity ISteeringForce"
   },
   "api/StormHawks.Runtime.Interfaces.IAggressive.html": {
     "href": "api/StormHawks.Runtime.Interfaces.IAggressive.html",
@@ -1223,6 +1223,11 @@
     "href": "api/StormHawks.Runtime.Interfaces.IInitializable.html",
     "title": "Interface IInitializable | Developer Reference",
     "keywords": "Interface IInitializable Namespace : StormHawks.Runtime.Interfaces Assembly : cs.temp.dll.dll Syntax public interface IInitializable Properties IsInitialized Declaration bool IsInitialized { get; } Property Value Type Description Boolean Methods Initialize() Declaration void Initialize()"
+  },
+  "api/StormHawks.Runtime.Interfaces.IPlayerMovement.html": {
+    "href": "api/StormHawks.Runtime.Interfaces.IPlayerMovement.html",
+    "title": "Interface IPlayerMovement | Developer Reference",
+    "keywords": "Interface IPlayerMovement Namespace : StormHawks.Runtime.Interfaces Assembly : cs.temp.dll.dll Syntax public interface IPlayerMovement Properties Thrust Declaration float Thrust { get; } Property Value Type Description Single Velocity Declaration Vector3 Velocity { get; } Property Value Type Description Vector3"
   },
   "api/StormHawks.Runtime.Interfaces.IPoolable-1.html": {
     "href": "api/StormHawks.Runtime.Interfaces.IPoolable-1.html",
@@ -1354,6 +1359,26 @@
     "title": "Class ProjectileConfigSO | Developer Reference",
     "keywords": "Class ProjectileConfigSO Inheritance Object ProjectileConfigSO MissileConfigSO Namespace : StormHawks.Runtime.Players.Attack.Projectiles.Weapon Assembly : cs.temp.dll.dll Syntax public class ProjectileConfigSO : ScriptableObject Properties Damage Declaration public float Damage { get; } Property Value Type Description Single LifeTime Declaration public float LifeTime { get; } Property Value Type Description Single MoveSpeed Declaration public float MoveSpeed { get; } Property Value Type Description Single"
   },
+  "api/StormHawks.Runtime.Players.Audio.html": {
+    "href": "api/StormHawks.Runtime.Players.Audio.html",
+    "title": "Namespace StormHawks.Runtime.Players.Audio | Developer Reference",
+    "keywords": "Namespace StormHawks.Runtime.Players.Audio Classes PlayerAudioBase PlayerChaseAudio PlayerFlightAudio"
+  },
+  "api/StormHawks.Runtime.Players.Audio.PlayerAudioBase.html": {
+    "href": "api/StormHawks.Runtime.Players.Audio.PlayerAudioBase.html",
+    "title": "Class PlayerAudioBase | Developer Reference",
+    "keywords": "Class PlayerAudioBase Inheritance Object PlayerAudioBase PlayerChaseAudio PlayerFlightAudio Namespace : StormHawks.Runtime.Players.Audio Assembly : cs.temp.dll.dll Syntax public abstract class PlayerAudioBase : MonoBehaviour Fields Cts Declaration protected CancellationTokenSource Cts Field Value Type Description CancellationTokenSource EventInstance Declaration protected EventInstance EventInstance Field Value Type Description EventInstance movementConfig Declaration protected PlayerMovementConfigSO movementConfig Field Value Type Description PlayerMovementConfigSO MovementContext Declaration protected IPlayerMovement MovementContext Field Value Type Description IPlayerMovement Methods UpdateAudioVolume() Declaration protected abstract UniTaskVoid UpdateAudioVolume() Returns Type Description UniTaskVoid"
+  },
+  "api/StormHawks.Runtime.Players.Audio.PlayerChaseAudio.html": {
+    "href": "api/StormHawks.Runtime.Players.Audio.PlayerChaseAudio.html",
+    "title": "Class PlayerChaseAudio | Developer Reference",
+    "keywords": "Class PlayerChaseAudio Inheritance Object PlayerAudioBase PlayerChaseAudio Inherited Members PlayerAudioBase.EventInstance PlayerAudioBase.MovementContext PlayerAudioBase.movementConfig PlayerAudioBase.Cts Namespace : StormHawks.Runtime.Players.Audio Assembly : cs.temp.dll.dll Syntax public class PlayerChaseAudio : PlayerAudioBase Methods UpdateAudioVolume() Declaration protected override async UniTaskVoid UpdateAudioVolume() Returns Type Description UniTaskVoid Overrides PlayerAudioBase.UpdateAudioVolume()"
+  },
+  "api/StormHawks.Runtime.Players.Audio.PlayerFlightAudio.html": {
+    "href": "api/StormHawks.Runtime.Players.Audio.PlayerFlightAudio.html",
+    "title": "Class PlayerFlightAudio | Developer Reference",
+    "keywords": "Class PlayerFlightAudio Inheritance Object PlayerAudioBase PlayerFlightAudio Inherited Members PlayerAudioBase.EventInstance PlayerAudioBase.MovementContext PlayerAudioBase.movementConfig PlayerAudioBase.Cts Namespace : StormHawks.Runtime.Players.Audio Assembly : cs.temp.dll.dll Syntax public class PlayerFlightAudio : PlayerAudioBase Methods UpdateAudioVolume() Declaration protected override async UniTaskVoid UpdateAudioVolume() Returns Type Description UniTaskVoid Overrides PlayerAudioBase.UpdateAudioVolume()"
+  },
   "api/StormHawks.Runtime.Players.Controllers.ControlStick.html": {
     "href": "api/StormHawks.Runtime.Players.Controllers.ControlStick.html",
     "title": "Class ControlStick | Developer Reference",
@@ -1382,7 +1407,62 @@
   "api/StormHawks.Runtime.Players.html": {
     "href": "api/StormHawks.Runtime.Players.html",
     "title": "Namespace StormHawks.Runtime.Players | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Players Classes PlayerContext PlayerHealth PlayerMovementConfigSO PlayerMover PlayerRotator"
+    "keywords": "Namespace StormHawks.Runtime.Players Classes PlayerContext PlayerHealth"
+  },
+  "api/StormHawks.Runtime.Players.Movement.Chasing.html": {
+    "href": "api/StormHawks.Runtime.Players.Movement.Chasing.html",
+    "title": "Namespace StormHawks.Runtime.Players.Movement.Chasing | Developer Reference",
+    "keywords": "Namespace StormHawks.Runtime.Players.Movement.Chasing Classes PlayerChaseMovementConfigSO PlayerChaseMover PlayerChaseRotator"
+  },
+  "api/StormHawks.Runtime.Players.Movement.Chasing.PlayerChaseMovementConfigSO.html": {
+    "href": "api/StormHawks.Runtime.Players.Movement.Chasing.PlayerChaseMovementConfigSO.html",
+    "title": "Class PlayerChaseMovementConfigSO | Developer Reference",
+    "keywords": "Class PlayerChaseMovementConfigSO Inheritance Object PlayerChaseMovementConfigSO Namespace : StormHawks.Runtime.Players.Movement.Chasing Assembly : cs.temp.dll.dll Syntax public class PlayerChaseMovementConfigSO : PlayerMovementConfigSO Properties IdleSideThrust Declaration public float IdleSideThrust { get; } Property Value Type Description Single MaxSideThrust Declaration public float MaxSideThrust { get; } Property Value Type Description Single MinSideThrust Declaration public float MinSideThrust { get; } Property Value Type Description Single PitchAngleLimit Declaration public float PitchAngleLimit { get; } Property Value Type Description Single PullBackPower Declaration public float PullBackPower { get; } Property Value Type Description Single RollAngleLimit Declaration public float RollAngleLimit { get; } Property Value Type Description Single RotateAngleLimit Declaration public Vector3 RotateAngleLimit { get; } Property Value Type Description Vector3 YawAngleLimit Declaration public float YawAngleLimit { get; } Property Value Type Description Single Methods GetSideThrust(Boolean) Declaration public float GetSideThrust(bool isAccelerating) Parameters Type Name Description Boolean isAccelerating Returns Type Description Single"
+  },
+  "api/StormHawks.Runtime.Players.Movement.Chasing.PlayerChaseMover.html": {
+    "href": "api/StormHawks.Runtime.Players.Movement.Chasing.PlayerChaseMover.html",
+    "title": "Class PlayerChaseMover | Developer Reference",
+    "keywords": "Class PlayerChaseMover Inheritance Object PlayerMoverBase PlayerChaseMover Implements IPlayerMovement Inherited Members PlayerMoverBase.ControlHandler PlayerMoverBase.PlayerRigidbody PlayerMoverBase.Thrust PlayerMoverBase.Velocity Namespace : StormHawks.Runtime.Players.Movement.Chasing Assembly : cs.temp.dll.dll Syntax public class PlayerChaseMover : PlayerMoverBase Properties MovementConfig Declaration protected PlayerChaseMovementConfigSO MovementConfig { get; } Property Value Type Description PlayerChaseMovementConfigSO SideThrust Declaration public float SideThrust { get; protected set; } Property Value Type Description Single Methods Initialize() Declaration protected override void Initialize() Overrides PlayerMoverBase.Initialize() UpdateThrust() Declaration protected override void UpdateThrust() Overrides PlayerMoverBase.UpdateThrust() UpdateVelocity() Declaration protected override void UpdateVelocity() Overrides PlayerMoverBase.UpdateVelocity() Implements IPlayerMovement"
+  },
+  "api/StormHawks.Runtime.Players.Movement.Chasing.PlayerChaseRotator.html": {
+    "href": "api/StormHawks.Runtime.Players.Movement.Chasing.PlayerChaseRotator.html",
+    "title": "Class PlayerChaseRotator | Developer Reference",
+    "keywords": "Class PlayerChaseRotator Inheritance Object PlayerRotatorBase PlayerChaseRotator Inherited Members PlayerRotatorBase.ControlHandler PlayerRotatorBase.PlayerRigidbody PlayerRotatorBase.Rotation PlayerRotatorBase.TargetRotation Namespace : StormHawks.Runtime.Players.Movement.Chasing Assembly : cs.temp.dll.dll Syntax public class PlayerChaseRotator : PlayerRotatorBase Properties MovementConfig Declaration protected PlayerChaseMovementConfigSO MovementConfig { get; } Property Value Type Description PlayerChaseMovementConfigSO Methods UpdateRotation() Declaration protected override void UpdateRotation() Overrides PlayerRotatorBase.UpdateRotation()"
+  },
+  "api/StormHawks.Runtime.Players.Movement.Flight.html": {
+    "href": "api/StormHawks.Runtime.Players.Movement.Flight.html",
+    "title": "Namespace StormHawks.Runtime.Players.Movement.Flight | Developer Reference",
+    "keywords": "Namespace StormHawks.Runtime.Players.Movement.Flight Classes PlayerFlightMover PlayerFlightRotator PlayerMovementConfigSO"
+  },
+  "api/StormHawks.Runtime.Players.Movement.Flight.PlayerFlightMover.html": {
+    "href": "api/StormHawks.Runtime.Players.Movement.Flight.PlayerFlightMover.html",
+    "title": "Class PlayerFlightMover | Developer Reference",
+    "keywords": "Class PlayerFlightMover Inheritance Object PlayerMoverBase PlayerFlightMover Implements IPlayerMovement Inherited Members PlayerMoverBase.ControlHandler PlayerMoverBase.PlayerRigidbody PlayerMoverBase.Thrust PlayerMoverBase.Velocity Namespace : StormHawks.Runtime.Players.Movement.Flight Assembly : cs.temp.dll.dll Syntax public class PlayerFlightMover : PlayerMoverBase Properties MovementConfig Declaration protected PlayerMovementConfigSO MovementConfig { get; } Property Value Type Description PlayerMovementConfigSO Methods Initialize() Declaration protected override void Initialize() Overrides PlayerMoverBase.Initialize() UpdateThrust() Declaration protected override void UpdateThrust() Overrides PlayerMoverBase.UpdateThrust() UpdateVelocity() Declaration protected override void UpdateVelocity() Overrides PlayerMoverBase.UpdateVelocity() Implements IPlayerMovement"
+  },
+  "api/StormHawks.Runtime.Players.Movement.Flight.PlayerFlightRotator.html": {
+    "href": "api/StormHawks.Runtime.Players.Movement.Flight.PlayerFlightRotator.html",
+    "title": "Class PlayerFlightRotator | Developer Reference",
+    "keywords": "Class PlayerFlightRotator Inheritance Object PlayerRotatorBase PlayerFlightRotator Inherited Members PlayerRotatorBase.ControlHandler PlayerRotatorBase.PlayerRigidbody PlayerRotatorBase.Rotation PlayerRotatorBase.TargetRotation Namespace : StormHawks.Runtime.Players.Movement.Flight Assembly : cs.temp.dll.dll Syntax public class PlayerFlightRotator : PlayerRotatorBase Properties MovementConfig Declaration protected PlayerMovementConfigSO MovementConfig { get; } Property Value Type Description PlayerMovementConfigSO Methods UpdateRotation() Declaration protected override void UpdateRotation() Overrides PlayerRotatorBase.UpdateRotation()"
+  },
+  "api/StormHawks.Runtime.Players.Movement.Flight.PlayerMovementConfigSO.html": {
+    "href": "api/StormHawks.Runtime.Players.Movement.Flight.PlayerMovementConfigSO.html",
+    "title": "Class PlayerMovementConfigSO | Developer Reference",
+    "keywords": "Class PlayerMovementConfigSO Inheritance Object PlayerMovementConfigSO Namespace : StormHawks.Runtime.Players.Movement.Flight Assembly : cs.temp.dll.dll Syntax public class PlayerMovementConfigSO : ScriptableObject Properties IdleThrust Declaration public float IdleThrust { get; } Property Value Type Description Single MaxThrust Declaration public float MaxThrust { get; } Property Value Type Description Single MinThrust Declaration public float MinThrust { get; } Property Value Type Description Single PitchTorque Declaration public float PitchTorque { get; } Property Value Type Description Single RollTorque Declaration public float RollTorque { get; } Property Value Type Description Single ThrustAccelerateTime Declaration public float ThrustAccelerateTime { get; } Property Value Type Description Single ThrustDecelerationTime Declaration public float ThrustDecelerationTime { get; } Property Value Type Description Single TorqueChangeTime Declaration public float TorqueChangeTime { get; } Property Value Type Description Single VelocityChangeThreshold Declaration public float VelocityChangeThreshold { get; } Property Value Type Description Single VelocityChangeTime Declaration public float VelocityChangeTime { get; } Property Value Type Description Single YawTorque Declaration public float YawTorque { get; } Property Value Type Description Single Methods GetThrust(Boolean) Declaration public float GetThrust(bool isAccelerating) Parameters Type Name Description Boolean isAccelerating Returns Type Description Single GetThrustLerpTime(Boolean) Declaration public float GetThrustLerpTime(bool isAccelerating) Parameters Type Name Description Boolean isAccelerating Returns Type Description Single IsOverVelocityThreshold(Single) Declaration public bool IsOverVelocityThreshold(float thrust) Parameters Type Name Description Single thrust Returns Type Description Boolean"
+  },
+  "api/StormHawks.Runtime.Players.Movement.html": {
+    "href": "api/StormHawks.Runtime.Players.Movement.html",
+    "title": "Namespace StormHawks.Runtime.Players.Movement | Developer Reference",
+    "keywords": "Namespace StormHawks.Runtime.Players.Movement Classes PlayerMoverBase PlayerRotatorBase"
+  },
+  "api/StormHawks.Runtime.Players.Movement.PlayerMoverBase.html": {
+    "href": "api/StormHawks.Runtime.Players.Movement.PlayerMoverBase.html",
+    "title": "Class PlayerMoverBase | Developer Reference",
+    "keywords": "Class PlayerMoverBase Inheritance Object PlayerMoverBase PlayerChaseMover PlayerFlightMover Implements IPlayerMovement Namespace : StormHawks.Runtime.Players.Movement Assembly : cs.temp.dll.dll Syntax public abstract class PlayerMoverBase : MonoBehaviour Properties ControlHandler Declaration protected PlayerControlHandler ControlHandler { get; } Property Value Type Description PlayerControlHandler PlayerRigidbody Declaration protected Rigidbody PlayerRigidbody { get; } Property Value Type Description Rigidbody Thrust Declaration public float Thrust { get; protected set; } Property Value Type Description Single Velocity Declaration public Vector3 Velocity { get; protected set; } Property Value Type Description Vector3 Methods Initialize() Declaration protected abstract void Initialize() UpdateThrust() Declaration protected abstract void UpdateThrust() UpdateVelocity() Declaration protected abstract void UpdateVelocity() Implements IPlayerMovement"
+  },
+  "api/StormHawks.Runtime.Players.Movement.PlayerRotatorBase.html": {
+    "href": "api/StormHawks.Runtime.Players.Movement.PlayerRotatorBase.html",
+    "title": "Class PlayerRotatorBase | Developer Reference",
+    "keywords": "Class PlayerRotatorBase Inheritance Object PlayerRotatorBase PlayerChaseRotator PlayerFlightRotator Namespace : StormHawks.Runtime.Players.Movement Assembly : cs.temp.dll.dll Syntax public abstract class PlayerRotatorBase : MonoBehaviour Fields PlayerRigidbody Declaration protected Rigidbody PlayerRigidbody Field Value Type Description Rigidbody Rotation Declaration protected Quaternion Rotation Field Value Type Description Quaternion TargetRotation Declaration protected Quaternion TargetRotation Field Value Type Description Quaternion Properties ControlHandler Declaration protected PlayerControlHandler ControlHandler { get; } Property Value Type Description PlayerControlHandler Methods UpdateRotation() Declaration protected abstract void UpdateRotation()"
   },
   "api/StormHawks.Runtime.Players.PlayerContext.html": {
     "href": "api/StormHawks.Runtime.Players.PlayerContext.html",
@@ -1393,21 +1473,6 @@
     "href": "api/StormHawks.Runtime.Players.PlayerHealth.html",
     "title": "Class PlayerHealth | Developer Reference",
     "keywords": "Class PlayerHealth Inheritance Object PlayerHealth Implements IHasHealth Namespace : StormHawks.Runtime.Players Assembly : cs.temp.dll.dll Syntax public class PlayerHealth : MonoBehaviour Properties CurrentHealth Declaration public float CurrentHealth { get; } Property Value Type Description Single HealthSO Declaration public EntityHealthSO HealthSO { get; set; } Property Value Type Description EntityHealthSO Methods TakeDamage(Vector3, Single) Declaration public void TakeDamage(Vector3 dir, float damage) Parameters Type Name Description Vector3 dir Single damage Implements IHasHealth"
-  },
-  "api/StormHawks.Runtime.Players.PlayerMovementConfigSO.html": {
-    "href": "api/StormHawks.Runtime.Players.PlayerMovementConfigSO.html",
-    "title": "Class PlayerMovementConfigSO | Developer Reference",
-    "keywords": "Class PlayerMovementConfigSO Inheritance Object PlayerMovementConfigSO Namespace : StormHawks.Runtime.Players Assembly : cs.temp.dll.dll Syntax public class PlayerMovementConfigSO : ScriptableObject Properties IdleThrust Declaration public float IdleThrust { get; } Property Value Type Description Single MaxThrust Declaration public float MaxThrust { get; } Property Value Type Description Single MinThrust Declaration public float MinThrust { get; } Property Value Type Description Single PitchTorque Declaration public float PitchTorque { get; } Property Value Type Description Single RollTorque Declaration public float RollTorque { get; } Property Value Type Description Single ThrustAccelerateTime Declaration public float ThrustAccelerateTime { get; } Property Value Type Description Single ThrustDecelerationTime Declaration public float ThrustDecelerationTime { get; } Property Value Type Description Single TorqueChangeTime Declaration public float TorqueChangeTime { get; } Property Value Type Description Single VelocityChangeThreshold Declaration public float VelocityChangeThreshold { get; } Property Value Type Description Single VelocityChangeTime Declaration public float VelocityChangeTime { get; } Property Value Type Description Single YawTorque Declaration public float YawTorque { get; } Property Value Type Description Single"
-  },
-  "api/StormHawks.Runtime.Players.PlayerMover.html": {
-    "href": "api/StormHawks.Runtime.Players.PlayerMover.html",
-    "title": "Class PlayerMover | Developer Reference",
-    "keywords": "Class PlayerMover Inheritance Object PlayerMover Namespace : StormHawks.Runtime.Players Assembly : cs.temp.dll.dll Syntax public class PlayerMover : MonoBehaviour"
-  },
-  "api/StormHawks.Runtime.Players.PlayerRotator.html": {
-    "href": "api/StormHawks.Runtime.Players.PlayerRotator.html",
-    "title": "Class PlayerRotator | Developer Reference",
-    "keywords": "Class PlayerRotator Inheritance Object PlayerRotator Namespace : StormHawks.Runtime.Players Assembly : cs.temp.dll.dll Syntax public class PlayerRotator : MonoBehaviour"
   },
   "api/StormHawks.Runtime.Rig.html": {
     "href": "api/StormHawks.Runtime.Rig.html",

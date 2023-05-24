@@ -96,17 +96,44 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class EnemyGroupController : MonoBehaviour</code></pre>
   </div>
-  <h3 id="methods">Methods
+  <h3 id="properties">Properties
   </h3>
   
   
-  <a id="StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroupController_OrganizeGroups_" data-uid="StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.OrganizeGroups*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroupController_OrganizeGroups_List_StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroupMember__" data-uid="StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.OrganizeGroups(List{StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember})">OrganizeGroups(List&lt;EnemyGroupMember&gt;)</h4>
+  <a id="StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroupController_MaxGroupCount_" data-uid="StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.MaxGroupCount*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroupController_MaxGroupCount" data-uid="StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.MaxGroupCount">MaxGroupCount</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OrganizeGroups(List&lt;EnemyGroupMember&gt; enemyGroupMembers)</code></pre>
+    <pre><code class="lang-csharp hljs">public int MaxGroupCount { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroupController_SpawningEnemyGroups_" data-uid="StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.SpawningEnemyGroups*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroupController_SpawningEnemyGroups_GameObject_System_Int32_System_Single_" data-uid="StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.SpawningEnemyGroups(GameObject,System.Int32,System.Single)">SpawningEnemyGroups(GameObject, Int32, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async UniTaskVoid SpawningEnemyGroups(GameObject memberSetPrefab, int count, float delay = 0F)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -119,8 +146,59 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">List</span>&lt;<a class="xref" href="StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember.html">EnemyGroupMember</a>&gt;</td>
-        <td><span class="parametername">enemyGroupMembers</span></td>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">memberSetPrefab</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">count</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">delay</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UniTaskVoid</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="events">Events
+  </h3>
+  
+  
+  <h4 id="StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroupController_OnSpawnCompleted" data-uid="StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.OnSpawnCompleted">OnSpawnCompleted</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action OnSpawnCompleted</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Action</span></td>
         <td></td>
       </tr>
     </tbody>

@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Namespace StormHawks.Runtime.Utilities.RuntimeSet
+    <title>Class EnemyPortal
    | Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Namespace StormHawks.Runtime.Utilities.RuntimeSet
+    <meta name="title" content="Class EnemyPortal
    | Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -78,29 +78,91 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Utilities.RuntimeSet">
+            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Environments.EnemyPortal">
   
-  <h1 id="StormHawks_Runtime_Utilities_RuntimeSet" data-uid="StormHawks.Runtime.Utilities.RuntimeSet" class="text-break">Namespace StormHawks.Runtime.Utilities.RuntimeSet
+  
+  <h1 id="StormHawks_Runtime_Environments_EnemyPortal" data-uid="StormHawks.Runtime.Environments.EnemyPortal" class="text-break">Class EnemyPortal
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
-  <div class="markdown level0 remarks"></div>
-    <h3 id="classes">Classes
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">EnemyPortal</span></div>
+  </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">IPoolable</span>&lt;<a class="xref" href="StormHawks.Runtime.Environments.EnemyPortal.html">EnemyPortal</a>&gt;</div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Environments.html">StormHawks.Runtime.Environments</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="StormHawks_Runtime_Environments_EnemyPortal_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class EnemyPortal : MonoBehaviour</code></pre>
+  </div>
+  <h3 id="properties">Properties
   </h3>
-      <h4><a class="xref" href="StormHawks.Runtime.Utilities.RuntimeSet.AggressivePartsSet.html">AggressivePartsSet</a></h4>
-      <section></section>
-      <h4><a class="xref" href="StormHawks.Runtime.Utilities.RuntimeSet.BossRuntimeSet.html">BossRuntimeSet</a></h4>
-      <section></section>
-      <h4><a class="xref" href="StormHawks.Runtime.Utilities.RuntimeSet.EliteEnemiesSet.html">EliteEnemiesSet</a></h4>
-      <section></section>
-      <h4><a class="xref" href="StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupMemberSet.html">EnemyGroupMemberSet</a></h4>
-      <section></section>
-      <h4><a class="xref" href="StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupSet.html">EnemyGroupSet</a></h4>
-      <section></section>
-      <h4><a class="xref" href="StormHawks.Runtime.Utilities.RuntimeSet.MainSlavePartSet.html">MainSlavePartSet</a></h4>
-      <section></section>
-      <h4><a class="xref" href="StormHawks.Runtime.Utilities.RuntimeSet.PartSpawnPointSet.html">PartSpawnPointSet</a></h4>
-      <section></section>
+  
+  
+  <a id="StormHawks_Runtime_Environments_EnemyPortal_Pool_" data-uid="StormHawks.Runtime.Environments.EnemyPortal.Pool*"></a>
+  <h4 id="StormHawks_Runtime_Environments_EnemyPortal_Pool" data-uid="StormHawks.Runtime.Environments.EnemyPortal.Pool">Pool</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MonoObjectPool&lt;EnemyPortal&gt; Pool { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">MonoObjectPool</span>&lt;<a class="xref" href="StormHawks.Runtime.Environments.EnemyPortal.html">EnemyPortal</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="StormHawks_Runtime_Environments_EnemyPortal_Close_" data-uid="StormHawks.Runtime.Environments.EnemyPortal.Close*"></a>
+  <h4 id="StormHawks_Runtime_Environments_EnemyPortal_Close" data-uid="StormHawks.Runtime.Environments.EnemyPortal.Close">Close()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Close()</code></pre>
+  </div>
+  
+  
+  <a id="StormHawks_Runtime_Environments_EnemyPortal_OnRelease_" data-uid="StormHawks.Runtime.Environments.EnemyPortal.OnRelease*"></a>
+  <h4 id="StormHawks_Runtime_Environments_EnemyPortal_OnRelease" data-uid="StormHawks.Runtime.Environments.EnemyPortal.OnRelease">OnRelease()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnRelease()</code></pre>
+  </div>
+  
+  
+  <a id="StormHawks_Runtime_Environments_EnemyPortal_OnSpawn_" data-uid="StormHawks.Runtime.Environments.EnemyPortal.OnSpawn*"></a>
+  <h4 id="StormHawks_Runtime_Environments_EnemyPortal_OnSpawn" data-uid="StormHawks.Runtime.Environments.EnemyPortal.OnSpawn">OnSpawn()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnSpawn()</code></pre>
+  </div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">IPoolable&lt;&gt;</span>
+  </div>
 </article>
           </div>
           

@@ -2144,6 +2144,16 @@
     "title": "Class ParticleSystemKey | Developer Reference",
     "keywords": "Class ParticleSystemKey Inheritance Object ParticleSystemKey Namespace : StormHawks.Runtime.Utilities.BehaviorTree Assembly : cs.temp.dll.dll Syntax [Serializable] public class ParticleSystemKey : BlackboardKey<ParticleSystem>"
   },
+  "api/StormHawks.Runtime.Utilities.Enums.html": {
+    "href": "api/StormHawks.Runtime.Utilities.Enums.html",
+    "title": "Namespace StormHawks.Runtime.Utilities.Enums | Developer Reference",
+    "keywords": "Namespace StormHawks.Runtime.Utilities.Enums Enums UpdateType"
+  },
+  "api/StormHawks.Runtime.Utilities.Enums.UpdateType.html": {
+    "href": "api/StormHawks.Runtime.Utilities.Enums.UpdateType.html",
+    "title": "Enum UpdateType | Developer Reference",
+    "keywords": "Enum UpdateType Namespace : StormHawks.Runtime.Utilities.Enums Assembly : cs.temp.dll.dll Syntax public enum UpdateType Fields Name Description FixedUpdate LateUpdate Manual Update"
+  },
   "api/StormHawks.Runtime.Utilities.Events.BaseEventChannel-1.html": {
     "href": "api/StormHawks.Runtime.Utilities.Events.BaseEventChannel-1.html",
     "title": "Class BaseEventChannel<T> | Developer Reference",
@@ -2167,7 +2177,7 @@
   "api/StormHawks.Runtime.Utilities.Extensions.html": {
     "href": "api/StormHawks.Runtime.Utilities.Extensions.html",
     "title": "Namespace StormHawks.Runtime.Utilities.Extensions | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Utilities.Extensions Classes ColliderExtensions InputExtensions MathExtensions TransformExtensions TypeExtensions Vector3Extensions"
+    "keywords": "Namespace StormHawks.Runtime.Utilities.Extensions Classes ColliderExtensions InputExtensions MathExtensions ParticleSystemExtensions TransformExtensions TypeExtensions Vector3Extensions"
   },
   "api/StormHawks.Runtime.Utilities.Extensions.InputExtensions.html": {
     "href": "api/StormHawks.Runtime.Utilities.Extensions.InputExtensions.html",
@@ -2178,6 +2188,11 @@
     "href": "api/StormHawks.Runtime.Utilities.Extensions.MathExtensions.html",
     "title": "Class MathExtensions | Developer Reference",
     "keywords": "Class MathExtensions Inheritance Object MathExtensions Namespace : StormHawks.Runtime.Utilities.Extensions Assembly : cs.temp.dll.dll Syntax public static class MathExtensions Methods IgnoreByRange(Single, Single) Declaration public static float IgnoreByRange(this float num, float range) Parameters Type Name Description Single num Single range Returns Type Description Single IgnoreByRange(Single, Single, Single) Declaration public static float IgnoreByRange(this float num, float min, float max) Parameters Type Name Description Single num Single min Single max Returns Type Description Single IsBetween(Single, Single, Single, Boolean) Declaration public static bool IsBetween(this float num, float lower, float upper, bool inclusive = false) Parameters Type Name Description Single num Single lower Single upper Boolean inclusive Returns Type Description Boolean Max(Single, Single) Declaration public static float Max(this float num, float max) Parameters Type Name Description Single num Single max Returns Type Description Single Min(Single, Single) Declaration public static float Min(this float num, float min) Parameters Type Name Description Single num Single min Returns Type Description Single NormalizeByRange(Single, Single) Declaration public static float NormalizeByRange(this float num, float range) Parameters Type Name Description Single num Single range Returns Type Description Single"
+  },
+  "api/StormHawks.Runtime.Utilities.Extensions.ParticleSystemExtensions.html": {
+    "href": "api/StormHawks.Runtime.Utilities.Extensions.ParticleSystemExtensions.html",
+    "title": "Class ParticleSystemExtensions | Developer Reference",
+    "keywords": "Class ParticleSystemExtensions Inheritance Object ParticleSystemExtensions Namespace : StormHawks.Runtime.Utilities.Extensions Assembly : cs.temp.dll.dll Syntax public static class ParticleSystemExtensions Methods MoveParticles(ParticleSystem, Vector3) Declaration public static void MoveParticles(this ParticleSystem particleSystem, Vector3 offset) Parameters Type Name Description ParticleSystem particleSystem Vector3 offset SetParticleSpace(ParticleSystem.MainModule, ParticleSystemSimulationSpace) Declaration public static void SetParticleSpace(this ParticleSystem.MainModule module, ParticleSystemSimulationSpace space) Parameters Type Name Description ParticleSystem.MainModule module ParticleSystemSimulationSpace space"
   },
   "api/StormHawks.Runtime.Utilities.Extensions.TransformExtensions.html": {
     "href": "api/StormHawks.Runtime.Utilities.Extensions.TransformExtensions.html",
@@ -2289,6 +2304,56 @@
     "title": "Class SerializableScriptableObject | Developer Reference",
     "keywords": "Class SerializableScriptableObject Inheritance Object SerializableScriptableObject Namespace : StormHawks.Runtime.Utilities.ScriptableObjects Assembly : cs.temp.dll.dll Syntax public abstract class SerializableScriptableObject : ScriptableObject Properties Guid Declaration public string Guid { get; } Property Value Type Description String"
   },
+  "api/StormHawks.Runtime.Utilities.Shifters.CinemachineOriginShiftController.html": {
+    "href": "api/StormHawks.Runtime.Utilities.Shifters.CinemachineOriginShiftController.html",
+    "title": "Class CinemachineOriginShiftController | Developer Reference",
+    "keywords": "Class CinemachineOriginShiftController Inheritance Object OriginShiftController CinemachineOriginShiftController Inherited Members OriginShiftController.OnEnable() OriginShiftController.OnDisable() Namespace : StormHawks.Runtime.Utilities.Shifters Assembly : cs.temp.dll.dll Syntax public class CinemachineOriginShiftController : OriginShiftController Methods Awake() Declaration protected override void Awake() Overrides OriginShiftController.Awake() OnShiftOrigin(OriginShiftEventContext) Declaration protected override void OnShiftOrigin(OriginShiftEventContext ctx) Parameters Type Name Description OriginShiftEventContext ctx Overrides OriginShiftController.OnShiftOrigin(OriginShiftEventContext)"
+  },
+  "api/StormHawks.Runtime.Utilities.Shifters.html": {
+    "href": "api/StormHawks.Runtime.Utilities.Shifters.html",
+    "title": "Namespace StormHawks.Runtime.Utilities.Shifters | Developer Reference",
+    "keywords": "Namespace StormHawks.Runtime.Utilities.Shifters Classes CinemachineOriginShiftController OriginShiftController OriginShiftHandler ParticleOriginShiftController RigidbodyOriginShiftController TrailRendererOriginShiftController TransformOriginShiftController Structs OriginShiftEventContext Delegates OriginShiftHandler.OriginShiftEventDelegate"
+  },
+  "api/StormHawks.Runtime.Utilities.Shifters.OriginShiftController.html": {
+    "href": "api/StormHawks.Runtime.Utilities.Shifters.OriginShiftController.html",
+    "title": "Class OriginShiftController | Developer Reference",
+    "keywords": "Class OriginShiftController Inheritance Object OriginShiftController CinemachineOriginShiftController ParticleOriginShiftController RigidbodyOriginShiftController TrailRendererOriginShiftController TransformOriginShiftController Namespace : StormHawks.Runtime.Utilities.Shifters Assembly : cs.temp.dll.dll Syntax public abstract class OriginShiftController : MonoBehaviour Methods Awake() Declaration protected virtual void Awake() OnDisable() Declaration protected virtual void OnDisable() OnEnable() Declaration protected virtual void OnEnable() OnShiftOrigin(OriginShiftEventContext) Declaration protected abstract void OnShiftOrigin(OriginShiftEventContext ctx) Parameters Type Name Description OriginShiftEventContext ctx"
+  },
+  "api/StormHawks.Runtime.Utilities.Shifters.OriginShiftEventContext.html": {
+    "href": "api/StormHawks.Runtime.Utilities.Shifters.OriginShiftEventContext.html",
+    "title": "Struct OriginShiftEventContext | Developer Reference",
+    "keywords": "Struct OriginShiftEventContext Namespace : StormHawks.Runtime.Utilities.Shifters Assembly : cs.temp.dll.dll Syntax public struct OriginShiftEventContext Constructors OriginShiftEventContext(Vector3) Declaration public OriginShiftEventContext(Vector3 offset) Parameters Type Name Description Vector3 offset Properties Offset Declaration public Vector3 Offset { readonly get; } Property Value Type Description Vector3"
+  },
+  "api/StormHawks.Runtime.Utilities.Shifters.OriginShiftHandler.html": {
+    "href": "api/StormHawks.Runtime.Utilities.Shifters.OriginShiftHandler.html",
+    "title": "Class OriginShiftHandler | Developer Reference",
+    "keywords": "Class OriginShiftHandler Inheritance Object OriginShiftHandler Namespace : StormHawks.Runtime.Utilities.Shifters Assembly : cs.temp.dll.dll Syntax public class OriginShiftHandler : UpdateMonoBehaviour Methods OnUpdate() Declaration protected override void OnUpdate() Subscribe(OriginShiftHandler.OriginShiftEventDelegate) Declaration public void Subscribe(OriginShiftHandler.OriginShiftEventDelegate shiftEvent) Parameters Type Name Description OriginShiftHandler.OriginShiftEventDelegate shiftEvent Unsubscribe(OriginShiftHandler.OriginShiftEventDelegate) Declaration public void Unsubscribe(OriginShiftHandler.OriginShiftEventDelegate shiftEvent) Parameters Type Name Description OriginShiftHandler.OriginShiftEventDelegate shiftEvent Events ShiftOriginEvent Declaration public event OriginShiftHandler.OriginShiftEventDelegate ShiftOriginEvent Event Type Type Description OriginShiftHandler.OriginShiftEventDelegate"
+  },
+  "api/StormHawks.Runtime.Utilities.Shifters.OriginShiftHandler.OriginShiftEventDelegate.html": {
+    "href": "api/StormHawks.Runtime.Utilities.Shifters.OriginShiftHandler.OriginShiftEventDelegate.html",
+    "title": "Delegate OriginShiftHandler.OriginShiftEventDelegate | Developer Reference",
+    "keywords": "Delegate OriginShiftHandler.OriginShiftEventDelegate Namespace : StormHawks.Runtime.Utilities.Shifters Assembly : cs.temp.dll.dll Syntax public delegate void OriginShiftEventDelegate(OriginShiftEventContext originShiftEvent); Parameters Type Name Description OriginShiftEventContext originShiftEvent"
+  },
+  "api/StormHawks.Runtime.Utilities.Shifters.ParticleOriginShiftController.html": {
+    "href": "api/StormHawks.Runtime.Utilities.Shifters.ParticleOriginShiftController.html",
+    "title": "Class ParticleOriginShiftController | Developer Reference",
+    "keywords": "Class ParticleOriginShiftController Inheritance Object OriginShiftController ParticleOriginShiftController Inherited Members OriginShiftController.OnEnable() OriginShiftController.OnDisable() Namespace : StormHawks.Runtime.Utilities.Shifters Assembly : cs.temp.dll.dll Syntax public class ParticleOriginShiftController : OriginShiftController Methods Awake() Declaration protected override void Awake() Overrides OriginShiftController.Awake() OnShiftOrigin(OriginShiftEventContext) Declaration protected override void OnShiftOrigin(OriginShiftEventContext ctx) Parameters Type Name Description OriginShiftEventContext ctx Overrides OriginShiftController.OnShiftOrigin(OriginShiftEventContext)"
+  },
+  "api/StormHawks.Runtime.Utilities.Shifters.RigidbodyOriginShiftController.html": {
+    "href": "api/StormHawks.Runtime.Utilities.Shifters.RigidbodyOriginShiftController.html",
+    "title": "Class RigidbodyOriginShiftController | Developer Reference",
+    "keywords": "Class RigidbodyOriginShiftController Inheritance Object OriginShiftController RigidbodyOriginShiftController Inherited Members OriginShiftController.OnEnable() OriginShiftController.OnDisable() Namespace : StormHawks.Runtime.Utilities.Shifters Assembly : cs.temp.dll.dll Syntax public class RigidbodyOriginShiftController : OriginShiftController Methods Awake() Declaration protected override void Awake() Overrides OriginShiftController.Awake() OnShiftOrigin(OriginShiftEventContext) Declaration protected override void OnShiftOrigin(OriginShiftEventContext ctx) Parameters Type Name Description OriginShiftEventContext ctx Overrides OriginShiftController.OnShiftOrigin(OriginShiftEventContext)"
+  },
+  "api/StormHawks.Runtime.Utilities.Shifters.TrailRendererOriginShiftController.html": {
+    "href": "api/StormHawks.Runtime.Utilities.Shifters.TrailRendererOriginShiftController.html",
+    "title": "Class TrailRendererOriginShiftController | Developer Reference",
+    "keywords": "Class TrailRendererOriginShiftController Inheritance Object OriginShiftController TrailRendererOriginShiftController Inherited Members OriginShiftController.OnEnable() OriginShiftController.OnDisable() Namespace : StormHawks.Runtime.Utilities.Shifters Assembly : cs.temp.dll.dll Syntax public class TrailRendererOriginShiftController : OriginShiftController Methods Awake() Declaration protected override void Awake() Overrides OriginShiftController.Awake() OnShiftOrigin(OriginShiftEventContext) Declaration protected override void OnShiftOrigin(OriginShiftEventContext ctx) Parameters Type Name Description OriginShiftEventContext ctx Overrides OriginShiftController.OnShiftOrigin(OriginShiftEventContext)"
+  },
+  "api/StormHawks.Runtime.Utilities.Shifters.TransformOriginShiftController.html": {
+    "href": "api/StormHawks.Runtime.Utilities.Shifters.TransformOriginShiftController.html",
+    "title": "Class TransformOriginShiftController | Developer Reference",
+    "keywords": "Class TransformOriginShiftController Inheritance Object OriginShiftController TransformOriginShiftController Inherited Members OriginShiftController.Awake() OriginShiftController.OnEnable() OriginShiftController.OnDisable() Namespace : StormHawks.Runtime.Utilities.Shifters Assembly : cs.temp.dll.dll Syntax public class TransformOriginShiftController : OriginShiftController Methods OnShiftOrigin(OriginShiftEventContext) Declaration protected override void OnShiftOrigin(OriginShiftEventContext ctx) Parameters Type Name Description OriginShiftEventContext ctx Overrides OriginShiftController.OnShiftOrigin(OriginShiftEventContext)"
+  },
   "api/StormHawks.Runtime.Utilities.TrackingOffsetSO.html": {
     "href": "api/StormHawks.Runtime.Utilities.TrackingOffsetSO.html",
     "title": "Class TrackingOffsetSO | Developer Reference",
@@ -2332,7 +2397,7 @@
   "api/StormHawks.Runtime.Utilities.Types.html": {
     "href": "api/StormHawks.Runtime.Utilities.Types.html",
     "title": "Namespace StormHawks.Runtime.Utilities.Types | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Utilities.Types Classes PointValue RangeValue RuntimeSet<T> Structs AxisValue"
+    "keywords": "Namespace StormHawks.Runtime.Utilities.Types Classes PointValue RangeValue RuntimeSet<T> UpdateMonoBehaviour Structs AxisValue"
   },
   "api/StormHawks.Runtime.Utilities.Types.PointValue.html": {
     "href": "api/StormHawks.Runtime.Utilities.Types.PointValue.html",
@@ -2348,6 +2413,11 @@
     "href": "api/StormHawks.Runtime.Utilities.Types.RuntimeSet-1.html",
     "title": "Class RuntimeSet<T> | Developer Reference",
     "keywords": "Class RuntimeSet<T> Inheritance Object RuntimeSet<T> Namespace : StormHawks.Runtime.Utilities.Types Assembly : cs.temp.dll.dll Syntax public abstract class RuntimeSet<T> : ScriptableObject Type Parameters Name Description T Fields Items Declaration public List<T> Items Field Value Type Description List <T> Methods Add(T) Declaration public virtual void Add(T thing) Parameters Type Name Description T thing Remove(T) Declaration public virtual void Remove(T thing) Parameters Type Name Description T thing"
+  },
+  "api/StormHawks.Runtime.Utilities.Types.UpdateMonoBehaviour.html": {
+    "href": "api/StormHawks.Runtime.Utilities.Types.UpdateMonoBehaviour.html",
+    "title": "Class UpdateMonoBehaviour | Developer Reference",
+    "keywords": "Class UpdateMonoBehaviour Inheritance Object UpdateMonoBehaviour Namespace : StormHawks.Runtime.Utilities.Types Assembly : cs.temp.dll.dll Syntax public abstract class UpdateMonoBehaviour : MonoBehaviour Properties UpdateType Declaration public UpdateType UpdateType { get; protected set; } Property Value Type Description UpdateType Methods Awake() Declaration protected virtual void Awake() FixedUpdate() Declaration protected virtual void FixedUpdate() LateUpdate() Declaration protected virtual void LateUpdate() OnUpdate() Declaration protected abstract void OnUpdate() Update() Declaration protected virtual void Update()"
   },
   "api/StormHawks.Runtime.Utilities.UIUtility.html": {
     "href": "api/StormHawks.Runtime.Utilities.UIUtility.html",

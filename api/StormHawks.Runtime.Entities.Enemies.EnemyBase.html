@@ -89,7 +89,6 @@
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
     <div class="level1"><span class="xref">EnemyBase</span></div>
-      <div class="level2"><a class="xref" href="StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.html">BossEntity</a></div>
       <div class="level2"><a class="xref" href="StormHawks.Runtime.Entities.Enemies.ChasingEnemy.html">ChasingEnemy</a></div>
       <div class="level2"><a class="xref" href="StormHawks.Runtime.Entities.Enemies.Elites.BaseEliteEnemy.html">BaseEliteEnemy</a></div>
       <div class="level2"><a class="xref" href="StormHawks.Runtime.Entities.Enemies.LookerEnemy.html">LookerEnemy</a></div>
@@ -107,30 +106,6 @@
   </div>
   <h3 id="fields">Fields
   </h3>
-  
-  
-  <h4 id="StormHawks_Runtime_Entities_Enemies_EnemyBase__blackboard" data-uid="StormHawks.Runtime.Entities.Enemies.EnemyBase._blackboard">_blackboard</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected Blackboard _blackboard</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Blackboard</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   
   
   <h4 id="StormHawks_Runtime_Entities_Enemies_EnemyBase__bossEntity" data-uid="StormHawks.Runtime.Entities.Enemies.EnemyBase._bossEntity">_bossEntity</h4>
@@ -181,12 +156,12 @@
   </table>
   
   
-  <h4 id="StormHawks_Runtime_Entities_Enemies_EnemyBase__groupSet" data-uid="StormHawks.Runtime.Entities.Enemies.EnemyBase._groupSet">_groupSet</h4>
+  <h4 id="StormHawks_Runtime_Entities_Enemies_EnemyBase__explosionEffect" data-uid="StormHawks.Runtime.Entities.Enemies.EnemyBase._explosionEffect">_explosionEffect</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected EnemyGroupSet _groupSet</code></pre>
+    <pre><code class="lang-csharp hljs">protected GameObject _explosionEffect</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -198,7 +173,79 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">EnemyGroupSet</span></td>
+        <td><span class="xref">GameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="StormHawks_Runtime_Entities_Enemies_EnemyBase__explosionEvent" data-uid="StormHawks.Runtime.Entities.Enemies.EnemyBase._explosionEvent">_explosionEvent</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected EventReference _explosionEvent</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">EventReference</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="StormHawks_Runtime_Entities_Enemies_EnemyBase_AGGRO_TARGET" data-uid="StormHawks.Runtime.Entities.Enemies.EnemyBase.AGGRO_TARGET">AGGRO_TARGET</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected const string AGGRO_TARGET = &quot;AggroTarget&quot;</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="StormHawks_Runtime_Entities_Enemies_EnemyBase_groupRuntimeSet" data-uid="StormHawks.Runtime.Entities.Enemies.EnemyBase.groupRuntimeSet">groupRuntimeSet</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected EnemyGroupRuntimeSet groupRuntimeSet</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">EnemyGroupRuntimeSet</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -308,29 +355,14 @@
   </h3>
   
   
-  <a id="StormHawks_Runtime_Entities_Enemies_EnemyBase_GetBlackboard_" data-uid="StormHawks.Runtime.Entities.Enemies.EnemyBase.GetBlackboard*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Enemies_EnemyBase_GetBlackboard" data-uid="StormHawks.Runtime.Entities.Enemies.EnemyBase.GetBlackboard">GetBlackboard()</h4>
+  <a id="StormHawks_Runtime_Entities_Enemies_EnemyBase_ReturnToPool_" data-uid="StormHawks.Runtime.Entities.Enemies.EnemyBase.ReturnToPool*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Enemies_EnemyBase_ReturnToPool" data-uid="StormHawks.Runtime.Entities.Enemies.EnemyBase.ReturnToPool">ReturnToPool()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Blackboard GetBlackboard()</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract void ReturnToPool()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Blackboard</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   
   
   <a id="StormHawks_Runtime_Entities_Enemies_EnemyBase_ReturnToPortal_" data-uid="StormHawks.Runtime.Entities.Enemies.EnemyBase.ReturnToPortal*"></a>
@@ -403,7 +435,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual void TakeDamage(Vector3 dir, float damage)</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract void TakeDamage(Vector3 dir, float damage)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

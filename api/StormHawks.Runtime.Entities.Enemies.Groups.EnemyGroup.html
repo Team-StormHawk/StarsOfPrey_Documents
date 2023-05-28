@@ -130,6 +130,56 @@
   </h3>
   
   
+  <a id="StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroup_EnemyGroupOwner_" data-uid="StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroup.EnemyGroupOwner*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroup_EnemyGroupOwner" data-uid="StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroup.EnemyGroupOwner">EnemyGroupOwner</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnemyGroupOwner EnemyGroupOwner { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnemyGroupOwner</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroup_GroupSet_" data-uid="StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroup.GroupSet*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroup_GroupSet" data-uid="StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroup.GroupSet">GroupSet</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EnemyGroupSet GroupSet { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">EnemyGroupSet</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroup_IsActive_" data-uid="StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroup.IsActive*"></a>
   <h4 id="StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroup_IsActive" data-uid="StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroup.IsActive">IsActive</h4>
   <div class="markdown level1 summary"></div>
@@ -203,31 +253,6 @@
       </tr>
     </tbody>
   </table>
-  
-  
-  <a id="StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroup_Owner_" data-uid="StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroup.Owner*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroup_Owner" data-uid="StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroup.Owner">Owner</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EnemyBase Owner { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="StormHawks.Runtime.Entities.Enemies.EnemyBase.html">EnemyBase</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="methods">Methods
   </h3>
   
@@ -260,12 +285,12 @@
   
   
   <a id="StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroup_CompareOwner_" data-uid="StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroup.CompareOwner*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroup_CompareOwner_StormHawks_Runtime_Entities_Enemies_EnemyBase_" data-uid="StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroup.CompareOwner(StormHawks.Runtime.Entities.Enemies.EnemyBase)">CompareOwner(EnemyBase)</h4>
+  <h4 id="StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroup_CompareOwner_IEnemyGroupOwner_" data-uid="StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroup.CompareOwner(IEnemyGroupOwner)">CompareOwner(IEnemyGroupOwner)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool CompareOwner(EnemyBase owner)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool CompareOwner(IEnemyGroupOwner owner)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -278,7 +303,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="StormHawks.Runtime.Entities.Enemies.EnemyBase.html">EnemyBase</a></td>
+        <td><span class="xref">IEnemyGroupOwner</span></td>
         <td><span class="parametername">owner</span></td>
         <td></td>
       </tr>
@@ -341,6 +366,16 @@
       </tr>
     </tbody>
   </table>
+  
+  
+  <a id="StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroup_DestroyAllMembers_" data-uid="StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroup.DestroyAllMembers*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroup_DestroyAllMembers" data-uid="StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroup.DestroyAllMembers">DestroyAllMembers()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DestroyAllMembers()</code></pre>
+  </div>
   
   
   <a id="StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroup_GetEnemies_" data-uid="StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroup.GetEnemies*"></a>
@@ -586,6 +621,33 @@
   </table>
   
   
+  <a id="StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroup_SetEnemyGroupSet_" data-uid="StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroup.SetEnemyGroupSet*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroup_SetEnemyGroupSet_EnemyGroupSet_" data-uid="StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroup.SetEnemyGroupSet(EnemyGroupSet)">SetEnemyGroupSet(EnemyGroupSet)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetEnemyGroupSet(EnemyGroupSet groupSet)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">EnemyGroupSet</span></td>
+        <td><span class="parametername">groupSet</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroup_SetFollowTarget_" data-uid="StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroup.SetFollowTarget*"></a>
   <h4 id="StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroup_SetFollowTarget_GameObject_" data-uid="StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroup.SetFollowTarget(GameObject)">SetFollowTarget(GameObject)</h4>
   <div class="markdown level1 summary"></div>
@@ -614,12 +676,12 @@
   
   
   <a id="StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroup_SetOwner_" data-uid="StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroup.SetOwner*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroup_SetOwner_StormHawks_Runtime_Entities_Enemies_EnemyBase_" data-uid="StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroup.SetOwner(StormHawks.Runtime.Entities.Enemies.EnemyBase)">SetOwner(EnemyBase)</h4>
+  <h4 id="StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroup_SetOwner_IEnemyGroupOwner_" data-uid="StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroup.SetOwner(IEnemyGroupOwner)">SetOwner(IEnemyGroupOwner)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetOwner(EnemyBase owner)</code></pre>
+    <pre><code class="lang-csharp hljs">public void SetOwner(IEnemyGroupOwner owner)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -632,7 +694,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="StormHawks.Runtime.Entities.Enemies.EnemyBase.html">EnemyBase</a></td>
+        <td><span class="xref">IEnemyGroupOwner</span></td>
         <td><span class="parametername">owner</span></td>
         <td></td>
       </tr>

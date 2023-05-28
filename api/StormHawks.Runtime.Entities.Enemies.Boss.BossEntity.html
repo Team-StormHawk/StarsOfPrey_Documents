@@ -88,58 +88,17 @@
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><a class="xref" href="StormHawks.Runtime.Entities.Enemies.EnemyBase.html">EnemyBase</a></div>
-    <div class="level2"><span class="xref">BossEntity</span></div>
+    <div class="level1"><span class="xref">BossEntity</span></div>
   </div>
   <div class="implements">
     <h5>Implements</h5>
-    <div><span class="xref">IHasHealth</span></div>
-    <div><span class="xref">IFollower</span></div>
-  </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <a class="xref" href="StormHawks.Runtime.Entities.Enemies.EnemyBase.html#StormHawks_Runtime_Entities_Enemies_EnemyBase__bossEntityRuntimeSet">EnemyBase._bossEntityRuntimeSet</a>
-    </div>
-    <div>
-      <a class="xref" href="StormHawks.Runtime.Entities.Enemies.EnemyBase.html#StormHawks_Runtime_Entities_Enemies_EnemyBase__bossEntity">EnemyBase._bossEntity</a>
-    </div>
-    <div>
-      <a class="xref" href="StormHawks.Runtime.Entities.Enemies.EnemyBase.html#StormHawks_Runtime_Entities_Enemies_EnemyBase__groupSet">EnemyBase._groupSet</a>
-    </div>
-    <div>
-      <a class="xref" href="StormHawks.Runtime.Entities.Enemies.EnemyBase.html#StormHawks_Runtime_Entities_Enemies_EnemyBase__blackboard">EnemyBase._blackboard</a>
-    </div>
-    <div>
-      <a class="xref" href="StormHawks.Runtime.Entities.Enemies.EnemyBase.html#StormHawks_Runtime_Entities_Enemies_EnemyBase_HealthSO">EnemyBase.HealthSO</a>
-    </div>
-    <div>
-      <a class="xref" href="StormHawks.Runtime.Entities.Enemies.EnemyBase.html#StormHawks_Runtime_Entities_Enemies_EnemyBase_CurrentHealth">EnemyBase.CurrentHealth</a>
-    </div>
-    <div>
-      <a class="xref" href="StormHawks.Runtime.Entities.Enemies.EnemyBase.html#StormHawks_Runtime_Entities_Enemies_EnemyBase_IS_RETURNING">EnemyBase.IS_RETURNING</a>
-    </div>
-    <div>
-      <a class="xref" href="StormHawks.Runtime.Entities.Enemies.EnemyBase.html#StormHawks_Runtime_Entities_Enemies_EnemyBase_Target">EnemyBase.Target</a>
-    </div>
-    <div>
-      <a class="xref" href="StormHawks.Runtime.Entities.Enemies.EnemyBase.html#StormHawks_Runtime_Entities_Enemies_EnemyBase_SetFollowTarget_GameObject_">EnemyBase.SetFollowTarget(GameObject)</a>
-    </div>
-    <div>
-      <a class="xref" href="StormHawks.Runtime.Entities.Enemies.EnemyBase.html#StormHawks_Runtime_Entities_Enemies_EnemyBase_TakeDamage_Vector3_System_Single_">EnemyBase.TakeDamage(Vector3, Single)</a>
-    </div>
-    <div>
-      <a class="xref" href="StormHawks.Runtime.Entities.Enemies.EnemyBase.html#StormHawks_Runtime_Entities_Enemies_EnemyBase_GetBlackboard">EnemyBase.GetBlackboard()</a>
-    </div>
-    <div>
-      <a class="xref" href="StormHawks.Runtime.Entities.Enemies.EnemyBase.html#StormHawks_Runtime_Entities_Enemies_EnemyBase_ReturnToPortal_EnemyPortal_">EnemyBase.ReturnToPortal(EnemyPortal)</a>
-    </div>
+    <div><span class="xref">IEnemyGroupOwner</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Entities.Enemies.Boss.html">StormHawks.Runtime.Entities.Enemies.Boss</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class BossEntity : EnemyBase</code></pre>
+    <pre><code class="lang-csharp hljs">public class BossEntity : MonoBehaviour</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
@@ -193,18 +152,58 @@
       </tr>
     </tbody>
   </table>
-  <h3 id="methods">Methods
-  </h3>
   
   
-  <a id="StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_Awake_" data-uid="StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.Awake*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_Awake" data-uid="StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.Awake">Awake()</h4>
+  <a id="StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_Owner_" data-uid="StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.Owner*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_Owner" data-uid="StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.Owner">Owner</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void Awake()</code></pre>
+    <pre><code class="lang-csharp hljs">public GameObject Owner { get; }</code></pre>
   </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_PhaseState_" data-uid="StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.PhaseState*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_PhaseState" data-uid="StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.PhaseState">PhaseState</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BossPhaseState PhaseState { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="StormHawks.Runtime.Entities.Enemies.Boss.BossPhaseState.html">BossPhaseState</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
   
   
   <a id="StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_CanBecomeAggroGroup_" data-uid="StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.CanBecomeAggroGroup*"></a>
@@ -230,16 +229,6 @@
       </tr>
     </tbody>
   </table>
-  
-  
-  <a id="StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_FixedUpdate_" data-uid="StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.FixedUpdate*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_FixedUpdate" data-uid="StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.FixedUpdate">FixedUpdate()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void FixedUpdate()</code></pre>
-  </div>
   
   
   <a id="StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_GetRandomEliteEnemyPath_" data-uid="StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.GetRandomEliteEnemyPath*"></a>
@@ -286,6 +275,33 @@
     <tbody>
       <tr>
         <td><span class="xref">EnemyGroupPath</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_GroupInitialize_" data-uid="StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.GroupInitialize*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_GroupInitialize_EnemyGroup_" data-uid="StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.GroupInitialize(EnemyGroup)">GroupInitialize(EnemyGroup)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GroupInitialize(EnemyGroup group)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">EnemyGroup</span></td>
+        <td><span class="parametername">group</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -346,14 +362,31 @@
   </table>
   
   
-  <a id="StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_RotateTo_" data-uid="StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.RotateTo*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_RotateTo" data-uid="StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.RotateTo">RotateTo()</h4>
+  <a id="StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_SetBossPhaseState_" data-uid="StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.SetBossPhaseState*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_SetBossPhaseState_StormHawks_Runtime_Entities_Enemies_Boss_BossPhaseState_" data-uid="StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.SetBossPhaseState(StormHawks.Runtime.Entities.Enemies.Boss.BossPhaseState)">SetBossPhaseState(BossPhaseState)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void RotateTo()</code></pre>
+    <pre><code class="lang-csharp hljs">public void SetBossPhaseState(BossPhaseState state)</code></pre>
   </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="StormHawks.Runtime.Entities.Enemies.Boss.BossPhaseState.html">BossPhaseState</a></td>
+        <td><span class="parametername">state</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_SetGroupAggroTarget_" data-uid="StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.SetGroupAggroTarget*"></a>
@@ -403,28 +436,6 @@
   </table>
   
   
-  <a id="StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_Start_" data-uid="StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.Start*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_Start" data-uid="StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.Start">Start()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void Start()</code></pre>
-  </div>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="StormHawks.Runtime.Entities.Enemies.EnemyBase.html#StormHawks_Runtime_Entities_Enemies_EnemyBase_Start">EnemyBase.Start()</a></div>
-  
-  
-  <a id="StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_Update_" data-uid="StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.Update*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_Update" data-uid="StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.Update">Update()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void Update()</code></pre>
-  </div>
-  
-  
   <a id="StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_UpdatePathPositions_" data-uid="StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.UpdatePathPositions*"></a>
   <h4 id="StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_UpdatePathPositions" data-uid="StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.UpdatePathPositions">UpdatePathPositions()</h4>
   <div class="markdown level1 summary"></div>
@@ -435,10 +446,7 @@
   </div>
   <h3 id="implements">Implements</h3>
   <div>
-      <span class="xref">IHasHealth</span>
-  </div>
-  <div>
-      <span class="xref">IFollower</span>
+      <span class="xref">IEnemyGroupOwner</span>
   </div>
 </article>
           </div>

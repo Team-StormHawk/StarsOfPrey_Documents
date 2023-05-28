@@ -96,6 +96,7 @@
     <div><span class="xref">IHasHealth</span></div>
     <div><span class="xref">IFollower</span></div>
     <div><span class="xref">IAggressive</span></div>
+    <div><span class="xref">IPoolable</span>&lt;<a class="xref" href="StormHawks.Runtime.Entities.Enemies.ChasingEnemy.html">ChasingEnemy</a>&gt;</div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -106,10 +107,10 @@
       <a class="xref" href="StormHawks.Runtime.Entities.Enemies.EnemyBase.html#StormHawks_Runtime_Entities_Enemies_EnemyBase__bossEntity">EnemyBase._bossEntity</a>
     </div>
     <div>
-      <a class="xref" href="StormHawks.Runtime.Entities.Enemies.EnemyBase.html#StormHawks_Runtime_Entities_Enemies_EnemyBase__groupSet">EnemyBase._groupSet</a>
+      <a class="xref" href="StormHawks.Runtime.Entities.Enemies.EnemyBase.html#StormHawks_Runtime_Entities_Enemies_EnemyBase_groupRuntimeSet">EnemyBase.groupRuntimeSet</a>
     </div>
     <div>
-      <a class="xref" href="StormHawks.Runtime.Entities.Enemies.EnemyBase.html#StormHawks_Runtime_Entities_Enemies_EnemyBase__blackboard">EnemyBase._blackboard</a>
+      <a class="xref" href="StormHawks.Runtime.Entities.Enemies.EnemyBase.html#StormHawks_Runtime_Entities_Enemies_EnemyBase__explosionEffect">EnemyBase._explosionEffect</a>
     </div>
     <div>
       <a class="xref" href="StormHawks.Runtime.Entities.Enemies.EnemyBase.html#StormHawks_Runtime_Entities_Enemies_EnemyBase_HealthSO">EnemyBase.HealthSO</a>
@@ -118,16 +119,19 @@
       <a class="xref" href="StormHawks.Runtime.Entities.Enemies.EnemyBase.html#StormHawks_Runtime_Entities_Enemies_EnemyBase_CurrentHealth">EnemyBase.CurrentHealth</a>
     </div>
     <div>
+      <a class="xref" href="StormHawks.Runtime.Entities.Enemies.EnemyBase.html#StormHawks_Runtime_Entities_Enemies_EnemyBase__explosionEvent">EnemyBase._explosionEvent</a>
+    </div>
+    <div>
       <a class="xref" href="StormHawks.Runtime.Entities.Enemies.EnemyBase.html#StormHawks_Runtime_Entities_Enemies_EnemyBase_IS_RETURNING">EnemyBase.IS_RETURNING</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Entities.Enemies.EnemyBase.html#StormHawks_Runtime_Entities_Enemies_EnemyBase_AGGRO_TARGET">EnemyBase.AGGRO_TARGET</a>
     </div>
     <div>
       <a class="xref" href="StormHawks.Runtime.Entities.Enemies.EnemyBase.html#StormHawks_Runtime_Entities_Enemies_EnemyBase_Target">EnemyBase.Target</a>
     </div>
     <div>
       <a class="xref" href="StormHawks.Runtime.Entities.Enemies.EnemyBase.html#StormHawks_Runtime_Entities_Enemies_EnemyBase_SetFollowTarget_GameObject_">EnemyBase.SetFollowTarget(GameObject)</a>
-    </div>
-    <div>
-      <a class="xref" href="StormHawks.Runtime.Entities.Enemies.EnemyBase.html#StormHawks_Runtime_Entities_Enemies_EnemyBase_GetBlackboard">EnemyBase.GetBlackboard()</a>
     </div>
     <div>
       <a class="xref" href="StormHawks.Runtime.Entities.Enemies.EnemyBase.html#StormHawks_Runtime_Entities_Enemies_EnemyBase_ReturnToPortal_EnemyPortal_">EnemyBase.ReturnToPortal(EnemyPortal)</a>
@@ -187,6 +191,31 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StormHawks_Runtime_Entities_Enemies_ChasingEnemy_Pool_" data-uid="StormHawks.Runtime.Entities.Enemies.ChasingEnemy.Pool*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Enemies_ChasingEnemy_Pool" data-uid="StormHawks.Runtime.Entities.Enemies.ChasingEnemy.Pool">Pool</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MonoObjectPool&lt;ChasingEnemy&gt; Pool { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">MonoObjectPool</span>&lt;<a class="xref" href="StormHawks.Runtime.Entities.Enemies.ChasingEnemy.html">ChasingEnemy</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -257,6 +286,26 @@
   </table>
   
   
+  <a id="StormHawks_Runtime_Entities_Enemies_ChasingEnemy_OnRelease_" data-uid="StormHawks.Runtime.Entities.Enemies.ChasingEnemy.OnRelease*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Enemies_ChasingEnemy_OnRelease" data-uid="StormHawks.Runtime.Entities.Enemies.ChasingEnemy.OnRelease">OnRelease()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnRelease()</code></pre>
+  </div>
+  
+  
+  <a id="StormHawks_Runtime_Entities_Enemies_ChasingEnemy_OnSpawn_" data-uid="StormHawks.Runtime.Entities.Enemies.ChasingEnemy.OnSpawn*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Enemies_ChasingEnemy_OnSpawn" data-uid="StormHawks.Runtime.Entities.Enemies.ChasingEnemy.OnSpawn">OnSpawn()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnSpawn()</code></pre>
+  </div>
+  
+  
   <a id="StormHawks_Runtime_Entities_Enemies_ChasingEnemy_ReleaseAggressive_" data-uid="StormHawks.Runtime.Entities.Enemies.ChasingEnemy.ReleaseAggressive*"></a>
   <h4 id="StormHawks_Runtime_Entities_Enemies_ChasingEnemy_ReleaseAggressive" data-uid="StormHawks.Runtime.Entities.Enemies.ChasingEnemy.ReleaseAggressive">ReleaseAggressive()</h4>
   <div class="markdown level1 summary"></div>
@@ -265,6 +314,18 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void ReleaseAggressive()</code></pre>
   </div>
+  
+  
+  <a id="StormHawks_Runtime_Entities_Enemies_ChasingEnemy_ReturnToPool_" data-uid="StormHawks.Runtime.Entities.Enemies.ChasingEnemy.ReturnToPool*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Enemies_ChasingEnemy_ReturnToPool" data-uid="StormHawks.Runtime.Entities.Enemies.ChasingEnemy.ReturnToPool">ReturnToPool()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void ReturnToPool()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="StormHawks.Runtime.Entities.Enemies.EnemyBase.html#StormHawks_Runtime_Entities_Enemies_EnemyBase_ReturnToPool">EnemyBase.ReturnToPool()</a></div>
   
   
   <a id="StormHawks_Runtime_Entities_Enemies_ChasingEnemy_RotateTo_" data-uid="StormHawks.Runtime.Entities.Enemies.ChasingEnemy.RotateTo*"></a>
@@ -330,6 +391,9 @@
   </div>
   <div>
       <span class="xref">IAggressive</span>
+  </div>
+  <div>
+      <span class="xref">IPoolable&lt;&gt;</span>
   </div>
 </article>
           </div>

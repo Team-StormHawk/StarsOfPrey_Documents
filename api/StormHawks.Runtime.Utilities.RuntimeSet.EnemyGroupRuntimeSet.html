@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class EnemyGroupSet
+    <title>Class EnemyGroupRuntimeSet
    | Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class EnemyGroupSet
+    <meta name="title" content="Class EnemyGroupRuntimeSet
    | Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -78,29 +78,29 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupSet">
+            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupRuntimeSet">
   
   
-  <h1 id="StormHawks_Runtime_Utilities_RuntimeSet_EnemyGroupSet" data-uid="StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupSet" class="text-break">Class EnemyGroupSet
+  <h1 id="StormHawks_Runtime_Utilities_RuntimeSet_EnemyGroupRuntimeSet" data-uid="StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupRuntimeSet" class="text-break">Class EnemyGroupRuntimeSet
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">EnemyGroupSet</span></div>
+    <div class="level1"><span class="xref">EnemyGroupRuntimeSet</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Utilities.RuntimeSet.html">StormHawks.Runtime.Utilities.RuntimeSet</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="StormHawks_Runtime_Utilities_RuntimeSet_EnemyGroupSet_syntax">Syntax</h5>
+  <h5 id="StormHawks_Runtime_Utilities_RuntimeSet_EnemyGroupRuntimeSet_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class EnemyGroupSet : RuntimeSet&lt;EnemyGroup&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public class EnemyGroupRuntimeSet : RuntimeSet&lt;EnemyGroup&gt;</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
   
   
-  <h4 id="StormHawks_Runtime_Utilities_RuntimeSet_EnemyGroupSet_MaxCount" data-uid="StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupSet.MaxCount">MaxCount</h4>
+  <h4 id="StormHawks_Runtime_Utilities_RuntimeSet_EnemyGroupRuntimeSet_MaxCount" data-uid="StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupRuntimeSet.MaxCount">MaxCount</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -126,8 +126,8 @@
   </h3>
   
   
-  <a id="StormHawks_Runtime_Utilities_RuntimeSet_EnemyGroupSet_Add_" data-uid="StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupSet.Add*"></a>
-  <h4 id="StormHawks_Runtime_Utilities_RuntimeSet_EnemyGroupSet_Add_EnemyGroup_" data-uid="StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupSet.Add(EnemyGroup)">Add(EnemyGroup)</h4>
+  <a id="StormHawks_Runtime_Utilities_RuntimeSet_EnemyGroupRuntimeSet_Add_" data-uid="StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupRuntimeSet.Add*"></a>
+  <h4 id="StormHawks_Runtime_Utilities_RuntimeSet_EnemyGroupRuntimeSet_Add_EnemyGroup_" data-uid="StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupRuntimeSet.Add(EnemyGroup)">Add(EnemyGroup)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -153,13 +153,13 @@
   </table>
   
   
-  <a id="StormHawks_Runtime_Utilities_RuntimeSet_EnemyGroupSet_GetClosestEnemyGroup_" data-uid="StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupSet.GetClosestEnemyGroup*"></a>
-  <h4 id="StormHawks_Runtime_Utilities_RuntimeSet_EnemyGroupSet_GetClosestEnemyGroup_Vector3_EnemyBase_" data-uid="StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupSet.GetClosestEnemyGroup(Vector3,EnemyBase)">GetClosestEnemyGroup(Vector3, EnemyBase)</h4>
+  <a id="StormHawks_Runtime_Utilities_RuntimeSet_EnemyGroupRuntimeSet_GetClosestEnemyGroup_" data-uid="StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupRuntimeSet.GetClosestEnemyGroup*"></a>
+  <h4 id="StormHawks_Runtime_Utilities_RuntimeSet_EnemyGroupRuntimeSet_GetClosestEnemyGroup_Vector3_IEnemyGroupOwner_" data-uid="StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupRuntimeSet.GetClosestEnemyGroup(Vector3,IEnemyGroupOwner)">GetClosestEnemyGroup(Vector3, IEnemyGroupOwner)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EnemyGroup GetClosestEnemyGroup(Vector3 position, EnemyBase boss)</code></pre>
+    <pre><code class="lang-csharp hljs">public EnemyGroup GetClosestEnemyGroup(Vector3 position, IEnemyGroupOwner owner)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -177,8 +177,8 @@
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">EnemyBase</span></td>
-        <td><span class="parametername">boss</span></td>
+        <td><span class="xref">IEnemyGroupOwner</span></td>
+        <td><span class="parametername">owner</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -200,8 +200,8 @@
   </table>
   
   
-  <a id="StormHawks_Runtime_Utilities_RuntimeSet_EnemyGroupSet_GetEmptyGroup_" data-uid="StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupSet.GetEmptyGroup*"></a>
-  <h4 id="StormHawks_Runtime_Utilities_RuntimeSet_EnemyGroupSet_GetEmptyGroup" data-uid="StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupSet.GetEmptyGroup">GetEmptyGroup()</h4>
+  <a id="StormHawks_Runtime_Utilities_RuntimeSet_EnemyGroupRuntimeSet_GetEmptyGroup_" data-uid="StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupRuntimeSet.GetEmptyGroup*"></a>
+  <h4 id="StormHawks_Runtime_Utilities_RuntimeSet_EnemyGroupRuntimeSet_GetEmptyGroup" data-uid="StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupRuntimeSet.GetEmptyGroup">GetEmptyGroup()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -225,8 +225,8 @@
   </table>
   
   
-  <a id="StormHawks_Runtime_Utilities_RuntimeSet_EnemyGroupSet_GetEnemyGroup_" data-uid="StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupSet.GetEnemyGroup*"></a>
-  <h4 id="StormHawks_Runtime_Utilities_RuntimeSet_EnemyGroupSet_GetEnemyGroup_System_Int32_" data-uid="StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupSet.GetEnemyGroup(System.Int32)">GetEnemyGroup(Int32)</h4>
+  <a id="StormHawks_Runtime_Utilities_RuntimeSet_EnemyGroupRuntimeSet_GetEnemyGroup_" data-uid="StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupRuntimeSet.GetEnemyGroup*"></a>
+  <h4 id="StormHawks_Runtime_Utilities_RuntimeSet_EnemyGroupRuntimeSet_GetEnemyGroup_System_Int32_" data-uid="StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupRuntimeSet.GetEnemyGroup(System.Int32)">GetEnemyGroup(Int32)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -267,8 +267,8 @@
   </table>
   
   
-  <a id="StormHawks_Runtime_Utilities_RuntimeSet_EnemyGroupSet_GetRandomEnemyGroup_" data-uid="StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupSet.GetRandomEnemyGroup*"></a>
-  <h4 id="StormHawks_Runtime_Utilities_RuntimeSet_EnemyGroupSet_GetRandomEnemyGroup" data-uid="StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupSet.GetRandomEnemyGroup">GetRandomEnemyGroup()</h4>
+  <a id="StormHawks_Runtime_Utilities_RuntimeSet_EnemyGroupRuntimeSet_GetRandomEnemyGroup_" data-uid="StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupRuntimeSet.GetRandomEnemyGroup*"></a>
+  <h4 id="StormHawks_Runtime_Utilities_RuntimeSet_EnemyGroupRuntimeSet_GetRandomEnemyGroup" data-uid="StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupRuntimeSet.GetRandomEnemyGroup">GetRandomEnemyGroup()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>

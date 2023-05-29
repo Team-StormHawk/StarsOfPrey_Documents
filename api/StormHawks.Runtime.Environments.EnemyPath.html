@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class TransitionFader
+    <title>Class EnemyPath
    | Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class TransitionFader
+    <meta name="title" content="Class EnemyPath
    | Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -78,35 +78,135 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Scenes.TransitionFader">
+            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Environments.EnemyPath">
   
   
-  <h1 id="StormHawks_Runtime_Scenes_TransitionFader" data-uid="StormHawks.Runtime.Scenes.TransitionFader" class="text-break">Class TransitionFader
+  <h1 id="StormHawks_Runtime_Environments_EnemyPath" data-uid="StormHawks.Runtime.Environments.EnemyPath" class="text-break">Class EnemyPath
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">TransitionFader</span></div>
+    <div class="level1"><span class="xref">EnemyPath</span></div>
+      <div class="level2"><a class="xref" href="StormHawks.Runtime.Environments.EliteEnemyPath.html">EliteEnemyPath</a></div>
+      <div class="level2"><a class="xref" href="StormHawks.Runtime.Environments.EnemyGroupPath.html">EnemyGroupPath</a></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Scenes.html">StormHawks.Runtime.Scenes</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Environments.html">StormHawks.Runtime.Environments</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="StormHawks_Runtime_Scenes_TransitionFader_syntax">Syntax</h5>
+  <h5 id="StormHawks_Runtime_Environments_EnemyPath_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class TransitionFader : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class EnemyPath : MonoBehaviour</code></pre>
   </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="StormHawks_Runtime_Environments_EnemyPath__isEmpty" data-uid="StormHawks.Runtime.Environments.EnemyPath._isEmpty">_isEmpty</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool _isEmpty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="StormHawks_Runtime_Environments_EnemyPath__path" data-uid="StormHawks.Runtime.Environments.EnemyPath._path">_path</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected DOTweenPath _path</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">DOTweenPath</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="StormHawks_Runtime_Environments_EnemyPath__tween" data-uid="StormHawks.Runtime.Environments.EnemyPath._tween">_tween</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Tween _tween</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Tween</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="StormHawks_Runtime_Environments_EnemyPath__waypoints" data-uid="StormHawks.Runtime.Environments.EnemyPath._waypoints">_waypoints</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Vector3[] _waypoints</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector3</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="StormHawks_Runtime_Scenes_TransitionFader_FadeIn_" data-uid="StormHawks.Runtime.Scenes.TransitionFader.FadeIn*"></a>
-  <h4 id="StormHawks_Runtime_Scenes_TransitionFader_FadeIn" data-uid="StormHawks.Runtime.Scenes.TransitionFader.FadeIn">FadeIn()</h4>
+  <a id="StormHawks_Runtime_Environments_EnemyPath_IsEmpty_" data-uid="StormHawks.Runtime.Environments.EnemyPath.IsEmpty*"></a>
+  <h4 id="StormHawks_Runtime_Environments_EnemyPath_IsEmpty" data-uid="StormHawks.Runtime.Environments.EnemyPath.IsEmpty">IsEmpty()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public async UniTask FadeIn()</code></pre>
+    <pre><code class="lang-csharp hljs">public bool IsEmpty()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -118,87 +218,30 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">UniTask</span></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="StormHawks_Runtime_Scenes_TransitionFader_FadeIn_" data-uid="StormHawks.Runtime.Scenes.TransitionFader.FadeIn*"></a>
-  <h4 id="StormHawks_Runtime_Scenes_TransitionFader_FadeIn_System_Single_" data-uid="StormHawks.Runtime.Scenes.TransitionFader.FadeIn(System.Single)">FadeIn(Single)</h4>
+  <a id="StormHawks_Runtime_Environments_EnemyPath_Start_" data-uid="StormHawks.Runtime.Environments.EnemyPath.Start*"></a>
+  <h4 id="StormHawks_Runtime_Environments_EnemyPath_Start" data-uid="StormHawks.Runtime.Environments.EnemyPath.Start">Start()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public async UniTask FadeIn(float duration)</code></pre>
+    <pre><code class="lang-csharp hljs">protected virtual void Start()</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td><span class="parametername">duration</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">UniTask</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   
   
-  <a id="StormHawks_Runtime_Scenes_TransitionFader_FadeOut_" data-uid="StormHawks.Runtime.Scenes.TransitionFader.FadeOut*"></a>
-  <h4 id="StormHawks_Runtime_Scenes_TransitionFader_FadeOut" data-uid="StormHawks.Runtime.Scenes.TransitionFader.FadeOut">FadeOut()</h4>
+  <a id="StormHawks_Runtime_Environments_EnemyPath_UpdatePosition_" data-uid="StormHawks.Runtime.Environments.EnemyPath.UpdatePosition*"></a>
+  <h4 id="StormHawks_Runtime_Environments_EnemyPath_UpdatePosition_Vector3_" data-uid="StormHawks.Runtime.Environments.EnemyPath.UpdatePosition(Vector3)">UpdatePosition(Vector3)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public async UniTask FadeOut()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">UniTask</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="StormHawks_Runtime_Scenes_TransitionFader_FadeOut_" data-uid="StormHawks.Runtime.Scenes.TransitionFader.FadeOut*"></a>
-  <h4 id="StormHawks_Runtime_Scenes_TransitionFader_FadeOut_System_Single_" data-uid="StormHawks.Runtime.Scenes.TransitionFader.FadeOut(System.Single)">FadeOut(Single)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public async UniTask FadeOut(float duration)</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract void UpdatePosition(Vector3 positionOffset)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -211,23 +254,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td><span class="parametername">duration</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">UniTask</span></td>
+        <td><span class="xref">Vector3</span></td>
+        <td><span class="parametername">positionOffset</span></td>
         <td></td>
       </tr>
     </tbody>

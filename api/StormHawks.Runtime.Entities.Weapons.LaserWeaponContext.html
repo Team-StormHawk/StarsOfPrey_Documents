@@ -101,12 +101,12 @@
   
   
   <a id="StormHawks_Runtime_Entities_Weapons_LaserWeaponContext__ctor_" data-uid="StormHawks.Runtime.Entities.Weapons.LaserWeaponContext.#ctor*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Weapons_LaserWeaponContext__ctor_StormHawks_Runtime_Entities_Weapons_EntityLaserWeapon_Vector3_System_Single_System_Single_" data-uid="StormHawks.Runtime.Entities.Weapons.LaserWeaponContext.#ctor(StormHawks.Runtime.Entities.Weapons.EntityLaserWeapon,Vector3,System.Single,System.Single)">LaserWeaponContext(EntityLaserWeapon, Vector3, Single, Single)</h4>
+  <h4 id="StormHawks_Runtime_Entities_Weapons_LaserWeaponContext__ctor_StormHawks_Runtime_Entities_Weapons_EntityWeapon_Vector3_System_Single_System_Single_System_Single_LayerMask_" data-uid="StormHawks.Runtime.Entities.Weapons.LaserWeaponContext.#ctor(StormHawks.Runtime.Entities.Weapons.EntityWeapon,Vector3,System.Single,System.Single,System.Single,LayerMask)">LaserWeaponContext(EntityWeapon, Vector3, Single, Single, Single, LayerMask)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public LaserWeaponContext(EntityLaserWeapon weapon, Vector3 direction, float firingTime, float delay)</code></pre>
+    <pre><code class="lang-csharp hljs">public LaserWeaponContext(EntityWeapon weapon, Vector3 direction, float damage, float damageTime, float delay, LayerMask obstacleLayerMask)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -119,7 +119,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="StormHawks.Runtime.Entities.Weapons.EntityLaserWeapon.html">EntityLaserWeapon</a></td>
+        <td><a class="xref" href="StormHawks.Runtime.Entities.Weapons.EntityWeapon.html">EntityWeapon</a></td>
         <td><span class="parametername">weapon</span></td>
         <td></td>
       </tr>
@@ -130,12 +130,22 @@
       </tr>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td><span class="parametername">firingTime</span></td>
+        <td><span class="parametername">damage</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">damageTime</span></td>
         <td></td>
       </tr>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
         <td><span class="parametername">delay</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">LayerMask</span></td>
+        <td><span class="parametername">obstacleLayerMask</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -149,7 +159,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public readonly EntityLaserWeapon Weapon</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly EntityWeapon Weapon</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -161,38 +171,13 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="StormHawks.Runtime.Entities.Weapons.EntityLaserWeapon.html">EntityLaserWeapon</a></td>
+        <td><a class="xref" href="StormHawks.Runtime.Entities.Weapons.EntityWeapon.html">EntityWeapon</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <h3 id="properties">Properties
   </h3>
-  
-  
-  <a id="StormHawks_Runtime_Entities_Weapons_LaserWeaponContext_CastRadius_" data-uid="StormHawks.Runtime.Entities.Weapons.LaserWeaponContext.CastRadius*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Weapons_LaserWeaponContext_CastRadius" data-uid="StormHawks.Runtime.Entities.Weapons.LaserWeaponContext.CastRadius">CastRadius</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float CastRadius { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   
   
   <a id="StormHawks_Runtime_Entities_Weapons_LaserWeaponContext_Damage_" data-uid="StormHawks.Runtime.Entities.Weapons.LaserWeaponContext.Damage*"></a>
@@ -320,13 +305,63 @@
   </table>
   
   
-  <a id="StormHawks_Runtime_Entities_Weapons_LaserWeaponContext_FiringTime_" data-uid="StormHawks.Runtime.Entities.Weapons.LaserWeaponContext.FiringTime*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Weapons_LaserWeaponContext_FiringTime" data-uid="StormHawks.Runtime.Entities.Weapons.LaserWeaponContext.FiringTime">FiringTime</h4>
+  <a id="StormHawks_Runtime_Entities_Weapons_LaserWeaponContext_LineRenderer_" data-uid="StormHawks.Runtime.Entities.Weapons.LaserWeaponContext.LineRenderer*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Weapons_LaserWeaponContext_LineRenderer" data-uid="StormHawks.Runtime.Entities.Weapons.LaserWeaponContext.LineRenderer">LineRenderer</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float FiringTime { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public LineRenderer LineRenderer { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LineRenderer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StormHawks_Runtime_Entities_Weapons_LaserWeaponContext_ObstacleLayerMask_" data-uid="StormHawks.Runtime.Entities.Weapons.LaserWeaponContext.ObstacleLayerMask*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Weapons_LaserWeaponContext_ObstacleLayerMask" data-uid="StormHawks.Runtime.Entities.Weapons.LaserWeaponContext.ObstacleLayerMask">ObstacleLayerMask</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LayerMask ObstacleLayerMask { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LayerMask</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StormHawks_Runtime_Entities_Weapons_LaserWeaponContext_Size_" data-uid="StormHawks.Runtime.Entities.Weapons.LaserWeaponContext.Size*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Weapons_LaserWeaponContext_Size" data-uid="StormHawks.Runtime.Entities.Weapons.LaserWeaponContext.Size">Size</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float Size { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -345,6 +380,87 @@
   </table>
   <h3 id="methods">Methods
   </h3>
+  
+  
+  <a id="StormHawks_Runtime_Entities_Weapons_LaserWeaponContext_SetDistance_" data-uid="StormHawks.Runtime.Entities.Weapons.LaserWeaponContext.SetDistance*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Weapons_LaserWeaponContext_SetDistance_System_Single_" data-uid="StormHawks.Runtime.Entities.Weapons.LaserWeaponContext.SetDistance(System.Single)">SetDistance(Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetDistance(float distance)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">distance</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StormHawks_Runtime_Entities_Weapons_LaserWeaponContext_SetLineRenderer_" data-uid="StormHawks.Runtime.Entities.Weapons.LaserWeaponContext.SetLineRenderer*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Weapons_LaserWeaponContext_SetLineRenderer_LineRenderer_" data-uid="StormHawks.Runtime.Entities.Weapons.LaserWeaponContext.SetLineRenderer(LineRenderer)">SetLineRenderer(LineRenderer)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetLineRenderer(LineRenderer renderer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LineRenderer</span></td>
+        <td><span class="parametername">renderer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StormHawks_Runtime_Entities_Weapons_LaserWeaponContext_SetSize_" data-uid="StormHawks.Runtime.Entities.Weapons.LaserWeaponContext.SetSize*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Weapons_LaserWeaponContext_SetSize_System_Single_" data-uid="StormHawks.Runtime.Entities.Weapons.LaserWeaponContext.SetSize(System.Single)">SetSize(Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetSize(float size)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">size</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="StormHawks_Runtime_Entities_Weapons_LaserWeaponContext_UpdateDirection_" data-uid="StormHawks.Runtime.Entities.Weapons.LaserWeaponContext.UpdateDirection*"></a>

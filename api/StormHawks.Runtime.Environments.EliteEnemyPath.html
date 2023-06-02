@@ -88,27 +88,49 @@
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">EliteEnemyPath</span></div>
+    <div class="level1"><a class="xref" href="StormHawks.Runtime.Environments.EnemyPath.html">EnemyPath</a></div>
+    <div class="level2"><span class="xref">EliteEnemyPath</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Environments.EnemyPath.html#StormHawks_Runtime_Environments_EnemyPath__isEmpty">EnemyPath._isEmpty</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Environments.EnemyPath.html#StormHawks_Runtime_Environments_EnemyPath__path">EnemyPath._path</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Environments.EnemyPath.html#StormHawks_Runtime_Environments_EnemyPath__waypoints">EnemyPath._waypoints</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Environments.EnemyPath.html#StormHawks_Runtime_Environments_EnemyPath__tween">EnemyPath._tween</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Environments.EnemyPath.html#StormHawks_Runtime_Environments_EnemyPath_Start">EnemyPath.Start()</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Environments.EnemyPath.html#StormHawks_Runtime_Environments_EnemyPath_IsEmpty">EnemyPath.IsEmpty()</a>
+    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Environments.html">StormHawks.Runtime.Environments</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="StormHawks_Runtime_Environments_EliteEnemyPath_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class EliteEnemyPath : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public class EliteEnemyPath : EnemyPath</code></pre>
   </div>
-  <h3 id="methods">Methods
+  <h3 id="properties">Properties
   </h3>
   
   
-  <a id="StormHawks_Runtime_Environments_EliteEnemyPath_IsEmpty_" data-uid="StormHawks.Runtime.Environments.EliteEnemyPath.IsEmpty*"></a>
-  <h4 id="StormHawks_Runtime_Environments_EliteEnemyPath_IsEmpty" data-uid="StormHawks.Runtime.Environments.EliteEnemyPath.IsEmpty">IsEmpty()</h4>
+  <a id="StormHawks_Runtime_Environments_EliteEnemyPath_RegisteredEnemy_" data-uid="StormHawks.Runtime.Environments.EliteEnemyPath.RegisteredEnemy*"></a>
+  <h4 id="StormHawks_Runtime_Environments_EliteEnemyPath_RegisteredEnemy" data-uid="StormHawks.Runtime.Environments.EliteEnemyPath.RegisteredEnemy">RegisteredEnemy</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool IsEmpty()</code></pre>
+    <pre><code class="lang-csharp hljs">public BaseEliteEnemy RegisteredEnemy { get; }</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -118,11 +140,13 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="xref">BaseEliteEnemy</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  <h3 id="methods">Methods
+  </h3>
   
   
   <a id="StormHawks_Runtime_Environments_EliteEnemyPath_RegisterEliteEnemy_" data-uid="StormHawks.Runtime.Environments.EliteEnemyPath.RegisterEliteEnemy*"></a>
@@ -185,7 +209,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void UpdatePosition(Vector3 positionOffset)</code></pre>
+    <pre><code class="lang-csharp hljs">public override void UpdatePosition(Vector3 positionOffset)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -204,6 +228,8 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="StormHawks.Runtime.Environments.EnemyPath.html#StormHawks_Runtime_Environments_EnemyPath_UpdatePosition_Vector3_">EnemyPath.UpdatePosition(Vector3)</a></div>
 </article>
           </div>
           

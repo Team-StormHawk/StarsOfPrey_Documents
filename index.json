@@ -592,12 +592,17 @@
   "api/StormHawks.Runtime.Detectors.DetectableEntity.html": {
     "href": "api/StormHawks.Runtime.Detectors.DetectableEntity.html",
     "title": "Class DetectableEntity | Developer Reference",
-    "keywords": "Class DetectableEntity Inheritance Object DetectableEntity DetectableSlavePart Namespace : StormHawks.Runtime.Detectors Assembly : cs.temp.dll.dll Syntax public class DetectableEntity : MonoBehaviour Properties Position Declaration public Vector3 Position { get; } Property Value Type Description Vector3 Methods CanDetectable() 감지가 가능한 상태인지 알려주는 이벤트 Declaration public virtual bool CanDetectable() Returns Type Description Boolean 감지가 가능할 경우 true를 반환 Detect() Declaration public void Detect() GetCollider() 감지 대상이 되는 Collider를 반환 Declaration public Collider GetCollider() Returns Type Description Collider OnDestroy() Declaration protected virtual void OnDestroy() Released() Declaration public void Released() Start() Declaration protected virtual void Start() Events OnDetected 감지 되었을 경우 발생하는 이벤트 Declaration public event Action<DetectableEntity> OnDetected Event Type Type Description Action < DetectableEntity > OnReleased 감지 된 상태에서 벗어났을 경우 발생하는 이벤트 Declaration public event Action<DetectableEntity> OnReleased Event Type Type Description Action < DetectableEntity >"
+    "keywords": "Class DetectableEntity Inheritance Object DetectableEntity DetectableMainWeakpoint DetectableSecondaryWeakpoint Namespace : StormHawks.Runtime.Detectors Assembly : cs.temp.dll.dll Syntax public class DetectableEntity : MonoBehaviour Properties Position Declaration public Vector3 Position { get; } Property Value Type Description Vector3 Methods CanDetectable() 감지가 가능한 상태인지 알려주는 이벤트 Declaration public virtual bool CanDetectable() Returns Type Description Boolean 감지가 가능할 경우 true를 반환 Detect() Declaration public void Detect() GetCollider() 감지 대상이 되는 Collider를 반환 Declaration public Collider GetCollider() Returns Type Description Collider OnDestroy() Declaration protected virtual void OnDestroy() Released() Declaration public void Released() Start() Declaration protected virtual void Start() Events OnDetected 감지 되었을 경우 발생하는 이벤트 Declaration public event Action<DetectableEntity> OnDetected Event Type Type Description Action < DetectableEntity > OnReleased 감지 된 상태에서 벗어났을 경우 발생하는 이벤트 Declaration public event Action<DetectableEntity> OnReleased Event Type Type Description Action < DetectableEntity >"
   },
-  "api/StormHawks.Runtime.Detectors.DetectableSlavePart.html": {
-    "href": "api/StormHawks.Runtime.Detectors.DetectableSlavePart.html",
-    "title": "Class DetectableSlavePart | Developer Reference",
-    "keywords": "Class DetectableSlavePart Inheritance Object DetectableEntity DetectableSlavePart Inherited Members DetectableEntity.Position DetectableEntity.OnDestroy() DetectableEntity.OnDetected DetectableEntity.OnReleased DetectableEntity.Detect() DetectableEntity.Released() DetectableEntity.GetCollider() Namespace : StormHawks.Runtime.Detectors Assembly : cs.temp.dll.dll Syntax public class DetectableSlavePart : DetectableEntity Methods CanDetectable() Declaration public override bool CanDetectable() Returns Type Description Boolean Overrides DetectableEntity.CanDetectable() Start() Declaration protected override void Start() Overrides DetectableEntity.Start()"
+  "api/StormHawks.Runtime.Detectors.DetectableMainWeakpoint.html": {
+    "href": "api/StormHawks.Runtime.Detectors.DetectableMainWeakpoint.html",
+    "title": "Class DetectableMainWeakpoint | Developer Reference",
+    "keywords": "Class DetectableMainWeakpoint Inheritance Object DetectableEntity DetectableMainWeakpoint Inherited Members DetectableEntity.Position DetectableEntity.OnDestroy() DetectableEntity.OnDetected DetectableEntity.OnReleased DetectableEntity.Detect() DetectableEntity.Released() DetectableEntity.GetCollider() Namespace : StormHawks.Runtime.Detectors Assembly : cs.temp.dll.dll Syntax public class DetectableMainWeakpoint : DetectableEntity Methods CanDetectable() Declaration public override bool CanDetectable() Returns Type Description Boolean Overrides DetectableEntity.CanDetectable() Start() Declaration protected override void Start() Overrides DetectableEntity.Start()"
+  },
+  "api/StormHawks.Runtime.Detectors.DetectableSecondaryWeakpoint.html": {
+    "href": "api/StormHawks.Runtime.Detectors.DetectableSecondaryWeakpoint.html",
+    "title": "Class DetectableSecondaryWeakpoint | Developer Reference",
+    "keywords": "Class DetectableSecondaryWeakpoint Inheritance Object DetectableEntity DetectableSecondaryWeakpoint Inherited Members DetectableEntity.Position DetectableEntity.OnDestroy() DetectableEntity.OnDetected DetectableEntity.OnReleased DetectableEntity.Detect() DetectableEntity.Released() DetectableEntity.GetCollider() Namespace : StormHawks.Runtime.Detectors Assembly : cs.temp.dll.dll Syntax public class DetectableSecondaryWeakpoint : DetectableEntity Methods CanDetectable() Declaration public override bool CanDetectable() Returns Type Description Boolean Overrides DetectableEntity.CanDetectable() Start() Declaration protected override void Start() Overrides DetectableEntity.Start()"
   },
   "api/StormHawks.Runtime.Detectors.DetectorBase.html": {
     "href": "api/StormHawks.Runtime.Detectors.DetectorBase.html",
@@ -647,7 +652,7 @@
   "api/StormHawks.Runtime.Detectors.html": {
     "href": "api/StormHawks.Runtime.Detectors.html",
     "title": "Namespace StormHawks.Runtime.Detectors | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Detectors Classes AngleDetector BoxDetector DetectableEntity DetectableSlavePart DetectorBase FieldOfViewDetector FOV안에 들어온 오브젝트들 중 감지 가능한 오브젝트를 감지함. SphereDetector"
+    "keywords": "Namespace StormHawks.Runtime.Detectors Classes AngleDetector BoxDetector DetectableEntity DetectableMainWeakpoint DetectableSecondaryWeakpoint DetectorBase FieldOfViewDetector FOV안에 들어온 오브젝트들 중 감지 가능한 오브젝트를 감지함. SphereDetector"
   },
   "api/StormHawks.Runtime.Detectors.LockOn.EntityLockOnSender.html": {
     "href": "api/StormHawks.Runtime.Detectors.LockOn.EntityLockOnSender.html",
@@ -694,10 +699,15 @@
     "title": "Class SphereDetector | Developer Reference",
     "keywords": "Class SphereDetector Inheritance Object DetectorBase SphereDetector Inherited Members DetectorBase.maxDetectCount DetectorBase.detectLayer Namespace : StormHawks.Runtime.Detectors Assembly : cs.temp.dll.dll Syntax public class SphereDetector : DetectorBase Properties Radius Declaration public float Radius { get; } Property Value Type Description Single Methods Detect(ref HashSet<Collider>) Declaration public override void Detect(ref HashSet<Collider> set) Parameters Type Name Description HashSet < Collider > set Overrides DetectorBase.Detect(ref HashSet<Collider>)"
   },
+  "api/StormHawks.Runtime.Effects.EffectDestroyer.html": {
+    "href": "api/StormHawks.Runtime.Effects.EffectDestroyer.html",
+    "title": "Class EffectDestroyer | Developer Reference",
+    "keywords": "Class EffectDestroyer Inheritance Object EffectDestroyer Namespace : StormHawks.Runtime.Effects Assembly : cs.temp.dll.dll Syntax public class EffectDestroyer : MonoBehaviour"
+  },
   "api/StormHawks.Runtime.Effects.html": {
     "href": "api/StormHawks.Runtime.Effects.html",
     "title": "Namespace StormHawks.Runtime.Effects | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Effects Classes PHExplosionEffect PHFireEffect ShieldRippleEffect WarningPlane"
+    "keywords": "Namespace StormHawks.Runtime.Effects Classes EffectDestroyer PHExplosionEffect PHFireEffect ShieldRippleEffect WarningPlane"
   },
   "api/StormHawks.Runtime.Effects.PHExplosionEffect.html": {
     "href": "api/StormHawks.Runtime.Effects.PHExplosionEffect.html",
@@ -719,15 +729,35 @@
     "title": "Class WarningPlane | Developer Reference",
     "keywords": "Class WarningPlane Inheritance Object WarningPlane Namespace : StormHawks.Runtime.Effects Assembly : cs.temp.dll.dll Syntax public class WarningPlane : MonoBehaviour Methods PlayEffect(Transform, Single, Vector3, Single, Single, Ease) Declaration public void PlayEffect(Transform weaponTransform, float length, Vector3 center, float angle, float duration, Ease ease) Parameters Type Name Description Transform weaponTransform Single length Vector3 center Single angle Single duration Ease ease ResetEffect() Declaration public void ResetEffect()"
   },
+  "api/StormHawks.Runtime.Entities.Animators.EntityAnimator.html": {
+    "href": "api/StormHawks.Runtime.Entities.Animators.EntityAnimator.html",
+    "title": "Class EntityAnimator | Developer Reference",
+    "keywords": "Class EntityAnimator Inheritance Object EntityAnimator Namespace : StormHawks.Runtime.Entities.Animators Assembly : cs.temp.dll.dll Syntax public class EntityAnimator : MonoBehaviour Properties Animator Declaration public Animator Animator { get; } Property Value Type Description Animator Methods GetAnimationDuration(String) Declaration public float? GetAnimationDuration(string key) Parameters Type Name Description String key Returns Type Description Nullable < Single > GetAnimatorSpeed() Declaration public float GetAnimatorSpeed() Returns Type Description Single IsPlaying(String) Declaration public bool IsPlaying(string stateName) Parameters Type Name Description String stateName Returns Type Description Boolean PlayAnimation(String) Declaration public void PlayAnimation(string key) Parameters Type Name Description String key SetAnimatorSpeed(Single) Declaration public void SetAnimatorSpeed(float speed) Parameters Type Name Description Single speed"
+  },
+  "api/StormHawks.Runtime.Entities.Animators.html": {
+    "href": "api/StormHawks.Runtime.Entities.Animators.html",
+    "title": "Namespace StormHawks.Runtime.Entities.Animators | Developer Reference",
+    "keywords": "Namespace StormHawks.Runtime.Entities.Animators Classes EntityAnimator"
+  },
   "api/StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.html": {
     "href": "api/StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.html",
     "title": "Class BossEntity | Developer Reference",
-    "keywords": "Class BossEntity Inheritance Object BossEntity Implements IEnemyGroupOwner Namespace : StormHawks.Runtime.Entities.Enemies.Boss Assembly : cs.temp.dll.dll Syntax public class BossEntity : MonoBehaviour Properties AggressiveGroup Declaration public List<EnemyGroup> AggressiveGroup { get; } Property Value Type Description List < EnemyGroup > IsPhaseEnded Declaration public bool IsPhaseEnded { get; } Property Value Type Description Boolean Owner Declaration public GameObject Owner { get; } Property Value Type Description GameObject PhaseState Declaration public BossPhaseState PhaseState { get; } Property Value Type Description BossPhaseState Methods CanBecomeAggroGroup() Declaration public bool CanBecomeAggroGroup() Returns Type Description Boolean GetRandomEliteEnemyPath() Declaration public EliteEnemyPath GetRandomEliteEnemyPath() Returns Type Description EliteEnemyPath GetRandomGroupPath() Declaration public EnemyGroupPath GetRandomGroupPath() Returns Type Description EnemyGroupPath GroupInitialize(EnemyGroup) Declaration public void GroupInitialize(EnemyGroup group) Parameters Type Name Description EnemyGroup group RegisterPath(EnemyGroup) Declaration public void RegisterPath(EnemyGroup group) Parameters Type Name Description EnemyGroup group ReleaseEnemyGroupFromPath(EnemyGroup) Declaration public void ReleaseEnemyGroupFromPath(EnemyGroup group) Parameters Type Name Description EnemyGroup group SetBossPhaseState(BossPhaseState) Declaration public void SetBossPhaseState(BossPhaseState state) Parameters Type Name Description BossPhaseState state SetGroupAggroTarget(Int32, GameObject) Declaration public bool SetGroupAggroTarget(int groupIndex, GameObject target) Parameters Type Name Description Int32 groupIndex GameObject target Returns Type Description Boolean UpdatePathPositions() Declaration public void UpdatePathPositions() Implements IEnemyGroupOwner"
+    "keywords": "Class BossEntity Inheritance Object BossEntity Implements IEnemyGroupOwner Namespace : StormHawks.Runtime.Entities.Enemies.Boss Assembly : cs.temp.dll.dll Syntax public class BossEntity : MonoBehaviour Properties AggressiveGroup Declaration public List<EnemyGroup> AggressiveGroup { get; } Property Value Type Description List < EnemyGroup > IsPhaseEnded Declaration public bool IsPhaseEnded { get; } Property Value Type Description Boolean Owner Declaration public GameObject Owner { get; } Property Value Type Description GameObject PhaseState Declaration public BossPhaseState PhaseState { get; } Property Value Type Description BossPhaseState Methods CanBecomeAggroGroup() Declaration public bool CanBecomeAggroGroup() Returns Type Description Boolean GetRandomEliteEnemyPath() Declaration public EliteEnemyPath GetRandomEliteEnemyPath() Returns Type Description EliteEnemyPath GetRandomGroupPath() Declaration public EnemyGroupPath GetRandomGroupPath() Returns Type Description EnemyGroupPath GroupInitialize(EnemyGroup) Declaration public void GroupInitialize(EnemyGroup group) Parameters Type Name Description EnemyGroup group IsMoving() Declaration public bool IsMoving() Returns Type Description Boolean IsSpawning() Declaration public bool IsSpawning() Returns Type Description Boolean RegisterPath(EnemyGroup) Declaration public void RegisterPath(EnemyGroup group) Parameters Type Name Description EnemyGroup group ReleaseEliteFromPath(BaseEliteEnemy) Declaration public void ReleaseEliteFromPath(BaseEliteEnemy eliteEnemy) Parameters Type Name Description BaseEliteEnemy eliteEnemy ReleaseEnemyGroupFromPath(EnemyGroup) Declaration public void ReleaseEnemyGroupFromPath(EnemyGroup group) Parameters Type Name Description EnemyGroup group SetBossPhaseState(BossPhaseState) Declaration public void SetBossPhaseState(BossPhaseState state) Parameters Type Name Description BossPhaseState state SetGroupAggroTarget(Int32, GameObject) Declaration public bool SetGroupAggroTarget(int groupIndex, GameObject target) Parameters Type Name Description Int32 groupIndex GameObject target Returns Type Description Boolean UpdatePathPositions() Declaration public void UpdatePathPositions() Implements IEnemyGroupOwner"
+  },
+  "api/StormHawks.Runtime.Entities.Enemies.Boss.BossEyeRotator.html": {
+    "href": "api/StormHawks.Runtime.Entities.Enemies.Boss.BossEyeRotator.html",
+    "title": "Class BossEyeRotator | Developer Reference",
+    "keywords": "Class BossEyeRotator Inheritance Object BossEyeRotator Implements IRotator Namespace : StormHawks.Runtime.Entities.Enemies.Boss Assembly : cs.temp.dll.dll Syntax public class BossEyeRotator : MonoBehaviour Properties FaceDirection Declaration public Vector3 FaceDirection { get; } Property Value Type Description Vector3 RotateSpeed Declaration public float RotateSpeed { get; set; } Property Value Type Description Single Methods GetForward() Declaration public Vector3 GetForward() Returns Type Description Vector3 GetRotation() Declaration public Quaternion GetRotation() Returns Type Description Quaternion GetUp() Declaration public Vector3 GetUp() Returns Type Description Vector3 RotateTo(Vector3) Declaration public void RotateTo(Vector3 lookDir) Parameters Type Name Description Vector3 lookDir Implements IRotator"
   },
   "api/StormHawks.Runtime.Entities.Enemies.Boss.BossPhaseState.html": {
     "href": "api/StormHawks.Runtime.Entities.Enemies.Boss.BossPhaseState.html",
     "title": "Enum BossPhaseState | Developer Reference",
     "keywords": "Enum BossPhaseState Namespace : StormHawks.Runtime.Entities.Enemies.Boss Assembly : cs.temp.dll.dll Syntax public enum BossPhaseState Fields Name Description Enter Exit None Stay"
+  },
+  "api/StormHawks.Runtime.Entities.Enemies.Boss.BossRibcageArea.html": {
+    "href": "api/StormHawks.Runtime.Entities.Enemies.Boss.BossRibcageArea.html",
+    "title": "Class BossRibcageArea | Developer Reference",
+    "keywords": "Class BossRibcageArea Inheritance Object BossRibcageArea Namespace : StormHawks.Runtime.Entities.Enemies.Boss Assembly : cs.temp.dll.dll Syntax public class BossRibcageArea : MonoBehaviour Methods GetRandomPositionInBounds() Declaration public Vector3 GetRandomPositionInBounds() Returns Type Description Vector3 HideWarningCube() Declaration public void HideWarningCube() IsPlayerInsideRibcageArea() Declaration public bool IsPlayerInsideRibcageArea() Returns Type Description Boolean ShowWarningCube() Declaration public void ShowWarningCube()"
   },
   "api/StormHawks.Runtime.Entities.Enemies.Boss.ChasingBossEntity.html": {
     "href": "api/StormHawks.Runtime.Entities.Enemies.Boss.ChasingBossEntity.html",
@@ -737,7 +767,7 @@
   "api/StormHawks.Runtime.Entities.Enemies.Boss.html": {
     "href": "api/StormHawks.Runtime.Entities.Enemies.Boss.html",
     "title": "Namespace StormHawks.Runtime.Entities.Enemies.Boss | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Entities.Enemies.Boss Classes BossEntity ChasingBossEntity Enums BossPhaseState"
+    "keywords": "Namespace StormHawks.Runtime.Entities.Enemies.Boss Classes BossEntity BossEyeRotator BossRibcageArea ChasingBossEntity Enums BossPhaseState"
   },
   "api/StormHawks.Runtime.Entities.Enemies.ChasingEnemy.html": {
     "href": "api/StormHawks.Runtime.Entities.Enemies.ChasingEnemy.html",
@@ -829,11 +859,6 @@
     "title": "Namespace StormHawks.Runtime.Entities.Enemies.Projectiles | Developer Reference",
     "keywords": "Namespace StormHawks.Runtime.Entities.Enemies.Projectiles Classes EnemyBullet EnemyFenceProjectile EnemyHomingMissile"
   },
-  "api/StormHawks.Runtime.Entities.EntityAnimator.html": {
-    "href": "api/StormHawks.Runtime.Entities.EntityAnimator.html",
-    "title": "Class EntityAnimator | Developer Reference",
-    "keywords": "Class EntityAnimator Inheritance Object EntityAnimator Namespace : StormHawks.Runtime.Entities Assembly : cs.temp.dll.dll Syntax public class EntityAnimator : MonoBehaviour Properties Animator Declaration public Animator Animator { get; } Property Value Type Description Animator Methods GetAnimationDuration(String) Declaration public float? GetAnimationDuration(string key) Parameters Type Name Description String key Returns Type Description Nullable < Single > PlayAnimation(String) Declaration public void PlayAnimation(string key) Parameters Type Name Description String key"
-  },
   "api/StormHawks.Runtime.Entities.EntityDamageSO.html": {
     "href": "api/StormHawks.Runtime.Entities.EntityDamageSO.html",
     "title": "Class EntityDamageSO | Developer Reference",
@@ -902,7 +927,7 @@
   "api/StormHawks.Runtime.Entities.html": {
     "href": "api/StormHawks.Runtime.Entities.html",
     "title": "Namespace StormHawks.Runtime.Entities | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Entities Classes EntityAnimator EntityDamageSO EntityHealthSO EntityLifeTime SteeringEntityContext"
+    "keywords": "Namespace StormHawks.Runtime.Entities Classes EntityDamageSO EntityHealthSO EntityLifeTime SteeringEntityContext"
   },
   "api/StormHawks.Runtime.Entities.Parts.AggressivePart.html": {
     "href": "api/StormHawks.Runtime.Entities.Parts.AggressivePart.html",
@@ -1004,15 +1029,20 @@
     "title": "Class SteeringEntityContext | Developer Reference",
     "keywords": "Class SteeringEntityContext Inheritance Object SteeringEntityContext EnemyContext Namespace : StormHawks.Runtime.Entities Assembly : cs.temp.dll.dll Syntax public class SteeringEntityContext : DescriptionScriptableObject Methods RegisterToBlackboard(Blackboard) Declaration public void RegisterToBlackboard(Blackboard blackboard) Parameters Type Name Description Blackboard blackboard"
   },
+  "api/StormHawks.Runtime.Entities.Weakpoints.EyeWeakpoint.html": {
+    "href": "api/StormHawks.Runtime.Entities.Weakpoints.EyeWeakpoint.html",
+    "title": "Class EyeWeakpoint | Developer Reference",
+    "keywords": "Class EyeWeakpoint Inheritance Object Weakpoint MainWeakpoint EyeWeakpoint Implements IHasHealth Inherited Members MainWeakpoint.mainWeakpointRuntimeSet MainWeakpoint.PhaseIndex MainWeakpoint._secondaryWeakpoints MainWeakpoint._group MainWeakpoint.Start() MainWeakpoint.Update() MainWeakpoint.Select() MainWeakpoint.CanTakeDamage() Weakpoint.IsActive Weakpoint._renderer Weakpoint.Initialize() Weakpoint.Dispose() Weakpoint.HealthSO Weakpoint.CurrentHealth Namespace : StormHawks.Runtime.Entities.Weakpoints Assembly : cs.temp.dll.dll Syntax public class EyeWeakpoint : MainWeakpoint Methods Destroyed() Declaration protected override void Destroyed() Overrides MainWeakpoint.Destroyed() TakeDamage(Vector3, Single) Declaration public override void TakeDamage(Vector3 dir, float damage) Parameters Type Name Description Vector3 dir Single damage Overrides MainWeakpoint.TakeDamage(Vector3, Single) Implements IHasHealth"
+  },
   "api/StormHawks.Runtime.Entities.Weakpoints.html": {
     "href": "api/StormHawks.Runtime.Entities.Weakpoints.html",
     "title": "Namespace StormHawks.Runtime.Entities.Weakpoints | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Entities.Weakpoints Classes MainWeakpoint SecondaryWeakpoint SecondaryWeakpointGroup Weakpoint"
+    "keywords": "Namespace StormHawks.Runtime.Entities.Weakpoints Classes EyeWeakpoint MainWeakpoint SecondaryWeakpoint SecondaryWeakpointGroup TailTipWeakPoint Weakpoint WingMainWeakpoint"
   },
   "api/StormHawks.Runtime.Entities.Weakpoints.MainWeakpoint.html": {
     "href": "api/StormHawks.Runtime.Entities.Weakpoints.MainWeakpoint.html",
     "title": "Class MainWeakpoint | Developer Reference",
-    "keywords": "Class MainWeakpoint Inheritance Object Weakpoint MainWeakpoint Implements IHasHealth Inherited Members Weakpoint.IsActive Weakpoint._renderer Weakpoint.Initialize() Weakpoint.Dispose() Weakpoint.HealthSO Weakpoint.CurrentHealth Namespace : StormHawks.Runtime.Entities.Weakpoints Assembly : cs.temp.dll.dll Syntax public class MainWeakpoint : Weakpoint Properties PhaseIndex Declaration public int PhaseIndex { get; } Property Value Type Description Int32 Methods Select() Declaration public void Select() Start() Declaration protected override void Start() Overrides Weakpoint.Start() TakeDamage(Vector3, Single) Declaration public override void TakeDamage(Vector3 dir, float damage) Parameters Type Name Description Vector3 dir Single damage Overrides Weakpoint.TakeDamage(Vector3, Single) Implements IHasHealth"
+    "keywords": "Class MainWeakpoint Inheritance Object Weakpoint MainWeakpoint EyeWeakpoint TailTipWeakPoint WingMainWeakpoint Implements IHasHealth Inherited Members Weakpoint.IsActive Weakpoint._renderer Weakpoint.Initialize() Weakpoint.Dispose() Weakpoint.HealthSO Weakpoint.CurrentHealth Namespace : StormHawks.Runtime.Entities.Weakpoints Assembly : cs.temp.dll.dll Syntax public class MainWeakpoint : Weakpoint Fields _group Declaration protected SecondaryWeakpointGroup _group Field Value Type Description SecondaryWeakpointGroup _secondaryWeakpoints Declaration protected List<SecondaryWeakpoint> _secondaryWeakpoints Field Value Type Description List < SecondaryWeakpoint > mainWeakpointRuntimeSet Declaration protected MainWeakpointsRuntimeSet mainWeakpointRuntimeSet Field Value Type Description MainWeakpointsRuntimeSet Properties PhaseIndex Declaration public int PhaseIndex { get; } Property Value Type Description Int32 Methods CanTakeDamage() Declaration public bool CanTakeDamage() Returns Type Description Boolean Destroyed() Declaration protected virtual void Destroyed() Select() Declaration public void Select() Start() Declaration protected override void Start() Overrides Weakpoint.Start() TakeDamage(Vector3, Single) Declaration public override void TakeDamage(Vector3 dir, float damage) Parameters Type Name Description Vector3 dir Single damage Overrides Weakpoint.TakeDamage(Vector3, Single) Update() Declaration protected virtual void Update() Implements IHasHealth"
   },
   "api/StormHawks.Runtime.Entities.Weakpoints.SecondaryWeakpoint.html": {
     "href": "api/StormHawks.Runtime.Entities.Weakpoints.SecondaryWeakpoint.html",
@@ -1022,17 +1052,32 @@
   "api/StormHawks.Runtime.Entities.Weakpoints.SecondaryWeakpointGroup.html": {
     "href": "api/StormHawks.Runtime.Entities.Weakpoints.SecondaryWeakpointGroup.html",
     "title": "Class SecondaryWeakpointGroup | Developer Reference",
-    "keywords": "Class SecondaryWeakpointGroup Inheritance Object SecondaryWeakpointGroup Namespace : StormHawks.Runtime.Entities.Weakpoints Assembly : cs.temp.dll.dll Syntax [Serializable] public class SecondaryWeakpointGroup Constructors SecondaryWeakpointGroup(List<SecondaryWeakpoint>) Declaration public SecondaryWeakpointGroup(List<SecondaryWeakpoint> points) Parameters Type Name Description List < SecondaryWeakpoint > points Methods Dispose() Declaration public void Dispose() Initialize() Declaration public void Initialize() IsEmpty() Declaration public bool IsEmpty() Returns Type Description Boolean"
+    "keywords": "Class SecondaryWeakpointGroup Inheritance Object SecondaryWeakpointGroup Namespace : StormHawks.Runtime.Entities.Weakpoints Assembly : cs.temp.dll.dll Syntax [Serializable] public class SecondaryWeakpointGroup Constructors SecondaryWeakpointGroup(List<SecondaryWeakpoint>) Declaration public SecondaryWeakpointGroup(List<SecondaryWeakpoint> points) Parameters Type Name Description List < SecondaryWeakpoint > points Methods Dispose() Declaration public void Dispose() GetActiveCount() Declaration public int GetActiveCount() Returns Type Description Int32 GetCount() Declaration public int GetCount() Returns Type Description Int32 Initialize() Declaration public void Initialize() IsEmpty() Declaration public bool IsEmpty() Returns Type Description Boolean"
+  },
+  "api/StormHawks.Runtime.Entities.Weakpoints.TailTipWeakPoint.html": {
+    "href": "api/StormHawks.Runtime.Entities.Weakpoints.TailTipWeakPoint.html",
+    "title": "Class TailTipWeakPoint | Developer Reference",
+    "keywords": "Class TailTipWeakPoint Inheritance Object Weakpoint MainWeakpoint TailTipWeakPoint Implements IHasHealth Inherited Members MainWeakpoint.mainWeakpointRuntimeSet MainWeakpoint.PhaseIndex MainWeakpoint._secondaryWeakpoints MainWeakpoint._group MainWeakpoint.Select() MainWeakpoint.TakeDamage(Vector3, Single) MainWeakpoint.Destroyed() MainWeakpoint.CanTakeDamage() Weakpoint.IsActive Weakpoint._renderer Weakpoint.Initialize() Weakpoint.Dispose() Weakpoint.HealthSO Weakpoint.CurrentHealth Namespace : StormHawks.Runtime.Entities.Weakpoints Assembly : cs.temp.dll.dll Syntax public class TailTipWeakPoint : MainWeakpoint Methods Start() Declaration protected override void Start() Overrides MainWeakpoint.Start() Update() Declaration protected override void Update() Overrides MainWeakpoint.Update() Implements IHasHealth"
   },
   "api/StormHawks.Runtime.Entities.Weakpoints.Weakpoint.html": {
     "href": "api/StormHawks.Runtime.Entities.Weakpoints.Weakpoint.html",
     "title": "Class Weakpoint | Developer Reference",
     "keywords": "Class Weakpoint Inheritance Object Weakpoint MainWeakpoint SecondaryWeakpoint Implements IHasHealth Namespace : StormHawks.Runtime.Entities.Weakpoints Assembly : cs.temp.dll.dll Syntax public abstract class Weakpoint : MonoBehaviour Fields _renderer Declaration protected Renderer _renderer Field Value Type Description Renderer Properties CurrentHealth Declaration public float CurrentHealth { get; protected set; } Property Value Type Description Single HealthSO Declaration public EntityHealthSO HealthSO { get; set; } Property Value Type Description EntityHealthSO IsActive Declaration public bool IsActive { get; protected set; } Property Value Type Description Boolean Methods Dispose() Declaration public virtual void Dispose() Initialize() Declaration public virtual void Initialize() Start() Declaration protected virtual void Start() TakeDamage(Vector3, Single) Declaration public virtual void TakeDamage(Vector3 dir, float damage) Parameters Type Name Description Vector3 dir Single damage Implements IHasHealth"
   },
+  "api/StormHawks.Runtime.Entities.Weakpoints.WingMainWeakpoint.html": {
+    "href": "api/StormHawks.Runtime.Entities.Weakpoints.WingMainWeakpoint.html",
+    "title": "Class WingMainWeakpoint | Developer Reference",
+    "keywords": "Class WingMainWeakpoint Inheritance Object Weakpoint MainWeakpoint WingMainWeakpoint Implements IHasHealth Inherited Members MainWeakpoint.mainWeakpointRuntimeSet MainWeakpoint.PhaseIndex MainWeakpoint._secondaryWeakpoints MainWeakpoint._group MainWeakpoint.Select() MainWeakpoint.Destroyed() MainWeakpoint.CanTakeDamage() Weakpoint.IsActive Weakpoint._renderer Weakpoint.Initialize() Weakpoint.Dispose() Weakpoint.HealthSO Weakpoint.CurrentHealth Namespace : StormHawks.Runtime.Entities.Weakpoints Assembly : cs.temp.dll.dll Syntax public class WingMainWeakpoint : MainWeakpoint Methods Start() Declaration protected override void Start() Overrides MainWeakpoint.Start() TakeDamage(Vector3, Single) Declaration public override void TakeDamage(Vector3 dir, float damage) Parameters Type Name Description Vector3 dir Single damage Overrides MainWeakpoint.TakeDamage(Vector3, Single) Update() Declaration protected override void Update() Overrides MainWeakpoint.Update() Implements IHasHealth"
+  },
+  "api/StormHawks.Runtime.Entities.Weapons.BossLaserWeaponSet.html": {
+    "href": "api/StormHawks.Runtime.Entities.Weapons.BossLaserWeaponSet.html",
+    "title": "Class BossLaserWeaponSet | Developer Reference",
+    "keywords": "Class BossLaserWeaponSet Inheritance Object BossLaserWeaponSet Namespace : StormHawks.Runtime.Entities.Weapons Assembly : cs.temp.dll.dll Syntax public class BossLaserWeaponSet : MonoBehaviour Fields Weapons Declaration public EntityLaserWeapon[] Weapons Field Value Type Description EntityLaserWeapon []"
+  },
   "api/StormHawks.Runtime.Entities.Weapons.EntityFenceWeapon.html": {
     "href": "api/StormHawks.Runtime.Entities.Weapons.EntityFenceWeapon.html",
     "title": "Class EntityFenceWeapon | Developer Reference",
-    "keywords": "Class EntityFenceWeapon Inheritance Object EntityWeapon EntityWeapon < EnemyFenceProjectile > EntityFenceWeapon Inherited Members EntityWeapon<EnemyFenceProjectile>.Pool EntityWeapon<EnemyFenceProjectile>.GetPool() EntityWeapon<EnemyFenceProjectile>.prefab EntityWeapon<EnemyFenceProjectile>.OnEnable() EntityWeapon<EnemyFenceProjectile>.OnDisable() EntityWeapon.FmodEvent EntityWeapon.IsFiring EntityWeapon.VirtualTarget EntityWeapon.Start() EntityWeapon.OnDestroy() EntityWeapon.SetWeapon(IEntityFire) EntityWeapon.Fire() EntityWeapon.Cancel() Namespace : StormHawks.Runtime.Entities.Weapons Assembly : cs.temp.dll.dll Syntax public class EntityFenceWeapon : EntityWeapon<EnemyFenceProjectile> Methods GetMuzzleEffects() Declaration public override ParticleSystem[] GetMuzzleEffects() Returns Type Description ParticleSystem [] Overrides EntityWeapon.GetMuzzleEffects() OnGetObject(EnemyFenceProjectile) Declaration public override void OnGetObject(EnemyFenceProjectile obj) Parameters Type Name Description EnemyFenceProjectile obj Overrides StormHawks.Runtime.Entities.Weapons.EntityWeapon<EnemyFenceProjectile>.OnGetObject(EnemyFenceProjectile) OnReleaseObject(EnemyFenceProjectile) Declaration public override void OnReleaseObject(EnemyFenceProjectile obj) Parameters Type Name Description EnemyFenceProjectile obj Overrides StormHawks.Runtime.Entities.Weapons.EntityWeapon<EnemyFenceProjectile>.OnReleaseObject(EnemyFenceProjectile)"
+    "keywords": "Class EntityFenceWeapon Inheritance Object EntityWeapon EntityWeapon < EnemyFenceProjectile > EntityFenceWeapon Inherited Members EntityWeapon<EnemyFenceProjectile>.Pool EntityWeapon<EnemyFenceProjectile>.GetPool() EntityWeapon<EnemyFenceProjectile>.prefab EntityWeapon<EnemyFenceProjectile>.OnEnable() EntityWeapon<EnemyFenceProjectile>.OnDisable() EntityWeapon._fire EntityWeapon.FmodEvent EntityWeapon.IsFiring EntityWeapon.VirtualTarget EntityWeapon.Start() EntityWeapon.OnDestroy() EntityWeapon.SetWeapon(IEntityFire) EntityWeapon.Fire() EntityWeapon.Cancel() EntityWeapon.OnFireFinished() Namespace : StormHawks.Runtime.Entities.Weapons Assembly : cs.temp.dll.dll Syntax public class EntityFenceWeapon : EntityWeapon<EnemyFenceProjectile> Methods GetMuzzleEffects() Declaration public override ParticleSystem[] GetMuzzleEffects() Returns Type Description ParticleSystem [] Overrides EntityWeapon.GetMuzzleEffects() OnGetObject(EnemyFenceProjectile) Declaration public override void OnGetObject(EnemyFenceProjectile obj) Parameters Type Name Description EnemyFenceProjectile obj Overrides StormHawks.Runtime.Entities.Weapons.EntityWeapon<EnemyFenceProjectile>.OnGetObject(EnemyFenceProjectile) OnReleaseObject(EnemyFenceProjectile) Declaration public override void OnReleaseObject(EnemyFenceProjectile obj) Parameters Type Name Description EnemyFenceProjectile obj Overrides StormHawks.Runtime.Entities.Weapons.EntityWeapon<EnemyFenceProjectile>.OnReleaseObject(EnemyFenceProjectile)"
   },
   "api/StormHawks.Runtime.Entities.Weapons.EntityHomingMissileConfigSO.html": {
     "href": "api/StormHawks.Runtime.Entities.Weapons.EntityHomingMissileConfigSO.html",
@@ -1042,22 +1087,22 @@
   "api/StormHawks.Runtime.Entities.Weapons.EntityLaserWeapon.html": {
     "href": "api/StormHawks.Runtime.Entities.Weapons.EntityLaserWeapon.html",
     "title": "Class EntityLaserWeapon | Developer Reference",
-    "keywords": "Class EntityLaserWeapon Inheritance Object EntityWeapon EntityLaserWeapon Inherited Members EntityWeapon.FmodEvent EntityWeapon.IsFiring EntityWeapon.VirtualTarget EntityWeapon.OnEnable() EntityWeapon.OnDisable() EntityWeapon.OnDestroy() EntityWeapon.SetWeapon(IEntityFire) EntityWeapon.Fire() EntityWeapon.Cancel() Namespace : StormHawks.Runtime.Entities.Weapons Assembly : cs.temp.dll.dll Syntax public class EntityLaserWeapon : EntityWeapon Properties LineRenderer Declaration public LineRenderer LineRenderer { get; } Property Value Type Description LineRenderer WarningPlane Declaration public WarningPlane WarningPlane { get; } Property Value Type Description WarningPlane Methods GetMuzzleEffects() Declaration public override ParticleSystem[] GetMuzzleEffects() Returns Type Description ParticleSystem [] Overrides EntityWeapon.GetMuzzleEffects() Start() Declaration protected override void Start() Overrides EntityWeapon.Start()"
+    "keywords": "Class EntityLaserWeapon Inheritance Object EntityWeapon EntityLaserWeapon Inherited Members EntityWeapon._fire EntityWeapon.FmodEvent EntityWeapon.IsFiring EntityWeapon.VirtualTarget EntityWeapon.OnEnable() EntityWeapon.OnDisable() EntityWeapon.OnDestroy() EntityWeapon.SetWeapon(IEntityFire) EntityWeapon.Cancel() Namespace : StormHawks.Runtime.Entities.Weapons Assembly : cs.temp.dll.dll Syntax public class EntityLaserWeapon : EntityWeapon Fields _chargeEffect Declaration protected ParticleSystem _chargeEffect Field Value Type Description ParticleSystem _laserEffect Declaration protected ParticleSystem _laserEffect Field Value Type Description ParticleSystem _portalEffect Declaration protected ParticleSystem _portalEffect Field Value Type Description ParticleSystem _warning Declaration protected GameObject _warning Field Value Type Description GameObject Properties CastRadius Declaration public float CastRadius { get; } Property Value Type Description Single Damage Declaration public float Damage { get; } Property Value Type Description Single DamageTime Declaration public float DamageTime { get; } Property Value Type Description Single Distance Declaration public float Distance { get; } Property Value Type Description Single IsCharging Declaration public bool IsCharging { get; } Property Value Type Description Boolean Methods Charge(Single) Declaration public void Charge(float chargingTime) Parameters Type Name Description Single chargingTime Fire() Declaration public override void Fire() Overrides EntityWeapon.Fire() GetMuzzleEffects() Declaration public override ParticleSystem[] GetMuzzleEffects() Returns Type Description ParticleSystem [] Overrides EntityWeapon.GetMuzzleEffects() OnFireFinished() Declaration protected override void OnFireFinished() Overrides EntityWeapon.OnFireFinished() SetLookDirection(Vector3) Declaration public void SetLookDirection(Vector3 dir) Parameters Type Name Description Vector3 dir Start() Declaration protected override void Start() Overrides EntityWeapon.Start()"
   },
   "api/StormHawks.Runtime.Entities.Weapons.EntityProjectileWeapon.html": {
     "href": "api/StormHawks.Runtime.Entities.Weapons.EntityProjectileWeapon.html",
     "title": "Class EntityProjectileWeapon | Developer Reference",
-    "keywords": "Class EntityProjectileWeapon Inheritance Object EntityWeapon EntityWeapon < Projectile > EntityProjectileWeapon Inherited Members EntityWeapon<Projectile>.Pool EntityWeapon<Projectile>.GetPool() EntityWeapon<Projectile>.prefab EntityWeapon<Projectile>.OnEnable() EntityWeapon<Projectile>.OnDisable() EntityWeapon.FmodEvent EntityWeapon.IsFiring EntityWeapon.VirtualTarget EntityWeapon.OnDestroy() EntityWeapon.SetWeapon(IEntityFire) EntityWeapon.Fire() EntityWeapon.Cancel() Namespace : StormHawks.Runtime.Entities.Weapons Assembly : cs.temp.dll.dll Syntax public class EntityProjectileWeapon : EntityWeapon<Projectile> Methods GetMuzzleEffects() Declaration public override ParticleSystem[] GetMuzzleEffects() Returns Type Description ParticleSystem [] Overrides EntityWeapon.GetMuzzleEffects() OnGetObject(Projectile) Declaration public override void OnGetObject(Projectile obj) Parameters Type Name Description Projectile obj Overrides StormHawks.Runtime.Entities.Weapons.EntityWeapon<Projectile>.OnGetObject(Projectile) OnReleaseObject(Projectile) Declaration public override void OnReleaseObject(Projectile obj) Parameters Type Name Description Projectile obj Overrides StormHawks.Runtime.Entities.Weapons.EntityWeapon<Projectile>.OnReleaseObject(Projectile) Start() Declaration protected override void Start() Overrides EntityWeapon.Start()"
+    "keywords": "Class EntityProjectileWeapon Inheritance Object EntityWeapon EntityWeapon < Projectile > EntityProjectileWeapon WingProjectileWeapon Inherited Members EntityWeapon<Projectile>.Pool EntityWeapon<Projectile>.GetPool() EntityWeapon<Projectile>.prefab EntityWeapon<Projectile>.OnEnable() EntityWeapon<Projectile>.OnDisable() EntityWeapon._fire EntityWeapon.FmodEvent EntityWeapon.IsFiring EntityWeapon.VirtualTarget EntityWeapon.OnDestroy() EntityWeapon.SetWeapon(IEntityFire) EntityWeapon.Fire() EntityWeapon.Cancel() EntityWeapon.OnFireFinished() Namespace : StormHawks.Runtime.Entities.Weapons Assembly : cs.temp.dll.dll Syntax public class EntityProjectileWeapon : EntityWeapon<Projectile> Methods GetMuzzleEffects() Declaration public override ParticleSystem[] GetMuzzleEffects() Returns Type Description ParticleSystem [] Overrides EntityWeapon.GetMuzzleEffects() OnGetObject(Projectile) Declaration public override void OnGetObject(Projectile obj) Parameters Type Name Description Projectile obj Overrides StormHawks.Runtime.Entities.Weapons.EntityWeapon<Projectile>.OnGetObject(Projectile) OnReleaseObject(Projectile) Declaration public override void OnReleaseObject(Projectile obj) Parameters Type Name Description Projectile obj Overrides StormHawks.Runtime.Entities.Weapons.EntityWeapon<Projectile>.OnReleaseObject(Projectile) Start() Declaration protected override void Start() Overrides EntityWeapon.Start()"
   },
   "api/StormHawks.Runtime.Entities.Weapons.EntityWeapon.html": {
     "href": "api/StormHawks.Runtime.Entities.Weapons.EntityWeapon.html",
     "title": "Class EntityWeapon | Developer Reference",
-    "keywords": "Class EntityWeapon Inheritance Object EntityWeapon EntityLaserWeapon EntityWeapon<T> Namespace : StormHawks.Runtime.Entities.Weapons Assembly : cs.temp.dll.dll Syntax public abstract class EntityWeapon : MonoBehaviour Properties FmodEvent Declaration public EventReference FmodEvent { get; } Property Value Type Description EventReference IsFiring Declaration public bool IsFiring { get; } Property Value Type Description Boolean VirtualTarget Declaration public Transform VirtualTarget { get; } Property Value Type Description Transform Methods Cancel() Declaration public void Cancel() Fire() Declaration public void Fire() GetMuzzleEffects() Declaration public abstract ParticleSystem[] GetMuzzleEffects() Returns Type Description ParticleSystem [] OnDestroy() Declaration protected void OnDestroy() OnDisable() Declaration protected virtual void OnDisable() OnEnable() Declaration protected virtual void OnEnable() SetWeapon(IEntityFire) Declaration public void SetWeapon(IEntityFire fire) Parameters Type Name Description IEntityFire fire Start() Declaration protected virtual void Start()"
+    "keywords": "Class EntityWeapon Inheritance Object EntityWeapon EntityLaserWeapon EntityWeapon<T> Namespace : StormHawks.Runtime.Entities.Weapons Assembly : cs.temp.dll.dll Syntax public abstract class EntityWeapon : MonoBehaviour Fields _fire Declaration protected IEntityFire _fire Field Value Type Description IEntityFire Properties FmodEvent Declaration public EventReference FmodEvent { get; } Property Value Type Description EventReference IsFiring Declaration public bool IsFiring { get; protected set; } Property Value Type Description Boolean VirtualTarget Declaration public Transform VirtualTarget { get; } Property Value Type Description Transform Methods Cancel() Declaration public void Cancel() Fire() Declaration public virtual void Fire() GetMuzzleEffects() Declaration public abstract ParticleSystem[] GetMuzzleEffects() Returns Type Description ParticleSystem [] OnDestroy() Declaration protected void OnDestroy() OnDisable() Declaration protected virtual void OnDisable() OnEnable() Declaration protected virtual void OnEnable() OnFireFinished() Declaration protected virtual void OnFireFinished() SetWeapon(IEntityFire) Declaration public void SetWeapon(IEntityFire fire) Parameters Type Name Description IEntityFire fire Start() Declaration protected virtual void Start()"
   },
   "api/StormHawks.Runtime.Entities.Weapons.EntityWeapon-1.html": {
     "href": "api/StormHawks.Runtime.Entities.Weapons.EntityWeapon-1.html",
     "title": "Class EntityWeapon<T> | Developer Reference",
-    "keywords": "Class EntityWeapon<T> Inheritance Object EntityWeapon EntityWeapon<T> EntityFenceWeapon EntityProjectileWeapon Inherited Members EntityWeapon.FmodEvent EntityWeapon.IsFiring EntityWeapon.VirtualTarget EntityWeapon.Start() EntityWeapon.OnDestroy() EntityWeapon.SetWeapon(IEntityFire) EntityWeapon.Fire() EntityWeapon.Cancel() EntityWeapon.GetMuzzleEffects() Namespace : StormHawks.Runtime.Entities.Weapons Assembly : cs.temp.dll.dll Syntax public abstract class EntityWeapon<T> : EntityWeapon where T : MonoBehaviour, IPoolable<T> Type Parameters Name Description T Fields prefab Declaration protected T prefab Field Value Type Description T Properties Pool Declaration public MonoObjectPool<T> Pool { get; } Property Value Type Description MonoObjectPool <T> Methods GetPool() Declaration public MonoObjectPool<T> GetPool() Returns Type Description MonoObjectPool <T> OnDisable() Declaration protected override void OnDisable() Overrides EntityWeapon.OnDisable() OnEnable() Declaration protected override void OnEnable() Overrides EntityWeapon.OnEnable() OnGetObject(T) Declaration public abstract void OnGetObject(T obj) Parameters Type Name Description T obj OnReleaseObject(T) Declaration public abstract void OnReleaseObject(T obj) Parameters Type Name Description T obj"
+    "keywords": "Class EntityWeapon<T> Inheritance Object EntityWeapon EntityWeapon<T> EntityFenceWeapon EntityProjectileWeapon Inherited Members EntityWeapon._fire EntityWeapon.FmodEvent EntityWeapon.IsFiring EntityWeapon.VirtualTarget EntityWeapon.Start() EntityWeapon.OnDestroy() EntityWeapon.SetWeapon(IEntityFire) EntityWeapon.Fire() EntityWeapon.Cancel() EntityWeapon.OnFireFinished() EntityWeapon.GetMuzzleEffects() Namespace : StormHawks.Runtime.Entities.Weapons Assembly : cs.temp.dll.dll Syntax public abstract class EntityWeapon<T> : EntityWeapon where T : MonoBehaviour, IPoolable<T> Type Parameters Name Description T Fields prefab Declaration protected T prefab Field Value Type Description T Properties Pool Declaration public MonoObjectPool<T> Pool { get; } Property Value Type Description MonoObjectPool <T> Methods GetPool() Declaration public MonoObjectPool<T> GetPool() Returns Type Description MonoObjectPool <T> OnDisable() Declaration protected override void OnDisable() Overrides EntityWeapon.OnDisable() OnEnable() Declaration protected override void OnEnable() Overrides EntityWeapon.OnEnable() OnGetObject(T) Declaration public abstract void OnGetObject(T obj) Parameters Type Name Description T obj OnReleaseObject(T) Declaration public abstract void OnReleaseObject(T obj) Parameters Type Name Description T obj"
   },
   "api/StormHawks.Runtime.Entities.Weapons.FenceMovingInfo.html": {
     "href": "api/StormHawks.Runtime.Entities.Weapons.FenceMovingInfo.html",
@@ -1072,32 +1117,42 @@
   "api/StormHawks.Runtime.Entities.Weapons.FenceWeaponContext.html": {
     "href": "api/StormHawks.Runtime.Entities.Weapons.FenceWeaponContext.html",
     "title": "Class FenceWeaponContext | Developer Reference",
-    "keywords": "Class FenceWeaponContext Inheritance Object WeaponContext < EnemyFenceProjectile > FenceWeaponContext Inherited Members WeaponContext<EnemyFenceProjectile>.Weapon WeaponContext<EnemyFenceProjectile>.ShootCount WeaponContext<EnemyFenceProjectile>.Delay WeaponContext<EnemyFenceProjectile>.ReloadTime WeaponContext<EnemyFenceProjectile>.Target WeaponContext<EnemyFenceProjectile>.ConstantFireDirection WeaponContext<EnemyFenceProjectile>.FireTime WeaponContext<EnemyFenceProjectile>.SetTarget(GameObject) WeaponContext<EnemyFenceProjectile>.SetConstantFireDirection(Vector3) WeaponContext<EnemyFenceProjectile>.SetFireTime(Single) WeaponContext<EnemyFenceProjectile>.Pool WeaponContext<EnemyFenceProjectile>.SetPool(MonoObjectPool<EnemyFenceProjectile>) WeaponContext<EnemyFenceProjectile>.GetFromPool() Namespace : StormHawks.Runtime.Entities.Weapons Assembly : cs.temp.dll.dll Syntax public class FenceWeaponContext : WeaponContext<EnemyFenceProjectile> Constructors FenceWeaponContext(EntityWeapon<EnemyFenceProjectile>, Int32, Single, Single, FenceMovingInfo, FenceRotatingInfo) Declaration public FenceWeaponContext(EntityWeapon<EnemyFenceProjectile> weapon, int shootCount, float delay, float reloadTime, FenceMovingInfo movingInfo, FenceRotatingInfo rotatingInfo) Parameters Type Name Description EntityWeapon < EnemyFenceProjectile > weapon Int32 shootCount Single delay Single reloadTime FenceMovingInfo movingInfo FenceRotatingInfo rotatingInfo Properties MovingInfo Declaration public FenceMovingInfo MovingInfo { get; } Property Value Type Description FenceMovingInfo OrbsPositions Declaration public Vector3[] OrbsPositions { get; } Property Value Type Description Vector3 [] RotatingInfo Declaration public FenceRotatingInfo RotatingInfo { get; } Property Value Type Description FenceRotatingInfo Methods SetOrbsPosition(Vector3, Vector3) Declaration public void SetOrbsPosition(Vector3 position1, Vector3 position2) Parameters Type Name Description Vector3 position1 Vector3 position2"
+    "keywords": "Class FenceWeaponContext Inheritance Object WeaponContext < EnemyFenceProjectile > FenceWeaponContext Inherited Members WeaponContext<EnemyFenceProjectile>.Weapon WeaponContext<EnemyFenceProjectile>.ShootCount WeaponContext<EnemyFenceProjectile>.Delay WeaponContext<EnemyFenceProjectile>.ReloadTime WeaponContext<EnemyFenceProjectile>.Target WeaponContext<EnemyFenceProjectile>.ConstantFireDirection WeaponContext<EnemyFenceProjectile>.FireTime WeaponContext<EnemyFenceProjectile>.Forward WeaponContext<EnemyFenceProjectile>.SetTarget(GameObject) WeaponContext<EnemyFenceProjectile>.SetConstantFireDirection(Vector3) WeaponContext<EnemyFenceProjectile>.SetFireTime(Single) WeaponContext<EnemyFenceProjectile>.SetForward(Vector3) WeaponContext<EnemyFenceProjectile>.Pool WeaponContext<EnemyFenceProjectile>.SetPool(MonoObjectPool<EnemyFenceProjectile>) WeaponContext<EnemyFenceProjectile>.GetFromPool() Namespace : StormHawks.Runtime.Entities.Weapons Assembly : cs.temp.dll.dll Syntax public class FenceWeaponContext : WeaponContext<EnemyFenceProjectile> Constructors FenceWeaponContext(EntityWeapon<EnemyFenceProjectile>, Int32, Single, Single, FenceMovingInfo, FenceRotatingInfo) Declaration public FenceWeaponContext(EntityWeapon<EnemyFenceProjectile> weapon, int shootCount, float delay, float reloadTime, FenceMovingInfo movingInfo, FenceRotatingInfo rotatingInfo) Parameters Type Name Description EntityWeapon < EnemyFenceProjectile > weapon Int32 shootCount Single delay Single reloadTime FenceMovingInfo movingInfo FenceRotatingInfo rotatingInfo Properties MovingInfo Declaration public FenceMovingInfo MovingInfo { get; } Property Value Type Description FenceMovingInfo OrbsPositions Declaration public Vector3[] OrbsPositions { get; } Property Value Type Description Vector3 [] RotatingInfo Declaration public FenceRotatingInfo RotatingInfo { get; } Property Value Type Description FenceRotatingInfo Methods SetOrbsPosition(Vector3, Vector3) Declaration public void SetOrbsPosition(Vector3 position1, Vector3 position2) Parameters Type Name Description Vector3 position1 Vector3 position2"
   },
   "api/StormHawks.Runtime.Entities.Weapons.html": {
     "href": "api/StormHawks.Runtime.Entities.Weapons.html",
     "title": "Namespace StormHawks.Runtime.Entities.Weapons | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Entities.Weapons Classes EntityFenceWeapon EntityHomingMissileConfigSO EntityLaserWeapon EntityProjectileWeapon EntityWeapon EntityWeapon<T> FenceMovingInfo FenceRotatingInfo FenceWeaponContext LaserWeaponContext WeaponContext<T>"
+    "keywords": "Namespace StormHawks.Runtime.Entities.Weapons Classes BossLaserWeaponSet EntityFenceWeapon EntityHomingMissileConfigSO EntityLaserWeapon EntityProjectileWeapon EntityWeapon EntityWeapon<T> FenceMovingInfo FenceRotatingInfo FenceWeaponContext LaserWeaponContext WeaponContext<T> WingProjectileWeapon"
   },
   "api/StormHawks.Runtime.Entities.Weapons.LaserWeaponContext.html": {
     "href": "api/StormHawks.Runtime.Entities.Weapons.LaserWeaponContext.html",
     "title": "Class LaserWeaponContext | Developer Reference",
-    "keywords": "Class LaserWeaponContext Inheritance Object LaserWeaponContext Namespace : StormHawks.Runtime.Entities.Weapons Assembly : cs.temp.dll.dll Syntax public class LaserWeaponContext Constructors LaserWeaponContext(EntityWeapon, Vector3, Single, Single, Single, LayerMask) Declaration public LaserWeaponContext(EntityWeapon weapon, Vector3 direction, float damage, float damageTime, float delay, LayerMask obstacleLayerMask) Parameters Type Name Description EntityWeapon weapon Vector3 direction Single damage Single damageTime Single delay LayerMask obstacleLayerMask Fields Weapon Declaration public readonly EntityWeapon Weapon Field Value Type Description EntityWeapon Properties Damage Declaration public float Damage { get; } Property Value Type Description Single DamageTime Declaration public float DamageTime { get; } Property Value Type Description Single Delay Declaration public float Delay { get; } Property Value Type Description Single Direction Declaration public Vector3 Direction { get; } Property Value Type Description Vector3 Distance Declaration public float Distance { get; } Property Value Type Description Single LineRenderer Declaration public LineRenderer LineRenderer { get; } Property Value Type Description LineRenderer ObstacleLayerMask Declaration public LayerMask ObstacleLayerMask { get; } Property Value Type Description LayerMask Size Declaration public float Size { get; } Property Value Type Description Single Methods SetDistance(Single) Declaration public void SetDistance(float distance) Parameters Type Name Description Single distance SetLineRenderer(LineRenderer) Declaration public void SetLineRenderer(LineRenderer renderer) Parameters Type Name Description LineRenderer renderer SetSize(Single) Declaration public void SetSize(float size) Parameters Type Name Description Single size UpdateDirection(Vector3) Declaration public void UpdateDirection(Vector3 fireDirection) Parameters Type Name Description Vector3 fireDirection"
+    "keywords": "Class LaserWeaponContext Inheritance Object LaserWeaponContext Namespace : StormHawks.Runtime.Entities.Weapons Assembly : cs.temp.dll.dll Syntax public class LaserWeaponContext Constructors LaserWeaponContext(EntityLaserWeapon, Vector3, Single, Single) Declaration public LaserWeaponContext(EntityLaserWeapon weapon, Vector3 direction, float firingTime, float delay) Parameters Type Name Description EntityLaserWeapon weapon Vector3 direction Single firingTime Single delay Fields Weapon Declaration public readonly EntityLaserWeapon Weapon Field Value Type Description EntityLaserWeapon Properties CastRadius Declaration public float CastRadius { get; } Property Value Type Description Single Damage Declaration public float Damage { get; } Property Value Type Description Single DamageTime Declaration public float DamageTime { get; } Property Value Type Description Single Delay Declaration public float Delay { get; } Property Value Type Description Single Direction Declaration public Vector3 Direction { get; } Property Value Type Description Vector3 Distance Declaration public float Distance { get; } Property Value Type Description Single FiringTime Declaration public float FiringTime { get; } Property Value Type Description Single Methods UpdateDirection(Vector3) Declaration public void UpdateDirection(Vector3 fireDirection) Parameters Type Name Description Vector3 fireDirection"
   },
   "api/StormHawks.Runtime.Entities.Weapons.WeaponContext-1.html": {
     "href": "api/StormHawks.Runtime.Entities.Weapons.WeaponContext-1.html",
     "title": "Class WeaponContext<T> | Developer Reference",
-    "keywords": "Class WeaponContext<T> Inheritance Object WeaponContext<T> FenceWeaponContext Namespace : StormHawks.Runtime.Entities.Weapons Assembly : cs.temp.dll.dll Syntax public class WeaponContext<T> where T : MonoBehaviour, IPoolable<T> Type Parameters Name Description T Constructors WeaponContext(EntityWeapon<T>, Int32, Single, Single) Declaration public WeaponContext(EntityWeapon<T> weapon, int shootCount, float delay, float reloadTime) Parameters Type Name Description EntityWeapon <T> weapon Int32 shootCount Single delay Single reloadTime Fields Weapon Declaration public EntityWeapon<T> Weapon Field Value Type Description EntityWeapon <T> Properties ConstantFireDirection Declaration public Vector3 ConstantFireDirection { get; } Property Value Type Description Vector3 Delay Declaration public float Delay { get; } Property Value Type Description Single FireTime Declaration public float FireTime { get; } Property Value Type Description Single Pool Declaration public MonoObjectPool<T> Pool { get; protected set; } Property Value Type Description MonoObjectPool <T> ReloadTime Declaration public float ReloadTime { get; } Property Value Type Description Single ShootCount Declaration public int ShootCount { get; } Property Value Type Description Int32 Target Declaration public GameObject Target { get; } Property Value Type Description GameObject Methods GetFromPool() Declaration public T GetFromPool() Returns Type Description T SetConstantFireDirection(Vector3) Declaration public void SetConstantFireDirection(Vector3 dir) Parameters Type Name Description Vector3 dir SetFireTime(Single) Declaration public void SetFireTime(float fireTime) Parameters Type Name Description Single fireTime SetPool(MonoObjectPool<T>) Declaration public void SetPool(MonoObjectPool<T> pool) Parameters Type Name Description MonoObjectPool <T> pool SetTarget(GameObject) Declaration public void SetTarget(GameObject target) Parameters Type Name Description GameObject target"
+    "keywords": "Class WeaponContext<T> Inheritance Object WeaponContext<T> FenceWeaponContext Namespace : StormHawks.Runtime.Entities.Weapons Assembly : cs.temp.dll.dll Syntax public class WeaponContext<T> where T : MonoBehaviour, IPoolable<T> Type Parameters Name Description T Constructors WeaponContext(EntityWeapon<T>, Int32, Single, Single) Declaration public WeaponContext(EntityWeapon<T> weapon, int shootCount, float delay, float reloadTime) Parameters Type Name Description EntityWeapon <T> weapon Int32 shootCount Single delay Single reloadTime Fields Weapon Declaration public EntityWeapon<T> Weapon Field Value Type Description EntityWeapon <T> Properties ConstantFireDirection Declaration public Vector3 ConstantFireDirection { get; } Property Value Type Description Vector3 Delay Declaration public float Delay { get; } Property Value Type Description Single FireTime Declaration public float FireTime { get; } Property Value Type Description Single Forward Declaration public Vector3 Forward { get; } Property Value Type Description Vector3 Pool Declaration public MonoObjectPool<T> Pool { get; protected set; } Property Value Type Description MonoObjectPool <T> ReloadTime Declaration public float ReloadTime { get; } Property Value Type Description Single ShootCount Declaration public int ShootCount { get; } Property Value Type Description Int32 Target Declaration public GameObject Target { get; } Property Value Type Description GameObject Methods GetFromPool() Declaration public T GetFromPool() Returns Type Description T SetConstantFireDirection(Vector3) Declaration public void SetConstantFireDirection(Vector3 dir) Parameters Type Name Description Vector3 dir SetFireTime(Single) Declaration public void SetFireTime(float fireTime) Parameters Type Name Description Single fireTime SetForward(Vector3) Declaration public void SetForward(Vector3 forward) Parameters Type Name Description Vector3 forward SetPool(MonoObjectPool<T>) Declaration public void SetPool(MonoObjectPool<T> pool) Parameters Type Name Description MonoObjectPool <T> pool SetTarget(GameObject) Declaration public void SetTarget(GameObject target) Parameters Type Name Description GameObject target"
+  },
+  "api/StormHawks.Runtime.Entities.Weapons.WingProjectileWeapon.html": {
+    "href": "api/StormHawks.Runtime.Entities.Weapons.WingProjectileWeapon.html",
+    "title": "Class WingProjectileWeapon | Developer Reference",
+    "keywords": "Class WingProjectileWeapon Inheritance Object EntityWeapon EntityWeapon < Projectile > EntityProjectileWeapon WingProjectileWeapon Inherited Members EntityProjectileWeapon.Start() EntityProjectileWeapon.GetMuzzleEffects() EntityProjectileWeapon.OnGetObject(Projectile) EntityProjectileWeapon.OnReleaseObject(Projectile) EntityWeapon<Projectile>.Pool EntityWeapon<Projectile>.GetPool() EntityWeapon<Projectile>.prefab EntityWeapon._fire EntityWeapon.FmodEvent EntityWeapon.IsFiring EntityWeapon.VirtualTarget EntityWeapon.OnDestroy() EntityWeapon.SetWeapon(IEntityFire) EntityWeapon.Fire() EntityWeapon.Cancel() EntityWeapon.OnFireFinished() Namespace : StormHawks.Runtime.Entities.Weapons Assembly : cs.temp.dll.dll Syntax public class WingProjectileWeapon : EntityProjectileWeapon Methods OnDisable() Declaration protected override void OnDisable() Overrides StormHawks.Runtime.Entities.Weapons.EntityWeapon<Projectile>.OnDisable() OnEnable() Declaration protected override void OnEnable() Overrides StormHawks.Runtime.Entities.Weapons.EntityWeapon<Projectile>.OnEnable()"
   },
   "api/StormHawks.Runtime.Environments.EliteEnemyPath.html": {
     "href": "api/StormHawks.Runtime.Environments.EliteEnemyPath.html",
     "title": "Class EliteEnemyPath | Developer Reference",
-    "keywords": "Class EliteEnemyPath Inheritance Object EliteEnemyPath Namespace : StormHawks.Runtime.Environments Assembly : cs.temp.dll.dll Syntax public class EliteEnemyPath : MonoBehaviour Methods IsEmpty() Declaration public bool IsEmpty() Returns Type Description Boolean RegisterEliteEnemy(BaseEliteEnemy) Declaration public void RegisterEliteEnemy(BaseEliteEnemy eliteEnemy) Parameters Type Name Description BaseEliteEnemy eliteEnemy ReleaseEliteEnemy(BaseEliteEnemy) Declaration public void ReleaseEliteEnemy(BaseEliteEnemy eliteEnemy) Parameters Type Name Description BaseEliteEnemy eliteEnemy UpdatePosition(Vector3) Declaration public void UpdatePosition(Vector3 positionOffset) Parameters Type Name Description Vector3 positionOffset"
+    "keywords": "Class EliteEnemyPath Inheritance Object EnemyPath EliteEnemyPath Inherited Members EnemyPath._isEmpty EnemyPath._path EnemyPath._waypoints EnemyPath._tween EnemyPath.Start() EnemyPath.IsEmpty() Namespace : StormHawks.Runtime.Environments Assembly : cs.temp.dll.dll Syntax public class EliteEnemyPath : EnemyPath Properties RegisteredEnemy Declaration public BaseEliteEnemy RegisteredEnemy { get; } Property Value Type Description BaseEliteEnemy Methods RegisterEliteEnemy(BaseEliteEnemy) Declaration public void RegisterEliteEnemy(BaseEliteEnemy eliteEnemy) Parameters Type Name Description BaseEliteEnemy eliteEnemy ReleaseEliteEnemy(BaseEliteEnemy) Declaration public void ReleaseEliteEnemy(BaseEliteEnemy eliteEnemy) Parameters Type Name Description BaseEliteEnemy eliteEnemy UpdatePosition(Vector3) Declaration public override void UpdatePosition(Vector3 positionOffset) Parameters Type Name Description Vector3 positionOffset Overrides EnemyPath.UpdatePosition(Vector3)"
   },
   "api/StormHawks.Runtime.Environments.EnemyGroupPath.html": {
     "href": "api/StormHawks.Runtime.Environments.EnemyGroupPath.html",
     "title": "Class EnemyGroupPath | Developer Reference",
-    "keywords": "Class EnemyGroupPath Inheritance Object EnemyGroupPath Namespace : StormHawks.Runtime.Environments Assembly : cs.temp.dll.dll Syntax public class EnemyGroupPath : MonoBehaviour Methods ContainsInRegisteredGroups(EnemyGroup) Declaration public bool ContainsInRegisteredGroups(EnemyGroup group) Parameters Type Name Description EnemyGroup group Returns Type Description Boolean IsFull() Declaration public bool IsFull() Returns Type Description Boolean RegisterEnemyGroup(EnemyGroup) Declaration public void RegisterEnemyGroup(EnemyGroup group) Parameters Type Name Description EnemyGroup group ReleaseEnemyGroup(EnemyGroup) Declaration public void ReleaseEnemyGroup(EnemyGroup group) Parameters Type Name Description EnemyGroup group UpdatePosition(Vector3) Declaration public void UpdatePosition(Vector3 positionOffset) Parameters Type Name Description Vector3 positionOffset"
+    "keywords": "Class EnemyGroupPath Inheritance Object EnemyPath EnemyGroupPath Inherited Members EnemyPath._isEmpty EnemyPath._path EnemyPath._waypoints EnemyPath._tween EnemyPath.IsEmpty() Namespace : StormHawks.Runtime.Environments Assembly : cs.temp.dll.dll Syntax public class EnemyGroupPath : EnemyPath Methods ContainsInRegisteredGroups(EnemyGroup) Declaration public bool ContainsInRegisteredGroups(EnemyGroup group) Parameters Type Name Description EnemyGroup group Returns Type Description Boolean IsFull() Declaration public bool IsFull() Returns Type Description Boolean RegisterEnemyGroup(EnemyGroup) Declaration public void RegisterEnemyGroup(EnemyGroup group) Parameters Type Name Description EnemyGroup group ReleaseEnemyGroup(EnemyGroup) Declaration public void ReleaseEnemyGroup(EnemyGroup group) Parameters Type Name Description EnemyGroup group Start() Declaration protected override void Start() Overrides EnemyPath.Start() UpdatePosition(Vector3) Declaration public override void UpdatePosition(Vector3 positionOffset) Parameters Type Name Description Vector3 positionOffset Overrides EnemyPath.UpdatePosition(Vector3)"
+  },
+  "api/StormHawks.Runtime.Environments.EnemyPath.html": {
+    "href": "api/StormHawks.Runtime.Environments.EnemyPath.html",
+    "title": "Class EnemyPath | Developer Reference",
+    "keywords": "Class EnemyPath Inheritance Object EnemyPath EliteEnemyPath EnemyGroupPath Namespace : StormHawks.Runtime.Environments Assembly : cs.temp.dll.dll Syntax public abstract class EnemyPath : MonoBehaviour Fields _isEmpty Declaration protected bool _isEmpty Field Value Type Description Boolean _path Declaration protected DOTweenPath _path Field Value Type Description DOTweenPath _tween Declaration protected Tween _tween Field Value Type Description Tween _waypoints Declaration protected Vector3[] _waypoints Field Value Type Description Vector3 [] Methods IsEmpty() Declaration public bool IsEmpty() Returns Type Description Boolean Start() Declaration protected virtual void Start() UpdatePosition(Vector3) Declaration public abstract void UpdatePosition(Vector3 positionOffset) Parameters Type Name Description Vector3 positionOffset"
   },
   "api/StormHawks.Runtime.Environments.EnemyPortal.html": {
     "href": "api/StormHawks.Runtime.Environments.EnemyPortal.html",
@@ -1117,7 +1172,12 @@
   "api/StormHawks.Runtime.Environments.html": {
     "href": "api/StormHawks.Runtime.Environments.html",
     "title": "Namespace StormHawks.Runtime.Environments | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Environments Classes EliteEnemyPath EnemyGroupPath EnemyPortal EnemyPortalSpawner EnemySpawner"
+    "keywords": "Namespace StormHawks.Runtime.Environments Classes EliteEnemyPath EnemyGroupPath EnemyPath EnemyPortal EnemyPortalSpawner EnemySpawner PlayableArea"
+  },
+  "api/StormHawks.Runtime.Environments.PlayableArea.html": {
+    "href": "api/StormHawks.Runtime.Environments.PlayableArea.html",
+    "title": "Class PlayableArea | Developer Reference",
+    "keywords": "Class PlayableArea Inheritance Object PlayableArea Namespace : StormHawks.Runtime.Environments Assembly : cs.temp.dll.dll Syntax public class PlayableArea : MonoBehaviour Properties IsEnabled Declaration public bool IsEnabled { get; } Property Value Type Description Boolean Methods Disable() Declaration public void Disable() Enable() Declaration public void Enable() IsPlayerInsidePlayableArea() Declaration public bool IsPlayerInsidePlayableArea() Returns Type Description Boolean"
   },
   "api/StormHawks.Runtime.Grids.html": {
     "href": "api/StormHawks.Runtime.Grids.html",
@@ -1477,7 +1537,7 @@
   "api/StormHawks.Runtime.Players.Controllers.html": {
     "href": "api/StormHawks.Runtime.Players.Controllers.html",
     "title": "Namespace StormHawks.Runtime.Players.Controllers | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Players.Controllers Classes ControlStick ControlStickHandler PlayerControlHandler PlayerControlSettingSO Enums PlayerControlHandler.BoostStateType"
+    "keywords": "Namespace StormHawks.Runtime.Players.Controllers Classes ControlStick ControlStickHandler PlayerControlHandler PlayerControlSettingSO PlayerWingConfigSO Enums PlayerControlHandler.BoostStateType"
   },
   "api/StormHawks.Runtime.Players.Controllers.PlayerControlHandler.BoostStateType.html": {
     "href": "api/StormHawks.Runtime.Players.Controllers.PlayerControlHandler.BoostStateType.html",
@@ -1494,10 +1554,15 @@
     "title": "Class PlayerControlSettingSO | Developer Reference",
     "keywords": "Class PlayerControlSettingSO Inheritance Object PlayerControlSettingSO Namespace : StormHawks.Runtime.Players.Controllers Assembly : cs.temp.dll.dll Syntax public class PlayerControlSettingSO : ScriptableObject Properties BoostAngleThreshold Declaration public float BoostAngleThreshold { get; } Property Value Type Description Single BoostThrustThreshold Declaration public float BoostThrustThreshold { get; } Property Value Type Description Single CenterDeadRange Declaration public Vector3 CenterDeadRange { get; } Property Value Type Description Vector3 CenterNormalizeRange Declaration public Vector3 CenterNormalizeRange { get; } Property Value Type Description Vector3 EmergencyBreakDistance Declaration public float EmergencyBreakDistance { get; } Property Value Type Description Single RollAngleDeadRange Declaration public float RollAngleDeadRange { get; } Property Value Type Description Single RollAngleNormalizeRange Declaration public float RollAngleNormalizeRange { get; } Property Value Type Description Single"
   },
+  "api/StormHawks.Runtime.Players.Controllers.PlayerWingConfigSO.html": {
+    "href": "api/StormHawks.Runtime.Players.Controllers.PlayerWingConfigSO.html",
+    "title": "Class PlayerWingConfigSO | Developer Reference",
+    "keywords": "Class PlayerWingConfigSO Inheritance Object PlayerWingConfigSO Namespace : StormHawks.Runtime.Players.Controllers Assembly : cs.temp.dll.dll Syntax public class PlayerWingConfigSO : ScriptableObject Properties DefaultWingRotateLerp Declaration public float DefaultWingRotateLerp { get; } Property Value Type Description Single InnerYawRotateLerp Declaration public float InnerYawRotateLerp { get; } Property Value Type Description Single InnerYawRotatePower Declaration public float InnerYawRotatePower { get; } Property Value Type Description Single InnerZMoveLerp Declaration public float InnerZMoveLerp { get; } Property Value Type Description Single InnerZMovePower Declaration public float InnerZMovePower { get; } Property Value Type Description Single PitchWingRotatePower Declaration public float PitchWingRotatePower { get; } Property Value Type Description Single RollWingRotateLerp Declaration public float RollWingRotateLerp { get; } Property Value Type Description Single RollWingRotatePower Declaration public float RollWingRotatePower { get; } Property Value Type Description Single YawWingRotatePower Declaration public float YawWingRotatePower { get; } Property Value Type Description Single"
+  },
   "api/StormHawks.Runtime.Players.html": {
     "href": "api/StormHawks.Runtime.Players.html",
     "title": "Namespace StormHawks.Runtime.Players | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Players Classes PlayerContext PlayerHealth"
+    "keywords": "Namespace StormHawks.Runtime.Players Classes PlayerContext PlayerHealth PlayerRespawnInfo PlayerWingController SpeedLineHandler"
   },
   "api/StormHawks.Runtime.Players.Movement.Chasing.html": {
     "href": "api/StormHawks.Runtime.Players.Movement.Chasing.html",
@@ -1512,12 +1577,12 @@
   "api/StormHawks.Runtime.Players.Movement.Chasing.PlayerChaseMover.html": {
     "href": "api/StormHawks.Runtime.Players.Movement.Chasing.PlayerChaseMover.html",
     "title": "Class PlayerChaseMover | Developer Reference",
-    "keywords": "Class PlayerChaseMover Inheritance Object PlayerMoverBase PlayerChaseMover Implements IPlayerMovement Inherited Members PlayerMoverBase.ControlHandler PlayerMoverBase.PlayerRigidbody PlayerMoverBase.Thrust PlayerMoverBase.Velocity Namespace : StormHawks.Runtime.Players.Movement.Chasing Assembly : cs.temp.dll.dll Syntax public class PlayerChaseMover : PlayerMoverBase Properties MovementConfig Declaration protected PlayerChaseMovementConfigSO MovementConfig { get; } Property Value Type Description PlayerChaseMovementConfigSO SideThrust Declaration public float SideThrust { get; protected set; } Property Value Type Description Single Methods Initialize() Declaration protected override void Initialize() Overrides PlayerMoverBase.Initialize() UpdateThrust() Declaration protected override void UpdateThrust() Overrides PlayerMoverBase.UpdateThrust() UpdateVelocity() Declaration protected override void UpdateVelocity() Overrides PlayerMoverBase.UpdateVelocity() Implements IPlayerMovement"
+    "keywords": "Class PlayerChaseMover Inheritance Object PlayerMoverBase PlayerChaseMover Implements IPlayerMovement Inherited Members PlayerMoverBase.ControlHandler PlayerMoverBase.PlayerRigidbody PlayerMoverBase.Thrust PlayerMoverBase.Velocity PlayerMoverBase.ThrustSoundInstance Namespace : StormHawks.Runtime.Players.Movement.Chasing Assembly : cs.temp.dll.dll Syntax public class PlayerChaseMover : PlayerMoverBase Properties MovementConfig Declaration protected PlayerChaseMovementConfigSO MovementConfig { get; } Property Value Type Description PlayerChaseMovementConfigSO SideThrust Declaration public float SideThrust { get; protected set; } Property Value Type Description Single Methods Initialize() Declaration protected override void Initialize() Overrides PlayerMoverBase.Initialize() UpdateThrust() Declaration protected override void UpdateThrust() Overrides PlayerMoverBase.UpdateThrust() UpdateVelocity() Declaration protected override void UpdateVelocity() Overrides PlayerMoverBase.UpdateVelocity() Implements IPlayerMovement"
   },
   "api/StormHawks.Runtime.Players.Movement.Chasing.PlayerChaseRotator.html": {
     "href": "api/StormHawks.Runtime.Players.Movement.Chasing.PlayerChaseRotator.html",
     "title": "Class PlayerChaseRotator | Developer Reference",
-    "keywords": "Class PlayerChaseRotator Inheritance Object PlayerRotatorBase PlayerChaseRotator Inherited Members PlayerRotatorBase.ControlHandler PlayerRotatorBase.Rotation Namespace : StormHawks.Runtime.Players.Movement.Chasing Assembly : cs.temp.dll.dll Syntax public class PlayerChaseRotator : PlayerRotatorBase Properties MovementConfig Declaration protected PlayerChaseMovementConfigSO MovementConfig { get; } Property Value Type Description PlayerChaseMovementConfigSO Methods Start() Declaration protected override void Start() Overrides PlayerRotatorBase.Start() UpdateRotation() Declaration protected override void UpdateRotation() Overrides PlayerRotatorBase.UpdateRotation()"
+    "keywords": "Class PlayerChaseRotator Inheritance Object PlayerRotatorBase PlayerChaseRotator Inherited Members PlayerRotatorBase.ControlHandler PlayerRotatorBase.Rotation Namespace : StormHawks.Runtime.Players.Movement.Chasing Assembly : cs.temp.dll.dll Syntax public class PlayerChaseRotator : PlayerRotatorBase Properties MovementConfig Declaration protected PlayerChaseMovementConfigSO MovementConfig { get; } Property Value Type Description PlayerChaseMovementConfigSO Methods OnPlayerRespawned(PlayerRespawnInfo) Declaration protected override void OnPlayerRespawned(PlayerRespawnInfo respawnInfo) Parameters Type Name Description PlayerRespawnInfo respawnInfo Overrides PlayerRotatorBase.OnPlayerRespawned(PlayerRespawnInfo) Start() Declaration protected override void Start() Overrides PlayerRotatorBase.Start() UpdateRotation() Declaration protected override void UpdateRotation() Overrides PlayerRotatorBase.UpdateRotation()"
   },
   "api/StormHawks.Runtime.Players.Movement.Flight.html": {
     "href": "api/StormHawks.Runtime.Players.Movement.Flight.html",
@@ -1527,12 +1592,12 @@
   "api/StormHawks.Runtime.Players.Movement.Flight.PlayerFlightMover.html": {
     "href": "api/StormHawks.Runtime.Players.Movement.Flight.PlayerFlightMover.html",
     "title": "Class PlayerFlightMover | Developer Reference",
-    "keywords": "Class PlayerFlightMover Inheritance Object PlayerMoverBase PlayerFlightMover Implements IPlayerMovement Inherited Members PlayerMoverBase.ControlHandler PlayerMoverBase.PlayerRigidbody PlayerMoverBase.Thrust PlayerMoverBase.Velocity Namespace : StormHawks.Runtime.Players.Movement.Flight Assembly : cs.temp.dll.dll Syntax public class PlayerFlightMover : PlayerMoverBase Properties MovementConfig Declaration protected PlayerMovementConfigSO MovementConfig { get; } Property Value Type Description PlayerMovementConfigSO Methods Initialize() Declaration protected override void Initialize() Overrides PlayerMoverBase.Initialize() UpdateThrust() Declaration protected override void UpdateThrust() Overrides PlayerMoverBase.UpdateThrust() UpdateVelocity() Declaration protected override void UpdateVelocity() Overrides PlayerMoverBase.UpdateVelocity() Implements IPlayerMovement"
+    "keywords": "Class PlayerFlightMover Inheritance Object PlayerMoverBase PlayerFlightMover Implements IPlayerMovement Inherited Members PlayerMoverBase.ControlHandler PlayerMoverBase.PlayerRigidbody PlayerMoverBase.Thrust PlayerMoverBase.Velocity PlayerMoverBase.ThrustSoundInstance Namespace : StormHawks.Runtime.Players.Movement.Flight Assembly : cs.temp.dll.dll Syntax public class PlayerFlightMover : PlayerMoverBase Properties MovementConfig Declaration protected PlayerMovementConfigSO MovementConfig { get; } Property Value Type Description PlayerMovementConfigSO Methods Initialize() Declaration protected override void Initialize() Overrides PlayerMoverBase.Initialize() UpdateThrust() Declaration protected override void UpdateThrust() Overrides PlayerMoverBase.UpdateThrust() UpdateVelocity() Declaration protected override void UpdateVelocity() Overrides PlayerMoverBase.UpdateVelocity() Implements IPlayerMovement"
   },
   "api/StormHawks.Runtime.Players.Movement.Flight.PlayerFlightRotator.html": {
     "href": "api/StormHawks.Runtime.Players.Movement.Flight.PlayerFlightRotator.html",
     "title": "Class PlayerFlightRotator | Developer Reference",
-    "keywords": "Class PlayerFlightRotator Inheritance Object PlayerRotatorBase PlayerFlightRotator Inherited Members PlayerRotatorBase.ControlHandler PlayerRotatorBase.Rotation Namespace : StormHawks.Runtime.Players.Movement.Flight Assembly : cs.temp.dll.dll Syntax public class PlayerFlightRotator : PlayerRotatorBase Properties MovementConfig Declaration protected PlayerMovementConfigSO MovementConfig { get; } Property Value Type Description PlayerMovementConfigSO Methods Start() Declaration protected override void Start() Overrides PlayerRotatorBase.Start() UpdateRotation() Declaration protected override void UpdateRotation() Overrides PlayerRotatorBase.UpdateRotation()"
+    "keywords": "Class PlayerFlightRotator Inheritance Object PlayerRotatorBase PlayerFlightRotator Inherited Members PlayerRotatorBase.ControlHandler PlayerRotatorBase.Rotation Namespace : StormHawks.Runtime.Players.Movement.Flight Assembly : cs.temp.dll.dll Syntax public class PlayerFlightRotator : PlayerRotatorBase Properties MovementConfig Declaration protected PlayerMovementConfigSO MovementConfig { get; } Property Value Type Description PlayerMovementConfigSO Methods OnPlayerRespawned(PlayerRespawnInfo) Declaration protected override void OnPlayerRespawned(PlayerRespawnInfo respawnInfo) Parameters Type Name Description PlayerRespawnInfo respawnInfo Overrides PlayerRotatorBase.OnPlayerRespawned(PlayerRespawnInfo) Start() Declaration protected override void Start() Overrides PlayerRotatorBase.Start() UpdateRotation() Declaration protected override void UpdateRotation() Overrides PlayerRotatorBase.UpdateRotation()"
   },
   "api/StormHawks.Runtime.Players.Movement.Flight.PlayerMovementConfigSO.html": {
     "href": "api/StormHawks.Runtime.Players.Movement.Flight.PlayerMovementConfigSO.html",
@@ -1547,22 +1612,37 @@
   "api/StormHawks.Runtime.Players.Movement.PlayerMoverBase.html": {
     "href": "api/StormHawks.Runtime.Players.Movement.PlayerMoverBase.html",
     "title": "Class PlayerMoverBase | Developer Reference",
-    "keywords": "Class PlayerMoverBase Inheritance Object PlayerMoverBase PlayerChaseMover PlayerFlightMover Implements IPlayerMovement Namespace : StormHawks.Runtime.Players.Movement Assembly : cs.temp.dll.dll Syntax public abstract class PlayerMoverBase : MonoBehaviour Properties ControlHandler Declaration protected PlayerControlHandler ControlHandler { get; } Property Value Type Description PlayerControlHandler PlayerRigidbody Declaration protected Rigidbody PlayerRigidbody { get; } Property Value Type Description Rigidbody Thrust Declaration public float Thrust { get; protected set; } Property Value Type Description Single Velocity Declaration public Vector3 Velocity { get; protected set; } Property Value Type Description Vector3 Methods Initialize() Declaration protected abstract void Initialize() UpdateThrust() Declaration protected abstract void UpdateThrust() UpdateVelocity() Declaration protected abstract void UpdateVelocity() Implements IPlayerMovement"
+    "keywords": "Class PlayerMoverBase Inheritance Object PlayerMoverBase PlayerChaseMover PlayerFlightMover Implements IPlayerMovement Namespace : StormHawks.Runtime.Players.Movement Assembly : cs.temp.dll.dll Syntax public abstract class PlayerMoverBase : MonoBehaviour Fields ThrustSoundInstance Declaration protected EventInstance ThrustSoundInstance Field Value Type Description EventInstance Properties ControlHandler Declaration protected PlayerControlHandler ControlHandler { get; } Property Value Type Description PlayerControlHandler PlayerRigidbody Declaration protected Rigidbody PlayerRigidbody { get; } Property Value Type Description Rigidbody Thrust Declaration public float Thrust { get; protected set; } Property Value Type Description Single Velocity Declaration public Vector3 Velocity { get; protected set; } Property Value Type Description Vector3 Methods Initialize() Declaration protected abstract void Initialize() UpdateThrust() Declaration protected abstract void UpdateThrust() UpdateVelocity() Declaration protected abstract void UpdateVelocity() Implements IPlayerMovement"
   },
   "api/StormHawks.Runtime.Players.Movement.PlayerRotatorBase.html": {
     "href": "api/StormHawks.Runtime.Players.Movement.PlayerRotatorBase.html",
     "title": "Class PlayerRotatorBase | Developer Reference",
-    "keywords": "Class PlayerRotatorBase Inheritance Object PlayerRotatorBase PlayerChaseRotator PlayerFlightRotator Namespace : StormHawks.Runtime.Players.Movement Assembly : cs.temp.dll.dll Syntax public abstract class PlayerRotatorBase : MonoBehaviour Fields Rotation Declaration protected Quaternion Rotation Field Value Type Description Quaternion Properties ControlHandler Declaration protected PlayerControlHandler ControlHandler { get; } Property Value Type Description PlayerControlHandler Methods Start() Declaration protected virtual void Start() UpdateRotation() Declaration protected abstract void UpdateRotation()"
+    "keywords": "Class PlayerRotatorBase Inheritance Object PlayerRotatorBase PlayerChaseRotator PlayerFlightRotator Namespace : StormHawks.Runtime.Players.Movement Assembly : cs.temp.dll.dll Syntax public abstract class PlayerRotatorBase : MonoBehaviour Fields Rotation Declaration protected Quaternion Rotation Field Value Type Description Quaternion Properties ControlHandler Declaration protected PlayerControlHandler ControlHandler { get; } Property Value Type Description PlayerControlHandler Methods OnPlayerRespawned(PlayerRespawnInfo) Declaration protected abstract void OnPlayerRespawned(PlayerRespawnInfo respawnInfo) Parameters Type Name Description PlayerRespawnInfo respawnInfo Start() Declaration protected virtual void Start() UpdateRotation() Declaration protected abstract void UpdateRotation()"
   },
   "api/StormHawks.Runtime.Players.PlayerContext.html": {
     "href": "api/StormHawks.Runtime.Players.PlayerContext.html",
     "title": "Class PlayerContext | Developer Reference",
-    "keywords": "Class PlayerContext Inheritance Object PlayerContext Namespace : StormHawks.Runtime.Players Assembly : cs.temp.dll.dll Syntax public class PlayerContext : ScriptableObject Properties Position Declaration public Vector3 Position { get; } Property Value Type Description Vector3 Rigidbody Declaration public Rigidbody Rigidbody { get; } Property Value Type Description Rigidbody Transform Declaration public Transform Transform { get; } Property Value Type Description Transform Velocity Declaration public Vector3 Velocity { get; } Property Value Type Description Vector3 Methods Initialize(Transform, Rigidbody) Declaration public void Initialize(Transform trs, Rigidbody rig) Parameters Type Name Description Transform trs Rigidbody rig"
+    "keywords": "Class PlayerContext Inheritance Object PlayerContext Namespace : StormHawks.Runtime.Players Assembly : cs.temp.dll.dll Syntax public class PlayerContext : ScriptableObject Properties Health Declaration public PlayerHealth Health { get; } Property Value Type Description PlayerHealth Position Declaration public Vector3 Position { get; } Property Value Type Description Vector3 Rigidbody Declaration public Rigidbody Rigidbody { get; } Property Value Type Description Rigidbody Transform Declaration public Transform Transform { get; } Property Value Type Description Transform Velocity Declaration public Vector3 Velocity { get; } Property Value Type Description Vector3 Methods Initialize(Transform, Rigidbody) Declaration public void Initialize(Transform trs, Rigidbody rig) Parameters Type Name Description Transform trs Rigidbody rig SetHealth(PlayerHealth) Declaration public void SetHealth(PlayerHealth health) Parameters Type Name Description PlayerHealth health"
   },
   "api/StormHawks.Runtime.Players.PlayerHealth.html": {
     "href": "api/StormHawks.Runtime.Players.PlayerHealth.html",
     "title": "Class PlayerHealth | Developer Reference",
     "keywords": "Class PlayerHealth Inheritance Object PlayerHealth Implements IHasHealth Namespace : StormHawks.Runtime.Players Assembly : cs.temp.dll.dll Syntax public class PlayerHealth : MonoBehaviour Properties CurrentHealth Declaration public float CurrentHealth { get; } Property Value Type Description Single HealthSO Declaration public EntityHealthSO HealthSO { get; set; } Property Value Type Description EntityHealthSO Methods TakeDamage(Vector3, Single) Declaration public void TakeDamage(Vector3 dir, float damage) Parameters Type Name Description Vector3 dir Single damage Implements IHasHealth"
+  },
+  "api/StormHawks.Runtime.Players.PlayerRespawnInfo.html": {
+    "href": "api/StormHawks.Runtime.Players.PlayerRespawnInfo.html",
+    "title": "Class PlayerRespawnInfo | Developer Reference",
+    "keywords": "Class PlayerRespawnInfo Inheritance Object PlayerRespawnInfo Namespace : StormHawks.Runtime.Players Assembly : cs.temp.dll.dll Syntax public class PlayerRespawnInfo Fields LookDirection Declaration public Vector3 LookDirection Field Value Type Description Vector3 RespawnPoint Declaration public Vector3 RespawnPoint Field Value Type Description Vector3"
+  },
+  "api/StormHawks.Runtime.Players.PlayerWingController.html": {
+    "href": "api/StormHawks.Runtime.Players.PlayerWingController.html",
+    "title": "Class PlayerWingController | Developer Reference",
+    "keywords": "Class PlayerWingController Inheritance Object PlayerWingController Namespace : StormHawks.Runtime.Players Assembly : cs.temp.dll.dll Syntax public class PlayerWingController : MonoBehaviour"
+  },
+  "api/StormHawks.Runtime.Players.SpeedLineHandler.html": {
+    "href": "api/StormHawks.Runtime.Players.SpeedLineHandler.html",
+    "title": "Class SpeedLineHandler | Developer Reference",
+    "keywords": "Class SpeedLineHandler Inheritance Object SpeedLineHandler Namespace : StormHawks.Runtime.Players Assembly : cs.temp.dll.dll Syntax public class SpeedLineHandler : MonoBehaviour"
   },
   "api/StormHawks.Runtime.Projectiles.html": {
     "href": "api/StormHawks.Runtime.Projectiles.html",
@@ -1672,12 +1752,22 @@
   "api/StormHawks.Runtime.Scenes.TransitionFader.html": {
     "href": "api/StormHawks.Runtime.Scenes.TransitionFader.html",
     "title": "Class TransitionFader | Developer Reference",
-    "keywords": "Class TransitionFader Inheritance Object TransitionFader Namespace : StormHawks.Runtime.Scenes Assembly : cs.temp.dll.dll Syntax public class TransitionFader : MonoBehaviour Methods FadeIn() Declaration public async UniTask FadeIn() Returns Type Description UniTask FadeOut() Declaration public async UniTask FadeOut() Returns Type Description UniTask"
+    "keywords": "Class TransitionFader Inheritance Object TransitionFader Namespace : StormHawks.Runtime.Scenes Assembly : cs.temp.dll.dll Syntax public class TransitionFader : MonoBehaviour Methods FadeIn() Declaration public async UniTask FadeIn() Returns Type Description UniTask FadeIn(Single) Declaration public async UniTask FadeIn(float duration) Parameters Type Name Description Single duration Returns Type Description UniTask FadeOut() Declaration public async UniTask FadeOut() Returns Type Description UniTask FadeOut(Single) Declaration public async UniTask FadeOut(float duration) Parameters Type Name Description Single duration Returns Type Description UniTask"
   },
   "api/StormHawks.Runtime.Scenes.TutorialGameSceneContexts.html": {
     "href": "api/StormHawks.Runtime.Scenes.TutorialGameSceneContexts.html",
     "title": "Class TutorialGameSceneContexts | Developer Reference",
     "keywords": "Class TutorialGameSceneContexts Inheritance Object GameSceneContexts TutorialGameSceneContexts Inherited Members GameSceneContexts.LoadMode GameSceneContexts.OnLoad() GameSceneContexts.OnUnload() Namespace : StormHawks.Runtime.Scenes Assembly : cs.temp.dll.dll Syntax public class TutorialGameSceneContexts : GameSceneContexts Methods GetSceneAddress() Declaration public override string GetSceneAddress() Returns Type Description String Overrides GameSceneContexts.GetSceneAddress()"
+  },
+  "api/StormHawks.Runtime.Sounds.html": {
+    "href": "api/StormHawks.Runtime.Sounds.html",
+    "title": "Namespace StormHawks.Runtime.Sounds | Developer Reference",
+    "keywords": "Namespace StormHawks.Runtime.Sounds Classes SoundEvent"
+  },
+  "api/StormHawks.Runtime.Sounds.SoundEvent.html": {
+    "href": "api/StormHawks.Runtime.Sounds.SoundEvent.html",
+    "title": "Class SoundEvent | Developer Reference",
+    "keywords": "Class SoundEvent Inheritance Object SoundEvent Namespace : StormHawks.Runtime.Sounds Assembly : cs.temp.dll.dll Syntax public class SoundEvent : MonoBehaviour Methods Play(Transform) Declaration public void Play(Transform target = null) Parameters Type Name Description Transform target PlayOneShot(EventReference, GameObject) Declaration public static void PlayOneShot(EventReference eventReference, GameObject target) Parameters Type Name Description EventReference eventReference GameObject target PlayOneShot(String, GameObject) Declaration public static void PlayOneShot(string path, GameObject target) Parameters Type Name Description String path GameObject target SetParameter(String, Single) Declaration public void SetParameter(string id, float value) Parameters Type Name Description String id Single value SetParameter(String, String) Declaration public void SetParameter(string id, string value) Parameters Type Name Description String id String value Stop(STOP_MODE) Declaration public void Stop(STOP_MODE mode = null) Parameters Type Name Description STOP_MODE mode Events OnPlay Declaration public event Action OnPlay Event Type Type Description Action OnStop Declaration public event Action OnStop Event Type Type Description Action"
   },
   "api/StormHawks.Runtime.UI.html": {
     "href": "api/StormHawks.Runtime.UI.html",
@@ -1729,6 +1819,16 @@
     "title": "Class BossEntityKey | Developer Reference",
     "keywords": "Class BossEntityKey Inheritance Object BossEntityKey Namespace : StormHawks.Runtime.Utilities.BehaviorTree Assembly : cs.temp.dll.dll Syntax [Serializable] public class BossEntityKey : BlackboardKey<BossEntity>"
   },
+  "api/StormHawks.Runtime.Utilities.BehaviorTree.BossLaserWeaponSetKey.html": {
+    "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.BossLaserWeaponSetKey.html",
+    "title": "Class BossLaserWeaponSetKey | Developer Reference",
+    "keywords": "Class BossLaserWeaponSetKey Inheritance Object BossLaserWeaponSetKey Namespace : StormHawks.Runtime.Utilities.BehaviorTree Assembly : cs.temp.dll.dll Syntax [Serializable] public class BossLaserWeaponSetKey : BlackboardKey<BossLaserWeaponSet>"
+  },
+  "api/StormHawks.Runtime.Utilities.BehaviorTree.BossRibcageAreaKey.html": {
+    "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.BossRibcageAreaKey.html",
+    "title": "Class BossRibcageAreaKey | Developer Reference",
+    "keywords": "Class BossRibcageAreaKey Inheritance Object BossRibcageAreaKey Namespace : StormHawks.Runtime.Utilities.BehaviorTree Assembly : cs.temp.dll.dll Syntax [Serializable] public class BossRibcageAreaKey : BlackboardKey<BossRibcageArea>"
+  },
   "api/StormHawks.Runtime.Utilities.BehaviorTree.EnemyGroupControllerKey.html": {
     "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.EnemyGroupControllerKey.html",
     "title": "Class EnemyGroupControllerKey | Developer Reference",
@@ -1764,10 +1864,20 @@
     "title": "Class EntityProjectileWeaponKey | Developer Reference",
     "keywords": "Class EntityProjectileWeaponKey Inheritance Object EntityProjectileWeaponKey Namespace : StormHawks.Runtime.Utilities.BehaviorTree Assembly : cs.temp.dll.dll Syntax [Serializable] public class EntityProjectileWeaponKey : BlackboardKey<EntityProjectileWeapon>"
   },
+  "api/StormHawks.Runtime.Utilities.BehaviorTree.FieldOfViewDetectorKey.html": {
+    "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.FieldOfViewDetectorKey.html",
+    "title": "Class FieldOfViewDetectorKey | Developer Reference",
+    "keywords": "Class FieldOfViewDetectorKey Inheritance Object FieldOfViewDetectorKey Namespace : StormHawks.Runtime.Utilities.BehaviorTree Assembly : cs.temp.dll.dll Syntax [Serializable] public class FieldOfViewDetectorKey : BlackboardKey<FieldOfViewDetector>"
+  },
   "api/StormHawks.Runtime.Utilities.BehaviorTree.html": {
     "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.html",
     "title": "Namespace StormHawks.Runtime.Utilities.BehaviorTree | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Utilities.BehaviorTree Classes BossEntityKey EnemyGroupControllerKey EnemyGroupKey EnemyPortalSpawnerKey EnemySpawnerKey EntityFenceWeaponKey EntityLaserWeaponKey EntityProjectileWeaponKey OuterGridKey ParticleSystemKey PartSpawnerKey"
+    "keywords": "Namespace StormHawks.Runtime.Utilities.BehaviorTree Classes BossEntityKey BossLaserWeaponSetKey BossRibcageAreaKey EnemyGroupControllerKey EnemyGroupKey EnemyPortalSpawnerKey EnemySpawnerKey EntityFenceWeaponKey EntityLaserWeaponKey EntityProjectileWeaponKey FieldOfViewDetectorKey OuterGridKey ParticleSystemKey PartSpawnerKey PlayableAreaKey"
+  },
+  "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.AlwaysFailure.html": {
+    "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.AlwaysFailure.html",
+    "title": "Class AlwaysFailure | Developer Reference",
+    "keywords": "Class AlwaysFailure Inheritance Object AlwaysFailure Namespace : StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions Assembly : cs.temp.dll.dll Syntax [Serializable] public class AlwaysFailure : ActionNode Methods OnRun() Declaration protected override BehaviorNodeState OnRun() Returns Type Description BehaviorNodeState"
   },
   "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.ArriveAction.html": {
     "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.ArriveAction.html",
@@ -1794,10 +1904,20 @@
     "title": "Class BladeLaserToPlayer | Developer Reference",
     "keywords": "Class BladeLaserToPlayer Inheritance Object EntityActionNode BladeLaserToPlayer Inherited Members EntityActionNode._rotator EntityActionNode._runnerTransform EntityActionNode.OnInitialize() Namespace : StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions Assembly : cs.temp.dll.dll Syntax [Serializable] public class BladeLaserToPlayer : EntityActionNode Methods Abort() Declaration public override void Abort() OnEnter() Declaration protected override void OnEnter() OnExit() Declaration protected override void OnExit() OnRun() Declaration protected override BehaviorNodeState OnRun() Returns Type Description BehaviorNodeState"
   },
+  "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossFlushBody.html": {
+    "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossFlushBody.html",
+    "title": "Class BossFlushBody | Developer Reference",
+    "keywords": "Class BossFlushBody Inheritance Object BossFlushBody Namespace : StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions Assembly : cs.temp.dll.dll Syntax [Serializable] public class BossFlushBody : ActionNode Methods OnEnter() Declaration protected override void OnEnter() OnRun() Declaration protected override BehaviorNodeState OnRun() Returns Type Description BehaviorNodeState"
+  },
+  "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossMove.html": {
+    "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossMove.html",
+    "title": "Class BossMove | Developer Reference",
+    "keywords": "Class BossMove Inheritance Object EntityActionNode BossMove Inherited Members EntityActionNode._rotator EntityActionNode._runnerTransform EntityActionNode.OnInitialize() Namespace : StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions Assembly : cs.temp.dll.dll Syntax [Serializable] public class BossMove : EntityActionNode Methods OnEnter() Declaration protected override void OnEnter() OnExit() Declaration protected override void OnExit() OnRun() Declaration protected override BehaviorNodeState OnRun() Returns Type Description BehaviorNodeState"
+  },
   "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossRush.html": {
     "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossRush.html",
     "title": "Class BossRush | Developer Reference",
-    "keywords": "Class BossRush Inheritance Object EntityActionNode EntitySteerActionNode BossRush Inherited Members EntitySteerActionNode._entity EntitySteerActionNode._rigidbody EntitySteerActionNode.Initialize(BehaviorTreeRunner) EntityActionNode._rotator EntityActionNode._runnerTransform EntityActionNode.OnInitialize() Namespace : StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions Assembly : cs.temp.dll.dll Syntax [Serializable] public class BossRush : EntitySteerActionNode Methods OnEnter() Declaration protected override void OnEnter() OnRun() Declaration protected override BehaviorNodeState OnRun() Returns Type Description BehaviorNodeState"
+    "keywords": "Class BossRush Inheritance Object EntityActionNode EntitySteerActionNode BossRush Inherited Members EntitySteerActionNode._entity EntitySteerActionNode._rigidbody EntitySteerActionNode.Initialize(BehaviorTreeRunner) EntityActionNode._rotator EntityActionNode._runnerTransform EntityActionNode.OnInitialize() Namespace : StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions Assembly : cs.temp.dll.dll Syntax [Serializable] public class BossRush : EntitySteerActionNode Methods OnEnter() Declaration protected override void OnEnter() OnExit() Declaration protected override void OnExit() OnRun() Declaration protected override BehaviorNodeState OnRun() Returns Type Description BehaviorNodeState"
   },
   "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.DespawnEnemies.html": {
     "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.DespawnEnemies.html",
@@ -1809,6 +1929,11 @@
     "title": "Class DestroyAllParts | Developer Reference",
     "keywords": "Class DestroyAllParts Inheritance Object DestroyAllParts Namespace : StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions Assembly : cs.temp.dll.dll Syntax [Serializable] public class DestroyAllParts : ActionNode Methods OnRun() Declaration protected override BehaviorNodeState OnRun() Returns Type Description BehaviorNodeState"
   },
+  "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EnablePlayableArea.html": {
+    "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EnablePlayableArea.html",
+    "title": "Class EnablePlayableArea | Developer Reference",
+    "keywords": "Class EnablePlayableArea Inheritance Object EnablePlayableArea Namespace : StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions Assembly : cs.temp.dll.dll Syntax [Serializable] public class EnablePlayableArea : ActionNode Methods OnRun() Declaration protected override BehaviorNodeState OnRun() Returns Type Description BehaviorNodeState"
+  },
   "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EnemyGroupInterfereWithPlayer.html": {
     "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EnemyGroupInterfereWithPlayer.html",
     "title": "Class EnemyGroupInterfereWithPlayer | Developer Reference",
@@ -1817,7 +1942,7 @@
   "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EntityActionNode.html": {
     "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EntityActionNode.html",
     "title": "Class EntityActionNode | Developer Reference",
-    "keywords": "Class EntityActionNode Entity가 사용할 기본 ActionNode Inheritance Object EntityActionNode BladeLaser BladeLaserToPlayer EntitySteerActionNode FireAutomaticShotNode FireBulletToVirtualTarget FireFenceNode FireHomingMissileNode FireHomingMissileToPlayer FireInterruptedShotNode FireLaserToTargetNode FireLaserToVirtualTarget FirePredictLaserNode FirePredictShotNode LookAt LookAtPlayer PlayEntityAnimation Namespace : StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions Assembly : cs.temp.dll.dll Syntax [Serializable] public abstract class EntityActionNode : ActionNode Fields _rotator Declaration protected IRotator _rotator Field Value Type Description IRotator _runnerTransform Declaration protected Transform _runnerTransform Field Value Type Description Transform Methods OnInitialize() Declaration protected override void OnInitialize()"
+    "keywords": "Class EntityActionNode Entity가 사용할 기본 ActionNode Inheritance Object EntityActionNode BladeLaser BladeLaserToPlayer BossMove EntitySteerActionNode FireAutomaticShotNode FireBulletToVirtualTarget FireFenceNode FireHomingMissileNode FireHomingMissileToPlayer FireInterruptedShotNode FireLaserToPlayer FireLaserToTargetNode FireLaserToVirtualTarget FireMissileClockwise FirePredictLaserNode FirePredictShotNode LookAt LookAtPlayer PlayEntityAnimation Namespace : StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions Assembly : cs.temp.dll.dll Syntax [Serializable] public abstract class EntityActionNode : ActionNode Fields _rotator Declaration protected IRotator _rotator Field Value Type Description IRotator _runnerTransform Declaration protected Transform _runnerTransform Field Value Type Description Transform Methods OnInitialize() Declaration protected override void OnInitialize()"
   },
   "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EntitySteerActionNode.html": {
     "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EntitySteerActionNode.html",
@@ -1828,6 +1953,11 @@
     "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.FireAutomaticShotNode.html",
     "title": "Class FireAutomaticShotNode | Developer Reference",
     "keywords": "Class FireAutomaticShotNode Inheritance Object EntityActionNode FireAutomaticShotNode Inherited Members EntityActionNode._rotator EntityActionNode._runnerTransform EntityActionNode.OnInitialize() Namespace : StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions Assembly : cs.temp.dll.dll Syntax [Serializable] public class FireAutomaticShotNode : EntityActionNode Methods Abort() Declaration public override void Abort() OnEnter() Declaration protected override void OnEnter() OnRun() Declaration protected override BehaviorNodeState OnRun() Returns Type Description BehaviorNodeState"
+  },
+  "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.FireBossLaserWeapons.html": {
+    "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.FireBossLaserWeapons.html",
+    "title": "Class FireBossLaserWeapons | Developer Reference",
+    "keywords": "Class FireBossLaserWeapons Inheritance Object FireBossLaserWeapons Namespace : StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions Assembly : cs.temp.dll.dll Syntax [Serializable] public class FireBossLaserWeapons : ActionNode Methods OnEnter() Declaration protected override void OnEnter() OnRun() Declaration protected override BehaviorNodeState OnRun() Returns Type Description BehaviorNodeState"
   },
   "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.FireBulletToVirtualTarget.html": {
     "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.FireBulletToVirtualTarget.html",
@@ -1854,6 +1984,11 @@
     "title": "Class FireInterruptedShotNode | Developer Reference",
     "keywords": "Class FireInterruptedShotNode Inheritance Object EntityActionNode FireInterruptedShotNode Inherited Members EntityActionNode._rotator EntityActionNode._runnerTransform EntityActionNode.OnInitialize() Namespace : StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions Assembly : cs.temp.dll.dll Syntax [Serializable] public class FireInterruptedShotNode : EntityActionNode Methods OnEnter() Declaration protected override void OnEnter() OnRun() Declaration protected override BehaviorNodeState OnRun() Returns Type Description BehaviorNodeState"
   },
+  "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.FireLaserToPlayer.html": {
+    "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.FireLaserToPlayer.html",
+    "title": "Class FireLaserToPlayer | Developer Reference",
+    "keywords": "Class FireLaserToPlayer Inheritance Object EntityActionNode FireLaserToPlayer Inherited Members EntityActionNode._rotator EntityActionNode._runnerTransform EntityActionNode.OnInitialize() Namespace : StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions Assembly : cs.temp.dll.dll Syntax [Serializable] public class FireLaserToPlayer : EntityActionNode Methods OnEnter() Declaration protected override void OnEnter() OnRun() Declaration protected override BehaviorNodeState OnRun() Returns Type Description BehaviorNodeState"
+  },
   "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.FireLaserToTargetNode.html": {
     "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.FireLaserToTargetNode.html",
     "title": "Class FireLaserToTargetNode | Developer Reference",
@@ -1863,6 +1998,11 @@
     "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.FireLaserToVirtualTarget.html",
     "title": "Class FireLaserToVirtualTarget | Developer Reference",
     "keywords": "Class FireLaserToVirtualTarget Inheritance Object EntityActionNode FireLaserToVirtualTarget Inherited Members EntityActionNode._rotator EntityActionNode._runnerTransform EntityActionNode.OnInitialize() Namespace : StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions Assembly : cs.temp.dll.dll Syntax [Serializable] public class FireLaserToVirtualTarget : EntityActionNode Methods Abort() Declaration public override void Abort() OnEnter() Declaration protected override void OnEnter() OnExit() Declaration protected override void OnExit() OnRun() Declaration protected override BehaviorNodeState OnRun() Returns Type Description BehaviorNodeState"
+  },
+  "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.FireMissileClockwise.html": {
+    "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.FireMissileClockwise.html",
+    "title": "Class FireMissileClockwise | Developer Reference",
+    "keywords": "Class FireMissileClockwise Inheritance Object EntityActionNode FireMissileClockwise Inherited Members EntityActionNode._rotator EntityActionNode._runnerTransform EntityActionNode.OnInitialize() Namespace : StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions Assembly : cs.temp.dll.dll Syntax [Serializable] public class FireMissileClockwise : EntityActionNode Methods OnEnter() Declaration protected override void OnEnter() OnRun() Declaration protected override BehaviorNodeState OnRun() Returns Type Description BehaviorNodeState"
   },
   "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.FirePredictLaserNode.html": {
     "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.FirePredictLaserNode.html",
@@ -1897,12 +2037,17 @@
   "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.html": {
     "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.html",
     "title": "Namespace StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions Classes ArriveAction 특정 목표 지점까지 Arrive하는 액션 Slowdown범위 안에 들어오면 속도를 점점 줄이고, Stop범위까지 들어오게 된다면, 멈춤. AvoidEntityAction AvoidObstacleAction BladeLaser BladeLaserToPlayer BossRush DespawnEnemies DestroyAllParts EnemyGroupInterfereWithPlayer EntityActionNode Entity가 사용할 기본 ActionNode EntitySteerActionNode FireAutomaticShotNode FireBulletToVirtualTarget FireFenceNode FireHomingMissileNode FireHomingMissileToPlayer FireInterruptedShotNode FireLaserToTargetNode FireLaserToVirtualTarget FirePredictLaserNode FirePredictShotNode FlashToPlayer FleeFromBoss 특정 타겟으로부터 도망침. FlockingAction FollowToPlayer IncrementFloatProperty LookAt LookAtPlayer LookAtPlayerYAxis MoveDirection MoveForwardNode MoveToBossAction PlayEntityAnimation PlayParticle ReleaseAggressive RequireEnemyGroup RotateNode ScaleNode SeekAction InterctionTargetType를 향해 이동함. SeekToPlayer SelectEnemyGroupInPlayerFOV SelectMainSlavePart SelectRandomGroup SetAggroTarget Aggro를 할 타겟을 설정함. SetAggroTargetInEnemyGroup SetAggroTargetToPlayer SetBoolProperty SetBossPhaseState SetFloatProperty SpawnEliteEnemies SpawnEnemyGroups SpawnParts UpdateEnemySpawnPortalPosition UpdatePathWayPoints WanderNode 랜덤한 위치로 이동함."
+    "keywords": "Namespace StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions Classes AlwaysFailure ArriveAction 특정 목표 지점까지 Arrive하는 액션 Slowdown범위 안에 들어오면 속도를 점점 줄이고, Stop범위까지 들어오게 된다면, 멈춤. AvoidEntityAction AvoidObstacleAction BladeLaser BladeLaserToPlayer BossFlushBody BossMove BossRush DespawnEnemies DestroyAllParts EnablePlayableArea EnemyGroupInterfereWithPlayer EntityActionNode Entity가 사용할 기본 ActionNode EntitySteerActionNode FireAutomaticShotNode FireBossLaserWeapons FireBulletToVirtualTarget FireFenceNode FireHomingMissileNode FireHomingMissileToPlayer FireInterruptedShotNode FireLaserToPlayer FireLaserToTargetNode FireLaserToVirtualTarget FireMissileClockwise FirePredictLaserNode FirePredictShotNode FlashToPlayer FleeFromBoss 특정 타겟으로부터 도망침. FlockingAction FollowToPlayer IncrementFloatProperty IncrementIntProperty LookAt LookAtPlayer LookAtPlayerYAxis MissileBarrage MoveDirection MoveForwardNode MoveToBossAction PlayEntityAnimation PlayParticle ReleaseAggressive RequireEnemyGroup RotateNode ScaleNode SeekAction InterctionTargetType를 향해 이동함. SeekToPlayer SelectEnemyGroupInPlayerFOV SelectMainSlavePart SelectRandomGroup SetAggroTarget Aggro를 할 타겟을 설정함. SetAggroTargetInEnemyGroup SetAggroTargetToPlayer SetBoolProperty SetBossPhaseState SetFloatProperty SetIntProperty SetTimeToCurrentTime SpawnEliteEnemies SpawnEnemyGroups SpawnParts UpdateEnemySpawnPortalPosition UpdatePathWayPoints WanderNode 랜덤한 위치로 이동함."
   },
   "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.IncrementFloatProperty.html": {
     "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.IncrementFloatProperty.html",
     "title": "Class IncrementFloatProperty | Developer Reference",
     "keywords": "Class IncrementFloatProperty Inheritance Object IncrementFloatProperty Namespace : StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions Assembly : cs.temp.dll.dll Syntax [Serializable] public class IncrementFloatProperty : ActionNode Methods OnRun() Declaration protected override BehaviorNodeState OnRun() Returns Type Description BehaviorNodeState"
+  },
+  "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.IncrementIntProperty.html": {
+    "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.IncrementIntProperty.html",
+    "title": "Class IncrementIntProperty | Developer Reference",
+    "keywords": "Class IncrementIntProperty Inheritance Object IncrementIntProperty Namespace : StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions Assembly : cs.temp.dll.dll Syntax [Serializable] public class IncrementIntProperty : ActionNode Methods OnRun() Declaration protected override BehaviorNodeState OnRun() Returns Type Description BehaviorNodeState"
   },
   "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.LookAt.html": {
     "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.LookAt.html",
@@ -1918,6 +2063,11 @@
     "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.LookAtPlayerYAxis.html",
     "title": "Class LookAtPlayerYAxis | Developer Reference",
     "keywords": "Class LookAtPlayerYAxis Inheritance Object LookAtPlayerYAxis Namespace : StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions Assembly : cs.temp.dll.dll Syntax [Serializable] public class LookAtPlayerYAxis : ActionNode Methods OnEnter() Declaration protected override void OnEnter() OnRun() Declaration protected override BehaviorNodeState OnRun() Returns Type Description BehaviorNodeState"
+  },
+  "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.MissileBarrage.html": {
+    "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.MissileBarrage.html",
+    "title": "Class MissileBarrage | Developer Reference",
+    "keywords": "Class MissileBarrage Inheritance Object MissileBarrage Namespace : StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions Assembly : cs.temp.dll.dll Syntax [Serializable] public class MissileBarrage : ActionNode Methods OnEnter() Declaration protected override void OnEnter() OnRun() Declaration protected override BehaviorNodeState OnRun() Returns Type Description BehaviorNodeState"
   },
   "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.MoveDirection.html": {
     "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.MoveDirection.html",
@@ -2019,6 +2169,16 @@
     "title": "Class SetFloatProperty | Developer Reference",
     "keywords": "Class SetFloatProperty Inheritance Object SetFloatProperty Namespace : StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions Assembly : cs.temp.dll.dll Syntax [Serializable] public class SetFloatProperty : ActionNode Methods OnRun() Declaration protected override BehaviorNodeState OnRun() Returns Type Description BehaviorNodeState"
   },
+  "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SetIntProperty.html": {
+    "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SetIntProperty.html",
+    "title": "Class SetIntProperty | Developer Reference",
+    "keywords": "Class SetIntProperty Inheritance Object SetIntProperty Namespace : StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions Assembly : cs.temp.dll.dll Syntax [Serializable] public class SetIntProperty : ActionNode Methods OnRun() Declaration protected override BehaviorNodeState OnRun() Returns Type Description BehaviorNodeState"
+  },
+  "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SetTimeToCurrentTime.html": {
+    "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SetTimeToCurrentTime.html",
+    "title": "Class SetTimeToCurrentTime | Developer Reference",
+    "keywords": "Class SetTimeToCurrentTime Inheritance Object SetTimeToCurrentTime Namespace : StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions Assembly : cs.temp.dll.dll Syntax [Serializable] public class SetTimeToCurrentTime : ActionNode Methods OnRun() Declaration protected override BehaviorNodeState OnRun() Returns Type Description BehaviorNodeState"
+  },
   "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SpawnEliteEnemies.html": {
     "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SpawnEliteEnemies.html",
     "title": "Class SpawnEliteEnemies | Developer Reference",
@@ -2067,7 +2227,7 @@
   "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.CanSeePlayer.html": {
     "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.CanSeePlayer.html",
     "title": "Class CanSeePlayer | Developer Reference",
-    "keywords": "Class CanSeePlayer Player가 시야(IDetectHandler의 의해 정해짐) 안에 들어오게 된다면, Blackboard에 Player의 GameObject를 설정함. Inheritance Object CanSeePlayer Namespace : StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals Assembly : cs.temp.dll.dll Syntax [Serializable] public class CanSeePlayer : ConditionalNode Methods Condition() Declaration protected override bool Condition() Returns Type Description Boolean OnEnter() Declaration protected override void OnEnter()"
+    "keywords": "Class CanSeePlayer Player가 시야(IDetectHandler의 의해 정해짐) 안에 들어오게 된다면, Blackboard에 Player의 GameObject를 설정함. Inheritance Object CanSeePlayer Namespace : StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals Assembly : cs.temp.dll.dll Syntax [Serializable] public class CanSeePlayer : ConditionalNode Methods Condition() Declaration protected override bool Condition() Returns Type Description Boolean"
   },
   "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.CompareAngleFromForward.html": {
     "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.CompareAngleFromForward.html",
@@ -2099,6 +2259,11 @@
     "title": "Class GetBoolProperty | Developer Reference",
     "keywords": "Class GetBoolProperty Inheritance Object GetBoolProperty Namespace : StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals Assembly : cs.temp.dll.dll Syntax [Serializable] public class GetBoolProperty : ConditionalNode Methods Condition() Declaration protected override bool Condition() Returns Type Description Boolean"
   },
+  "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.GetBoolPropertyByKey.html": {
+    "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.GetBoolPropertyByKey.html",
+    "title": "Class GetBoolPropertyByKey | Developer Reference",
+    "keywords": "Class GetBoolPropertyByKey Inheritance Object GetBoolPropertyByKey Namespace : StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals Assembly : cs.temp.dll.dll Syntax [Serializable] public class GetBoolPropertyByKey : ConditionalNode Methods Condition() Declaration protected override bool Condition() Returns Type Description Boolean"
+  },
   "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.HasActiveEnemyGroup.html": {
     "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.HasActiveEnemyGroup.html",
     "title": "Class HasActiveEnemyGroup | Developer Reference",
@@ -2117,7 +2282,7 @@
   "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.html": {
     "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.html",
     "title": "Namespace StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals Classes CanBecomeAggressiveEnemyGroup CanSeeEnemy CanSeeEnemyInEnemyGroup CanSeePlayer Player가 시야(IDetectHandler의 의해 정해짐) 안에 들어오게 된다면, Blackboard에 Player의 GameObject를 설정함. CompareAngleFromForward CompareDistance 타겟과의 거리를 비교함 CompareHealth 체력을 비교함 ComparePlayerDistance EqualsInt GetBoolProperty HasActiveEnemyGroup HasAggroTargetGroup HasSelectedEnemyGroup IsAggressive Aggro상태인지 확인 IsAggressiveEnemyGroup IsFiring IsFled IsFollowing IsGuarding IsInEntityGroup IsLessThan IsNotAggressive IsOverTime IsPhaseEnded IsReturning"
+    "keywords": "Namespace StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals Classes CanBecomeAggressiveEnemyGroup CanSeeEnemy CanSeeEnemyInEnemyGroup CanSeePlayer Player가 시야(IDetectHandler의 의해 정해짐) 안에 들어오게 된다면, Blackboard에 Player의 GameObject를 설정함. CompareAngleFromForward CompareDistance 타겟과의 거리를 비교함 CompareHealth 체력을 비교함 ComparePlayerDistance EqualsInt GetBoolProperty GetBoolPropertyByKey HasActiveEnemyGroup HasAggroTargetGroup HasSelectedEnemyGroup IsAggressive Aggro상태인지 확인 IsAggressiveEnemyGroup IsAnimationPlaying IsEnabledPlayableArea IsFiring IsFled IsFollowing IsGreaterThanInt IsGreaterThanTime IsGreaterThanTimeByKey IsGuarding IsInEntityGroup IsInsideBossRibcageArea IsLessThan IsLessThanInt IsLessThanTime IsNotAggressive IsOverTime IsOverTimeByKey IsPhaseEnded IsPlayerInsidePlayableArea IsReturning NotEqualsBossPhaseState"
   },
   "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsAggressive.html": {
     "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsAggressive.html",
@@ -2128,6 +2293,16 @@
     "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsAggressiveEnemyGroup.html",
     "title": "Class IsAggressiveEnemyGroup | Developer Reference",
     "keywords": "Class IsAggressiveEnemyGroup Inheritance Object IsAggressiveEnemyGroup Namespace : StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals Assembly : cs.temp.dll.dll Syntax [Serializable] public class IsAggressiveEnemyGroup : ConditionalNode Methods Condition() Declaration protected override bool Condition() Returns Type Description Boolean"
+  },
+  "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsAnimationPlaying.html": {
+    "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsAnimationPlaying.html",
+    "title": "Class IsAnimationPlaying | Developer Reference",
+    "keywords": "Class IsAnimationPlaying Inheritance Object IsAnimationPlaying Namespace : StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals Assembly : cs.temp.dll.dll Syntax [Serializable] public class IsAnimationPlaying : ConditionalNode Methods Condition() Declaration protected override bool Condition() Returns Type Description Boolean OnEnter() Declaration protected override void OnEnter()"
+  },
+  "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsEnabledPlayableArea.html": {
+    "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsEnabledPlayableArea.html",
+    "title": "Class IsEnabledPlayableArea | Developer Reference",
+    "keywords": "Class IsEnabledPlayableArea Inheritance Object IsEnabledPlayableArea Namespace : StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals Assembly : cs.temp.dll.dll Syntax [Serializable] public class IsEnabledPlayableArea : ConditionalNode Methods Condition() Declaration protected override bool Condition() Returns Type Description Boolean"
   },
   "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsFiring.html": {
     "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsFiring.html",
@@ -2144,6 +2319,21 @@
     "title": "Class IsFollowing | Developer Reference",
     "keywords": "Class IsFollowing Inheritance Object IsFollowing Namespace : StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals Assembly : cs.temp.dll.dll Syntax [Serializable] public class IsFollowing : ConditionalNode Methods Condition() Declaration protected override bool Condition() Returns Type Description Boolean OnEnter() Declaration protected override void OnEnter()"
   },
+  "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsGreaterThanInt.html": {
+    "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsGreaterThanInt.html",
+    "title": "Class IsGreaterThanInt | Developer Reference",
+    "keywords": "Class IsGreaterThanInt Inheritance Object IsGreaterThanInt Namespace : StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals Assembly : cs.temp.dll.dll Syntax [Serializable] public class IsGreaterThanInt : ConditionalNode Methods Condition() Declaration protected override bool Condition() Returns Type Description Boolean"
+  },
+  "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsGreaterThanTime.html": {
+    "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsGreaterThanTime.html",
+    "title": "Class IsGreaterThanTime | Developer Reference",
+    "keywords": "Class IsGreaterThanTime Inheritance Object IsGreaterThanTime Namespace : StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals Assembly : cs.temp.dll.dll Syntax [Serializable] public class IsGreaterThanTime : ConditionalNode Methods Condition() Declaration protected override bool Condition() Returns Type Description Boolean"
+  },
+  "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsGreaterThanTimeByKey.html": {
+    "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsGreaterThanTimeByKey.html",
+    "title": "Class IsGreaterThanTimeByKey | Developer Reference",
+    "keywords": "Class IsGreaterThanTimeByKey Inheritance Object IsGreaterThanTimeByKey Namespace : StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals Assembly : cs.temp.dll.dll Syntax [Serializable] public class IsGreaterThanTimeByKey : ConditionalNode Methods Condition() Declaration protected override bool Condition() Returns Type Description Boolean"
+  },
   "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsGuarding.html": {
     "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsGuarding.html",
     "title": "Class IsGuarding | Developer Reference",
@@ -2154,10 +2344,25 @@
     "title": "Class IsInEntityGroup | Developer Reference",
     "keywords": "Class IsInEntityGroup Inheritance Object IsInEntityGroup Namespace : StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals Assembly : cs.temp.dll.dll Syntax [Serializable] public class IsInEntityGroup : ConditionalNode Methods Condition() Declaration protected override bool Condition() Returns Type Description Boolean OnEnter() Declaration protected override void OnEnter()"
   },
+  "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsInsideBossRibcageArea.html": {
+    "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsInsideBossRibcageArea.html",
+    "title": "Class IsInsideBossRibcageArea | Developer Reference",
+    "keywords": "Class IsInsideBossRibcageArea Inheritance Object IsInsideBossRibcageArea Namespace : StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals Assembly : cs.temp.dll.dll Syntax [Serializable] public class IsInsideBossRibcageArea : ConditionalNode Methods Condition() Declaration protected override bool Condition() Returns Type Description Boolean"
+  },
   "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsLessThan.html": {
     "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsLessThan.html",
     "title": "Class IsLessThan | Developer Reference",
     "keywords": "Class IsLessThan Inheritance Object IsLessThan Namespace : StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals Assembly : cs.temp.dll.dll Syntax [Serializable] public class IsLessThan : ConditionalNode Methods Condition() Declaration protected override bool Condition() Returns Type Description Boolean"
+  },
+  "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsLessThanInt.html": {
+    "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsLessThanInt.html",
+    "title": "Class IsLessThanInt | Developer Reference",
+    "keywords": "Class IsLessThanInt Inheritance Object IsLessThanInt Namespace : StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals Assembly : cs.temp.dll.dll Syntax public class IsLessThanInt : ConditionalNode Methods Condition() Declaration protected override bool Condition() Returns Type Description Boolean"
+  },
+  "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsLessThanTime.html": {
+    "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsLessThanTime.html",
+    "title": "Class IsLessThanTime | Developer Reference",
+    "keywords": "Class IsLessThanTime Inheritance Object IsLessThanTime Namespace : StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals Assembly : cs.temp.dll.dll Syntax [Serializable] public class IsLessThanTime : ConditionalNode Methods Condition() Declaration protected override bool Condition() Returns Type Description Boolean"
   },
   "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsNotAggressive.html": {
     "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsNotAggressive.html",
@@ -2169,15 +2374,30 @@
     "title": "Class IsOverTime | Developer Reference",
     "keywords": "Class IsOverTime Inheritance Object IsOverTime Namespace : StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals Assembly : cs.temp.dll.dll Syntax [Serializable] public class IsOverTime : ConditionalNode Methods Condition() Declaration protected override bool Condition() Returns Type Description Boolean"
   },
+  "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsOverTimeByKey.html": {
+    "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsOverTimeByKey.html",
+    "title": "Class IsOverTimeByKey | Developer Reference",
+    "keywords": "Class IsOverTimeByKey Inheritance Object IsOverTimeByKey Namespace : StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals Assembly : cs.temp.dll.dll Syntax [Serializable] public class IsOverTimeByKey : ConditionalNode Methods Condition() Declaration protected override bool Condition() Returns Type Description Boolean"
+  },
   "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsPhaseEnded.html": {
     "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsPhaseEnded.html",
     "title": "Class IsPhaseEnded | Developer Reference",
     "keywords": "Class IsPhaseEnded Inheritance Object IsPhaseEnded Namespace : StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals Assembly : cs.temp.dll.dll Syntax [Serializable] public class IsPhaseEnded : ConditionalNode Methods Condition() Declaration protected override bool Condition() Returns Type Description Boolean OnEnter() Declaration protected override void OnEnter()"
   },
+  "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsPlayerInsidePlayableArea.html": {
+    "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsPlayerInsidePlayableArea.html",
+    "title": "Class IsPlayerInsidePlayableArea | Developer Reference",
+    "keywords": "Class IsPlayerInsidePlayableArea Inheritance Object IsPlayerInsidePlayableArea Namespace : StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals Assembly : cs.temp.dll.dll Syntax [Serializable] public class IsPlayerInsidePlayableArea : ConditionalNode Methods Condition() Declaration protected override bool Condition() Returns Type Description Boolean"
+  },
   "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsReturning.html": {
     "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsReturning.html",
     "title": "Class IsReturning | Developer Reference",
     "keywords": "Class IsReturning Inheritance Object IsReturning Namespace : StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals Assembly : cs.temp.dll.dll Syntax [Serializable] public class IsReturning : ConditionalNode Methods Condition() Declaration protected override bool Condition() Returns Type Description Boolean"
+  },
+  "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.NotEqualsBossPhaseState.html": {
+    "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.NotEqualsBossPhaseState.html",
+    "title": "Class NotEqualsBossPhaseState | Developer Reference",
+    "keywords": "Class NotEqualsBossPhaseState Inheritance Object NotEqualsBossPhaseState Namespace : StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals Assembly : cs.temp.dll.dll Syntax [Serializable] public class NotEqualsBossPhaseState : ConditionalNode Methods Condition() Declaration protected override bool Condition() Returns Type Description Boolean OnEnter() Declaration protected override void OnEnter()"
   },
   "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Decorators.html": {
     "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Decorators.html",
@@ -2204,6 +2424,11 @@
     "title": "Class PartSpawnerKey | Developer Reference",
     "keywords": "Class PartSpawnerKey Inheritance Object PartSpawnerKey Namespace : StormHawks.Runtime.Utilities.BehaviorTree Assembly : cs.temp.dll.dll Syntax [Serializable] public class PartSpawnerKey : BlackboardKey<PartSpawner>"
   },
+  "api/StormHawks.Runtime.Utilities.BehaviorTree.PlayableAreaKey.html": {
+    "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.PlayableAreaKey.html",
+    "title": "Class PlayableAreaKey | Developer Reference",
+    "keywords": "Class PlayableAreaKey Inheritance Object PlayableAreaKey Namespace : StormHawks.Runtime.Utilities.BehaviorTree Assembly : cs.temp.dll.dll Syntax [Serializable] public class PlayableAreaKey : BlackboardKey<PlayableArea>"
+  },
   "api/StormHawks.Runtime.Utilities.Enums.html": {
     "href": "api/StormHawks.Runtime.Utilities.Enums.html",
     "title": "Namespace StormHawks.Runtime.Utilities.Enums | Developer Reference",
@@ -2217,17 +2442,22 @@
   "api/StormHawks.Runtime.Utilities.Events.BaseEventChannel-1.html": {
     "href": "api/StormHawks.Runtime.Utilities.Events.BaseEventChannel-1.html",
     "title": "Class BaseEventChannel<T> | Developer Reference",
-    "keywords": "Class BaseEventChannel<T> Inheritance Object BaseEventChannel<T> MainSlavePartEvent Namespace : StormHawks.Runtime.Utilities.Events Assembly : cs.temp.dll.dll Syntax public abstract class BaseEventChannel<T> : DescriptionScriptableObject Type Parameters Name Description T Methods AddListener(UnityAction<T>) Declaration public void AddListener(UnityAction<T> action) Parameters Type Name Description UnityAction <T> action RaiseEvent(T) Declaration public void RaiseEvent(T value) Parameters Type Name Description T value RemoveListener(UnityAction<T>) Declaration public void RemoveListener(UnityAction<T> action) Parameters Type Name Description UnityAction <T> action"
+    "keywords": "Class BaseEventChannel<T> Inheritance Object BaseEventChannel<T> MainSlavePartEvent PlayerRespawnEvent Namespace : StormHawks.Runtime.Utilities.Events Assembly : cs.temp.dll.dll Syntax public abstract class BaseEventChannel<T> : DescriptionScriptableObject Type Parameters Name Description T Methods AddListener(UnityAction<T>) Declaration public void AddListener(UnityAction<T> action) Parameters Type Name Description UnityAction <T> action RaiseEvent(T) Declaration public void RaiseEvent(T value) Parameters Type Name Description T value RemoveListener(UnityAction<T>) Declaration public void RemoveListener(UnityAction<T> action) Parameters Type Name Description UnityAction <T> action"
   },
   "api/StormHawks.Runtime.Utilities.Events.html": {
     "href": "api/StormHawks.Runtime.Utilities.Events.html",
     "title": "Namespace StormHawks.Runtime.Utilities.Events | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Utilities.Events Classes BaseEventChannel<T> MainSlavePartEvent"
+    "keywords": "Namespace StormHawks.Runtime.Utilities.Events Classes BaseEventChannel<T> MainSlavePartEvent PlayerRespawnEvent"
   },
   "api/StormHawks.Runtime.Utilities.Events.MainSlavePartEvent.html": {
     "href": "api/StormHawks.Runtime.Utilities.Events.MainSlavePartEvent.html",
     "title": "Class MainSlavePartEvent | Developer Reference",
     "keywords": "Class MainSlavePartEvent Inheritance Object BaseEventChannel < MainWeakpoint > MainSlavePartEvent Inherited Members BaseEventChannel<MainWeakpoint>.RaiseEvent(MainWeakpoint) BaseEventChannel<MainWeakpoint>.AddListener(UnityAction<MainWeakpoint>) BaseEventChannel<MainWeakpoint>.RemoveListener(UnityAction<MainWeakpoint>) Namespace : StormHawks.Runtime.Utilities.Events Assembly : cs.temp.dll.dll Syntax public class MainSlavePartEvent : BaseEventChannel<MainWeakpoint>"
+  },
+  "api/StormHawks.Runtime.Utilities.Events.PlayerRespawnEvent.html": {
+    "href": "api/StormHawks.Runtime.Utilities.Events.PlayerRespawnEvent.html",
+    "title": "Class PlayerRespawnEvent | Developer Reference",
+    "keywords": "Class PlayerRespawnEvent Inheritance Object BaseEventChannel < PlayerRespawnInfo > PlayerRespawnEvent Inherited Members BaseEventChannel<PlayerRespawnInfo>.RaiseEvent(PlayerRespawnInfo) BaseEventChannel<PlayerRespawnInfo>.AddListener(UnityAction<PlayerRespawnInfo>) BaseEventChannel<PlayerRespawnInfo>.RemoveListener(UnityAction<PlayerRespawnInfo>) Namespace : StormHawks.Runtime.Utilities.Events Assembly : cs.temp.dll.dll Syntax public class PlayerRespawnEvent : BaseEventChannel<PlayerRespawnInfo>"
   },
   "api/StormHawks.Runtime.Utilities.Extensions.ColliderExtensions.html": {
     "href": "api/StormHawks.Runtime.Utilities.Extensions.ColliderExtensions.html",
@@ -2337,12 +2567,17 @@
   "api/StormHawks.Runtime.Utilities.RuntimeSet.html": {
     "href": "api/StormHawks.Runtime.Utilities.RuntimeSet.html",
     "title": "Namespace StormHawks.Runtime.Utilities.RuntimeSet | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Utilities.RuntimeSet Classes AggressivePartRuntimeSet BossRuntimeSet EliteEnemyRuntimeSet EnemyGroupMemberRuntimeSet EnemyGroupRuntimeSet MainWeakpointsRuntimeSet"
+    "keywords": "Namespace StormHawks.Runtime.Utilities.RuntimeSet Classes AggressivePartRuntimeSet BossRuntimeSet EliteEnemyRuntimeSet EnemyGroupMemberRuntimeSet EnemyGroupRuntimeSet MainWeakpointsRuntimeSet WingMissileWeaponRuntimeSet"
   },
   "api/StormHawks.Runtime.Utilities.RuntimeSet.MainWeakpointsRuntimeSet.html": {
     "href": "api/StormHawks.Runtime.Utilities.RuntimeSet.MainWeakpointsRuntimeSet.html",
     "title": "Class MainWeakpointsRuntimeSet | Developer Reference",
     "keywords": "Class MainWeakpointsRuntimeSet Inheritance Object MainWeakpointsRuntimeSet Namespace : StormHawks.Runtime.Utilities.RuntimeSet Assembly : cs.temp.dll.dll Syntax public class MainWeakpointsRuntimeSet : RuntimeSet<MainWeakpoint> Fields DestroyedEvent Declaration public MainSlavePartEvent DestroyedEvent Field Value Type Description MainSlavePartEvent PhaseToMainSlavePartMap Declaration public Dictionary<int, MainWeakpoint> PhaseToMainSlavePartMap Field Value Type Description Dictionary < Int32 , MainWeakpoint > SelectedEvent Declaration public MainSlavePartEvent SelectedEvent Field Value Type Description MainSlavePartEvent Methods Add(Int32, MainWeakpoint) Declaration public void Add(int key, MainWeakpoint part) Parameters Type Name Description Int32 key MainWeakpoint part Dispose(Int32) Declaration public void Dispose(int key) Parameters Type Name Description Int32 key Remove(Int32) Declaration public void Remove(int key) Parameters Type Name Description Int32 key Select(Int32) Declaration public void Select(int key) Parameters Type Name Description Int32 key"
+  },
+  "api/StormHawks.Runtime.Utilities.RuntimeSet.WingMissileWeaponRuntimeSet.html": {
+    "href": "api/StormHawks.Runtime.Utilities.RuntimeSet.WingMissileWeaponRuntimeSet.html",
+    "title": "Class WingMissileWeaponRuntimeSet | Developer Reference",
+    "keywords": "Class WingMissileWeaponRuntimeSet Inheritance Object WingMissileWeaponRuntimeSet Namespace : StormHawks.Runtime.Utilities.RuntimeSet Assembly : cs.temp.dll.dll Syntax public class WingMissileWeaponRuntimeSet : RuntimeSet<WingProjectileWeapon> Methods GetRandomWeapons(Int32) Declaration public List<WingProjectileWeapon> GetRandomWeapons(int count) Parameters Type Name Description Int32 count Returns Type Description List < WingProjectileWeapon >"
   },
   "api/StormHawks.Runtime.Utilities.ScriptableObjects.DescriptionScriptableObject.html": {
     "href": "api/StormHawks.Runtime.Utilities.ScriptableObjects.DescriptionScriptableObject.html",
@@ -2364,15 +2599,25 @@
     "title": "Class CinemachineOriginShiftController | Developer Reference",
     "keywords": "Class CinemachineOriginShiftController Inheritance Object OriginShiftController CinemachineOriginShiftController Inherited Members OriginShiftController.OnEnable() OriginShiftController.OnDisable() Namespace : StormHawks.Runtime.Utilities.Shifters Assembly : cs.temp.dll.dll Syntax public class CinemachineOriginShiftController : OriginShiftController Methods Awake() Declaration protected override void Awake() Overrides OriginShiftController.Awake() OnShiftOrigin(OriginShiftEventContext) Declaration protected override void OnShiftOrigin(OriginShiftEventContext ctx) Parameters Type Name Description OriginShiftEventContext ctx Overrides OriginShiftController.OnShiftOrigin(OriginShiftEventContext)"
   },
+  "api/StormHawks.Runtime.Utilities.Shifters.EnemyOriginShiftController.html": {
+    "href": "api/StormHawks.Runtime.Utilities.Shifters.EnemyOriginShiftController.html",
+    "title": "Class EnemyOriginShiftController | Developer Reference",
+    "keywords": "Class EnemyOriginShiftController Inheritance Object OriginShiftController EnemyOriginShiftController Inherited Members OriginShiftController.OnEnable() OriginShiftController.OnDisable() Namespace : StormHawks.Runtime.Utilities.Shifters Assembly : cs.temp.dll.dll Syntax public class EnemyOriginShiftController : OriginShiftController Methods Awake() Declaration protected override void Awake() Overrides OriginShiftController.Awake() OnShiftOrigin(OriginShiftEventContext) Declaration protected override void OnShiftOrigin(OriginShiftEventContext ctx) Parameters Type Name Description OriginShiftEventContext ctx Overrides OriginShiftController.OnShiftOrigin(OriginShiftEventContext)"
+  },
+  "api/StormHawks.Runtime.Utilities.Shifters.FriendlyShipOriginShiftController.html": {
+    "href": "api/StormHawks.Runtime.Utilities.Shifters.FriendlyShipOriginShiftController.html",
+    "title": "Class FriendlyShipOriginShiftController | Developer Reference",
+    "keywords": "Class FriendlyShipOriginShiftController Inheritance Object OriginShiftController FriendlyShipOriginShiftController Inherited Members OriginShiftController.OnEnable() OriginShiftController.OnDisable() Namespace : StormHawks.Runtime.Utilities.Shifters Assembly : cs.temp.dll.dll Syntax public class FriendlyShipOriginShiftController : OriginShiftController Methods Awake() Declaration protected override void Awake() Overrides OriginShiftController.Awake() OnShiftOrigin(OriginShiftEventContext) Declaration protected override void OnShiftOrigin(OriginShiftEventContext ctx) Parameters Type Name Description OriginShiftEventContext ctx Overrides OriginShiftController.OnShiftOrigin(OriginShiftEventContext)"
+  },
   "api/StormHawks.Runtime.Utilities.Shifters.html": {
     "href": "api/StormHawks.Runtime.Utilities.Shifters.html",
     "title": "Namespace StormHawks.Runtime.Utilities.Shifters | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Utilities.Shifters Classes CinemachineOriginShiftController OriginShiftController OriginShiftHandler ParticleOriginShiftController RigidbodyOriginShiftController TrailRendererOriginShiftController TransformOriginShiftController Structs OriginShiftEventContext Delegates OriginShiftHandler.OriginShiftEventDelegate"
+    "keywords": "Namespace StormHawks.Runtime.Utilities.Shifters Classes CinemachineOriginShiftController EnemyOriginShiftController FriendlyShipOriginShiftController OriginShiftController OriginShiftHandler ParticleOriginShiftController ParticleOriginShiftSetup PathOriginShiftController ProjectileOriginShiftController RigidbodyOriginShiftController TrailRendererOriginShiftController TransformOriginShiftController Structs OriginShiftEventContext Delegates OriginShiftHandler.OriginShiftEventDelegate"
   },
   "api/StormHawks.Runtime.Utilities.Shifters.OriginShiftController.html": {
     "href": "api/StormHawks.Runtime.Utilities.Shifters.OriginShiftController.html",
     "title": "Class OriginShiftController | Developer Reference",
-    "keywords": "Class OriginShiftController Inheritance Object OriginShiftController CinemachineOriginShiftController ParticleOriginShiftController RigidbodyOriginShiftController TrailRendererOriginShiftController TransformOriginShiftController Namespace : StormHawks.Runtime.Utilities.Shifters Assembly : cs.temp.dll.dll Syntax public abstract class OriginShiftController : MonoBehaviour Methods Awake() Declaration protected virtual void Awake() OnDisable() Declaration protected virtual void OnDisable() OnEnable() Declaration protected virtual void OnEnable() OnShiftOrigin(OriginShiftEventContext) Declaration protected abstract void OnShiftOrigin(OriginShiftEventContext ctx) Parameters Type Name Description OriginShiftEventContext ctx"
+    "keywords": "Class OriginShiftController Inheritance Object OriginShiftController CinemachineOriginShiftController EnemyOriginShiftController FriendlyShipOriginShiftController ParticleOriginShiftController PathOriginShiftController ProjectileOriginShiftController RigidbodyOriginShiftController TrailRendererOriginShiftController TransformOriginShiftController Namespace : StormHawks.Runtime.Utilities.Shifters Assembly : cs.temp.dll.dll Syntax public abstract class OriginShiftController : MonoBehaviour Methods Awake() Declaration protected virtual void Awake() OnDisable() Declaration protected virtual void OnDisable() OnEnable() Declaration protected virtual void OnEnable() OnShiftOrigin(OriginShiftEventContext) Declaration protected abstract void OnShiftOrigin(OriginShiftEventContext ctx) Parameters Type Name Description OriginShiftEventContext ctx"
   },
   "api/StormHawks.Runtime.Utilities.Shifters.OriginShiftEventContext.html": {
     "href": "api/StormHawks.Runtime.Utilities.Shifters.OriginShiftEventContext.html",
@@ -2382,7 +2627,7 @@
   "api/StormHawks.Runtime.Utilities.Shifters.OriginShiftHandler.html": {
     "href": "api/StormHawks.Runtime.Utilities.Shifters.OriginShiftHandler.html",
     "title": "Class OriginShiftHandler | Developer Reference",
-    "keywords": "Class OriginShiftHandler Inheritance Object OriginShiftHandler Namespace : StormHawks.Runtime.Utilities.Shifters Assembly : cs.temp.dll.dll Syntax public class OriginShiftHandler : UpdateMonoBehaviour Methods OnUpdate() Declaration protected override void OnUpdate() Subscribe(OriginShiftHandler.OriginShiftEventDelegate) Declaration public void Subscribe(OriginShiftHandler.OriginShiftEventDelegate shiftEvent) Parameters Type Name Description OriginShiftHandler.OriginShiftEventDelegate shiftEvent Unsubscribe(OriginShiftHandler.OriginShiftEventDelegate) Declaration public void Unsubscribe(OriginShiftHandler.OriginShiftEventDelegate shiftEvent) Parameters Type Name Description OriginShiftHandler.OriginShiftEventDelegate shiftEvent Events ShiftOriginEvent Declaration public event OriginShiftHandler.OriginShiftEventDelegate ShiftOriginEvent Event Type Type Description OriginShiftHandler.OriginShiftEventDelegate"
+    "keywords": "Class OriginShiftHandler Inheritance Object OriginShiftHandler Namespace : StormHawks.Runtime.Utilities.Shifters Assembly : cs.temp.dll.dll Syntax public class OriginShiftHandler : UpdateMonoBehaviour Methods Awake() Declaration protected override void Awake() OnUpdate() Declaration protected override void OnUpdate() Subscribe(OriginShiftHandler.OriginShiftEventDelegate) Declaration public void Subscribe(OriginShiftHandler.OriginShiftEventDelegate shiftEvent) Parameters Type Name Description OriginShiftHandler.OriginShiftEventDelegate shiftEvent Unsubscribe(OriginShiftHandler.OriginShiftEventDelegate) Declaration public void Unsubscribe(OriginShiftHandler.OriginShiftEventDelegate shiftEvent) Parameters Type Name Description OriginShiftHandler.OriginShiftEventDelegate shiftEvent Events ShiftOriginEvent Declaration public event OriginShiftHandler.OriginShiftEventDelegate ShiftOriginEvent Event Type Type Description OriginShiftHandler.OriginShiftEventDelegate"
   },
   "api/StormHawks.Runtime.Utilities.Shifters.OriginShiftHandler.OriginShiftEventDelegate.html": {
     "href": "api/StormHawks.Runtime.Utilities.Shifters.OriginShiftHandler.OriginShiftEventDelegate.html",
@@ -2392,7 +2637,22 @@
   "api/StormHawks.Runtime.Utilities.Shifters.ParticleOriginShiftController.html": {
     "href": "api/StormHawks.Runtime.Utilities.Shifters.ParticleOriginShiftController.html",
     "title": "Class ParticleOriginShiftController | Developer Reference",
-    "keywords": "Class ParticleOriginShiftController Inheritance Object OriginShiftController ParticleOriginShiftController Inherited Members OriginShiftController.OnEnable() OriginShiftController.OnDisable() Namespace : StormHawks.Runtime.Utilities.Shifters Assembly : cs.temp.dll.dll Syntax public class ParticleOriginShiftController : OriginShiftController Methods Awake() Declaration protected override void Awake() Overrides OriginShiftController.Awake() OnShiftOrigin(OriginShiftEventContext) Declaration protected override void OnShiftOrigin(OriginShiftEventContext ctx) Parameters Type Name Description OriginShiftEventContext ctx Overrides OriginShiftController.OnShiftOrigin(OriginShiftEventContext)"
+    "keywords": "Class ParticleOriginShiftController Inheritance Object OriginShiftController ParticleOriginShiftController Inherited Members OriginShiftController.OnEnable() OriginShiftController.OnDisable() Namespace : StormHawks.Runtime.Utilities.Shifters Assembly : cs.temp.dll.dll Syntax public class ParticleOriginShiftController : OriginShiftController Methods Awake() Declaration protected override void Awake() Overrides OriginShiftController.Awake() OnShiftOrigin(OriginShiftEventContext) Declaration protected override void OnShiftOrigin(OriginShiftEventContext ctx) Parameters Type Name Description OriginShiftEventContext ctx Overrides OriginShiftController.OnShiftOrigin(OriginShiftEventContext) SetRoot(Boolean) Declaration public void SetRoot(bool root) Parameters Type Name Description Boolean root"
+  },
+  "api/StormHawks.Runtime.Utilities.Shifters.ParticleOriginShiftSetup.html": {
+    "href": "api/StormHawks.Runtime.Utilities.Shifters.ParticleOriginShiftSetup.html",
+    "title": "Class ParticleOriginShiftSetup | Developer Reference",
+    "keywords": "Class ParticleOriginShiftSetup Inheritance Object ParticleOriginShiftSetup Namespace : StormHawks.Runtime.Utilities.Shifters Assembly : cs.temp.dll.dll Syntax public class ParticleOriginShiftSetup : MonoBehaviour"
+  },
+  "api/StormHawks.Runtime.Utilities.Shifters.PathOriginShiftController.html": {
+    "href": "api/StormHawks.Runtime.Utilities.Shifters.PathOriginShiftController.html",
+    "title": "Class PathOriginShiftController | Developer Reference",
+    "keywords": "Class PathOriginShiftController Inheritance Object OriginShiftController PathOriginShiftController Inherited Members OriginShiftController.OnEnable() OriginShiftController.OnDisable() Namespace : StormHawks.Runtime.Utilities.Shifters Assembly : cs.temp.dll.dll Syntax public class PathOriginShiftController : OriginShiftController Methods Awake() Declaration protected override void Awake() Overrides OriginShiftController.Awake() OnShiftOrigin(OriginShiftEventContext) Declaration protected override void OnShiftOrigin(OriginShiftEventContext ctx) Parameters Type Name Description OriginShiftEventContext ctx Overrides OriginShiftController.OnShiftOrigin(OriginShiftEventContext)"
+  },
+  "api/StormHawks.Runtime.Utilities.Shifters.ProjectileOriginShiftController.html": {
+    "href": "api/StormHawks.Runtime.Utilities.Shifters.ProjectileOriginShiftController.html",
+    "title": "Class ProjectileOriginShiftController | Developer Reference",
+    "keywords": "Class ProjectileOriginShiftController Inheritance Object OriginShiftController ProjectileOriginShiftController Inherited Members OriginShiftController.OnEnable() OriginShiftController.OnDisable() Namespace : StormHawks.Runtime.Utilities.Shifters Assembly : cs.temp.dll.dll Syntax public class ProjectileOriginShiftController : OriginShiftController Methods Awake() Declaration protected override void Awake() Overrides OriginShiftController.Awake() OnShiftOrigin(OriginShiftEventContext) Declaration protected override void OnShiftOrigin(OriginShiftEventContext ctx) Parameters Type Name Description OriginShiftEventContext ctx Overrides OriginShiftController.OnShiftOrigin(OriginShiftEventContext)"
   },
   "api/StormHawks.Runtime.Utilities.Shifters.RigidbodyOriginShiftController.html": {
     "href": "api/StormHawks.Runtime.Utilities.Shifters.RigidbodyOriginShiftController.html",

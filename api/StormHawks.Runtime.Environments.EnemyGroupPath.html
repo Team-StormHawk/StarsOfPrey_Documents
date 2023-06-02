@@ -88,13 +88,32 @@
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">EnemyGroupPath</span></div>
+    <div class="level1"><a class="xref" href="StormHawks.Runtime.Environments.EnemyPath.html">EnemyPath</a></div>
+    <div class="level2"><span class="xref">EnemyGroupPath</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Environments.EnemyPath.html#StormHawks_Runtime_Environments_EnemyPath__isEmpty">EnemyPath._isEmpty</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Environments.EnemyPath.html#StormHawks_Runtime_Environments_EnemyPath__path">EnemyPath._path</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Environments.EnemyPath.html#StormHawks_Runtime_Environments_EnemyPath__waypoints">EnemyPath._waypoints</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Environments.EnemyPath.html#StormHawks_Runtime_Environments_EnemyPath__tween">EnemyPath._tween</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Environments.EnemyPath.html#StormHawks_Runtime_Environments_EnemyPath_IsEmpty">EnemyPath.IsEmpty()</a>
+    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Environments.html">StormHawks.Runtime.Environments</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="StormHawks_Runtime_Environments_EnemyGroupPath_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class EnemyGroupPath : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public class EnemyGroupPath : EnemyPath</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
@@ -221,13 +240,25 @@
   </table>
   
   
+  <a id="StormHawks_Runtime_Environments_EnemyGroupPath_Start_" data-uid="StormHawks.Runtime.Environments.EnemyGroupPath.Start*"></a>
+  <h4 id="StormHawks_Runtime_Environments_EnemyGroupPath_Start" data-uid="StormHawks.Runtime.Environments.EnemyGroupPath.Start">Start()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void Start()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="StormHawks.Runtime.Environments.EnemyPath.html#StormHawks_Runtime_Environments_EnemyPath_Start">EnemyPath.Start()</a></div>
+  
+  
   <a id="StormHawks_Runtime_Environments_EnemyGroupPath_UpdatePosition_" data-uid="StormHawks.Runtime.Environments.EnemyGroupPath.UpdatePosition*"></a>
   <h4 id="StormHawks_Runtime_Environments_EnemyGroupPath_UpdatePosition_Vector3_" data-uid="StormHawks.Runtime.Environments.EnemyGroupPath.UpdatePosition(Vector3)">UpdatePosition(Vector3)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void UpdatePosition(Vector3 positionOffset)</code></pre>
+    <pre><code class="lang-csharp hljs">public override void UpdatePosition(Vector3 positionOffset)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -246,6 +277,8 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="StormHawks.Runtime.Environments.EnemyPath.html#StormHawks_Runtime_Environments_EnemyPath_UpdatePosition_Vector3_">EnemyPath.UpdatePosition(Vector3)</a></div>
 </article>
           </div>
           

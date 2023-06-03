@@ -1139,6 +1139,26 @@
     "title": "Class WingProjectileWeapon | Developer Reference",
     "keywords": "Class WingProjectileWeapon Inheritance Object EntityWeapon EntityWeapon < Projectile > EntityProjectileWeapon WingProjectileWeapon Inherited Members EntityProjectileWeapon.Start() EntityProjectileWeapon.GetMuzzleEffects() EntityProjectileWeapon.OnGetObject(Projectile) EntityProjectileWeapon.OnReleaseObject(Projectile) EntityWeapon<Projectile>.Pool EntityWeapon<Projectile>.GetPool() EntityWeapon<Projectile>.prefab EntityWeapon._fire EntityWeapon.FmodEvent EntityWeapon.IsFiring EntityWeapon.VirtualTarget EntityWeapon.OnDestroy() EntityWeapon.SetWeapon(IEntityFire) EntityWeapon.Fire() EntityWeapon.Cancel() EntityWeapon.OnFireFinished() Namespace : StormHawks.Runtime.Entities.Weapons Assembly : cs.temp.dll.dll Syntax public class WingProjectileWeapon : EntityProjectileWeapon Methods OnDisable() Declaration protected override void OnDisable() Overrides StormHawks.Runtime.Entities.Weapons.EntityWeapon<Projectile>.OnDisable() OnEnable() Declaration protected override void OnEnable() Overrides StormHawks.Runtime.Entities.Weapons.EntityWeapon<Projectile>.OnEnable()"
   },
+  "api/StormHawks.Runtime.Environments.AsteroidData.html": {
+    "href": "api/StormHawks.Runtime.Environments.AsteroidData.html",
+    "title": "Class AsteroidData | Developer Reference",
+    "keywords": "Class AsteroidData Inheritance Object AsteroidData Namespace : StormHawks.Runtime.Environments Assembly : cs.temp.dll.dll Syntax public class AsteroidData Constructors AsteroidData(Vector3, Single) Declaration public AsteroidData(Vector3 position, float radius) Parameters Type Name Description Vector3 position Single radius Fields PhysicalBody Declaration public AsteroidPhysicalBody PhysicalBody Field Value Type Description AsteroidPhysicalBody Position Declaration public Vector3 Position Field Value Type Description Vector3 Properties Radius Declaration public float Radius { get; } Property Value Type Description Single Methods PhysicalBodyWorldMatrix() Declaration public Matrix4x4 PhysicalBodyWorldMatrix() Returns Type Description Matrix4x4"
+  },
+  "api/StormHawks.Runtime.Environments.AsteroidMaker.html": {
+    "href": "api/StormHawks.Runtime.Environments.AsteroidMaker.html",
+    "title": "Class AsteroidMaker | Developer Reference",
+    "keywords": "Class AsteroidMaker Inheritance Object AsteroidMaker Namespace : StormHawks.Runtime.Environments Assembly : cs.temp.dll.dll Syntax public class AsteroidMaker : MonoBehaviour Fields HeightValue Declaration public float HeightValue Field Value Type Description Single MaxRadius Declaration public float MaxRadius Field Value Type Description Single MinRadius Declaration public float MinRadius Field Value Type Description Single"
+  },
+  "api/StormHawks.Runtime.Environments.AsteroidParent.html": {
+    "href": "api/StormHawks.Runtime.Environments.AsteroidParent.html",
+    "title": "Class AsteroidParent | Developer Reference",
+    "keywords": "Class AsteroidParent Inheritance Object AsteroidParent Namespace : StormHawks.Runtime.Environments Assembly : cs.temp.dll.dll Syntax public class AsteroidParent : MonoBehaviour"
+  },
+  "api/StormHawks.Runtime.Environments.AsteroidPhysicalBody.html": {
+    "href": "api/StormHawks.Runtime.Environments.AsteroidPhysicalBody.html",
+    "title": "Class AsteroidPhysicalBody | Developer Reference",
+    "keywords": "Class AsteroidPhysicalBody Inheritance Object AsteroidPhysicalBody Implements IPoolable < AsteroidPhysicalBody > Namespace : StormHawks.Runtime.Environments Assembly : cs.temp.dll.dll Syntax public class AsteroidPhysicalBody : MonoBehaviour Fields _maxSize Declaration public float _maxSize Field Value Type Description Single _minSize Declaration public float _minSize Field Value Type Description Single Properties Pool Declaration public MonoObjectPool<AsteroidPhysicalBody> Pool { get; set; } Property Value Type Description MonoObjectPool < AsteroidPhysicalBody > Methods OnRelease() Declaration public void OnRelease() OnSpawn() Declaration public void OnSpawn() Implements IPoolable<>"
+  },
   "api/StormHawks.Runtime.Environments.EliteEnemyPath.html": {
     "href": "api/StormHawks.Runtime.Environments.EliteEnemyPath.html",
     "title": "Class EliteEnemyPath | Developer Reference",
@@ -1172,7 +1192,7 @@
   "api/StormHawks.Runtime.Environments.html": {
     "href": "api/StormHawks.Runtime.Environments.html",
     "title": "Namespace StormHawks.Runtime.Environments | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Environments Classes EliteEnemyPath EnemyGroupPath EnemyPath EnemyPortal EnemyPortalSpawner EnemySpawner PlayableArea"
+    "keywords": "Namespace StormHawks.Runtime.Environments Classes AsteroidData AsteroidMaker AsteroidParent AsteroidPhysicalBody EliteEnemyPath EnemyGroupPath EnemyPath EnemyPortal EnemyPortalSpawner EnemySpawner PlayableArea"
   },
   "api/StormHawks.Runtime.Environments.PlayableArea.html": {
     "href": "api/StormHawks.Runtime.Environments.PlayableArea.html",
@@ -2542,7 +2562,7 @@
   "api/StormHawks.Runtime.Utilities.MonoObjectPool-1.html": {
     "href": "api/StormHawks.Runtime.Utilities.MonoObjectPool-1.html",
     "title": "Class MonoObjectPool<T> | Developer Reference",
-    "keywords": "Class MonoObjectPool<T> Inheritance Object MonoObjectPool<T> Namespace : StormHawks.Runtime.Utilities Assembly : cs.temp.dll.dll Syntax public sealed class MonoObjectPool<T> where T : MonoBehaviour, IPoolable<T> Type Parameters Name Description T Constructors MonoObjectPool(T, Transform, Boolean, Int32, Int32) Declaration public MonoObjectPool(T prefab, Transform parent, bool collectionCheck, int defaultCapacity, int maxSize) Parameters Type Name Description T prefab Transform parent Boolean collectionCheck Int32 defaultCapacity Int32 maxSize Methods Get() Declaration public T Get() Returns Type Description T Release(T) Declaration public void Release(T obj) Parameters Type Name Description T obj Events OnGet Declaration public event Action<T> OnGet Event Type Type Description Action <T> OnRelease Declaration public event Action<T> OnRelease Event Type Type Description Action <T>"
+    "keywords": "Class MonoObjectPool<T> Inheritance Object MonoObjectPool<T> Namespace : StormHawks.Runtime.Utilities Assembly : cs.temp.dll.dll Syntax public sealed class MonoObjectPool<T> where T : MonoBehaviour, IPoolable<T> Type Parameters Name Description T Constructors MonoObjectPool(T, Transform, Boolean, Int32, Int32) Declaration public MonoObjectPool(T prefab, Transform parent, bool collectionCheck, int defaultCapacity, int maxSize) Parameters Type Name Description T prefab Transform parent Boolean collectionCheck Int32 defaultCapacity Int32 maxSize Methods Get() Declaration public T Get() Returns Type Description T Get(Vector3, Quaternion) Declaration public T Get(Vector3 position, Quaternion rotation) Parameters Type Name Description Vector3 position Quaternion rotation Returns Type Description T Release(T) Declaration public void Release(T obj) Parameters Type Name Description T obj Events OnGet Declaration public event Action<T> OnGet Event Type Type Description Action <T> OnRelease Declaration public event Action<T> OnRelease Event Type Type Description Action <T>"
   },
   "api/StormHawks.Runtime.Utilities.MonoSingleton-1.html": {
     "href": "api/StormHawks.Runtime.Utilities.MonoSingleton-1.html",

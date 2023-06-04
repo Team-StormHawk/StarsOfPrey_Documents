@@ -4802,19 +4802,6 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.GroupInitialize
   nameWithType: BossEntity.GroupInitialize
-- uid: StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.IsMoving
-  name: IsMoving()
-  href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.html#StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_IsMoving
-  commentId: M:StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.IsMoving
-  fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.IsMoving()
-  nameWithType: BossEntity.IsMoving()
-- uid: StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.IsMoving*
-  name: IsMoving
-  href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.html#StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_IsMoving_
-  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.IsMoving
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.IsMoving
-  nameWithType: BossEntity.IsMoving
 - uid: StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.IsPhaseEnded
   name: IsPhaseEnded
   href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.html#StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_IsPhaseEnded
@@ -4828,19 +4815,19 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.IsPhaseEnded
   nameWithType: BossEntity.IsPhaseEnded
-- uid: StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.IsSpawning
-  name: IsSpawning()
-  href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.html#StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_IsSpawning
-  commentId: M:StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.IsSpawning
-  fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.IsSpawning()
-  nameWithType: BossEntity.IsSpawning()
-- uid: StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.IsSpawning*
-  name: IsSpawning
-  href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.html#StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_IsSpawning_
-  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.IsSpawning
+- uid: StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.OrbitTransform
+  name: OrbitTransform
+  href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.html#StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_OrbitTransform
+  commentId: P:StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.OrbitTransform
+  fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.OrbitTransform
+  nameWithType: BossEntity.OrbitTransform
+- uid: StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.OrbitTransform*
+  name: OrbitTransform
+  href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.html#StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_OrbitTransform_
+  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.OrbitTransform
   isSpec: "True"
-  fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.IsSpawning
-  nameWithType: BossEntity.IsSpawning
+  fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.OrbitTransform
+  nameWithType: BossEntity.OrbitTransform
 - uid: StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.Owner
   name: Owner
   href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.html#StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_Owner
@@ -4854,19 +4841,6 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.Owner
   nameWithType: BossEntity.Owner
-- uid: StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.PhaseState
-  name: PhaseState
-  href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.html#StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_PhaseState
-  commentId: P:StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.PhaseState
-  fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.PhaseState
-  nameWithType: BossEntity.PhaseState
-- uid: StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.PhaseState*
-  name: PhaseState
-  href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.html#StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_PhaseState_
-  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.PhaseState
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.PhaseState
-  nameWithType: BossEntity.PhaseState
 - uid: StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.RegisterPath(EnemyGroup)
   name: RegisterPath(EnemyGroup)
   href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.html#StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_RegisterPath_EnemyGroup_
@@ -4906,19 +4880,6 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.ReleaseEnemyGroupFromPath
   nameWithType: BossEntity.ReleaseEnemyGroupFromPath
-- uid: StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.SetBossPhaseState(StormHawks.Runtime.Entities.Enemies.Boss.BossPhaseState)
-  name: SetBossPhaseState(BossPhaseState)
-  href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.html#StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_SetBossPhaseState_StormHawks_Runtime_Entities_Enemies_Boss_BossPhaseState_
-  commentId: M:StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.SetBossPhaseState(StormHawks.Runtime.Entities.Enemies.Boss.BossPhaseState)
-  fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.SetBossPhaseState(StormHawks.Runtime.Entities.Enemies.Boss.BossPhaseState)
-  nameWithType: BossEntity.SetBossPhaseState(BossPhaseState)
-- uid: StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.SetBossPhaseState*
-  name: SetBossPhaseState
-  href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.html#StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_SetBossPhaseState_
-  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.SetBossPhaseState
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.SetBossPhaseState
-  nameWithType: BossEntity.SetBossPhaseState
 - uid: StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.SetGroupAggroTarget(System.Int32,GameObject)
   name: SetGroupAggroTarget(Int32, GameObject)
   href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.html#StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_SetGroupAggroTarget_System_Int32_GameObject_
@@ -5029,36 +4990,6 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossEyeRotator.RotateTo
   nameWithType: BossEyeRotator.RotateTo
-- uid: StormHawks.Runtime.Entities.Enemies.Boss.BossPhaseState
-  name: BossPhaseState
-  href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossPhaseState.html
-  commentId: T:StormHawks.Runtime.Entities.Enemies.Boss.BossPhaseState
-  fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossPhaseState
-  nameWithType: BossPhaseState
-- uid: StormHawks.Runtime.Entities.Enemies.Boss.BossPhaseState.Enter
-  name: Enter
-  href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossPhaseState.html#StormHawks_Runtime_Entities_Enemies_Boss_BossPhaseState_Enter
-  commentId: F:StormHawks.Runtime.Entities.Enemies.Boss.BossPhaseState.Enter
-  fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossPhaseState.Enter
-  nameWithType: BossPhaseState.Enter
-- uid: StormHawks.Runtime.Entities.Enemies.Boss.BossPhaseState.Exit
-  name: Exit
-  href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossPhaseState.html#StormHawks_Runtime_Entities_Enemies_Boss_BossPhaseState_Exit
-  commentId: F:StormHawks.Runtime.Entities.Enemies.Boss.BossPhaseState.Exit
-  fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossPhaseState.Exit
-  nameWithType: BossPhaseState.Exit
-- uid: StormHawks.Runtime.Entities.Enemies.Boss.BossPhaseState.None
-  name: None
-  href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossPhaseState.html#StormHawks_Runtime_Entities_Enemies_Boss_BossPhaseState_None
-  commentId: F:StormHawks.Runtime.Entities.Enemies.Boss.BossPhaseState.None
-  fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossPhaseState.None
-  nameWithType: BossPhaseState.None
-- uid: StormHawks.Runtime.Entities.Enemies.Boss.BossPhaseState.Stay
-  name: Stay
-  href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossPhaseState.html#StormHawks_Runtime_Entities_Enemies_Boss_BossPhaseState_Stay
-  commentId: F:StormHawks.Runtime.Entities.Enemies.Boss.BossPhaseState.Stay
-  fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossPhaseState.Stay
-  nameWithType: BossPhaseState.Stay
 - uid: StormHawks.Runtime.Entities.Enemies.Boss.BossRibcageArea
   name: BossRibcageArea
   href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossRibcageArea.html
@@ -9306,18 +9237,25 @@ references:
   commentId: N:StormHawks.Runtime.Entities.Weapons
   fullName: StormHawks.Runtime.Entities.Weapons
   nameWithType: StormHawks.Runtime.Entities.Weapons
-- uid: StormHawks.Runtime.Entities.Weapons.BossLaserWeaponSet
-  name: BossLaserWeaponSet
-  href: api/StormHawks.Runtime.Entities.Weapons.BossLaserWeaponSet.html
-  commentId: T:StormHawks.Runtime.Entities.Weapons.BossLaserWeaponSet
-  fullName: StormHawks.Runtime.Entities.Weapons.BossLaserWeaponSet
-  nameWithType: BossLaserWeaponSet
-- uid: StormHawks.Runtime.Entities.Weapons.BossLaserWeaponSet.Weapons
-  name: Weapons
-  href: api/StormHawks.Runtime.Entities.Weapons.BossLaserWeaponSet.html#StormHawks_Runtime_Entities_Weapons_BossLaserWeaponSet_Weapons
-  commentId: F:StormHawks.Runtime.Entities.Weapons.BossLaserWeaponSet.Weapons
-  fullName: StormHawks.Runtime.Entities.Weapons.BossLaserWeaponSet.Weapons
-  nameWithType: BossLaserWeaponSet.Weapons
+- uid: StormHawks.Runtime.Entities.Weapons.BossLaserWeaponMaker
+  name: BossLaserWeaponMaker
+  href: api/StormHawks.Runtime.Entities.Weapons.BossLaserWeaponMaker.html
+  commentId: T:StormHawks.Runtime.Entities.Weapons.BossLaserWeaponMaker
+  fullName: StormHawks.Runtime.Entities.Weapons.BossLaserWeaponMaker
+  nameWithType: BossLaserWeaponMaker
+- uid: StormHawks.Runtime.Entities.Weapons.BossLaserWeaponMaker.GetWeapon
+  name: GetWeapon()
+  href: api/StormHawks.Runtime.Entities.Weapons.BossLaserWeaponMaker.html#StormHawks_Runtime_Entities_Weapons_BossLaserWeaponMaker_GetWeapon
+  commentId: M:StormHawks.Runtime.Entities.Weapons.BossLaserWeaponMaker.GetWeapon
+  fullName: StormHawks.Runtime.Entities.Weapons.BossLaserWeaponMaker.GetWeapon()
+  nameWithType: BossLaserWeaponMaker.GetWeapon()
+- uid: StormHawks.Runtime.Entities.Weapons.BossLaserWeaponMaker.GetWeapon*
+  name: GetWeapon
+  href: api/StormHawks.Runtime.Entities.Weapons.BossLaserWeaponMaker.html#StormHawks_Runtime_Entities_Weapons_BossLaserWeaponMaker_GetWeapon_
+  commentId: Overload:StormHawks.Runtime.Entities.Weapons.BossLaserWeaponMaker.GetWeapon
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Entities.Weapons.BossLaserWeaponMaker.GetWeapon
+  nameWithType: BossLaserWeaponMaker.GetWeapon
 - uid: StormHawks.Runtime.Entities.Weapons.EntityFenceWeapon
   name: EntityFenceWeapon
   href: api/StormHawks.Runtime.Entities.Weapons.EntityFenceWeapon.html
@@ -9581,6 +9519,45 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Entities.Weapons.EntityLaserWeapon.OnFireFinished
   nameWithType: EntityLaserWeapon.OnFireFinished
+- uid: StormHawks.Runtime.Entities.Weapons.EntityLaserWeapon.OnRelease
+  name: OnRelease()
+  href: api/StormHawks.Runtime.Entities.Weapons.EntityLaserWeapon.html#StormHawks_Runtime_Entities_Weapons_EntityLaserWeapon_OnRelease
+  commentId: M:StormHawks.Runtime.Entities.Weapons.EntityLaserWeapon.OnRelease
+  fullName: StormHawks.Runtime.Entities.Weapons.EntityLaserWeapon.OnRelease()
+  nameWithType: EntityLaserWeapon.OnRelease()
+- uid: StormHawks.Runtime.Entities.Weapons.EntityLaserWeapon.OnRelease*
+  name: OnRelease
+  href: api/StormHawks.Runtime.Entities.Weapons.EntityLaserWeapon.html#StormHawks_Runtime_Entities_Weapons_EntityLaserWeapon_OnRelease_
+  commentId: Overload:StormHawks.Runtime.Entities.Weapons.EntityLaserWeapon.OnRelease
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Entities.Weapons.EntityLaserWeapon.OnRelease
+  nameWithType: EntityLaserWeapon.OnRelease
+- uid: StormHawks.Runtime.Entities.Weapons.EntityLaserWeapon.OnSpawn
+  name: OnSpawn()
+  href: api/StormHawks.Runtime.Entities.Weapons.EntityLaserWeapon.html#StormHawks_Runtime_Entities_Weapons_EntityLaserWeapon_OnSpawn
+  commentId: M:StormHawks.Runtime.Entities.Weapons.EntityLaserWeapon.OnSpawn
+  fullName: StormHawks.Runtime.Entities.Weapons.EntityLaserWeapon.OnSpawn()
+  nameWithType: EntityLaserWeapon.OnSpawn()
+- uid: StormHawks.Runtime.Entities.Weapons.EntityLaserWeapon.OnSpawn*
+  name: OnSpawn
+  href: api/StormHawks.Runtime.Entities.Weapons.EntityLaserWeapon.html#StormHawks_Runtime_Entities_Weapons_EntityLaserWeapon_OnSpawn_
+  commentId: Overload:StormHawks.Runtime.Entities.Weapons.EntityLaserWeapon.OnSpawn
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Entities.Weapons.EntityLaserWeapon.OnSpawn
+  nameWithType: EntityLaserWeapon.OnSpawn
+- uid: StormHawks.Runtime.Entities.Weapons.EntityLaserWeapon.Pool
+  name: Pool
+  href: api/StormHawks.Runtime.Entities.Weapons.EntityLaserWeapon.html#StormHawks_Runtime_Entities_Weapons_EntityLaserWeapon_Pool
+  commentId: P:StormHawks.Runtime.Entities.Weapons.EntityLaserWeapon.Pool
+  fullName: StormHawks.Runtime.Entities.Weapons.EntityLaserWeapon.Pool
+  nameWithType: EntityLaserWeapon.Pool
+- uid: StormHawks.Runtime.Entities.Weapons.EntityLaserWeapon.Pool*
+  name: Pool
+  href: api/StormHawks.Runtime.Entities.Weapons.EntityLaserWeapon.html#StormHawks_Runtime_Entities_Weapons_EntityLaserWeapon_Pool_
+  commentId: Overload:StormHawks.Runtime.Entities.Weapons.EntityLaserWeapon.Pool
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Entities.Weapons.EntityLaserWeapon.Pool
+  nameWithType: EntityLaserWeapon.Pool
 - uid: StormHawks.Runtime.Entities.Weapons.EntityLaserWeapon.SetLookDirection(Vector3)
   name: SetLookDirection(Vector3)
   href: api/StormHawks.Runtime.Entities.Weapons.EntityLaserWeapon.html#StormHawks_Runtime_Entities_Weapons_EntityLaserWeapon_SetLookDirection_Vector3_
@@ -10138,6 +10115,19 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Entities.Weapons.LaserWeaponContext.CastRadius
   nameWithType: LaserWeaponContext.CastRadius
+- uid: StormHawks.Runtime.Entities.Weapons.LaserWeaponContext.ChargeDuration
+  name: ChargeDuration
+  href: api/StormHawks.Runtime.Entities.Weapons.LaserWeaponContext.html#StormHawks_Runtime_Entities_Weapons_LaserWeaponContext_ChargeDuration
+  commentId: P:StormHawks.Runtime.Entities.Weapons.LaserWeaponContext.ChargeDuration
+  fullName: StormHawks.Runtime.Entities.Weapons.LaserWeaponContext.ChargeDuration
+  nameWithType: LaserWeaponContext.ChargeDuration
+- uid: StormHawks.Runtime.Entities.Weapons.LaserWeaponContext.ChargeDuration*
+  name: ChargeDuration
+  href: api/StormHawks.Runtime.Entities.Weapons.LaserWeaponContext.html#StormHawks_Runtime_Entities_Weapons_LaserWeaponContext_ChargeDuration_
+  commentId: Overload:StormHawks.Runtime.Entities.Weapons.LaserWeaponContext.ChargeDuration
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Entities.Weapons.LaserWeaponContext.ChargeDuration
+  nameWithType: LaserWeaponContext.ChargeDuration
 - uid: StormHawks.Runtime.Entities.Weapons.LaserWeaponContext.Damage
   name: Damage
   href: api/StormHawks.Runtime.Entities.Weapons.LaserWeaponContext.html#StormHawks_Runtime_Entities_Weapons_LaserWeaponContext_Damage
@@ -10164,19 +10154,6 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Entities.Weapons.LaserWeaponContext.DamageTime
   nameWithType: LaserWeaponContext.DamageTime
-- uid: StormHawks.Runtime.Entities.Weapons.LaserWeaponContext.Delay
-  name: Delay
-  href: api/StormHawks.Runtime.Entities.Weapons.LaserWeaponContext.html#StormHawks_Runtime_Entities_Weapons_LaserWeaponContext_Delay
-  commentId: P:StormHawks.Runtime.Entities.Weapons.LaserWeaponContext.Delay
-  fullName: StormHawks.Runtime.Entities.Weapons.LaserWeaponContext.Delay
-  nameWithType: LaserWeaponContext.Delay
-- uid: StormHawks.Runtime.Entities.Weapons.LaserWeaponContext.Delay*
-  name: Delay
-  href: api/StormHawks.Runtime.Entities.Weapons.LaserWeaponContext.html#StormHawks_Runtime_Entities_Weapons_LaserWeaponContext_Delay_
-  commentId: Overload:StormHawks.Runtime.Entities.Weapons.LaserWeaponContext.Delay
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Entities.Weapons.LaserWeaponContext.Delay
-  nameWithType: LaserWeaponContext.Delay
 - uid: StormHawks.Runtime.Entities.Weapons.LaserWeaponContext.Direction
   name: Direction
   href: api/StormHawks.Runtime.Entities.Weapons.LaserWeaponContext.html#StormHawks_Runtime_Entities_Weapons_LaserWeaponContext_Direction
@@ -10547,149 +10524,155 @@ references:
   commentId: N:StormHawks.Runtime.Environments
   fullName: StormHawks.Runtime.Environments
   nameWithType: StormHawks.Runtime.Environments
-- uid: StormHawks.Runtime.Environments.AsteroidData
-  name: AsteroidData
-  href: api/StormHawks.Runtime.Environments.AsteroidData.html
-  commentId: T:StormHawks.Runtime.Environments.AsteroidData
-  fullName: StormHawks.Runtime.Environments.AsteroidData
-  nameWithType: AsteroidData
-- uid: StormHawks.Runtime.Environments.AsteroidData.#ctor(Vector3,System.Single)
-  name: AsteroidData(Vector3, Single)
-  href: api/StormHawks.Runtime.Environments.AsteroidData.html#StormHawks_Runtime_Environments_AsteroidData__ctor_Vector3_System_Single_
-  commentId: M:StormHawks.Runtime.Environments.AsteroidData.#ctor(Vector3,System.Single)
-  fullName: StormHawks.Runtime.Environments.AsteroidData.AsteroidData(Vector3, System.Single)
-  nameWithType: AsteroidData.AsteroidData(Vector3, Single)
-- uid: StormHawks.Runtime.Environments.AsteroidData.#ctor*
-  name: AsteroidData
-  href: api/StormHawks.Runtime.Environments.AsteroidData.html#StormHawks_Runtime_Environments_AsteroidData__ctor_
-  commentId: Overload:StormHawks.Runtime.Environments.AsteroidData.#ctor
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Environments.AsteroidData.AsteroidData
-  nameWithType: AsteroidData.AsteroidData
-- uid: StormHawks.Runtime.Environments.AsteroidData.PhysicalBody
-  name: PhysicalBody
-  href: api/StormHawks.Runtime.Environments.AsteroidData.html#StormHawks_Runtime_Environments_AsteroidData_PhysicalBody
-  commentId: F:StormHawks.Runtime.Environments.AsteroidData.PhysicalBody
-  fullName: StormHawks.Runtime.Environments.AsteroidData.PhysicalBody
-  nameWithType: AsteroidData.PhysicalBody
-- uid: StormHawks.Runtime.Environments.AsteroidData.PhysicalBodyWorldMatrix
-  name: PhysicalBodyWorldMatrix()
-  href: api/StormHawks.Runtime.Environments.AsteroidData.html#StormHawks_Runtime_Environments_AsteroidData_PhysicalBodyWorldMatrix
-  commentId: M:StormHawks.Runtime.Environments.AsteroidData.PhysicalBodyWorldMatrix
-  fullName: StormHawks.Runtime.Environments.AsteroidData.PhysicalBodyWorldMatrix()
-  nameWithType: AsteroidData.PhysicalBodyWorldMatrix()
-- uid: StormHawks.Runtime.Environments.AsteroidData.PhysicalBodyWorldMatrix*
-  name: PhysicalBodyWorldMatrix
-  href: api/StormHawks.Runtime.Environments.AsteroidData.html#StormHawks_Runtime_Environments_AsteroidData_PhysicalBodyWorldMatrix_
-  commentId: Overload:StormHawks.Runtime.Environments.AsteroidData.PhysicalBodyWorldMatrix
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Environments.AsteroidData.PhysicalBodyWorldMatrix
-  nameWithType: AsteroidData.PhysicalBodyWorldMatrix
-- uid: StormHawks.Runtime.Environments.AsteroidData.Position
-  name: Position
-  href: api/StormHawks.Runtime.Environments.AsteroidData.html#StormHawks_Runtime_Environments_AsteroidData_Position
-  commentId: F:StormHawks.Runtime.Environments.AsteroidData.Position
-  fullName: StormHawks.Runtime.Environments.AsteroidData.Position
-  nameWithType: AsteroidData.Position
-- uid: StormHawks.Runtime.Environments.AsteroidData.Radius
-  name: Radius
-  href: api/StormHawks.Runtime.Environments.AsteroidData.html#StormHawks_Runtime_Environments_AsteroidData_Radius
-  commentId: P:StormHawks.Runtime.Environments.AsteroidData.Radius
-  fullName: StormHawks.Runtime.Environments.AsteroidData.Radius
-  nameWithType: AsteroidData.Radius
-- uid: StormHawks.Runtime.Environments.AsteroidData.Radius*
-  name: Radius
-  href: api/StormHawks.Runtime.Environments.AsteroidData.html#StormHawks_Runtime_Environments_AsteroidData_Radius_
-  commentId: Overload:StormHawks.Runtime.Environments.AsteroidData.Radius
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Environments.AsteroidData.Radius
-  nameWithType: AsteroidData.Radius
-- uid: StormHawks.Runtime.Environments.AsteroidMaker
-  name: AsteroidMaker
-  href: api/StormHawks.Runtime.Environments.AsteroidMaker.html
-  commentId: T:StormHawks.Runtime.Environments.AsteroidMaker
-  fullName: StormHawks.Runtime.Environments.AsteroidMaker
-  nameWithType: AsteroidMaker
-- uid: StormHawks.Runtime.Environments.AsteroidMaker.HeightValue
-  name: HeightValue
-  href: api/StormHawks.Runtime.Environments.AsteroidMaker.html#StormHawks_Runtime_Environments_AsteroidMaker_HeightValue
-  commentId: F:StormHawks.Runtime.Environments.AsteroidMaker.HeightValue
-  fullName: StormHawks.Runtime.Environments.AsteroidMaker.HeightValue
-  nameWithType: AsteroidMaker.HeightValue
-- uid: StormHawks.Runtime.Environments.AsteroidMaker.MaxRadius
-  name: MaxRadius
-  href: api/StormHawks.Runtime.Environments.AsteroidMaker.html#StormHawks_Runtime_Environments_AsteroidMaker_MaxRadius
-  commentId: F:StormHawks.Runtime.Environments.AsteroidMaker.MaxRadius
-  fullName: StormHawks.Runtime.Environments.AsteroidMaker.MaxRadius
-  nameWithType: AsteroidMaker.MaxRadius
-- uid: StormHawks.Runtime.Environments.AsteroidMaker.MinRadius
-  name: MinRadius
-  href: api/StormHawks.Runtime.Environments.AsteroidMaker.html#StormHawks_Runtime_Environments_AsteroidMaker_MinRadius
-  commentId: F:StormHawks.Runtime.Environments.AsteroidMaker.MinRadius
-  fullName: StormHawks.Runtime.Environments.AsteroidMaker.MinRadius
-  nameWithType: AsteroidMaker.MinRadius
 - uid: StormHawks.Runtime.Environments.AsteroidParent
   name: AsteroidParent
   href: api/StormHawks.Runtime.Environments.AsteroidParent.html
   commentId: T:StormHawks.Runtime.Environments.AsteroidParent
   fullName: StormHawks.Runtime.Environments.AsteroidParent
   nameWithType: AsteroidParent
-- uid: StormHawks.Runtime.Environments.AsteroidPhysicalBody
+- uid: StormHawks.Runtime.Environments.Asteroids
+  name: StormHawks.Runtime.Environments.Asteroids
+  href: api/StormHawks.Runtime.Environments.Asteroids.html
+  commentId: N:StormHawks.Runtime.Environments.Asteroids
+  fullName: StormHawks.Runtime.Environments.Asteroids
+  nameWithType: StormHawks.Runtime.Environments.Asteroids
+- uid: StormHawks.Runtime.Environments.Asteroids.AsteroidData
+  name: AsteroidData
+  href: api/StormHawks.Runtime.Environments.Asteroids.AsteroidData.html
+  commentId: T:StormHawks.Runtime.Environments.Asteroids.AsteroidData
+  fullName: StormHawks.Runtime.Environments.Asteroids.AsteroidData
+  nameWithType: AsteroidData
+- uid: StormHawks.Runtime.Environments.Asteroids.AsteroidData.#ctor(Vector3,System.Single)
+  name: AsteroidData(Vector3, Single)
+  href: api/StormHawks.Runtime.Environments.Asteroids.AsteroidData.html#StormHawks_Runtime_Environments_Asteroids_AsteroidData__ctor_Vector3_System_Single_
+  commentId: M:StormHawks.Runtime.Environments.Asteroids.AsteroidData.#ctor(Vector3,System.Single)
+  fullName: StormHawks.Runtime.Environments.Asteroids.AsteroidData.AsteroidData(Vector3, System.Single)
+  nameWithType: AsteroidData.AsteroidData(Vector3, Single)
+- uid: StormHawks.Runtime.Environments.Asteroids.AsteroidData.#ctor*
+  name: AsteroidData
+  href: api/StormHawks.Runtime.Environments.Asteroids.AsteroidData.html#StormHawks_Runtime_Environments_Asteroids_AsteroidData__ctor_
+  commentId: Overload:StormHawks.Runtime.Environments.Asteroids.AsteroidData.#ctor
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Environments.Asteroids.AsteroidData.AsteroidData
+  nameWithType: AsteroidData.AsteroidData
+- uid: StormHawks.Runtime.Environments.Asteroids.AsteroidData.PhysicalBody
+  name: PhysicalBody
+  href: api/StormHawks.Runtime.Environments.Asteroids.AsteroidData.html#StormHawks_Runtime_Environments_Asteroids_AsteroidData_PhysicalBody
+  commentId: F:StormHawks.Runtime.Environments.Asteroids.AsteroidData.PhysicalBody
+  fullName: StormHawks.Runtime.Environments.Asteroids.AsteroidData.PhysicalBody
+  nameWithType: AsteroidData.PhysicalBody
+- uid: StormHawks.Runtime.Environments.Asteroids.AsteroidData.PhysicalBodyWorldMatrix
+  name: PhysicalBodyWorldMatrix()
+  href: api/StormHawks.Runtime.Environments.Asteroids.AsteroidData.html#StormHawks_Runtime_Environments_Asteroids_AsteroidData_PhysicalBodyWorldMatrix
+  commentId: M:StormHawks.Runtime.Environments.Asteroids.AsteroidData.PhysicalBodyWorldMatrix
+  fullName: StormHawks.Runtime.Environments.Asteroids.AsteroidData.PhysicalBodyWorldMatrix()
+  nameWithType: AsteroidData.PhysicalBodyWorldMatrix()
+- uid: StormHawks.Runtime.Environments.Asteroids.AsteroidData.PhysicalBodyWorldMatrix*
+  name: PhysicalBodyWorldMatrix
+  href: api/StormHawks.Runtime.Environments.Asteroids.AsteroidData.html#StormHawks_Runtime_Environments_Asteroids_AsteroidData_PhysicalBodyWorldMatrix_
+  commentId: Overload:StormHawks.Runtime.Environments.Asteroids.AsteroidData.PhysicalBodyWorldMatrix
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Environments.Asteroids.AsteroidData.PhysicalBodyWorldMatrix
+  nameWithType: AsteroidData.PhysicalBodyWorldMatrix
+- uid: StormHawks.Runtime.Environments.Asteroids.AsteroidData.Position
+  name: Position
+  href: api/StormHawks.Runtime.Environments.Asteroids.AsteroidData.html#StormHawks_Runtime_Environments_Asteroids_AsteroidData_Position
+  commentId: F:StormHawks.Runtime.Environments.Asteroids.AsteroidData.Position
+  fullName: StormHawks.Runtime.Environments.Asteroids.AsteroidData.Position
+  nameWithType: AsteroidData.Position
+- uid: StormHawks.Runtime.Environments.Asteroids.AsteroidData.Radius
+  name: Radius
+  href: api/StormHawks.Runtime.Environments.Asteroids.AsteroidData.html#StormHawks_Runtime_Environments_Asteroids_AsteroidData_Radius
+  commentId: P:StormHawks.Runtime.Environments.Asteroids.AsteroidData.Radius
+  fullName: StormHawks.Runtime.Environments.Asteroids.AsteroidData.Radius
+  nameWithType: AsteroidData.Radius
+- uid: StormHawks.Runtime.Environments.Asteroids.AsteroidData.Radius*
+  name: Radius
+  href: api/StormHawks.Runtime.Environments.Asteroids.AsteroidData.html#StormHawks_Runtime_Environments_Asteroids_AsteroidData_Radius_
+  commentId: Overload:StormHawks.Runtime.Environments.Asteroids.AsteroidData.Radius
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Environments.Asteroids.AsteroidData.Radius
+  nameWithType: AsteroidData.Radius
+- uid: StormHawks.Runtime.Environments.Asteroids.AsteroidMaker
+  name: AsteroidMaker
+  href: api/StormHawks.Runtime.Environments.Asteroids.AsteroidMaker.html
+  commentId: T:StormHawks.Runtime.Environments.Asteroids.AsteroidMaker
+  fullName: StormHawks.Runtime.Environments.Asteroids.AsteroidMaker
+  nameWithType: AsteroidMaker
+- uid: StormHawks.Runtime.Environments.Asteroids.AsteroidMaker.HeightValue
+  name: HeightValue
+  href: api/StormHawks.Runtime.Environments.Asteroids.AsteroidMaker.html#StormHawks_Runtime_Environments_Asteroids_AsteroidMaker_HeightValue
+  commentId: F:StormHawks.Runtime.Environments.Asteroids.AsteroidMaker.HeightValue
+  fullName: StormHawks.Runtime.Environments.Asteroids.AsteroidMaker.HeightValue
+  nameWithType: AsteroidMaker.HeightValue
+- uid: StormHawks.Runtime.Environments.Asteroids.AsteroidMaker.MaxRadius
+  name: MaxRadius
+  href: api/StormHawks.Runtime.Environments.Asteroids.AsteroidMaker.html#StormHawks_Runtime_Environments_Asteroids_AsteroidMaker_MaxRadius
+  commentId: F:StormHawks.Runtime.Environments.Asteroids.AsteroidMaker.MaxRadius
+  fullName: StormHawks.Runtime.Environments.Asteroids.AsteroidMaker.MaxRadius
+  nameWithType: AsteroidMaker.MaxRadius
+- uid: StormHawks.Runtime.Environments.Asteroids.AsteroidMaker.MinRadius
+  name: MinRadius
+  href: api/StormHawks.Runtime.Environments.Asteroids.AsteroidMaker.html#StormHawks_Runtime_Environments_Asteroids_AsteroidMaker_MinRadius
+  commentId: F:StormHawks.Runtime.Environments.Asteroids.AsteroidMaker.MinRadius
+  fullName: StormHawks.Runtime.Environments.Asteroids.AsteroidMaker.MinRadius
+  nameWithType: AsteroidMaker.MinRadius
+- uid: StormHawks.Runtime.Environments.Asteroids.AsteroidPhysicalBody
   name: AsteroidPhysicalBody
-  href: api/StormHawks.Runtime.Environments.AsteroidPhysicalBody.html
-  commentId: T:StormHawks.Runtime.Environments.AsteroidPhysicalBody
-  fullName: StormHawks.Runtime.Environments.AsteroidPhysicalBody
+  href: api/StormHawks.Runtime.Environments.Asteroids.AsteroidPhysicalBody.html
+  commentId: T:StormHawks.Runtime.Environments.Asteroids.AsteroidPhysicalBody
+  fullName: StormHawks.Runtime.Environments.Asteroids.AsteroidPhysicalBody
   nameWithType: AsteroidPhysicalBody
-- uid: StormHawks.Runtime.Environments.AsteroidPhysicalBody._maxSize
+- uid: StormHawks.Runtime.Environments.Asteroids.AsteroidPhysicalBody._maxSize
   name: _maxSize
-  href: api/StormHawks.Runtime.Environments.AsteroidPhysicalBody.html#StormHawks_Runtime_Environments_AsteroidPhysicalBody__maxSize
-  commentId: F:StormHawks.Runtime.Environments.AsteroidPhysicalBody._maxSize
-  fullName: StormHawks.Runtime.Environments.AsteroidPhysicalBody._maxSize
+  href: api/StormHawks.Runtime.Environments.Asteroids.AsteroidPhysicalBody.html#StormHawks_Runtime_Environments_Asteroids_AsteroidPhysicalBody__maxSize
+  commentId: F:StormHawks.Runtime.Environments.Asteroids.AsteroidPhysicalBody._maxSize
+  fullName: StormHawks.Runtime.Environments.Asteroids.AsteroidPhysicalBody._maxSize
   nameWithType: AsteroidPhysicalBody._maxSize
-- uid: StormHawks.Runtime.Environments.AsteroidPhysicalBody._minSize
+- uid: StormHawks.Runtime.Environments.Asteroids.AsteroidPhysicalBody._minSize
   name: _minSize
-  href: api/StormHawks.Runtime.Environments.AsteroidPhysicalBody.html#StormHawks_Runtime_Environments_AsteroidPhysicalBody__minSize
-  commentId: F:StormHawks.Runtime.Environments.AsteroidPhysicalBody._minSize
-  fullName: StormHawks.Runtime.Environments.AsteroidPhysicalBody._minSize
+  href: api/StormHawks.Runtime.Environments.Asteroids.AsteroidPhysicalBody.html#StormHawks_Runtime_Environments_Asteroids_AsteroidPhysicalBody__minSize
+  commentId: F:StormHawks.Runtime.Environments.Asteroids.AsteroidPhysicalBody._minSize
+  fullName: StormHawks.Runtime.Environments.Asteroids.AsteroidPhysicalBody._minSize
   nameWithType: AsteroidPhysicalBody._minSize
-- uid: StormHawks.Runtime.Environments.AsteroidPhysicalBody.OnRelease
+- uid: StormHawks.Runtime.Environments.Asteroids.AsteroidPhysicalBody.OnRelease
   name: OnRelease()
-  href: api/StormHawks.Runtime.Environments.AsteroidPhysicalBody.html#StormHawks_Runtime_Environments_AsteroidPhysicalBody_OnRelease
-  commentId: M:StormHawks.Runtime.Environments.AsteroidPhysicalBody.OnRelease
-  fullName: StormHawks.Runtime.Environments.AsteroidPhysicalBody.OnRelease()
+  href: api/StormHawks.Runtime.Environments.Asteroids.AsteroidPhysicalBody.html#StormHawks_Runtime_Environments_Asteroids_AsteroidPhysicalBody_OnRelease
+  commentId: M:StormHawks.Runtime.Environments.Asteroids.AsteroidPhysicalBody.OnRelease
+  fullName: StormHawks.Runtime.Environments.Asteroids.AsteroidPhysicalBody.OnRelease()
   nameWithType: AsteroidPhysicalBody.OnRelease()
-- uid: StormHawks.Runtime.Environments.AsteroidPhysicalBody.OnRelease*
+- uid: StormHawks.Runtime.Environments.Asteroids.AsteroidPhysicalBody.OnRelease*
   name: OnRelease
-  href: api/StormHawks.Runtime.Environments.AsteroidPhysicalBody.html#StormHawks_Runtime_Environments_AsteroidPhysicalBody_OnRelease_
-  commentId: Overload:StormHawks.Runtime.Environments.AsteroidPhysicalBody.OnRelease
+  href: api/StormHawks.Runtime.Environments.Asteroids.AsteroidPhysicalBody.html#StormHawks_Runtime_Environments_Asteroids_AsteroidPhysicalBody_OnRelease_
+  commentId: Overload:StormHawks.Runtime.Environments.Asteroids.AsteroidPhysicalBody.OnRelease
   isSpec: "True"
-  fullName: StormHawks.Runtime.Environments.AsteroidPhysicalBody.OnRelease
+  fullName: StormHawks.Runtime.Environments.Asteroids.AsteroidPhysicalBody.OnRelease
   nameWithType: AsteroidPhysicalBody.OnRelease
-- uid: StormHawks.Runtime.Environments.AsteroidPhysicalBody.OnSpawn
+- uid: StormHawks.Runtime.Environments.Asteroids.AsteroidPhysicalBody.OnSpawn
   name: OnSpawn()
-  href: api/StormHawks.Runtime.Environments.AsteroidPhysicalBody.html#StormHawks_Runtime_Environments_AsteroidPhysicalBody_OnSpawn
-  commentId: M:StormHawks.Runtime.Environments.AsteroidPhysicalBody.OnSpawn
-  fullName: StormHawks.Runtime.Environments.AsteroidPhysicalBody.OnSpawn()
+  href: api/StormHawks.Runtime.Environments.Asteroids.AsteroidPhysicalBody.html#StormHawks_Runtime_Environments_Asteroids_AsteroidPhysicalBody_OnSpawn
+  commentId: M:StormHawks.Runtime.Environments.Asteroids.AsteroidPhysicalBody.OnSpawn
+  fullName: StormHawks.Runtime.Environments.Asteroids.AsteroidPhysicalBody.OnSpawn()
   nameWithType: AsteroidPhysicalBody.OnSpawn()
-- uid: StormHawks.Runtime.Environments.AsteroidPhysicalBody.OnSpawn*
+- uid: StormHawks.Runtime.Environments.Asteroids.AsteroidPhysicalBody.OnSpawn*
   name: OnSpawn
-  href: api/StormHawks.Runtime.Environments.AsteroidPhysicalBody.html#StormHawks_Runtime_Environments_AsteroidPhysicalBody_OnSpawn_
-  commentId: Overload:StormHawks.Runtime.Environments.AsteroidPhysicalBody.OnSpawn
+  href: api/StormHawks.Runtime.Environments.Asteroids.AsteroidPhysicalBody.html#StormHawks_Runtime_Environments_Asteroids_AsteroidPhysicalBody_OnSpawn_
+  commentId: Overload:StormHawks.Runtime.Environments.Asteroids.AsteroidPhysicalBody.OnSpawn
   isSpec: "True"
-  fullName: StormHawks.Runtime.Environments.AsteroidPhysicalBody.OnSpawn
+  fullName: StormHawks.Runtime.Environments.Asteroids.AsteroidPhysicalBody.OnSpawn
   nameWithType: AsteroidPhysicalBody.OnSpawn
-- uid: StormHawks.Runtime.Environments.AsteroidPhysicalBody.Pool
+- uid: StormHawks.Runtime.Environments.Asteroids.AsteroidPhysicalBody.Pool
   name: Pool
-  href: api/StormHawks.Runtime.Environments.AsteroidPhysicalBody.html#StormHawks_Runtime_Environments_AsteroidPhysicalBody_Pool
-  commentId: P:StormHawks.Runtime.Environments.AsteroidPhysicalBody.Pool
-  fullName: StormHawks.Runtime.Environments.AsteroidPhysicalBody.Pool
+  href: api/StormHawks.Runtime.Environments.Asteroids.AsteroidPhysicalBody.html#StormHawks_Runtime_Environments_Asteroids_AsteroidPhysicalBody_Pool
+  commentId: P:StormHawks.Runtime.Environments.Asteroids.AsteroidPhysicalBody.Pool
+  fullName: StormHawks.Runtime.Environments.Asteroids.AsteroidPhysicalBody.Pool
   nameWithType: AsteroidPhysicalBody.Pool
-- uid: StormHawks.Runtime.Environments.AsteroidPhysicalBody.Pool*
+- uid: StormHawks.Runtime.Environments.Asteroids.AsteroidPhysicalBody.Pool*
   name: Pool
-  href: api/StormHawks.Runtime.Environments.AsteroidPhysicalBody.html#StormHawks_Runtime_Environments_AsteroidPhysicalBody_Pool_
-  commentId: Overload:StormHawks.Runtime.Environments.AsteroidPhysicalBody.Pool
+  href: api/StormHawks.Runtime.Environments.Asteroids.AsteroidPhysicalBody.html#StormHawks_Runtime_Environments_Asteroids_AsteroidPhysicalBody_Pool_
+  commentId: Overload:StormHawks.Runtime.Environments.Asteroids.AsteroidPhysicalBody.Pool
   isSpec: "True"
-  fullName: StormHawks.Runtime.Environments.AsteroidPhysicalBody.Pool
+  fullName: StormHawks.Runtime.Environments.Asteroids.AsteroidPhysicalBody.Pool
   nameWithType: AsteroidPhysicalBody.Pool
 - uid: StormHawks.Runtime.Environments.EliteEnemyPath
   name: EliteEnemyPath
@@ -17587,18 +17570,12 @@ references:
   commentId: N:StormHawks.Runtime.Utilities.BehaviorTree
   fullName: StormHawks.Runtime.Utilities.BehaviorTree
   nameWithType: StormHawks.Runtime.Utilities.BehaviorTree
-- uid: StormHawks.Runtime.Utilities.BehaviorTree.BossEntityKey
-  name: BossEntityKey
-  href: api/StormHawks.Runtime.Utilities.BehaviorTree.BossEntityKey.html
-  commentId: T:StormHawks.Runtime.Utilities.BehaviorTree.BossEntityKey
-  fullName: StormHawks.Runtime.Utilities.BehaviorTree.BossEntityKey
-  nameWithType: BossEntityKey
-- uid: StormHawks.Runtime.Utilities.BehaviorTree.BossLaserWeaponSetKey
-  name: BossLaserWeaponSetKey
-  href: api/StormHawks.Runtime.Utilities.BehaviorTree.BossLaserWeaponSetKey.html
-  commentId: T:StormHawks.Runtime.Utilities.BehaviorTree.BossLaserWeaponSetKey
-  fullName: StormHawks.Runtime.Utilities.BehaviorTree.BossLaserWeaponSetKey
-  nameWithType: BossLaserWeaponSetKey
+- uid: StormHawks.Runtime.Utilities.BehaviorTree.BossLaserWeaponMakerKey
+  name: BossLaserWeaponMakerKey
+  href: api/StormHawks.Runtime.Utilities.BehaviorTree.BossLaserWeaponMakerKey.html
+  commentId: T:StormHawks.Runtime.Utilities.BehaviorTree.BossLaserWeaponMakerKey
+  fullName: StormHawks.Runtime.Utilities.BehaviorTree.BossLaserWeaponMakerKey
+  nameWithType: BossLaserWeaponMakerKey
 - uid: StormHawks.Runtime.Utilities.BehaviorTree.BossRibcageAreaKey
   name: BossRibcageAreaKey
   href: api/StormHawks.Runtime.Utilities.BehaviorTree.BossRibcageAreaKey.html
@@ -17916,6 +17893,56 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BladeLaserToPlayer.OnRun
   nameWithType: BladeLaserToPlayer.OnRun
+- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions
+  name: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions
+  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.html
+  commentId: N:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions
+  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions
+  nameWithType: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions
+- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.BossAction
+  name: BossAction
+  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.BossAction.html
+  commentId: T:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.BossAction
+  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.BossAction
+  nameWithType: BossAction
+- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.BossAction._bossEntity
+  name: _bossEntity
+  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.BossAction.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_BossActions_BossAction__bossEntity
+  commentId: F:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.BossAction._bossEntity
+  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.BossAction._bossEntity
+  nameWithType: BossAction._bossEntity
+- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.BossAction.OnEnter
+  name: OnEnter()
+  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.BossAction.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_BossActions_BossAction_OnEnter
+  commentId: M:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.BossAction.OnEnter
+  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.BossAction.OnEnter()
+  nameWithType: BossAction.OnEnter()
+- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.BossAction.OnEnter*
+  name: OnEnter
+  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.BossAction.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_BossActions_BossAction_OnEnter_
+  commentId: Overload:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.BossAction.OnEnter
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.BossAction.OnEnter
+  nameWithType: BossAction.OnEnter
+- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.OrbitRotateAround
+  name: OrbitRotateAround
+  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.OrbitRotateAround.html
+  commentId: T:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.OrbitRotateAround
+  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.OrbitRotateAround
+  nameWithType: OrbitRotateAround
+- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.OrbitRotateAround.OnRun
+  name: OnRun()
+  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.OrbitRotateAround.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_BossActions_OrbitRotateAround_OnRun
+  commentId: M:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.OrbitRotateAround.OnRun
+  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.OrbitRotateAround.OnRun()
+  nameWithType: OrbitRotateAround.OnRun()
+- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.OrbitRotateAround.OnRun*
+  name: OnRun
+  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.OrbitRotateAround.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_BossActions_OrbitRotateAround_OnRun_
+  commentId: Overload:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.OrbitRotateAround.OnRun
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.OrbitRotateAround.OnRun
+  nameWithType: OrbitRotateAround.OnRun
 - uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossFlushBody
   name: BossFlushBody
   href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossFlushBody.html
@@ -19663,38 +19690,6 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SetBoolProperty.OnRun
   nameWithType: SetBoolProperty.OnRun
-- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SetBossPhaseState
-  name: SetBossPhaseState
-  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SetBossPhaseState.html
-  commentId: T:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SetBossPhaseState
-  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SetBossPhaseState
-  nameWithType: SetBossPhaseState
-- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SetBossPhaseState.OnEnter
-  name: OnEnter()
-  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SetBossPhaseState.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_SetBossPhaseState_OnEnter
-  commentId: M:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SetBossPhaseState.OnEnter
-  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SetBossPhaseState.OnEnter()
-  nameWithType: SetBossPhaseState.OnEnter()
-- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SetBossPhaseState.OnEnter*
-  name: OnEnter
-  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SetBossPhaseState.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_SetBossPhaseState_OnEnter_
-  commentId: Overload:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SetBossPhaseState.OnEnter
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SetBossPhaseState.OnEnter
-  nameWithType: SetBossPhaseState.OnEnter
-- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SetBossPhaseState.OnRun
-  name: OnRun()
-  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SetBossPhaseState.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_SetBossPhaseState_OnRun
-  commentId: M:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SetBossPhaseState.OnRun
-  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SetBossPhaseState.OnRun()
-  nameWithType: SetBossPhaseState.OnRun()
-- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SetBossPhaseState.OnRun*
-  name: OnRun
-  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SetBossPhaseState.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_SetBossPhaseState_OnRun_
-  commentId: Overload:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SetBossPhaseState.OnRun
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SetBossPhaseState.OnRun
-  nameWithType: SetBossPhaseState.OnRun
 - uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SetFloatProperty
   name: SetFloatProperty
   href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SetFloatProperty.html
@@ -20769,38 +20764,6 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsReturning.Condition
   nameWithType: IsReturning.Condition
-- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.NotEqualsBossPhaseState
-  name: NotEqualsBossPhaseState
-  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.NotEqualsBossPhaseState.html
-  commentId: T:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.NotEqualsBossPhaseState
-  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.NotEqualsBossPhaseState
-  nameWithType: NotEqualsBossPhaseState
-- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.NotEqualsBossPhaseState.Condition
-  name: Condition()
-  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.NotEqualsBossPhaseState.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Conditionals_NotEqualsBossPhaseState_Condition
-  commentId: M:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.NotEqualsBossPhaseState.Condition
-  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.NotEqualsBossPhaseState.Condition()
-  nameWithType: NotEqualsBossPhaseState.Condition()
-- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.NotEqualsBossPhaseState.Condition*
-  name: Condition
-  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.NotEqualsBossPhaseState.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Conditionals_NotEqualsBossPhaseState_Condition_
-  commentId: Overload:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.NotEqualsBossPhaseState.Condition
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.NotEqualsBossPhaseState.Condition
-  nameWithType: NotEqualsBossPhaseState.Condition
-- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.NotEqualsBossPhaseState.OnEnter
-  name: OnEnter()
-  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.NotEqualsBossPhaseState.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Conditionals_NotEqualsBossPhaseState_OnEnter
-  commentId: M:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.NotEqualsBossPhaseState.OnEnter
-  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.NotEqualsBossPhaseState.OnEnter()
-  nameWithType: NotEqualsBossPhaseState.OnEnter()
-- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.NotEqualsBossPhaseState.OnEnter*
-  name: OnEnter
-  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.NotEqualsBossPhaseState.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Conditionals_NotEqualsBossPhaseState_OnEnter_
-  commentId: Overload:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.NotEqualsBossPhaseState.OnEnter
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.NotEqualsBossPhaseState.OnEnter
-  nameWithType: NotEqualsBossPhaseState.OnEnter
 - uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Decorators
   name: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Decorators
   href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Decorators.html

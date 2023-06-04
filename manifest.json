@@ -1804,7 +1804,7 @@
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.html",
-          "hash": "NHYsxeO+U1QjD/Zxo5EdkvLbY3oYDV4cne9Q28YKyjc="
+          "hash": "wbZUH/LnrboDPWAYclzXDD7cVieh81e3BzWxoqtiLow="
         }
       },
       "is_incremental": false,
@@ -1817,18 +1817,6 @@
         ".html": {
           "relative_path": "api/StormHawks.Runtime.Entities.Enemies.Boss.BossEyeRotator.html",
           "hash": "MkLijSJvOkZGT+4WjKBlr+oSng2I4uiEO95AxAHRQc8="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/StormHawks.Runtime.Entities.Enemies.Boss.BossPhaseState.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/StormHawks.Runtime.Entities.Enemies.Boss.BossPhaseState.html",
-          "hash": "I1BQVrbcdSmWZwQQjTMpwhEVWMVgStZuMqQRUyEg0WU="
         }
       },
       "is_incremental": false,
@@ -1864,7 +1852,7 @@
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.Entities.Enemies.Boss.html",
-          "hash": "70C5NdG6GycgE/bGbJf3aiBdMuLJQXk52jU6LCywtUo="
+          "hash": "09ugGOgXUsKBpsXOr+FbPf1jwE6SCXcpVquzjbAYJSk="
         }
       },
       "is_incremental": false,
@@ -2580,11 +2568,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StormHawks.Runtime.Entities.Weapons.BossLaserWeaponSet.yml",
+      "source_relative_path": "api/StormHawks.Runtime.Entities.Weapons.BossLaserWeaponMaker.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StormHawks.Runtime.Entities.Weapons.BossLaserWeaponSet.html",
-          "hash": "C0/nUVeA+WzV6p8+vtilzCmSSIPIV1gQRsrQspgWw2s="
+          "relative_path": "api/StormHawks.Runtime.Entities.Weapons.BossLaserWeaponMaker.html",
+          "hash": "yi2Z5eGoaJkt4W8SwqaZJFLz3JwNIXIJx9HLP+1bPVU="
         }
       },
       "is_incremental": false,
@@ -2620,7 +2608,7 @@
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.Entities.Weapons.EntityLaserWeapon.html",
-          "hash": "Nh/7sNSsyVlB2xJKym87Tw4v70cI4ujFAzwViqJsPhM="
+          "hash": "QWEByfZ157s0talqmsX1mOQ/9RfvdqxZXk1cuaQ6vTo="
         }
       },
       "is_incremental": false,
@@ -2704,7 +2692,7 @@
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.Entities.Weapons.LaserWeaponContext.html",
-          "hash": "OHBFgEF8FCfGYbyyLZPRQNMhZ3VTCytTFp1p57QCvM8="
+          "hash": "4c2mnIZklavQYCsgS/kWi3ZY0P6315BwuzaDasYsMIU="
         }
       },
       "is_incremental": false,
@@ -2740,7 +2728,7 @@
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.Entities.Weapons.html",
-          "hash": "JdEXUJ8Ni1T+8TVFRwuFo7RPaBUydyO92SAumZJ/vwQ="
+          "hash": "qFBRtsVq2IUK8c1/yveKlhUttu5XQaA8nWmUB3wbxnM="
         }
       },
       "is_incremental": false,
@@ -2760,30 +2748,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StormHawks.Runtime.Environments.AsteroidData.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/StormHawks.Runtime.Environments.AsteroidData.html",
-          "hash": "mZvscNmSQz31DlDXYXo/7zgczRndTZ/eBMmxiZfw2Ho="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/StormHawks.Runtime.Environments.AsteroidMaker.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/StormHawks.Runtime.Environments.AsteroidMaker.html",
-          "hash": "7oR0tsU5aQ8OdWnCafK5sQXLvgVpnjR+OQ1wViEQz/g="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/StormHawks.Runtime.Environments.AsteroidParent.yml",
       "output": {
         ".html": {
@@ -2796,11 +2760,47 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StormHawks.Runtime.Environments.AsteroidPhysicalBody.yml",
+      "source_relative_path": "api/StormHawks.Runtime.Environments.Asteroids.AsteroidData.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StormHawks.Runtime.Environments.AsteroidPhysicalBody.html",
-          "hash": "HoTS1wQvEJB01df8iIX/dzwXMljtB+rtjM5axAnzd9o="
+          "relative_path": "api/StormHawks.Runtime.Environments.Asteroids.AsteroidData.html",
+          "hash": "WPo1UyHAcpYNWeJDXQ8O7ixepDvov6FOJD9UXCojpTY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/StormHawks.Runtime.Environments.Asteroids.AsteroidMaker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StormHawks.Runtime.Environments.Asteroids.AsteroidMaker.html",
+          "hash": "2uFBzjvvdNVsimK1FEqzs/M5ot34OmMNMwPkjI+VG84="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/StormHawks.Runtime.Environments.Asteroids.AsteroidPhysicalBody.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StormHawks.Runtime.Environments.Asteroids.AsteroidPhysicalBody.html",
+          "hash": "VCw+C7tzQJiM51YQycWjN7AFpm2w3z/zlwrDEMMkcBY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/StormHawks.Runtime.Environments.Asteroids.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StormHawks.Runtime.Environments.Asteroids.html",
+          "hash": "lgvsZZCYw4i4nPS7r0d6u4iy1Eh1XJJDP6q2M4JKEIA="
         }
       },
       "is_incremental": false,
@@ -2896,7 +2896,7 @@
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.Environments.html",
-          "hash": "+GKq5pE6zzZWeZhOumgSx7fzhUKe5c8Fv/MWPrh048o="
+          "hash": "t0Cyv1u/EAW5aP69zOb2QPKadxb9jNtTza42VltS0xE="
         }
       },
       "is_incremental": false,
@@ -4440,23 +4440,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StormHawks.Runtime.Utilities.BehaviorTree.BossEntityKey.yml",
+      "source_relative_path": "api/StormHawks.Runtime.Utilities.BehaviorTree.BossLaserWeaponMakerKey.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StormHawks.Runtime.Utilities.BehaviorTree.BossEntityKey.html",
-          "hash": "o953AlJ70YVIB4K2YmDMP8csEuSoGk5Zl9AfdAmWv80="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/StormHawks.Runtime.Utilities.BehaviorTree.BossLaserWeaponSetKey.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/StormHawks.Runtime.Utilities.BehaviorTree.BossLaserWeaponSetKey.html",
-          "hash": "CMalynW7Trw3vLtuZcHmJEdKnSE7IprhZJDNv+ok1EI="
+          "relative_path": "api/StormHawks.Runtime.Utilities.BehaviorTree.BossLaserWeaponMakerKey.html",
+          "hash": "hVHFP1vwgaU9bCh1fjGPz9iKEM+DfTZqV6QvGGEtli4="
         }
       },
       "is_incremental": false,
@@ -4644,6 +4632,42 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.BossAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.BossAction.html",
+          "hash": "51XXUsPs7uKj23IM3cxjmf61Hkh3VShfYRrCOI7Yyns="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.OrbitRotateAround.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.OrbitRotateAround.html",
+          "hash": "7TX8nFvxHPAIEfiXzy1Rc9dyrmgRTbtdwPP82uBY7IY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.html",
+          "hash": "oW5t0tOtAP7SrgM8HMmVD0r2JaPt0Ulcz7s9KiCFm9g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossFlushBody.yml",
       "output": {
         ".html": {
@@ -4732,7 +4756,7 @@
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EntityActionNode.html",
-          "hash": "Dzv0TucmVTFa9UdtEGE1EQogLp2EcEumVJDxvvECk1A="
+          "hash": "rCvLd4Xh+2Kj8V7/yE1p6BwGg6XGw0eIIDU5t1RffkY="
         }
       },
       "is_incremental": false,
@@ -5244,18 +5268,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SetBossPhaseState.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SetBossPhaseState.html",
-          "hash": "wkPonE0JBo3TwGyuzPMuifRglD816DBnqFy1lJtevGE="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SetFloatProperty.yml",
       "output": {
         ".html": {
@@ -5368,7 +5380,7 @@
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.html",
-          "hash": "pIhyn3LvqQck64Rkhm058LI6ehpgs5xmKVGg1vtw1NE="
+          "hash": "Twx4s3yKxl1oW904JtCys3PQpBoZpxXqP+7GukXLHi8="
         }
       },
       "is_incremental": false,
@@ -5808,23 +5820,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.NotEqualsBossPhaseState.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.NotEqualsBossPhaseState.html",
-          "hash": "zwc2mEMhaNBeRF01FbLrO6Yh2pIFmrPmFrfLluNsyiY="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.yml",
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.html",
-          "hash": "A84eNAlqAm2674A6iWW/fLM80ZlZX4Gl7eB2CSJ1nsw="
+          "hash": "0hlNMHYtk/MoBiRg9Xa8/1WX5gUG3pSc5u+8LE0vZ9w="
         }
       },
       "is_incremental": false,
@@ -5908,7 +5908,7 @@
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.Utilities.BehaviorTree.html",
-          "hash": "Xw8oTBsfhgvyMLwgKz/UNgt1AV2eG/QVRSeynTFpXc4="
+          "hash": "7YM3Otkq+dladriJH0zef0mAVIGwuNfQsFQ1fZ6poxs="
         }
       },
       "is_incremental": false,
@@ -6784,7 +6784,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "loCaiQbEAeCIbxG0Yhxy2NJmYHTmBYEmy6DUI28+t3M="
+          "hash": "9aruuH2iFYQBUyEMJvOqSMo98qLbky6MdJq1P3l4rPA="
         }
       },
       "is_incremental": false,
@@ -6811,7 +6811,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/behaviorTree-management.html",
-          "hash": "A2mnl0IojYm8u/0KJefkxg9XGFbGdBUaT6wBViuUA3s="
+          "hash": "jFscTZUXR7VEX5kwKYFGdJdlvdmeKDgTcn6Xl8ruLvc="
         }
       },
       "is_incremental": false,
@@ -6823,7 +6823,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/formatting-code.html",
-          "hash": "8a+tRgRfhvRsWzPZjNQDxOVIuTlecE3x7VxzRqUsyvg="
+          "hash": "pc8a1WE2pImLftrohc3AOXVOdUhAZqM/PnK5eBW8zGU="
         }
       },
       "is_incremental": false,

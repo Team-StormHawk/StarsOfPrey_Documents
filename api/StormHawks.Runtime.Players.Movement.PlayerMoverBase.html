@@ -92,10 +92,6 @@
       <div class="level2"><a class="xref" href="StormHawks.Runtime.Players.Movement.Chasing.PlayerChaseMover.html">PlayerChaseMover</a></div>
       <div class="level2"><a class="xref" href="StormHawks.Runtime.Players.Movement.Flight.PlayerFlightMover.html">PlayerFlightMover</a></div>
   </div>
-  <div class="implements">
-    <h5>Implements</h5>
-    <div><span class="xref">IPlayerMovement</span></div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Players.Movement.html">StormHawks.Runtime.Players.Movement</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="StormHawks_Runtime_Players_Movement_PlayerMoverBase_syntax">Syntax</h5>
@@ -106,41 +102,14 @@
   </h3>
   
   
-  <h4 id="StormHawks_Runtime_Players_Movement_PlayerMoverBase_ThrustSoundInstance" data-uid="StormHawks.Runtime.Players.Movement.PlayerMoverBase.ThrustSoundInstance">ThrustSoundInstance</h4>
+  <h4 id="StormHawks_Runtime_Players_Movement_PlayerMoverBase_controlHandler" data-uid="StormHawks.Runtime.Players.Movement.PlayerMoverBase.controlHandler">controlHandler</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected EventInstance ThrustSoundInstance</code></pre>
+    <pre><code class="lang-csharp hljs">protected PlayerControlHandler controlHandler</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">EventInstance</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="properties">Properties
-  </h3>
-  
-  
-  <a id="StormHawks_Runtime_Players_Movement_PlayerMoverBase_ControlHandler_" data-uid="StormHawks.Runtime.Players.Movement.PlayerMoverBase.ControlHandler*"></a>
-  <h4 id="StormHawks_Runtime_Players_Movement_PlayerMoverBase_ControlHandler" data-uid="StormHawks.Runtime.Players.Movement.PlayerMoverBase.ControlHandler">ControlHandler</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected PlayerControlHandler ControlHandler { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -157,15 +126,14 @@
   </table>
   
   
-  <a id="StormHawks_Runtime_Players_Movement_PlayerMoverBase_PlayerRigidbody_" data-uid="StormHawks.Runtime.Players.Movement.PlayerMoverBase.PlayerRigidbody*"></a>
   <h4 id="StormHawks_Runtime_Players_Movement_PlayerMoverBase_PlayerRigidbody" data-uid="StormHawks.Runtime.Players.Movement.PlayerMoverBase.PlayerRigidbody">PlayerRigidbody</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected Rigidbody PlayerRigidbody { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">protected Rigidbody PlayerRigidbody</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -182,15 +150,14 @@
   </table>
   
   
-  <a id="StormHawks_Runtime_Players_Movement_PlayerMoverBase_Thrust_" data-uid="StormHawks.Runtime.Players.Movement.PlayerMoverBase.Thrust*"></a>
-  <h4 id="StormHawks_Runtime_Players_Movement_PlayerMoverBase_Thrust" data-uid="StormHawks.Runtime.Players.Movement.PlayerMoverBase.Thrust">Thrust</h4>
+  <h4 id="StormHawks_Runtime_Players_Movement_PlayerMoverBase_thruster" data-uid="StormHawks.Runtime.Players.Movement.PlayerMoverBase.thruster">thruster</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float Thrust { get; protected set; }</code></pre>
+    <pre><code class="lang-csharp hljs">protected PlayerThruster thruster</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -200,11 +167,13 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><a class="xref" href="StormHawks.Runtime.Players.Movement.PlayerThruster.html">PlayerThruster</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  <h3 id="properties">Properties
+  </h3>
   
   
   <a id="StormHawks_Runtime_Players_Movement_PlayerMoverBase_Velocity_" data-uid="StormHawks.Runtime.Players.Movement.PlayerMoverBase.Velocity*"></a>
@@ -244,16 +213,6 @@
   </div>
   
   
-  <a id="StormHawks_Runtime_Players_Movement_PlayerMoverBase_UpdateThrust_" data-uid="StormHawks.Runtime.Players.Movement.PlayerMoverBase.UpdateThrust*"></a>
-  <h4 id="StormHawks_Runtime_Players_Movement_PlayerMoverBase_UpdateThrust" data-uid="StormHawks.Runtime.Players.Movement.PlayerMoverBase.UpdateThrust">UpdateThrust()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected abstract void UpdateThrust()</code></pre>
-  </div>
-  
-  
   <a id="StormHawks_Runtime_Players_Movement_PlayerMoverBase_UpdateVelocity_" data-uid="StormHawks.Runtime.Players.Movement.PlayerMoverBase.UpdateVelocity*"></a>
   <h4 id="StormHawks_Runtime_Players_Movement_PlayerMoverBase_UpdateVelocity" data-uid="StormHawks.Runtime.Players.Movement.PlayerMoverBase.UpdateVelocity">UpdateVelocity()</h4>
   <div class="markdown level1 summary"></div>
@@ -261,10 +220,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected abstract void UpdateVelocity()</code></pre>
-  </div>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <span class="xref">IPlayerMovement</span>
   </div>
 </article>
           </div>

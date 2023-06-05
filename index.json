@@ -1244,45 +1244,10 @@
     "title": "Namespace StormHawks.Runtime | Developer Reference",
     "keywords": "Namespace StormHawks.Runtime Classes App"
   },
-  "api/StormHawks.Runtime.Inputs.ControllerInputHandler.ControllerInputDelegate.html": {
-    "href": "api/StormHawks.Runtime.Inputs.ControllerInputHandler.ControllerInputDelegate.html",
-    "title": "Delegate ControllerInputHandler.ControllerInputDelegate | Developer Reference",
-    "keywords": "Delegate ControllerInputHandler.ControllerInputDelegate Namespace : StormHawks.Runtime.Inputs Assembly : cs.temp.dll.dll Syntax public delegate void ControllerInputDelegate(Vector3 position, Quaternion rotation); Parameters Type Name Description Vector3 position Quaternion rotation"
-  },
-  "api/StormHawks.Runtime.Inputs.ControllerInputHandler.html": {
-    "href": "api/StormHawks.Runtime.Inputs.ControllerInputHandler.html",
-    "title": "Class ControllerInputHandler | Developer Reference",
-    "keywords": "Class ControllerInputHandler Inheritance Object InputHandlerBase ControllerInputHandler Implements PlayerInputActions.IControllerActions Inherited Members InputHandlerBase.PlayerInputActions InputHandlerBase.OnApplicationQuit() Namespace : StormHawks.Runtime.Inputs Assembly : cs.temp.dll.dll Syntax public class ControllerInputHandler : InputHandlerBase, PlayerInputActions.IControllerActions Methods OnEnable() Declaration protected override void OnEnable() Overrides InputHandlerBase.OnEnable() OnLeftPosition(InputAction.CallbackContext) Declaration public void OnLeftPosition(InputAction.CallbackContext context) Parameters Type Name Description InputAction.CallbackContext context OnLeftRotation(InputAction.CallbackContext) Declaration public void OnLeftRotation(InputAction.CallbackContext context) Parameters Type Name Description InputAction.CallbackContext context OnRightPosition(InputAction.CallbackContext) Declaration public void OnRightPosition(InputAction.CallbackContext context) Parameters Type Name Description InputAction.CallbackContext context OnRightRotation(InputAction.CallbackContext) Declaration public void OnRightRotation(InputAction.CallbackContext context) Parameters Type Name Description InputAction.CallbackContext context Events OnLeftInputChanged Declaration public event ControllerInputHandler.ControllerInputDelegate OnLeftInputChanged Event Type Type Description ControllerInputHandler.ControllerInputDelegate OnRightInputChanged Declaration public event ControllerInputHandler.ControllerInputDelegate OnRightInputChanged Event Type Type Description ControllerInputHandler.ControllerInputDelegate Implements PlayerInputActions.IControllerActions"
-  },
-  "api/StormHawks.Runtime.Inputs.GripInfo.html": {
-    "href": "api/StormHawks.Runtime.Inputs.GripInfo.html",
-    "title": "Class GripInfo | Developer Reference",
-    "keywords": "Class GripInfo Inheritance Object GripInfo Namespace : StormHawks.Runtime.Inputs Assembly : cs.temp.dll.dll Syntax public class GripInfo Methods SetGripValue(Single, Single, Single) Declaration public void SetGripValue(float value, float releaseThreshold, float activeThreshold) Parameters Type Name Description Single value Single releaseThreshold Single activeThreshold Events OnGripStateChanged Declaration public event Action<GripInfo.State> OnGripStateChanged Event Type Type Description Action < GripInfo.State >"
-  },
-  "api/StormHawks.Runtime.Inputs.GripInfo.State.html": {
-    "href": "api/StormHawks.Runtime.Inputs.GripInfo.State.html",
-    "title": "Enum GripInfo.State | Developer Reference",
-    "keywords": "Enum GripInfo.State Namespace : StormHawks.Runtime.Inputs Assembly : cs.temp.dll.dll Syntax public enum State Fields Name Description Active Ready Release"
-  },
-  "api/StormHawks.Runtime.Inputs.GripInputHandler.html": {
-    "href": "api/StormHawks.Runtime.Inputs.GripInputHandler.html",
-    "title": "Class GripInputHandler | Developer Reference",
-    "keywords": "Class GripInputHandler Inheritance Object InputHandlerBase GripInputHandler Implements PlayerInputActions.IGripActions Inherited Members InputHandlerBase.PlayerInputActions InputHandlerBase.OnApplicationQuit() Namespace : StormHawks.Runtime.Inputs Assembly : cs.temp.dll.dll Syntax public class GripInputHandler : InputHandlerBase, PlayerInputActions.IGripActions Properties BothGripPressed Declaration public bool BothGripPressed { get; } Property Value Type Description Boolean LeftGripInfo Declaration public GripInfo LeftGripInfo { get; } Property Value Type Description GripInfo RightGripInfo Declaration public GripInfo RightGripInfo { get; } Property Value Type Description GripInfo Methods OnEnable() Declaration protected override void OnEnable() Overrides InputHandlerBase.OnEnable() OnLeftGrip(InputAction.CallbackContext) Declaration public void OnLeftGrip(InputAction.CallbackContext context) Parameters Type Name Description InputAction.CallbackContext context OnLeftGripPressed(InputAction.CallbackContext) Declaration public void OnLeftGripPressed(InputAction.CallbackContext context) Parameters Type Name Description InputAction.CallbackContext context OnRightGrip(InputAction.CallbackContext) Declaration public void OnRightGrip(InputAction.CallbackContext context) Parameters Type Name Description InputAction.CallbackContext context OnRightGripPressed(InputAction.CallbackContext) Declaration public void OnRightGripPressed(InputAction.CallbackContext context) Parameters Type Name Description InputAction.CallbackContext context Events OnBothGripPressed Declaration public event Action OnBothGripPressed Event Type Type Description Action Implements PlayerInputActions.IGripActions"
-  },
   "api/StormHawks.Runtime.Inputs.html": {
     "href": "api/StormHawks.Runtime.Inputs.html",
     "title": "Namespace StormHawks.Runtime.Inputs | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Inputs Classes ControllerInputHandler GripInfo GripInputHandler InputHandlerBase LaunchInputHandler PlayerInputActions PlayerInputSettingSO TrackedPoseDriverFixer Structs PlayerInputActions.ControllerActions PlayerInputActions.GripActions PlayerInputActions.HMDActions PlayerInputActions.LaunchActions PlayerInputActions.UIActions Interfaces PlayerInputActions.IControllerActions PlayerInputActions.IGripActions PlayerInputActions.IHMDActions PlayerInputActions.ILaunchActions PlayerInputActions.IUIActions Enums GripInfo.State Delegates ControllerInputHandler.ControllerInputDelegate"
-  },
-  "api/StormHawks.Runtime.Inputs.InputHandlerBase.html": {
-    "href": "api/StormHawks.Runtime.Inputs.InputHandlerBase.html",
-    "title": "Class InputHandlerBase | Developer Reference",
-    "keywords": "Class InputHandlerBase Inheritance Object InputHandlerBase ControllerInputHandler GripInputHandler LaunchInputHandler Namespace : StormHawks.Runtime.Inputs Assembly : cs.temp.dll.dll Syntax public abstract class InputHandlerBase : MonoBehaviour Fields PlayerInputActions Declaration protected static PlayerInputActions PlayerInputActions Field Value Type Description PlayerInputActions Methods OnApplicationQuit() Declaration protected virtual void OnApplicationQuit() OnEnable() Declaration protected virtual void OnEnable()"
-  },
-  "api/StormHawks.Runtime.Inputs.LaunchInputHandler.html": {
-    "href": "api/StormHawks.Runtime.Inputs.LaunchInputHandler.html",
-    "title": "Class LaunchInputHandler | Developer Reference",
-    "keywords": "Class LaunchInputHandler Inheritance Object InputHandlerBase LaunchInputHandler Implements PlayerInputActions.ILaunchActions Inherited Members InputHandlerBase.PlayerInputActions InputHandlerBase.OnApplicationQuit() Namespace : StormHawks.Runtime.Inputs Assembly : cs.temp.dll.dll Syntax public class LaunchInputHandler : InputHandlerBase, PlayerInputActions.ILaunchActions Properties AnySideBulletLaunching Declaration public bool AnySideBulletLaunching { get; } Property Value Type Description Boolean LeftBulletLaunching Declaration public bool LeftBulletLaunching { get; } Property Value Type Description Boolean RightBulletLaunching Declaration public bool RightBulletLaunching { get; } Property Value Type Description Boolean Methods OnEnable() Declaration protected override void OnEnable() Overrides InputHandlerBase.OnEnable() OnLeftBulletLaunch(InputAction.CallbackContext) Declaration public void OnLeftBulletLaunch(InputAction.CallbackContext context) Parameters Type Name Description InputAction.CallbackContext context OnRightBulletLaunch(InputAction.CallbackContext) Declaration public void OnRightBulletLaunch(InputAction.CallbackContext context) Parameters Type Name Description InputAction.CallbackContext context Events OnLeftBulletLaunchChanged Declaration public event Action<bool> OnLeftBulletLaunchChanged Event Type Type Description Action < Boolean > OnMissileLaunch Declaration public event Action OnMissileLaunch Event Type Type Description Action OnMissileReady Declaration public event Action OnMissileReady Event Type Type Description Action OnRightBulletLaunchChanged Declaration public event Action<bool> OnRightBulletLaunchChanged Event Type Type Description Action < Boolean > Explicit Interface Implementations PlayerInputActions.ILaunchActions.OnLeftMissileLaunch(InputAction.CallbackContext) Declaration void PlayerInputActions.ILaunchActions.OnLeftMissileLaunch(InputAction.CallbackContext context) Parameters Type Name Description InputAction.CallbackContext context PlayerInputActions.ILaunchActions.OnLeftMissileReady(InputAction.CallbackContext) Declaration void PlayerInputActions.ILaunchActions.OnLeftMissileReady(InputAction.CallbackContext context) Parameters Type Name Description InputAction.CallbackContext context PlayerInputActions.ILaunchActions.OnRightMissileLaunch(InputAction.CallbackContext) Declaration void PlayerInputActions.ILaunchActions.OnRightMissileLaunch(InputAction.CallbackContext context) Parameters Type Name Description InputAction.CallbackContext context PlayerInputActions.ILaunchActions.OnRightMissileReady(InputAction.CallbackContext) Declaration void PlayerInputActions.ILaunchActions.OnRightMissileReady(InputAction.CallbackContext context) Parameters Type Name Description InputAction.CallbackContext context Implements PlayerInputActions.ILaunchActions"
+    "keywords": "Namespace StormHawks.Runtime.Inputs Classes PlayerInputActions TrackedPoseDriverFixer Structs PlayerInputActions.ControllerActions PlayerInputActions.GripActions PlayerInputActions.HMDActions PlayerInputActions.LaunchActions PlayerInputActions.UIActions Interfaces PlayerInputActions.IControllerActions PlayerInputActions.IGripActions PlayerInputActions.IHMDActions PlayerInputActions.ILaunchActions PlayerInputActions.IUIActions"
   },
   "api/StormHawks.Runtime.Inputs.PlayerInputActions.ControllerActions.html": {
     "href": "api/StormHawks.Runtime.Inputs.PlayerInputActions.ControllerActions.html",
@@ -1339,15 +1304,145 @@
     "title": "Struct PlayerInputActions.UIActions | Developer Reference",
     "keywords": "Struct PlayerInputActions.UIActions Namespace : StormHawks.Runtime.Inputs Assembly : cs.temp.dll.dll Syntax public struct UIActions Constructors UIActions(PlayerInputActions) Declaration public UIActions(PlayerInputActions wrapper) Parameters Type Name Description PlayerInputActions wrapper Properties enabled Declaration public readonly bool enabled { get; } Property Value Type Description Boolean Menu Declaration public readonly InputAction Menu { get; } Property Value Type Description InputAction Methods AddCallbacks(PlayerInputActions.IUIActions) Declaration public void AddCallbacks(PlayerInputActions.IUIActions instance) Parameters Type Name Description PlayerInputActions.IUIActions instance Disable() Declaration public void Disable() Enable() Declaration public void Enable() Get() Declaration public InputActionMap Get() Returns Type Description InputActionMap RemoveCallbacks(PlayerInputActions.IUIActions) Declaration public void RemoveCallbacks(PlayerInputActions.IUIActions instance) Parameters Type Name Description PlayerInputActions.IUIActions instance SetCallbacks(PlayerInputActions.IUIActions) Declaration public void SetCallbacks(PlayerInputActions.IUIActions instance) Parameters Type Name Description PlayerInputActions.IUIActions instance Operators Implicit(PlayerInputActions.UIActions to InputActionMap) Declaration public static implicit operator InputActionMap(PlayerInputActions.UIActions set) Parameters Type Name Description PlayerInputActions.UIActions set Returns Type Description InputActionMap"
   },
-  "api/StormHawks.Runtime.Inputs.PlayerInputSettingSO.html": {
-    "href": "api/StormHawks.Runtime.Inputs.PlayerInputSettingSO.html",
-    "title": "Class PlayerInputSettingSO | Developer Reference",
-    "keywords": "Class PlayerInputSettingSO Inheritance Object PlayerInputSettingSO Namespace : StormHawks.Runtime.Inputs Assembly : cs.temp.dll.dll Syntax public class PlayerInputSettingSO : ScriptableObject Properties ActiveGripThreshold Declaration public float ActiveGripThreshold { get; } Property Value Type Description Single ReleaseGripThreshold Declaration public float ReleaseGripThreshold { get; } Property Value Type Description Single"
-  },
   "api/StormHawks.Runtime.Inputs.TrackedPoseDriverFixer.html": {
     "href": "api/StormHawks.Runtime.Inputs.TrackedPoseDriverFixer.html",
     "title": "Class TrackedPoseDriverFixer | Developer Reference",
     "keywords": "Class TrackedPoseDriverFixer Inheritance Object TrackedPoseDriverFixer Namespace : StormHawks.Runtime.Inputs Assembly : cs.temp.dll.dll Syntax public class TrackedPoseDriverFixer : MonoBehaviour"
+  },
+  "api/StormHawks.Runtime.Inputs.XR.AttackInputAction.BulletActions.html": {
+    "href": "api/StormHawks.Runtime.Inputs.XR.AttackInputAction.BulletActions.html",
+    "title": "Struct AttackInputAction.BulletActions | Developer Reference",
+    "keywords": "Struct AttackInputAction.BulletActions Namespace : StormHawks.Runtime.Inputs.XR Assembly : cs.temp.dll.dll Syntax public struct BulletActions Constructors BulletActions(AttackInputAction) Declaration public BulletActions(AttackInputAction wrapper) Parameters Type Name Description AttackInputAction wrapper Properties enabled Declaration public readonly bool enabled { get; } Property Value Type Description Boolean LeftBulletLaunch Declaration public readonly InputAction LeftBulletLaunch { get; } Property Value Type Description InputAction RightBulletLaunch Declaration public readonly InputAction RightBulletLaunch { get; } Property Value Type Description InputAction Methods AddCallbacks(AttackInputAction.IBulletActions) Declaration public void AddCallbacks(AttackInputAction.IBulletActions instance) Parameters Type Name Description AttackInputAction.IBulletActions instance Disable() Declaration public void Disable() Enable() Declaration public void Enable() Get() Declaration public InputActionMap Get() Returns Type Description InputActionMap RemoveCallbacks(AttackInputAction.IBulletActions) Declaration public void RemoveCallbacks(AttackInputAction.IBulletActions instance) Parameters Type Name Description AttackInputAction.IBulletActions instance SetCallbacks(AttackInputAction.IBulletActions) Declaration public void SetCallbacks(AttackInputAction.IBulletActions instance) Parameters Type Name Description AttackInputAction.IBulletActions instance Operators Implicit(AttackInputAction.BulletActions to InputActionMap) Declaration public static implicit operator InputActionMap(AttackInputAction.BulletActions set) Parameters Type Name Description AttackInputAction.BulletActions set Returns Type Description InputActionMap"
+  },
+  "api/StormHawks.Runtime.Inputs.XR.AttackInputAction.html": {
+    "href": "api/StormHawks.Runtime.Inputs.XR.AttackInputAction.html",
+    "title": "Class AttackInputAction | Developer Reference",
+    "keywords": "Class AttackInputAction Inheritance Object AttackInputAction Implements IDisposable Namespace : StormHawks.Runtime.Inputs.XR Assembly : cs.temp.dll.dll Syntax public class AttackInputAction : IInputActionCollection2 Constructors AttackInputAction() Declaration public AttackInputAction() Properties asset Declaration public InputActionAsset asset { get; } Property Value Type Description InputActionAsset bindingMask Declaration public InputBinding? bindingMask { get; set; } Property Value Type Description Nullable < InputBinding > bindings Declaration public IEnumerable<InputBinding> bindings { get; } Property Value Type Description IEnumerable < InputBinding > Bullet Declaration public AttackInputAction.BulletActions Bullet { get; } Property Value Type Description AttackInputAction.BulletActions controlSchemes Declaration public ReadOnlyArray<InputControlScheme> controlSchemes { get; } Property Value Type Description ReadOnlyArray < InputControlScheme > devices Declaration public ReadOnlyArray<InputDevice>? devices { get; set; } Property Value Type Description Nullable < ReadOnlyArray < InputDevice >> Missile Declaration public AttackInputAction.MissileActions Missile { get; } Property Value Type Description AttackInputAction.MissileActions Methods Contains(InputAction) Declaration public bool Contains(InputAction action) Parameters Type Name Description InputAction action Returns Type Description Boolean Disable() Declaration public void Disable() Dispose() Declaration public void Dispose() Enable() Declaration public void Enable() FindAction(String, Boolean) Declaration public InputAction FindAction(string actionNameOrId, bool throwIfNotFound = false) Parameters Type Name Description String actionNameOrId Boolean throwIfNotFound Returns Type Description InputAction FindBinding(InputBinding, out InputAction) Declaration public int FindBinding(InputBinding bindingMask, out InputAction action) Parameters Type Name Description InputBinding bindingMask InputAction action Returns Type Description Int32 GetEnumerator() Declaration public IEnumerator<InputAction> GetEnumerator() Returns Type Description IEnumerator < InputAction > Implements IDisposable"
+  },
+  "api/StormHawks.Runtime.Inputs.XR.AttackInputAction.IBulletActions.html": {
+    "href": "api/StormHawks.Runtime.Inputs.XR.AttackInputAction.IBulletActions.html",
+    "title": "Interface AttackInputAction.IBulletActions | Developer Reference",
+    "keywords": "Interface AttackInputAction.IBulletActions Namespace : StormHawks.Runtime.Inputs.XR Assembly : cs.temp.dll.dll Syntax public interface IBulletActions Methods OnLeftBulletLaunch(InputAction.CallbackContext) Declaration void OnLeftBulletLaunch(InputAction.CallbackContext context) Parameters Type Name Description InputAction.CallbackContext context OnRightBulletLaunch(InputAction.CallbackContext) Declaration void OnRightBulletLaunch(InputAction.CallbackContext context) Parameters Type Name Description InputAction.CallbackContext context"
+  },
+  "api/StormHawks.Runtime.Inputs.XR.AttackInputAction.IMissileActions.html": {
+    "href": "api/StormHawks.Runtime.Inputs.XR.AttackInputAction.IMissileActions.html",
+    "title": "Interface AttackInputAction.IMissileActions | Developer Reference",
+    "keywords": "Interface AttackInputAction.IMissileActions Namespace : StormHawks.Runtime.Inputs.XR Assembly : cs.temp.dll.dll Syntax public interface IMissileActions Methods OnLeftMissileLaunch(InputAction.CallbackContext) Declaration void OnLeftMissileLaunch(InputAction.CallbackContext context) Parameters Type Name Description InputAction.CallbackContext context OnRightMissileLaunch(InputAction.CallbackContext) Declaration void OnRightMissileLaunch(InputAction.CallbackContext context) Parameters Type Name Description InputAction.CallbackContext context"
+  },
+  "api/StormHawks.Runtime.Inputs.XR.AttackInputAction.MissileActions.html": {
+    "href": "api/StormHawks.Runtime.Inputs.XR.AttackInputAction.MissileActions.html",
+    "title": "Struct AttackInputAction.MissileActions | Developer Reference",
+    "keywords": "Struct AttackInputAction.MissileActions Namespace : StormHawks.Runtime.Inputs.XR Assembly : cs.temp.dll.dll Syntax public struct MissileActions Constructors MissileActions(AttackInputAction) Declaration public MissileActions(AttackInputAction wrapper) Parameters Type Name Description AttackInputAction wrapper Properties enabled Declaration public readonly bool enabled { get; } Property Value Type Description Boolean LeftMissileLaunch Declaration public readonly InputAction LeftMissileLaunch { get; } Property Value Type Description InputAction RightMissileLaunch Declaration public readonly InputAction RightMissileLaunch { get; } Property Value Type Description InputAction Methods AddCallbacks(AttackInputAction.IMissileActions) Declaration public void AddCallbacks(AttackInputAction.IMissileActions instance) Parameters Type Name Description AttackInputAction.IMissileActions instance Disable() Declaration public void Disable() Enable() Declaration public void Enable() Get() Declaration public InputActionMap Get() Returns Type Description InputActionMap RemoveCallbacks(AttackInputAction.IMissileActions) Declaration public void RemoveCallbacks(AttackInputAction.IMissileActions instance) Parameters Type Name Description AttackInputAction.IMissileActions instance SetCallbacks(AttackInputAction.IMissileActions) Declaration public void SetCallbacks(AttackInputAction.IMissileActions instance) Parameters Type Name Description AttackInputAction.IMissileActions instance Operators Implicit(AttackInputAction.MissileActions to InputActionMap) Declaration public static implicit operator InputActionMap(AttackInputAction.MissileActions set) Parameters Type Name Description AttackInputAction.MissileActions set Returns Type Description InputActionMap"
+  },
+  "api/StormHawks.Runtime.Inputs.XR.Buttons.AnalogButton.html": {
+    "href": "api/StormHawks.Runtime.Inputs.XR.Buttons.AnalogButton.html",
+    "title": "Class AnalogButton | Developer Reference",
+    "keywords": "Class AnalogButton Inheritance Object Button AnalogButton Inherited Members Button.IsPressed Button.OnPressed Button.OnReleased Namespace : StormHawks.Runtime.Inputs.XR.Buttons Assembly : cs.temp.dll.dll Syntax public class AnalogButton : Button Properties PressValue Declaration public float PressValue { get; } Property Value Type Description Single Methods Initialize() Declaration public override void Initialize() Overrides Button.Initialize() UpdateByContext(InputAction.CallbackContext) Declaration public override void UpdateByContext(InputAction.CallbackContext context) Parameters Type Name Description InputAction.CallbackContext context Overrides Button.UpdateByContext(InputAction.CallbackContext) Events OnChangedPressValue Declaration public event Action<float> OnChangedPressValue Event Type Type Description Action < Single >"
+  },
+  "api/StormHawks.Runtime.Inputs.XR.Buttons.Button.html": {
+    "href": "api/StormHawks.Runtime.Inputs.XR.Buttons.Button.html",
+    "title": "Class Button | Developer Reference",
+    "keywords": "Class Button Inheritance Object Button AnalogButton Namespace : StormHawks.Runtime.Inputs.XR.Buttons Assembly : cs.temp.dll.dll Syntax public class Button Properties IsPressed Declaration public bool IsPressed { get; protected set; } Property Value Type Description Boolean Methods Initialize() Declaration public virtual void Initialize() UpdateByContext(InputAction.CallbackContext) Declaration public virtual void UpdateByContext(InputAction.CallbackContext context) Parameters Type Name Description InputAction.CallbackContext context Events OnPressed Declaration public event Action OnPressed Event Type Type Description Action OnReleased Declaration public event Action OnReleased Event Type Type Description Action"
+  },
+  "api/StormHawks.Runtime.Inputs.XR.Buttons.html": {
+    "href": "api/StormHawks.Runtime.Inputs.XR.Buttons.html",
+    "title": "Namespace StormHawks.Runtime.Inputs.XR.Buttons | Developer Reference",
+    "keywords": "Namespace StormHawks.Runtime.Inputs.XR.Buttons Classes AnalogButton Button"
+  },
+  "api/StormHawks.Runtime.Inputs.XR.Contexts.AnalogButtonInputContext.html": {
+    "href": "api/StormHawks.Runtime.Inputs.XR.Contexts.AnalogButtonInputContext.html",
+    "title": "Class AnalogButtonInputContext | Developer Reference",
+    "keywords": "Class AnalogButtonInputContext Inheritance Object AnalogButtonInputContext Implements VRInputAction.IAnalogButtonActions Namespace : StormHawks.Runtime.Inputs.XR.Contexts Assembly : cs.temp.dll.dll Syntax [Serializable] public class AnalogButtonInputContext : VRInputAction.IAnalogButtonActions Properties LeftGripButton Declaration public AnalogButton LeftGripButton { get; } Property Value Type Description AnalogButton LeftTriggerButton Declaration public AnalogButton LeftTriggerButton { get; } Property Value Type Description AnalogButton RightGripButton Declaration public AnalogButton RightGripButton { get; } Property Value Type Description AnalogButton RightTriggerButton Declaration public AnalogButton RightTriggerButton { get; } Property Value Type Description AnalogButton Methods Initialize() Declaration public void Initialize() OnLeftGrip(InputAction.CallbackContext) Declaration public void OnLeftGrip(InputAction.CallbackContext context) Parameters Type Name Description InputAction.CallbackContext context OnLeftTrigger(InputAction.CallbackContext) Declaration public void OnLeftTrigger(InputAction.CallbackContext context) Parameters Type Name Description InputAction.CallbackContext context OnRightGrip(InputAction.CallbackContext) Declaration public void OnRightGrip(InputAction.CallbackContext context) Parameters Type Name Description InputAction.CallbackContext context OnRightTrigger(InputAction.CallbackContext) Declaration public void OnRightTrigger(InputAction.CallbackContext context) Parameters Type Name Description InputAction.CallbackContext context Implements VRInputAction.IAnalogButtonActions"
+  },
+  "api/StormHawks.Runtime.Inputs.XR.Contexts.AttackInputContext.html": {
+    "href": "api/StormHawks.Runtime.Inputs.XR.Contexts.AttackInputContext.html",
+    "title": "Class AttackInputContext | Developer Reference",
+    "keywords": "Class AttackInputContext Inheritance Object AttackInputContext Namespace : StormHawks.Runtime.Inputs.XR.Contexts Assembly : cs.temp.dll.dll Syntax public class AttackInputContext : ScriptableObject Properties Bullet Declaration public BulletInputContext Bullet { get; } Property Value Type Description BulletInputContext Missile Declaration public MissileInputContext Missile { get; } Property Value Type Description MissileInputContext"
+  },
+  "api/StormHawks.Runtime.Inputs.XR.Contexts.BulletInputContext.html": {
+    "href": "api/StormHawks.Runtime.Inputs.XR.Contexts.BulletInputContext.html",
+    "title": "Class BulletInputContext | Developer Reference",
+    "keywords": "Class BulletInputContext Inheritance Object BulletInputContext Implements AttackInputAction.IBulletActions Namespace : StormHawks.Runtime.Inputs.XR.Contexts Assembly : cs.temp.dll.dll Syntax public class BulletInputContext : AttackInputAction.IBulletActions Properties IsLeftLaunching Declaration public bool IsLeftLaunching { get; } Property Value Type Description Boolean IsRightLaunching Declaration public bool IsRightLaunching { get; } Property Value Type Description Boolean Methods Initialize() Declaration public void Initialize() OnLeftBulletLaunch(InputAction.CallbackContext) Declaration public void OnLeftBulletLaunch(InputAction.CallbackContext context) Parameters Type Name Description InputAction.CallbackContext context OnRightBulletLaunch(InputAction.CallbackContext) Declaration public void OnRightBulletLaunch(InputAction.CallbackContext context) Parameters Type Name Description InputAction.CallbackContext context Events OnLeftBulletEndLaunch Declaration public event Action OnLeftBulletEndLaunch Event Type Type Description Action OnLeftBulletStartLaunch Declaration public event Action OnLeftBulletStartLaunch Event Type Type Description Action OnRightBulletEndLaunch Declaration public event Action OnRightBulletEndLaunch Event Type Type Description Action OnRightBulletStartLaunch Declaration public event Action OnRightBulletStartLaunch Event Type Type Description Action Implements AttackInputAction.IBulletActions"
+  },
+  "api/StormHawks.Runtime.Inputs.XR.Contexts.ButtonInputContext.html": {
+    "href": "api/StormHawks.Runtime.Inputs.XR.Contexts.ButtonInputContext.html",
+    "title": "Class ButtonInputContext | Developer Reference",
+    "keywords": "Class ButtonInputContext Inheritance Object ButtonInputContext Implements VRInputAction.IButtonActions Namespace : StormHawks.Runtime.Inputs.XR.Contexts Assembly : cs.temp.dll.dll Syntax [Serializable] public class ButtonInputContext : VRInputAction.IButtonActions Properties AButton Declaration public Button AButton { get; } Property Value Type Description Button BButton Declaration public Button BButton { get; } Property Value Type Description Button MenuButton Declaration public Button MenuButton { get; } Property Value Type Description Button XButton Declaration public Button XButton { get; } Property Value Type Description Button YButton Declaration public Button YButton { get; } Property Value Type Description Button Methods Initialize() Declaration public void Initialize() OnA(InputAction.CallbackContext) Declaration public void OnA(InputAction.CallbackContext context) Parameters Type Name Description InputAction.CallbackContext context OnB(InputAction.CallbackContext) Declaration public void OnB(InputAction.CallbackContext context) Parameters Type Name Description InputAction.CallbackContext context OnMenu(InputAction.CallbackContext) Declaration public void OnMenu(InputAction.CallbackContext context) Parameters Type Name Description InputAction.CallbackContext context OnX(InputAction.CallbackContext) Declaration public void OnX(InputAction.CallbackContext context) Parameters Type Name Description InputAction.CallbackContext context OnY(InputAction.CallbackContext) Declaration public void OnY(InputAction.CallbackContext context) Parameters Type Name Description InputAction.CallbackContext context Implements VRInputAction.IButtonActions"
+  },
+  "api/StormHawks.Runtime.Inputs.XR.Contexts.ControllerInputContext.html": {
+    "href": "api/StormHawks.Runtime.Inputs.XR.Contexts.ControllerInputContext.html",
+    "title": "Class ControllerInputContext | Developer Reference",
+    "keywords": "Class ControllerInputContext Inheritance Object ControllerInputContext Implements VRInputAction.IControllerActions Namespace : StormHawks.Runtime.Inputs.XR.Contexts Assembly : cs.temp.dll.dll Syntax public class ControllerInputContext : VRInputAction.IControllerActions Properties LeftPosition Declaration public Vector3 LeftPosition { get; } Property Value Type Description Vector3 LeftRotation Declaration public Quaternion LeftRotation { get; } Property Value Type Description Quaternion RightPosition Declaration public Vector3 RightPosition { get; } Property Value Type Description Vector3 RightRotation Declaration public Quaternion RightRotation { get; } Property Value Type Description Quaternion Methods Initialize() Declaration public void Initialize() OnLeftPosition(InputAction.CallbackContext) Declaration public void OnLeftPosition(InputAction.CallbackContext context) Parameters Type Name Description InputAction.CallbackContext context OnLeftRotation(InputAction.CallbackContext) Declaration public void OnLeftRotation(InputAction.CallbackContext context) Parameters Type Name Description InputAction.CallbackContext context OnRightPosition(InputAction.CallbackContext) Declaration public void OnRightPosition(InputAction.CallbackContext context) Parameters Type Name Description InputAction.CallbackContext context OnRightRotation(InputAction.CallbackContext) Declaration public void OnRightRotation(InputAction.CallbackContext context) Parameters Type Name Description InputAction.CallbackContext context Events OnChangedLeftPosition Declaration public event Action<Vector3> OnChangedLeftPosition Event Type Type Description Action < Vector3 > OnChangedLeftRotation Declaration public event Action<Vector3> OnChangedLeftRotation Event Type Type Description Action < Vector3 > OnChangedRightPosition Declaration public event Action<Vector3> OnChangedRightPosition Event Type Type Description Action < Vector3 > OnChangedRightRotation Declaration public event Action<Vector3> OnChangedRightRotation Event Type Type Description Action < Vector3 > Implements VRInputAction.IControllerActions"
+  },
+  "api/StormHawks.Runtime.Inputs.XR.Contexts.HMDInputContext.html": {
+    "href": "api/StormHawks.Runtime.Inputs.XR.Contexts.HMDInputContext.html",
+    "title": "Class HMDInputContext | Developer Reference",
+    "keywords": "Class HMDInputContext Inheritance Object HMDInputContext Implements VRInputAction.IHMDActions Namespace : StormHawks.Runtime.Inputs.XR.Contexts Assembly : cs.temp.dll.dll Syntax public class HMDInputContext : VRInputAction.IHMDActions Properties Position Declaration public Vector3 Position { get; } Property Value Type Description Vector3 Rotation Declaration public Quaternion Rotation { get; } Property Value Type Description Quaternion TrackingState Declaration public int TrackingState { get; } Property Value Type Description Int32 Methods Initialize() Declaration public void Initialize() OnPosition(InputAction.CallbackContext) Declaration public void OnPosition(InputAction.CallbackContext context) Parameters Type Name Description InputAction.CallbackContext context OnRotation(InputAction.CallbackContext) Declaration public void OnRotation(InputAction.CallbackContext context) Parameters Type Name Description InputAction.CallbackContext context OnTrackingState(InputAction.CallbackContext) Declaration public void OnTrackingState(InputAction.CallbackContext context) Parameters Type Name Description InputAction.CallbackContext context Events OnChangedPosition Declaration public event Action<Vector3> OnChangedPosition Event Type Type Description Action < Vector3 > OnChangedRotation Declaration public event Action<Vector3> OnChangedRotation Event Type Type Description Action < Vector3 > OnChangedTrackingState Declaration public event Action<int> OnChangedTrackingState Event Type Type Description Action < Int32 > Implements VRInputAction.IHMDActions"
+  },
+  "api/StormHawks.Runtime.Inputs.XR.Contexts.html": {
+    "href": "api/StormHawks.Runtime.Inputs.XR.Contexts.html",
+    "title": "Namespace StormHawks.Runtime.Inputs.XR.Contexts | Developer Reference",
+    "keywords": "Namespace StormHawks.Runtime.Inputs.XR.Contexts Classes AnalogButtonInputContext AttackInputContext BulletInputContext ButtonInputContext ControllerInputContext HMDInputContext MissileInputContext VRInputContext"
+  },
+  "api/StormHawks.Runtime.Inputs.XR.Contexts.MissileInputContext.html": {
+    "href": "api/StormHawks.Runtime.Inputs.XR.Contexts.MissileInputContext.html",
+    "title": "Class MissileInputContext | Developer Reference",
+    "keywords": "Class MissileInputContext Inheritance Object MissileInputContext Implements AttackInputAction.IMissileActions Namespace : StormHawks.Runtime.Inputs.XR.Contexts Assembly : cs.temp.dll.dll Syntax public class MissileInputContext : AttackInputAction.IMissileActions Properties IsLeftReady Declaration public bool IsLeftReady { get; } Property Value Type Description Boolean IsRightReady Declaration public bool IsRightReady { get; } Property Value Type Description Boolean Methods Initialize() Declaration public void Initialize() OnLeftMissileLaunch(InputAction.CallbackContext) Declaration public void OnLeftMissileLaunch(InputAction.CallbackContext context) Parameters Type Name Description InputAction.CallbackContext context OnRightMissileLaunch(InputAction.CallbackContext) Declaration public void OnRightMissileLaunch(InputAction.CallbackContext context) Parameters Type Name Description InputAction.CallbackContext context Events OnMissileLaunch Declaration public event Action OnMissileLaunch Event Type Type Description Action OnMissileReady Declaration public event Action OnMissileReady Event Type Type Description Action Implements AttackInputAction.IMissileActions"
+  },
+  "api/StormHawks.Runtime.Inputs.XR.Contexts.VRInputContext.html": {
+    "href": "api/StormHawks.Runtime.Inputs.XR.Contexts.VRInputContext.html",
+    "title": "Class VRInputContext | Developer Reference",
+    "keywords": "Class VRInputContext Inheritance Object VRInputContext Namespace : StormHawks.Runtime.Inputs.XR.Contexts Assembly : cs.temp.dll.dll Syntax public class VRInputContext : ScriptableObject Properties AnalogButton Declaration public AnalogButtonInputContext AnalogButton { get; } Property Value Type Description AnalogButtonInputContext Button Declaration public ButtonInputContext Button { get; } Property Value Type Description ButtonInputContext Controller Declaration public ControllerInputContext Controller { get; } Property Value Type Description ControllerInputContext HMD Declaration public HMDInputContext HMD { get; } Property Value Type Description HMDInputContext"
+  },
+  "api/StormHawks.Runtime.Inputs.XR.html": {
+    "href": "api/StormHawks.Runtime.Inputs.XR.html",
+    "title": "Namespace StormHawks.Runtime.Inputs.XR | Developer Reference",
+    "keywords": "Namespace StormHawks.Runtime.Inputs.XR Classes AttackInputAction VRInputAction Structs AttackInputAction.BulletActions AttackInputAction.MissileActions VRInputAction.AnalogButtonActions VRInputAction.ButtonActions VRInputAction.ControllerActions VRInputAction.HMDActions Interfaces AttackInputAction.IBulletActions AttackInputAction.IMissileActions VRInputAction.IAnalogButtonActions VRInputAction.IButtonActions VRInputAction.IControllerActions VRInputAction.IHMDActions"
+  },
+  "api/StormHawks.Runtime.Inputs.XR.VRInputAction.AnalogButtonActions.html": {
+    "href": "api/StormHawks.Runtime.Inputs.XR.VRInputAction.AnalogButtonActions.html",
+    "title": "Struct VRInputAction.AnalogButtonActions | Developer Reference",
+    "keywords": "Struct VRInputAction.AnalogButtonActions Namespace : StormHawks.Runtime.Inputs.XR Assembly : cs.temp.dll.dll Syntax public struct AnalogButtonActions Constructors AnalogButtonActions(VRInputAction) Declaration public AnalogButtonActions(VRInputAction wrapper) Parameters Type Name Description VRInputAction wrapper Properties enabled Declaration public readonly bool enabled { get; } Property Value Type Description Boolean LeftGrip Declaration public readonly InputAction LeftGrip { get; } Property Value Type Description InputAction LeftTrigger Declaration public readonly InputAction LeftTrigger { get; } Property Value Type Description InputAction RightGrip Declaration public readonly InputAction RightGrip { get; } Property Value Type Description InputAction RightTrigger Declaration public readonly InputAction RightTrigger { get; } Property Value Type Description InputAction Methods AddCallbacks(VRInputAction.IAnalogButtonActions) Declaration public void AddCallbacks(VRInputAction.IAnalogButtonActions instance) Parameters Type Name Description VRInputAction.IAnalogButtonActions instance Disable() Declaration public void Disable() Enable() Declaration public void Enable() Get() Declaration public InputActionMap Get() Returns Type Description InputActionMap RemoveCallbacks(VRInputAction.IAnalogButtonActions) Declaration public void RemoveCallbacks(VRInputAction.IAnalogButtonActions instance) Parameters Type Name Description VRInputAction.IAnalogButtonActions instance SetCallbacks(VRInputAction.IAnalogButtonActions) Declaration public void SetCallbacks(VRInputAction.IAnalogButtonActions instance) Parameters Type Name Description VRInputAction.IAnalogButtonActions instance Operators Implicit(VRInputAction.AnalogButtonActions to InputActionMap) Declaration public static implicit operator InputActionMap(VRInputAction.AnalogButtonActions set) Parameters Type Name Description VRInputAction.AnalogButtonActions set Returns Type Description InputActionMap"
+  },
+  "api/StormHawks.Runtime.Inputs.XR.VRInputAction.ButtonActions.html": {
+    "href": "api/StormHawks.Runtime.Inputs.XR.VRInputAction.ButtonActions.html",
+    "title": "Struct VRInputAction.ButtonActions | Developer Reference",
+    "keywords": "Struct VRInputAction.ButtonActions Namespace : StormHawks.Runtime.Inputs.XR Assembly : cs.temp.dll.dll Syntax public struct ButtonActions Constructors ButtonActions(VRInputAction) Declaration public ButtonActions(VRInputAction wrapper) Parameters Type Name Description VRInputAction wrapper Properties A Declaration public readonly InputAction A { get; } Property Value Type Description InputAction B Declaration public readonly InputAction B { get; } Property Value Type Description InputAction enabled Declaration public readonly bool enabled { get; } Property Value Type Description Boolean Menu Declaration public readonly InputAction Menu { get; } Property Value Type Description InputAction X Declaration public readonly InputAction X { get; } Property Value Type Description InputAction Y Declaration public readonly InputAction Y { get; } Property Value Type Description InputAction Methods AddCallbacks(VRInputAction.IButtonActions) Declaration public void AddCallbacks(VRInputAction.IButtonActions instance) Parameters Type Name Description VRInputAction.IButtonActions instance Disable() Declaration public void Disable() Enable() Declaration public void Enable() Get() Declaration public InputActionMap Get() Returns Type Description InputActionMap RemoveCallbacks(VRInputAction.IButtonActions) Declaration public void RemoveCallbacks(VRInputAction.IButtonActions instance) Parameters Type Name Description VRInputAction.IButtonActions instance SetCallbacks(VRInputAction.IButtonActions) Declaration public void SetCallbacks(VRInputAction.IButtonActions instance) Parameters Type Name Description VRInputAction.IButtonActions instance Operators Implicit(VRInputAction.ButtonActions to InputActionMap) Declaration public static implicit operator InputActionMap(VRInputAction.ButtonActions set) Parameters Type Name Description VRInputAction.ButtonActions set Returns Type Description InputActionMap"
+  },
+  "api/StormHawks.Runtime.Inputs.XR.VRInputAction.ControllerActions.html": {
+    "href": "api/StormHawks.Runtime.Inputs.XR.VRInputAction.ControllerActions.html",
+    "title": "Struct VRInputAction.ControllerActions | Developer Reference",
+    "keywords": "Struct VRInputAction.ControllerActions Namespace : StormHawks.Runtime.Inputs.XR Assembly : cs.temp.dll.dll Syntax public struct ControllerActions Constructors ControllerActions(VRInputAction) Declaration public ControllerActions(VRInputAction wrapper) Parameters Type Name Description VRInputAction wrapper Properties enabled Declaration public readonly bool enabled { get; } Property Value Type Description Boolean LeftPosition Declaration public readonly InputAction LeftPosition { get; } Property Value Type Description InputAction LeftRotation Declaration public readonly InputAction LeftRotation { get; } Property Value Type Description InputAction RightPosition Declaration public readonly InputAction RightPosition { get; } Property Value Type Description InputAction RightRotation Declaration public readonly InputAction RightRotation { get; } Property Value Type Description InputAction Methods AddCallbacks(VRInputAction.IControllerActions) Declaration public void AddCallbacks(VRInputAction.IControllerActions instance) Parameters Type Name Description VRInputAction.IControllerActions instance Disable() Declaration public void Disable() Enable() Declaration public void Enable() Get() Declaration public InputActionMap Get() Returns Type Description InputActionMap RemoveCallbacks(VRInputAction.IControllerActions) Declaration public void RemoveCallbacks(VRInputAction.IControllerActions instance) Parameters Type Name Description VRInputAction.IControllerActions instance SetCallbacks(VRInputAction.IControllerActions) Declaration public void SetCallbacks(VRInputAction.IControllerActions instance) Parameters Type Name Description VRInputAction.IControllerActions instance Operators Implicit(VRInputAction.ControllerActions to InputActionMap) Declaration public static implicit operator InputActionMap(VRInputAction.ControllerActions set) Parameters Type Name Description VRInputAction.ControllerActions set Returns Type Description InputActionMap"
+  },
+  "api/StormHawks.Runtime.Inputs.XR.VRInputAction.HMDActions.html": {
+    "href": "api/StormHawks.Runtime.Inputs.XR.VRInputAction.HMDActions.html",
+    "title": "Struct VRInputAction.HMDActions | Developer Reference",
+    "keywords": "Struct VRInputAction.HMDActions Namespace : StormHawks.Runtime.Inputs.XR Assembly : cs.temp.dll.dll Syntax public struct HMDActions Constructors HMDActions(VRInputAction) Declaration public HMDActions(VRInputAction wrapper) Parameters Type Name Description VRInputAction wrapper Properties enabled Declaration public readonly bool enabled { get; } Property Value Type Description Boolean Position Declaration public readonly InputAction Position { get; } Property Value Type Description InputAction Rotation Declaration public readonly InputAction Rotation { get; } Property Value Type Description InputAction TrackingState Declaration public readonly InputAction TrackingState { get; } Property Value Type Description InputAction Methods AddCallbacks(VRInputAction.IHMDActions) Declaration public void AddCallbacks(VRInputAction.IHMDActions instance) Parameters Type Name Description VRInputAction.IHMDActions instance Disable() Declaration public void Disable() Enable() Declaration public void Enable() Get() Declaration public InputActionMap Get() Returns Type Description InputActionMap RemoveCallbacks(VRInputAction.IHMDActions) Declaration public void RemoveCallbacks(VRInputAction.IHMDActions instance) Parameters Type Name Description VRInputAction.IHMDActions instance SetCallbacks(VRInputAction.IHMDActions) Declaration public void SetCallbacks(VRInputAction.IHMDActions instance) Parameters Type Name Description VRInputAction.IHMDActions instance Operators Implicit(VRInputAction.HMDActions to InputActionMap) Declaration public static implicit operator InputActionMap(VRInputAction.HMDActions set) Parameters Type Name Description VRInputAction.HMDActions set Returns Type Description InputActionMap"
+  },
+  "api/StormHawks.Runtime.Inputs.XR.VRInputAction.html": {
+    "href": "api/StormHawks.Runtime.Inputs.XR.VRInputAction.html",
+    "title": "Class VRInputAction | Developer Reference",
+    "keywords": "Class VRInputAction Inheritance Object VRInputAction Implements IDisposable Namespace : StormHawks.Runtime.Inputs.XR Assembly : cs.temp.dll.dll Syntax public class VRInputAction : IInputActionCollection2 Constructors VRInputAction() Declaration public VRInputAction() Properties AnalogButton Declaration public VRInputAction.AnalogButtonActions AnalogButton { get; } Property Value Type Description VRInputAction.AnalogButtonActions asset Declaration public InputActionAsset asset { get; } Property Value Type Description InputActionAsset bindingMask Declaration public InputBinding? bindingMask { get; set; } Property Value Type Description Nullable < InputBinding > bindings Declaration public IEnumerable<InputBinding> bindings { get; } Property Value Type Description IEnumerable < InputBinding > Button Declaration public VRInputAction.ButtonActions Button { get; } Property Value Type Description VRInputAction.ButtonActions Controller Declaration public VRInputAction.ControllerActions Controller { get; } Property Value Type Description VRInputAction.ControllerActions controlSchemes Declaration public ReadOnlyArray<InputControlScheme> controlSchemes { get; } Property Value Type Description ReadOnlyArray < InputControlScheme > devices Declaration public ReadOnlyArray<InputDevice>? devices { get; set; } Property Value Type Description Nullable < ReadOnlyArray < InputDevice >> HMD Declaration public VRInputAction.HMDActions HMD { get; } Property Value Type Description VRInputAction.HMDActions Methods Contains(InputAction) Declaration public bool Contains(InputAction action) Parameters Type Name Description InputAction action Returns Type Description Boolean Disable() Declaration public void Disable() Dispose() Declaration public void Dispose() Enable() Declaration public void Enable() FindAction(String, Boolean) Declaration public InputAction FindAction(string actionNameOrId, bool throwIfNotFound = false) Parameters Type Name Description String actionNameOrId Boolean throwIfNotFound Returns Type Description InputAction FindBinding(InputBinding, out InputAction) Declaration public int FindBinding(InputBinding bindingMask, out InputAction action) Parameters Type Name Description InputBinding bindingMask InputAction action Returns Type Description Int32 GetEnumerator() Declaration public IEnumerator<InputAction> GetEnumerator() Returns Type Description IEnumerator < InputAction > Implements IDisposable"
+  },
+  "api/StormHawks.Runtime.Inputs.XR.VRInputAction.IAnalogButtonActions.html": {
+    "href": "api/StormHawks.Runtime.Inputs.XR.VRInputAction.IAnalogButtonActions.html",
+    "title": "Interface VRInputAction.IAnalogButtonActions | Developer Reference",
+    "keywords": "Interface VRInputAction.IAnalogButtonActions Namespace : StormHawks.Runtime.Inputs.XR Assembly : cs.temp.dll.dll Syntax public interface IAnalogButtonActions Methods OnLeftGrip(InputAction.CallbackContext) Declaration void OnLeftGrip(InputAction.CallbackContext context) Parameters Type Name Description InputAction.CallbackContext context OnLeftTrigger(InputAction.CallbackContext) Declaration void OnLeftTrigger(InputAction.CallbackContext context) Parameters Type Name Description InputAction.CallbackContext context OnRightGrip(InputAction.CallbackContext) Declaration void OnRightGrip(InputAction.CallbackContext context) Parameters Type Name Description InputAction.CallbackContext context OnRightTrigger(InputAction.CallbackContext) Declaration void OnRightTrigger(InputAction.CallbackContext context) Parameters Type Name Description InputAction.CallbackContext context"
+  },
+  "api/StormHawks.Runtime.Inputs.XR.VRInputAction.IButtonActions.html": {
+    "href": "api/StormHawks.Runtime.Inputs.XR.VRInputAction.IButtonActions.html",
+    "title": "Interface VRInputAction.IButtonActions | Developer Reference",
+    "keywords": "Interface VRInputAction.IButtonActions Namespace : StormHawks.Runtime.Inputs.XR Assembly : cs.temp.dll.dll Syntax public interface IButtonActions Methods OnA(InputAction.CallbackContext) Declaration void OnA(InputAction.CallbackContext context) Parameters Type Name Description InputAction.CallbackContext context OnB(InputAction.CallbackContext) Declaration void OnB(InputAction.CallbackContext context) Parameters Type Name Description InputAction.CallbackContext context OnMenu(InputAction.CallbackContext) Declaration void OnMenu(InputAction.CallbackContext context) Parameters Type Name Description InputAction.CallbackContext context OnX(InputAction.CallbackContext) Declaration void OnX(InputAction.CallbackContext context) Parameters Type Name Description InputAction.CallbackContext context OnY(InputAction.CallbackContext) Declaration void OnY(InputAction.CallbackContext context) Parameters Type Name Description InputAction.CallbackContext context"
+  },
+  "api/StormHawks.Runtime.Inputs.XR.VRInputAction.IControllerActions.html": {
+    "href": "api/StormHawks.Runtime.Inputs.XR.VRInputAction.IControllerActions.html",
+    "title": "Interface VRInputAction.IControllerActions | Developer Reference",
+    "keywords": "Interface VRInputAction.IControllerActions Namespace : StormHawks.Runtime.Inputs.XR Assembly : cs.temp.dll.dll Syntax public interface IControllerActions Methods OnLeftPosition(InputAction.CallbackContext) Declaration void OnLeftPosition(InputAction.CallbackContext context) Parameters Type Name Description InputAction.CallbackContext context OnLeftRotation(InputAction.CallbackContext) Declaration void OnLeftRotation(InputAction.CallbackContext context) Parameters Type Name Description InputAction.CallbackContext context OnRightPosition(InputAction.CallbackContext) Declaration void OnRightPosition(InputAction.CallbackContext context) Parameters Type Name Description InputAction.CallbackContext context OnRightRotation(InputAction.CallbackContext) Declaration void OnRightRotation(InputAction.CallbackContext context) Parameters Type Name Description InputAction.CallbackContext context"
+  },
+  "api/StormHawks.Runtime.Inputs.XR.VRInputAction.IHMDActions.html": {
+    "href": "api/StormHawks.Runtime.Inputs.XR.VRInputAction.IHMDActions.html",
+    "title": "Interface VRInputAction.IHMDActions | Developer Reference",
+    "keywords": "Interface VRInputAction.IHMDActions Namespace : StormHawks.Runtime.Inputs.XR Assembly : cs.temp.dll.dll Syntax public interface IHMDActions Methods OnPosition(InputAction.CallbackContext) Declaration void OnPosition(InputAction.CallbackContext context) Parameters Type Name Description InputAction.CallbackContext context OnRotation(InputAction.CallbackContext) Declaration void OnRotation(InputAction.CallbackContext context) Parameters Type Name Description InputAction.CallbackContext context OnTrackingState(InputAction.CallbackContext) Declaration void OnTrackingState(InputAction.CallbackContext context) Parameters Type Name Description InputAction.CallbackContext context"
   },
   "api/StormHawks.Runtime.Interfaces.html": {
     "href": "api/StormHawks.Runtime.Interfaces.html",
@@ -1542,37 +1637,22 @@
   "api/StormHawks.Runtime.Players.Audio.html": {
     "href": "api/StormHawks.Runtime.Players.Audio.html",
     "title": "Namespace StormHawks.Runtime.Players.Audio | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Players.Audio Classes PlayerAudioBase PlayerChaseAudio PlayerFlightAudio"
+    "keywords": "Namespace StormHawks.Runtime.Players.Audio Classes PlayerThrustSound"
   },
-  "api/StormHawks.Runtime.Players.Audio.PlayerAudioBase.html": {
-    "href": "api/StormHawks.Runtime.Players.Audio.PlayerAudioBase.html",
-    "title": "Class PlayerAudioBase | Developer Reference",
-    "keywords": "Class PlayerAudioBase Inheritance Object PlayerAudioBase PlayerChaseAudio PlayerFlightAudio Namespace : StormHawks.Runtime.Players.Audio Assembly : cs.temp.dll.dll Syntax public abstract class PlayerAudioBase : MonoBehaviour Fields Cts Declaration protected CancellationTokenSource Cts Field Value Type Description CancellationTokenSource EventInstance Declaration protected EventInstance EventInstance Field Value Type Description EventInstance movementConfig Declaration protected PlayerMovementConfigSO movementConfig Field Value Type Description PlayerMovementConfigSO MovementContext Declaration protected IPlayerMovement MovementContext Field Value Type Description IPlayerMovement Methods UpdateAudioVolume() Declaration protected abstract UniTaskVoid UpdateAudioVolume() Returns Type Description UniTaskVoid"
-  },
-  "api/StormHawks.Runtime.Players.Audio.PlayerChaseAudio.html": {
-    "href": "api/StormHawks.Runtime.Players.Audio.PlayerChaseAudio.html",
-    "title": "Class PlayerChaseAudio | Developer Reference",
-    "keywords": "Class PlayerChaseAudio Inheritance Object PlayerAudioBase PlayerChaseAudio Inherited Members PlayerAudioBase.EventInstance PlayerAudioBase.MovementContext PlayerAudioBase.movementConfig PlayerAudioBase.Cts Namespace : StormHawks.Runtime.Players.Audio Assembly : cs.temp.dll.dll Syntax public class PlayerChaseAudio : PlayerAudioBase Methods UpdateAudioVolume() Declaration protected override async UniTaskVoid UpdateAudioVolume() Returns Type Description UniTaskVoid Overrides PlayerAudioBase.UpdateAudioVolume()"
-  },
-  "api/StormHawks.Runtime.Players.Audio.PlayerFlightAudio.html": {
-    "href": "api/StormHawks.Runtime.Players.Audio.PlayerFlightAudio.html",
-    "title": "Class PlayerFlightAudio | Developer Reference",
-    "keywords": "Class PlayerFlightAudio Inheritance Object PlayerAudioBase PlayerFlightAudio Inherited Members PlayerAudioBase.EventInstance PlayerAudioBase.MovementContext PlayerAudioBase.movementConfig PlayerAudioBase.Cts Namespace : StormHawks.Runtime.Players.Audio Assembly : cs.temp.dll.dll Syntax public class PlayerFlightAudio : PlayerAudioBase Methods UpdateAudioVolume() Declaration protected override async UniTaskVoid UpdateAudioVolume() Returns Type Description UniTaskVoid Overrides PlayerAudioBase.UpdateAudioVolume()"
-  },
-  "api/StormHawks.Runtime.Players.Controllers.ControlStick.html": {
-    "href": "api/StormHawks.Runtime.Players.Controllers.ControlStick.html",
-    "title": "Class ControlStick | Developer Reference",
-    "keywords": "Class ControlStick Inheritance Object ControlStick Namespace : StormHawks.Runtime.Players.Controllers Assembly : cs.temp.dll.dll Syntax public class ControlStick : MonoBehaviour Methods Initialize() Declaration public void Initialize() SetReadyRingVisible(Boolean) Declaration public void SetReadyRingVisible(bool visible) Parameters Type Name Description Boolean visible SetRingVisible(Boolean) Declaration public void SetRingVisible(bool visible) Parameters Type Name Description Boolean visible"
-  },
-  "api/StormHawks.Runtime.Players.Controllers.ControlStickHandler.html": {
-    "href": "api/StormHawks.Runtime.Players.Controllers.ControlStickHandler.html",
-    "title": "Class ControlStickHandler | Developer Reference",
-    "keywords": "Class ControlStickHandler Inheritance Object ControlStickHandler Namespace : StormHawks.Runtime.Players.Controllers Assembly : cs.temp.dll.dll Syntax public class ControlStickHandler : MonoBehaviour"
+  "api/StormHawks.Runtime.Players.Audio.PlayerThrustSound.html": {
+    "href": "api/StormHawks.Runtime.Players.Audio.PlayerThrustSound.html",
+    "title": "Class PlayerThrustSound | Developer Reference",
+    "keywords": "Class PlayerThrustSound Inheritance Object PlayerThrustSound Namespace : StormHawks.Runtime.Players.Audio Assembly : cs.temp.dll.dll Syntax public class PlayerThrustSound : MonoBehaviour"
   },
   "api/StormHawks.Runtime.Players.Controllers.html": {
     "href": "api/StormHawks.Runtime.Players.Controllers.html",
     "title": "Namespace StormHawks.Runtime.Players.Controllers | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Players.Controllers Classes ControlStick ControlStickHandler PlayerControlHandler PlayerControlSettingSO PlayerWingConfigSO Enums PlayerControlHandler.BoostStateType"
+    "keywords": "Namespace StormHawks.Runtime.Players.Controllers Classes PlayerControlConfig PlayerControlHandler PlayerWingConfigSO Enums PlayerControlHandler.BoostStateType"
+  },
+  "api/StormHawks.Runtime.Players.Controllers.PlayerControlConfig.html": {
+    "href": "api/StormHawks.Runtime.Players.Controllers.PlayerControlConfig.html",
+    "title": "Class PlayerControlConfig | Developer Reference",
+    "keywords": "Class PlayerControlConfig Inheritance Object PlayerControlConfig Namespace : StormHawks.Runtime.Players.Controllers Assembly : cs.temp.dll.dll Syntax public class PlayerControlConfig : ScriptableObject Properties BoostAngleThreshold Declaration public float BoostAngleThreshold { get; } Property Value Type Description Single BoostThrustThreshold Declaration public float BoostThrustThreshold { get; } Property Value Type Description Single CenterDeadRange Declaration public Vector3 CenterDeadRange { get; } Property Value Type Description Vector3 CenterNormalizeRange Declaration public Vector3 CenterNormalizeRange { get; } Property Value Type Description Vector3 EmergencyBreakDistance Declaration public float EmergencyBreakDistance { get; } Property Value Type Description Single RollAngleDeadRange Declaration public float RollAngleDeadRange { get; } Property Value Type Description Single RollAngleNormalizeRange Declaration public float RollAngleNormalizeRange { get; } Property Value Type Description Single"
   },
   "api/StormHawks.Runtime.Players.Controllers.PlayerControlHandler.BoostStateType.html": {
     "href": "api/StormHawks.Runtime.Players.Controllers.PlayerControlHandler.BoostStateType.html",
@@ -1583,11 +1663,6 @@
     "href": "api/StormHawks.Runtime.Players.Controllers.PlayerControlHandler.html",
     "title": "Class PlayerControlHandler | Developer Reference",
     "keywords": "Class PlayerControlHandler Inheritance Object PlayerControlHandler Namespace : StormHawks.Runtime.Players.Controllers Assembly : cs.temp.dll.dll Syntax public class PlayerControlHandler : MonoBehaviour Properties BoostState Declaration public PlayerControlHandler.BoostStateType BoostState { get; } Property Value Type Description PlayerControlHandler.BoostStateType IsAccelerating Declaration public bool IsAccelerating { get; } Property Value Type Description Boolean IsBoostActive Declaration public bool IsBoostActive { get; } Property Value Type Description Boolean IsEmergencyBreakActive Declaration public bool IsEmergencyBreakActive { get; } Property Value Type Description Boolean PitchTorquePower Declaration public float PitchTorquePower { get; } Property Value Type Description Single RollTorquePower Declaration public float RollTorquePower { get; } Property Value Type Description Single ThrustPower Declaration public float ThrustPower { get; } Property Value Type Description Single YawTorquePower Declaration public float YawTorquePower { get; } Property Value Type Description Single"
-  },
-  "api/StormHawks.Runtime.Players.Controllers.PlayerControlSettingSO.html": {
-    "href": "api/StormHawks.Runtime.Players.Controllers.PlayerControlSettingSO.html",
-    "title": "Class PlayerControlSettingSO | Developer Reference",
-    "keywords": "Class PlayerControlSettingSO Inheritance Object PlayerControlSettingSO Namespace : StormHawks.Runtime.Players.Controllers Assembly : cs.temp.dll.dll Syntax public class PlayerControlSettingSO : ScriptableObject Properties BoostAngleThreshold Declaration public float BoostAngleThreshold { get; } Property Value Type Description Single BoostThrustThreshold Declaration public float BoostThrustThreshold { get; } Property Value Type Description Single CenterDeadRange Declaration public Vector3 CenterDeadRange { get; } Property Value Type Description Vector3 CenterNormalizeRange Declaration public Vector3 CenterNormalizeRange { get; } Property Value Type Description Vector3 EmergencyBreakDistance Declaration public float EmergencyBreakDistance { get; } Property Value Type Description Single RollAngleDeadRange Declaration public float RollAngleDeadRange { get; } Property Value Type Description Single RollAngleNormalizeRange Declaration public float RollAngleNormalizeRange { get; } Property Value Type Description Single"
   },
   "api/StormHawks.Runtime.Players.Controllers.PlayerWingConfigSO.html": {
     "href": "api/StormHawks.Runtime.Players.Controllers.PlayerWingConfigSO.html",
@@ -1612,7 +1687,7 @@
   "api/StormHawks.Runtime.Players.Movement.Chasing.PlayerChaseMover.html": {
     "href": "api/StormHawks.Runtime.Players.Movement.Chasing.PlayerChaseMover.html",
     "title": "Class PlayerChaseMover | Developer Reference",
-    "keywords": "Class PlayerChaseMover Inheritance Object PlayerMoverBase PlayerChaseMover Implements IPlayerMovement Inherited Members PlayerMoverBase.ControlHandler PlayerMoverBase.PlayerRigidbody PlayerMoverBase.Thrust PlayerMoverBase.Velocity PlayerMoverBase.ThrustSoundInstance Namespace : StormHawks.Runtime.Players.Movement.Chasing Assembly : cs.temp.dll.dll Syntax public class PlayerChaseMover : PlayerMoverBase Properties MovementConfig Declaration protected PlayerChaseMovementConfigSO MovementConfig { get; } Property Value Type Description PlayerChaseMovementConfigSO SideThrust Declaration public float SideThrust { get; protected set; } Property Value Type Description Single Methods Initialize() Declaration protected override void Initialize() Overrides PlayerMoverBase.Initialize() UpdateThrust() Declaration protected override void UpdateThrust() Overrides PlayerMoverBase.UpdateThrust() UpdateVelocity() Declaration protected override void UpdateVelocity() Overrides PlayerMoverBase.UpdateVelocity() Implements IPlayerMovement"
+    "keywords": "Class PlayerChaseMover Inheritance Object PlayerMoverBase PlayerChaseMover Inherited Members PlayerMoverBase.controlHandler PlayerMoverBase.thruster PlayerMoverBase.PlayerRigidbody PlayerMoverBase.Velocity Namespace : StormHawks.Runtime.Players.Movement.Chasing Assembly : cs.temp.dll.dll Syntax public class PlayerChaseMover : PlayerMoverBase Properties MovementConfig Declaration protected PlayerChaseMovementConfigSO MovementConfig { get; } Property Value Type Description PlayerChaseMovementConfigSO SideThrust Declaration public float SideThrust { get; protected set; } Property Value Type Description Single Methods Initialize() Declaration protected override void Initialize() Overrides PlayerMoverBase.Initialize() UpdateVelocity() Declaration protected override void UpdateVelocity() Overrides PlayerMoverBase.UpdateVelocity()"
   },
   "api/StormHawks.Runtime.Players.Movement.Chasing.PlayerChaseRotator.html": {
     "href": "api/StormHawks.Runtime.Players.Movement.Chasing.PlayerChaseRotator.html",
@@ -1627,7 +1702,7 @@
   "api/StormHawks.Runtime.Players.Movement.Flight.PlayerFlightMover.html": {
     "href": "api/StormHawks.Runtime.Players.Movement.Flight.PlayerFlightMover.html",
     "title": "Class PlayerFlightMover | Developer Reference",
-    "keywords": "Class PlayerFlightMover Inheritance Object PlayerMoverBase PlayerFlightMover Implements IPlayerMovement Inherited Members PlayerMoverBase.ControlHandler PlayerMoverBase.PlayerRigidbody PlayerMoverBase.Thrust PlayerMoverBase.Velocity PlayerMoverBase.ThrustSoundInstance Namespace : StormHawks.Runtime.Players.Movement.Flight Assembly : cs.temp.dll.dll Syntax public class PlayerFlightMover : PlayerMoverBase Properties MovementConfig Declaration protected PlayerMovementConfigSO MovementConfig { get; } Property Value Type Description PlayerMovementConfigSO Methods Initialize() Declaration protected override void Initialize() Overrides PlayerMoverBase.Initialize() UpdateThrust() Declaration protected override void UpdateThrust() Overrides PlayerMoverBase.UpdateThrust() UpdateVelocity() Declaration protected override void UpdateVelocity() Overrides PlayerMoverBase.UpdateVelocity() Implements IPlayerMovement"
+    "keywords": "Class PlayerFlightMover Inheritance Object PlayerMoverBase PlayerFlightMover Inherited Members PlayerMoverBase.controlHandler PlayerMoverBase.thruster PlayerMoverBase.PlayerRigidbody PlayerMoverBase.Velocity Namespace : StormHawks.Runtime.Players.Movement.Flight Assembly : cs.temp.dll.dll Syntax public class PlayerFlightMover : PlayerMoverBase Properties MovementConfig Declaration protected PlayerMovementConfigSO MovementConfig { get; } Property Value Type Description PlayerMovementConfigSO Methods Initialize() Declaration protected override void Initialize() Overrides PlayerMoverBase.Initialize() UpdateVelocity() Declaration protected override void UpdateVelocity() Overrides PlayerMoverBase.UpdateVelocity()"
   },
   "api/StormHawks.Runtime.Players.Movement.Flight.PlayerFlightRotator.html": {
     "href": "api/StormHawks.Runtime.Players.Movement.Flight.PlayerFlightRotator.html",
@@ -1642,17 +1717,22 @@
   "api/StormHawks.Runtime.Players.Movement.html": {
     "href": "api/StormHawks.Runtime.Players.Movement.html",
     "title": "Namespace StormHawks.Runtime.Players.Movement | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Players.Movement Classes PlayerMoverBase PlayerRotatorBase"
+    "keywords": "Namespace StormHawks.Runtime.Players.Movement Classes PlayerMoverBase PlayerRotatorBase PlayerThruster"
   },
   "api/StormHawks.Runtime.Players.Movement.PlayerMoverBase.html": {
     "href": "api/StormHawks.Runtime.Players.Movement.PlayerMoverBase.html",
     "title": "Class PlayerMoverBase | Developer Reference",
-    "keywords": "Class PlayerMoverBase Inheritance Object PlayerMoverBase PlayerChaseMover PlayerFlightMover Implements IPlayerMovement Namespace : StormHawks.Runtime.Players.Movement Assembly : cs.temp.dll.dll Syntax public abstract class PlayerMoverBase : MonoBehaviour Fields ThrustSoundInstance Declaration protected EventInstance ThrustSoundInstance Field Value Type Description EventInstance Properties ControlHandler Declaration protected PlayerControlHandler ControlHandler { get; } Property Value Type Description PlayerControlHandler PlayerRigidbody Declaration protected Rigidbody PlayerRigidbody { get; } Property Value Type Description Rigidbody Thrust Declaration public float Thrust { get; protected set; } Property Value Type Description Single Velocity Declaration public Vector3 Velocity { get; protected set; } Property Value Type Description Vector3 Methods Initialize() Declaration protected abstract void Initialize() UpdateThrust() Declaration protected abstract void UpdateThrust() UpdateVelocity() Declaration protected abstract void UpdateVelocity() Implements IPlayerMovement"
+    "keywords": "Class PlayerMoverBase Inheritance Object PlayerMoverBase PlayerChaseMover PlayerFlightMover Namespace : StormHawks.Runtime.Players.Movement Assembly : cs.temp.dll.dll Syntax public abstract class PlayerMoverBase : MonoBehaviour Fields controlHandler Declaration protected PlayerControlHandler controlHandler Field Value Type Description PlayerControlHandler PlayerRigidbody Declaration protected Rigidbody PlayerRigidbody Field Value Type Description Rigidbody thruster Declaration protected PlayerThruster thruster Field Value Type Description PlayerThruster Properties Velocity Declaration public Vector3 Velocity { get; protected set; } Property Value Type Description Vector3 Methods Initialize() Declaration protected abstract void Initialize() UpdateVelocity() Declaration protected abstract void UpdateVelocity()"
   },
   "api/StormHawks.Runtime.Players.Movement.PlayerRotatorBase.html": {
     "href": "api/StormHawks.Runtime.Players.Movement.PlayerRotatorBase.html",
     "title": "Class PlayerRotatorBase | Developer Reference",
     "keywords": "Class PlayerRotatorBase Inheritance Object PlayerRotatorBase PlayerChaseRotator PlayerFlightRotator Namespace : StormHawks.Runtime.Players.Movement Assembly : cs.temp.dll.dll Syntax public abstract class PlayerRotatorBase : MonoBehaviour Fields Rotation Declaration protected Quaternion Rotation Field Value Type Description Quaternion Properties ControlHandler Declaration protected PlayerControlHandler ControlHandler { get; } Property Value Type Description PlayerControlHandler Methods OnPlayerRespawned(PlayerRespawnInfo) Declaration protected abstract void OnPlayerRespawned(PlayerRespawnInfo respawnInfo) Parameters Type Name Description PlayerRespawnInfo respawnInfo Start() Declaration protected virtual void Start() UpdateRotation() Declaration protected abstract void UpdateRotation()"
+  },
+  "api/StormHawks.Runtime.Players.Movement.PlayerThruster.html": {
+    "href": "api/StormHawks.Runtime.Players.Movement.PlayerThruster.html",
+    "title": "Class PlayerThruster | Developer Reference",
+    "keywords": "Class PlayerThruster Inheritance Object PlayerThruster Namespace : StormHawks.Runtime.Players.Movement Assembly : cs.temp.dll.dll Syntax public class PlayerThruster : MonoBehaviour Properties Thrust Declaration public float Thrust { get; protected set; } Property Value Type Description Single"
   },
   "api/StormHawks.Runtime.Players.PlayerContext.html": {
     "href": "api/StormHawks.Runtime.Players.PlayerContext.html",
@@ -1697,7 +1777,32 @@
   "api/StormHawks.Runtime.Rig.html": {
     "href": "api/StormHawks.Runtime.Rig.html",
     "title": "Namespace StormHawks.Runtime.Rig | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Rig Classes RigMapper RigOffsetSO"
+    "keywords": "Namespace StormHawks.Runtime.Rig Classes IKMap IKMapHandler IKMapHandler.IKMapDictionary IKMapOrigin RigMapper RigOffsetSO Enums IKMapType"
+  },
+  "api/StormHawks.Runtime.Rig.IKMap.html": {
+    "href": "api/StormHawks.Runtime.Rig.IKMap.html",
+    "title": "Class IKMap | Developer Reference",
+    "keywords": "Class IKMap Inheritance Object IKMap Namespace : StormHawks.Runtime.Rig Assembly : cs.temp.dll.dll Syntax [Serializable] public class IKMap Methods Remap() Declaration public void Remap() SetOrigin(Transform) Declaration public void SetOrigin(Transform origin) Parameters Type Name Description Transform origin"
+  },
+  "api/StormHawks.Runtime.Rig.IKMapHandler.html": {
+    "href": "api/StormHawks.Runtime.Rig.IKMapHandler.html",
+    "title": "Class IKMapHandler | Developer Reference",
+    "keywords": "Class IKMapHandler Inheritance Object IKMapHandler Namespace : StormHawks.Runtime.Rig Assembly : cs.temp.dll.dll Syntax public class IKMapHandler : MonoBehaviour"
+  },
+  "api/StormHawks.Runtime.Rig.IKMapHandler.IKMapDictionary.html": {
+    "href": "api/StormHawks.Runtime.Rig.IKMapHandler.IKMapDictionary.html",
+    "title": "Class IKMapHandler.IKMapDictionary | Developer Reference",
+    "keywords": "Class IKMapHandler.IKMapDictionary Inheritance Object IKMapHandler.IKMapDictionary Namespace : StormHawks.Runtime.Rig Assembly : cs.temp.dll.dll Syntax [Serializable] public class IKMapDictionary : UnitySerializedDictionary<IKMapType, IKMap>"
+  },
+  "api/StormHawks.Runtime.Rig.IKMapOrigin.html": {
+    "href": "api/StormHawks.Runtime.Rig.IKMapOrigin.html",
+    "title": "Class IKMapOrigin | Developer Reference",
+    "keywords": "Class IKMapOrigin Inheritance Object IKMapOrigin Namespace : StormHawks.Runtime.Rig Assembly : cs.temp.dll.dll Syntax public class IKMapOrigin : MonoBehaviour Properties Type Declaration public IKMapType Type { get; } Property Value Type Description IKMapType"
+  },
+  "api/StormHawks.Runtime.Rig.IKMapType.html": {
+    "href": "api/StormHawks.Runtime.Rig.IKMapType.html",
+    "title": "Enum IKMapType | Developer Reference",
+    "keywords": "Enum IKMapType Namespace : StormHawks.Runtime.Rig Assembly : cs.temp.dll.dll Syntax public enum IKMapType Fields Name Description Head LeftHand RightHand"
   },
   "api/StormHawks.Runtime.Rig.RigMapper.html": {
     "href": "api/StormHawks.Runtime.Rig.RigMapper.html",
@@ -1794,15 +1899,155 @@
     "title": "Class TutorialGameSceneContexts | Developer Reference",
     "keywords": "Class TutorialGameSceneContexts Inheritance Object GameSceneContexts TutorialGameSceneContexts Inherited Members GameSceneContexts.LoadMode GameSceneContexts.OnLoad() GameSceneContexts.OnUnload() Namespace : StormHawks.Runtime.Scenes Assembly : cs.temp.dll.dll Syntax public class TutorialGameSceneContexts : GameSceneContexts Methods GetSceneAddress() Declaration public override string GetSceneAddress() Returns Type Description String Overrides GameSceneContexts.GetSceneAddress()"
   },
+  "api/StormHawks.Runtime.Scenes.Tutorials.html": {
+    "href": "api/StormHawks.Runtime.Scenes.Tutorials.html",
+    "title": "Namespace StormHawks.Runtime.Scenes.Tutorials | Developer Reference",
+    "keywords": "Namespace StormHawks.Runtime.Scenes.Tutorials Classes TutorialDirector"
+  },
+  "api/StormHawks.Runtime.Scenes.Tutorials.Triggers.EventStateChecker.html": {
+    "href": "api/StormHawks.Runtime.Scenes.Tutorials.Triggers.EventStateChecker.html",
+    "title": "Class EventStateChecker | Developer Reference",
+    "keywords": "Class EventStateChecker Inheritance Object EventStateChecker RotateStateChecker Namespace : StormHawks.Runtime.Scenes.Tutorials.Triggers Assembly : cs.temp.dll.dll Syntax [Serializable] public abstract class EventStateChecker Properties CurrentState Declaration public EventStateChecker.State CurrentState { get; protected set; } Property Value Type Description EventStateChecker.State IsEventTriggered Declaration public bool IsEventTriggered { get; protected set; } Property Value Type Description Boolean Methods Check() Declaration protected abstract UniTask<EventStateChecker.State> Check() Returns Type Description UniTask < EventStateChecker.State >"
+  },
+  "api/StormHawks.Runtime.Scenes.Tutorials.Triggers.EventStateChecker.State.html": {
+    "href": "api/StormHawks.Runtime.Scenes.Tutorials.Triggers.EventStateChecker.State.html",
+    "title": "Enum EventStateChecker.State | Developer Reference",
+    "keywords": "Enum EventStateChecker.State Namespace : StormHawks.Runtime.Scenes.Tutorials.Triggers Assembly : cs.temp.dll.dll Syntax public enum State Fields Name Description Checking Done Failed Started Waiting"
+  },
+  "api/StormHawks.Runtime.Scenes.Tutorials.Triggers.html": {
+    "href": "api/StormHawks.Runtime.Scenes.Tutorials.Triggers.html",
+    "title": "Namespace StormHawks.Runtime.Scenes.Tutorials.Triggers | Developer Reference",
+    "keywords": "Namespace StormHawks.Runtime.Scenes.Tutorials.Triggers Classes EventStateChecker RotateStateChecker Enums EventStateChecker.State"
+  },
+  "api/StormHawks.Runtime.Scenes.Tutorials.Triggers.RotateStateChecker.html": {
+    "href": "api/StormHawks.Runtime.Scenes.Tutorials.Triggers.RotateStateChecker.html",
+    "title": "Class RotateStateChecker | Developer Reference",
+    "keywords": "Class RotateStateChecker Inheritance Object EventStateChecker RotateStateChecker Inherited Members EventStateChecker.IsEventTriggered EventStateChecker.CurrentState Namespace : StormHawks.Runtime.Scenes.Tutorials.Triggers Assembly : cs.temp.dll.dll Syntax [Serializable] public class RotateStateChecker : EventStateChecker Methods Check() Declaration protected override async UniTask<EventStateChecker.State> Check() Returns Type Description UniTask < EventStateChecker.State > Overrides EventStateChecker.Check()"
+  },
+  "api/StormHawks.Runtime.Scenes.Tutorials.TutorialDirector.html": {
+    "href": "api/StormHawks.Runtime.Scenes.Tutorials.TutorialDirector.html",
+    "title": "Class TutorialDirector | Developer Reference",
+    "keywords": "Class TutorialDirector Inheritance Object TutorialDirector Namespace : StormHawks.Runtime.Scenes.Tutorials Assembly : cs.temp.dll.dll Syntax public class TutorialDirector : MonoBehaviour"
+  },
+  "api/StormHawks.Runtime.Sounds.AssistanceVoice.EntityAlertVoice.Entity.html": {
+    "href": "api/StormHawks.Runtime.Sounds.AssistanceVoice.EntityAlertVoice.Entity.html",
+    "title": "Enum EntityAlertVoice.Entity | Developer Reference",
+    "keywords": "Enum EntityAlertVoice.Entity Namespace : StormHawks.Runtime.Sounds.AssistanceVoice Assembly : cs.temp.dll.dll Syntax public enum Entity Fields Name Description Boss Enemy Parts"
+  },
+  "api/StormHawks.Runtime.Sounds.AssistanceVoice.EntityAlertVoice.html": {
+    "href": "api/StormHawks.Runtime.Sounds.AssistanceVoice.EntityAlertVoice.html",
+    "title": "Class EntityAlertVoice | Developer Reference",
+    "keywords": "Class EntityAlertVoice Inheritance Object EntityAlertVoice Namespace : StormHawks.Runtime.Sounds.AssistanceVoice Assembly : cs.temp.dll.dll Syntax public class EntityAlertVoice : MonoBehaviour Methods Alert(EntityAlertVoice.Entity, EntityAlertVoice.Priority, EntityAlertVoice.Variant) Declaration public void Alert(EntityAlertVoice.Entity type, EntityAlertVoice.Priority danger = EntityAlertVoice.Priority.Low, EntityAlertVoice.Variant variant = EntityAlertVoice.Variant.A) Parameters Type Name Description EntityAlertVoice.Entity type EntityAlertVoice.Priority danger EntityAlertVoice.Variant variant ConvertToParameterList(EntityAlertVoice.Priority, EntityAlertVoice.Variant) Declaration public static List<FMODSoundLabelParameter> ConvertToParameterList(EntityAlertVoice.Priority danger = EntityAlertVoice.Priority.Low, EntityAlertVoice.Variant variant = EntityAlertVoice.Variant.A) Parameters Type Name Description EntityAlertVoice.Priority danger EntityAlertVoice.Variant variant Returns Type Description List < FMODSoundLabelParameter >"
+  },
+  "api/StormHawks.Runtime.Sounds.AssistanceVoice.EntityAlertVoice.Priority.html": {
+    "href": "api/StormHawks.Runtime.Sounds.AssistanceVoice.EntityAlertVoice.Priority.html",
+    "title": "Enum EntityAlertVoice.Priority | Developer Reference",
+    "keywords": "Enum EntityAlertVoice.Priority Namespace : StormHawks.Runtime.Sounds.AssistanceVoice Assembly : cs.temp.dll.dll Syntax public enum Priority Fields Name Description High Low Middle"
+  },
+  "api/StormHawks.Runtime.Sounds.AssistanceVoice.EntityAlertVoice.Variant.html": {
+    "href": "api/StormHawks.Runtime.Sounds.AssistanceVoice.EntityAlertVoice.Variant.html",
+    "title": "Enum EntityAlertVoice.Variant | Developer Reference",
+    "keywords": "Enum EntityAlertVoice.Variant Namespace : StormHawks.Runtime.Sounds.AssistanceVoice Assembly : cs.temp.dll.dll Syntax public enum Variant Fields Name Description A B C"
+  },
+  "api/StormHawks.Runtime.Sounds.AssistanceVoice.html": {
+    "href": "api/StormHawks.Runtime.Sounds.AssistanceVoice.html",
+    "title": "Namespace StormHawks.Runtime.Sounds.AssistanceVoice | Developer Reference",
+    "keywords": "Namespace StormHawks.Runtime.Sounds.AssistanceVoice Classes EntityAlertVoice TutorialAlertVoice VoicePlayer Enums EntityAlertVoice.Entity EntityAlertVoice.Priority EntityAlertVoice.Variant TutorialAlertVoice.Action"
+  },
+  "api/StormHawks.Runtime.Sounds.AssistanceVoice.TutorialAlertVoice.Action.html": {
+    "href": "api/StormHawks.Runtime.Sounds.AssistanceVoice.TutorialAlertVoice.Action.html",
+    "title": "Enum TutorialAlertVoice.Action | Developer Reference",
+    "keywords": "Enum TutorialAlertVoice.Action Namespace : StormHawks.Runtime.Sounds.AssistanceVoice Assembly : cs.temp.dll.dll Syntax public enum Action Fields Name Description AttackExplainIntro BoostExplain BulletAttackExplain ControlExplainIntro Ending MissileAttackExplain PitchExplain Reaction RollExplain StateCheck StopExplain ThrustExplain YawExplain"
+  },
+  "api/StormHawks.Runtime.Sounds.AssistanceVoice.TutorialAlertVoice.html": {
+    "href": "api/StormHawks.Runtime.Sounds.AssistanceVoice.TutorialAlertVoice.html",
+    "title": "Class TutorialAlertVoice | Developer Reference",
+    "keywords": "Class TutorialAlertVoice Inheritance Object TutorialAlertVoice Namespace : StormHawks.Runtime.Sounds.AssistanceVoice Assembly : cs.temp.dll.dll Syntax public class TutorialAlertVoice : MonoBehaviour Methods Alert(TutorialAlertVoice.Action) Declaration public void Alert(TutorialAlertVoice.Action type) Parameters Type Name Description TutorialAlertVoice.Action type ConvertToParameterList(TutorialAlertVoice.Action) Declaration public static List<FMODSoundLabelParameter> ConvertToParameterList(TutorialAlertVoice.Action action) Parameters Type Name Description TutorialAlertVoice.Action action Returns Type Description List < FMODSoundLabelParameter >"
+  },
+  "api/StormHawks.Runtime.Sounds.AssistanceVoice.VoicePlayer.html": {
+    "href": "api/StormHawks.Runtime.Sounds.AssistanceVoice.VoicePlayer.html",
+    "title": "Class VoicePlayer | Developer Reference",
+    "keywords": "Class VoicePlayer Inheritance Object VoicePlayer Namespace : StormHawks.Runtime.Sounds.AssistanceVoice Assembly : cs.temp.dll.dll Syntax public class VoicePlayer : MonoBehaviour Properties IsPlaying Declaration public bool IsPlaying { get; } Property Value Type Description Boolean Methods PlayVoice(FMODVoiceSoundType, List<FMODSoundLabelParameter>, List<FMODSoundValueParameter>) Declaration public void PlayVoice(FMODVoiceSoundType type, List<FMODSoundLabelParameter> labelList = null, List<FMODSoundValueParameter> valueList = null) Parameters Type Name Description FMODVoiceSoundType type List < FMODSoundLabelParameter > labelList List < FMODSoundValueParameter > valueList StopVoice() Declaration public void StopVoice()"
+  },
+  "api/StormHawks.Runtime.Sounds.FMODSoundFactory.html": {
+    "href": "api/StormHawks.Runtime.Sounds.FMODSoundFactory.html",
+    "title": "Class FMODSoundFactory | Developer Reference",
+    "keywords": "Class FMODSoundFactory Inheritance Object FMODSoundFactory Namespace : StormHawks.Runtime.Sounds Assembly : cs.temp.dll.dll Syntax public static class FMODSoundFactory Methods CreateInstance<T>(T) Declaration public static EventInstance CreateInstance<T>(T type) where T : Enum Parameters Type Name Description T type Returns Type Description EventInstance Type Parameters Name Description T GetPath<T>(T) Declaration public static string GetPath<T>(T type) where T : Enum Parameters Type Name Description T type Returns Type Description String Type Parameters Name Description T"
+  },
   "api/StormHawks.Runtime.Sounds.html": {
     "href": "api/StormHawks.Runtime.Sounds.html",
     "title": "Namespace StormHawks.Runtime.Sounds | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Sounds Classes SoundEvent"
+    "keywords": "Namespace StormHawks.Runtime.Sounds Classes FMODSoundFactory TestSoundScript"
   },
-  "api/StormHawks.Runtime.Sounds.SoundEvent.html": {
-    "href": "api/StormHawks.Runtime.Sounds.SoundEvent.html",
-    "title": "Class SoundEvent | Developer Reference",
-    "keywords": "Class SoundEvent Inheritance Object SoundEvent Namespace : StormHawks.Runtime.Sounds Assembly : cs.temp.dll.dll Syntax public class SoundEvent : MonoBehaviour Methods Play(Transform) Declaration public void Play(Transform target = null) Parameters Type Name Description Transform target PlayOneShot(EventReference, GameObject) Declaration public static void PlayOneShot(EventReference eventReference, GameObject target) Parameters Type Name Description EventReference eventReference GameObject target PlayOneShot(String, GameObject) Declaration public static void PlayOneShot(string path, GameObject target) Parameters Type Name Description String path GameObject target SetParameter(String, Single) Declaration public void SetParameter(string id, float value) Parameters Type Name Description String id Single value SetParameter(String, String) Declaration public void SetParameter(string id, string value) Parameters Type Name Description String id String value Stop(STOP_MODE) Declaration public void Stop(STOP_MODE mode = null) Parameters Type Name Description STOP_MODE mode Events OnPlay Declaration public event Action OnPlay Event Type Type Description Action OnStop Declaration public event Action OnStop Event Type Type Description Action"
+  "api/StormHawks.Runtime.Sounds.Paths.FMODEventPaths.html": {
+    "href": "api/StormHawks.Runtime.Sounds.Paths.FMODEventPaths.html",
+    "title": "Class FMODEventPaths | Developer Reference",
+    "keywords": "Class FMODEventPaths Inheritance Object FMODEventPaths Namespace : StormHawks.Runtime.Sounds.Paths Assembly : cs.temp.dll.dll Syntax public static class FMODEventPaths Fields ENTITY_BOSS_BossHowling Declaration public static string ENTITY_BOSS_BossHowling Field Value Type Description String ENTITY_ENEMY_EnemyBulletHum Declaration public static string ENTITY_ENEMY_EnemyBulletHum Field Value Type Description String ENTITY_ENEMY_EnemyExplosion Declaration public static string ENTITY_ENEMY_EnemyExplosion Field Value Type Description String ENTITY_ENEMY_EnemyMissileExplosion Declaration public static string ENTITY_ENEMY_EnemyMissileExplosion Field Value Type Description String ENTITY_ENEMY_EnemyWeapon Declaration public static string ENTITY_ENEMY_EnemyWeapon Field Value Type Description String ENTITY_PART_PartExplosion Declaration public static string ENTITY_PART_PartExplosion Field Value Type Description String ETC_TestEvent Declaration public static string ETC_TestEvent Field Value Type Description String PLAYER_ATTACK_BulletLaunch Declaration public static string PLAYER_ATTACK_BulletLaunch Field Value Type Description String PLAYER_ATTACK_MissileExplode Declaration public static string PLAYER_ATTACK_MissileExplode Field Value Type Description String PLAYER_ATTACK_MissileLaunch Declaration public static string PLAYER_ATTACK_MissileLaunch Field Value Type Description String PLAYER_Hit Declaration public static string PLAYER_Hit Field Value Type Description String PLAYER_MOVEMENT_ThrustEngine Declaration public static string PLAYER_MOVEMENT_ThrustEngine Field Value Type Description String PLAYER_PassSound Declaration public static string PLAYER_PassSound Field Value Type Description String UI_Apply Declaration public static string UI_Apply Field Value Type Description String UI_ButtonHover Declaration public static string UI_ButtonHover Field Value Type Description String UI_ButtonSelect Declaration public static string UI_ButtonSelect Field Value Type Description String VOICE_ALERT_BossWarning Declaration public static string VOICE_ALERT_BossWarning Field Value Type Description String VOICE_ALERT_EnemyWarning Declaration public static string VOICE_ALERT_EnemyWarning Field Value Type Description String VOICE_ALERT_PartsLocation Declaration public static string VOICE_ALERT_PartsLocation Field Value Type Description String VOICE_Tutorial Declaration public static string VOICE_Tutorial Field Value Type Description String"
+  },
+  "api/StormHawks.Runtime.Sounds.Paths.html": {
+    "href": "api/StormHawks.Runtime.Sounds.Paths.html",
+    "title": "Namespace StormHawks.Runtime.Sounds.Paths | Developer Reference",
+    "keywords": "Namespace StormHawks.Runtime.Sounds.Paths Classes FMODEventPaths"
+  },
+  "api/StormHawks.Runtime.Sounds.TestSoundScript.html": {
+    "href": "api/StormHawks.Runtime.Sounds.TestSoundScript.html",
+    "title": "Class TestSoundScript | Developer Reference",
+    "keywords": "Class TestSoundScript Inheritance Object TestSoundScript Namespace : StormHawks.Runtime.Sounds Assembly : cs.temp.dll.dll Syntax public class TestSoundScript : MonoBehaviour"
+  },
+  "api/StormHawks.Runtime.Sounds.Types.FMODEntitySoundType.html": {
+    "href": "api/StormHawks.Runtime.Sounds.Types.FMODEntitySoundType.html",
+    "title": "Enum FMODEntitySoundType | Developer Reference",
+    "keywords": "Enum FMODEntitySoundType Namespace : StormHawks.Runtime.Sounds.Types Assembly : cs.temp.dll.dll Syntax public enum FMODEntitySoundType Fields Name Description BossHowling EnemyBulletHum EnemyExplosion EnemyMissileExplosion EnemyWeapon PartExplosion"
+  },
+  "api/StormHawks.Runtime.Sounds.Types.FMODPlayerSoundType.html": {
+    "href": "api/StormHawks.Runtime.Sounds.Types.FMODPlayerSoundType.html",
+    "title": "Enum FMODPlayerSoundType | Developer Reference",
+    "keywords": "Enum FMODPlayerSoundType Namespace : StormHawks.Runtime.Sounds.Types Assembly : cs.temp.dll.dll Syntax public enum FMODPlayerSoundType Fields Name Description BulletLaunch Hit MissileExplode MissileLaunch PassSound ThrustEngine"
+  },
+  "api/StormHawks.Runtime.Sounds.Types.FMODSoundLabelParameter.html": {
+    "href": "api/StormHawks.Runtime.Sounds.Types.FMODSoundLabelParameter.html",
+    "title": "Class FMODSoundLabelParameter | Developer Reference",
+    "keywords": "Class FMODSoundLabelParameter Inheritance Object FMODSoundLabelParameter Namespace : StormHawks.Runtime.Sounds.Types Assembly : cs.temp.dll.dll Syntax [Serializable] public class FMODSoundLabelParameter Constructors FMODSoundLabelParameter(String, String) Declaration public FMODSoundLabelParameter(string name, string label) Parameters Type Name Description String name String label Fields label Declaration public string label Field Value Type Description String name Declaration public string name Field Value Type Description String"
+  },
+  "api/StormHawks.Runtime.Sounds.Types.FMODSoundValueParameter.html": {
+    "href": "api/StormHawks.Runtime.Sounds.Types.FMODSoundValueParameter.html",
+    "title": "Class FMODSoundValueParameter | Developer Reference",
+    "keywords": "Class FMODSoundValueParameter Inheritance Object FMODSoundValueParameter Namespace : StormHawks.Runtime.Sounds.Types Assembly : cs.temp.dll.dll Syntax [Serializable] public class FMODSoundValueParameter Constructors FMODSoundValueParameter(String, Single) Declaration public FMODSoundValueParameter(string name, float value) Parameters Type Name Description String name Single value Fields name Declaration public string name Field Value Type Description String value Declaration public float value Field Value Type Description Single"
+  },
+  "api/StormHawks.Runtime.Sounds.Types.FMODUISoundType.html": {
+    "href": "api/StormHawks.Runtime.Sounds.Types.FMODUISoundType.html",
+    "title": "Enum FMODUISoundType | Developer Reference",
+    "keywords": "Enum FMODUISoundType Namespace : StormHawks.Runtime.Sounds.Types Assembly : cs.temp.dll.dll Syntax public enum FMODUISoundType Fields Name Description Apply ButtonHover ButtonSelect"
+  },
+  "api/StormHawks.Runtime.Sounds.Types.FMODVoiceSoundType.html": {
+    "href": "api/StormHawks.Runtime.Sounds.Types.FMODVoiceSoundType.html",
+    "title": "Enum FMODVoiceSoundType | Developer Reference",
+    "keywords": "Enum FMODVoiceSoundType Namespace : StormHawks.Runtime.Sounds.Types Assembly : cs.temp.dll.dll Syntax public enum FMODVoiceSoundType Fields Name Description BossWarning EnemyWarning PartsLocation Tutorial"
+  },
+  "api/StormHawks.Runtime.Sounds.Types.html": {
+    "href": "api/StormHawks.Runtime.Sounds.Types.html",
+    "title": "Namespace StormHawks.Runtime.Sounds.Types | Developer Reference",
+    "keywords": "Namespace StormHawks.Runtime.Sounds.Types Classes FMODSoundLabelParameter FMODSoundValueParameter Enums FMODEntitySoundType FMODPlayerSoundType FMODUISoundType FMODVoiceSoundType"
+  },
+  "api/StormHawks.Runtime.Timelines.AssistanceVoice.html": {
+    "href": "api/StormHawks.Runtime.Timelines.AssistanceVoice.html",
+    "title": "Namespace StormHawks.Runtime.Timelines.AssistanceVoice | Developer Reference",
+    "keywords": "Namespace StormHawks.Runtime.Timelines.AssistanceVoice Classes VoiceBehaviour VoiceClip VoiceTrack"
+  },
+  "api/StormHawks.Runtime.Timelines.AssistanceVoice.VoiceBehaviour.html": {
+    "href": "api/StormHawks.Runtime.Timelines.AssistanceVoice.VoiceBehaviour.html",
+    "title": "Class VoiceBehaviour | Developer Reference",
+    "keywords": "Class VoiceBehaviour Inheritance Object VoiceBehaviour Namespace : StormHawks.Runtime.Timelines.AssistanceVoice Assembly : cs.temp.dll.dll Syntax public class VoiceBehaviour : PlayableBehaviour Methods Initialize(FMODVoiceSoundType, List<FMODSoundLabelParameter>, List<FMODSoundValueParameter>) Declaration public void Initialize(FMODVoiceSoundType type, List<FMODSoundLabelParameter> labelParams = null, List<FMODSoundValueParameter> valueParams = null) Parameters Type Name Description FMODVoiceSoundType type List < FMODSoundLabelParameter > labelParams List < FMODSoundValueParameter > valueParams ProcessFrame(Playable, FrameData, Object) Declaration public override void ProcessFrame(Playable playable, FrameData info, object playerData) Parameters Type Name Description Playable playable FrameData info Object playerData"
+  },
+  "api/StormHawks.Runtime.Timelines.AssistanceVoice.VoiceClip.html": {
+    "href": "api/StormHawks.Runtime.Timelines.AssistanceVoice.VoiceClip.html",
+    "title": "Class VoiceClip | Developer Reference",
+    "keywords": "Class VoiceClip Inheritance Object VoiceClip Namespace : StormHawks.Runtime.Timelines.AssistanceVoice Assembly : cs.temp.dll.dll Syntax public class VoiceClip : PlayableAsset Methods CreatePlayable(PlayableGraph, GameObject) Declaration public override Playable CreatePlayable(PlayableGraph graph, GameObject owner) Parameters Type Name Description PlayableGraph graph GameObject owner Returns Type Description Playable"
+  },
+  "api/StormHawks.Runtime.Timelines.AssistanceVoice.VoiceTrack.html": {
+    "href": "api/StormHawks.Runtime.Timelines.AssistanceVoice.VoiceTrack.html",
+    "title": "Class VoiceTrack | Developer Reference",
+    "keywords": "Class VoiceTrack Inheritance Object VoiceTrack Namespace : StormHawks.Runtime.Timelines.AssistanceVoice Assembly : cs.temp.dll.dll Syntax public class VoiceTrack : TrackAsset"
   },
   "api/StormHawks.Runtime.UI.html": {
     "href": "api/StormHawks.Runtime.UI.html",
@@ -2559,10 +2804,15 @@
     "title": "Namespace StormHawks.Runtime.Utilities.FileSystem | Developer Reference",
     "keywords": "Namespace StormHawks.Runtime.Utilities.FileSystem Classes AssetDirectory<T> AssetDirectoryUtility AssetFile<T> DataMenuEditorSettings"
   },
+  "api/StormHawks.Runtime.Utilities.FMODUtility.html": {
+    "href": "api/StormHawks.Runtime.Utilities.FMODUtility.html",
+    "title": "Class FMODUtility | Developer Reference",
+    "keywords": "Class FMODUtility Inheritance Object FMODUtility Namespace : StormHawks.Runtime.Utilities Assembly : cs.temp.dll.dll Syntax public static class FMODUtility Methods ApplyParameters(EventInstance, List<FMODSoundLabelParameter>, List<FMODSoundValueParameter>) Declaration public static void ApplyParameters(this EventInstance instance, List<FMODSoundLabelParameter> labelList = null, List<FMODSoundValueParameter> valueList = null) Parameters Type Name Description EventInstance instance List < FMODSoundLabelParameter > labelList List < FMODSoundValueParameter > valueList PlayOneShot<T>(T, String, Single, Vector3) Declaration public static void PlayOneShot<T>(T type, string name, float value, Vector3 position) where T : Enum Parameters Type Name Description T type String name Single value Vector3 position Type Parameters Name Description T PlayOneShot<T>(T, String, String, Vector3) Declaration public static void PlayOneShot<T>(T type, string name, string label, Vector3 position) where T : Enum Parameters Type Name Description T type String name String label Vector3 position Type Parameters Name Description T PlayOneShotAttached<T>(T, String, Single, GameObject) Declaration public static void PlayOneShotAttached<T>(T type, string name, float value, GameObject gameObject) where T : Enum Parameters Type Name Description T type String name Single value GameObject gameObject Type Parameters Name Description T PlayOneShotAttached<T>(T, String, String, GameObject) Declaration public static void PlayOneShotAttached<T>(T type, string name, string label, GameObject gameObject) where T : Enum Parameters Type Name Description T type String name String label GameObject gameObject Type Parameters Name Description T StartReservedRelease(EventInstance) Declaration public static void StartReservedRelease(this EventInstance instance) Parameters Type Name Description EventInstance instance Update3dAttributes(EventInstance, Transform) Declaration public static async UniTaskVoid Update3dAttributes(this EventInstance instance, Transform transform) Parameters Type Name Description EventInstance instance Transform transform Returns Type Description UniTaskVoid"
+  },
   "api/StormHawks.Runtime.Utilities.html": {
     "href": "api/StormHawks.Runtime.Utilities.html",
     "title": "Namespace StormHawks.Runtime.Utilities | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Utilities Classes AlignTransformUtility MonoObjectPool<T> MonoSingleton<T> TrackingOffsetSO TransformTracker UIUtility Enums AlignTransformUtility.Axis TransformTracker.FollowEventType"
+    "keywords": "Namespace StormHawks.Runtime.Utilities Classes AlignTransformUtility FMODUtility MonoObjectPool<T> MonoSingleton<T> RotationDifferenceTracker TrackingOffsetSO TransformTracker UIUtility Enums AlignTransformUtility.Axis TransformTracker.FollowEventType"
   },
   "api/StormHawks.Runtime.Utilities.MonoObjectPool-1.html": {
     "href": "api/StormHawks.Runtime.Utilities.MonoObjectPool-1.html",
@@ -2573,6 +2823,11 @@
     "href": "api/StormHawks.Runtime.Utilities.MonoSingleton-1.html",
     "title": "Class MonoSingleton<T> | Developer Reference",
     "keywords": "Class MonoSingleton<T> Inheritance Object MonoSingleton<T> Namespace : StormHawks.Runtime.Utilities Assembly : cs.temp.dll.dll Syntax public abstract class MonoSingleton<T> : MonoBehaviour where T : MonoBehaviour Type Parameters Name Description T Properties Instance Declaration public static T Instance { get; } Property Value Type Description T Methods Awake() Declaration protected virtual void Awake()"
+  },
+  "api/StormHawks.Runtime.Utilities.RotationDifferenceTracker.html": {
+    "href": "api/StormHawks.Runtime.Utilities.RotationDifferenceTracker.html",
+    "title": "Class RotationDifferenceTracker | Developer Reference",
+    "keywords": "Class RotationDifferenceTracker Inheritance Object RotationDifferenceTracker Namespace : StormHawks.Runtime.Utilities Assembly : cs.temp.dll.dll Syntax [Serializable] public class RotationDifferenceTracker Constructors RotationDifferenceTracker(Quaternion) Declaration public RotationDifferenceTracker(Quaternion rot) Parameters Type Name Description Quaternion rot Properties RotationDifference Declaration public Vector3 RotationDifference { get; } Property Value Type Description Vector3 Methods TrackStateUpdate(Quaternion) 전 Frame과의 Rotation 값을 비교하기 위해 상태값을 업데이트 하는 함수 Declaration public void TrackStateUpdate(Quaternion currRot) Parameters Type Name Description Quaternion currRot Remarks 반드시 RotationDifference 값을 가져오기 전 업데이트 해줘야 함"
   },
   "api/StormHawks.Runtime.Utilities.RuntimeSet.AggressivePartRuntimeSet.html": {
     "href": "api/StormHawks.Runtime.Utilities.RuntimeSet.AggressivePartRuntimeSet.html",
@@ -2807,17 +3062,12 @@
   "api/StormHawks.Runtime.XR.html": {
     "href": "api/StormHawks.Runtime.XR.html",
     "title": "Namespace StormHawks.Runtime.XR | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.XR Classes VROrigin XROriginAdjust"
+    "keywords": "Namespace StormHawks.Runtime.XR Classes VROrigin"
   },
   "api/StormHawks.Runtime.XR.VROrigin.html": {
     "href": "api/StormHawks.Runtime.XR.VROrigin.html",
     "title": "Class VROrigin | Developer Reference",
     "keywords": "Class VROrigin Inheritance Object VROrigin Namespace : StormHawks.Runtime.XR Assembly : cs.temp.dll.dll Syntax public class VROrigin : XROrigin"
-  },
-  "api/StormHawks.Runtime.XR.XROriginAdjust.html": {
-    "href": "api/StormHawks.Runtime.XR.XROriginAdjust.html",
-    "title": "Class XROriginAdjust | Developer Reference",
-    "keywords": "Class XROriginAdjust Inheritance Object XROriginAdjust Namespace : StormHawks.Runtime.XR Assembly : cs.temp.dll.dll Syntax public class XROriginAdjust : MonoBehaviour Methods ResetCameraToOrigin() Declaration public void ResetCameraToOrigin() ResetOriginToCamera() Declaration public void ResetOriginToCamera() Test() Declaration public void Test()"
   },
   "index.html": {
     "href": "index.html",

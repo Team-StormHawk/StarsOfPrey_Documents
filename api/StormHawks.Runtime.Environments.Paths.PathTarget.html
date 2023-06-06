@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class EnemyBase
+    <title>Class PathTarget
    | Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class EnemyBase
+    <meta name="title" content="Class PathTarget
    | Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -78,300 +78,36 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Entities.Enemies.EnemyBase">
+            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Environments.Paths.PathTarget">
   
   
-  <h1 id="StormHawks_Runtime_Entities_Enemies_EnemyBase" data-uid="StormHawks.Runtime.Entities.Enemies.EnemyBase" class="text-break">Class EnemyBase
+  <h1 id="StormHawks_Runtime_Environments_Paths_PathTarget" data-uid="StormHawks.Runtime.Environments.Paths.PathTarget" class="text-break">Class PathTarget
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">EnemyBase</span></div>
-      <div class="level2"><a class="xref" href="StormHawks.Runtime.Entities.Enemies.ChasingEnemy.html">ChasingEnemy</a></div>
-      <div class="level2"><a class="xref" href="StormHawks.Runtime.Entities.Enemies.Elites.BaseEliteEnemy.html">BaseEliteEnemy</a></div>
-      <div class="level2"><a class="xref" href="StormHawks.Runtime.Entities.Enemies.LookerEnemy.html">LookerEnemy</a></div>
+    <div class="level1"><span class="xref">PathTarget</span></div>
   </div>
-  <div class="implements">
-    <h5>Implements</h5>
-    <div><span class="xref">IHasHealth</span></div>
-    <div><span class="xref">IFollower</span></div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Entities.Enemies.html">StormHawks.Runtime.Entities.Enemies</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Environments.Paths.html">StormHawks.Runtime.Environments.Paths</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="StormHawks_Runtime_Entities_Enemies_EnemyBase_syntax">Syntax</h5>
+  <h5 id="StormHawks_Runtime_Environments_Paths_PathTarget_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class EnemyBase : SteeringEntity</code></pre>
+    <pre><code class="lang-csharp hljs">[Serializable]
+public class PathTarget</code></pre>
   </div>
-  <h3 id="fields">Fields
+  <h3 id="constructors">Constructors
   </h3>
   
   
-  <h4 id="StormHawks_Runtime_Entities_Enemies_EnemyBase__bossEntity" data-uid="StormHawks.Runtime.Entities.Enemies.EnemyBase._bossEntity">_bossEntity</h4>
+  <a id="StormHawks_Runtime_Environments_Paths_PathTarget__ctor_" data-uid="StormHawks.Runtime.Environments.Paths.PathTarget.#ctor*"></a>
+  <h4 id="StormHawks_Runtime_Environments_Paths_PathTarget__ctor_System_String_Vector3_Transform_System_Int32_" data-uid="StormHawks.Runtime.Environments.Paths.PathTarget.#ctor(System.String,Vector3,Transform,System.Int32)">PathTarget(String, Vector3, Transform, Int32)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected BossEntity _bossEntity</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">BossEntity</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="StormHawks_Runtime_Entities_Enemies_EnemyBase__bossEntityRuntimeSet" data-uid="StormHawks.Runtime.Entities.Enemies.EnemyBase._bossEntityRuntimeSet">_bossEntityRuntimeSet</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected BossRuntimeSet _bossEntityRuntimeSet</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">BossRuntimeSet</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="StormHawks_Runtime_Entities_Enemies_EnemyBase__explosionEffect" data-uid="StormHawks.Runtime.Entities.Enemies.EnemyBase._explosionEffect">_explosionEffect</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected GameObject _explosionEffect</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">GameObject</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="StormHawks_Runtime_Entities_Enemies_EnemyBase__explosionEvent" data-uid="StormHawks.Runtime.Entities.Enemies.EnemyBase._explosionEvent">_explosionEvent</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected EventReference _explosionEvent</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">EventReference</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="StormHawks_Runtime_Entities_Enemies_EnemyBase_AGGRO_TARGET" data-uid="StormHawks.Runtime.Entities.Enemies.EnemyBase.AGGRO_TARGET">AGGRO_TARGET</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected const string AGGRO_TARGET = &quot;AggroTarget&quot;</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="StormHawks_Runtime_Entities_Enemies_EnemyBase_groupRuntimeSet" data-uid="StormHawks.Runtime.Entities.Enemies.EnemyBase.groupRuntimeSet">groupRuntimeSet</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected EnemyGroupRuntimeSet groupRuntimeSet</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">EnemyGroupRuntimeSet</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="StormHawks_Runtime_Entities_Enemies_EnemyBase_IS_RETURNING" data-uid="StormHawks.Runtime.Entities.Enemies.EnemyBase.IS_RETURNING">IS_RETURNING</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected const string IS_RETURNING = &quot;IsReturning&quot;</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="properties">Properties
-  </h3>
-  
-  
-  <a id="StormHawks_Runtime_Entities_Enemies_EnemyBase_CurrentHealth_" data-uid="StormHawks.Runtime.Entities.Enemies.EnemyBase.CurrentHealth*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Enemies_EnemyBase_CurrentHealth" data-uid="StormHawks.Runtime.Entities.Enemies.EnemyBase.CurrentHealth">CurrentHealth</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float CurrentHealth { get; protected set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="StormHawks_Runtime_Entities_Enemies_EnemyBase_HealthSO_" data-uid="StormHawks.Runtime.Entities.Enemies.EnemyBase.HealthSO*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Enemies_EnemyBase_HealthSO" data-uid="StormHawks.Runtime.Entities.Enemies.EnemyBase.HealthSO">HealthSO</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EntityHealthSO HealthSO { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="StormHawks.Runtime.Entities.EntityHealthSO.html">EntityHealthSO</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="StormHawks_Runtime_Entities_Enemies_EnemyBase_Target_" data-uid="StormHawks.Runtime.Entities.Enemies.EnemyBase.Target*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Enemies_EnemyBase_Target" data-uid="StormHawks.Runtime.Entities.Enemies.EnemyBase.Target">Target</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GameObject Target { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">GameObject</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="methods">Methods
-  </h3>
-  
-  
-  <a id="StormHawks_Runtime_Entities_Enemies_EnemyBase_ReturnToPool_" data-uid="StormHawks.Runtime.Entities.Enemies.EnemyBase.ReturnToPool*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Enemies_EnemyBase_ReturnToPool" data-uid="StormHawks.Runtime.Entities.Enemies.EnemyBase.ReturnToPool">ReturnToPool()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract void ReturnToPool()</code></pre>
-  </div>
-  
-  
-  <a id="StormHawks_Runtime_Entities_Enemies_EnemyBase_SetFollowTarget_" data-uid="StormHawks.Runtime.Entities.Enemies.EnemyBase.SetFollowTarget*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Enemies_EnemyBase_SetFollowTarget_GameObject_" data-uid="StormHawks.Runtime.Entities.Enemies.EnemyBase.SetFollowTarget(GameObject)">SetFollowTarget(GameObject)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetFollowTarget(GameObject target)</code></pre>
+    <pre><code class="lang-csharp hljs">public PathTarget(string name, Vector3 startPosition, Transform parent, int maxCountOfCanFollowTarget)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -384,31 +120,243 @@
     </thead>
     <tbody>
       <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td><span class="parametername">startPosition</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Transform</span></td>
+        <td><span class="parametername">parent</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">maxCountOfCanFollowTarget</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="StormHawks_Runtime_Environments_Paths_PathTarget_PathTargetObject_" data-uid="StormHawks.Runtime.Environments.Paths.PathTarget.PathTargetObject*"></a>
+  <h4 id="StormHawks_Runtime_Environments_Paths_PathTarget_PathTargetObject" data-uid="StormHawks.Runtime.Environments.Paths.PathTarget.PathTargetObject">PathTargetObject</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GameObject PathTargetObject { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
         <td><span class="xref">GameObject</span></td>
-        <td><span class="parametername">target</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="StormHawks_Runtime_Entities_Enemies_EnemyBase_Start_" data-uid="StormHawks.Runtime.Entities.Enemies.EnemyBase.Start*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Enemies_EnemyBase_Start" data-uid="StormHawks.Runtime.Entities.Enemies.EnemyBase.Start">Start()</h4>
+  <a id="StormHawks_Runtime_Environments_Paths_PathTarget_Position_" data-uid="StormHawks.Runtime.Environments.Paths.PathTarget.Position*"></a>
+  <h4 id="StormHawks_Runtime_Environments_Paths_PathTarget_Position" data-uid="StormHawks.Runtime.Environments.Paths.PathTarget.Position">Position</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void Start()</code></pre>
+    <pre><code class="lang-csharp hljs">public Vector3 Position { get; }</code></pre>
   </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
   
   
-  <a id="StormHawks_Runtime_Entities_Enemies_EnemyBase_TakeDamage_" data-uid="StormHawks.Runtime.Entities.Enemies.EnemyBase.TakeDamage*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Enemies_EnemyBase_TakeDamage_Vector3_System_Single_" data-uid="StormHawks.Runtime.Entities.Enemies.EnemyBase.TakeDamage(Vector3,System.Single)">TakeDamage(Vector3, Single)</h4>
+  <a id="StormHawks_Runtime_Environments_Paths_PathTarget_Contains_" data-uid="StormHawks.Runtime.Environments.Paths.PathTarget.Contains*"></a>
+  <h4 id="StormHawks_Runtime_Environments_Paths_PathTarget_Contains_EnemyGroup_" data-uid="StormHawks.Runtime.Environments.Paths.PathTarget.Contains(EnemyGroup)">Contains(EnemyGroup)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract void TakeDamage(Vector3 dir, float damage)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool Contains(EnemyGroup group)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">EnemyGroup</span></td>
+        <td><span class="parametername">group</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StormHawks_Runtime_Environments_Paths_PathTarget_DoPath_" data-uid="StormHawks.Runtime.Environments.Paths.PathTarget.DoPath*"></a>
+  <h4 id="StormHawks_Runtime_Environments_Paths_PathTarget_DoPath_Vector3___System_Single_" data-uid="StormHawks.Runtime.Environments.Paths.PathTarget.DoPath(Vector3[],System.Single)">DoPath(Vector3[], Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DoPath(Vector3[] wayPoints, float duration)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector3</span>[]</td>
+        <td><span class="parametername">wayPoints</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">duration</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StormHawks_Runtime_Environments_Paths_PathTarget_IsFull_" data-uid="StormHawks.Runtime.Environments.Paths.PathTarget.IsFull*"></a>
+  <h4 id="StormHawks_Runtime_Environments_Paths_PathTarget_IsFull" data-uid="StormHawks.Runtime.Environments.Paths.PathTarget.IsFull">IsFull()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsFull()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StormHawks_Runtime_Environments_Paths_PathTarget_RegisterEnemyGroup_" data-uid="StormHawks.Runtime.Environments.Paths.PathTarget.RegisterEnemyGroup*"></a>
+  <h4 id="StormHawks_Runtime_Environments_Paths_PathTarget_RegisterEnemyGroup_EnemyGroup_" data-uid="StormHawks.Runtime.Environments.Paths.PathTarget.RegisterEnemyGroup(EnemyGroup)">RegisterEnemyGroup(EnemyGroup)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RegisterEnemyGroup(EnemyGroup group)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">EnemyGroup</span></td>
+        <td><span class="parametername">group</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StormHawks_Runtime_Environments_Paths_PathTarget_ReleaseEnemyGroup_" data-uid="StormHawks.Runtime.Environments.Paths.PathTarget.ReleaseEnemyGroup*"></a>
+  <h4 id="StormHawks_Runtime_Environments_Paths_PathTarget_ReleaseEnemyGroup_EnemyGroup_" data-uid="StormHawks.Runtime.Environments.Paths.PathTarget.ReleaseEnemyGroup(EnemyGroup)">ReleaseEnemyGroup(EnemyGroup)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ReleaseEnemyGroup(EnemyGroup group)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">EnemyGroup</span></td>
+        <td><span class="parametername">group</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StormHawks_Runtime_Environments_Paths_PathTarget_UpdatePath_" data-uid="StormHawks.Runtime.Environments.Paths.PathTarget.UpdatePath*"></a>
+  <h4 id="StormHawks_Runtime_Environments_Paths_PathTarget_UpdatePath_Vector3_" data-uid="StormHawks.Runtime.Environments.Paths.PathTarget.UpdatePath(Vector3)">UpdatePath(Vector3)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdatePath(Vector3 offset)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -422,23 +370,11 @@
     <tbody>
       <tr>
         <td><span class="xref">Vector3</span></td>
-        <td><span class="parametername">dir</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td><span class="parametername">damage</span></td>
+        <td><span class="parametername">offset</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <span class="xref">IHasHealth</span>
-  </div>
-  <div>
-      <span class="xref">IFollower</span>
-  </div>
 </article>
           </div>
           

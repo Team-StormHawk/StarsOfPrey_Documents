@@ -104,13 +104,13 @@
   </h3>
   
   
-  <a id="StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_AggressiveGroup_" data-uid="StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.AggressiveGroup*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_AggressiveGroup" data-uid="StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.AggressiveGroup">AggressiveGroup</h4>
+  <a id="StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_GroupController_" data-uid="StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.GroupController*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_GroupController" data-uid="StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.GroupController">GroupController</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public List&lt;EnemyGroup&gt; AggressiveGroup { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public EnemyGroupController GroupController { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -122,7 +122,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">List</span>&lt;<span class="xref">EnemyGroup</span>&gt;</td>
+        <td><span class="xref">EnemyGroupController</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -206,88 +206,13 @@
   </h3>
   
   
-  <a id="StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_CanBecomeAggroGroup_" data-uid="StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.CanBecomeAggroGroup*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_CanBecomeAggroGroup" data-uid="StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.CanBecomeAggroGroup">CanBecomeAggroGroup()</h4>
+  <a id="StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_OnSpawnedEnemyGroup_" data-uid="StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.OnSpawnedEnemyGroup*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_OnSpawnedEnemyGroup_EnemyGroup_" data-uid="StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.OnSpawnedEnemyGroup(EnemyGroup)">OnSpawnedEnemyGroup(EnemyGroup)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool CanBecomeAggroGroup()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_GetRandomEliteEnemyPath_" data-uid="StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.GetRandomEliteEnemyPath*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_GetRandomEliteEnemyPath" data-uid="StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.GetRandomEliteEnemyPath">GetRandomEliteEnemyPath()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EliteEnemyPath GetRandomEliteEnemyPath()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">EliteEnemyPath</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_GetRandomGroupPath_" data-uid="StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.GetRandomGroupPath*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_GetRandomGroupPath" data-uid="StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.GetRandomGroupPath">GetRandomGroupPath()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EnemyGroupPath GetRandomGroupPath()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">EnemyGroupPath</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_GroupInitialize_" data-uid="StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.GroupInitialize*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_GroupInitialize_EnemyGroup_" data-uid="StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.GroupInitialize(EnemyGroup)">GroupInitialize(EnemyGroup)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void GroupInitialize(EnemyGroup group)</code></pre>
+    <pre><code class="lang-csharp hljs">public void OnSpawnedEnemyGroup(EnemyGroup group)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -306,144 +231,6 @@
       </tr>
     </tbody>
   </table>
-  
-  
-  <a id="StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_RegisterPath_" data-uid="StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.RegisterPath*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_RegisterPath_EnemyGroup_" data-uid="StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.RegisterPath(EnemyGroup)">RegisterPath(EnemyGroup)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void RegisterPath(EnemyGroup group)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">EnemyGroup</span></td>
-        <td><span class="parametername">group</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_ReleaseEliteFromPath_" data-uid="StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.ReleaseEliteFromPath*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_ReleaseEliteFromPath_BaseEliteEnemy_" data-uid="StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.ReleaseEliteFromPath(BaseEliteEnemy)">ReleaseEliteFromPath(BaseEliteEnemy)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void ReleaseEliteFromPath(BaseEliteEnemy eliteEnemy)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">BaseEliteEnemy</span></td>
-        <td><span class="parametername">eliteEnemy</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_ReleaseEnemyGroupFromPath_" data-uid="StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.ReleaseEnemyGroupFromPath*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_ReleaseEnemyGroupFromPath_EnemyGroup_" data-uid="StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.ReleaseEnemyGroupFromPath(EnemyGroup)">ReleaseEnemyGroupFromPath(EnemyGroup)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void ReleaseEnemyGroupFromPath(EnemyGroup group)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">EnemyGroup</span></td>
-        <td><span class="parametername">group</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_SetGroupAggroTarget_" data-uid="StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.SetGroupAggroTarget*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_SetGroupAggroTarget_System_Int32_GameObject_" data-uid="StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.SetGroupAggroTarget(System.Int32,GameObject)">SetGroupAggroTarget(Int32, GameObject)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool SetGroupAggroTarget(int groupIndex, GameObject target)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">groupIndex</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">GameObject</span></td>
-        <td><span class="parametername">target</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_UpdatePathPositions_" data-uid="StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.UpdatePathPositions*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_UpdatePathPositions" data-uid="StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.UpdatePathPositions">UpdatePathPositions()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void UpdatePathPositions()</code></pre>
-  </div>
   <h3 id="implements">Implements</h3>
   <div>
       <span class="xref">IEnemyGroupOwner</span>

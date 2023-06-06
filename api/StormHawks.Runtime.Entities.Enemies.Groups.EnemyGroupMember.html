@@ -202,13 +202,13 @@
   </div>
   
   
-  <a id="StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroupMember_OnJoinedGroup_" data-uid="StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember.OnJoinedGroup*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroupMember_OnJoinedGroup_System_Int32_Action_StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroupMember__" data-uid="StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember.OnJoinedGroup(System.Int32,Action{StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember})">OnJoinedGroup(Int32, Action&lt;EnemyGroupMember&gt;)</h4>
+  <a id="StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroupMember_JoinGroup_" data-uid="StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember.JoinGroup*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroupMember_JoinGroup_System_Int32_Action_StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroupMember__" data-uid="StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember.JoinGroup(System.Int32,Action{StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember})">JoinGroup(Int32, Action&lt;EnemyGroupMember&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnJoinedGroup(int groupIndex, Action&lt;EnemyGroupMember&gt; onStepOutOfGroup)</code></pre>
+    <pre><code class="lang-csharp hljs">public void JoinGroup(int groupIndex, Action&lt;EnemyGroupMember&gt; onStepOutOfGroup)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -242,6 +242,32 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void StepOutOfGroup()</code></pre>
   </div>
+  <h3 id="events">Events
+  </h3>
+  
+  
+  <h4 id="StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroupMember_OnJoinedGroup" data-uid="StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember.OnJoinedGroup">OnJoinedGroup</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action OnJoinedGroup</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Action</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="implements">Implements</h3>
   <div>
       <span class="xref">IEnemyGroupMember</span>

@@ -100,13 +100,13 @@
   </h3>
   
   
-  <a id="StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroupController_MaxGroupCount_" data-uid="StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.MaxGroupCount*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroupController_MaxGroupCount" data-uid="StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.MaxGroupCount">MaxGroupCount</h4>
+  <a id="StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroupController_AggressiveGroup_" data-uid="StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.AggressiveGroup*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroupController_AggressiveGroup" data-uid="StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.AggressiveGroup">AggressiveGroup</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int MaxGroupCount { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public List&lt;EnemyGroup&gt; AggressiveGroup { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -118,7 +118,88 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroup.html">EnemyGroup</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroupController_BeAggressiveToRandomFriendlyShip_" data-uid="StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.BeAggressiveToRandomFriendlyShip*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroupController_BeAggressiveToRandomFriendlyShip_StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroup_" data-uid="StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.BeAggressiveToRandomFriendlyShip(StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroup)">BeAggressiveToRandomFriendlyShip(EnemyGroup)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void BeAggressiveToRandomFriendlyShip(EnemyGroup group)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroup.html">EnemyGroup</a></td>
+        <td><span class="parametername">group</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroupController_CanBecomeAggroGroup_" data-uid="StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.CanBecomeAggroGroup*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroupController_CanBecomeAggroGroup" data-uid="StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.CanBecomeAggroGroup">CanBecomeAggroGroup()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CanBecomeAggroGroup()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroupController_UpdateAggroGroup_" data-uid="StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.UpdateAggroGroup*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroupController_UpdateAggroGroup_StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroup_" data-uid="StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupController.UpdateAggroGroup(StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroup)">UpdateAggroGroup(EnemyGroup)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdateAggroGroup(EnemyGroup group)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroup.html">EnemyGroup</a></td>
+        <td><span class="parametername">group</span></td>
         <td></td>
       </tr>
     </tbody>

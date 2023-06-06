@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class SpawnEliteEnemies
+    <title>Class ArrayExtensions
    | Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class SpawnEliteEnemies
+    <meta name="title" content="Class ArrayExtensions
    | Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -78,47 +78,58 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SpawnEliteEnemies">
+            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Utilities.Extensions.ArrayExtensions">
   
   
-  <h1 id="StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_SpawnEliteEnemies" data-uid="StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SpawnEliteEnemies" class="text-break">Class SpawnEliteEnemies
+  <h1 id="StormHawks_Runtime_Utilities_Extensions_ArrayExtensions" data-uid="StormHawks.Runtime.Utilities.Extensions.ArrayExtensions" class="text-break">Class ArrayExtensions
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">SpawnEliteEnemies</span></div>
+    <div class="level1"><span class="xref">ArrayExtensions</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.html">StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Utilities.Extensions.html">StormHawks.Runtime.Utilities.Extensions</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_SpawnEliteEnemies_syntax">Syntax</h5>
+  <h5 id="StormHawks_Runtime_Utilities_Extensions_ArrayExtensions_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Serializable]
-public class SpawnEliteEnemies : ActionNode</code></pre>
+    <pre><code class="lang-csharp hljs">public static class ArrayExtensions</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_SpawnEliteEnemies_OnEnter_" data-uid="StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SpawnEliteEnemies.OnEnter*"></a>
-  <h4 id="StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_SpawnEliteEnemies_OnEnter" data-uid="StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SpawnEliteEnemies.OnEnter">OnEnter()</h4>
+  <a id="StormHawks_Runtime_Utilities_Extensions_ArrayExtensions_Shift_" data-uid="StormHawks.Runtime.Utilities.Extensions.ArrayExtensions.Shift*"></a>
+  <h4 id="StormHawks_Runtime_Utilities_Extensions_ArrayExtensions_Shift__1___0___System_Int32_" data-uid="StormHawks.Runtime.Utilities.Extensions.ArrayExtensions.Shift``1(``0[],System.Int32)">Shift&lt;T&gt;(T[], Int32)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void OnEnter()</code></pre>
+    <pre><code class="lang-csharp hljs">public static T[] Shift&lt;T&gt;(this T[] source, int startIndex)</code></pre>
   </div>
-  
-  
-  <a id="StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_SpawnEliteEnemies_OnRun_" data-uid="StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SpawnEliteEnemies.OnRun*"></a>
-  <h4 id="StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_SpawnEliteEnemies_OnRun" data-uid="StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.SpawnEliteEnemies.OnRun">OnRun()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override BehaviorNodeState OnRun()</code></pre>
-  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>T[]</td>
+        <td><span class="parametername">source</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">startIndex</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -129,7 +140,22 @@ public class SpawnEliteEnemies : ActionNode</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">BehaviorNodeState</span></td>
+        <td>T[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
         <td></td>
       </tr>
     </tbody>

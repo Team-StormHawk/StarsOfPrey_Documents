@@ -869,6 +869,11 @@
     "title": "Class LookerEnemy | Developer Reference",
     "keywords": "Class LookerEnemy Inheritance Object SteeringEnemyBase LookerEnemy Implements IHasHealth IFollower IAggressive IPoolable < LookerEnemy > Inherited Members SteeringEnemyBase.groupRuntimeSet SteeringEnemyBase._explosionEffect SteeringEnemyBase.HealthSO SteeringEnemyBase.CurrentHealth SteeringEnemyBase._explosionEvent SteeringEnemyBase.IS_RETURNING SteeringEnemyBase.AGGRO_TARGET SteeringEnemyBase.Target SteeringEnemyBase.SetFollowTarget(GameObject) Namespace : StormHawks.Runtime.Entities.Enemies Assembly : cs.temp.dll.dll Syntax public class LookerEnemy : SteeringEnemyBase Properties AggroTarget Declaration public GameObject AggroTarget { get; } Property Value Type Description GameObject IsAggressive Declaration public bool IsAggressive { get; } Property Value Type Description Boolean Pool Declaration public MonoObjectPool<LookerEnemy> Pool { get; set; } Property Value Type Description MonoObjectPool < LookerEnemy > Methods FixedUpdate() Declaration protected override void FixedUpdate() OnRelease() Declaration public void OnRelease() OnSpawn() Declaration public void OnSpawn() ReleaseAggressive() Declaration public void ReleaseAggressive() ReturnToPool() Declaration public override void ReturnToPool() Overrides SteeringEnemyBase.ReturnToPool() RotateTo() Declaration protected override void RotateTo() SetAggroTarget(GameObject) Declaration public void SetAggroTarget(GameObject target) Parameters Type Name Description GameObject target Start() Declaration protected override void Start() Overrides SteeringEnemyBase.Start() TakeDamage(Vector3, Single) Declaration public override void TakeDamage(Vector3 dir, float damage) Parameters Type Name Description Vector3 dir Single damage Overrides SteeringEnemyBase.TakeDamage(Vector3, Single) Update() Declaration protected override void Update() Implements IHasHealth IFollower IAggressive IPoolable<>"
   },
+  "api/StormHawks.Runtime.Entities.Enemies.Projectiles.BossEnergyProjectile.html": {
+    "href": "api/StormHawks.Runtime.Entities.Enemies.Projectiles.BossEnergyProjectile.html",
+    "title": "Class BossEnergyProjectile | Developer Reference",
+    "keywords": "Class BossEnergyProjectile Inheritance Object BossEnergyProjectile Implements IHasHealth Namespace : StormHawks.Runtime.Entities.Enemies.Projectiles Assembly : cs.temp.dll.dll Syntax public class BossEnergyProjectile : Projectile Properties CurrentHealth Declaration public float CurrentHealth { get; } Property Value Type Description Single HealthSO Declaration public EntityHealthSO HealthSO { get; } Property Value Type Description EntityHealthSO Methods OnSpawn() Declaration public override void OnSpawn() TakeDamage(Vector3, Single) Declaration public void TakeDamage(Vector3 dir, float damage) Parameters Type Name Description Vector3 dir Single damage Implements IHasHealth"
+  },
   "api/StormHawks.Runtime.Entities.Enemies.Projectiles.BossHomingMissile.html": {
     "href": "api/StormHawks.Runtime.Entities.Enemies.Projectiles.BossHomingMissile.html",
     "title": "Class BossHomingMissile | Developer Reference",
@@ -889,15 +894,15 @@
     "title": "Class EnemyHomingMissile | Developer Reference",
     "keywords": "Class EnemyHomingMissile Inheritance Object EnemyHomingMissile Namespace : StormHawks.Runtime.Entities.Enemies.Projectiles Assembly : cs.temp.dll.dll Syntax public class EnemyHomingMissile : Projectile Methods Awake() Declaration protected override void Awake() OnRelease() Declaration public override void OnRelease() OnSpawn() Declaration public override void OnSpawn()"
   },
-  "api/StormHawks.Runtime.Entities.Enemies.Projectiles.EnergyBulletBase.html": {
-    "href": "api/StormHawks.Runtime.Entities.Enemies.Projectiles.EnergyBulletBase.html",
-    "title": "Class EnergyBulletBase | Developer Reference",
-    "keywords": "Class EnergyBulletBase Inheritance Object EnergyBulletBase Implements IHasHealth Namespace : StormHawks.Runtime.Entities.Enemies.Projectiles Assembly : cs.temp.dll.dll Syntax public class EnergyBulletBase : Projectile Properties CurrentHealth Declaration public float CurrentHealth { get; } Property Value Type Description Single HealthSO Declaration public EntityHealthSO HealthSO { get; } Property Value Type Description EntityHealthSO Methods OnSpawn() Declaration public override void OnSpawn() TakeDamage(Vector3, Single) Declaration public void TakeDamage(Vector3 dir, float damage) Parameters Type Name Description Vector3 dir Single damage Implements IHasHealth"
-  },
   "api/StormHawks.Runtime.Entities.Enemies.Projectiles.html": {
     "href": "api/StormHawks.Runtime.Entities.Enemies.Projectiles.html",
     "title": "Namespace StormHawks.Runtime.Entities.Enemies.Projectiles | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Entities.Enemies.Projectiles Classes BossHomingMissile EnemyBullet EnemyFenceProjectile EnemyHomingMissile EnergyBulletBase"
+    "keywords": "Namespace StormHawks.Runtime.Entities.Enemies.Projectiles Classes BossEnergyProjectile BossHomingMissile EnemyBullet EnemyFenceProjectile EnemyHomingMissile MissileEliteEnergyProjectile"
+  },
+  "api/StormHawks.Runtime.Entities.Enemies.Projectiles.MissileEliteEnergyProjectile.html": {
+    "href": "api/StormHawks.Runtime.Entities.Enemies.Projectiles.MissileEliteEnergyProjectile.html",
+    "title": "Class MissileEliteEnergyProjectile | Developer Reference",
+    "keywords": "Class MissileEliteEnergyProjectile Inheritance Object MissileEliteEnergyProjectile Implements IHasHealth Namespace : StormHawks.Runtime.Entities.Enemies.Projectiles Assembly : cs.temp.dll.dll Syntax public class MissileEliteEnergyProjectile : Projectile Properties CurrentHealth Declaration public float CurrentHealth { get; } Property Value Type Description Single HealthSO Declaration public EntityHealthSO HealthSO { get; } Property Value Type Description EntityHealthSO Methods OnSpawn() Declaration public override void OnSpawn() TakeDamage(Vector3, Single) Declaration public void TakeDamage(Vector3 dir, float damage) Parameters Type Name Description Vector3 dir Single damage Implements IHasHealth"
   },
   "api/StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.html": {
     "href": "api/StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.html",
@@ -929,6 +934,11 @@
     "title": "Class FireAutomaticShot | Developer Reference",
     "keywords": "Class FireAutomaticShot Inheritance Object FireAutomaticShot Namespace : StormHawks.Runtime.Entities.Fires Assembly : cs.temp.dll.dll Syntax public class FireAutomaticShot : IEntityFire Constructors FireAutomaticShot(WeaponContext<Projectile>, Boolean) Declaration public FireAutomaticShot(WeaponContext<Projectile> context, bool tracking = false) Parameters Type Name Description WeaponContext < Projectile > context Boolean tracking FireAutomaticShot(WeaponContext<Projectile>, Boolean, Single) Declaration public FireAutomaticShot(WeaponContext<Projectile> context, bool tracking, float shotAngle) Parameters Type Name Description WeaponContext < Projectile > context Boolean tracking Single shotAngle FireAutomaticShot(WeaponContext<Projectile>, Single) Declaration public FireAutomaticShot(WeaponContext<Projectile> context, float shotAngle) Parameters Type Name Description WeaponContext < Projectile > context Single shotAngle Properties OnShootFinished Declaration public UnityAction OnShootFinished { get; set; } Property Value Type Description UnityAction Methods Cancel() Declaration public void Cancel() Fire(Transform) Declaration public void Fire(Transform weaponTransform) Parameters Type Name Description Transform weaponTransform PlayMuzzleEffect() Declaration public void PlayMuzzleEffect()"
   },
+  "api/StormHawks.Runtime.Entities.Fires.FireBossEnergyProjectile.html": {
+    "href": "api/StormHawks.Runtime.Entities.Fires.FireBossEnergyProjectile.html",
+    "title": "Class FireBossEnergyProjectile | Developer Reference",
+    "keywords": "Class FireBossEnergyProjectile Inheritance Object FireBossEnergyProjectile Namespace : StormHawks.Runtime.Entities.Fires Assembly : cs.temp.dll.dll Syntax public class FireBossEnergyProjectile : IEntityFire Constructors FireBossEnergyProjectile(WeaponContext<Projectile>) Declaration public FireBossEnergyProjectile(WeaponContext<Projectile> context) Parameters Type Name Description WeaponContext < Projectile > context Properties OnShootFinished Declaration public UnityAction OnShootFinished { get; set; } Property Value Type Description UnityAction Methods Cancel() Declaration public void Cancel() Fire(Transform) Declaration public void Fire(Transform weaponTransform) Parameters Type Name Description Transform weaponTransform PlayMuzzleEffect() Declaration public void PlayMuzzleEffect()"
+  },
   "api/StormHawks.Runtime.Entities.Fires.FireFence.html": {
     "href": "api/StormHawks.Runtime.Entities.Fires.FireFence.html",
     "title": "Class FireFence | Developer Reference",
@@ -952,7 +962,7 @@
   "api/StormHawks.Runtime.Entities.Fires.html": {
     "href": "api/StormHawks.Runtime.Entities.Fires.html",
     "title": "Namespace StormHawks.Runtime.Entities.Fires | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Entities.Fires Classes FireAutomaticShot FireFence FireHomingMissile FireInterruptedShot FireLaser"
+    "keywords": "Namespace StormHawks.Runtime.Entities.Fires Classes FireAutomaticShot FireBossEnergyProjectile FireFence FireHomingMissile FireInterruptedShot FireLaser"
   },
   "api/StormHawks.Runtime.Entities.FriendlyShips.FireFriendlyInterruptedShot.html": {
     "href": "api/StormHawks.Runtime.Entities.FriendlyShips.FireFriendlyInterruptedShot.html",
@@ -1119,6 +1129,16 @@
     "title": "Class WingMainWeakpoint | Developer Reference",
     "keywords": "Class WingMainWeakpoint Inheritance Object Weakpoint MainWeakpoint WingMainWeakpoint Implements IHasHealth Inherited Members MainWeakpoint.mainWeakpointRuntimeSet MainWeakpoint.PhaseIndex MainWeakpoint._secondaryWeakpoints MainWeakpoint._group MainWeakpoint.Select() MainWeakpoint.Destroyed() MainWeakpoint.CanTakeDamage() Weakpoint.IsActive Weakpoint._renderer Weakpoint.Initialize() Weakpoint.Dispose() Weakpoint.HealthSO Weakpoint.CurrentHealth Namespace : StormHawks.Runtime.Entities.Weakpoints Assembly : cs.temp.dll.dll Syntax public class WingMainWeakpoint : MainWeakpoint Methods Start() Declaration protected override void Start() Overrides MainWeakpoint.Start() TakeDamage(Vector3, Single) Declaration public override void TakeDamage(Vector3 dir, float damage) Parameters Type Name Description Vector3 dir Single damage Overrides MainWeakpoint.TakeDamage(Vector3, Single) Update() Declaration protected override void Update() Overrides MainWeakpoint.Update() Implements IHasHealth"
   },
+  "api/StormHawks.Runtime.Entities.Weapons.BossEnergyWeapon.html": {
+    "href": "api/StormHawks.Runtime.Entities.Weapons.BossEnergyWeapon.html",
+    "title": "Class BossEnergyWeapon | Developer Reference",
+    "keywords": "Class BossEnergyWeapon Inheritance Object EntityWeapon EntityWeapon < Projectile > EntityProjectileWeapon BossEnergyWeapon Implements IPoolable < BossEnergyWeapon > Inherited Members EntityProjectileWeapon.Start() EntityProjectileWeapon.OnGetObject(Projectile) EntityProjectileWeapon.OnReleaseObject(Projectile) EntityProjectileWeapon.IsActive EntityWeapon<Projectile>.GetPool() EntityWeapon<Projectile>.prefab EntityWeapon<Projectile>.OnEnable() EntityWeapon<Projectile>.OnDisable() EntityWeapon<Projectile>.GetChargeEffect() EntityWeapon<Projectile>.GetMuzzleEffect() EntityWeapon._fire EntityWeapon.FmodEvent EntityWeapon.IsFiring EntityWeapon.VirtualTarget EntityWeapon.OnDestroy() EntityWeapon.SetWeapon(IEntityFire) EntityWeapon.Fire() EntityWeapon.Cancel() EntityWeapon.OnFireFinished() Namespace : StormHawks.Runtime.Entities.Weapons Assembly : cs.temp.dll.dll Syntax public class BossEnergyWeapon : EntityProjectileWeapon Properties IsCharging Declaration public bool IsCharging { get; } Property Value Type Description Boolean Pool Declaration public MonoObjectPool<BossEnergyWeapon> Pool { get; set; } Property Value Type Description MonoObjectPool < BossEnergyWeapon > Methods OnRelease() Declaration public void OnRelease() OnSpawn() Declaration public void OnSpawn() Implements IPoolable<>"
+  },
+  "api/StormHawks.Runtime.Entities.Weapons.BossEnergyWeaponMaker.html": {
+    "href": "api/StormHawks.Runtime.Entities.Weapons.BossEnergyWeaponMaker.html",
+    "title": "Class BossEnergyWeaponMaker | Developer Reference",
+    "keywords": "Class BossEnergyWeaponMaker Inheritance Object BossEnergyWeaponMaker Namespace : StormHawks.Runtime.Entities.Weapons Assembly : cs.temp.dll.dll Syntax public class BossEnergyWeaponMaker : MonoBehaviour Methods GetWeapon() Declaration public BossEnergyWeapon GetWeapon() Returns Type Description BossEnergyWeapon"
+  },
   "api/StormHawks.Runtime.Entities.Weapons.BossLaserWeaponMaker.html": {
     "href": "api/StormHawks.Runtime.Entities.Weapons.BossLaserWeaponMaker.html",
     "title": "Class BossLaserWeaponMaker | Developer Reference",
@@ -1142,7 +1162,7 @@
   "api/StormHawks.Runtime.Entities.Weapons.EntityProjectileWeapon.html": {
     "href": "api/StormHawks.Runtime.Entities.Weapons.EntityProjectileWeapon.html",
     "title": "Class EntityProjectileWeapon | Developer Reference",
-    "keywords": "Class EntityProjectileWeapon Inheritance Object EntityWeapon EntityWeapon < Projectile > EntityProjectileWeapon WingProjectileWeapon Inherited Members EntityWeapon<Projectile>.Pool EntityWeapon<Projectile>.GetPool() EntityWeapon<Projectile>.prefab EntityWeapon<Projectile>.OnEnable() EntityWeapon<Projectile>.OnDisable() EntityWeapon<Projectile>.GetChargeEffect() EntityWeapon<Projectile>.GetMuzzleEffect() EntityWeapon._fire EntityWeapon.FmodEvent EntityWeapon.IsFiring EntityWeapon.VirtualTarget EntityWeapon.OnDestroy() EntityWeapon.SetWeapon(IEntityFire) EntityWeapon.Fire() EntityWeapon.Cancel() EntityWeapon.OnFireFinished() Namespace : StormHawks.Runtime.Entities.Weapons Assembly : cs.temp.dll.dll Syntax public class EntityProjectileWeapon : EntityWeapon<Projectile> Properties IsActive Declaration public bool IsActive { get; protected set; } Property Value Type Description Boolean Methods OnGetObject(Projectile) Declaration public override void OnGetObject(Projectile obj) Parameters Type Name Description Projectile obj Overrides StormHawks.Runtime.Entities.Weapons.EntityWeapon<Projectile>.OnGetObject(Projectile) OnReleaseObject(Projectile) Declaration public override void OnReleaseObject(Projectile obj) Parameters Type Name Description Projectile obj Overrides StormHawks.Runtime.Entities.Weapons.EntityWeapon<Projectile>.OnReleaseObject(Projectile) Start() Declaration protected override void Start() Overrides EntityWeapon.Start()"
+    "keywords": "Class EntityProjectileWeapon Inheritance Object EntityWeapon EntityWeapon < Projectile > EntityProjectileWeapon BossEnergyWeapon WingProjectileWeapon Inherited Members EntityWeapon<Projectile>.Pool EntityWeapon<Projectile>.GetPool() EntityWeapon<Projectile>.prefab EntityWeapon<Projectile>.OnEnable() EntityWeapon<Projectile>.OnDisable() EntityWeapon<Projectile>.GetChargeEffect() EntityWeapon<Projectile>.GetMuzzleEffect() EntityWeapon._fire EntityWeapon.FmodEvent EntityWeapon.IsFiring EntityWeapon.VirtualTarget EntityWeapon.OnDestroy() EntityWeapon.SetWeapon(IEntityFire) EntityWeapon.Fire() EntityWeapon.Cancel() EntityWeapon.OnFireFinished() Namespace : StormHawks.Runtime.Entities.Weapons Assembly : cs.temp.dll.dll Syntax public class EntityProjectileWeapon : EntityWeapon<Projectile> Properties IsActive Declaration public bool IsActive { get; protected set; } Property Value Type Description Boolean Methods OnGetObject(Projectile) Declaration public override void OnGetObject(Projectile obj) Parameters Type Name Description Projectile obj Overrides StormHawks.Runtime.Entities.Weapons.EntityWeapon<Projectile>.OnGetObject(Projectile) OnReleaseObject(Projectile) Declaration public override void OnReleaseObject(Projectile obj) Parameters Type Name Description Projectile obj Overrides StormHawks.Runtime.Entities.Weapons.EntityWeapon<Projectile>.OnReleaseObject(Projectile) Start() Declaration protected override void Start() Overrides EntityWeapon.Start()"
   },
   "api/StormHawks.Runtime.Entities.Weapons.EntityWeapon.html": {
     "href": "api/StormHawks.Runtime.Entities.Weapons.EntityWeapon.html",
@@ -1172,7 +1192,7 @@
   "api/StormHawks.Runtime.Entities.Weapons.html": {
     "href": "api/StormHawks.Runtime.Entities.Weapons.html",
     "title": "Namespace StormHawks.Runtime.Entities.Weapons | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Entities.Weapons Classes BossLaserWeaponMaker EntityFenceWeapon EntityHomingMissileConfigSO EntityLaserWeapon EntityProjectileWeapon EntityWeapon EntityWeapon<T> FenceMovingInfo FenceRotatingInfo FenceWeaponContext LaserWeaponContext WeaponContext<T> WingProjectileWeapon"
+    "keywords": "Namespace StormHawks.Runtime.Entities.Weapons Classes BossEnergyWeapon BossEnergyWeaponMaker BossLaserWeaponMaker EntityFenceWeapon EntityHomingMissileConfigSO EntityLaserWeapon EntityProjectileWeapon EntityWeapon EntityWeapon<T> FenceMovingInfo FenceRotatingInfo FenceWeaponContext LaserWeaponContext WeaponContext<T> WingProjectileWeapon"
   },
   "api/StormHawks.Runtime.Entities.Weapons.LaserWeaponContext.html": {
     "href": "api/StormHawks.Runtime.Entities.Weapons.LaserWeaponContext.html",
@@ -2169,6 +2189,11 @@
     "title": "Class AlignTransformUtility | Developer Reference",
     "keywords": "Class AlignTransformUtility Inheritance Object AlignTransformUtility Namespace : StormHawks.Runtime.Utilities Assembly : cs.temp.dll.dll Syntax public class AlignTransformUtility : MonoBehaviour Properties AlignForwardAxis Declaration public AlignTransformUtility.Axis AlignForwardAxis { get; } Property Value Type Description AlignTransformUtility.Axis AlignTarget Declaration public Transform AlignTarget { get; } Property Value Type Description Transform AlignUpwardAxis Declaration public AlignTransformUtility.Axis AlignUpwardAxis { get; } Property Value Type Description AlignTransformUtility.Axis ArrowSize Declaration public float ArrowSize { get; } Property Value Type Description Single DistFromCenter Declaration public float DistFromCenter { get; } Property Value Type Description Single EnableArrowHead Declaration public bool EnableArrowHead { get; } Property Value Type Description Boolean XAxisColor Declaration public Color XAxisColor { get; } Property Value Type Description Color YAxisColor Declaration public Color YAxisColor { get; } Property Value Type Description Color ZAxisColor Declaration public Color ZAxisColor { get; } Property Value Type Description Color Methods AlignController() Declaration public void AlignController()"
   },
+  "api/StormHawks.Runtime.Utilities.BehaviorTree.BossEnergyWeaponMakerKey.html": {
+    "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.BossEnergyWeaponMakerKey.html",
+    "title": "Class BossEnergyWeaponMakerKey | Developer Reference",
+    "keywords": "Class BossEnergyWeaponMakerKey Inheritance Object BossEnergyWeaponMakerKey Namespace : StormHawks.Runtime.Utilities.BehaviorTree Assembly : cs.temp.dll.dll Syntax [Serializable] public class BossEnergyWeaponMakerKey : BlackboardKey<BossEnergyWeaponMaker>"
+  },
   "api/StormHawks.Runtime.Utilities.BehaviorTree.BossLaserWeaponMakerKey.html": {
     "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.BossLaserWeaponMakerKey.html",
     "title": "Class BossLaserWeaponMakerKey | Developer Reference",
@@ -2222,7 +2247,7 @@
   "api/StormHawks.Runtime.Utilities.BehaviorTree.html": {
     "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.html",
     "title": "Namespace StormHawks.Runtime.Utilities.BehaviorTree | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Utilities.BehaviorTree Classes BossLaserWeaponMakerKey BossRibcageAreaKey EnemyGroupControllerKey EnemyGroupKey EnemyPortalSpawnerKey EnemySpawnerKey EntityFenceWeaponKey EntityLaserWeaponKey EntityProjectileWeaponKey FieldOfViewDetectorKey OuterGridKey ParticleSystemKey PartSpawnerKey PlayableAreaKey"
+    "keywords": "Namespace StormHawks.Runtime.Utilities.BehaviorTree Classes BossEnergyWeaponMakerKey BossLaserWeaponMakerKey BossRibcageAreaKey EnemyGroupControllerKey EnemyGroupKey EnemyPortalSpawnerKey EnemySpawnerKey EntityFenceWeaponKey EntityLaserWeaponKey EntityProjectileWeaponKey FieldOfViewDetectorKey OuterGridKey ParticleSystemKey PartSpawnerKey PlayableAreaKey"
   },
   "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.AlwaysFailure.html": {
     "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.AlwaysFailure.html",
@@ -2257,12 +2282,17 @@
   "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.BossAction.html": {
     "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.BossAction.html",
     "title": "Class BossAction | Developer Reference",
-    "keywords": "Class BossAction Inheritance Object EntityActionNode BossAction OrbitRotateAround Inherited Members EntityActionNode._rotator EntityActionNode._runnerTransform EntityActionNode.OnInitialize() Namespace : StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions Assembly : cs.temp.dll.dll Syntax [Serializable] public abstract class BossAction : EntityActionNode Fields _bossEntity Declaration protected BossEntity _bossEntity Field Value Type Description BossEntity Methods OnEnter() Declaration protected override void OnEnter()"
+    "keywords": "Class BossAction Inheritance Object EntityActionNode BossAction BossFireEnergyBullets OrbitRotateAround Inherited Members EntityActionNode._rotator EntityActionNode._runnerTransform EntityActionNode.OnInitialize() Namespace : StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions Assembly : cs.temp.dll.dll Syntax [Serializable] public abstract class BossAction : EntityActionNode Fields _bossEntity Declaration protected BossEntity _bossEntity Field Value Type Description BossEntity Methods OnEnter() Declaration protected override void OnEnter()"
+  },
+  "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.BossFireEnergyBullets.html": {
+    "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.BossFireEnergyBullets.html",
+    "title": "Class BossFireEnergyBullets | Developer Reference",
+    "keywords": "Class BossFireEnergyBullets Inheritance Object EntityActionNode BossAction BossFireEnergyBullets Inherited Members BossAction._bossEntity EntityActionNode._rotator EntityActionNode._runnerTransform EntityActionNode.OnInitialize() Namespace : StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions Assembly : cs.temp.dll.dll Syntax [Serializable] public class BossFireEnergyBullets : BossAction Methods OnEnter() Declaration protected override void OnEnter() Overrides BossAction.OnEnter() OnRun() Declaration protected override BehaviorNodeState OnRun() Returns Type Description BehaviorNodeState"
   },
   "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.html": {
     "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.html",
     "title": "Namespace StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions Classes BossAction OrbitRotateAround"
+    "keywords": "Namespace StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions Classes BossAction BossFireEnergyBullets OrbitRotateAround"
   },
   "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.OrbitRotateAround.html": {
     "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.OrbitRotateAround.html",

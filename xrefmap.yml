@@ -6609,6 +6609,64 @@ references:
   commentId: N:StormHawks.Runtime.Entities.Enemies.Projectiles
   fullName: StormHawks.Runtime.Entities.Enemies.Projectiles
   nameWithType: StormHawks.Runtime.Entities.Enemies.Projectiles
+- uid: StormHawks.Runtime.Entities.Enemies.Projectiles.BossEnergyProjectile
+  name: BossEnergyProjectile
+  href: api/StormHawks.Runtime.Entities.Enemies.Projectiles.BossEnergyProjectile.html
+  commentId: T:StormHawks.Runtime.Entities.Enemies.Projectiles.BossEnergyProjectile
+  fullName: StormHawks.Runtime.Entities.Enemies.Projectiles.BossEnergyProjectile
+  nameWithType: BossEnergyProjectile
+- uid: StormHawks.Runtime.Entities.Enemies.Projectiles.BossEnergyProjectile.CurrentHealth
+  name: CurrentHealth
+  href: api/StormHawks.Runtime.Entities.Enemies.Projectiles.BossEnergyProjectile.html#StormHawks_Runtime_Entities_Enemies_Projectiles_BossEnergyProjectile_CurrentHealth
+  commentId: P:StormHawks.Runtime.Entities.Enemies.Projectiles.BossEnergyProjectile.CurrentHealth
+  fullName: StormHawks.Runtime.Entities.Enemies.Projectiles.BossEnergyProjectile.CurrentHealth
+  nameWithType: BossEnergyProjectile.CurrentHealth
+- uid: StormHawks.Runtime.Entities.Enemies.Projectiles.BossEnergyProjectile.CurrentHealth*
+  name: CurrentHealth
+  href: api/StormHawks.Runtime.Entities.Enemies.Projectiles.BossEnergyProjectile.html#StormHawks_Runtime_Entities_Enemies_Projectiles_BossEnergyProjectile_CurrentHealth_
+  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Projectiles.BossEnergyProjectile.CurrentHealth
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Entities.Enemies.Projectiles.BossEnergyProjectile.CurrentHealth
+  nameWithType: BossEnergyProjectile.CurrentHealth
+- uid: StormHawks.Runtime.Entities.Enemies.Projectiles.BossEnergyProjectile.HealthSO
+  name: HealthSO
+  href: api/StormHawks.Runtime.Entities.Enemies.Projectiles.BossEnergyProjectile.html#StormHawks_Runtime_Entities_Enemies_Projectiles_BossEnergyProjectile_HealthSO
+  commentId: P:StormHawks.Runtime.Entities.Enemies.Projectiles.BossEnergyProjectile.HealthSO
+  fullName: StormHawks.Runtime.Entities.Enemies.Projectiles.BossEnergyProjectile.HealthSO
+  nameWithType: BossEnergyProjectile.HealthSO
+- uid: StormHawks.Runtime.Entities.Enemies.Projectiles.BossEnergyProjectile.HealthSO*
+  name: HealthSO
+  href: api/StormHawks.Runtime.Entities.Enemies.Projectiles.BossEnergyProjectile.html#StormHawks_Runtime_Entities_Enemies_Projectiles_BossEnergyProjectile_HealthSO_
+  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Projectiles.BossEnergyProjectile.HealthSO
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Entities.Enemies.Projectiles.BossEnergyProjectile.HealthSO
+  nameWithType: BossEnergyProjectile.HealthSO
+- uid: StormHawks.Runtime.Entities.Enemies.Projectiles.BossEnergyProjectile.OnSpawn
+  name: OnSpawn()
+  href: api/StormHawks.Runtime.Entities.Enemies.Projectiles.BossEnergyProjectile.html#StormHawks_Runtime_Entities_Enemies_Projectiles_BossEnergyProjectile_OnSpawn
+  commentId: M:StormHawks.Runtime.Entities.Enemies.Projectiles.BossEnergyProjectile.OnSpawn
+  fullName: StormHawks.Runtime.Entities.Enemies.Projectiles.BossEnergyProjectile.OnSpawn()
+  nameWithType: BossEnergyProjectile.OnSpawn()
+- uid: StormHawks.Runtime.Entities.Enemies.Projectiles.BossEnergyProjectile.OnSpawn*
+  name: OnSpawn
+  href: api/StormHawks.Runtime.Entities.Enemies.Projectiles.BossEnergyProjectile.html#StormHawks_Runtime_Entities_Enemies_Projectiles_BossEnergyProjectile_OnSpawn_
+  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Projectiles.BossEnergyProjectile.OnSpawn
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Entities.Enemies.Projectiles.BossEnergyProjectile.OnSpawn
+  nameWithType: BossEnergyProjectile.OnSpawn
+- uid: StormHawks.Runtime.Entities.Enemies.Projectiles.BossEnergyProjectile.TakeDamage(Vector3,System.Single)
+  name: TakeDamage(Vector3, Single)
+  href: api/StormHawks.Runtime.Entities.Enemies.Projectiles.BossEnergyProjectile.html#StormHawks_Runtime_Entities_Enemies_Projectiles_BossEnergyProjectile_TakeDamage_Vector3_System_Single_
+  commentId: M:StormHawks.Runtime.Entities.Enemies.Projectiles.BossEnergyProjectile.TakeDamage(Vector3,System.Single)
+  fullName: StormHawks.Runtime.Entities.Enemies.Projectiles.BossEnergyProjectile.TakeDamage(Vector3, System.Single)
+  nameWithType: BossEnergyProjectile.TakeDamage(Vector3, Single)
+- uid: StormHawks.Runtime.Entities.Enemies.Projectiles.BossEnergyProjectile.TakeDamage*
+  name: TakeDamage
+  href: api/StormHawks.Runtime.Entities.Enemies.Projectiles.BossEnergyProjectile.html#StormHawks_Runtime_Entities_Enemies_Projectiles_BossEnergyProjectile_TakeDamage_
+  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Projectiles.BossEnergyProjectile.TakeDamage
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Entities.Enemies.Projectiles.BossEnergyProjectile.TakeDamage
+  nameWithType: BossEnergyProjectile.TakeDamage
 - uid: StormHawks.Runtime.Entities.Enemies.Projectiles.BossHomingMissile
   name: BossHomingMissile
   href: api/StormHawks.Runtime.Entities.Enemies.Projectiles.BossHomingMissile.html
@@ -6857,64 +6915,64 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Entities.Enemies.Projectiles.EnemyHomingMissile.OnSpawn
   nameWithType: EnemyHomingMissile.OnSpawn
-- uid: StormHawks.Runtime.Entities.Enemies.Projectiles.EnergyBulletBase
-  name: EnergyBulletBase
-  href: api/StormHawks.Runtime.Entities.Enemies.Projectiles.EnergyBulletBase.html
-  commentId: T:StormHawks.Runtime.Entities.Enemies.Projectiles.EnergyBulletBase
-  fullName: StormHawks.Runtime.Entities.Enemies.Projectiles.EnergyBulletBase
-  nameWithType: EnergyBulletBase
-- uid: StormHawks.Runtime.Entities.Enemies.Projectiles.EnergyBulletBase.CurrentHealth
+- uid: StormHawks.Runtime.Entities.Enemies.Projectiles.MissileEliteEnergyProjectile
+  name: MissileEliteEnergyProjectile
+  href: api/StormHawks.Runtime.Entities.Enemies.Projectiles.MissileEliteEnergyProjectile.html
+  commentId: T:StormHawks.Runtime.Entities.Enemies.Projectiles.MissileEliteEnergyProjectile
+  fullName: StormHawks.Runtime.Entities.Enemies.Projectiles.MissileEliteEnergyProjectile
+  nameWithType: MissileEliteEnergyProjectile
+- uid: StormHawks.Runtime.Entities.Enemies.Projectiles.MissileEliteEnergyProjectile.CurrentHealth
   name: CurrentHealth
-  href: api/StormHawks.Runtime.Entities.Enemies.Projectiles.EnergyBulletBase.html#StormHawks_Runtime_Entities_Enemies_Projectiles_EnergyBulletBase_CurrentHealth
-  commentId: P:StormHawks.Runtime.Entities.Enemies.Projectiles.EnergyBulletBase.CurrentHealth
-  fullName: StormHawks.Runtime.Entities.Enemies.Projectiles.EnergyBulletBase.CurrentHealth
-  nameWithType: EnergyBulletBase.CurrentHealth
-- uid: StormHawks.Runtime.Entities.Enemies.Projectiles.EnergyBulletBase.CurrentHealth*
+  href: api/StormHawks.Runtime.Entities.Enemies.Projectiles.MissileEliteEnergyProjectile.html#StormHawks_Runtime_Entities_Enemies_Projectiles_MissileEliteEnergyProjectile_CurrentHealth
+  commentId: P:StormHawks.Runtime.Entities.Enemies.Projectiles.MissileEliteEnergyProjectile.CurrentHealth
+  fullName: StormHawks.Runtime.Entities.Enemies.Projectiles.MissileEliteEnergyProjectile.CurrentHealth
+  nameWithType: MissileEliteEnergyProjectile.CurrentHealth
+- uid: StormHawks.Runtime.Entities.Enemies.Projectiles.MissileEliteEnergyProjectile.CurrentHealth*
   name: CurrentHealth
-  href: api/StormHawks.Runtime.Entities.Enemies.Projectiles.EnergyBulletBase.html#StormHawks_Runtime_Entities_Enemies_Projectiles_EnergyBulletBase_CurrentHealth_
-  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Projectiles.EnergyBulletBase.CurrentHealth
+  href: api/StormHawks.Runtime.Entities.Enemies.Projectiles.MissileEliteEnergyProjectile.html#StormHawks_Runtime_Entities_Enemies_Projectiles_MissileEliteEnergyProjectile_CurrentHealth_
+  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Projectiles.MissileEliteEnergyProjectile.CurrentHealth
   isSpec: "True"
-  fullName: StormHawks.Runtime.Entities.Enemies.Projectiles.EnergyBulletBase.CurrentHealth
-  nameWithType: EnergyBulletBase.CurrentHealth
-- uid: StormHawks.Runtime.Entities.Enemies.Projectiles.EnergyBulletBase.HealthSO
+  fullName: StormHawks.Runtime.Entities.Enemies.Projectiles.MissileEliteEnergyProjectile.CurrentHealth
+  nameWithType: MissileEliteEnergyProjectile.CurrentHealth
+- uid: StormHawks.Runtime.Entities.Enemies.Projectiles.MissileEliteEnergyProjectile.HealthSO
   name: HealthSO
-  href: api/StormHawks.Runtime.Entities.Enemies.Projectiles.EnergyBulletBase.html#StormHawks_Runtime_Entities_Enemies_Projectiles_EnergyBulletBase_HealthSO
-  commentId: P:StormHawks.Runtime.Entities.Enemies.Projectiles.EnergyBulletBase.HealthSO
-  fullName: StormHawks.Runtime.Entities.Enemies.Projectiles.EnergyBulletBase.HealthSO
-  nameWithType: EnergyBulletBase.HealthSO
-- uid: StormHawks.Runtime.Entities.Enemies.Projectiles.EnergyBulletBase.HealthSO*
+  href: api/StormHawks.Runtime.Entities.Enemies.Projectiles.MissileEliteEnergyProjectile.html#StormHawks_Runtime_Entities_Enemies_Projectiles_MissileEliteEnergyProjectile_HealthSO
+  commentId: P:StormHawks.Runtime.Entities.Enemies.Projectiles.MissileEliteEnergyProjectile.HealthSO
+  fullName: StormHawks.Runtime.Entities.Enemies.Projectiles.MissileEliteEnergyProjectile.HealthSO
+  nameWithType: MissileEliteEnergyProjectile.HealthSO
+- uid: StormHawks.Runtime.Entities.Enemies.Projectiles.MissileEliteEnergyProjectile.HealthSO*
   name: HealthSO
-  href: api/StormHawks.Runtime.Entities.Enemies.Projectiles.EnergyBulletBase.html#StormHawks_Runtime_Entities_Enemies_Projectiles_EnergyBulletBase_HealthSO_
-  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Projectiles.EnergyBulletBase.HealthSO
+  href: api/StormHawks.Runtime.Entities.Enemies.Projectiles.MissileEliteEnergyProjectile.html#StormHawks_Runtime_Entities_Enemies_Projectiles_MissileEliteEnergyProjectile_HealthSO_
+  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Projectiles.MissileEliteEnergyProjectile.HealthSO
   isSpec: "True"
-  fullName: StormHawks.Runtime.Entities.Enemies.Projectiles.EnergyBulletBase.HealthSO
-  nameWithType: EnergyBulletBase.HealthSO
-- uid: StormHawks.Runtime.Entities.Enemies.Projectiles.EnergyBulletBase.OnSpawn
+  fullName: StormHawks.Runtime.Entities.Enemies.Projectiles.MissileEliteEnergyProjectile.HealthSO
+  nameWithType: MissileEliteEnergyProjectile.HealthSO
+- uid: StormHawks.Runtime.Entities.Enemies.Projectiles.MissileEliteEnergyProjectile.OnSpawn
   name: OnSpawn()
-  href: api/StormHawks.Runtime.Entities.Enemies.Projectiles.EnergyBulletBase.html#StormHawks_Runtime_Entities_Enemies_Projectiles_EnergyBulletBase_OnSpawn
-  commentId: M:StormHawks.Runtime.Entities.Enemies.Projectiles.EnergyBulletBase.OnSpawn
-  fullName: StormHawks.Runtime.Entities.Enemies.Projectiles.EnergyBulletBase.OnSpawn()
-  nameWithType: EnergyBulletBase.OnSpawn()
-- uid: StormHawks.Runtime.Entities.Enemies.Projectiles.EnergyBulletBase.OnSpawn*
+  href: api/StormHawks.Runtime.Entities.Enemies.Projectiles.MissileEliteEnergyProjectile.html#StormHawks_Runtime_Entities_Enemies_Projectiles_MissileEliteEnergyProjectile_OnSpawn
+  commentId: M:StormHawks.Runtime.Entities.Enemies.Projectiles.MissileEliteEnergyProjectile.OnSpawn
+  fullName: StormHawks.Runtime.Entities.Enemies.Projectiles.MissileEliteEnergyProjectile.OnSpawn()
+  nameWithType: MissileEliteEnergyProjectile.OnSpawn()
+- uid: StormHawks.Runtime.Entities.Enemies.Projectiles.MissileEliteEnergyProjectile.OnSpawn*
   name: OnSpawn
-  href: api/StormHawks.Runtime.Entities.Enemies.Projectiles.EnergyBulletBase.html#StormHawks_Runtime_Entities_Enemies_Projectiles_EnergyBulletBase_OnSpawn_
-  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Projectiles.EnergyBulletBase.OnSpawn
+  href: api/StormHawks.Runtime.Entities.Enemies.Projectiles.MissileEliteEnergyProjectile.html#StormHawks_Runtime_Entities_Enemies_Projectiles_MissileEliteEnergyProjectile_OnSpawn_
+  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Projectiles.MissileEliteEnergyProjectile.OnSpawn
   isSpec: "True"
-  fullName: StormHawks.Runtime.Entities.Enemies.Projectiles.EnergyBulletBase.OnSpawn
-  nameWithType: EnergyBulletBase.OnSpawn
-- uid: StormHawks.Runtime.Entities.Enemies.Projectiles.EnergyBulletBase.TakeDamage(Vector3,System.Single)
+  fullName: StormHawks.Runtime.Entities.Enemies.Projectiles.MissileEliteEnergyProjectile.OnSpawn
+  nameWithType: MissileEliteEnergyProjectile.OnSpawn
+- uid: StormHawks.Runtime.Entities.Enemies.Projectiles.MissileEliteEnergyProjectile.TakeDamage(Vector3,System.Single)
   name: TakeDamage(Vector3, Single)
-  href: api/StormHawks.Runtime.Entities.Enemies.Projectiles.EnergyBulletBase.html#StormHawks_Runtime_Entities_Enemies_Projectiles_EnergyBulletBase_TakeDamage_Vector3_System_Single_
-  commentId: M:StormHawks.Runtime.Entities.Enemies.Projectiles.EnergyBulletBase.TakeDamage(Vector3,System.Single)
-  fullName: StormHawks.Runtime.Entities.Enemies.Projectiles.EnergyBulletBase.TakeDamage(Vector3, System.Single)
-  nameWithType: EnergyBulletBase.TakeDamage(Vector3, Single)
-- uid: StormHawks.Runtime.Entities.Enemies.Projectiles.EnergyBulletBase.TakeDamage*
+  href: api/StormHawks.Runtime.Entities.Enemies.Projectiles.MissileEliteEnergyProjectile.html#StormHawks_Runtime_Entities_Enemies_Projectiles_MissileEliteEnergyProjectile_TakeDamage_Vector3_System_Single_
+  commentId: M:StormHawks.Runtime.Entities.Enemies.Projectiles.MissileEliteEnergyProjectile.TakeDamage(Vector3,System.Single)
+  fullName: StormHawks.Runtime.Entities.Enemies.Projectiles.MissileEliteEnergyProjectile.TakeDamage(Vector3, System.Single)
+  nameWithType: MissileEliteEnergyProjectile.TakeDamage(Vector3, Single)
+- uid: StormHawks.Runtime.Entities.Enemies.Projectiles.MissileEliteEnergyProjectile.TakeDamage*
   name: TakeDamage
-  href: api/StormHawks.Runtime.Entities.Enemies.Projectiles.EnergyBulletBase.html#StormHawks_Runtime_Entities_Enemies_Projectiles_EnergyBulletBase_TakeDamage_
-  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Projectiles.EnergyBulletBase.TakeDamage
+  href: api/StormHawks.Runtime.Entities.Enemies.Projectiles.MissileEliteEnergyProjectile.html#StormHawks_Runtime_Entities_Enemies_Projectiles_MissileEliteEnergyProjectile_TakeDamage_
+  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Projectiles.MissileEliteEnergyProjectile.TakeDamage
   isSpec: "True"
-  fullName: StormHawks.Runtime.Entities.Enemies.Projectiles.EnergyBulletBase.TakeDamage
-  nameWithType: EnergyBulletBase.TakeDamage
+  fullName: StormHawks.Runtime.Entities.Enemies.Projectiles.MissileEliteEnergyProjectile.TakeDamage
+  nameWithType: MissileEliteEnergyProjectile.TakeDamage
 - uid: StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase
   name: SteeringEnemyBase
   href: api/StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.html
@@ -7241,6 +7299,80 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Entities.Fires.FireAutomaticShot.PlayMuzzleEffect
   nameWithType: FireAutomaticShot.PlayMuzzleEffect
+- uid: StormHawks.Runtime.Entities.Fires.FireBossEnergyProjectile
+  name: FireBossEnergyProjectile
+  href: api/StormHawks.Runtime.Entities.Fires.FireBossEnergyProjectile.html
+  commentId: T:StormHawks.Runtime.Entities.Fires.FireBossEnergyProjectile
+  fullName: StormHawks.Runtime.Entities.Fires.FireBossEnergyProjectile
+  nameWithType: FireBossEnergyProjectile
+- uid: StormHawks.Runtime.Entities.Fires.FireBossEnergyProjectile.#ctor(WeaponContext{Projectile})
+  name: FireBossEnergyProjectile(WeaponContext<Projectile>)
+  href: api/StormHawks.Runtime.Entities.Fires.FireBossEnergyProjectile.html#StormHawks_Runtime_Entities_Fires_FireBossEnergyProjectile__ctor_WeaponContext_Projectile__
+  commentId: M:StormHawks.Runtime.Entities.Fires.FireBossEnergyProjectile.#ctor(WeaponContext{Projectile})
+  name.vb: FireBossEnergyProjectile(WeaponContext(Of Projectile))
+  fullName: StormHawks.Runtime.Entities.Fires.FireBossEnergyProjectile.FireBossEnergyProjectile(WeaponContext<Projectile>)
+  fullName.vb: StormHawks.Runtime.Entities.Fires.FireBossEnergyProjectile.FireBossEnergyProjectile(WeaponContext(Of Projectile))
+  nameWithType: FireBossEnergyProjectile.FireBossEnergyProjectile(WeaponContext<Projectile>)
+  nameWithType.vb: FireBossEnergyProjectile.FireBossEnergyProjectile(WeaponContext(Of Projectile))
+- uid: StormHawks.Runtime.Entities.Fires.FireBossEnergyProjectile.#ctor*
+  name: FireBossEnergyProjectile
+  href: api/StormHawks.Runtime.Entities.Fires.FireBossEnergyProjectile.html#StormHawks_Runtime_Entities_Fires_FireBossEnergyProjectile__ctor_
+  commentId: Overload:StormHawks.Runtime.Entities.Fires.FireBossEnergyProjectile.#ctor
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Entities.Fires.FireBossEnergyProjectile.FireBossEnergyProjectile
+  nameWithType: FireBossEnergyProjectile.FireBossEnergyProjectile
+- uid: StormHawks.Runtime.Entities.Fires.FireBossEnergyProjectile.Cancel
+  name: Cancel()
+  href: api/StormHawks.Runtime.Entities.Fires.FireBossEnergyProjectile.html#StormHawks_Runtime_Entities_Fires_FireBossEnergyProjectile_Cancel
+  commentId: M:StormHawks.Runtime.Entities.Fires.FireBossEnergyProjectile.Cancel
+  fullName: StormHawks.Runtime.Entities.Fires.FireBossEnergyProjectile.Cancel()
+  nameWithType: FireBossEnergyProjectile.Cancel()
+- uid: StormHawks.Runtime.Entities.Fires.FireBossEnergyProjectile.Cancel*
+  name: Cancel
+  href: api/StormHawks.Runtime.Entities.Fires.FireBossEnergyProjectile.html#StormHawks_Runtime_Entities_Fires_FireBossEnergyProjectile_Cancel_
+  commentId: Overload:StormHawks.Runtime.Entities.Fires.FireBossEnergyProjectile.Cancel
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Entities.Fires.FireBossEnergyProjectile.Cancel
+  nameWithType: FireBossEnergyProjectile.Cancel
+- uid: StormHawks.Runtime.Entities.Fires.FireBossEnergyProjectile.Fire(Transform)
+  name: Fire(Transform)
+  href: api/StormHawks.Runtime.Entities.Fires.FireBossEnergyProjectile.html#StormHawks_Runtime_Entities_Fires_FireBossEnergyProjectile_Fire_Transform_
+  commentId: M:StormHawks.Runtime.Entities.Fires.FireBossEnergyProjectile.Fire(Transform)
+  fullName: StormHawks.Runtime.Entities.Fires.FireBossEnergyProjectile.Fire(Transform)
+  nameWithType: FireBossEnergyProjectile.Fire(Transform)
+- uid: StormHawks.Runtime.Entities.Fires.FireBossEnergyProjectile.Fire*
+  name: Fire
+  href: api/StormHawks.Runtime.Entities.Fires.FireBossEnergyProjectile.html#StormHawks_Runtime_Entities_Fires_FireBossEnergyProjectile_Fire_
+  commentId: Overload:StormHawks.Runtime.Entities.Fires.FireBossEnergyProjectile.Fire
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Entities.Fires.FireBossEnergyProjectile.Fire
+  nameWithType: FireBossEnergyProjectile.Fire
+- uid: StormHawks.Runtime.Entities.Fires.FireBossEnergyProjectile.OnShootFinished
+  name: OnShootFinished
+  href: api/StormHawks.Runtime.Entities.Fires.FireBossEnergyProjectile.html#StormHawks_Runtime_Entities_Fires_FireBossEnergyProjectile_OnShootFinished
+  commentId: P:StormHawks.Runtime.Entities.Fires.FireBossEnergyProjectile.OnShootFinished
+  fullName: StormHawks.Runtime.Entities.Fires.FireBossEnergyProjectile.OnShootFinished
+  nameWithType: FireBossEnergyProjectile.OnShootFinished
+- uid: StormHawks.Runtime.Entities.Fires.FireBossEnergyProjectile.OnShootFinished*
+  name: OnShootFinished
+  href: api/StormHawks.Runtime.Entities.Fires.FireBossEnergyProjectile.html#StormHawks_Runtime_Entities_Fires_FireBossEnergyProjectile_OnShootFinished_
+  commentId: Overload:StormHawks.Runtime.Entities.Fires.FireBossEnergyProjectile.OnShootFinished
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Entities.Fires.FireBossEnergyProjectile.OnShootFinished
+  nameWithType: FireBossEnergyProjectile.OnShootFinished
+- uid: StormHawks.Runtime.Entities.Fires.FireBossEnergyProjectile.PlayMuzzleEffect
+  name: PlayMuzzleEffect()
+  href: api/StormHawks.Runtime.Entities.Fires.FireBossEnergyProjectile.html#StormHawks_Runtime_Entities_Fires_FireBossEnergyProjectile_PlayMuzzleEffect
+  commentId: M:StormHawks.Runtime.Entities.Fires.FireBossEnergyProjectile.PlayMuzzleEffect
+  fullName: StormHawks.Runtime.Entities.Fires.FireBossEnergyProjectile.PlayMuzzleEffect()
+  nameWithType: FireBossEnergyProjectile.PlayMuzzleEffect()
+- uid: StormHawks.Runtime.Entities.Fires.FireBossEnergyProjectile.PlayMuzzleEffect*
+  name: PlayMuzzleEffect
+  href: api/StormHawks.Runtime.Entities.Fires.FireBossEnergyProjectile.html#StormHawks_Runtime_Entities_Fires_FireBossEnergyProjectile_PlayMuzzleEffect_
+  commentId: Overload:StormHawks.Runtime.Entities.Fires.FireBossEnergyProjectile.PlayMuzzleEffect
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Entities.Fires.FireBossEnergyProjectile.PlayMuzzleEffect
+  nameWithType: FireBossEnergyProjectile.PlayMuzzleEffect
 - uid: StormHawks.Runtime.Entities.Fires.FireFence
   name: FireFence
   href: api/StormHawks.Runtime.Entities.Fires.FireFence.html
@@ -9603,6 +9735,83 @@ references:
   commentId: N:StormHawks.Runtime.Entities.Weapons
   fullName: StormHawks.Runtime.Entities.Weapons
   nameWithType: StormHawks.Runtime.Entities.Weapons
+- uid: StormHawks.Runtime.Entities.Weapons.BossEnergyWeapon
+  name: BossEnergyWeapon
+  href: api/StormHawks.Runtime.Entities.Weapons.BossEnergyWeapon.html
+  commentId: T:StormHawks.Runtime.Entities.Weapons.BossEnergyWeapon
+  fullName: StormHawks.Runtime.Entities.Weapons.BossEnergyWeapon
+  nameWithType: BossEnergyWeapon
+- uid: StormHawks.Runtime.Entities.Weapons.BossEnergyWeapon.IsCharging
+  name: IsCharging
+  href: api/StormHawks.Runtime.Entities.Weapons.BossEnergyWeapon.html#StormHawks_Runtime_Entities_Weapons_BossEnergyWeapon_IsCharging
+  commentId: P:StormHawks.Runtime.Entities.Weapons.BossEnergyWeapon.IsCharging
+  fullName: StormHawks.Runtime.Entities.Weapons.BossEnergyWeapon.IsCharging
+  nameWithType: BossEnergyWeapon.IsCharging
+- uid: StormHawks.Runtime.Entities.Weapons.BossEnergyWeapon.IsCharging*
+  name: IsCharging
+  href: api/StormHawks.Runtime.Entities.Weapons.BossEnergyWeapon.html#StormHawks_Runtime_Entities_Weapons_BossEnergyWeapon_IsCharging_
+  commentId: Overload:StormHawks.Runtime.Entities.Weapons.BossEnergyWeapon.IsCharging
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Entities.Weapons.BossEnergyWeapon.IsCharging
+  nameWithType: BossEnergyWeapon.IsCharging
+- uid: StormHawks.Runtime.Entities.Weapons.BossEnergyWeapon.OnRelease
+  name: OnRelease()
+  href: api/StormHawks.Runtime.Entities.Weapons.BossEnergyWeapon.html#StormHawks_Runtime_Entities_Weapons_BossEnergyWeapon_OnRelease
+  commentId: M:StormHawks.Runtime.Entities.Weapons.BossEnergyWeapon.OnRelease
+  fullName: StormHawks.Runtime.Entities.Weapons.BossEnergyWeapon.OnRelease()
+  nameWithType: BossEnergyWeapon.OnRelease()
+- uid: StormHawks.Runtime.Entities.Weapons.BossEnergyWeapon.OnRelease*
+  name: OnRelease
+  href: api/StormHawks.Runtime.Entities.Weapons.BossEnergyWeapon.html#StormHawks_Runtime_Entities_Weapons_BossEnergyWeapon_OnRelease_
+  commentId: Overload:StormHawks.Runtime.Entities.Weapons.BossEnergyWeapon.OnRelease
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Entities.Weapons.BossEnergyWeapon.OnRelease
+  nameWithType: BossEnergyWeapon.OnRelease
+- uid: StormHawks.Runtime.Entities.Weapons.BossEnergyWeapon.OnSpawn
+  name: OnSpawn()
+  href: api/StormHawks.Runtime.Entities.Weapons.BossEnergyWeapon.html#StormHawks_Runtime_Entities_Weapons_BossEnergyWeapon_OnSpawn
+  commentId: M:StormHawks.Runtime.Entities.Weapons.BossEnergyWeapon.OnSpawn
+  fullName: StormHawks.Runtime.Entities.Weapons.BossEnergyWeapon.OnSpawn()
+  nameWithType: BossEnergyWeapon.OnSpawn()
+- uid: StormHawks.Runtime.Entities.Weapons.BossEnergyWeapon.OnSpawn*
+  name: OnSpawn
+  href: api/StormHawks.Runtime.Entities.Weapons.BossEnergyWeapon.html#StormHawks_Runtime_Entities_Weapons_BossEnergyWeapon_OnSpawn_
+  commentId: Overload:StormHawks.Runtime.Entities.Weapons.BossEnergyWeapon.OnSpawn
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Entities.Weapons.BossEnergyWeapon.OnSpawn
+  nameWithType: BossEnergyWeapon.OnSpawn
+- uid: StormHawks.Runtime.Entities.Weapons.BossEnergyWeapon.Pool
+  name: Pool
+  href: api/StormHawks.Runtime.Entities.Weapons.BossEnergyWeapon.html#StormHawks_Runtime_Entities_Weapons_BossEnergyWeapon_Pool
+  commentId: P:StormHawks.Runtime.Entities.Weapons.BossEnergyWeapon.Pool
+  fullName: StormHawks.Runtime.Entities.Weapons.BossEnergyWeapon.Pool
+  nameWithType: BossEnergyWeapon.Pool
+- uid: StormHawks.Runtime.Entities.Weapons.BossEnergyWeapon.Pool*
+  name: Pool
+  href: api/StormHawks.Runtime.Entities.Weapons.BossEnergyWeapon.html#StormHawks_Runtime_Entities_Weapons_BossEnergyWeapon_Pool_
+  commentId: Overload:StormHawks.Runtime.Entities.Weapons.BossEnergyWeapon.Pool
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Entities.Weapons.BossEnergyWeapon.Pool
+  nameWithType: BossEnergyWeapon.Pool
+- uid: StormHawks.Runtime.Entities.Weapons.BossEnergyWeaponMaker
+  name: BossEnergyWeaponMaker
+  href: api/StormHawks.Runtime.Entities.Weapons.BossEnergyWeaponMaker.html
+  commentId: T:StormHawks.Runtime.Entities.Weapons.BossEnergyWeaponMaker
+  fullName: StormHawks.Runtime.Entities.Weapons.BossEnergyWeaponMaker
+  nameWithType: BossEnergyWeaponMaker
+- uid: StormHawks.Runtime.Entities.Weapons.BossEnergyWeaponMaker.GetWeapon
+  name: GetWeapon()
+  href: api/StormHawks.Runtime.Entities.Weapons.BossEnergyWeaponMaker.html#StormHawks_Runtime_Entities_Weapons_BossEnergyWeaponMaker_GetWeapon
+  commentId: M:StormHawks.Runtime.Entities.Weapons.BossEnergyWeaponMaker.GetWeapon
+  fullName: StormHawks.Runtime.Entities.Weapons.BossEnergyWeaponMaker.GetWeapon()
+  nameWithType: BossEnergyWeaponMaker.GetWeapon()
+- uid: StormHawks.Runtime.Entities.Weapons.BossEnergyWeaponMaker.GetWeapon*
+  name: GetWeapon
+  href: api/StormHawks.Runtime.Entities.Weapons.BossEnergyWeaponMaker.html#StormHawks_Runtime_Entities_Weapons_BossEnergyWeaponMaker_GetWeapon_
+  commentId: Overload:StormHawks.Runtime.Entities.Weapons.BossEnergyWeaponMaker.GetWeapon
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Entities.Weapons.BossEnergyWeaponMaker.GetWeapon
+  nameWithType: BossEnergyWeaponMaker.GetWeapon
 - uid: StormHawks.Runtime.Entities.Weapons.BossLaserWeaponMaker
   name: BossLaserWeaponMaker
   href: api/StormHawks.Runtime.Entities.Weapons.BossLaserWeaponMaker.html
@@ -20983,6 +21192,12 @@ references:
   commentId: N:StormHawks.Runtime.Utilities.BehaviorTree
   fullName: StormHawks.Runtime.Utilities.BehaviorTree
   nameWithType: StormHawks.Runtime.Utilities.BehaviorTree
+- uid: StormHawks.Runtime.Utilities.BehaviorTree.BossEnergyWeaponMakerKey
+  name: BossEnergyWeaponMakerKey
+  href: api/StormHawks.Runtime.Utilities.BehaviorTree.BossEnergyWeaponMakerKey.html
+  commentId: T:StormHawks.Runtime.Utilities.BehaviorTree.BossEnergyWeaponMakerKey
+  fullName: StormHawks.Runtime.Utilities.BehaviorTree.BossEnergyWeaponMakerKey
+  nameWithType: BossEnergyWeaponMakerKey
 - uid: StormHawks.Runtime.Utilities.BehaviorTree.BossLaserWeaponMakerKey
   name: BossLaserWeaponMakerKey
   href: api/StormHawks.Runtime.Utilities.BehaviorTree.BossLaserWeaponMakerKey.html
@@ -21337,6 +21552,38 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.BossAction.OnEnter
   nameWithType: BossAction.OnEnter
+- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.BossFireEnergyBullets
+  name: BossFireEnergyBullets
+  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.BossFireEnergyBullets.html
+  commentId: T:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.BossFireEnergyBullets
+  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.BossFireEnergyBullets
+  nameWithType: BossFireEnergyBullets
+- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.BossFireEnergyBullets.OnEnter
+  name: OnEnter()
+  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.BossFireEnergyBullets.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_BossActions_BossFireEnergyBullets_OnEnter
+  commentId: M:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.BossFireEnergyBullets.OnEnter
+  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.BossFireEnergyBullets.OnEnter()
+  nameWithType: BossFireEnergyBullets.OnEnter()
+- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.BossFireEnergyBullets.OnEnter*
+  name: OnEnter
+  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.BossFireEnergyBullets.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_BossActions_BossFireEnergyBullets_OnEnter_
+  commentId: Overload:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.BossFireEnergyBullets.OnEnter
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.BossFireEnergyBullets.OnEnter
+  nameWithType: BossFireEnergyBullets.OnEnter
+- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.BossFireEnergyBullets.OnRun
+  name: OnRun()
+  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.BossFireEnergyBullets.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_BossActions_BossFireEnergyBullets_OnRun
+  commentId: M:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.BossFireEnergyBullets.OnRun
+  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.BossFireEnergyBullets.OnRun()
+  nameWithType: BossFireEnergyBullets.OnRun()
+- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.BossFireEnergyBullets.OnRun*
+  name: OnRun
+  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.BossFireEnergyBullets.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_BossActions_BossFireEnergyBullets_OnRun_
+  commentId: Overload:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.BossFireEnergyBullets.OnRun
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.BossFireEnergyBullets.OnRun
+  nameWithType: BossFireEnergyBullets.OnRun
 - uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.OrbitRotateAround
   name: OrbitRotateAround
   href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.OrbitRotateAround.html

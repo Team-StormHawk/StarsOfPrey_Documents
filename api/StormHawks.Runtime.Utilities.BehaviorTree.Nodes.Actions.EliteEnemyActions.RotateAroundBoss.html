@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class EnemySpawner
+    <title>Class RotateAroundBoss
    | Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class EnemySpawner
+    <meta name="title" content="Class RotateAroundBoss
    | Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -78,112 +78,66 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Environments.EnemySpawner">
+            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.RotateAroundBoss">
   
   
-  <h1 id="StormHawks_Runtime_Environments_EnemySpawner" data-uid="StormHawks.Runtime.Environments.EnemySpawner" class="text-break">Class EnemySpawner
+  <h1 id="StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_EliteEnemyActions_RotateAroundBoss" data-uid="StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.RotateAroundBoss" class="text-break">Class RotateAroundBoss
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">EnemySpawner</span></div>
+    <div class="level1"><a class="xref" href="StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EntityActionNode.html">EntityActionNode</a></div>
+    <div class="level2"><a class="xref" href="StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.EliteEnemyAction.html">EliteEnemyAction</a></div>
+    <div class="level3"><span class="xref">RotateAroundBoss</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Environments.html">StormHawks.Runtime.Environments</a></h6>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.EliteEnemyAction.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_EliteEnemyActions_EliteEnemyAction__eliteEnemy">EliteEnemyAction._eliteEnemy</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EntityActionNode.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_EntityActionNode__rotator">EntityActionNode._rotator</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EntityActionNode.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_EntityActionNode__runnerTransform">EntityActionNode._runnerTransform</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EntityActionNode.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_EntityActionNode_OnInitialize">EntityActionNode.OnInitialize()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.html">StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="StormHawks_Runtime_Environments_EnemySpawner_syntax">Syntax</h5>
+  <h5 id="StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_EliteEnemyActions_RotateAroundBoss_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class EnemySpawner : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">[Serializable]
+public class RotateAroundBoss : EliteEnemyAction</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="StormHawks_Runtime_Environments_EnemySpawner_SpawnEliteEnemy_" data-uid="StormHawks.Runtime.Environments.EnemySpawner.SpawnEliteEnemy*"></a>
-  <h4 id="StormHawks_Runtime_Environments_EnemySpawner_SpawnEliteEnemy_EliteEnemyBase_Vector3_" data-uid="StormHawks.Runtime.Environments.EnemySpawner.SpawnEliteEnemy(EliteEnemyBase,Vector3)">SpawnEliteEnemy(EliteEnemyBase, Vector3)</h4>
+  <a id="StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_EliteEnemyActions_RotateAroundBoss_OnEnter_" data-uid="StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.RotateAroundBoss.OnEnter*"></a>
+  <h4 id="StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_EliteEnemyActions_RotateAroundBoss_OnEnter" data-uid="StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.RotateAroundBoss.OnEnter">OnEnter()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SpawnEliteEnemy(EliteEnemyBase elite, Vector3 position)</code></pre>
+    <pre><code class="lang-csharp hljs">protected override void OnEnter()</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">EliteEnemyBase</span></td>
-        <td><span class="parametername">elite</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">Vector3</span></td>
-        <td><span class="parametername">position</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.EliteEnemyAction.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_EliteEnemyActions_EliteEnemyAction_OnEnter">EliteEnemyAction.OnEnter()</a></div>
   
   
-  <a id="StormHawks_Runtime_Environments_EnemySpawner_SpawnEnemyGroup_" data-uid="StormHawks.Runtime.Environments.EnemySpawner.SpawnEnemyGroup*"></a>
-  <h4 id="StormHawks_Runtime_Environments_EnemySpawner_SpawnEnemyGroup_EnemyGroupSet_" data-uid="StormHawks.Runtime.Environments.EnemySpawner.SpawnEnemyGroup(EnemyGroupSet)">SpawnEnemyGroup(EnemyGroupSet)</h4>
+  <a id="StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_EliteEnemyActions_RotateAroundBoss_OnRun_" data-uid="StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.RotateAroundBoss.OnRun*"></a>
+  <h4 id="StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_EliteEnemyActions_RotateAroundBoss_OnRun" data-uid="StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.RotateAroundBoss.OnRun">OnRun()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SpawnEnemyGroup(EnemyGroupSet groupSet)</code></pre>
+    <pre><code class="lang-csharp hljs">protected override BehaviorNodeState OnRun()</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">EnemyGroupSet</span></td>
-        <td><span class="parametername">groupSet</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="StormHawks_Runtime_Environments_EnemySpawner_SpawnEnemyGroups_" data-uid="StormHawks.Runtime.Environments.EnemySpawner.SpawnEnemyGroups*"></a>
-  <h4 id="StormHawks_Runtime_Environments_EnemySpawner_SpawnEnemyGroups_List_EnemyGroupSet__" data-uid="StormHawks.Runtime.Environments.EnemySpawner.SpawnEnemyGroups(List{EnemyGroupSet})">SpawnEnemyGroups(List&lt;EnemyGroupSet&gt;)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public async UniTaskVoid SpawnEnemyGroups(List&lt;EnemyGroupSet&gt; groupSets)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">List</span>&lt;<span class="xref">EnemyGroupSet</span>&gt;</td>
-        <td><span class="parametername">groupSets</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -194,7 +148,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">UniTaskVoid</span></td>
+        <td><span class="xref">BehaviorNodeState</span></td>
         <td></td>
       </tr>
     </tbody>

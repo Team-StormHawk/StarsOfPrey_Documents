@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class EnemyContext
+    <title>Class EliteEnemyAction
    | Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class EnemyContext
+    <meta name="title" content="Class EliteEnemyAction
    | Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -78,41 +78,50 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Entities.Enemies.EnemyContext">
+            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.EliteEnemyAction">
   
   
-  <h1 id="StormHawks_Runtime_Entities_Enemies_EnemyContext" data-uid="StormHawks.Runtime.Entities.Enemies.EnemyContext" class="text-break">Class EnemyContext
+  <h1 id="StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_EliteEnemyActions_EliteEnemyAction" data-uid="StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.EliteEnemyAction" class="text-break">Class EliteEnemyAction
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><a class="xref" href="StormHawks.Runtime.Entities.SteeringEntityContext.html">SteeringEntityContext</a></div>
-    <div class="level2"><span class="xref">EnemyContext</span></div>
+    <div class="level1"><a class="xref" href="StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EntityActionNode.html">EntityActionNode</a></div>
+    <div class="level2"><span class="xref">EliteEnemyAction</span></div>
+      <div class="level3"><a class="xref" href="StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.EliteFireHomingMissileToPlayer.html">EliteFireHomingMissileToPlayer</a></div>
+      <div class="level3"><a class="xref" href="StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.RotateAroundBoss.html">RotateAroundBoss</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <a class="xref" href="StormHawks.Runtime.Entities.SteeringEntityContext.html#StormHawks_Runtime_Entities_SteeringEntityContext_RegisterToBlackboard_Blackboard_">SteeringEntityContext.RegisterToBlackboard(Blackboard)</a>
+      <a class="xref" href="StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EntityActionNode.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_EntityActionNode__rotator">EntityActionNode._rotator</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EntityActionNode.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_EntityActionNode__runnerTransform">EntityActionNode._runnerTransform</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EntityActionNode.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_EntityActionNode_OnInitialize">EntityActionNode.OnInitialize()</a>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Entities.Enemies.html">StormHawks.Runtime.Entities.Enemies</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.html">StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="StormHawks_Runtime_Entities_Enemies_EnemyContext_syntax">Syntax</h5>
+  <h5 id="StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_EliteEnemyActions_EliteEnemyAction_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class EnemyContext : SteeringEntityContext</code></pre>
+    <pre><code class="lang-csharp hljs">[Serializable]
+public abstract class EliteEnemyAction : EntityActionNode</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
   
   
-  <h4 id="StormHawks_Runtime_Entities_Enemies_EnemyContext_EnemyBase" data-uid="StormHawks.Runtime.Entities.Enemies.EnemyContext.EnemyBase">EnemyBase</h4>
+  <h4 id="StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_EliteEnemyActions_EliteEnemyAction__eliteEnemy" data-uid="StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.EliteEnemyAction._eliteEnemy">_eliteEnemy</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EnemyBase EnemyBase</code></pre>
+    <pre><code class="lang-csharp hljs">protected EliteEnemyBase _eliteEnemy</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -124,11 +133,23 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="StormHawks.Runtime.Entities.Enemies.EnemyBase.html">EnemyBase</a></td>
+        <td><span class="xref">EliteEnemyBase</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_EliteEnemyActions_EliteEnemyAction_OnEnter_" data-uid="StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.EliteEnemyAction.OnEnter*"></a>
+  <h4 id="StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_EliteEnemyActions_EliteEnemyAction_OnEnter" data-uid="StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.EliteEnemyAction.OnEnter">OnEnter()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnEnter()</code></pre>
+  </div>
 </article>
           </div>
           

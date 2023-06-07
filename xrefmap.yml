@@ -5144,128 +5144,114 @@ references:
   commentId: N:StormHawks.Runtime.Entities.Enemies.Elites
   fullName: StormHawks.Runtime.Entities.Enemies.Elites
   nameWithType: StormHawks.Runtime.Entities.Enemies.Elites
-- uid: StormHawks.Runtime.Entities.Enemies.Elites.BaseEliteEnemy
-  name: BaseEliteEnemy
-  href: api/StormHawks.Runtime.Entities.Enemies.Elites.BaseEliteEnemy.html
-  commentId: T:StormHawks.Runtime.Entities.Enemies.Elites.BaseEliteEnemy
-  fullName: StormHawks.Runtime.Entities.Enemies.Elites.BaseEliteEnemy
-  nameWithType: BaseEliteEnemy
-- uid: StormHawks.Runtime.Entities.Enemies.Elites.BaseEliteEnemy._path
-  name: _path
-  href: api/StormHawks.Runtime.Entities.Enemies.Elites.BaseEliteEnemy.html#StormHawks_Runtime_Entities_Enemies_Elites_BaseEliteEnemy__path
-  commentId: F:StormHawks.Runtime.Entities.Enemies.Elites.BaseEliteEnemy._path
-  fullName: StormHawks.Runtime.Entities.Enemies.Elites.BaseEliteEnemy._path
-  nameWithType: BaseEliteEnemy._path
-- uid: StormHawks.Runtime.Entities.Enemies.Elites.BaseEliteEnemy.AggroTarget
-  name: AggroTarget
-  href: api/StormHawks.Runtime.Entities.Enemies.Elites.BaseEliteEnemy.html#StormHawks_Runtime_Entities_Enemies_Elites_BaseEliteEnemy_AggroTarget
-  commentId: P:StormHawks.Runtime.Entities.Enemies.Elites.BaseEliteEnemy.AggroTarget
-  fullName: StormHawks.Runtime.Entities.Enemies.Elites.BaseEliteEnemy.AggroTarget
-  nameWithType: BaseEliteEnemy.AggroTarget
-- uid: StormHawks.Runtime.Entities.Enemies.Elites.BaseEliteEnemy.AggroTarget*
-  name: AggroTarget
-  href: api/StormHawks.Runtime.Entities.Enemies.Elites.BaseEliteEnemy.html#StormHawks_Runtime_Entities_Enemies_Elites_BaseEliteEnemy_AggroTarget_
-  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Elites.BaseEliteEnemy.AggroTarget
+- uid: StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase
+  name: EliteEnemyBase
+  href: api/StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase.html
+  commentId: T:StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase
+  fullName: StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase
+  nameWithType: EliteEnemyBase
+- uid: StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase._blackboard
+  name: _blackboard
+  href: api/StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase.html#StormHawks_Runtime_Entities_Enemies_Elites_EliteEnemyBase__blackboard
+  commentId: F:StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase._blackboard
+  fullName: StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase._blackboard
+  nameWithType: EliteEnemyBase._blackboard
+- uid: StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase._bossEntity
+  name: _bossEntity
+  href: api/StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase.html#StormHawks_Runtime_Entities_Enemies_Elites_EliteEnemyBase__bossEntity
+  commentId: F:StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase._bossEntity
+  fullName: StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase._bossEntity
+  nameWithType: EliteEnemyBase._bossEntity
+- uid: StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase._bossEntityRuntimeSet
+  name: _bossEntityRuntimeSet
+  href: api/StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase.html#StormHawks_Runtime_Entities_Enemies_Elites_EliteEnemyBase__bossEntityRuntimeSet
+  commentId: F:StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase._bossEntityRuntimeSet
+  fullName: StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase._bossEntityRuntimeSet
+  nameWithType: EliteEnemyBase._bossEntityRuntimeSet
+- uid: StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase._playerContext
+  name: _playerContext
+  href: api/StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase.html#StormHawks_Runtime_Entities_Enemies_Elites_EliteEnemyBase__playerContext
+  commentId: F:StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase._playerContext
+  fullName: StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase._playerContext
+  nameWithType: EliteEnemyBase._playerContext
+- uid: StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase.CurrentHealth
+  name: CurrentHealth
+  href: api/StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase.html#StormHawks_Runtime_Entities_Enemies_Elites_EliteEnemyBase_CurrentHealth
+  commentId: P:StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase.CurrentHealth
+  fullName: StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase.CurrentHealth
+  nameWithType: EliteEnemyBase.CurrentHealth
+- uid: StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase.CurrentHealth*
+  name: CurrentHealth
+  href: api/StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase.html#StormHawks_Runtime_Entities_Enemies_Elites_EliteEnemyBase_CurrentHealth_
+  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase.CurrentHealth
   isSpec: "True"
-  fullName: StormHawks.Runtime.Entities.Enemies.Elites.BaseEliteEnemy.AggroTarget
-  nameWithType: BaseEliteEnemy.AggroTarget
-- uid: StormHawks.Runtime.Entities.Enemies.Elites.BaseEliteEnemy.eliteEnemyRuntimeSet
-  name: eliteEnemyRuntimeSet
-  href: api/StormHawks.Runtime.Entities.Enemies.Elites.BaseEliteEnemy.html#StormHawks_Runtime_Entities_Enemies_Elites_BaseEliteEnemy_eliteEnemyRuntimeSet
-  commentId: F:StormHawks.Runtime.Entities.Enemies.Elites.BaseEliteEnemy.eliteEnemyRuntimeSet
-  fullName: StormHawks.Runtime.Entities.Enemies.Elites.BaseEliteEnemy.eliteEnemyRuntimeSet
-  nameWithType: BaseEliteEnemy.eliteEnemyRuntimeSet
-- uid: StormHawks.Runtime.Entities.Enemies.Elites.BaseEliteEnemy.IsAggressive
-  name: IsAggressive
-  href: api/StormHawks.Runtime.Entities.Enemies.Elites.BaseEliteEnemy.html#StormHawks_Runtime_Entities_Enemies_Elites_BaseEliteEnemy_IsAggressive
-  commentId: P:StormHawks.Runtime.Entities.Enemies.Elites.BaseEliteEnemy.IsAggressive
-  fullName: StormHawks.Runtime.Entities.Enemies.Elites.BaseEliteEnemy.IsAggressive
-  nameWithType: BaseEliteEnemy.IsAggressive
-- uid: StormHawks.Runtime.Entities.Enemies.Elites.BaseEliteEnemy.IsAggressive*
-  name: IsAggressive
-  href: api/StormHawks.Runtime.Entities.Enemies.Elites.BaseEliteEnemy.html#StormHawks_Runtime_Entities_Enemies_Elites_BaseEliteEnemy_IsAggressive_
-  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Elites.BaseEliteEnemy.IsAggressive
+  fullName: StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase.CurrentHealth
+  nameWithType: EliteEnemyBase.CurrentHealth
+- uid: StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase.GetBlackboard
+  name: GetBlackboard()
+  href: api/StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase.html#StormHawks_Runtime_Entities_Enemies_Elites_EliteEnemyBase_GetBlackboard
+  commentId: M:StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase.GetBlackboard
+  fullName: StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase.GetBlackboard()
+  nameWithType: EliteEnemyBase.GetBlackboard()
+- uid: StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase.GetBlackboard*
+  name: GetBlackboard
+  href: api/StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase.html#StormHawks_Runtime_Entities_Enemies_Elites_EliteEnemyBase_GetBlackboard_
+  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase.GetBlackboard
   isSpec: "True"
-  fullName: StormHawks.Runtime.Entities.Enemies.Elites.BaseEliteEnemy.IsAggressive
-  nameWithType: BaseEliteEnemy.IsAggressive
-- uid: StormHawks.Runtime.Entities.Enemies.Elites.BaseEliteEnemy.OnAggressive
-  name: OnAggressive
-  href: api/StormHawks.Runtime.Entities.Enemies.Elites.BaseEliteEnemy.html#StormHawks_Runtime_Entities_Enemies_Elites_BaseEliteEnemy_OnAggressive
-  commentId: P:StormHawks.Runtime.Entities.Enemies.Elites.BaseEliteEnemy.OnAggressive
-  fullName: StormHawks.Runtime.Entities.Enemies.Elites.BaseEliteEnemy.OnAggressive
-  nameWithType: BaseEliteEnemy.OnAggressive
-- uid: StormHawks.Runtime.Entities.Enemies.Elites.BaseEliteEnemy.OnAggressive*
-  name: OnAggressive
-  href: api/StormHawks.Runtime.Entities.Enemies.Elites.BaseEliteEnemy.html#StormHawks_Runtime_Entities_Enemies_Elites_BaseEliteEnemy_OnAggressive_
-  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Elites.BaseEliteEnemy.OnAggressive
+  fullName: StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase.GetBlackboard
+  nameWithType: EliteEnemyBase.GetBlackboard
+- uid: StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase.HealthSO
+  name: HealthSO
+  href: api/StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase.html#StormHawks_Runtime_Entities_Enemies_Elites_EliteEnemyBase_HealthSO
+  commentId: P:StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase.HealthSO
+  fullName: StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase.HealthSO
+  nameWithType: EliteEnemyBase.HealthSO
+- uid: StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase.HealthSO*
+  name: HealthSO
+  href: api/StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase.html#StormHawks_Runtime_Entities_Enemies_Elites_EliteEnemyBase_HealthSO_
+  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase.HealthSO
   isSpec: "True"
-  fullName: StormHawks.Runtime.Entities.Enemies.Elites.BaseEliteEnemy.OnAggressive
-  nameWithType: BaseEliteEnemy.OnAggressive
-- uid: StormHawks.Runtime.Entities.Enemies.Elites.BaseEliteEnemy.Owner
-  name: Owner
-  href: api/StormHawks.Runtime.Entities.Enemies.Elites.BaseEliteEnemy.html#StormHawks_Runtime_Entities_Enemies_Elites_BaseEliteEnemy_Owner
-  commentId: P:StormHawks.Runtime.Entities.Enemies.Elites.BaseEliteEnemy.Owner
-  fullName: StormHawks.Runtime.Entities.Enemies.Elites.BaseEliteEnemy.Owner
-  nameWithType: BaseEliteEnemy.Owner
-- uid: StormHawks.Runtime.Entities.Enemies.Elites.BaseEliteEnemy.Owner*
-  name: Owner
-  href: api/StormHawks.Runtime.Entities.Enemies.Elites.BaseEliteEnemy.html#StormHawks_Runtime_Entities_Enemies_Elites_BaseEliteEnemy_Owner_
-  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Elites.BaseEliteEnemy.Owner
+  fullName: StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase.HealthSO
+  nameWithType: EliteEnemyBase.HealthSO
+- uid: StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase.ReturnToPool
+  name: ReturnToPool()
+  href: api/StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase.html#StormHawks_Runtime_Entities_Enemies_Elites_EliteEnemyBase_ReturnToPool
+  commentId: M:StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase.ReturnToPool
+  fullName: StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase.ReturnToPool()
+  nameWithType: EliteEnemyBase.ReturnToPool()
+- uid: StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase.ReturnToPool*
+  name: ReturnToPool
+  href: api/StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase.html#StormHawks_Runtime_Entities_Enemies_Elites_EliteEnemyBase_ReturnToPool_
+  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase.ReturnToPool
   isSpec: "True"
-  fullName: StormHawks.Runtime.Entities.Enemies.Elites.BaseEliteEnemy.Owner
-  nameWithType: BaseEliteEnemy.Owner
-- uid: StormHawks.Runtime.Entities.Enemies.Elites.BaseEliteEnemy.ReleaseAggressive
-  name: ReleaseAggressive()
-  href: api/StormHawks.Runtime.Entities.Enemies.Elites.BaseEliteEnemy.html#StormHawks_Runtime_Entities_Enemies_Elites_BaseEliteEnemy_ReleaseAggressive
-  commentId: M:StormHawks.Runtime.Entities.Enemies.Elites.BaseEliteEnemy.ReleaseAggressive
-  fullName: StormHawks.Runtime.Entities.Enemies.Elites.BaseEliteEnemy.ReleaseAggressive()
-  nameWithType: BaseEliteEnemy.ReleaseAggressive()
-- uid: StormHawks.Runtime.Entities.Enemies.Elites.BaseEliteEnemy.ReleaseAggressive*
-  name: ReleaseAggressive
-  href: api/StormHawks.Runtime.Entities.Enemies.Elites.BaseEliteEnemy.html#StormHawks_Runtime_Entities_Enemies_Elites_BaseEliteEnemy_ReleaseAggressive_
-  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Elites.BaseEliteEnemy.ReleaseAggressive
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Entities.Enemies.Elites.BaseEliteEnemy.ReleaseAggressive
-  nameWithType: BaseEliteEnemy.ReleaseAggressive
-- uid: StormHawks.Runtime.Entities.Enemies.Elites.BaseEliteEnemy.RotateTo
-  name: RotateTo()
-  href: api/StormHawks.Runtime.Entities.Enemies.Elites.BaseEliteEnemy.html#StormHawks_Runtime_Entities_Enemies_Elites_BaseEliteEnemy_RotateTo
-  commentId: M:StormHawks.Runtime.Entities.Enemies.Elites.BaseEliteEnemy.RotateTo
-  fullName: StormHawks.Runtime.Entities.Enemies.Elites.BaseEliteEnemy.RotateTo()
-  nameWithType: BaseEliteEnemy.RotateTo()
-- uid: StormHawks.Runtime.Entities.Enemies.Elites.BaseEliteEnemy.RotateTo*
-  name: RotateTo
-  href: api/StormHawks.Runtime.Entities.Enemies.Elites.BaseEliteEnemy.html#StormHawks_Runtime_Entities_Enemies_Elites_BaseEliteEnemy_RotateTo_
-  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Elites.BaseEliteEnemy.RotateTo
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Entities.Enemies.Elites.BaseEliteEnemy.RotateTo
-  nameWithType: BaseEliteEnemy.RotateTo
-- uid: StormHawks.Runtime.Entities.Enemies.Elites.BaseEliteEnemy.SetAggroTarget(GameObject)
-  name: SetAggroTarget(GameObject)
-  href: api/StormHawks.Runtime.Entities.Enemies.Elites.BaseEliteEnemy.html#StormHawks_Runtime_Entities_Enemies_Elites_BaseEliteEnemy_SetAggroTarget_GameObject_
-  commentId: M:StormHawks.Runtime.Entities.Enemies.Elites.BaseEliteEnemy.SetAggroTarget(GameObject)
-  fullName: StormHawks.Runtime.Entities.Enemies.Elites.BaseEliteEnemy.SetAggroTarget(GameObject)
-  nameWithType: BaseEliteEnemy.SetAggroTarget(GameObject)
-- uid: StormHawks.Runtime.Entities.Enemies.Elites.BaseEliteEnemy.SetAggroTarget*
-  name: SetAggroTarget
-  href: api/StormHawks.Runtime.Entities.Enemies.Elites.BaseEliteEnemy.html#StormHawks_Runtime_Entities_Enemies_Elites_BaseEliteEnemy_SetAggroTarget_
-  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Elites.BaseEliteEnemy.SetAggroTarget
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Entities.Enemies.Elites.BaseEliteEnemy.SetAggroTarget
-  nameWithType: BaseEliteEnemy.SetAggroTarget
-- uid: StormHawks.Runtime.Entities.Enemies.Elites.BaseEliteEnemy.Start
+  fullName: StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase.ReturnToPool
+  nameWithType: EliteEnemyBase.ReturnToPool
+- uid: StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase.Start
   name: Start()
-  href: api/StormHawks.Runtime.Entities.Enemies.Elites.BaseEliteEnemy.html#StormHawks_Runtime_Entities_Enemies_Elites_BaseEliteEnemy_Start
-  commentId: M:StormHawks.Runtime.Entities.Enemies.Elites.BaseEliteEnemy.Start
-  fullName: StormHawks.Runtime.Entities.Enemies.Elites.BaseEliteEnemy.Start()
-  nameWithType: BaseEliteEnemy.Start()
-- uid: StormHawks.Runtime.Entities.Enemies.Elites.BaseEliteEnemy.Start*
+  href: api/StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase.html#StormHawks_Runtime_Entities_Enemies_Elites_EliteEnemyBase_Start
+  commentId: M:StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase.Start
+  fullName: StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase.Start()
+  nameWithType: EliteEnemyBase.Start()
+- uid: StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase.Start*
   name: Start
-  href: api/StormHawks.Runtime.Entities.Enemies.Elites.BaseEliteEnemy.html#StormHawks_Runtime_Entities_Enemies_Elites_BaseEliteEnemy_Start_
-  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Elites.BaseEliteEnemy.Start
+  href: api/StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase.html#StormHawks_Runtime_Entities_Enemies_Elites_EliteEnemyBase_Start_
+  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase.Start
   isSpec: "True"
-  fullName: StormHawks.Runtime.Entities.Enemies.Elites.BaseEliteEnemy.Start
-  nameWithType: BaseEliteEnemy.Start
+  fullName: StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase.Start
+  nameWithType: EliteEnemyBase.Start
+- uid: StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase.TakeDamage(Vector3,System.Single)
+  name: TakeDamage(Vector3, Single)
+  href: api/StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase.html#StormHawks_Runtime_Entities_Enemies_Elites_EliteEnemyBase_TakeDamage_Vector3_System_Single_
+  commentId: M:StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase.TakeDamage(Vector3,System.Single)
+  fullName: StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase.TakeDamage(Vector3, System.Single)
+  nameWithType: EliteEnemyBase.TakeDamage(Vector3, Single)
+- uid: StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase.TakeDamage*
+  name: TakeDamage
+  href: api/StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase.html#StormHawks_Runtime_Entities_Enemies_Elites_EliteEnemyBase_TakeDamage_
+  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase.TakeDamage
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase.TakeDamage
+  nameWithType: EliteEnemyBase.TakeDamage
 - uid: StormHawks.Runtime.Entities.Enemies.Elites.MissileEliteEnemy
   name: MissileEliteEnemy
   href: api/StormHawks.Runtime.Entities.Enemies.Elites.MissileEliteEnemy.html
@@ -5324,6 +5310,19 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Entities.Enemies.Elites.MissileEliteEnemy.ReturnToPool
   nameWithType: MissileEliteEnemy.ReturnToPool
+- uid: StormHawks.Runtime.Entities.Enemies.Elites.MissileEliteEnemy.Start
+  name: Start()
+  href: api/StormHawks.Runtime.Entities.Enemies.Elites.MissileEliteEnemy.html#StormHawks_Runtime_Entities_Enemies_Elites_MissileEliteEnemy_Start
+  commentId: M:StormHawks.Runtime.Entities.Enemies.Elites.MissileEliteEnemy.Start
+  fullName: StormHawks.Runtime.Entities.Enemies.Elites.MissileEliteEnemy.Start()
+  nameWithType: MissileEliteEnemy.Start()
+- uid: StormHawks.Runtime.Entities.Enemies.Elites.MissileEliteEnemy.Start*
+  name: Start
+  href: api/StormHawks.Runtime.Entities.Enemies.Elites.MissileEliteEnemy.html#StormHawks_Runtime_Entities_Enemies_Elites_MissileEliteEnemy_Start_
+  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Elites.MissileEliteEnemy.Start
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Entities.Enemies.Elites.MissileEliteEnemy.Start
+  nameWithType: MissileEliteEnemy.Start
 - uid: StormHawks.Runtime.Entities.Enemies.Elites.MissileEliteEnemy.TakeDamage(Vector3,System.Single)
   name: TakeDamage(Vector3, Single)
   href: api/StormHawks.Runtime.Entities.Enemies.Elites.MissileEliteEnemy.html#StormHawks_Runtime_Entities_Enemies_Elites_MissileEliteEnemy_TakeDamage_Vector3_System_Single_
@@ -5337,157 +5336,6 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Entities.Enemies.Elites.MissileEliteEnemy.TakeDamage
   nameWithType: MissileEliteEnemy.TakeDamage
-- uid: StormHawks.Runtime.Entities.Enemies.EnemyBase
-  name: EnemyBase
-  href: api/StormHawks.Runtime.Entities.Enemies.EnemyBase.html
-  commentId: T:StormHawks.Runtime.Entities.Enemies.EnemyBase
-  fullName: StormHawks.Runtime.Entities.Enemies.EnemyBase
-  nameWithType: EnemyBase
-- uid: StormHawks.Runtime.Entities.Enemies.EnemyBase._bossEntity
-  name: _bossEntity
-  href: api/StormHawks.Runtime.Entities.Enemies.EnemyBase.html#StormHawks_Runtime_Entities_Enemies_EnemyBase__bossEntity
-  commentId: F:StormHawks.Runtime.Entities.Enemies.EnemyBase._bossEntity
-  fullName: StormHawks.Runtime.Entities.Enemies.EnemyBase._bossEntity
-  nameWithType: EnemyBase._bossEntity
-- uid: StormHawks.Runtime.Entities.Enemies.EnemyBase._bossEntityRuntimeSet
-  name: _bossEntityRuntimeSet
-  href: api/StormHawks.Runtime.Entities.Enemies.EnemyBase.html#StormHawks_Runtime_Entities_Enemies_EnemyBase__bossEntityRuntimeSet
-  commentId: F:StormHawks.Runtime.Entities.Enemies.EnemyBase._bossEntityRuntimeSet
-  fullName: StormHawks.Runtime.Entities.Enemies.EnemyBase._bossEntityRuntimeSet
-  nameWithType: EnemyBase._bossEntityRuntimeSet
-- uid: StormHawks.Runtime.Entities.Enemies.EnemyBase._explosionEffect
-  name: _explosionEffect
-  href: api/StormHawks.Runtime.Entities.Enemies.EnemyBase.html#StormHawks_Runtime_Entities_Enemies_EnemyBase__explosionEffect
-  commentId: F:StormHawks.Runtime.Entities.Enemies.EnemyBase._explosionEffect
-  fullName: StormHawks.Runtime.Entities.Enemies.EnemyBase._explosionEffect
-  nameWithType: EnemyBase._explosionEffect
-- uid: StormHawks.Runtime.Entities.Enemies.EnemyBase._explosionEvent
-  name: _explosionEvent
-  href: api/StormHawks.Runtime.Entities.Enemies.EnemyBase.html#StormHawks_Runtime_Entities_Enemies_EnemyBase__explosionEvent
-  commentId: F:StormHawks.Runtime.Entities.Enemies.EnemyBase._explosionEvent
-  fullName: StormHawks.Runtime.Entities.Enemies.EnemyBase._explosionEvent
-  nameWithType: EnemyBase._explosionEvent
-- uid: StormHawks.Runtime.Entities.Enemies.EnemyBase.AGGRO_TARGET
-  name: AGGRO_TARGET
-  href: api/StormHawks.Runtime.Entities.Enemies.EnemyBase.html#StormHawks_Runtime_Entities_Enemies_EnemyBase_AGGRO_TARGET
-  commentId: F:StormHawks.Runtime.Entities.Enemies.EnemyBase.AGGRO_TARGET
-  fullName: StormHawks.Runtime.Entities.Enemies.EnemyBase.AGGRO_TARGET
-  nameWithType: EnemyBase.AGGRO_TARGET
-- uid: StormHawks.Runtime.Entities.Enemies.EnemyBase.CurrentHealth
-  name: CurrentHealth
-  href: api/StormHawks.Runtime.Entities.Enemies.EnemyBase.html#StormHawks_Runtime_Entities_Enemies_EnemyBase_CurrentHealth
-  commentId: P:StormHawks.Runtime.Entities.Enemies.EnemyBase.CurrentHealth
-  fullName: StormHawks.Runtime.Entities.Enemies.EnemyBase.CurrentHealth
-  nameWithType: EnemyBase.CurrentHealth
-- uid: StormHawks.Runtime.Entities.Enemies.EnemyBase.CurrentHealth*
-  name: CurrentHealth
-  href: api/StormHawks.Runtime.Entities.Enemies.EnemyBase.html#StormHawks_Runtime_Entities_Enemies_EnemyBase_CurrentHealth_
-  commentId: Overload:StormHawks.Runtime.Entities.Enemies.EnemyBase.CurrentHealth
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Entities.Enemies.EnemyBase.CurrentHealth
-  nameWithType: EnemyBase.CurrentHealth
-- uid: StormHawks.Runtime.Entities.Enemies.EnemyBase.groupRuntimeSet
-  name: groupRuntimeSet
-  href: api/StormHawks.Runtime.Entities.Enemies.EnemyBase.html#StormHawks_Runtime_Entities_Enemies_EnemyBase_groupRuntimeSet
-  commentId: F:StormHawks.Runtime.Entities.Enemies.EnemyBase.groupRuntimeSet
-  fullName: StormHawks.Runtime.Entities.Enemies.EnemyBase.groupRuntimeSet
-  nameWithType: EnemyBase.groupRuntimeSet
-- uid: StormHawks.Runtime.Entities.Enemies.EnemyBase.HealthSO
-  name: HealthSO
-  href: api/StormHawks.Runtime.Entities.Enemies.EnemyBase.html#StormHawks_Runtime_Entities_Enemies_EnemyBase_HealthSO
-  commentId: P:StormHawks.Runtime.Entities.Enemies.EnemyBase.HealthSO
-  fullName: StormHawks.Runtime.Entities.Enemies.EnemyBase.HealthSO
-  nameWithType: EnemyBase.HealthSO
-- uid: StormHawks.Runtime.Entities.Enemies.EnemyBase.HealthSO*
-  name: HealthSO
-  href: api/StormHawks.Runtime.Entities.Enemies.EnemyBase.html#StormHawks_Runtime_Entities_Enemies_EnemyBase_HealthSO_
-  commentId: Overload:StormHawks.Runtime.Entities.Enemies.EnemyBase.HealthSO
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Entities.Enemies.EnemyBase.HealthSO
-  nameWithType: EnemyBase.HealthSO
-- uid: StormHawks.Runtime.Entities.Enemies.EnemyBase.IS_RETURNING
-  name: IS_RETURNING
-  href: api/StormHawks.Runtime.Entities.Enemies.EnemyBase.html#StormHawks_Runtime_Entities_Enemies_EnemyBase_IS_RETURNING
-  commentId: F:StormHawks.Runtime.Entities.Enemies.EnemyBase.IS_RETURNING
-  fullName: StormHawks.Runtime.Entities.Enemies.EnemyBase.IS_RETURNING
-  nameWithType: EnemyBase.IS_RETURNING
-- uid: StormHawks.Runtime.Entities.Enemies.EnemyBase.ReturnToPool
-  name: ReturnToPool()
-  href: api/StormHawks.Runtime.Entities.Enemies.EnemyBase.html#StormHawks_Runtime_Entities_Enemies_EnemyBase_ReturnToPool
-  commentId: M:StormHawks.Runtime.Entities.Enemies.EnemyBase.ReturnToPool
-  fullName: StormHawks.Runtime.Entities.Enemies.EnemyBase.ReturnToPool()
-  nameWithType: EnemyBase.ReturnToPool()
-- uid: StormHawks.Runtime.Entities.Enemies.EnemyBase.ReturnToPool*
-  name: ReturnToPool
-  href: api/StormHawks.Runtime.Entities.Enemies.EnemyBase.html#StormHawks_Runtime_Entities_Enemies_EnemyBase_ReturnToPool_
-  commentId: Overload:StormHawks.Runtime.Entities.Enemies.EnemyBase.ReturnToPool
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Entities.Enemies.EnemyBase.ReturnToPool
-  nameWithType: EnemyBase.ReturnToPool
-- uid: StormHawks.Runtime.Entities.Enemies.EnemyBase.SetFollowTarget(GameObject)
-  name: SetFollowTarget(GameObject)
-  href: api/StormHawks.Runtime.Entities.Enemies.EnemyBase.html#StormHawks_Runtime_Entities_Enemies_EnemyBase_SetFollowTarget_GameObject_
-  commentId: M:StormHawks.Runtime.Entities.Enemies.EnemyBase.SetFollowTarget(GameObject)
-  fullName: StormHawks.Runtime.Entities.Enemies.EnemyBase.SetFollowTarget(GameObject)
-  nameWithType: EnemyBase.SetFollowTarget(GameObject)
-- uid: StormHawks.Runtime.Entities.Enemies.EnemyBase.SetFollowTarget*
-  name: SetFollowTarget
-  href: api/StormHawks.Runtime.Entities.Enemies.EnemyBase.html#StormHawks_Runtime_Entities_Enemies_EnemyBase_SetFollowTarget_
-  commentId: Overload:StormHawks.Runtime.Entities.Enemies.EnemyBase.SetFollowTarget
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Entities.Enemies.EnemyBase.SetFollowTarget
-  nameWithType: EnemyBase.SetFollowTarget
-- uid: StormHawks.Runtime.Entities.Enemies.EnemyBase.Start
-  name: Start()
-  href: api/StormHawks.Runtime.Entities.Enemies.EnemyBase.html#StormHawks_Runtime_Entities_Enemies_EnemyBase_Start
-  commentId: M:StormHawks.Runtime.Entities.Enemies.EnemyBase.Start
-  fullName: StormHawks.Runtime.Entities.Enemies.EnemyBase.Start()
-  nameWithType: EnemyBase.Start()
-- uid: StormHawks.Runtime.Entities.Enemies.EnemyBase.Start*
-  name: Start
-  href: api/StormHawks.Runtime.Entities.Enemies.EnemyBase.html#StormHawks_Runtime_Entities_Enemies_EnemyBase_Start_
-  commentId: Overload:StormHawks.Runtime.Entities.Enemies.EnemyBase.Start
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Entities.Enemies.EnemyBase.Start
-  nameWithType: EnemyBase.Start
-- uid: StormHawks.Runtime.Entities.Enemies.EnemyBase.TakeDamage(Vector3,System.Single)
-  name: TakeDamage(Vector3, Single)
-  href: api/StormHawks.Runtime.Entities.Enemies.EnemyBase.html#StormHawks_Runtime_Entities_Enemies_EnemyBase_TakeDamage_Vector3_System_Single_
-  commentId: M:StormHawks.Runtime.Entities.Enemies.EnemyBase.TakeDamage(Vector3,System.Single)
-  fullName: StormHawks.Runtime.Entities.Enemies.EnemyBase.TakeDamage(Vector3, System.Single)
-  nameWithType: EnemyBase.TakeDamage(Vector3, Single)
-- uid: StormHawks.Runtime.Entities.Enemies.EnemyBase.TakeDamage*
-  name: TakeDamage
-  href: api/StormHawks.Runtime.Entities.Enemies.EnemyBase.html#StormHawks_Runtime_Entities_Enemies_EnemyBase_TakeDamage_
-  commentId: Overload:StormHawks.Runtime.Entities.Enemies.EnemyBase.TakeDamage
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Entities.Enemies.EnemyBase.TakeDamage
-  nameWithType: EnemyBase.TakeDamage
-- uid: StormHawks.Runtime.Entities.Enemies.EnemyBase.Target
-  name: Target
-  href: api/StormHawks.Runtime.Entities.Enemies.EnemyBase.html#StormHawks_Runtime_Entities_Enemies_EnemyBase_Target
-  commentId: P:StormHawks.Runtime.Entities.Enemies.EnemyBase.Target
-  fullName: StormHawks.Runtime.Entities.Enemies.EnemyBase.Target
-  nameWithType: EnemyBase.Target
-- uid: StormHawks.Runtime.Entities.Enemies.EnemyBase.Target*
-  name: Target
-  href: api/StormHawks.Runtime.Entities.Enemies.EnemyBase.html#StormHawks_Runtime_Entities_Enemies_EnemyBase_Target_
-  commentId: Overload:StormHawks.Runtime.Entities.Enemies.EnemyBase.Target
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Entities.Enemies.EnemyBase.Target
-  nameWithType: EnemyBase.Target
-- uid: StormHawks.Runtime.Entities.Enemies.EnemyContext
-  name: EnemyContext
-  href: api/StormHawks.Runtime.Entities.Enemies.EnemyContext.html
-  commentId: T:StormHawks.Runtime.Entities.Enemies.EnemyContext
-  fullName: StormHawks.Runtime.Entities.Enemies.EnemyContext
-  nameWithType: EnemyContext
-- uid: StormHawks.Runtime.Entities.Enemies.EnemyContext.EnemyBase
-  name: EnemyBase
-  href: api/StormHawks.Runtime.Entities.Enemies.EnemyContext.html#StormHawks_Runtime_Entities_Enemies_EnemyContext_EnemyBase
-  commentId: F:StormHawks.Runtime.Entities.Enemies.EnemyContext.EnemyBase
-  fullName: StormHawks.Runtime.Entities.Enemies.EnemyContext.EnemyBase
-  nameWithType: EnemyContext.EnemyBase
 - uid: StormHawks.Runtime.Entities.Enemies.EntityRotator
   name: EntityRotator
   href: api/StormHawks.Runtime.Entities.Enemies.EntityRotator.html
@@ -6085,69 +5933,6 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember.StepOutOfGroup
   nameWithType: EnemyGroupMember.StepOutOfGroup
-- uid: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupRequester
-  name: EnemyGroupRequester
-  href: api/StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupRequester.html
-  commentId: T:StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupRequester
-  fullName: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupRequester
-  nameWithType: EnemyGroupRequester
-- uid: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupRequester._boss
-  name: _boss
-  href: api/StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupRequester.html#StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroupRequester__boss
-  commentId: F:StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupRequester._boss
-  fullName: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupRequester._boss
-  nameWithType: EnemyGroupRequester._boss
-- uid: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupRequester._bossEntityRuntimeSet
-  name: _bossEntityRuntimeSet
-  href: api/StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupRequester.html#StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroupRequester__bossEntityRuntimeSet
-  commentId: F:StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupRequester._bossEntityRuntimeSet
-  fullName: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupRequester._bossEntityRuntimeSet
-  nameWithType: EnemyGroupRequester._bossEntityRuntimeSet
-- uid: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupRequester.groupRuntimeSet
-  name: groupRuntimeSet
-  href: api/StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupRequester.html#StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroupRequester_groupRuntimeSet
-  commentId: F:StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupRequester.groupRuntimeSet
-  fullName: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupRequester.groupRuntimeSet
-  nameWithType: EnemyGroupRequester.groupRuntimeSet
-- uid: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupRequester.RequestedGroup
-  name: RequestedGroup
-  href: api/StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupRequester.html#StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroupRequester_RequestedGroup
-  commentId: P:StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupRequester.RequestedGroup
-  fullName: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupRequester.RequestedGroup
-  nameWithType: EnemyGroupRequester.RequestedGroup
-- uid: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupRequester.RequestedGroup*
-  name: RequestedGroup
-  href: api/StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupRequester.html#StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroupRequester_RequestedGroup_
-  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupRequester.RequestedGroup
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupRequester.RequestedGroup
-  nameWithType: EnemyGroupRequester.RequestedGroup
-- uid: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupRequester.RequestGroup
-  name: RequestGroup()
-  href: api/StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupRequester.html#StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroupRequester_RequestGroup
-  commentId: M:StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupRequester.RequestGroup
-  fullName: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupRequester.RequestGroup()
-  nameWithType: EnemyGroupRequester.RequestGroup()
-- uid: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupRequester.RequestGroup*
-  name: RequestGroup
-  href: api/StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupRequester.html#StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroupRequester_RequestGroup_
-  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupRequester.RequestGroup
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupRequester.RequestGroup
-  nameWithType: EnemyGroupRequester.RequestGroup
-- uid: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupRequester.ReturnGroup
-  name: ReturnGroup()
-  href: api/StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupRequester.html#StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroupRequester_ReturnGroup
-  commentId: M:StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupRequester.ReturnGroup
-  fullName: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupRequester.ReturnGroup()
-  nameWithType: EnemyGroupRequester.ReturnGroup()
-- uid: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupRequester.ReturnGroup*
-  name: ReturnGroup
-  href: api/StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupRequester.html#StormHawks_Runtime_Entities_Enemies_Groups_EnemyGroupRequester_ReturnGroup_
-  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupRequester.ReturnGroup
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupRequester.ReturnGroup
-  nameWithType: EnemyGroupRequester.ReturnGroup
 - uid: StormHawks.Runtime.Entities.Enemies.LookerEnemy
   name: LookerEnemy
   href: api/StormHawks.Runtime.Entities.Enemies.LookerEnemy.html
@@ -6577,6 +6362,203 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Entities.Enemies.Projectiles.EnemyHomingMissile.OnSpawn
   nameWithType: EnemyHomingMissile.OnSpawn
+- uid: StormHawks.Runtime.Entities.Enemies.Projectiles.EnergyBulletBase
+  name: EnergyBulletBase
+  href: api/StormHawks.Runtime.Entities.Enemies.Projectiles.EnergyBulletBase.html
+  commentId: T:StormHawks.Runtime.Entities.Enemies.Projectiles.EnergyBulletBase
+  fullName: StormHawks.Runtime.Entities.Enemies.Projectiles.EnergyBulletBase
+  nameWithType: EnergyBulletBase
+- uid: StormHawks.Runtime.Entities.Enemies.Projectiles.EnergyBulletBase.CurrentHealth
+  name: CurrentHealth
+  href: api/StormHawks.Runtime.Entities.Enemies.Projectiles.EnergyBulletBase.html#StormHawks_Runtime_Entities_Enemies_Projectiles_EnergyBulletBase_CurrentHealth
+  commentId: P:StormHawks.Runtime.Entities.Enemies.Projectiles.EnergyBulletBase.CurrentHealth
+  fullName: StormHawks.Runtime.Entities.Enemies.Projectiles.EnergyBulletBase.CurrentHealth
+  nameWithType: EnergyBulletBase.CurrentHealth
+- uid: StormHawks.Runtime.Entities.Enemies.Projectiles.EnergyBulletBase.CurrentHealth*
+  name: CurrentHealth
+  href: api/StormHawks.Runtime.Entities.Enemies.Projectiles.EnergyBulletBase.html#StormHawks_Runtime_Entities_Enemies_Projectiles_EnergyBulletBase_CurrentHealth_
+  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Projectiles.EnergyBulletBase.CurrentHealth
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Entities.Enemies.Projectiles.EnergyBulletBase.CurrentHealth
+  nameWithType: EnergyBulletBase.CurrentHealth
+- uid: StormHawks.Runtime.Entities.Enemies.Projectiles.EnergyBulletBase.HealthSO
+  name: HealthSO
+  href: api/StormHawks.Runtime.Entities.Enemies.Projectiles.EnergyBulletBase.html#StormHawks_Runtime_Entities_Enemies_Projectiles_EnergyBulletBase_HealthSO
+  commentId: P:StormHawks.Runtime.Entities.Enemies.Projectiles.EnergyBulletBase.HealthSO
+  fullName: StormHawks.Runtime.Entities.Enemies.Projectiles.EnergyBulletBase.HealthSO
+  nameWithType: EnergyBulletBase.HealthSO
+- uid: StormHawks.Runtime.Entities.Enemies.Projectiles.EnergyBulletBase.HealthSO*
+  name: HealthSO
+  href: api/StormHawks.Runtime.Entities.Enemies.Projectiles.EnergyBulletBase.html#StormHawks_Runtime_Entities_Enemies_Projectiles_EnergyBulletBase_HealthSO_
+  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Projectiles.EnergyBulletBase.HealthSO
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Entities.Enemies.Projectiles.EnergyBulletBase.HealthSO
+  nameWithType: EnergyBulletBase.HealthSO
+- uid: StormHawks.Runtime.Entities.Enemies.Projectiles.EnergyBulletBase.OnSpawn
+  name: OnSpawn()
+  href: api/StormHawks.Runtime.Entities.Enemies.Projectiles.EnergyBulletBase.html#StormHawks_Runtime_Entities_Enemies_Projectiles_EnergyBulletBase_OnSpawn
+  commentId: M:StormHawks.Runtime.Entities.Enemies.Projectiles.EnergyBulletBase.OnSpawn
+  fullName: StormHawks.Runtime.Entities.Enemies.Projectiles.EnergyBulletBase.OnSpawn()
+  nameWithType: EnergyBulletBase.OnSpawn()
+- uid: StormHawks.Runtime.Entities.Enemies.Projectiles.EnergyBulletBase.OnSpawn*
+  name: OnSpawn
+  href: api/StormHawks.Runtime.Entities.Enemies.Projectiles.EnergyBulletBase.html#StormHawks_Runtime_Entities_Enemies_Projectiles_EnergyBulletBase_OnSpawn_
+  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Projectiles.EnergyBulletBase.OnSpawn
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Entities.Enemies.Projectiles.EnergyBulletBase.OnSpawn
+  nameWithType: EnergyBulletBase.OnSpawn
+- uid: StormHawks.Runtime.Entities.Enemies.Projectiles.EnergyBulletBase.TakeDamage(Vector3,System.Single)
+  name: TakeDamage(Vector3, Single)
+  href: api/StormHawks.Runtime.Entities.Enemies.Projectiles.EnergyBulletBase.html#StormHawks_Runtime_Entities_Enemies_Projectiles_EnergyBulletBase_TakeDamage_Vector3_System_Single_
+  commentId: M:StormHawks.Runtime.Entities.Enemies.Projectiles.EnergyBulletBase.TakeDamage(Vector3,System.Single)
+  fullName: StormHawks.Runtime.Entities.Enemies.Projectiles.EnergyBulletBase.TakeDamage(Vector3, System.Single)
+  nameWithType: EnergyBulletBase.TakeDamage(Vector3, Single)
+- uid: StormHawks.Runtime.Entities.Enemies.Projectiles.EnergyBulletBase.TakeDamage*
+  name: TakeDamage
+  href: api/StormHawks.Runtime.Entities.Enemies.Projectiles.EnergyBulletBase.html#StormHawks_Runtime_Entities_Enemies_Projectiles_EnergyBulletBase_TakeDamage_
+  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Projectiles.EnergyBulletBase.TakeDamage
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Entities.Enemies.Projectiles.EnergyBulletBase.TakeDamage
+  nameWithType: EnergyBulletBase.TakeDamage
+- uid: StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase
+  name: SteeringEnemyBase
+  href: api/StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.html
+  commentId: T:StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase
+  fullName: StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase
+  nameWithType: SteeringEnemyBase
+- uid: StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase._explosionEffect
+  name: _explosionEffect
+  href: api/StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.html#StormHawks_Runtime_Entities_Enemies_SteeringEnemyBase__explosionEffect
+  commentId: F:StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase._explosionEffect
+  fullName: StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase._explosionEffect
+  nameWithType: SteeringEnemyBase._explosionEffect
+- uid: StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase._explosionEvent
+  name: _explosionEvent
+  href: api/StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.html#StormHawks_Runtime_Entities_Enemies_SteeringEnemyBase__explosionEvent
+  commentId: F:StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase._explosionEvent
+  fullName: StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase._explosionEvent
+  nameWithType: SteeringEnemyBase._explosionEvent
+- uid: StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.AGGRO_TARGET
+  name: AGGRO_TARGET
+  href: api/StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.html#StormHawks_Runtime_Entities_Enemies_SteeringEnemyBase_AGGRO_TARGET
+  commentId: F:StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.AGGRO_TARGET
+  fullName: StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.AGGRO_TARGET
+  nameWithType: SteeringEnemyBase.AGGRO_TARGET
+- uid: StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.CurrentHealth
+  name: CurrentHealth
+  href: api/StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.html#StormHawks_Runtime_Entities_Enemies_SteeringEnemyBase_CurrentHealth
+  commentId: P:StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.CurrentHealth
+  fullName: StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.CurrentHealth
+  nameWithType: SteeringEnemyBase.CurrentHealth
+- uid: StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.CurrentHealth*
+  name: CurrentHealth
+  href: api/StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.html#StormHawks_Runtime_Entities_Enemies_SteeringEnemyBase_CurrentHealth_
+  commentId: Overload:StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.CurrentHealth
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.CurrentHealth
+  nameWithType: SteeringEnemyBase.CurrentHealth
+- uid: StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.groupRuntimeSet
+  name: groupRuntimeSet
+  href: api/StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.html#StormHawks_Runtime_Entities_Enemies_SteeringEnemyBase_groupRuntimeSet
+  commentId: F:StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.groupRuntimeSet
+  fullName: StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.groupRuntimeSet
+  nameWithType: SteeringEnemyBase.groupRuntimeSet
+- uid: StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.HealthSO
+  name: HealthSO
+  href: api/StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.html#StormHawks_Runtime_Entities_Enemies_SteeringEnemyBase_HealthSO
+  commentId: P:StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.HealthSO
+  fullName: StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.HealthSO
+  nameWithType: SteeringEnemyBase.HealthSO
+- uid: StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.HealthSO*
+  name: HealthSO
+  href: api/StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.html#StormHawks_Runtime_Entities_Enemies_SteeringEnemyBase_HealthSO_
+  commentId: Overload:StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.HealthSO
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.HealthSO
+  nameWithType: SteeringEnemyBase.HealthSO
+- uid: StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.IS_RETURNING
+  name: IS_RETURNING
+  href: api/StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.html#StormHawks_Runtime_Entities_Enemies_SteeringEnemyBase_IS_RETURNING
+  commentId: F:StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.IS_RETURNING
+  fullName: StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.IS_RETURNING
+  nameWithType: SteeringEnemyBase.IS_RETURNING
+- uid: StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.ReturnToPool
+  name: ReturnToPool()
+  href: api/StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.html#StormHawks_Runtime_Entities_Enemies_SteeringEnemyBase_ReturnToPool
+  commentId: M:StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.ReturnToPool
+  fullName: StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.ReturnToPool()
+  nameWithType: SteeringEnemyBase.ReturnToPool()
+- uid: StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.ReturnToPool*
+  name: ReturnToPool
+  href: api/StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.html#StormHawks_Runtime_Entities_Enemies_SteeringEnemyBase_ReturnToPool_
+  commentId: Overload:StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.ReturnToPool
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.ReturnToPool
+  nameWithType: SteeringEnemyBase.ReturnToPool
+- uid: StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.SetFollowTarget(GameObject)
+  name: SetFollowTarget(GameObject)
+  href: api/StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.html#StormHawks_Runtime_Entities_Enemies_SteeringEnemyBase_SetFollowTarget_GameObject_
+  commentId: M:StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.SetFollowTarget(GameObject)
+  fullName: StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.SetFollowTarget(GameObject)
+  nameWithType: SteeringEnemyBase.SetFollowTarget(GameObject)
+- uid: StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.SetFollowTarget*
+  name: SetFollowTarget
+  href: api/StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.html#StormHawks_Runtime_Entities_Enemies_SteeringEnemyBase_SetFollowTarget_
+  commentId: Overload:StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.SetFollowTarget
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.SetFollowTarget
+  nameWithType: SteeringEnemyBase.SetFollowTarget
+- uid: StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.Start
+  name: Start()
+  href: api/StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.html#StormHawks_Runtime_Entities_Enemies_SteeringEnemyBase_Start
+  commentId: M:StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.Start
+  fullName: StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.Start()
+  nameWithType: SteeringEnemyBase.Start()
+- uid: StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.Start*
+  name: Start
+  href: api/StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.html#StormHawks_Runtime_Entities_Enemies_SteeringEnemyBase_Start_
+  commentId: Overload:StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.Start
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.Start
+  nameWithType: SteeringEnemyBase.Start
+- uid: StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.TakeDamage(Vector3,System.Single)
+  name: TakeDamage(Vector3, Single)
+  href: api/StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.html#StormHawks_Runtime_Entities_Enemies_SteeringEnemyBase_TakeDamage_Vector3_System_Single_
+  commentId: M:StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.TakeDamage(Vector3,System.Single)
+  fullName: StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.TakeDamage(Vector3, System.Single)
+  nameWithType: SteeringEnemyBase.TakeDamage(Vector3, Single)
+- uid: StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.TakeDamage*
+  name: TakeDamage
+  href: api/StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.html#StormHawks_Runtime_Entities_Enemies_SteeringEnemyBase_TakeDamage_
+  commentId: Overload:StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.TakeDamage
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.TakeDamage
+  nameWithType: SteeringEnemyBase.TakeDamage
+- uid: StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.Target
+  name: Target
+  href: api/StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.html#StormHawks_Runtime_Entities_Enemies_SteeringEnemyBase_Target
+  commentId: P:StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.Target
+  fullName: StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.Target
+  nameWithType: SteeringEnemyBase.Target
+- uid: StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.Target*
+  name: Target
+  href: api/StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.html#StormHawks_Runtime_Entities_Enemies_SteeringEnemyBase_Target_
+  commentId: Overload:StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.Target
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.Target
+  nameWithType: SteeringEnemyBase.Target
+- uid: StormHawks.Runtime.Entities.Enemies.SteeringEnemyContext
+  name: SteeringEnemyContext
+  href: api/StormHawks.Runtime.Entities.Enemies.SteeringEnemyContext.html
+  commentId: T:StormHawks.Runtime.Entities.Enemies.SteeringEnemyContext
+  fullName: StormHawks.Runtime.Entities.Enemies.SteeringEnemyContext
+  nameWithType: SteeringEnemyContext
+- uid: StormHawks.Runtime.Entities.Enemies.SteeringEnemyContext.EnemyBase
+  name: EnemyBase
+  href: api/StormHawks.Runtime.Entities.Enemies.SteeringEnemyContext.html#StormHawks_Runtime_Entities_Enemies_SteeringEnemyContext_EnemyBase
+  commentId: F:StormHawks.Runtime.Entities.Enemies.SteeringEnemyContext.EnemyBase
+  fullName: StormHawks.Runtime.Entities.Enemies.SteeringEnemyContext.EnemyBase
+  nameWithType: SteeringEnemyContext.EnemyBase
 - uid: StormHawks.Runtime.Entities.EntityDamageSO
   name: EntityDamageSO
   href: api/StormHawks.Runtime.Entities.EntityDamageSO.html
@@ -6751,19 +6733,19 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Entities.Fires.FireAutomaticShot.OnShootFinished
   nameWithType: FireAutomaticShot.OnShootFinished
-- uid: StormHawks.Runtime.Entities.Fires.FireAutomaticShot.PlayMuzzleEffects
-  name: PlayMuzzleEffects()
-  href: api/StormHawks.Runtime.Entities.Fires.FireAutomaticShot.html#StormHawks_Runtime_Entities_Fires_FireAutomaticShot_PlayMuzzleEffects
-  commentId: M:StormHawks.Runtime.Entities.Fires.FireAutomaticShot.PlayMuzzleEffects
-  fullName: StormHawks.Runtime.Entities.Fires.FireAutomaticShot.PlayMuzzleEffects()
-  nameWithType: FireAutomaticShot.PlayMuzzleEffects()
-- uid: StormHawks.Runtime.Entities.Fires.FireAutomaticShot.PlayMuzzleEffects*
-  name: PlayMuzzleEffects
-  href: api/StormHawks.Runtime.Entities.Fires.FireAutomaticShot.html#StormHawks_Runtime_Entities_Fires_FireAutomaticShot_PlayMuzzleEffects_
-  commentId: Overload:StormHawks.Runtime.Entities.Fires.FireAutomaticShot.PlayMuzzleEffects
+- uid: StormHawks.Runtime.Entities.Fires.FireAutomaticShot.PlayMuzzleEffect
+  name: PlayMuzzleEffect()
+  href: api/StormHawks.Runtime.Entities.Fires.FireAutomaticShot.html#StormHawks_Runtime_Entities_Fires_FireAutomaticShot_PlayMuzzleEffect
+  commentId: M:StormHawks.Runtime.Entities.Fires.FireAutomaticShot.PlayMuzzleEffect
+  fullName: StormHawks.Runtime.Entities.Fires.FireAutomaticShot.PlayMuzzleEffect()
+  nameWithType: FireAutomaticShot.PlayMuzzleEffect()
+- uid: StormHawks.Runtime.Entities.Fires.FireAutomaticShot.PlayMuzzleEffect*
+  name: PlayMuzzleEffect
+  href: api/StormHawks.Runtime.Entities.Fires.FireAutomaticShot.html#StormHawks_Runtime_Entities_Fires_FireAutomaticShot_PlayMuzzleEffect_
+  commentId: Overload:StormHawks.Runtime.Entities.Fires.FireAutomaticShot.PlayMuzzleEffect
   isSpec: "True"
-  fullName: StormHawks.Runtime.Entities.Fires.FireAutomaticShot.PlayMuzzleEffects
-  nameWithType: FireAutomaticShot.PlayMuzzleEffects
+  fullName: StormHawks.Runtime.Entities.Fires.FireAutomaticShot.PlayMuzzleEffect
+  nameWithType: FireAutomaticShot.PlayMuzzleEffect
 - uid: StormHawks.Runtime.Entities.Fires.FireFence
   name: FireFence
   href: api/StormHawks.Runtime.Entities.Fires.FireFence.html
@@ -6822,19 +6804,19 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Entities.Fires.FireFence.OnShootFinished
   nameWithType: FireFence.OnShootFinished
-- uid: StormHawks.Runtime.Entities.Fires.FireFence.PlayMuzzleEffects
-  name: PlayMuzzleEffects()
-  href: api/StormHawks.Runtime.Entities.Fires.FireFence.html#StormHawks_Runtime_Entities_Fires_FireFence_PlayMuzzleEffects
-  commentId: M:StormHawks.Runtime.Entities.Fires.FireFence.PlayMuzzleEffects
-  fullName: StormHawks.Runtime.Entities.Fires.FireFence.PlayMuzzleEffects()
-  nameWithType: FireFence.PlayMuzzleEffects()
-- uid: StormHawks.Runtime.Entities.Fires.FireFence.PlayMuzzleEffects*
-  name: PlayMuzzleEffects
-  href: api/StormHawks.Runtime.Entities.Fires.FireFence.html#StormHawks_Runtime_Entities_Fires_FireFence_PlayMuzzleEffects_
-  commentId: Overload:StormHawks.Runtime.Entities.Fires.FireFence.PlayMuzzleEffects
+- uid: StormHawks.Runtime.Entities.Fires.FireFence.PlayMuzzleEffect
+  name: PlayMuzzleEffect()
+  href: api/StormHawks.Runtime.Entities.Fires.FireFence.html#StormHawks_Runtime_Entities_Fires_FireFence_PlayMuzzleEffect
+  commentId: M:StormHawks.Runtime.Entities.Fires.FireFence.PlayMuzzleEffect
+  fullName: StormHawks.Runtime.Entities.Fires.FireFence.PlayMuzzleEffect()
+  nameWithType: FireFence.PlayMuzzleEffect()
+- uid: StormHawks.Runtime.Entities.Fires.FireFence.PlayMuzzleEffect*
+  name: PlayMuzzleEffect
+  href: api/StormHawks.Runtime.Entities.Fires.FireFence.html#StormHawks_Runtime_Entities_Fires_FireFence_PlayMuzzleEffect_
+  commentId: Overload:StormHawks.Runtime.Entities.Fires.FireFence.PlayMuzzleEffect
   isSpec: "True"
-  fullName: StormHawks.Runtime.Entities.Fires.FireFence.PlayMuzzleEffects
-  nameWithType: FireFence.PlayMuzzleEffects
+  fullName: StormHawks.Runtime.Entities.Fires.FireFence.PlayMuzzleEffect
+  nameWithType: FireFence.PlayMuzzleEffect
 - uid: StormHawks.Runtime.Entities.Fires.FireHomingMissile
   name: FireHomingMissile
   href: api/StormHawks.Runtime.Entities.Fires.FireHomingMissile.html
@@ -6896,19 +6878,19 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Entities.Fires.FireHomingMissile.OnShootFinished
   nameWithType: FireHomingMissile.OnShootFinished
-- uid: StormHawks.Runtime.Entities.Fires.FireHomingMissile.PlayMuzzleEffects
-  name: PlayMuzzleEffects()
-  href: api/StormHawks.Runtime.Entities.Fires.FireHomingMissile.html#StormHawks_Runtime_Entities_Fires_FireHomingMissile_PlayMuzzleEffects
-  commentId: M:StormHawks.Runtime.Entities.Fires.FireHomingMissile.PlayMuzzleEffects
-  fullName: StormHawks.Runtime.Entities.Fires.FireHomingMissile.PlayMuzzleEffects()
-  nameWithType: FireHomingMissile.PlayMuzzleEffects()
-- uid: StormHawks.Runtime.Entities.Fires.FireHomingMissile.PlayMuzzleEffects*
-  name: PlayMuzzleEffects
-  href: api/StormHawks.Runtime.Entities.Fires.FireHomingMissile.html#StormHawks_Runtime_Entities_Fires_FireHomingMissile_PlayMuzzleEffects_
-  commentId: Overload:StormHawks.Runtime.Entities.Fires.FireHomingMissile.PlayMuzzleEffects
+- uid: StormHawks.Runtime.Entities.Fires.FireHomingMissile.PlayMuzzleEffect
+  name: PlayMuzzleEffect()
+  href: api/StormHawks.Runtime.Entities.Fires.FireHomingMissile.html#StormHawks_Runtime_Entities_Fires_FireHomingMissile_PlayMuzzleEffect
+  commentId: M:StormHawks.Runtime.Entities.Fires.FireHomingMissile.PlayMuzzleEffect
+  fullName: StormHawks.Runtime.Entities.Fires.FireHomingMissile.PlayMuzzleEffect()
+  nameWithType: FireHomingMissile.PlayMuzzleEffect()
+- uid: StormHawks.Runtime.Entities.Fires.FireHomingMissile.PlayMuzzleEffect*
+  name: PlayMuzzleEffect
+  href: api/StormHawks.Runtime.Entities.Fires.FireHomingMissile.html#StormHawks_Runtime_Entities_Fires_FireHomingMissile_PlayMuzzleEffect_
+  commentId: Overload:StormHawks.Runtime.Entities.Fires.FireHomingMissile.PlayMuzzleEffect
   isSpec: "True"
-  fullName: StormHawks.Runtime.Entities.Fires.FireHomingMissile.PlayMuzzleEffects
-  nameWithType: FireHomingMissile.PlayMuzzleEffects
+  fullName: StormHawks.Runtime.Entities.Fires.FireHomingMissile.PlayMuzzleEffect
+  nameWithType: FireHomingMissile.PlayMuzzleEffect
 - uid: StormHawks.Runtime.Entities.Fires.FireInterruptedShot
   name: FireInterruptedShot
   href: api/StormHawks.Runtime.Entities.Fires.FireInterruptedShot.html
@@ -6979,19 +6961,19 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Entities.Fires.FireInterruptedShot.OnShootFinished
   nameWithType: FireInterruptedShot.OnShootFinished
-- uid: StormHawks.Runtime.Entities.Fires.FireInterruptedShot.PlayMuzzleEffects
-  name: PlayMuzzleEffects()
-  href: api/StormHawks.Runtime.Entities.Fires.FireInterruptedShot.html#StormHawks_Runtime_Entities_Fires_FireInterruptedShot_PlayMuzzleEffects
-  commentId: M:StormHawks.Runtime.Entities.Fires.FireInterruptedShot.PlayMuzzleEffects
-  fullName: StormHawks.Runtime.Entities.Fires.FireInterruptedShot.PlayMuzzleEffects()
-  nameWithType: FireInterruptedShot.PlayMuzzleEffects()
-- uid: StormHawks.Runtime.Entities.Fires.FireInterruptedShot.PlayMuzzleEffects*
-  name: PlayMuzzleEffects
-  href: api/StormHawks.Runtime.Entities.Fires.FireInterruptedShot.html#StormHawks_Runtime_Entities_Fires_FireInterruptedShot_PlayMuzzleEffects_
-  commentId: Overload:StormHawks.Runtime.Entities.Fires.FireInterruptedShot.PlayMuzzleEffects
+- uid: StormHawks.Runtime.Entities.Fires.FireInterruptedShot.PlayMuzzleEffect
+  name: PlayMuzzleEffect()
+  href: api/StormHawks.Runtime.Entities.Fires.FireInterruptedShot.html#StormHawks_Runtime_Entities_Fires_FireInterruptedShot_PlayMuzzleEffect
+  commentId: M:StormHawks.Runtime.Entities.Fires.FireInterruptedShot.PlayMuzzleEffect
+  fullName: StormHawks.Runtime.Entities.Fires.FireInterruptedShot.PlayMuzzleEffect()
+  nameWithType: FireInterruptedShot.PlayMuzzleEffect()
+- uid: StormHawks.Runtime.Entities.Fires.FireInterruptedShot.PlayMuzzleEffect*
+  name: PlayMuzzleEffect
+  href: api/StormHawks.Runtime.Entities.Fires.FireInterruptedShot.html#StormHawks_Runtime_Entities_Fires_FireInterruptedShot_PlayMuzzleEffect_
+  commentId: Overload:StormHawks.Runtime.Entities.Fires.FireInterruptedShot.PlayMuzzleEffect
   isSpec: "True"
-  fullName: StormHawks.Runtime.Entities.Fires.FireInterruptedShot.PlayMuzzleEffects
-  nameWithType: FireInterruptedShot.PlayMuzzleEffects
+  fullName: StormHawks.Runtime.Entities.Fires.FireInterruptedShot.PlayMuzzleEffect
+  nameWithType: FireInterruptedShot.PlayMuzzleEffect
 - uid: StormHawks.Runtime.Entities.Fires.FireLaser
   name: FireLaser
   href: api/StormHawks.Runtime.Entities.Fires.FireLaser.html
@@ -7050,19 +7032,19 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Entities.Fires.FireLaser.OnShootFinished
   nameWithType: FireLaser.OnShootFinished
-- uid: StormHawks.Runtime.Entities.Fires.FireLaser.PlayMuzzleEffects
-  name: PlayMuzzleEffects()
-  href: api/StormHawks.Runtime.Entities.Fires.FireLaser.html#StormHawks_Runtime_Entities_Fires_FireLaser_PlayMuzzleEffects
-  commentId: M:StormHawks.Runtime.Entities.Fires.FireLaser.PlayMuzzleEffects
-  fullName: StormHawks.Runtime.Entities.Fires.FireLaser.PlayMuzzleEffects()
-  nameWithType: FireLaser.PlayMuzzleEffects()
-- uid: StormHawks.Runtime.Entities.Fires.FireLaser.PlayMuzzleEffects*
-  name: PlayMuzzleEffects
-  href: api/StormHawks.Runtime.Entities.Fires.FireLaser.html#StormHawks_Runtime_Entities_Fires_FireLaser_PlayMuzzleEffects_
-  commentId: Overload:StormHawks.Runtime.Entities.Fires.FireLaser.PlayMuzzleEffects
+- uid: StormHawks.Runtime.Entities.Fires.FireLaser.PlayMuzzleEffect
+  name: PlayMuzzleEffect()
+  href: api/StormHawks.Runtime.Entities.Fires.FireLaser.html#StormHawks_Runtime_Entities_Fires_FireLaser_PlayMuzzleEffect
+  commentId: M:StormHawks.Runtime.Entities.Fires.FireLaser.PlayMuzzleEffect
+  fullName: StormHawks.Runtime.Entities.Fires.FireLaser.PlayMuzzleEffect()
+  nameWithType: FireLaser.PlayMuzzleEffect()
+- uid: StormHawks.Runtime.Entities.Fires.FireLaser.PlayMuzzleEffect*
+  name: PlayMuzzleEffect
+  href: api/StormHawks.Runtime.Entities.Fires.FireLaser.html#StormHawks_Runtime_Entities_Fires_FireLaser_PlayMuzzleEffect_
+  commentId: Overload:StormHawks.Runtime.Entities.Fires.FireLaser.PlayMuzzleEffect
   isSpec: "True"
-  fullName: StormHawks.Runtime.Entities.Fires.FireLaser.PlayMuzzleEffects
-  nameWithType: FireLaser.PlayMuzzleEffects
+  fullName: StormHawks.Runtime.Entities.Fires.FireLaser.PlayMuzzleEffect
+  nameWithType: FireLaser.PlayMuzzleEffect
 - uid: StormHawks.Runtime.Entities.FriendlyShips
   name: StormHawks.Runtime.Entities.FriendlyShips
   href: api/StormHawks.Runtime.Entities.FriendlyShips.html
@@ -7130,19 +7112,19 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Entities.FriendlyShips.FireFriendlyInterruptedShot.OnShootFinished
   nameWithType: FireFriendlyInterruptedShot.OnShootFinished
-- uid: StormHawks.Runtime.Entities.FriendlyShips.FireFriendlyInterruptedShot.PlayMuzzleEffects
-  name: PlayMuzzleEffects()
-  href: api/StormHawks.Runtime.Entities.FriendlyShips.FireFriendlyInterruptedShot.html#StormHawks_Runtime_Entities_FriendlyShips_FireFriendlyInterruptedShot_PlayMuzzleEffects
-  commentId: M:StormHawks.Runtime.Entities.FriendlyShips.FireFriendlyInterruptedShot.PlayMuzzleEffects
-  fullName: StormHawks.Runtime.Entities.FriendlyShips.FireFriendlyInterruptedShot.PlayMuzzleEffects()
-  nameWithType: FireFriendlyInterruptedShot.PlayMuzzleEffects()
-- uid: StormHawks.Runtime.Entities.FriendlyShips.FireFriendlyInterruptedShot.PlayMuzzleEffects*
-  name: PlayMuzzleEffects
-  href: api/StormHawks.Runtime.Entities.FriendlyShips.FireFriendlyInterruptedShot.html#StormHawks_Runtime_Entities_FriendlyShips_FireFriendlyInterruptedShot_PlayMuzzleEffects_
-  commentId: Overload:StormHawks.Runtime.Entities.FriendlyShips.FireFriendlyInterruptedShot.PlayMuzzleEffects
+- uid: StormHawks.Runtime.Entities.FriendlyShips.FireFriendlyInterruptedShot.PlayMuzzleEffect
+  name: PlayMuzzleEffect()
+  href: api/StormHawks.Runtime.Entities.FriendlyShips.FireFriendlyInterruptedShot.html#StormHawks_Runtime_Entities_FriendlyShips_FireFriendlyInterruptedShot_PlayMuzzleEffect
+  commentId: M:StormHawks.Runtime.Entities.FriendlyShips.FireFriendlyInterruptedShot.PlayMuzzleEffect
+  fullName: StormHawks.Runtime.Entities.FriendlyShips.FireFriendlyInterruptedShot.PlayMuzzleEffect()
+  nameWithType: FireFriendlyInterruptedShot.PlayMuzzleEffect()
+- uid: StormHawks.Runtime.Entities.FriendlyShips.FireFriendlyInterruptedShot.PlayMuzzleEffect*
+  name: PlayMuzzleEffect
+  href: api/StormHawks.Runtime.Entities.FriendlyShips.FireFriendlyInterruptedShot.html#StormHawks_Runtime_Entities_FriendlyShips_FireFriendlyInterruptedShot_PlayMuzzleEffect_
+  commentId: Overload:StormHawks.Runtime.Entities.FriendlyShips.FireFriendlyInterruptedShot.PlayMuzzleEffect
   isSpec: "True"
-  fullName: StormHawks.Runtime.Entities.FriendlyShips.FireFriendlyInterruptedShot.PlayMuzzleEffects
-  nameWithType: FireFriendlyInterruptedShot.PlayMuzzleEffects
+  fullName: StormHawks.Runtime.Entities.FriendlyShips.FireFriendlyInterruptedShot.PlayMuzzleEffect
+  nameWithType: FireFriendlyInterruptedShot.PlayMuzzleEffect
 - uid: StormHawks.Runtime.Entities.FriendlyShips.FriendlyShip
   name: FriendlyShip
   href: api/StormHawks.Runtime.Entities.FriendlyShips.FriendlyShip.html
@@ -9151,19 +9133,6 @@ references:
   commentId: T:StormHawks.Runtime.Entities.Weapons.EntityFenceWeapon
   fullName: StormHawks.Runtime.Entities.Weapons.EntityFenceWeapon
   nameWithType: EntityFenceWeapon
-- uid: StormHawks.Runtime.Entities.Weapons.EntityFenceWeapon.GetMuzzleEffects
-  name: GetMuzzleEffects()
-  href: api/StormHawks.Runtime.Entities.Weapons.EntityFenceWeapon.html#StormHawks_Runtime_Entities_Weapons_EntityFenceWeapon_GetMuzzleEffects
-  commentId: M:StormHawks.Runtime.Entities.Weapons.EntityFenceWeapon.GetMuzzleEffects
-  fullName: StormHawks.Runtime.Entities.Weapons.EntityFenceWeapon.GetMuzzleEffects()
-  nameWithType: EntityFenceWeapon.GetMuzzleEffects()
-- uid: StormHawks.Runtime.Entities.Weapons.EntityFenceWeapon.GetMuzzleEffects*
-  name: GetMuzzleEffects
-  href: api/StormHawks.Runtime.Entities.Weapons.EntityFenceWeapon.html#StormHawks_Runtime_Entities_Weapons_EntityFenceWeapon_GetMuzzleEffects_
-  commentId: Overload:StormHawks.Runtime.Entities.Weapons.EntityFenceWeapon.GetMuzzleEffects
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Entities.Weapons.EntityFenceWeapon.GetMuzzleEffects
-  nameWithType: EntityFenceWeapon.GetMuzzleEffects
 - uid: StormHawks.Runtime.Entities.Weapons.EntityFenceWeapon.OnGetObject(EnemyFenceProjectile)
   name: OnGetObject(EnemyFenceProjectile)
   href: api/StormHawks.Runtime.Entities.Weapons.EntityFenceWeapon.html#StormHawks_Runtime_Entities_Weapons_EntityFenceWeapon_OnGetObject_EnemyFenceProjectile_
@@ -9382,19 +9351,6 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Entities.Weapons.EntityLaserWeapon.Fire
   nameWithType: EntityLaserWeapon.Fire
-- uid: StormHawks.Runtime.Entities.Weapons.EntityLaserWeapon.GetMuzzleEffects
-  name: GetMuzzleEffects()
-  href: api/StormHawks.Runtime.Entities.Weapons.EntityLaserWeapon.html#StormHawks_Runtime_Entities_Weapons_EntityLaserWeapon_GetMuzzleEffects
-  commentId: M:StormHawks.Runtime.Entities.Weapons.EntityLaserWeapon.GetMuzzleEffects
-  fullName: StormHawks.Runtime.Entities.Weapons.EntityLaserWeapon.GetMuzzleEffects()
-  nameWithType: EntityLaserWeapon.GetMuzzleEffects()
-- uid: StormHawks.Runtime.Entities.Weapons.EntityLaserWeapon.GetMuzzleEffects*
-  name: GetMuzzleEffects
-  href: api/StormHawks.Runtime.Entities.Weapons.EntityLaserWeapon.html#StormHawks_Runtime_Entities_Weapons_EntityLaserWeapon_GetMuzzleEffects_
-  commentId: Overload:StormHawks.Runtime.Entities.Weapons.EntityLaserWeapon.GetMuzzleEffects
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Entities.Weapons.EntityLaserWeapon.GetMuzzleEffects
-  nameWithType: EntityLaserWeapon.GetMuzzleEffects
 - uid: StormHawks.Runtime.Entities.Weapons.EntityLaserWeapon.IsCharging
   name: IsCharging
   href: api/StormHawks.Runtime.Entities.Weapons.EntityLaserWeapon.html#StormHawks_Runtime_Entities_Weapons_EntityLaserWeapon_IsCharging
@@ -9492,19 +9448,19 @@ references:
   commentId: T:StormHawks.Runtime.Entities.Weapons.EntityProjectileWeapon
   fullName: StormHawks.Runtime.Entities.Weapons.EntityProjectileWeapon
   nameWithType: EntityProjectileWeapon
-- uid: StormHawks.Runtime.Entities.Weapons.EntityProjectileWeapon.GetMuzzleEffects
-  name: GetMuzzleEffects()
-  href: api/StormHawks.Runtime.Entities.Weapons.EntityProjectileWeapon.html#StormHawks_Runtime_Entities_Weapons_EntityProjectileWeapon_GetMuzzleEffects
-  commentId: M:StormHawks.Runtime.Entities.Weapons.EntityProjectileWeapon.GetMuzzleEffects
-  fullName: StormHawks.Runtime.Entities.Weapons.EntityProjectileWeapon.GetMuzzleEffects()
-  nameWithType: EntityProjectileWeapon.GetMuzzleEffects()
-- uid: StormHawks.Runtime.Entities.Weapons.EntityProjectileWeapon.GetMuzzleEffects*
-  name: GetMuzzleEffects
-  href: api/StormHawks.Runtime.Entities.Weapons.EntityProjectileWeapon.html#StormHawks_Runtime_Entities_Weapons_EntityProjectileWeapon_GetMuzzleEffects_
-  commentId: Overload:StormHawks.Runtime.Entities.Weapons.EntityProjectileWeapon.GetMuzzleEffects
+- uid: StormHawks.Runtime.Entities.Weapons.EntityProjectileWeapon.IsActive
+  name: IsActive
+  href: api/StormHawks.Runtime.Entities.Weapons.EntityProjectileWeapon.html#StormHawks_Runtime_Entities_Weapons_EntityProjectileWeapon_IsActive
+  commentId: P:StormHawks.Runtime.Entities.Weapons.EntityProjectileWeapon.IsActive
+  fullName: StormHawks.Runtime.Entities.Weapons.EntityProjectileWeapon.IsActive
+  nameWithType: EntityProjectileWeapon.IsActive
+- uid: StormHawks.Runtime.Entities.Weapons.EntityProjectileWeapon.IsActive*
+  name: IsActive
+  href: api/StormHawks.Runtime.Entities.Weapons.EntityProjectileWeapon.html#StormHawks_Runtime_Entities_Weapons_EntityProjectileWeapon_IsActive_
+  commentId: Overload:StormHawks.Runtime.Entities.Weapons.EntityProjectileWeapon.IsActive
   isSpec: "True"
-  fullName: StormHawks.Runtime.Entities.Weapons.EntityProjectileWeapon.GetMuzzleEffects
-  nameWithType: EntityProjectileWeapon.GetMuzzleEffects
+  fullName: StormHawks.Runtime.Entities.Weapons.EntityProjectileWeapon.IsActive
+  nameWithType: EntityProjectileWeapon.IsActive
 - uid: StormHawks.Runtime.Entities.Weapons.EntityProjectileWeapon.OnGetObject(Projectile)
   name: OnGetObject(Projectile)
   href: api/StormHawks.Runtime.Entities.Weapons.EntityProjectileWeapon.html#StormHawks_Runtime_Entities_Weapons_EntityProjectileWeapon_OnGetObject_Projectile_
@@ -9595,19 +9551,6 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Entities.Weapons.EntityWeapon.FmodEvent
   nameWithType: EntityWeapon.FmodEvent
-- uid: StormHawks.Runtime.Entities.Weapons.EntityWeapon.GetMuzzleEffects
-  name: GetMuzzleEffects()
-  href: api/StormHawks.Runtime.Entities.Weapons.EntityWeapon.html#StormHawks_Runtime_Entities_Weapons_EntityWeapon_GetMuzzleEffects
-  commentId: M:StormHawks.Runtime.Entities.Weapons.EntityWeapon.GetMuzzleEffects
-  fullName: StormHawks.Runtime.Entities.Weapons.EntityWeapon.GetMuzzleEffects()
-  nameWithType: EntityWeapon.GetMuzzleEffects()
-- uid: StormHawks.Runtime.Entities.Weapons.EntityWeapon.GetMuzzleEffects*
-  name: GetMuzzleEffects
-  href: api/StormHawks.Runtime.Entities.Weapons.EntityWeapon.html#StormHawks_Runtime_Entities_Weapons_EntityWeapon_GetMuzzleEffects_
-  commentId: Overload:StormHawks.Runtime.Entities.Weapons.EntityWeapon.GetMuzzleEffects
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Entities.Weapons.EntityWeapon.GetMuzzleEffects
-  nameWithType: EntityWeapon.GetMuzzleEffects
 - uid: StormHawks.Runtime.Entities.Weapons.EntityWeapon.IsFiring
   name: IsFiring
   href: api/StormHawks.Runtime.Entities.Weapons.EntityWeapon.html#StormHawks_Runtime_Entities_Weapons_EntityWeapon_IsFiring
@@ -9721,6 +9664,40 @@ references:
   fullName.vb: StormHawks.Runtime.Entities.Weapons.EntityWeapon(Of T)
   nameWithType: EntityWeapon<T>
   nameWithType.vb: EntityWeapon(Of T)
+- uid: StormHawks.Runtime.Entities.Weapons.EntityWeapon`1.GetChargeEffect
+  name: GetChargeEffect()
+  href: api/StormHawks.Runtime.Entities.Weapons.EntityWeapon-1.html#StormHawks_Runtime_Entities_Weapons_EntityWeapon_1_GetChargeEffect
+  commentId: M:StormHawks.Runtime.Entities.Weapons.EntityWeapon`1.GetChargeEffect
+  fullName: StormHawks.Runtime.Entities.Weapons.EntityWeapon<T>.GetChargeEffect()
+  fullName.vb: StormHawks.Runtime.Entities.Weapons.EntityWeapon(Of T).GetChargeEffect()
+  nameWithType: EntityWeapon<T>.GetChargeEffect()
+  nameWithType.vb: EntityWeapon(Of T).GetChargeEffect()
+- uid: StormHawks.Runtime.Entities.Weapons.EntityWeapon`1.GetChargeEffect*
+  name: GetChargeEffect
+  href: api/StormHawks.Runtime.Entities.Weapons.EntityWeapon-1.html#StormHawks_Runtime_Entities_Weapons_EntityWeapon_1_GetChargeEffect_
+  commentId: Overload:StormHawks.Runtime.Entities.Weapons.EntityWeapon`1.GetChargeEffect
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Entities.Weapons.EntityWeapon<T>.GetChargeEffect
+  fullName.vb: StormHawks.Runtime.Entities.Weapons.EntityWeapon(Of T).GetChargeEffect
+  nameWithType: EntityWeapon<T>.GetChargeEffect
+  nameWithType.vb: EntityWeapon(Of T).GetChargeEffect
+- uid: StormHawks.Runtime.Entities.Weapons.EntityWeapon`1.GetMuzzleEffect
+  name: GetMuzzleEffect()
+  href: api/StormHawks.Runtime.Entities.Weapons.EntityWeapon-1.html#StormHawks_Runtime_Entities_Weapons_EntityWeapon_1_GetMuzzleEffect
+  commentId: M:StormHawks.Runtime.Entities.Weapons.EntityWeapon`1.GetMuzzleEffect
+  fullName: StormHawks.Runtime.Entities.Weapons.EntityWeapon<T>.GetMuzzleEffect()
+  fullName.vb: StormHawks.Runtime.Entities.Weapons.EntityWeapon(Of T).GetMuzzleEffect()
+  nameWithType: EntityWeapon<T>.GetMuzzleEffect()
+  nameWithType.vb: EntityWeapon(Of T).GetMuzzleEffect()
+- uid: StormHawks.Runtime.Entities.Weapons.EntityWeapon`1.GetMuzzleEffect*
+  name: GetMuzzleEffect
+  href: api/StormHawks.Runtime.Entities.Weapons.EntityWeapon-1.html#StormHawks_Runtime_Entities_Weapons_EntityWeapon_1_GetMuzzleEffect_
+  commentId: Overload:StormHawks.Runtime.Entities.Weapons.EntityWeapon`1.GetMuzzleEffect
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Entities.Weapons.EntityWeapon<T>.GetMuzzleEffect
+  fullName.vb: StormHawks.Runtime.Entities.Weapons.EntityWeapon(Of T).GetMuzzleEffect
+  nameWithType: EntityWeapon<T>.GetMuzzleEffect
+  nameWithType.vb: EntityWeapon(Of T).GetMuzzleEffect
 - uid: StormHawks.Runtime.Entities.Weapons.EntityWeapon`1.GetPool
   name: GetPool()
   href: api/StormHawks.Runtime.Entities.Weapons.EntityWeapon-1.html#StormHawks_Runtime_Entities_Weapons_EntityWeapon_1_GetPool
@@ -10564,64 +10541,6 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Environments.Asteroids.AsteroidPhysicalBody.Pool
   nameWithType: AsteroidPhysicalBody.Pool
-- uid: StormHawks.Runtime.Environments.EliteEnemyPath
-  name: EliteEnemyPath
-  href: api/StormHawks.Runtime.Environments.EliteEnemyPath.html
-  commentId: T:StormHawks.Runtime.Environments.EliteEnemyPath
-  fullName: StormHawks.Runtime.Environments.EliteEnemyPath
-  nameWithType: EliteEnemyPath
-- uid: StormHawks.Runtime.Environments.EliteEnemyPath.RegisteredEnemy
-  name: RegisteredEnemy
-  href: api/StormHawks.Runtime.Environments.EliteEnemyPath.html#StormHawks_Runtime_Environments_EliteEnemyPath_RegisteredEnemy
-  commentId: P:StormHawks.Runtime.Environments.EliteEnemyPath.RegisteredEnemy
-  fullName: StormHawks.Runtime.Environments.EliteEnemyPath.RegisteredEnemy
-  nameWithType: EliteEnemyPath.RegisteredEnemy
-- uid: StormHawks.Runtime.Environments.EliteEnemyPath.RegisteredEnemy*
-  name: RegisteredEnemy
-  href: api/StormHawks.Runtime.Environments.EliteEnemyPath.html#StormHawks_Runtime_Environments_EliteEnemyPath_RegisteredEnemy_
-  commentId: Overload:StormHawks.Runtime.Environments.EliteEnemyPath.RegisteredEnemy
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Environments.EliteEnemyPath.RegisteredEnemy
-  nameWithType: EliteEnemyPath.RegisteredEnemy
-- uid: StormHawks.Runtime.Environments.EliteEnemyPath.RegisterEliteEnemy(BaseEliteEnemy)
-  name: RegisterEliteEnemy(BaseEliteEnemy)
-  href: api/StormHawks.Runtime.Environments.EliteEnemyPath.html#StormHawks_Runtime_Environments_EliteEnemyPath_RegisterEliteEnemy_BaseEliteEnemy_
-  commentId: M:StormHawks.Runtime.Environments.EliteEnemyPath.RegisterEliteEnemy(BaseEliteEnemy)
-  fullName: StormHawks.Runtime.Environments.EliteEnemyPath.RegisterEliteEnemy(BaseEliteEnemy)
-  nameWithType: EliteEnemyPath.RegisterEliteEnemy(BaseEliteEnemy)
-- uid: StormHawks.Runtime.Environments.EliteEnemyPath.RegisterEliteEnemy*
-  name: RegisterEliteEnemy
-  href: api/StormHawks.Runtime.Environments.EliteEnemyPath.html#StormHawks_Runtime_Environments_EliteEnemyPath_RegisterEliteEnemy_
-  commentId: Overload:StormHawks.Runtime.Environments.EliteEnemyPath.RegisterEliteEnemy
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Environments.EliteEnemyPath.RegisterEliteEnemy
-  nameWithType: EliteEnemyPath.RegisterEliteEnemy
-- uid: StormHawks.Runtime.Environments.EliteEnemyPath.ReleaseEliteEnemy(BaseEliteEnemy)
-  name: ReleaseEliteEnemy(BaseEliteEnemy)
-  href: api/StormHawks.Runtime.Environments.EliteEnemyPath.html#StormHawks_Runtime_Environments_EliteEnemyPath_ReleaseEliteEnemy_BaseEliteEnemy_
-  commentId: M:StormHawks.Runtime.Environments.EliteEnemyPath.ReleaseEliteEnemy(BaseEliteEnemy)
-  fullName: StormHawks.Runtime.Environments.EliteEnemyPath.ReleaseEliteEnemy(BaseEliteEnemy)
-  nameWithType: EliteEnemyPath.ReleaseEliteEnemy(BaseEliteEnemy)
-- uid: StormHawks.Runtime.Environments.EliteEnemyPath.ReleaseEliteEnemy*
-  name: ReleaseEliteEnemy
-  href: api/StormHawks.Runtime.Environments.EliteEnemyPath.html#StormHawks_Runtime_Environments_EliteEnemyPath_ReleaseEliteEnemy_
-  commentId: Overload:StormHawks.Runtime.Environments.EliteEnemyPath.ReleaseEliteEnemy
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Environments.EliteEnemyPath.ReleaseEliteEnemy
-  nameWithType: EliteEnemyPath.ReleaseEliteEnemy
-- uid: StormHawks.Runtime.Environments.EliteEnemyPath.UpdatePosition(Vector3)
-  name: UpdatePosition(Vector3)
-  href: api/StormHawks.Runtime.Environments.EliteEnemyPath.html#StormHawks_Runtime_Environments_EliteEnemyPath_UpdatePosition_Vector3_
-  commentId: M:StormHawks.Runtime.Environments.EliteEnemyPath.UpdatePosition(Vector3)
-  fullName: StormHawks.Runtime.Environments.EliteEnemyPath.UpdatePosition(Vector3)
-  nameWithType: EliteEnemyPath.UpdatePosition(Vector3)
-- uid: StormHawks.Runtime.Environments.EliteEnemyPath.UpdatePosition*
-  name: UpdatePosition
-  href: api/StormHawks.Runtime.Environments.EliteEnemyPath.html#StormHawks_Runtime_Environments_EliteEnemyPath_UpdatePosition_
-  commentId: Overload:StormHawks.Runtime.Environments.EliteEnemyPath.UpdatePosition
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Environments.EliteEnemyPath.UpdatePosition
-  nameWithType: EliteEnemyPath.UpdatePosition
 - uid: StormHawks.Runtime.Environments.EnemyGroupPath
   name: EnemyGroupPath
   href: api/StormHawks.Runtime.Environments.EnemyGroupPath.html
@@ -10800,12 +10719,12 @@ references:
   commentId: T:StormHawks.Runtime.Environments.EnemySpawner
   fullName: StormHawks.Runtime.Environments.EnemySpawner
   nameWithType: EnemySpawner
-- uid: StormHawks.Runtime.Environments.EnemySpawner.SpawnEliteEnemy(EnemyBase,Vector3)
-  name: SpawnEliteEnemy(EnemyBase, Vector3)
-  href: api/StormHawks.Runtime.Environments.EnemySpawner.html#StormHawks_Runtime_Environments_EnemySpawner_SpawnEliteEnemy_EnemyBase_Vector3_
-  commentId: M:StormHawks.Runtime.Environments.EnemySpawner.SpawnEliteEnemy(EnemyBase,Vector3)
-  fullName: StormHawks.Runtime.Environments.EnemySpawner.SpawnEliteEnemy(EnemyBase, Vector3)
-  nameWithType: EnemySpawner.SpawnEliteEnemy(EnemyBase, Vector3)
+- uid: StormHawks.Runtime.Environments.EnemySpawner.SpawnEliteEnemy(EliteEnemyBase,Vector3)
+  name: SpawnEliteEnemy(EliteEnemyBase, Vector3)
+  href: api/StormHawks.Runtime.Environments.EnemySpawner.html#StormHawks_Runtime_Environments_EnemySpawner_SpawnEliteEnemy_EliteEnemyBase_Vector3_
+  commentId: M:StormHawks.Runtime.Environments.EnemySpawner.SpawnEliteEnemy(EliteEnemyBase,Vector3)
+  fullName: StormHawks.Runtime.Environments.EnemySpawner.SpawnEliteEnemy(EliteEnemyBase, Vector3)
+  nameWithType: EnemySpawner.SpawnEliteEnemy(EliteEnemyBase, Vector3)
 - uid: StormHawks.Runtime.Environments.EnemySpawner.SpawnEliteEnemy*
   name: SpawnEliteEnemy
   href: api/StormHawks.Runtime.Environments.EnemySpawner.html#StormHawks_Runtime_Environments_EnemySpawner_SpawnEliteEnemy_
@@ -16044,19 +15963,19 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Interfaces.IEntityFire.OnShootFinished
   nameWithType: IEntityFire.OnShootFinished
-- uid: StormHawks.Runtime.Interfaces.IEntityFire.PlayMuzzleEffects
-  name: PlayMuzzleEffects()
-  href: api/StormHawks.Runtime.Interfaces.IEntityFire.html#StormHawks_Runtime_Interfaces_IEntityFire_PlayMuzzleEffects
-  commentId: M:StormHawks.Runtime.Interfaces.IEntityFire.PlayMuzzleEffects
-  fullName: StormHawks.Runtime.Interfaces.IEntityFire.PlayMuzzleEffects()
-  nameWithType: IEntityFire.PlayMuzzleEffects()
-- uid: StormHawks.Runtime.Interfaces.IEntityFire.PlayMuzzleEffects*
-  name: PlayMuzzleEffects
-  href: api/StormHawks.Runtime.Interfaces.IEntityFire.html#StormHawks_Runtime_Interfaces_IEntityFire_PlayMuzzleEffects_
-  commentId: Overload:StormHawks.Runtime.Interfaces.IEntityFire.PlayMuzzleEffects
+- uid: StormHawks.Runtime.Interfaces.IEntityFire.PlayMuzzleEffect
+  name: PlayMuzzleEffect()
+  href: api/StormHawks.Runtime.Interfaces.IEntityFire.html#StormHawks_Runtime_Interfaces_IEntityFire_PlayMuzzleEffect
+  commentId: M:StormHawks.Runtime.Interfaces.IEntityFire.PlayMuzzleEffect
+  fullName: StormHawks.Runtime.Interfaces.IEntityFire.PlayMuzzleEffect()
+  nameWithType: IEntityFire.PlayMuzzleEffect()
+- uid: StormHawks.Runtime.Interfaces.IEntityFire.PlayMuzzleEffect*
+  name: PlayMuzzleEffect
+  href: api/StormHawks.Runtime.Interfaces.IEntityFire.html#StormHawks_Runtime_Interfaces_IEntityFire_PlayMuzzleEffect_
+  commentId: Overload:StormHawks.Runtime.Interfaces.IEntityFire.PlayMuzzleEffect
   isSpec: "True"
-  fullName: StormHawks.Runtime.Interfaces.IEntityFire.PlayMuzzleEffects
-  nameWithType: IEntityFire.PlayMuzzleEffects
+  fullName: StormHawks.Runtime.Interfaces.IEntityFire.PlayMuzzleEffect
+  nameWithType: IEntityFire.PlayMuzzleEffect
 - uid: StormHawks.Runtime.Interfaces.IFollower
   name: IFollower
   href: api/StormHawks.Runtime.Interfaces.IFollower.html
@@ -18458,6 +18377,19 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Players.PlayerContext.Initialize
   nameWithType: PlayerContext.Initialize
+- uid: StormHawks.Runtime.Players.PlayerContext.PlayerObject
+  name: PlayerObject
+  href: api/StormHawks.Runtime.Players.PlayerContext.html#StormHawks_Runtime_Players_PlayerContext_PlayerObject
+  commentId: P:StormHawks.Runtime.Players.PlayerContext.PlayerObject
+  fullName: StormHawks.Runtime.Players.PlayerContext.PlayerObject
+  nameWithType: PlayerContext.PlayerObject
+- uid: StormHawks.Runtime.Players.PlayerContext.PlayerObject*
+  name: PlayerObject
+  href: api/StormHawks.Runtime.Players.PlayerContext.html#StormHawks_Runtime_Players_PlayerContext_PlayerObject_
+  commentId: Overload:StormHawks.Runtime.Players.PlayerContext.PlayerObject
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Players.PlayerContext.PlayerObject
+  nameWithType: PlayerContext.PlayerObject
 - uid: StormHawks.Runtime.Players.PlayerContext.Position
   name: Position
   href: api/StormHawks.Runtime.Players.PlayerContext.html#StormHawks_Runtime_Players_PlayerContext_Position
@@ -20935,6 +20867,133 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossFlushBody.OnRun
   nameWithType: BossFlushBody.OnRun
+- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions
+  name: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions
+  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.html
+  commentId: N:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions
+  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions
+  nameWithType: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions
+- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.EliteEnemyAction
+  name: EliteEnemyAction
+  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.EliteEnemyAction.html
+  commentId: T:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.EliteEnemyAction
+  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.EliteEnemyAction
+  nameWithType: EliteEnemyAction
+- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.EliteEnemyAction._eliteEnemy
+  name: _eliteEnemy
+  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.EliteEnemyAction.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_EliteEnemyActions_EliteEnemyAction__eliteEnemy
+  commentId: F:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.EliteEnemyAction._eliteEnemy
+  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.EliteEnemyAction._eliteEnemy
+  nameWithType: EliteEnemyAction._eliteEnemy
+- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.EliteEnemyAction.OnEnter
+  name: OnEnter()
+  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.EliteEnemyAction.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_EliteEnemyActions_EliteEnemyAction_OnEnter
+  commentId: M:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.EliteEnemyAction.OnEnter
+  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.EliteEnemyAction.OnEnter()
+  nameWithType: EliteEnemyAction.OnEnter()
+- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.EliteEnemyAction.OnEnter*
+  name: OnEnter
+  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.EliteEnemyAction.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_EliteEnemyActions_EliteEnemyAction_OnEnter_
+  commentId: Overload:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.EliteEnemyAction.OnEnter
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.EliteEnemyAction.OnEnter
+  nameWithType: EliteEnemyAction.OnEnter
+- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.EliteFireHomingMissileToPlayer
+  name: EliteFireHomingMissileToPlayer
+  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.EliteFireHomingMissileToPlayer.html
+  commentId: T:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.EliteFireHomingMissileToPlayer
+  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.EliteFireHomingMissileToPlayer
+  nameWithType: EliteFireHomingMissileToPlayer
+- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.EliteFireHomingMissileToPlayer.OnEnter
+  name: OnEnter()
+  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.EliteFireHomingMissileToPlayer.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_EliteEnemyActions_EliteFireHomingMissileToPlayer_OnEnter
+  commentId: M:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.EliteFireHomingMissileToPlayer.OnEnter
+  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.EliteFireHomingMissileToPlayer.OnEnter()
+  nameWithType: EliteFireHomingMissileToPlayer.OnEnter()
+- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.EliteFireHomingMissileToPlayer.OnEnter*
+  name: OnEnter
+  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.EliteFireHomingMissileToPlayer.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_EliteEnemyActions_EliteFireHomingMissileToPlayer_OnEnter_
+  commentId: Overload:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.EliteFireHomingMissileToPlayer.OnEnter
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.EliteFireHomingMissileToPlayer.OnEnter
+  nameWithType: EliteFireHomingMissileToPlayer.OnEnter
+- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.EliteFireHomingMissileToPlayer.OnRun
+  name: OnRun()
+  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.EliteFireHomingMissileToPlayer.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_EliteEnemyActions_EliteFireHomingMissileToPlayer_OnRun
+  commentId: M:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.EliteFireHomingMissileToPlayer.OnRun
+  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.EliteFireHomingMissileToPlayer.OnRun()
+  nameWithType: EliteFireHomingMissileToPlayer.OnRun()
+- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.EliteFireHomingMissileToPlayer.OnRun*
+  name: OnRun
+  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.EliteFireHomingMissileToPlayer.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_EliteEnemyActions_EliteFireHomingMissileToPlayer_OnRun_
+  commentId: Overload:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.EliteFireHomingMissileToPlayer.OnRun
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.EliteFireHomingMissileToPlayer.OnRun
+  nameWithType: EliteFireHomingMissileToPlayer.OnRun
+- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.FireEliteEnergyBullet
+  name: FireEliteEnergyBullet
+  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.FireEliteEnergyBullet.html
+  commentId: T:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.FireEliteEnergyBullet
+  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.FireEliteEnergyBullet
+  nameWithType: FireEliteEnergyBullet
+- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.FireEliteEnergyBullet.OnEnter
+  name: OnEnter()
+  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.FireEliteEnergyBullet.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_EliteEnemyActions_FireEliteEnergyBullet_OnEnter
+  commentId: M:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.FireEliteEnergyBullet.OnEnter
+  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.FireEliteEnergyBullet.OnEnter()
+  nameWithType: FireEliteEnergyBullet.OnEnter()
+- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.FireEliteEnergyBullet.OnEnter*
+  name: OnEnter
+  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.FireEliteEnergyBullet.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_EliteEnemyActions_FireEliteEnergyBullet_OnEnter_
+  commentId: Overload:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.FireEliteEnergyBullet.OnEnter
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.FireEliteEnergyBullet.OnEnter
+  nameWithType: FireEliteEnergyBullet.OnEnter
+- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.FireEliteEnergyBullet.OnRun
+  name: OnRun()
+  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.FireEliteEnergyBullet.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_EliteEnemyActions_FireEliteEnergyBullet_OnRun
+  commentId: M:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.FireEliteEnergyBullet.OnRun
+  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.FireEliteEnergyBullet.OnRun()
+  nameWithType: FireEliteEnergyBullet.OnRun()
+- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.FireEliteEnergyBullet.OnRun*
+  name: OnRun
+  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.FireEliteEnergyBullet.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_EliteEnemyActions_FireEliteEnergyBullet_OnRun_
+  commentId: Overload:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.FireEliteEnergyBullet.OnRun
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.FireEliteEnergyBullet.OnRun
+  nameWithType: FireEliteEnergyBullet.OnRun
+- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.RotateAroundBoss
+  name: RotateAroundBoss
+  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.RotateAroundBoss.html
+  commentId: T:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.RotateAroundBoss
+  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.RotateAroundBoss
+  nameWithType: RotateAroundBoss
+- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.RotateAroundBoss.OnEnter
+  name: OnEnter()
+  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.RotateAroundBoss.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_EliteEnemyActions_RotateAroundBoss_OnEnter
+  commentId: M:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.RotateAroundBoss.OnEnter
+  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.RotateAroundBoss.OnEnter()
+  nameWithType: RotateAroundBoss.OnEnter()
+- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.RotateAroundBoss.OnEnter*
+  name: OnEnter
+  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.RotateAroundBoss.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_EliteEnemyActions_RotateAroundBoss_OnEnter_
+  commentId: Overload:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.RotateAroundBoss.OnEnter
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.RotateAroundBoss.OnEnter
+  nameWithType: RotateAroundBoss.OnEnter
+- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.RotateAroundBoss.OnRun
+  name: OnRun()
+  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.RotateAroundBoss.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_EliteEnemyActions_RotateAroundBoss_OnRun
+  commentId: M:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.RotateAroundBoss.OnRun
+  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.RotateAroundBoss.OnRun()
+  nameWithType: RotateAroundBoss.OnRun()
+- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.RotateAroundBoss.OnRun*
+  name: OnRun
+  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.RotateAroundBoss.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_EliteEnemyActions_RotateAroundBoss_OnRun_
+  commentId: Overload:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.RotateAroundBoss.OnRun
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.RotateAroundBoss.OnRun
+  nameWithType: RotateAroundBoss.OnRun
 - uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EnemyGroupInterfereWithPlayer
   name: EnemyGroupInterfereWithPlayer
   href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EnemyGroupInterfereWithPlayer.html

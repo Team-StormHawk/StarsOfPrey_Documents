@@ -1864,7 +1864,7 @@
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.Entities.Enemies.ChasingEnemy.html",
-          "hash": "mkVdx3uX6Bve9FOkIG987tTl4XNXP+NVAs++s7M32jU="
+          "hash": "1MGlAUbxKnRCojxuwvsKCJFI1gukbi79JAMG1gGpue0="
         }
       },
       "is_incremental": false,
@@ -1872,11 +1872,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StormHawks.Runtime.Entities.Enemies.Elites.BaseEliteEnemy.yml",
+      "source_relative_path": "api/StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StormHawks.Runtime.Entities.Enemies.Elites.BaseEliteEnemy.html",
-          "hash": "V3QmVhfelbVS5jHruMH50Wxf82oztGnCY5iZCSs42+s="
+          "relative_path": "api/StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase.html",
+          "hash": "lGRDgfH7Pkrn2bsn9GJ86qWsesNR2LYfhWEU8qWumec="
         }
       },
       "is_incremental": false,
@@ -1888,7 +1888,7 @@
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.Entities.Enemies.Elites.MissileEliteEnemy.html",
-          "hash": "HAJlLJd1ta9RGHUY8auPVEWqFTYIa4gRIlHeTJqm2LI="
+          "hash": "FfC0/5vo41SolsY40BEceCJ7iauKPl0NosYa35Vn7Ys="
         }
       },
       "is_incremental": false,
@@ -1900,31 +1900,7 @@
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.Entities.Enemies.Elites.html",
-          "hash": "XgJU4ZebSCLKTIWab90QTvULb81xRrVCy74fnb+huWw="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/StormHawks.Runtime.Entities.Enemies.EnemyBase.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/StormHawks.Runtime.Entities.Enemies.EnemyBase.html",
-          "hash": "ZEyeLxeUskuTmrzofm4WFpES69fEzVxGYaaRE1bpF+o="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/StormHawks.Runtime.Entities.Enemies.EnemyContext.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/StormHawks.Runtime.Entities.Enemies.EnemyContext.html",
-          "hash": "XYDtdLOm5nCwO+Nuxolp3Z0w88EKUvHBoXrH2nuw9SY="
+          "hash": "gzD/oZ3wdPwddkzFyo+njxtB/xMRvmAZCCr04FkubrY="
         }
       },
       "is_incremental": false,
@@ -1972,19 +1948,7 @@
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupMember.html",
-          "hash": "j5K6Q/OgPmiyaV4rEVwFKT2nM9rSFJQFGkvMMNB6EyY="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupRequester.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/StormHawks.Runtime.Entities.Enemies.Groups.EnemyGroupRequester.html",
-          "hash": "la14aJGIBJ8KeM6MZMTDx3H3EpIx8QeW9al0G29ektk="
+          "hash": "uzhAT29x+15L4rn5LF4jyTwy1DDcjC5oXVwmhhCXJyU="
         }
       },
       "is_incremental": false,
@@ -1996,7 +1960,7 @@
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.Entities.Enemies.Groups.html",
-          "hash": "+q16qHnW666M3emzEEmxIKCim5d3kr7/1hjqAen2Wnc="
+          "hash": "1ifYLUo8JvUlg/o23YEajbtet+gszKVIxxbZyjG91Nk="
         }
       },
       "is_incremental": false,
@@ -2008,7 +1972,7 @@
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.Entities.Enemies.LookerEnemy.html",
-          "hash": "LiQXry+Inrfh+4MbqwajorGCRb1nEfWHrQtWbSc52MM="
+          "hash": "7ZKB8YEfJLojO+V2vWZsKxgR6ZtoOkqODEovoR4h+zo="
         }
       },
       "is_incremental": false,
@@ -2064,11 +2028,47 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/StormHawks.Runtime.Entities.Enemies.Projectiles.EnergyBulletBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StormHawks.Runtime.Entities.Enemies.Projectiles.EnergyBulletBase.html",
+          "hash": "1VqBMV6h8sHk2TzFpCqvDz7uuqPBUJmlgIdislVK5qQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/StormHawks.Runtime.Entities.Enemies.Projectiles.yml",
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.Entities.Enemies.Projectiles.html",
-          "hash": "oVMkSoUP8H5+tlnLNW1XkiZJY1atCi3b/nGuExq549A="
+          "hash": "SHLx+yil25JHRXQfbEg2GRaNRBT/wxfT5Bin6ea6R9w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.html",
+          "hash": "q1u+EcWLlCyD9tLNZLScc8wkFn5hQ+haCWpw3olmWDY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/StormHawks.Runtime.Entities.Enemies.SteeringEnemyContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StormHawks.Runtime.Entities.Enemies.SteeringEnemyContext.html",
+          "hash": "60yv4nHLTWHX0PCX3sKkkHfxixvW98/XLBUPKJCRM0A="
         }
       },
       "is_incremental": false,
@@ -2080,7 +2080,7 @@
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.Entities.Enemies.html",
-          "hash": "LLkW6RiIyD6oOOryCR9/vlC65WyS5ROCblapig6wyyU="
+          "hash": "cc54PhcGDkzta1NffKPWkFdf19tQ1A9Ec/yhjZc+idQ="
         }
       },
       "is_incremental": false,
@@ -2128,7 +2128,7 @@
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.Entities.Fires.FireAutomaticShot.html",
-          "hash": "DAHo9O6eh8uGd4b0EZK0m+3LT3heCslUZGSvoEwZm9c="
+          "hash": "3P85F9KvdEsiXf1Mf9uq28TJ9QEbq0aoAnCdaYngAUg="
         }
       },
       "is_incremental": false,
@@ -2140,7 +2140,7 @@
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.Entities.Fires.FireFence.html",
-          "hash": "UgpJvLpePASNR8nhWiFL/elF6GRXJMIs4mNo8zoARcM="
+          "hash": "c/7c1QrEX8/Je73QLGObRm5CCQuEMNxyKoWs1hdNtIs="
         }
       },
       "is_incremental": false,
@@ -2152,7 +2152,7 @@
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.Entities.Fires.FireHomingMissile.html",
-          "hash": "kE2LzVpxmBI+fwuYdublKAT9AU1eHZ7E8DSij+hncKk="
+          "hash": "VPKPCflWRZBIOEgkn6J67102byQ7sGFtcHrGW+Kv6Ns="
         }
       },
       "is_incremental": false,
@@ -2164,7 +2164,7 @@
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.Entities.Fires.FireInterruptedShot.html",
-          "hash": "YigOIpKSR2UUQFhgyBTHisB9/YQk/4sTCBsPqQmTV5k="
+          "hash": "Jnn+zpSHbPP5qVPgSXSS9IQGCDONmfYaOEUS2XOVMt0="
         }
       },
       "is_incremental": false,
@@ -2176,7 +2176,7 @@
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.Entities.Fires.FireLaser.html",
-          "hash": "lF+zD+/ch2FCcbsceBtkAYS3w5GV0J8jePEW2DnRgy8="
+          "hash": "/dr5v/i+bGKhwIb9tYjxDinOKh3I8Q84LxNI8O/QFVQ="
         }
       },
       "is_incremental": false,
@@ -2200,7 +2200,7 @@
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.Entities.FriendlyShips.FireFriendlyInterruptedShot.html",
-          "hash": "cuh7kY3uiK06QcebFtpLHwI8s0yoe3fuSnu1Rp8kZgk="
+          "hash": "cjBZzXSygnJpcNogEJZDzniGskOykVLJsGQ9CaLZMeo="
         }
       },
       "is_incremental": false,
@@ -2476,7 +2476,7 @@
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.Entities.SteeringEntityContext.html",
-          "hash": "b/J6e26ZBssKqVSSJkINcDmEL3Ju5RzkVYKKUjEDK5M="
+          "hash": "nujPxg9U+SMZY9v7ElwigeKdqfA4H00WtwSGMernzFg="
         }
       },
       "is_incremental": false,
@@ -2596,7 +2596,7 @@
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.Entities.Weapons.EntityFenceWeapon.html",
-          "hash": "vcq3quQCzSAKGocW0rDzhnC5uy5kX35HVSCBrR+/zE8="
+          "hash": "7FVF9luRXZG5uYDG6c50yfQcquzRUR18rWHfUYh0niQ="
         }
       },
       "is_incremental": false,
@@ -2620,7 +2620,7 @@
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.Entities.Weapons.EntityLaserWeapon.html",
-          "hash": "QWEByfZ157s0talqmsX1mOQ/9RfvdqxZXk1cuaQ6vTo="
+          "hash": "6PouPQxGsluKYK7/WbPvxNsiPQIARW7OVbhc2DV/hOg="
         }
       },
       "is_incremental": false,
@@ -2632,7 +2632,7 @@
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.Entities.Weapons.EntityProjectileWeapon.html",
-          "hash": "+x1EnKWozL+WEcIjNMi+cb2aksFwdDmtZcc5C0ewHwg="
+          "hash": "Sggf1GPYSZ3RANVPPNux76eznZ5j8xBAzgvDonMmcyQ="
         }
       },
       "is_incremental": false,
@@ -2644,7 +2644,7 @@
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.Entities.Weapons.EntityWeapon-1.html",
-          "hash": "JB6AWXyM5ZAes3Ebuc+qTzu6JGGD1UxjXhMnKlvKzOo="
+          "hash": "p4SPE21jNgZRr2HO7jKyPHwgNXbZG/mbjXvqRTEhzuc="
         }
       },
       "is_incremental": false,
@@ -2656,7 +2656,7 @@
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.Entities.Weapons.EntityWeapon.html",
-          "hash": "JGXcJ4gMAhUnqkQm3KTT7KxzW2yC59SuRj/J8Frjv3g="
+          "hash": "ZqVx889FbJIn8OuSzPTEJz2LzR7MER9aMWqfogLqCPA="
         }
       },
       "is_incremental": false,
@@ -2728,7 +2728,7 @@
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.Entities.Weapons.WingProjectileWeapon.html",
-          "hash": "NLwKJY3dOTKA6aoZIXuIQAJ+X4F8pGi3kPvrftuPXwI="
+          "hash": "NPiM/vSZ2v4b78Hk0TOU8dxJ4scbFdZIeZCJcicnlf8="
         }
       },
       "is_incremental": false,
@@ -2820,18 +2820,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StormHawks.Runtime.Environments.EliteEnemyPath.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/StormHawks.Runtime.Environments.EliteEnemyPath.html",
-          "hash": "HgB7EM+G/EsLlwJItm6l0j3TSKBfg6NRH1jZ74T5ysc="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/StormHawks.Runtime.Environments.EnemyGroupPath.yml",
       "output": {
         ".html": {
@@ -2848,7 +2836,7 @@
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.Environments.EnemyPath.html",
-          "hash": "TKlvFVeQUuHvj4T88AgwwI81ryKQTLX9NNftFvcf1Ek="
+          "hash": "ZS4dhfdllYpcZgg3RgnkPhKjkNWN3UYEsv5yYrmc30M="
         }
       },
       "is_incremental": false,
@@ -2884,7 +2872,7 @@
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.Environments.EnemySpawner.html",
-          "hash": "AfehmV/X8nXfLfTfDsaAmCfwmrvT2a5XKN87a9Fz3YY="
+          "hash": "EFv68o3T4oWxJLu29u91QstQgbG0mG5T8GSwEWvWR8U="
         }
       },
       "is_incremental": false,
@@ -2980,7 +2968,7 @@
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.Environments.html",
-          "hash": "lQ++n2iHmUsvFhGWERUc63kz7cSiVPtb43gE7QiJAXk="
+          "hash": "bCoQDc/BN7iFxuc1YhQXjgcHGzBz4GYp2QcBAbcwJ0I="
         }
       },
       "is_incremental": false,
@@ -3604,7 +3592,7 @@
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.Interfaces.IEntityFire.html",
-          "hash": "SIXJd74bhds+zxYKkBuad9yUqGlBsCI8OOTbrA4wOfg="
+          "hash": "GVzaL5H6ocnc4fYyLh+Iz8ffWq6Svechvk4iCpuRnnU="
         }
       },
       "is_incremental": false,
@@ -4240,7 +4228,7 @@
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.Players.PlayerContext.html",
-          "hash": "SguU28bvya6WJUP65Q9FR+8/OppkoA8aXYA9GRoHpTc="
+          "hash": "v/zJv8URPeawGRg858rGCZk0Z7rlM57dfywP7uJSMhA="
         }
       },
       "is_incremental": false,
@@ -5352,6 +5340,66 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.EliteEnemyAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.EliteEnemyAction.html",
+          "hash": "Z9poEEhhWhwxlJrjyeRbYQg4ciSqmTGjrG02m2hwtVM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.EliteFireHomingMissileToPlayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.EliteFireHomingMissileToPlayer.html",
+          "hash": "1h14QhWuuWO2zfcxqUwdLWsQISGgA6Yv5jLrF1a10rc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.FireEliteEnergyBullet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.FireEliteEnergyBullet.html",
+          "hash": "sY5S8q60UYSo17kTZs30+DVmALZ2Kr/UB0MP7Y5G0Q8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.RotateAroundBoss.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.RotateAroundBoss.html",
+          "hash": "khXjHAXWfNvOpjSx14cNgJai2WhmTwkkimnjkYhPQaA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EliteEnemyActions.html",
+          "hash": "HnT/eu5/1K6/f+3PLUlpKSDn27acvEM8AiXpgp0V5Kk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EnemyGroupInterfereWithPlayer.yml",
       "output": {
         ".html": {
@@ -5368,7 +5416,7 @@
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.EntityActionNode.html",
-          "hash": "QkN5dCnrnYM5aUa4GnB/gY6I+GQHnZISr9q9OQccg5M="
+          "hash": "ALffGNzrad1lSHWwcqlnPvYNn80dwhGaeZjntI78R3I="
         }
       },
       "is_incremental": false,
@@ -6772,7 +6820,7 @@
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.Utilities.RuntimeSet.EliteEnemyRuntimeSet.html",
-          "hash": "9ISCpsl/ySEzHtAh0MXzlgQhf02C4bCfoOZ1jwyPdI0="
+          "hash": "nZcTo9yHdRSMl9G0wpdHg2UddbFNq+L4nFxNabxZUdc="
         }
       },
       "is_incremental": false,
@@ -7252,7 +7300,7 @@
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.Utilities.Values.EnemyGroupSet.EnemySet.html",
-          "hash": "RQiiuEggpJqD1JtZIReEnYvE1N7t89rSnT7eHqnQeIY="
+          "hash": "vvYHrYSCb/A7ZrK3f76aqXzOnmJDL4QuVe0IlGlFPGU="
         }
       },
       "is_incremental": false,
@@ -7384,7 +7432,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "R/lzuqqQp9CVBssVuMvdgEWpFIt58uksqFNIBZxGV6U="
+          "hash": "Zp+JYE2/NlngdROJXcS1RF6tck0944ghbTxLErI4ABA="
         }
       },
       "is_incremental": false,
@@ -7585,7 +7633,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 613,
+          "total_file_count": 617,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

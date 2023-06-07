@@ -749,6 +749,11 @@
     "title": "Class AdditionalBossHurtBox | Developer Reference",
     "keywords": "Class AdditionalBossHurtBox Inheritance Object BossHurtBoxBase AdditionalBossHurtBox Implements IHasHealth Inherited Members BossHurtBoxBase._bossHealth BossHurtBoxBase._renderer BossHurtBoxBase.BASE_COLOR_ID BossHurtBoxBase._originBaseColor BossHurtBoxBase.SHADE_COLOR_1 BossHurtBoxBase._originShadeColor1 BossHurtBoxBase.SHADE_COLOR_2 BossHurtBoxBase._originShadeColor2 BossHurtBoxBase.EMISSIVE_COLOR BossHurtBoxBase._originEmissiveColor BossHurtBoxBase.OnDamaged BossHurtBoxBase._disableCancellation BossHurtBoxBase.IsDisposed BossHurtBoxBase.Start() BossHurtBoxBase.HealthSO BossHurtBoxBase.CurrentHealth BossHurtBoxBase.FlickerEffect() BossHurtBoxBase.FlickerEffect(Single) Namespace : StormHawks.Runtime.Entities.Enemies.Boss Assembly : cs.temp.dll.dll Syntax public class AdditionalBossHurtBox : BossHurtBoxBase Methods Dispose() Declaration public override void Dispose() Overrides BossHurtBoxBase.Dispose() TakeDamage(Vector3, Single) Declaration public override void TakeDamage(Vector3 dir, float damage) Parameters Type Name Description Vector3 dir Single damage Overrides BossHurtBoxBase.TakeDamage(Vector3, Single) Implements IHasHealth"
   },
+  "api/StormHawks.Runtime.Entities.Enemies.Boss.BossBomb.html": {
+    "href": "api/StormHawks.Runtime.Entities.Enemies.Boss.BossBomb.html",
+    "title": "Class BossBomb | Developer Reference",
+    "keywords": "Class BossBomb Inheritance Object BossBomb Implements IHasHealth IPoolable < BossBomb > Namespace : StormHawks.Runtime.Entities.Enemies.Boss Assembly : cs.temp.dll.dll Syntax public class BossBomb : MonoBehaviour Properties CurrentHealth Declaration public float CurrentHealth { get; } Property Value Type Description Single HealthSO Declaration public EntityHealthSO HealthSO { get; } Property Value Type Description EntityHealthSO Pool Declaration public MonoObjectPool<BossBomb> Pool { get; set; } Property Value Type Description MonoObjectPool < BossBomb > Methods OnRelease() Declaration public void OnRelease() OnSpawn() Declaration public void OnSpawn() TakeDamage(Vector3, Single) Declaration public void TakeDamage(Vector3 dir, float damage) Parameters Type Name Description Vector3 dir Single damage Implements IHasHealth IPoolable<>"
+  },
   "api/StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.html": {
     "href": "api/StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.html",
     "title": "Class BossEntity | Developer Reference",
@@ -797,7 +802,7 @@
   "api/StormHawks.Runtime.Entities.Enemies.Boss.html": {
     "href": "api/StormHawks.Runtime.Entities.Enemies.Boss.html",
     "title": "Namespace StormHawks.Runtime.Entities.Enemies.Boss | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Entities.Enemies.Boss Classes AdditionalBossHurtBox BossEntity BossEyeRotator BossHealth BossHurtBoxBase BossRibcageArea BossWingHealth ChasingBossEntity DestructibleBossHurtBox DestructibleWingHurtBox NonDestructibleBossHurtBox NonDestructibleWingHurtBox"
+    "keywords": "Namespace StormHawks.Runtime.Entities.Enemies.Boss Classes AdditionalBossHurtBox BossBomb BossEntity BossEyeRotator BossHealth BossHurtBoxBase BossRibcageArea BossWingHealth ChasingBossEntity DestructibleBossHurtBox DestructibleWingHurtBox NonDestructibleBossHurtBox NonDestructibleWingHurtBox"
   },
   "api/StormHawks.Runtime.Entities.Enemies.Boss.NonDestructibleBossHurtBox.html": {
     "href": "api/StormHawks.Runtime.Entities.Enemies.Boss.NonDestructibleBossHurtBox.html",
@@ -2884,6 +2889,11 @@
     "title": "Class BossRuntimeSet | Developer Reference",
     "keywords": "Class BossRuntimeSet Inheritance Object BossRuntimeSet Namespace : StormHawks.Runtime.Utilities.RuntimeSet Assembly : cs.temp.dll.dll Syntax public class BossRuntimeSet : RuntimeSet<BossEntity> Methods Clone() Declaration public BossRuntimeSet Clone() Returns Type Description BossRuntimeSet"
   },
+  "api/StormHawks.Runtime.Utilities.RuntimeSet.DestroyedBossHurtBoxRuntimeSet.html": {
+    "href": "api/StormHawks.Runtime.Utilities.RuntimeSet.DestroyedBossHurtBoxRuntimeSet.html",
+    "title": "Class DestroyedBossHurtBoxRuntimeSet | Developer Reference",
+    "keywords": "Class DestroyedBossHurtBoxRuntimeSet Inheritance Object DestroyedBossHurtBoxRuntimeSet Namespace : StormHawks.Runtime.Utilities.RuntimeSet Assembly : cs.temp.dll.dll Syntax public class DestroyedBossHurtBoxRuntimeSet : RuntimeSet<DestructibleBossHurtBox>"
+  },
   "api/StormHawks.Runtime.Utilities.RuntimeSet.EliteEnemyRuntimeSet.html": {
     "href": "api/StormHawks.Runtime.Utilities.RuntimeSet.EliteEnemyRuntimeSet.html",
     "title": "Class EliteEnemyRuntimeSet | Developer Reference",
@@ -2912,7 +2922,7 @@
   "api/StormHawks.Runtime.Utilities.RuntimeSet.html": {
     "href": "api/StormHawks.Runtime.Utilities.RuntimeSet.html",
     "title": "Namespace StormHawks.Runtime.Utilities.RuntimeSet | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Utilities.RuntimeSet Classes AggressivePartRuntimeSet BossRuntimeSet EliteEnemyRuntimeSet EnemyGroupMemberRuntimeSet EnemyGroupPathRuntimeSet EnemyGroupRuntimeSet FriendlyShipRuntimeSet MainWeakpointsRuntimeSet WingMissileWeaponRuntimeSet"
+    "keywords": "Namespace StormHawks.Runtime.Utilities.RuntimeSet Classes AggressivePartRuntimeSet BossRuntimeSet DestroyedBossHurtBoxRuntimeSet EliteEnemyRuntimeSet EnemyGroupMemberRuntimeSet EnemyGroupPathRuntimeSet EnemyGroupRuntimeSet FriendlyShipRuntimeSet MainWeakpointsRuntimeSet WingMissileWeaponRuntimeSet"
   },
   "api/StormHawks.Runtime.Utilities.RuntimeSet.MainWeakpointsRuntimeSet.html": {
     "href": "api/StormHawks.Runtime.Utilities.RuntimeSet.MainWeakpointsRuntimeSet.html",

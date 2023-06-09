@@ -767,7 +767,7 @@
   "api/StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.html": {
     "href": "api/StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.html",
     "title": "Class BossEntity | Developer Reference",
-    "keywords": "Class BossEntity Inheritance Object BossEntity Implements IEnemyGroupOwner Namespace : StormHawks.Runtime.Entities.Enemies.Boss Assembly : cs.temp.dll.dll Syntax public class BossEntity : MonoBehaviour Properties EliteSpawner Declaration public EliteEnemySpawner EliteSpawner { get; } Property Value Type Description EliteEnemySpawner GroupController Declaration public EnemyGroupController GroupController { get; } Property Value Type Description EnemyGroupController IsPhaseEnded Declaration public bool IsPhaseEnded { get; } Property Value Type Description Boolean OrbitTransform Declaration public Transform OrbitTransform { get; } Property Value Type Description Transform Owner Declaration public GameObject Owner { get; } Property Value Type Description GameObject Methods OnSpawnedEnemyGroup(EnemyGroup) Declaration public void OnSpawnedEnemyGroup(EnemyGroup group) Parameters Type Name Description EnemyGroup group Implements IEnemyGroupOwner"
+    "keywords": "Class BossEntity Inheritance Object BossEntity Implements IEnemyGroupOwner Namespace : StormHawks.Runtime.Entities.Enemies.Boss Assembly : cs.temp.dll.dll Syntax public class BossEntity : MonoBehaviour Properties EliteSpawner Declaration public EliteEnemySpawner EliteSpawner { get; } Property Value Type Description EliteEnemySpawner GroupController Declaration public EnemyGroupController GroupController { get; } Property Value Type Description EnemyGroupController OrbitTransform Declaration public Transform OrbitTransform { get; } Property Value Type Description Transform Owner Declaration public GameObject Owner { get; } Property Value Type Description GameObject Methods OnSpawnedEnemyGroup(EnemyGroup) Declaration public void OnSpawnedEnemyGroup(EnemyGroup group) Parameters Type Name Description EnemyGroup group Implements IEnemyGroupOwner"
   },
   "api/StormHawks.Runtime.Entities.Enemies.Boss.BossEyeRotator.html": {
     "href": "api/StormHawks.Runtime.Entities.Enemies.Boss.BossEyeRotator.html",
@@ -927,7 +927,7 @@
   "api/StormHawks.Runtime.Entities.EntityDamageSO.html": {
     "href": "api/StormHawks.Runtime.Entities.EntityDamageSO.html",
     "title": "Class EntityDamageSO | Developer Reference",
-    "keywords": "Class EntityDamageSO Inheritance Object EntityDamageSO Namespace : StormHawks.Runtime.Entities Assembly : cs.temp.dll.dll Syntax public class EntityDamageSO : ScriptableObject Properties Damage Declaration public float Damage { get; protected set; } Property Value Type Description Single Methods SetDamage(Single) Declaration public virtual void SetDamage(float damage) Parameters Type Name Description Single damage"
+    "keywords": "Class EntityDamageSO Inheritance Object EntityDamageSO Namespace : StormHawks.Runtime.Entities Assembly : cs.temp.dll.dll Syntax public class EntityDamageSO : ScriptableObject Properties Damage Declaration public float Damage { get; protected set; } Property Value Type Description Single DamagedLayer Declaration public LayerMask DamagedLayer { get; } Property Value Type Description LayerMask Methods SetDamage(Single) Declaration public virtual void SetDamage(float damage) Parameters Type Name Description Single damage"
   },
   "api/StormHawks.Runtime.Entities.EntityHealthSO.html": {
     "href": "api/StormHawks.Runtime.Entities.EntityHealthSO.html",
@@ -1318,6 +1318,16 @@
     "href": "api/StormHawks.Runtime.Environments.Portals.html",
     "title": "Namespace StormHawks.Runtime.Environments.Portals | Developer Reference",
     "keywords": "Namespace StormHawks.Runtime.Environments.Portals Classes EliteSpawnPortal"
+  },
+  "api/StormHawks.Runtime.Environments.ShieldGenerators.html": {
+    "href": "api/StormHawks.Runtime.Environments.ShieldGenerators.html",
+    "title": "Namespace StormHawks.Runtime.Environments.ShieldGenerators | Developer Reference",
+    "keywords": "Namespace StormHawks.Runtime.Environments.ShieldGenerators Classes ShieldGenerator"
+  },
+  "api/StormHawks.Runtime.Environments.ShieldGenerators.ShieldGenerator.html": {
+    "href": "api/StormHawks.Runtime.Environments.ShieldGenerators.ShieldGenerator.html",
+    "title": "Class ShieldGenerator | Developer Reference",
+    "keywords": "Class ShieldGenerator Inheritance Object ShieldGenerator Implements IHasHealth Namespace : StormHawks.Runtime.Environments.ShieldGenerators Assembly : cs.temp.dll.dll Syntax public class ShieldGenerator : MonoBehaviour Properties CurrentHealth Declaration public float CurrentHealth { get; } Property Value Type Description Single HealthSO Declaration public EntityHealthSO HealthSO { get; } Property Value Type Description EntityHealthSO Methods TakeDamage(Vector3, Single) Declaration public void TakeDamage(Vector3 dir, float damage) Parameters Type Name Description Vector3 dir Single damage Implements IHasHealth"
   },
   "api/StormHawks.Runtime.Environments.Spawners.EliteEnemySpawner.html": {
     "href": "api/StormHawks.Runtime.Environments.Spawners.EliteEnemySpawner.html",
@@ -1892,12 +1902,12 @@
   "api/StormHawks.Runtime.Projectiles.MissileConfigSO.html": {
     "href": "api/StormHawks.Runtime.Projectiles.MissileConfigSO.html",
     "title": "Class MissileConfigSO | Developer Reference",
-    "keywords": "Class MissileConfigSO Inheritance Object ProjectileConfigSO MissileConfigSO Inherited Members ProjectileConfigSO.MoveSpeed ProjectileConfigSO.LifeTime ProjectileConfigSO.Damage Namespace : StormHawks.Runtime.Projectiles Assembly : cs.temp.dll.dll Syntax public class MissileConfigSO : ProjectileConfigSO Properties DeviationAmount Declaration public float DeviationAmount { get; } Property Value Type Description Single DeviationPower Declaration public float DeviationPower { get; } Property Value Type Description Single DistancePrediction Declaration public RangeValue DistancePrediction { get; } Property Value Type Description RangeValue IgnoreCollisionTime Declaration public float IgnoreCollisionTime { get; } Property Value Type Description Single MaxPredictionPower Declaration public float MaxPredictionPower { get; } Property Value Type Description Single RotateSpeed Declaration public float RotateSpeed { get; } Property Value Type Description Single SplashDamage Declaration public float SplashDamage { get; } Property Value Type Description Single SplashRadius Declaration public float SplashRadius { get; } Property Value Type Description Single StraightMoveTime Declaration public float StraightMoveTime { get; } Property Value Type Description Single"
+    "keywords": "Class MissileConfigSO Inheritance Object ProjectileConfigSO MissileConfigSO Inherited Members ProjectileConfigSO.MoveSpeed ProjectileConfigSO.LifeTime ProjectileConfigSO.DamageSO Namespace : StormHawks.Runtime.Projectiles Assembly : cs.temp.dll.dll Syntax public class MissileConfigSO : ProjectileConfigSO Properties DeviationAmount Declaration public float DeviationAmount { get; } Property Value Type Description Single DeviationPower Declaration public float DeviationPower { get; } Property Value Type Description Single DistancePrediction Declaration public RangeValue DistancePrediction { get; } Property Value Type Description RangeValue IgnoreCollisionTime Declaration public float IgnoreCollisionTime { get; } Property Value Type Description Single MaxPredictionPower Declaration public float MaxPredictionPower { get; } Property Value Type Description Single RotateSpeed Declaration public float RotateSpeed { get; } Property Value Type Description Single SplashDamage Declaration public float SplashDamage { get; } Property Value Type Description Single SplashRadius Declaration public float SplashRadius { get; } Property Value Type Description Single StraightMoveTime Declaration public float StraightMoveTime { get; } Property Value Type Description Single"
   },
   "api/StormHawks.Runtime.Projectiles.ProjectileConfigSO.html": {
     "href": "api/StormHawks.Runtime.Projectiles.ProjectileConfigSO.html",
     "title": "Class ProjectileConfigSO | Developer Reference",
-    "keywords": "Class ProjectileConfigSO Inheritance Object ProjectileConfigSO MissileConfigSO Namespace : StormHawks.Runtime.Projectiles Assembly : cs.temp.dll.dll Syntax public class ProjectileConfigSO : ScriptableObject Properties Damage Declaration public float Damage { get; } Property Value Type Description Single LifeTime Declaration public float LifeTime { get; } Property Value Type Description Single MoveSpeed Declaration public float MoveSpeed { get; } Property Value Type Description Single"
+    "keywords": "Class ProjectileConfigSO Inheritance Object ProjectileConfigSO MissileConfigSO Namespace : StormHawks.Runtime.Projectiles Assembly : cs.temp.dll.dll Syntax public class ProjectileConfigSO : ScriptableObject Properties DamageSO Declaration public EntityDamageSO DamageSO { get; } Property Value Type Description EntityDamageSO LifeTime Declaration public float LifeTime { get; } Property Value Type Description Single MoveSpeed Declaration public float MoveSpeed { get; } Property Value Type Description Single"
   },
   "api/StormHawks.Runtime.Rig.html": {
     "href": "api/StormHawks.Runtime.Rig.html",
@@ -2682,7 +2692,7 @@
   "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.html": {
     "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.html",
     "title": "Namespace StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals Classes CanBecomeAggressiveEnemyGroup CanSeeEnemy CanSeeEnemyInEnemyGroup CanSeePlayer Player가 시야(IDetectHandler의 의해 정해짐) 안에 들어오게 된다면, Blackboard에 Player의 GameObject를 설정함. CompareAngleFromForward CompareDistance 타겟과의 거리를 비교함 CompareHealth 체력을 비교함 ComparePlayerDistance EqualsInt GetBoolProperty GetBoolPropertyByKey HasActiveEnemyGroup HasAggroTargetGroup HasSelectedEnemyGroup IsAggressive Aggro상태인지 확인 IsAggressiveEnemyGroup IsAnimationPlaying IsEnabledPlayableArea IsEnemyGroupInBattleWithFriendlyShip IsFiring IsFled IsFollowing IsGreaterThanInt IsGreaterThanTime IsGreaterThanTimeByKey IsGuarding IsInEntityGroup IsInsideBossRibcageArea IsLessThan IsLessThanInt IsLessThanTime IsNotAggressive IsOverTime IsOverTimeByKey IsPhaseEnded IsPlayerInsidePlayableArea IsReturning"
+    "keywords": "Namespace StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals Classes CanBecomeAggressiveEnemyGroup CanSeeEnemy CanSeeEnemyInEnemyGroup CanSeePlayer Player가 시야(IDetectHandler의 의해 정해짐) 안에 들어오게 된다면, Blackboard에 Player의 GameObject를 설정함. CompareAngleFromForward CompareDistance 타겟과의 거리를 비교함 CompareHealth 체력을 비교함 ComparePlayerDistance EqualsInt GetBoolProperty GetBoolPropertyByKey HasActiveEnemyGroup HasAggroTargetGroup HasSelectedEnemyGroup IsAggressive Aggro상태인지 확인 IsAggressiveEnemyGroup IsAnimationPlaying IsEnabledPlayableArea IsEnemyGroupInBattleWithFriendlyShip IsFiring IsFled IsFollowing IsGreaterThanInt IsGreaterThanTime IsGreaterThanTimeByKey IsGuarding IsInEntityGroup IsInsideBossRibcageArea IsLessThan IsLessThanInt IsLessThanTime IsNotAggressive IsOverTime IsOverTimeByKey IsPlayerInsidePlayableArea IsReturning"
   },
   "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsAggressive.html": {
     "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsAggressive.html",
@@ -2783,11 +2793,6 @@
     "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsOverTimeByKey.html",
     "title": "Class IsOverTimeByKey | Developer Reference",
     "keywords": "Class IsOverTimeByKey Inheritance Object IsOverTimeByKey Namespace : StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals Assembly : cs.temp.dll.dll Syntax [Serializable] public class IsOverTimeByKey : ConditionalNode Methods Condition() Declaration protected override bool Condition() Returns Type Description Boolean"
-  },
-  "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsPhaseEnded.html": {
-    "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsPhaseEnded.html",
-    "title": "Class IsPhaseEnded | Developer Reference",
-    "keywords": "Class IsPhaseEnded Inheritance Object IsPhaseEnded Namespace : StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals Assembly : cs.temp.dll.dll Syntax [Serializable] public class IsPhaseEnded : ConditionalNode Methods Condition() Declaration protected override bool Condition() Returns Type Description Boolean OnEnter() Declaration protected override void OnEnter()"
   },
   "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsPlayerInsidePlayableArea.html": {
     "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsPlayerInsidePlayableArea.html",
@@ -3187,7 +3192,7 @@
   "api/StormHawks.Runtime.Utilities.Values.html": {
     "href": "api/StormHawks.Runtime.Utilities.Values.html",
     "title": "Namespace StormHawks.Runtime.Utilities.Values | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Utilities.Values Classes EnemyGroupSet EnemyGroupSet.EnemySet FloatRangeValueSO IntValue PartInfos PartInfos.PartInfo"
+    "keywords": "Namespace StormHawks.Runtime.Utilities.Values Classes EnemyGroupSet EnemyGroupSet.EnemySet FloatRangeValueSO IntValue PartInfos PartInfos.PartInfo ShieldGeneratorContext"
   },
   "api/StormHawks.Runtime.Utilities.Values.IntValue.html": {
     "href": "api/StormHawks.Runtime.Utilities.Values.IntValue.html",
@@ -3203,6 +3208,11 @@
     "href": "api/StormHawks.Runtime.Utilities.Values.PartInfos.PartInfo.html",
     "title": "Class PartInfos.PartInfo | Developer Reference",
     "keywords": "Class PartInfos.PartInfo Inheritance Object PartInfos.PartInfo Namespace : StormHawks.Runtime.Utilities.Values Assembly : cs.temp.dll.dll Syntax [Serializable] public class PartInfo Fields Part Declaration public PartBase Part Field Value Type Description PartBase Type Declaration public PartType Type Field Value Type Description PartType"
+  },
+  "api/StormHawks.Runtime.Utilities.Values.ShieldGeneratorContext.html": {
+    "href": "api/StormHawks.Runtime.Utilities.Values.ShieldGeneratorContext.html",
+    "title": "Class ShieldGeneratorContext | Developer Reference",
+    "keywords": "Class ShieldGeneratorContext Inheritance Object ShieldGeneratorContext Namespace : StormHawks.Runtime.Utilities.Values Assembly : cs.temp.dll.dll Syntax public class ShieldGeneratorContext : ScriptableObject Fields EnergyDepletionTime Declaration public float EnergyDepletionTime Field Value Type Description Single GeneratorBreakEnergyCost Declaration public float GeneratorBreakEnergyCost Field Value Type Description Single Health Declaration public EntityHealthSO Health Field Value Type Description EntityHealthSO MaxEnergy Declaration public float MaxEnergy Field Value Type Description Single RotateDuration Declaration public float RotateDuration Field Value Type Description Single"
   },
   "api/StormHawks.Runtime.XR.html": {
     "href": "api/StormHawks.Runtime.XR.html",

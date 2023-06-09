@@ -4962,19 +4962,6 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.GroupController
   nameWithType: BossEntity.GroupController
-- uid: StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.IsPhaseEnded
-  name: IsPhaseEnded
-  href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.html#StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_IsPhaseEnded
-  commentId: P:StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.IsPhaseEnded
-  fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.IsPhaseEnded
-  nameWithType: BossEntity.IsPhaseEnded
-- uid: StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.IsPhaseEnded*
-  name: IsPhaseEnded
-  href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.html#StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_IsPhaseEnded_
-  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.IsPhaseEnded
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.IsPhaseEnded
-  nameWithType: BossEntity.IsPhaseEnded
 - uid: StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.OnSpawnedEnemyGroup(EnemyGroup)
   name: OnSpawnedEnemyGroup(EnemyGroup)
   href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.html#StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_OnSpawnedEnemyGroup_EnemyGroup_
@@ -7201,6 +7188,19 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Entities.EntityDamageSO.Damage
   nameWithType: EntityDamageSO.Damage
+- uid: StormHawks.Runtime.Entities.EntityDamageSO.DamagedLayer
+  name: DamagedLayer
+  href: api/StormHawks.Runtime.Entities.EntityDamageSO.html#StormHawks_Runtime_Entities_EntityDamageSO_DamagedLayer
+  commentId: P:StormHawks.Runtime.Entities.EntityDamageSO.DamagedLayer
+  fullName: StormHawks.Runtime.Entities.EntityDamageSO.DamagedLayer
+  nameWithType: EntityDamageSO.DamagedLayer
+- uid: StormHawks.Runtime.Entities.EntityDamageSO.DamagedLayer*
+  name: DamagedLayer
+  href: api/StormHawks.Runtime.Entities.EntityDamageSO.html#StormHawks_Runtime_Entities_EntityDamageSO_DamagedLayer_
+  commentId: Overload:StormHawks.Runtime.Entities.EntityDamageSO.DamagedLayer
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Entities.EntityDamageSO.DamagedLayer
+  nameWithType: EntityDamageSO.DamagedLayer
 - uid: StormHawks.Runtime.Entities.EntityDamageSO.SetDamage(System.Single)
   name: SetDamage(Single)
   href: api/StormHawks.Runtime.Entities.EntityDamageSO.html#StormHawks_Runtime_Entities_EntityDamageSO_SetDamage_System_Single_
@@ -11970,6 +11970,57 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Environments.Portals.EliteSpawnPortal.StopEffect
   nameWithType: EliteSpawnPortal.StopEffect
+- uid: StormHawks.Runtime.Environments.ShieldGenerators
+  name: StormHawks.Runtime.Environments.ShieldGenerators
+  href: api/StormHawks.Runtime.Environments.ShieldGenerators.html
+  commentId: N:StormHawks.Runtime.Environments.ShieldGenerators
+  fullName: StormHawks.Runtime.Environments.ShieldGenerators
+  nameWithType: StormHawks.Runtime.Environments.ShieldGenerators
+- uid: StormHawks.Runtime.Environments.ShieldGenerators.ShieldGenerator
+  name: ShieldGenerator
+  href: api/StormHawks.Runtime.Environments.ShieldGenerators.ShieldGenerator.html
+  commentId: T:StormHawks.Runtime.Environments.ShieldGenerators.ShieldGenerator
+  fullName: StormHawks.Runtime.Environments.ShieldGenerators.ShieldGenerator
+  nameWithType: ShieldGenerator
+- uid: StormHawks.Runtime.Environments.ShieldGenerators.ShieldGenerator.CurrentHealth
+  name: CurrentHealth
+  href: api/StormHawks.Runtime.Environments.ShieldGenerators.ShieldGenerator.html#StormHawks_Runtime_Environments_ShieldGenerators_ShieldGenerator_CurrentHealth
+  commentId: P:StormHawks.Runtime.Environments.ShieldGenerators.ShieldGenerator.CurrentHealth
+  fullName: StormHawks.Runtime.Environments.ShieldGenerators.ShieldGenerator.CurrentHealth
+  nameWithType: ShieldGenerator.CurrentHealth
+- uid: StormHawks.Runtime.Environments.ShieldGenerators.ShieldGenerator.CurrentHealth*
+  name: CurrentHealth
+  href: api/StormHawks.Runtime.Environments.ShieldGenerators.ShieldGenerator.html#StormHawks_Runtime_Environments_ShieldGenerators_ShieldGenerator_CurrentHealth_
+  commentId: Overload:StormHawks.Runtime.Environments.ShieldGenerators.ShieldGenerator.CurrentHealth
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Environments.ShieldGenerators.ShieldGenerator.CurrentHealth
+  nameWithType: ShieldGenerator.CurrentHealth
+- uid: StormHawks.Runtime.Environments.ShieldGenerators.ShieldGenerator.HealthSO
+  name: HealthSO
+  href: api/StormHawks.Runtime.Environments.ShieldGenerators.ShieldGenerator.html#StormHawks_Runtime_Environments_ShieldGenerators_ShieldGenerator_HealthSO
+  commentId: P:StormHawks.Runtime.Environments.ShieldGenerators.ShieldGenerator.HealthSO
+  fullName: StormHawks.Runtime.Environments.ShieldGenerators.ShieldGenerator.HealthSO
+  nameWithType: ShieldGenerator.HealthSO
+- uid: StormHawks.Runtime.Environments.ShieldGenerators.ShieldGenerator.HealthSO*
+  name: HealthSO
+  href: api/StormHawks.Runtime.Environments.ShieldGenerators.ShieldGenerator.html#StormHawks_Runtime_Environments_ShieldGenerators_ShieldGenerator_HealthSO_
+  commentId: Overload:StormHawks.Runtime.Environments.ShieldGenerators.ShieldGenerator.HealthSO
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Environments.ShieldGenerators.ShieldGenerator.HealthSO
+  nameWithType: ShieldGenerator.HealthSO
+- uid: StormHawks.Runtime.Environments.ShieldGenerators.ShieldGenerator.TakeDamage(Vector3,System.Single)
+  name: TakeDamage(Vector3, Single)
+  href: api/StormHawks.Runtime.Environments.ShieldGenerators.ShieldGenerator.html#StormHawks_Runtime_Environments_ShieldGenerators_ShieldGenerator_TakeDamage_Vector3_System_Single_
+  commentId: M:StormHawks.Runtime.Environments.ShieldGenerators.ShieldGenerator.TakeDamage(Vector3,System.Single)
+  fullName: StormHawks.Runtime.Environments.ShieldGenerators.ShieldGenerator.TakeDamage(Vector3, System.Single)
+  nameWithType: ShieldGenerator.TakeDamage(Vector3, Single)
+- uid: StormHawks.Runtime.Environments.ShieldGenerators.ShieldGenerator.TakeDamage*
+  name: TakeDamage
+  href: api/StormHawks.Runtime.Environments.ShieldGenerators.ShieldGenerator.html#StormHawks_Runtime_Environments_ShieldGenerators_ShieldGenerator_TakeDamage_
+  commentId: Overload:StormHawks.Runtime.Environments.ShieldGenerators.ShieldGenerator.TakeDamage
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Environments.ShieldGenerators.ShieldGenerator.TakeDamage
+  nameWithType: ShieldGenerator.TakeDamage
 - uid: StormHawks.Runtime.Environments.Spawners
   name: StormHawks.Runtime.Environments.Spawners
   href: api/StormHawks.Runtime.Environments.Spawners.html
@@ -19502,19 +19553,19 @@ references:
   commentId: T:StormHawks.Runtime.Projectiles.ProjectileConfigSO
   fullName: StormHawks.Runtime.Projectiles.ProjectileConfigSO
   nameWithType: ProjectileConfigSO
-- uid: StormHawks.Runtime.Projectiles.ProjectileConfigSO.Damage
-  name: Damage
-  href: api/StormHawks.Runtime.Projectiles.ProjectileConfigSO.html#StormHawks_Runtime_Projectiles_ProjectileConfigSO_Damage
-  commentId: P:StormHawks.Runtime.Projectiles.ProjectileConfigSO.Damage
-  fullName: StormHawks.Runtime.Projectiles.ProjectileConfigSO.Damage
-  nameWithType: ProjectileConfigSO.Damage
-- uid: StormHawks.Runtime.Projectiles.ProjectileConfigSO.Damage*
-  name: Damage
-  href: api/StormHawks.Runtime.Projectiles.ProjectileConfigSO.html#StormHawks_Runtime_Projectiles_ProjectileConfigSO_Damage_
-  commentId: Overload:StormHawks.Runtime.Projectiles.ProjectileConfigSO.Damage
+- uid: StormHawks.Runtime.Projectiles.ProjectileConfigSO.DamageSO
+  name: DamageSO
+  href: api/StormHawks.Runtime.Projectiles.ProjectileConfigSO.html#StormHawks_Runtime_Projectiles_ProjectileConfigSO_DamageSO
+  commentId: P:StormHawks.Runtime.Projectiles.ProjectileConfigSO.DamageSO
+  fullName: StormHawks.Runtime.Projectiles.ProjectileConfigSO.DamageSO
+  nameWithType: ProjectileConfigSO.DamageSO
+- uid: StormHawks.Runtime.Projectiles.ProjectileConfigSO.DamageSO*
+  name: DamageSO
+  href: api/StormHawks.Runtime.Projectiles.ProjectileConfigSO.html#StormHawks_Runtime_Projectiles_ProjectileConfigSO_DamageSO_
+  commentId: Overload:StormHawks.Runtime.Projectiles.ProjectileConfigSO.DamageSO
   isSpec: "True"
-  fullName: StormHawks.Runtime.Projectiles.ProjectileConfigSO.Damage
-  nameWithType: ProjectileConfigSO.Damage
+  fullName: StormHawks.Runtime.Projectiles.ProjectileConfigSO.DamageSO
+  nameWithType: ProjectileConfigSO.DamageSO
 - uid: StormHawks.Runtime.Projectiles.ProjectileConfigSO.LifeTime
   name: LifeTime
   href: api/StormHawks.Runtime.Projectiles.ProjectileConfigSO.html#StormHawks_Runtime_Projectiles_ProjectileConfigSO_LifeTime
@@ -24384,38 +24435,6 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsOverTimeByKey.Condition
   nameWithType: IsOverTimeByKey.Condition
-- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsPhaseEnded
-  name: IsPhaseEnded
-  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsPhaseEnded.html
-  commentId: T:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsPhaseEnded
-  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsPhaseEnded
-  nameWithType: IsPhaseEnded
-- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsPhaseEnded.Condition
-  name: Condition()
-  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsPhaseEnded.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Conditionals_IsPhaseEnded_Condition
-  commentId: M:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsPhaseEnded.Condition
-  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsPhaseEnded.Condition()
-  nameWithType: IsPhaseEnded.Condition()
-- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsPhaseEnded.Condition*
-  name: Condition
-  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsPhaseEnded.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Conditionals_IsPhaseEnded_Condition_
-  commentId: Overload:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsPhaseEnded.Condition
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsPhaseEnded.Condition
-  nameWithType: IsPhaseEnded.Condition
-- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsPhaseEnded.OnEnter
-  name: OnEnter()
-  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsPhaseEnded.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Conditionals_IsPhaseEnded_OnEnter
-  commentId: M:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsPhaseEnded.OnEnter
-  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsPhaseEnded.OnEnter()
-  nameWithType: IsPhaseEnded.OnEnter()
-- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsPhaseEnded.OnEnter*
-  name: OnEnter
-  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsPhaseEnded.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Conditionals_IsPhaseEnded_OnEnter_
-  commentId: Overload:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsPhaseEnded.OnEnter
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsPhaseEnded.OnEnter
-  nameWithType: IsPhaseEnded.OnEnter
 - uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsPlayerInsidePlayableArea
   name: IsPlayerInsidePlayableArea
   href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.IsPlayerInsidePlayableArea.html
@@ -27009,6 +27028,42 @@ references:
   commentId: F:StormHawks.Runtime.Utilities.Values.PartInfos.PartInfo.Type
   fullName: StormHawks.Runtime.Utilities.Values.PartInfos.PartInfo.Type
   nameWithType: PartInfos.PartInfo.Type
+- uid: StormHawks.Runtime.Utilities.Values.ShieldGeneratorContext
+  name: ShieldGeneratorContext
+  href: api/StormHawks.Runtime.Utilities.Values.ShieldGeneratorContext.html
+  commentId: T:StormHawks.Runtime.Utilities.Values.ShieldGeneratorContext
+  fullName: StormHawks.Runtime.Utilities.Values.ShieldGeneratorContext
+  nameWithType: ShieldGeneratorContext
+- uid: StormHawks.Runtime.Utilities.Values.ShieldGeneratorContext.EnergyDepletionTime
+  name: EnergyDepletionTime
+  href: api/StormHawks.Runtime.Utilities.Values.ShieldGeneratorContext.html#StormHawks_Runtime_Utilities_Values_ShieldGeneratorContext_EnergyDepletionTime
+  commentId: F:StormHawks.Runtime.Utilities.Values.ShieldGeneratorContext.EnergyDepletionTime
+  fullName: StormHawks.Runtime.Utilities.Values.ShieldGeneratorContext.EnergyDepletionTime
+  nameWithType: ShieldGeneratorContext.EnergyDepletionTime
+- uid: StormHawks.Runtime.Utilities.Values.ShieldGeneratorContext.GeneratorBreakEnergyCost
+  name: GeneratorBreakEnergyCost
+  href: api/StormHawks.Runtime.Utilities.Values.ShieldGeneratorContext.html#StormHawks_Runtime_Utilities_Values_ShieldGeneratorContext_GeneratorBreakEnergyCost
+  commentId: F:StormHawks.Runtime.Utilities.Values.ShieldGeneratorContext.GeneratorBreakEnergyCost
+  fullName: StormHawks.Runtime.Utilities.Values.ShieldGeneratorContext.GeneratorBreakEnergyCost
+  nameWithType: ShieldGeneratorContext.GeneratorBreakEnergyCost
+- uid: StormHawks.Runtime.Utilities.Values.ShieldGeneratorContext.Health
+  name: Health
+  href: api/StormHawks.Runtime.Utilities.Values.ShieldGeneratorContext.html#StormHawks_Runtime_Utilities_Values_ShieldGeneratorContext_Health
+  commentId: F:StormHawks.Runtime.Utilities.Values.ShieldGeneratorContext.Health
+  fullName: StormHawks.Runtime.Utilities.Values.ShieldGeneratorContext.Health
+  nameWithType: ShieldGeneratorContext.Health
+- uid: StormHawks.Runtime.Utilities.Values.ShieldGeneratorContext.MaxEnergy
+  name: MaxEnergy
+  href: api/StormHawks.Runtime.Utilities.Values.ShieldGeneratorContext.html#StormHawks_Runtime_Utilities_Values_ShieldGeneratorContext_MaxEnergy
+  commentId: F:StormHawks.Runtime.Utilities.Values.ShieldGeneratorContext.MaxEnergy
+  fullName: StormHawks.Runtime.Utilities.Values.ShieldGeneratorContext.MaxEnergy
+  nameWithType: ShieldGeneratorContext.MaxEnergy
+- uid: StormHawks.Runtime.Utilities.Values.ShieldGeneratorContext.RotateDuration
+  name: RotateDuration
+  href: api/StormHawks.Runtime.Utilities.Values.ShieldGeneratorContext.html#StormHawks_Runtime_Utilities_Values_ShieldGeneratorContext_RotateDuration
+  commentId: F:StormHawks.Runtime.Utilities.Values.ShieldGeneratorContext.RotateDuration
+  fullName: StormHawks.Runtime.Utilities.Values.ShieldGeneratorContext.RotateDuration
+  nameWithType: ShieldGeneratorContext.RotateDuration
 - uid: StormHawks.Runtime.XR
   name: StormHawks.Runtime.XR
   href: api/StormHawks.Runtime.XR.html

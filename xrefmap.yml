@@ -2847,6 +2847,31 @@ references:
   isSpec: "True"
   fullName: StormHawks.Editor.Gizmos.AlignTransformUtilityEditor.OnInspectorGUI
   nameWithType: AlignTransformUtilityEditor.OnInspectorGUI
+- uid: StormHawks.Editor.PortalEffects
+  name: StormHawks.Editor.PortalEffects
+  href: api/StormHawks.Editor.PortalEffects.html
+  commentId: N:StormHawks.Editor.PortalEffects
+  fullName: StormHawks.Editor.PortalEffects
+  nameWithType: StormHawks.Editor.PortalEffects
+- uid: StormHawks.Editor.PortalEffects.EliteSpawnPortalEditor
+  name: EliteSpawnPortalEditor
+  href: api/StormHawks.Editor.PortalEffects.EliteSpawnPortalEditor.html
+  commentId: T:StormHawks.Editor.PortalEffects.EliteSpawnPortalEditor
+  fullName: StormHawks.Editor.PortalEffects.EliteSpawnPortalEditor
+  nameWithType: EliteSpawnPortalEditor
+- uid: StormHawks.Editor.PortalEffects.EliteSpawnPortalEditor.OnInspectorGUI
+  name: OnInspectorGUI()
+  href: api/StormHawks.Editor.PortalEffects.EliteSpawnPortalEditor.html#StormHawks_Editor_PortalEffects_EliteSpawnPortalEditor_OnInspectorGUI
+  commentId: M:StormHawks.Editor.PortalEffects.EliteSpawnPortalEditor.OnInspectorGUI
+  fullName: StormHawks.Editor.PortalEffects.EliteSpawnPortalEditor.OnInspectorGUI()
+  nameWithType: EliteSpawnPortalEditor.OnInspectorGUI()
+- uid: StormHawks.Editor.PortalEffects.EliteSpawnPortalEditor.OnInspectorGUI*
+  name: OnInspectorGUI
+  href: api/StormHawks.Editor.PortalEffects.EliteSpawnPortalEditor.html#StormHawks_Editor_PortalEffects_EliteSpawnPortalEditor_OnInspectorGUI_
+  commentId: Overload:StormHawks.Editor.PortalEffects.EliteSpawnPortalEditor.OnInspectorGUI
+  isSpec: "True"
+  fullName: StormHawks.Editor.PortalEffects.EliteSpawnPortalEditor.OnInspectorGUI
+  nameWithType: EliteSpawnPortalEditor.OnInspectorGUI
 - uid: StormHawks.Editor.Utilities
   name: StormHawks.Editor.Utilities
   href: api/StormHawks.Editor.Utilities.html
@@ -4911,6 +4936,19 @@ references:
   commentId: T:StormHawks.Runtime.Entities.Enemies.Boss.BossEntity
   fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossEntity
   nameWithType: BossEntity
+- uid: StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.EliteSpawner
+  name: EliteSpawner
+  href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.html#StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_EliteSpawner
+  commentId: P:StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.EliteSpawner
+  fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.EliteSpawner
+  nameWithType: BossEntity.EliteSpawner
+- uid: StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.EliteSpawner*
+  name: EliteSpawner
+  href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.html#StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_EliteSpawner_
+  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.EliteSpawner
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.EliteSpawner
+  nameWithType: BossEntity.EliteSpawner
 - uid: StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.GroupController
   name: GroupController
   href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.html#StormHawks_Runtime_Entities_Enemies_Boss_BossEntity_GroupController
@@ -5079,6 +5117,19 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossHealth.Damaged
   nameWithType: BossHealth.Damaged
+- uid: StormHawks.Runtime.Entities.Enemies.Boss.BossHealth.GetPercentage
+  name: GetPercentage()
+  href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossHealth.html#StormHawks_Runtime_Entities_Enemies_Boss_BossHealth_GetPercentage
+  commentId: M:StormHawks.Runtime.Entities.Enemies.Boss.BossHealth.GetPercentage
+  fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossHealth.GetPercentage()
+  nameWithType: BossHealth.GetPercentage()
+- uid: StormHawks.Runtime.Entities.Enemies.Boss.BossHealth.GetPercentage*
+  name: GetPercentage
+  href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossHealth.html#StormHawks_Runtime_Entities_Enemies_Boss_BossHealth_GetPercentage_
+  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Boss.BossHealth.GetPercentage
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossHealth.GetPercentage
+  nameWithType: BossHealth.GetPercentage
 - uid: StormHawks.Runtime.Entities.Enemies.Boss.BossHurtBoxBase
   name: BossHurtBoxBase
   href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossHurtBoxBase.html
@@ -5708,6 +5759,25 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase.HealthSO
   nameWithType: EliteEnemyBase.HealthSO
+- uid: StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase.IS_SPAWNED
+  name: IS_SPAWNED
+  href: api/StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase.html#StormHawks_Runtime_Entities_Enemies_Elites_EliteEnemyBase_IS_SPAWNED
+  commentId: F:StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase.IS_SPAWNED
+  fullName: StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase.IS_SPAWNED
+  nameWithType: EliteEnemyBase.IS_SPAWNED
+- uid: StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase.OnSpawnCompleted
+  name: OnSpawnCompleted()
+  href: api/StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase.html#StormHawks_Runtime_Entities_Enemies_Elites_EliteEnemyBase_OnSpawnCompleted
+  commentId: M:StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase.OnSpawnCompleted
+  fullName: StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase.OnSpawnCompleted()
+  nameWithType: EliteEnemyBase.OnSpawnCompleted()
+- uid: StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase.OnSpawnCompleted*
+  name: OnSpawnCompleted
+  href: api/StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase.html#StormHawks_Runtime_Entities_Enemies_Elites_EliteEnemyBase_OnSpawnCompleted_
+  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase.OnSpawnCompleted
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase.OnSpawnCompleted
+  nameWithType: EliteEnemyBase.OnSpawnCompleted
 - uid: StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase.ReturnToPool
   name: ReturnToPool()
   href: api/StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase.html#StormHawks_Runtime_Entities_Enemies_Elites_EliteEnemyBase_ReturnToPool
@@ -11849,6 +11919,82 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Environments.PlayableArea.IsPlayerInsidePlayableArea
   nameWithType: PlayableArea.IsPlayerInsidePlayableArea
+- uid: StormHawks.Runtime.Environments.Portals
+  name: StormHawks.Runtime.Environments.Portals
+  href: api/StormHawks.Runtime.Environments.Portals.html
+  commentId: N:StormHawks.Runtime.Environments.Portals
+  fullName: StormHawks.Runtime.Environments.Portals
+  nameWithType: StormHawks.Runtime.Environments.Portals
+- uid: StormHawks.Runtime.Environments.Portals.EliteSpawnPortal
+  name: EliteSpawnPortal
+  href: api/StormHawks.Runtime.Environments.Portals.EliteSpawnPortal.html
+  commentId: T:StormHawks.Runtime.Environments.Portals.EliteSpawnPortal
+  fullName: StormHawks.Runtime.Environments.Portals.EliteSpawnPortal
+  nameWithType: EliteSpawnPortal
+- uid: StormHawks.Runtime.Environments.Portals.EliteSpawnPortal.GetEliteSpawnSequence
+  name: GetEliteSpawnSequence()
+  href: api/StormHawks.Runtime.Environments.Portals.EliteSpawnPortal.html#StormHawks_Runtime_Environments_Portals_EliteSpawnPortal_GetEliteSpawnSequence
+  commentId: M:StormHawks.Runtime.Environments.Portals.EliteSpawnPortal.GetEliteSpawnSequence
+  fullName: StormHawks.Runtime.Environments.Portals.EliteSpawnPortal.GetEliteSpawnSequence()
+  nameWithType: EliteSpawnPortal.GetEliteSpawnSequence()
+- uid: StormHawks.Runtime.Environments.Portals.EliteSpawnPortal.GetEliteSpawnSequence*
+  name: GetEliteSpawnSequence
+  href: api/StormHawks.Runtime.Environments.Portals.EliteSpawnPortal.html#StormHawks_Runtime_Environments_Portals_EliteSpawnPortal_GetEliteSpawnSequence_
+  commentId: Overload:StormHawks.Runtime.Environments.Portals.EliteSpawnPortal.GetEliteSpawnSequence
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Environments.Portals.EliteSpawnPortal.GetEliteSpawnSequence
+  nameWithType: EliteSpawnPortal.GetEliteSpawnSequence
+- uid: StormHawks.Runtime.Environments.Portals.EliteSpawnPortal.Spawn(Vector3,Vector3)
+  name: Spawn(Vector3, Vector3)
+  href: api/StormHawks.Runtime.Environments.Portals.EliteSpawnPortal.html#StormHawks_Runtime_Environments_Portals_EliteSpawnPortal_Spawn_Vector3_Vector3_
+  commentId: M:StormHawks.Runtime.Environments.Portals.EliteSpawnPortal.Spawn(Vector3,Vector3)
+  fullName: StormHawks.Runtime.Environments.Portals.EliteSpawnPortal.Spawn(Vector3, Vector3)
+  nameWithType: EliteSpawnPortal.Spawn(Vector3, Vector3)
+- uid: StormHawks.Runtime.Environments.Portals.EliteSpawnPortal.Spawn*
+  name: Spawn
+  href: api/StormHawks.Runtime.Environments.Portals.EliteSpawnPortal.html#StormHawks_Runtime_Environments_Portals_EliteSpawnPortal_Spawn_
+  commentId: Overload:StormHawks.Runtime.Environments.Portals.EliteSpawnPortal.Spawn
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Environments.Portals.EliteSpawnPortal.Spawn
+  nameWithType: EliteSpawnPortal.Spawn
+- uid: StormHawks.Runtime.Environments.Portals.EliteSpawnPortal.StopEffect
+  name: StopEffect()
+  href: api/StormHawks.Runtime.Environments.Portals.EliteSpawnPortal.html#StormHawks_Runtime_Environments_Portals_EliteSpawnPortal_StopEffect
+  commentId: M:StormHawks.Runtime.Environments.Portals.EliteSpawnPortal.StopEffect
+  fullName: StormHawks.Runtime.Environments.Portals.EliteSpawnPortal.StopEffect()
+  nameWithType: EliteSpawnPortal.StopEffect()
+- uid: StormHawks.Runtime.Environments.Portals.EliteSpawnPortal.StopEffect*
+  name: StopEffect
+  href: api/StormHawks.Runtime.Environments.Portals.EliteSpawnPortal.html#StormHawks_Runtime_Environments_Portals_EliteSpawnPortal_StopEffect_
+  commentId: Overload:StormHawks.Runtime.Environments.Portals.EliteSpawnPortal.StopEffect
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Environments.Portals.EliteSpawnPortal.StopEffect
+  nameWithType: EliteSpawnPortal.StopEffect
+- uid: StormHawks.Runtime.Environments.Spawners
+  name: StormHawks.Runtime.Environments.Spawners
+  href: api/StormHawks.Runtime.Environments.Spawners.html
+  commentId: N:StormHawks.Runtime.Environments.Spawners
+  fullName: StormHawks.Runtime.Environments.Spawners
+  nameWithType: StormHawks.Runtime.Environments.Spawners
+- uid: StormHawks.Runtime.Environments.Spawners.EliteEnemySpawner
+  name: EliteEnemySpawner
+  href: api/StormHawks.Runtime.Environments.Spawners.EliteEnemySpawner.html
+  commentId: T:StormHawks.Runtime.Environments.Spawners.EliteEnemySpawner
+  fullName: StormHawks.Runtime.Environments.Spawners.EliteEnemySpawner
+  nameWithType: EliteEnemySpawner
+- uid: StormHawks.Runtime.Environments.Spawners.EliteEnemySpawner.Spawn
+  name: Spawn()
+  href: api/StormHawks.Runtime.Environments.Spawners.EliteEnemySpawner.html#StormHawks_Runtime_Environments_Spawners_EliteEnemySpawner_Spawn
+  commentId: M:StormHawks.Runtime.Environments.Spawners.EliteEnemySpawner.Spawn
+  fullName: StormHawks.Runtime.Environments.Spawners.EliteEnemySpawner.Spawn()
+  nameWithType: EliteEnemySpawner.Spawn()
+- uid: StormHawks.Runtime.Environments.Spawners.EliteEnemySpawner.Spawn*
+  name: Spawn
+  href: api/StormHawks.Runtime.Environments.Spawners.EliteEnemySpawner.html#StormHawks_Runtime_Environments_Spawners_EliteEnemySpawner_Spawn_
+  commentId: Overload:StormHawks.Runtime.Environments.Spawners.EliteEnemySpawner.Spawn
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Environments.Spawners.EliteEnemySpawner.Spawn
+  nameWithType: EliteEnemySpawner.Spawn
 - uid: StormHawks.Runtime.Grids
   name: StormHawks.Runtime.Grids
   href: api/StormHawks.Runtime.Grids.html
@@ -21603,6 +21749,25 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.OrbitRotateAround.OnRun
   nameWithType: OrbitRotateAround.OnRun
+- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.SpawnMissileElite
+  name: SpawnMissileElite
+  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.SpawnMissileElite.html
+  commentId: T:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.SpawnMissileElite
+  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.SpawnMissileElite
+  nameWithType: SpawnMissileElite
+- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.SpawnMissileElite.OnRun
+  name: OnRun()
+  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.SpawnMissileElite.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_BossActions_SpawnMissileElite_OnRun
+  commentId: M:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.SpawnMissileElite.OnRun
+  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.SpawnMissileElite.OnRun()
+  nameWithType: SpawnMissileElite.OnRun()
+- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.SpawnMissileElite.OnRun*
+  name: OnRun
+  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.SpawnMissileElite.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Actions_BossActions_SpawnMissileElite_OnRun_
+  commentId: Overload:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.SpawnMissileElite.OnRun
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.SpawnMissileElite.OnRun
+  nameWithType: SpawnMissileElite.OnRun
 - uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossFlushBody
   name: BossFlushBody
   href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossFlushBody.html
@@ -23400,6 +23565,44 @@ references:
   commentId: N:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals
   fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals
   nameWithType: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals
+- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.BossConditionals
+  name: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.BossConditionals
+  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.BossConditionals.html
+  commentId: N:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.BossConditionals
+  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.BossConditionals
+  nameWithType: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.BossConditionals
+- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.BossConditionals.IsBossHealthBelow
+  name: IsBossHealthBelow
+  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.BossConditionals.IsBossHealthBelow.html
+  commentId: T:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.BossConditionals.IsBossHealthBelow
+  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.BossConditionals.IsBossHealthBelow
+  nameWithType: IsBossHealthBelow
+- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.BossConditionals.IsBossHealthBelow.Condition
+  name: Condition()
+  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.BossConditionals.IsBossHealthBelow.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Conditionals_BossConditionals_IsBossHealthBelow_Condition
+  commentId: M:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.BossConditionals.IsBossHealthBelow.Condition
+  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.BossConditionals.IsBossHealthBelow.Condition()
+  nameWithType: IsBossHealthBelow.Condition()
+- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.BossConditionals.IsBossHealthBelow.Condition*
+  name: Condition
+  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.BossConditionals.IsBossHealthBelow.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Conditionals_BossConditionals_IsBossHealthBelow_Condition_
+  commentId: Overload:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.BossConditionals.IsBossHealthBelow.Condition
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.BossConditionals.IsBossHealthBelow.Condition
+  nameWithType: IsBossHealthBelow.Condition
+- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.BossConditionals.IsBossHealthBelow.OnEnter
+  name: OnEnter()
+  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.BossConditionals.IsBossHealthBelow.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Conditionals_BossConditionals_IsBossHealthBelow_OnEnter
+  commentId: M:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.BossConditionals.IsBossHealthBelow.OnEnter
+  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.BossConditionals.IsBossHealthBelow.OnEnter()
+  nameWithType: IsBossHealthBelow.OnEnter()
+- uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.BossConditionals.IsBossHealthBelow.OnEnter*
+  name: OnEnter
+  href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.BossConditionals.IsBossHealthBelow.html#StormHawks_Runtime_Utilities_BehaviorTree_Nodes_Conditionals_BossConditionals_IsBossHealthBelow_OnEnter_
+  commentId: Overload:StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.BossConditionals.IsBossHealthBelow.OnEnter
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.BossConditionals.IsBossHealthBelow.OnEnter
+  nameWithType: IsBossHealthBelow.OnEnter
 - uid: StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.CanBecomeAggressiveEnemyGroup
   name: CanBecomeAggressiveEnemyGroup
   href: api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.CanBecomeAggressiveEnemyGroup.html

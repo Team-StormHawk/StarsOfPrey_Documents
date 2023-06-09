@@ -464,6 +464,16 @@
     "title": "Namespace StormHawks.Editor.Gizmos | Developer Reference",
     "keywords": "Namespace StormHawks.Editor.Gizmos Classes AlignTransformUtilityEditor"
   },
+  "api/StormHawks.Editor.PortalEffects.EliteSpawnPortalEditor.html": {
+    "href": "api/StormHawks.Editor.PortalEffects.EliteSpawnPortalEditor.html",
+    "title": "Class EliteSpawnPortalEditor | Developer Reference",
+    "keywords": "Class EliteSpawnPortalEditor Inheritance Object EliteSpawnPortalEditor Namespace : StormHawks.Editor.PortalEffects Assembly : cs.temp.dll.dll Syntax public class EliteSpawnPortalEditor : OdinEditor Methods OnInspectorGUI() Declaration public override void OnInspectorGUI()"
+  },
+  "api/StormHawks.Editor.PortalEffects.html": {
+    "href": "api/StormHawks.Editor.PortalEffects.html",
+    "title": "Namespace StormHawks.Editor.PortalEffects | Developer Reference",
+    "keywords": "Namespace StormHawks.Editor.PortalEffects Classes EliteSpawnPortalEditor"
+  },
   "api/StormHawks.Editor.Utilities.CommonEditorUtility.html": {
     "href": "api/StormHawks.Editor.Utilities.CommonEditorUtility.html",
     "title": "Class CommonEditorUtility | Developer Reference",
@@ -757,7 +767,7 @@
   "api/StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.html": {
     "href": "api/StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.html",
     "title": "Class BossEntity | Developer Reference",
-    "keywords": "Class BossEntity Inheritance Object BossEntity Implements IEnemyGroupOwner Namespace : StormHawks.Runtime.Entities.Enemies.Boss Assembly : cs.temp.dll.dll Syntax public class BossEntity : MonoBehaviour Properties GroupController Declaration public EnemyGroupController GroupController { get; } Property Value Type Description EnemyGroupController IsPhaseEnded Declaration public bool IsPhaseEnded { get; } Property Value Type Description Boolean OrbitTransform Declaration public Transform OrbitTransform { get; } Property Value Type Description Transform Owner Declaration public GameObject Owner { get; } Property Value Type Description GameObject Methods OnSpawnedEnemyGroup(EnemyGroup) Declaration public void OnSpawnedEnemyGroup(EnemyGroup group) Parameters Type Name Description EnemyGroup group Implements IEnemyGroupOwner"
+    "keywords": "Class BossEntity Inheritance Object BossEntity Implements IEnemyGroupOwner Namespace : StormHawks.Runtime.Entities.Enemies.Boss Assembly : cs.temp.dll.dll Syntax public class BossEntity : MonoBehaviour Properties EliteSpawner Declaration public EliteEnemySpawner EliteSpawner { get; } Property Value Type Description EliteEnemySpawner GroupController Declaration public EnemyGroupController GroupController { get; } Property Value Type Description EnemyGroupController IsPhaseEnded Declaration public bool IsPhaseEnded { get; } Property Value Type Description Boolean OrbitTransform Declaration public Transform OrbitTransform { get; } Property Value Type Description Transform Owner Declaration public GameObject Owner { get; } Property Value Type Description GameObject Methods OnSpawnedEnemyGroup(EnemyGroup) Declaration public void OnSpawnedEnemyGroup(EnemyGroup group) Parameters Type Name Description EnemyGroup group Implements IEnemyGroupOwner"
   },
   "api/StormHawks.Runtime.Entities.Enemies.Boss.BossEyeRotator.html": {
     "href": "api/StormHawks.Runtime.Entities.Enemies.Boss.BossEyeRotator.html",
@@ -767,7 +777,7 @@
   "api/StormHawks.Runtime.Entities.Enemies.Boss.BossHealth.html": {
     "href": "api/StormHawks.Runtime.Entities.Enemies.Boss.BossHealth.html",
     "title": "Class BossHealth | Developer Reference",
-    "keywords": "Class BossHealth Inheritance Object BossHealth Namespace : StormHawks.Runtime.Entities.Enemies.Boss Assembly : cs.temp.dll.dll Syntax public class BossHealth : MonoBehaviour Methods Damaged(Single) Declaration public void Damaged(float damage) Parameters Type Name Description Single damage"
+    "keywords": "Class BossHealth Inheritance Object BossHealth Namespace : StormHawks.Runtime.Entities.Enemies.Boss Assembly : cs.temp.dll.dll Syntax public class BossHealth : MonoBehaviour Methods Damaged(Single) Declaration public void Damaged(float damage) Parameters Type Name Description Single damage GetPercentage() Declaration public float GetPercentage() Returns Type Description Single"
   },
   "api/StormHawks.Runtime.Entities.Enemies.Boss.BossHurtBoxBase.html": {
     "href": "api/StormHawks.Runtime.Entities.Enemies.Boss.BossHurtBoxBase.html",
@@ -822,7 +832,7 @@
   "api/StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase.html": {
     "href": "api/StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase.html",
     "title": "Class EliteEnemyBase | Developer Reference",
-    "keywords": "Class EliteEnemyBase Inheritance Object EliteEnemyBase MissileEliteEnemy Implements IHasHealth Namespace : StormHawks.Runtime.Entities.Enemies.Elites Assembly : cs.temp.dll.dll Syntax public abstract class EliteEnemyBase : MonoBehaviour Fields _blackboard Declaration protected Blackboard _blackboard Field Value Type Description Blackboard _bossEntity Declaration protected BossEntity _bossEntity Field Value Type Description BossEntity _bossEntityRuntimeSet Declaration protected BossRuntimeSet _bossEntityRuntimeSet Field Value Type Description BossRuntimeSet _playerContext Declaration protected PlayerContext _playerContext Field Value Type Description PlayerContext Properties CurrentHealth Declaration public float CurrentHealth { get; protected set; } Property Value Type Description Single HealthSO Declaration public EntityHealthSO HealthSO { get; protected set; } Property Value Type Description EntityHealthSO Methods GetBlackboard() Declaration public Blackboard GetBlackboard() Returns Type Description Blackboard ReturnToPool() Declaration public abstract void ReturnToPool() Start() Declaration protected virtual void Start() TakeDamage(Vector3, Single) Declaration public abstract void TakeDamage(Vector3 dir, float damage) Parameters Type Name Description Vector3 dir Single damage Implements IHasHealth"
+    "keywords": "Class EliteEnemyBase Inheritance Object EliteEnemyBase MissileEliteEnemy Implements IHasHealth Namespace : StormHawks.Runtime.Entities.Enemies.Elites Assembly : cs.temp.dll.dll Syntax public abstract class EliteEnemyBase : MonoBehaviour Fields _blackboard Declaration protected Blackboard _blackboard Field Value Type Description Blackboard _bossEntity Declaration protected BossEntity _bossEntity Field Value Type Description BossEntity _bossEntityRuntimeSet Declaration protected BossRuntimeSet _bossEntityRuntimeSet Field Value Type Description BossRuntimeSet _playerContext Declaration protected PlayerContext _playerContext Field Value Type Description PlayerContext IS_SPAWNED Declaration protected const string IS_SPAWNED = \"IsSpawned\" Field Value Type Description String Properties CurrentHealth Declaration public float CurrentHealth { get; protected set; } Property Value Type Description Single HealthSO Declaration public EntityHealthSO HealthSO { get; protected set; } Property Value Type Description EntityHealthSO Methods GetBlackboard() Declaration public Blackboard GetBlackboard() Returns Type Description Blackboard OnSpawnCompleted() Declaration public void OnSpawnCompleted() ReturnToPool() Declaration public abstract void ReturnToPool() Start() Declaration protected virtual void Start() TakeDamage(Vector3, Single) Declaration public abstract void TakeDamage(Vector3 dir, float damage) Parameters Type Name Description Vector3 dir Single damage Implements IHasHealth"
   },
   "api/StormHawks.Runtime.Entities.Enemies.Elites.html": {
     "href": "api/StormHawks.Runtime.Entities.Enemies.Elites.html",
@@ -832,7 +842,7 @@
   "api/StormHawks.Runtime.Entities.Enemies.Elites.MissileEliteEnemy.html": {
     "href": "api/StormHawks.Runtime.Entities.Enemies.Elites.MissileEliteEnemy.html",
     "title": "Class MissileEliteEnemy | Developer Reference",
-    "keywords": "Class MissileEliteEnemy Inheritance Object EliteEnemyBase MissileEliteEnemy Implements IHasHealth IPoolable < MissileEliteEnemy > Inherited Members EliteEnemyBase._bossEntityRuntimeSet EliteEnemyBase._playerContext EliteEnemyBase._bossEntity EliteEnemyBase._blackboard EliteEnemyBase.HealthSO EliteEnemyBase.CurrentHealth EliteEnemyBase.GetBlackboard() Namespace : StormHawks.Runtime.Entities.Enemies.Elites Assembly : cs.temp.dll.dll Syntax public class MissileEliteEnemy : EliteEnemyBase Properties Pool Declaration public MonoObjectPool<MissileEliteEnemy> Pool { get; set; } Property Value Type Description MonoObjectPool < MissileEliteEnemy > Methods OnRelease() Declaration public void OnRelease() OnSpawn() Declaration public void OnSpawn() ReturnToPool() Declaration public override void ReturnToPool() Overrides EliteEnemyBase.ReturnToPool() Start() Declaration protected override void Start() Overrides EliteEnemyBase.Start() TakeDamage(Vector3, Single) Declaration public override void TakeDamage(Vector3 dir, float damage) Parameters Type Name Description Vector3 dir Single damage Overrides EliteEnemyBase.TakeDamage(Vector3, Single) Implements IHasHealth IPoolable<>"
+    "keywords": "Class MissileEliteEnemy Inheritance Object EliteEnemyBase MissileEliteEnemy Implements IHasHealth IPoolable < MissileEliteEnemy > Inherited Members EliteEnemyBase._bossEntityRuntimeSet EliteEnemyBase._playerContext EliteEnemyBase._bossEntity EliteEnemyBase._blackboard EliteEnemyBase.IS_SPAWNED EliteEnemyBase.HealthSO EliteEnemyBase.CurrentHealth EliteEnemyBase.GetBlackboard() EliteEnemyBase.OnSpawnCompleted() Namespace : StormHawks.Runtime.Entities.Enemies.Elites Assembly : cs.temp.dll.dll Syntax public class MissileEliteEnemy : EliteEnemyBase Properties Pool Declaration public MonoObjectPool<MissileEliteEnemy> Pool { get; set; } Property Value Type Description MonoObjectPool < MissileEliteEnemy > Methods OnRelease() Declaration public void OnRelease() OnSpawn() Declaration public void OnSpawn() ReturnToPool() Declaration public override void ReturnToPool() Overrides EliteEnemyBase.ReturnToPool() Start() Declaration protected override void Start() Overrides EliteEnemyBase.Start() TakeDamage(Vector3, Single) Declaration public override void TakeDamage(Vector3 dir, float damage) Parameters Type Name Description Vector3 dir Single damage Overrides EliteEnemyBase.TakeDamage(Vector3, Single) Implements IHasHealth IPoolable<>"
   },
   "api/StormHawks.Runtime.Entities.Enemies.EntityRotator.html": {
     "href": "api/StormHawks.Runtime.Entities.Enemies.EntityRotator.html",
@@ -1298,6 +1308,26 @@
     "href": "api/StormHawks.Runtime.Environments.PlayableArea.html",
     "title": "Class PlayableArea | Developer Reference",
     "keywords": "Class PlayableArea Inheritance Object PlayableArea Namespace : StormHawks.Runtime.Environments Assembly : cs.temp.dll.dll Syntax public class PlayableArea : MonoBehaviour Properties IsEnabled Declaration public bool IsEnabled { get; } Property Value Type Description Boolean Methods Disable() Declaration public void Disable() Enable() Declaration public void Enable() IsPlayerInsidePlayableArea() Declaration public bool IsPlayerInsidePlayableArea() Returns Type Description Boolean"
+  },
+  "api/StormHawks.Runtime.Environments.Portals.EliteSpawnPortal.html": {
+    "href": "api/StormHawks.Runtime.Environments.Portals.EliteSpawnPortal.html",
+    "title": "Class EliteSpawnPortal | Developer Reference",
+    "keywords": "Class EliteSpawnPortal Inheritance Object EliteSpawnPortal Namespace : StormHawks.Runtime.Environments.Portals Assembly : cs.temp.dll.dll Syntax public class EliteSpawnPortal : MonoBehaviour Methods GetEliteSpawnSequence() Declaration public Sequence GetEliteSpawnSequence() Returns Type Description Sequence Spawn(Vector3, Vector3) Declaration public void Spawn(Vector3 position, Vector3 lookDir) Parameters Type Name Description Vector3 position Vector3 lookDir StopEffect() Declaration public void StopEffect()"
+  },
+  "api/StormHawks.Runtime.Environments.Portals.html": {
+    "href": "api/StormHawks.Runtime.Environments.Portals.html",
+    "title": "Namespace StormHawks.Runtime.Environments.Portals | Developer Reference",
+    "keywords": "Namespace StormHawks.Runtime.Environments.Portals Classes EliteSpawnPortal"
+  },
+  "api/StormHawks.Runtime.Environments.Spawners.EliteEnemySpawner.html": {
+    "href": "api/StormHawks.Runtime.Environments.Spawners.EliteEnemySpawner.html",
+    "title": "Class EliteEnemySpawner | Developer Reference",
+    "keywords": "Class EliteEnemySpawner Inheritance Object EliteEnemySpawner Namespace : StormHawks.Runtime.Environments.Spawners Assembly : cs.temp.dll.dll Syntax public class EliteEnemySpawner : MonoBehaviour Methods Spawn() Declaration public void Spawn()"
+  },
+  "api/StormHawks.Runtime.Environments.Spawners.html": {
+    "href": "api/StormHawks.Runtime.Environments.Spawners.html",
+    "title": "Namespace StormHawks.Runtime.Environments.Spawners | Developer Reference",
+    "keywords": "Namespace StormHawks.Runtime.Environments.Spawners Classes EliteEnemySpawner"
   },
   "api/StormHawks.Runtime.Grids.html": {
     "href": "api/StormHawks.Runtime.Grids.html",
@@ -2282,7 +2312,7 @@
   "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.BossAction.html": {
     "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.BossAction.html",
     "title": "Class BossAction | Developer Reference",
-    "keywords": "Class BossAction Inheritance Object EntityActionNode BossAction BossFireEnergyBullets OrbitRotateAround Inherited Members EntityActionNode._rotator EntityActionNode._runnerTransform EntityActionNode.OnInitialize() Namespace : StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions Assembly : cs.temp.dll.dll Syntax [Serializable] public abstract class BossAction : EntityActionNode Fields _bossEntity Declaration protected BossEntity _bossEntity Field Value Type Description BossEntity Methods OnEnter() Declaration protected override void OnEnter()"
+    "keywords": "Class BossAction Inheritance Object EntityActionNode BossAction BossFireEnergyBullets OrbitRotateAround SpawnMissileElite Inherited Members EntityActionNode._rotator EntityActionNode._runnerTransform EntityActionNode.OnInitialize() Namespace : StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions Assembly : cs.temp.dll.dll Syntax [Serializable] public abstract class BossAction : EntityActionNode Fields _bossEntity Declaration protected BossEntity _bossEntity Field Value Type Description BossEntity Methods OnEnter() Declaration protected override void OnEnter()"
   },
   "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.BossFireEnergyBullets.html": {
     "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.BossFireEnergyBullets.html",
@@ -2292,12 +2322,17 @@
   "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.html": {
     "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.html",
     "title": "Namespace StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions Classes BossAction BossFireEnergyBullets OrbitRotateAround"
+    "keywords": "Namespace StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions Classes BossAction BossFireEnergyBullets OrbitRotateAround SpawnMissileElite"
   },
   "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.OrbitRotateAround.html": {
     "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.OrbitRotateAround.html",
     "title": "Class OrbitRotateAround | Developer Reference",
     "keywords": "Class OrbitRotateAround Inheritance Object EntityActionNode BossAction OrbitRotateAround Inherited Members BossAction._bossEntity BossAction.OnEnter() EntityActionNode._rotator EntityActionNode._runnerTransform EntityActionNode.OnInitialize() Namespace : StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions Assembly : cs.temp.dll.dll Syntax [Serializable] public class OrbitRotateAround : BossAction Methods OnRun() Declaration protected override BehaviorNodeState OnRun() Returns Type Description BehaviorNodeState"
+  },
+  "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.SpawnMissileElite.html": {
+    "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.SpawnMissileElite.html",
+    "title": "Class SpawnMissileElite | Developer Reference",
+    "keywords": "Class SpawnMissileElite Inheritance Object EntityActionNode BossAction SpawnMissileElite Inherited Members BossAction._bossEntity BossAction.OnEnter() EntityActionNode._rotator EntityActionNode._runnerTransform EntityActionNode.OnInitialize() Namespace : StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions Assembly : cs.temp.dll.dll Syntax [Serializable] public class SpawnMissileElite : BossAction Methods OnRun() Declaration protected override BehaviorNodeState OnRun() Returns Type Description BehaviorNodeState"
   },
   "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossFlushBody.html": {
     "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossFlushBody.html",
@@ -2563,6 +2598,16 @@
     "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.WanderNode.html",
     "title": "Class WanderNode | Developer Reference",
     "keywords": "Class WanderNode 랜덤한 위치로 이동함. Inheritance Object EntityActionNode EntitySteerActionNode WanderNode Inherited Members EntitySteerActionNode._entity EntitySteerActionNode._rigidbody EntitySteerActionNode.Initialize(BehaviorTreeRunner) EntityActionNode._rotator EntityActionNode._runnerTransform EntityActionNode.OnInitialize() Namespace : StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions Assembly : cs.temp.dll.dll Syntax [Serializable] public class WanderNode : EntitySteerActionNode Methods Abort() Declaration public override void Abort() OnEnter() Declaration protected override void OnEnter() OnRun() Declaration protected override BehaviorNodeState OnRun() Returns Type Description BehaviorNodeState"
+  },
+  "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.BossConditionals.html": {
+    "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.BossConditionals.html",
+    "title": "Namespace StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.BossConditionals | Developer Reference",
+    "keywords": "Namespace StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.BossConditionals Classes IsBossHealthBelow"
+  },
+  "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.BossConditionals.IsBossHealthBelow.html": {
+    "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.BossConditionals.IsBossHealthBelow.html",
+    "title": "Class IsBossHealthBelow | Developer Reference",
+    "keywords": "Class IsBossHealthBelow Inheritance Object IsBossHealthBelow Namespace : StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.BossConditionals Assembly : cs.temp.dll.dll Syntax [Serializable] public class IsBossHealthBelow : ConditionalNode Methods Condition() Declaration protected override bool Condition() Returns Type Description Boolean OnEnter() Declaration protected override void OnEnter()"
   },
   "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.CanBecomeAggressiveEnemyGroup.html": {
     "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Conditionals.CanBecomeAggressiveEnemyGroup.html",

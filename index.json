@@ -889,6 +889,11 @@
     "title": "Class BossHomingMissile | Developer Reference",
     "keywords": "Class BossHomingMissile Inheritance Object BossHomingMissile Namespace : StormHawks.Runtime.Entities.Enemies.Projectiles Assembly : cs.temp.dll.dll Syntax public class BossHomingMissile : Projectile Methods Awake() Declaration protected override void Awake() OnRelease() Declaration public override void OnRelease() OnSpawn() Declaration public override void OnSpawn()"
   },
+  "api/StormHawks.Runtime.Entities.Enemies.Projectiles.DestructibleBossEnergyProjectile.html": {
+    "href": "api/StormHawks.Runtime.Entities.Enemies.Projectiles.DestructibleBossEnergyProjectile.html",
+    "title": "Class DestructibleBossEnergyProjectile | Developer Reference",
+    "keywords": "Class DestructibleBossEnergyProjectile Inheritance Object DestructibleBossEnergyProjectile Implements IHasHealth Namespace : StormHawks.Runtime.Entities.Enemies.Projectiles Assembly : cs.temp.dll.dll Syntax public class DestructibleBossEnergyProjectile : Projectile Properties CurrentHealth Declaration public float CurrentHealth { get; } Property Value Type Description Single HealthSO Declaration public EntityHealthSO HealthSO { get; } Property Value Type Description EntityHealthSO Methods OnSpawn() Declaration public override void OnSpawn() TakeDamage(Vector3, Single) Declaration public void TakeDamage(Vector3 dir, float damage) Parameters Type Name Description Vector3 dir Single damage Implements IHasHealth"
+  },
   "api/StormHawks.Runtime.Entities.Enemies.Projectiles.EnemyBullet.html": {
     "href": "api/StormHawks.Runtime.Entities.Enemies.Projectiles.EnemyBullet.html",
     "title": "Class EnemyBullet | Developer Reference",
@@ -907,7 +912,7 @@
   "api/StormHawks.Runtime.Entities.Enemies.Projectiles.html": {
     "href": "api/StormHawks.Runtime.Entities.Enemies.Projectiles.html",
     "title": "Namespace StormHawks.Runtime.Entities.Enemies.Projectiles | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Entities.Enemies.Projectiles Classes BossEnergyProjectile BossHomingMissile EnemyBullet EnemyFenceProjectile EnemyHomingMissile MissileEliteEnergyProjectile"
+    "keywords": "Namespace StormHawks.Runtime.Entities.Enemies.Projectiles Classes BossEnergyProjectile BossHomingMissile DestructibleBossEnergyProjectile EnemyBullet EnemyFenceProjectile EnemyHomingMissile MissileEliteEnergyProjectile"
   },
   "api/StormHawks.Runtime.Entities.Enemies.Projectiles.MissileEliteEnergyProjectile.html": {
     "href": "api/StormHawks.Runtime.Entities.Enemies.Projectiles.MissileEliteEnergyProjectile.html",
@@ -1142,7 +1147,7 @@
   "api/StormHawks.Runtime.Entities.Weapons.BossEnergyWeapon.html": {
     "href": "api/StormHawks.Runtime.Entities.Weapons.BossEnergyWeapon.html",
     "title": "Class BossEnergyWeapon | Developer Reference",
-    "keywords": "Class BossEnergyWeapon Inheritance Object EntityWeapon EntityWeapon < Projectile > EntityProjectileWeapon BossEnergyWeapon Implements IPoolable < BossEnergyWeapon > Inherited Members EntityProjectileWeapon.Start() EntityProjectileWeapon.OnGetObject(Projectile) EntityProjectileWeapon.OnReleaseObject(Projectile) EntityProjectileWeapon.IsActive EntityWeapon<Projectile>.GetPool() EntityWeapon<Projectile>.prefab EntityWeapon<Projectile>.OnEnable() EntityWeapon<Projectile>.OnDisable() EntityWeapon<Projectile>.GetChargeEffect() EntityWeapon<Projectile>.GetMuzzleEffect() EntityWeapon._fire EntityWeapon.FmodEvent EntityWeapon.IsFiring EntityWeapon.VirtualTarget EntityWeapon.OnCharged EntityWeapon.OnChargeCanceled EntityWeapon.OnDestroy() EntityWeapon.SetWeapon(IEntityFire) EntityWeapon.Fire() EntityWeapon.Cancel() EntityWeapon.OnFireFinished() Namespace : StormHawks.Runtime.Entities.Weapons Assembly : cs.temp.dll.dll Syntax public class BossEnergyWeapon : EntityProjectileWeapon Properties IsCharging Declaration public bool IsCharging { get; } Property Value Type Description Boolean Pool Declaration public MonoObjectPool<BossEnergyWeapon> Pool { get; set; } Property Value Type Description MonoObjectPool < BossEnergyWeapon > Methods OnRelease() Declaration public void OnRelease() OnSpawn() Declaration public void OnSpawn() Implements IPoolable<>"
+    "keywords": "Class BossEnergyWeapon Inheritance Object EntityWeapon EntityWeapon < Projectile > EntityProjectileWeapon BossEnergyWeapon Implements IPoolable < BossEnergyWeapon > Inherited Members EntityProjectileWeapon.Start() EntityProjectileWeapon.OnGetObject(Projectile) EntityProjectileWeapon.OnReleaseObject(Projectile) EntityProjectileWeapon.IsActive EntityWeapon<Projectile>.GetPool() EntityWeapon<Projectile>.prefab EntityWeapon<Projectile>.OnEnable() EntityWeapon<Projectile>.OnDisable() EntityWeapon<Projectile>.GetChargeEffect() EntityWeapon<Projectile>.GetMuzzleEffect() EntityWeapon._fire EntityWeapon.FmodEvent EntityWeapon.IsFiring EntityWeapon.VirtualTarget EntityWeapon.OnCharged EntityWeapon.OnChargeCanceled EntityWeapon.IsCharging EntityWeapon.OnDestroy() EntityWeapon.SetWeapon(IEntityFire) EntityWeapon.Fire() Namespace : StormHawks.Runtime.Entities.Weapons Assembly : cs.temp.dll.dll Syntax public class BossEnergyWeapon : EntityProjectileWeapon Properties Pool Declaration public MonoObjectPool<BossEnergyWeapon> Pool { get; set; } Property Value Type Description MonoObjectPool < BossEnergyWeapon > Methods Cancel() Declaration public override void Cancel() Overrides EntityWeapon.Cancel() OnFireFinished() Declaration protected override void OnFireFinished() Overrides EntityWeapon.OnFireFinished() OnRelease() Declaration public void OnRelease() OnSpawn() Declaration public void OnSpawn() Implements IPoolable<>"
   },
   "api/StormHawks.Runtime.Entities.Weapons.BossEnergyWeaponMaker.html": {
     "href": "api/StormHawks.Runtime.Entities.Weapons.BossEnergyWeaponMaker.html",
@@ -2327,12 +2332,17 @@
   "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.BossAction.html": {
     "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.BossAction.html",
     "title": "Class BossAction | Developer Reference",
-    "keywords": "Class BossAction Inheritance Object EntityActionNode BossAction BossFireEnergyBullets BossLaserAttackToShieldGenerator OrbitRotateAround SpawnMissileElite Inherited Members EntityActionNode._rotator EntityActionNode._runnerTransform EntityActionNode.OnInitialize() Namespace : StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions Assembly : cs.temp.dll.dll Syntax [Serializable] public abstract class BossAction : EntityActionNode Fields _bossEntity Declaration protected BossEntity _bossEntity Field Value Type Description BossEntity IS_ATTACKING Declaration protected const string IS_ATTACKING = \"IsAttacking\" Field Value Type Description String Methods OnEnter() Declaration protected override void OnEnter()"
+    "keywords": "Class BossAction Inheritance Object EntityActionNode BossAction BossFireEnergyBullets BossFireEnergyBulletToShieldGenerator BossLaserAttackToShieldGenerator OrbitRotateAround SpawnMissileElite Inherited Members EntityActionNode._rotator EntityActionNode._runnerTransform EntityActionNode.OnInitialize() Namespace : StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions Assembly : cs.temp.dll.dll Syntax [Serializable] public abstract class BossAction : EntityActionNode Fields _bossEntity Declaration protected BossEntity _bossEntity Field Value Type Description BossEntity IS_ATTACKING Declaration protected const string IS_ATTACKING = \"IsAttacking\" Field Value Type Description String Methods OnEnter() Declaration protected override void OnEnter()"
   },
   "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.BossFireEnergyBullets.html": {
     "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.BossFireEnergyBullets.html",
     "title": "Class BossFireEnergyBullets | Developer Reference",
     "keywords": "Class BossFireEnergyBullets Inheritance Object EntityActionNode BossAction BossFireEnergyBullets Inherited Members BossAction._bossEntity BossAction.IS_ATTACKING EntityActionNode._rotator EntityActionNode._runnerTransform EntityActionNode.OnInitialize() Namespace : StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions Assembly : cs.temp.dll.dll Syntax [Serializable] public class BossFireEnergyBullets : BossAction Methods OnEnter() Declaration protected override void OnEnter() Overrides BossAction.OnEnter() OnExit() Declaration protected override void OnExit() OnRun() Declaration protected override BehaviorNodeState OnRun() Returns Type Description BehaviorNodeState"
+  },
+  "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.BossFireEnergyBulletToShieldGenerator.html": {
+    "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.BossFireEnergyBulletToShieldGenerator.html",
+    "title": "Class BossFireEnergyBulletToShieldGenerator | Developer Reference",
+    "keywords": "Class BossFireEnergyBulletToShieldGenerator Inheritance Object EntityActionNode BossAction BossFireEnergyBulletToShieldGenerator Inherited Members BossAction._bossEntity BossAction.IS_ATTACKING EntityActionNode._rotator EntityActionNode._runnerTransform EntityActionNode.OnInitialize() Namespace : StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions Assembly : cs.temp.dll.dll Syntax [Serializable] public class BossFireEnergyBulletToShieldGenerator : BossAction Methods OnEnter() Declaration protected override void OnEnter() Overrides BossAction.OnEnter() OnExit() Declaration protected override void OnExit() OnRun() Declaration protected override BehaviorNodeState OnRun() Returns Type Description BehaviorNodeState"
   },
   "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.BossLaserAttackToShieldGenerator.html": {
     "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.BossLaserAttackToShieldGenerator.html",
@@ -2342,7 +2352,7 @@
   "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.html": {
     "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.html",
     "title": "Namespace StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions Classes BossAction BossFireEnergyBullets BossLaserAttackToShieldGenerator OrbitRotateAround SpawnMissileElite"
+    "keywords": "Namespace StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions Classes BossAction BossFireEnergyBullets BossFireEnergyBulletToShieldGenerator BossLaserAttackToShieldGenerator OrbitRotateAround SpawnMissileElite"
   },
   "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.OrbitRotateAround.html": {
     "href": "api/StormHawks.Runtime.Utilities.BehaviorTree.Nodes.Actions.BossActions.OrbitRotateAround.html",

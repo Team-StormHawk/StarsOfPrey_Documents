@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class RotateStateChecker
+    <title>Class WaitAnyFlow
    | Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class RotateStateChecker
+    <meta name="title" content="Class WaitAnyFlow
    | Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -78,46 +78,57 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Scenes.Tutorials.Triggers.RotateStateChecker">
+            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.FlowSystem.Types.WaitAnyFlow">
   
   
-  <h1 id="StormHawks_Runtime_Scenes_Tutorials_Triggers_RotateStateChecker" data-uid="StormHawks.Runtime.Scenes.Tutorials.Triggers.RotateStateChecker" class="text-break">Class RotateStateChecker
+  <h1 id="StormHawks_Runtime_FlowSystem_Types_WaitAnyFlow" data-uid="StormHawks.Runtime.FlowSystem.Types.WaitAnyFlow" class="text-break">Class WaitAnyFlow
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><a class="xref" href="StormHawks.Runtime.Scenes.Tutorials.Triggers.EventStateChecker.html">EventStateChecker</a></div>
-    <div class="level2"><span class="xref">RotateStateChecker</span></div>
+    <div class="level1"><a class="xref" href="StormHawks.Runtime.FlowSystem.Types.FlowBase.html">FlowBase</a></div>
+    <div class="level2"><span class="xref">WaitAnyFlow</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <a class="xref" href="StormHawks.Runtime.Scenes.Tutorials.Triggers.EventStateChecker.html#StormHawks_Runtime_Scenes_Tutorials_Triggers_EventStateChecker_IsEventTriggered">EventStateChecker.IsEventTriggered</a>
+      <a class="xref" href="StormHawks.Runtime.FlowSystem.Types.FlowBase.html#StormHawks_Runtime_FlowSystem_Types_FlowBase_children">FlowBase.children</a>
     </div>
     <div>
-      <a class="xref" href="StormHawks.Runtime.Scenes.Tutorials.Triggers.EventStateChecker.html#StormHawks_Runtime_Scenes_Tutorials_Triggers_EventStateChecker_CurrentState">EventStateChecker.CurrentState</a>
+      <a class="xref" href="StormHawks.Runtime.FlowSystem.Types.FlowBase.html#StormHawks_Runtime_FlowSystem_Types_FlowBase_FlowCancellationToken">FlowBase.FlowCancellationToken</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.FlowSystem.Types.FlowBase.html#StormHawks_Runtime_FlowSystem_Types_FlowBase_Awake">FlowBase.Awake()</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.FlowSystem.Types.FlowBase.html#StormHawks_Runtime_FlowSystem_Types_FlowBase_OnDestroy">FlowBase.OnDestroy()</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.FlowSystem.Types.FlowBase.html#StormHawks_Runtime_FlowSystem_Types_FlowBase_Run">FlowBase.Run()</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.FlowSystem.Types.FlowBase.html#StormHawks_Runtime_FlowSystem_Types_FlowBase_CancelFlow">FlowBase.CancelFlow()</a>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Scenes.Tutorials.Triggers.html">StormHawks.Runtime.Scenes.Tutorials.Triggers</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.FlowSystem.Types.html">StormHawks.Runtime.FlowSystem.Types</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="StormHawks_Runtime_Scenes_Tutorials_Triggers_RotateStateChecker_syntax">Syntax</h5>
+  <h5 id="StormHawks_Runtime_FlowSystem_Types_WaitAnyFlow_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Serializable]
-public class RotateStateChecker : EventStateChecker</code></pre>
+    <pre><code class="lang-csharp hljs">public class WaitAnyFlow : FlowBase</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="StormHawks_Runtime_Scenes_Tutorials_Triggers_RotateStateChecker_Check_" data-uid="StormHawks.Runtime.Scenes.Tutorials.Triggers.RotateStateChecker.Check*"></a>
-  <h4 id="StormHawks_Runtime_Scenes_Tutorials_Triggers_RotateStateChecker_Check" data-uid="StormHawks.Runtime.Scenes.Tutorials.Triggers.RotateStateChecker.Check">Check()</h4>
+  <a id="StormHawks_Runtime_FlowSystem_Types_WaitAnyFlow_Execute_" data-uid="StormHawks.Runtime.FlowSystem.Types.WaitAnyFlow.Execute*"></a>
+  <h4 id="StormHawks_Runtime_FlowSystem_Types_WaitAnyFlow_Execute" data-uid="StormHawks.Runtime.FlowSystem.Types.WaitAnyFlow.Execute">Execute()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override async UniTask&lt;EventStateChecker.State&gt; Check()</code></pre>
+    <pre><code class="lang-csharp hljs">protected override async UniTask Execute()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -129,13 +140,67 @@ public class RotateStateChecker : EventStateChecker</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">UniTask</span>&lt;<a class="xref" href="StormHawks.Runtime.Scenes.Tutorials.Triggers.EventStateChecker.State.html">EventStateChecker.State</a>&gt;</td>
+        <td><span class="xref">UniTask</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="StormHawks.Runtime.Scenes.Tutorials.Triggers.EventStateChecker.html#StormHawks_Runtime_Scenes_Tutorials_Triggers_EventStateChecker_Check">EventStateChecker.Check()</a></div>
+  <div><a class="xref" href="StormHawks.Runtime.FlowSystem.Types.FlowBase.html#StormHawks_Runtime_FlowSystem_Types_FlowBase_Execute">FlowBase.Execute()</a></div>
+  
+  
+  <a id="StormHawks_Runtime_FlowSystem_Types_WaitAnyFlow_OnEnter_" data-uid="StormHawks.Runtime.FlowSystem.Types.WaitAnyFlow.OnEnter*"></a>
+  <h4 id="StormHawks_Runtime_FlowSystem_Types_WaitAnyFlow_OnEnter" data-uid="StormHawks.Runtime.FlowSystem.Types.WaitAnyFlow.OnEnter">OnEnter()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override async UniTask OnEnter()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UniTask</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="StormHawks.Runtime.FlowSystem.Types.FlowBase.html#StormHawks_Runtime_FlowSystem_Types_FlowBase_OnEnter">FlowBase.OnEnter()</a></div>
+  
+  
+  <a id="StormHawks_Runtime_FlowSystem_Types_WaitAnyFlow_OnExit_" data-uid="StormHawks.Runtime.FlowSystem.Types.WaitAnyFlow.OnExit*"></a>
+  <h4 id="StormHawks_Runtime_FlowSystem_Types_WaitAnyFlow_OnExit" data-uid="StormHawks.Runtime.FlowSystem.Types.WaitAnyFlow.OnExit">OnExit()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override async UniTask OnExit()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UniTask</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="StormHawks.Runtime.FlowSystem.Types.FlowBase.html#StormHawks_Runtime_FlowSystem_Types_FlowBase_OnExit">FlowBase.OnExit()</a></div>
 </article>
           </div>
           

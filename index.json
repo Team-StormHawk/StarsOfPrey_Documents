@@ -492,12 +492,17 @@
   "api/StormHawks.Editor.Utilities.html": {
     "href": "api/StormHawks.Editor.Utilities.html",
     "title": "Namespace StormHawks.Editor.Utilities | Developer Reference",
-    "keywords": "Namespace StormHawks.Editor.Utilities Classes CommonEditorUtility DataMenuEditorWindow DataMenuSettingEditor OuterGridEditor"
+    "keywords": "Namespace StormHawks.Editor.Utilities Classes CommonEditorUtility DataMenuEditorWindow DataMenuSettingEditor OuterGridEditor TextUtility"
   },
   "api/StormHawks.Editor.Utilities.OuterGridEditor.html": {
     "href": "api/StormHawks.Editor.Utilities.OuterGridEditor.html",
     "title": "Class OuterGridEditor | Developer Reference",
     "keywords": "Class OuterGridEditor Inheritance Object OuterGridEditor Namespace : StormHawks.Editor.Utilities Assembly : cs.temp.dll.dll Syntax public class OuterGridEditor : OdinEditor Methods OnEnable() Declaration protected override void OnEnable()"
+  },
+  "api/StormHawks.Editor.Utilities.TextUtility.html": {
+    "href": "api/StormHawks.Editor.Utilities.TextUtility.html",
+    "title": "Class TextUtility | Developer Reference",
+    "keywords": "Class TextUtility Inheritance Object TextUtility Namespace : StormHawks.Editor.Utilities Assembly : cs.temp.dll.dll Syntax public static class TextUtility Methods IsWhitespace(Char) Declaration public static bool IsWhitespace(this char character) Parameters Type Name Description Char character Returns Type Description Boolean RemoveSpecialCharacters(String) Declaration public static string RemoveSpecialCharacters(this string text) Parameters Type Name Description String text Returns Type Description String RemoveWhitespaces(String) Declaration public static string RemoveWhitespaces(this string text) Parameters Type Name Description String text Returns Type Description String"
   },
   "api/StormHawks.Runtime.App.html": {
     "href": "api/StormHawks.Runtime.App.html",
@@ -1354,6 +1359,136 @@
     "title": "Namespace StormHawks.Runtime.Environments.Spawners | Developer Reference",
     "keywords": "Namespace StormHawks.Runtime.Environments.Spawners Classes EliteEnemySpawner"
   },
+  "api/StormHawks.Runtime.FlowSystem.FlowRunner.html": {
+    "href": "api/StormHawks.Runtime.FlowSystem.FlowRunner.html",
+    "title": "Class FlowRunner | Developer Reference",
+    "keywords": "Class FlowRunner Inheritance Object FlowRunner Namespace : StormHawks.Runtime.FlowSystem Assembly : cs.temp.dll.dll Syntax public class FlowRunner : MonoBehaviour Methods Run() Declaration public async UniTask Run() Returns Type Description UniTask"
+  },
+  "api/StormHawks.Runtime.FlowSystem.html": {
+    "href": "api/StormHawks.Runtime.FlowSystem.html",
+    "title": "Namespace StormHawks.Runtime.FlowSystem | Developer Reference",
+    "keywords": "Namespace StormHawks.Runtime.FlowSystem Classes FlowRunner TutorialRunner"
+  },
+  "api/StormHawks.Runtime.FlowSystem.Tools.Dialogues.Avatar.Emotion.html": {
+    "href": "api/StormHawks.Runtime.FlowSystem.Tools.Dialogues.Avatar.Emotion.html",
+    "title": "Enum Avatar.Emotion | Developer Reference",
+    "keywords": "Enum Avatar.Emotion Namespace : StormHawks.Runtime.FlowSystem.Tools.Dialogues Assembly : cs.temp.dll.dll Syntax public enum Emotion Fields Name Description Anger Embarrass Idle Ignore Laugh Question Smile"
+  },
+  "api/StormHawks.Runtime.FlowSystem.Tools.Dialogues.Avatar.EmotionDictionary.html": {
+    "href": "api/StormHawks.Runtime.FlowSystem.Tools.Dialogues.Avatar.EmotionDictionary.html",
+    "title": "Class Avatar.EmotionDictionary | Developer Reference",
+    "keywords": "Class Avatar.EmotionDictionary Inheritance Object Avatar.EmotionDictionary Namespace : StormHawks.Runtime.FlowSystem.Tools.Dialogues Assembly : cs.temp.dll.dll Syntax [Serializable] public class EmotionDictionary : UnitySerializedDictionary<Avatar.Emotion, Sprite>"
+  },
+  "api/StormHawks.Runtime.FlowSystem.Tools.Dialogues.Avatar.html": {
+    "href": "api/StormHawks.Runtime.FlowSystem.Tools.Dialogues.Avatar.html",
+    "title": "Class Avatar | Developer Reference",
+    "keywords": "Class Avatar Inheritance Object Avatar Namespace : StormHawks.Runtime.FlowSystem.Tools.Dialogues Assembly : cs.temp.dll.dll Syntax public class Avatar : ScriptableObject Properties Nickname Declaration public string Nickname { get; } Property Value Type Description String Methods GetSprite(Avatar.Emotion) Declaration public Sprite GetSprite(Avatar.Emotion emotion = Avatar.Emotion.Idle) Parameters Type Name Description Avatar.Emotion emotion Returns Type Description Sprite"
+  },
+  "api/StormHawks.Runtime.FlowSystem.Tools.Dialogues.Dialogue.html": {
+    "href": "api/StormHawks.Runtime.FlowSystem.Tools.Dialogues.Dialogue.html",
+    "title": "Class Dialogue | Developer Reference",
+    "keywords": "Class Dialogue Inheritance Object Dialogue Namespace : StormHawks.Runtime.FlowSystem.Tools.Dialogues Assembly : cs.temp.dll.dll Syntax [Serializable] public class Dialogue Properties Avatar Declaration public Avatar Avatar { get; } Property Value Type Description Avatar Content Declaration public string Content { get; } Property Value Type Description String Emotion Declaration public Avatar.Emotion Emotion { get; } Property Value Type Description Avatar.Emotion VoiceClip Declaration public AudioClip VoiceClip { get; } Property Value Type Description AudioClip"
+  },
+  "api/StormHawks.Runtime.FlowSystem.Tools.Dialogues.DialogueUI.html": {
+    "href": "api/StormHawks.Runtime.FlowSystem.Tools.Dialogues.DialogueUI.html",
+    "title": "Class DialogueUI | Developer Reference",
+    "keywords": "Class DialogueUI Inheritance Object DialogueUI Namespace : StormHawks.Runtime.FlowSystem.Tools.Dialogues Assembly : cs.temp.dll.dll Syntax public class DialogueUI : MonoBehaviour Properties CharacterImage Declaration public Image CharacterImage { get; } Property Value Type Description Image ContentText Declaration public TextMeshProUGUI ContentText { get; } Property Value Type Description TextMeshProUGUI NicknameText Declaration public TextMeshProUGUI NicknameText { get; } Property Value Type Description TextMeshProUGUI VoiceSource Declaration public AudioSource VoiceSource { get; } Property Value Type Description AudioSource Methods Display(Dialogue, CancellationToken) Declaration public async UniTask Display(Dialogue dialogue, CancellationToken cancellationToken = null) Parameters Type Name Description Dialogue dialogue CancellationToken cancellationToken Returns Type Description UniTask PlayVoice(AudioClip, CancellationToken) Declaration public async UniTask PlayVoice(AudioClip voice, CancellationToken cancellationToken = null) Parameters Type Name Description AudioClip voice CancellationToken cancellationToken Returns Type Description UniTask SetAvatar(Avatar, Avatar.Emotion) Declaration public void SetAvatar(Avatar avatar, Avatar.Emotion emotion) Parameters Type Name Description Avatar avatar Avatar.Emotion emotion TypeText(String, CancellationToken) Declaration public async UniTask TypeText(string content, CancellationToken cancellationToken = null) Parameters Type Name Description String content CancellationToken cancellationToken Returns Type Description UniTask"
+  },
+  "api/StormHawks.Runtime.FlowSystem.Tools.Dialogues.html": {
+    "href": "api/StormHawks.Runtime.FlowSystem.Tools.Dialogues.html",
+    "title": "Namespace StormHawks.Runtime.FlowSystem.Tools.Dialogues | Developer Reference",
+    "keywords": "Namespace StormHawks.Runtime.FlowSystem.Tools.Dialogues Classes Avatar Avatar.EmotionDictionary Dialogue DialogueUI Enums Avatar.Emotion"
+  },
+  "api/StormHawks.Runtime.FlowSystem.Tools.StateChecker.BoostStateChecker.html": {
+    "href": "api/StormHawks.Runtime.FlowSystem.Tools.StateChecker.BoostStateChecker.html",
+    "title": "Class BoostStateChecker | Developer Reference",
+    "keywords": "Class BoostStateChecker Inheritance Object StateChecker BoostStateChecker Inherited Members StateChecker.Run() Namespace : StormHawks.Runtime.FlowSystem.Tools.StateChecker Assembly : cs.temp.dll.dll Syntax public class BoostStateChecker : StateChecker Methods Check() Declaration protected override async UniTask Check() Returns Type Description UniTask Overrides StateChecker.Check() End() Declaration protected override async UniTask End() Returns Type Description UniTask Overrides StateChecker.End() Ready() Declaration protected override async UniTask Ready() Returns Type Description UniTask Overrides StateChecker.Ready()"
+  },
+  "api/StormHawks.Runtime.FlowSystem.Tools.StateChecker.EnemyDestroyStateChecker.html": {
+    "href": "api/StormHawks.Runtime.FlowSystem.Tools.StateChecker.EnemyDestroyStateChecker.html",
+    "title": "Class EnemyDestroyStateChecker | Developer Reference",
+    "keywords": "Class EnemyDestroyStateChecker Inheritance Object StateChecker EnemyDestroyStateChecker Inherited Members StateChecker.Run() Namespace : StormHawks.Runtime.FlowSystem.Tools.StateChecker Assembly : cs.temp.dll.dll Syntax public class EnemyDestroyStateChecker : StateChecker Methods Check() Declaration protected override async UniTask Check() Returns Type Description UniTask Overrides StateChecker.Check() End() Declaration protected override async UniTask End() Returns Type Description UniTask Overrides StateChecker.End() Ready() Declaration protected override async UniTask Ready() Returns Type Description UniTask Overrides StateChecker.Ready()"
+  },
+  "api/StormHawks.Runtime.FlowSystem.Tools.StateChecker.html": {
+    "href": "api/StormHawks.Runtime.FlowSystem.Tools.StateChecker.html",
+    "title": "Namespace StormHawks.Runtime.FlowSystem.Tools.StateChecker | Developer Reference",
+    "keywords": "Namespace StormHawks.Runtime.FlowSystem.Tools.StateChecker Classes BoostStateChecker EnemyDestroyStateChecker RotateStateChecker StateChecker TestStateChecker ThrustStateChecker Enums RotateStateChecker.RotateAxis"
+  },
+  "api/StormHawks.Runtime.FlowSystem.Tools.StateChecker.RotateStateChecker.html": {
+    "href": "api/StormHawks.Runtime.FlowSystem.Tools.StateChecker.RotateStateChecker.html",
+    "title": "Class RotateStateChecker | Developer Reference",
+    "keywords": "Class RotateStateChecker Inheritance Object StateChecker RotateStateChecker Inherited Members StateChecker.Run() Namespace : StormHawks.Runtime.FlowSystem.Tools.StateChecker Assembly : cs.temp.dll.dll Syntax public class RotateStateChecker : StateChecker Methods Check() Declaration protected override async UniTask Check() Returns Type Description UniTask Overrides StateChecker.Check() End() Declaration protected override async UniTask End() Returns Type Description UniTask Overrides StateChecker.End() Ready() Declaration protected override async UniTask Ready() Returns Type Description UniTask Overrides StateChecker.Ready()"
+  },
+  "api/StormHawks.Runtime.FlowSystem.Tools.StateChecker.RotateStateChecker.RotateAxis.html": {
+    "href": "api/StormHawks.Runtime.FlowSystem.Tools.StateChecker.RotateStateChecker.RotateAxis.html",
+    "title": "Enum RotateStateChecker.RotateAxis | Developer Reference",
+    "keywords": "Enum RotateStateChecker.RotateAxis Namespace : StormHawks.Runtime.FlowSystem.Tools.StateChecker Assembly : cs.temp.dll.dll Syntax public enum RotateAxis Fields Name Description Pitch Roll Yaw"
+  },
+  "api/StormHawks.Runtime.FlowSystem.Tools.StateChecker.StateChecker.html": {
+    "href": "api/StormHawks.Runtime.FlowSystem.Tools.StateChecker.StateChecker.html",
+    "title": "Class StateChecker | Developer Reference",
+    "keywords": "Class StateChecker Inheritance Object StateChecker BoostStateChecker EnemyDestroyStateChecker RotateStateChecker TestStateChecker ThrustStateChecker Namespace : StormHawks.Runtime.FlowSystem.Tools.StateChecker Assembly : cs.temp.dll.dll Syntax public abstract class StateChecker : MonoBehaviour Methods Check() Declaration protected virtual async UniTask Check() Returns Type Description UniTask End() Declaration protected virtual async UniTask End() Returns Type Description UniTask Ready() Declaration protected virtual async UniTask Ready() Returns Type Description UniTask Run() Declaration public async UniTask Run() Returns Type Description UniTask"
+  },
+  "api/StormHawks.Runtime.FlowSystem.Tools.StateChecker.TestStateChecker.html": {
+    "href": "api/StormHawks.Runtime.FlowSystem.Tools.StateChecker.TestStateChecker.html",
+    "title": "Class TestStateChecker | Developer Reference",
+    "keywords": "Class TestStateChecker Inheritance Object StateChecker TestStateChecker Inherited Members StateChecker.Run() Namespace : StormHawks.Runtime.FlowSystem.Tools.StateChecker Assembly : cs.temp.dll.dll Syntax public class TestStateChecker : StateChecker Methods Check() Declaration protected override async UniTask Check() Returns Type Description UniTask Overrides StateChecker.Check() End() Declaration protected override async UniTask End() Returns Type Description UniTask Overrides StateChecker.End() Ready() Declaration protected override async UniTask Ready() Returns Type Description UniTask Overrides StateChecker.Ready()"
+  },
+  "api/StormHawks.Runtime.FlowSystem.Tools.StateChecker.ThrustStateChecker.html": {
+    "href": "api/StormHawks.Runtime.FlowSystem.Tools.StateChecker.ThrustStateChecker.html",
+    "title": "Class ThrustStateChecker | Developer Reference",
+    "keywords": "Class ThrustStateChecker Inheritance Object StateChecker ThrustStateChecker Inherited Members StateChecker.Run() Namespace : StormHawks.Runtime.FlowSystem.Tools.StateChecker Assembly : cs.temp.dll.dll Syntax public class ThrustStateChecker : StateChecker Methods Check() Declaration protected override async UniTask Check() Returns Type Description UniTask Overrides StateChecker.Check() End() Declaration protected override async UniTask End() Returns Type Description UniTask Overrides StateChecker.End() Ready() Declaration protected override async UniTask Ready() Returns Type Description UniTask Overrides StateChecker.Ready()"
+  },
+  "api/StormHawks.Runtime.FlowSystem.TutorialRunner.html": {
+    "href": "api/StormHawks.Runtime.FlowSystem.TutorialRunner.html",
+    "title": "Class TutorialRunner | Developer Reference",
+    "keywords": "Class TutorialRunner Inheritance Object TutorialRunner Namespace : StormHawks.Runtime.FlowSystem Assembly : cs.temp.dll.dll Syntax public class TutorialRunner : MonoBehaviour Fields OnTutorialEnd Declaration public UnityEvent OnTutorialEnd Field Value Type Description UnityEvent OnTutorialStart Declaration public UnityEvent OnTutorialStart Field Value Type Description UnityEvent"
+  },
+  "api/StormHawks.Runtime.FlowSystem.Types.CancelFlow.html": {
+    "href": "api/StormHawks.Runtime.FlowSystem.Types.CancelFlow.html",
+    "title": "Class CancelFlow | Developer Reference",
+    "keywords": "Class CancelFlow Inheritance Object FlowBase CancelFlow Inherited Members FlowBase.children FlowBase.FlowCancellationToken FlowBase.Awake() FlowBase.OnDestroy() FlowBase.Run() FlowBase.CancelFlow() Namespace : StormHawks.Runtime.FlowSystem.Types Assembly : cs.temp.dll.dll Syntax public class CancelFlow : FlowBase Methods Execute() Declaration protected override async UniTask Execute() Returns Type Description UniTask Overrides FlowBase.Execute() OnEnter() Declaration protected override async UniTask OnEnter() Returns Type Description UniTask Overrides FlowBase.OnEnter() OnExit() Declaration protected override async UniTask OnExit() Returns Type Description UniTask Overrides FlowBase.OnExit()"
+  },
+  "api/StormHawks.Runtime.FlowSystem.Types.DelayFlow.html": {
+    "href": "api/StormHawks.Runtime.FlowSystem.Types.DelayFlow.html",
+    "title": "Class DelayFlow | Developer Reference",
+    "keywords": "Class DelayFlow Inheritance Object FlowBase DelayFlow Inherited Members FlowBase.children FlowBase.FlowCancellationToken FlowBase.Awake() FlowBase.OnDestroy() FlowBase.Run() FlowBase.CancelFlow() Namespace : StormHawks.Runtime.FlowSystem.Types Assembly : cs.temp.dll.dll Syntax public class DelayFlow : FlowBase Methods Execute() Declaration protected override async UniTask Execute() Returns Type Description UniTask Overrides FlowBase.Execute() OnEnter() Declaration protected override async UniTask OnEnter() Returns Type Description UniTask Overrides FlowBase.OnEnter() OnExit() Declaration protected override async UniTask OnExit() Returns Type Description UniTask Overrides FlowBase.OnExit()"
+  },
+  "api/StormHawks.Runtime.FlowSystem.Types.DialogueFlow.html": {
+    "href": "api/StormHawks.Runtime.FlowSystem.Types.DialogueFlow.html",
+    "title": "Class DialogueFlow | Developer Reference",
+    "keywords": "Class DialogueFlow Inheritance Object FlowBase DialogueFlow Inherited Members FlowBase.children FlowBase.FlowCancellationToken FlowBase.Awake() FlowBase.OnDestroy() FlowBase.Run() FlowBase.CancelFlow() Namespace : StormHawks.Runtime.FlowSystem.Types Assembly : cs.temp.dll.dll Syntax public class DialogueFlow : FlowBase Methods Execute() Declaration protected override async UniTask Execute() Returns Type Description UniTask Overrides FlowBase.Execute() OnEnter() Declaration protected override async UniTask OnEnter() Returns Type Description UniTask Overrides FlowBase.OnEnter() OnExit() Declaration protected override async UniTask OnExit() Returns Type Description UniTask Overrides FlowBase.OnExit() SetDialogueUI(DialogueUI) Declaration public void SetDialogueUI(DialogueUI ui) Parameters Type Name Description DialogueUI ui"
+  },
+  "api/StormHawks.Runtime.FlowSystem.Types.EventInvokeFlow.html": {
+    "href": "api/StormHawks.Runtime.FlowSystem.Types.EventInvokeFlow.html",
+    "title": "Class EventInvokeFlow | Developer Reference",
+    "keywords": "Class EventInvokeFlow Inheritance Object FlowBase EventInvokeFlow Inherited Members FlowBase.children FlowBase.FlowCancellationToken FlowBase.Awake() FlowBase.OnDestroy() FlowBase.Run() FlowBase.CancelFlow() Namespace : StormHawks.Runtime.FlowSystem.Types Assembly : cs.temp.dll.dll Syntax public class EventInvokeFlow : FlowBase Fields OnExecuteEvent Declaration public UnityEvent OnExecuteEvent Field Value Type Description UnityEvent Methods Execute() Declaration protected override async UniTask Execute() Returns Type Description UniTask Overrides FlowBase.Execute() OnEnter() Declaration protected override async UniTask OnEnter() Returns Type Description UniTask Overrides FlowBase.OnEnter() OnExit() Declaration protected override async UniTask OnExit() Returns Type Description UniTask Overrides FlowBase.OnExit() Events OnExecuteAction Declaration public event UnityAction OnExecuteAction Event Type Type Description UnityAction"
+  },
+  "api/StormHawks.Runtime.FlowSystem.Types.FlowBase.html": {
+    "href": "api/StormHawks.Runtime.FlowSystem.Types.FlowBase.html",
+    "title": "Class FlowBase | Developer Reference",
+    "keywords": "Class FlowBase Inheritance Object FlowBase CancelFlow DelayFlow DialogueFlow EventInvokeFlow StateCheckFlow WaitAllFlow WaitAnyFlow Namespace : StormHawks.Runtime.FlowSystem.Types Assembly : cs.temp.dll.dll Syntax public abstract class FlowBase : MonoBehaviour Fields children Declaration protected List<FlowBase> children Field Value Type Description List < FlowBase > Properties FlowCancellationToken Declaration protected CancellationToken FlowCancellationToken { get; } Property Value Type Description CancellationToken Methods Awake() Declaration protected virtual void Awake() CancelFlow() Declaration public void CancelFlow() Execute() Declaration protected virtual async UniTask Execute() Returns Type Description UniTask OnDestroy() Declaration protected virtual void OnDestroy() OnEnter() Declaration protected virtual async UniTask OnEnter() Returns Type Description UniTask OnExit() Declaration protected virtual async UniTask OnExit() Returns Type Description UniTask Run() Declaration public async UniTask Run() Returns Type Description UniTask"
+  },
+  "api/StormHawks.Runtime.FlowSystem.Types.html": {
+    "href": "api/StormHawks.Runtime.FlowSystem.Types.html",
+    "title": "Namespace StormHawks.Runtime.FlowSystem.Types | Developer Reference",
+    "keywords": "Namespace StormHawks.Runtime.FlowSystem.Types Classes CancelFlow DelayFlow DialogueFlow EventInvokeFlow FlowBase StateCheckFlow WaitAllFlow WaitAnyFlow"
+  },
+  "api/StormHawks.Runtime.FlowSystem.Types.StateCheckFlow.html": {
+    "href": "api/StormHawks.Runtime.FlowSystem.Types.StateCheckFlow.html",
+    "title": "Class StateCheckFlow | Developer Reference",
+    "keywords": "Class StateCheckFlow Inheritance Object FlowBase StateCheckFlow Inherited Members FlowBase.children FlowBase.FlowCancellationToken FlowBase.Awake() FlowBase.OnDestroy() FlowBase.Run() FlowBase.CancelFlow() Namespace : StormHawks.Runtime.FlowSystem.Types Assembly : cs.temp.dll.dll Syntax public class StateCheckFlow : FlowBase Methods Execute() Declaration protected override async UniTask Execute() Returns Type Description UniTask Overrides FlowBase.Execute() OnEnter() Declaration protected override async UniTask OnEnter() Returns Type Description UniTask Overrides FlowBase.OnEnter() OnExit() Declaration protected override async UniTask OnExit() Returns Type Description UniTask Overrides FlowBase.OnExit()"
+  },
+  "api/StormHawks.Runtime.FlowSystem.Types.WaitAllFlow.html": {
+    "href": "api/StormHawks.Runtime.FlowSystem.Types.WaitAllFlow.html",
+    "title": "Class WaitAllFlow | Developer Reference",
+    "keywords": "Class WaitAllFlow Inheritance Object FlowBase WaitAllFlow Inherited Members FlowBase.children FlowBase.FlowCancellationToken FlowBase.Awake() FlowBase.OnDestroy() FlowBase.Run() FlowBase.CancelFlow() Namespace : StormHawks.Runtime.FlowSystem.Types Assembly : cs.temp.dll.dll Syntax public class WaitAllFlow : FlowBase Methods Execute() Declaration protected override async UniTask Execute() Returns Type Description UniTask Overrides FlowBase.Execute() OnEnter() Declaration protected override async UniTask OnEnter() Returns Type Description UniTask Overrides FlowBase.OnEnter() OnExit() Declaration protected override async UniTask OnExit() Returns Type Description UniTask Overrides FlowBase.OnExit()"
+  },
+  "api/StormHawks.Runtime.FlowSystem.Types.WaitAnyFlow.html": {
+    "href": "api/StormHawks.Runtime.FlowSystem.Types.WaitAnyFlow.html",
+    "title": "Class WaitAnyFlow | Developer Reference",
+    "keywords": "Class WaitAnyFlow Inheritance Object FlowBase WaitAnyFlow Inherited Members FlowBase.children FlowBase.FlowCancellationToken FlowBase.Awake() FlowBase.OnDestroy() FlowBase.Run() FlowBase.CancelFlow() Namespace : StormHawks.Runtime.FlowSystem.Types Assembly : cs.temp.dll.dll Syntax public class WaitAnyFlow : FlowBase Methods Execute() Declaration protected override async UniTask Execute() Returns Type Description UniTask Overrides FlowBase.Execute() OnEnter() Declaration protected override async UniTask OnEnter() Returns Type Description UniTask Overrides FlowBase.OnEnter() OnExit() Declaration protected override async UniTask OnExit() Returns Type Description UniTask Overrides FlowBase.OnExit()"
+  },
   "api/StormHawks.Runtime.Grids.html": {
     "href": "api/StormHawks.Runtime.Grids.html",
     "title": "Namespace StormHawks.Runtime.Grids | Developer Reference",
@@ -1812,7 +1947,7 @@
   "api/StormHawks.Runtime.Players.Controllers.PlayerControlHandler.html": {
     "href": "api/StormHawks.Runtime.Players.Controllers.PlayerControlHandler.html",
     "title": "Class PlayerControlHandler | Developer Reference",
-    "keywords": "Class PlayerControlHandler Inheritance Object PlayerControlHandler Namespace : StormHawks.Runtime.Players.Controllers Assembly : cs.temp.dll.dll Syntax public class PlayerControlHandler : MonoBehaviour Properties BoostState Declaration public PlayerControlHandler.BoostStateType BoostState { get; } Property Value Type Description PlayerControlHandler.BoostStateType IsAccelerating Declaration public bool IsAccelerating { get; } Property Value Type Description Boolean IsBoostActive Declaration public bool IsBoostActive { get; } Property Value Type Description Boolean IsEmergencyBreakActive Declaration public bool IsEmergencyBreakActive { get; } Property Value Type Description Boolean PitchTorquePower Declaration public float PitchTorquePower { get; } Property Value Type Description Single RollTorquePower Declaration public float RollTorquePower { get; } Property Value Type Description Single ThrustPower Declaration public float ThrustPower { get; } Property Value Type Description Single YawTorquePower Declaration public float YawTorquePower { get; } Property Value Type Description Single"
+    "keywords": "Class PlayerControlHandler Inheritance Object PlayerControlHandler Namespace : StormHawks.Runtime.Players.Controllers Assembly : cs.temp.dll.dll Syntax public class PlayerControlHandler : MonoBehaviour Fields enableBoost Declaration public bool enableBoost Field Value Type Description Boolean enableEmergencyStop Declaration public bool enableEmergencyStop Field Value Type Description Boolean enablePitchRotation Declaration public bool enablePitchRotation Field Value Type Description Boolean enableRollRotation Declaration public bool enableRollRotation Field Value Type Description Boolean enableThrust Declaration public bool enableThrust Field Value Type Description Boolean enableYawRotation Declaration public bool enableYawRotation Field Value Type Description Boolean Properties BoostState Declaration public PlayerControlHandler.BoostStateType BoostState { get; } Property Value Type Description PlayerControlHandler.BoostStateType IsAccelerating Declaration public bool IsAccelerating { get; } Property Value Type Description Boolean IsBoostActive Declaration public bool IsBoostActive { get; } Property Value Type Description Boolean IsEmergencyBreakActive Declaration public bool IsEmergencyBreakActive { get; } Property Value Type Description Boolean PitchTorquePower Declaration public float PitchTorquePower { get; } Property Value Type Description Single RollTorquePower Declaration public float RollTorquePower { get; } Property Value Type Description Single ThrustPower Declaration public float ThrustPower { get; } Property Value Type Description Single YawTorquePower Declaration public float YawTorquePower { get; } Property Value Type Description Single Methods DisableControl() Declaration public void DisableControl() EnableControl() Declaration public void EnableControl()"
   },
   "api/StormHawks.Runtime.Players.Controllers.PlayerWingConfigSO.html": {
     "href": "api/StormHawks.Runtime.Players.Controllers.PlayerWingConfigSO.html",
@@ -1857,7 +1992,7 @@
   "api/StormHawks.Runtime.Players.Movement.Flight.PlayerFlightRotator.html": {
     "href": "api/StormHawks.Runtime.Players.Movement.Flight.PlayerFlightRotator.html",
     "title": "Class PlayerFlightRotator | Developer Reference",
-    "keywords": "Class PlayerFlightRotator Inheritance Object PlayerRotatorBase PlayerFlightRotator Inherited Members PlayerRotatorBase.ControlHandler PlayerRotatorBase.Rotation Namespace : StormHawks.Runtime.Players.Movement.Flight Assembly : cs.temp.dll.dll Syntax public class PlayerFlightRotator : PlayerRotatorBase Properties MovementConfig Declaration protected PlayerMovementConfigSO MovementConfig { get; } Property Value Type Description PlayerMovementConfigSO Methods OnPlayerRespawned(PlayerRespawnInfo) Declaration protected override void OnPlayerRespawned(PlayerRespawnInfo respawnInfo) Parameters Type Name Description PlayerRespawnInfo respawnInfo Overrides PlayerRotatorBase.OnPlayerRespawned(PlayerRespawnInfo) Start() Declaration protected override void Start() Overrides PlayerRotatorBase.Start() UpdateRotation() Declaration protected override void UpdateRotation() Overrides PlayerRotatorBase.UpdateRotation()"
+    "keywords": "Class PlayerFlightRotator Inheritance Object PlayerRotatorBase PlayerFlightRotator Inherited Members PlayerRotatorBase.ControlHandler PlayerRotatorBase.Rotation Namespace : StormHawks.Runtime.Players.Movement.Flight Assembly : cs.temp.dll.dll Syntax public class PlayerFlightRotator : PlayerRotatorBase Properties MovementConfig Declaration protected PlayerMovementConfigSO MovementConfig { get; } Property Value Type Description PlayerMovementConfigSO Methods InitializeTargetRotation() Declaration public void InitializeTargetRotation() OnPlayerRespawned(PlayerRespawnInfo) Declaration protected override void OnPlayerRespawned(PlayerRespawnInfo respawnInfo) Parameters Type Name Description PlayerRespawnInfo respawnInfo Overrides PlayerRotatorBase.OnPlayerRespawned(PlayerRespawnInfo) Start() Declaration protected override void Start() Overrides PlayerRotatorBase.Start() UpdateRotation() Declaration protected override void UpdateRotation() Overrides PlayerRotatorBase.UpdateRotation()"
   },
   "api/StormHawks.Runtime.Players.Movement.Flight.PlayerMovementConfigSO.html": {
     "href": "api/StormHawks.Runtime.Players.Movement.Flight.PlayerMovementConfigSO.html",
@@ -2048,36 +2183,6 @@
     "href": "api/StormHawks.Runtime.Scenes.TutorialGameSceneContexts.html",
     "title": "Class TutorialGameSceneContexts | Developer Reference",
     "keywords": "Class TutorialGameSceneContexts Inheritance Object GameSceneContexts TutorialGameSceneContexts Inherited Members GameSceneContexts.LoadMode GameSceneContexts.OnLoad() GameSceneContexts.OnUnload() Namespace : StormHawks.Runtime.Scenes Assembly : cs.temp.dll.dll Syntax public class TutorialGameSceneContexts : GameSceneContexts Methods GetSceneAddress() Declaration public override string GetSceneAddress() Returns Type Description String Overrides GameSceneContexts.GetSceneAddress()"
-  },
-  "api/StormHawks.Runtime.Scenes.Tutorials.html": {
-    "href": "api/StormHawks.Runtime.Scenes.Tutorials.html",
-    "title": "Namespace StormHawks.Runtime.Scenes.Tutorials | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Scenes.Tutorials Classes TutorialDirector"
-  },
-  "api/StormHawks.Runtime.Scenes.Tutorials.Triggers.EventStateChecker.html": {
-    "href": "api/StormHawks.Runtime.Scenes.Tutorials.Triggers.EventStateChecker.html",
-    "title": "Class EventStateChecker | Developer Reference",
-    "keywords": "Class EventStateChecker Inheritance Object EventStateChecker RotateStateChecker Namespace : StormHawks.Runtime.Scenes.Tutorials.Triggers Assembly : cs.temp.dll.dll Syntax [Serializable] public abstract class EventStateChecker Properties CurrentState Declaration public EventStateChecker.State CurrentState { get; protected set; } Property Value Type Description EventStateChecker.State IsEventTriggered Declaration public bool IsEventTriggered { get; protected set; } Property Value Type Description Boolean Methods Check() Declaration protected abstract UniTask<EventStateChecker.State> Check() Returns Type Description UniTask < EventStateChecker.State >"
-  },
-  "api/StormHawks.Runtime.Scenes.Tutorials.Triggers.EventStateChecker.State.html": {
-    "href": "api/StormHawks.Runtime.Scenes.Tutorials.Triggers.EventStateChecker.State.html",
-    "title": "Enum EventStateChecker.State | Developer Reference",
-    "keywords": "Enum EventStateChecker.State Namespace : StormHawks.Runtime.Scenes.Tutorials.Triggers Assembly : cs.temp.dll.dll Syntax public enum State Fields Name Description Checking Done Failed Started Waiting"
-  },
-  "api/StormHawks.Runtime.Scenes.Tutorials.Triggers.html": {
-    "href": "api/StormHawks.Runtime.Scenes.Tutorials.Triggers.html",
-    "title": "Namespace StormHawks.Runtime.Scenes.Tutorials.Triggers | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Scenes.Tutorials.Triggers Classes EventStateChecker RotateStateChecker Enums EventStateChecker.State"
-  },
-  "api/StormHawks.Runtime.Scenes.Tutorials.Triggers.RotateStateChecker.html": {
-    "href": "api/StormHawks.Runtime.Scenes.Tutorials.Triggers.RotateStateChecker.html",
-    "title": "Class RotateStateChecker | Developer Reference",
-    "keywords": "Class RotateStateChecker Inheritance Object EventStateChecker RotateStateChecker Inherited Members EventStateChecker.IsEventTriggered EventStateChecker.CurrentState Namespace : StormHawks.Runtime.Scenes.Tutorials.Triggers Assembly : cs.temp.dll.dll Syntax [Serializable] public class RotateStateChecker : EventStateChecker Methods Check() Declaration protected override async UniTask<EventStateChecker.State> Check() Returns Type Description UniTask < EventStateChecker.State > Overrides EventStateChecker.Check()"
-  },
-  "api/StormHawks.Runtime.Scenes.Tutorials.TutorialDirector.html": {
-    "href": "api/StormHawks.Runtime.Scenes.Tutorials.TutorialDirector.html",
-    "title": "Class TutorialDirector | Developer Reference",
-    "keywords": "Class TutorialDirector Inheritance Object TutorialDirector Namespace : StormHawks.Runtime.Scenes.Tutorials Assembly : cs.temp.dll.dll Syntax public class TutorialDirector : MonoBehaviour"
   },
   "api/StormHawks.Runtime.Sounds.AssistanceVoice.EntityAlertVoice.Entity.html": {
     "href": "api/StormHawks.Runtime.Sounds.AssistanceVoice.EntityAlertVoice.Entity.html",
@@ -2967,7 +3072,7 @@
   "api/StormHawks.Runtime.Utilities.html": {
     "href": "api/StormHawks.Runtime.Utilities.html",
     "title": "Namespace StormHawks.Runtime.Utilities | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Utilities Classes AlignTransformUtility FMODUtility MonoObjectPool<T> MonoSingleton<T> RotationDifferenceTracker TrackingOffsetSO TransformTracker UIUtility Enums AlignTransformUtility.Axis TransformTracker.FollowEventType"
+    "keywords": "Namespace StormHawks.Runtime.Utilities Classes AlignTransformUtility FMODUtility MonoObjectPool<T> MonoSingleton<T> RotationDifferenceTracker TextUtility TrackingOffsetSO TransformTracker UIUtility Enums AlignTransformUtility.Axis TransformTracker.FollowEventType"
   },
   "api/StormHawks.Runtime.Utilities.MonoObjectPool-1.html": {
     "href": "api/StormHawks.Runtime.Utilities.MonoObjectPool-1.html",
@@ -3129,6 +3234,11 @@
     "title": "Class TransformOriginShiftController | Developer Reference",
     "keywords": "Class TransformOriginShiftController Inheritance Object OriginShiftController TransformOriginShiftController Inherited Members OriginShiftController.Awake() OriginShiftController.OnEnable() OriginShiftController.OnDisable() Namespace : StormHawks.Runtime.Utilities.Shifters Assembly : cs.temp.dll.dll Syntax public class TransformOriginShiftController : OriginShiftController Methods OnShiftOrigin(OriginShiftEventContext) Declaration protected override void OnShiftOrigin(OriginShiftEventContext ctx) Parameters Type Name Description OriginShiftEventContext ctx Overrides OriginShiftController.OnShiftOrigin(OriginShiftEventContext)"
   },
+  "api/StormHawks.Runtime.Utilities.TextUtility.html": {
+    "href": "api/StormHawks.Runtime.Utilities.TextUtility.html",
+    "title": "Class TextUtility | Developer Reference",
+    "keywords": "Class TextUtility Inheritance Object TextUtility Namespace : StormHawks.Runtime.Utilities Assembly : cs.temp.dll.dll Syntax public static class TextUtility Methods AddSpaceCapitalLetter(String) Declaration public static string AddSpaceCapitalLetter(this string text) Parameters Type Name Description String text Returns Type Description String"
+  },
   "api/StormHawks.Runtime.Utilities.TrackingOffsetSO.html": {
     "href": "api/StormHawks.Runtime.Utilities.TrackingOffsetSO.html",
     "title": "Class TrackingOffsetSO | Developer Reference",
@@ -3167,7 +3277,7 @@
   "api/StormHawks.Runtime.Utilities.Types.Dictionaries.UnitySerializedDictionary-2.html": {
     "href": "api/StormHawks.Runtime.Utilities.Types.Dictionaries.UnitySerializedDictionary-2.html",
     "title": "Class UnitySerializedDictionary<TKey, TValue> | Developer Reference",
-    "keywords": "Class UnitySerializedDictionary<TKey, TValue> Inheritance Object UnitySerializedDictionary<TKey, TValue> EnumDictionary<TKey, TValue> Implements ISerializationCallbackReceiver Namespace : StormHawks.Runtime.Utilities.Types.Dictionaries Assembly : cs.temp.dll.dll Syntax public abstract class UnitySerializedDictionary<TKey, TValue> : Dictionary<TKey, TValue> Type Parameters Name Description TKey TValue Methods OnAfterDeserialize() Declaration public void OnAfterDeserialize() OnBeforeSerialize() Declaration public void OnBeforeSerialize() Implements ISerializationCallbackReceiver"
+    "keywords": "Class UnitySerializedDictionary<TKey, TValue> Inheritance Object UnitySerializedDictionary<TKey, TValue> EnumDictionary<TKey, TValue> Implements ISerializationCallbackReceiver Namespace : StormHawks.Runtime.Utilities.Types.Dictionaries Assembly : cs.temp.dll.dll Syntax public abstract class UnitySerializedDictionary<TKey, TValue> : Dictionary<TKey, TValue> Type Parameters Name Description TKey TValue Constructors UnitySerializedDictionary() Declaration public UnitySerializedDictionary() UnitySerializedDictionary(IDictionary<TKey, TValue>) Declaration public UnitySerializedDictionary(IDictionary<TKey, TValue> dictionary) Parameters Type Name Description IDictionary <TKey, TValue> dictionary UnitySerializedDictionary(IEnumerable<KeyValuePair<TKey, TValue>>) Declaration public UnitySerializedDictionary(IEnumerable<KeyValuePair<TKey, TValue>> collection) Parameters Type Name Description IEnumerable < KeyValuePair <TKey, TValue>> collection Methods OnAfterDeserialize() Declaration public void OnAfterDeserialize() OnBeforeSerialize() Declaration public void OnBeforeSerialize() Implements ISerializationCallbackReceiver"
   },
   "api/StormHawks.Runtime.Utilities.Types.html": {
     "href": "api/StormHawks.Runtime.Utilities.Types.html",

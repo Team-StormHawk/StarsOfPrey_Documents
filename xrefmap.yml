@@ -5690,6 +5690,64 @@ references:
   commentId: N:StormHawks.Runtime.Entities.Enemies.Elites
   fullName: StormHawks.Runtime.Entities.Enemies.Elites
   nameWithType: StormHawks.Runtime.Entities.Enemies.Elites
+- uid: StormHawks.Runtime.Entities.Enemies.Elites.EliteCrystal
+  name: EliteCrystal
+  href: api/StormHawks.Runtime.Entities.Enemies.Elites.EliteCrystal.html
+  commentId: T:StormHawks.Runtime.Entities.Enemies.Elites.EliteCrystal
+  fullName: StormHawks.Runtime.Entities.Enemies.Elites.EliteCrystal
+  nameWithType: EliteCrystal
+- uid: StormHawks.Runtime.Entities.Enemies.Elites.EliteCrystal.CurrentHealth
+  name: CurrentHealth
+  href: api/StormHawks.Runtime.Entities.Enemies.Elites.EliteCrystal.html#StormHawks_Runtime_Entities_Enemies_Elites_EliteCrystal_CurrentHealth
+  commentId: P:StormHawks.Runtime.Entities.Enemies.Elites.EliteCrystal.CurrentHealth
+  fullName: StormHawks.Runtime.Entities.Enemies.Elites.EliteCrystal.CurrentHealth
+  nameWithType: EliteCrystal.CurrentHealth
+- uid: StormHawks.Runtime.Entities.Enemies.Elites.EliteCrystal.CurrentHealth*
+  name: CurrentHealth
+  href: api/StormHawks.Runtime.Entities.Enemies.Elites.EliteCrystal.html#StormHawks_Runtime_Entities_Enemies_Elites_EliteCrystal_CurrentHealth_
+  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Elites.EliteCrystal.CurrentHealth
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Entities.Enemies.Elites.EliteCrystal.CurrentHealth
+  nameWithType: EliteCrystal.CurrentHealth
+- uid: StormHawks.Runtime.Entities.Enemies.Elites.EliteCrystal.HealthSO
+  name: HealthSO
+  href: api/StormHawks.Runtime.Entities.Enemies.Elites.EliteCrystal.html#StormHawks_Runtime_Entities_Enemies_Elites_EliteCrystal_HealthSO
+  commentId: P:StormHawks.Runtime.Entities.Enemies.Elites.EliteCrystal.HealthSO
+  fullName: StormHawks.Runtime.Entities.Enemies.Elites.EliteCrystal.HealthSO
+  nameWithType: EliteCrystal.HealthSO
+- uid: StormHawks.Runtime.Entities.Enemies.Elites.EliteCrystal.HealthSO*
+  name: HealthSO
+  href: api/StormHawks.Runtime.Entities.Enemies.Elites.EliteCrystal.html#StormHawks_Runtime_Entities_Enemies_Elites_EliteCrystal_HealthSO_
+  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Elites.EliteCrystal.HealthSO
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Entities.Enemies.Elites.EliteCrystal.HealthSO
+  nameWithType: EliteCrystal.HealthSO
+- uid: StormHawks.Runtime.Entities.Enemies.Elites.EliteCrystal.SetRotation(Quaternion)
+  name: SetRotation(Quaternion)
+  href: api/StormHawks.Runtime.Entities.Enemies.Elites.EliteCrystal.html#StormHawks_Runtime_Entities_Enemies_Elites_EliteCrystal_SetRotation_Quaternion_
+  commentId: M:StormHawks.Runtime.Entities.Enemies.Elites.EliteCrystal.SetRotation(Quaternion)
+  fullName: StormHawks.Runtime.Entities.Enemies.Elites.EliteCrystal.SetRotation(Quaternion)
+  nameWithType: EliteCrystal.SetRotation(Quaternion)
+- uid: StormHawks.Runtime.Entities.Enemies.Elites.EliteCrystal.SetRotation*
+  name: SetRotation
+  href: api/StormHawks.Runtime.Entities.Enemies.Elites.EliteCrystal.html#StormHawks_Runtime_Entities_Enemies_Elites_EliteCrystal_SetRotation_
+  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Elites.EliteCrystal.SetRotation
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Entities.Enemies.Elites.EliteCrystal.SetRotation
+  nameWithType: EliteCrystal.SetRotation
+- uid: StormHawks.Runtime.Entities.Enemies.Elites.EliteCrystal.TakeDamage(Vector3,System.Single)
+  name: TakeDamage(Vector3, Single)
+  href: api/StormHawks.Runtime.Entities.Enemies.Elites.EliteCrystal.html#StormHawks_Runtime_Entities_Enemies_Elites_EliteCrystal_TakeDamage_Vector3_System_Single_
+  commentId: M:StormHawks.Runtime.Entities.Enemies.Elites.EliteCrystal.TakeDamage(Vector3,System.Single)
+  fullName: StormHawks.Runtime.Entities.Enemies.Elites.EliteCrystal.TakeDamage(Vector3, System.Single)
+  nameWithType: EliteCrystal.TakeDamage(Vector3, Single)
+- uid: StormHawks.Runtime.Entities.Enemies.Elites.EliteCrystal.TakeDamage*
+  name: TakeDamage
+  href: api/StormHawks.Runtime.Entities.Enemies.Elites.EliteCrystal.html#StormHawks_Runtime_Entities_Enemies_Elites_EliteCrystal_TakeDamage_
+  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Elites.EliteCrystal.TakeDamage
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Entities.Enemies.Elites.EliteCrystal.TakeDamage
+  nameWithType: EliteCrystal.TakeDamage
 - uid: StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase
   name: EliteEnemyBase
   href: api/StormHawks.Runtime.Entities.Enemies.Elites.EliteEnemyBase.html
@@ -10384,6 +10442,19 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Entities.Weapons.EntityProjectileWeapon.OnReleaseObject
   nameWithType: EntityProjectileWeapon.OnReleaseObject
+- uid: StormHawks.Runtime.Entities.Weapons.EntityProjectileWeapon.SetActive(System.Boolean)
+  name: SetActive(Boolean)
+  href: api/StormHawks.Runtime.Entities.Weapons.EntityProjectileWeapon.html#StormHawks_Runtime_Entities_Weapons_EntityProjectileWeapon_SetActive_System_Boolean_
+  commentId: M:StormHawks.Runtime.Entities.Weapons.EntityProjectileWeapon.SetActive(System.Boolean)
+  fullName: StormHawks.Runtime.Entities.Weapons.EntityProjectileWeapon.SetActive(System.Boolean)
+  nameWithType: EntityProjectileWeapon.SetActive(Boolean)
+- uid: StormHawks.Runtime.Entities.Weapons.EntityProjectileWeapon.SetActive*
+  name: SetActive
+  href: api/StormHawks.Runtime.Entities.Weapons.EntityProjectileWeapon.html#StormHawks_Runtime_Entities_Weapons_EntityProjectileWeapon_SetActive_
+  commentId: Overload:StormHawks.Runtime.Entities.Weapons.EntityProjectileWeapon.SetActive
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Entities.Weapons.EntityProjectileWeapon.SetActive
+  nameWithType: EntityProjectileWeapon.SetActive
 - uid: StormHawks.Runtime.Entities.Weapons.EntityProjectileWeapon.Start
   name: Start()
   href: api/StormHawks.Runtime.Entities.Weapons.EntityProjectileWeapon.html#StormHawks_Runtime_Entities_Weapons_EntityProjectileWeapon_Start

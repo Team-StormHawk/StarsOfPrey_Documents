@@ -101,12 +101,12 @@
   
   
   <a id="StormHawks_Runtime_Entities_Weapons_LaserWeaponContext__ctor_" data-uid="StormHawks.Runtime.Entities.Weapons.LaserWeaponContext.#ctor*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Weapons_LaserWeaponContext__ctor_StormHawks_Runtime_Entities_Weapons_EntityLaserWeapon_Vector3_System_Single_System_Single_" data-uid="StormHawks.Runtime.Entities.Weapons.LaserWeaponContext.#ctor(StormHawks.Runtime.Entities.Weapons.EntityLaserWeapon,Vector3,System.Single,System.Single)">LaserWeaponContext(EntityLaserWeapon, Vector3, Single, Single)</h4>
+  <h4 id="StormHawks_Runtime_Entities_Weapons_LaserWeaponContext__ctor_StormHawks_Runtime_Entities_Weapons_EntityLaserWeapon_Vector3_System_Single_System_Single_LayerMask_" data-uid="StormHawks.Runtime.Entities.Weapons.LaserWeaponContext.#ctor(StormHawks.Runtime.Entities.Weapons.EntityLaserWeapon,Vector3,System.Single,System.Single,LayerMask)">LaserWeaponContext(EntityLaserWeapon, Vector3, Single, Single, LayerMask)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public LaserWeaponContext(EntityLaserWeapon weapon, Vector3 direction, float firingTime, float chargeDuration)</code></pre>
+    <pre><code class="lang-csharp hljs">public LaserWeaponContext(EntityLaserWeapon weapon, Vector3 direction, float firingTime, float chargeDuration, LayerMask hitLayer)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -136,6 +136,11 @@
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
         <td><span class="parametername">chargeDuration</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">LayerMask</span></td>
+        <td><span class="parametername">hitLayer</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -339,6 +344,31 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StormHawks_Runtime_Entities_Weapons_LaserWeaponContext_HitLayer_" data-uid="StormHawks.Runtime.Entities.Weapons.LaserWeaponContext.HitLayer*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Weapons_LaserWeaponContext_HitLayer" data-uid="StormHawks.Runtime.Entities.Weapons.LaserWeaponContext.HitLayer">HitLayer</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LayerMask HitLayer { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LayerMask</span></td>
         <td></td>
       </tr>
     </tbody>

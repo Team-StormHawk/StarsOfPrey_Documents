@@ -110,6 +110,15 @@
       <a class="xref" href="StormHawks.Runtime.Entities.Weapons.EntityWeapon.html#StormHawks_Runtime_Entities_Weapons_EntityWeapon_VirtualTarget">EntityWeapon.VirtualTarget</a>
     </div>
     <div>
+      <a class="xref" href="StormHawks.Runtime.Entities.Weapons.EntityWeapon.html#StormHawks_Runtime_Entities_Weapons_EntityWeapon_OnCharged">EntityWeapon.OnCharged</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Entities.Weapons.EntityWeapon.html#StormHawks_Runtime_Entities_Weapons_EntityWeapon_OnChargeCanceled">EntityWeapon.OnChargeCanceled</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Entities.Weapons.EntityWeapon.html#StormHawks_Runtime_Entities_Weapons_EntityWeapon_IsCharging">EntityWeapon.IsCharging</a>
+    </div>
+    <div>
       <a class="xref" href="StormHawks.Runtime.Entities.Weapons.EntityWeapon.html#StormHawks_Runtime_Entities_Weapons_EntityWeapon_OnEnable">EntityWeapon.OnEnable()</a>
     </div>
     <div>
@@ -120,9 +129,6 @@
     </div>
     <div>
       <a class="xref" href="StormHawks.Runtime.Entities.Weapons.EntityWeapon.html#StormHawks_Runtime_Entities_Weapons_EntityWeapon_SetWeapon_IEntityFire_">EntityWeapon.SetWeapon(IEntityFire)</a>
-    </div>
-    <div>
-      <a class="xref" href="StormHawks.Runtime.Entities.Weapons.EntityWeapon.html#StormHawks_Runtime_Entities_Weapons_EntityWeapon_Cancel">EntityWeapon.Cancel()</a>
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Entities.Weapons.html">StormHawks.Runtime.Entities.Weapons</a></h6>
@@ -233,6 +239,31 @@
   </h3>
   
   
+  <a id="StormHawks_Runtime_Entities_Weapons_EntityLaserWeapon_BloomTimer_" data-uid="StormHawks.Runtime.Entities.Weapons.EntityLaserWeapon.BloomTimer*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Weapons_EntityLaserWeapon_BloomTimer" data-uid="StormHawks.Runtime.Entities.Weapons.EntityLaserWeapon.BloomTimer">BloomTimer</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float BloomTimer { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="StormHawks_Runtime_Entities_Weapons_EntityLaserWeapon_CastRadius_" data-uid="StormHawks.Runtime.Entities.Weapons.EntityLaserWeapon.CastRadius*"></a>
   <h4 id="StormHawks_Runtime_Entities_Weapons_EntityLaserWeapon_CastRadius" data-uid="StormHawks.Runtime.Entities.Weapons.EntityLaserWeapon.CastRadius">CastRadius</h4>
   <div class="markdown level1 summary"></div>
@@ -333,31 +364,6 @@
   </table>
   
   
-  <a id="StormHawks_Runtime_Entities_Weapons_EntityLaserWeapon_IsCharging_" data-uid="StormHawks.Runtime.Entities.Weapons.EntityLaserWeapon.IsCharging*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Weapons_EntityLaserWeapon_IsCharging" data-uid="StormHawks.Runtime.Entities.Weapons.EntityLaserWeapon.IsCharging">IsCharging</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool IsCharging { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
   <a id="StormHawks_Runtime_Entities_Weapons_EntityLaserWeapon_Pool_" data-uid="StormHawks.Runtime.Entities.Weapons.EntityLaserWeapon.Pool*"></a>
   <h4 id="StormHawks_Runtime_Entities_Weapons_EntityLaserWeapon_Pool" data-uid="StormHawks.Runtime.Entities.Weapons.EntityLaserWeapon.Pool">Pool</h4>
   <div class="markdown level1 summary"></div>
@@ -385,13 +391,57 @@
   </h3>
   
   
-  <a id="StormHawks_Runtime_Entities_Weapons_EntityLaserWeapon_Charge_" data-uid="StormHawks.Runtime.Entities.Weapons.EntityLaserWeapon.Charge*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Weapons_EntityLaserWeapon_Charge_System_Single_" data-uid="StormHawks.Runtime.Entities.Weapons.EntityLaserWeapon.Charge(System.Single)">Charge(Single)</h4>
+  <a id="StormHawks_Runtime_Entities_Weapons_EntityLaserWeapon_Cancel_" data-uid="StormHawks.Runtime.Entities.Weapons.EntityLaserWeapon.Cancel*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Weapons_EntityLaserWeapon_Cancel" data-uid="StormHawks.Runtime.Entities.Weapons.EntityLaserWeapon.Cancel">Cancel()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Charge(float chargingTime)</code></pre>
+    <pre><code class="lang-csharp hljs">public override void Cancel()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="StormHawks.Runtime.Entities.Weapons.EntityWeapon.html#StormHawks_Runtime_Entities_Weapons_EntityWeapon_Cancel">EntityWeapon.Cancel()</a></div>
+  
+  
+  <a id="StormHawks_Runtime_Entities_Weapons_EntityLaserWeapon_DisablePortal_" data-uid="StormHawks.Runtime.Entities.Weapons.EntityLaserWeapon.DisablePortal*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Weapons_EntityLaserWeapon_DisablePortal" data-uid="StormHawks.Runtime.Entities.Weapons.EntityLaserWeapon.DisablePortal">DisablePortal()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DisablePortal()</code></pre>
+  </div>
+  
+  
+  <a id="StormHawks_Runtime_Entities_Weapons_EntityLaserWeapon_DisableRotate_" data-uid="StormHawks.Runtime.Entities.Weapons.EntityLaserWeapon.DisableRotate*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Weapons_EntityLaserWeapon_DisableRotate" data-uid="StormHawks.Runtime.Entities.Weapons.EntityLaserWeapon.DisableRotate">DisableRotate()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DisableRotate()</code></pre>
+  </div>
+  
+  
+  <a id="StormHawks_Runtime_Entities_Weapons_EntityLaserWeapon_Fire_" data-uid="StormHawks.Runtime.Entities.Weapons.EntityLaserWeapon.Fire*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Weapons_EntityLaserWeapon_Fire" data-uid="StormHawks.Runtime.Entities.Weapons.EntityLaserWeapon.Fire">Fire()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Fire()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="StormHawks.Runtime.Entities.Weapons.EntityWeapon.html#StormHawks_Runtime_Entities_Weapons_EntityWeapon_Fire">EntityWeapon.Fire()</a></div>
+  
+  
+  <a id="StormHawks_Runtime_Entities_Weapons_EntityLaserWeapon_FireAfterCharge_" data-uid="StormHawks.Runtime.Entities.Weapons.EntityLaserWeapon.FireAfterCharge*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Weapons_EntityLaserWeapon_FireAfterCharge_System_Single_" data-uid="StormHawks.Runtime.Entities.Weapons.EntityLaserWeapon.FireAfterCharge(System.Single)">FireAfterCharge(Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void FireAfterCharge(float chargingTime)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -410,18 +460,6 @@
       </tr>
     </tbody>
   </table>
-  
-  
-  <a id="StormHawks_Runtime_Entities_Weapons_EntityLaserWeapon_Fire_" data-uid="StormHawks.Runtime.Entities.Weapons.EntityLaserWeapon.Fire*"></a>
-  <h4 id="StormHawks_Runtime_Entities_Weapons_EntityLaserWeapon_Fire" data-uid="StormHawks.Runtime.Entities.Weapons.EntityLaserWeapon.Fire">Fire()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void Fire()</code></pre>
-  </div>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="StormHawks.Runtime.Entities.Weapons.EntityWeapon.html#StormHawks_Runtime_Entities_Weapons_EntityWeapon_Fire">EntityWeapon.Fire()</a></div>
   
   
   <a id="StormHawks_Runtime_Entities_Weapons_EntityLaserWeapon_OnFireFinished_" data-uid="StormHawks.Runtime.Entities.Weapons.EntityLaserWeapon.OnFireFinished*"></a>

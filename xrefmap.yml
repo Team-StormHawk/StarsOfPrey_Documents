@@ -4664,6 +4664,38 @@ references:
   commentId: T:StormHawks.Runtime.Effects.EffectDestroyer
   fullName: StormHawks.Runtime.Effects.EffectDestroyer
   nameWithType: EffectDestroyer
+- uid: StormHawks.Runtime.Effects.ExplosionLightEffect
+  name: ExplosionLightEffect
+  href: api/StormHawks.Runtime.Effects.ExplosionLightEffect.html
+  commentId: T:StormHawks.Runtime.Effects.ExplosionLightEffect
+  fullName: StormHawks.Runtime.Effects.ExplosionLightEffect
+  nameWithType: ExplosionLightEffect
+- uid: StormHawks.Runtime.Effects.ExplosionLightEffect.Play
+  name: Play()
+  href: api/StormHawks.Runtime.Effects.ExplosionLightEffect.html#StormHawks_Runtime_Effects_ExplosionLightEffect_Play
+  commentId: M:StormHawks.Runtime.Effects.ExplosionLightEffect.Play
+  fullName: StormHawks.Runtime.Effects.ExplosionLightEffect.Play()
+  nameWithType: ExplosionLightEffect.Play()
+- uid: StormHawks.Runtime.Effects.ExplosionLightEffect.Play*
+  name: Play
+  href: api/StormHawks.Runtime.Effects.ExplosionLightEffect.html#StormHawks_Runtime_Effects_ExplosionLightEffect_Play_
+  commentId: Overload:StormHawks.Runtime.Effects.ExplosionLightEffect.Play
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Effects.ExplosionLightEffect.Play
+  nameWithType: ExplosionLightEffect.Play
+- uid: StormHawks.Runtime.Effects.ExplosionLightEffect.Stop
+  name: Stop()
+  href: api/StormHawks.Runtime.Effects.ExplosionLightEffect.html#StormHawks_Runtime_Effects_ExplosionLightEffect_Stop
+  commentId: M:StormHawks.Runtime.Effects.ExplosionLightEffect.Stop
+  fullName: StormHawks.Runtime.Effects.ExplosionLightEffect.Stop()
+  nameWithType: ExplosionLightEffect.Stop()
+- uid: StormHawks.Runtime.Effects.ExplosionLightEffect.Stop*
+  name: Stop
+  href: api/StormHawks.Runtime.Effects.ExplosionLightEffect.html#StormHawks_Runtime_Effects_ExplosionLightEffect_Stop_
+  commentId: Overload:StormHawks.Runtime.Effects.ExplosionLightEffect.Stop
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Effects.ExplosionLightEffect.Stop
+  nameWithType: ExplosionLightEffect.Stop
 - uid: StormHawks.Runtime.Effects.PHExplosionEffect
   name: PHExplosionEffect
   href: api/StormHawks.Runtime.Effects.PHExplosionEffect.html
@@ -5072,90 +5104,103 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossEntity.Owner
   nameWithType: BossEntity.Owner
-- uid: StormHawks.Runtime.Entities.Enemies.Boss.BossEyeRotator
-  name: BossEyeRotator
-  href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossEyeRotator.html
-  commentId: T:StormHawks.Runtime.Entities.Enemies.Boss.BossEyeRotator
-  fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossEyeRotator
-  nameWithType: BossEyeRotator
-- uid: StormHawks.Runtime.Entities.Enemies.Boss.BossEyeRotator.FaceDirection
-  name: FaceDirection
-  href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossEyeRotator.html#StormHawks_Runtime_Entities_Enemies_Boss_BossEyeRotator_FaceDirection
-  commentId: P:StormHawks.Runtime.Entities.Enemies.Boss.BossEyeRotator.FaceDirection
-  fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossEyeRotator.FaceDirection
-  nameWithType: BossEyeRotator.FaceDirection
-- uid: StormHawks.Runtime.Entities.Enemies.Boss.BossEyeRotator.FaceDirection*
-  name: FaceDirection
-  href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossEyeRotator.html#StormHawks_Runtime_Entities_Enemies_Boss_BossEyeRotator_FaceDirection_
-  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Boss.BossEyeRotator.FaceDirection
+- uid: StormHawks.Runtime.Entities.Enemies.Boss.BossEye
+  name: BossEye
+  href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossEye.html
+  commentId: T:StormHawks.Runtime.Entities.Enemies.Boss.BossEye
+  fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossEye
+  nameWithType: BossEye
+- uid: StormHawks.Runtime.Entities.Enemies.Boss.BossEye.Explosion
+  name: Explosion()
+  href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossEye.html#StormHawks_Runtime_Entities_Enemies_Boss_BossEye_Explosion
+  commentId: M:StormHawks.Runtime.Entities.Enemies.Boss.BossEye.Explosion
+  fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossEye.Explosion()
+  nameWithType: BossEye.Explosion()
+- uid: StormHawks.Runtime.Entities.Enemies.Boss.BossEye.Explosion*
+  name: Explosion
+  href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossEye.html#StormHawks_Runtime_Entities_Enemies_Boss_BossEye_Explosion_
+  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Boss.BossEye.Explosion
   isSpec: "True"
-  fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossEyeRotator.FaceDirection
-  nameWithType: BossEyeRotator.FaceDirection
-- uid: StormHawks.Runtime.Entities.Enemies.Boss.BossEyeRotator.GetForward
+  fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossEye.Explosion
+  nameWithType: BossEye.Explosion
+- uid: StormHawks.Runtime.Entities.Enemies.Boss.BossEye.FaceDirection
+  name: FaceDirection
+  href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossEye.html#StormHawks_Runtime_Entities_Enemies_Boss_BossEye_FaceDirection
+  commentId: P:StormHawks.Runtime.Entities.Enemies.Boss.BossEye.FaceDirection
+  fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossEye.FaceDirection
+  nameWithType: BossEye.FaceDirection
+- uid: StormHawks.Runtime.Entities.Enemies.Boss.BossEye.FaceDirection*
+  name: FaceDirection
+  href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossEye.html#StormHawks_Runtime_Entities_Enemies_Boss_BossEye_FaceDirection_
+  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Boss.BossEye.FaceDirection
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossEye.FaceDirection
+  nameWithType: BossEye.FaceDirection
+- uid: StormHawks.Runtime.Entities.Enemies.Boss.BossEye.GetForward
   name: GetForward()
-  href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossEyeRotator.html#StormHawks_Runtime_Entities_Enemies_Boss_BossEyeRotator_GetForward
-  commentId: M:StormHawks.Runtime.Entities.Enemies.Boss.BossEyeRotator.GetForward
-  fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossEyeRotator.GetForward()
-  nameWithType: BossEyeRotator.GetForward()
-- uid: StormHawks.Runtime.Entities.Enemies.Boss.BossEyeRotator.GetForward*
+  href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossEye.html#StormHawks_Runtime_Entities_Enemies_Boss_BossEye_GetForward
+  commentId: M:StormHawks.Runtime.Entities.Enemies.Boss.BossEye.GetForward
+  fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossEye.GetForward()
+  nameWithType: BossEye.GetForward()
+- uid: StormHawks.Runtime.Entities.Enemies.Boss.BossEye.GetForward*
   name: GetForward
-  href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossEyeRotator.html#StormHawks_Runtime_Entities_Enemies_Boss_BossEyeRotator_GetForward_
-  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Boss.BossEyeRotator.GetForward
+  href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossEye.html#StormHawks_Runtime_Entities_Enemies_Boss_BossEye_GetForward_
+  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Boss.BossEye.GetForward
   isSpec: "True"
-  fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossEyeRotator.GetForward
-  nameWithType: BossEyeRotator.GetForward
-- uid: StormHawks.Runtime.Entities.Enemies.Boss.BossEyeRotator.GetRotation
+  fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossEye.GetForward
+  nameWithType: BossEye.GetForward
+- uid: StormHawks.Runtime.Entities.Enemies.Boss.BossEye.GetRotation
   name: GetRotation()
-  href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossEyeRotator.html#StormHawks_Runtime_Entities_Enemies_Boss_BossEyeRotator_GetRotation
-  commentId: M:StormHawks.Runtime.Entities.Enemies.Boss.BossEyeRotator.GetRotation
-  fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossEyeRotator.GetRotation()
-  nameWithType: BossEyeRotator.GetRotation()
-- uid: StormHawks.Runtime.Entities.Enemies.Boss.BossEyeRotator.GetRotation*
+  href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossEye.html#StormHawks_Runtime_Entities_Enemies_Boss_BossEye_GetRotation
+  commentId: M:StormHawks.Runtime.Entities.Enemies.Boss.BossEye.GetRotation
+  fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossEye.GetRotation()
+  nameWithType: BossEye.GetRotation()
+- uid: StormHawks.Runtime.Entities.Enemies.Boss.BossEye.GetRotation*
   name: GetRotation
-  href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossEyeRotator.html#StormHawks_Runtime_Entities_Enemies_Boss_BossEyeRotator_GetRotation_
-  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Boss.BossEyeRotator.GetRotation
+  href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossEye.html#StormHawks_Runtime_Entities_Enemies_Boss_BossEye_GetRotation_
+  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Boss.BossEye.GetRotation
   isSpec: "True"
-  fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossEyeRotator.GetRotation
-  nameWithType: BossEyeRotator.GetRotation
-- uid: StormHawks.Runtime.Entities.Enemies.Boss.BossEyeRotator.GetUp
+  fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossEye.GetRotation
+  nameWithType: BossEye.GetRotation
+- uid: StormHawks.Runtime.Entities.Enemies.Boss.BossEye.GetUp
   name: GetUp()
-  href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossEyeRotator.html#StormHawks_Runtime_Entities_Enemies_Boss_BossEyeRotator_GetUp
-  commentId: M:StormHawks.Runtime.Entities.Enemies.Boss.BossEyeRotator.GetUp
-  fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossEyeRotator.GetUp()
-  nameWithType: BossEyeRotator.GetUp()
-- uid: StormHawks.Runtime.Entities.Enemies.Boss.BossEyeRotator.GetUp*
+  href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossEye.html#StormHawks_Runtime_Entities_Enemies_Boss_BossEye_GetUp
+  commentId: M:StormHawks.Runtime.Entities.Enemies.Boss.BossEye.GetUp
+  fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossEye.GetUp()
+  nameWithType: BossEye.GetUp()
+- uid: StormHawks.Runtime.Entities.Enemies.Boss.BossEye.GetUp*
   name: GetUp
-  href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossEyeRotator.html#StormHawks_Runtime_Entities_Enemies_Boss_BossEyeRotator_GetUp_
-  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Boss.BossEyeRotator.GetUp
+  href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossEye.html#StormHawks_Runtime_Entities_Enemies_Boss_BossEye_GetUp_
+  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Boss.BossEye.GetUp
   isSpec: "True"
-  fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossEyeRotator.GetUp
-  nameWithType: BossEyeRotator.GetUp
-- uid: StormHawks.Runtime.Entities.Enemies.Boss.BossEyeRotator.RotateSpeed
+  fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossEye.GetUp
+  nameWithType: BossEye.GetUp
+- uid: StormHawks.Runtime.Entities.Enemies.Boss.BossEye.RotateSpeed
   name: RotateSpeed
-  href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossEyeRotator.html#StormHawks_Runtime_Entities_Enemies_Boss_BossEyeRotator_RotateSpeed
-  commentId: P:StormHawks.Runtime.Entities.Enemies.Boss.BossEyeRotator.RotateSpeed
-  fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossEyeRotator.RotateSpeed
-  nameWithType: BossEyeRotator.RotateSpeed
-- uid: StormHawks.Runtime.Entities.Enemies.Boss.BossEyeRotator.RotateSpeed*
+  href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossEye.html#StormHawks_Runtime_Entities_Enemies_Boss_BossEye_RotateSpeed
+  commentId: P:StormHawks.Runtime.Entities.Enemies.Boss.BossEye.RotateSpeed
+  fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossEye.RotateSpeed
+  nameWithType: BossEye.RotateSpeed
+- uid: StormHawks.Runtime.Entities.Enemies.Boss.BossEye.RotateSpeed*
   name: RotateSpeed
-  href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossEyeRotator.html#StormHawks_Runtime_Entities_Enemies_Boss_BossEyeRotator_RotateSpeed_
-  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Boss.BossEyeRotator.RotateSpeed
+  href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossEye.html#StormHawks_Runtime_Entities_Enemies_Boss_BossEye_RotateSpeed_
+  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Boss.BossEye.RotateSpeed
   isSpec: "True"
-  fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossEyeRotator.RotateSpeed
-  nameWithType: BossEyeRotator.RotateSpeed
-- uid: StormHawks.Runtime.Entities.Enemies.Boss.BossEyeRotator.RotateTo(Vector3)
+  fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossEye.RotateSpeed
+  nameWithType: BossEye.RotateSpeed
+- uid: StormHawks.Runtime.Entities.Enemies.Boss.BossEye.RotateTo(Vector3)
   name: RotateTo(Vector3)
-  href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossEyeRotator.html#StormHawks_Runtime_Entities_Enemies_Boss_BossEyeRotator_RotateTo_Vector3_
-  commentId: M:StormHawks.Runtime.Entities.Enemies.Boss.BossEyeRotator.RotateTo(Vector3)
-  fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossEyeRotator.RotateTo(Vector3)
-  nameWithType: BossEyeRotator.RotateTo(Vector3)
-- uid: StormHawks.Runtime.Entities.Enemies.Boss.BossEyeRotator.RotateTo*
+  href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossEye.html#StormHawks_Runtime_Entities_Enemies_Boss_BossEye_RotateTo_Vector3_
+  commentId: M:StormHawks.Runtime.Entities.Enemies.Boss.BossEye.RotateTo(Vector3)
+  fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossEye.RotateTo(Vector3)
+  nameWithType: BossEye.RotateTo(Vector3)
+- uid: StormHawks.Runtime.Entities.Enemies.Boss.BossEye.RotateTo*
   name: RotateTo
-  href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossEyeRotator.html#StormHawks_Runtime_Entities_Enemies_Boss_BossEyeRotator_RotateTo_
-  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Boss.BossEyeRotator.RotateTo
+  href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossEye.html#StormHawks_Runtime_Entities_Enemies_Boss_BossEye_RotateTo_
+  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Boss.BossEye.RotateTo
   isSpec: "True"
-  fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossEyeRotator.RotateTo
-  nameWithType: BossEyeRotator.RotateTo
+  fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossEye.RotateTo
+  nameWithType: BossEye.RotateTo
 - uid: StormHawks.Runtime.Entities.Enemies.Boss.BossHealth
   name: BossHealth
   href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossHealth.html
@@ -5175,6 +5220,12 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossHealth.Damaged
   nameWithType: BossHealth.Damaged
+- uid: StormHawks.Runtime.Entities.Enemies.Boss.BossHealth.DISSOLVE_PROGRESS
+  name: DISSOLVE_PROGRESS
+  href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossHealth.html#StormHawks_Runtime_Entities_Enemies_Boss_BossHealth_DISSOLVE_PROGRESS
+  commentId: F:StormHawks.Runtime.Entities.Enemies.Boss.BossHealth.DISSOLVE_PROGRESS
+  fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossHealth.DISSOLVE_PROGRESS
+  nameWithType: BossHealth.DISSOLVE_PROGRESS
 - uid: StormHawks.Runtime.Entities.Enemies.Boss.BossHealth.GetPercentage
   name: GetPercentage()
   href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossHealth.html#StormHawks_Runtime_Entities_Enemies_Boss_BossHealth_GetPercentage
@@ -5188,6 +5239,25 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossHealth.GetPercentage
   nameWithType: BossHealth.GetPercentage
+- uid: StormHawks.Runtime.Entities.Enemies.Boss.BossHealth.HIGH_COLOR_POWER
+  name: HIGH_COLOR_POWER
+  href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossHealth.html#StormHawks_Runtime_Entities_Enemies_Boss_BossHealth_HIGH_COLOR_POWER
+  commentId: F:StormHawks.Runtime.Entities.Enemies.Boss.BossHealth.HIGH_COLOR_POWER
+  fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossHealth.HIGH_COLOR_POWER
+  nameWithType: BossHealth.HIGH_COLOR_POWER
+- uid: StormHawks.Runtime.Entities.Enemies.Boss.BossHealth.IsDead
+  name: IsDead
+  href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossHealth.html#StormHawks_Runtime_Entities_Enemies_Boss_BossHealth_IsDead
+  commentId: P:StormHawks.Runtime.Entities.Enemies.Boss.BossHealth.IsDead
+  fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossHealth.IsDead
+  nameWithType: BossHealth.IsDead
+- uid: StormHawks.Runtime.Entities.Enemies.Boss.BossHealth.IsDead*
+  name: IsDead
+  href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossHealth.html#StormHawks_Runtime_Entities_Enemies_Boss_BossHealth_IsDead_
+  commentId: Overload:StormHawks.Runtime.Entities.Enemies.Boss.BossHealth.IsDead
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Entities.Enemies.Boss.BossHealth.IsDead
+  nameWithType: BossHealth.IsDead
 - uid: StormHawks.Runtime.Entities.Enemies.Boss.BossHurtBoxBase
   name: BossHurtBoxBase
   href: api/StormHawks.Runtime.Entities.Enemies.Boss.BossHurtBoxBase.html
@@ -7357,6 +7427,12 @@ references:
   commentId: T:StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase
   fullName: StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase
   nameWithType: SteeringEnemyBase
+- uid: StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase._enemyRuntimeSet
+  name: _enemyRuntimeSet
+  href: api/StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.html#StormHawks_Runtime_Entities_Enemies_SteeringEnemyBase__enemyRuntimeSet
+  commentId: F:StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase._enemyRuntimeSet
+  fullName: StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase._enemyRuntimeSet
+  nameWithType: SteeringEnemyBase._enemyRuntimeSet
 - uid: StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase._explosionEffect
   name: _explosionEffect
   href: api/StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.html#StormHawks_Runtime_Entities_Enemies_SteeringEnemyBase__explosionEffect
@@ -7413,6 +7489,32 @@ references:
   commentId: F:StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.IS_RETURNING
   fullName: StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.IS_RETURNING
   nameWithType: SteeringEnemyBase.IS_RETURNING
+- uid: StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.OnDisable
+  name: OnDisable()
+  href: api/StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.html#StormHawks_Runtime_Entities_Enemies_SteeringEnemyBase_OnDisable
+  commentId: M:StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.OnDisable
+  fullName: StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.OnDisable()
+  nameWithType: SteeringEnemyBase.OnDisable()
+- uid: StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.OnDisable*
+  name: OnDisable
+  href: api/StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.html#StormHawks_Runtime_Entities_Enemies_SteeringEnemyBase_OnDisable_
+  commentId: Overload:StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.OnDisable
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.OnDisable
+  nameWithType: SteeringEnemyBase.OnDisable
+- uid: StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.OnEnable
+  name: OnEnable()
+  href: api/StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.html#StormHawks_Runtime_Entities_Enemies_SteeringEnemyBase_OnEnable
+  commentId: M:StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.OnEnable
+  fullName: StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.OnEnable()
+  nameWithType: SteeringEnemyBase.OnEnable()
+- uid: StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.OnEnable*
+  name: OnEnable
+  href: api/StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.html#StormHawks_Runtime_Entities_Enemies_SteeringEnemyBase_OnEnable_
+  commentId: Overload:StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.OnEnable
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.OnEnable
+  nameWithType: SteeringEnemyBase.OnEnable
 - uid: StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.ReturnToPool
   name: ReturnToPool()
   href: api/StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.html#StormHawks_Runtime_Entities_Enemies_SteeringEnemyBase_ReturnToPool
@@ -27768,6 +27870,12 @@ references:
   commentId: E:StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupRuntimeSet.OnCreatedNewGroup
   fullName: StormHawks.Runtime.Utilities.RuntimeSet.EnemyGroupRuntimeSet.OnCreatedNewGroup
   nameWithType: EnemyGroupRuntimeSet.OnCreatedNewGroup
+- uid: StormHawks.Runtime.Utilities.RuntimeSet.EnemyRuntimeSet
+  name: EnemyRuntimeSet
+  href: api/StormHawks.Runtime.Utilities.RuntimeSet.EnemyRuntimeSet.html
+  commentId: T:StormHawks.Runtime.Utilities.RuntimeSet.EnemyRuntimeSet
+  fullName: StormHawks.Runtime.Utilities.RuntimeSet.EnemyRuntimeSet
+  nameWithType: EnemyRuntimeSet
 - uid: StormHawks.Runtime.Utilities.RuntimeSet.FriendlyShipRuntimeSet
   name: FriendlyShipRuntimeSet
   href: api/StormHawks.Runtime.Utilities.RuntimeSet.FriendlyShipRuntimeSet.html

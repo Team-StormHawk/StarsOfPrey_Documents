@@ -90,12 +90,68 @@
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
     <div class="level1"><span class="xref">EnemyHomingMissile</span></div>
   </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">IHasHealth</span></div>
+  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Entities.Enemies.Projectiles.html">StormHawks.Runtime.Entities.Enemies.Projectiles</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="StormHawks_Runtime_Entities_Enemies_Projectiles_EnemyHomingMissile_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class EnemyHomingMissile : Projectile</code></pre>
   </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="StormHawks_Runtime_Entities_Enemies_Projectiles_EnemyHomingMissile_CurrentHealth_" data-uid="StormHawks.Runtime.Entities.Enemies.Projectiles.EnemyHomingMissile.CurrentHealth*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Enemies_Projectiles_EnemyHomingMissile_CurrentHealth" data-uid="StormHawks.Runtime.Entities.Enemies.Projectiles.EnemyHomingMissile.CurrentHealth">CurrentHealth</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float CurrentHealth { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StormHawks_Runtime_Entities_Enemies_Projectiles_EnemyHomingMissile_HealthSO_" data-uid="StormHawks.Runtime.Entities.Enemies.Projectiles.EnemyHomingMissile.HealthSO*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Enemies_Projectiles_EnemyHomingMissile_HealthSO" data-uid="StormHawks.Runtime.Entities.Enemies.Projectiles.EnemyHomingMissile.HealthSO">HealthSO</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EntityHealthSO HealthSO { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="StormHawks.Runtime.Entities.EntityHealthSO.html">EntityHealthSO</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
   </h3>
   
@@ -127,6 +183,42 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public override void OnSpawn()</code></pre>
+  </div>
+  
+  
+  <a id="StormHawks_Runtime_Entities_Enemies_Projectiles_EnemyHomingMissile_TakeDamage_" data-uid="StormHawks.Runtime.Entities.Enemies.Projectiles.EnemyHomingMissile.TakeDamage*"></a>
+  <h4 id="StormHawks_Runtime_Entities_Enemies_Projectiles_EnemyHomingMissile_TakeDamage_Vector3_System_Single_" data-uid="StormHawks.Runtime.Entities.Enemies.Projectiles.EnemyHomingMissile.TakeDamage(Vector3,System.Single)">TakeDamage(Vector3, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void TakeDamage(Vector3 dir, float damage)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td><span class="parametername">dir</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">damage</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">IHasHealth</span>
   </div>
 </article>
           </div>

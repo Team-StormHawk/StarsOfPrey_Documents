@@ -832,7 +832,7 @@
   "api/StormHawks.Runtime.Entities.Enemies.ChasingEnemy.html": {
     "href": "api/StormHawks.Runtime.Entities.Enemies.ChasingEnemy.html",
     "title": "Class ChasingEnemy | Developer Reference",
-    "keywords": "Class ChasingEnemy Inheritance Object SteeringEnemyBase ChasingEnemy Implements IHasHealth IFollower IAggressive IPoolable < ChasingEnemy > Inherited Members SteeringEnemyBase.groupRuntimeSet SteeringEnemyBase._explosionEffect SteeringEnemyBase.HealthSO SteeringEnemyBase.CurrentHealth SteeringEnemyBase._explosionEvent SteeringEnemyBase.IS_RETURNING SteeringEnemyBase.AGGRO_TARGET SteeringEnemyBase.Target SteeringEnemyBase.SetFollowTarget(GameObject) Namespace : StormHawks.Runtime.Entities.Enemies Assembly : cs.temp.dll.dll Syntax public class ChasingEnemy : SteeringEnemyBase Properties AggroTarget Declaration public GameObject AggroTarget { get; } Property Value Type Description GameObject IsAggressive Declaration public bool IsAggressive { get; } Property Value Type Description Boolean Pool Declaration public MonoObjectPool<ChasingEnemy> Pool { get; set; } Property Value Type Description MonoObjectPool < ChasingEnemy > Methods OnRelease() Declaration public void OnRelease() OnSpawn() Declaration public void OnSpawn() ReleaseAggressive() Declaration public void ReleaseAggressive() ReturnToPool() Declaration public override void ReturnToPool() Overrides SteeringEnemyBase.ReturnToPool() RotateTo() Declaration protected override void RotateTo() SetAggroTarget(GameObject) Declaration public void SetAggroTarget(GameObject target) Parameters Type Name Description GameObject target Start() Declaration protected override void Start() Overrides SteeringEnemyBase.Start() TakeDamage(Vector3, Single) Declaration public override void TakeDamage(Vector3 dir, float damage) Parameters Type Name Description Vector3 dir Single damage Overrides SteeringEnemyBase.TakeDamage(Vector3, Single) Implements IHasHealth IFollower IAggressive IPoolable<>"
+    "keywords": "Class ChasingEnemy Inheritance Object SteeringEnemyBase ChasingEnemy TutorialChasingEnemy Implements IHasHealth IFollower IAggressive IPoolable < ChasingEnemy > Inherited Members SteeringEnemyBase.groupRuntimeSet SteeringEnemyBase._explosionEffect SteeringEnemyBase.HealthSO SteeringEnemyBase.CurrentHealth SteeringEnemyBase._explosionEvent SteeringEnemyBase.IS_RETURNING SteeringEnemyBase.AGGRO_TARGET SteeringEnemyBase.Target SteeringEnemyBase.SetFollowTarget(GameObject) Namespace : StormHawks.Runtime.Entities.Enemies Assembly : cs.temp.dll.dll Syntax public class ChasingEnemy : SteeringEnemyBase Fields _currentGroup Declaration protected EnemyGroup _currentGroup Field Value Type Description EnemyGroup Properties AggroTarget Declaration public GameObject AggroTarget { get; } Property Value Type Description GameObject IsAggressive Declaration public bool IsAggressive { get; } Property Value Type Description Boolean Pool Declaration public MonoObjectPool<ChasingEnemy> Pool { get; set; } Property Value Type Description MonoObjectPool < ChasingEnemy > Methods OnRelease() Declaration public virtual void OnRelease() OnSpawn() Declaration public void OnSpawn() ReleaseAggressive() Declaration public void ReleaseAggressive() ReturnToPool() Declaration public override void ReturnToPool() Overrides SteeringEnemyBase.ReturnToPool() RotateTo() Declaration protected override void RotateTo() SetAggroTarget(GameObject) Declaration public void SetAggroTarget(GameObject target) Parameters Type Name Description GameObject target Start() Declaration protected override void Start() Overrides SteeringEnemyBase.Start() TakeDamage(Vector3, Single) Declaration public override void TakeDamage(Vector3 dir, float damage) Parameters Type Name Description Vector3 dir Single damage Overrides SteeringEnemyBase.TakeDamage(Vector3, Single) Implements IHasHealth IFollower IAggressive IPoolable<>"
   },
   "api/StormHawks.Runtime.Entities.Enemies.Elites.EliteCrystal.html": {
     "href": "api/StormHawks.Runtime.Entities.Enemies.Elites.EliteCrystal.html",
@@ -882,7 +882,7 @@
   "api/StormHawks.Runtime.Entities.Enemies.html": {
     "href": "api/StormHawks.Runtime.Entities.Enemies.html",
     "title": "Namespace StormHawks.Runtime.Entities.Enemies | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Entities.Enemies Classes ChasingEnemy EntityRotator Entity의 회전을 관리할 클래스. LookerEnemy SteeringEnemyBase SteeringEnemyContext"
+    "keywords": "Namespace StormHawks.Runtime.Entities.Enemies Classes ChasingEnemy EntityRotator Entity의 회전을 관리할 클래스. LookerEnemy SteeringEnemyBase SteeringEnemyContext TutorialChasingEnemy"
   },
   "api/StormHawks.Runtime.Entities.Enemies.LookerEnemy.html": {
     "href": "api/StormHawks.Runtime.Entities.Enemies.LookerEnemy.html",
@@ -937,7 +937,12 @@
   "api/StormHawks.Runtime.Entities.Enemies.SteeringEnemyContext.html": {
     "href": "api/StormHawks.Runtime.Entities.Enemies.SteeringEnemyContext.html",
     "title": "Class SteeringEnemyContext | Developer Reference",
-    "keywords": "Class SteeringEnemyContext Inheritance Object SteeringEntityContext SteeringEnemyContext Inherited Members SteeringEntityContext.RegisterToBlackboard(Blackboard) Namespace : StormHawks.Runtime.Entities.Enemies Assembly : cs.temp.dll.dll Syntax public class SteeringEnemyContext : SteeringEntityContext Fields EnemyBase Declaration public SteeringEnemyBase EnemyBase Field Value Type Description SteeringEnemyBase"
+    "keywords": "Class SteeringEnemyContext Inheritance Object SteeringEntityContext SteeringEnemyContext Inherited Members SteeringEntityContext.ObstacleLayer SteeringEntityContext.EntityLayer SteeringEntityContext.RegisterToBlackboard(Blackboard) Namespace : StormHawks.Runtime.Entities.Enemies Assembly : cs.temp.dll.dll Syntax public class SteeringEnemyContext : SteeringEntityContext Fields EnemyBase Declaration public SteeringEnemyBase EnemyBase Field Value Type Description SteeringEnemyBase"
+  },
+  "api/StormHawks.Runtime.Entities.Enemies.TutorialChasingEnemy.html": {
+    "href": "api/StormHawks.Runtime.Entities.Enemies.TutorialChasingEnemy.html",
+    "title": "Class TutorialChasingEnemy | Developer Reference",
+    "keywords": "Class TutorialChasingEnemy Inheritance Object SteeringEnemyBase ChasingEnemy TutorialChasingEnemy Implements IHasHealth IFollower IAggressive IPoolable < ChasingEnemy > Inherited Members ChasingEnemy._currentGroup ChasingEnemy.Start() ChasingEnemy.RotateTo() ChasingEnemy.ReturnToPool() ChasingEnemy.Pool ChasingEnemy.OnSpawn() ChasingEnemy.IsAggressive ChasingEnemy.AggroTarget ChasingEnemy.SetAggroTarget(GameObject) ChasingEnemy.ReleaseAggressive() SteeringEnemyBase.groupRuntimeSet SteeringEnemyBase._explosionEffect SteeringEnemyBase.HealthSO SteeringEnemyBase.CurrentHealth SteeringEnemyBase._explosionEvent SteeringEnemyBase.IS_RETURNING SteeringEnemyBase.AGGRO_TARGET SteeringEnemyBase.Target SteeringEnemyBase.SetFollowTarget(GameObject) Namespace : StormHawks.Runtime.Entities.Enemies Assembly : cs.temp.dll.dll Syntax public class TutorialChasingEnemy : ChasingEnemy Methods OnRelease() Declaration public override void OnRelease() Overrides ChasingEnemy.OnRelease() TakeDamage(Vector3, Single) Declaration public override void TakeDamage(Vector3 dir, float damage) Parameters Type Name Description Vector3 dir Single damage Overrides ChasingEnemy.TakeDamage(Vector3, Single) Implements IHasHealth IFollower IAggressive IPoolable<>"
   },
   "api/StormHawks.Runtime.Entities.EntityDamageSO.html": {
     "href": "api/StormHawks.Runtime.Entities.EntityDamageSO.html",
@@ -1107,12 +1112,12 @@
   "api/StormHawks.Runtime.Entities.SteeringEntities.SteeringEntity.html": {
     "href": "api/StormHawks.Runtime.Entities.SteeringEntities.SteeringEntity.html",
     "title": "Class SteeringEntity | Developer Reference",
-    "keywords": "Class SteeringEntity Steering behavior를 하는 Entity의 base 클래스. Inheritance Object SteeringEntity Implements ISteerEntity Namespace : StormHawks.Runtime.Entities.SteeringEntities Assembly : cs.temp.dll.dll Syntax public abstract class SteeringEntity : MonoBehaviour Fields _blackboard Declaration protected Blackboard _blackboard Field Value Type Description Blackboard _faceDirection Declaration protected Vector3 _faceDirection Field Value Type Description Vector3 _rotator Declaration protected IRotator _rotator Field Value Type Description IRotator _steeringSum Declaration protected Vector3 _steeringSum Field Value Type Description Vector3 Properties Forces Declaration public Dictionary<string, SteeringForce> Forces { get; } Property Value Type Description Dictionary < String , SteeringForce > MaxForce Declaration public float MaxForce { get; set; } Property Value Type Description Single Rigidbody Declaration public Rigidbody Rigidbody { get; } Property Value Type Description Rigidbody SpeedRange Declaration public RangeValue SpeedRange { get; } Property Value Type Description RangeValue Methods AddSteeringForce<T>(T) Declaration public void AddSteeringForce<T>(T steeringForce) where T : SteeringForce Parameters Type Name Description T steeringForce Type Parameters Name Description T ApplySteering(Vector3) Declaration protected void ApplySteering(Vector3 steeringSum) Parameters Type Name Description Vector3 steeringSum Awake() Declaration protected virtual void Awake() ContainSteeringForce<T>(T) Declaration public bool ContainSteeringForce<T>(T force) where T : SteeringForce Parameters Type Name Description T force Returns Type Description Boolean Type Parameters Name Description T FixedUpdate() Declaration protected virtual void FixedUpdate() GetBlackboard() Declaration public Blackboard GetBlackboard() Returns Type Description Blackboard RemoveAllForces() Declaration public void RemoveAllForces() RemoveSteeringForce<T>(T) Declaration public void RemoveSteeringForce<T>(T steeringForce) where T : SteeringForce Parameters Type Name Description T steeringForce Type Parameters Name Description T RotateTo() Declaration protected abstract void RotateTo() Start() Declaration protected virtual void Start() Stop() Declaration public void Stop() Update() Declaration protected virtual void Update() Implements ISteerEntity"
+    "keywords": "Class SteeringEntity Steering behavior를 하는 Entity의 base 클래스. Inheritance Object SteeringEntity Implements ISteerEntity Namespace : StormHawks.Runtime.Entities.SteeringEntities Assembly : cs.temp.dll.dll Syntax public abstract class SteeringEntity : MonoBehaviour Fields _blackboard Declaration protected Blackboard _blackboard Field Value Type Description Blackboard _faceDirection Declaration protected Vector3 _faceDirection Field Value Type Description Vector3 _rotator Declaration protected IRotator _rotator Field Value Type Description IRotator _steeringSum Declaration protected Vector3 _steeringSum Field Value Type Description Vector3 Properties EntityLayer Declaration public LayerMask EntityLayer { get; protected set; } Property Value Type Description LayerMask Forces Declaration public Dictionary<string, SteeringForce> Forces { get; } Property Value Type Description Dictionary < String , SteeringForce > MaxForce Declaration public float MaxForce { get; set; } Property Value Type Description Single ObstacleLayer Declaration public LayerMask ObstacleLayer { get; protected set; } Property Value Type Description LayerMask Rigidbody Declaration public Rigidbody Rigidbody { get; } Property Value Type Description Rigidbody SpeedRange Declaration public RangeValue SpeedRange { get; } Property Value Type Description RangeValue Methods AddSteeringForce<T>(T) Declaration public void AddSteeringForce<T>(T steeringForce) where T : SteeringForce Parameters Type Name Description T steeringForce Type Parameters Name Description T ApplySteering(Vector3) Declaration protected void ApplySteering(Vector3 steeringSum) Parameters Type Name Description Vector3 steeringSum Awake() Declaration protected virtual void Awake() ContainSteeringForce<T>(T) Declaration public bool ContainSteeringForce<T>(T force) where T : SteeringForce Parameters Type Name Description T force Returns Type Description Boolean Type Parameters Name Description T FixedUpdate() Declaration protected virtual void FixedUpdate() GetBlackboard() Declaration public Blackboard GetBlackboard() Returns Type Description Blackboard RemoveAllForces() Declaration public void RemoveAllForces() RemoveSteeringForce<T>(T) Declaration public void RemoveSteeringForce<T>(T steeringForce) where T : SteeringForce Parameters Type Name Description T steeringForce Type Parameters Name Description T RotateTo() Declaration protected abstract void RotateTo() Start() Declaration protected virtual void Start() Stop() Declaration public void Stop() Update() Declaration protected virtual void Update() Implements ISteerEntity"
   },
   "api/StormHawks.Runtime.Entities.SteeringEntityContext.html": {
     "href": "api/StormHawks.Runtime.Entities.SteeringEntityContext.html",
     "title": "Class SteeringEntityContext | Developer Reference",
-    "keywords": "Class SteeringEntityContext Inheritance Object SteeringEntityContext SteeringEnemyContext Namespace : StormHawks.Runtime.Entities Assembly : cs.temp.dll.dll Syntax public class SteeringEntityContext : DescriptionScriptableObject Methods RegisterToBlackboard(Blackboard) Declaration public void RegisterToBlackboard(Blackboard blackboard) Parameters Type Name Description Blackboard blackboard"
+    "keywords": "Class SteeringEntityContext Inheritance Object SteeringEntityContext SteeringEnemyContext Namespace : StormHawks.Runtime.Entities Assembly : cs.temp.dll.dll Syntax public class SteeringEntityContext : DescriptionScriptableObject Properties EntityLayer Declaration public LayerMask EntityLayer { get; } Property Value Type Description LayerMask ObstacleLayer Declaration public LayerMask ObstacleLayer { get; } Property Value Type Description LayerMask Methods RegisterToBlackboard(Blackboard) Declaration public void RegisterToBlackboard(Blackboard blackboard) Parameters Type Name Description Blackboard blackboard"
   },
   "api/StormHawks.Runtime.Entities.Weakpoints.EyeWeakpoint.html": {
     "href": "api/StormHawks.Runtime.Entities.Weakpoints.EyeWeakpoint.html",
@@ -1277,12 +1282,12 @@
   "api/StormHawks.Runtime.Environments.EnemyPortalSpawner.html": {
     "href": "api/StormHawks.Runtime.Environments.EnemyPortalSpawner.html",
     "title": "Class EnemyPortalSpawner | Developer Reference",
-    "keywords": "Class EnemyPortalSpawner Inheritance Object EnemyPortalSpawner Namespace : StormHawks.Runtime.Environments Assembly : cs.temp.dll.dll Syntax public class EnemyPortalSpawner : MonoBehaviour Methods Open() Declaration public EnemySpawnPortal Open() Returns Type Description EnemySpawnPortal"
+    "keywords": "Class EnemyPortalSpawner Inheritance Object EnemyPortalSpawner TutorialEnemyPortalSpawner Namespace : StormHawks.Runtime.Environments Assembly : cs.temp.dll.dll Syntax public class EnemyPortalSpawner : MonoBehaviour Fields _portalPool Declaration protected MonoObjectPool<EnemySpawnPortal> _portalPool Field Value Type Description MonoObjectPool < EnemySpawnPortal > _portalSpawnHeight Declaration protected float _portalSpawnHeight Field Value Type Description Single Methods Open() Declaration public virtual EnemySpawnPortal Open() Returns Type Description EnemySpawnPortal"
   },
   "api/StormHawks.Runtime.Environments.EnemySpawner.html": {
     "href": "api/StormHawks.Runtime.Environments.EnemySpawner.html",
     "title": "Class EnemySpawner | Developer Reference",
-    "keywords": "Class EnemySpawner Inheritance Object EnemySpawner Namespace : StormHawks.Runtime.Environments Assembly : cs.temp.dll.dll Syntax public class EnemySpawner : MonoBehaviour Methods SpawnEliteEnemy(EliteEnemyBase, Vector3) Declaration public void SpawnEliteEnemy(EliteEnemyBase elite, Vector3 position) Parameters Type Name Description EliteEnemyBase elite Vector3 position SpawnEnemyGroup(EnemyGroupSet) Declaration public void SpawnEnemyGroup(EnemyGroupSet groupSet) Parameters Type Name Description EnemyGroupSet groupSet SpawnEnemyGroups(List<EnemyGroupSet>) Declaration public async UniTaskVoid SpawnEnemyGroups(List<EnemyGroupSet> groupSets) Parameters Type Name Description List < EnemyGroupSet > groupSets Returns Type Description UniTaskVoid"
+    "keywords": "Class EnemySpawner Inheritance Object EnemySpawner TutorialEnemySpawner Namespace : StormHawks.Runtime.Environments Assembly : cs.temp.dll.dll Syntax public class EnemySpawner : MonoBehaviour Methods SpawnEliteEnemy(EliteEnemyBase, Vector3) Declaration public void SpawnEliteEnemy(EliteEnemyBase elite, Vector3 position) Parameters Type Name Description EliteEnemyBase elite Vector3 position SpawnEnemyGroup(EnemyGroupSet) Declaration public void SpawnEnemyGroup(EnemyGroupSet groupSet) Parameters Type Name Description EnemyGroupSet groupSet SpawnEnemyGroups(List<EnemyGroupSet>) Declaration public async UniTaskVoid SpawnEnemyGroups(List<EnemyGroupSet> groupSets) Parameters Type Name Description List < EnemyGroupSet > groupSets Returns Type Description UniTaskVoid"
   },
   "api/StormHawks.Runtime.Environments.EnemySpawnPortal.html": {
     "href": "api/StormHawks.Runtime.Environments.EnemySpawnPortal.html",
@@ -1292,7 +1297,7 @@
   "api/StormHawks.Runtime.Environments.html": {
     "href": "api/StormHawks.Runtime.Environments.html",
     "title": "Namespace StormHawks.Runtime.Environments | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Environments Classes AsteroidParent EnemyGroupPath EnemyPath EnemyPortalSpawner EnemySpawner EnemySpawnPortal PlayableArea"
+    "keywords": "Namespace StormHawks.Runtime.Environments Classes AsteroidParent EnemyGroupPath EnemyPath EnemyPortalSpawner EnemySpawner EnemySpawnPortal PlayableArea TutorialEnemyPortalSpawner TutorialEnemySpawner"
   },
   "api/StormHawks.Runtime.Environments.Paths.CircularPath.html": {
     "href": "api/StormHawks.Runtime.Environments.Paths.CircularPath.html",
@@ -1358,6 +1363,16 @@
     "href": "api/StormHawks.Runtime.Environments.Spawners.html",
     "title": "Namespace StormHawks.Runtime.Environments.Spawners | Developer Reference",
     "keywords": "Namespace StormHawks.Runtime.Environments.Spawners Classes EliteEnemySpawner"
+  },
+  "api/StormHawks.Runtime.Environments.TutorialEnemyPortalSpawner.html": {
+    "href": "api/StormHawks.Runtime.Environments.TutorialEnemyPortalSpawner.html",
+    "title": "Class TutorialEnemyPortalSpawner | Developer Reference",
+    "keywords": "Class TutorialEnemyPortalSpawner Inheritance Object EnemyPortalSpawner TutorialEnemyPortalSpawner Inherited Members EnemyPortalSpawner._portalPool EnemyPortalSpawner._portalSpawnHeight Namespace : StormHawks.Runtime.Environments Assembly : cs.temp.dll.dll Syntax public class TutorialEnemyPortalSpawner : EnemyPortalSpawner Methods Open() Declaration public override EnemySpawnPortal Open() Returns Type Description EnemySpawnPortal Overrides EnemyPortalSpawner.Open()"
+  },
+  "api/StormHawks.Runtime.Environments.TutorialEnemySpawner.html": {
+    "href": "api/StormHawks.Runtime.Environments.TutorialEnemySpawner.html",
+    "title": "Class TutorialEnemySpawner | Developer Reference",
+    "keywords": "Class TutorialEnemySpawner Inheritance Object EnemySpawner TutorialEnemySpawner Inherited Members EnemySpawner.SpawnEnemyGroups(List<EnemyGroupSet>) EnemySpawner.SpawnEnemyGroup(EnemyGroupSet) EnemySpawner.SpawnEliteEnemy(EliteEnemyBase, Vector3) Namespace : StormHawks.Runtime.Environments Assembly : cs.temp.dll.dll Syntax public class TutorialEnemySpawner : EnemySpawner Methods SpawnTutorialEnemyGroupSet() Declaration public void SpawnTutorialEnemyGroupSet()"
   },
   "api/StormHawks.Runtime.FlowSystem.FlowRunner.html": {
     "href": "api/StormHawks.Runtime.FlowSystem.FlowRunner.html",
@@ -2974,15 +2989,25 @@
     "title": "Enum UpdateType | Developer Reference",
     "keywords": "Enum UpdateType Namespace : StormHawks.Runtime.Utilities.Enums Assembly : cs.temp.dll.dll Syntax public enum UpdateType Fields Name Description FixedUpdate LateUpdate Manual Update"
   },
+  "api/StormHawks.Runtime.Utilities.Events.BaseEventChannel.html": {
+    "href": "api/StormHawks.Runtime.Utilities.Events.BaseEventChannel.html",
+    "title": "Class BaseEventChannel | Developer Reference",
+    "keywords": "Class BaseEventChannel Inheritance Object BaseEventChannel TutorialEnemyDestroyedEvent Namespace : StormHawks.Runtime.Utilities.Events Assembly : cs.temp.dll.dll Syntax public abstract class BaseEventChannel : DescriptionScriptableObject Methods AddListener(UnityAction) Declaration public void AddListener(UnityAction action) Parameters Type Name Description UnityAction action RaiseEvent() Declaration public void RaiseEvent() RemoveListener(UnityAction) Declaration public void RemoveListener(UnityAction action) Parameters Type Name Description UnityAction action"
+  },
   "api/StormHawks.Runtime.Utilities.Events.BaseEventChannel-1.html": {
     "href": "api/StormHawks.Runtime.Utilities.Events.BaseEventChannel-1.html",
     "title": "Class BaseEventChannel<T> | Developer Reference",
-    "keywords": "Class BaseEventChannel<T> Inheritance Object BaseEventChannel<T> MainSlavePartEvent PlayerRespawnEvent Namespace : StormHawks.Runtime.Utilities.Events Assembly : cs.temp.dll.dll Syntax public abstract class BaseEventChannel<T> : DescriptionScriptableObject Type Parameters Name Description T Methods AddListener(UnityAction<T>) Declaration public void AddListener(UnityAction<T> action) Parameters Type Name Description UnityAction <T> action RaiseEvent(T) Declaration public void RaiseEvent(T value) Parameters Type Name Description T value RemoveListener(UnityAction<T>) Declaration public void RemoveListener(UnityAction<T> action) Parameters Type Name Description UnityAction <T> action"
+    "keywords": "Class BaseEventChannel<T> Inheritance Object BaseEventChannel<T> EnemyGroupSpawnedEvent MainSlavePartEvent PlayerRespawnEvent Namespace : StormHawks.Runtime.Utilities.Events Assembly : cs.temp.dll.dll Syntax public abstract class BaseEventChannel<T> : DescriptionScriptableObject Type Parameters Name Description T Methods AddListener(UnityAction<T>) Declaration public void AddListener(UnityAction<T> action) Parameters Type Name Description UnityAction <T> action RaiseEvent(T) Declaration public void RaiseEvent(T value) Parameters Type Name Description T value RemoveListener(UnityAction<T>) Declaration public void RemoveListener(UnityAction<T> action) Parameters Type Name Description UnityAction <T> action"
+  },
+  "api/StormHawks.Runtime.Utilities.Events.EnemyGroupSpawnedEvent.html": {
+    "href": "api/StormHawks.Runtime.Utilities.Events.EnemyGroupSpawnedEvent.html",
+    "title": "Class EnemyGroupSpawnedEvent | Developer Reference",
+    "keywords": "Class EnemyGroupSpawnedEvent Inheritance Object BaseEventChannel < EnemyGroup > EnemyGroupSpawnedEvent Inherited Members BaseEventChannel<EnemyGroup>.RaiseEvent(EnemyGroup) BaseEventChannel<EnemyGroup>.AddListener(UnityAction<EnemyGroup>) BaseEventChannel<EnemyGroup>.RemoveListener(UnityAction<EnemyGroup>) Namespace : StormHawks.Runtime.Utilities.Events Assembly : cs.temp.dll.dll Syntax public class EnemyGroupSpawnedEvent : BaseEventChannel<EnemyGroup>"
   },
   "api/StormHawks.Runtime.Utilities.Events.html": {
     "href": "api/StormHawks.Runtime.Utilities.Events.html",
     "title": "Namespace StormHawks.Runtime.Utilities.Events | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Utilities.Events Classes BaseEventChannel<T> MainSlavePartEvent PlayerRespawnEvent"
+    "keywords": "Namespace StormHawks.Runtime.Utilities.Events Classes BaseEventChannel BaseEventChannel<T> EnemyGroupSpawnedEvent MainSlavePartEvent PlayerRespawnEvent TutorialEnemyDestroyedEvent"
   },
   "api/StormHawks.Runtime.Utilities.Events.MainSlavePartEvent.html": {
     "href": "api/StormHawks.Runtime.Utilities.Events.MainSlavePartEvent.html",
@@ -2993,6 +3018,11 @@
     "href": "api/StormHawks.Runtime.Utilities.Events.PlayerRespawnEvent.html",
     "title": "Class PlayerRespawnEvent | Developer Reference",
     "keywords": "Class PlayerRespawnEvent Inheritance Object BaseEventChannel < PlayerRespawnInfo > PlayerRespawnEvent Inherited Members BaseEventChannel<PlayerRespawnInfo>.RaiseEvent(PlayerRespawnInfo) BaseEventChannel<PlayerRespawnInfo>.AddListener(UnityAction<PlayerRespawnInfo>) BaseEventChannel<PlayerRespawnInfo>.RemoveListener(UnityAction<PlayerRespawnInfo>) Namespace : StormHawks.Runtime.Utilities.Events Assembly : cs.temp.dll.dll Syntax public class PlayerRespawnEvent : BaseEventChannel<PlayerRespawnInfo>"
+  },
+  "api/StormHawks.Runtime.Utilities.Events.TutorialEnemyDestroyedEvent.html": {
+    "href": "api/StormHawks.Runtime.Utilities.Events.TutorialEnemyDestroyedEvent.html",
+    "title": "Class TutorialEnemyDestroyedEvent | Developer Reference",
+    "keywords": "Class TutorialEnemyDestroyedEvent Inheritance Object BaseEventChannel TutorialEnemyDestroyedEvent Inherited Members BaseEventChannel.RaiseEvent() BaseEventChannel.AddListener(UnityAction) BaseEventChannel.RemoveListener(UnityAction) Namespace : StormHawks.Runtime.Utilities.Events Assembly : cs.temp.dll.dll Syntax public class TutorialEnemyDestroyedEvent : BaseEventChannel"
   },
   "api/StormHawks.Runtime.Utilities.Extensions.ArrayExtensions.html": {
     "href": "api/StormHawks.Runtime.Utilities.Extensions.ArrayExtensions.html",

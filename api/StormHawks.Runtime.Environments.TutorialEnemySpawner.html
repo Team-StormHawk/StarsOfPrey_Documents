@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class EnemyPortalSpawner
+    <title>Class TutorialEnemySpawner
    | Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class EnemyPortalSpawner
+    <meta name="title" content="Class TutorialEnemySpawner
    | Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -78,102 +78,49 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Environments.EnemyPortalSpawner">
+            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Environments.TutorialEnemySpawner">
   
   
-  <h1 id="StormHawks_Runtime_Environments_EnemyPortalSpawner" data-uid="StormHawks.Runtime.Environments.EnemyPortalSpawner" class="text-break">Class EnemyPortalSpawner
+  <h1 id="StormHawks_Runtime_Environments_TutorialEnemySpawner" data-uid="StormHawks.Runtime.Environments.TutorialEnemySpawner" class="text-break">Class TutorialEnemySpawner
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">EnemyPortalSpawner</span></div>
-      <div class="level2"><a class="xref" href="StormHawks.Runtime.Environments.TutorialEnemyPortalSpawner.html">TutorialEnemyPortalSpawner</a></div>
+    <div class="level1"><a class="xref" href="StormHawks.Runtime.Environments.EnemySpawner.html">EnemySpawner</a></div>
+    <div class="level2"><span class="xref">TutorialEnemySpawner</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Environments.EnemySpawner.html#StormHawks_Runtime_Environments_EnemySpawner_SpawnEnemyGroups_List_EnemyGroupSet__">EnemySpawner.SpawnEnemyGroups(List&lt;EnemyGroupSet&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Environments.EnemySpawner.html#StormHawks_Runtime_Environments_EnemySpawner_SpawnEnemyGroup_EnemyGroupSet_">EnemySpawner.SpawnEnemyGroup(EnemyGroupSet)</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Environments.EnemySpawner.html#StormHawks_Runtime_Environments_EnemySpawner_SpawnEliteEnemy_EliteEnemyBase_Vector3_">EnemySpawner.SpawnEliteEnemy(EliteEnemyBase, Vector3)</a>
+    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Environments.html">StormHawks.Runtime.Environments</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="StormHawks_Runtime_Environments_EnemyPortalSpawner_syntax">Syntax</h5>
+  <h5 id="StormHawks_Runtime_Environments_TutorialEnemySpawner_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class EnemyPortalSpawner : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public class TutorialEnemySpawner : EnemySpawner</code></pre>
   </div>
-  <h3 id="fields">Fields
-  </h3>
-  
-  
-  <h4 id="StormHawks_Runtime_Environments_EnemyPortalSpawner__portalPool" data-uid="StormHawks.Runtime.Environments.EnemyPortalSpawner._portalPool">_portalPool</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected MonoObjectPool&lt;EnemySpawnPortal&gt; _portalPool</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">MonoObjectPool</span>&lt;<a class="xref" href="StormHawks.Runtime.Environments.EnemySpawnPortal.html">EnemySpawnPortal</a>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="StormHawks_Runtime_Environments_EnemyPortalSpawner__portalSpawnHeight" data-uid="StormHawks.Runtime.Environments.EnemyPortalSpawner._portalSpawnHeight">_portalSpawnHeight</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected float _portalSpawnHeight</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="StormHawks_Runtime_Environments_EnemyPortalSpawner_Open_" data-uid="StormHawks.Runtime.Environments.EnemyPortalSpawner.Open*"></a>
-  <h4 id="StormHawks_Runtime_Environments_EnemyPortalSpawner_Open" data-uid="StormHawks.Runtime.Environments.EnemyPortalSpawner.Open">Open()</h4>
+  <a id="StormHawks_Runtime_Environments_TutorialEnemySpawner_SpawnTutorialEnemyGroupSet_" data-uid="StormHawks.Runtime.Environments.TutorialEnemySpawner.SpawnTutorialEnemyGroupSet*"></a>
+  <h4 id="StormHawks_Runtime_Environments_TutorialEnemySpawner_SpawnTutorialEnemyGroupSet" data-uid="StormHawks.Runtime.Environments.TutorialEnemySpawner.SpawnTutorialEnemyGroupSet">SpawnTutorialEnemyGroupSet()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual EnemySpawnPortal Open()</code></pre>
+    <pre><code class="lang-csharp hljs">public void SpawnTutorialEnemyGroupSet()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="StormHawks.Runtime.Environments.EnemySpawnPortal.html">EnemySpawnPortal</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
 </article>
           </div>
           

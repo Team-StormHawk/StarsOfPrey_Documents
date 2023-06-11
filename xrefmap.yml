@@ -5586,6 +5586,12 @@ references:
   commentId: T:StormHawks.Runtime.Entities.Enemies.ChasingEnemy
   fullName: StormHawks.Runtime.Entities.Enemies.ChasingEnemy
   nameWithType: ChasingEnemy
+- uid: StormHawks.Runtime.Entities.Enemies.ChasingEnemy._currentGroup
+  name: _currentGroup
+  href: api/StormHawks.Runtime.Entities.Enemies.ChasingEnemy.html#StormHawks_Runtime_Entities_Enemies_ChasingEnemy__currentGroup
+  commentId: F:StormHawks.Runtime.Entities.Enemies.ChasingEnemy._currentGroup
+  fullName: StormHawks.Runtime.Entities.Enemies.ChasingEnemy._currentGroup
+  nameWithType: ChasingEnemy._currentGroup
 - uid: StormHawks.Runtime.Entities.Enemies.ChasingEnemy.AggroTarget
   name: AggroTarget
   href: api/StormHawks.Runtime.Entities.Enemies.ChasingEnemy.html#StormHawks_Runtime_Entities_Enemies_ChasingEnemy_AggroTarget
@@ -7343,6 +7349,38 @@ references:
   commentId: F:StormHawks.Runtime.Entities.Enemies.SteeringEnemyContext.EnemyBase
   fullName: StormHawks.Runtime.Entities.Enemies.SteeringEnemyContext.EnemyBase
   nameWithType: SteeringEnemyContext.EnemyBase
+- uid: StormHawks.Runtime.Entities.Enemies.TutorialChasingEnemy
+  name: TutorialChasingEnemy
+  href: api/StormHawks.Runtime.Entities.Enemies.TutorialChasingEnemy.html
+  commentId: T:StormHawks.Runtime.Entities.Enemies.TutorialChasingEnemy
+  fullName: StormHawks.Runtime.Entities.Enemies.TutorialChasingEnemy
+  nameWithType: TutorialChasingEnemy
+- uid: StormHawks.Runtime.Entities.Enemies.TutorialChasingEnemy.OnRelease
+  name: OnRelease()
+  href: api/StormHawks.Runtime.Entities.Enemies.TutorialChasingEnemy.html#StormHawks_Runtime_Entities_Enemies_TutorialChasingEnemy_OnRelease
+  commentId: M:StormHawks.Runtime.Entities.Enemies.TutorialChasingEnemy.OnRelease
+  fullName: StormHawks.Runtime.Entities.Enemies.TutorialChasingEnemy.OnRelease()
+  nameWithType: TutorialChasingEnemy.OnRelease()
+- uid: StormHawks.Runtime.Entities.Enemies.TutorialChasingEnemy.OnRelease*
+  name: OnRelease
+  href: api/StormHawks.Runtime.Entities.Enemies.TutorialChasingEnemy.html#StormHawks_Runtime_Entities_Enemies_TutorialChasingEnemy_OnRelease_
+  commentId: Overload:StormHawks.Runtime.Entities.Enemies.TutorialChasingEnemy.OnRelease
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Entities.Enemies.TutorialChasingEnemy.OnRelease
+  nameWithType: TutorialChasingEnemy.OnRelease
+- uid: StormHawks.Runtime.Entities.Enemies.TutorialChasingEnemy.TakeDamage(Vector3,System.Single)
+  name: TakeDamage(Vector3, Single)
+  href: api/StormHawks.Runtime.Entities.Enemies.TutorialChasingEnemy.html#StormHawks_Runtime_Entities_Enemies_TutorialChasingEnemy_TakeDamage_Vector3_System_Single_
+  commentId: M:StormHawks.Runtime.Entities.Enemies.TutorialChasingEnemy.TakeDamage(Vector3,System.Single)
+  fullName: StormHawks.Runtime.Entities.Enemies.TutorialChasingEnemy.TakeDamage(Vector3, System.Single)
+  nameWithType: TutorialChasingEnemy.TakeDamage(Vector3, Single)
+- uid: StormHawks.Runtime.Entities.Enemies.TutorialChasingEnemy.TakeDamage*
+  name: TakeDamage
+  href: api/StormHawks.Runtime.Entities.Enemies.TutorialChasingEnemy.html#StormHawks_Runtime_Entities_Enemies_TutorialChasingEnemy_TakeDamage_
+  commentId: Overload:StormHawks.Runtime.Entities.Enemies.TutorialChasingEnemy.TakeDamage
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Entities.Enemies.TutorialChasingEnemy.TakeDamage
+  nameWithType: TutorialChasingEnemy.TakeDamage
 - uid: StormHawks.Runtime.Entities.EntityDamageSO
   name: EntityDamageSO
   href: api/StormHawks.Runtime.Entities.EntityDamageSO.html
@@ -9369,6 +9407,19 @@ references:
   fullName.vb: StormHawks.Runtime.Entities.SteeringEntities.SteeringEntity.ContainSteeringForce(Of T)(T)
   nameWithType: SteeringEntity.ContainSteeringForce<T>(T)
   nameWithType.vb: SteeringEntity.ContainSteeringForce(Of T)(T)
+- uid: StormHawks.Runtime.Entities.SteeringEntities.SteeringEntity.EntityLayer
+  name: EntityLayer
+  href: api/StormHawks.Runtime.Entities.SteeringEntities.SteeringEntity.html#StormHawks_Runtime_Entities_SteeringEntities_SteeringEntity_EntityLayer
+  commentId: P:StormHawks.Runtime.Entities.SteeringEntities.SteeringEntity.EntityLayer
+  fullName: StormHawks.Runtime.Entities.SteeringEntities.SteeringEntity.EntityLayer
+  nameWithType: SteeringEntity.EntityLayer
+- uid: StormHawks.Runtime.Entities.SteeringEntities.SteeringEntity.EntityLayer*
+  name: EntityLayer
+  href: api/StormHawks.Runtime.Entities.SteeringEntities.SteeringEntity.html#StormHawks_Runtime_Entities_SteeringEntities_SteeringEntity_EntityLayer_
+  commentId: Overload:StormHawks.Runtime.Entities.SteeringEntities.SteeringEntity.EntityLayer
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Entities.SteeringEntities.SteeringEntity.EntityLayer
+  nameWithType: SteeringEntity.EntityLayer
 - uid: StormHawks.Runtime.Entities.SteeringEntities.SteeringEntity.FixedUpdate
   name: FixedUpdate()
   href: api/StormHawks.Runtime.Entities.SteeringEntities.SteeringEntity.html#StormHawks_Runtime_Entities_SteeringEntities_SteeringEntity_FixedUpdate
@@ -9421,6 +9472,19 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Entities.SteeringEntities.SteeringEntity.MaxForce
   nameWithType: SteeringEntity.MaxForce
+- uid: StormHawks.Runtime.Entities.SteeringEntities.SteeringEntity.ObstacleLayer
+  name: ObstacleLayer
+  href: api/StormHawks.Runtime.Entities.SteeringEntities.SteeringEntity.html#StormHawks_Runtime_Entities_SteeringEntities_SteeringEntity_ObstacleLayer
+  commentId: P:StormHawks.Runtime.Entities.SteeringEntities.SteeringEntity.ObstacleLayer
+  fullName: StormHawks.Runtime.Entities.SteeringEntities.SteeringEntity.ObstacleLayer
+  nameWithType: SteeringEntity.ObstacleLayer
+- uid: StormHawks.Runtime.Entities.SteeringEntities.SteeringEntity.ObstacleLayer*
+  name: ObstacleLayer
+  href: api/StormHawks.Runtime.Entities.SteeringEntities.SteeringEntity.html#StormHawks_Runtime_Entities_SteeringEntities_SteeringEntity_ObstacleLayer_
+  commentId: Overload:StormHawks.Runtime.Entities.SteeringEntities.SteeringEntity.ObstacleLayer
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Entities.SteeringEntities.SteeringEntity.ObstacleLayer
+  nameWithType: SteeringEntity.ObstacleLayer
 - uid: StormHawks.Runtime.Entities.SteeringEntities.SteeringEntity.RemoveAllForces
   name: RemoveAllForces()
   href: api/StormHawks.Runtime.Entities.SteeringEntities.SteeringEntity.html#StormHawks_Runtime_Entities_SteeringEntities_SteeringEntity_RemoveAllForces
@@ -9534,6 +9598,32 @@ references:
   commentId: T:StormHawks.Runtime.Entities.SteeringEntityContext
   fullName: StormHawks.Runtime.Entities.SteeringEntityContext
   nameWithType: SteeringEntityContext
+- uid: StormHawks.Runtime.Entities.SteeringEntityContext.EntityLayer
+  name: EntityLayer
+  href: api/StormHawks.Runtime.Entities.SteeringEntityContext.html#StormHawks_Runtime_Entities_SteeringEntityContext_EntityLayer
+  commentId: P:StormHawks.Runtime.Entities.SteeringEntityContext.EntityLayer
+  fullName: StormHawks.Runtime.Entities.SteeringEntityContext.EntityLayer
+  nameWithType: SteeringEntityContext.EntityLayer
+- uid: StormHawks.Runtime.Entities.SteeringEntityContext.EntityLayer*
+  name: EntityLayer
+  href: api/StormHawks.Runtime.Entities.SteeringEntityContext.html#StormHawks_Runtime_Entities_SteeringEntityContext_EntityLayer_
+  commentId: Overload:StormHawks.Runtime.Entities.SteeringEntityContext.EntityLayer
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Entities.SteeringEntityContext.EntityLayer
+  nameWithType: SteeringEntityContext.EntityLayer
+- uid: StormHawks.Runtime.Entities.SteeringEntityContext.ObstacleLayer
+  name: ObstacleLayer
+  href: api/StormHawks.Runtime.Entities.SteeringEntityContext.html#StormHawks_Runtime_Entities_SteeringEntityContext_ObstacleLayer
+  commentId: P:StormHawks.Runtime.Entities.SteeringEntityContext.ObstacleLayer
+  fullName: StormHawks.Runtime.Entities.SteeringEntityContext.ObstacleLayer
+  nameWithType: SteeringEntityContext.ObstacleLayer
+- uid: StormHawks.Runtime.Entities.SteeringEntityContext.ObstacleLayer*
+  name: ObstacleLayer
+  href: api/StormHawks.Runtime.Entities.SteeringEntityContext.html#StormHawks_Runtime_Entities_SteeringEntityContext_ObstacleLayer_
+  commentId: Overload:StormHawks.Runtime.Entities.SteeringEntityContext.ObstacleLayer
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Entities.SteeringEntityContext.ObstacleLayer
+  nameWithType: SteeringEntityContext.ObstacleLayer
 - uid: StormHawks.Runtime.Entities.SteeringEntityContext.RegisterToBlackboard(Blackboard)
   name: RegisterToBlackboard(Blackboard)
   href: api/StormHawks.Runtime.Entities.SteeringEntityContext.html#StormHawks_Runtime_Entities_SteeringEntityContext_RegisterToBlackboard_Blackboard_
@@ -11796,6 +11886,18 @@ references:
   commentId: T:StormHawks.Runtime.Environments.EnemyPortalSpawner
   fullName: StormHawks.Runtime.Environments.EnemyPortalSpawner
   nameWithType: EnemyPortalSpawner
+- uid: StormHawks.Runtime.Environments.EnemyPortalSpawner._portalPool
+  name: _portalPool
+  href: api/StormHawks.Runtime.Environments.EnemyPortalSpawner.html#StormHawks_Runtime_Environments_EnemyPortalSpawner__portalPool
+  commentId: F:StormHawks.Runtime.Environments.EnemyPortalSpawner._portalPool
+  fullName: StormHawks.Runtime.Environments.EnemyPortalSpawner._portalPool
+  nameWithType: EnemyPortalSpawner._portalPool
+- uid: StormHawks.Runtime.Environments.EnemyPortalSpawner._portalSpawnHeight
+  name: _portalSpawnHeight
+  href: api/StormHawks.Runtime.Environments.EnemyPortalSpawner.html#StormHawks_Runtime_Environments_EnemyPortalSpawner__portalSpawnHeight
+  commentId: F:StormHawks.Runtime.Environments.EnemyPortalSpawner._portalSpawnHeight
+  fullName: StormHawks.Runtime.Environments.EnemyPortalSpawner._portalSpawnHeight
+  nameWithType: EnemyPortalSpawner._portalSpawnHeight
 - uid: StormHawks.Runtime.Environments.EnemyPortalSpawner.Open
   name: Open()
   href: api/StormHawks.Runtime.Environments.EnemyPortalSpawner.html#StormHawks_Runtime_Environments_EnemyPortalSpawner_Open
@@ -12368,6 +12470,44 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Environments.Spawners.EliteEnemySpawner.Spawn
   nameWithType: EliteEnemySpawner.Spawn
+- uid: StormHawks.Runtime.Environments.TutorialEnemyPortalSpawner
+  name: TutorialEnemyPortalSpawner
+  href: api/StormHawks.Runtime.Environments.TutorialEnemyPortalSpawner.html
+  commentId: T:StormHawks.Runtime.Environments.TutorialEnemyPortalSpawner
+  fullName: StormHawks.Runtime.Environments.TutorialEnemyPortalSpawner
+  nameWithType: TutorialEnemyPortalSpawner
+- uid: StormHawks.Runtime.Environments.TutorialEnemyPortalSpawner.Open
+  name: Open()
+  href: api/StormHawks.Runtime.Environments.TutorialEnemyPortalSpawner.html#StormHawks_Runtime_Environments_TutorialEnemyPortalSpawner_Open
+  commentId: M:StormHawks.Runtime.Environments.TutorialEnemyPortalSpawner.Open
+  fullName: StormHawks.Runtime.Environments.TutorialEnemyPortalSpawner.Open()
+  nameWithType: TutorialEnemyPortalSpawner.Open()
+- uid: StormHawks.Runtime.Environments.TutorialEnemyPortalSpawner.Open*
+  name: Open
+  href: api/StormHawks.Runtime.Environments.TutorialEnemyPortalSpawner.html#StormHawks_Runtime_Environments_TutorialEnemyPortalSpawner_Open_
+  commentId: Overload:StormHawks.Runtime.Environments.TutorialEnemyPortalSpawner.Open
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Environments.TutorialEnemyPortalSpawner.Open
+  nameWithType: TutorialEnemyPortalSpawner.Open
+- uid: StormHawks.Runtime.Environments.TutorialEnemySpawner
+  name: TutorialEnemySpawner
+  href: api/StormHawks.Runtime.Environments.TutorialEnemySpawner.html
+  commentId: T:StormHawks.Runtime.Environments.TutorialEnemySpawner
+  fullName: StormHawks.Runtime.Environments.TutorialEnemySpawner
+  nameWithType: TutorialEnemySpawner
+- uid: StormHawks.Runtime.Environments.TutorialEnemySpawner.SpawnTutorialEnemyGroupSet
+  name: SpawnTutorialEnemyGroupSet()
+  href: api/StormHawks.Runtime.Environments.TutorialEnemySpawner.html#StormHawks_Runtime_Environments_TutorialEnemySpawner_SpawnTutorialEnemyGroupSet
+  commentId: M:StormHawks.Runtime.Environments.TutorialEnemySpawner.SpawnTutorialEnemyGroupSet
+  fullName: StormHawks.Runtime.Environments.TutorialEnemySpawner.SpawnTutorialEnemyGroupSet()
+  nameWithType: TutorialEnemySpawner.SpawnTutorialEnemyGroupSet()
+- uid: StormHawks.Runtime.Environments.TutorialEnemySpawner.SpawnTutorialEnemyGroupSet*
+  name: SpawnTutorialEnemyGroupSet
+  href: api/StormHawks.Runtime.Environments.TutorialEnemySpawner.html#StormHawks_Runtime_Environments_TutorialEnemySpawner_SpawnTutorialEnemyGroupSet_
+  commentId: Overload:StormHawks.Runtime.Environments.TutorialEnemySpawner.SpawnTutorialEnemyGroupSet
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Environments.TutorialEnemySpawner.SpawnTutorialEnemyGroupSet
+  nameWithType: TutorialEnemySpawner.SpawnTutorialEnemyGroupSet
 - uid: StormHawks.Runtime.FlowSystem
   name: StormHawks.Runtime.FlowSystem
   href: api/StormHawks.Runtime.FlowSystem.html
@@ -26095,6 +26235,51 @@ references:
   commentId: N:StormHawks.Runtime.Utilities.Events
   fullName: StormHawks.Runtime.Utilities.Events
   nameWithType: StormHawks.Runtime.Utilities.Events
+- uid: StormHawks.Runtime.Utilities.Events.BaseEventChannel
+  name: BaseEventChannel
+  href: api/StormHawks.Runtime.Utilities.Events.BaseEventChannel.html
+  commentId: T:StormHawks.Runtime.Utilities.Events.BaseEventChannel
+  fullName: StormHawks.Runtime.Utilities.Events.BaseEventChannel
+  nameWithType: BaseEventChannel
+- uid: StormHawks.Runtime.Utilities.Events.BaseEventChannel.AddListener(UnityAction)
+  name: AddListener(UnityAction)
+  href: api/StormHawks.Runtime.Utilities.Events.BaseEventChannel.html#StormHawks_Runtime_Utilities_Events_BaseEventChannel_AddListener_UnityAction_
+  commentId: M:StormHawks.Runtime.Utilities.Events.BaseEventChannel.AddListener(UnityAction)
+  fullName: StormHawks.Runtime.Utilities.Events.BaseEventChannel.AddListener(UnityAction)
+  nameWithType: BaseEventChannel.AddListener(UnityAction)
+- uid: StormHawks.Runtime.Utilities.Events.BaseEventChannel.AddListener*
+  name: AddListener
+  href: api/StormHawks.Runtime.Utilities.Events.BaseEventChannel.html#StormHawks_Runtime_Utilities_Events_BaseEventChannel_AddListener_
+  commentId: Overload:StormHawks.Runtime.Utilities.Events.BaseEventChannel.AddListener
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Utilities.Events.BaseEventChannel.AddListener
+  nameWithType: BaseEventChannel.AddListener
+- uid: StormHawks.Runtime.Utilities.Events.BaseEventChannel.RaiseEvent
+  name: RaiseEvent()
+  href: api/StormHawks.Runtime.Utilities.Events.BaseEventChannel.html#StormHawks_Runtime_Utilities_Events_BaseEventChannel_RaiseEvent
+  commentId: M:StormHawks.Runtime.Utilities.Events.BaseEventChannel.RaiseEvent
+  fullName: StormHawks.Runtime.Utilities.Events.BaseEventChannel.RaiseEvent()
+  nameWithType: BaseEventChannel.RaiseEvent()
+- uid: StormHawks.Runtime.Utilities.Events.BaseEventChannel.RaiseEvent*
+  name: RaiseEvent
+  href: api/StormHawks.Runtime.Utilities.Events.BaseEventChannel.html#StormHawks_Runtime_Utilities_Events_BaseEventChannel_RaiseEvent_
+  commentId: Overload:StormHawks.Runtime.Utilities.Events.BaseEventChannel.RaiseEvent
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Utilities.Events.BaseEventChannel.RaiseEvent
+  nameWithType: BaseEventChannel.RaiseEvent
+- uid: StormHawks.Runtime.Utilities.Events.BaseEventChannel.RemoveListener(UnityAction)
+  name: RemoveListener(UnityAction)
+  href: api/StormHawks.Runtime.Utilities.Events.BaseEventChannel.html#StormHawks_Runtime_Utilities_Events_BaseEventChannel_RemoveListener_UnityAction_
+  commentId: M:StormHawks.Runtime.Utilities.Events.BaseEventChannel.RemoveListener(UnityAction)
+  fullName: StormHawks.Runtime.Utilities.Events.BaseEventChannel.RemoveListener(UnityAction)
+  nameWithType: BaseEventChannel.RemoveListener(UnityAction)
+- uid: StormHawks.Runtime.Utilities.Events.BaseEventChannel.RemoveListener*
+  name: RemoveListener
+  href: api/StormHawks.Runtime.Utilities.Events.BaseEventChannel.html#StormHawks_Runtime_Utilities_Events_BaseEventChannel_RemoveListener_
+  commentId: Overload:StormHawks.Runtime.Utilities.Events.BaseEventChannel.RemoveListener
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Utilities.Events.BaseEventChannel.RemoveListener
+  nameWithType: BaseEventChannel.RemoveListener
 - uid: StormHawks.Runtime.Utilities.Events.BaseEventChannel`1
   name: BaseEventChannel<T>
   href: api/StormHawks.Runtime.Utilities.Events.BaseEventChannel-1.html
@@ -26157,6 +26342,12 @@ references:
   fullName.vb: StormHawks.Runtime.Utilities.Events.BaseEventChannel(Of T).RemoveListener
   nameWithType: BaseEventChannel<T>.RemoveListener
   nameWithType.vb: BaseEventChannel(Of T).RemoveListener
+- uid: StormHawks.Runtime.Utilities.Events.EnemyGroupSpawnedEvent
+  name: EnemyGroupSpawnedEvent
+  href: api/StormHawks.Runtime.Utilities.Events.EnemyGroupSpawnedEvent.html
+  commentId: T:StormHawks.Runtime.Utilities.Events.EnemyGroupSpawnedEvent
+  fullName: StormHawks.Runtime.Utilities.Events.EnemyGroupSpawnedEvent
+  nameWithType: EnemyGroupSpawnedEvent
 - uid: StormHawks.Runtime.Utilities.Events.MainSlavePartEvent
   name: MainSlavePartEvent
   href: api/StormHawks.Runtime.Utilities.Events.MainSlavePartEvent.html
@@ -26169,6 +26360,12 @@ references:
   commentId: T:StormHawks.Runtime.Utilities.Events.PlayerRespawnEvent
   fullName: StormHawks.Runtime.Utilities.Events.PlayerRespawnEvent
   nameWithType: PlayerRespawnEvent
+- uid: StormHawks.Runtime.Utilities.Events.TutorialEnemyDestroyedEvent
+  name: TutorialEnemyDestroyedEvent
+  href: api/StormHawks.Runtime.Utilities.Events.TutorialEnemyDestroyedEvent.html
+  commentId: T:StormHawks.Runtime.Utilities.Events.TutorialEnemyDestroyedEvent
+  fullName: StormHawks.Runtime.Utilities.Events.TutorialEnemyDestroyedEvent
+  nameWithType: TutorialEnemyDestroyedEvent
 - uid: StormHawks.Runtime.Utilities.Extensions
   name: StormHawks.Runtime.Utilities.Extensions
   href: api/StormHawks.Runtime.Utilities.Extensions.html

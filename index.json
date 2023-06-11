@@ -1549,6 +1549,41 @@
     "title": "Namespace StormHawks.Runtime.Inputs | Developer Reference",
     "keywords": "Namespace StormHawks.Runtime.Inputs Classes PlayerInputActions TrackedPoseDriverFixer Structs PlayerInputActions.ControllerActions PlayerInputActions.GripActions PlayerInputActions.HMDActions PlayerInputActions.LaunchActions PlayerInputActions.UIActions Interfaces PlayerInputActions.IControllerActions PlayerInputActions.IGripActions PlayerInputActions.IHMDActions PlayerInputActions.ILaunchActions PlayerInputActions.IUIActions"
   },
+  "api/StormHawks.Runtime.Inputs.Interacts.ControllerRay.html": {
+    "href": "api/StormHawks.Runtime.Inputs.Interacts.ControllerRay.html",
+    "title": "Class ControllerRay | Developer Reference",
+    "keywords": "Class ControllerRay Inheritance Object ControllerRay Namespace : StormHawks.Runtime.Inputs.Interacts Assembly : cs.temp.dll.dll Syntax public class ControllerRay : MonoBehaviour"
+  },
+  "api/StormHawks.Runtime.Inputs.Interacts.ControllerRaycaster.html": {
+    "href": "api/StormHawks.Runtime.Inputs.Interacts.ControllerRaycaster.html",
+    "title": "Class ControllerRaycaster | Developer Reference",
+    "keywords": "Class ControllerRaycaster Inheritance Object ControllerRaycaster Namespace : StormHawks.Runtime.Inputs.Interacts Assembly : cs.temp.dll.dll Syntax public class ControllerRaycaster : MonoBehaviour Events OnTargetChanged Declaration public event Action<XRUIElement> OnTargetChanged Event Type Type Description Action < XRUIElement >"
+  },
+  "api/StormHawks.Runtime.Inputs.Interacts.html": {
+    "href": "api/StormHawks.Runtime.Inputs.Interacts.html",
+    "title": "Namespace StormHawks.Runtime.Inputs.Interacts | Developer Reference",
+    "keywords": "Namespace StormHawks.Runtime.Inputs.Interacts Classes ControllerRay ControllerRaycaster"
+  },
+  "api/StormHawks.Runtime.Inputs.Interacts.UI.html": {
+    "href": "api/StormHawks.Runtime.Inputs.Interacts.UI.html",
+    "title": "Namespace StormHawks.Runtime.Inputs.Interacts.UI | Developer Reference",
+    "keywords": "Namespace StormHawks.Runtime.Inputs.Interacts.UI Classes XRUIElement XRUISelectable Enums XRUIElement.State"
+  },
+  "api/StormHawks.Runtime.Inputs.Interacts.UI.XRUIElement.html": {
+    "href": "api/StormHawks.Runtime.Inputs.Interacts.UI.XRUIElement.html",
+    "title": "Class XRUIElement | Developer Reference",
+    "keywords": "Class XRUIElement Inheritance Object XRUIElement XRUISelectable Namespace : StormHawks.Runtime.Inputs.Interacts.UI Assembly : cs.temp.dll.dll Syntax public abstract class XRUIElement : MonoBehaviour Properties CurrentState Declaration public XRUIElement.State CurrentState { get; set; } Property Value Type Description XRUIElement.State RectTransform Declaration protected RectTransform RectTransform { get; } Property Value Type Description RectTransform Methods Awake() Declaration protected virtual void Awake() OnDeselect() Declaration protected abstract void OnDeselect() OnExit() Declaration protected abstract void OnExit() OnHover() Declaration protected abstract void OnHover() OnSelect() Declaration protected abstract void OnSelect()"
+  },
+  "api/StormHawks.Runtime.Inputs.Interacts.UI.XRUIElement.State.html": {
+    "href": "api/StormHawks.Runtime.Inputs.Interacts.UI.XRUIElement.State.html",
+    "title": "Enum XRUIElement.State | Developer Reference",
+    "keywords": "Enum XRUIElement.State Namespace : StormHawks.Runtime.Inputs.Interacts.UI Assembly : cs.temp.dll.dll Syntax public enum State Fields Name Description Deselect Hover None Select"
+  },
+  "api/StormHawks.Runtime.Inputs.Interacts.UI.XRUISelectable.html": {
+    "href": "api/StormHawks.Runtime.Inputs.Interacts.UI.XRUISelectable.html",
+    "title": "Class XRUISelectable | Developer Reference",
+    "keywords": "Class XRUISelectable Inheritance Object XRUIElement XRUISelectable Inherited Members XRUIElement.RectTransform XRUIElement.CurrentState Namespace : StormHawks.Runtime.Inputs.Interacts.UI Assembly : cs.temp.dll.dll Syntax public class XRUISelectable : XRUIElement Fields onClick Declaration public UnityEvent onClick Field Value Type Description UnityEvent Methods Awake() Declaration protected override void Awake() Overrides XRUIElement.Awake() OnDeselect() Declaration protected override void OnDeselect() Overrides XRUIElement.OnDeselect() OnExit() Declaration protected override void OnExit() Overrides XRUIElement.OnExit() OnHover() Declaration protected override void OnHover() Overrides XRUIElement.OnHover() OnSelect() Declaration protected override void OnSelect() Overrides XRUIElement.OnSelect()"
+  },
   "api/StormHawks.Runtime.Inputs.PlayerInputActions.ControllerActions.html": {
     "href": "api/StormHawks.Runtime.Inputs.PlayerInputActions.ControllerActions.html",
     "title": "Struct PlayerInputActions.ControllerActions | Developer Reference",

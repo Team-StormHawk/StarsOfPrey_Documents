@@ -4664,6 +4664,12 @@ references:
   commentId: T:StormHawks.Runtime.Effects.EffectDestroyer
   fullName: StormHawks.Runtime.Effects.EffectDestroyer
   nameWithType: EffectDestroyer
+- uid: StormHawks.Runtime.Effects.EffectDestroyer.Pool
+  name: Pool
+  href: api/StormHawks.Runtime.Effects.EffectDestroyer.html#StormHawks_Runtime_Effects_EffectDestroyer_Pool
+  commentId: F:StormHawks.Runtime.Effects.EffectDestroyer.Pool
+  fullName: StormHawks.Runtime.Effects.EffectDestroyer.Pool
+  nameWithType: EffectDestroyer.Pool
 - uid: StormHawks.Runtime.Effects.ExplosionLightEffect
   name: ExplosionLightEffect
   href: api/StormHawks.Runtime.Effects.ExplosionLightEffect.html
@@ -7433,18 +7439,18 @@ references:
   commentId: F:StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase._enemyRuntimeSet
   fullName: StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase._enemyRuntimeSet
   nameWithType: SteeringEnemyBase._enemyRuntimeSet
-- uid: StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase._explosionEffect
-  name: _explosionEffect
-  href: api/StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.html#StormHawks_Runtime_Entities_Enemies_SteeringEnemyBase__explosionEffect
-  commentId: F:StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase._explosionEffect
-  fullName: StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase._explosionEffect
-  nameWithType: SteeringEnemyBase._explosionEffect
 - uid: StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase._explosionEvent
   name: _explosionEvent
   href: api/StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.html#StormHawks_Runtime_Entities_Enemies_SteeringEnemyBase__explosionEvent
   commentId: F:StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase._explosionEvent
   fullName: StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase._explosionEvent
   nameWithType: SteeringEnemyBase._explosionEvent
+- uid: StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase._particleMakerRuntimeSet
+  name: _particleMakerRuntimeSet
+  href: api/StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.html#StormHawks_Runtime_Entities_Enemies_SteeringEnemyBase__particleMakerRuntimeSet
+  commentId: F:StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase._particleMakerRuntimeSet
+  fullName: StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase._particleMakerRuntimeSet
+  nameWithType: SteeringEnemyBase._particleMakerRuntimeSet
 - uid: StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.AGGRO_TARGET
   name: AGGRO_TARGET
   href: api/StormHawks.Runtime.Entities.Enemies.SteeringEnemyBase.html#StormHawks_Runtime_Entities_Enemies_SteeringEnemyBase_AGGRO_TARGET
@@ -11632,6 +11638,14 @@ references:
   fullName.vb: StormHawks.Runtime.Entities.Weapons.WeaponContext(Of T).GetFromPool
   nameWithType: WeaponContext<T>.GetFromPool
   nameWithType.vb: WeaponContext(Of T).GetFromPool
+- uid: StormHawks.Runtime.Entities.Weapons.WeaponContext`1.IsIncreaseChargeEffect
+  name: IsIncreaseChargeEffect
+  href: api/StormHawks.Runtime.Entities.Weapons.WeaponContext-1.html#StormHawks_Runtime_Entities_Weapons_WeaponContext_1_IsIncreaseChargeEffect
+  commentId: F:StormHawks.Runtime.Entities.Weapons.WeaponContext`1.IsIncreaseChargeEffect
+  fullName: StormHawks.Runtime.Entities.Weapons.WeaponContext<T>.IsIncreaseChargeEffect
+  fullName.vb: StormHawks.Runtime.Entities.Weapons.WeaponContext(Of T).IsIncreaseChargeEffect
+  nameWithType: WeaponContext<T>.IsIncreaseChargeEffect
+  nameWithType.vb: WeaponContext(Of T).IsIncreaseChargeEffect
 - uid: StormHawks.Runtime.Entities.Weapons.WeaponContext`1.Pool
   name: Pool
   href: api/StormHawks.Runtime.Entities.Weapons.WeaponContext-1.html#StormHawks_Runtime_Entities_Weapons_WeaponContext_1_Pool
@@ -19509,6 +19523,54 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Managers.BootStraps.BootStrapSettings.GameSceneManagerPrefab
   nameWithType: BootStrapSettings.GameSceneManagerPrefab
+- uid: StormHawks.Runtime.Managers.ExpParticleType
+  name: ExpParticleType
+  href: api/StormHawks.Runtime.Managers.ExpParticleType.html
+  commentId: T:StormHawks.Runtime.Managers.ExpParticleType
+  fullName: StormHawks.Runtime.Managers.ExpParticleType
+  nameWithType: ExpParticleType
+- uid: StormHawks.Runtime.Managers.ExpParticleType.BossBulletExplosion
+  name: BossBulletExplosion
+  href: api/StormHawks.Runtime.Managers.ExpParticleType.html#StormHawks_Runtime_Managers_ExpParticleType_BossBulletExplosion
+  commentId: F:StormHawks.Runtime.Managers.ExpParticleType.BossBulletExplosion
+  fullName: StormHawks.Runtime.Managers.ExpParticleType.BossBulletExplosion
+  nameWithType: ExpParticleType.BossBulletExplosion
+- uid: StormHawks.Runtime.Managers.ExpParticleType.BossLeakEnergyExplosion
+  name: BossLeakEnergyExplosion
+  href: api/StormHawks.Runtime.Managers.ExpParticleType.html#StormHawks_Runtime_Managers_ExpParticleType_BossLeakEnergyExplosion
+  commentId: F:StormHawks.Runtime.Managers.ExpParticleType.BossLeakEnergyExplosion
+  fullName: StormHawks.Runtime.Managers.ExpParticleType.BossLeakEnergyExplosion
+  nameWithType: ExpParticleType.BossLeakEnergyExplosion
+- uid: StormHawks.Runtime.Managers.ExpParticleType.BossThreatBulletExplosion
+  name: BossThreatBulletExplosion
+  href: api/StormHawks.Runtime.Managers.ExpParticleType.html#StormHawks_Runtime_Managers_ExpParticleType_BossThreatBulletExplosion
+  commentId: F:StormHawks.Runtime.Managers.ExpParticleType.BossThreatBulletExplosion
+  fullName: StormHawks.Runtime.Managers.ExpParticleType.BossThreatBulletExplosion
+  nameWithType: ExpParticleType.BossThreatBulletExplosion
+- uid: StormHawks.Runtime.Managers.ExpParticleType.EnemyExplosion
+  name: EnemyExplosion
+  href: api/StormHawks.Runtime.Managers.ExpParticleType.html#StormHawks_Runtime_Managers_ExpParticleType_EnemyExplosion
+  commentId: F:StormHawks.Runtime.Managers.ExpParticleType.EnemyExplosion
+  fullName: StormHawks.Runtime.Managers.ExpParticleType.EnemyExplosion
+  nameWithType: ExpParticleType.EnemyExplosion
+- uid: StormHawks.Runtime.Managers.ExpParticleType.PlayerBulletExplosion
+  name: PlayerBulletExplosion
+  href: api/StormHawks.Runtime.Managers.ExpParticleType.html#StormHawks_Runtime_Managers_ExpParticleType_PlayerBulletExplosion
+  commentId: F:StormHawks.Runtime.Managers.ExpParticleType.PlayerBulletExplosion
+  fullName: StormHawks.Runtime.Managers.ExpParticleType.PlayerBulletExplosion
+  nameWithType: ExpParticleType.PlayerBulletExplosion
+- uid: StormHawks.Runtime.Managers.ExpParticleType.PlayerMissileExplosion
+  name: PlayerMissileExplosion
+  href: api/StormHawks.Runtime.Managers.ExpParticleType.html#StormHawks_Runtime_Managers_ExpParticleType_PlayerMissileExplosion
+  commentId: F:StormHawks.Runtime.Managers.ExpParticleType.PlayerMissileExplosion
+  fullName: StormHawks.Runtime.Managers.ExpParticleType.PlayerMissileExplosion
+  nameWithType: ExpParticleType.PlayerMissileExplosion
+- uid: StormHawks.Runtime.Managers.ExpParticleType.ShieldGenExplosion
+  name: ShieldGenExplosion
+  href: api/StormHawks.Runtime.Managers.ExpParticleType.html#StormHawks_Runtime_Managers_ExpParticleType_ShieldGenExplosion
+  commentId: F:StormHawks.Runtime.Managers.ExpParticleType.ShieldGenExplosion
+  fullName: StormHawks.Runtime.Managers.ExpParticleType.ShieldGenExplosion
+  nameWithType: ExpParticleType.ShieldGenExplosion
 - uid: StormHawks.Runtime.Managers.GameModeManager
   name: GameModeManager
   href: api/StormHawks.Runtime.Managers.GameModeManager.html
@@ -19573,6 +19635,25 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Managers.GameSceneManager.ReloadCurrentScene
   nameWithType: GameSceneManager.ReloadCurrentScene
+- uid: StormHawks.Runtime.Managers.ParticleMaker
+  name: ParticleMaker
+  href: api/StormHawks.Runtime.Managers.ParticleMaker.html
+  commentId: T:StormHawks.Runtime.Managers.ParticleMaker
+  fullName: StormHawks.Runtime.Managers.ParticleMaker
+  nameWithType: ParticleMaker
+- uid: StormHawks.Runtime.Managers.ParticleMaker.GetExpObject(StormHawks.Runtime.Managers.ExpParticleType)
+  name: GetExpObject(ExpParticleType)
+  href: api/StormHawks.Runtime.Managers.ParticleMaker.html#StormHawks_Runtime_Managers_ParticleMaker_GetExpObject_StormHawks_Runtime_Managers_ExpParticleType_
+  commentId: M:StormHawks.Runtime.Managers.ParticleMaker.GetExpObject(StormHawks.Runtime.Managers.ExpParticleType)
+  fullName: StormHawks.Runtime.Managers.ParticleMaker.GetExpObject(StormHawks.Runtime.Managers.ExpParticleType)
+  nameWithType: ParticleMaker.GetExpObject(ExpParticleType)
+- uid: StormHawks.Runtime.Managers.ParticleMaker.GetExpObject*
+  name: GetExpObject
+  href: api/StormHawks.Runtime.Managers.ParticleMaker.html#StormHawks_Runtime_Managers_ParticleMaker_GetExpObject_
+  commentId: Overload:StormHawks.Runtime.Managers.ParticleMaker.GetExpObject
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Managers.ParticleMaker.GetExpObject
+  nameWithType: ParticleMaker.GetExpObject
 - uid: StormHawks.Runtime.Players
   name: StormHawks.Runtime.Players
   href: api/StormHawks.Runtime.Players.html
@@ -20023,6 +20104,12 @@ references:
   commentId: F:StormHawks.Runtime.Players.Attack.Projectiles.Weapon.Projectile._lifeTimeCancelToken
   fullName: StormHawks.Runtime.Players.Attack.Projectiles.Weapon.Projectile._lifeTimeCancelToken
   nameWithType: Projectile._lifeTimeCancelToken
+- uid: StormHawks.Runtime.Players.Attack.Projectiles.Weapon.Projectile._particleMakerRuntimeSet
+  name: _particleMakerRuntimeSet
+  href: api/StormHawks.Runtime.Players.Attack.Projectiles.Weapon.Projectile.html#StormHawks_Runtime_Players_Attack_Projectiles_Weapon_Projectile__particleMakerRuntimeSet
+  commentId: F:StormHawks.Runtime.Players.Attack.Projectiles.Weapon.Projectile._particleMakerRuntimeSet
+  fullName: StormHawks.Runtime.Players.Attack.Projectiles.Weapon.Projectile._particleMakerRuntimeSet
+  nameWithType: Projectile._particleMakerRuntimeSet
 - uid: StormHawks.Runtime.Players.Attack.Projectiles.Weapon.Projectile._target
   name: _target
   href: api/StormHawks.Runtime.Players.Attack.Projectiles.Weapon.Projectile.html#StormHawks_Runtime_Players_Attack_Projectiles_Weapon_Projectile__target
@@ -21467,6 +21554,25 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Players.PlayerHealth.CurrentHealth
   nameWithType: PlayerHealth.CurrentHealth
+- uid: StormHawks.Runtime.Players.PlayerHealth.CurrentShieldHealth
+  name: CurrentShieldHealth
+  href: api/StormHawks.Runtime.Players.PlayerHealth.html#StormHawks_Runtime_Players_PlayerHealth_CurrentShieldHealth
+  commentId: P:StormHawks.Runtime.Players.PlayerHealth.CurrentShieldHealth
+  fullName: StormHawks.Runtime.Players.PlayerHealth.CurrentShieldHealth
+  nameWithType: PlayerHealth.CurrentShieldHealth
+- uid: StormHawks.Runtime.Players.PlayerHealth.CurrentShieldHealth*
+  name: CurrentShieldHealth
+  href: api/StormHawks.Runtime.Players.PlayerHealth.html#StormHawks_Runtime_Players_PlayerHealth_CurrentShieldHealth_
+  commentId: Overload:StormHawks.Runtime.Players.PlayerHealth.CurrentShieldHealth
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Players.PlayerHealth.CurrentShieldHealth
+  nameWithType: PlayerHealth.CurrentShieldHealth
+- uid: StormHawks.Runtime.Players.PlayerHealth.DAMAGE_SEVERITY
+  name: DAMAGE_SEVERITY
+  href: api/StormHawks.Runtime.Players.PlayerHealth.html#StormHawks_Runtime_Players_PlayerHealth_DAMAGE_SEVERITY
+  commentId: F:StormHawks.Runtime.Players.PlayerHealth.DAMAGE_SEVERITY
+  fullName: StormHawks.Runtime.Players.PlayerHealth.DAMAGE_SEVERITY
+  nameWithType: PlayerHealth.DAMAGE_SEVERITY
 - uid: StormHawks.Runtime.Players.PlayerHealth.HealthSO
   name: HealthSO
   href: api/StormHawks.Runtime.Players.PlayerHealth.html#StormHawks_Runtime_Players_PlayerHealth_HealthSO
@@ -21480,6 +21586,25 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Players.PlayerHealth.HealthSO
   nameWithType: PlayerHealth.HealthSO
+- uid: StormHawks.Runtime.Players.PlayerHealth.SHIELD_INTENSITY
+  name: SHIELD_INTENSITY
+  href: api/StormHawks.Runtime.Players.PlayerHealth.html#StormHawks_Runtime_Players_PlayerHealth_SHIELD_INTENSITY
+  commentId: F:StormHawks.Runtime.Players.PlayerHealth.SHIELD_INTENSITY
+  fullName: StormHawks.Runtime.Players.PlayerHealth.SHIELD_INTENSITY
+  nameWithType: PlayerHealth.SHIELD_INTENSITY
+- uid: StormHawks.Runtime.Players.PlayerHealth.ShieldHealthSO
+  name: ShieldHealthSO
+  href: api/StormHawks.Runtime.Players.PlayerHealth.html#StormHawks_Runtime_Players_PlayerHealth_ShieldHealthSO
+  commentId: P:StormHawks.Runtime.Players.PlayerHealth.ShieldHealthSO
+  fullName: StormHawks.Runtime.Players.PlayerHealth.ShieldHealthSO
+  nameWithType: PlayerHealth.ShieldHealthSO
+- uid: StormHawks.Runtime.Players.PlayerHealth.ShieldHealthSO*
+  name: ShieldHealthSO
+  href: api/StormHawks.Runtime.Players.PlayerHealth.html#StormHawks_Runtime_Players_PlayerHealth_ShieldHealthSO_
+  commentId: Overload:StormHawks.Runtime.Players.PlayerHealth.ShieldHealthSO
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Players.PlayerHealth.ShieldHealthSO
+  nameWithType: PlayerHealth.ShieldHealthSO
 - uid: StormHawks.Runtime.Players.PlayerHealth.TakeDamage(Vector3,System.Single)
   name: TakeDamage(Vector3, Single)
   href: api/StormHawks.Runtime.Players.PlayerHealth.html#StormHawks_Runtime_Players_PlayerHealth_TakeDamage_Vector3_System_Single_
@@ -26838,6 +26963,94 @@ references:
   commentId: T:StormHawks.Runtime.Utilities.Events.EnemyGroupSpawnedEvent
   fullName: StormHawks.Runtime.Utilities.Events.EnemyGroupSpawnedEvent
   nameWithType: EnemyGroupSpawnedEvent
+- uid: StormHawks.Runtime.Utilities.Events.HapticImpulseEvent
+  name: HapticImpulseEvent
+  href: api/StormHawks.Runtime.Utilities.Events.HapticImpulseEvent.html
+  commentId: T:StormHawks.Runtime.Utilities.Events.HapticImpulseEvent
+  fullName: StormHawks.Runtime.Utilities.Events.HapticImpulseEvent
+  nameWithType: HapticImpulseEvent
+- uid: StormHawks.Runtime.Utilities.Events.HapticImpuseInfo
+  name: HapticImpuseInfo
+  href: api/StormHawks.Runtime.Utilities.Events.HapticImpuseInfo.html
+  commentId: T:StormHawks.Runtime.Utilities.Events.HapticImpuseInfo
+  fullName: StormHawks.Runtime.Utilities.Events.HapticImpuseInfo
+  nameWithType: HapticImpuseInfo
+- uid: StormHawks.Runtime.Utilities.Events.HapticImpuseInfo.#ctor(StormHawks.Runtime.Utilities.Events.HapticImpuseInfo.HandType,System.Single,System.Single)
+  name: HapticImpuseInfo(HapticImpuseInfo.HandType, Single, Single)
+  href: api/StormHawks.Runtime.Utilities.Events.HapticImpuseInfo.html#StormHawks_Runtime_Utilities_Events_HapticImpuseInfo__ctor_StormHawks_Runtime_Utilities_Events_HapticImpuseInfo_HandType_System_Single_System_Single_
+  commentId: M:StormHawks.Runtime.Utilities.Events.HapticImpuseInfo.#ctor(StormHawks.Runtime.Utilities.Events.HapticImpuseInfo.HandType,System.Single,System.Single)
+  fullName: StormHawks.Runtime.Utilities.Events.HapticImpuseInfo.HapticImpuseInfo(StormHawks.Runtime.Utilities.Events.HapticImpuseInfo.HandType, System.Single, System.Single)
+  nameWithType: HapticImpuseInfo.HapticImpuseInfo(HapticImpuseInfo.HandType, Single, Single)
+- uid: StormHawks.Runtime.Utilities.Events.HapticImpuseInfo.#ctor*
+  name: HapticImpuseInfo
+  href: api/StormHawks.Runtime.Utilities.Events.HapticImpuseInfo.html#StormHawks_Runtime_Utilities_Events_HapticImpuseInfo__ctor_
+  commentId: Overload:StormHawks.Runtime.Utilities.Events.HapticImpuseInfo.#ctor
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Utilities.Events.HapticImpuseInfo.HapticImpuseInfo
+  nameWithType: HapticImpuseInfo.HapticImpuseInfo
+- uid: StormHawks.Runtime.Utilities.Events.HapticImpuseInfo.Amplitude
+  name: Amplitude
+  href: api/StormHawks.Runtime.Utilities.Events.HapticImpuseInfo.html#StormHawks_Runtime_Utilities_Events_HapticImpuseInfo_Amplitude
+  commentId: P:StormHawks.Runtime.Utilities.Events.HapticImpuseInfo.Amplitude
+  fullName: StormHawks.Runtime.Utilities.Events.HapticImpuseInfo.Amplitude
+  nameWithType: HapticImpuseInfo.Amplitude
+- uid: StormHawks.Runtime.Utilities.Events.HapticImpuseInfo.Amplitude*
+  name: Amplitude
+  href: api/StormHawks.Runtime.Utilities.Events.HapticImpuseInfo.html#StormHawks_Runtime_Utilities_Events_HapticImpuseInfo_Amplitude_
+  commentId: Overload:StormHawks.Runtime.Utilities.Events.HapticImpuseInfo.Amplitude
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Utilities.Events.HapticImpuseInfo.Amplitude
+  nameWithType: HapticImpuseInfo.Amplitude
+- uid: StormHawks.Runtime.Utilities.Events.HapticImpuseInfo.Duration
+  name: Duration
+  href: api/StormHawks.Runtime.Utilities.Events.HapticImpuseInfo.html#StormHawks_Runtime_Utilities_Events_HapticImpuseInfo_Duration
+  commentId: P:StormHawks.Runtime.Utilities.Events.HapticImpuseInfo.Duration
+  fullName: StormHawks.Runtime.Utilities.Events.HapticImpuseInfo.Duration
+  nameWithType: HapticImpuseInfo.Duration
+- uid: StormHawks.Runtime.Utilities.Events.HapticImpuseInfo.Duration*
+  name: Duration
+  href: api/StormHawks.Runtime.Utilities.Events.HapticImpuseInfo.html#StormHawks_Runtime_Utilities_Events_HapticImpuseInfo_Duration_
+  commentId: Overload:StormHawks.Runtime.Utilities.Events.HapticImpuseInfo.Duration
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Utilities.Events.HapticImpuseInfo.Duration
+  nameWithType: HapticImpuseInfo.Duration
+- uid: StormHawks.Runtime.Utilities.Events.HapticImpuseInfo.Hand
+  name: Hand
+  href: api/StormHawks.Runtime.Utilities.Events.HapticImpuseInfo.html#StormHawks_Runtime_Utilities_Events_HapticImpuseInfo_Hand
+  commentId: P:StormHawks.Runtime.Utilities.Events.HapticImpuseInfo.Hand
+  fullName: StormHawks.Runtime.Utilities.Events.HapticImpuseInfo.Hand
+  nameWithType: HapticImpuseInfo.Hand
+- uid: StormHawks.Runtime.Utilities.Events.HapticImpuseInfo.Hand*
+  name: Hand
+  href: api/StormHawks.Runtime.Utilities.Events.HapticImpuseInfo.html#StormHawks_Runtime_Utilities_Events_HapticImpuseInfo_Hand_
+  commentId: Overload:StormHawks.Runtime.Utilities.Events.HapticImpuseInfo.Hand
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Utilities.Events.HapticImpuseInfo.Hand
+  nameWithType: HapticImpuseInfo.Hand
+- uid: StormHawks.Runtime.Utilities.Events.HapticImpuseInfo.HandType
+  name: HapticImpuseInfo.HandType
+  href: api/StormHawks.Runtime.Utilities.Events.HapticImpuseInfo.HandType.html
+  commentId: T:StormHawks.Runtime.Utilities.Events.HapticImpuseInfo.HandType
+  fullName: StormHawks.Runtime.Utilities.Events.HapticImpuseInfo.HandType
+  nameWithType: HapticImpuseInfo.HandType
+- uid: StormHawks.Runtime.Utilities.Events.HapticImpuseInfo.HandType.Both
+  name: Both
+  href: api/StormHawks.Runtime.Utilities.Events.HapticImpuseInfo.HandType.html#StormHawks_Runtime_Utilities_Events_HapticImpuseInfo_HandType_Both
+  commentId: F:StormHawks.Runtime.Utilities.Events.HapticImpuseInfo.HandType.Both
+  fullName: StormHawks.Runtime.Utilities.Events.HapticImpuseInfo.HandType.Both
+  nameWithType: HapticImpuseInfo.HandType.Both
+- uid: StormHawks.Runtime.Utilities.Events.HapticImpuseInfo.HandType.Left
+  name: Left
+  href: api/StormHawks.Runtime.Utilities.Events.HapticImpuseInfo.HandType.html#StormHawks_Runtime_Utilities_Events_HapticImpuseInfo_HandType_Left
+  commentId: F:StormHawks.Runtime.Utilities.Events.HapticImpuseInfo.HandType.Left
+  fullName: StormHawks.Runtime.Utilities.Events.HapticImpuseInfo.HandType.Left
+  nameWithType: HapticImpuseInfo.HandType.Left
+- uid: StormHawks.Runtime.Utilities.Events.HapticImpuseInfo.HandType.Right
+  name: Right
+  href: api/StormHawks.Runtime.Utilities.Events.HapticImpuseInfo.HandType.html#StormHawks_Runtime_Utilities_Events_HapticImpuseInfo_HandType_Right
+  commentId: F:StormHawks.Runtime.Utilities.Events.HapticImpuseInfo.HandType.Right
+  fullName: StormHawks.Runtime.Utilities.Events.HapticImpuseInfo.HandType.Right
+  nameWithType: HapticImpuseInfo.HandType.Right
 - uid: StormHawks.Runtime.Utilities.Events.MainSlavePartEvent
   name: MainSlavePartEvent
   href: api/StormHawks.Runtime.Utilities.Events.MainSlavePartEvent.html
@@ -27958,6 +28171,12 @@ references:
   commentId: F:StormHawks.Runtime.Utilities.RuntimeSet.MainWeakpointsRuntimeSet.SelectedEvent
   fullName: StormHawks.Runtime.Utilities.RuntimeSet.MainWeakpointsRuntimeSet.SelectedEvent
   nameWithType: MainWeakpointsRuntimeSet.SelectedEvent
+- uid: StormHawks.Runtime.Utilities.RuntimeSet.ParticleMakerRuntimeSet
+  name: ParticleMakerRuntimeSet
+  href: api/StormHawks.Runtime.Utilities.RuntimeSet.ParticleMakerRuntimeSet.html
+  commentId: T:StormHawks.Runtime.Utilities.RuntimeSet.ParticleMakerRuntimeSet
+  fullName: StormHawks.Runtime.Utilities.RuntimeSet.ParticleMakerRuntimeSet
+  nameWithType: ParticleMakerRuntimeSet
 - uid: StormHawks.Runtime.Utilities.RuntimeSet.WingMissileWeaponRuntimeSet
   name: WingMissileWeaponRuntimeSet
   href: api/StormHawks.Runtime.Utilities.RuntimeSet.WingMissileWeaponRuntimeSet.html

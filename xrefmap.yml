@@ -3121,19 +3121,19 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.App.Fader
   nameWithType: App.Fader
-- uid: StormHawks.Runtime.App.IsDebug
-  name: IsDebug
-  href: api/StormHawks.Runtime.App.html#StormHawks_Runtime_App_IsDebug
-  commentId: P:StormHawks.Runtime.App.IsDebug
-  fullName: StormHawks.Runtime.App.IsDebug
-  nameWithType: App.IsDebug
-- uid: StormHawks.Runtime.App.IsDebug*
-  name: IsDebug
-  href: api/StormHawks.Runtime.App.html#StormHawks_Runtime_App_IsDebug_
-  commentId: Overload:StormHawks.Runtime.App.IsDebug
+- uid: StormHawks.Runtime.App.TutorialCompleted
+  name: TutorialCompleted
+  href: api/StormHawks.Runtime.App.html#StormHawks_Runtime_App_TutorialCompleted
+  commentId: P:StormHawks.Runtime.App.TutorialCompleted
+  fullName: StormHawks.Runtime.App.TutorialCompleted
+  nameWithType: App.TutorialCompleted
+- uid: StormHawks.Runtime.App.TutorialCompleted*
+  name: TutorialCompleted
+  href: api/StormHawks.Runtime.App.html#StormHawks_Runtime_App_TutorialCompleted_
+  commentId: Overload:StormHawks.Runtime.App.TutorialCompleted
   isSpec: "True"
-  fullName: StormHawks.Runtime.App.IsDebug
-  nameWithType: App.IsDebug
+  fullName: StormHawks.Runtime.App.TutorialCompleted
+  nameWithType: App.TutorialCompleted
 - uid: StormHawks.Runtime.AssetManagements
   name: StormHawks.Runtime.AssetManagements
   href: api/StormHawks.Runtime.AssetManagements.html
@@ -14380,12 +14380,82 @@ references:
   commentId: E:StormHawks.Runtime.Inputs.Interacts.ControllerRaycaster.OnTargetChanged
   fullName: StormHawks.Runtime.Inputs.Interacts.ControllerRaycaster.OnTargetChanged
   nameWithType: ControllerRaycaster.OnTargetChanged
+- uid: StormHawks.Runtime.Inputs.Interacts.GamePauseHandler
+  name: GamePauseHandler
+  href: api/StormHawks.Runtime.Inputs.Interacts.GamePauseHandler.html
+  commentId: T:StormHawks.Runtime.Inputs.Interacts.GamePauseHandler
+  fullName: StormHawks.Runtime.Inputs.Interacts.GamePauseHandler
+  nameWithType: GamePauseHandler
 - uid: StormHawks.Runtime.Inputs.Interacts.UI
   name: StormHawks.Runtime.Inputs.Interacts.UI
   href: api/StormHawks.Runtime.Inputs.Interacts.UI.html
   commentId: N:StormHawks.Runtime.Inputs.Interacts.UI
   fullName: StormHawks.Runtime.Inputs.Interacts.UI
   nameWithType: StormHawks.Runtime.Inputs.Interacts.UI
+- uid: StormHawks.Runtime.Inputs.Interacts.UI.PauseUIHandler
+  name: PauseUIHandler
+  href: api/StormHawks.Runtime.Inputs.Interacts.UI.PauseUIHandler.html
+  commentId: T:StormHawks.Runtime.Inputs.Interacts.UI.PauseUIHandler
+  fullName: StormHawks.Runtime.Inputs.Interacts.UI.PauseUIHandler
+  nameWithType: PauseUIHandler
+- uid: StormHawks.Runtime.Inputs.Interacts.UI.PauseUIHandler.PauseUIButton
+  name: PauseUIHandler.PauseUIButton
+  href: api/StormHawks.Runtime.Inputs.Interacts.UI.PauseUIHandler.PauseUIButton.html
+  commentId: T:StormHawks.Runtime.Inputs.Interacts.UI.PauseUIHandler.PauseUIButton
+  fullName: StormHawks.Runtime.Inputs.Interacts.UI.PauseUIHandler.PauseUIButton
+  nameWithType: PauseUIHandler.PauseUIButton
+- uid: StormHawks.Runtime.Inputs.Interacts.UI.PauseUIHandler.PauseUIButton.Active
+  name: Active()
+  href: api/StormHawks.Runtime.Inputs.Interacts.UI.PauseUIHandler.PauseUIButton.html#StormHawks_Runtime_Inputs_Interacts_UI_PauseUIHandler_PauseUIButton_Active
+  commentId: M:StormHawks.Runtime.Inputs.Interacts.UI.PauseUIHandler.PauseUIButton.Active
+  fullName: StormHawks.Runtime.Inputs.Interacts.UI.PauseUIHandler.PauseUIButton.Active()
+  nameWithType: PauseUIHandler.PauseUIButton.Active()
+- uid: StormHawks.Runtime.Inputs.Interacts.UI.PauseUIHandler.PauseUIButton.Active*
+  name: Active
+  href: api/StormHawks.Runtime.Inputs.Interacts.UI.PauseUIHandler.PauseUIButton.html#StormHawks_Runtime_Inputs_Interacts_UI_PauseUIHandler_PauseUIButton_Active_
+  commentId: Overload:StormHawks.Runtime.Inputs.Interacts.UI.PauseUIHandler.PauseUIButton.Active
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Inputs.Interacts.UI.PauseUIHandler.PauseUIButton.Active
+  nameWithType: PauseUIHandler.PauseUIButton.Active
+- uid: StormHawks.Runtime.Inputs.Interacts.UI.PauseUIHandler.PauseUIButton.Deactive
+  name: Deactive()
+  href: api/StormHawks.Runtime.Inputs.Interacts.UI.PauseUIHandler.PauseUIButton.html#StormHawks_Runtime_Inputs_Interacts_UI_PauseUIHandler_PauseUIButton_Deactive
+  commentId: M:StormHawks.Runtime.Inputs.Interacts.UI.PauseUIHandler.PauseUIButton.Deactive
+  fullName: StormHawks.Runtime.Inputs.Interacts.UI.PauseUIHandler.PauseUIButton.Deactive()
+  nameWithType: PauseUIHandler.PauseUIButton.Deactive()
+- uid: StormHawks.Runtime.Inputs.Interacts.UI.PauseUIHandler.PauseUIButton.Deactive*
+  name: Deactive
+  href: api/StormHawks.Runtime.Inputs.Interacts.UI.PauseUIHandler.PauseUIButton.html#StormHawks_Runtime_Inputs_Interacts_UI_PauseUIHandler_PauseUIButton_Deactive_
+  commentId: Overload:StormHawks.Runtime.Inputs.Interacts.UI.PauseUIHandler.PauseUIButton.Deactive
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Inputs.Interacts.UI.PauseUIHandler.PauseUIButton.Deactive
+  nameWithType: PauseUIHandler.PauseUIButton.Deactive
+- uid: StormHawks.Runtime.Inputs.Interacts.UI.PauseUIHandler.PauseUIButton.Disable
+  name: Disable()
+  href: api/StormHawks.Runtime.Inputs.Interacts.UI.PauseUIHandler.PauseUIButton.html#StormHawks_Runtime_Inputs_Interacts_UI_PauseUIHandler_PauseUIButton_Disable
+  commentId: M:StormHawks.Runtime.Inputs.Interacts.UI.PauseUIHandler.PauseUIButton.Disable
+  fullName: StormHawks.Runtime.Inputs.Interacts.UI.PauseUIHandler.PauseUIButton.Disable()
+  nameWithType: PauseUIHandler.PauseUIButton.Disable()
+- uid: StormHawks.Runtime.Inputs.Interacts.UI.PauseUIHandler.PauseUIButton.Disable*
+  name: Disable
+  href: api/StormHawks.Runtime.Inputs.Interacts.UI.PauseUIHandler.PauseUIButton.html#StormHawks_Runtime_Inputs_Interacts_UI_PauseUIHandler_PauseUIButton_Disable_
+  commentId: Overload:StormHawks.Runtime.Inputs.Interacts.UI.PauseUIHandler.PauseUIButton.Disable
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Inputs.Interacts.UI.PauseUIHandler.PauseUIButton.Disable
+  nameWithType: PauseUIHandler.PauseUIButton.Disable
+- uid: StormHawks.Runtime.Inputs.Interacts.UI.PauseUIHandler.PauseUIButton.Enable
+  name: Enable()
+  href: api/StormHawks.Runtime.Inputs.Interacts.UI.PauseUIHandler.PauseUIButton.html#StormHawks_Runtime_Inputs_Interacts_UI_PauseUIHandler_PauseUIButton_Enable
+  commentId: M:StormHawks.Runtime.Inputs.Interacts.UI.PauseUIHandler.PauseUIButton.Enable
+  fullName: StormHawks.Runtime.Inputs.Interacts.UI.PauseUIHandler.PauseUIButton.Enable()
+  nameWithType: PauseUIHandler.PauseUIButton.Enable()
+- uid: StormHawks.Runtime.Inputs.Interacts.UI.PauseUIHandler.PauseUIButton.Enable*
+  name: Enable
+  href: api/StormHawks.Runtime.Inputs.Interacts.UI.PauseUIHandler.PauseUIButton.html#StormHawks_Runtime_Inputs_Interacts_UI_PauseUIHandler_PauseUIButton_Enable_
+  commentId: Overload:StormHawks.Runtime.Inputs.Interacts.UI.PauseUIHandler.PauseUIButton.Enable
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Inputs.Interacts.UI.PauseUIHandler.PauseUIButton.Enable
+  nameWithType: PauseUIHandler.PauseUIButton.Enable
 - uid: StormHawks.Runtime.Inputs.Interacts.UI.XRUIElement
   name: XRUIElement
   href: api/StormHawks.Runtime.Inputs.Interacts.UI.XRUIElement.html
@@ -14564,6 +14634,12 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Inputs.Interacts.UI.XRUISelectable.OnExit
   nameWithType: XRUISelectable.OnExit
+- uid: StormHawks.Runtime.Inputs.Interacts.UI.XRUISelectable.OnExitButton
+  name: OnExitButton
+  href: api/StormHawks.Runtime.Inputs.Interacts.UI.XRUISelectable.html#StormHawks_Runtime_Inputs_Interacts_UI_XRUISelectable_OnExitButton
+  commentId: E:StormHawks.Runtime.Inputs.Interacts.UI.XRUISelectable.OnExitButton
+  fullName: StormHawks.Runtime.Inputs.Interacts.UI.XRUISelectable.OnExitButton
+  nameWithType: XRUISelectable.OnExitButton
 - uid: StormHawks.Runtime.Inputs.Interacts.UI.XRUISelectable.OnHover
   name: OnHover()
   href: api/StormHawks.Runtime.Inputs.Interacts.UI.XRUISelectable.html#StormHawks_Runtime_Inputs_Interacts_UI_XRUISelectable_OnHover
@@ -14577,6 +14653,12 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Inputs.Interacts.UI.XRUISelectable.OnHover
   nameWithType: XRUISelectable.OnHover
+- uid: StormHawks.Runtime.Inputs.Interacts.UI.XRUISelectable.OnHoverButton
+  name: OnHoverButton
+  href: api/StormHawks.Runtime.Inputs.Interacts.UI.XRUISelectable.html#StormHawks_Runtime_Inputs_Interacts_UI_XRUISelectable_OnHoverButton
+  commentId: E:StormHawks.Runtime.Inputs.Interacts.UI.XRUISelectable.OnHoverButton
+  fullName: StormHawks.Runtime.Inputs.Interacts.UI.XRUISelectable.OnHoverButton
+  nameWithType: XRUISelectable.OnHoverButton
 - uid: StormHawks.Runtime.Inputs.Interacts.UI.XRUISelectable.OnSelect
   name: OnSelect()
   href: api/StormHawks.Runtime.Inputs.Interacts.UI.XRUISelectable.html#StormHawks_Runtime_Inputs_Interacts_UI_XRUISelectable_OnSelect
@@ -15982,6 +16064,12 @@ references:
   commentId: T:StormHawks.Runtime.Inputs.TrackedPoseDriverFixer
   fullName: StormHawks.Runtime.Inputs.TrackedPoseDriverFixer
   nameWithType: TrackedPoseDriverFixer
+- uid: StormHawks.Runtime.Inputs.TransformInjector
+  name: TransformInjector
+  href: api/StormHawks.Runtime.Inputs.TransformInjector.html
+  commentId: T:StormHawks.Runtime.Inputs.TransformInjector
+  fullName: StormHawks.Runtime.Inputs.TransformInjector
+  nameWithType: TransformInjector
 - uid: StormHawks.Runtime.Inputs.XR
   name: StormHawks.Runtime.Inputs.XR
   href: api/StormHawks.Runtime.Inputs.XR.html
@@ -18674,6 +18762,180 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Inputs.XR.VRInputAction.IHMDActions.OnTrackingState
   nameWithType: VRInputAction.IHMDActions.OnTrackingState
+- uid: StormHawks.Runtime.Inputs.XR.VRInputAction.IJoystickActions
+  name: VRInputAction.IJoystickActions
+  href: api/StormHawks.Runtime.Inputs.XR.VRInputAction.IJoystickActions.html
+  commentId: T:StormHawks.Runtime.Inputs.XR.VRInputAction.IJoystickActions
+  fullName: StormHawks.Runtime.Inputs.XR.VRInputAction.IJoystickActions
+  nameWithType: VRInputAction.IJoystickActions
+- uid: StormHawks.Runtime.Inputs.XR.VRInputAction.IJoystickActions.OnLeftJoystick(InputAction.CallbackContext)
+  name: OnLeftJoystick(InputAction.CallbackContext)
+  href: api/StormHawks.Runtime.Inputs.XR.VRInputAction.IJoystickActions.html#StormHawks_Runtime_Inputs_XR_VRInputAction_IJoystickActions_OnLeftJoystick_InputAction_CallbackContext_
+  commentId: M:StormHawks.Runtime.Inputs.XR.VRInputAction.IJoystickActions.OnLeftJoystick(InputAction.CallbackContext)
+  fullName: StormHawks.Runtime.Inputs.XR.VRInputAction.IJoystickActions.OnLeftJoystick(InputAction.CallbackContext)
+  nameWithType: VRInputAction.IJoystickActions.OnLeftJoystick(InputAction.CallbackContext)
+- uid: StormHawks.Runtime.Inputs.XR.VRInputAction.IJoystickActions.OnLeftJoystick*
+  name: OnLeftJoystick
+  href: api/StormHawks.Runtime.Inputs.XR.VRInputAction.IJoystickActions.html#StormHawks_Runtime_Inputs_XR_VRInputAction_IJoystickActions_OnLeftJoystick_
+  commentId: Overload:StormHawks.Runtime.Inputs.XR.VRInputAction.IJoystickActions.OnLeftJoystick
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Inputs.XR.VRInputAction.IJoystickActions.OnLeftJoystick
+  nameWithType: VRInputAction.IJoystickActions.OnLeftJoystick
+- uid: StormHawks.Runtime.Inputs.XR.VRInputAction.Joystick
+  name: Joystick
+  href: api/StormHawks.Runtime.Inputs.XR.VRInputAction.html#StormHawks_Runtime_Inputs_XR_VRInputAction_Joystick
+  commentId: P:StormHawks.Runtime.Inputs.XR.VRInputAction.Joystick
+  fullName: StormHawks.Runtime.Inputs.XR.VRInputAction.Joystick
+  nameWithType: VRInputAction.Joystick
+- uid: StormHawks.Runtime.Inputs.XR.VRInputAction.Joystick*
+  name: Joystick
+  href: api/StormHawks.Runtime.Inputs.XR.VRInputAction.html#StormHawks_Runtime_Inputs_XR_VRInputAction_Joystick_
+  commentId: Overload:StormHawks.Runtime.Inputs.XR.VRInputAction.Joystick
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Inputs.XR.VRInputAction.Joystick
+  nameWithType: VRInputAction.Joystick
+- uid: StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions
+  name: VRInputAction.JoystickActions
+  href: api/StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions.html
+  commentId: T:StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions
+  fullName: StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions
+  nameWithType: VRInputAction.JoystickActions
+- uid: StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions.#ctor(StormHawks.Runtime.Inputs.XR.VRInputAction)
+  name: JoystickActions(VRInputAction)
+  href: api/StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions.html#StormHawks_Runtime_Inputs_XR_VRInputAction_JoystickActions__ctor_StormHawks_Runtime_Inputs_XR_VRInputAction_
+  commentId: M:StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions.#ctor(StormHawks.Runtime.Inputs.XR.VRInputAction)
+  fullName: StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions.JoystickActions(StormHawks.Runtime.Inputs.XR.VRInputAction)
+  nameWithType: VRInputAction.JoystickActions.JoystickActions(VRInputAction)
+- uid: StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions.#ctor*
+  name: JoystickActions
+  href: api/StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions.html#StormHawks_Runtime_Inputs_XR_VRInputAction_JoystickActions__ctor_
+  commentId: Overload:StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions.#ctor
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions.JoystickActions
+  nameWithType: VRInputAction.JoystickActions.JoystickActions
+- uid: StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions.AddCallbacks(StormHawks.Runtime.Inputs.XR.VRInputAction.IJoystickActions)
+  name: AddCallbacks(VRInputAction.IJoystickActions)
+  href: api/StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions.html#StormHawks_Runtime_Inputs_XR_VRInputAction_JoystickActions_AddCallbacks_StormHawks_Runtime_Inputs_XR_VRInputAction_IJoystickActions_
+  commentId: M:StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions.AddCallbacks(StormHawks.Runtime.Inputs.XR.VRInputAction.IJoystickActions)
+  fullName: StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions.AddCallbacks(StormHawks.Runtime.Inputs.XR.VRInputAction.IJoystickActions)
+  nameWithType: VRInputAction.JoystickActions.AddCallbacks(VRInputAction.IJoystickActions)
+- uid: StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions.AddCallbacks*
+  name: AddCallbacks
+  href: api/StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions.html#StormHawks_Runtime_Inputs_XR_VRInputAction_JoystickActions_AddCallbacks_
+  commentId: Overload:StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions.AddCallbacks
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions.AddCallbacks
+  nameWithType: VRInputAction.JoystickActions.AddCallbacks
+- uid: StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions.Disable
+  name: Disable()
+  href: api/StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions.html#StormHawks_Runtime_Inputs_XR_VRInputAction_JoystickActions_Disable
+  commentId: M:StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions.Disable
+  fullName: StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions.Disable()
+  nameWithType: VRInputAction.JoystickActions.Disable()
+- uid: StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions.Disable*
+  name: Disable
+  href: api/StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions.html#StormHawks_Runtime_Inputs_XR_VRInputAction_JoystickActions_Disable_
+  commentId: Overload:StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions.Disable
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions.Disable
+  nameWithType: VRInputAction.JoystickActions.Disable
+- uid: StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions.Enable
+  name: Enable()
+  href: api/StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions.html#StormHawks_Runtime_Inputs_XR_VRInputAction_JoystickActions_Enable
+  commentId: M:StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions.Enable
+  fullName: StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions.Enable()
+  nameWithType: VRInputAction.JoystickActions.Enable()
+- uid: StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions.Enable*
+  name: Enable
+  href: api/StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions.html#StormHawks_Runtime_Inputs_XR_VRInputAction_JoystickActions_Enable_
+  commentId: Overload:StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions.Enable
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions.Enable
+  nameWithType: VRInputAction.JoystickActions.Enable
+- uid: StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions.enabled
+  name: enabled
+  href: api/StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions.html#StormHawks_Runtime_Inputs_XR_VRInputAction_JoystickActions_enabled
+  commentId: P:StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions.enabled
+  fullName: StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions.enabled
+  nameWithType: VRInputAction.JoystickActions.enabled
+- uid: StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions.enabled*
+  name: enabled
+  href: api/StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions.html#StormHawks_Runtime_Inputs_XR_VRInputAction_JoystickActions_enabled_
+  commentId: Overload:StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions.enabled
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions.enabled
+  nameWithType: VRInputAction.JoystickActions.enabled
+- uid: StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions.Get
+  name: Get()
+  href: api/StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions.html#StormHawks_Runtime_Inputs_XR_VRInputAction_JoystickActions_Get
+  commentId: M:StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions.Get
+  fullName: StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions.Get()
+  nameWithType: VRInputAction.JoystickActions.Get()
+- uid: StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions.Get*
+  name: Get
+  href: api/StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions.html#StormHawks_Runtime_Inputs_XR_VRInputAction_JoystickActions_Get_
+  commentId: Overload:StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions.Get
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions.Get
+  nameWithType: VRInputAction.JoystickActions.Get
+- uid: StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions.LeftJoystick
+  name: LeftJoystick
+  href: api/StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions.html#StormHawks_Runtime_Inputs_XR_VRInputAction_JoystickActions_LeftJoystick
+  commentId: P:StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions.LeftJoystick
+  fullName: StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions.LeftJoystick
+  nameWithType: VRInputAction.JoystickActions.LeftJoystick
+- uid: StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions.LeftJoystick*
+  name: LeftJoystick
+  href: api/StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions.html#StormHawks_Runtime_Inputs_XR_VRInputAction_JoystickActions_LeftJoystick_
+  commentId: Overload:StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions.LeftJoystick
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions.LeftJoystick
+  nameWithType: VRInputAction.JoystickActions.LeftJoystick
+- uid: StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions.op_Implicit(StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions)~InputActionMap
+  name: Implicit(VRInputAction.JoystickActions to InputActionMap)
+  href: api/StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions.html#StormHawks_Runtime_Inputs_XR_VRInputAction_JoystickActions_op_Implicit_StormHawks_Runtime_Inputs_XR_VRInputAction_JoystickActions__InputActionMap
+  commentId: M:StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions.op_Implicit(StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions)~InputActionMap
+  name.vb: Widening(VRInputAction.JoystickActions to InputActionMap)
+  fullName: StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions.Implicit(StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions to InputActionMap)
+  fullName.vb: StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions.Widening(StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions to InputActionMap)
+  nameWithType: VRInputAction.JoystickActions.Implicit(VRInputAction.JoystickActions to InputActionMap)
+  nameWithType.vb: VRInputAction.JoystickActions.Widening(VRInputAction.JoystickActions to InputActionMap)
+- uid: StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions.op_Implicit*
+  name: Implicit
+  href: api/StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions.html#StormHawks_Runtime_Inputs_XR_VRInputAction_JoystickActions_op_Implicit_
+  commentId: Overload:StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions.op_Implicit
+  isSpec: "True"
+  name.vb: Widening
+  fullName: StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions.Implicit
+  fullName.vb: StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions.Widening
+  nameWithType: VRInputAction.JoystickActions.Implicit
+  nameWithType.vb: VRInputAction.JoystickActions.Widening
+- uid: StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions.RemoveCallbacks(StormHawks.Runtime.Inputs.XR.VRInputAction.IJoystickActions)
+  name: RemoveCallbacks(VRInputAction.IJoystickActions)
+  href: api/StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions.html#StormHawks_Runtime_Inputs_XR_VRInputAction_JoystickActions_RemoveCallbacks_StormHawks_Runtime_Inputs_XR_VRInputAction_IJoystickActions_
+  commentId: M:StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions.RemoveCallbacks(StormHawks.Runtime.Inputs.XR.VRInputAction.IJoystickActions)
+  fullName: StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions.RemoveCallbacks(StormHawks.Runtime.Inputs.XR.VRInputAction.IJoystickActions)
+  nameWithType: VRInputAction.JoystickActions.RemoveCallbacks(VRInputAction.IJoystickActions)
+- uid: StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions.RemoveCallbacks*
+  name: RemoveCallbacks
+  href: api/StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions.html#StormHawks_Runtime_Inputs_XR_VRInputAction_JoystickActions_RemoveCallbacks_
+  commentId: Overload:StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions.RemoveCallbacks
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions.RemoveCallbacks
+  nameWithType: VRInputAction.JoystickActions.RemoveCallbacks
+- uid: StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions.SetCallbacks(StormHawks.Runtime.Inputs.XR.VRInputAction.IJoystickActions)
+  name: SetCallbacks(VRInputAction.IJoystickActions)
+  href: api/StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions.html#StormHawks_Runtime_Inputs_XR_VRInputAction_JoystickActions_SetCallbacks_StormHawks_Runtime_Inputs_XR_VRInputAction_IJoystickActions_
+  commentId: M:StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions.SetCallbacks(StormHawks.Runtime.Inputs.XR.VRInputAction.IJoystickActions)
+  fullName: StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions.SetCallbacks(StormHawks.Runtime.Inputs.XR.VRInputAction.IJoystickActions)
+  nameWithType: VRInputAction.JoystickActions.SetCallbacks(VRInputAction.IJoystickActions)
+- uid: StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions.SetCallbacks*
+  name: SetCallbacks
+  href: api/StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions.html#StormHawks_Runtime_Inputs_XR_VRInputAction_JoystickActions_SetCallbacks_
+  commentId: Overload:StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions.SetCallbacks
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Inputs.XR.VRInputAction.JoystickActions.SetCallbacks
+  nameWithType: VRInputAction.JoystickActions.SetCallbacks
 - uid: StormHawks.Runtime.Interfaces
   name: StormHawks.Runtime.Interfaces
   href: api/StormHawks.Runtime.Interfaces.html
@@ -19590,6 +19852,25 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Managers.GameModeManager.SwitchMode
   nameWithType: GameModeManager.SwitchMode
+- uid: StormHawks.Runtime.Managers.GameModeSwitch
+  name: GameModeSwitch
+  href: api/StormHawks.Runtime.Managers.GameModeSwitch.html
+  commentId: T:StormHawks.Runtime.Managers.GameModeSwitch
+  fullName: StormHawks.Runtime.Managers.GameModeSwitch
+  nameWithType: GameModeSwitch
+- uid: StormHawks.Runtime.Managers.GameModeSwitch.ChangeGameMode
+  name: ChangeGameMode()
+  href: api/StormHawks.Runtime.Managers.GameModeSwitch.html#StormHawks_Runtime_Managers_GameModeSwitch_ChangeGameMode
+  commentId: M:StormHawks.Runtime.Managers.GameModeSwitch.ChangeGameMode
+  fullName: StormHawks.Runtime.Managers.GameModeSwitch.ChangeGameMode()
+  nameWithType: GameModeSwitch.ChangeGameMode()
+- uid: StormHawks.Runtime.Managers.GameModeSwitch.ChangeGameMode*
+  name: ChangeGameMode
+  href: api/StormHawks.Runtime.Managers.GameModeSwitch.html#StormHawks_Runtime_Managers_GameModeSwitch_ChangeGameMode_
+  commentId: Overload:StormHawks.Runtime.Managers.GameModeSwitch.ChangeGameMode
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Managers.GameModeSwitch.ChangeGameMode
+  nameWithType: GameModeSwitch.ChangeGameMode
 - uid: StormHawks.Runtime.Managers.GameSceneManager
   name: GameSceneManager
   href: api/StormHawks.Runtime.Managers.GameSceneManager.html
@@ -19672,6 +19953,55 @@ references:
   commentId: T:StormHawks.Runtime.Players.Animations.HandAnimator
   fullName: StormHawks.Runtime.Players.Animations.HandAnimator
   nameWithType: HandAnimator
+- uid: StormHawks.Runtime.Players.Animations.IKFootSolver
+  name: IKFootSolver
+  href: api/StormHawks.Runtime.Players.Animations.IKFootSolver.html
+  commentId: T:StormHawks.Runtime.Players.Animations.IKFootSolver
+  fullName: StormHawks.Runtime.Players.Animations.IKFootSolver
+  nameWithType: IKFootSolver
+- uid: StormHawks.Runtime.Players.Animations.IKFootSolver.footRotOffset
+  name: footRotOffset
+  href: api/StormHawks.Runtime.Players.Animations.IKFootSolver.html#StormHawks_Runtime_Players_Animations_IKFootSolver_footRotOffset
+  commentId: F:StormHawks.Runtime.Players.Animations.IKFootSolver.footRotOffset
+  fullName: StormHawks.Runtime.Players.Animations.IKFootSolver.footRotOffset
+  nameWithType: IKFootSolver.footRotOffset
+- uid: StormHawks.Runtime.Players.Animations.IKFootSolver.footYPosOffset
+  name: footYPosOffset
+  href: api/StormHawks.Runtime.Players.Animations.IKFootSolver.html#StormHawks_Runtime_Players_Animations_IKFootSolver_footYPosOffset
+  commentId: F:StormHawks.Runtime.Players.Animations.IKFootSolver.footYPosOffset
+  fullName: StormHawks.Runtime.Players.Animations.IKFootSolver.footYPosOffset
+  nameWithType: IKFootSolver.footYPosOffset
+- uid: StormHawks.Runtime.Players.Animations.IKFootSolver.IsMoving
+  name: IsMoving()
+  href: api/StormHawks.Runtime.Players.Animations.IKFootSolver.html#StormHawks_Runtime_Players_Animations_IKFootSolver_IsMoving
+  commentId: M:StormHawks.Runtime.Players.Animations.IKFootSolver.IsMoving
+  fullName: StormHawks.Runtime.Players.Animations.IKFootSolver.IsMoving()
+  nameWithType: IKFootSolver.IsMoving()
+- uid: StormHawks.Runtime.Players.Animations.IKFootSolver.IsMoving*
+  name: IsMoving
+  href: api/StormHawks.Runtime.Players.Animations.IKFootSolver.html#StormHawks_Runtime_Players_Animations_IKFootSolver_IsMoving_
+  commentId: Overload:StormHawks.Runtime.Players.Animations.IKFootSolver.IsMoving
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Players.Animations.IKFootSolver.IsMoving
+  nameWithType: IKFootSolver.IsMoving
+- uid: StormHawks.Runtime.Players.Animations.IKFootSolver.isMovingForward
+  name: isMovingForward
+  href: api/StormHawks.Runtime.Players.Animations.IKFootSolver.html#StormHawks_Runtime_Players_Animations_IKFootSolver_isMovingForward
+  commentId: F:StormHawks.Runtime.Players.Animations.IKFootSolver.isMovingForward
+  fullName: StormHawks.Runtime.Players.Animations.IKFootSolver.isMovingForward
+  nameWithType: IKFootSolver.isMovingForward
+- uid: StormHawks.Runtime.Players.Animations.IKFootSolver.rayLength
+  name: rayLength
+  href: api/StormHawks.Runtime.Players.Animations.IKFootSolver.html#StormHawks_Runtime_Players_Animations_IKFootSolver_rayLength
+  commentId: F:StormHawks.Runtime.Players.Animations.IKFootSolver.rayLength
+  fullName: StormHawks.Runtime.Players.Animations.IKFootSolver.rayLength
+  nameWithType: IKFootSolver.rayLength
+- uid: StormHawks.Runtime.Players.Animations.IKFootSolver.rayStartYOffset
+  name: rayStartYOffset
+  href: api/StormHawks.Runtime.Players.Animations.IKFootSolver.html#StormHawks_Runtime_Players_Animations_IKFootSolver_rayStartYOffset
+  commentId: F:StormHawks.Runtime.Players.Animations.IKFootSolver.rayStartYOffset
+  fullName: StormHawks.Runtime.Players.Animations.IKFootSolver.rayStartYOffset
+  nameWithType: IKFootSolver.rayStartYOffset
 - uid: StormHawks.Runtime.Players.Attack
   name: StormHawks.Runtime.Players.Attack
   href: api/StormHawks.Runtime.Players.Attack.html
@@ -20289,6 +20619,12 @@ references:
   commentId: N:StormHawks.Runtime.Players.Controllers
   fullName: StormHawks.Runtime.Players.Controllers
   nameWithType: StormHawks.Runtime.Players.Controllers
+- uid: StormHawks.Runtime.Players.Controllers.ControllerTransformResolver
+  name: ControllerTransformResolver
+  href: api/StormHawks.Runtime.Players.Controllers.ControllerTransformResolver.html
+  commentId: T:StormHawks.Runtime.Players.Controllers.ControllerTransformResolver
+  fullName: StormHawks.Runtime.Players.Controllers.ControllerTransformResolver
+  nameWithType: ControllerTransformResolver
 - uid: StormHawks.Runtime.Players.Controllers.PlayerControlConfig
   name: PlayerControlConfig
   href: api/StormHawks.Runtime.Players.Controllers.PlayerControlConfig.html
@@ -20705,6 +21041,107 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Players.Controllers.PlayerWingConfigSO.YawWingRotatePower
   nameWithType: PlayerWingConfigSO.YawWingRotatePower
+- uid: StormHawks.Runtime.Players.Controllers.RingControllerVisualizer
+  name: RingControllerVisualizer
+  href: api/StormHawks.Runtime.Players.Controllers.RingControllerVisualizer.html
+  commentId: T:StormHawks.Runtime.Players.Controllers.RingControllerVisualizer
+  fullName: StormHawks.Runtime.Players.Controllers.RingControllerVisualizer
+  nameWithType: RingControllerVisualizer
+- uid: StormHawks.Runtime.Players.Controllers.RingControllerVisualizer.RingSet
+  name: RingControllerVisualizer.RingSet
+  href: api/StormHawks.Runtime.Players.Controllers.RingControllerVisualizer.RingSet.html
+  commentId: T:StormHawks.Runtime.Players.Controllers.RingControllerVisualizer.RingSet
+  fullName: StormHawks.Runtime.Players.Controllers.RingControllerVisualizer.RingSet
+  nameWithType: RingControllerVisualizer.RingSet
+- uid: StormHawks.Runtime.Players.Controllers.RingControllerVisualizer.RingSet.Initialize(AnalogButton)
+  name: Initialize(AnalogButton)
+  href: api/StormHawks.Runtime.Players.Controllers.RingControllerVisualizer.RingSet.html#StormHawks_Runtime_Players_Controllers_RingControllerVisualizer_RingSet_Initialize_AnalogButton_
+  commentId: M:StormHawks.Runtime.Players.Controllers.RingControllerVisualizer.RingSet.Initialize(AnalogButton)
+  fullName: StormHawks.Runtime.Players.Controllers.RingControllerVisualizer.RingSet.Initialize(AnalogButton)
+  nameWithType: RingControllerVisualizer.RingSet.Initialize(AnalogButton)
+- uid: StormHawks.Runtime.Players.Controllers.RingControllerVisualizer.RingSet.Initialize*
+  name: Initialize
+  href: api/StormHawks.Runtime.Players.Controllers.RingControllerVisualizer.RingSet.html#StormHawks_Runtime_Players_Controllers_RingControllerVisualizer_RingSet_Initialize_
+  commentId: Overload:StormHawks.Runtime.Players.Controllers.RingControllerVisualizer.RingSet.Initialize
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Players.Controllers.RingControllerVisualizer.RingSet.Initialize
+  nameWithType: RingControllerVisualizer.RingSet.Initialize
+- uid: StormHawks.Runtime.Players.Controllers.RingControllerVisualizer.RingSet.Release(AnalogButton)
+  name: Release(AnalogButton)
+  href: api/StormHawks.Runtime.Players.Controllers.RingControllerVisualizer.RingSet.html#StormHawks_Runtime_Players_Controllers_RingControllerVisualizer_RingSet_Release_AnalogButton_
+  commentId: M:StormHawks.Runtime.Players.Controllers.RingControllerVisualizer.RingSet.Release(AnalogButton)
+  fullName: StormHawks.Runtime.Players.Controllers.RingControllerVisualizer.RingSet.Release(AnalogButton)
+  nameWithType: RingControllerVisualizer.RingSet.Release(AnalogButton)
+- uid: StormHawks.Runtime.Players.Controllers.RingControllerVisualizer.RingSet.Release*
+  name: Release
+  href: api/StormHawks.Runtime.Players.Controllers.RingControllerVisualizer.RingSet.html#StormHawks_Runtime_Players_Controllers_RingControllerVisualizer_RingSet_Release_
+  commentId: Overload:StormHawks.Runtime.Players.Controllers.RingControllerVisualizer.RingSet.Release
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Players.Controllers.RingControllerVisualizer.RingSet.Release
+  nameWithType: RingControllerVisualizer.RingSet.Release
+- uid: StormHawks.Runtime.Players.Controllers.RingControllerVisualizer.RingSet.UpdateRing
+  name: UpdateRing()
+  href: api/StormHawks.Runtime.Players.Controllers.RingControllerVisualizer.RingSet.html#StormHawks_Runtime_Players_Controllers_RingControllerVisualizer_RingSet_UpdateRing
+  commentId: M:StormHawks.Runtime.Players.Controllers.RingControllerVisualizer.RingSet.UpdateRing
+  fullName: StormHawks.Runtime.Players.Controllers.RingControllerVisualizer.RingSet.UpdateRing()
+  nameWithType: RingControllerVisualizer.RingSet.UpdateRing()
+- uid: StormHawks.Runtime.Players.Controllers.RingControllerVisualizer.RingSet.UpdateRing*
+  name: UpdateRing
+  href: api/StormHawks.Runtime.Players.Controllers.RingControllerVisualizer.RingSet.html#StormHawks_Runtime_Players_Controllers_RingControllerVisualizer_RingSet_UpdateRing_
+  commentId: Overload:StormHawks.Runtime.Players.Controllers.RingControllerVisualizer.RingSet.UpdateRing
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Players.Controllers.RingControllerVisualizer.RingSet.UpdateRing
+  nameWithType: RingControllerVisualizer.RingSet.UpdateRing
+- uid: StormHawks.Runtime.Players.Controllers.VRController
+  name: VRController
+  href: api/StormHawks.Runtime.Players.Controllers.VRController.html
+  commentId: T:StormHawks.Runtime.Players.Controllers.VRController
+  fullName: StormHawks.Runtime.Players.Controllers.VRController
+  nameWithType: VRController
+- uid: StormHawks.Runtime.Players.Controllers.VRController.ControllerSide
+  name: ControllerSide
+  href: api/StormHawks.Runtime.Players.Controllers.VRController.html#StormHawks_Runtime_Players_Controllers_VRController_ControllerSide
+  commentId: P:StormHawks.Runtime.Players.Controllers.VRController.ControllerSide
+  fullName: StormHawks.Runtime.Players.Controllers.VRController.ControllerSide
+  nameWithType: VRController.ControllerSide
+- uid: StormHawks.Runtime.Players.Controllers.VRController.ControllerSide*
+  name: ControllerSide
+  href: api/StormHawks.Runtime.Players.Controllers.VRController.html#StormHawks_Runtime_Players_Controllers_VRController_ControllerSide_
+  commentId: Overload:StormHawks.Runtime.Players.Controllers.VRController.ControllerSide
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Players.Controllers.VRController.ControllerSide
+  nameWithType: VRController.ControllerSide
+- uid: StormHawks.Runtime.Players.Controllers.VRController.ControllerType
+  name: VRController.ControllerType
+  href: api/StormHawks.Runtime.Players.Controllers.VRController.ControllerType.html
+  commentId: T:StormHawks.Runtime.Players.Controllers.VRController.ControllerType
+  fullName: StormHawks.Runtime.Players.Controllers.VRController.ControllerType
+  nameWithType: VRController.ControllerType
+- uid: StormHawks.Runtime.Players.Controllers.VRController.ControllerType.Left
+  name: Left
+  href: api/StormHawks.Runtime.Players.Controllers.VRController.ControllerType.html#StormHawks_Runtime_Players_Controllers_VRController_ControllerType_Left
+  commentId: F:StormHawks.Runtime.Players.Controllers.VRController.ControllerType.Left
+  fullName: StormHawks.Runtime.Players.Controllers.VRController.ControllerType.Left
+  nameWithType: VRController.ControllerType.Left
+- uid: StormHawks.Runtime.Players.Controllers.VRController.ControllerType.Right
+  name: Right
+  href: api/StormHawks.Runtime.Players.Controllers.VRController.ControllerType.html#StormHawks_Runtime_Players_Controllers_VRController_ControllerType_Right
+  commentId: F:StormHawks.Runtime.Players.Controllers.VRController.ControllerType.Right
+  fullName: StormHawks.Runtime.Players.Controllers.VRController.ControllerType.Right
+  nameWithType: VRController.ControllerType.Right
+- uid: StormHawks.Runtime.Players.Controllers.VRController.UpdateTransform(Vector3,Quaternion)
+  name: UpdateTransform(Vector3, Quaternion)
+  href: api/StormHawks.Runtime.Players.Controllers.VRController.html#StormHawks_Runtime_Players_Controllers_VRController_UpdateTransform_Vector3_Quaternion_
+  commentId: M:StormHawks.Runtime.Players.Controllers.VRController.UpdateTransform(Vector3,Quaternion)
+  fullName: StormHawks.Runtime.Players.Controllers.VRController.UpdateTransform(Vector3, Quaternion)
+  nameWithType: VRController.UpdateTransform(Vector3, Quaternion)
+- uid: StormHawks.Runtime.Players.Controllers.VRController.UpdateTransform*
+  name: UpdateTransform
+  href: api/StormHawks.Runtime.Players.Controllers.VRController.html#StormHawks_Runtime_Players_Controllers_VRController_UpdateTransform_
+  commentId: Overload:StormHawks.Runtime.Players.Controllers.VRController.UpdateTransform
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Players.Controllers.VRController.UpdateTransform
+  nameWithType: VRController.UpdateTransform
 - uid: StormHawks.Runtime.Players.Movement
   name: StormHawks.Runtime.Players.Movement
   href: api/StormHawks.Runtime.Players.Movement.html
@@ -21991,19 +22428,6 @@ references:
   commentId: T:StormHawks.Runtime.Scenes.BossStageGameSceneContexts
   fullName: StormHawks.Runtime.Scenes.BossStageGameSceneContexts
   nameWithType: BossStageGameSceneContexts
-- uid: StormHawks.Runtime.Scenes.BossStageGameSceneContexts.#ctor
-  name: BossStageGameSceneContexts()
-  href: api/StormHawks.Runtime.Scenes.BossStageGameSceneContexts.html#StormHawks_Runtime_Scenes_BossStageGameSceneContexts__ctor
-  commentId: M:StormHawks.Runtime.Scenes.BossStageGameSceneContexts.#ctor
-  fullName: StormHawks.Runtime.Scenes.BossStageGameSceneContexts.BossStageGameSceneContexts()
-  nameWithType: BossStageGameSceneContexts.BossStageGameSceneContexts()
-- uid: StormHawks.Runtime.Scenes.BossStageGameSceneContexts.#ctor*
-  name: BossStageGameSceneContexts
-  href: api/StormHawks.Runtime.Scenes.BossStageGameSceneContexts.html#StormHawks_Runtime_Scenes_BossStageGameSceneContexts__ctor_
-  commentId: Overload:StormHawks.Runtime.Scenes.BossStageGameSceneContexts.#ctor
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Scenes.BossStageGameSceneContexts.BossStageGameSceneContexts
-  nameWithType: BossStageGameSceneContexts.BossStageGameSceneContexts
 - uid: StormHawks.Runtime.Scenes.BossStageGameSceneContexts.GetSceneAddress
   name: GetSceneAddress()
   href: api/StormHawks.Runtime.Scenes.BossStageGameSceneContexts.html#StormHawks_Runtime_Scenes_BossStageGameSceneContexts_GetSceneAddress
@@ -22055,25 +22479,18 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Scenes.CutScene2GameSceneContexts.GetSceneAddress
   nameWithType: CutScene2GameSceneContexts.GetSceneAddress
+- uid: StormHawks.Runtime.Scenes.CutSceneDirector
+  name: CutSceneDirector
+  href: api/StormHawks.Runtime.Scenes.CutSceneDirector.html
+  commentId: T:StormHawks.Runtime.Scenes.CutSceneDirector
+  fullName: StormHawks.Runtime.Scenes.CutSceneDirector
+  nameWithType: CutSceneDirector
 - uid: StormHawks.Runtime.Scenes.FlightStageGameSceneContexts
   name: FlightStageGameSceneContexts
   href: api/StormHawks.Runtime.Scenes.FlightStageGameSceneContexts.html
   commentId: T:StormHawks.Runtime.Scenes.FlightStageGameSceneContexts
   fullName: StormHawks.Runtime.Scenes.FlightStageGameSceneContexts
   nameWithType: FlightStageGameSceneContexts
-- uid: StormHawks.Runtime.Scenes.FlightStageGameSceneContexts.#ctor
-  name: FlightStageGameSceneContexts()
-  href: api/StormHawks.Runtime.Scenes.FlightStageGameSceneContexts.html#StormHawks_Runtime_Scenes_FlightStageGameSceneContexts__ctor
-  commentId: M:StormHawks.Runtime.Scenes.FlightStageGameSceneContexts.#ctor
-  fullName: StormHawks.Runtime.Scenes.FlightStageGameSceneContexts.FlightStageGameSceneContexts()
-  nameWithType: FlightStageGameSceneContexts.FlightStageGameSceneContexts()
-- uid: StormHawks.Runtime.Scenes.FlightStageGameSceneContexts.#ctor*
-  name: FlightStageGameSceneContexts
-  href: api/StormHawks.Runtime.Scenes.FlightStageGameSceneContexts.html#StormHawks_Runtime_Scenes_FlightStageGameSceneContexts__ctor_
-  commentId: Overload:StormHawks.Runtime.Scenes.FlightStageGameSceneContexts.#ctor
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Scenes.FlightStageGameSceneContexts.FlightStageGameSceneContexts
-  nameWithType: FlightStageGameSceneContexts.FlightStageGameSceneContexts
 - uid: StormHawks.Runtime.Scenes.FlightStageGameSceneContexts.GetSceneAddress
   name: GetSceneAddress()
   href: api/StormHawks.Runtime.Scenes.FlightStageGameSceneContexts.html#StormHawks_Runtime_Scenes_FlightStageGameSceneContexts_GetSceneAddress
@@ -22259,6 +22676,44 @@ references:
   commentId: F:StormHawks.Runtime.Scenes.GameModes.GameModeContexts.SceneContext
   fullName: StormHawks.Runtime.Scenes.GameModes.GameModeContexts.SceneContext
   nameWithType: GameModeContexts.SceneContext
+- uid: StormHawks.Runtime.Scenes.GameModes.GameModeFactory
+  name: GameModeFactory
+  href: api/StormHawks.Runtime.Scenes.GameModes.GameModeFactory.html
+  commentId: T:StormHawks.Runtime.Scenes.GameModes.GameModeFactory
+  fullName: StormHawks.Runtime.Scenes.GameModes.GameModeFactory
+  nameWithType: GameModeFactory
+- uid: StormHawks.Runtime.Scenes.GameModes.GameModeFactory.Create(System.String)
+  name: Create(String)
+  href: api/StormHawks.Runtime.Scenes.GameModes.GameModeFactory.html#StormHawks_Runtime_Scenes_GameModes_GameModeFactory_Create_System_String_
+  commentId: M:StormHawks.Runtime.Scenes.GameModes.GameModeFactory.Create(System.String)
+  fullName: StormHawks.Runtime.Scenes.GameModes.GameModeFactory.Create(System.String)
+  nameWithType: GameModeFactory.Create(String)
+- uid: StormHawks.Runtime.Scenes.GameModes.GameModeFactory.Create*
+  name: Create
+  href: api/StormHawks.Runtime.Scenes.GameModes.GameModeFactory.html#StormHawks_Runtime_Scenes_GameModes_GameModeFactory_Create_
+  commentId: Overload:StormHawks.Runtime.Scenes.GameModes.GameModeFactory.Create
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Scenes.GameModes.GameModeFactory.Create
+  nameWithType: GameModeFactory.Create
+- uid: StormHawks.Runtime.Scenes.GameModes.GameModeNotExistsException
+  name: GameModeNotExistsException
+  href: api/StormHawks.Runtime.Scenes.GameModes.GameModeNotExistsException.html
+  commentId: T:StormHawks.Runtime.Scenes.GameModes.GameModeNotExistsException
+  fullName: StormHawks.Runtime.Scenes.GameModes.GameModeNotExistsException
+  nameWithType: GameModeNotExistsException
+- uid: StormHawks.Runtime.Scenes.GameModes.GameModeNotExistsException.#ctor
+  name: GameModeNotExistsException()
+  href: api/StormHawks.Runtime.Scenes.GameModes.GameModeNotExistsException.html#StormHawks_Runtime_Scenes_GameModes_GameModeNotExistsException__ctor
+  commentId: M:StormHawks.Runtime.Scenes.GameModes.GameModeNotExistsException.#ctor
+  fullName: StormHawks.Runtime.Scenes.GameModes.GameModeNotExistsException.GameModeNotExistsException()
+  nameWithType: GameModeNotExistsException.GameModeNotExistsException()
+- uid: StormHawks.Runtime.Scenes.GameModes.GameModeNotExistsException.#ctor*
+  name: GameModeNotExistsException
+  href: api/StormHawks.Runtime.Scenes.GameModes.GameModeNotExistsException.html#StormHawks_Runtime_Scenes_GameModes_GameModeNotExistsException__ctor_
+  commentId: Overload:StormHawks.Runtime.Scenes.GameModes.GameModeNotExistsException.#ctor
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Scenes.GameModes.GameModeNotExistsException.GameModeNotExistsException
+  nameWithType: GameModeNotExistsException.GameModeNotExistsException
 - uid: StormHawks.Runtime.Scenes.GameModes.IntroGameModeContexts
   name: IntroGameModeContexts
   href: api/StormHawks.Runtime.Scenes.GameModes.IntroGameModeContexts.html
@@ -22291,6 +22746,25 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Scenes.GameModes.IntroGameModeContexts.OnStart
   nameWithType: IntroGameModeContexts.OnStart
+- uid: StormHawks.Runtime.Scenes.GameModes.QuitGameModeContexts
+  name: QuitGameModeContexts
+  href: api/StormHawks.Runtime.Scenes.GameModes.QuitGameModeContexts.html
+  commentId: T:StormHawks.Runtime.Scenes.GameModes.QuitGameModeContexts
+  fullName: StormHawks.Runtime.Scenes.GameModes.QuitGameModeContexts
+  nameWithType: QuitGameModeContexts
+- uid: StormHawks.Runtime.Scenes.GameModes.QuitGameModeContexts.OnStart
+  name: OnStart()
+  href: api/StormHawks.Runtime.Scenes.GameModes.QuitGameModeContexts.html#StormHawks_Runtime_Scenes_GameModes_QuitGameModeContexts_OnStart
+  commentId: M:StormHawks.Runtime.Scenes.GameModes.QuitGameModeContexts.OnStart
+  fullName: StormHawks.Runtime.Scenes.GameModes.QuitGameModeContexts.OnStart()
+  nameWithType: QuitGameModeContexts.OnStart()
+- uid: StormHawks.Runtime.Scenes.GameModes.QuitGameModeContexts.OnStart*
+  name: OnStart
+  href: api/StormHawks.Runtime.Scenes.GameModes.QuitGameModeContexts.html#StormHawks_Runtime_Scenes_GameModes_QuitGameModeContexts_OnStart_
+  commentId: Overload:StormHawks.Runtime.Scenes.GameModes.QuitGameModeContexts.OnStart
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Scenes.GameModes.QuitGameModeContexts.OnStart
+  nameWithType: QuitGameModeContexts.OnStart
 - uid: StormHawks.Runtime.Scenes.GameModes.TutorialGameModeContexts
   name: TutorialGameModeContexts
   href: api/StormHawks.Runtime.Scenes.GameModes.TutorialGameModeContexts.html
@@ -22387,19 +22861,6 @@ references:
   commentId: T:StormHawks.Runtime.Scenes.IntroGameSceneContexts
   fullName: StormHawks.Runtime.Scenes.IntroGameSceneContexts
   nameWithType: IntroGameSceneContexts
-- uid: StormHawks.Runtime.Scenes.IntroGameSceneContexts.#ctor
-  name: IntroGameSceneContexts()
-  href: api/StormHawks.Runtime.Scenes.IntroGameSceneContexts.html#StormHawks_Runtime_Scenes_IntroGameSceneContexts__ctor
-  commentId: M:StormHawks.Runtime.Scenes.IntroGameSceneContexts.#ctor
-  fullName: StormHawks.Runtime.Scenes.IntroGameSceneContexts.IntroGameSceneContexts()
-  nameWithType: IntroGameSceneContexts.IntroGameSceneContexts()
-- uid: StormHawks.Runtime.Scenes.IntroGameSceneContexts.#ctor*
-  name: IntroGameSceneContexts
-  href: api/StormHawks.Runtime.Scenes.IntroGameSceneContexts.html#StormHawks_Runtime_Scenes_IntroGameSceneContexts__ctor_
-  commentId: Overload:StormHawks.Runtime.Scenes.IntroGameSceneContexts.#ctor
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Scenes.IntroGameSceneContexts.IntroGameSceneContexts
-  nameWithType: IntroGameSceneContexts.IntroGameSceneContexts
 - uid: StormHawks.Runtime.Scenes.IntroGameSceneContexts.GetSceneAddress
   name: GetSceneAddress()
   href: api/StormHawks.Runtime.Scenes.IntroGameSceneContexts.html#StormHawks_Runtime_Scenes_IntroGameSceneContexts_GetSceneAddress
@@ -22419,18 +22880,12 @@ references:
   commentId: T:StormHawks.Runtime.Scenes.TransitionFader
   fullName: StormHawks.Runtime.Scenes.TransitionFader
   nameWithType: TransitionFader
-- uid: StormHawks.Runtime.Scenes.TransitionFader.FadeIn
-  name: FadeIn()
-  href: api/StormHawks.Runtime.Scenes.TransitionFader.html#StormHawks_Runtime_Scenes_TransitionFader_FadeIn
-  commentId: M:StormHawks.Runtime.Scenes.TransitionFader.FadeIn
-  fullName: StormHawks.Runtime.Scenes.TransitionFader.FadeIn()
-  nameWithType: TransitionFader.FadeIn()
-- uid: StormHawks.Runtime.Scenes.TransitionFader.FadeIn(System.Single)
-  name: FadeIn(Single)
-  href: api/StormHawks.Runtime.Scenes.TransitionFader.html#StormHawks_Runtime_Scenes_TransitionFader_FadeIn_System_Single_
-  commentId: M:StormHawks.Runtime.Scenes.TransitionFader.FadeIn(System.Single)
-  fullName: StormHawks.Runtime.Scenes.TransitionFader.FadeIn(System.Single)
-  nameWithType: TransitionFader.FadeIn(Single)
+- uid: StormHawks.Runtime.Scenes.TransitionFader.FadeIn(Transform,System.Single)
+  name: FadeIn(Transform, Single)
+  href: api/StormHawks.Runtime.Scenes.TransitionFader.html#StormHawks_Runtime_Scenes_TransitionFader_FadeIn_Transform_System_Single_
+  commentId: M:StormHawks.Runtime.Scenes.TransitionFader.FadeIn(Transform,System.Single)
+  fullName: StormHawks.Runtime.Scenes.TransitionFader.FadeIn(Transform, System.Single)
+  nameWithType: TransitionFader.FadeIn(Transform, Single)
 - uid: StormHawks.Runtime.Scenes.TransitionFader.FadeIn*
   name: FadeIn
   href: api/StormHawks.Runtime.Scenes.TransitionFader.html#StormHawks_Runtime_Scenes_TransitionFader_FadeIn_
@@ -22438,18 +22893,12 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Scenes.TransitionFader.FadeIn
   nameWithType: TransitionFader.FadeIn
-- uid: StormHawks.Runtime.Scenes.TransitionFader.FadeOut
-  name: FadeOut()
-  href: api/StormHawks.Runtime.Scenes.TransitionFader.html#StormHawks_Runtime_Scenes_TransitionFader_FadeOut
-  commentId: M:StormHawks.Runtime.Scenes.TransitionFader.FadeOut
-  fullName: StormHawks.Runtime.Scenes.TransitionFader.FadeOut()
-  nameWithType: TransitionFader.FadeOut()
-- uid: StormHawks.Runtime.Scenes.TransitionFader.FadeOut(System.Single)
-  name: FadeOut(Single)
-  href: api/StormHawks.Runtime.Scenes.TransitionFader.html#StormHawks_Runtime_Scenes_TransitionFader_FadeOut_System_Single_
-  commentId: M:StormHawks.Runtime.Scenes.TransitionFader.FadeOut(System.Single)
-  fullName: StormHawks.Runtime.Scenes.TransitionFader.FadeOut(System.Single)
-  nameWithType: TransitionFader.FadeOut(Single)
+- uid: StormHawks.Runtime.Scenes.TransitionFader.FadeOut(Transform,System.Single)
+  name: FadeOut(Transform, Single)
+  href: api/StormHawks.Runtime.Scenes.TransitionFader.html#StormHawks_Runtime_Scenes_TransitionFader_FadeOut_Transform_System_Single_
+  commentId: M:StormHawks.Runtime.Scenes.TransitionFader.FadeOut(Transform,System.Single)
+  fullName: StormHawks.Runtime.Scenes.TransitionFader.FadeOut(Transform, System.Single)
+  nameWithType: TransitionFader.FadeOut(Transform, Single)
 - uid: StormHawks.Runtime.Scenes.TransitionFader.FadeOut*
   name: FadeOut
   href: api/StormHawks.Runtime.Scenes.TransitionFader.html#StormHawks_Runtime_Scenes_TransitionFader_FadeOut_

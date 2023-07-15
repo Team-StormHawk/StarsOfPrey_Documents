@@ -95,7 +95,8 @@
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="BT_Runtime_BehaviorTree_Core_BehaviorTreeSO_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class BehaviorTreeSO : ScriptableObject</code></pre>
+    <pre><code class="lang-csharp hljs">[Serializable]
+public sealed class BehaviorTreeSO : ScriptableObject</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -154,7 +155,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">List</span>&lt;<a class="xref" href="BT.Runtime.BehaviorTree.Core.BehaviorNode.html">BehaviorNode</a>&gt;</td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="BT.Runtime.BehaviorTree.Core.BehaviorNode.html">BehaviorNode</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -346,7 +347,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">List</span>&lt;<a class="xref" href="BT.Runtime.BehaviorTree.Core.BehaviorNode.html">BehaviorNode</a>&gt;</td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="BT.Runtime.BehaviorTree.Core.BehaviorNode.html">BehaviorNode</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -354,7 +355,7 @@
   
   
   <a id="BT_Runtime_BehaviorTree_Core_BehaviorTreeSO_Traverse_" data-uid="BT.Runtime.BehaviorTree.Core.BehaviorTreeSO.Traverse*"></a>
-  <h4 id="BT_Runtime_BehaviorTree_Core_BehaviorTreeSO_Traverse_BT_Runtime_BehaviorTree_Core_BehaviorNode_Action_BT_Runtime_BehaviorTree_Core_BehaviorNode__" data-uid="BT.Runtime.BehaviorTree.Core.BehaviorTreeSO.Traverse(BT.Runtime.BehaviorTree.Core.BehaviorNode,Action{BT.Runtime.BehaviorTree.Core.BehaviorNode})">Traverse(BehaviorNode, Action&lt;BehaviorNode&gt;)</h4>
+  <h4 id="BT_Runtime_BehaviorTree_Core_BehaviorTreeSO_Traverse_BT_Runtime_BehaviorTree_Core_BehaviorNode_System_Action_BT_Runtime_BehaviorTree_Core_BehaviorNode__" data-uid="BT.Runtime.BehaviorTree.Core.BehaviorTreeSO.Traverse(BT.Runtime.BehaviorTree.Core.BehaviorNode,System.Action{BT.Runtime.BehaviorTree.Core.BehaviorNode})">Traverse(BehaviorNode, Action&lt;BehaviorNode&gt;)</h4>
   <div class="markdown level1 summary"><p>모든 자식노드를 선회함.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -379,7 +380,7 @@
 </td>
       </tr>
       <tr>
-        <td><span class="xref">Action</span>&lt;<a class="xref" href="BT.Runtime.BehaviorTree.Core.BehaviorNode.html">BehaviorNode</a>&gt;</td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="BT.Runtime.BehaviorTree.Core.BehaviorNode.html">BehaviorNode</a>&gt;</td>
         <td><span class="parametername">visiter</span></td>
         <td><p>방문한 노드에서 발생할 이벤트</p>
 </td>

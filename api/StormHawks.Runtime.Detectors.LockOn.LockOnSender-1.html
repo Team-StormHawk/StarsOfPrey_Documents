@@ -96,7 +96,7 @@
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="StormHawks_Runtime_Detectors_LockOn_LockOnSender_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class LockOnSender&lt;T&gt; : MonoBehaviour where T : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class LockOnSender&lt;T&gt; : MonoBehaviour where T : MonoBehaviour, IDetectable</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -122,7 +122,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected DetectorHandler&lt;T&gt; _detectorHandler</code></pre>
+    <pre><code class="lang-csharp hljs">protected DetectorHandlerBase&lt;T&gt; _detectorHandler</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -134,7 +134,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">DetectorHandler</span>&lt;T&gt;</td>
+        <td><span class="xref">DetectorHandlerBase</span>&lt;T&gt;</td>
         <td></td>
       </tr>
     </tbody>

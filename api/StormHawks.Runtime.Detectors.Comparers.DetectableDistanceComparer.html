@@ -94,7 +94,7 @@
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="StormHawks_Runtime_Detectors_Comparers_DetectableDistanceComparer_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class DetectableDistanceComparer : IComparer&lt;DetectableEntity&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public class DetectableDistanceComparer : IComparer&lt;IDetectable&gt;</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -130,12 +130,12 @@
   
   
   <a id="StormHawks_Runtime_Detectors_Comparers_DetectableDistanceComparer_Compare_" data-uid="StormHawks.Runtime.Detectors.Comparers.DetectableDistanceComparer.Compare*"></a>
-  <h4 id="StormHawks_Runtime_Detectors_Comparers_DetectableDistanceComparer_Compare_StormHawks_Runtime_Detectors_DetectableEntity_StormHawks_Runtime_Detectors_DetectableEntity_" data-uid="StormHawks.Runtime.Detectors.Comparers.DetectableDistanceComparer.Compare(StormHawks.Runtime.Detectors.DetectableEntity,StormHawks.Runtime.Detectors.DetectableEntity)">Compare(DetectableEntity, DetectableEntity)</h4>
+  <h4 id="StormHawks_Runtime_Detectors_Comparers_DetectableDistanceComparer_Compare_IDetectable_IDetectable_" data-uid="StormHawks.Runtime.Detectors.Comparers.DetectableDistanceComparer.Compare(IDetectable,IDetectable)">Compare(IDetectable, IDetectable)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int Compare(DetectableEntity x, DetectableEntity y)</code></pre>
+    <pre><code class="lang-csharp hljs">public int Compare(IDetectable x, IDetectable y)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -148,12 +148,12 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="StormHawks.Runtime.Detectors.DetectableEntity.html">DetectableEntity</a></td>
+        <td><span class="xref">IDetectable</span></td>
         <td><span class="parametername">x</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="StormHawks.Runtime.Detectors.DetectableEntity.html">DetectableEntity</a></td>
+        <td><span class="xref">IDetectable</span></td>
         <td><span class="parametername">y</span></td>
         <td></td>
       </tr>

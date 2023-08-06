@@ -88,49 +88,26 @@
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><a class="xref" href="StormHawks.Runtime.Presenters.Weapons.EntityWeaponPresenter.html">EntityWeaponPresenter</a></div>
-    <div class="level2"><a class="xref" href="StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter-1.html">ProjectileWeaponPresenter</a>&lt;<span class="xref">TrackingEnemyWeaponModel</span>&gt;</div>
-    <div class="level3"><span class="xref">TrackingEnemyWeaponPresenter</span></div>
-  </div>
-  <div class="implements">
-    <h5>Implements</h5>
-    <div><span class="xref">IEntityWeapon</span></div>
+    <div class="level1"><span class="xref">EnemyProjectileWeaponPresenter</span>&lt;<span class="xref">TrackingEnemyWeaponModel</span>&gt;</div>
+    <div class="level2"><span class="xref">TrackingEnemyWeaponPresenter</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <a class="xref" href="StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter-1.html#StormHawks_Runtime_Presenters_Weapons_ProjectileWeaponPresenter_1_Position">ProjectileWeaponPresenter&lt;TrackingEnemyWeaponModel&gt;.Position</a>
+      <span class="xref">EnemyProjectileWeaponPresenter&lt;TrackingEnemyWeaponModel&gt;._projectileFactory</span>
     </div>
     <div>
-      <a class="xref" href="StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter-1.html#StormHawks_Runtime_Presenters_Weapons_ProjectileWeaponPresenter_1_Rotation">ProjectileWeaponPresenter&lt;TrackingEnemyWeaponModel&gt;.Rotation</a>
+      <span class="xref">EnemyProjectileWeaponPresenter&lt;TrackingEnemyWeaponModel&gt;._launchSFX</span>
     </div>
     <div>
-      <a class="xref" href="StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter-1.html#StormHawks_Runtime_Presenters_Weapons_ProjectileWeaponPresenter_1__disposable">ProjectileWeaponPresenter&lt;TrackingEnemyWeaponModel&gt;._disposable</a>
-    </div>
-    <div>
-      <a class="xref" href="StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter-1.html#StormHawks_Runtime_Presenters_Weapons_ProjectileWeaponPresenter_1__model">ProjectileWeaponPresenter&lt;TrackingEnemyWeaponModel&gt;._model</a>
-    </div>
-    <div>
-      <a class="xref" href="StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter-1.html#StormHawks_Runtime_Presenters_Weapons_ProjectileWeaponPresenter_1__fire">ProjectileWeaponPresenter&lt;TrackingEnemyWeaponModel&gt;._fire</a>
-    </div>
-    <div>
-      <a class="xref" href="StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter-1.html#StormHawks_Runtime_Presenters_Weapons_ProjectileWeaponPresenter_1_Launch">ProjectileWeaponPresenter&lt;TrackingEnemyWeaponModel&gt;.Launch()</a>
-    </div>
-    <div>
-      <a class="xref" href="StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter-1.html#StormHawks_Runtime_Presenters_Weapons_ProjectileWeaponPresenter_1_OnLaunchCompleted">ProjectileWeaponPresenter&lt;TrackingEnemyWeaponModel&gt;.OnLaunchCompleted()</a>
-    </div>
-    <div>
-      <a class="xref" href="StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter-1.html#StormHawks_Runtime_Presenters_Weapons_ProjectileWeaponPresenter_1_Cancel">ProjectileWeaponPresenter&lt;TrackingEnemyWeaponModel&gt;.Cancel()</a>
-    </div>
-    <div>
-      <a class="xref" href="StormHawks.Runtime.Presenters.Weapons.EntityWeaponPresenter.html#StormHawks_Runtime_Presenters_Weapons_EntityWeaponPresenter_IsFiring">EntityWeaponPresenter.IsFiring</a>
+      <span class="xref">EnemyProjectileWeaponPresenter&lt;TrackingEnemyWeaponModel&gt;.SpawnProjectile()</span>
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Presenters.Weapons.html">StormHawks.Runtime.Presenters.Weapons</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="StormHawks_Runtime_Presenters_Weapons_TrackingEnemyWeaponPresenter_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class TrackingEnemyWeaponPresenter : ProjectileWeaponPresenter&lt;TrackingEnemyWeaponModel&gt;, IEntityWeapon</code></pre>
+    <pre><code class="lang-csharp hljs">public class TrackingEnemyWeaponPresenter : EnemyProjectileWeaponPresenter&lt;TrackingEnemyWeaponModel&gt;</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
@@ -166,10 +143,6 @@
       </tr>
     </tbody>
   </table>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <span class="xref">IEntityWeapon</span>
-  </div>
 </article>
           </div>
           

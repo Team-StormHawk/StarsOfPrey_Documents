@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class ProjectileSpanwer
+    <title>Class SFX
    | Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class ProjectileSpanwer
+    <meta name="title" content="Class SFX
    | Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -78,35 +78,39 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Services.Projectiles.ProjectileSpanwer">
+            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Services.Audios.SFXs.SFX">
   
   
-  <h1 id="StormHawks_Runtime_Services_Projectiles_ProjectileSpanwer" data-uid="StormHawks.Runtime.Services.Projectiles.ProjectileSpanwer" class="text-break">Class ProjectileSpanwer
+  <h1 id="StormHawks_Runtime_Services_Audios_SFXs_SFX" data-uid="StormHawks.Runtime.Services.Audios.SFXs.SFX" class="text-break">Class SFX
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">ProjectileSpanwer</span></div>
+    <div class="level1"><span class="xref">SFX</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Services.Projectiles.html">StormHawks.Runtime.Services.Projectiles</a></h6>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="StormHawks.Runtime.Services.Audios.SFXs.ISFX.html">ISFX</a></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Services.Audios.SFXs.html">StormHawks.Runtime.Services.Audios.SFXs</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="StormHawks_Runtime_Services_Projectiles_ProjectileSpanwer_syntax">Syntax</h5>
+  <h5 id="StormHawks_Runtime_Services_Audios_SFXs_SFX_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ProjectileSpanwer : IAsyncStartable, IDisposable</code></pre>
+    <pre><code class="lang-csharp hljs">public class SFX : ISFX, IDisposable</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   
   
-  <a id="StormHawks_Runtime_Services_Projectiles_ProjectileSpanwer__ctor_" data-uid="StormHawks.Runtime.Services.Projectiles.ProjectileSpanwer.#ctor*"></a>
-  <h4 id="StormHawks_Runtime_Services_Projectiles_ProjectileSpanwer__ctor_ProjectileSpawnerSettings_" data-uid="StormHawks.Runtime.Services.Projectiles.ProjectileSpanwer.#ctor(ProjectileSpawnerSettings)">ProjectileSpanwer(ProjectileSpawnerSettings)</h4>
+  <a id="StormHawks_Runtime_Services_Audios_SFXs_SFX__ctor_" data-uid="StormHawks.Runtime.Services.Audios.SFXs.SFX.#ctor*"></a>
+  <h4 id="StormHawks_Runtime_Services_Audios_SFXs_SFX__ctor_EventReference_" data-uid="StormHawks.Runtime.Services.Audios.SFXs.SFX.#ctor(EventReference)">SFX(EventReference)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ProjectileSpanwer(ProjectileSpawnerSettings settings)</code></pre>
+    <pre><code class="lang-csharp hljs">public SFX(EventReference eventRef)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -119,8 +123,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">ProjectileSpawnerSettings</span></td>
-        <td><span class="parametername">settings</span></td>
+        <td><span class="xref">EventReference</span></td>
+        <td><span class="parametername">eventRef</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -129,8 +133,8 @@
   </h3>
   
   
-  <a id="StormHawks_Runtime_Services_Projectiles_ProjectileSpanwer_Dispose_" data-uid="StormHawks.Runtime.Services.Projectiles.ProjectileSpanwer.Dispose*"></a>
-  <h4 id="StormHawks_Runtime_Services_Projectiles_ProjectileSpanwer_Dispose" data-uid="StormHawks.Runtime.Services.Projectiles.ProjectileSpanwer.Dispose">Dispose()</h4>
+  <a id="StormHawks_Runtime_Services_Audios_SFXs_SFX_Dispose_" data-uid="StormHawks.Runtime.Services.Audios.SFXs.SFX.Dispose*"></a>
+  <h4 id="StormHawks_Runtime_Services_Audios_SFXs_SFX_Dispose" data-uid="StormHawks.Runtime.Services.Audios.SFXs.SFX.Dispose">Dispose()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -139,54 +143,13 @@
   </div>
   
   
-  <a id="StormHawks_Runtime_Services_Projectiles_ProjectileSpanwer_Get_" data-uid="StormHawks.Runtime.Services.Projectiles.ProjectileSpanwer.Get*"></a>
-  <h4 id="StormHawks_Runtime_Services_Projectiles_ProjectileSpanwer_Get__1" data-uid="StormHawks.Runtime.Services.Projectiles.ProjectileSpanwer.Get``1">Get&lt;T&gt;()</h4>
+  <a id="StormHawks_Runtime_Services_Audios_SFXs_SFX_Play_" data-uid="StormHawks.Runtime.Services.Audios.SFXs.SFX.Play*"></a>
+  <h4 id="StormHawks_Runtime_Services_Audios_SFXs_SFX_Play_ATTRIBUTES_3D_" data-uid="StormHawks.Runtime.Services.Audios.SFXs.SFX.Play(ATTRIBUTES_3D)">Play(ATTRIBUTES_3D)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public T Get&lt;T&gt;()
-    where T : ProjectilePresenter</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="StormHawks_Runtime_Services_Projectiles_ProjectileSpanwer_StartAsync_" data-uid="StormHawks.Runtime.Services.Projectiles.ProjectileSpanwer.StartAsync*"></a>
-  <h4 id="StormHawks_Runtime_Services_Projectiles_ProjectileSpanwer_StartAsync_CancellationToken_" data-uid="StormHawks.Runtime.Services.Projectiles.ProjectileSpanwer.StartAsync(CancellationToken)">StartAsync(CancellationToken)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public async UniTask StartAsync(CancellationToken cancellation)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Play(ATTRIBUTES_3D position)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -199,27 +162,16 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">CancellationToken</span></td>
-        <td><span class="parametername">cancellation</span></td>
+        <td><span class="xref">ATTRIBUTES_3D</span></td>
+        <td><span class="parametername">position</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">UniTask</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="StormHawks.Runtime.Services.Audios.SFXs.ISFX.html">ISFX</a>
+  </div>
 </article>
           </div>
           

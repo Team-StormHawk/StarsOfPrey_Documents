@@ -99,6 +99,7 @@
     <div><span class="xref">IHasHealthRx</span></div>
     <div><span class="xref">IAggressiveRx</span></div>
     <div><span class="xref">IAggressiveTarget</span></div>
+    <div><span class="xref">IReleaseEvent</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -130,10 +131,10 @@
       <a class="xref" href="StormHawks.Runtime.Presenters.Entities.Enemies.SteeringEnemyPresenter-1.html#StormHawks_Runtime_Presenters_Entities_Enemies_SteeringEnemyPresenter_1_TakeDamage_Damage_">SteeringEnemyPresenter&lt;TrackingEnemyModel&gt;.TakeDamage(Damage)</a>
     </div>
     <div>
-      <a class="xref" href="StormHawks.Runtime.Presenters.Entities.Enemies.SteeringEnemyPresenter-1.html#StormHawks_Runtime_Presenters_Entities_Enemies_SteeringEnemyPresenter_1_OnDead">SteeringEnemyPresenter&lt;TrackingEnemyModel&gt;.OnDead()</a>
+      <a class="xref" href="StormHawks.Runtime.Presenters.Entities.Enemies.SteeringEnemyPresenter-1.html#StormHawks_Runtime_Presenters_Entities_Enemies_SteeringEnemyPresenter_1_GetAggroTarget">SteeringEnemyPresenter&lt;TrackingEnemyModel&gt;.GetAggroTarget()</a>
     </div>
     <div>
-      <a class="xref" href="StormHawks.Runtime.Presenters.Entities.Enemies.SteeringEnemyPresenter-1.html#StormHawks_Runtime_Presenters_Entities_Enemies_SteeringEnemyPresenter_1_GetAggroTarget">SteeringEnemyPresenter&lt;TrackingEnemyModel&gt;.GetAggroTarget()</a>
+      <a class="xref" href="StormHawks.Runtime.Presenters.Entities.Enemies.SteeringEnemyPresenter-1.html#StormHawks_Runtime_Presenters_Entities_Enemies_SteeringEnemyPresenter_1_OnSpawn_Vector3_Quaternion_">SteeringEnemyPresenter&lt;TrackingEnemyModel&gt;.OnSpawn(Vector3, Quaternion)</a>
     </div>
     <div>
       <a class="xref" href="StormHawks.Runtime.Presenters.Entities.SteeringEntityPresenter-1.html#StormHawks_Runtime_Presenters_Entities_SteeringEntityPresenter_1__rigidbody">SteeringEntityPresenter&lt;TrackingEnemyModel&gt;._rigidbody</a>
@@ -192,6 +193,44 @@
   </div>
   <h5 class="overrides">Overrides</h5>
   <div><span class="xref">StormHawks.Runtime.Presenters.Entities.SteeringEntityPresenter&lt;TrackingEnemyModel&gt;.Awake()</span></div>
+  
+  
+  <a id="StormHawks_Runtime_Presenters_Entities_Enemies_TrackingEnemyPresenter_OnDead_" data-uid="StormHawks.Runtime.Presenters.Entities.Enemies.TrackingEnemyPresenter.OnDead*"></a>
+  <h4 id="StormHawks_Runtime_Presenters_Entities_Enemies_TrackingEnemyPresenter_OnDead" data-uid="StormHawks.Runtime.Presenters.Entities.Enemies.TrackingEnemyPresenter.OnDead">OnDead()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnDead()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">StormHawks.Runtime.Presenters.Entities.Enemies.SteeringEnemyPresenter&lt;TrackingEnemyModel&gt;.OnDead()</span></div>
+  <h3 id="events">Events
+  </h3>
+  
+  
+  <h4 id="StormHawks_Runtime_Presenters_Entities_Enemies_TrackingEnemyPresenter_Dispatched" data-uid="StormHawks.Runtime.Presenters.Entities.Enemies.TrackingEnemyPresenter.Dispatched">Dispatched</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action Dispatched</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="implements">Implements</h3>
   <div>
       <span class="xref">IHasHealthRx</span>
@@ -201,6 +240,9 @@
   </div>
   <div>
       <span class="xref">IAggressiveTarget</span>
+  </div>
+  <div>
+      <span class="xref">IReleaseEvent</span>
   </div>
 </article>
           </div>

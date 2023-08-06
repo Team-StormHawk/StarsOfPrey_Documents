@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Struct Damage
+    <title>Class AutomaticFire
    | Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Struct Damage
+    <meta name="title" content="Class AutomaticFire
    | Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -78,32 +78,97 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Values.Damage">
+            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Presenters.Fires.AutomaticFire">
   
   
-  <h1 id="StormHawks_Runtime_Values_Damage" data-uid="StormHawks.Runtime.Values.Damage" class="text-break">Struct Damage
+  <h1 id="StormHawks_Runtime_Presenters_Fires_AutomaticFire" data-uid="StormHawks.Runtime.Presenters.Fires.AutomaticFire" class="text-break">Class AutomaticFire
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Values.html">StormHawks.Runtime.Values</a></h6>
-  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="StormHawks_Runtime_Values_Damage_syntax">Syntax</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Serializable]
-public struct Damage</code></pre>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">AutomaticFire</span></div>
   </div>
-  <h3 id="fields">Fields
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="StormHawks.Runtime.Presenters.Fires.IProjectileFire.html">IProjectileFire</a></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Presenters.Fires.html">StormHawks.Runtime.Presenters.Fires</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="StormHawks_Runtime_Presenters_Fires_AutomaticFire_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class AutomaticFire : IProjectileFire</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
   </h3>
   
   
-  <h4 id="StormHawks_Runtime_Values_Damage_Attacker" data-uid="StormHawks.Runtime.Values.Damage.Attacker">Attacker</h4>
+  <a id="StormHawks_Runtime_Presenters_Fires_AutomaticFire__ctor_" data-uid="StormHawks.Runtime.Presenters.Fires.AutomaticFire.#ctor*"></a>
+  <h4 id="StormHawks_Runtime_Presenters_Fires_AutomaticFire__ctor_System_Func_ProjectilePresenter__ProjectileWeaponSettings_" data-uid="StormHawks.Runtime.Presenters.Fires.AutomaticFire.#ctor(System.Func{ProjectilePresenter},ProjectileWeaponSettings)">AutomaticFire(Func&lt;ProjectilePresenter&gt;, ProjectileWeaponSettings)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GameObject Attacker</code></pre>
+    <pre><code class="lang-csharp hljs">public AutomaticFire(Func&lt;ProjectilePresenter&gt; spawnProjectileTask, ProjectileWeaponSettings settings)</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-1">Func</a>&lt;<span class="xref">ProjectilePresenter</span>&gt;</td>
+        <td><span class="parametername">spawnProjectileTask</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">ProjectileWeaponSettings</span></td>
+        <td><span class="parametername">settings</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="StormHawks_Runtime_Presenters_Fires_AutomaticFire_FireTask_" data-uid="StormHawks.Runtime.Presenters.Fires.AutomaticFire.FireTask*"></a>
+  <h4 id="StormHawks_Runtime_Presenters_Fires_AutomaticFire_FireTask_System_Action_CancellationToken_" data-uid="StormHawks.Runtime.Presenters.Fires.AutomaticFire.FireTask(System.Action,CancellationToken)">FireTask(Action, CancellationToken)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async UniTaskVoid FireTask(Action onCompleted, CancellationToken cancellation)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></td>
+        <td><span class="parametername">onCompleted</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">cancellation</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -113,35 +178,15 @@ public struct Damage</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">GameObject</span></td>
+        <td><span class="xref">UniTaskVoid</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  
-  
-  <h4 id="StormHawks_Runtime_Values_Damage_Value" data-uid="StormHawks.Runtime.Values.Damage.Value">Value</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float Value</code></pre>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="StormHawks.Runtime.Presenters.Fires.IProjectileFire.html">IProjectileFire</a>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
 </article>
           </div>
           

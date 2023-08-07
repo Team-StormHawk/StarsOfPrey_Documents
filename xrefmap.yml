@@ -23894,15 +23894,15 @@ references:
   commentId: T:StormHawks.Runtime.Presenters.Entities.BossPresenter
   fullName: StormHawks.Runtime.Presenters.Entities.BossPresenter
   nameWithType: BossPresenter
-- uid: StormHawks.Runtime.Presenters.Entities.BossPresenter.Constrcut(IAudioService,System.Func{TrackingEnemyPresenter})
-  name: Constrcut(IAudioService, Func<TrackingEnemyPresenter>)
-  href: api/StormHawks.Runtime.Presenters.Entities.BossPresenter.html#StormHawks_Runtime_Presenters_Entities_BossPresenter_Constrcut_IAudioService_System_Func_TrackingEnemyPresenter__
-  commentId: M:StormHawks.Runtime.Presenters.Entities.BossPresenter.Constrcut(IAudioService,System.Func{TrackingEnemyPresenter})
-  name.vb: Constrcut(IAudioService, Func(Of TrackingEnemyPresenter))
-  fullName: StormHawks.Runtime.Presenters.Entities.BossPresenter.Constrcut(IAudioService, System.Func<TrackingEnemyPresenter>)
-  fullName.vb: StormHawks.Runtime.Presenters.Entities.BossPresenter.Constrcut(IAudioService, System.Func(Of TrackingEnemyPresenter))
-  nameWithType: BossPresenter.Constrcut(IAudioService, Func<TrackingEnemyPresenter>)
-  nameWithType.vb: BossPresenter.Constrcut(IAudioService, Func(Of TrackingEnemyPresenter))
+- uid: StormHawks.Runtime.Presenters.Entities.BossPresenter.Constrcut(System.Func{TrackingEnemyPresenter})
+  name: Constrcut(Func<TrackingEnemyPresenter>)
+  href: api/StormHawks.Runtime.Presenters.Entities.BossPresenter.html#StormHawks_Runtime_Presenters_Entities_BossPresenter_Constrcut_System_Func_TrackingEnemyPresenter__
+  commentId: M:StormHawks.Runtime.Presenters.Entities.BossPresenter.Constrcut(System.Func{TrackingEnemyPresenter})
+  name.vb: Constrcut(Func(Of TrackingEnemyPresenter))
+  fullName: StormHawks.Runtime.Presenters.Entities.BossPresenter.Constrcut(System.Func<TrackingEnemyPresenter>)
+  fullName.vb: StormHawks.Runtime.Presenters.Entities.BossPresenter.Constrcut(System.Func(Of TrackingEnemyPresenter))
+  nameWithType: BossPresenter.Constrcut(Func<TrackingEnemyPresenter>)
+  nameWithType.vb: BossPresenter.Constrcut(Func(Of TrackingEnemyPresenter))
 - uid: StormHawks.Runtime.Presenters.Entities.BossPresenter.Constrcut*
   name: Constrcut
   href: api/StormHawks.Runtime.Presenters.Entities.BossPresenter.html#StormHawks_Runtime_Presenters_Entities_BossPresenter_Constrcut_
@@ -23950,19 +23950,19 @@ references:
   commentId: T:StormHawks.Runtime.Presenters.Entities.Enemies.LookingEnemyPresenter
   fullName: StormHawks.Runtime.Presenters.Entities.Enemies.LookingEnemyPresenter
   nameWithType: LookingEnemyPresenter
-- uid: StormHawks.Runtime.Presenters.Entities.Enemies.LookingEnemyPresenter.Awake
-  name: Awake()
-  href: api/StormHawks.Runtime.Presenters.Entities.Enemies.LookingEnemyPresenter.html#StormHawks_Runtime_Presenters_Entities_Enemies_LookingEnemyPresenter_Awake
-  commentId: M:StormHawks.Runtime.Presenters.Entities.Enemies.LookingEnemyPresenter.Awake
-  fullName: StormHawks.Runtime.Presenters.Entities.Enemies.LookingEnemyPresenter.Awake()
-  nameWithType: LookingEnemyPresenter.Awake()
-- uid: StormHawks.Runtime.Presenters.Entities.Enemies.LookingEnemyPresenter.Awake*
-  name: Awake
-  href: api/StormHawks.Runtime.Presenters.Entities.Enemies.LookingEnemyPresenter.html#StormHawks_Runtime_Presenters_Entities_Enemies_LookingEnemyPresenter_Awake_
-  commentId: Overload:StormHawks.Runtime.Presenters.Entities.Enemies.LookingEnemyPresenter.Awake
+- uid: StormHawks.Runtime.Presenters.Entities.Enemies.LookingEnemyPresenter.Construct(LookingEnemyModel)
+  name: Construct(LookingEnemyModel)
+  href: api/StormHawks.Runtime.Presenters.Entities.Enemies.LookingEnemyPresenter.html#StormHawks_Runtime_Presenters_Entities_Enemies_LookingEnemyPresenter_Construct_LookingEnemyModel_
+  commentId: M:StormHawks.Runtime.Presenters.Entities.Enemies.LookingEnemyPresenter.Construct(LookingEnemyModel)
+  fullName: StormHawks.Runtime.Presenters.Entities.Enemies.LookingEnemyPresenter.Construct(LookingEnemyModel)
+  nameWithType: LookingEnemyPresenter.Construct(LookingEnemyModel)
+- uid: StormHawks.Runtime.Presenters.Entities.Enemies.LookingEnemyPresenter.Construct*
+  name: Construct
+  href: api/StormHawks.Runtime.Presenters.Entities.Enemies.LookingEnemyPresenter.html#StormHawks_Runtime_Presenters_Entities_Enemies_LookingEnemyPresenter_Construct_
+  commentId: Overload:StormHawks.Runtime.Presenters.Entities.Enemies.LookingEnemyPresenter.Construct
   isSpec: "True"
-  fullName: StormHawks.Runtime.Presenters.Entities.Enemies.LookingEnemyPresenter.Awake
-  nameWithType: LookingEnemyPresenter.Awake
+  fullName: StormHawks.Runtime.Presenters.Entities.Enemies.LookingEnemyPresenter.Construct
+  nameWithType: LookingEnemyPresenter.Construct
 - uid: StormHawks.Runtime.Presenters.Entities.Enemies.SteeringEnemyPresenter`1
   name: SteeringEnemyPresenter<T>
   href: api/StormHawks.Runtime.Presenters.Entities.Enemies.SteeringEnemyPresenter-1.html
@@ -23972,14 +23972,6 @@ references:
   fullName.vb: StormHawks.Runtime.Presenters.Entities.Enemies.SteeringEnemyPresenter(Of T)
   nameWithType: SteeringEnemyPresenter<T>
   nameWithType.vb: SteeringEnemyPresenter(Of T)
-- uid: StormHawks.Runtime.Presenters.Entities.Enemies.SteeringEnemyPresenter`1._health
-  name: _health
-  href: api/StormHawks.Runtime.Presenters.Entities.Enemies.SteeringEnemyPresenter-1.html#StormHawks_Runtime_Presenters_Entities_Enemies_SteeringEnemyPresenter_1__health
-  commentId: F:StormHawks.Runtime.Presenters.Entities.Enemies.SteeringEnemyPresenter`1._health
-  fullName: StormHawks.Runtime.Presenters.Entities.Enemies.SteeringEnemyPresenter<T>._health
-  fullName.vb: StormHawks.Runtime.Presenters.Entities.Enemies.SteeringEnemyPresenter(Of T)._health
-  nameWithType: SteeringEnemyPresenter<T>._health
-  nameWithType.vb: SteeringEnemyPresenter(Of T)._health
 - uid: StormHawks.Runtime.Presenters.Entities.Enemies.SteeringEnemyPresenter`1.GetAggroTarget
   name: GetAggroTarget()
   href: api/StormHawks.Runtime.Presenters.Entities.Enemies.SteeringEnemyPresenter-1.html#StormHawks_Runtime_Presenters_Entities_Enemies_SteeringEnemyPresenter_1_GetAggroTarget
@@ -23997,6 +23989,23 @@ references:
   fullName.vb: StormHawks.Runtime.Presenters.Entities.Enemies.SteeringEnemyPresenter(Of T).GetAggroTarget
   nameWithType: SteeringEnemyPresenter<T>.GetAggroTarget
   nameWithType.vb: SteeringEnemyPresenter(Of T).GetAggroTarget
+- uid: StormHawks.Runtime.Presenters.Entities.Enemies.SteeringEnemyPresenter`1.Initialize
+  name: Initialize()
+  href: api/StormHawks.Runtime.Presenters.Entities.Enemies.SteeringEnemyPresenter-1.html#StormHawks_Runtime_Presenters_Entities_Enemies_SteeringEnemyPresenter_1_Initialize
+  commentId: M:StormHawks.Runtime.Presenters.Entities.Enemies.SteeringEnemyPresenter`1.Initialize
+  fullName: StormHawks.Runtime.Presenters.Entities.Enemies.SteeringEnemyPresenter<T>.Initialize()
+  fullName.vb: StormHawks.Runtime.Presenters.Entities.Enemies.SteeringEnemyPresenter(Of T).Initialize()
+  nameWithType: SteeringEnemyPresenter<T>.Initialize()
+  nameWithType.vb: SteeringEnemyPresenter(Of T).Initialize()
+- uid: StormHawks.Runtime.Presenters.Entities.Enemies.SteeringEnemyPresenter`1.Initialize*
+  name: Initialize
+  href: api/StormHawks.Runtime.Presenters.Entities.Enemies.SteeringEnemyPresenter-1.html#StormHawks_Runtime_Presenters_Entities_Enemies_SteeringEnemyPresenter_1_Initialize_
+  commentId: Overload:StormHawks.Runtime.Presenters.Entities.Enemies.SteeringEnemyPresenter`1.Initialize
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.Entities.Enemies.SteeringEnemyPresenter<T>.Initialize
+  fullName.vb: StormHawks.Runtime.Presenters.Entities.Enemies.SteeringEnemyPresenter(Of T).Initialize
+  nameWithType: SteeringEnemyPresenter<T>.Initialize
+  nameWithType.vb: SteeringEnemyPresenter(Of T).Initialize
 - uid: StormHawks.Runtime.Presenters.Entities.Enemies.SteeringEnemyPresenter`1.IsAggressive
   name: IsAggressive
   href: api/StormHawks.Runtime.Presenters.Entities.Enemies.SteeringEnemyPresenter-1.html#StormHawks_Runtime_Presenters_Entities_Enemies_SteeringEnemyPresenter_1_IsAggressive
@@ -24083,23 +24092,6 @@ references:
   fullName.vb: StormHawks.Runtime.Presenters.Entities.Enemies.SteeringEnemyPresenter(Of T).OnDead
   nameWithType: SteeringEnemyPresenter<T>.OnDead
   nameWithType.vb: SteeringEnemyPresenter(Of T).OnDead
-- uid: StormHawks.Runtime.Presenters.Entities.Enemies.SteeringEnemyPresenter`1.OnSpawn(Vector3,Quaternion)
-  name: OnSpawn(Vector3, Quaternion)
-  href: api/StormHawks.Runtime.Presenters.Entities.Enemies.SteeringEnemyPresenter-1.html#StormHawks_Runtime_Presenters_Entities_Enemies_SteeringEnemyPresenter_1_OnSpawn_Vector3_Quaternion_
-  commentId: M:StormHawks.Runtime.Presenters.Entities.Enemies.SteeringEnemyPresenter`1.OnSpawn(Vector3,Quaternion)
-  fullName: StormHawks.Runtime.Presenters.Entities.Enemies.SteeringEnemyPresenter<T>.OnSpawn(Vector3, Quaternion)
-  fullName.vb: StormHawks.Runtime.Presenters.Entities.Enemies.SteeringEnemyPresenter(Of T).OnSpawn(Vector3, Quaternion)
-  nameWithType: SteeringEnemyPresenter<T>.OnSpawn(Vector3, Quaternion)
-  nameWithType.vb: SteeringEnemyPresenter(Of T).OnSpawn(Vector3, Quaternion)
-- uid: StormHawks.Runtime.Presenters.Entities.Enemies.SteeringEnemyPresenter`1.OnSpawn*
-  name: OnSpawn
-  href: api/StormHawks.Runtime.Presenters.Entities.Enemies.SteeringEnemyPresenter-1.html#StormHawks_Runtime_Presenters_Entities_Enemies_SteeringEnemyPresenter_1_OnSpawn_
-  commentId: Overload:StormHawks.Runtime.Presenters.Entities.Enemies.SteeringEnemyPresenter`1.OnSpawn
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Presenters.Entities.Enemies.SteeringEnemyPresenter<T>.OnSpawn
-  fullName.vb: StormHawks.Runtime.Presenters.Entities.Enemies.SteeringEnemyPresenter(Of T).OnSpawn
-  nameWithType: SteeringEnemyPresenter<T>.OnSpawn
-  nameWithType.vb: SteeringEnemyPresenter(Of T).OnSpawn
 - uid: StormHawks.Runtime.Presenters.Entities.Enemies.SteeringEnemyPresenter`1.ReleaseAggro
   name: ReleaseAggro()
   href: api/StormHawks.Runtime.Presenters.Entities.Enemies.SteeringEnemyPresenter-1.html#StormHawks_Runtime_Presenters_Entities_Enemies_SteeringEnemyPresenter_1_ReleaseAggro
@@ -24134,23 +24126,23 @@ references:
   fullName.vb: StormHawks.Runtime.Presenters.Entities.Enemies.SteeringEnemyPresenter(Of T).SetAggroTarget
   nameWithType: SteeringEnemyPresenter<T>.SetAggroTarget
   nameWithType.vb: SteeringEnemyPresenter(Of T).SetAggroTarget
-- uid: StormHawks.Runtime.Presenters.Entities.Enemies.SteeringEnemyPresenter`1.Start
-  name: Start()
-  href: api/StormHawks.Runtime.Presenters.Entities.Enemies.SteeringEnemyPresenter-1.html#StormHawks_Runtime_Presenters_Entities_Enemies_SteeringEnemyPresenter_1_Start
-  commentId: M:StormHawks.Runtime.Presenters.Entities.Enemies.SteeringEnemyPresenter`1.Start
-  fullName: StormHawks.Runtime.Presenters.Entities.Enemies.SteeringEnemyPresenter<T>.Start()
-  fullName.vb: StormHawks.Runtime.Presenters.Entities.Enemies.SteeringEnemyPresenter(Of T).Start()
-  nameWithType: SteeringEnemyPresenter<T>.Start()
-  nameWithType.vb: SteeringEnemyPresenter(Of T).Start()
-- uid: StormHawks.Runtime.Presenters.Entities.Enemies.SteeringEnemyPresenter`1.Start*
-  name: Start
-  href: api/StormHawks.Runtime.Presenters.Entities.Enemies.SteeringEnemyPresenter-1.html#StormHawks_Runtime_Presenters_Entities_Enemies_SteeringEnemyPresenter_1_Start_
-  commentId: Overload:StormHawks.Runtime.Presenters.Entities.Enemies.SteeringEnemyPresenter`1.Start
+- uid: StormHawks.Runtime.Presenters.Entities.Enemies.SteeringEnemyPresenter`1.SetPositionAndRotation(Vector3,Quaternion)
+  name: SetPositionAndRotation(Vector3, Quaternion)
+  href: api/StormHawks.Runtime.Presenters.Entities.Enemies.SteeringEnemyPresenter-1.html#StormHawks_Runtime_Presenters_Entities_Enemies_SteeringEnemyPresenter_1_SetPositionAndRotation_Vector3_Quaternion_
+  commentId: M:StormHawks.Runtime.Presenters.Entities.Enemies.SteeringEnemyPresenter`1.SetPositionAndRotation(Vector3,Quaternion)
+  fullName: StormHawks.Runtime.Presenters.Entities.Enemies.SteeringEnemyPresenter<T>.SetPositionAndRotation(Vector3, Quaternion)
+  fullName.vb: StormHawks.Runtime.Presenters.Entities.Enemies.SteeringEnemyPresenter(Of T).SetPositionAndRotation(Vector3, Quaternion)
+  nameWithType: SteeringEnemyPresenter<T>.SetPositionAndRotation(Vector3, Quaternion)
+  nameWithType.vb: SteeringEnemyPresenter(Of T).SetPositionAndRotation(Vector3, Quaternion)
+- uid: StormHawks.Runtime.Presenters.Entities.Enemies.SteeringEnemyPresenter`1.SetPositionAndRotation*
+  name: SetPositionAndRotation
+  href: api/StormHawks.Runtime.Presenters.Entities.Enemies.SteeringEnemyPresenter-1.html#StormHawks_Runtime_Presenters_Entities_Enemies_SteeringEnemyPresenter_1_SetPositionAndRotation_
+  commentId: Overload:StormHawks.Runtime.Presenters.Entities.Enemies.SteeringEnemyPresenter`1.SetPositionAndRotation
   isSpec: "True"
-  fullName: StormHawks.Runtime.Presenters.Entities.Enemies.SteeringEnemyPresenter<T>.Start
-  fullName.vb: StormHawks.Runtime.Presenters.Entities.Enemies.SteeringEnemyPresenter(Of T).Start
-  nameWithType: SteeringEnemyPresenter<T>.Start
-  nameWithType.vb: SteeringEnemyPresenter(Of T).Start
+  fullName: StormHawks.Runtime.Presenters.Entities.Enemies.SteeringEnemyPresenter<T>.SetPositionAndRotation
+  fullName.vb: StormHawks.Runtime.Presenters.Entities.Enemies.SteeringEnemyPresenter(Of T).SetPositionAndRotation
+  nameWithType: SteeringEnemyPresenter<T>.SetPositionAndRotation
+  nameWithType.vb: SteeringEnemyPresenter(Of T).SetPositionAndRotation
 - uid: StormHawks.Runtime.Presenters.Entities.Enemies.SteeringEnemyPresenter`1.TakeDamage(Damage)
   name: TakeDamage(Damage)
   href: api/StormHawks.Runtime.Presenters.Entities.Enemies.SteeringEnemyPresenter-1.html#StormHawks_Runtime_Presenters_Entities_Enemies_SteeringEnemyPresenter_1_TakeDamage_Damage_
@@ -24174,19 +24166,19 @@ references:
   commentId: T:StormHawks.Runtime.Presenters.Entities.Enemies.TrackingEnemyPresenter
   fullName: StormHawks.Runtime.Presenters.Entities.Enemies.TrackingEnemyPresenter
   nameWithType: TrackingEnemyPresenter
-- uid: StormHawks.Runtime.Presenters.Entities.Enemies.TrackingEnemyPresenter.Awake
-  name: Awake()
-  href: api/StormHawks.Runtime.Presenters.Entities.Enemies.TrackingEnemyPresenter.html#StormHawks_Runtime_Presenters_Entities_Enemies_TrackingEnemyPresenter_Awake
-  commentId: M:StormHawks.Runtime.Presenters.Entities.Enemies.TrackingEnemyPresenter.Awake
-  fullName: StormHawks.Runtime.Presenters.Entities.Enemies.TrackingEnemyPresenter.Awake()
-  nameWithType: TrackingEnemyPresenter.Awake()
-- uid: StormHawks.Runtime.Presenters.Entities.Enemies.TrackingEnemyPresenter.Awake*
-  name: Awake
-  href: api/StormHawks.Runtime.Presenters.Entities.Enemies.TrackingEnemyPresenter.html#StormHawks_Runtime_Presenters_Entities_Enemies_TrackingEnemyPresenter_Awake_
-  commentId: Overload:StormHawks.Runtime.Presenters.Entities.Enemies.TrackingEnemyPresenter.Awake
+- uid: StormHawks.Runtime.Presenters.Entities.Enemies.TrackingEnemyPresenter.Construct(TrackingEnemyModel,TrackingEnemyWeaponPresenter)
+  name: Construct(TrackingEnemyModel, TrackingEnemyWeaponPresenter)
+  href: api/StormHawks.Runtime.Presenters.Entities.Enemies.TrackingEnemyPresenter.html#StormHawks_Runtime_Presenters_Entities_Enemies_TrackingEnemyPresenter_Construct_TrackingEnemyModel_TrackingEnemyWeaponPresenter_
+  commentId: M:StormHawks.Runtime.Presenters.Entities.Enemies.TrackingEnemyPresenter.Construct(TrackingEnemyModel,TrackingEnemyWeaponPresenter)
+  fullName: StormHawks.Runtime.Presenters.Entities.Enemies.TrackingEnemyPresenter.Construct(TrackingEnemyModel, TrackingEnemyWeaponPresenter)
+  nameWithType: TrackingEnemyPresenter.Construct(TrackingEnemyModel, TrackingEnemyWeaponPresenter)
+- uid: StormHawks.Runtime.Presenters.Entities.Enemies.TrackingEnemyPresenter.Construct*
+  name: Construct
+  href: api/StormHawks.Runtime.Presenters.Entities.Enemies.TrackingEnemyPresenter.html#StormHawks_Runtime_Presenters_Entities_Enemies_TrackingEnemyPresenter_Construct_
+  commentId: Overload:StormHawks.Runtime.Presenters.Entities.Enemies.TrackingEnemyPresenter.Construct
   isSpec: "True"
-  fullName: StormHawks.Runtime.Presenters.Entities.Enemies.TrackingEnemyPresenter.Awake
-  nameWithType: TrackingEnemyPresenter.Awake
+  fullName: StormHawks.Runtime.Presenters.Entities.Enemies.TrackingEnemyPresenter.Construct
+  nameWithType: TrackingEnemyPresenter.Construct
 - uid: StormHawks.Runtime.Presenters.Entities.Enemies.TrackingEnemyPresenter.Dispatched
   name: Dispatched
   href: api/StormHawks.Runtime.Presenters.Entities.Enemies.TrackingEnemyPresenter.html#StormHawks_Runtime_Presenters_Entities_Enemies_TrackingEnemyPresenter_Dispatched
@@ -24212,6 +24204,51 @@ references:
   commentId: T:StormHawks.Runtime.Presenters.Entities.EntityPresenter
   fullName: StormHawks.Runtime.Presenters.Entities.EntityPresenter
   nameWithType: EntityPresenter
+- uid: StormHawks.Runtime.Presenters.Entities.ISteeringEntity
+  name: ISteeringEntity
+  href: api/StormHawks.Runtime.Presenters.Entities.ISteeringEntity.html
+  commentId: T:StormHawks.Runtime.Presenters.Entities.ISteeringEntity
+  fullName: StormHawks.Runtime.Presenters.Entities.ISteeringEntity
+  nameWithType: ISteeringEntity
+- uid: StormHawks.Runtime.Presenters.Entities.ISteeringEntity.AddSteeringForce(SteeringForce)
+  name: AddSteeringForce(SteeringForce)
+  href: api/StormHawks.Runtime.Presenters.Entities.ISteeringEntity.html#StormHawks_Runtime_Presenters_Entities_ISteeringEntity_AddSteeringForce_SteeringForce_
+  commentId: M:StormHawks.Runtime.Presenters.Entities.ISteeringEntity.AddSteeringForce(SteeringForce)
+  fullName: StormHawks.Runtime.Presenters.Entities.ISteeringEntity.AddSteeringForce(SteeringForce)
+  nameWithType: ISteeringEntity.AddSteeringForce(SteeringForce)
+- uid: StormHawks.Runtime.Presenters.Entities.ISteeringEntity.AddSteeringForce*
+  name: AddSteeringForce
+  href: api/StormHawks.Runtime.Presenters.Entities.ISteeringEntity.html#StormHawks_Runtime_Presenters_Entities_ISteeringEntity_AddSteeringForce_
+  commentId: Overload:StormHawks.Runtime.Presenters.Entities.ISteeringEntity.AddSteeringForce
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.Entities.ISteeringEntity.AddSteeringForce
+  nameWithType: ISteeringEntity.AddSteeringForce
+- uid: StormHawks.Runtime.Presenters.Entities.ISteeringEntity.RemoveSteeringForce(SteeringForce)
+  name: RemoveSteeringForce(SteeringForce)
+  href: api/StormHawks.Runtime.Presenters.Entities.ISteeringEntity.html#StormHawks_Runtime_Presenters_Entities_ISteeringEntity_RemoveSteeringForce_SteeringForce_
+  commentId: M:StormHawks.Runtime.Presenters.Entities.ISteeringEntity.RemoveSteeringForce(SteeringForce)
+  fullName: StormHawks.Runtime.Presenters.Entities.ISteeringEntity.RemoveSteeringForce(SteeringForce)
+  nameWithType: ISteeringEntity.RemoveSteeringForce(SteeringForce)
+- uid: StormHawks.Runtime.Presenters.Entities.ISteeringEntity.RemoveSteeringForce*
+  name: RemoveSteeringForce
+  href: api/StormHawks.Runtime.Presenters.Entities.ISteeringEntity.html#StormHawks_Runtime_Presenters_Entities_ISteeringEntity_RemoveSteeringForce_
+  commentId: Overload:StormHawks.Runtime.Presenters.Entities.ISteeringEntity.RemoveSteeringForce
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.Entities.ISteeringEntity.RemoveSteeringForce
+  nameWithType: ISteeringEntity.RemoveSteeringForce
+- uid: StormHawks.Runtime.Presenters.Entities.ISteeringEntity.Stop
+  name: Stop()
+  href: api/StormHawks.Runtime.Presenters.Entities.ISteeringEntity.html#StormHawks_Runtime_Presenters_Entities_ISteeringEntity_Stop
+  commentId: M:StormHawks.Runtime.Presenters.Entities.ISteeringEntity.Stop
+  fullName: StormHawks.Runtime.Presenters.Entities.ISteeringEntity.Stop()
+  nameWithType: ISteeringEntity.Stop()
+- uid: StormHawks.Runtime.Presenters.Entities.ISteeringEntity.Stop*
+  name: Stop
+  href: api/StormHawks.Runtime.Presenters.Entities.ISteeringEntity.html#StormHawks_Runtime_Presenters_Entities_ISteeringEntity_Stop_
+  commentId: Overload:StormHawks.Runtime.Presenters.Entities.ISteeringEntity.Stop
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.Entities.ISteeringEntity.Stop
+  nameWithType: ISteeringEntity.Stop
 - uid: StormHawks.Runtime.Presenters.Entities.SteeringEntityPresenter`1
   name: SteeringEntityPresenter<T>
   href: api/StormHawks.Runtime.Presenters.Entities.SteeringEntityPresenter-1.html
@@ -24221,22 +24258,6 @@ references:
   fullName.vb: StormHawks.Runtime.Presenters.Entities.SteeringEntityPresenter(Of T)
   nameWithType: SteeringEntityPresenter<T>
   nameWithType.vb: SteeringEntityPresenter(Of T)
-- uid: StormHawks.Runtime.Presenters.Entities.SteeringEntityPresenter`1._context
-  name: _context
-  href: api/StormHawks.Runtime.Presenters.Entities.SteeringEntityPresenter-1.html#StormHawks_Runtime_Presenters_Entities_SteeringEntityPresenter_1__context
-  commentId: F:StormHawks.Runtime.Presenters.Entities.SteeringEntityPresenter`1._context
-  fullName: StormHawks.Runtime.Presenters.Entities.SteeringEntityPresenter<T>._context
-  fullName.vb: StormHawks.Runtime.Presenters.Entities.SteeringEntityPresenter(Of T)._context
-  nameWithType: SteeringEntityPresenter<T>._context
-  nameWithType.vb: SteeringEntityPresenter(Of T)._context
-- uid: StormHawks.Runtime.Presenters.Entities.SteeringEntityPresenter`1._disposable
-  name: _disposable
-  href: api/StormHawks.Runtime.Presenters.Entities.SteeringEntityPresenter-1.html#StormHawks_Runtime_Presenters_Entities_SteeringEntityPresenter_1__disposable
-  commentId: F:StormHawks.Runtime.Presenters.Entities.SteeringEntityPresenter`1._disposable
-  fullName: StormHawks.Runtime.Presenters.Entities.SteeringEntityPresenter<T>._disposable
-  fullName.vb: StormHawks.Runtime.Presenters.Entities.SteeringEntityPresenter(Of T)._disposable
-  nameWithType: SteeringEntityPresenter<T>._disposable
-  nameWithType.vb: SteeringEntityPresenter(Of T)._disposable
 - uid: StormHawks.Runtime.Presenters.Entities.SteeringEntityPresenter`1._model
   name: _model
   href: api/StormHawks.Runtime.Presenters.Entities.SteeringEntityPresenter-1.html#StormHawks_Runtime_Presenters_Entities_SteeringEntityPresenter_1__model
@@ -24270,40 +24291,23 @@ references:
   fullName.vb: StormHawks.Runtime.Presenters.Entities.SteeringEntityPresenter(Of T).AddSteeringForce
   nameWithType: SteeringEntityPresenter<T>.AddSteeringForce
   nameWithType.vb: SteeringEntityPresenter(Of T).AddSteeringForce
-- uid: StormHawks.Runtime.Presenters.Entities.SteeringEntityPresenter`1.Awake
-  name: Awake()
-  href: api/StormHawks.Runtime.Presenters.Entities.SteeringEntityPresenter-1.html#StormHawks_Runtime_Presenters_Entities_SteeringEntityPresenter_1_Awake
-  commentId: M:StormHawks.Runtime.Presenters.Entities.SteeringEntityPresenter`1.Awake
-  fullName: StormHawks.Runtime.Presenters.Entities.SteeringEntityPresenter<T>.Awake()
-  fullName.vb: StormHawks.Runtime.Presenters.Entities.SteeringEntityPresenter(Of T).Awake()
-  nameWithType: SteeringEntityPresenter<T>.Awake()
-  nameWithType.vb: SteeringEntityPresenter(Of T).Awake()
-- uid: StormHawks.Runtime.Presenters.Entities.SteeringEntityPresenter`1.Awake*
-  name: Awake
-  href: api/StormHawks.Runtime.Presenters.Entities.SteeringEntityPresenter-1.html#StormHawks_Runtime_Presenters_Entities_SteeringEntityPresenter_1_Awake_
-  commentId: Overload:StormHawks.Runtime.Presenters.Entities.SteeringEntityPresenter`1.Awake
+- uid: StormHawks.Runtime.Presenters.Entities.SteeringEntityPresenter`1.Initialize
+  name: Initialize()
+  href: api/StormHawks.Runtime.Presenters.Entities.SteeringEntityPresenter-1.html#StormHawks_Runtime_Presenters_Entities_SteeringEntityPresenter_1_Initialize
+  commentId: M:StormHawks.Runtime.Presenters.Entities.SteeringEntityPresenter`1.Initialize
+  fullName: StormHawks.Runtime.Presenters.Entities.SteeringEntityPresenter<T>.Initialize()
+  fullName.vb: StormHawks.Runtime.Presenters.Entities.SteeringEntityPresenter(Of T).Initialize()
+  nameWithType: SteeringEntityPresenter<T>.Initialize()
+  nameWithType.vb: SteeringEntityPresenter(Of T).Initialize()
+- uid: StormHawks.Runtime.Presenters.Entities.SteeringEntityPresenter`1.Initialize*
+  name: Initialize
+  href: api/StormHawks.Runtime.Presenters.Entities.SteeringEntityPresenter-1.html#StormHawks_Runtime_Presenters_Entities_SteeringEntityPresenter_1_Initialize_
+  commentId: Overload:StormHawks.Runtime.Presenters.Entities.SteeringEntityPresenter`1.Initialize
   isSpec: "True"
-  fullName: StormHawks.Runtime.Presenters.Entities.SteeringEntityPresenter<T>.Awake
-  fullName.vb: StormHawks.Runtime.Presenters.Entities.SteeringEntityPresenter(Of T).Awake
-  nameWithType: SteeringEntityPresenter<T>.Awake
-  nameWithType.vb: SteeringEntityPresenter(Of T).Awake
-- uid: StormHawks.Runtime.Presenters.Entities.SteeringEntityPresenter`1.Dispose
-  name: Dispose()
-  href: api/StormHawks.Runtime.Presenters.Entities.SteeringEntityPresenter-1.html#StormHawks_Runtime_Presenters_Entities_SteeringEntityPresenter_1_Dispose
-  commentId: M:StormHawks.Runtime.Presenters.Entities.SteeringEntityPresenter`1.Dispose
-  fullName: StormHawks.Runtime.Presenters.Entities.SteeringEntityPresenter<T>.Dispose()
-  fullName.vb: StormHawks.Runtime.Presenters.Entities.SteeringEntityPresenter(Of T).Dispose()
-  nameWithType: SteeringEntityPresenter<T>.Dispose()
-  nameWithType.vb: SteeringEntityPresenter(Of T).Dispose()
-- uid: StormHawks.Runtime.Presenters.Entities.SteeringEntityPresenter`1.Dispose*
-  name: Dispose
-  href: api/StormHawks.Runtime.Presenters.Entities.SteeringEntityPresenter-1.html#StormHawks_Runtime_Presenters_Entities_SteeringEntityPresenter_1_Dispose_
-  commentId: Overload:StormHawks.Runtime.Presenters.Entities.SteeringEntityPresenter`1.Dispose
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Presenters.Entities.SteeringEntityPresenter<T>.Dispose
-  fullName.vb: StormHawks.Runtime.Presenters.Entities.SteeringEntityPresenter(Of T).Dispose
-  nameWithType: SteeringEntityPresenter<T>.Dispose
-  nameWithType.vb: SteeringEntityPresenter(Of T).Dispose
+  fullName: StormHawks.Runtime.Presenters.Entities.SteeringEntityPresenter<T>.Initialize
+  fullName.vb: StormHawks.Runtime.Presenters.Entities.SteeringEntityPresenter(Of T).Initialize
+  nameWithType: SteeringEntityPresenter<T>.Initialize
+  nameWithType.vb: SteeringEntityPresenter(Of T).Initialize
 - uid: StormHawks.Runtime.Presenters.Entities.SteeringEntityPresenter`1.OnCreateNewSteeringForce
   name: OnCreateNewSteeringForce
   href: api/StormHawks.Runtime.Presenters.Entities.SteeringEntityPresenter-1.html#StormHawks_Runtime_Presenters_Entities_SteeringEntityPresenter_1_OnCreateNewSteeringForce
@@ -24355,23 +24359,6 @@ references:
   fullName.vb: StormHawks.Runtime.Presenters.Entities.SteeringEntityPresenter(Of T).RemoveSteeringForce
   nameWithType: SteeringEntityPresenter<T>.RemoveSteeringForce
   nameWithType.vb: SteeringEntityPresenter(Of T).RemoveSteeringForce
-- uid: StormHawks.Runtime.Presenters.Entities.SteeringEntityPresenter`1.Start
-  name: Start()
-  href: api/StormHawks.Runtime.Presenters.Entities.SteeringEntityPresenter-1.html#StormHawks_Runtime_Presenters_Entities_SteeringEntityPresenter_1_Start
-  commentId: M:StormHawks.Runtime.Presenters.Entities.SteeringEntityPresenter`1.Start
-  fullName: StormHawks.Runtime.Presenters.Entities.SteeringEntityPresenter<T>.Start()
-  fullName.vb: StormHawks.Runtime.Presenters.Entities.SteeringEntityPresenter(Of T).Start()
-  nameWithType: SteeringEntityPresenter<T>.Start()
-  nameWithType.vb: SteeringEntityPresenter(Of T).Start()
-- uid: StormHawks.Runtime.Presenters.Entities.SteeringEntityPresenter`1.Start*
-  name: Start
-  href: api/StormHawks.Runtime.Presenters.Entities.SteeringEntityPresenter-1.html#StormHawks_Runtime_Presenters_Entities_SteeringEntityPresenter_1_Start_
-  commentId: Overload:StormHawks.Runtime.Presenters.Entities.SteeringEntityPresenter`1.Start
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Presenters.Entities.SteeringEntityPresenter<T>.Start
-  fullName.vb: StormHawks.Runtime.Presenters.Entities.SteeringEntityPresenter(Of T).Start
-  nameWithType: SteeringEntityPresenter<T>.Start
-  nameWithType.vb: SteeringEntityPresenter(Of T).Start
 - uid: StormHawks.Runtime.Presenters.Entities.SteeringEntityPresenter`1.Stop
   name: Stop()
   href: api/StormHawks.Runtime.Presenters.Entities.SteeringEntityPresenter-1.html#StormHawks_Runtime_Presenters_Entities_SteeringEntityPresenter_1_Stop
@@ -24855,14 +24842,6 @@ references:
   fullName.vb: StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter(Of T)
   nameWithType: ProjectileWeaponPresenter<T>
   nameWithType.vb: ProjectileWeaponPresenter(Of T)
-- uid: StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter`1._disposable
-  name: _disposable
-  href: api/StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter-1.html#StormHawks_Runtime_Presenters_Weapons_ProjectileWeaponPresenter_1__disposable
-  commentId: F:StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter`1._disposable
-  fullName: StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter<T>._disposable
-  fullName.vb: StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter(Of T)._disposable
-  nameWithType: ProjectileWeaponPresenter<T>._disposable
-  nameWithType.vb: ProjectileWeaponPresenter(Of T)._disposable
 - uid: StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter`1._fire
   name: _fire
   href: api/StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter-1.html#StormHawks_Runtime_Presenters_Weapons_ProjectileWeaponPresenter_1__fire
@@ -25851,6 +25830,71 @@ references:
   commentId: T:StormHawks.Runtime.Services.Audios.AudioService
   fullName: StormHawks.Runtime.Services.Audios.AudioService
   nameWithType: AudioService
+- uid: StormHawks.Runtime.Services.Audios.AudioService.BgmBusPath
+  name: BgmBusPath
+  href: api/StormHawks.Runtime.Services.Audios.AudioService.html#StormHawks_Runtime_Services_Audios_AudioService_BgmBusPath
+  commentId: P:StormHawks.Runtime.Services.Audios.AudioService.BgmBusPath
+  fullName: StormHawks.Runtime.Services.Audios.AudioService.BgmBusPath
+  nameWithType: AudioService.BgmBusPath
+- uid: StormHawks.Runtime.Services.Audios.AudioService.BgmBusPath*
+  name: BgmBusPath
+  href: api/StormHawks.Runtime.Services.Audios.AudioService.html#StormHawks_Runtime_Services_Audios_AudioService_BgmBusPath_
+  commentId: Overload:StormHawks.Runtime.Services.Audios.AudioService.BgmBusPath
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Services.Audios.AudioService.BgmBusPath
+  nameWithType: AudioService.BgmBusPath
+- uid: StormHawks.Runtime.Services.Audios.AudioService.SetBgmVolume(System.Single)
+  name: SetBgmVolume(Single)
+  href: api/StormHawks.Runtime.Services.Audios.AudioService.html#StormHawks_Runtime_Services_Audios_AudioService_SetBgmVolume_System_Single_
+  commentId: M:StormHawks.Runtime.Services.Audios.AudioService.SetBgmVolume(System.Single)
+  fullName: StormHawks.Runtime.Services.Audios.AudioService.SetBgmVolume(System.Single)
+  nameWithType: AudioService.SetBgmVolume(Single)
+- uid: StormHawks.Runtime.Services.Audios.AudioService.SetBgmVolume*
+  name: SetBgmVolume
+  href: api/StormHawks.Runtime.Services.Audios.AudioService.html#StormHawks_Runtime_Services_Audios_AudioService_SetBgmVolume_
+  commentId: Overload:StormHawks.Runtime.Services.Audios.AudioService.SetBgmVolume
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Services.Audios.AudioService.SetBgmVolume
+  nameWithType: AudioService.SetBgmVolume
+- uid: StormHawks.Runtime.Services.Audios.AudioService.SetSfxVolume(System.Single)
+  name: SetSfxVolume(Single)
+  href: api/StormHawks.Runtime.Services.Audios.AudioService.html#StormHawks_Runtime_Services_Audios_AudioService_SetSfxVolume_System_Single_
+  commentId: M:StormHawks.Runtime.Services.Audios.AudioService.SetSfxVolume(System.Single)
+  fullName: StormHawks.Runtime.Services.Audios.AudioService.SetSfxVolume(System.Single)
+  nameWithType: AudioService.SetSfxVolume(Single)
+- uid: StormHawks.Runtime.Services.Audios.AudioService.SetSfxVolume*
+  name: SetSfxVolume
+  href: api/StormHawks.Runtime.Services.Audios.AudioService.html#StormHawks_Runtime_Services_Audios_AudioService_SetSfxVolume_
+  commentId: Overload:StormHawks.Runtime.Services.Audios.AudioService.SetSfxVolume
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Services.Audios.AudioService.SetSfxVolume
+  nameWithType: AudioService.SetSfxVolume
+- uid: StormHawks.Runtime.Services.Audios.AudioService.SetVoiceVolume(System.Single)
+  name: SetVoiceVolume(Single)
+  href: api/StormHawks.Runtime.Services.Audios.AudioService.html#StormHawks_Runtime_Services_Audios_AudioService_SetVoiceVolume_System_Single_
+  commentId: M:StormHawks.Runtime.Services.Audios.AudioService.SetVoiceVolume(System.Single)
+  fullName: StormHawks.Runtime.Services.Audios.AudioService.SetVoiceVolume(System.Single)
+  nameWithType: AudioService.SetVoiceVolume(Single)
+- uid: StormHawks.Runtime.Services.Audios.AudioService.SetVoiceVolume*
+  name: SetVoiceVolume
+  href: api/StormHawks.Runtime.Services.Audios.AudioService.html#StormHawks_Runtime_Services_Audios_AudioService_SetVoiceVolume_
+  commentId: Overload:StormHawks.Runtime.Services.Audios.AudioService.SetVoiceVolume
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Services.Audios.AudioService.SetVoiceVolume
+  nameWithType: AudioService.SetVoiceVolume
+- uid: StormHawks.Runtime.Services.Audios.AudioService.SfxBusPath
+  name: SfxBusPath
+  href: api/StormHawks.Runtime.Services.Audios.AudioService.html#StormHawks_Runtime_Services_Audios_AudioService_SfxBusPath
+  commentId: P:StormHawks.Runtime.Services.Audios.AudioService.SfxBusPath
+  fullName: StormHawks.Runtime.Services.Audios.AudioService.SfxBusPath
+  nameWithType: AudioService.SfxBusPath
+- uid: StormHawks.Runtime.Services.Audios.AudioService.SfxBusPath*
+  name: SfxBusPath
+  href: api/StormHawks.Runtime.Services.Audios.AudioService.html#StormHawks_Runtime_Services_Audios_AudioService_SfxBusPath_
+  commentId: Overload:StormHawks.Runtime.Services.Audios.AudioService.SfxBusPath
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Services.Audios.AudioService.SfxBusPath
+  nameWithType: AudioService.SfxBusPath
 - uid: StormHawks.Runtime.Services.Audios.AudioService.StartAsync(CancellationToken)
   name: StartAsync(CancellationToken)
   href: api/StormHawks.Runtime.Services.Audios.AudioService.html#StormHawks_Runtime_Services_Audios_AudioService_StartAsync_CancellationToken_
@@ -25864,12 +25908,103 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Services.Audios.AudioService.StartAsync
   nameWithType: AudioService.StartAsync
+- uid: StormHawks.Runtime.Services.Audios.AudioService.VoiceBusPath
+  name: VoiceBusPath
+  href: api/StormHawks.Runtime.Services.Audios.AudioService.html#StormHawks_Runtime_Services_Audios_AudioService_VoiceBusPath
+  commentId: P:StormHawks.Runtime.Services.Audios.AudioService.VoiceBusPath
+  fullName: StormHawks.Runtime.Services.Audios.AudioService.VoiceBusPath
+  nameWithType: AudioService.VoiceBusPath
+- uid: StormHawks.Runtime.Services.Audios.AudioService.VoiceBusPath*
+  name: VoiceBusPath
+  href: api/StormHawks.Runtime.Services.Audios.AudioService.html#StormHawks_Runtime_Services_Audios_AudioService_VoiceBusPath_
+  commentId: Overload:StormHawks.Runtime.Services.Audios.AudioService.VoiceBusPath
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Services.Audios.AudioService.VoiceBusPath
+  nameWithType: AudioService.VoiceBusPath
 - uid: StormHawks.Runtime.Services.Audios.IAudioService
   name: IAudioService
   href: api/StormHawks.Runtime.Services.Audios.IAudioService.html
   commentId: T:StormHawks.Runtime.Services.Audios.IAudioService
   fullName: StormHawks.Runtime.Services.Audios.IAudioService
   nameWithType: IAudioService
+- uid: StormHawks.Runtime.Services.Audios.IAudioService.BgmBusPath
+  name: BgmBusPath
+  href: api/StormHawks.Runtime.Services.Audios.IAudioService.html#StormHawks_Runtime_Services_Audios_IAudioService_BgmBusPath
+  commentId: P:StormHawks.Runtime.Services.Audios.IAudioService.BgmBusPath
+  fullName: StormHawks.Runtime.Services.Audios.IAudioService.BgmBusPath
+  nameWithType: IAudioService.BgmBusPath
+- uid: StormHawks.Runtime.Services.Audios.IAudioService.BgmBusPath*
+  name: BgmBusPath
+  href: api/StormHawks.Runtime.Services.Audios.IAudioService.html#StormHawks_Runtime_Services_Audios_IAudioService_BgmBusPath_
+  commentId: Overload:StormHawks.Runtime.Services.Audios.IAudioService.BgmBusPath
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Services.Audios.IAudioService.BgmBusPath
+  nameWithType: IAudioService.BgmBusPath
+- uid: StormHawks.Runtime.Services.Audios.IAudioService.SetBgmVolume(System.Single)
+  name: SetBgmVolume(Single)
+  href: api/StormHawks.Runtime.Services.Audios.IAudioService.html#StormHawks_Runtime_Services_Audios_IAudioService_SetBgmVolume_System_Single_
+  commentId: M:StormHawks.Runtime.Services.Audios.IAudioService.SetBgmVolume(System.Single)
+  fullName: StormHawks.Runtime.Services.Audios.IAudioService.SetBgmVolume(System.Single)
+  nameWithType: IAudioService.SetBgmVolume(Single)
+- uid: StormHawks.Runtime.Services.Audios.IAudioService.SetBgmVolume*
+  name: SetBgmVolume
+  href: api/StormHawks.Runtime.Services.Audios.IAudioService.html#StormHawks_Runtime_Services_Audios_IAudioService_SetBgmVolume_
+  commentId: Overload:StormHawks.Runtime.Services.Audios.IAudioService.SetBgmVolume
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Services.Audios.IAudioService.SetBgmVolume
+  nameWithType: IAudioService.SetBgmVolume
+- uid: StormHawks.Runtime.Services.Audios.IAudioService.SetSfxVolume(System.Single)
+  name: SetSfxVolume(Single)
+  href: api/StormHawks.Runtime.Services.Audios.IAudioService.html#StormHawks_Runtime_Services_Audios_IAudioService_SetSfxVolume_System_Single_
+  commentId: M:StormHawks.Runtime.Services.Audios.IAudioService.SetSfxVolume(System.Single)
+  fullName: StormHawks.Runtime.Services.Audios.IAudioService.SetSfxVolume(System.Single)
+  nameWithType: IAudioService.SetSfxVolume(Single)
+- uid: StormHawks.Runtime.Services.Audios.IAudioService.SetSfxVolume*
+  name: SetSfxVolume
+  href: api/StormHawks.Runtime.Services.Audios.IAudioService.html#StormHawks_Runtime_Services_Audios_IAudioService_SetSfxVolume_
+  commentId: Overload:StormHawks.Runtime.Services.Audios.IAudioService.SetSfxVolume
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Services.Audios.IAudioService.SetSfxVolume
+  nameWithType: IAudioService.SetSfxVolume
+- uid: StormHawks.Runtime.Services.Audios.IAudioService.SetVoiceVolume(System.Single)
+  name: SetVoiceVolume(Single)
+  href: api/StormHawks.Runtime.Services.Audios.IAudioService.html#StormHawks_Runtime_Services_Audios_IAudioService_SetVoiceVolume_System_Single_
+  commentId: M:StormHawks.Runtime.Services.Audios.IAudioService.SetVoiceVolume(System.Single)
+  fullName: StormHawks.Runtime.Services.Audios.IAudioService.SetVoiceVolume(System.Single)
+  nameWithType: IAudioService.SetVoiceVolume(Single)
+- uid: StormHawks.Runtime.Services.Audios.IAudioService.SetVoiceVolume*
+  name: SetVoiceVolume
+  href: api/StormHawks.Runtime.Services.Audios.IAudioService.html#StormHawks_Runtime_Services_Audios_IAudioService_SetVoiceVolume_
+  commentId: Overload:StormHawks.Runtime.Services.Audios.IAudioService.SetVoiceVolume
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Services.Audios.IAudioService.SetVoiceVolume
+  nameWithType: IAudioService.SetVoiceVolume
+- uid: StormHawks.Runtime.Services.Audios.IAudioService.SfxBusPath
+  name: SfxBusPath
+  href: api/StormHawks.Runtime.Services.Audios.IAudioService.html#StormHawks_Runtime_Services_Audios_IAudioService_SfxBusPath
+  commentId: P:StormHawks.Runtime.Services.Audios.IAudioService.SfxBusPath
+  fullName: StormHawks.Runtime.Services.Audios.IAudioService.SfxBusPath
+  nameWithType: IAudioService.SfxBusPath
+- uid: StormHawks.Runtime.Services.Audios.IAudioService.SfxBusPath*
+  name: SfxBusPath
+  href: api/StormHawks.Runtime.Services.Audios.IAudioService.html#StormHawks_Runtime_Services_Audios_IAudioService_SfxBusPath_
+  commentId: Overload:StormHawks.Runtime.Services.Audios.IAudioService.SfxBusPath
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Services.Audios.IAudioService.SfxBusPath
+  nameWithType: IAudioService.SfxBusPath
+- uid: StormHawks.Runtime.Services.Audios.IAudioService.VoiceBusPath
+  name: VoiceBusPath
+  href: api/StormHawks.Runtime.Services.Audios.IAudioService.html#StormHawks_Runtime_Services_Audios_IAudioService_VoiceBusPath
+  commentId: P:StormHawks.Runtime.Services.Audios.IAudioService.VoiceBusPath
+  fullName: StormHawks.Runtime.Services.Audios.IAudioService.VoiceBusPath
+  nameWithType: IAudioService.VoiceBusPath
+- uid: StormHawks.Runtime.Services.Audios.IAudioService.VoiceBusPath*
+  name: VoiceBusPath
+  href: api/StormHawks.Runtime.Services.Audios.IAudioService.html#StormHawks_Runtime_Services_Audios_IAudioService_VoiceBusPath_
+  commentId: Overload:StormHawks.Runtime.Services.Audios.IAudioService.VoiceBusPath
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Services.Audios.IAudioService.VoiceBusPath
+  nameWithType: IAudioService.VoiceBusPath
 - uid: StormHawks.Runtime.Services.Audios.SFXs
   name: StormHawks.Runtime.Services.Audios.SFXs
   href: api/StormHawks.Runtime.Services.Audios.SFXs.html

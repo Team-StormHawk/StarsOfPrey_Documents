@@ -88,10 +88,9 @@
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;TKey, TValue&gt;</div>
-    <div class="level2"><a class="xref" href="StormHawks.Runtime.Utilities.Types.Dictionaries.UnitySerializedDictionary-2.html">UnitySerializedDictionary</a>&lt;TKey, TValue&gt;</div>
-    <div class="level3"><span class="xref">EnumDictionary&lt;TKey, TValue&gt;</span></div>
-      <div class="level4"><a class="xref" href="StormHawks.Runtime.Utilities.Types.Dictionaries.InitEnumDictionary-2.html">InitEnumDictionary&lt;TKey, TValue&gt;</a></div>
+    <div class="level1"><a class="xref" href="StormHawks.Runtime.Utilities.Types.Dictionaries.UnitySerializedDictionary-2.html">UnitySerializedDictionary</a>&lt;TKey, TValue&gt;</div>
+    <div class="level2"><span class="xref">EnumDictionary&lt;TKey, TValue&gt;</span></div>
+      <div class="level3"><a class="xref" href="StormHawks.Runtime.Utilities.Types.Dictionaries.InitEnumDictionary-2.html">InitEnumDictionary&lt;TKey, TValue&gt;</a></div>
   </div>
   <div class="implements">
     <h5>Implements</h5>
@@ -110,8 +109,7 @@
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="StormHawks_Runtime_Utilities_Types_Dictionaries_EnumDictionary_2_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Serializable]
-public class EnumDictionary&lt;TKey, TValue&gt; : UnitySerializedDictionary&lt;TKey, TValue&gt;, IDictionary&lt;TKey, TValue&gt;, ICollection&lt;KeyValuePair&lt;TKey, TValue&gt;&gt;, IDictionary, ICollection, IReadOnlyDictionary&lt;TKey, TValue&gt;, IReadOnlyCollection&lt;KeyValuePair&lt;TKey, TValue&gt;&gt;, IEnumerable&lt;KeyValuePair&lt;TKey, TValue&gt;&gt;, IEnumerable, ISerializable, IDeserializationCallback where TKey : Enum where TValue : class, new()</code></pre>
+    <pre><code class="lang-csharp hljs">public class EnumDictionary&lt;TKey, TValue&gt; : UnitySerializedDictionary&lt;TKey, TValue&gt; where TKey : Enum where TValue : class, new()</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

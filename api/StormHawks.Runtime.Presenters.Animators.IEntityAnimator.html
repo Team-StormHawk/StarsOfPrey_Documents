@@ -95,6 +95,48 @@
   </h3>
   
   
+  <a id="StormHawks_Runtime_Presenters_Animators_IEntityAnimator_GetDuration_" data-uid="StormHawks.Runtime.Presenters.Animators.IEntityAnimator.GetDuration*"></a>
+  <h4 id="StormHawks_Runtime_Presenters_Animators_IEntityAnimator_GetDuration_System_String_" data-uid="StormHawks.Runtime.Presenters.Animators.IEntityAnimator.GetDuration(System.String)">GetDuration(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">float GetDuration(string animationName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">animationName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="StormHawks_Runtime_Presenters_Animators_IEntityAnimator_IsAnyPlaying_" data-uid="StormHawks.Runtime.Presenters.Animators.IEntityAnimator.IsAnyPlaying*"></a>
   <h4 id="StormHawks_Runtime_Presenters_Animators_IEntityAnimator_IsAnyPlaying" data-uid="StormHawks.Runtime.Presenters.Animators.IEntityAnimator.IsAnyPlaying">IsAnyPlaying()</h4>
   <div class="markdown level1 summary"></div>
@@ -163,12 +205,12 @@
   
   
   <a id="StormHawks_Runtime_Presenters_Animators_IEntityAnimator_PlayAnimation_" data-uid="StormHawks.Runtime.Presenters.Animators.IEntityAnimator.PlayAnimation*"></a>
-  <h4 id="StormHawks_Runtime_Presenters_Animators_IEntityAnimator_PlayAnimation_System_String_System_Action_" data-uid="StormHawks.Runtime.Presenters.Animators.IEntityAnimator.PlayAnimation(System.String,System.Action)">PlayAnimation(String, Action)</h4>
+  <h4 id="StormHawks_Runtime_Presenters_Animators_IEntityAnimator_PlayAnimation_System_String_Action_" data-uid="StormHawks.Runtime.Presenters.Animators.IEntityAnimator.PlayAnimation(System.String,Action)">PlayAnimation(String, Action)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void PlayAnimation(string animationName, Action onComplete)</code></pre>
+    <pre><code class="lang-csharp hljs">void PlayAnimation(string animationName, Action onComplete = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -186,7 +228,7 @@
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></td>
+        <td><span class="xref">Action</span></td>
         <td><span class="parametername">onComplete</span></td>
         <td></td>
       </tr>

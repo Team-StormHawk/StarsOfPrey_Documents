@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class LookerModel
+    <title>Class FacilitiesModel
    | Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class LookerModel
+    <meta name="title" content="Class FacilitiesModel
    | Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -78,54 +78,36 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Models.Entities.LookerModel">
+            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Models.Facilities.FacilitiesModel">
   
   
-  <h1 id="StormHawks_Runtime_Models_Entities_LookerModel" data-uid="StormHawks.Runtime.Models.Entities.LookerModel" class="text-break">Class LookerModel
+  <h1 id="StormHawks_Runtime_Models_Facilities_FacilitiesModel" data-uid="StormHawks.Runtime.Models.Facilities.FacilitiesModel" class="text-break">Class FacilitiesModel
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><a class="xref" href="StormHawks.Runtime.Models.Entities.SteeringEnemyModel.html">SteeringEnemyModel</a></div>
-    <div class="level2"><span class="xref">LookerModel</span></div>
+    <div class="level1"><span class="xref">FacilitiesModel</span></div>
+      <div class="level2"><a class="xref" href="StormHawks.Runtime.Models.Facilities.PowerPlantModel.html">PowerPlantModel</a></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <a class="xref" href="StormHawks.Runtime.Models.Entities.SteeringEnemyModel.html#StormHawks_Runtime_Models_Entities_SteeringEnemyModel_IsDead">SteeringEnemyModel.IsDead</a>
-    </div>
-    <div>
-      <a class="xref" href="StormHawks.Runtime.Models.Entities.SteeringEnemyModel.html#StormHawks_Runtime_Models_Entities_SteeringEnemyModel_IsAggressive">SteeringEnemyModel.IsAggressive</a>
-    </div>
-    <div>
-      <a class="xref" href="StormHawks.Runtime.Models.Entities.SteeringEnemyModel.html#StormHawks_Runtime_Models_Entities_SteeringEnemyModel_TakeDamage_System_Single_">SteeringEnemyModel.TakeDamage(Single)</a>
-    </div>
-    <div>
-      <a class="xref" href="StormHawks.Runtime.Models.Entities.SteeringEnemyModel.html#StormHawks_Runtime_Models_Entities_SteeringEnemyModel_SetAggroTarget_AggroTarget_">SteeringEnemyModel.SetAggroTarget(AggroTarget)</a>
-    </div>
-    <div>
-      <a class="xref" href="StormHawks.Runtime.Models.Entities.SteeringEnemyModel.html#StormHawks_Runtime_Models_Entities_SteeringEnemyModel_ReleaseAggroTarget">SteeringEnemyModel.ReleaseAggroTarget()</a>
-    </div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Models.Entities.html">StormHawks.Runtime.Models.Entities</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Models.Facilities.html">StormHawks.Runtime.Models.Facilities</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="StormHawks_Runtime_Models_Entities_LookerModel_syntax">Syntax</h5>
+  <h5 id="StormHawks_Runtime_Models_Facilities_FacilitiesModel_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class LookerModel : SteeringEnemyModel</code></pre>
+    <pre><code class="lang-csharp hljs">public class FacilitiesModel</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   
   
-  <a id="StormHawks_Runtime_Models_Entities_LookerModel__ctor_" data-uid="StormHawks.Runtime.Models.Entities.LookerModel.#ctor*"></a>
-  <h4 id="StormHawks_Runtime_Models_Entities_LookerModel__ctor_SteeringEntityContext_EntityHealthSO_" data-uid="StormHawks.Runtime.Models.Entities.LookerModel.#ctor(SteeringEntityContext,EntityHealthSO)">LookerModel(SteeringEntityContext, EntityHealthSO)</h4>
+  <a id="StormHawks_Runtime_Models_Facilities_FacilitiesModel__ctor_" data-uid="StormHawks.Runtime.Models.Facilities.FacilitiesModel.#ctor*"></a>
+  <h4 id="StormHawks_Runtime_Models_Facilities_FacilitiesModel__ctor_EntityHealthSO_" data-uid="StormHawks.Runtime.Models.Facilities.FacilitiesModel.#ctor(EntityHealthSO)">FacilitiesModel(EntityHealthSO)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public LookerModel(SteeringEntityContext context, EntityHealthSO entityHealth)</code></pre>
+    <pre><code class="lang-csharp hljs">public FacilitiesModel(EntityHealthSO health)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -138,13 +120,64 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">SteeringEntityContext</span></td>
-        <td><span class="parametername">context</span></td>
+        <td><span class="xref">EntityHealthSO</span></td>
+        <td><span class="parametername">health</span></td>
         <td></td>
       </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="StormHawks_Runtime_Models_Facilities_FacilitiesModel_IsDestroyed_" data-uid="StormHawks.Runtime.Models.Facilities.FacilitiesModel.IsDestroyed*"></a>
+  <h4 id="StormHawks_Runtime_Models_Facilities_FacilitiesModel_IsDestroyed" data-uid="StormHawks.Runtime.Models.Facilities.FacilitiesModel.IsDestroyed">IsDestroyed</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IReadOnlyReactiveProperty&lt;bool&gt; IsDestroyed { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
       <tr>
-        <td><span class="xref">EntityHealthSO</span></td>
-        <td><span class="parametername">entityHealth</span></td>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IReadOnlyReactiveProperty</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="StormHawks_Runtime_Models_Facilities_FacilitiesModel_TakeDamage_" data-uid="StormHawks.Runtime.Models.Facilities.FacilitiesModel.TakeDamage*"></a>
+  <h4 id="StormHawks_Runtime_Models_Facilities_FacilitiesModel_TakeDamage_System_Single_" data-uid="StormHawks.Runtime.Models.Facilities.FacilitiesModel.TakeDamage(System.Single)">TakeDamage(Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void TakeDamage(float damage)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">damage</span></td>
         <td></td>
       </tr>
     </tbody>

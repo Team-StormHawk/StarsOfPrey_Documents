@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class SteeringEnemyModel
+    <title>Class FacilitiesPresenter&lt;T&gt;
    | Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class SteeringEnemyModel
+    <meta name="title" content="Class FacilitiesPresenter&lt;T&gt;
    | Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -78,55 +78,67 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Models.Entities.SteeringEnemyModel">
+            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Presenters.Facilities.FacilitiesPresenter`1">
   
   
-  <h1 id="StormHawks_Runtime_Models_Entities_SteeringEnemyModel" data-uid="StormHawks.Runtime.Models.Entities.SteeringEnemyModel" class="text-break">Class SteeringEnemyModel
+  <h1 id="StormHawks_Runtime_Presenters_Facilities_FacilitiesPresenter_1" data-uid="StormHawks.Runtime.Presenters.Facilities.FacilitiesPresenter`1" class="text-break">Class FacilitiesPresenter&lt;T&gt;
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">SteeringEnemyModel</span></div>
-      <div class="level2"><a class="xref" href="StormHawks.Runtime.Models.Entities.LookerModel.html">LookerModel</a></div>
+    <div class="level1"><span class="xref">FacilitiesPresenter&lt;T&gt;</span></div>
+      <div class="level2"><a class="xref" href="StormHawks.Runtime.Presenters.Facilities.PowerPlantPresenter.html">PowerPlantPresenter</a></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Models.Entities.html">StormHawks.Runtime.Models.Entities</a></h6>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">IHasHealthRx</span></div>
+    <div><span class="xref">IAggressiveTargetable</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Presenters.Facilities.html">StormHawks.Runtime.Presenters.Facilities</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="StormHawks_Runtime_Models_Entities_SteeringEnemyModel_syntax">Syntax</h5>
+  <h5 id="StormHawks_Runtime_Presenters_Facilities_FacilitiesPresenter_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class SteeringEnemyModel : SteeringEntityModel</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class FacilitiesPresenter&lt;T&gt; : MonoBehaviour, IAggressiveTargetable where T : FacilitiesModel</code></pre>
   </div>
-  <h3 id="constructors">Constructors
-  </h3>
-  
-  
-  <a id="StormHawks_Runtime_Models_Entities_SteeringEnemyModel__ctor_" data-uid="StormHawks.Runtime.Models.Entities.SteeringEnemyModel.#ctor*"></a>
-  <h4 id="StormHawks_Runtime_Models_Entities_SteeringEnemyModel__ctor_SteeringEntityContext_EntityHealthSO_" data-uid="StormHawks.Runtime.Models.Entities.SteeringEnemyModel.#ctor(SteeringEntityContext,EntityHealthSO)">SteeringEnemyModel(SteeringEntityContext, EntityHealthSO)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SteeringEnemyModel(SteeringEntityContext context, EntityHealthSO entityHealth)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
         <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">SteeringEntityContext</span></td>
-        <td><span class="parametername">context</span></td>
+        <td><span class="parametername">T</span></td>
         <td></td>
       </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="StormHawks_Runtime_Presenters_Facilities_FacilitiesPresenter_1__model" data-uid="StormHawks.Runtime.Presenters.Facilities.FacilitiesPresenter`1._model">_model</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected T _model</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
       <tr>
-        <td><span class="xref">EntityHealthSO</span></td>
-        <td><span class="parametername">entityHealth</span></td>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -135,13 +147,13 @@
   </h3>
   
   
-  <a id="StormHawks_Runtime_Models_Entities_SteeringEnemyModel_IsAggressive_" data-uid="StormHawks.Runtime.Models.Entities.SteeringEnemyModel.IsAggressive*"></a>
-  <h4 id="StormHawks_Runtime_Models_Entities_SteeringEnemyModel_IsAggressive" data-uid="StormHawks.Runtime.Models.Entities.SteeringEnemyModel.IsAggressive">IsAggressive</h4>
+  <a id="StormHawks_Runtime_Presenters_Facilities_FacilitiesPresenter_1_OnDamaged_" data-uid="StormHawks.Runtime.Presenters.Facilities.FacilitiesPresenter`1.OnDamaged*"></a>
+  <h4 id="StormHawks_Runtime_Presenters_Facilities_FacilitiesPresenter_1_OnDamaged" data-uid="StormHawks.Runtime.Presenters.Facilities.FacilitiesPresenter`1.OnDamaged">OnDamaged</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IReadOnlyReactiveProperty&lt;bool&gt; IsAggressive { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public IObservable&lt;Damage&gt; OnDamaged { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -153,32 +165,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IReadOnlyReactiveProperty</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="StormHawks_Runtime_Models_Entities_SteeringEnemyModel_IsDead_" data-uid="StormHawks.Runtime.Models.Entities.SteeringEnemyModel.IsDead*"></a>
-  <h4 id="StormHawks_Runtime_Models_Entities_SteeringEnemyModel_IsDead" data-uid="StormHawks.Runtime.Models.Entities.SteeringEnemyModel.IsDead">IsDead</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IReadOnlyReactiveProperty&lt;bool&gt; IsDead { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">IReadOnlyReactiveProperty</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a>&gt;</td>
+        <td><span class="xref">IObservable</span>&lt;<span class="xref">Damage</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -187,50 +174,88 @@
   </h3>
   
   
-  <a id="StormHawks_Runtime_Models_Entities_SteeringEnemyModel_ReleaseAggroTarget_" data-uid="StormHawks.Runtime.Models.Entities.SteeringEnemyModel.ReleaseAggroTarget*"></a>
-  <h4 id="StormHawks_Runtime_Models_Entities_SteeringEnemyModel_ReleaseAggroTarget" data-uid="StormHawks.Runtime.Models.Entities.SteeringEnemyModel.ReleaseAggroTarget">ReleaseAggroTarget()</h4>
+  <a id="StormHawks_Runtime_Presenters_Facilities_FacilitiesPresenter_1_Awake_" data-uid="StormHawks.Runtime.Presenters.Facilities.FacilitiesPresenter`1.Awake*"></a>
+  <h4 id="StormHawks_Runtime_Presenters_Facilities_FacilitiesPresenter_1_Awake" data-uid="StormHawks.Runtime.Presenters.Facilities.FacilitiesPresenter`1.Awake">Awake()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void ReleaseAggroTarget()</code></pre>
+    <pre><code class="lang-csharp hljs">protected abstract void Awake()</code></pre>
   </div>
   
   
-  <a id="StormHawks_Runtime_Models_Entities_SteeringEnemyModel_SetAggroTarget_" data-uid="StormHawks.Runtime.Models.Entities.SteeringEnemyModel.SetAggroTarget*"></a>
-  <h4 id="StormHawks_Runtime_Models_Entities_SteeringEnemyModel_SetAggroTarget_AggroTarget_" data-uid="StormHawks.Runtime.Models.Entities.SteeringEnemyModel.SetAggroTarget(AggroTarget)">SetAggroTarget(AggroTarget)</h4>
+  <a id="StormHawks_Runtime_Presenters_Facilities_FacilitiesPresenter_1_EnterPhase_" data-uid="StormHawks.Runtime.Presenters.Facilities.FacilitiesPresenter`1.EnterPhase*"></a>
+  <h4 id="StormHawks_Runtime_Presenters_Facilities_FacilitiesPresenter_1_EnterPhase" data-uid="StormHawks.Runtime.Presenters.Facilities.FacilitiesPresenter`1.EnterPhase">EnterPhase()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetAggroTarget(AggroTarget value)</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract void EnterPhase()</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
+  
+  
+  <a id="StormHawks_Runtime_Presenters_Facilities_FacilitiesPresenter_1_ExitPhase_" data-uid="StormHawks.Runtime.Presenters.Facilities.FacilitiesPresenter`1.ExitPhase*"></a>
+  <h4 id="StormHawks_Runtime_Presenters_Facilities_FacilitiesPresenter_1_ExitPhase" data-uid="StormHawks.Runtime.Presenters.Facilities.FacilitiesPresenter`1.ExitPhase">ExitPhase()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void ExitPhase()</code></pre>
+  </div>
+  
+  
+  <a id="StormHawks_Runtime_Presenters_Facilities_FacilitiesPresenter_1_GetTarget_" data-uid="StormHawks.Runtime.Presenters.Facilities.FacilitiesPresenter`1.GetTarget*"></a>
+  <h4 id="StormHawks_Runtime_Presenters_Facilities_FacilitiesPresenter_1_GetTarget" data-uid="StormHawks.Runtime.Presenters.Facilities.FacilitiesPresenter`1.GetTarget">GetTarget()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AggroTarget GetTarget()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><span class="xref">AggroTarget</span></td>
-        <td><span class="parametername">value</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="StormHawks_Runtime_Models_Entities_SteeringEnemyModel_TakeDamage_" data-uid="StormHawks.Runtime.Models.Entities.SteeringEnemyModel.TakeDamage*"></a>
-  <h4 id="StormHawks_Runtime_Models_Entities_SteeringEnemyModel_TakeDamage_System_Single_" data-uid="StormHawks.Runtime.Models.Entities.SteeringEnemyModel.TakeDamage(System.Single)">TakeDamage(Single)</h4>
+  <a id="StormHawks_Runtime_Presenters_Facilities_FacilitiesPresenter_1_OnDestroyed_" data-uid="StormHawks.Runtime.Presenters.Facilities.FacilitiesPresenter`1.OnDestroyed*"></a>
+  <h4 id="StormHawks_Runtime_Presenters_Facilities_FacilitiesPresenter_1_OnDestroyed" data-uid="StormHawks.Runtime.Presenters.Facilities.FacilitiesPresenter`1.OnDestroyed">OnDestroyed()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void TakeDamage(float damage)</code></pre>
+    <pre><code class="lang-csharp hljs">public void OnDestroyed()</code></pre>
+  </div>
+  
+  
+  <a id="StormHawks_Runtime_Presenters_Facilities_FacilitiesPresenter_1_Start_" data-uid="StormHawks.Runtime.Presenters.Facilities.FacilitiesPresenter`1.Start*"></a>
+  <h4 id="StormHawks_Runtime_Presenters_Facilities_FacilitiesPresenter_1_Start" data-uid="StormHawks.Runtime.Presenters.Facilities.FacilitiesPresenter`1.Start">Start()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void Start()</code></pre>
+  </div>
+  
+  
+  <a id="StormHawks_Runtime_Presenters_Facilities_FacilitiesPresenter_1_TakeDamage_" data-uid="StormHawks.Runtime.Presenters.Facilities.FacilitiesPresenter`1.TakeDamage*"></a>
+  <h4 id="StormHawks_Runtime_Presenters_Facilities_FacilitiesPresenter_1_TakeDamage_Damage_" data-uid="StormHawks.Runtime.Presenters.Facilities.FacilitiesPresenter`1.TakeDamage(Damage)">TakeDamage(Damage)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void TakeDamage(Damage damage)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -243,12 +268,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="xref">Damage</span></td>
         <td><span class="parametername">damage</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">IHasHealthRx</span>
+  </div>
+  <div>
+      <span class="xref">IAggressiveTargetable</span>
+  </div>
 </article>
           </div>
           

@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class ProjectileWeaponPresenter&lt;T&gt;
+    <title>Class ProjectileWeapon
    | Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class ProjectileWeaponPresenter&lt;T&gt;
+    <meta name="title" content="Class ProjectileWeapon
    | Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -78,59 +78,59 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter`1">
+            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon">
   
   
-  <h1 id="StormHawks_Runtime_Presenters_Weapons_ProjectileWeaponPresenter_1" data-uid="StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter`1" class="text-break">Class ProjectileWeaponPresenter&lt;T&gt;
+  <h1 id="StormHawks_Runtime_Presenters_Weapons_ProjectileWeapon" data-uid="StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon" class="text-break">Class ProjectileWeapon
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><a class="xref" href="StormHawks.Runtime.Presenters.Weapons.EntityWeaponPresenter.html">EntityWeaponPresenter</a></div>
-    <div class="level2"><span class="xref">ProjectileWeaponPresenter&lt;T&gt;</span></div>
-      <div class="level3"><a class="xref" href="StormHawks.Runtime.Presenters.Weapons.Boss.BossMissileWeaponPresenter.html">BossMissileWeaponPresenter</a></div>
+    <div class="level1"><span class="xref">ProjectileWeapon</span></div>
+      <div class="level2"><a class="xref" href="StormHawks.Runtime.Presenters.Weapons.Boss.BossMissileWeapon.html">BossMissileWeapon</a></div>
+      <div class="level2"><a class="xref" href="StormHawks.Runtime.Presenters.Weapons.Boss.BossRailgunWeapon.html">BossRailgunWeapon</a></div>
   </div>
   <div class="implements">
     <h5>Implements</h5>
     <div><span class="xref">IEntityWeapon</span></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <a class="xref" href="StormHawks.Runtime.Presenters.Weapons.EntityWeaponPresenter.html#StormHawks_Runtime_Presenters_Weapons_EntityWeaponPresenter_Start">EntityWeaponPresenter.Start()</a>
-    </div>
-    <div>
-      <a class="xref" href="StormHawks.Runtime.Presenters.Weapons.EntityWeaponPresenter.html#StormHawks_Runtime_Presenters_Weapons_EntityWeaponPresenter_IsFiring">EntityWeaponPresenter.IsFiring</a>
-    </div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Presenters.Weapons.html">StormHawks.Runtime.Presenters.Weapons</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="StormHawks_Runtime_Presenters_Weapons_ProjectileWeaponPresenter_1_syntax">Syntax</h5>
+  <h5 id="StormHawks_Runtime_Presenters_Weapons_ProjectileWeapon_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class ProjectileWeaponPresenter&lt;T&gt; : EntityWeaponPresenter, IEntityWeapon where T : ProjectileWeaponModel</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class ProjectileWeapon : MonoBehaviour, IEntityWeapon</code></pre>
   </div>
-  <h5 class="typeParameters">Type Parameters</h5>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="StormHawks_Runtime_Presenters_Weapons_ProjectileWeapon__audioService" data-uid="StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon._audioService">_audioService</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected IAudioService _audioService</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
-        <th>Name</th>
+        <th>Type</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">T</span></td>
+        <td><span class="xref">IAudioService</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h3 id="fields">Fields
-  </h3>
   
   
-  <h4 id="StormHawks_Runtime_Presenters_Weapons_ProjectileWeaponPresenter_1__fire" data-uid="StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter`1._fire">_fire</h4>
+  <h4 id="StormHawks_Runtime_Presenters_Weapons_ProjectileWeapon__fire" data-uid="StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon._fire">_fire</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -154,7 +154,7 @@
   </table>
   
   
-  <h4 id="StormHawks_Runtime_Presenters_Weapons_ProjectileWeaponPresenter_1__launchSFX" data-uid="StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter`1._launchSFX">_launchSFX</h4>
+  <h4 id="StormHawks_Runtime_Presenters_Weapons_ProjectileWeapon__launchSFX" data-uid="StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon._launchSFX">_launchSFX</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -178,31 +178,7 @@
   </table>
   
   
-  <h4 id="StormHawks_Runtime_Presenters_Weapons_ProjectileWeaponPresenter_1__model" data-uid="StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter`1._model">_model</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected T _model</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="StormHawks_Runtime_Presenters_Weapons_ProjectileWeaponPresenter_1__projectileSpawner" data-uid="StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter`1._projectileSpawner">_projectileSpawner</h4>
+  <h4 id="StormHawks_Runtime_Presenters_Weapons_ProjectileWeapon__projectileSpawner" data-uid="StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon._projectileSpawner">_projectileSpawner</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -228,8 +204,33 @@
   </h3>
   
   
-  <a id="StormHawks_Runtime_Presenters_Weapons_ProjectileWeaponPresenter_1_Position_" data-uid="StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter`1.Position*"></a>
-  <h4 id="StormHawks_Runtime_Presenters_Weapons_ProjectileWeaponPresenter_1_Position" data-uid="StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter`1.Position">Position</h4>
+  <a id="StormHawks_Runtime_Presenters_Weapons_ProjectileWeapon_IsFiring_" data-uid="StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.IsFiring*"></a>
+  <h4 id="StormHawks_Runtime_Presenters_Weapons_ProjectileWeapon_IsFiring" data-uid="StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.IsFiring">IsFiring</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsFiring { get; protected set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StormHawks_Runtime_Presenters_Weapons_ProjectileWeapon_Position_" data-uid="StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.Position*"></a>
+  <h4 id="StormHawks_Runtime_Presenters_Weapons_ProjectileWeapon_Position" data-uid="StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.Position">Position</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -253,8 +254,8 @@
   </table>
   
   
-  <a id="StormHawks_Runtime_Presenters_Weapons_ProjectileWeaponPresenter_1_Rotation_" data-uid="StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter`1.Rotation*"></a>
-  <h4 id="StormHawks_Runtime_Presenters_Weapons_ProjectileWeaponPresenter_1_Rotation" data-uid="StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter`1.Rotation">Rotation</h4>
+  <a id="StormHawks_Runtime_Presenters_Weapons_ProjectileWeapon_Rotation_" data-uid="StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.Rotation*"></a>
+  <h4 id="StormHawks_Runtime_Presenters_Weapons_ProjectileWeapon_Rotation" data-uid="StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.Rotation">Rotation</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -280,25 +281,48 @@
   </h3>
   
   
-  <a id="StormHawks_Runtime_Presenters_Weapons_ProjectileWeaponPresenter_1_Cancel_" data-uid="StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter`1.Cancel*"></a>
-  <h4 id="StormHawks_Runtime_Presenters_Weapons_ProjectileWeaponPresenter_1_Cancel" data-uid="StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter`1.Cancel">Cancel()</h4>
+  <a id="StormHawks_Runtime_Presenters_Weapons_ProjectileWeapon_Cancel_" data-uid="StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.Cancel*"></a>
+  <h4 id="StormHawks_Runtime_Presenters_Weapons_ProjectileWeapon_Cancel" data-uid="StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.Cancel">Cancel()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void Cancel()</code></pre>
+    <pre><code class="lang-csharp hljs">public void Cancel()</code></pre>
   </div>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="StormHawks.Runtime.Presenters.Weapons.EntityWeaponPresenter.html#StormHawks_Runtime_Presenters_Weapons_EntityWeaponPresenter_Cancel">EntityWeaponPresenter.Cancel()</a></div>
   
   
-  <a id="StormHawks_Runtime_Presenters_Weapons_ProjectileWeaponPresenter_1_Construct_" data-uid="StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter`1.Construct*"></a>
-  <h4 id="StormHawks_Runtime_Presenters_Weapons_ProjectileWeaponPresenter_1_Construct_ProjectileSpanwer_" data-uid="StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter`1.Construct(ProjectileSpanwer)">Construct(ProjectileSpanwer)</h4>
+  <a id="StormHawks_Runtime_Presenters_Weapons_ProjectileWeapon_CanLaunch_" data-uid="StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.CanLaunch*"></a>
+  <h4 id="StormHawks_Runtime_Presenters_Weapons_ProjectileWeapon_CanLaunch" data-uid="StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.CanLaunch">CanLaunch()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Construct(ProjectileSpanwer projectileSpawner)</code></pre>
+    <pre><code class="lang-csharp hljs">protected virtual bool CanLaunch()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StormHawks_Runtime_Presenters_Weapons_ProjectileWeapon_Construct_" data-uid="StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.Construct*"></a>
+  <h4 id="StormHawks_Runtime_Presenters_Weapons_ProjectileWeapon_Construct_ProjectileSpanwer_IAudioService_" data-uid="StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.Construct(ProjectileSpanwer,IAudioService)">Construct(ProjectileSpanwer, IAudioService)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Construct(ProjectileSpanwer projectileSpawner, IAudioService audioService)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -315,24 +339,27 @@
         <td><span class="parametername">projectileSpawner</span></td>
         <td></td>
       </tr>
+      <tr>
+        <td><span class="xref">IAudioService</span></td>
+        <td><span class="parametername">audioService</span></td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   
   
-  <a id="StormHawks_Runtime_Presenters_Weapons_ProjectileWeaponPresenter_1_Launch_" data-uid="StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter`1.Launch*"></a>
-  <h4 id="StormHawks_Runtime_Presenters_Weapons_ProjectileWeaponPresenter_1_Launch" data-uid="StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter`1.Launch">Launch()</h4>
+  <a id="StormHawks_Runtime_Presenters_Weapons_ProjectileWeapon_Launch_" data-uid="StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.Launch*"></a>
+  <h4 id="StormHawks_Runtime_Presenters_Weapons_ProjectileWeapon_Launch" data-uid="StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.Launch">Launch()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void Launch()</code></pre>
+    <pre><code class="lang-csharp hljs">public void Launch()</code></pre>
   </div>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="StormHawks.Runtime.Presenters.Weapons.EntityWeaponPresenter.html#StormHawks_Runtime_Presenters_Weapons_EntityWeaponPresenter_Launch">EntityWeaponPresenter.Launch()</a></div>
   
   
-  <a id="StormHawks_Runtime_Presenters_Weapons_ProjectileWeaponPresenter_1_OnLaunchCompleted_" data-uid="StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter`1.OnLaunchCompleted*"></a>
-  <h4 id="StormHawks_Runtime_Presenters_Weapons_ProjectileWeaponPresenter_1_OnLaunchCompleted" data-uid="StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter`1.OnLaunchCompleted">OnLaunchCompleted()</h4>
+  <a id="StormHawks_Runtime_Presenters_Weapons_ProjectileWeapon_OnLaunchCompleted_" data-uid="StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.OnLaunchCompleted*"></a>
+  <h4 id="StormHawks_Runtime_Presenters_Weapons_ProjectileWeapon_OnLaunchCompleted" data-uid="StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.OnLaunchCompleted">OnLaunchCompleted()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>

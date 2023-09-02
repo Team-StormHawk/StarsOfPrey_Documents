@@ -96,12 +96,12 @@
   
   
   <a id="StormHawks_Runtime_Presenters_Fires_IProjectileFire_FireTask_" data-uid="StormHawks.Runtime.Presenters.Fires.IProjectileFire.FireTask*"></a>
-  <h4 id="StormHawks_Runtime_Presenters_Fires_IProjectileFire_FireTask_Action_CancellationToken_" data-uid="StormHawks.Runtime.Presenters.Fires.IProjectileFire.FireTask(Action,CancellationToken)">FireTask(Action, CancellationToken)</h4>
+  <h4 id="StormHawks_Runtime_Presenters_Fires_IProjectileFire_FireTask_CancellationToken_" data-uid="StormHawks.Runtime.Presenters.Fires.IProjectileFire.FireTask(CancellationToken)">FireTask(CancellationToken)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">UniTaskVoid FireTask(Action onCompleted, CancellationToken cancellation)</code></pre>
+    <pre><code class="lang-csharp hljs">UniTaskVoid FireTask(CancellationToken cancellation)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -113,11 +113,6 @@
       </tr>
     </thead>
     <tbody>
-      <tr>
-        <td><span class="xref">Action</span></td>
-        <td><span class="parametername">onCompleted</span></td>
-        <td></td>
-      </tr>
       <tr>
         <td><span class="xref">CancellationToken</span></td>
         <td><span class="parametername">cancellation</span></td>
@@ -136,6 +131,80 @@
     <tbody>
       <tr>
         <td><span class="xref">UniTaskVoid</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="events">Events
+  </h3>
+  
+  
+  <h4 id="StormHawks_Runtime_Presenters_Fires_IProjectileFire_OnBeforeFire" data-uid="StormHawks.Runtime.Presenters.Fires.IProjectileFire.OnBeforeFire">OnBeforeFire</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event Action OnBeforeFire</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Action</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="StormHawks_Runtime_Presenters_Fires_IProjectileFire_OnComplete" data-uid="StormHawks.Runtime.Presenters.Fires.IProjectileFire.OnComplete">OnComplete</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event Action OnComplete</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Action</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="StormHawks_Runtime_Presenters_Fires_IProjectileFire_OnFire" data-uid="StormHawks.Runtime.Presenters.Fires.IProjectileFire.OnFire">OnFire</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event Action OnFire</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Action</span></td>
         <td></td>
       </tr>
     </tbody>

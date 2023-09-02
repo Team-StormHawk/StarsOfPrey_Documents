@@ -95,7 +95,6 @@
   <div class="implements">
     <h5>Implements</h5>
     <div><span class="xref">IHasHealthRx</span></div>
-    <div><span class="xref">IAggressiveRx</span></div>
     <div><span class="xref">IReleaseEvent</span></div>
   </div>
   <div class="inheritedMembers">
@@ -123,7 +122,7 @@
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="StormHawks_Runtime_Presenters_Projectiles_BossMissilePresenter_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class BossMissilePresenter : DestructableProjectilePresenter, IAggressiveRx</code></pre>
+    <pre><code class="lang-csharp hljs">public class BossMissilePresenter : DestructableProjectilePresenter</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
@@ -238,12 +237,12 @@
   
   
   <a id="StormHawks_Runtime_Presenters_Projectiles_BossMissilePresenter_SetAggroTarget_" data-uid="StormHawks.Runtime.Presenters.Projectiles.BossMissilePresenter.SetAggroTarget*"></a>
-  <h4 id="StormHawks_Runtime_Presenters_Projectiles_BossMissilePresenter_SetAggroTarget_IAggressiveTargetable_" data-uid="StormHawks.Runtime.Presenters.Projectiles.BossMissilePresenter.SetAggroTarget(IAggressiveTargetable)">SetAggroTarget(IAggressiveTargetable)</h4>
+  <h4 id="StormHawks_Runtime_Presenters_Projectiles_BossMissilePresenter_SetAggroTarget_AggroTarget_" data-uid="StormHawks.Runtime.Presenters.Projectiles.BossMissilePresenter.SetAggroTarget(AggroTarget)">SetAggroTarget(AggroTarget)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetAggroTarget(IAggressiveTargetable target)</code></pre>
+    <pre><code class="lang-csharp hljs">public void SetAggroTarget(AggroTarget target)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -256,7 +255,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IAggressiveTargetable</span></td>
+        <td><span class="xref">AggroTarget</span></td>
         <td><span class="parametername">target</span></td>
         <td></td>
       </tr>
@@ -320,9 +319,6 @@
   <h3 id="implements">Implements</h3>
   <div>
       <span class="xref">IHasHealthRx</span>
-  </div>
-  <div>
-      <span class="xref">IAggressiveRx</span>
   </div>
   <div>
       <span class="xref">IReleaseEvent</span>

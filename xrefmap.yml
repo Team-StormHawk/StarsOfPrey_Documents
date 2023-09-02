@@ -2756,12 +2756,12 @@ references:
   commentId: N:StormHawks.BehaviorTreeNodes
   fullName: StormHawks.BehaviorTreeNodes
   nameWithType: StormHawks.BehaviorTreeNodes
-- uid: StormHawks.BehaviorTreeNodes.EntityWeaponPresenterKey
-  name: EntityWeaponPresenterKey
-  href: api/StormHawks.BehaviorTreeNodes.EntityWeaponPresenterKey.html
-  commentId: T:StormHawks.BehaviorTreeNodes.EntityWeaponPresenterKey
-  fullName: StormHawks.BehaviorTreeNodes.EntityWeaponPresenterKey
-  nameWithType: EntityWeaponPresenterKey
+- uid: StormHawks.BehaviorTreeNodes.ProjectileWeaponKey
+  name: ProjectileWeaponKey
+  href: api/StormHawks.BehaviorTreeNodes.ProjectileWeaponKey.html
+  commentId: T:StormHawks.BehaviorTreeNodes.ProjectileWeaponKey
+  fullName: StormHawks.BehaviorTreeNodes.ProjectileWeaponKey
+  nameWithType: ProjectileWeaponKey
 - uid: StormHawks.Editor
   name: StormHawks.Editor
   href: api/StormHawks.Editor.html
@@ -20913,6 +20913,77 @@ references:
   commentId: N:StormHawks.Runtime.Models.Entities
   fullName: StormHawks.Runtime.Models.Entities
   nameWithType: StormHawks.Runtime.Models.Entities
+- uid: StormHawks.Runtime.Models.Entities.BossModel
+  name: BossModel
+  href: api/StormHawks.Runtime.Models.Entities.BossModel.html
+  commentId: T:StormHawks.Runtime.Models.Entities.BossModel
+  fullName: StormHawks.Runtime.Models.Entities.BossModel
+  nameWithType: BossModel
+- uid: StormHawks.Runtime.Models.Entities.BossModel.#ctor
+  name: BossModel()
+  href: api/StormHawks.Runtime.Models.Entities.BossModel.html#StormHawks_Runtime_Models_Entities_BossModel__ctor
+  commentId: M:StormHawks.Runtime.Models.Entities.BossModel.#ctor
+  fullName: StormHawks.Runtime.Models.Entities.BossModel.BossModel()
+  nameWithType: BossModel.BossModel()
+- uid: StormHawks.Runtime.Models.Entities.BossModel.#ctor*
+  name: BossModel
+  href: api/StormHawks.Runtime.Models.Entities.BossModel.html#StormHawks_Runtime_Models_Entities_BossModel__ctor_
+  commentId: Overload:StormHawks.Runtime.Models.Entities.BossModel.#ctor
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.Entities.BossModel.BossModel
+  nameWithType: BossModel.BossModel
+- uid: StormHawks.Runtime.Models.Entities.BossModel.AggroTarget
+  name: AggroTarget
+  href: api/StormHawks.Runtime.Models.Entities.BossModel.html#StormHawks_Runtime_Models_Entities_BossModel_AggroTarget
+  commentId: P:StormHawks.Runtime.Models.Entities.BossModel.AggroTarget
+  fullName: StormHawks.Runtime.Models.Entities.BossModel.AggroTarget
+  nameWithType: BossModel.AggroTarget
+- uid: StormHawks.Runtime.Models.Entities.BossModel.AggroTarget*
+  name: AggroTarget
+  href: api/StormHawks.Runtime.Models.Entities.BossModel.html#StormHawks_Runtime_Models_Entities_BossModel_AggroTarget_
+  commentId: Overload:StormHawks.Runtime.Models.Entities.BossModel.AggroTarget
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.Entities.BossModel.AggroTarget
+  nameWithType: BossModel.AggroTarget
+- uid: StormHawks.Runtime.Models.Entities.BossModel.IsAggressive
+  name: IsAggressive
+  href: api/StormHawks.Runtime.Models.Entities.BossModel.html#StormHawks_Runtime_Models_Entities_BossModel_IsAggressive
+  commentId: P:StormHawks.Runtime.Models.Entities.BossModel.IsAggressive
+  fullName: StormHawks.Runtime.Models.Entities.BossModel.IsAggressive
+  nameWithType: BossModel.IsAggressive
+- uid: StormHawks.Runtime.Models.Entities.BossModel.IsAggressive*
+  name: IsAggressive
+  href: api/StormHawks.Runtime.Models.Entities.BossModel.html#StormHawks_Runtime_Models_Entities_BossModel_IsAggressive_
+  commentId: Overload:StormHawks.Runtime.Models.Entities.BossModel.IsAggressive
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.Entities.BossModel.IsAggressive
+  nameWithType: BossModel.IsAggressive
+- uid: StormHawks.Runtime.Models.Entities.BossModel.ReleaseAggroTarget
+  name: ReleaseAggroTarget()
+  href: api/StormHawks.Runtime.Models.Entities.BossModel.html#StormHawks_Runtime_Models_Entities_BossModel_ReleaseAggroTarget
+  commentId: M:StormHawks.Runtime.Models.Entities.BossModel.ReleaseAggroTarget
+  fullName: StormHawks.Runtime.Models.Entities.BossModel.ReleaseAggroTarget()
+  nameWithType: BossModel.ReleaseAggroTarget()
+- uid: StormHawks.Runtime.Models.Entities.BossModel.ReleaseAggroTarget*
+  name: ReleaseAggroTarget
+  href: api/StormHawks.Runtime.Models.Entities.BossModel.html#StormHawks_Runtime_Models_Entities_BossModel_ReleaseAggroTarget_
+  commentId: Overload:StormHawks.Runtime.Models.Entities.BossModel.ReleaseAggroTarget
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.Entities.BossModel.ReleaseAggroTarget
+  nameWithType: BossModel.ReleaseAggroTarget
+- uid: StormHawks.Runtime.Models.Entities.BossModel.SetAggroTarget(AggroTarget)
+  name: SetAggroTarget(AggroTarget)
+  href: api/StormHawks.Runtime.Models.Entities.BossModel.html#StormHawks_Runtime_Models_Entities_BossModel_SetAggroTarget_AggroTarget_
+  commentId: M:StormHawks.Runtime.Models.Entities.BossModel.SetAggroTarget(AggroTarget)
+  fullName: StormHawks.Runtime.Models.Entities.BossModel.SetAggroTarget(AggroTarget)
+  nameWithType: BossModel.SetAggroTarget(AggroTarget)
+- uid: StormHawks.Runtime.Models.Entities.BossModel.SetAggroTarget*
+  name: SetAggroTarget
+  href: api/StormHawks.Runtime.Models.Entities.BossModel.html#StormHawks_Runtime_Models_Entities_BossModel_SetAggroTarget_
+  commentId: Overload:StormHawks.Runtime.Models.Entities.BossModel.SetAggroTarget
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.Entities.BossModel.SetAggroTarget
+  nameWithType: BossModel.SetAggroTarget
 - uid: StormHawks.Runtime.Models.Entities.LookerModel
   name: LookerModel
   href: api/StormHawks.Runtime.Models.Entities.LookerModel.html
@@ -21240,62 +21311,6 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Models.Projectiles.BossMissileModel.TakeDamage
   nameWithType: BossMissileModel.TakeDamage
-- uid: StormHawks.Runtime.Models.Weapons
-  name: StormHawks.Runtime.Models.Weapons
-  href: api/StormHawks.Runtime.Models.Weapons.html
-  commentId: N:StormHawks.Runtime.Models.Weapons
-  fullName: StormHawks.Runtime.Models.Weapons
-  nameWithType: StormHawks.Runtime.Models.Weapons
-- uid: StormHawks.Runtime.Models.Weapons.Boss
-  name: StormHawks.Runtime.Models.Weapons.Boss
-  href: api/StormHawks.Runtime.Models.Weapons.Boss.html
-  commentId: N:StormHawks.Runtime.Models.Weapons.Boss
-  fullName: StormHawks.Runtime.Models.Weapons.Boss
-  nameWithType: StormHawks.Runtime.Models.Weapons.Boss
-- uid: StormHawks.Runtime.Models.Weapons.Boss.BossMissileWeaponModel
-  name: BossMissileWeaponModel
-  href: api/StormHawks.Runtime.Models.Weapons.Boss.BossMissileWeaponModel.html
-  commentId: T:StormHawks.Runtime.Models.Weapons.Boss.BossMissileWeaponModel
-  fullName: StormHawks.Runtime.Models.Weapons.Boss.BossMissileWeaponModel
-  nameWithType: BossMissileWeaponModel
-- uid: StormHawks.Runtime.Models.Weapons.ChaserWeaponModel
-  name: ChaserWeaponModel
-  href: api/StormHawks.Runtime.Models.Weapons.ChaserWeaponModel.html
-  commentId: T:StormHawks.Runtime.Models.Weapons.ChaserWeaponModel
-  fullName: StormHawks.Runtime.Models.Weapons.ChaserWeaponModel
-  nameWithType: ChaserWeaponModel
-- uid: StormHawks.Runtime.Models.Weapons.ChaserWeaponModel.#ctor(ChaserWeaponSettings)
-  name: ChaserWeaponModel(ChaserWeaponSettings)
-  href: api/StormHawks.Runtime.Models.Weapons.ChaserWeaponModel.html#StormHawks_Runtime_Models_Weapons_ChaserWeaponModel__ctor_ChaserWeaponSettings_
-  commentId: M:StormHawks.Runtime.Models.Weapons.ChaserWeaponModel.#ctor(ChaserWeaponSettings)
-  fullName: StormHawks.Runtime.Models.Weapons.ChaserWeaponModel.ChaserWeaponModel(ChaserWeaponSettings)
-  nameWithType: ChaserWeaponModel.ChaserWeaponModel(ChaserWeaponSettings)
-- uid: StormHawks.Runtime.Models.Weapons.ChaserWeaponModel.#ctor*
-  name: ChaserWeaponModel
-  href: api/StormHawks.Runtime.Models.Weapons.ChaserWeaponModel.html#StormHawks_Runtime_Models_Weapons_ChaserWeaponModel__ctor_
-  commentId: Overload:StormHawks.Runtime.Models.Weapons.ChaserWeaponModel.#ctor
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Models.Weapons.ChaserWeaponModel.ChaserWeaponModel
-  nameWithType: ChaserWeaponModel.ChaserWeaponModel
-- uid: StormHawks.Runtime.Models.Weapons.ChaserWeaponModel.Settings
-  name: Settings
-  href: api/StormHawks.Runtime.Models.Weapons.ChaserWeaponModel.html#StormHawks_Runtime_Models_Weapons_ChaserWeaponModel_Settings
-  commentId: P:StormHawks.Runtime.Models.Weapons.ChaserWeaponModel.Settings
-  fullName: StormHawks.Runtime.Models.Weapons.ChaserWeaponModel.Settings
-  nameWithType: ChaserWeaponModel.Settings
-- uid: StormHawks.Runtime.Models.Weapons.ChaserWeaponModel.Settings*
-  name: Settings
-  href: api/StormHawks.Runtime.Models.Weapons.ChaserWeaponModel.html#StormHawks_Runtime_Models_Weapons_ChaserWeaponModel_Settings_
-  commentId: Overload:StormHawks.Runtime.Models.Weapons.ChaserWeaponModel.Settings
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Models.Weapons.ChaserWeaponModel.Settings
-  nameWithType: ChaserWeaponModel.Settings
-- uid: StormHawks.Runtime.Models.Weapons.ProjectileWeaponModel
-  name: ProjectileWeaponModel
-  href: api/StormHawks.Runtime.Models.Weapons.ProjectileWeaponModel.html
-  commentId: T:StormHawks.Runtime.Models.Weapons.ProjectileWeaponModel
-  fullName: StormHawks.Runtime.Models.Weapons.ProjectileWeaponModel
-  nameWithType: ProjectileWeaponModel
 - uid: StormHawks.Runtime.Players
   name: StormHawks.Runtime.Players
   href: api/StormHawks.Runtime.Players.html
@@ -23690,15 +23705,15 @@ references:
   commentId: T:StormHawks.Runtime.Presenters.Behaviors.Boss.BossLaunchMissileBehavior
   fullName: StormHawks.Runtime.Presenters.Behaviors.Boss.BossLaunchMissileBehavior
   nameWithType: BossLaunchMissileBehavior
-- uid: StormHawks.Runtime.Presenters.Behaviors.Boss.BossLaunchMissileBehavior.#ctor(BossPresenter,IEntityAnimator,BossBehaviorSettings,BossMissileWeaponPresenter[])
-  name: BossLaunchMissileBehavior(BossPresenter, IEntityAnimator, BossBehaviorSettings, BossMissileWeaponPresenter[])
-  href: api/StormHawks.Runtime.Presenters.Behaviors.Boss.BossLaunchMissileBehavior.html#StormHawks_Runtime_Presenters_Behaviors_Boss_BossLaunchMissileBehavior__ctor_BossPresenter_IEntityAnimator_BossBehaviorSettings_BossMissileWeaponPresenter___
-  commentId: M:StormHawks.Runtime.Presenters.Behaviors.Boss.BossLaunchMissileBehavior.#ctor(BossPresenter,IEntityAnimator,BossBehaviorSettings,BossMissileWeaponPresenter[])
-  name.vb: BossLaunchMissileBehavior(BossPresenter, IEntityAnimator, BossBehaviorSettings, BossMissileWeaponPresenter())
-  fullName: StormHawks.Runtime.Presenters.Behaviors.Boss.BossLaunchMissileBehavior.BossLaunchMissileBehavior(BossPresenter, IEntityAnimator, BossBehaviorSettings, BossMissileWeaponPresenter[])
-  fullName.vb: StormHawks.Runtime.Presenters.Behaviors.Boss.BossLaunchMissileBehavior.BossLaunchMissileBehavior(BossPresenter, IEntityAnimator, BossBehaviorSettings, BossMissileWeaponPresenter())
-  nameWithType: BossLaunchMissileBehavior.BossLaunchMissileBehavior(BossPresenter, IEntityAnimator, BossBehaviorSettings, BossMissileWeaponPresenter[])
-  nameWithType.vb: BossLaunchMissileBehavior.BossLaunchMissileBehavior(BossPresenter, IEntityAnimator, BossBehaviorSettings, BossMissileWeaponPresenter())
+- uid: StormHawks.Runtime.Presenters.Behaviors.Boss.BossLaunchMissileBehavior.#ctor(BossPresenter,IEntityAnimator,BossBehaviorSettings,BossMissileWeapon[])
+  name: BossLaunchMissileBehavior(BossPresenter, IEntityAnimator, BossBehaviorSettings, BossMissileWeapon[])
+  href: api/StormHawks.Runtime.Presenters.Behaviors.Boss.BossLaunchMissileBehavior.html#StormHawks_Runtime_Presenters_Behaviors_Boss_BossLaunchMissileBehavior__ctor_BossPresenter_IEntityAnimator_BossBehaviorSettings_BossMissileWeapon___
+  commentId: M:StormHawks.Runtime.Presenters.Behaviors.Boss.BossLaunchMissileBehavior.#ctor(BossPresenter,IEntityAnimator,BossBehaviorSettings,BossMissileWeapon[])
+  name.vb: BossLaunchMissileBehavior(BossPresenter, IEntityAnimator, BossBehaviorSettings, BossMissileWeapon())
+  fullName: StormHawks.Runtime.Presenters.Behaviors.Boss.BossLaunchMissileBehavior.BossLaunchMissileBehavior(BossPresenter, IEntityAnimator, BossBehaviorSettings, BossMissileWeapon[])
+  fullName.vb: StormHawks.Runtime.Presenters.Behaviors.Boss.BossLaunchMissileBehavior.BossLaunchMissileBehavior(BossPresenter, IEntityAnimator, BossBehaviorSettings, BossMissileWeapon())
+  nameWithType: BossLaunchMissileBehavior.BossLaunchMissileBehavior(BossPresenter, IEntityAnimator, BossBehaviorSettings, BossMissileWeapon[])
+  nameWithType.vb: BossLaunchMissileBehavior.BossLaunchMissileBehavior(BossPresenter, IEntityAnimator, BossBehaviorSettings, BossMissileWeapon())
 - uid: StormHawks.Runtime.Presenters.Behaviors.Boss.BossLaunchMissileBehavior.#ctor*
   name: BossLaunchMissileBehavior
   href: api/StormHawks.Runtime.Presenters.Behaviors.Boss.BossLaunchMissileBehavior.html#StormHawks_Runtime_Presenters_Behaviors_Boss_BossLaunchMissileBehavior__ctor_
@@ -23838,6 +23853,44 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Presenters.Behaviors.Players.Boss.BossRushBehaviorPlayer.Play
   nameWithType: BossRushBehaviorPlayer.Play
+- uid: StormHawks.Runtime.Presenters.Boss
+  name: StormHawks.Runtime.Presenters.Boss
+  href: api/StormHawks.Runtime.Presenters.Boss.html
+  commentId: N:StormHawks.Runtime.Presenters.Boss
+  fullName: StormHawks.Runtime.Presenters.Boss
+  nameWithType: StormHawks.Runtime.Presenters.Boss
+- uid: StormHawks.Runtime.Presenters.Boss.BossEye
+  name: BossEye
+  href: api/StormHawks.Runtime.Presenters.Boss.BossEye.html
+  commentId: T:StormHawks.Runtime.Presenters.Boss.BossEye
+  fullName: StormHawks.Runtime.Presenters.Boss.BossEye
+  nameWithType: BossEye
+- uid: StormHawks.Runtime.Presenters.Boss.BossEye.GetAggroTarget
+  name: GetAggroTarget()
+  href: api/StormHawks.Runtime.Presenters.Boss.BossEye.html#StormHawks_Runtime_Presenters_Boss_BossEye_GetAggroTarget
+  commentId: M:StormHawks.Runtime.Presenters.Boss.BossEye.GetAggroTarget
+  fullName: StormHawks.Runtime.Presenters.Boss.BossEye.GetAggroTarget()
+  nameWithType: BossEye.GetAggroTarget()
+- uid: StormHawks.Runtime.Presenters.Boss.BossEye.GetAggroTarget*
+  name: GetAggroTarget
+  href: api/StormHawks.Runtime.Presenters.Boss.BossEye.html#StormHawks_Runtime_Presenters_Boss_BossEye_GetAggroTarget_
+  commentId: Overload:StormHawks.Runtime.Presenters.Boss.BossEye.GetAggroTarget
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.Boss.BossEye.GetAggroTarget
+  nameWithType: BossEye.GetAggroTarget
+- uid: StormHawks.Runtime.Presenters.Boss.BossEye.RotateTo(Quaternion)
+  name: RotateTo(Quaternion)
+  href: api/StormHawks.Runtime.Presenters.Boss.BossEye.html#StormHawks_Runtime_Presenters_Boss_BossEye_RotateTo_Quaternion_
+  commentId: M:StormHawks.Runtime.Presenters.Boss.BossEye.RotateTo(Quaternion)
+  fullName: StormHawks.Runtime.Presenters.Boss.BossEye.RotateTo(Quaternion)
+  nameWithType: BossEye.RotateTo(Quaternion)
+- uid: StormHawks.Runtime.Presenters.Boss.BossEye.RotateTo*
+  name: RotateTo
+  href: api/StormHawks.Runtime.Presenters.Boss.BossEye.html#StormHawks_Runtime_Presenters_Boss_BossEye_RotateTo_
+  commentId: Overload:StormHawks.Runtime.Presenters.Boss.BossEye.RotateTo
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.Boss.BossEye.RotateTo
+  nameWithType: BossEye.RotateTo
 - uid: StormHawks.Runtime.Presenters.Entities
   name: StormHawks.Runtime.Presenters.Entities
   href: api/StormHawks.Runtime.Presenters.Entities.html
@@ -23850,19 +23903,45 @@ references:
   commentId: T:StormHawks.Runtime.Presenters.Entities.BossPresenter
   fullName: StormHawks.Runtime.Presenters.Entities.BossPresenter
   nameWithType: BossPresenter
-- uid: StormHawks.Runtime.Presenters.Entities.BossPresenter.Constrcut(EntitySpawner,IObjectResolver)
-  name: Constrcut(EntitySpawner, IObjectResolver)
-  href: api/StormHawks.Runtime.Presenters.Entities.BossPresenter.html#StormHawks_Runtime_Presenters_Entities_BossPresenter_Constrcut_EntitySpawner_IObjectResolver_
-  commentId: M:StormHawks.Runtime.Presenters.Entities.BossPresenter.Constrcut(EntitySpawner,IObjectResolver)
-  fullName: StormHawks.Runtime.Presenters.Entities.BossPresenter.Constrcut(EntitySpawner, IObjectResolver)
-  nameWithType: BossPresenter.Constrcut(EntitySpawner, IObjectResolver)
-- uid: StormHawks.Runtime.Presenters.Entities.BossPresenter.Constrcut*
-  name: Constrcut
-  href: api/StormHawks.Runtime.Presenters.Entities.BossPresenter.html#StormHawks_Runtime_Presenters_Entities_BossPresenter_Constrcut_
-  commentId: Overload:StormHawks.Runtime.Presenters.Entities.BossPresenter.Constrcut
+- uid: StormHawks.Runtime.Presenters.Entities.BossPresenter.Construct(EntitySpawner,IObjectResolver)
+  name: Construct(EntitySpawner, IObjectResolver)
+  href: api/StormHawks.Runtime.Presenters.Entities.BossPresenter.html#StormHawks_Runtime_Presenters_Entities_BossPresenter_Construct_EntitySpawner_IObjectResolver_
+  commentId: M:StormHawks.Runtime.Presenters.Entities.BossPresenter.Construct(EntitySpawner,IObjectResolver)
+  fullName: StormHawks.Runtime.Presenters.Entities.BossPresenter.Construct(EntitySpawner, IObjectResolver)
+  nameWithType: BossPresenter.Construct(EntitySpawner, IObjectResolver)
+- uid: StormHawks.Runtime.Presenters.Entities.BossPresenter.Construct*
+  name: Construct
+  href: api/StormHawks.Runtime.Presenters.Entities.BossPresenter.html#StormHawks_Runtime_Presenters_Entities_BossPresenter_Construct_
+  commentId: Overload:StormHawks.Runtime.Presenters.Entities.BossPresenter.Construct
   isSpec: "True"
-  fullName: StormHawks.Runtime.Presenters.Entities.BossPresenter.Constrcut
-  nameWithType: BossPresenter.Constrcut
+  fullName: StormHawks.Runtime.Presenters.Entities.BossPresenter.Construct
+  nameWithType: BossPresenter.Construct
+- uid: StormHawks.Runtime.Presenters.Entities.BossPresenter.IsAggressive
+  name: IsAggressive
+  href: api/StormHawks.Runtime.Presenters.Entities.BossPresenter.html#StormHawks_Runtime_Presenters_Entities_BossPresenter_IsAggressive
+  commentId: P:StormHawks.Runtime.Presenters.Entities.BossPresenter.IsAggressive
+  fullName: StormHawks.Runtime.Presenters.Entities.BossPresenter.IsAggressive
+  nameWithType: BossPresenter.IsAggressive
+- uid: StormHawks.Runtime.Presenters.Entities.BossPresenter.IsAggressive*
+  name: IsAggressive
+  href: api/StormHawks.Runtime.Presenters.Entities.BossPresenter.html#StormHawks_Runtime_Presenters_Entities_BossPresenter_IsAggressive_
+  commentId: Overload:StormHawks.Runtime.Presenters.Entities.BossPresenter.IsAggressive
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.Entities.BossPresenter.IsAggressive
+  nameWithType: BossPresenter.IsAggressive
+- uid: StormHawks.Runtime.Presenters.Entities.BossPresenter.OnAggressive
+  name: OnAggressive
+  href: api/StormHawks.Runtime.Presenters.Entities.BossPresenter.html#StormHawks_Runtime_Presenters_Entities_BossPresenter_OnAggressive
+  commentId: P:StormHawks.Runtime.Presenters.Entities.BossPresenter.OnAggressive
+  fullName: StormHawks.Runtime.Presenters.Entities.BossPresenter.OnAggressive
+  nameWithType: BossPresenter.OnAggressive
+- uid: StormHawks.Runtime.Presenters.Entities.BossPresenter.OnAggressive*
+  name: OnAggressive
+  href: api/StormHawks.Runtime.Presenters.Entities.BossPresenter.html#StormHawks_Runtime_Presenters_Entities_BossPresenter_OnAggressive_
+  commentId: Overload:StormHawks.Runtime.Presenters.Entities.BossPresenter.OnAggressive
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.Entities.BossPresenter.OnAggressive
+  nameWithType: BossPresenter.OnAggressive
 - uid: StormHawks.Runtime.Presenters.Entities.BossPresenter.Position
   name: Position
   href: api/StormHawks.Runtime.Presenters.Entities.BossPresenter.html#StormHawks_Runtime_Presenters_Entities_BossPresenter_Position
@@ -23876,6 +23955,19 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Presenters.Entities.BossPresenter.Position
   nameWithType: BossPresenter.Position
+- uid: StormHawks.Runtime.Presenters.Entities.BossPresenter.ReleaseAggro
+  name: ReleaseAggro()
+  href: api/StormHawks.Runtime.Presenters.Entities.BossPresenter.html#StormHawks_Runtime_Presenters_Entities_BossPresenter_ReleaseAggro
+  commentId: M:StormHawks.Runtime.Presenters.Entities.BossPresenter.ReleaseAggro
+  fullName: StormHawks.Runtime.Presenters.Entities.BossPresenter.ReleaseAggro()
+  nameWithType: BossPresenter.ReleaseAggro()
+- uid: StormHawks.Runtime.Presenters.Entities.BossPresenter.ReleaseAggro*
+  name: ReleaseAggro
+  href: api/StormHawks.Runtime.Presenters.Entities.BossPresenter.html#StormHawks_Runtime_Presenters_Entities_BossPresenter_ReleaseAggro_
+  commentId: Overload:StormHawks.Runtime.Presenters.Entities.BossPresenter.ReleaseAggro
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.Entities.BossPresenter.ReleaseAggro
+  nameWithType: BossPresenter.ReleaseAggro
 - uid: StormHawks.Runtime.Presenters.Entities.BossPresenter.Rotation
   name: Rotation
   href: api/StormHawks.Runtime.Presenters.Entities.BossPresenter.html#StormHawks_Runtime_Presenters_Entities_BossPresenter_Rotation
@@ -23889,6 +23981,19 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Presenters.Entities.BossPresenter.Rotation
   nameWithType: BossPresenter.Rotation
+- uid: StormHawks.Runtime.Presenters.Entities.BossPresenter.SetAggroTarget(AggroTarget)
+  name: SetAggroTarget(AggroTarget)
+  href: api/StormHawks.Runtime.Presenters.Entities.BossPresenter.html#StormHawks_Runtime_Presenters_Entities_BossPresenter_SetAggroTarget_AggroTarget_
+  commentId: M:StormHawks.Runtime.Presenters.Entities.BossPresenter.SetAggroTarget(AggroTarget)
+  fullName: StormHawks.Runtime.Presenters.Entities.BossPresenter.SetAggroTarget(AggroTarget)
+  nameWithType: BossPresenter.SetAggroTarget(AggroTarget)
+- uid: StormHawks.Runtime.Presenters.Entities.BossPresenter.SetAggroTarget*
+  name: SetAggroTarget
+  href: api/StormHawks.Runtime.Presenters.Entities.BossPresenter.html#StormHawks_Runtime_Presenters_Entities_BossPresenter_SetAggroTarget_
+  commentId: Overload:StormHawks.Runtime.Presenters.Entities.BossPresenter.SetAggroTarget
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.Entities.BossPresenter.SetAggroTarget
+  nameWithType: BossPresenter.SetAggroTarget
 - uid: StormHawks.Runtime.Presenters.Entities.BossPresenter.Transform
   name: Transform
   href: api/StormHawks.Runtime.Presenters.Entities.BossPresenter.html#StormHawks_Runtime_Presenters_Entities_BossPresenter_Transform
@@ -24143,14 +24248,14 @@ references:
   fullName.vb: StormHawks.Runtime.Presenters.Entities.Enemies.SteeringEnemyPresenter(Of T).ReleaseAggro
   nameWithType: SteeringEnemyPresenter<T>.ReleaseAggro
   nameWithType.vb: SteeringEnemyPresenter(Of T).ReleaseAggro
-- uid: StormHawks.Runtime.Presenters.Entities.Enemies.SteeringEnemyPresenter`1.SetAggroTarget(IAggressiveTargetable)
-  name: SetAggroTarget(IAggressiveTargetable)
-  href: api/StormHawks.Runtime.Presenters.Entities.Enemies.SteeringEnemyPresenter-1.html#StormHawks_Runtime_Presenters_Entities_Enemies_SteeringEnemyPresenter_1_SetAggroTarget_IAggressiveTargetable_
-  commentId: M:StormHawks.Runtime.Presenters.Entities.Enemies.SteeringEnemyPresenter`1.SetAggroTarget(IAggressiveTargetable)
-  fullName: StormHawks.Runtime.Presenters.Entities.Enemies.SteeringEnemyPresenter<T>.SetAggroTarget(IAggressiveTargetable)
-  fullName.vb: StormHawks.Runtime.Presenters.Entities.Enemies.SteeringEnemyPresenter(Of T).SetAggroTarget(IAggressiveTargetable)
-  nameWithType: SteeringEnemyPresenter<T>.SetAggroTarget(IAggressiveTargetable)
-  nameWithType.vb: SteeringEnemyPresenter(Of T).SetAggroTarget(IAggressiveTargetable)
+- uid: StormHawks.Runtime.Presenters.Entities.Enemies.SteeringEnemyPresenter`1.SetAggroTarget(AggroTarget)
+  name: SetAggroTarget(AggroTarget)
+  href: api/StormHawks.Runtime.Presenters.Entities.Enemies.SteeringEnemyPresenter-1.html#StormHawks_Runtime_Presenters_Entities_Enemies_SteeringEnemyPresenter_1_SetAggroTarget_AggroTarget_
+  commentId: M:StormHawks.Runtime.Presenters.Entities.Enemies.SteeringEnemyPresenter`1.SetAggroTarget(AggroTarget)
+  fullName: StormHawks.Runtime.Presenters.Entities.Enemies.SteeringEnemyPresenter<T>.SetAggroTarget(AggroTarget)
+  fullName.vb: StormHawks.Runtime.Presenters.Entities.Enemies.SteeringEnemyPresenter(Of T).SetAggroTarget(AggroTarget)
+  nameWithType: SteeringEnemyPresenter<T>.SetAggroTarget(AggroTarget)
+  nameWithType.vb: SteeringEnemyPresenter(Of T).SetAggroTarget(AggroTarget)
 - uid: StormHawks.Runtime.Presenters.Entities.Enemies.SteeringEnemyPresenter`1.SetAggroTarget*
   name: SetAggroTarget
   href: api/StormHawks.Runtime.Presenters.Entities.Enemies.SteeringEnemyPresenter-1.html#StormHawks_Runtime_Presenters_Entities_Enemies_SteeringEnemyPresenter_1_SetAggroTarget_
@@ -24642,12 +24747,12 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Presenters.Fires.AutomaticFire.AutomaticFire
   nameWithType: AutomaticFire.AutomaticFire
-- uid: StormHawks.Runtime.Presenters.Fires.AutomaticFire.FireTask(Action,CancellationToken)
-  name: FireTask(Action, CancellationToken)
-  href: api/StormHawks.Runtime.Presenters.Fires.AutomaticFire.html#StormHawks_Runtime_Presenters_Fires_AutomaticFire_FireTask_Action_CancellationToken_
-  commentId: M:StormHawks.Runtime.Presenters.Fires.AutomaticFire.FireTask(Action,CancellationToken)
-  fullName: StormHawks.Runtime.Presenters.Fires.AutomaticFire.FireTask(Action, CancellationToken)
-  nameWithType: AutomaticFire.FireTask(Action, CancellationToken)
+- uid: StormHawks.Runtime.Presenters.Fires.AutomaticFire.FireTask(CancellationToken)
+  name: FireTask(CancellationToken)
+  href: api/StormHawks.Runtime.Presenters.Fires.AutomaticFire.html#StormHawks_Runtime_Presenters_Fires_AutomaticFire_FireTask_CancellationToken_
+  commentId: M:StormHawks.Runtime.Presenters.Fires.AutomaticFire.FireTask(CancellationToken)
+  fullName: StormHawks.Runtime.Presenters.Fires.AutomaticFire.FireTask(CancellationToken)
+  nameWithType: AutomaticFire.FireTask(CancellationToken)
 - uid: StormHawks.Runtime.Presenters.Fires.AutomaticFire.FireTask*
   name: FireTask
   href: api/StormHawks.Runtime.Presenters.Fires.AutomaticFire.html#StormHawks_Runtime_Presenters_Fires_AutomaticFire_FireTask_
@@ -24655,18 +24760,36 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Presenters.Fires.AutomaticFire.FireTask
   nameWithType: AutomaticFire.FireTask
+- uid: StormHawks.Runtime.Presenters.Fires.AutomaticFire.OnBeforeFire
+  name: OnBeforeFire
+  href: api/StormHawks.Runtime.Presenters.Fires.AutomaticFire.html#StormHawks_Runtime_Presenters_Fires_AutomaticFire_OnBeforeFire
+  commentId: E:StormHawks.Runtime.Presenters.Fires.AutomaticFire.OnBeforeFire
+  fullName: StormHawks.Runtime.Presenters.Fires.AutomaticFire.OnBeforeFire
+  nameWithType: AutomaticFire.OnBeforeFire
+- uid: StormHawks.Runtime.Presenters.Fires.AutomaticFire.OnComplete
+  name: OnComplete
+  href: api/StormHawks.Runtime.Presenters.Fires.AutomaticFire.html#StormHawks_Runtime_Presenters_Fires_AutomaticFire_OnComplete
+  commentId: E:StormHawks.Runtime.Presenters.Fires.AutomaticFire.OnComplete
+  fullName: StormHawks.Runtime.Presenters.Fires.AutomaticFire.OnComplete
+  nameWithType: AutomaticFire.OnComplete
+- uid: StormHawks.Runtime.Presenters.Fires.AutomaticFire.OnFire
+  name: OnFire
+  href: api/StormHawks.Runtime.Presenters.Fires.AutomaticFire.html#StormHawks_Runtime_Presenters_Fires_AutomaticFire_OnFire
+  commentId: E:StormHawks.Runtime.Presenters.Fires.AutomaticFire.OnFire
+  fullName: StormHawks.Runtime.Presenters.Fires.AutomaticFire.OnFire
+  nameWithType: AutomaticFire.OnFire
 - uid: StormHawks.Runtime.Presenters.Fires.IProjectileFire
   name: IProjectileFire
   href: api/StormHawks.Runtime.Presenters.Fires.IProjectileFire.html
   commentId: T:StormHawks.Runtime.Presenters.Fires.IProjectileFire
   fullName: StormHawks.Runtime.Presenters.Fires.IProjectileFire
   nameWithType: IProjectileFire
-- uid: StormHawks.Runtime.Presenters.Fires.IProjectileFire.FireTask(Action,CancellationToken)
-  name: FireTask(Action, CancellationToken)
-  href: api/StormHawks.Runtime.Presenters.Fires.IProjectileFire.html#StormHawks_Runtime_Presenters_Fires_IProjectileFire_FireTask_Action_CancellationToken_
-  commentId: M:StormHawks.Runtime.Presenters.Fires.IProjectileFire.FireTask(Action,CancellationToken)
-  fullName: StormHawks.Runtime.Presenters.Fires.IProjectileFire.FireTask(Action, CancellationToken)
-  nameWithType: IProjectileFire.FireTask(Action, CancellationToken)
+- uid: StormHawks.Runtime.Presenters.Fires.IProjectileFire.FireTask(CancellationToken)
+  name: FireTask(CancellationToken)
+  href: api/StormHawks.Runtime.Presenters.Fires.IProjectileFire.html#StormHawks_Runtime_Presenters_Fires_IProjectileFire_FireTask_CancellationToken_
+  commentId: M:StormHawks.Runtime.Presenters.Fires.IProjectileFire.FireTask(CancellationToken)
+  fullName: StormHawks.Runtime.Presenters.Fires.IProjectileFire.FireTask(CancellationToken)
+  nameWithType: IProjectileFire.FireTask(CancellationToken)
 - uid: StormHawks.Runtime.Presenters.Fires.IProjectileFire.FireTask*
   name: FireTask
   href: api/StormHawks.Runtime.Presenters.Fires.IProjectileFire.html#StormHawks_Runtime_Presenters_Fires_IProjectileFire_FireTask_
@@ -24674,6 +24797,24 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Presenters.Fires.IProjectileFire.FireTask
   nameWithType: IProjectileFire.FireTask
+- uid: StormHawks.Runtime.Presenters.Fires.IProjectileFire.OnBeforeFire
+  name: OnBeforeFire
+  href: api/StormHawks.Runtime.Presenters.Fires.IProjectileFire.html#StormHawks_Runtime_Presenters_Fires_IProjectileFire_OnBeforeFire
+  commentId: E:StormHawks.Runtime.Presenters.Fires.IProjectileFire.OnBeforeFire
+  fullName: StormHawks.Runtime.Presenters.Fires.IProjectileFire.OnBeforeFire
+  nameWithType: IProjectileFire.OnBeforeFire
+- uid: StormHawks.Runtime.Presenters.Fires.IProjectileFire.OnComplete
+  name: OnComplete
+  href: api/StormHawks.Runtime.Presenters.Fires.IProjectileFire.html#StormHawks_Runtime_Presenters_Fires_IProjectileFire_OnComplete
+  commentId: E:StormHawks.Runtime.Presenters.Fires.IProjectileFire.OnComplete
+  fullName: StormHawks.Runtime.Presenters.Fires.IProjectileFire.OnComplete
+  nameWithType: IProjectileFire.OnComplete
+- uid: StormHawks.Runtime.Presenters.Fires.IProjectileFire.OnFire
+  name: OnFire
+  href: api/StormHawks.Runtime.Presenters.Fires.IProjectileFire.html#StormHawks_Runtime_Presenters_Fires_IProjectileFire_OnFire
+  commentId: E:StormHawks.Runtime.Presenters.Fires.IProjectileFire.OnFire
+  fullName: StormHawks.Runtime.Presenters.Fires.IProjectileFire.OnFire
+  nameWithType: IProjectileFire.OnFire
 - uid: StormHawks.Runtime.Presenters.Projectiles
   name: StormHawks.Runtime.Presenters.Projectiles
   href: api/StormHawks.Runtime.Presenters.Projectiles.html
@@ -24757,12 +24898,12 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Presenters.Projectiles.BossMissilePresenter.ReleaseAggro
   nameWithType: BossMissilePresenter.ReleaseAggro
-- uid: StormHawks.Runtime.Presenters.Projectiles.BossMissilePresenter.SetAggroTarget(IAggressiveTargetable)
-  name: SetAggroTarget(IAggressiveTargetable)
-  href: api/StormHawks.Runtime.Presenters.Projectiles.BossMissilePresenter.html#StormHawks_Runtime_Presenters_Projectiles_BossMissilePresenter_SetAggroTarget_IAggressiveTargetable_
-  commentId: M:StormHawks.Runtime.Presenters.Projectiles.BossMissilePresenter.SetAggroTarget(IAggressiveTargetable)
-  fullName: StormHawks.Runtime.Presenters.Projectiles.BossMissilePresenter.SetAggroTarget(IAggressiveTargetable)
-  nameWithType: BossMissilePresenter.SetAggroTarget(IAggressiveTargetable)
+- uid: StormHawks.Runtime.Presenters.Projectiles.BossMissilePresenter.SetAggroTarget(AggroTarget)
+  name: SetAggroTarget(AggroTarget)
+  href: api/StormHawks.Runtime.Presenters.Projectiles.BossMissilePresenter.html#StormHawks_Runtime_Presenters_Projectiles_BossMissilePresenter_SetAggroTarget_AggroTarget_
+  commentId: M:StormHawks.Runtime.Presenters.Projectiles.BossMissilePresenter.SetAggroTarget(AggroTarget)
+  fullName: StormHawks.Runtime.Presenters.Projectiles.BossMissilePresenter.SetAggroTarget(AggroTarget)
+  nameWithType: BossMissilePresenter.SetAggroTarget(AggroTarget)
 - uid: StormHawks.Runtime.Presenters.Projectiles.BossMissilePresenter.SetAggroTarget*
   name: SetAggroTarget
   href: api/StormHawks.Runtime.Presenters.Projectiles.BossMissilePresenter.html#StormHawks_Runtime_Presenters_Projectiles_BossMissilePresenter_SetAggroTarget_
@@ -24783,6 +24924,44 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Presenters.Projectiles.BossMissilePresenter.TakeDamage
   nameWithType: BossMissilePresenter.TakeDamage
+- uid: StormHawks.Runtime.Presenters.Projectiles.BossRailgunPresenter
+  name: BossRailgunPresenter
+  href: api/StormHawks.Runtime.Presenters.Projectiles.BossRailgunPresenter.html
+  commentId: T:StormHawks.Runtime.Presenters.Projectiles.BossRailgunPresenter
+  fullName: StormHawks.Runtime.Presenters.Projectiles.BossRailgunPresenter
+  nameWithType: BossRailgunPresenter
+- uid: StormHawks.Runtime.Presenters.Projectiles.BossRailgunPresenter.Dispatched
+  name: Dispatched
+  href: api/StormHawks.Runtime.Presenters.Projectiles.BossRailgunPresenter.html#StormHawks_Runtime_Presenters_Projectiles_BossRailgunPresenter_Dispatched
+  commentId: E:StormHawks.Runtime.Presenters.Projectiles.BossRailgunPresenter.Dispatched
+  fullName: StormHawks.Runtime.Presenters.Projectiles.BossRailgunPresenter.Dispatched
+  nameWithType: BossRailgunPresenter.Dispatched
+- uid: StormHawks.Runtime.Presenters.Projectiles.BossRailgunPresenter.Fire
+  name: Fire()
+  href: api/StormHawks.Runtime.Presenters.Projectiles.BossRailgunPresenter.html#StormHawks_Runtime_Presenters_Projectiles_BossRailgunPresenter_Fire
+  commentId: M:StormHawks.Runtime.Presenters.Projectiles.BossRailgunPresenter.Fire
+  fullName: StormHawks.Runtime.Presenters.Projectiles.BossRailgunPresenter.Fire()
+  nameWithType: BossRailgunPresenter.Fire()
+- uid: StormHawks.Runtime.Presenters.Projectiles.BossRailgunPresenter.Fire*
+  name: Fire
+  href: api/StormHawks.Runtime.Presenters.Projectiles.BossRailgunPresenter.html#StormHawks_Runtime_Presenters_Projectiles_BossRailgunPresenter_Fire_
+  commentId: Overload:StormHawks.Runtime.Presenters.Projectiles.BossRailgunPresenter.Fire
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.Projectiles.BossRailgunPresenter.Fire
+  nameWithType: BossRailgunPresenter.Fire
+- uid: StormHawks.Runtime.Presenters.Projectiles.BossRailgunPresenter.Initialize(Vector3,Quaternion)
+  name: Initialize(Vector3, Quaternion)
+  href: api/StormHawks.Runtime.Presenters.Projectiles.BossRailgunPresenter.html#StormHawks_Runtime_Presenters_Projectiles_BossRailgunPresenter_Initialize_Vector3_Quaternion_
+  commentId: M:StormHawks.Runtime.Presenters.Projectiles.BossRailgunPresenter.Initialize(Vector3,Quaternion)
+  fullName: StormHawks.Runtime.Presenters.Projectiles.BossRailgunPresenter.Initialize(Vector3, Quaternion)
+  nameWithType: BossRailgunPresenter.Initialize(Vector3, Quaternion)
+- uid: StormHawks.Runtime.Presenters.Projectiles.BossRailgunPresenter.Initialize*
+  name: Initialize
+  href: api/StormHawks.Runtime.Presenters.Projectiles.BossRailgunPresenter.html#StormHawks_Runtime_Presenters_Projectiles_BossRailgunPresenter_Initialize_
+  commentId: Overload:StormHawks.Runtime.Presenters.Projectiles.BossRailgunPresenter.Initialize
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.Projectiles.BossRailgunPresenter.Initialize
+  nameWithType: BossRailgunPresenter.Initialize
 - uid: StormHawks.Runtime.Presenters.Projectiles.DestructableProjectilePresenter
   name: DestructableProjectilePresenter
   href: api/StormHawks.Runtime.Presenters.Projectiles.DestructableProjectilePresenter.html
@@ -25148,271 +25327,242 @@ references:
   commentId: N:StormHawks.Runtime.Presenters.Weapons.Boss
   fullName: StormHawks.Runtime.Presenters.Weapons.Boss
   nameWithType: StormHawks.Runtime.Presenters.Weapons.Boss
-- uid: StormHawks.Runtime.Presenters.Weapons.Boss.BossMissileWeaponPresenter
-  name: BossMissileWeaponPresenter
-  href: api/StormHawks.Runtime.Presenters.Weapons.Boss.BossMissileWeaponPresenter.html
-  commentId: T:StormHawks.Runtime.Presenters.Weapons.Boss.BossMissileWeaponPresenter
-  fullName: StormHawks.Runtime.Presenters.Weapons.Boss.BossMissileWeaponPresenter
-  nameWithType: BossMissileWeaponPresenter
-- uid: StormHawks.Runtime.Presenters.Weapons.Boss.BossMissileWeaponPresenter.SetTarget(IAggressiveTargetable)
-  name: SetTarget(IAggressiveTargetable)
-  href: api/StormHawks.Runtime.Presenters.Weapons.Boss.BossMissileWeaponPresenter.html#StormHawks_Runtime_Presenters_Weapons_Boss_BossMissileWeaponPresenter_SetTarget_IAggressiveTargetable_
-  commentId: M:StormHawks.Runtime.Presenters.Weapons.Boss.BossMissileWeaponPresenter.SetTarget(IAggressiveTargetable)
-  fullName: StormHawks.Runtime.Presenters.Weapons.Boss.BossMissileWeaponPresenter.SetTarget(IAggressiveTargetable)
-  nameWithType: BossMissileWeaponPresenter.SetTarget(IAggressiveTargetable)
-- uid: StormHawks.Runtime.Presenters.Weapons.Boss.BossMissileWeaponPresenter.SetTarget*
+- uid: StormHawks.Runtime.Presenters.Weapons.Boss.BossMissileWeapon
+  name: BossMissileWeapon
+  href: api/StormHawks.Runtime.Presenters.Weapons.Boss.BossMissileWeapon.html
+  commentId: T:StormHawks.Runtime.Presenters.Weapons.Boss.BossMissileWeapon
+  fullName: StormHawks.Runtime.Presenters.Weapons.Boss.BossMissileWeapon
+  nameWithType: BossMissileWeapon
+- uid: StormHawks.Runtime.Presenters.Weapons.Boss.BossMissileWeapon.CanLaunch
+  name: CanLaunch()
+  href: api/StormHawks.Runtime.Presenters.Weapons.Boss.BossMissileWeapon.html#StormHawks_Runtime_Presenters_Weapons_Boss_BossMissileWeapon_CanLaunch
+  commentId: M:StormHawks.Runtime.Presenters.Weapons.Boss.BossMissileWeapon.CanLaunch
+  fullName: StormHawks.Runtime.Presenters.Weapons.Boss.BossMissileWeapon.CanLaunch()
+  nameWithType: BossMissileWeapon.CanLaunch()
+- uid: StormHawks.Runtime.Presenters.Weapons.Boss.BossMissileWeapon.CanLaunch*
+  name: CanLaunch
+  href: api/StormHawks.Runtime.Presenters.Weapons.Boss.BossMissileWeapon.html#StormHawks_Runtime_Presenters_Weapons_Boss_BossMissileWeapon_CanLaunch_
+  commentId: Overload:StormHawks.Runtime.Presenters.Weapons.Boss.BossMissileWeapon.CanLaunch
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.Weapons.Boss.BossMissileWeapon.CanLaunch
+  nameWithType: BossMissileWeapon.CanLaunch
+- uid: StormHawks.Runtime.Presenters.Weapons.Boss.BossMissileWeapon.SetTarget(System.Nullable{AggroTarget})
+  name: SetTarget(Nullable<AggroTarget>)
+  href: api/StormHawks.Runtime.Presenters.Weapons.Boss.BossMissileWeapon.html#StormHawks_Runtime_Presenters_Weapons_Boss_BossMissileWeapon_SetTarget_System_Nullable_AggroTarget__
+  commentId: M:StormHawks.Runtime.Presenters.Weapons.Boss.BossMissileWeapon.SetTarget(System.Nullable{AggroTarget})
+  name.vb: SetTarget(Nullable(Of AggroTarget))
+  fullName: StormHawks.Runtime.Presenters.Weapons.Boss.BossMissileWeapon.SetTarget(System.Nullable<AggroTarget>)
+  fullName.vb: StormHawks.Runtime.Presenters.Weapons.Boss.BossMissileWeapon.SetTarget(System.Nullable(Of AggroTarget))
+  nameWithType: BossMissileWeapon.SetTarget(Nullable<AggroTarget>)
+  nameWithType.vb: BossMissileWeapon.SetTarget(Nullable(Of AggroTarget))
+- uid: StormHawks.Runtime.Presenters.Weapons.Boss.BossMissileWeapon.SetTarget*
   name: SetTarget
-  href: api/StormHawks.Runtime.Presenters.Weapons.Boss.BossMissileWeaponPresenter.html#StormHawks_Runtime_Presenters_Weapons_Boss_BossMissileWeaponPresenter_SetTarget_
-  commentId: Overload:StormHawks.Runtime.Presenters.Weapons.Boss.BossMissileWeaponPresenter.SetTarget
+  href: api/StormHawks.Runtime.Presenters.Weapons.Boss.BossMissileWeapon.html#StormHawks_Runtime_Presenters_Weapons_Boss_BossMissileWeapon_SetTarget_
+  commentId: Overload:StormHawks.Runtime.Presenters.Weapons.Boss.BossMissileWeapon.SetTarget
   isSpec: "True"
-  fullName: StormHawks.Runtime.Presenters.Weapons.Boss.BossMissileWeaponPresenter.SetTarget
-  nameWithType: BossMissileWeaponPresenter.SetTarget
-- uid: StormHawks.Runtime.Presenters.Weapons.Boss.BossMissileWeaponPresenter.SpawnMissile
+  fullName: StormHawks.Runtime.Presenters.Weapons.Boss.BossMissileWeapon.SetTarget
+  nameWithType: BossMissileWeapon.SetTarget
+- uid: StormHawks.Runtime.Presenters.Weapons.Boss.BossMissileWeapon.SpawnMissile
   name: SpawnMissile()
-  href: api/StormHawks.Runtime.Presenters.Weapons.Boss.BossMissileWeaponPresenter.html#StormHawks_Runtime_Presenters_Weapons_Boss_BossMissileWeaponPresenter_SpawnMissile
-  commentId: M:StormHawks.Runtime.Presenters.Weapons.Boss.BossMissileWeaponPresenter.SpawnMissile
-  fullName: StormHawks.Runtime.Presenters.Weapons.Boss.BossMissileWeaponPresenter.SpawnMissile()
-  nameWithType: BossMissileWeaponPresenter.SpawnMissile()
-- uid: StormHawks.Runtime.Presenters.Weapons.Boss.BossMissileWeaponPresenter.SpawnMissile*
+  href: api/StormHawks.Runtime.Presenters.Weapons.Boss.BossMissileWeapon.html#StormHawks_Runtime_Presenters_Weapons_Boss_BossMissileWeapon_SpawnMissile
+  commentId: M:StormHawks.Runtime.Presenters.Weapons.Boss.BossMissileWeapon.SpawnMissile
+  fullName: StormHawks.Runtime.Presenters.Weapons.Boss.BossMissileWeapon.SpawnMissile()
+  nameWithType: BossMissileWeapon.SpawnMissile()
+- uid: StormHawks.Runtime.Presenters.Weapons.Boss.BossMissileWeapon.SpawnMissile*
   name: SpawnMissile
-  href: api/StormHawks.Runtime.Presenters.Weapons.Boss.BossMissileWeaponPresenter.html#StormHawks_Runtime_Presenters_Weapons_Boss_BossMissileWeaponPresenter_SpawnMissile_
-  commentId: Overload:StormHawks.Runtime.Presenters.Weapons.Boss.BossMissileWeaponPresenter.SpawnMissile
+  href: api/StormHawks.Runtime.Presenters.Weapons.Boss.BossMissileWeapon.html#StormHawks_Runtime_Presenters_Weapons_Boss_BossMissileWeapon_SpawnMissile_
+  commentId: Overload:StormHawks.Runtime.Presenters.Weapons.Boss.BossMissileWeapon.SpawnMissile
   isSpec: "True"
-  fullName: StormHawks.Runtime.Presenters.Weapons.Boss.BossMissileWeaponPresenter.SpawnMissile
-  nameWithType: BossMissileWeaponPresenter.SpawnMissile
-- uid: StormHawks.Runtime.Presenters.Weapons.Boss.BossMissileWeaponPresenter.Start
-  name: Start()
-  href: api/StormHawks.Runtime.Presenters.Weapons.Boss.BossMissileWeaponPresenter.html#StormHawks_Runtime_Presenters_Weapons_Boss_BossMissileWeaponPresenter_Start
-  commentId: M:StormHawks.Runtime.Presenters.Weapons.Boss.BossMissileWeaponPresenter.Start
-  fullName: StormHawks.Runtime.Presenters.Weapons.Boss.BossMissileWeaponPresenter.Start()
-  nameWithType: BossMissileWeaponPresenter.Start()
-- uid: StormHawks.Runtime.Presenters.Weapons.Boss.BossMissileWeaponPresenter.Start*
-  name: Start
-  href: api/StormHawks.Runtime.Presenters.Weapons.Boss.BossMissileWeaponPresenter.html#StormHawks_Runtime_Presenters_Weapons_Boss_BossMissileWeaponPresenter_Start_
-  commentId: Overload:StormHawks.Runtime.Presenters.Weapons.Boss.BossMissileWeaponPresenter.Start
+  fullName: StormHawks.Runtime.Presenters.Weapons.Boss.BossMissileWeapon.SpawnMissile
+  nameWithType: BossMissileWeapon.SpawnMissile
+- uid: StormHawks.Runtime.Presenters.Weapons.Boss.BossRailgunWeapon
+  name: BossRailgunWeapon
+  href: api/StormHawks.Runtime.Presenters.Weapons.Boss.BossRailgunWeapon.html
+  commentId: T:StormHawks.Runtime.Presenters.Weapons.Boss.BossRailgunWeapon
+  fullName: StormHawks.Runtime.Presenters.Weapons.Boss.BossRailgunWeapon
+  nameWithType: BossRailgunWeapon
+- uid: StormHawks.Runtime.Presenters.Weapons.Boss.BossRailgunWeapon.CanLaunch
+  name: CanLaunch()
+  href: api/StormHawks.Runtime.Presenters.Weapons.Boss.BossRailgunWeapon.html#StormHawks_Runtime_Presenters_Weapons_Boss_BossRailgunWeapon_CanLaunch
+  commentId: M:StormHawks.Runtime.Presenters.Weapons.Boss.BossRailgunWeapon.CanLaunch
+  fullName: StormHawks.Runtime.Presenters.Weapons.Boss.BossRailgunWeapon.CanLaunch()
+  nameWithType: BossRailgunWeapon.CanLaunch()
+- uid: StormHawks.Runtime.Presenters.Weapons.Boss.BossRailgunWeapon.CanLaunch*
+  name: CanLaunch
+  href: api/StormHawks.Runtime.Presenters.Weapons.Boss.BossRailgunWeapon.html#StormHawks_Runtime_Presenters_Weapons_Boss_BossRailgunWeapon_CanLaunch_
+  commentId: Overload:StormHawks.Runtime.Presenters.Weapons.Boss.BossRailgunWeapon.CanLaunch
   isSpec: "True"
-  fullName: StormHawks.Runtime.Presenters.Weapons.Boss.BossMissileWeaponPresenter.Start
-  nameWithType: BossMissileWeaponPresenter.Start
-- uid: StormHawks.Runtime.Presenters.Weapons.ChaserWeaponPresenter
-  name: ChaserWeaponPresenter
-  href: api/StormHawks.Runtime.Presenters.Weapons.ChaserWeaponPresenter.html
-  commentId: T:StormHawks.Runtime.Presenters.Weapons.ChaserWeaponPresenter
-  fullName: StormHawks.Runtime.Presenters.Weapons.ChaserWeaponPresenter
-  nameWithType: ChaserWeaponPresenter
-- uid: StormHawks.Runtime.Presenters.Weapons.ChaserWeaponPresenter.Start
-  name: Start()
-  href: api/StormHawks.Runtime.Presenters.Weapons.ChaserWeaponPresenter.html#StormHawks_Runtime_Presenters_Weapons_ChaserWeaponPresenter_Start
-  commentId: M:StormHawks.Runtime.Presenters.Weapons.ChaserWeaponPresenter.Start
-  fullName: StormHawks.Runtime.Presenters.Weapons.ChaserWeaponPresenter.Start()
-  nameWithType: ChaserWeaponPresenter.Start()
-- uid: StormHawks.Runtime.Presenters.Weapons.ChaserWeaponPresenter.Start*
-  name: Start
-  href: api/StormHawks.Runtime.Presenters.Weapons.ChaserWeaponPresenter.html#StormHawks_Runtime_Presenters_Weapons_ChaserWeaponPresenter_Start_
-  commentId: Overload:StormHawks.Runtime.Presenters.Weapons.ChaserWeaponPresenter.Start
+  fullName: StormHawks.Runtime.Presenters.Weapons.Boss.BossRailgunWeapon.CanLaunch
+  nameWithType: BossRailgunWeapon.CanLaunch
+- uid: StormHawks.Runtime.Presenters.Weapons.Boss.BossRailgunWeapon.SetTarget(System.Nullable{AggroTarget})
+  name: SetTarget(Nullable<AggroTarget>)
+  href: api/StormHawks.Runtime.Presenters.Weapons.Boss.BossRailgunWeapon.html#StormHawks_Runtime_Presenters_Weapons_Boss_BossRailgunWeapon_SetTarget_System_Nullable_AggroTarget__
+  commentId: M:StormHawks.Runtime.Presenters.Weapons.Boss.BossRailgunWeapon.SetTarget(System.Nullable{AggroTarget})
+  name.vb: SetTarget(Nullable(Of AggroTarget))
+  fullName: StormHawks.Runtime.Presenters.Weapons.Boss.BossRailgunWeapon.SetTarget(System.Nullable<AggroTarget>)
+  fullName.vb: StormHawks.Runtime.Presenters.Weapons.Boss.BossRailgunWeapon.SetTarget(System.Nullable(Of AggroTarget))
+  nameWithType: BossRailgunWeapon.SetTarget(Nullable<AggroTarget>)
+  nameWithType.vb: BossRailgunWeapon.SetTarget(Nullable(Of AggroTarget))
+- uid: StormHawks.Runtime.Presenters.Weapons.Boss.BossRailgunWeapon.SetTarget*
+  name: SetTarget
+  href: api/StormHawks.Runtime.Presenters.Weapons.Boss.BossRailgunWeapon.html#StormHawks_Runtime_Presenters_Weapons_Boss_BossRailgunWeapon_SetTarget_
+  commentId: Overload:StormHawks.Runtime.Presenters.Weapons.Boss.BossRailgunWeapon.SetTarget
   isSpec: "True"
-  fullName: StormHawks.Runtime.Presenters.Weapons.ChaserWeaponPresenter.Start
-  nameWithType: ChaserWeaponPresenter.Start
-- uid: StormHawks.Runtime.Presenters.Weapons.EntityWeaponPresenter
-  name: EntityWeaponPresenter
-  href: api/StormHawks.Runtime.Presenters.Weapons.EntityWeaponPresenter.html
-  commentId: T:StormHawks.Runtime.Presenters.Weapons.EntityWeaponPresenter
-  fullName: StormHawks.Runtime.Presenters.Weapons.EntityWeaponPresenter
-  nameWithType: EntityWeaponPresenter
-- uid: StormHawks.Runtime.Presenters.Weapons.EntityWeaponPresenter.Cancel
-  name: Cancel()
-  href: api/StormHawks.Runtime.Presenters.Weapons.EntityWeaponPresenter.html#StormHawks_Runtime_Presenters_Weapons_EntityWeaponPresenter_Cancel
-  commentId: M:StormHawks.Runtime.Presenters.Weapons.EntityWeaponPresenter.Cancel
-  fullName: StormHawks.Runtime.Presenters.Weapons.EntityWeaponPresenter.Cancel()
-  nameWithType: EntityWeaponPresenter.Cancel()
-- uid: StormHawks.Runtime.Presenters.Weapons.EntityWeaponPresenter.Cancel*
-  name: Cancel
-  href: api/StormHawks.Runtime.Presenters.Weapons.EntityWeaponPresenter.html#StormHawks_Runtime_Presenters_Weapons_EntityWeaponPresenter_Cancel_
-  commentId: Overload:StormHawks.Runtime.Presenters.Weapons.EntityWeaponPresenter.Cancel
+  fullName: StormHawks.Runtime.Presenters.Weapons.Boss.BossRailgunWeapon.SetTarget
+  nameWithType: BossRailgunWeapon.SetTarget
+- uid: StormHawks.Runtime.Presenters.Weapons.Boss.BossRailgunWeapon.SpawnRailgun
+  name: SpawnRailgun()
+  href: api/StormHawks.Runtime.Presenters.Weapons.Boss.BossRailgunWeapon.html#StormHawks_Runtime_Presenters_Weapons_Boss_BossRailgunWeapon_SpawnRailgun
+  commentId: M:StormHawks.Runtime.Presenters.Weapons.Boss.BossRailgunWeapon.SpawnRailgun
+  fullName: StormHawks.Runtime.Presenters.Weapons.Boss.BossRailgunWeapon.SpawnRailgun()
+  nameWithType: BossRailgunWeapon.SpawnRailgun()
+- uid: StormHawks.Runtime.Presenters.Weapons.Boss.BossRailgunWeapon.SpawnRailgun*
+  name: SpawnRailgun
+  href: api/StormHawks.Runtime.Presenters.Weapons.Boss.BossRailgunWeapon.html#StormHawks_Runtime_Presenters_Weapons_Boss_BossRailgunWeapon_SpawnRailgun_
+  commentId: Overload:StormHawks.Runtime.Presenters.Weapons.Boss.BossRailgunWeapon.SpawnRailgun
   isSpec: "True"
-  fullName: StormHawks.Runtime.Presenters.Weapons.EntityWeaponPresenter.Cancel
-  nameWithType: EntityWeaponPresenter.Cancel
-- uid: StormHawks.Runtime.Presenters.Weapons.EntityWeaponPresenter.IsFiring
-  name: IsFiring
-  href: api/StormHawks.Runtime.Presenters.Weapons.EntityWeaponPresenter.html#StormHawks_Runtime_Presenters_Weapons_EntityWeaponPresenter_IsFiring
-  commentId: P:StormHawks.Runtime.Presenters.Weapons.EntityWeaponPresenter.IsFiring
-  fullName: StormHawks.Runtime.Presenters.Weapons.EntityWeaponPresenter.IsFiring
-  nameWithType: EntityWeaponPresenter.IsFiring
-- uid: StormHawks.Runtime.Presenters.Weapons.EntityWeaponPresenter.IsFiring*
-  name: IsFiring
-  href: api/StormHawks.Runtime.Presenters.Weapons.EntityWeaponPresenter.html#StormHawks_Runtime_Presenters_Weapons_EntityWeaponPresenter_IsFiring_
-  commentId: Overload:StormHawks.Runtime.Presenters.Weapons.EntityWeaponPresenter.IsFiring
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Presenters.Weapons.EntityWeaponPresenter.IsFiring
-  nameWithType: EntityWeaponPresenter.IsFiring
-- uid: StormHawks.Runtime.Presenters.Weapons.EntityWeaponPresenter.Launch
-  name: Launch()
-  href: api/StormHawks.Runtime.Presenters.Weapons.EntityWeaponPresenter.html#StormHawks_Runtime_Presenters_Weapons_EntityWeaponPresenter_Launch
-  commentId: M:StormHawks.Runtime.Presenters.Weapons.EntityWeaponPresenter.Launch
-  fullName: StormHawks.Runtime.Presenters.Weapons.EntityWeaponPresenter.Launch()
-  nameWithType: EntityWeaponPresenter.Launch()
-- uid: StormHawks.Runtime.Presenters.Weapons.EntityWeaponPresenter.Launch*
-  name: Launch
-  href: api/StormHawks.Runtime.Presenters.Weapons.EntityWeaponPresenter.html#StormHawks_Runtime_Presenters_Weapons_EntityWeaponPresenter_Launch_
-  commentId: Overload:StormHawks.Runtime.Presenters.Weapons.EntityWeaponPresenter.Launch
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Presenters.Weapons.EntityWeaponPresenter.Launch
-  nameWithType: EntityWeaponPresenter.Launch
-- uid: StormHawks.Runtime.Presenters.Weapons.EntityWeaponPresenter.Start
-  name: Start()
-  href: api/StormHawks.Runtime.Presenters.Weapons.EntityWeaponPresenter.html#StormHawks_Runtime_Presenters_Weapons_EntityWeaponPresenter_Start
-  commentId: M:StormHawks.Runtime.Presenters.Weapons.EntityWeaponPresenter.Start
-  fullName: StormHawks.Runtime.Presenters.Weapons.EntityWeaponPresenter.Start()
-  nameWithType: EntityWeaponPresenter.Start()
-- uid: StormHawks.Runtime.Presenters.Weapons.EntityWeaponPresenter.Start*
-  name: Start
-  href: api/StormHawks.Runtime.Presenters.Weapons.EntityWeaponPresenter.html#StormHawks_Runtime_Presenters_Weapons_EntityWeaponPresenter_Start_
-  commentId: Overload:StormHawks.Runtime.Presenters.Weapons.EntityWeaponPresenter.Start
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Presenters.Weapons.EntityWeaponPresenter.Start
-  nameWithType: EntityWeaponPresenter.Start
-- uid: StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter`1
-  name: ProjectileWeaponPresenter<T>
-  href: api/StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter-1.html
-  commentId: T:StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter`1
-  name.vb: ProjectileWeaponPresenter(Of T)
-  fullName: StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter<T>
-  fullName.vb: StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter(Of T)
-  nameWithType: ProjectileWeaponPresenter<T>
-  nameWithType.vb: ProjectileWeaponPresenter(Of T)
-- uid: StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter`1._fire
+  fullName: StormHawks.Runtime.Presenters.Weapons.Boss.BossRailgunWeapon.SpawnRailgun
+  nameWithType: BossRailgunWeapon.SpawnRailgun
+- uid: StormHawks.Runtime.Presenters.Weapons.ChaserWeapon
+  name: ChaserWeapon
+  href: api/StormHawks.Runtime.Presenters.Weapons.ChaserWeapon.html
+  commentId: T:StormHawks.Runtime.Presenters.Weapons.ChaserWeapon
+  fullName: StormHawks.Runtime.Presenters.Weapons.ChaserWeapon
+  nameWithType: ChaserWeapon
+- uid: StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon
+  name: ProjectileWeapon
+  href: api/StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.html
+  commentId: T:StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon
+  fullName: StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon
+  nameWithType: ProjectileWeapon
+- uid: StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon._audioService
+  name: _audioService
+  href: api/StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.html#StormHawks_Runtime_Presenters_Weapons_ProjectileWeapon__audioService
+  commentId: F:StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon._audioService
+  fullName: StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon._audioService
+  nameWithType: ProjectileWeapon._audioService
+- uid: StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon._fire
   name: _fire
-  href: api/StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter-1.html#StormHawks_Runtime_Presenters_Weapons_ProjectileWeaponPresenter_1__fire
-  commentId: F:StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter`1._fire
-  fullName: StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter<T>._fire
-  fullName.vb: StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter(Of T)._fire
-  nameWithType: ProjectileWeaponPresenter<T>._fire
-  nameWithType.vb: ProjectileWeaponPresenter(Of T)._fire
-- uid: StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter`1._launchSFX
+  href: api/StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.html#StormHawks_Runtime_Presenters_Weapons_ProjectileWeapon__fire
+  commentId: F:StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon._fire
+  fullName: StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon._fire
+  nameWithType: ProjectileWeapon._fire
+- uid: StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon._launchSFX
   name: _launchSFX
-  href: api/StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter-1.html#StormHawks_Runtime_Presenters_Weapons_ProjectileWeaponPresenter_1__launchSFX
-  commentId: F:StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter`1._launchSFX
-  fullName: StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter<T>._launchSFX
-  fullName.vb: StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter(Of T)._launchSFX
-  nameWithType: ProjectileWeaponPresenter<T>._launchSFX
-  nameWithType.vb: ProjectileWeaponPresenter(Of T)._launchSFX
-- uid: StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter`1._model
-  name: _model
-  href: api/StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter-1.html#StormHawks_Runtime_Presenters_Weapons_ProjectileWeaponPresenter_1__model
-  commentId: F:StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter`1._model
-  fullName: StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter<T>._model
-  fullName.vb: StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter(Of T)._model
-  nameWithType: ProjectileWeaponPresenter<T>._model
-  nameWithType.vb: ProjectileWeaponPresenter(Of T)._model
-- uid: StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter`1._projectileSpawner
+  href: api/StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.html#StormHawks_Runtime_Presenters_Weapons_ProjectileWeapon__launchSFX
+  commentId: F:StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon._launchSFX
+  fullName: StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon._launchSFX
+  nameWithType: ProjectileWeapon._launchSFX
+- uid: StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon._projectileSpawner
   name: _projectileSpawner
-  href: api/StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter-1.html#StormHawks_Runtime_Presenters_Weapons_ProjectileWeaponPresenter_1__projectileSpawner
-  commentId: F:StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter`1._projectileSpawner
-  fullName: StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter<T>._projectileSpawner
-  fullName.vb: StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter(Of T)._projectileSpawner
-  nameWithType: ProjectileWeaponPresenter<T>._projectileSpawner
-  nameWithType.vb: ProjectileWeaponPresenter(Of T)._projectileSpawner
-- uid: StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter`1.Cancel
+  href: api/StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.html#StormHawks_Runtime_Presenters_Weapons_ProjectileWeapon__projectileSpawner
+  commentId: F:StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon._projectileSpawner
+  fullName: StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon._projectileSpawner
+  nameWithType: ProjectileWeapon._projectileSpawner
+- uid: StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.Cancel
   name: Cancel()
-  href: api/StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter-1.html#StormHawks_Runtime_Presenters_Weapons_ProjectileWeaponPresenter_1_Cancel
-  commentId: M:StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter`1.Cancel
-  fullName: StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter<T>.Cancel()
-  fullName.vb: StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter(Of T).Cancel()
-  nameWithType: ProjectileWeaponPresenter<T>.Cancel()
-  nameWithType.vb: ProjectileWeaponPresenter(Of T).Cancel()
-- uid: StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter`1.Cancel*
+  href: api/StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.html#StormHawks_Runtime_Presenters_Weapons_ProjectileWeapon_Cancel
+  commentId: M:StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.Cancel
+  fullName: StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.Cancel()
+  nameWithType: ProjectileWeapon.Cancel()
+- uid: StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.Cancel*
   name: Cancel
-  href: api/StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter-1.html#StormHawks_Runtime_Presenters_Weapons_ProjectileWeaponPresenter_1_Cancel_
-  commentId: Overload:StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter`1.Cancel
+  href: api/StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.html#StormHawks_Runtime_Presenters_Weapons_ProjectileWeapon_Cancel_
+  commentId: Overload:StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.Cancel
   isSpec: "True"
-  fullName: StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter<T>.Cancel
-  fullName.vb: StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter(Of T).Cancel
-  nameWithType: ProjectileWeaponPresenter<T>.Cancel
-  nameWithType.vb: ProjectileWeaponPresenter(Of T).Cancel
-- uid: StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter`1.Construct(ProjectileSpanwer)
-  name: Construct(ProjectileSpanwer)
-  href: api/StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter-1.html#StormHawks_Runtime_Presenters_Weapons_ProjectileWeaponPresenter_1_Construct_ProjectileSpanwer_
-  commentId: M:StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter`1.Construct(ProjectileSpanwer)
-  fullName: StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter<T>.Construct(ProjectileSpanwer)
-  fullName.vb: StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter(Of T).Construct(ProjectileSpanwer)
-  nameWithType: ProjectileWeaponPresenter<T>.Construct(ProjectileSpanwer)
-  nameWithType.vb: ProjectileWeaponPresenter(Of T).Construct(ProjectileSpanwer)
-- uid: StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter`1.Construct*
+  fullName: StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.Cancel
+  nameWithType: ProjectileWeapon.Cancel
+- uid: StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.CanLaunch
+  name: CanLaunch()
+  href: api/StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.html#StormHawks_Runtime_Presenters_Weapons_ProjectileWeapon_CanLaunch
+  commentId: M:StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.CanLaunch
+  fullName: StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.CanLaunch()
+  nameWithType: ProjectileWeapon.CanLaunch()
+- uid: StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.CanLaunch*
+  name: CanLaunch
+  href: api/StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.html#StormHawks_Runtime_Presenters_Weapons_ProjectileWeapon_CanLaunch_
+  commentId: Overload:StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.CanLaunch
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.CanLaunch
+  nameWithType: ProjectileWeapon.CanLaunch
+- uid: StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.Construct(ProjectileSpanwer,IAudioService)
+  name: Construct(ProjectileSpanwer, IAudioService)
+  href: api/StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.html#StormHawks_Runtime_Presenters_Weapons_ProjectileWeapon_Construct_ProjectileSpanwer_IAudioService_
+  commentId: M:StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.Construct(ProjectileSpanwer,IAudioService)
+  fullName: StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.Construct(ProjectileSpanwer, IAudioService)
+  nameWithType: ProjectileWeapon.Construct(ProjectileSpanwer, IAudioService)
+- uid: StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.Construct*
   name: Construct
-  href: api/StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter-1.html#StormHawks_Runtime_Presenters_Weapons_ProjectileWeaponPresenter_1_Construct_
-  commentId: Overload:StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter`1.Construct
+  href: api/StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.html#StormHawks_Runtime_Presenters_Weapons_ProjectileWeapon_Construct_
+  commentId: Overload:StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.Construct
   isSpec: "True"
-  fullName: StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter<T>.Construct
-  fullName.vb: StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter(Of T).Construct
-  nameWithType: ProjectileWeaponPresenter<T>.Construct
-  nameWithType.vb: ProjectileWeaponPresenter(Of T).Construct
-- uid: StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter`1.Launch
+  fullName: StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.Construct
+  nameWithType: ProjectileWeapon.Construct
+- uid: StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.IsFiring
+  name: IsFiring
+  href: api/StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.html#StormHawks_Runtime_Presenters_Weapons_ProjectileWeapon_IsFiring
+  commentId: P:StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.IsFiring
+  fullName: StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.IsFiring
+  nameWithType: ProjectileWeapon.IsFiring
+- uid: StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.IsFiring*
+  name: IsFiring
+  href: api/StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.html#StormHawks_Runtime_Presenters_Weapons_ProjectileWeapon_IsFiring_
+  commentId: Overload:StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.IsFiring
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.IsFiring
+  nameWithType: ProjectileWeapon.IsFiring
+- uid: StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.Launch
   name: Launch()
-  href: api/StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter-1.html#StormHawks_Runtime_Presenters_Weapons_ProjectileWeaponPresenter_1_Launch
-  commentId: M:StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter`1.Launch
-  fullName: StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter<T>.Launch()
-  fullName.vb: StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter(Of T).Launch()
-  nameWithType: ProjectileWeaponPresenter<T>.Launch()
-  nameWithType.vb: ProjectileWeaponPresenter(Of T).Launch()
-- uid: StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter`1.Launch*
+  href: api/StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.html#StormHawks_Runtime_Presenters_Weapons_ProjectileWeapon_Launch
+  commentId: M:StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.Launch
+  fullName: StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.Launch()
+  nameWithType: ProjectileWeapon.Launch()
+- uid: StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.Launch*
   name: Launch
-  href: api/StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter-1.html#StormHawks_Runtime_Presenters_Weapons_ProjectileWeaponPresenter_1_Launch_
-  commentId: Overload:StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter`1.Launch
+  href: api/StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.html#StormHawks_Runtime_Presenters_Weapons_ProjectileWeapon_Launch_
+  commentId: Overload:StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.Launch
   isSpec: "True"
-  fullName: StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter<T>.Launch
-  fullName.vb: StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter(Of T).Launch
-  nameWithType: ProjectileWeaponPresenter<T>.Launch
-  nameWithType.vb: ProjectileWeaponPresenter(Of T).Launch
-- uid: StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter`1.OnLaunchCompleted
+  fullName: StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.Launch
+  nameWithType: ProjectileWeapon.Launch
+- uid: StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.OnLaunchCompleted
   name: OnLaunchCompleted()
-  href: api/StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter-1.html#StormHawks_Runtime_Presenters_Weapons_ProjectileWeaponPresenter_1_OnLaunchCompleted
-  commentId: M:StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter`1.OnLaunchCompleted
-  fullName: StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter<T>.OnLaunchCompleted()
-  fullName.vb: StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter(Of T).OnLaunchCompleted()
-  nameWithType: ProjectileWeaponPresenter<T>.OnLaunchCompleted()
-  nameWithType.vb: ProjectileWeaponPresenter(Of T).OnLaunchCompleted()
-- uid: StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter`1.OnLaunchCompleted*
+  href: api/StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.html#StormHawks_Runtime_Presenters_Weapons_ProjectileWeapon_OnLaunchCompleted
+  commentId: M:StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.OnLaunchCompleted
+  fullName: StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.OnLaunchCompleted()
+  nameWithType: ProjectileWeapon.OnLaunchCompleted()
+- uid: StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.OnLaunchCompleted*
   name: OnLaunchCompleted
-  href: api/StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter-1.html#StormHawks_Runtime_Presenters_Weapons_ProjectileWeaponPresenter_1_OnLaunchCompleted_
-  commentId: Overload:StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter`1.OnLaunchCompleted
+  href: api/StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.html#StormHawks_Runtime_Presenters_Weapons_ProjectileWeapon_OnLaunchCompleted_
+  commentId: Overload:StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.OnLaunchCompleted
   isSpec: "True"
-  fullName: StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter<T>.OnLaunchCompleted
-  fullName.vb: StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter(Of T).OnLaunchCompleted
-  nameWithType: ProjectileWeaponPresenter<T>.OnLaunchCompleted
-  nameWithType.vb: ProjectileWeaponPresenter(Of T).OnLaunchCompleted
-- uid: StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter`1.Position
+  fullName: StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.OnLaunchCompleted
+  nameWithType: ProjectileWeapon.OnLaunchCompleted
+- uid: StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.Position
   name: Position
-  href: api/StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter-1.html#StormHawks_Runtime_Presenters_Weapons_ProjectileWeaponPresenter_1_Position
-  commentId: P:StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter`1.Position
-  fullName: StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter<T>.Position
-  fullName.vb: StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter(Of T).Position
-  nameWithType: ProjectileWeaponPresenter<T>.Position
-  nameWithType.vb: ProjectileWeaponPresenter(Of T).Position
-- uid: StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter`1.Position*
+  href: api/StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.html#StormHawks_Runtime_Presenters_Weapons_ProjectileWeapon_Position
+  commentId: P:StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.Position
+  fullName: StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.Position
+  nameWithType: ProjectileWeapon.Position
+- uid: StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.Position*
   name: Position
-  href: api/StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter-1.html#StormHawks_Runtime_Presenters_Weapons_ProjectileWeaponPresenter_1_Position_
-  commentId: Overload:StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter`1.Position
+  href: api/StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.html#StormHawks_Runtime_Presenters_Weapons_ProjectileWeapon_Position_
+  commentId: Overload:StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.Position
   isSpec: "True"
-  fullName: StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter<T>.Position
-  fullName.vb: StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter(Of T).Position
-  nameWithType: ProjectileWeaponPresenter<T>.Position
-  nameWithType.vb: ProjectileWeaponPresenter(Of T).Position
-- uid: StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter`1.Rotation
+  fullName: StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.Position
+  nameWithType: ProjectileWeapon.Position
+- uid: StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.Rotation
   name: Rotation
-  href: api/StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter-1.html#StormHawks_Runtime_Presenters_Weapons_ProjectileWeaponPresenter_1_Rotation
-  commentId: P:StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter`1.Rotation
-  fullName: StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter<T>.Rotation
-  fullName.vb: StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter(Of T).Rotation
-  nameWithType: ProjectileWeaponPresenter<T>.Rotation
-  nameWithType.vb: ProjectileWeaponPresenter(Of T).Rotation
-- uid: StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter`1.Rotation*
+  href: api/StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.html#StormHawks_Runtime_Presenters_Weapons_ProjectileWeapon_Rotation
+  commentId: P:StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.Rotation
+  fullName: StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.Rotation
+  nameWithType: ProjectileWeapon.Rotation
+- uid: StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.Rotation*
   name: Rotation
-  href: api/StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter-1.html#StormHawks_Runtime_Presenters_Weapons_ProjectileWeaponPresenter_1_Rotation_
-  commentId: Overload:StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter`1.Rotation
+  href: api/StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.html#StormHawks_Runtime_Presenters_Weapons_ProjectileWeapon_Rotation_
+  commentId: Overload:StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.Rotation
   isSpec: "True"
-  fullName: StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter<T>.Rotation
-  fullName.vb: StormHawks.Runtime.Presenters.Weapons.ProjectileWeaponPresenter(Of T).Rotation
-  nameWithType: ProjectileWeaponPresenter<T>.Rotation
-  nameWithType.vb: ProjectileWeaponPresenter(Of T).Rotation
+  fullName: StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.Rotation
+  nameWithType: ProjectileWeapon.Rotation
 - uid: StormHawks.Runtime.Projectiles
   name: StormHawks.Runtime.Projectiles
   href: api/StormHawks.Runtime.Projectiles.html
@@ -33438,6 +33588,19 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Utilities.Types.RangeValue.Distance
   nameWithType: RangeValue.Distance
+- uid: StormHawks.Runtime.Utilities.Types.RangeValue.GetRandomValue
+  name: GetRandomValue()
+  href: api/StormHawks.Runtime.Utilities.Types.RangeValue.html#StormHawks_Runtime_Utilities_Types_RangeValue_GetRandomValue
+  commentId: M:StormHawks.Runtime.Utilities.Types.RangeValue.GetRandomValue
+  fullName: StormHawks.Runtime.Utilities.Types.RangeValue.GetRandomValue()
+  nameWithType: RangeValue.GetRandomValue()
+- uid: StormHawks.Runtime.Utilities.Types.RangeValue.GetRandomValue*
+  name: GetRandomValue
+  href: api/StormHawks.Runtime.Utilities.Types.RangeValue.html#StormHawks_Runtime_Utilities_Types_RangeValue_GetRandomValue_
+  commentId: Overload:StormHawks.Runtime.Utilities.Types.RangeValue.GetRandomValue
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Utilities.Types.RangeValue.GetRandomValue
+  nameWithType: RangeValue.GetRandomValue
 - uid: StormHawks.Runtime.Utilities.Types.RangeValue.IgnoreRange(System.Single)
   name: IgnoreRange(Single)
   href: api/StormHawks.Runtime.Utilities.Types.RangeValue.html#StormHawks_Runtime_Utilities_Types_RangeValue_IgnoreRange_System_Single_
@@ -33709,6 +33872,19 @@ references:
   commentId: T:StormHawks.Runtime.Utilities.Values.AggroTarget
   fullName: StormHawks.Runtime.Utilities.Values.AggroTarget
   nameWithType: AggroTarget
+- uid: StormHawks.Runtime.Utilities.Values.AggroTarget.Position
+  name: Position
+  href: api/StormHawks.Runtime.Utilities.Values.AggroTarget.html#StormHawks_Runtime_Utilities_Values_AggroTarget_Position
+  commentId: P:StormHawks.Runtime.Utilities.Values.AggroTarget.Position
+  fullName: StormHawks.Runtime.Utilities.Values.AggroTarget.Position
+  nameWithType: AggroTarget.Position
+- uid: StormHawks.Runtime.Utilities.Values.AggroTarget.Position*
+  name: Position
+  href: api/StormHawks.Runtime.Utilities.Values.AggroTarget.html#StormHawks_Runtime_Utilities_Values_AggroTarget_Position_
+  commentId: Overload:StormHawks.Runtime.Utilities.Values.AggroTarget.Position
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Utilities.Values.AggroTarget.Position
+  nameWithType: AggroTarget.Position
 - uid: StormHawks.Runtime.Utilities.Values.AggroTarget.Priority
   name: Priority
   href: api/StormHawks.Runtime.Utilities.Values.AggroTarget.html#StormHawks_Runtime_Utilities_Values_AggroTarget_Priority

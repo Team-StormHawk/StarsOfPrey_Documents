@@ -21266,6 +21266,12 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Models.Projectiles.BossMissileModel.ManageRotationSpeed
   nameWithType: BossMissileModel.ManageRotationSpeed
+- uid: StormHawks.Runtime.Models.Projectiles.BossMissileModel.OnStraightMoveCompleted
+  name: OnStraightMoveCompleted
+  href: api/StormHawks.Runtime.Models.Projectiles.BossMissileModel.html#StormHawks_Runtime_Models_Projectiles_BossMissileModel_OnStraightMoveCompleted
+  commentId: E:StormHawks.Runtime.Models.Projectiles.BossMissileModel.OnStraightMoveCompleted
+  fullName: StormHawks.Runtime.Models.Projectiles.BossMissileModel.OnStraightMoveCompleted
+  nameWithType: BossMissileModel.OnStraightMoveCompleted
 - uid: StormHawks.Runtime.Models.Projectiles.BossMissileModel.ReleaseAggroTarget
   name: ReleaseAggroTarget()
   href: api/StormHawks.Runtime.Models.Projectiles.BossMissileModel.html#StormHawks_Runtime_Models_Projectiles_BossMissileModel_ReleaseAggroTarget
@@ -24778,6 +24784,59 @@ references:
   commentId: E:StormHawks.Runtime.Presenters.Fires.AutomaticFire.OnFire
   fullName: StormHawks.Runtime.Presenters.Fires.AutomaticFire.OnFire
   nameWithType: AutomaticFire.OnFire
+- uid: StormHawks.Runtime.Presenters.Fires.ChargingFire
+  name: ChargingFire
+  href: api/StormHawks.Runtime.Presenters.Fires.ChargingFire.html
+  commentId: T:StormHawks.Runtime.Presenters.Fires.ChargingFire
+  fullName: StormHawks.Runtime.Presenters.Fires.ChargingFire
+  nameWithType: ChargingFire
+- uid: StormHawks.Runtime.Presenters.Fires.ChargingFire.#ctor(Func{ProjectilePresenter},ProjectileWeaponSettings)
+  name: ChargingFire(Func<ProjectilePresenter>, ProjectileWeaponSettings)
+  href: api/StormHawks.Runtime.Presenters.Fires.ChargingFire.html#StormHawks_Runtime_Presenters_Fires_ChargingFire__ctor_Func_ProjectilePresenter__ProjectileWeaponSettings_
+  commentId: M:StormHawks.Runtime.Presenters.Fires.ChargingFire.#ctor(Func{ProjectilePresenter},ProjectileWeaponSettings)
+  name.vb: ChargingFire(Func(Of ProjectilePresenter), ProjectileWeaponSettings)
+  fullName: StormHawks.Runtime.Presenters.Fires.ChargingFire.ChargingFire(Func<ProjectilePresenter>, ProjectileWeaponSettings)
+  fullName.vb: StormHawks.Runtime.Presenters.Fires.ChargingFire.ChargingFire(Func(Of ProjectilePresenter), ProjectileWeaponSettings)
+  nameWithType: ChargingFire.ChargingFire(Func<ProjectilePresenter>, ProjectileWeaponSettings)
+  nameWithType.vb: ChargingFire.ChargingFire(Func(Of ProjectilePresenter), ProjectileWeaponSettings)
+- uid: StormHawks.Runtime.Presenters.Fires.ChargingFire.#ctor*
+  name: ChargingFire
+  href: api/StormHawks.Runtime.Presenters.Fires.ChargingFire.html#StormHawks_Runtime_Presenters_Fires_ChargingFire__ctor_
+  commentId: Overload:StormHawks.Runtime.Presenters.Fires.ChargingFire.#ctor
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.Fires.ChargingFire.ChargingFire
+  nameWithType: ChargingFire.ChargingFire
+- uid: StormHawks.Runtime.Presenters.Fires.ChargingFire.FireTask(CancellationToken)
+  name: FireTask(CancellationToken)
+  href: api/StormHawks.Runtime.Presenters.Fires.ChargingFire.html#StormHawks_Runtime_Presenters_Fires_ChargingFire_FireTask_CancellationToken_
+  commentId: M:StormHawks.Runtime.Presenters.Fires.ChargingFire.FireTask(CancellationToken)
+  fullName: StormHawks.Runtime.Presenters.Fires.ChargingFire.FireTask(CancellationToken)
+  nameWithType: ChargingFire.FireTask(CancellationToken)
+- uid: StormHawks.Runtime.Presenters.Fires.ChargingFire.FireTask*
+  name: FireTask
+  href: api/StormHawks.Runtime.Presenters.Fires.ChargingFire.html#StormHawks_Runtime_Presenters_Fires_ChargingFire_FireTask_
+  commentId: Overload:StormHawks.Runtime.Presenters.Fires.ChargingFire.FireTask
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.Fires.ChargingFire.FireTask
+  nameWithType: ChargingFire.FireTask
+- uid: StormHawks.Runtime.Presenters.Fires.ChargingFire.OnBeforeFire
+  name: OnBeforeFire
+  href: api/StormHawks.Runtime.Presenters.Fires.ChargingFire.html#StormHawks_Runtime_Presenters_Fires_ChargingFire_OnBeforeFire
+  commentId: E:StormHawks.Runtime.Presenters.Fires.ChargingFire.OnBeforeFire
+  fullName: StormHawks.Runtime.Presenters.Fires.ChargingFire.OnBeforeFire
+  nameWithType: ChargingFire.OnBeforeFire
+- uid: StormHawks.Runtime.Presenters.Fires.ChargingFire.OnComplete
+  name: OnComplete
+  href: api/StormHawks.Runtime.Presenters.Fires.ChargingFire.html#StormHawks_Runtime_Presenters_Fires_ChargingFire_OnComplete
+  commentId: E:StormHawks.Runtime.Presenters.Fires.ChargingFire.OnComplete
+  fullName: StormHawks.Runtime.Presenters.Fires.ChargingFire.OnComplete
+  nameWithType: ChargingFire.OnComplete
+- uid: StormHawks.Runtime.Presenters.Fires.ChargingFire.OnFire
+  name: OnFire
+  href: api/StormHawks.Runtime.Presenters.Fires.ChargingFire.html#StormHawks_Runtime_Presenters_Fires_ChargingFire_OnFire
+  commentId: E:StormHawks.Runtime.Presenters.Fires.ChargingFire.OnFire
+  fullName: StormHawks.Runtime.Presenters.Fires.ChargingFire.OnFire
+  nameWithType: ChargingFire.OnFire
 - uid: StormHawks.Runtime.Presenters.Fires.IProjectileFire
   name: IProjectileFire
   href: api/StormHawks.Runtime.Presenters.Fires.IProjectileFire.html

@@ -100,13 +100,13 @@
   </h3>
   
   
-  <a id="StormHawks_Runtime_Players_PlayerContext_Health_" data-uid="StormHawks.Runtime.Players.PlayerContext.Health*"></a>
-  <h4 id="StormHawks_Runtime_Players_PlayerContext_Health" data-uid="StormHawks.Runtime.Players.PlayerContext.Health">Health</h4>
+  <a id="StormHawks_Runtime_Players_PlayerContext_AggroTarget_" data-uid="StormHawks.Runtime.Players.PlayerContext.AggroTarget*"></a>
+  <h4 id="StormHawks_Runtime_Players_PlayerContext_AggroTarget" data-uid="StormHawks.Runtime.Players.PlayerContext.AggroTarget">AggroTarget</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PlayerHealth Health { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public IAggressiveTargetable AggroTarget { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -118,20 +118,20 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="StormHawks.Runtime.Players.PlayerHealth.html">PlayerHealth</a></td>
+        <td><span class="xref">IAggressiveTargetable</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="StormHawks_Runtime_Players_PlayerContext_PlayerObject_" data-uid="StormHawks.Runtime.Players.PlayerContext.PlayerObject*"></a>
-  <h4 id="StormHawks_Runtime_Players_PlayerContext_PlayerObject" data-uid="StormHawks.Runtime.Players.PlayerContext.PlayerObject">PlayerObject</h4>
+  <a id="StormHawks_Runtime_Players_PlayerContext_Health_" data-uid="StormHawks.Runtime.Players.PlayerContext.Health*"></a>
+  <h4 id="StormHawks_Runtime_Players_PlayerContext_Health" data-uid="StormHawks.Runtime.Players.PlayerContext.Health">Health</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GameObject PlayerObject { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public IHasHealth Health { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -143,7 +143,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">GameObject</span></td>
+        <td><span class="xref">IHasHealth</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -223,31 +223,6 @@
       </tr>
     </tbody>
   </table>
-  
-  
-  <a id="StormHawks_Runtime_Players_PlayerContext_Velocity_" data-uid="StormHawks.Runtime.Players.PlayerContext.Velocity*"></a>
-  <h4 id="StormHawks_Runtime_Players_PlayerContext_Velocity" data-uid="StormHawks.Runtime.Players.PlayerContext.Velocity">Velocity</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Vector3 Velocity { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Vector3</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="methods">Methods
   </h3>
   
@@ -258,7 +233,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Initialize(Transform trs, Rigidbody rig)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Initialize(Transform transform, Rigidbody rigidbody)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -272,25 +247,25 @@
     <tbody>
       <tr>
         <td><span class="xref">Transform</span></td>
-        <td><span class="parametername">trs</span></td>
+        <td><span class="parametername">transform</span></td>
         <td></td>
       </tr>
       <tr>
         <td><span class="xref">Rigidbody</span></td>
-        <td><span class="parametername">rig</span></td>
+        <td><span class="parametername">rigidbody</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="StormHawks_Runtime_Players_PlayerContext_SetHealth_" data-uid="StormHawks.Runtime.Players.PlayerContext.SetHealth*"></a>
-  <h4 id="StormHawks_Runtime_Players_PlayerContext_SetHealth_StormHawks_Runtime_Players_PlayerHealth_" data-uid="StormHawks.Runtime.Players.PlayerContext.SetHealth(StormHawks.Runtime.Players.PlayerHealth)">SetHealth(PlayerHealth)</h4>
+  <a id="StormHawks_Runtime_Players_PlayerContext_SetAggroTarget_" data-uid="StormHawks.Runtime.Players.PlayerContext.SetAggroTarget*"></a>
+  <h4 id="StormHawks_Runtime_Players_PlayerContext_SetAggroTarget_IAggressiveTargetable_" data-uid="StormHawks.Runtime.Players.PlayerContext.SetAggroTarget(IAggressiveTargetable)">SetAggroTarget(IAggressiveTargetable)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetHealth(PlayerHealth health)</code></pre>
+    <pre><code class="lang-csharp hljs">public void SetAggroTarget(IAggressiveTargetable aggroTarget)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -303,7 +278,34 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="StormHawks.Runtime.Players.PlayerHealth.html">PlayerHealth</a></td>
+        <td><span class="xref">IAggressiveTargetable</span></td>
+        <td><span class="parametername">aggroTarget</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StormHawks_Runtime_Players_PlayerContext_SetHealth_" data-uid="StormHawks.Runtime.Players.PlayerContext.SetHealth*"></a>
+  <h4 id="StormHawks_Runtime_Players_PlayerContext_SetHealth_IHasHealth_" data-uid="StormHawks.Runtime.Players.PlayerContext.SetHealth(IHasHealth)">SetHealth(IHasHealth)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetHealth(IHasHealth health)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IHasHealth</span></td>
         <td><span class="parametername">health</span></td>
         <td></td>
       </tr>

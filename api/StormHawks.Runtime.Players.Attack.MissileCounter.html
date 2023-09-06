@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class BossPresenter
+    <title>Class MissileCounter
    | Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class BossPresenter
+    <meta name="title" content="Class MissileCounter
    | Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -78,50 +78,35 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Presenters.Entities.BossPresenter">
+            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Players.Attack.MissileCounter">
   
   
-  <h1 id="StormHawks_Runtime_Presenters_Entities_BossPresenter" data-uid="StormHawks.Runtime.Presenters.Entities.BossPresenter" class="text-break">Class BossPresenter
+  <h1 id="StormHawks_Runtime_Players_Attack_MissileCounter" data-uid="StormHawks.Runtime.Players.Attack.MissileCounter" class="text-break">Class MissileCounter
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><a class="xref" href="StormHawks.Runtime.Presenters.Entities.EntityPresenter.html">EntityPresenter</a></div>
-    <div class="level2"><a class="xref" href="StormHawks.Runtime.Presenters.Entities.BTEntityPresenter.html">BTEntityPresenter</a></div>
-    <div class="level3"><span class="xref">BossPresenter</span></div>
+    <div class="level1"><span class="xref">MissileCounter</span></div>
   </div>
-  <div class="implements">
-    <h5>Implements</h5>
-    <div><span class="xref">IAggressiveRx</span></div>
-  </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <a class="xref" href="StormHawks.Runtime.Presenters.Entities.BTEntityPresenter.html#StormHawks_Runtime_Presenters_Entities_BTEntityPresenter__runner">BTEntityPresenter._runner</a>
-    </div>
-    <div>
-      <a class="xref" href="StormHawks.Runtime.Presenters.Entities.BTEntityPresenter.html#StormHawks_Runtime_Presenters_Entities_BTEntityPresenter_SetBlackboardValue__1_System_String___0_">BTEntityPresenter.SetBlackboardValue&lt;T&gt;(String, T)</a>
-    </div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Presenters.Entities.html">StormHawks.Runtime.Presenters.Entities</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Players.Attack.html">StormHawks.Runtime.Players.Attack</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="StormHawks_Runtime_Presenters_Entities_BossPresenter_syntax">Syntax</h5>
+  <h5 id="StormHawks_Runtime_Players_Attack_MissileCounter_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class BossPresenter : BTEntityPresenter, IAggressiveRx</code></pre>
+    <pre><code class="lang-csharp hljs">public class MissileCounter : ScriptableObject</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
   
   
-  <a id="StormHawks_Runtime_Presenters_Entities_BossPresenter_IsAggressive_" data-uid="StormHawks.Runtime.Presenters.Entities.BossPresenter.IsAggressive*"></a>
-  <h4 id="StormHawks_Runtime_Presenters_Entities_BossPresenter_IsAggressive" data-uid="StormHawks.Runtime.Presenters.Entities.BossPresenter.IsAggressive">IsAggressive</h4>
+  <a id="StormHawks_Runtime_Players_Attack_MissileCounter_CurrentMissileCount_" data-uid="StormHawks.Runtime.Players.Attack.MissileCounter.CurrentMissileCount*"></a>
+  <h4 id="StormHawks_Runtime_Players_Attack_MissileCounter_CurrentMissileCount" data-uid="StormHawks.Runtime.Players.Attack.MissileCounter.CurrentMissileCount">CurrentMissileCount</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool IsAggressive { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public IReadOnlyReactiveProperty&lt;int&gt; CurrentMissileCount { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -133,20 +118,20 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="xref">IReadOnlyReactiveProperty</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="StormHawks_Runtime_Presenters_Entities_BossPresenter_OnAggressive_" data-uid="StormHawks.Runtime.Presenters.Entities.BossPresenter.OnAggressive*"></a>
-  <h4 id="StormHawks_Runtime_Presenters_Entities_BossPresenter_OnAggressive" data-uid="StormHawks.Runtime.Presenters.Entities.BossPresenter.OnAggressive">OnAggressive</h4>
+  <a id="StormHawks_Runtime_Players_Attack_MissileCounter_MaxMissileCount_" data-uid="StormHawks.Runtime.Players.Attack.MissileCounter.MaxMissileCount*"></a>
+  <h4 id="StormHawks_Runtime_Players_Attack_MissileCounter_MaxMissileCount" data-uid="StormHawks.Runtime.Players.Attack.MissileCounter.MaxMissileCount">MaxMissileCount</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IObservable&lt;AggroTarget?&gt; OnAggressive { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public int MaxMissileCount { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -158,82 +143,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IObservable</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<span class="xref">AggroTarget</span>&gt;&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="StormHawks_Runtime_Presenters_Entities_BossPresenter_Position_" data-uid="StormHawks.Runtime.Presenters.Entities.BossPresenter.Position*"></a>
-  <h4 id="StormHawks_Runtime_Presenters_Entities_BossPresenter_Position" data-uid="StormHawks.Runtime.Presenters.Entities.BossPresenter.Position">Position</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Vector3 Position { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Vector3</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="StormHawks_Runtime_Presenters_Entities_BossPresenter_Rotation_" data-uid="StormHawks.Runtime.Presenters.Entities.BossPresenter.Rotation*"></a>
-  <h4 id="StormHawks_Runtime_Presenters_Entities_BossPresenter_Rotation" data-uid="StormHawks.Runtime.Presenters.Entities.BossPresenter.Rotation">Rotation</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Quaternion Rotation { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Quaternion</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="StormHawks_Runtime_Presenters_Entities_BossPresenter_Transform_" data-uid="StormHawks.Runtime.Presenters.Entities.BossPresenter.Transform*"></a>
-  <h4 id="StormHawks_Runtime_Presenters_Entities_BossPresenter_Transform" data-uid="StormHawks.Runtime.Presenters.Entities.BossPresenter.Transform">Transform</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Transform Transform { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Transform</span></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -242,13 +152,13 @@
   </h3>
   
   
-  <a id="StormHawks_Runtime_Presenters_Entities_BossPresenter_Construct_" data-uid="StormHawks.Runtime.Presenters.Entities.BossPresenter.Construct*"></a>
-  <h4 id="StormHawks_Runtime_Presenters_Entities_BossPresenter_Construct_EntitySpawner_IObjectResolver_" data-uid="StormHawks.Runtime.Presenters.Entities.BossPresenter.Construct(EntitySpawner,IObjectResolver)">Construct(EntitySpawner, IObjectResolver)</h4>
+  <a id="StormHawks_Runtime_Players_Attack_MissileCounter_Reload_" data-uid="StormHawks.Runtime.Players.Attack.MissileCounter.Reload*"></a>
+  <h4 id="StormHawks_Runtime_Players_Attack_MissileCounter_Reload_System_Int32_System_Single_" data-uid="StormHawks.Runtime.Players.Attack.MissileCounter.Reload(System.Int32,System.Single)">Reload(Int32, Single)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Construct(EntitySpawner entitySpawner, IObjectResolver resolver)</code></pre>
+    <pre><code class="lang-csharp hljs">public async UniTaskVoid Reload(int count, float delay)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -261,36 +171,51 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">EntitySpawner</span></td>
-        <td><span class="parametername">entitySpawner</span></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">count</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">IObjectResolver</span></td>
-        <td><span class="parametername">resolver</span></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">delay</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UniTaskVoid</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="StormHawks_Runtime_Presenters_Entities_BossPresenter_ReleaseAggro_" data-uid="StormHawks.Runtime.Presenters.Entities.BossPresenter.ReleaseAggro*"></a>
-  <h4 id="StormHawks_Runtime_Presenters_Entities_BossPresenter_ReleaseAggro" data-uid="StormHawks.Runtime.Presenters.Entities.BossPresenter.ReleaseAggro">ReleaseAggro()</h4>
+  <a id="StormHawks_Runtime_Players_Attack_MissileCounter_ResetCount_" data-uid="StormHawks.Runtime.Players.Attack.MissileCounter.ResetCount*"></a>
+  <h4 id="StormHawks_Runtime_Players_Attack_MissileCounter_ResetCount" data-uid="StormHawks.Runtime.Players.Attack.MissileCounter.ResetCount">ResetCount()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void ReleaseAggro()</code></pre>
+    <pre><code class="lang-csharp hljs">public void ResetCount()</code></pre>
   </div>
   
   
-  <a id="StormHawks_Runtime_Presenters_Entities_BossPresenter_SetAggroTarget_" data-uid="StormHawks.Runtime.Presenters.Entities.BossPresenter.SetAggroTarget*"></a>
-  <h4 id="StormHawks_Runtime_Presenters_Entities_BossPresenter_SetAggroTarget_AggroTarget_" data-uid="StormHawks.Runtime.Presenters.Entities.BossPresenter.SetAggroTarget(AggroTarget)">SetAggroTarget(AggroTarget)</h4>
+  <a id="StormHawks_Runtime_Players_Attack_MissileCounter_SetMaxCount_" data-uid="StormHawks.Runtime.Players.Attack.MissileCounter.SetMaxCount*"></a>
+  <h4 id="StormHawks_Runtime_Players_Attack_MissileCounter_SetMaxCount_System_Int32_" data-uid="StormHawks.Runtime.Players.Attack.MissileCounter.SetMaxCount(System.Int32)">SetMaxCount(Int32)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetAggroTarget(AggroTarget target)</code></pre>
+    <pre><code class="lang-csharp hljs">public void SetMaxCount(int count)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -303,16 +228,65 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">AggroTarget</span></td>
-        <td><span class="parametername">target</span></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">count</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <span class="xref">IAggressiveRx</span>
+  
+  
+  <a id="StormHawks_Runtime_Players_Attack_MissileCounter_Use_" data-uid="StormHawks.Runtime.Players.Attack.MissileCounter.Use*"></a>
+  <h4 id="StormHawks_Runtime_Players_Attack_MissileCounter_Use_System_Int32_" data-uid="StormHawks.Runtime.Players.Attack.MissileCounter.Use(System.Int32)">Use(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Use(int count)</code></pre>
   </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">count</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="events">Events
+  </h3>
+  
+  
+  <h4 id="StormHawks_Runtime_Players_Attack_MissileCounter_OnMissileCountDecreased" data-uid="StormHawks.Runtime.Players.Attack.MissileCounter.OnMissileCountDecreased">OnMissileCountDecreased</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action&lt;int&gt; OnMissileCountDecreased</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           

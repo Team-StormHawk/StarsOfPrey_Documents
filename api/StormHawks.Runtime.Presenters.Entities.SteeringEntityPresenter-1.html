@@ -95,7 +95,7 @@
   </div>
   <div class="implements">
     <h5>Implements</h5>
-    <div><a class="xref" href="StormHawks.Runtime.Presenters.Entities.ISteeringEntity.html">ISteeringEntity</a></div>
+    <div><span class="xref">ISteeringEntity</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -110,7 +110,7 @@
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="StormHawks_Runtime_Presenters_Entities_SteeringEntityPresenter_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class SteeringEntityPresenter&lt;T&gt; : BTEntityPresenter, ISteeringEntity where T : SteeringEntityModel</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class SteeringEntityPresenter&lt;T&gt; : BTEntityPresenter where T : SteeringEntityModel</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -253,17 +253,68 @@
       </tr>
     </tbody>
   </table>
+  
+  
+  <a id="StormHawks_Runtime_Presenters_Entities_SteeringEntityPresenter_1_Rigidbody_" data-uid="StormHawks.Runtime.Presenters.Entities.SteeringEntityPresenter`1.Rigidbody*"></a>
+  <h4 id="StormHawks_Runtime_Presenters_Entities_SteeringEntityPresenter_1_Rigidbody" data-uid="StormHawks.Runtime.Presenters.Entities.SteeringEntityPresenter`1.Rigidbody">Rigidbody</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Rigidbody Rigidbody { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Rigidbody</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StormHawks_Runtime_Presenters_Entities_SteeringEntityPresenter_1_SpeedRange_" data-uid="StormHawks.Runtime.Presenters.Entities.SteeringEntityPresenter`1.SpeedRange*"></a>
+  <h4 id="StormHawks_Runtime_Presenters_Entities_SteeringEntityPresenter_1_SpeedRange" data-uid="StormHawks.Runtime.Presenters.Entities.SteeringEntityPresenter`1.SpeedRange">SpeedRange</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RangeValue SpeedRange { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">RangeValue</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
   </h3>
   
   
   <a id="StormHawks_Runtime_Presenters_Entities_SteeringEntityPresenter_1_AddSteeringForce_" data-uid="StormHawks.Runtime.Presenters.Entities.SteeringEntityPresenter`1.AddSteeringForce*"></a>
-  <h4 id="StormHawks_Runtime_Presenters_Entities_SteeringEntityPresenter_1_AddSteeringForce_SteeringForce_" data-uid="StormHawks.Runtime.Presenters.Entities.SteeringEntityPresenter`1.AddSteeringForce(SteeringForce)">AddSteeringForce(SteeringForce)</h4>
+  <h4 id="StormHawks_Runtime_Presenters_Entities_SteeringEntityPresenter_1_AddSteeringForce__1___0_" data-uid="StormHawks.Runtime.Presenters.Entities.SteeringEntityPresenter`1.AddSteeringForce``1(``0)">AddSteeringForce&lt;T1&gt;(T1)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void AddSteeringForce(SteeringForce force)</code></pre>
+    <pre><code class="lang-csharp hljs">public void AddSteeringForce&lt;T1&gt;(T1 force)
+    where T1 : SteeringForce</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -276,8 +327,23 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">SteeringForce</span></td>
+        <td><span class="xref">T1</span></td>
         <td><span class="parametername">force</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -294,13 +360,14 @@
   </div>
   
   
-  <a id="StormHawks_Runtime_Presenters_Entities_SteeringEntityPresenter_1_RemoveSteeringForce_" data-uid="StormHawks.Runtime.Presenters.Entities.SteeringEntityPresenter`1.RemoveSteeringForce*"></a>
-  <h4 id="StormHawks_Runtime_Presenters_Entities_SteeringEntityPresenter_1_RemoveSteeringForce_SteeringForce_" data-uid="StormHawks.Runtime.Presenters.Entities.SteeringEntityPresenter`1.RemoveSteeringForce(SteeringForce)">RemoveSteeringForce(SteeringForce)</h4>
+  <a id="StormHawks_Runtime_Presenters_Entities_SteeringEntityPresenter_1_ContainSteeringForce_" data-uid="StormHawks.Runtime.Presenters.Entities.SteeringEntityPresenter`1.ContainSteeringForce*"></a>
+  <h4 id="StormHawks_Runtime_Presenters_Entities_SteeringEntityPresenter_1_ContainSteeringForce__1___0_" data-uid="StormHawks.Runtime.Presenters.Entities.SteeringEntityPresenter`1.ContainSteeringForce``1(``0)">ContainSteeringForce&lt;T1&gt;(T1)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void RemoveSteeringForce(SteeringForce force)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool ContainSteeringForce&lt;T1&gt;(T1 force)
+    where T1 : SteeringForce</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -313,8 +380,91 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">SteeringForce</span></td>
+        <td><span class="xref">T1</span></td>
         <td><span class="parametername">force</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StormHawks_Runtime_Presenters_Entities_SteeringEntityPresenter_1_RemoveAllForces_" data-uid="StormHawks.Runtime.Presenters.Entities.SteeringEntityPresenter`1.RemoveAllForces*"></a>
+  <h4 id="StormHawks_Runtime_Presenters_Entities_SteeringEntityPresenter_1_RemoveAllForces" data-uid="StormHawks.Runtime.Presenters.Entities.SteeringEntityPresenter`1.RemoveAllForces">RemoveAllForces()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RemoveAllForces()</code></pre>
+  </div>
+  
+  
+  <a id="StormHawks_Runtime_Presenters_Entities_SteeringEntityPresenter_1_RemoveSteeringForce_" data-uid="StormHawks.Runtime.Presenters.Entities.SteeringEntityPresenter`1.RemoveSteeringForce*"></a>
+  <h4 id="StormHawks_Runtime_Presenters_Entities_SteeringEntityPresenter_1_RemoveSteeringForce__1___0_" data-uid="StormHawks.Runtime.Presenters.Entities.SteeringEntityPresenter`1.RemoveSteeringForce``1(``0)">RemoveSteeringForce&lt;T1&gt;(T1)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RemoveSteeringForce&lt;T1&gt;(T1 force)
+    where T1 : SteeringForce</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T1</span></td>
+        <td><span class="parametername">force</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -341,7 +491,7 @@
   </div>
   <h3 id="implements">Implements</h3>
   <div>
-      <a class="xref" href="StormHawks.Runtime.Presenters.Entities.ISteeringEntity.html">ISteeringEntity</a>
+      <span class="xref">ISteeringEntity</span>
   </div>
 </article>
           </div>

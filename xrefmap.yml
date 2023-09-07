@@ -4597,6 +4597,24 @@ references:
   fullName.vb: StormHawks.Runtime.Detectors.Handlers.DetectorHandlerBase(Of T).RemoveDetected
   nameWithType: DetectorHandlerBase<T>.RemoveDetected
   nameWithType.vb: DetectorHandlerBase(Of T).RemoveDetected
+- uid: StormHawks.Runtime.Detectors.Handlers.DetectorHandlerBase`1.TryGetDetectedList(List{`0}@,System.Int32)
+  name: TryGetDetectedList(out List<T>, Int32)
+  href: api/StormHawks.Runtime.Detectors.Handlers.DetectorHandlerBase-1.html#StormHawks_Runtime_Detectors_Handlers_DetectorHandlerBase_1_TryGetDetectedList_List__0___System_Int32_
+  commentId: M:StormHawks.Runtime.Detectors.Handlers.DetectorHandlerBase`1.TryGetDetectedList(List{`0}@,System.Int32)
+  name.vb: TryGetDetectedList(ByRef List(Of T), Int32)
+  fullName: StormHawks.Runtime.Detectors.Handlers.DetectorHandlerBase<T>.TryGetDetectedList(out List<T>, System.Int32)
+  fullName.vb: StormHawks.Runtime.Detectors.Handlers.DetectorHandlerBase(Of T).TryGetDetectedList(ByRef List(Of T), System.Int32)
+  nameWithType: DetectorHandlerBase<T>.TryGetDetectedList(out List<T>, Int32)
+  nameWithType.vb: DetectorHandlerBase(Of T).TryGetDetectedList(ByRef List(Of T), Int32)
+- uid: StormHawks.Runtime.Detectors.Handlers.DetectorHandlerBase`1.TryGetDetectedList*
+  name: TryGetDetectedList
+  href: api/StormHawks.Runtime.Detectors.Handlers.DetectorHandlerBase-1.html#StormHawks_Runtime_Detectors_Handlers_DetectorHandlerBase_1_TryGetDetectedList_
+  commentId: Overload:StormHawks.Runtime.Detectors.Handlers.DetectorHandlerBase`1.TryGetDetectedList
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Detectors.Handlers.DetectorHandlerBase<T>.TryGetDetectedList
+  fullName.vb: StormHawks.Runtime.Detectors.Handlers.DetectorHandlerBase(Of T).TryGetDetectedList
+  nameWithType: DetectorHandlerBase<T>.TryGetDetectedList
+  nameWithType.vb: DetectorHandlerBase(Of T).TryGetDetectedList
 - uid: StormHawks.Runtime.Detectors.Handlers.EntityDetectorHandler
   name: EntityDetectorHandler
   href: api/StormHawks.Runtime.Detectors.Handlers.EntityDetectorHandler.html
@@ -20811,25 +20829,6 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.LifetimeScopes.GameLifetimeScope.Configure
   nameWithType: GameLifetimeScope.Configure
-- uid: StormHawks.Runtime.LifetimeScopes.PlayerLifetimeScope
-  name: PlayerLifetimeScope
-  href: api/StormHawks.Runtime.LifetimeScopes.PlayerLifetimeScope.html
-  commentId: T:StormHawks.Runtime.LifetimeScopes.PlayerLifetimeScope
-  fullName: StormHawks.Runtime.LifetimeScopes.PlayerLifetimeScope
-  nameWithType: PlayerLifetimeScope
-- uid: StormHawks.Runtime.LifetimeScopes.PlayerLifetimeScope.Configure(IContainerBuilder)
-  name: Configure(IContainerBuilder)
-  href: api/StormHawks.Runtime.LifetimeScopes.PlayerLifetimeScope.html#StormHawks_Runtime_LifetimeScopes_PlayerLifetimeScope_Configure_IContainerBuilder_
-  commentId: M:StormHawks.Runtime.LifetimeScopes.PlayerLifetimeScope.Configure(IContainerBuilder)
-  fullName: StormHawks.Runtime.LifetimeScopes.PlayerLifetimeScope.Configure(IContainerBuilder)
-  nameWithType: PlayerLifetimeScope.Configure(IContainerBuilder)
-- uid: StormHawks.Runtime.LifetimeScopes.PlayerLifetimeScope.Configure*
-  name: Configure
-  href: api/StormHawks.Runtime.LifetimeScopes.PlayerLifetimeScope.html#StormHawks_Runtime_LifetimeScopes_PlayerLifetimeScope_Configure_
-  commentId: Overload:StormHawks.Runtime.LifetimeScopes.PlayerLifetimeScope.Configure
-  isSpec: "True"
-  fullName: StormHawks.Runtime.LifetimeScopes.PlayerLifetimeScope.Configure
-  nameWithType: PlayerLifetimeScope.Configure
 - uid: StormHawks.Runtime.LifetimeScopes.RootLifetimeScope
   name: RootLifetimeScope
   href: api/StormHawks.Runtime.LifetimeScopes.RootLifetimeScope.html
@@ -22239,77 +22238,67 @@ references:
   commentId: N:StormHawks.Runtime.Players.Attack
   fullName: StormHawks.Runtime.Players.Attack
   nameWithType: StormHawks.Runtime.Players.Attack
-- uid: StormHawks.Runtime.Players.Attack.AttackControlConfig
-  name: AttackControlConfig
-  href: api/StormHawks.Runtime.Players.Attack.AttackControlConfig.html
-  commentId: T:StormHawks.Runtime.Players.Attack.AttackControlConfig
-  fullName: StormHawks.Runtime.Players.Attack.AttackControlConfig
-  nameWithType: AttackControlConfig
-- uid: StormHawks.Runtime.Players.Attack.AttackControlConfig.BulletAttackDelay
-  name: BulletAttackDelay
-  href: api/StormHawks.Runtime.Players.Attack.AttackControlConfig.html#StormHawks_Runtime_Players_Attack_AttackControlConfig_BulletAttackDelay
-  commentId: P:StormHawks.Runtime.Players.Attack.AttackControlConfig.BulletAttackDelay
-  fullName: StormHawks.Runtime.Players.Attack.AttackControlConfig.BulletAttackDelay
-  nameWithType: AttackControlConfig.BulletAttackDelay
-- uid: StormHawks.Runtime.Players.Attack.AttackControlConfig.BulletAttackDelay*
-  name: BulletAttackDelay
-  href: api/StormHawks.Runtime.Players.Attack.AttackControlConfig.html#StormHawks_Runtime_Players_Attack_AttackControlConfig_BulletAttackDelay_
-  commentId: Overload:StormHawks.Runtime.Players.Attack.AttackControlConfig.BulletAttackDelay
+- uid: StormHawks.Runtime.Players.Attack.MissileAttackHandler
+  name: MissileAttackHandler
+  href: api/StormHawks.Runtime.Players.Attack.MissileAttackHandler.html
+  commentId: T:StormHawks.Runtime.Players.Attack.MissileAttackHandler
+  fullName: StormHawks.Runtime.Players.Attack.MissileAttackHandler
+  nameWithType: MissileAttackHandler
+- uid: StormHawks.Runtime.Players.Attack.MissileAttackHandler.Injection(XRInputModel)
+  name: Injection(XRInputModel)
+  href: api/StormHawks.Runtime.Players.Attack.MissileAttackHandler.html#StormHawks_Runtime_Players_Attack_MissileAttackHandler_Injection_XRInputModel_
+  commentId: M:StormHawks.Runtime.Players.Attack.MissileAttackHandler.Injection(XRInputModel)
+  fullName: StormHawks.Runtime.Players.Attack.MissileAttackHandler.Injection(XRInputModel)
+  nameWithType: MissileAttackHandler.Injection(XRInputModel)
+- uid: StormHawks.Runtime.Players.Attack.MissileAttackHandler.Injection*
+  name: Injection
+  href: api/StormHawks.Runtime.Players.Attack.MissileAttackHandler.html#StormHawks_Runtime_Players_Attack_MissileAttackHandler_Injection_
+  commentId: Overload:StormHawks.Runtime.Players.Attack.MissileAttackHandler.Injection
   isSpec: "True"
-  fullName: StormHawks.Runtime.Players.Attack.AttackControlConfig.BulletAttackDelay
-  nameWithType: AttackControlConfig.BulletAttackDelay
-- uid: StormHawks.Runtime.Players.Attack.AttackControlConfig.BulletHitDelay
-  name: BulletHitDelay
-  href: api/StormHawks.Runtime.Players.Attack.AttackControlConfig.html#StormHawks_Runtime_Players_Attack_AttackControlConfig_BulletHitDelay
-  commentId: P:StormHawks.Runtime.Players.Attack.AttackControlConfig.BulletHitDelay
-  fullName: StormHawks.Runtime.Players.Attack.AttackControlConfig.BulletHitDelay
-  nameWithType: AttackControlConfig.BulletHitDelay
-- uid: StormHawks.Runtime.Players.Attack.AttackControlConfig.BulletHitDelay*
-  name: BulletHitDelay
-  href: api/StormHawks.Runtime.Players.Attack.AttackControlConfig.html#StormHawks_Runtime_Players_Attack_AttackControlConfig_BulletHitDelay_
-  commentId: Overload:StormHawks.Runtime.Players.Attack.AttackControlConfig.BulletHitDelay
+  fullName: StormHawks.Runtime.Players.Attack.MissileAttackHandler.Injection
+  nameWithType: MissileAttackHandler.Injection
+- uid: StormHawks.Runtime.Players.Attack.MissileAttackHandler.Launch(List{DetectableEntity},System.Single)
+  name: Launch(List<DetectableEntity>, Single)
+  href: api/StormHawks.Runtime.Players.Attack.MissileAttackHandler.html#StormHawks_Runtime_Players_Attack_MissileAttackHandler_Launch_List_DetectableEntity__System_Single_
+  commentId: M:StormHawks.Runtime.Players.Attack.MissileAttackHandler.Launch(List{DetectableEntity},System.Single)
+  name.vb: Launch(List(Of DetectableEntity), Single)
+  fullName: StormHawks.Runtime.Players.Attack.MissileAttackHandler.Launch(List<DetectableEntity>, System.Single)
+  fullName.vb: StormHawks.Runtime.Players.Attack.MissileAttackHandler.Launch(List(Of DetectableEntity), System.Single)
+  nameWithType: MissileAttackHandler.Launch(List<DetectableEntity>, Single)
+  nameWithType.vb: MissileAttackHandler.Launch(List(Of DetectableEntity), Single)
+- uid: StormHawks.Runtime.Players.Attack.MissileAttackHandler.Launch*
+  name: Launch
+  href: api/StormHawks.Runtime.Players.Attack.MissileAttackHandler.html#StormHawks_Runtime_Players_Attack_MissileAttackHandler_Launch_
+  commentId: Overload:StormHawks.Runtime.Players.Attack.MissileAttackHandler.Launch
   isSpec: "True"
-  fullName: StormHawks.Runtime.Players.Attack.AttackControlConfig.BulletHitDelay
-  nameWithType: AttackControlConfig.BulletHitDelay
-- uid: StormHawks.Runtime.Players.Attack.AttackControlConfig.BulletLaunchDelay
-  name: BulletLaunchDelay
-  href: api/StormHawks.Runtime.Players.Attack.AttackControlConfig.html#StormHawks_Runtime_Players_Attack_AttackControlConfig_BulletLaunchDelay
-  commentId: P:StormHawks.Runtime.Players.Attack.AttackControlConfig.BulletLaunchDelay
-  fullName: StormHawks.Runtime.Players.Attack.AttackControlConfig.BulletLaunchDelay
-  nameWithType: AttackControlConfig.BulletLaunchDelay
-- uid: StormHawks.Runtime.Players.Attack.AttackControlConfig.BulletLaunchDelay*
-  name: BulletLaunchDelay
-  href: api/StormHawks.Runtime.Players.Attack.AttackControlConfig.html#StormHawks_Runtime_Players_Attack_AttackControlConfig_BulletLaunchDelay_
-  commentId: Overload:StormHawks.Runtime.Players.Attack.AttackControlConfig.BulletLaunchDelay
+  fullName: StormHawks.Runtime.Players.Attack.MissileAttackHandler.Launch
+  nameWithType: MissileAttackHandler.Launch
+- uid: StormHawks.Runtime.Players.Attack.MissileAttackHandler.OnDestroy
+  name: OnDestroy()
+  href: api/StormHawks.Runtime.Players.Attack.MissileAttackHandler.html#StormHawks_Runtime_Players_Attack_MissileAttackHandler_OnDestroy
+  commentId: M:StormHawks.Runtime.Players.Attack.MissileAttackHandler.OnDestroy
+  fullName: StormHawks.Runtime.Players.Attack.MissileAttackHandler.OnDestroy()
+  nameWithType: MissileAttackHandler.OnDestroy()
+- uid: StormHawks.Runtime.Players.Attack.MissileAttackHandler.OnDestroy*
+  name: OnDestroy
+  href: api/StormHawks.Runtime.Players.Attack.MissileAttackHandler.html#StormHawks_Runtime_Players_Attack_MissileAttackHandler_OnDestroy_
+  commentId: Overload:StormHawks.Runtime.Players.Attack.MissileAttackHandler.OnDestroy
   isSpec: "True"
-  fullName: StormHawks.Runtime.Players.Attack.AttackControlConfig.BulletLaunchDelay
-  nameWithType: AttackControlConfig.BulletLaunchDelay
-- uid: StormHawks.Runtime.Players.Attack.AttackControlConfig.MissileLaunchDelay
-  name: MissileLaunchDelay
-  href: api/StormHawks.Runtime.Players.Attack.AttackControlConfig.html#StormHawks_Runtime_Players_Attack_AttackControlConfig_MissileLaunchDelay
-  commentId: P:StormHawks.Runtime.Players.Attack.AttackControlConfig.MissileLaunchDelay
-  fullName: StormHawks.Runtime.Players.Attack.AttackControlConfig.MissileLaunchDelay
-  nameWithType: AttackControlConfig.MissileLaunchDelay
-- uid: StormHawks.Runtime.Players.Attack.AttackControlConfig.MissileLaunchDelay*
-  name: MissileLaunchDelay
-  href: api/StormHawks.Runtime.Players.Attack.AttackControlConfig.html#StormHawks_Runtime_Players_Attack_AttackControlConfig_MissileLaunchDelay_
-  commentId: Overload:StormHawks.Runtime.Players.Attack.AttackControlConfig.MissileLaunchDelay
+  fullName: StormHawks.Runtime.Players.Attack.MissileAttackHandler.OnDestroy
+  nameWithType: MissileAttackHandler.OnDestroy
+- uid: StormHawks.Runtime.Players.Attack.MissileAttackHandler.Start
+  name: Start()
+  href: api/StormHawks.Runtime.Players.Attack.MissileAttackHandler.html#StormHawks_Runtime_Players_Attack_MissileAttackHandler_Start
+  commentId: M:StormHawks.Runtime.Players.Attack.MissileAttackHandler.Start
+  fullName: StormHawks.Runtime.Players.Attack.MissileAttackHandler.Start()
+  nameWithType: MissileAttackHandler.Start()
+- uid: StormHawks.Runtime.Players.Attack.MissileAttackHandler.Start*
+  name: Start
+  href: api/StormHawks.Runtime.Players.Attack.MissileAttackHandler.html#StormHawks_Runtime_Players_Attack_MissileAttackHandler_Start_
+  commentId: Overload:StormHawks.Runtime.Players.Attack.MissileAttackHandler.Start
   isSpec: "True"
-  fullName: StormHawks.Runtime.Players.Attack.AttackControlConfig.MissileLaunchDelay
-  nameWithType: AttackControlConfig.MissileLaunchDelay
-- uid: StormHawks.Runtime.Players.Attack.AttackControlConfig.MissileReloadTime
-  name: MissileReloadTime
-  href: api/StormHawks.Runtime.Players.Attack.AttackControlConfig.html#StormHawks_Runtime_Players_Attack_AttackControlConfig_MissileReloadTime
-  commentId: P:StormHawks.Runtime.Players.Attack.AttackControlConfig.MissileReloadTime
-  fullName: StormHawks.Runtime.Players.Attack.AttackControlConfig.MissileReloadTime
-  nameWithType: AttackControlConfig.MissileReloadTime
-- uid: StormHawks.Runtime.Players.Attack.AttackControlConfig.MissileReloadTime*
-  name: MissileReloadTime
-  href: api/StormHawks.Runtime.Players.Attack.AttackControlConfig.html#StormHawks_Runtime_Players_Attack_AttackControlConfig_MissileReloadTime_
-  commentId: Overload:StormHawks.Runtime.Players.Attack.AttackControlConfig.MissileReloadTime
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Players.Attack.AttackControlConfig.MissileReloadTime
-  nameWithType: AttackControlConfig.MissileReloadTime
+  fullName: StormHawks.Runtime.Players.Attack.MissileAttackHandler.Start
+  nameWithType: MissileAttackHandler.Start
 - uid: StormHawks.Runtime.Players.Attack.MissileCounter
   name: MissileCounter
   href: api/StormHawks.Runtime.Players.Attack.MissileCounter.html
@@ -22477,64 +22466,38 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Players.Attack.PlayerBulletAttackConfigSO.YAxisForwardCalibratePower
   nameWithType: PlayerBulletAttackConfigSO.YAxisForwardCalibratePower
-- uid: StormHawks.Runtime.Players.Attack.PlayerBulletAttackHandler
-  name: PlayerBulletAttackHandler
-  href: api/StormHawks.Runtime.Players.Attack.PlayerBulletAttackHandler.html
-  commentId: T:StormHawks.Runtime.Players.Attack.PlayerBulletAttackHandler
-  fullName: StormHawks.Runtime.Players.Attack.PlayerBulletAttackHandler
-  nameWithType: PlayerBulletAttackHandler
-- uid: StormHawks.Runtime.Players.Attack.PlayerBulletAttackHandler.Attack(Transform,DetectableEntity)
-  name: Attack(Transform, DetectableEntity)
-  href: api/StormHawks.Runtime.Players.Attack.PlayerBulletAttackHandler.html#StormHawks_Runtime_Players_Attack_PlayerBulletAttackHandler_Attack_Transform_DetectableEntity_
-  commentId: M:StormHawks.Runtime.Players.Attack.PlayerBulletAttackHandler.Attack(Transform,DetectableEntity)
-  fullName: StormHawks.Runtime.Players.Attack.PlayerBulletAttackHandler.Attack(Transform, DetectableEntity)
-  nameWithType: PlayerBulletAttackHandler.Attack(Transform, DetectableEntity)
-- uid: StormHawks.Runtime.Players.Attack.PlayerBulletAttackHandler.Attack*
-  name: Attack
-  href: api/StormHawks.Runtime.Players.Attack.PlayerBulletAttackHandler.html#StormHawks_Runtime_Players_Attack_PlayerBulletAttackHandler_Attack_
-  commentId: Overload:StormHawks.Runtime.Players.Attack.PlayerBulletAttackHandler.Attack
+- uid: StormHawks.Runtime.Players.Attack.PlayerBulletWeaponSettings
+  name: PlayerBulletWeaponSettings
+  href: api/StormHawks.Runtime.Players.Attack.PlayerBulletWeaponSettings.html
+  commentId: T:StormHawks.Runtime.Players.Attack.PlayerBulletWeaponSettings
+  fullName: StormHawks.Runtime.Players.Attack.PlayerBulletWeaponSettings
+  nameWithType: PlayerBulletWeaponSettings
+- uid: StormHawks.Runtime.Players.Attack.PlayerBulletWeaponSettings.Damage
+  name: Damage
+  href: api/StormHawks.Runtime.Players.Attack.PlayerBulletWeaponSettings.html#StormHawks_Runtime_Players_Attack_PlayerBulletWeaponSettings_Damage
+  commentId: P:StormHawks.Runtime.Players.Attack.PlayerBulletWeaponSettings.Damage
+  fullName: StormHawks.Runtime.Players.Attack.PlayerBulletWeaponSettings.Damage
+  nameWithType: PlayerBulletWeaponSettings.Damage
+- uid: StormHawks.Runtime.Players.Attack.PlayerBulletWeaponSettings.Damage*
+  name: Damage
+  href: api/StormHawks.Runtime.Players.Attack.PlayerBulletWeaponSettings.html#StormHawks_Runtime_Players_Attack_PlayerBulletWeaponSettings_Damage_
+  commentId: Overload:StormHawks.Runtime.Players.Attack.PlayerBulletWeaponSettings.Damage
   isSpec: "True"
-  fullName: StormHawks.Runtime.Players.Attack.PlayerBulletAttackHandler.Attack
-  nameWithType: PlayerBulletAttackHandler.Attack
-- uid: StormHawks.Runtime.Players.Attack.PlayerBulletAttackHandler.CanAttack
-  name: CanAttack()
-  href: api/StormHawks.Runtime.Players.Attack.PlayerBulletAttackHandler.html#StormHawks_Runtime_Players_Attack_PlayerBulletAttackHandler_CanAttack
-  commentId: M:StormHawks.Runtime.Players.Attack.PlayerBulletAttackHandler.CanAttack
-  fullName: StormHawks.Runtime.Players.Attack.PlayerBulletAttackHandler.CanAttack()
-  nameWithType: PlayerBulletAttackHandler.CanAttack()
-- uid: StormHawks.Runtime.Players.Attack.PlayerBulletAttackHandler.CanAttack*
-  name: CanAttack
-  href: api/StormHawks.Runtime.Players.Attack.PlayerBulletAttackHandler.html#StormHawks_Runtime_Players_Attack_PlayerBulletAttackHandler_CanAttack_
-  commentId: Overload:StormHawks.Runtime.Players.Attack.PlayerBulletAttackHandler.CanAttack
+  fullName: StormHawks.Runtime.Players.Attack.PlayerBulletWeaponSettings.Damage
+  nameWithType: PlayerBulletWeaponSettings.Damage
+- uid: StormHawks.Runtime.Players.Attack.PlayerBulletWeaponSettings.DamageDelayTime
+  name: DamageDelayTime
+  href: api/StormHawks.Runtime.Players.Attack.PlayerBulletWeaponSettings.html#StormHawks_Runtime_Players_Attack_PlayerBulletWeaponSettings_DamageDelayTime
+  commentId: P:StormHawks.Runtime.Players.Attack.PlayerBulletWeaponSettings.DamageDelayTime
+  fullName: StormHawks.Runtime.Players.Attack.PlayerBulletWeaponSettings.DamageDelayTime
+  nameWithType: PlayerBulletWeaponSettings.DamageDelayTime
+- uid: StormHawks.Runtime.Players.Attack.PlayerBulletWeaponSettings.DamageDelayTime*
+  name: DamageDelayTime
+  href: api/StormHawks.Runtime.Players.Attack.PlayerBulletWeaponSettings.html#StormHawks_Runtime_Players_Attack_PlayerBulletWeaponSettings_DamageDelayTime_
+  commentId: Overload:StormHawks.Runtime.Players.Attack.PlayerBulletWeaponSettings.DamageDelayTime
   isSpec: "True"
-  fullName: StormHawks.Runtime.Players.Attack.PlayerBulletAttackHandler.CanAttack
-  nameWithType: PlayerBulletAttackHandler.CanAttack
-- uid: StormHawks.Runtime.Players.Attack.PlayerBulletAttackHandler.Injection(XRInputModel,StormHawks.Runtime.Players.Attack.AttackControlConfig)
-  name: Injection(XRInputModel, AttackControlConfig)
-  href: api/StormHawks.Runtime.Players.Attack.PlayerBulletAttackHandler.html#StormHawks_Runtime_Players_Attack_PlayerBulletAttackHandler_Injection_XRInputModel_StormHawks_Runtime_Players_Attack_AttackControlConfig_
-  commentId: M:StormHawks.Runtime.Players.Attack.PlayerBulletAttackHandler.Injection(XRInputModel,StormHawks.Runtime.Players.Attack.AttackControlConfig)
-  fullName: StormHawks.Runtime.Players.Attack.PlayerBulletAttackHandler.Injection(XRInputModel, StormHawks.Runtime.Players.Attack.AttackControlConfig)
-  nameWithType: PlayerBulletAttackHandler.Injection(XRInputModel, AttackControlConfig)
-- uid: StormHawks.Runtime.Players.Attack.PlayerBulletAttackHandler.Injection*
-  name: Injection
-  href: api/StormHawks.Runtime.Players.Attack.PlayerBulletAttackHandler.html#StormHawks_Runtime_Players_Attack_PlayerBulletAttackHandler_Injection_
-  commentId: Overload:StormHawks.Runtime.Players.Attack.PlayerBulletAttackHandler.Injection
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Players.Attack.PlayerBulletAttackHandler.Injection
-  nameWithType: PlayerBulletAttackHandler.Injection
-- uid: StormHawks.Runtime.Players.Attack.PlayerBulletAttackHandler.Launch(LauncherBase,DetectableEntity)
-  name: Launch(LauncherBase, DetectableEntity)
-  href: api/StormHawks.Runtime.Players.Attack.PlayerBulletAttackHandler.html#StormHawks_Runtime_Players_Attack_PlayerBulletAttackHandler_Launch_LauncherBase_DetectableEntity_
-  commentId: M:StormHawks.Runtime.Players.Attack.PlayerBulletAttackHandler.Launch(LauncherBase,DetectableEntity)
-  fullName: StormHawks.Runtime.Players.Attack.PlayerBulletAttackHandler.Launch(LauncherBase, DetectableEntity)
-  nameWithType: PlayerBulletAttackHandler.Launch(LauncherBase, DetectableEntity)
-- uid: StormHawks.Runtime.Players.Attack.PlayerBulletAttackHandler.Launch*
-  name: Launch
-  href: api/StormHawks.Runtime.Players.Attack.PlayerBulletAttackHandler.html#StormHawks_Runtime_Players_Attack_PlayerBulletAttackHandler_Launch_
-  commentId: Overload:StormHawks.Runtime.Players.Attack.PlayerBulletAttackHandler.Launch
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Players.Attack.PlayerBulletAttackHandler.Launch
-  nameWithType: PlayerBulletAttackHandler.Launch
+  fullName: StormHawks.Runtime.Players.Attack.PlayerBulletWeaponSettings.DamageDelayTime
+  nameWithType: PlayerBulletWeaponSettings.DamageDelayTime
 - uid: StormHawks.Runtime.Players.Attack.PlayerMissileAttackConfigSO
   name: PlayerMissileAttackConfigSO
   href: api/StormHawks.Runtime.Players.Attack.PlayerMissileAttackConfigSO.html
@@ -22650,67 +22613,70 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Players.Attack.PlayerMissileAttackConfigSO.UseMissile
   nameWithType: PlayerMissileAttackConfigSO.UseMissile
-- uid: StormHawks.Runtime.Players.Attack.PlayerMissileAttackHandler
-  name: PlayerMissileAttackHandler
-  href: api/StormHawks.Runtime.Players.Attack.PlayerMissileAttackHandler.html
-  commentId: T:StormHawks.Runtime.Players.Attack.PlayerMissileAttackHandler
-  fullName: StormHawks.Runtime.Players.Attack.PlayerMissileAttackHandler
-  nameWithType: PlayerMissileAttackHandler
-- uid: StormHawks.Runtime.Players.Attack.PlayerMissileAttackHandler.Injection(XRInputModel,StormHawks.Runtime.Players.Attack.AttackControlConfig,StormHawks.Runtime.Players.Attack.MissileCounter)
-  name: Injection(XRInputModel, AttackControlConfig, MissileCounter)
-  href: api/StormHawks.Runtime.Players.Attack.PlayerMissileAttackHandler.html#StormHawks_Runtime_Players_Attack_PlayerMissileAttackHandler_Injection_XRInputModel_StormHawks_Runtime_Players_Attack_AttackControlConfig_StormHawks_Runtime_Players_Attack_MissileCounter_
-  commentId: M:StormHawks.Runtime.Players.Attack.PlayerMissileAttackHandler.Injection(XRInputModel,StormHawks.Runtime.Players.Attack.AttackControlConfig,StormHawks.Runtime.Players.Attack.MissileCounter)
-  fullName: StormHawks.Runtime.Players.Attack.PlayerMissileAttackHandler.Injection(XRInputModel, StormHawks.Runtime.Players.Attack.AttackControlConfig, StormHawks.Runtime.Players.Attack.MissileCounter)
-  nameWithType: PlayerMissileAttackHandler.Injection(XRInputModel, AttackControlConfig, MissileCounter)
-- uid: StormHawks.Runtime.Players.Attack.PlayerMissileAttackHandler.Injection*
+- uid: StormHawks.Runtime.Players.Attack.PlayerMissileWeaponSettings
+  name: PlayerMissileWeaponSettings
+  href: api/StormHawks.Runtime.Players.Attack.PlayerMissileWeaponSettings.html
+  commentId: T:StormHawks.Runtime.Players.Attack.PlayerMissileWeaponSettings
+  fullName: StormHawks.Runtime.Players.Attack.PlayerMissileWeaponSettings
+  nameWithType: PlayerMissileWeaponSettings
+- uid: StormHawks.Runtime.Players.Attack.PlayerMissileWeaponSettings.ReloadTime
+  name: ReloadTime
+  href: api/StormHawks.Runtime.Players.Attack.PlayerMissileWeaponSettings.html#StormHawks_Runtime_Players_Attack_PlayerMissileWeaponSettings_ReloadTime
+  commentId: P:StormHawks.Runtime.Players.Attack.PlayerMissileWeaponSettings.ReloadTime
+  fullName: StormHawks.Runtime.Players.Attack.PlayerMissileWeaponSettings.ReloadTime
+  nameWithType: PlayerMissileWeaponSettings.ReloadTime
+- uid: StormHawks.Runtime.Players.Attack.PlayerMissileWeaponSettings.ReloadTime*
+  name: ReloadTime
+  href: api/StormHawks.Runtime.Players.Attack.PlayerMissileWeaponSettings.html#StormHawks_Runtime_Players_Attack_PlayerMissileWeaponSettings_ReloadTime_
+  commentId: Overload:StormHawks.Runtime.Players.Attack.PlayerMissileWeaponSettings.ReloadTime
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Players.Attack.PlayerMissileWeaponSettings.ReloadTime
+  nameWithType: PlayerMissileWeaponSettings.ReloadTime
+- uid: StormHawks.Runtime.Players.Attack.ProjectileAttackHandler
+  name: ProjectileAttackHandler
+  href: api/StormHawks.Runtime.Players.Attack.ProjectileAttackHandler.html
+  commentId: T:StormHawks.Runtime.Players.Attack.ProjectileAttackHandler
+  fullName: StormHawks.Runtime.Players.Attack.ProjectileAttackHandler
+  nameWithType: ProjectileAttackHandler
+- uid: StormHawks.Runtime.Players.Attack.ProjectileAttackHandler.Attack(Transform,DetectableEntity)
+  name: Attack(Transform, DetectableEntity)
+  href: api/StormHawks.Runtime.Players.Attack.ProjectileAttackHandler.html#StormHawks_Runtime_Players_Attack_ProjectileAttackHandler_Attack_Transform_DetectableEntity_
+  commentId: M:StormHawks.Runtime.Players.Attack.ProjectileAttackHandler.Attack(Transform,DetectableEntity)
+  fullName: StormHawks.Runtime.Players.Attack.ProjectileAttackHandler.Attack(Transform, DetectableEntity)
+  nameWithType: ProjectileAttackHandler.Attack(Transform, DetectableEntity)
+- uid: StormHawks.Runtime.Players.Attack.ProjectileAttackHandler.Attack*
+  name: Attack
+  href: api/StormHawks.Runtime.Players.Attack.ProjectileAttackHandler.html#StormHawks_Runtime_Players_Attack_ProjectileAttackHandler_Attack_
+  commentId: Overload:StormHawks.Runtime.Players.Attack.ProjectileAttackHandler.Attack
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Players.Attack.ProjectileAttackHandler.Attack
+  nameWithType: ProjectileAttackHandler.Attack
+- uid: StormHawks.Runtime.Players.Attack.ProjectileAttackHandler.Injection(XRInputModel)
+  name: Injection(XRInputModel)
+  href: api/StormHawks.Runtime.Players.Attack.ProjectileAttackHandler.html#StormHawks_Runtime_Players_Attack_ProjectileAttackHandler_Injection_XRInputModel_
+  commentId: M:StormHawks.Runtime.Players.Attack.ProjectileAttackHandler.Injection(XRInputModel)
+  fullName: StormHawks.Runtime.Players.Attack.ProjectileAttackHandler.Injection(XRInputModel)
+  nameWithType: ProjectileAttackHandler.Injection(XRInputModel)
+- uid: StormHawks.Runtime.Players.Attack.ProjectileAttackHandler.Injection*
   name: Injection
-  href: api/StormHawks.Runtime.Players.Attack.PlayerMissileAttackHandler.html#StormHawks_Runtime_Players_Attack_PlayerMissileAttackHandler_Injection_
-  commentId: Overload:StormHawks.Runtime.Players.Attack.PlayerMissileAttackHandler.Injection
+  href: api/StormHawks.Runtime.Players.Attack.ProjectileAttackHandler.html#StormHawks_Runtime_Players_Attack_ProjectileAttackHandler_Injection_
+  commentId: Overload:StormHawks.Runtime.Players.Attack.ProjectileAttackHandler.Injection
   isSpec: "True"
-  fullName: StormHawks.Runtime.Players.Attack.PlayerMissileAttackHandler.Injection
-  nameWithType: PlayerMissileAttackHandler.Injection
-- uid: StormHawks.Runtime.Players.Attack.PlayerMissileAttackHandler.Launch(List{DetectableEntity},System.Single)
-  name: Launch(List<DetectableEntity>, Single)
-  href: api/StormHawks.Runtime.Players.Attack.PlayerMissileAttackHandler.html#StormHawks_Runtime_Players_Attack_PlayerMissileAttackHandler_Launch_List_DetectableEntity__System_Single_
-  commentId: M:StormHawks.Runtime.Players.Attack.PlayerMissileAttackHandler.Launch(List{DetectableEntity},System.Single)
-  name.vb: Launch(List(Of DetectableEntity), Single)
-  fullName: StormHawks.Runtime.Players.Attack.PlayerMissileAttackHandler.Launch(List<DetectableEntity>, System.Single)
-  fullName.vb: StormHawks.Runtime.Players.Attack.PlayerMissileAttackHandler.Launch(List(Of DetectableEntity), System.Single)
-  nameWithType: PlayerMissileAttackHandler.Launch(List<DetectableEntity>, Single)
-  nameWithType.vb: PlayerMissileAttackHandler.Launch(List(Of DetectableEntity), Single)
-- uid: StormHawks.Runtime.Players.Attack.PlayerMissileAttackHandler.Launch*
+  fullName: StormHawks.Runtime.Players.Attack.ProjectileAttackHandler.Injection
+  nameWithType: ProjectileAttackHandler.Injection
+- uid: StormHawks.Runtime.Players.Attack.ProjectileAttackHandler.Launch(LauncherBase,DetectableEntity)
+  name: Launch(LauncherBase, DetectableEntity)
+  href: api/StormHawks.Runtime.Players.Attack.ProjectileAttackHandler.html#StormHawks_Runtime_Players_Attack_ProjectileAttackHandler_Launch_LauncherBase_DetectableEntity_
+  commentId: M:StormHawks.Runtime.Players.Attack.ProjectileAttackHandler.Launch(LauncherBase,DetectableEntity)
+  fullName: StormHawks.Runtime.Players.Attack.ProjectileAttackHandler.Launch(LauncherBase, DetectableEntity)
+  nameWithType: ProjectileAttackHandler.Launch(LauncherBase, DetectableEntity)
+- uid: StormHawks.Runtime.Players.Attack.ProjectileAttackHandler.Launch*
   name: Launch
-  href: api/StormHawks.Runtime.Players.Attack.PlayerMissileAttackHandler.html#StormHawks_Runtime_Players_Attack_PlayerMissileAttackHandler_Launch_
-  commentId: Overload:StormHawks.Runtime.Players.Attack.PlayerMissileAttackHandler.Launch
+  href: api/StormHawks.Runtime.Players.Attack.ProjectileAttackHandler.html#StormHawks_Runtime_Players_Attack_ProjectileAttackHandler_Launch_
+  commentId: Overload:StormHawks.Runtime.Players.Attack.ProjectileAttackHandler.Launch
   isSpec: "True"
-  fullName: StormHawks.Runtime.Players.Attack.PlayerMissileAttackHandler.Launch
-  nameWithType: PlayerMissileAttackHandler.Launch
-- uid: StormHawks.Runtime.Players.Attack.PlayerMissileAttackHandler.OnDestroy
-  name: OnDestroy()
-  href: api/StormHawks.Runtime.Players.Attack.PlayerMissileAttackHandler.html#StormHawks_Runtime_Players_Attack_PlayerMissileAttackHandler_OnDestroy
-  commentId: M:StormHawks.Runtime.Players.Attack.PlayerMissileAttackHandler.OnDestroy
-  fullName: StormHawks.Runtime.Players.Attack.PlayerMissileAttackHandler.OnDestroy()
-  nameWithType: PlayerMissileAttackHandler.OnDestroy()
-- uid: StormHawks.Runtime.Players.Attack.PlayerMissileAttackHandler.OnDestroy*
-  name: OnDestroy
-  href: api/StormHawks.Runtime.Players.Attack.PlayerMissileAttackHandler.html#StormHawks_Runtime_Players_Attack_PlayerMissileAttackHandler_OnDestroy_
-  commentId: Overload:StormHawks.Runtime.Players.Attack.PlayerMissileAttackHandler.OnDestroy
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Players.Attack.PlayerMissileAttackHandler.OnDestroy
-  nameWithType: PlayerMissileAttackHandler.OnDestroy
-- uid: StormHawks.Runtime.Players.Attack.PlayerMissileAttackHandler.Start
-  name: Start()
-  href: api/StormHawks.Runtime.Players.Attack.PlayerMissileAttackHandler.html#StormHawks_Runtime_Players_Attack_PlayerMissileAttackHandler_Start
-  commentId: M:StormHawks.Runtime.Players.Attack.PlayerMissileAttackHandler.Start
-  fullName: StormHawks.Runtime.Players.Attack.PlayerMissileAttackHandler.Start()
-  nameWithType: PlayerMissileAttackHandler.Start()
-- uid: StormHawks.Runtime.Players.Attack.PlayerMissileAttackHandler.Start*
-  name: Start
-  href: api/StormHawks.Runtime.Players.Attack.PlayerMissileAttackHandler.html#StormHawks_Runtime_Players_Attack_PlayerMissileAttackHandler_Start_
-  commentId: Overload:StormHawks.Runtime.Players.Attack.PlayerMissileAttackHandler.Start
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Players.Attack.PlayerMissileAttackHandler.Start
-  nameWithType: PlayerMissileAttackHandler.Start
+  fullName: StormHawks.Runtime.Players.Attack.ProjectileAttackHandler.Launch
+  nameWithType: ProjectileAttackHandler.Launch
 - uid: StormHawks.Runtime.Players.Attack.Projectiles
   name: StormHawks.Runtime.Players.Attack.Projectiles
   href: api/StormHawks.Runtime.Players.Attack.Projectiles.html
@@ -23059,6 +23025,18 @@ references:
   commentId: F:StormHawks.Runtime.Players.Attack.Projectiles.Weapon.Projectile.Target
   fullName: StormHawks.Runtime.Players.Attack.Projectiles.Weapon.Projectile.Target
   nameWithType: Projectile.Target
+- uid: StormHawks.Runtime.Players.Attack.Weapons
+  name: StormHawks.Runtime.Players.Attack.Weapons
+  href: api/StormHawks.Runtime.Players.Attack.Weapons.html
+  commentId: N:StormHawks.Runtime.Players.Attack.Weapons
+  fullName: StormHawks.Runtime.Players.Attack.Weapons
+  nameWithType: StormHawks.Runtime.Players.Attack.Weapons
+- uid: StormHawks.Runtime.Players.Attack.Weapons.PlayerBulletWeapon
+  name: PlayerBulletWeapon
+  href: api/StormHawks.Runtime.Players.Attack.Weapons.PlayerBulletWeapon.html
+  commentId: T:StormHawks.Runtime.Players.Attack.Weapons.PlayerBulletWeapon
+  fullName: StormHawks.Runtime.Players.Attack.Weapons.PlayerBulletWeapon
+  nameWithType: PlayerBulletWeapon
 - uid: StormHawks.Runtime.Players.Audio
   name: StormHawks.Runtime.Players.Audio
   href: api/StormHawks.Runtime.Players.Audio.html
@@ -26690,6 +26668,125 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Presenters.Facilities.PowerPlantPresenter.Start
   nameWithType: PowerPlantPresenter.Start
+- uid: StormHawks.Runtime.Presenters.Facilities.RailgunActivatorPresenter
+  name: RailgunActivatorPresenter
+  href: api/StormHawks.Runtime.Presenters.Facilities.RailgunActivatorPresenter.html
+  commentId: T:StormHawks.Runtime.Presenters.Facilities.RailgunActivatorPresenter
+  fullName: StormHawks.Runtime.Presenters.Facilities.RailgunActivatorPresenter
+  nameWithType: RailgunActivatorPresenter
+- uid: StormHawks.Runtime.Presenters.Facilities.SignalContext
+  name: SignalContext
+  href: api/StormHawks.Runtime.Presenters.Facilities.SignalContext.html
+  commentId: T:StormHawks.Runtime.Presenters.Facilities.SignalContext
+  fullName: StormHawks.Runtime.Presenters.Facilities.SignalContext
+  nameWithType: SignalContext
+- uid: StormHawks.Runtime.Presenters.Facilities.SignalContext.#ctor(StormHawks.Runtime.Presenters.Facilities.SignalType,GameObject)
+  name: SignalContext(SignalType, GameObject)
+  href: api/StormHawks.Runtime.Presenters.Facilities.SignalContext.html#StormHawks_Runtime_Presenters_Facilities_SignalContext__ctor_StormHawks_Runtime_Presenters_Facilities_SignalType_GameObject_
+  commentId: M:StormHawks.Runtime.Presenters.Facilities.SignalContext.#ctor(StormHawks.Runtime.Presenters.Facilities.SignalType,GameObject)
+  fullName: StormHawks.Runtime.Presenters.Facilities.SignalContext.SignalContext(StormHawks.Runtime.Presenters.Facilities.SignalType, GameObject)
+  nameWithType: SignalContext.SignalContext(SignalType, GameObject)
+- uid: StormHawks.Runtime.Presenters.Facilities.SignalContext.#ctor*
+  name: SignalContext
+  href: api/StormHawks.Runtime.Presenters.Facilities.SignalContext.html#StormHawks_Runtime_Presenters_Facilities_SignalContext__ctor_
+  commentId: Overload:StormHawks.Runtime.Presenters.Facilities.SignalContext.#ctor
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.Facilities.SignalContext.SignalContext
+  nameWithType: SignalContext.SignalContext
+- uid: StormHawks.Runtime.Presenters.Facilities.SignalContext.Invoker
+  name: Invoker
+  href: api/StormHawks.Runtime.Presenters.Facilities.SignalContext.html#StormHawks_Runtime_Presenters_Facilities_SignalContext_Invoker
+  commentId: P:StormHawks.Runtime.Presenters.Facilities.SignalContext.Invoker
+  fullName: StormHawks.Runtime.Presenters.Facilities.SignalContext.Invoker
+  nameWithType: SignalContext.Invoker
+- uid: StormHawks.Runtime.Presenters.Facilities.SignalContext.Invoker*
+  name: Invoker
+  href: api/StormHawks.Runtime.Presenters.Facilities.SignalContext.html#StormHawks_Runtime_Presenters_Facilities_SignalContext_Invoker_
+  commentId: Overload:StormHawks.Runtime.Presenters.Facilities.SignalContext.Invoker
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.Facilities.SignalContext.Invoker
+  nameWithType: SignalContext.Invoker
+- uid: StormHawks.Runtime.Presenters.Facilities.SignalContext.SetInvoker(GameObject)
+  name: SetInvoker(GameObject)
+  href: api/StormHawks.Runtime.Presenters.Facilities.SignalContext.html#StormHawks_Runtime_Presenters_Facilities_SignalContext_SetInvoker_GameObject_
+  commentId: M:StormHawks.Runtime.Presenters.Facilities.SignalContext.SetInvoker(GameObject)
+  fullName: StormHawks.Runtime.Presenters.Facilities.SignalContext.SetInvoker(GameObject)
+  nameWithType: SignalContext.SetInvoker(GameObject)
+- uid: StormHawks.Runtime.Presenters.Facilities.SignalContext.SetInvoker*
+  name: SetInvoker
+  href: api/StormHawks.Runtime.Presenters.Facilities.SignalContext.html#StormHawks_Runtime_Presenters_Facilities_SignalContext_SetInvoker_
+  commentId: Overload:StormHawks.Runtime.Presenters.Facilities.SignalContext.SetInvoker
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.Facilities.SignalContext.SetInvoker
+  nameWithType: SignalContext.SetInvoker
+- uid: StormHawks.Runtime.Presenters.Facilities.SignalContext.SignalType
+  name: SignalType
+  href: api/StormHawks.Runtime.Presenters.Facilities.SignalContext.html#StormHawks_Runtime_Presenters_Facilities_SignalContext_SignalType
+  commentId: P:StormHawks.Runtime.Presenters.Facilities.SignalContext.SignalType
+  fullName: StormHawks.Runtime.Presenters.Facilities.SignalContext.SignalType
+  nameWithType: SignalContext.SignalType
+- uid: StormHawks.Runtime.Presenters.Facilities.SignalContext.SignalType*
+  name: SignalType
+  href: api/StormHawks.Runtime.Presenters.Facilities.SignalContext.html#StormHawks_Runtime_Presenters_Facilities_SignalContext_SignalType_
+  commentId: Overload:StormHawks.Runtime.Presenters.Facilities.SignalContext.SignalType
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.Facilities.SignalContext.SignalType
+  nameWithType: SignalContext.SignalType
+- uid: StormHawks.Runtime.Presenters.Facilities.SignalInvoker
+  name: SignalInvoker
+  href: api/StormHawks.Runtime.Presenters.Facilities.SignalInvoker.html
+  commentId: T:StormHawks.Runtime.Presenters.Facilities.SignalInvoker
+  fullName: StormHawks.Runtime.Presenters.Facilities.SignalInvoker
+  nameWithType: SignalInvoker
+- uid: StormHawks.Runtime.Presenters.Facilities.SignalInvoker.Signal
+  name: Signal
+  href: api/StormHawks.Runtime.Presenters.Facilities.SignalInvoker.html#StormHawks_Runtime_Presenters_Facilities_SignalInvoker_Signal
+  commentId: P:StormHawks.Runtime.Presenters.Facilities.SignalInvoker.Signal
+  fullName: StormHawks.Runtime.Presenters.Facilities.SignalInvoker.Signal
+  nameWithType: SignalInvoker.Signal
+- uid: StormHawks.Runtime.Presenters.Facilities.SignalInvoker.Signal*
+  name: Signal
+  href: api/StormHawks.Runtime.Presenters.Facilities.SignalInvoker.html#StormHawks_Runtime_Presenters_Facilities_SignalInvoker_Signal_
+  commentId: Overload:StormHawks.Runtime.Presenters.Facilities.SignalInvoker.Signal
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.Facilities.SignalInvoker.Signal
+  nameWithType: SignalInvoker.Signal
+- uid: StormHawks.Runtime.Presenters.Facilities.SignalType
+  name: SignalType
+  href: api/StormHawks.Runtime.Presenters.Facilities.SignalType.html
+  commentId: T:StormHawks.Runtime.Presenters.Facilities.SignalType
+  fullName: StormHawks.Runtime.Presenters.Facilities.SignalType
+  nameWithType: SignalType
+- uid: StormHawks.Runtime.Presenters.Facilities.SignalType.CollisionEnter
+  name: CollisionEnter
+  href: api/StormHawks.Runtime.Presenters.Facilities.SignalType.html#StormHawks_Runtime_Presenters_Facilities_SignalType_CollisionEnter
+  commentId: F:StormHawks.Runtime.Presenters.Facilities.SignalType.CollisionEnter
+  fullName: StormHawks.Runtime.Presenters.Facilities.SignalType.CollisionEnter
+  nameWithType: SignalType.CollisionEnter
+- uid: StormHawks.Runtime.Presenters.Facilities.SignalType.CollisionExit
+  name: CollisionExit
+  href: api/StormHawks.Runtime.Presenters.Facilities.SignalType.html#StormHawks_Runtime_Presenters_Facilities_SignalType_CollisionExit
+  commentId: F:StormHawks.Runtime.Presenters.Facilities.SignalType.CollisionExit
+  fullName: StormHawks.Runtime.Presenters.Facilities.SignalType.CollisionExit
+  nameWithType: SignalType.CollisionExit
+- uid: StormHawks.Runtime.Presenters.Facilities.SignalType.TriggerEnter
+  name: TriggerEnter
+  href: api/StormHawks.Runtime.Presenters.Facilities.SignalType.html#StormHawks_Runtime_Presenters_Facilities_SignalType_TriggerEnter
+  commentId: F:StormHawks.Runtime.Presenters.Facilities.SignalType.TriggerEnter
+  fullName: StormHawks.Runtime.Presenters.Facilities.SignalType.TriggerEnter
+  nameWithType: SignalType.TriggerEnter
+- uid: StormHawks.Runtime.Presenters.Facilities.SignalType.TriggerExit
+  name: TriggerExit
+  href: api/StormHawks.Runtime.Presenters.Facilities.SignalType.html#StormHawks_Runtime_Presenters_Facilities_SignalType_TriggerExit
+  commentId: F:StormHawks.Runtime.Presenters.Facilities.SignalType.TriggerExit
+  fullName: StormHawks.Runtime.Presenters.Facilities.SignalType.TriggerExit
+  nameWithType: SignalType.TriggerExit
+- uid: StormHawks.Runtime.Presenters.Facilities.TriggerSignalInvoker
+  name: TriggerSignalInvoker
+  href: api/StormHawks.Runtime.Presenters.Facilities.TriggerSignalInvoker.html
+  commentId: T:StormHawks.Runtime.Presenters.Facilities.TriggerSignalInvoker
+  fullName: StormHawks.Runtime.Presenters.Facilities.TriggerSignalInvoker
+  nameWithType: TriggerSignalInvoker
 - uid: StormHawks.Runtime.Presenters.Fires
   name: StormHawks.Runtime.Presenters.Fires
   href: api/StormHawks.Runtime.Presenters.Fires.html
@@ -26839,6 +26936,112 @@ references:
   commentId: E:StormHawks.Runtime.Presenters.Fires.IProjectileFire.OnFire
   fullName: StormHawks.Runtime.Presenters.Fires.IProjectileFire.OnFire
   nameWithType: IProjectileFire.OnFire
+- uid: StormHawks.Runtime.Presenters.Fires.MultipleTimeFire
+  name: MultipleTimeFire
+  href: api/StormHawks.Runtime.Presenters.Fires.MultipleTimeFire.html
+  commentId: T:StormHawks.Runtime.Presenters.Fires.MultipleTimeFire
+  fullName: StormHawks.Runtime.Presenters.Fires.MultipleTimeFire
+  nameWithType: MultipleTimeFire
+- uid: StormHawks.Runtime.Presenters.Fires.MultipleTimeFire.#ctor(Func{List{ProjectilePresenter}},PlayerMissileWeaponSettings)
+  name: MultipleTimeFire(Func<List<ProjectilePresenter>>, PlayerMissileWeaponSettings)
+  href: api/StormHawks.Runtime.Presenters.Fires.MultipleTimeFire.html#StormHawks_Runtime_Presenters_Fires_MultipleTimeFire__ctor_Func_List_ProjectilePresenter___PlayerMissileWeaponSettings_
+  commentId: M:StormHawks.Runtime.Presenters.Fires.MultipleTimeFire.#ctor(Func{List{ProjectilePresenter}},PlayerMissileWeaponSettings)
+  name.vb: MultipleTimeFire(Func(Of List(Of ProjectilePresenter)), PlayerMissileWeaponSettings)
+  fullName: StormHawks.Runtime.Presenters.Fires.MultipleTimeFire.MultipleTimeFire(Func<List<ProjectilePresenter>>, PlayerMissileWeaponSettings)
+  fullName.vb: StormHawks.Runtime.Presenters.Fires.MultipleTimeFire.MultipleTimeFire(Func(Of List(Of ProjectilePresenter)), PlayerMissileWeaponSettings)
+  nameWithType: MultipleTimeFire.MultipleTimeFire(Func<List<ProjectilePresenter>>, PlayerMissileWeaponSettings)
+  nameWithType.vb: MultipleTimeFire.MultipleTimeFire(Func(Of List(Of ProjectilePresenter)), PlayerMissileWeaponSettings)
+- uid: StormHawks.Runtime.Presenters.Fires.MultipleTimeFire.#ctor*
+  name: MultipleTimeFire
+  href: api/StormHawks.Runtime.Presenters.Fires.MultipleTimeFire.html#StormHawks_Runtime_Presenters_Fires_MultipleTimeFire__ctor_
+  commentId: Overload:StormHawks.Runtime.Presenters.Fires.MultipleTimeFire.#ctor
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.Fires.MultipleTimeFire.MultipleTimeFire
+  nameWithType: MultipleTimeFire.MultipleTimeFire
+- uid: StormHawks.Runtime.Presenters.Fires.MultipleTimeFire.FireTask(CancellationToken)
+  name: FireTask(CancellationToken)
+  href: api/StormHawks.Runtime.Presenters.Fires.MultipleTimeFire.html#StormHawks_Runtime_Presenters_Fires_MultipleTimeFire_FireTask_CancellationToken_
+  commentId: M:StormHawks.Runtime.Presenters.Fires.MultipleTimeFire.FireTask(CancellationToken)
+  fullName: StormHawks.Runtime.Presenters.Fires.MultipleTimeFire.FireTask(CancellationToken)
+  nameWithType: MultipleTimeFire.FireTask(CancellationToken)
+- uid: StormHawks.Runtime.Presenters.Fires.MultipleTimeFire.FireTask*
+  name: FireTask
+  href: api/StormHawks.Runtime.Presenters.Fires.MultipleTimeFire.html#StormHawks_Runtime_Presenters_Fires_MultipleTimeFire_FireTask_
+  commentId: Overload:StormHawks.Runtime.Presenters.Fires.MultipleTimeFire.FireTask
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.Fires.MultipleTimeFire.FireTask
+  nameWithType: MultipleTimeFire.FireTask
+- uid: StormHawks.Runtime.Presenters.Fires.MultipleTimeFire.OnBeforeFire
+  name: OnBeforeFire
+  href: api/StormHawks.Runtime.Presenters.Fires.MultipleTimeFire.html#StormHawks_Runtime_Presenters_Fires_MultipleTimeFire_OnBeforeFire
+  commentId: E:StormHawks.Runtime.Presenters.Fires.MultipleTimeFire.OnBeforeFire
+  fullName: StormHawks.Runtime.Presenters.Fires.MultipleTimeFire.OnBeforeFire
+  nameWithType: MultipleTimeFire.OnBeforeFire
+- uid: StormHawks.Runtime.Presenters.Fires.MultipleTimeFire.OnComplete
+  name: OnComplete
+  href: api/StormHawks.Runtime.Presenters.Fires.MultipleTimeFire.html#StormHawks_Runtime_Presenters_Fires_MultipleTimeFire_OnComplete
+  commentId: E:StormHawks.Runtime.Presenters.Fires.MultipleTimeFire.OnComplete
+  fullName: StormHawks.Runtime.Presenters.Fires.MultipleTimeFire.OnComplete
+  nameWithType: MultipleTimeFire.OnComplete
+- uid: StormHawks.Runtime.Presenters.Fires.MultipleTimeFire.OnFire
+  name: OnFire
+  href: api/StormHawks.Runtime.Presenters.Fires.MultipleTimeFire.html#StormHawks_Runtime_Presenters_Fires_MultipleTimeFire_OnFire
+  commentId: E:StormHawks.Runtime.Presenters.Fires.MultipleTimeFire.OnFire
+  fullName: StormHawks.Runtime.Presenters.Fires.MultipleTimeFire.OnFire
+  nameWithType: MultipleTimeFire.OnFire
+- uid: StormHawks.Runtime.Presenters.Fires.OneTimeFire
+  name: OneTimeFire
+  href: api/StormHawks.Runtime.Presenters.Fires.OneTimeFire.html
+  commentId: T:StormHawks.Runtime.Presenters.Fires.OneTimeFire
+  fullName: StormHawks.Runtime.Presenters.Fires.OneTimeFire
+  nameWithType: OneTimeFire
+- uid: StormHawks.Runtime.Presenters.Fires.OneTimeFire.#ctor(Func{ProjectilePresenter},ProjectileWeaponSettings)
+  name: OneTimeFire(Func<ProjectilePresenter>, ProjectileWeaponSettings)
+  href: api/StormHawks.Runtime.Presenters.Fires.OneTimeFire.html#StormHawks_Runtime_Presenters_Fires_OneTimeFire__ctor_Func_ProjectilePresenter__ProjectileWeaponSettings_
+  commentId: M:StormHawks.Runtime.Presenters.Fires.OneTimeFire.#ctor(Func{ProjectilePresenter},ProjectileWeaponSettings)
+  name.vb: OneTimeFire(Func(Of ProjectilePresenter), ProjectileWeaponSettings)
+  fullName: StormHawks.Runtime.Presenters.Fires.OneTimeFire.OneTimeFire(Func<ProjectilePresenter>, ProjectileWeaponSettings)
+  fullName.vb: StormHawks.Runtime.Presenters.Fires.OneTimeFire.OneTimeFire(Func(Of ProjectilePresenter), ProjectileWeaponSettings)
+  nameWithType: OneTimeFire.OneTimeFire(Func<ProjectilePresenter>, ProjectileWeaponSettings)
+  nameWithType.vb: OneTimeFire.OneTimeFire(Func(Of ProjectilePresenter), ProjectileWeaponSettings)
+- uid: StormHawks.Runtime.Presenters.Fires.OneTimeFire.#ctor*
+  name: OneTimeFire
+  href: api/StormHawks.Runtime.Presenters.Fires.OneTimeFire.html#StormHawks_Runtime_Presenters_Fires_OneTimeFire__ctor_
+  commentId: Overload:StormHawks.Runtime.Presenters.Fires.OneTimeFire.#ctor
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.Fires.OneTimeFire.OneTimeFire
+  nameWithType: OneTimeFire.OneTimeFire
+- uid: StormHawks.Runtime.Presenters.Fires.OneTimeFire.FireTask(CancellationToken)
+  name: FireTask(CancellationToken)
+  href: api/StormHawks.Runtime.Presenters.Fires.OneTimeFire.html#StormHawks_Runtime_Presenters_Fires_OneTimeFire_FireTask_CancellationToken_
+  commentId: M:StormHawks.Runtime.Presenters.Fires.OneTimeFire.FireTask(CancellationToken)
+  fullName: StormHawks.Runtime.Presenters.Fires.OneTimeFire.FireTask(CancellationToken)
+  nameWithType: OneTimeFire.FireTask(CancellationToken)
+- uid: StormHawks.Runtime.Presenters.Fires.OneTimeFire.FireTask*
+  name: FireTask
+  href: api/StormHawks.Runtime.Presenters.Fires.OneTimeFire.html#StormHawks_Runtime_Presenters_Fires_OneTimeFire_FireTask_
+  commentId: Overload:StormHawks.Runtime.Presenters.Fires.OneTimeFire.FireTask
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.Fires.OneTimeFire.FireTask
+  nameWithType: OneTimeFire.FireTask
+- uid: StormHawks.Runtime.Presenters.Fires.OneTimeFire.OnBeforeFire
+  name: OnBeforeFire
+  href: api/StormHawks.Runtime.Presenters.Fires.OneTimeFire.html#StormHawks_Runtime_Presenters_Fires_OneTimeFire_OnBeforeFire
+  commentId: E:StormHawks.Runtime.Presenters.Fires.OneTimeFire.OnBeforeFire
+  fullName: StormHawks.Runtime.Presenters.Fires.OneTimeFire.OnBeforeFire
+  nameWithType: OneTimeFire.OnBeforeFire
+- uid: StormHawks.Runtime.Presenters.Fires.OneTimeFire.OnComplete
+  name: OnComplete
+  href: api/StormHawks.Runtime.Presenters.Fires.OneTimeFire.html#StormHawks_Runtime_Presenters_Fires_OneTimeFire_OnComplete
+  commentId: E:StormHawks.Runtime.Presenters.Fires.OneTimeFire.OnComplete
+  fullName: StormHawks.Runtime.Presenters.Fires.OneTimeFire.OnComplete
+  nameWithType: OneTimeFire.OnComplete
+- uid: StormHawks.Runtime.Presenters.Fires.OneTimeFire.OnFire
+  name: OnFire
+  href: api/StormHawks.Runtime.Presenters.Fires.OneTimeFire.html#StormHawks_Runtime_Presenters_Fires_OneTimeFire_OnFire
+  commentId: E:StormHawks.Runtime.Presenters.Fires.OneTimeFire.OnFire
+  fullName: StormHawks.Runtime.Presenters.Fires.OneTimeFire.OnFire
+  nameWithType: OneTimeFire.OnFire
 - uid: StormHawks.Runtime.Presenters.Projectiles
   name: StormHawks.Runtime.Presenters.Projectiles
   href: api/StormHawks.Runtime.Presenters.Projectiles.html
@@ -27081,6 +27284,210 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Presenters.Projectiles.EnemyProjectilePresenter.Initialize
   nameWithType: EnemyProjectilePresenter.Initialize
+- uid: StormHawks.Runtime.Presenters.Projectiles.PlayerBulletPresenter
+  name: PlayerBulletPresenter
+  href: api/StormHawks.Runtime.Presenters.Projectiles.PlayerBulletPresenter.html
+  commentId: T:StormHawks.Runtime.Presenters.Projectiles.PlayerBulletPresenter
+  fullName: StormHawks.Runtime.Presenters.Projectiles.PlayerBulletPresenter
+  nameWithType: PlayerBulletPresenter
+- uid: StormHawks.Runtime.Presenters.Projectiles.PlayerBulletPresenter.Dispatched
+  name: Dispatched
+  href: api/StormHawks.Runtime.Presenters.Projectiles.PlayerBulletPresenter.html#StormHawks_Runtime_Presenters_Projectiles_PlayerBulletPresenter_Dispatched
+  commentId: E:StormHawks.Runtime.Presenters.Projectiles.PlayerBulletPresenter.Dispatched
+  fullName: StormHawks.Runtime.Presenters.Projectiles.PlayerBulletPresenter.Dispatched
+  nameWithType: PlayerBulletPresenter.Dispatched
+- uid: StormHawks.Runtime.Presenters.Projectiles.PlayerBulletPresenter.Fire
+  name: Fire()
+  href: api/StormHawks.Runtime.Presenters.Projectiles.PlayerBulletPresenter.html#StormHawks_Runtime_Presenters_Projectiles_PlayerBulletPresenter_Fire
+  commentId: M:StormHawks.Runtime.Presenters.Projectiles.PlayerBulletPresenter.Fire
+  fullName: StormHawks.Runtime.Presenters.Projectiles.PlayerBulletPresenter.Fire()
+  nameWithType: PlayerBulletPresenter.Fire()
+- uid: StormHawks.Runtime.Presenters.Projectiles.PlayerBulletPresenter.Fire*
+  name: Fire
+  href: api/StormHawks.Runtime.Presenters.Projectiles.PlayerBulletPresenter.html#StormHawks_Runtime_Presenters_Projectiles_PlayerBulletPresenter_Fire_
+  commentId: Overload:StormHawks.Runtime.Presenters.Projectiles.PlayerBulletPresenter.Fire
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.Projectiles.PlayerBulletPresenter.Fire
+  nameWithType: PlayerBulletPresenter.Fire
+- uid: StormHawks.Runtime.Presenters.Projectiles.PlayerBulletPresenter.Initialize(Vector3,Quaternion)
+  name: Initialize(Vector3, Quaternion)
+  href: api/StormHawks.Runtime.Presenters.Projectiles.PlayerBulletPresenter.html#StormHawks_Runtime_Presenters_Projectiles_PlayerBulletPresenter_Initialize_Vector3_Quaternion_
+  commentId: M:StormHawks.Runtime.Presenters.Projectiles.PlayerBulletPresenter.Initialize(Vector3,Quaternion)
+  fullName: StormHawks.Runtime.Presenters.Projectiles.PlayerBulletPresenter.Initialize(Vector3, Quaternion)
+  nameWithType: PlayerBulletPresenter.Initialize(Vector3, Quaternion)
+- uid: StormHawks.Runtime.Presenters.Projectiles.PlayerBulletPresenter.Initialize*
+  name: Initialize
+  href: api/StormHawks.Runtime.Presenters.Projectiles.PlayerBulletPresenter.html#StormHawks_Runtime_Presenters_Projectiles_PlayerBulletPresenter_Initialize_
+  commentId: Overload:StormHawks.Runtime.Presenters.Projectiles.PlayerBulletPresenter.Initialize
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.Projectiles.PlayerBulletPresenter.Initialize
+  nameWithType: PlayerBulletPresenter.Initialize
+- uid: StormHawks.Runtime.Presenters.Projectiles.PlayerBulletPresenter.SetForward(Vector3)
+  name: SetForward(Vector3)
+  href: api/StormHawks.Runtime.Presenters.Projectiles.PlayerBulletPresenter.html#StormHawks_Runtime_Presenters_Projectiles_PlayerBulletPresenter_SetForward_Vector3_
+  commentId: M:StormHawks.Runtime.Presenters.Projectiles.PlayerBulletPresenter.SetForward(Vector3)
+  fullName: StormHawks.Runtime.Presenters.Projectiles.PlayerBulletPresenter.SetForward(Vector3)
+  nameWithType: PlayerBulletPresenter.SetForward(Vector3)
+- uid: StormHawks.Runtime.Presenters.Projectiles.PlayerBulletPresenter.SetForward*
+  name: SetForward
+  href: api/StormHawks.Runtime.Presenters.Projectiles.PlayerBulletPresenter.html#StormHawks_Runtime_Presenters_Projectiles_PlayerBulletPresenter_SetForward_
+  commentId: Overload:StormHawks.Runtime.Presenters.Projectiles.PlayerBulletPresenter.SetForward
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.Projectiles.PlayerBulletPresenter.SetForward
+  nameWithType: PlayerBulletPresenter.SetForward
+- uid: StormHawks.Runtime.Presenters.Projectiles.PlayerMissileCountPresenter
+  name: PlayerMissileCountPresenter
+  href: api/StormHawks.Runtime.Presenters.Projectiles.PlayerMissileCountPresenter.html
+  commentId: T:StormHawks.Runtime.Presenters.Projectiles.PlayerMissileCountPresenter
+  fullName: StormHawks.Runtime.Presenters.Projectiles.PlayerMissileCountPresenter
+  nameWithType: PlayerMissileCountPresenter
+- uid: StormHawks.Runtime.Presenters.Projectiles.PlayerMissilePresenter
+  name: PlayerMissilePresenter
+  href: api/StormHawks.Runtime.Presenters.Projectiles.PlayerMissilePresenter.html
+  commentId: T:StormHawks.Runtime.Presenters.Projectiles.PlayerMissilePresenter
+  fullName: StormHawks.Runtime.Presenters.Projectiles.PlayerMissilePresenter
+  nameWithType: PlayerMissilePresenter
+- uid: StormHawks.Runtime.Presenters.Projectiles.PlayerMissilePresenter.Dispatched
+  name: Dispatched
+  href: api/StormHawks.Runtime.Presenters.Projectiles.PlayerMissilePresenter.html#StormHawks_Runtime_Presenters_Projectiles_PlayerMissilePresenter_Dispatched
+  commentId: E:StormHawks.Runtime.Presenters.Projectiles.PlayerMissilePresenter.Dispatched
+  fullName: StormHawks.Runtime.Presenters.Projectiles.PlayerMissilePresenter.Dispatched
+  nameWithType: PlayerMissilePresenter.Dispatched
+- uid: StormHawks.Runtime.Presenters.Projectiles.PlayerMissilePresenter.Fire
+  name: Fire()
+  href: api/StormHawks.Runtime.Presenters.Projectiles.PlayerMissilePresenter.html#StormHawks_Runtime_Presenters_Projectiles_PlayerMissilePresenter_Fire
+  commentId: M:StormHawks.Runtime.Presenters.Projectiles.PlayerMissilePresenter.Fire
+  fullName: StormHawks.Runtime.Presenters.Projectiles.PlayerMissilePresenter.Fire()
+  nameWithType: PlayerMissilePresenter.Fire()
+- uid: StormHawks.Runtime.Presenters.Projectiles.PlayerMissilePresenter.Fire*
+  name: Fire
+  href: api/StormHawks.Runtime.Presenters.Projectiles.PlayerMissilePresenter.html#StormHawks_Runtime_Presenters_Projectiles_PlayerMissilePresenter_Fire_
+  commentId: Overload:StormHawks.Runtime.Presenters.Projectiles.PlayerMissilePresenter.Fire
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.Projectiles.PlayerMissilePresenter.Fire
+  nameWithType: PlayerMissilePresenter.Fire
+- uid: StormHawks.Runtime.Presenters.Projectiles.PlayerMissilePresenter.Initialize(Vector3,Quaternion)
+  name: Initialize(Vector3, Quaternion)
+  href: api/StormHawks.Runtime.Presenters.Projectiles.PlayerMissilePresenter.html#StormHawks_Runtime_Presenters_Projectiles_PlayerMissilePresenter_Initialize_Vector3_Quaternion_
+  commentId: M:StormHawks.Runtime.Presenters.Projectiles.PlayerMissilePresenter.Initialize(Vector3,Quaternion)
+  fullName: StormHawks.Runtime.Presenters.Projectiles.PlayerMissilePresenter.Initialize(Vector3, Quaternion)
+  nameWithType: PlayerMissilePresenter.Initialize(Vector3, Quaternion)
+- uid: StormHawks.Runtime.Presenters.Projectiles.PlayerMissilePresenter.Initialize*
+  name: Initialize
+  href: api/StormHawks.Runtime.Presenters.Projectiles.PlayerMissilePresenter.html#StormHawks_Runtime_Presenters_Projectiles_PlayerMissilePresenter_Initialize_
+  commentId: Overload:StormHawks.Runtime.Presenters.Projectiles.PlayerMissilePresenter.Initialize
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.Projectiles.PlayerMissilePresenter.Initialize
+  nameWithType: PlayerMissilePresenter.Initialize
+- uid: StormHawks.Runtime.Presenters.Projectiles.PlayerMissilePresenter.SetTarget(AggroTarget)
+  name: SetTarget(AggroTarget)
+  href: api/StormHawks.Runtime.Presenters.Projectiles.PlayerMissilePresenter.html#StormHawks_Runtime_Presenters_Projectiles_PlayerMissilePresenter_SetTarget_AggroTarget_
+  commentId: M:StormHawks.Runtime.Presenters.Projectiles.PlayerMissilePresenter.SetTarget(AggroTarget)
+  fullName: StormHawks.Runtime.Presenters.Projectiles.PlayerMissilePresenter.SetTarget(AggroTarget)
+  nameWithType: PlayerMissilePresenter.SetTarget(AggroTarget)
+- uid: StormHawks.Runtime.Presenters.Projectiles.PlayerMissilePresenter.SetTarget*
+  name: SetTarget
+  href: api/StormHawks.Runtime.Presenters.Projectiles.PlayerMissilePresenter.html#StormHawks_Runtime_Presenters_Projectiles_PlayerMissilePresenter_SetTarget_
+  commentId: Overload:StormHawks.Runtime.Presenters.Projectiles.PlayerMissilePresenter.SetTarget
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.Projectiles.PlayerMissilePresenter.SetTarget
+  nameWithType: PlayerMissilePresenter.SetTarget
+- uid: StormHawks.Runtime.Presenters.Projectiles.PlayerRailgunPresenter
+  name: PlayerRailgunPresenter
+  href: api/StormHawks.Runtime.Presenters.Projectiles.PlayerRailgunPresenter.html
+  commentId: T:StormHawks.Runtime.Presenters.Projectiles.PlayerRailgunPresenter
+  fullName: StormHawks.Runtime.Presenters.Projectiles.PlayerRailgunPresenter
+  nameWithType: PlayerRailgunPresenter
+- uid: StormHawks.Runtime.Presenters.Projectiles.PlayerRailgunPresenter.Dispatched
+  name: Dispatched
+  href: api/StormHawks.Runtime.Presenters.Projectiles.PlayerRailgunPresenter.html#StormHawks_Runtime_Presenters_Projectiles_PlayerRailgunPresenter_Dispatched
+  commentId: E:StormHawks.Runtime.Presenters.Projectiles.PlayerRailgunPresenter.Dispatched
+  fullName: StormHawks.Runtime.Presenters.Projectiles.PlayerRailgunPresenter.Dispatched
+  nameWithType: PlayerRailgunPresenter.Dispatched
+- uid: StormHawks.Runtime.Presenters.Projectiles.PlayerRailgunPresenter.Fire
+  name: Fire()
+  href: api/StormHawks.Runtime.Presenters.Projectiles.PlayerRailgunPresenter.html#StormHawks_Runtime_Presenters_Projectiles_PlayerRailgunPresenter_Fire
+  commentId: M:StormHawks.Runtime.Presenters.Projectiles.PlayerRailgunPresenter.Fire
+  fullName: StormHawks.Runtime.Presenters.Projectiles.PlayerRailgunPresenter.Fire()
+  nameWithType: PlayerRailgunPresenter.Fire()
+- uid: StormHawks.Runtime.Presenters.Projectiles.PlayerRailgunPresenter.Fire*
+  name: Fire
+  href: api/StormHawks.Runtime.Presenters.Projectiles.PlayerRailgunPresenter.html#StormHawks_Runtime_Presenters_Projectiles_PlayerRailgunPresenter_Fire_
+  commentId: Overload:StormHawks.Runtime.Presenters.Projectiles.PlayerRailgunPresenter.Fire
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.Projectiles.PlayerRailgunPresenter.Fire
+  nameWithType: PlayerRailgunPresenter.Fire
+- uid: StormHawks.Runtime.Presenters.Projectiles.PlayerRailgunPresenter.Initialize(Vector3,Quaternion)
+  name: Initialize(Vector3, Quaternion)
+  href: api/StormHawks.Runtime.Presenters.Projectiles.PlayerRailgunPresenter.html#StormHawks_Runtime_Presenters_Projectiles_PlayerRailgunPresenter_Initialize_Vector3_Quaternion_
+  commentId: M:StormHawks.Runtime.Presenters.Projectiles.PlayerRailgunPresenter.Initialize(Vector3,Quaternion)
+  fullName: StormHawks.Runtime.Presenters.Projectiles.PlayerRailgunPresenter.Initialize(Vector3, Quaternion)
+  nameWithType: PlayerRailgunPresenter.Initialize(Vector3, Quaternion)
+- uid: StormHawks.Runtime.Presenters.Projectiles.PlayerRailgunPresenter.Initialize*
+  name: Initialize
+  href: api/StormHawks.Runtime.Presenters.Projectiles.PlayerRailgunPresenter.html#StormHawks_Runtime_Presenters_Projectiles_PlayerRailgunPresenter_Initialize_
+  commentId: Overload:StormHawks.Runtime.Presenters.Projectiles.PlayerRailgunPresenter.Initialize
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.Projectiles.PlayerRailgunPresenter.Initialize
+  nameWithType: PlayerRailgunPresenter.Initialize
+- uid: StormHawks.Runtime.Presenters.Projectiles.PlayerRailgunPresenter.SetForward(Vector3)
+  name: SetForward(Vector3)
+  href: api/StormHawks.Runtime.Presenters.Projectiles.PlayerRailgunPresenter.html#StormHawks_Runtime_Presenters_Projectiles_PlayerRailgunPresenter_SetForward_Vector3_
+  commentId: M:StormHawks.Runtime.Presenters.Projectiles.PlayerRailgunPresenter.SetForward(Vector3)
+  fullName: StormHawks.Runtime.Presenters.Projectiles.PlayerRailgunPresenter.SetForward(Vector3)
+  nameWithType: PlayerRailgunPresenter.SetForward(Vector3)
+- uid: StormHawks.Runtime.Presenters.Projectiles.PlayerRailgunPresenter.SetForward*
+  name: SetForward
+  href: api/StormHawks.Runtime.Presenters.Projectiles.PlayerRailgunPresenter.html#StormHawks_Runtime_Presenters_Projectiles_PlayerRailgunPresenter_SetForward_
+  commentId: Overload:StormHawks.Runtime.Presenters.Projectiles.PlayerRailgunPresenter.SetForward
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.Projectiles.PlayerRailgunPresenter.SetForward
+  nameWithType: PlayerRailgunPresenter.SetForward
+- uid: StormHawks.Runtime.Presenters.Projectiles.PlayerRailgunSettings
+  name: PlayerRailgunSettings
+  href: api/StormHawks.Runtime.Presenters.Projectiles.PlayerRailgunSettings.html
+  commentId: T:StormHawks.Runtime.Presenters.Projectiles.PlayerRailgunSettings
+  fullName: StormHawks.Runtime.Presenters.Projectiles.PlayerRailgunSettings
+  nameWithType: PlayerRailgunSettings
+- uid: StormHawks.Runtime.Presenters.Projectiles.PlayerRailgunSettings.LifeTime
+  name: LifeTime
+  href: api/StormHawks.Runtime.Presenters.Projectiles.PlayerRailgunSettings.html#StormHawks_Runtime_Presenters_Projectiles_PlayerRailgunSettings_LifeTime
+  commentId: P:StormHawks.Runtime.Presenters.Projectiles.PlayerRailgunSettings.LifeTime
+  fullName: StormHawks.Runtime.Presenters.Projectiles.PlayerRailgunSettings.LifeTime
+  nameWithType: PlayerRailgunSettings.LifeTime
+- uid: StormHawks.Runtime.Presenters.Projectiles.PlayerRailgunSettings.LifeTime*
+  name: LifeTime
+  href: api/StormHawks.Runtime.Presenters.Projectiles.PlayerRailgunSettings.html#StormHawks_Runtime_Presenters_Projectiles_PlayerRailgunSettings_LifeTime_
+  commentId: Overload:StormHawks.Runtime.Presenters.Projectiles.PlayerRailgunSettings.LifeTime
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.Projectiles.PlayerRailgunSettings.LifeTime
+  nameWithType: PlayerRailgunSettings.LifeTime
+- uid: StormHawks.Runtime.Presenters.Projectiles.PlayerRailgunSettings.SetLifeTime(System.Single)
+  name: SetLifeTime(Single)
+  href: api/StormHawks.Runtime.Presenters.Projectiles.PlayerRailgunSettings.html#StormHawks_Runtime_Presenters_Projectiles_PlayerRailgunSettings_SetLifeTime_System_Single_
+  commentId: M:StormHawks.Runtime.Presenters.Projectiles.PlayerRailgunSettings.SetLifeTime(System.Single)
+  fullName: StormHawks.Runtime.Presenters.Projectiles.PlayerRailgunSettings.SetLifeTime(System.Single)
+  nameWithType: PlayerRailgunSettings.SetLifeTime(Single)
+- uid: StormHawks.Runtime.Presenters.Projectiles.PlayerRailgunSettings.SetLifeTime*
+  name: SetLifeTime
+  href: api/StormHawks.Runtime.Presenters.Projectiles.PlayerRailgunSettings.html#StormHawks_Runtime_Presenters_Projectiles_PlayerRailgunSettings_SetLifeTime_
+  commentId: Overload:StormHawks.Runtime.Presenters.Projectiles.PlayerRailgunSettings.SetLifeTime
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.Projectiles.PlayerRailgunSettings.SetLifeTime
+  nameWithType: PlayerRailgunSettings.SetLifeTime
+- uid: StormHawks.Runtime.Presenters.Projectiles.PlayerRailgunSettings.TargetLayerMask
+  name: TargetLayerMask
+  href: api/StormHawks.Runtime.Presenters.Projectiles.PlayerRailgunSettings.html#StormHawks_Runtime_Presenters_Projectiles_PlayerRailgunSettings_TargetLayerMask
+  commentId: P:StormHawks.Runtime.Presenters.Projectiles.PlayerRailgunSettings.TargetLayerMask
+  fullName: StormHawks.Runtime.Presenters.Projectiles.PlayerRailgunSettings.TargetLayerMask
+  nameWithType: PlayerRailgunSettings.TargetLayerMask
+- uid: StormHawks.Runtime.Presenters.Projectiles.PlayerRailgunSettings.TargetLayerMask*
+  name: TargetLayerMask
+  href: api/StormHawks.Runtime.Presenters.Projectiles.PlayerRailgunSettings.html#StormHawks_Runtime_Presenters_Projectiles_PlayerRailgunSettings_TargetLayerMask_
+  commentId: Overload:StormHawks.Runtime.Presenters.Projectiles.PlayerRailgunSettings.TargetLayerMask
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.Projectiles.PlayerRailgunSettings.TargetLayerMask
+  nameWithType: PlayerRailgunSettings.TargetLayerMask
 - uid: StormHawks.Runtime.Presenters.Projectiles.ProjectilePresenter
   name: ProjectilePresenter
   href: api/StormHawks.Runtime.Presenters.Projectiles.ProjectilePresenter.html
@@ -27125,6 +27532,31 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Presenters.Projectiles.ProjectilePresenter.Initialize
   nameWithType: ProjectilePresenter.Initialize
+- uid: StormHawks.Runtime.Presenters.Runtime.Presenters
+  name: StormHawks.Runtime.Presenters.Runtime.Presenters
+  href: api/StormHawks.Runtime.Presenters.Runtime.Presenters.html
+  commentId: N:StormHawks.Runtime.Presenters.Runtime.Presenters
+  fullName: StormHawks.Runtime.Presenters.Runtime.Presenters
+  nameWithType: StormHawks.Runtime.Presenters.Runtime.Presenters
+- uid: StormHawks.Runtime.Presenters.Runtime.Presenters.PlayerPresenter
+  name: PlayerPresenter
+  href: api/StormHawks.Runtime.Presenters.Runtime.Presenters.PlayerPresenter.html
+  commentId: T:StormHawks.Runtime.Presenters.Runtime.Presenters.PlayerPresenter
+  fullName: StormHawks.Runtime.Presenters.Runtime.Presenters.PlayerPresenter
+  nameWithType: PlayerPresenter
+- uid: StormHawks.Runtime.Presenters.Runtime.Presenters.PlayerPresenter.SetActivateRailgun(System.Boolean)
+  name: SetActivateRailgun(Boolean)
+  href: api/StormHawks.Runtime.Presenters.Runtime.Presenters.PlayerPresenter.html#StormHawks_Runtime_Presenters_Runtime_Presenters_PlayerPresenter_SetActivateRailgun_System_Boolean_
+  commentId: M:StormHawks.Runtime.Presenters.Runtime.Presenters.PlayerPresenter.SetActivateRailgun(System.Boolean)
+  fullName: StormHawks.Runtime.Presenters.Runtime.Presenters.PlayerPresenter.SetActivateRailgun(System.Boolean)
+  nameWithType: PlayerPresenter.SetActivateRailgun(Boolean)
+- uid: StormHawks.Runtime.Presenters.Runtime.Presenters.PlayerPresenter.SetActivateRailgun*
+  name: SetActivateRailgun
+  href: api/StormHawks.Runtime.Presenters.Runtime.Presenters.PlayerPresenter.html#StormHawks_Runtime_Presenters_Runtime_Presenters_PlayerPresenter_SetActivateRailgun_
+  commentId: Overload:StormHawks.Runtime.Presenters.Runtime.Presenters.PlayerPresenter.SetActivateRailgun
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.Runtime.Presenters.PlayerPresenter.SetActivateRailgun
+  nameWithType: PlayerPresenter.SetActivateRailgun
 - uid: StormHawks.Runtime.Presenters.Spawners
   name: StormHawks.Runtime.Presenters.Spawners
   href: api/StormHawks.Runtime.Presenters.Spawners.html
@@ -27501,6 +27933,78 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Presenters.Weapons.MissileEliteCrystalWeapon.SpawnMissile
   nameWithType: MissileEliteCrystalWeapon.SpawnMissile
+- uid: StormHawks.Runtime.Presenters.Weapons.Players
+  name: StormHawks.Runtime.Presenters.Weapons.Players
+  href: api/StormHawks.Runtime.Presenters.Weapons.Players.html
+  commentId: N:StormHawks.Runtime.Presenters.Weapons.Players
+  fullName: StormHawks.Runtime.Presenters.Weapons.Players
+  nameWithType: StormHawks.Runtime.Presenters.Weapons.Players
+- uid: StormHawks.Runtime.Presenters.Weapons.Players.PlayerBulletWeapon
+  name: PlayerBulletWeapon
+  href: api/StormHawks.Runtime.Presenters.Weapons.Players.PlayerBulletWeapon.html
+  commentId: T:StormHawks.Runtime.Presenters.Weapons.Players.PlayerBulletWeapon
+  fullName: StormHawks.Runtime.Presenters.Weapons.Players.PlayerBulletWeapon
+  nameWithType: PlayerBulletWeapon
+- uid: StormHawks.Runtime.Presenters.Weapons.Players.PlayerBulletWeapon.SetTarget(System.Nullable{AggroTarget})
+  name: SetTarget(Nullable<AggroTarget>)
+  href: api/StormHawks.Runtime.Presenters.Weapons.Players.PlayerBulletWeapon.html#StormHawks_Runtime_Presenters_Weapons_Players_PlayerBulletWeapon_SetTarget_System_Nullable_AggroTarget__
+  commentId: M:StormHawks.Runtime.Presenters.Weapons.Players.PlayerBulletWeapon.SetTarget(System.Nullable{AggroTarget})
+  name.vb: SetTarget(Nullable(Of AggroTarget))
+  fullName: StormHawks.Runtime.Presenters.Weapons.Players.PlayerBulletWeapon.SetTarget(System.Nullable<AggroTarget>)
+  fullName.vb: StormHawks.Runtime.Presenters.Weapons.Players.PlayerBulletWeapon.SetTarget(System.Nullable(Of AggroTarget))
+  nameWithType: PlayerBulletWeapon.SetTarget(Nullable<AggroTarget>)
+  nameWithType.vb: PlayerBulletWeapon.SetTarget(Nullable(Of AggroTarget))
+- uid: StormHawks.Runtime.Presenters.Weapons.Players.PlayerBulletWeapon.SetTarget*
+  name: SetTarget
+  href: api/StormHawks.Runtime.Presenters.Weapons.Players.PlayerBulletWeapon.html#StormHawks_Runtime_Presenters_Weapons_Players_PlayerBulletWeapon_SetTarget_
+  commentId: Overload:StormHawks.Runtime.Presenters.Weapons.Players.PlayerBulletWeapon.SetTarget
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.Weapons.Players.PlayerBulletWeapon.SetTarget
+  nameWithType: PlayerBulletWeapon.SetTarget
+- uid: StormHawks.Runtime.Presenters.Weapons.Players.PlayerMissileWeapon
+  name: PlayerMissileWeapon
+  href: api/StormHawks.Runtime.Presenters.Weapons.Players.PlayerMissileWeapon.html
+  commentId: T:StormHawks.Runtime.Presenters.Weapons.Players.PlayerMissileWeapon
+  fullName: StormHawks.Runtime.Presenters.Weapons.Players.PlayerMissileWeapon
+  nameWithType: PlayerMissileWeapon
+- uid: StormHawks.Runtime.Presenters.Weapons.Players.PlayerMissileWeapon.SetTarget(List{AggroTarget})
+  name: SetTarget(List<AggroTarget>)
+  href: api/StormHawks.Runtime.Presenters.Weapons.Players.PlayerMissileWeapon.html#StormHawks_Runtime_Presenters_Weapons_Players_PlayerMissileWeapon_SetTarget_List_AggroTarget__
+  commentId: M:StormHawks.Runtime.Presenters.Weapons.Players.PlayerMissileWeapon.SetTarget(List{AggroTarget})
+  name.vb: SetTarget(List(Of AggroTarget))
+  fullName: StormHawks.Runtime.Presenters.Weapons.Players.PlayerMissileWeapon.SetTarget(List<AggroTarget>)
+  fullName.vb: StormHawks.Runtime.Presenters.Weapons.Players.PlayerMissileWeapon.SetTarget(List(Of AggroTarget))
+  nameWithType: PlayerMissileWeapon.SetTarget(List<AggroTarget>)
+  nameWithType.vb: PlayerMissileWeapon.SetTarget(List(Of AggroTarget))
+- uid: StormHawks.Runtime.Presenters.Weapons.Players.PlayerMissileWeapon.SetTarget*
+  name: SetTarget
+  href: api/StormHawks.Runtime.Presenters.Weapons.Players.PlayerMissileWeapon.html#StormHawks_Runtime_Presenters_Weapons_Players_PlayerMissileWeapon_SetTarget_
+  commentId: Overload:StormHawks.Runtime.Presenters.Weapons.Players.PlayerMissileWeapon.SetTarget
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.Weapons.Players.PlayerMissileWeapon.SetTarget
+  nameWithType: PlayerMissileWeapon.SetTarget
+- uid: StormHawks.Runtime.Presenters.Weapons.Players.PlayerRailgunWeapon
+  name: PlayerRailgunWeapon
+  href: api/StormHawks.Runtime.Presenters.Weapons.Players.PlayerRailgunWeapon.html
+  commentId: T:StormHawks.Runtime.Presenters.Weapons.Players.PlayerRailgunWeapon
+  fullName: StormHawks.Runtime.Presenters.Weapons.Players.PlayerRailgunWeapon
+  nameWithType: PlayerRailgunWeapon
+- uid: StormHawks.Runtime.Presenters.Weapons.Players.PlayerRailgunWeapon.SetTarget(System.Nullable{AggroTarget})
+  name: SetTarget(Nullable<AggroTarget>)
+  href: api/StormHawks.Runtime.Presenters.Weapons.Players.PlayerRailgunWeapon.html#StormHawks_Runtime_Presenters_Weapons_Players_PlayerRailgunWeapon_SetTarget_System_Nullable_AggroTarget__
+  commentId: M:StormHawks.Runtime.Presenters.Weapons.Players.PlayerRailgunWeapon.SetTarget(System.Nullable{AggroTarget})
+  name.vb: SetTarget(Nullable(Of AggroTarget))
+  fullName: StormHawks.Runtime.Presenters.Weapons.Players.PlayerRailgunWeapon.SetTarget(System.Nullable<AggroTarget>)
+  fullName.vb: StormHawks.Runtime.Presenters.Weapons.Players.PlayerRailgunWeapon.SetTarget(System.Nullable(Of AggroTarget))
+  nameWithType: PlayerRailgunWeapon.SetTarget(Nullable<AggroTarget>)
+  nameWithType.vb: PlayerRailgunWeapon.SetTarget(Nullable(Of AggroTarget))
+- uid: StormHawks.Runtime.Presenters.Weapons.Players.PlayerRailgunWeapon.SetTarget*
+  name: SetTarget
+  href: api/StormHawks.Runtime.Presenters.Weapons.Players.PlayerRailgunWeapon.html#StormHawks_Runtime_Presenters_Weapons_Players_PlayerRailgunWeapon_SetTarget_
+  commentId: Overload:StormHawks.Runtime.Presenters.Weapons.Players.PlayerRailgunWeapon.SetTarget
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.Weapons.Players.PlayerRailgunWeapon.SetTarget
+  nameWithType: PlayerRailgunWeapon.SetTarget
 - uid: StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon
   name: ProjectileWeapon
   href: api/StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.html
@@ -30026,12 +30530,90 @@ references:
   commentId: T:StormHawks.Runtime.UI.PitchLadder
   fullName: StormHawks.Runtime.UI.PitchLadder
   nameWithType: PitchLadder
-- uid: StormHawks.Runtime.UI.PlayerMissileReloadUIHandler
-  name: PlayerMissileReloadUIHandler
-  href: api/StormHawks.Runtime.UI.PlayerMissileReloadUIHandler.html
-  commentId: T:StormHawks.Runtime.UI.PlayerMissileReloadUIHandler
-  fullName: StormHawks.Runtime.UI.PlayerMissileReloadUIHandler
-  nameWithType: PlayerMissileReloadUIHandler
+- uid: StormHawks.Runtime.UI.PlayerMissileCountUI
+  name: PlayerMissileCountUI
+  href: api/StormHawks.Runtime.UI.PlayerMissileCountUI.html
+  commentId: T:StormHawks.Runtime.UI.PlayerMissileCountUI
+  fullName: StormHawks.Runtime.UI.PlayerMissileCountUI
+  nameWithType: PlayerMissileCountUI
+- uid: StormHawks.Runtime.UI.PlayerMissileCountUI.Angle
+  name: Angle
+  href: api/StormHawks.Runtime.UI.PlayerMissileCountUI.html#StormHawks_Runtime_UI_PlayerMissileCountUI_Angle
+  commentId: P:StormHawks.Runtime.UI.PlayerMissileCountUI.Angle
+  fullName: StormHawks.Runtime.UI.PlayerMissileCountUI.Angle
+  nameWithType: PlayerMissileCountUI.Angle
+- uid: StormHawks.Runtime.UI.PlayerMissileCountUI.Angle*
+  name: Angle
+  href: api/StormHawks.Runtime.UI.PlayerMissileCountUI.html#StormHawks_Runtime_UI_PlayerMissileCountUI_Angle_
+  commentId: Overload:StormHawks.Runtime.UI.PlayerMissileCountUI.Angle
+  isSpec: "True"
+  fullName: StormHawks.Runtime.UI.PlayerMissileCountUI.Angle
+  nameWithType: PlayerMissileCountUI.Angle
+- uid: StormHawks.Runtime.UI.PlayerMissileCountUI.Distance
+  name: Distance
+  href: api/StormHawks.Runtime.UI.PlayerMissileCountUI.html#StormHawks_Runtime_UI_PlayerMissileCountUI_Distance
+  commentId: P:StormHawks.Runtime.UI.PlayerMissileCountUI.Distance
+  fullName: StormHawks.Runtime.UI.PlayerMissileCountUI.Distance
+  nameWithType: PlayerMissileCountUI.Distance
+- uid: StormHawks.Runtime.UI.PlayerMissileCountUI.Distance*
+  name: Distance
+  href: api/StormHawks.Runtime.UI.PlayerMissileCountUI.html#StormHawks_Runtime_UI_PlayerMissileCountUI_Distance_
+  commentId: Overload:StormHawks.Runtime.UI.PlayerMissileCountUI.Distance
+  isSpec: "True"
+  fullName: StormHawks.Runtime.UI.PlayerMissileCountUI.Distance
+  nameWithType: PlayerMissileCountUI.Distance
+- uid: StormHawks.Runtime.UI.PlayerMissileCountUI.GenerateIndicator(System.Int32)
+  name: GenerateIndicator(Int32)
+  href: api/StormHawks.Runtime.UI.PlayerMissileCountUI.html#StormHawks_Runtime_UI_PlayerMissileCountUI_GenerateIndicator_System_Int32_
+  commentId: M:StormHawks.Runtime.UI.PlayerMissileCountUI.GenerateIndicator(System.Int32)
+  fullName: StormHawks.Runtime.UI.PlayerMissileCountUI.GenerateIndicator(System.Int32)
+  nameWithType: PlayerMissileCountUI.GenerateIndicator(Int32)
+- uid: StormHawks.Runtime.UI.PlayerMissileCountUI.GenerateIndicator*
+  name: GenerateIndicator
+  href: api/StormHawks.Runtime.UI.PlayerMissileCountUI.html#StormHawks_Runtime_UI_PlayerMissileCountUI_GenerateIndicator_
+  commentId: Overload:StormHawks.Runtime.UI.PlayerMissileCountUI.GenerateIndicator
+  isSpec: "True"
+  fullName: StormHawks.Runtime.UI.PlayerMissileCountUI.GenerateIndicator
+  nameWithType: PlayerMissileCountUI.GenerateIndicator
+- uid: StormHawks.Runtime.UI.PlayerMissileCountUI.InitializeIndicator
+  name: InitializeIndicator()
+  href: api/StormHawks.Runtime.UI.PlayerMissileCountUI.html#StormHawks_Runtime_UI_PlayerMissileCountUI_InitializeIndicator
+  commentId: M:StormHawks.Runtime.UI.PlayerMissileCountUI.InitializeIndicator
+  fullName: StormHawks.Runtime.UI.PlayerMissileCountUI.InitializeIndicator()
+  nameWithType: PlayerMissileCountUI.InitializeIndicator()
+- uid: StormHawks.Runtime.UI.PlayerMissileCountUI.InitializeIndicator*
+  name: InitializeIndicator
+  href: api/StormHawks.Runtime.UI.PlayerMissileCountUI.html#StormHawks_Runtime_UI_PlayerMissileCountUI_InitializeIndicator_
+  commentId: Overload:StormHawks.Runtime.UI.PlayerMissileCountUI.InitializeIndicator
+  isSpec: "True"
+  fullName: StormHawks.Runtime.UI.PlayerMissileCountUI.InitializeIndicator
+  nameWithType: PlayerMissileCountUI.InitializeIndicator
+- uid: StormHawks.Runtime.UI.PlayerMissileCountUI.RearrangeIndicator(System.Single,System.Single)
+  name: RearrangeIndicator(Single, Single)
+  href: api/StormHawks.Runtime.UI.PlayerMissileCountUI.html#StormHawks_Runtime_UI_PlayerMissileCountUI_RearrangeIndicator_System_Single_System_Single_
+  commentId: M:StormHawks.Runtime.UI.PlayerMissileCountUI.RearrangeIndicator(System.Single,System.Single)
+  fullName: StormHawks.Runtime.UI.PlayerMissileCountUI.RearrangeIndicator(System.Single, System.Single)
+  nameWithType: PlayerMissileCountUI.RearrangeIndicator(Single, Single)
+- uid: StormHawks.Runtime.UI.PlayerMissileCountUI.RearrangeIndicator*
+  name: RearrangeIndicator
+  href: api/StormHawks.Runtime.UI.PlayerMissileCountUI.html#StormHawks_Runtime_UI_PlayerMissileCountUI_RearrangeIndicator_
+  commentId: Overload:StormHawks.Runtime.UI.PlayerMissileCountUI.RearrangeIndicator
+  isSpec: "True"
+  fullName: StormHawks.Runtime.UI.PlayerMissileCountUI.RearrangeIndicator
+  nameWithType: PlayerMissileCountUI.RearrangeIndicator
+- uid: StormHawks.Runtime.UI.PlayerMissileCountUI.ShowReloadUI(System.Int32,System.Single)
+  name: ShowReloadUI(Int32, Single)
+  href: api/StormHawks.Runtime.UI.PlayerMissileCountUI.html#StormHawks_Runtime_UI_PlayerMissileCountUI_ShowReloadUI_System_Int32_System_Single_
+  commentId: M:StormHawks.Runtime.UI.PlayerMissileCountUI.ShowReloadUI(System.Int32,System.Single)
+  fullName: StormHawks.Runtime.UI.PlayerMissileCountUI.ShowReloadUI(System.Int32, System.Single)
+  nameWithType: PlayerMissileCountUI.ShowReloadUI(Int32, Single)
+- uid: StormHawks.Runtime.UI.PlayerMissileCountUI.ShowReloadUI*
+  name: ShowReloadUI
+  href: api/StormHawks.Runtime.UI.PlayerMissileCountUI.html#StormHawks_Runtime_UI_PlayerMissileCountUI_ShowReloadUI_
+  commentId: Overload:StormHawks.Runtime.UI.PlayerMissileCountUI.ShowReloadUI
+  isSpec: "True"
+  fullName: StormHawks.Runtime.UI.PlayerMissileCountUI.ShowReloadUI
+  nameWithType: PlayerMissileCountUI.ShowReloadUI
 - uid: StormHawks.Runtime.UI.PlayerThrustUIHandler
   name: PlayerThrustUIHandler
   href: api/StormHawks.Runtime.UI.PlayerThrustUIHandler.html
@@ -34081,6 +34663,28 @@ references:
   fullName.vb: StormHawks.Runtime.Utilities.Extensions.InputExtensions.ReadValue(Of T)(InputAction.CallbackContext, ByRef T)
   nameWithType: InputExtensions.ReadValue<T>(InputAction.CallbackContext, ref T)
   nameWithType.vb: InputExtensions.ReadValue(Of T)(InputAction.CallbackContext, ByRef T)
+- uid: StormHawks.Runtime.Utilities.Extensions.ListExtensions
+  name: ListExtensions
+  href: api/StormHawks.Runtime.Utilities.Extensions.ListExtensions.html
+  commentId: T:StormHawks.Runtime.Utilities.Extensions.ListExtensions
+  fullName: StormHawks.Runtime.Utilities.Extensions.ListExtensions
+  nameWithType: ListExtensions
+- uid: StormHawks.Runtime.Utilities.Extensions.ListExtensions.AddIfNotExists*
+  name: AddIfNotExists
+  href: api/StormHawks.Runtime.Utilities.Extensions.ListExtensions.html#StormHawks_Runtime_Utilities_Extensions_ListExtensions_AddIfNotExists_
+  commentId: Overload:StormHawks.Runtime.Utilities.Extensions.ListExtensions.AddIfNotExists
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Utilities.Extensions.ListExtensions.AddIfNotExists
+  nameWithType: ListExtensions.AddIfNotExists
+- uid: StormHawks.Runtime.Utilities.Extensions.ListExtensions.AddIfNotExists``1(List{``0},``0)
+  name: AddIfNotExists<T>(List<T>, T)
+  href: api/StormHawks.Runtime.Utilities.Extensions.ListExtensions.html#StormHawks_Runtime_Utilities_Extensions_ListExtensions_AddIfNotExists__1_List___0____0_
+  commentId: M:StormHawks.Runtime.Utilities.Extensions.ListExtensions.AddIfNotExists``1(List{``0},``0)
+  name.vb: AddIfNotExists(Of T)(List(Of T), T)
+  fullName: StormHawks.Runtime.Utilities.Extensions.ListExtensions.AddIfNotExists<T>(List<T>, T)
+  fullName.vb: StormHawks.Runtime.Utilities.Extensions.ListExtensions.AddIfNotExists(Of T)(List(Of T), T)
+  nameWithType: ListExtensions.AddIfNotExists<T>(List<T>, T)
+  nameWithType.vb: ListExtensions.AddIfNotExists(Of T)(List(Of T), T)
 - uid: StormHawks.Runtime.Utilities.Extensions.MathExtensions
   name: MathExtensions
   href: api/StormHawks.Runtime.Utilities.Extensions.MathExtensions.html
@@ -34839,6 +35443,28 @@ references:
   fullName.vb: StormHawks.Runtime.Utilities.MonoSingleton(Of T).Instance
   nameWithType: MonoSingleton<T>.Instance
   nameWithType.vb: MonoSingleton(Of T).Instance
+- uid: StormHawks.Runtime.Utilities.ObjectUtil
+  name: ObjectUtil
+  href: api/StormHawks.Runtime.Utilities.ObjectUtil.html
+  commentId: T:StormHawks.Runtime.Utilities.ObjectUtil
+  fullName: StormHawks.Runtime.Utilities.ObjectUtil
+  nameWithType: ObjectUtil
+- uid: StormHawks.Runtime.Utilities.ObjectUtil.FindRootObjects*
+  name: FindRootObjects
+  href: api/StormHawks.Runtime.Utilities.ObjectUtil.html#StormHawks_Runtime_Utilities_ObjectUtil_FindRootObjects_
+  commentId: Overload:StormHawks.Runtime.Utilities.ObjectUtil.FindRootObjects
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Utilities.ObjectUtil.FindRootObjects
+  nameWithType: ObjectUtil.FindRootObjects
+- uid: StormHawks.Runtime.Utilities.ObjectUtil.FindRootObjects``1
+  name: FindRootObjects<T>()
+  href: api/StormHawks.Runtime.Utilities.ObjectUtil.html#StormHawks_Runtime_Utilities_ObjectUtil_FindRootObjects__1
+  commentId: M:StormHawks.Runtime.Utilities.ObjectUtil.FindRootObjects``1
+  name.vb: FindRootObjects(Of T)()
+  fullName: StormHawks.Runtime.Utilities.ObjectUtil.FindRootObjects<T>()
+  fullName.vb: StormHawks.Runtime.Utilities.ObjectUtil.FindRootObjects(Of T)()
+  nameWithType: ObjectUtil.FindRootObjects<T>()
+  nameWithType.vb: ObjectUtil.FindRootObjects(Of T)()
 - uid: StormHawks.Runtime.Utilities.RotationDifferenceTracker
   name: RotationDifferenceTracker
   href: api/StormHawks.Runtime.Utilities.RotationDifferenceTracker.html

@@ -1840,7 +1840,7 @@
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.Detectors.Handlers.DetectorHandlerBase-1.html",
-          "hash": "DtY7k6bXMsoP/+4JBmIp1WLfSes29n9e2NbsmTcq1N4="
+          "hash": "EAI3pLP3y1mUyTDeIJaQBRBH4GWWnP6UmNOBoJ0/dMw="
         }
       },
       "is_incremental": false,
@@ -1852,7 +1852,7 @@
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.Detectors.Handlers.EntityDetectorHandler.html",
-          "hash": "hWjV/bLxqmoDwUXcIw+/DmwMv4e7uJopyqqfn3+MeU0="
+          "hash": "8lGR2Gdcq/b1Bva9FWCbNII6h/vPKebiWJulekEntO4="
         }
       },
       "is_incremental": false,
@@ -1888,7 +1888,7 @@
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.Detectors.Handlers.MissileDetectorHandler.html",
-          "hash": "SIa3IrU5wGqJBUDaRRpSak6CfRKvt8Ruqb/Mc1tHg1M="
+          "hash": "O4YxqtBAxz08092v1iBcRBvh/FkL/eEB9zZ2nLDyJuQ="
         }
       },
       "is_incremental": false,
@@ -1900,7 +1900,7 @@
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.Detectors.Handlers.PartDetectorHandler.html",
-          "hash": "t85V+39wInPsHmJJABw/goglDgCOUIQrmmEK0N2cQhU="
+          "hash": "jKYdZS+eTvhEfdBN7JqbPnXsTJE+k2L1gDeAtwR8/IM="
         }
       },
       "is_incremental": false,
@@ -5076,18 +5076,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StormHawks.Runtime.LifetimeScopes.PlayerLifetimeScope.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/StormHawks.Runtime.LifetimeScopes.PlayerLifetimeScope.html",
-          "hash": "1ipeNwqg1PzoTtWSjnsYH612ooySabiWOR8qfhWCsCc="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/StormHawks.Runtime.LifetimeScopes.RootLifetimeScope.yml",
       "output": {
         ".html": {
@@ -5104,7 +5092,7 @@
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.LifetimeScopes.html",
-          "hash": "jCtaxiclhxiUTf2M3GPkeE+wTsnN0+I6bkQ6OYUHz3c="
+          "hash": "noGXIbAVdffBSoD8UP5Rrw7ypGafEY0tqXL5A28UN2A="
         }
       },
       "is_incremental": false,
@@ -5508,11 +5496,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StormHawks.Runtime.Players.Attack.AttackControlConfig.yml",
+      "source_relative_path": "api/StormHawks.Runtime.Players.Attack.MissileAttackHandler.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StormHawks.Runtime.Players.Attack.AttackControlConfig.html",
-          "hash": "6KWEPcIHbnmLh3wu8P2OiwQNIZyu0rtqwW3LnJmYCzI="
+          "relative_path": "api/StormHawks.Runtime.Players.Attack.MissileAttackHandler.html",
+          "hash": "KmGHlrgmDp+eFXSMUyCdF7QY3xHsHe8VE7s1N10CF/A="
         }
       },
       "is_incremental": false,
@@ -5556,11 +5544,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StormHawks.Runtime.Players.Attack.PlayerBulletAttackHandler.yml",
+      "source_relative_path": "api/StormHawks.Runtime.Players.Attack.PlayerBulletWeaponSettings.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StormHawks.Runtime.Players.Attack.PlayerBulletAttackHandler.html",
-          "hash": "zCkAcRsdLfqws/Dgyn0/viyp8mokrJeFC617j6pnRDM="
+          "relative_path": "api/StormHawks.Runtime.Players.Attack.PlayerBulletWeaponSettings.html",
+          "hash": "XMufMoy2xkGZ09PLwsiMas/bVELl4DBsiZ3h+vU+/VY="
         }
       },
       "is_incremental": false,
@@ -5580,11 +5568,23 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StormHawks.Runtime.Players.Attack.PlayerMissileAttackHandler.yml",
+      "source_relative_path": "api/StormHawks.Runtime.Players.Attack.PlayerMissileWeaponSettings.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StormHawks.Runtime.Players.Attack.PlayerMissileAttackHandler.html",
-          "hash": "hmjciWID8OL1Jbd1VFNUOkEoFK7QqvAOf1TQHnl7OmE="
+          "relative_path": "api/StormHawks.Runtime.Players.Attack.PlayerMissileWeaponSettings.html",
+          "hash": "F/bP0AW3XF3N3XH6y+4w/cYwSysVJnLOXsNjSbohibI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/StormHawks.Runtime.Players.Attack.ProjectileAttackHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StormHawks.Runtime.Players.Attack.ProjectileAttackHandler.html",
+          "hash": "yctCf/OjcFrxmYEISyTC86NvThGa7WUxo2f+CEvF6q8="
         }
       },
       "is_incremental": false,
@@ -5724,11 +5724,35 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/StormHawks.Runtime.Players.Attack.Weapons.PlayerBulletWeapon.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StormHawks.Runtime.Players.Attack.Weapons.PlayerBulletWeapon.html",
+          "hash": "R4cWpGnnRlIB+CGD3aNrW+65VbiVqWQcg6bXD5T4ECQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/StormHawks.Runtime.Players.Attack.Weapons.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StormHawks.Runtime.Players.Attack.Weapons.html",
+          "hash": "096k5ZGyftDSo/Z0QP5hTh6HVUWD5/mfK37lrJuJzmo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/StormHawks.Runtime.Players.Attack.yml",
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.Players.Attack.html",
-          "hash": "zhMmjKgQ7/EyHV7LtfFHiyOewiSkkvv0ZvNjlGoSClY="
+          "hash": "zqlThyHWKZe8DR7n6c6OqZrIrsqKSHmwFYyYcOCW9pY="
         }
       },
       "is_incremental": false,
@@ -6552,11 +6576,71 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/StormHawks.Runtime.Presenters.Facilities.RailgunActivatorPresenter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StormHawks.Runtime.Presenters.Facilities.RailgunActivatorPresenter.html",
+          "hash": "oQf/GZ5CANan07hhYW6cG5exM4AyNfmIZfUQhUOhdec="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/StormHawks.Runtime.Presenters.Facilities.SignalContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StormHawks.Runtime.Presenters.Facilities.SignalContext.html",
+          "hash": "HE/+JiBhli0OypYzD2XyuNHx7BcKZAS3X+MLlyODwLI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/StormHawks.Runtime.Presenters.Facilities.SignalInvoker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StormHawks.Runtime.Presenters.Facilities.SignalInvoker.html",
+          "hash": "iqWkANzRnVVQ/PnPCjMSphMbfuhHYdVZmVSSZteUy6M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/StormHawks.Runtime.Presenters.Facilities.SignalType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StormHawks.Runtime.Presenters.Facilities.SignalType.html",
+          "hash": "JThhxLZ6LXyM8aXyHDT4B3ttskRQv5cRxvgGNf9eFv0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/StormHawks.Runtime.Presenters.Facilities.TriggerSignalInvoker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StormHawks.Runtime.Presenters.Facilities.TriggerSignalInvoker.html",
+          "hash": "ruMNJI8rBBsbBYYH121nflMBtfJDI5Is7FDh5XEEK0o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/StormHawks.Runtime.Presenters.Facilities.yml",
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.Presenters.Facilities.html",
-          "hash": "sn8habiV6UwJtsj2ugnTR7ruuD0+lIlqlhYfmRV2/20="
+          "hash": "X/Ve0FKHFJMLVxLHIWbzf/gWko0u9QsiINCD4Ye742w="
         }
       },
       "is_incremental": false,
@@ -6600,11 +6684,35 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/StormHawks.Runtime.Presenters.Fires.MultipleTimeFire.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StormHawks.Runtime.Presenters.Fires.MultipleTimeFire.html",
+          "hash": "wB0t9Kn6LcfN1zknUPF+0rN3BxIzq6bEXZpbea4WM3Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/StormHawks.Runtime.Presenters.Fires.OneTimeFire.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StormHawks.Runtime.Presenters.Fires.OneTimeFire.html",
+          "hash": "wCCGj0J3QqYu6BgLt/zBhBVcivItAvuQHdL7bjOQyGo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/StormHawks.Runtime.Presenters.Fires.yml",
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.Presenters.Fires.html",
-          "hash": "Yp9Hh50YKQNz2hubtuiKxg9HYESBTM4uPDC7SYFocvA="
+          "hash": "ZC/bU4Yf9A3nICrwQZj4WttuZVSYhImLw8MiikD1soc="
         }
       },
       "is_incremental": false,
@@ -6660,11 +6768,71 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/StormHawks.Runtime.Presenters.Projectiles.PlayerBulletPresenter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StormHawks.Runtime.Presenters.Projectiles.PlayerBulletPresenter.html",
+          "hash": "GPdtlJOpAH9/MCS6MT8aRJDlgJGBNCip8y3LofSvl/4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/StormHawks.Runtime.Presenters.Projectiles.PlayerMissileCountPresenter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StormHawks.Runtime.Presenters.Projectiles.PlayerMissileCountPresenter.html",
+          "hash": "e3Q8oMNOSWZ1T/Ee3i72VgvqWbGiv4h1+WhIAcxQAVc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/StormHawks.Runtime.Presenters.Projectiles.PlayerMissilePresenter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StormHawks.Runtime.Presenters.Projectiles.PlayerMissilePresenter.html",
+          "hash": "FpV5Dl+ldoXTXF3kKS3qlkOLHuSCgNWmsg2kB0u71ps="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/StormHawks.Runtime.Presenters.Projectiles.PlayerRailgunPresenter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StormHawks.Runtime.Presenters.Projectiles.PlayerRailgunPresenter.html",
+          "hash": "VVIVVF6qjgmE202waMiR3aVPNUYpOosuEHC+U/DYLIs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/StormHawks.Runtime.Presenters.Projectiles.PlayerRailgunSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StormHawks.Runtime.Presenters.Projectiles.PlayerRailgunSettings.html",
+          "hash": "EYvYKLbe8n+sG/9TfE/WyCULP0+2E3od3zXD3TsMVXY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/StormHawks.Runtime.Presenters.Projectiles.ProjectilePresenter.yml",
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.Presenters.Projectiles.ProjectilePresenter.html",
-          "hash": "BmitPrk7hGNSncgJWbIGCOmrniGcSYTP/6oW5HM37VM="
+          "hash": "wCdEvWZaqOSl/XRYVAUTgr9Y+8h+xe/Q4Ahk+1Kd130="
         }
       },
       "is_incremental": false,
@@ -6676,7 +6844,31 @@
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.Presenters.Projectiles.html",
-          "hash": "h+p5Ho9uyvR5mnA57aAwnq3iAquMcrmFiQZkfD/+s4k="
+          "hash": "6OsruqWbVPWvcxbOhM3keC4vpN0Zv+FBleK5tEc4kK8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/StormHawks.Runtime.Presenters.Runtime.Presenters.PlayerPresenter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StormHawks.Runtime.Presenters.Runtime.Presenters.PlayerPresenter.html",
+          "hash": "RXIFy8BHJJbcYa/uYSpFI6/xl8hFnE/IeTqQnMrxlWI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/StormHawks.Runtime.Presenters.Runtime.Presenters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StormHawks.Runtime.Presenters.Runtime.Presenters.html",
+          "hash": "q/9M4y7/w7lwga9vhy8KdiCiNsGbBqRFMU9aQ/Z6VU4="
         }
       },
       "is_incremental": false,
@@ -6792,11 +6984,59 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/StormHawks.Runtime.Presenters.Weapons.Players.PlayerBulletWeapon.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StormHawks.Runtime.Presenters.Weapons.Players.PlayerBulletWeapon.html",
+          "hash": "ZURwQMVoQQzm7IfiEOEtxx4IP4rDKTkcP/jiOV5vwMw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/StormHawks.Runtime.Presenters.Weapons.Players.PlayerMissileWeapon.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StormHawks.Runtime.Presenters.Weapons.Players.PlayerMissileWeapon.html",
+          "hash": "xMYFKokJD2PT836JpuOUULOS/pzuOeTX6P85nBPq6R0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/StormHawks.Runtime.Presenters.Weapons.Players.PlayerRailgunWeapon.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StormHawks.Runtime.Presenters.Weapons.Players.PlayerRailgunWeapon.html",
+          "hash": "M9Wm61bFSg721OnK5VqVr2pP5cbE42iMPCysOiwpHdI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/StormHawks.Runtime.Presenters.Weapons.Players.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StormHawks.Runtime.Presenters.Weapons.Players.html",
+          "hash": "h71Iod6J4k4lOd3R+MfGFmShT4YpJ2TdV/atTaForcY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.yml",
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.html",
-          "hash": "46CkqOU/awbkK/QpTtVIq/vuQaJ1G/gDcvcd4drJ2J0="
+          "hash": "sskm+x8LbDi7ET7Mvs4gt8qJTupf578OdWemw3mlVew="
         }
       },
       "is_incremental": false,
@@ -7716,11 +7956,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StormHawks.Runtime.UI.PlayerMissileReloadUIHandler.yml",
+      "source_relative_path": "api/StormHawks.Runtime.UI.PlayerMissileCountUI.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StormHawks.Runtime.UI.PlayerMissileReloadUIHandler.html",
-          "hash": "UAqZn1ZIpogU35IYaySekn9qfQfDMNhLs3Xm0KM58ik="
+          "relative_path": "api/StormHawks.Runtime.UI.PlayerMissileCountUI.html",
+          "hash": "bOjD1Dr/ipt5jo0K5Gm2ltRGwBg3opxdTJu8Cy1mONQ="
         }
       },
       "is_incremental": false,
@@ -7756,7 +7996,7 @@
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.UI.html",
-          "hash": "GjPDOqRhzhvF06zuz/N89k2zFM/u4K/JC0dS0bxZm/g="
+          "hash": "8sAlrsBM7Ubc8IgvKHBpnAo7sGIL03M99IR8t4jYrMI="
         }
       },
       "is_incremental": false,
@@ -9420,6 +9660,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/StormHawks.Runtime.Utilities.Extensions.ListExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StormHawks.Runtime.Utilities.Extensions.ListExtensions.html",
+          "hash": "C77F3ycDn2UsQB3DPBjlqt9qzbCVstv2n2IClc82ask="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/StormHawks.Runtime.Utilities.Extensions.MathExtensions.yml",
       "output": {
         ".html": {
@@ -9496,7 +9748,7 @@
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.Utilities.Extensions.html",
-          "hash": "w5sEBIIfvjPJP1J/Q7PW1s+KbPiUWOaN0IiU0dDuiZM="
+          "hash": "yi5mmrAa+40AkqTR46KhjCrvr/Opi0gRFMBEBuNrIkc="
         }
       },
       "is_incremental": false,
@@ -9605,6 +9857,18 @@
         ".html": {
           "relative_path": "api/StormHawks.Runtime.Utilities.MonoSingleton-1.html",
           "hash": "bVsjBJKD9ATA43JuinvHvjPxStotnFdGyostF5JPn/0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/StormHawks.Runtime.Utilities.ObjectUtil.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StormHawks.Runtime.Utilities.ObjectUtil.html",
+          "hash": "CNw4umlr/pH36JntAaL53YDGBKSLj63lsEUxP8Yhn8A="
         }
       },
       "is_incremental": false,
@@ -10300,7 +10564,7 @@
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.Utilities.html",
-          "hash": "7wIZO/t1+dulJjCPrsEVmei5km3VVPuA6GeLoe2zDfk="
+          "hash": "Gbyl0zoMyutb1hhOogJ3dWOT2A2ZfqqehGGBPTdixN0="
         }
       },
       "is_incremental": false,
@@ -10468,7 +10732,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "ZnExQWqIXxBQVpq/eXPlkdNvCydoxtMqKSr85Ksz+nI="
+          "hash": "ywC5kAl0BG4e7QzQNxaumUaQCcqRgRbDgUniHyEBl1s="
         }
       },
       "is_incremental": false,
@@ -10669,7 +10933,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 870,
+          "total_file_count": 892,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

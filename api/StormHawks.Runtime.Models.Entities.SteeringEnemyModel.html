@@ -136,6 +136,31 @@
   </h3>
   
   
+  <a id="StormHawks_Runtime_Models_Entities_SteeringEnemyModel_AggroTarget_" data-uid="StormHawks.Runtime.Models.Entities.SteeringEnemyModel.AggroTarget*"></a>
+  <h4 id="StormHawks_Runtime_Models_Entities_SteeringEnemyModel_AggroTarget" data-uid="StormHawks.Runtime.Models.Entities.SteeringEnemyModel.AggroTarget">AggroTarget</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AggroTarget? AggroTarget { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<span class="xref">AggroTarget</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="StormHawks_Runtime_Models_Entities_SteeringEnemyModel_IsAggressive_" data-uid="StormHawks.Runtime.Models.Entities.SteeringEnemyModel.IsAggressive*"></a>
   <h4 id="StormHawks_Runtime_Models_Entities_SteeringEnemyModel_IsAggressive" data-uid="StormHawks.Runtime.Models.Entities.SteeringEnemyModel.IsAggressive">IsAggressive</h4>
   <div class="markdown level1 summary"></div>
@@ -188,23 +213,13 @@
   </h3>
   
   
-  <a id="StormHawks_Runtime_Models_Entities_SteeringEnemyModel_ReleaseAggroTarget_" data-uid="StormHawks.Runtime.Models.Entities.SteeringEnemyModel.ReleaseAggroTarget*"></a>
-  <h4 id="StormHawks_Runtime_Models_Entities_SteeringEnemyModel_ReleaseAggroTarget" data-uid="StormHawks.Runtime.Models.Entities.SteeringEnemyModel.ReleaseAggroTarget">ReleaseAggroTarget()</h4>
+  <a id="StormHawks_Runtime_Models_Entities_SteeringEnemyModel_IsSameAggroTarget_" data-uid="StormHawks.Runtime.Models.Entities.SteeringEnemyModel.IsSameAggroTarget*"></a>
+  <h4 id="StormHawks_Runtime_Models_Entities_SteeringEnemyModel_IsSameAggroTarget_AggroTarget_" data-uid="StormHawks.Runtime.Models.Entities.SteeringEnemyModel.IsSameAggroTarget(AggroTarget)">IsSameAggroTarget(AggroTarget)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void ReleaseAggroTarget()</code></pre>
-  </div>
-  
-  
-  <a id="StormHawks_Runtime_Models_Entities_SteeringEnemyModel_SetAggroTarget_" data-uid="StormHawks.Runtime.Models.Entities.SteeringEnemyModel.SetAggroTarget*"></a>
-  <h4 id="StormHawks_Runtime_Models_Entities_SteeringEnemyModel_SetAggroTarget_AggroTarget_" data-uid="StormHawks.Runtime.Models.Entities.SteeringEnemyModel.SetAggroTarget(AggroTarget)">SetAggroTarget(AggroTarget)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetAggroTarget(AggroTarget value)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool IsSameAggroTarget(AggroTarget value)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -218,6 +233,48 @@
     <tbody>
       <tr>
         <td><span class="xref">AggroTarget</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StormHawks_Runtime_Models_Entities_SteeringEnemyModel_SetAggroTarget_" data-uid="StormHawks.Runtime.Models.Entities.SteeringEnemyModel.SetAggroTarget*"></a>
+  <h4 id="StormHawks_Runtime_Models_Entities_SteeringEnemyModel_SetAggroTarget_System_Nullable_AggroTarget__" data-uid="StormHawks.Runtime.Models.Entities.SteeringEnemyModel.SetAggroTarget(System.Nullable{AggroTarget})">SetAggroTarget(Nullable&lt;AggroTarget&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetAggroTarget(AggroTarget? value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<span class="xref">AggroTarget</span>&gt;</td>
         <td><span class="parametername">value</span></td>
         <td></td>
       </tr>

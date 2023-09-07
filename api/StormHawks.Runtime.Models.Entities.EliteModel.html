@@ -101,13 +101,16 @@
       <a class="xref" href="StormHawks.Runtime.Models.Entities.SteeringEnemyModel.html#StormHawks_Runtime_Models_Entities_SteeringEnemyModel_IsAggressive">SteeringEnemyModel.IsAggressive</a>
     </div>
     <div>
+      <a class="xref" href="StormHawks.Runtime.Models.Entities.SteeringEnemyModel.html#StormHawks_Runtime_Models_Entities_SteeringEnemyModel_AggroTarget">SteeringEnemyModel.AggroTarget</a>
+    </div>
+    <div>
       <a class="xref" href="StormHawks.Runtime.Models.Entities.SteeringEnemyModel.html#StormHawks_Runtime_Models_Entities_SteeringEnemyModel_TakeDamage_System_Single_">SteeringEnemyModel.TakeDamage(Single)</a>
     </div>
     <div>
-      <a class="xref" href="StormHawks.Runtime.Models.Entities.SteeringEnemyModel.html#StormHawks_Runtime_Models_Entities_SteeringEnemyModel_SetAggroTarget_AggroTarget_">SteeringEnemyModel.SetAggroTarget(AggroTarget)</a>
+      <a class="xref" href="StormHawks.Runtime.Models.Entities.SteeringEnemyModel.html#StormHawks_Runtime_Models_Entities_SteeringEnemyModel_SetAggroTarget_System_Nullable_AggroTarget__">SteeringEnemyModel.SetAggroTarget(Nullable&lt;AggroTarget&gt;)</a>
     </div>
     <div>
-      <a class="xref" href="StormHawks.Runtime.Models.Entities.SteeringEnemyModel.html#StormHawks_Runtime_Models_Entities_SteeringEnemyModel_ReleaseAggroTarget">SteeringEnemyModel.ReleaseAggroTarget()</a>
+      <a class="xref" href="StormHawks.Runtime.Models.Entities.SteeringEnemyModel.html#StormHawks_Runtime_Models_Entities_SteeringEnemyModel_IsSameAggroTarget_AggroTarget_">SteeringEnemyModel.IsSameAggroTarget(AggroTarget)</a>
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Models.Entities.html">StormHawks.Runtime.Models.Entities</a></h6>
@@ -121,12 +124,12 @@
   
   
   <a id="StormHawks_Runtime_Models_Entities_EliteModel__ctor_" data-uid="StormHawks.Runtime.Models.Entities.EliteModel.#ctor*"></a>
-  <h4 id="StormHawks_Runtime_Models_Entities_EliteModel__ctor_SteeringEntityContext_EntityHealthSO_" data-uid="StormHawks.Runtime.Models.Entities.EliteModel.#ctor(SteeringEntityContext,EntityHealthSO)">EliteModel(SteeringEntityContext, EntityHealthSO)</h4>
+  <h4 id="StormHawks_Runtime_Models_Entities_EliteModel__ctor_SteeringEntityContext_EntityHealthSO_EliteSettings_" data-uid="StormHawks.Runtime.Models.Entities.EliteModel.#ctor(SteeringEntityContext,EntityHealthSO,EliteSettings)">EliteModel(SteeringEntityContext, EntityHealthSO, EliteSettings)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EliteModel(SteeringEntityContext context, EntityHealthSO entityHealth)</code></pre>
+    <pre><code class="lang-csharp hljs">public EliteModel(SteeringEntityContext context, EntityHealthSO entityHealth, EliteSettings settings)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -146,6 +149,90 @@
       <tr>
         <td><span class="xref">EntityHealthSO</span></td>
         <td><span class="parametername">entityHealth</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">EliteSettings</span></td>
+        <td><span class="parametername">settings</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="StormHawks_Runtime_Models_Entities_EliteModel_AttackRange" data-uid="StormHawks.Runtime.Models.Entities.EliteModel.AttackRange">AttackRange</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IReadOnlyReactiveProperty&lt;RangeValue&gt; AttackRange</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IReadOnlyReactiveProperty</span>&lt;<span class="xref">RangeValue</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="StormHawks_Runtime_Models_Entities_EliteModel_MoveSpeedRange" data-uid="StormHawks.Runtime.Models.Entities.EliteModel.MoveSpeedRange">MoveSpeedRange</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IReadOnlyReactiveProperty&lt;RangeValue&gt; MoveSpeedRange</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IReadOnlyReactiveProperty</span>&lt;<span class="xref">RangeValue</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="StormHawks_Runtime_Models_Entities_EliteModel_AssginBuffs_" data-uid="StormHawks.Runtime.Models.Entities.EliteModel.AssginBuffs*"></a>
+  <h4 id="StormHawks_Runtime_Models_Entities_EliteModel_AssginBuffs_BuffSet_" data-uid="StormHawks.Runtime.Models.Entities.EliteModel.AssginBuffs(BuffSet)">AssginBuffs(BuffSet)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AssginBuffs(BuffSet buffSet)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">BuffSet</span></td>
+        <td><span class="parametername">buffSet</span></td>
         <td></td>
       </tr>
     </tbody>

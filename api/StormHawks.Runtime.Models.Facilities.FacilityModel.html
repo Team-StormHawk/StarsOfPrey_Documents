@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Interface ISteeringEntityCommand
+    <title>Class FacilityModel
    | Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Interface ISteeringEntityCommand
+    <meta name="title" content="Class FacilityModel
    | Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -78,30 +78,36 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Presenters.Commands.ISteeringEntityCommand">
+            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Models.Facilities.FacilityModel">
   
   
-  <h1 id="StormHawks_Runtime_Presenters_Commands_ISteeringEntityCommand" data-uid="StormHawks.Runtime.Presenters.Commands.ISteeringEntityCommand" class="text-break">Interface ISteeringEntityCommand
+  <h1 id="StormHawks_Runtime_Models_Facilities_FacilityModel" data-uid="StormHawks.Runtime.Models.Facilities.FacilityModel" class="text-break">Class FacilityModel
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Presenters.Commands.html">StormHawks.Runtime.Presenters.Commands</a></h6>
-  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="StormHawks_Runtime_Presenters_Commands_ISteeringEntityCommand_syntax">Syntax</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface ISteeringEntityCommand</code></pre>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">FacilityModel</span></div>
+      <div class="level2"><a class="xref" href="StormHawks.Runtime.Models.Facilities.PowerPlantModel.html">PowerPlantModel</a></div>
   </div>
-  <h3 id="methods">Methods
+  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Models.Facilities.html">StormHawks.Runtime.Models.Facilities</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="StormHawks_Runtime_Models_Facilities_FacilityModel_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class FacilityModel</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
   </h3>
   
   
-  <a id="StormHawks_Runtime_Presenters_Commands_ISteeringEntityCommand_Execute_" data-uid="StormHawks.Runtime.Presenters.Commands.ISteeringEntityCommand.Execute*"></a>
-  <h4 id="StormHawks_Runtime_Presenters_Commands_ISteeringEntityCommand_Execute_ISteeringEntity_" data-uid="StormHawks.Runtime.Presenters.Commands.ISteeringEntityCommand.Execute(ISteeringEntity)">Execute(ISteeringEntity)</h4>
+  <a id="StormHawks_Runtime_Models_Facilities_FacilityModel__ctor_" data-uid="StormHawks.Runtime.Models.Facilities.FacilityModel.#ctor*"></a>
+  <h4 id="StormHawks_Runtime_Models_Facilities_FacilityModel__ctor_EntityHealthSO_" data-uid="StormHawks.Runtime.Models.Facilities.FacilityModel.#ctor(EntityHealthSO)">FacilityModel(EntityHealthSO)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void Execute(ISteeringEntity entity)</code></pre>
+    <pre><code class="lang-csharp hljs">public FacilityModel(EntityHealthSO health)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -114,8 +120,64 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">ISteeringEntity</span></td>
-        <td><span class="parametername">entity</span></td>
+        <td><span class="xref">EntityHealthSO</span></td>
+        <td><span class="parametername">health</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="StormHawks_Runtime_Models_Facilities_FacilityModel_IsDestroyed_" data-uid="StormHawks.Runtime.Models.Facilities.FacilityModel.IsDestroyed*"></a>
+  <h4 id="StormHawks_Runtime_Models_Facilities_FacilityModel_IsDestroyed" data-uid="StormHawks.Runtime.Models.Facilities.FacilityModel.IsDestroyed">IsDestroyed</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IReadOnlyReactiveProperty&lt;bool&gt; IsDestroyed { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IReadOnlyReactiveProperty</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="StormHawks_Runtime_Models_Facilities_FacilityModel_TakeDamage_" data-uid="StormHawks.Runtime.Models.Facilities.FacilityModel.TakeDamage*"></a>
+  <h4 id="StormHawks_Runtime_Models_Facilities_FacilityModel_TakeDamage_System_Single_" data-uid="StormHawks.Runtime.Models.Facilities.FacilityModel.TakeDamage(System.Single)">TakeDamage(Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void TakeDamage(float damage)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">damage</span></td>
         <td></td>
       </tr>
     </tbody>

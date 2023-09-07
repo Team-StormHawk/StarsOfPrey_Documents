@@ -93,7 +93,7 @@
   </div>
   <div class="implements">
     <h5>Implements</h5>
-    <div><span class="xref">ISteeringEntityAttendant</span></div>
+    <div><span class="xref">IWaypointUser</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -104,13 +104,22 @@
       <a class="xref" href="StormHawks.Runtime.Presenters.Entities.Elites.SteeringElitePresenter-1.html#StormHawks_Runtime_Presenters_Entities_Elites_SteeringElitePresenter_1__waypoint">SteeringElitePresenter&lt;MissileEliteModel&gt;._waypoint</a>
     </div>
     <div>
-      <a class="xref" href="StormHawks.Runtime.Presenters.Entities.Elites.SteeringElitePresenter-1.html#StormHawks_Runtime_Presenters_Entities_Elites_SteeringElitePresenter_1_Obey_ISteeringEntityCommand_">SteeringElitePresenter&lt;MissileEliteModel&gt;.Obey(ISteeringEntityCommand)</a>
+      <a class="xref" href="StormHawks.Runtime.Presenters.Entities.Elites.SteeringElitePresenter-1.html#StormHawks_Runtime_Presenters_Entities_Elites_SteeringElitePresenter_1_Initialize_Waypoint_">SteeringElitePresenter&lt;MissileEliteModel&gt;.Initialize(Waypoint)</a>
     </div>
     <div>
       <a class="xref" href="StormHawks.Runtime.Presenters.Entities.Elites.SteeringElitePresenter-1.html#StormHawks_Runtime_Presenters_Entities_Elites_SteeringElitePresenter_1_Start">SteeringElitePresenter&lt;MissileEliteModel&gt;.Start()</a>
     </div>
     <div>
-      <a class="xref" href="StormHawks.Runtime.Presenters.Entities.Elites.SteeringElitePresenter-1.html#StormHawks_Runtime_Presenters_Entities_Elites_SteeringElitePresenter_1_Initialize_Waypoint_">SteeringElitePresenter&lt;MissileEliteModel&gt;.Initialize(Waypoint)</a>
+      <a class="xref" href="StormHawks.Runtime.Presenters.Entities.Elites.SteeringElitePresenter-1.html#StormHawks_Runtime_Presenters_Entities_Elites_SteeringElitePresenter_1_OnReleased">SteeringElitePresenter&lt;MissileEliteModel&gt;.OnReleased</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Presenters.Entities.Elites.SteeringElitePresenter-1.html#StormHawks_Runtime_Presenters_Entities_Elites_SteeringElitePresenter_1_IsAutonomous">SteeringElitePresenter&lt;MissileEliteModel&gt;.IsAutonomous</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Presenters.Entities.Elites.SteeringElitePresenter-1.html#StormHawks_Runtime_Presenters_Entities_Elites_SteeringElitePresenter_1_SetCompulsoryAggroTarget_System_Nullable_AggroTarget__">SteeringElitePresenter&lt;MissileEliteModel&gt;.SetCompulsoryAggroTarget(Nullable&lt;AggroTarget&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Presenters.Entities.Elites.SteeringElitePresenter-1.html#StormHawks_Runtime_Presenters_Entities_Elites_SteeringElitePresenter_1_AssignBuffs_BuffSet_">SteeringElitePresenter&lt;MissileEliteModel&gt;.AssignBuffs(BuffSet)</a>
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Presenters.Entities.Elites.html">StormHawks.Runtime.Presenters.Entities.Elites</a></h6>
@@ -134,16 +143,84 @@
   
   
   <a id="StormHawks_Runtime_Presenters_Entities_Elites_MissileElitePresenter_Construct_" data-uid="StormHawks.Runtime.Presenters.Entities.Elites.MissileElitePresenter.Construct*"></a>
-  <h4 id="StormHawks_Runtime_Presenters_Entities_Elites_MissileElitePresenter_Construct" data-uid="StormHawks.Runtime.Presenters.Entities.Elites.MissileElitePresenter.Construct">Construct()</h4>
+  <h4 id="StormHawks_Runtime_Presenters_Entities_Elites_MissileElitePresenter_Construct_EliteWaypointManager_" data-uid="StormHawks.Runtime.Presenters.Entities.Elites.MissileElitePresenter.Construct(EliteWaypointManager)">Construct(EliteWaypointManager)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Construct()</code></pre>
+    <pre><code class="lang-csharp hljs">public void Construct(EliteWaypointManager waypointManager)</code></pre>
   </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">EliteWaypointManager</span></td>
+        <td><span class="parametername">waypointManager</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StormHawks_Runtime_Presenters_Entities_Elites_MissileElitePresenter_OnChangeAggroTarget_" data-uid="StormHawks.Runtime.Presenters.Entities.Elites.MissileElitePresenter.OnChangeAggroTarget*"></a>
+  <h4 id="StormHawks_Runtime_Presenters_Entities_Elites_MissileElitePresenter_OnChangeAggroTarget_System_Nullable_AggroTarget__" data-uid="StormHawks.Runtime.Presenters.Entities.Elites.MissileElitePresenter.OnChangeAggroTarget(System.Nullable{AggroTarget})">OnChangeAggroTarget(Nullable&lt;AggroTarget&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnChangeAggroTarget(AggroTarget? aggroTarget)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<span class="xref">AggroTarget</span>&gt;</td>
+        <td><span class="parametername">aggroTarget</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StormHawks_Runtime_Presenters_Entities_Elites_MissileElitePresenter_OnDead_" data-uid="StormHawks.Runtime.Presenters.Entities.Elites.MissileElitePresenter.OnDead*"></a>
+  <h4 id="StormHawks_Runtime_Presenters_Entities_Elites_MissileElitePresenter_OnDead" data-uid="StormHawks.Runtime.Presenters.Entities.Elites.MissileElitePresenter.OnDead">OnDead()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnDead()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">StormHawks.Runtime.Presenters.Entities.Elites.SteeringElitePresenter&lt;MissileEliteModel&gt;.OnDead()</span></div>
+  
+  
+  <a id="StormHawks_Runtime_Presenters_Entities_Elites_MissileElitePresenter_OnWaypointReleased_" data-uid="StormHawks.Runtime.Presenters.Entities.Elites.MissileElitePresenter.OnWaypointReleased*"></a>
+  <h4 id="StormHawks_Runtime_Presenters_Entities_Elites_MissileElitePresenter_OnWaypointReleased" data-uid="StormHawks.Runtime.Presenters.Entities.Elites.MissileElitePresenter.OnWaypointReleased">OnWaypointReleased()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnWaypointReleased()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">StormHawks.Runtime.Presenters.Entities.Elites.SteeringElitePresenter&lt;MissileEliteModel&gt;.OnWaypointReleased()</span></div>
   <h3 id="implements">Implements</h3>
   <div>
-      <span class="xref">ISteeringEntityAttendant</span>
+      <span class="xref">IWaypointUser</span>
   </div>
 </article>
           </div>

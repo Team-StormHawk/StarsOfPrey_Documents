@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class EntityDetectorHandler
+    <title>Class AggroTargetDetectorHandler
    | Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class EntityDetectorHandler
+    <meta name="title" content="Class AggroTargetDetectorHandler
    | Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -78,10 +78,10 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Detectors.Handlers.EntityDetectorHandler">
+            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Detectors.Handlers.AggroTargetDetectorHandler">
   
   
-  <h1 id="StormHawks_Runtime_Detectors_Handlers_EntityDetectorHandler" data-uid="StormHawks.Runtime.Detectors.Handlers.EntityDetectorHandler" class="text-break">Class EntityDetectorHandler
+  <h1 id="StormHawks_Runtime_Detectors_Handlers_AggroTargetDetectorHandler" data-uid="StormHawks.Runtime.Detectors.Handlers.AggroTargetDetectorHandler" class="text-break">Class AggroTargetDetectorHandler
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
@@ -89,12 +89,32 @@
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
     <div class="level1"><a class="xref" href="StormHawks.Runtime.Detectors.Handlers.DetectorHandlerBase-1.html">DetectorHandlerBase</a>&lt;<a class="xref" href="StormHawks.Runtime.Detectors.DetectableEntity.html">DetectableEntity</a>&gt;</div>
-    <div class="level2"><span class="xref">EntityDetectorHandler</span></div>
-      <div class="level3"><a class="xref" href="StormHawks.Runtime.Detectors.Handlers.AggroTargetDetectorHandler.html">AggroTargetDetectorHandler</a></div>
-      <div class="level3"><a class="xref" href="StormHawks.Runtime.Detectors.Handlers.MissileDetectorHandler.html">MissileDetectorHandler</a></div>
+    <div class="level2"><a class="xref" href="StormHawks.Runtime.Detectors.Handlers.EntityDetectorHandler.html">EntityDetectorHandler</a></div>
+    <div class="level3"><span class="xref">AggroTargetDetectorHandler</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Detectors.Handlers.EntityDetectorHandler.html#StormHawks_Runtime_Detectors_Handlers_EntityDetectorHandler_maxDetectCount">EntityDetectorHandler.maxDetectCount</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Detectors.Handlers.EntityDetectorHandler.html#StormHawks_Runtime_Detectors_Handlers_EntityDetectorHandler__comparer">EntityDetectorHandler._comparer</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Detectors.Handlers.EntityDetectorHandler.html#StormHawks_Runtime_Detectors_Handlers_EntityDetectorHandler_Awake">EntityDetectorHandler.Awake()</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Detectors.Handlers.EntityDetectorHandler.html#StormHawks_Runtime_Detectors_Handlers_EntityDetectorHandler_FixedUpdate">EntityDetectorHandler.FixedUpdate()</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Detectors.Handlers.EntityDetectorHandler.html#StormHawks_Runtime_Detectors_Handlers_EntityDetectorHandler_SetMaxCount_System_Int32_">EntityDetectorHandler.SetMaxCount(Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Detectors.Handlers.EntityDetectorHandler.html#StormHawks_Runtime_Detectors_Handlers_EntityDetectorHandler_AddDetected_StormHawks_Runtime_Detectors_DetectableEntity_">EntityDetectorHandler.AddDetected(DetectableEntity)</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Detectors.Handlers.EntityDetectorHandler.html#StormHawks_Runtime_Detectors_Handlers_EntityDetectorHandler_RemoveDetected_StormHawks_Runtime_Detectors_DetectableEntity_">EntityDetectorHandler.RemoveDetected(DetectableEntity)</a>
+    </div>
     <div>
       <a class="xref" href="StormHawks.Runtime.Detectors.Handlers.DetectorHandlerBase-1.html#StormHawks_Runtime_Detectors_Handlers_DetectorHandlerBase_1_Detectors">DetectorHandlerBase&lt;DetectableEntity&gt;.Detectors</a>
     </div>
@@ -131,71 +151,21 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Detectors.Handlers.html">StormHawks.Runtime.Detectors.Handlers</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="StormHawks_Runtime_Detectors_Handlers_EntityDetectorHandler_syntax">Syntax</h5>
+  <h5 id="StormHawks_Runtime_Detectors_Handlers_AggroTargetDetectorHandler_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class EntityDetectorHandler : DetectorHandlerBase&lt;DetectableEntity&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public class AggroTargetDetectorHandler : EntityDetectorHandler</code></pre>
   </div>
-  <h3 id="fields">Fields
-  </h3>
-  
-  
-  <h4 id="StormHawks_Runtime_Detectors_Handlers_EntityDetectorHandler__comparer" data-uid="StormHawks.Runtime.Detectors.Handlers.EntityDetectorHandler._comparer">_comparer</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected IComparer&lt;DetectableEntity&gt; _comparer</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">IComparer</span>&lt;<a class="xref" href="StormHawks.Runtime.Detectors.DetectableEntity.html">DetectableEntity</a>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="StormHawks_Runtime_Detectors_Handlers_EntityDetectorHandler_maxDetectCount" data-uid="StormHawks.Runtime.Detectors.Handlers.EntityDetectorHandler.maxDetectCount">maxDetectCount</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected int maxDetectCount</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="StormHawks_Runtime_Detectors_Handlers_EntityDetectorHandler_AddDetected_" data-uid="StormHawks.Runtime.Detectors.Handlers.EntityDetectorHandler.AddDetected*"></a>
-  <h4 id="StormHawks_Runtime_Detectors_Handlers_EntityDetectorHandler_AddDetected_StormHawks_Runtime_Detectors_DetectableEntity_" data-uid="StormHawks.Runtime.Detectors.Handlers.EntityDetectorHandler.AddDetected(StormHawks.Runtime.Detectors.DetectableEntity)">AddDetected(DetectableEntity)</h4>
+  <a id="StormHawks_Runtime_Detectors_Handlers_AggroTargetDetectorHandler_GetAggroTargetsOrNull_" data-uid="StormHawks.Runtime.Detectors.Handlers.AggroTargetDetectorHandler.GetAggroTargetsOrNull*"></a>
+  <h4 id="StormHawks_Runtime_Detectors_Handlers_AggroTargetDetectorHandler_GetAggroTargetsOrNull_FriendlyType_IComparer_AggroTarget__" data-uid="StormHawks.Runtime.Detectors.Handlers.AggroTargetDetectorHandler.GetAggroTargetsOrNull(FriendlyType,IComparer{AggroTarget})">GetAggroTargetsOrNull(FriendlyType, IComparer&lt;AggroTarget&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void AddDetected(DetectableEntity detectableEntity)</code></pre>
+    <pre><code class="lang-csharp hljs">public List&lt;AggroTarget&gt; GetAggroTargetsOrNull(FriendlyType type, IComparer&lt;AggroTarget&gt; comparer = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -208,90 +178,28 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="StormHawks.Runtime.Detectors.DetectableEntity.html">DetectableEntity</a></td>
-        <td><span class="parametername">detectableEntity</span></td>
+        <td><span class="xref">FriendlyType</span></td>
+        <td><span class="parametername">type</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">IComparer</span>&lt;<span class="xref">AggroTarget</span>&gt;</td>
+        <td><span class="parametername">comparer</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">StormHawks.Runtime.Detectors.Handlers.DetectorHandlerBase&lt;StormHawks.Runtime.Detectors.DetectableEntity&gt;.AddDetected(StormHawks.Runtime.Detectors.DetectableEntity)</span></div>
-  
-  
-  <a id="StormHawks_Runtime_Detectors_Handlers_EntityDetectorHandler_Awake_" data-uid="StormHawks.Runtime.Detectors.Handlers.EntityDetectorHandler.Awake*"></a>
-  <h4 id="StormHawks_Runtime_Detectors_Handlers_EntityDetectorHandler_Awake" data-uid="StormHawks.Runtime.Detectors.Handlers.EntityDetectorHandler.Awake">Awake()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void Awake()</code></pre>
-  </div>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">StormHawks.Runtime.Detectors.Handlers.DetectorHandlerBase&lt;StormHawks.Runtime.Detectors.DetectableEntity&gt;.Awake()</span></div>
-  
-  
-  <a id="StormHawks_Runtime_Detectors_Handlers_EntityDetectorHandler_FixedUpdate_" data-uid="StormHawks.Runtime.Detectors.Handlers.EntityDetectorHandler.FixedUpdate*"></a>
-  <h4 id="StormHawks_Runtime_Detectors_Handlers_EntityDetectorHandler_FixedUpdate" data-uid="StormHawks.Runtime.Detectors.Handlers.EntityDetectorHandler.FixedUpdate">FixedUpdate()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void FixedUpdate()</code></pre>
-  </div>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">StormHawks.Runtime.Detectors.Handlers.DetectorHandlerBase&lt;StormHawks.Runtime.Detectors.DetectableEntity&gt;.FixedUpdate()</span></div>
-  
-  
-  <a id="StormHawks_Runtime_Detectors_Handlers_EntityDetectorHandler_RemoveDetected_" data-uid="StormHawks.Runtime.Detectors.Handlers.EntityDetectorHandler.RemoveDetected*"></a>
-  <h4 id="StormHawks_Runtime_Detectors_Handlers_EntityDetectorHandler_RemoveDetected_StormHawks_Runtime_Detectors_DetectableEntity_" data-uid="StormHawks.Runtime.Detectors.Handlers.EntityDetectorHandler.RemoveDetected(StormHawks.Runtime.Detectors.DetectableEntity)">RemoveDetected(DetectableEntity)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void RemoveDetected(DetectableEntity detectableEntity)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="StormHawks.Runtime.Detectors.DetectableEntity.html">DetectableEntity</a></td>
-        <td><span class="parametername">detectableEntity</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">StormHawks.Runtime.Detectors.Handlers.DetectorHandlerBase&lt;StormHawks.Runtime.Detectors.DetectableEntity&gt;.RemoveDetected(StormHawks.Runtime.Detectors.DetectableEntity)</span></div>
-  
-  
-  <a id="StormHawks_Runtime_Detectors_Handlers_EntityDetectorHandler_SetMaxCount_" data-uid="StormHawks.Runtime.Detectors.Handlers.EntityDetectorHandler.SetMaxCount*"></a>
-  <h4 id="StormHawks_Runtime_Detectors_Handlers_EntityDetectorHandler_SetMaxCount_System_Int32_" data-uid="StormHawks.Runtime.Detectors.Handlers.EntityDetectorHandler.SetMaxCount(System.Int32)">SetMaxCount(Int32)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetMaxCount(int count)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">count</span></td>
+        <td><span class="xref">List</span>&lt;<span class="xref">AggroTarget</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>

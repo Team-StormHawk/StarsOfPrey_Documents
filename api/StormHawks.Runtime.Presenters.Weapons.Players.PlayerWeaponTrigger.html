@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class MultipleTimeFire
+    <title>Class PlayerWeaponTrigger
    | Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class MultipleTimeFire
+    <meta name="title" content="Class PlayerWeaponTrigger
    | Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -78,92 +78,61 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Presenters.Fires.MultipleTimeFire">
+            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeaponTrigger">
   
   
-  <h1 id="StormHawks_Runtime_Presenters_Fires_MultipleTimeFire" data-uid="StormHawks.Runtime.Presenters.Fires.MultipleTimeFire" class="text-break">Class MultipleTimeFire
+  <h1 id="StormHawks_Runtime_Presenters_Weapons_Players_PlayerWeaponTrigger" data-uid="StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeaponTrigger" class="text-break">Class PlayerWeaponTrigger
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">MultipleTimeFire</span></div>
+    <div class="level1"><span class="xref">PlayerWeaponTrigger</span></div>
+      <div class="level2"><a class="xref" href="StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeaponTrigger-1.html">PlayerWeaponTrigger&lt;T&gt;</a></div>
   </div>
-  <div class="implements">
-    <h5>Implements</h5>
-    <div><a class="xref" href="StormHawks.Runtime.Presenters.Fires.IProjectileFire.html">IProjectileFire</a></div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Presenters.Fires.html">StormHawks.Runtime.Presenters.Fires</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Presenters.Weapons.Players.html">StormHawks.Runtime.Presenters.Weapons.Players</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="StormHawks_Runtime_Presenters_Fires_MultipleTimeFire_syntax">Syntax</h5>
+  <h5 id="StormHawks_Runtime_Presenters_Weapons_Players_PlayerWeaponTrigger_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class MultipleTimeFire : IProjectileFire</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class PlayerWeaponTrigger : MonoBehaviour</code></pre>
   </div>
-  <h3 id="constructors">Constructors
+  <h3 id="fields">Fields
   </h3>
   
   
-  <a id="StormHawks_Runtime_Presenters_Fires_MultipleTimeFire__ctor_" data-uid="StormHawks.Runtime.Presenters.Fires.MultipleTimeFire.#ctor*"></a>
-  <h4 id="StormHawks_Runtime_Presenters_Fires_MultipleTimeFire__ctor_Func_List_ProjectilePresenter___ProjectileWeaponSettings_" data-uid="StormHawks.Runtime.Presenters.Fires.MultipleTimeFire.#ctor(Func{List{ProjectilePresenter}},ProjectileWeaponSettings)">MultipleTimeFire(Func&lt;List&lt;ProjectilePresenter&gt;&gt;, ProjectileWeaponSettings)</h4>
+  <h4 id="StormHawks_Runtime_Presenters_Weapons_Players_PlayerWeaponTrigger__attackInput" data-uid="StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeaponTrigger._attackInput">_attackInput</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public MultipleTimeFire(Func&lt;List&lt;ProjectilePresenter&gt;&gt; spawnProjectileTask, ProjectileWeaponSettings settings)</code></pre>
+    <pre><code class="lang-csharp hljs">protected IXRAttackInput _attackInput</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Func</span>&lt;<span class="xref">List</span>&lt;<span class="xref">ProjectilePresenter</span>&gt;&gt;</td>
-        <td><span class="parametername">spawnProjectileTask</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">ProjectileWeaponSettings</span></td>
-        <td><span class="parametername">settings</span></td>
+        <td><span class="xref">IXRAttackInput</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h3 id="methods">Methods
-  </h3>
   
   
-  <a id="StormHawks_Runtime_Presenters_Fires_MultipleTimeFire_FireTask_" data-uid="StormHawks.Runtime.Presenters.Fires.MultipleTimeFire.FireTask*"></a>
-  <h4 id="StormHawks_Runtime_Presenters_Fires_MultipleTimeFire_FireTask_CancellationToken_" data-uid="StormHawks.Runtime.Presenters.Fires.MultipleTimeFire.FireTask(CancellationToken)">FireTask(CancellationToken)</h4>
+  <h4 id="StormHawks_Runtime_Presenters_Weapons_Players_PlayerWeaponTrigger__detector" data-uid="StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeaponTrigger._detector">_detector</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public async UniTaskVoid FireTask(CancellationToken cancellation)</code></pre>
+    <pre><code class="lang-csharp hljs">protected EntityDetectorHandler _detector</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">CancellationToken</span></td>
-        <td><span class="parametername">cancellation</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -173,23 +142,21 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">UniTaskVoid</span></td>
+        <td><span class="xref">EntityDetectorHandler</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h3 id="events">Events
-  </h3>
   
   
-  <h4 id="StormHawks_Runtime_Presenters_Fires_MultipleTimeFire_OnBeforeFire" data-uid="StormHawks.Runtime.Presenters.Fires.MultipleTimeFire.OnBeforeFire">OnBeforeFire</h4>
+  <h4 id="StormHawks_Runtime_Presenters_Weapons_Players_PlayerWeaponTrigger__model" data-uid="StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeaponTrigger._model">_model</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public event Action OnBeforeFire</code></pre>
+    <pre><code class="lang-csharp hljs">protected PlayerWeaponModel _model</code></pre>
   </div>
-  <h5 class="eventType">Event Type</h5>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -199,63 +166,11 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Action</span></td>
+        <td><span class="xref">PlayerWeaponModel</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  
-  
-  <h4 id="StormHawks_Runtime_Presenters_Fires_MultipleTimeFire_OnComplete" data-uid="StormHawks.Runtime.Presenters.Fires.MultipleTimeFire.OnComplete">OnComplete</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public event Action OnComplete</code></pre>
-  </div>
-  <h5 class="eventType">Event Type</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Action</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="StormHawks_Runtime_Presenters_Fires_MultipleTimeFire_OnFire" data-uid="StormHawks.Runtime.Presenters.Fires.MultipleTimeFire.OnFire">OnFire</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public event Action&lt;Transform&gt; OnFire</code></pre>
-  </div>
-  <h5 class="eventType">Event Type</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Action</span>&lt;<span class="xref">Transform</span>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <a class="xref" href="StormHawks.Runtime.Presenters.Fires.IProjectileFire.html">IProjectileFire</a>
-  </div>
 </article>
           </div>
           

@@ -4896,18 +4896,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StormHawks.Runtime.Presenters.Fires.MultipleTimeFire.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/StormHawks.Runtime.Presenters.Fires.MultipleTimeFire.html",
-          "hash": "RQWZX1E4NYkVQRiuvCrkrwcA+6+396TAqHzx2KJfNZ8="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/StormHawks.Runtime.Presenters.Fires.OneTimeFire.yml",
       "output": {
         ".html": {
@@ -4920,11 +4908,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/StormHawks.Runtime.Presenters.Fires.SequentialFire.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StormHawks.Runtime.Presenters.Fires.SequentialFire.html",
+          "hash": "dSNfkjUGqSR/sBa6J+gLVP/B1Ush46gkrYi7lgVlJTI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/StormHawks.Runtime.Presenters.Fires.yml",
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.Presenters.Fires.html",
-          "hash": "ZC/bU4Yf9A3nICrwQZj4WttuZVSYhImLw8MiikD1soc="
+          "hash": "AU5sTNr0TvGq1Ny6qXErH5VXXmSk52O8f4Tq4TWDspA="
         }
       },
       "is_incremental": false,
@@ -5056,7 +5056,7 @@
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.Presenters.Projectiles.PlayerRailgunSettings.html",
-          "hash": "EYvYKLbe8n+sG/9TfE/WyCULP0+2E3od3zXD3TsMVXY="
+          "hash": "z2c0DQCRfBc4SZa6Uc75jqmjwvzO5xMKhHf3mBO1Qvs="
         }
       },
       "is_incremental": false,
@@ -5236,7 +5236,7 @@
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.Presenters.Weapons.Players.PlayerBulletWeapon.html",
-          "hash": "b5BNmoOfajO66nDmWmYLoMsQJTrcGz2qVbVT+tXR8fA="
+          "hash": "exjmLTpeD2gvuTCiPX/E9E4EnMf7enHgeGF/U4jsM8Q="
         }
       },
       "is_incremental": false,
@@ -5248,7 +5248,7 @@
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.Presenters.Weapons.Players.PlayerBulletWeaponTrigger.html",
-          "hash": "ZMnUMYAm+t1JB1fXAu3yFnYuOyWvxk0mlNEyIhvsOtE="
+          "hash": "w3ZMMQ7MmvcjpNJQNx5YwknDdimRXlKyQu2j/wIW5f0="
         }
       },
       "is_incremental": false,
@@ -5260,7 +5260,19 @@
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.Presenters.Weapons.Players.PlayerMissileWeapon.html",
-          "hash": "PQkTfYSOwp+fY72F661owJgjn0fg8CxPdvN/rtP0AT4="
+          "hash": "KfQBJIWhOzVXniCEeucAeZ2NGeYgAEWLILc97ra+Oa4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/StormHawks.Runtime.Presenters.Weapons.Players.PlayerMissileWeaponTrigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StormHawks.Runtime.Presenters.Weapons.Players.PlayerMissileWeaponTrigger.html",
+          "hash": "JCTHsPfwTao6RIcPL3pKlP4jN1yz0bAE15EgZ94pQ4k="
         }
       },
       "is_incremental": false,
@@ -5272,7 +5284,19 @@
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.Presenters.Weapons.Players.PlayerRailgunWeapon.html",
-          "hash": "UMDUdZ1oIEna6E0uoqK8dH/UtTjkYz9l5lpdUoxOA7M="
+          "hash": "/GaQCw1MvSWF9zC0OXqJrkFXCz225i6p7YsalNg/gOM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/StormHawks.Runtime.Presenters.Weapons.Players.PlayerRailgunWeaponTrigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StormHawks.Runtime.Presenters.Weapons.Players.PlayerRailgunWeaponTrigger.html",
+          "hash": "PmMtD+NAe3hOzlBjFaU1uKYf3JsgbVpHNVVPdZRyk4g="
         }
       },
       "is_incremental": false,
@@ -5292,11 +5316,35 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeaponTrigger-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeaponTrigger-1.html",
+          "hash": "FgdpX3ecrWXNiZNXc61dqfQxejt+nyS0KWlGFSmyTU4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeaponTrigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeaponTrigger.html",
+          "hash": "fFaa7PBWERAgPNFIEl9NjxVaXbv23hsig7CW/UTYOLg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/StormHawks.Runtime.Presenters.Weapons.Players.yml",
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.Presenters.Weapons.Players.html",
-          "hash": "1kx1A3aVjDpI3vOYMg/qpQp+bVbgAI3VRXCA+v6VRYQ="
+          "hash": "ENa0F2jlQ4Lfqm7+EvYdPIHZhOEbpsbYfBlz9QNIRLA="
         }
       },
       "is_incremental": false,
@@ -6232,7 +6280,7 @@
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.UI.PlayerMissileCountUI.html",
-          "hash": "bOjD1Dr/ipt5jo0K5Gm2ltRGwBg3opxdTJu8Cy1mONQ="
+          "hash": "jem5UoikOPjPQAbUUOtV4CK9vPw0vkn15t7Yb1k8K5Y="
         }
       },
       "is_incremental": false,
@@ -7708,7 +7756,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "Y61ByXYTKDb4S6ZxLrZUuF70has0J7G2NSs6eIV0KYA="
+          "hash": "m7nlKB401KSb6AKCl0NgpE7whyKQQEHEXkzhUaz+15Y="
         }
       },
       "is_incremental": false,
@@ -7909,7 +7957,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 640,
+          "total_file_count": 644,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

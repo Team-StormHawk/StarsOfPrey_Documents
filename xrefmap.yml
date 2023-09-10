@@ -18308,59 +18308,6 @@ references:
   commentId: E:StormHawks.Runtime.Presenters.Fires.IProjectileFire.OnFire
   fullName: StormHawks.Runtime.Presenters.Fires.IProjectileFire.OnFire
   nameWithType: IProjectileFire.OnFire
-- uid: StormHawks.Runtime.Presenters.Fires.MultipleTimeFire
-  name: MultipleTimeFire
-  href: api/StormHawks.Runtime.Presenters.Fires.MultipleTimeFire.html
-  commentId: T:StormHawks.Runtime.Presenters.Fires.MultipleTimeFire
-  fullName: StormHawks.Runtime.Presenters.Fires.MultipleTimeFire
-  nameWithType: MultipleTimeFire
-- uid: StormHawks.Runtime.Presenters.Fires.MultipleTimeFire.#ctor(Func{List{ProjectilePresenter}},ProjectileWeaponSettings)
-  name: MultipleTimeFire(Func<List<ProjectilePresenter>>, ProjectileWeaponSettings)
-  href: api/StormHawks.Runtime.Presenters.Fires.MultipleTimeFire.html#StormHawks_Runtime_Presenters_Fires_MultipleTimeFire__ctor_Func_List_ProjectilePresenter___ProjectileWeaponSettings_
-  commentId: M:StormHawks.Runtime.Presenters.Fires.MultipleTimeFire.#ctor(Func{List{ProjectilePresenter}},ProjectileWeaponSettings)
-  name.vb: MultipleTimeFire(Func(Of List(Of ProjectilePresenter)), ProjectileWeaponSettings)
-  fullName: StormHawks.Runtime.Presenters.Fires.MultipleTimeFire.MultipleTimeFire(Func<List<ProjectilePresenter>>, ProjectileWeaponSettings)
-  fullName.vb: StormHawks.Runtime.Presenters.Fires.MultipleTimeFire.MultipleTimeFire(Func(Of List(Of ProjectilePresenter)), ProjectileWeaponSettings)
-  nameWithType: MultipleTimeFire.MultipleTimeFire(Func<List<ProjectilePresenter>>, ProjectileWeaponSettings)
-  nameWithType.vb: MultipleTimeFire.MultipleTimeFire(Func(Of List(Of ProjectilePresenter)), ProjectileWeaponSettings)
-- uid: StormHawks.Runtime.Presenters.Fires.MultipleTimeFire.#ctor*
-  name: MultipleTimeFire
-  href: api/StormHawks.Runtime.Presenters.Fires.MultipleTimeFire.html#StormHawks_Runtime_Presenters_Fires_MultipleTimeFire__ctor_
-  commentId: Overload:StormHawks.Runtime.Presenters.Fires.MultipleTimeFire.#ctor
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Presenters.Fires.MultipleTimeFire.MultipleTimeFire
-  nameWithType: MultipleTimeFire.MultipleTimeFire
-- uid: StormHawks.Runtime.Presenters.Fires.MultipleTimeFire.FireTask(CancellationToken)
-  name: FireTask(CancellationToken)
-  href: api/StormHawks.Runtime.Presenters.Fires.MultipleTimeFire.html#StormHawks_Runtime_Presenters_Fires_MultipleTimeFire_FireTask_CancellationToken_
-  commentId: M:StormHawks.Runtime.Presenters.Fires.MultipleTimeFire.FireTask(CancellationToken)
-  fullName: StormHawks.Runtime.Presenters.Fires.MultipleTimeFire.FireTask(CancellationToken)
-  nameWithType: MultipleTimeFire.FireTask(CancellationToken)
-- uid: StormHawks.Runtime.Presenters.Fires.MultipleTimeFire.FireTask*
-  name: FireTask
-  href: api/StormHawks.Runtime.Presenters.Fires.MultipleTimeFire.html#StormHawks_Runtime_Presenters_Fires_MultipleTimeFire_FireTask_
-  commentId: Overload:StormHawks.Runtime.Presenters.Fires.MultipleTimeFire.FireTask
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Presenters.Fires.MultipleTimeFire.FireTask
-  nameWithType: MultipleTimeFire.FireTask
-- uid: StormHawks.Runtime.Presenters.Fires.MultipleTimeFire.OnBeforeFire
-  name: OnBeforeFire
-  href: api/StormHawks.Runtime.Presenters.Fires.MultipleTimeFire.html#StormHawks_Runtime_Presenters_Fires_MultipleTimeFire_OnBeforeFire
-  commentId: E:StormHawks.Runtime.Presenters.Fires.MultipleTimeFire.OnBeforeFire
-  fullName: StormHawks.Runtime.Presenters.Fires.MultipleTimeFire.OnBeforeFire
-  nameWithType: MultipleTimeFire.OnBeforeFire
-- uid: StormHawks.Runtime.Presenters.Fires.MultipleTimeFire.OnComplete
-  name: OnComplete
-  href: api/StormHawks.Runtime.Presenters.Fires.MultipleTimeFire.html#StormHawks_Runtime_Presenters_Fires_MultipleTimeFire_OnComplete
-  commentId: E:StormHawks.Runtime.Presenters.Fires.MultipleTimeFire.OnComplete
-  fullName: StormHawks.Runtime.Presenters.Fires.MultipleTimeFire.OnComplete
-  nameWithType: MultipleTimeFire.OnComplete
-- uid: StormHawks.Runtime.Presenters.Fires.MultipleTimeFire.OnFire
-  name: OnFire
-  href: api/StormHawks.Runtime.Presenters.Fires.MultipleTimeFire.html#StormHawks_Runtime_Presenters_Fires_MultipleTimeFire_OnFire
-  commentId: E:StormHawks.Runtime.Presenters.Fires.MultipleTimeFire.OnFire
-  fullName: StormHawks.Runtime.Presenters.Fires.MultipleTimeFire.OnFire
-  nameWithType: MultipleTimeFire.OnFire
 - uid: StormHawks.Runtime.Presenters.Fires.OneTimeFire
   name: OneTimeFire
   href: api/StormHawks.Runtime.Presenters.Fires.OneTimeFire.html
@@ -18414,6 +18361,59 @@ references:
   commentId: E:StormHawks.Runtime.Presenters.Fires.OneTimeFire.OnFire
   fullName: StormHawks.Runtime.Presenters.Fires.OneTimeFire.OnFire
   nameWithType: OneTimeFire.OnFire
+- uid: StormHawks.Runtime.Presenters.Fires.SequentialFire
+  name: SequentialFire
+  href: api/StormHawks.Runtime.Presenters.Fires.SequentialFire.html
+  commentId: T:StormHawks.Runtime.Presenters.Fires.SequentialFire
+  fullName: StormHawks.Runtime.Presenters.Fires.SequentialFire
+  nameWithType: SequentialFire
+- uid: StormHawks.Runtime.Presenters.Fires.SequentialFire.#ctor(Func{List{ProjectilePresenter}},ProjectileWeaponSettings)
+  name: SequentialFire(Func<List<ProjectilePresenter>>, ProjectileWeaponSettings)
+  href: api/StormHawks.Runtime.Presenters.Fires.SequentialFire.html#StormHawks_Runtime_Presenters_Fires_SequentialFire__ctor_Func_List_ProjectilePresenter___ProjectileWeaponSettings_
+  commentId: M:StormHawks.Runtime.Presenters.Fires.SequentialFire.#ctor(Func{List{ProjectilePresenter}},ProjectileWeaponSettings)
+  name.vb: SequentialFire(Func(Of List(Of ProjectilePresenter)), ProjectileWeaponSettings)
+  fullName: StormHawks.Runtime.Presenters.Fires.SequentialFire.SequentialFire(Func<List<ProjectilePresenter>>, ProjectileWeaponSettings)
+  fullName.vb: StormHawks.Runtime.Presenters.Fires.SequentialFire.SequentialFire(Func(Of List(Of ProjectilePresenter)), ProjectileWeaponSettings)
+  nameWithType: SequentialFire.SequentialFire(Func<List<ProjectilePresenter>>, ProjectileWeaponSettings)
+  nameWithType.vb: SequentialFire.SequentialFire(Func(Of List(Of ProjectilePresenter)), ProjectileWeaponSettings)
+- uid: StormHawks.Runtime.Presenters.Fires.SequentialFire.#ctor*
+  name: SequentialFire
+  href: api/StormHawks.Runtime.Presenters.Fires.SequentialFire.html#StormHawks_Runtime_Presenters_Fires_SequentialFire__ctor_
+  commentId: Overload:StormHawks.Runtime.Presenters.Fires.SequentialFire.#ctor
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.Fires.SequentialFire.SequentialFire
+  nameWithType: SequentialFire.SequentialFire
+- uid: StormHawks.Runtime.Presenters.Fires.SequentialFire.FireTask(CancellationToken)
+  name: FireTask(CancellationToken)
+  href: api/StormHawks.Runtime.Presenters.Fires.SequentialFire.html#StormHawks_Runtime_Presenters_Fires_SequentialFire_FireTask_CancellationToken_
+  commentId: M:StormHawks.Runtime.Presenters.Fires.SequentialFire.FireTask(CancellationToken)
+  fullName: StormHawks.Runtime.Presenters.Fires.SequentialFire.FireTask(CancellationToken)
+  nameWithType: SequentialFire.FireTask(CancellationToken)
+- uid: StormHawks.Runtime.Presenters.Fires.SequentialFire.FireTask*
+  name: FireTask
+  href: api/StormHawks.Runtime.Presenters.Fires.SequentialFire.html#StormHawks_Runtime_Presenters_Fires_SequentialFire_FireTask_
+  commentId: Overload:StormHawks.Runtime.Presenters.Fires.SequentialFire.FireTask
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.Fires.SequentialFire.FireTask
+  nameWithType: SequentialFire.FireTask
+- uid: StormHawks.Runtime.Presenters.Fires.SequentialFire.OnBeforeFire
+  name: OnBeforeFire
+  href: api/StormHawks.Runtime.Presenters.Fires.SequentialFire.html#StormHawks_Runtime_Presenters_Fires_SequentialFire_OnBeforeFire
+  commentId: E:StormHawks.Runtime.Presenters.Fires.SequentialFire.OnBeforeFire
+  fullName: StormHawks.Runtime.Presenters.Fires.SequentialFire.OnBeforeFire
+  nameWithType: SequentialFire.OnBeforeFire
+- uid: StormHawks.Runtime.Presenters.Fires.SequentialFire.OnComplete
+  name: OnComplete
+  href: api/StormHawks.Runtime.Presenters.Fires.SequentialFire.html#StormHawks_Runtime_Presenters_Fires_SequentialFire_OnComplete
+  commentId: E:StormHawks.Runtime.Presenters.Fires.SequentialFire.OnComplete
+  fullName: StormHawks.Runtime.Presenters.Fires.SequentialFire.OnComplete
+  nameWithType: SequentialFire.OnComplete
+- uid: StormHawks.Runtime.Presenters.Fires.SequentialFire.OnFire
+  name: OnFire
+  href: api/StormHawks.Runtime.Presenters.Fires.SequentialFire.html#StormHawks_Runtime_Presenters_Fires_SequentialFire_OnFire
+  commentId: E:StormHawks.Runtime.Presenters.Fires.SequentialFire.OnFire
+  fullName: StormHawks.Runtime.Presenters.Fires.SequentialFire.OnFire
+  nameWithType: SequentialFire.OnFire
 - uid: StormHawks.Runtime.Presenters.Projectiles
   name: StormHawks.Runtime.Presenters.Projectiles
   href: api/StormHawks.Runtime.Presenters.Projectiles.html
@@ -19398,6 +19398,22 @@ references:
   commentId: T:StormHawks.Runtime.Presenters.Weapons.Players.PlayerBulletWeaponTrigger
   fullName: StormHawks.Runtime.Presenters.Weapons.Players.PlayerBulletWeaponTrigger
   nameWithType: PlayerBulletWeaponTrigger
+- uid: StormHawks.Runtime.Presenters.Weapons.Players.PlayerBulletWeaponTrigger.Register(StormHawks.Runtime.Presenters.Weapons.Players.PlayerBulletWeapon,IReadOnlyReactiveProperty{System.Boolean})
+  name: Register(PlayerBulletWeapon, IReadOnlyReactiveProperty<Boolean>)
+  href: api/StormHawks.Runtime.Presenters.Weapons.Players.PlayerBulletWeaponTrigger.html#StormHawks_Runtime_Presenters_Weapons_Players_PlayerBulletWeaponTrigger_Register_StormHawks_Runtime_Presenters_Weapons_Players_PlayerBulletWeapon_IReadOnlyReactiveProperty_System_Boolean__
+  commentId: M:StormHawks.Runtime.Presenters.Weapons.Players.PlayerBulletWeaponTrigger.Register(StormHawks.Runtime.Presenters.Weapons.Players.PlayerBulletWeapon,IReadOnlyReactiveProperty{System.Boolean})
+  name.vb: Register(PlayerBulletWeapon, IReadOnlyReactiveProperty(Of Boolean))
+  fullName: StormHawks.Runtime.Presenters.Weapons.Players.PlayerBulletWeaponTrigger.Register(StormHawks.Runtime.Presenters.Weapons.Players.PlayerBulletWeapon, IReadOnlyReactiveProperty<System.Boolean>)
+  fullName.vb: StormHawks.Runtime.Presenters.Weapons.Players.PlayerBulletWeaponTrigger.Register(StormHawks.Runtime.Presenters.Weapons.Players.PlayerBulletWeapon, IReadOnlyReactiveProperty(Of System.Boolean))
+  nameWithType: PlayerBulletWeaponTrigger.Register(PlayerBulletWeapon, IReadOnlyReactiveProperty<Boolean>)
+  nameWithType.vb: PlayerBulletWeaponTrigger.Register(PlayerBulletWeapon, IReadOnlyReactiveProperty(Of Boolean))
+- uid: StormHawks.Runtime.Presenters.Weapons.Players.PlayerBulletWeaponTrigger.Register*
+  name: Register
+  href: api/StormHawks.Runtime.Presenters.Weapons.Players.PlayerBulletWeaponTrigger.html#StormHawks_Runtime_Presenters_Weapons_Players_PlayerBulletWeaponTrigger_Register_
+  commentId: Overload:StormHawks.Runtime.Presenters.Weapons.Players.PlayerBulletWeaponTrigger.Register
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.Weapons.Players.PlayerBulletWeaponTrigger.Register
+  nameWithType: PlayerBulletWeaponTrigger.Register
 - uid: StormHawks.Runtime.Presenters.Weapons.Players.PlayerMissileWeapon
   name: PlayerMissileWeapon
   href: api/StormHawks.Runtime.Presenters.Weapons.Players.PlayerMissileWeapon.html
@@ -19420,6 +19436,28 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Presenters.Weapons.Players.PlayerMissileWeapon.SetTarget
   nameWithType: PlayerMissileWeapon.SetTarget
+- uid: StormHawks.Runtime.Presenters.Weapons.Players.PlayerMissileWeaponTrigger
+  name: PlayerMissileWeaponTrigger
+  href: api/StormHawks.Runtime.Presenters.Weapons.Players.PlayerMissileWeaponTrigger.html
+  commentId: T:StormHawks.Runtime.Presenters.Weapons.Players.PlayerMissileWeaponTrigger
+  fullName: StormHawks.Runtime.Presenters.Weapons.Players.PlayerMissileWeaponTrigger
+  nameWithType: PlayerMissileWeaponTrigger
+- uid: StormHawks.Runtime.Presenters.Weapons.Players.PlayerMissileWeaponTrigger.Register(StormHawks.Runtime.Presenters.Weapons.Players.PlayerMissileWeapon,IReadOnlyReactiveProperty{System.Boolean})
+  name: Register(PlayerMissileWeapon, IReadOnlyReactiveProperty<Boolean>)
+  href: api/StormHawks.Runtime.Presenters.Weapons.Players.PlayerMissileWeaponTrigger.html#StormHawks_Runtime_Presenters_Weapons_Players_PlayerMissileWeaponTrigger_Register_StormHawks_Runtime_Presenters_Weapons_Players_PlayerMissileWeapon_IReadOnlyReactiveProperty_System_Boolean__
+  commentId: M:StormHawks.Runtime.Presenters.Weapons.Players.PlayerMissileWeaponTrigger.Register(StormHawks.Runtime.Presenters.Weapons.Players.PlayerMissileWeapon,IReadOnlyReactiveProperty{System.Boolean})
+  name.vb: Register(PlayerMissileWeapon, IReadOnlyReactiveProperty(Of Boolean))
+  fullName: StormHawks.Runtime.Presenters.Weapons.Players.PlayerMissileWeaponTrigger.Register(StormHawks.Runtime.Presenters.Weapons.Players.PlayerMissileWeapon, IReadOnlyReactiveProperty<System.Boolean>)
+  fullName.vb: StormHawks.Runtime.Presenters.Weapons.Players.PlayerMissileWeaponTrigger.Register(StormHawks.Runtime.Presenters.Weapons.Players.PlayerMissileWeapon, IReadOnlyReactiveProperty(Of System.Boolean))
+  nameWithType: PlayerMissileWeaponTrigger.Register(PlayerMissileWeapon, IReadOnlyReactiveProperty<Boolean>)
+  nameWithType.vb: PlayerMissileWeaponTrigger.Register(PlayerMissileWeapon, IReadOnlyReactiveProperty(Of Boolean))
+- uid: StormHawks.Runtime.Presenters.Weapons.Players.PlayerMissileWeaponTrigger.Register*
+  name: Register
+  href: api/StormHawks.Runtime.Presenters.Weapons.Players.PlayerMissileWeaponTrigger.html#StormHawks_Runtime_Presenters_Weapons_Players_PlayerMissileWeaponTrigger_Register_
+  commentId: Overload:StormHawks.Runtime.Presenters.Weapons.Players.PlayerMissileWeaponTrigger.Register
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.Weapons.Players.PlayerMissileWeaponTrigger.Register
+  nameWithType: PlayerMissileWeaponTrigger.Register
 - uid: StormHawks.Runtime.Presenters.Weapons.Players.PlayerRailgunWeapon
   name: PlayerRailgunWeapon
   href: api/StormHawks.Runtime.Presenters.Weapons.Players.PlayerRailgunWeapon.html
@@ -19442,6 +19480,28 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Presenters.Weapons.Players.PlayerRailgunWeapon.SetTarget
   nameWithType: PlayerRailgunWeapon.SetTarget
+- uid: StormHawks.Runtime.Presenters.Weapons.Players.PlayerRailgunWeaponTrigger
+  name: PlayerRailgunWeaponTrigger
+  href: api/StormHawks.Runtime.Presenters.Weapons.Players.PlayerRailgunWeaponTrigger.html
+  commentId: T:StormHawks.Runtime.Presenters.Weapons.Players.PlayerRailgunWeaponTrigger
+  fullName: StormHawks.Runtime.Presenters.Weapons.Players.PlayerRailgunWeaponTrigger
+  nameWithType: PlayerRailgunWeaponTrigger
+- uid: StormHawks.Runtime.Presenters.Weapons.Players.PlayerRailgunWeaponTrigger.Register(StormHawks.Runtime.Presenters.Weapons.Players.PlayerRailgunWeapon,IReadOnlyReactiveProperty{System.Boolean})
+  name: Register(PlayerRailgunWeapon, IReadOnlyReactiveProperty<Boolean>)
+  href: api/StormHawks.Runtime.Presenters.Weapons.Players.PlayerRailgunWeaponTrigger.html#StormHawks_Runtime_Presenters_Weapons_Players_PlayerRailgunWeaponTrigger_Register_StormHawks_Runtime_Presenters_Weapons_Players_PlayerRailgunWeapon_IReadOnlyReactiveProperty_System_Boolean__
+  commentId: M:StormHawks.Runtime.Presenters.Weapons.Players.PlayerRailgunWeaponTrigger.Register(StormHawks.Runtime.Presenters.Weapons.Players.PlayerRailgunWeapon,IReadOnlyReactiveProperty{System.Boolean})
+  name.vb: Register(PlayerRailgunWeapon, IReadOnlyReactiveProperty(Of Boolean))
+  fullName: StormHawks.Runtime.Presenters.Weapons.Players.PlayerRailgunWeaponTrigger.Register(StormHawks.Runtime.Presenters.Weapons.Players.PlayerRailgunWeapon, IReadOnlyReactiveProperty<System.Boolean>)
+  fullName.vb: StormHawks.Runtime.Presenters.Weapons.Players.PlayerRailgunWeaponTrigger.Register(StormHawks.Runtime.Presenters.Weapons.Players.PlayerRailgunWeapon, IReadOnlyReactiveProperty(Of System.Boolean))
+  nameWithType: PlayerRailgunWeaponTrigger.Register(PlayerRailgunWeapon, IReadOnlyReactiveProperty<Boolean>)
+  nameWithType.vb: PlayerRailgunWeaponTrigger.Register(PlayerRailgunWeapon, IReadOnlyReactiveProperty(Of Boolean))
+- uid: StormHawks.Runtime.Presenters.Weapons.Players.PlayerRailgunWeaponTrigger.Register*
+  name: Register
+  href: api/StormHawks.Runtime.Presenters.Weapons.Players.PlayerRailgunWeaponTrigger.html#StormHawks_Runtime_Presenters_Weapons_Players_PlayerRailgunWeaponTrigger_Register_
+  commentId: Overload:StormHawks.Runtime.Presenters.Weapons.Players.PlayerRailgunWeaponTrigger.Register
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.Weapons.Players.PlayerRailgunWeaponTrigger.Register
+  nameWithType: PlayerRailgunWeaponTrigger.Register
 - uid: StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeapon
   name: PlayerWeapon
   href: api/StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeapon.html
@@ -19562,6 +19622,57 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeapon.OnLaunchCompleted
   nameWithType: PlayerWeapon.OnLaunchCompleted
+- uid: StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeaponTrigger
+  name: PlayerWeaponTrigger
+  href: api/StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeaponTrigger.html
+  commentId: T:StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeaponTrigger
+  fullName: StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeaponTrigger
+  nameWithType: PlayerWeaponTrigger
+- uid: StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeaponTrigger._attackInput
+  name: _attackInput
+  href: api/StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeaponTrigger.html#StormHawks_Runtime_Presenters_Weapons_Players_PlayerWeaponTrigger__attackInput
+  commentId: F:StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeaponTrigger._attackInput
+  fullName: StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeaponTrigger._attackInput
+  nameWithType: PlayerWeaponTrigger._attackInput
+- uid: StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeaponTrigger._detector
+  name: _detector
+  href: api/StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeaponTrigger.html#StormHawks_Runtime_Presenters_Weapons_Players_PlayerWeaponTrigger__detector
+  commentId: F:StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeaponTrigger._detector
+  fullName: StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeaponTrigger._detector
+  nameWithType: PlayerWeaponTrigger._detector
+- uid: StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeaponTrigger._model
+  name: _model
+  href: api/StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeaponTrigger.html#StormHawks_Runtime_Presenters_Weapons_Players_PlayerWeaponTrigger__model
+  commentId: F:StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeaponTrigger._model
+  fullName: StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeaponTrigger._model
+  nameWithType: PlayerWeaponTrigger._model
+- uid: StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeaponTrigger`1
+  name: PlayerWeaponTrigger<T>
+  href: api/StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeaponTrigger-1.html
+  commentId: T:StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeaponTrigger`1
+  name.vb: PlayerWeaponTrigger(Of T)
+  fullName: StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeaponTrigger<T>
+  fullName.vb: StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeaponTrigger(Of T)
+  nameWithType: PlayerWeaponTrigger<T>
+  nameWithType.vb: PlayerWeaponTrigger(Of T)
+- uid: StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeaponTrigger`1.Register(`0,IReadOnlyReactiveProperty{System.Boolean})
+  name: Register(T, IReadOnlyReactiveProperty<Boolean>)
+  href: api/StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeaponTrigger-1.html#StormHawks_Runtime_Presenters_Weapons_Players_PlayerWeaponTrigger_1_Register__0_IReadOnlyReactiveProperty_System_Boolean__
+  commentId: M:StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeaponTrigger`1.Register(`0,IReadOnlyReactiveProperty{System.Boolean})
+  name.vb: Register(T, IReadOnlyReactiveProperty(Of Boolean))
+  fullName: StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeaponTrigger<T>.Register(T, IReadOnlyReactiveProperty<System.Boolean>)
+  fullName.vb: StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeaponTrigger(Of T).Register(T, IReadOnlyReactiveProperty(Of System.Boolean))
+  nameWithType: PlayerWeaponTrigger<T>.Register(T, IReadOnlyReactiveProperty<Boolean>)
+  nameWithType.vb: PlayerWeaponTrigger(Of T).Register(T, IReadOnlyReactiveProperty(Of Boolean))
+- uid: StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeaponTrigger`1.Register*
+  name: Register
+  href: api/StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeaponTrigger-1.html#StormHawks_Runtime_Presenters_Weapons_Players_PlayerWeaponTrigger_1_Register_
+  commentId: Overload:StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeaponTrigger`1.Register
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeaponTrigger<T>.Register
+  fullName.vb: StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeaponTrigger(Of T).Register
+  nameWithType: PlayerWeaponTrigger<T>.Register
+  nameWithType.vb: PlayerWeaponTrigger(Of T).Register
 - uid: StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon
   name: ProjectileWeapon
   href: api/StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.html

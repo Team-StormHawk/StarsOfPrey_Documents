@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class PlayerMissileCountUI
+    <title>Class SequentialFire
    | Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class PlayerMissileCountUI
+    <meta name="title" content="Class SequentialFire
    | Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -78,73 +78,58 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.UI.PlayerMissileCountUI">
+            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Presenters.Fires.SequentialFire">
   
   
-  <h1 id="StormHawks_Runtime_UI_PlayerMissileCountUI" data-uid="StormHawks.Runtime.UI.PlayerMissileCountUI" class="text-break">Class PlayerMissileCountUI
+  <h1 id="StormHawks_Runtime_Presenters_Fires_SequentialFire" data-uid="StormHawks.Runtime.Presenters.Fires.SequentialFire" class="text-break">Class SequentialFire
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">UIBase</span></div>
-    <div class="level2"><span class="xref">PlayerMissileCountUI</span></div>
+    <div class="level1"><span class="xref">SequentialFire</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.UI.html">StormHawks.Runtime.UI</a></h6>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="StormHawks.Runtime.Presenters.Fires.IProjectileFire.html">IProjectileFire</a></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Presenters.Fires.html">StormHawks.Runtime.Presenters.Fires</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="StormHawks_Runtime_UI_PlayerMissileCountUI_syntax">Syntax</h5>
+  <h5 id="StormHawks_Runtime_Presenters_Fires_SequentialFire_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class PlayerMissileCountUI : UIBase</code></pre>
+    <pre><code class="lang-csharp hljs">public class SequentialFire : IProjectileFire</code></pre>
   </div>
-  <h3 id="properties">Properties
+  <h3 id="constructors">Constructors
   </h3>
   
   
-  <a id="StormHawks_Runtime_UI_PlayerMissileCountUI_Angle_" data-uid="StormHawks.Runtime.UI.PlayerMissileCountUI.Angle*"></a>
-  <h4 id="StormHawks_Runtime_UI_PlayerMissileCountUI_Angle" data-uid="StormHawks.Runtime.UI.PlayerMissileCountUI.Angle">Angle</h4>
+  <a id="StormHawks_Runtime_Presenters_Fires_SequentialFire__ctor_" data-uid="StormHawks.Runtime.Presenters.Fires.SequentialFire.#ctor*"></a>
+  <h4 id="StormHawks_Runtime_Presenters_Fires_SequentialFire__ctor_Func_List_ProjectilePresenter___ProjectileWeaponSettings_" data-uid="StormHawks.Runtime.Presenters.Fires.SequentialFire.#ctor(Func{List{ProjectilePresenter}},ProjectileWeaponSettings)">SequentialFire(Func&lt;List&lt;ProjectilePresenter&gt;&gt;, ProjectileWeaponSettings)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float Angle { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public SequentialFire(Func&lt;List&lt;ProjectilePresenter&gt;&gt; spawnProjectileTask, ProjectileWeaponSettings settings)</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
+        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="xref">Func</span>&lt;<span class="xref">List</span>&lt;<span class="xref">ProjectilePresenter</span>&gt;&gt;</td>
+        <td><span class="parametername">spawnProjectileTask</span></td>
         <td></td>
       </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="StormHawks_Runtime_UI_PlayerMissileCountUI_Distance_" data-uid="StormHawks.Runtime.UI.PlayerMissileCountUI.Distance*"></a>
-  <h4 id="StormHawks_Runtime_UI_PlayerMissileCountUI_Distance" data-uid="StormHawks.Runtime.UI.PlayerMissileCountUI.Distance">Distance</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float Distance { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
       <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="xref">ProjectileWeaponSettings</span></td>
+        <td><span class="parametername">settings</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -153,13 +138,13 @@
   </h3>
   
   
-  <a id="StormHawks_Runtime_UI_PlayerMissileCountUI_GenerateIndicator_" data-uid="StormHawks.Runtime.UI.PlayerMissileCountUI.GenerateIndicator*"></a>
-  <h4 id="StormHawks_Runtime_UI_PlayerMissileCountUI_GenerateIndicator_System_Int32_" data-uid="StormHawks.Runtime.UI.PlayerMissileCountUI.GenerateIndicator(System.Int32)">GenerateIndicator(Int32)</h4>
+  <a id="StormHawks_Runtime_Presenters_Fires_SequentialFire_FireTask_" data-uid="StormHawks.Runtime.Presenters.Fires.SequentialFire.FireTask*"></a>
+  <h4 id="StormHawks_Runtime_Presenters_Fires_SequentialFire_FireTask_CancellationToken_" data-uid="StormHawks.Runtime.Presenters.Fires.SequentialFire.FireTask(CancellationToken)">FireTask(CancellationToken)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void GenerateIndicator(int count)</code></pre>
+    <pre><code class="lang-csharp hljs">public async UniTaskVoid FireTask(CancellationToken cancellation)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -172,86 +157,105 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">count</span></td>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">cancellation</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  
-  
-  <a id="StormHawks_Runtime_UI_PlayerMissileCountUI_InitializeIndicator_" data-uid="StormHawks.Runtime.UI.PlayerMissileCountUI.InitializeIndicator*"></a>
-  <h4 id="StormHawks_Runtime_UI_PlayerMissileCountUI_InitializeIndicator" data-uid="StormHawks.Runtime.UI.PlayerMissileCountUI.InitializeIndicator">InitializeIndicator()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void InitializeIndicator()</code></pre>
-  </div>
-  
-  
-  <a id="StormHawks_Runtime_UI_PlayerMissileCountUI_RearrangeIndicator_" data-uid="StormHawks.Runtime.UI.PlayerMissileCountUI.RearrangeIndicator*"></a>
-  <h4 id="StormHawks_Runtime_UI_PlayerMissileCountUI_RearrangeIndicator_System_Single_System_Single_" data-uid="StormHawks.Runtime.UI.PlayerMissileCountUI.RearrangeIndicator(System.Single,System.Single)">RearrangeIndicator(Single, Single)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void RearrangeIndicator(float angle, float distance)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td><span class="parametername">angle</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td><span class="parametername">distance</span></td>
+        <td><span class="xref">UniTaskVoid</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  <h3 id="events">Events
+  </h3>
   
   
-  <a id="StormHawks_Runtime_UI_PlayerMissileCountUI_ShowReloadUI_" data-uid="StormHawks.Runtime.UI.PlayerMissileCountUI.ShowReloadUI*"></a>
-  <h4 id="StormHawks_Runtime_UI_PlayerMissileCountUI_ShowReloadUI_System_Int32_System_Single_" data-uid="StormHawks.Runtime.UI.PlayerMissileCountUI.ShowReloadUI(System.Int32,System.Single)">ShowReloadUI(Int32, Single)</h4>
+  <h4 id="StormHawks_Runtime_Presenters_Fires_SequentialFire_OnBeforeFire" data-uid="StormHawks.Runtime.Presenters.Fires.SequentialFire.OnBeforeFire">OnBeforeFire</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void ShowReloadUI(int count, float time)</code></pre>
+    <pre><code class="lang-csharp hljs">public event Action OnBeforeFire</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="eventType">Event Type</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">count</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td><span class="parametername">time</span></td>
+        <td><span class="xref">Action</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  
+  
+  <h4 id="StormHawks_Runtime_Presenters_Fires_SequentialFire_OnComplete" data-uid="StormHawks.Runtime.Presenters.Fires.SequentialFire.OnComplete">OnComplete</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action OnComplete</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Action</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="StormHawks_Runtime_Presenters_Fires_SequentialFire_OnFire" data-uid="StormHawks.Runtime.Presenters.Fires.SequentialFire.OnFire">OnFire</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action&lt;Transform&gt; OnFire</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<span class="xref">Transform</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="StormHawks.Runtime.Presenters.Fires.IProjectileFire.html">IProjectileFire</a>
+  </div>
 </article>
           </div>
           

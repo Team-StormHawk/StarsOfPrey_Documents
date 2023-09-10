@@ -100,8 +100,8 @@
     <div><span class="xref">IHasHealthRx</span></div>
     <div><span class="xref">IAggressiveRx</span></div>
     <div><span class="xref">IAggressiveTargetable</span></div>
-    <div><span class="xref">IEnemyGroupMemberRx</span></div>
     <div><span class="xref">ISeeker</span></div>
+    <div><span class="xref">IEnemyGroupMemberRx</span></div>
     <div><span class="xref">IReleaseEvent</span></div>
   </div>
   <div class="inheritedMembers">
@@ -125,7 +125,7 @@
       <a class="xref" href="StormHawks.Runtime.Presenters.Entities.Enemies.SteeringEnemyPresenter-1.html#StormHawks_Runtime_Presenters_Entities_Enemies_SteeringEnemyPresenter_1_TakeDamage_Damage_">SteeringEnemyPresenter&lt;ChaserModel&gt;.TakeDamage(Damage)</a>
     </div>
     <div>
-      <a class="xref" href="StormHawks.Runtime.Presenters.Entities.Enemies.SteeringEnemyPresenter-1.html#StormHawks_Runtime_Presenters_Entities_Enemies_SteeringEnemyPresenter_1_aggroTarget">SteeringEnemyPresenter&lt;ChaserModel&gt;.aggroTarget</a>
+      <a class="xref" href="StormHawks.Runtime.Presenters.Entities.Enemies.SteeringEnemyPresenter-1.html#StormHawks_Runtime_Presenters_Entities_Enemies_SteeringEnemyPresenter_1__myAggroTarget">SteeringEnemyPresenter&lt;ChaserModel&gt;._myAggroTarget</a>
     </div>
     <div>
       <a class="xref" href="StormHawks.Runtime.Presenters.Entities.Enemies.SteeringEnemyPresenter-1.html#StormHawks_Runtime_Presenters_Entities_Enemies_SteeringEnemyPresenter_1_AggroTargetCollider">SteeringEnemyPresenter&lt;ChaserModel&gt;.AggroTargetCollider</a>
@@ -211,6 +211,31 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StormHawks_Runtime_Presenters_Entities_Enemies_ChaserPresenter_OnSeeking_" data-uid="StormHawks.Runtime.Presenters.Entities.Enemies.ChaserPresenter.OnSeeking*"></a>
+  <h4 id="StormHawks_Runtime_Presenters_Entities_Enemies_ChaserPresenter_OnSeeking" data-uid="StormHawks.Runtime.Presenters.Entities.Enemies.ChaserPresenter.OnSeeking">OnSeeking</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IObservable&lt;Vector3&gt; OnSeeking { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IObservable</span>&lt;<span class="xref">Vector3</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -308,13 +333,30 @@
   
   
   <a id="StormHawks_Runtime_Presenters_Entities_Enemies_ChaserPresenter_TryEnterGroup_" data-uid="StormHawks.Runtime.Presenters.Entities.Enemies.ChaserPresenter.TryEnterGroup*"></a>
-  <h4 id="StormHawks_Runtime_Presenters_Entities_Enemies_ChaserPresenter_TryEnterGroup" data-uid="StormHawks.Runtime.Presenters.Entities.Enemies.ChaserPresenter.TryEnterGroup">TryEnterGroup()</h4>
+  <h4 id="StormHawks_Runtime_Presenters_Entities_Enemies_ChaserPresenter_TryEnterGroup_EnemyGroup_" data-uid="StormHawks.Runtime.Presenters.Entities.Enemies.ChaserPresenter.TryEnterGroup(EnemyGroup)">TryEnterGroup(EnemyGroup)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool TryEnterGroup()</code></pre>
+    <pre><code class="lang-csharp hljs">public bool TryEnterGroup(EnemyGroup group)</code></pre>
   </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">EnemyGroup</span></td>
+        <td><span class="parametername">group</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -356,6 +398,30 @@
       </tr>
     </tbody>
   </table>
+  
+  
+  <h4 id="StormHawks_Runtime_Presenters_Entities_Enemies_ChaserPresenter_OnTired" data-uid="StormHawks.Runtime.Presenters.Entities.Enemies.ChaserPresenter.OnTired">OnTired</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action&lt;IEnemyGroupMemberRx, bool&gt; OnTired</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<span class="xref">IEnemyGroupMemberRx</span>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="implements">Implements</h3>
   <div>
       <span class="xref">ISteeringEntity</span>
@@ -370,10 +436,10 @@
       <span class="xref">IAggressiveTargetable</span>
   </div>
   <div>
-      <span class="xref">IEnemyGroupMemberRx</span>
+      <span class="xref">ISeeker</span>
   </div>
   <div>
-      <span class="xref">ISeeker</span>
+      <span class="xref">IEnemyGroupMemberRx</span>
   </div>
   <div>
       <span class="xref">IReleaseEvent</span>

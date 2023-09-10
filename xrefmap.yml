@@ -18049,6 +18049,12 @@ references:
   fullName.vb: StormHawks.Runtime.Presenters.Facilities.FacilityPresenter(Of T).TakeDamage
   nameWithType: FacilityPresenter<T>.TakeDamage
   nameWithType.vb: FacilityPresenter(Of T).TakeDamage
+- uid: StormHawks.Runtime.Presenters.Facilities.ForceMovePresenter
+  name: ForceMovePresenter
+  href: api/StormHawks.Runtime.Presenters.Facilities.ForceMovePresenter.html
+  commentId: T:StormHawks.Runtime.Presenters.Facilities.ForceMovePresenter
+  fullName: StormHawks.Runtime.Presenters.Facilities.ForceMovePresenter
+  nameWithType: ForceMovePresenter
 - uid: StormHawks.Runtime.Presenters.Facilities.PowerPlantPresenter
   name: PowerPlantPresenter
   href: api/StormHawks.Runtime.Presenters.Facilities.PowerPlantPresenter.html
@@ -19695,24 +19701,6 @@ references:
   commentId: T:StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeaponTrigger
   fullName: StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeaponTrigger
   nameWithType: PlayerWeaponTrigger
-- uid: StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeaponTrigger._attackInput
-  name: _attackInput
-  href: api/StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeaponTrigger.html#StormHawks_Runtime_Presenters_Weapons_Players_PlayerWeaponTrigger__attackInput
-  commentId: F:StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeaponTrigger._attackInput
-  fullName: StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeaponTrigger._attackInput
-  nameWithType: PlayerWeaponTrigger._attackInput
-- uid: StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeaponTrigger._detector
-  name: _detector
-  href: api/StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeaponTrigger.html#StormHawks_Runtime_Presenters_Weapons_Players_PlayerWeaponTrigger__detector
-  commentId: F:StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeaponTrigger._detector
-  fullName: StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeaponTrigger._detector
-  nameWithType: PlayerWeaponTrigger._detector
-- uid: StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeaponTrigger._model
-  name: _model
-  href: api/StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeaponTrigger.html#StormHawks_Runtime_Presenters_Weapons_Players_PlayerWeaponTrigger__model
-  commentId: F:StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeaponTrigger._model
-  fullName: StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeaponTrigger._model
-  nameWithType: PlayerWeaponTrigger._model
 - uid: StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeaponTrigger`1
   name: PlayerWeaponTrigger<T>
   href: api/StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeaponTrigger-1.html
@@ -19722,6 +19710,30 @@ references:
   fullName.vb: StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeaponTrigger(Of T)
   nameWithType: PlayerWeaponTrigger<T>
   nameWithType.vb: PlayerWeaponTrigger(Of T)
+- uid: StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeaponTrigger`1._attackInput
+  name: _attackInput
+  href: api/StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeaponTrigger-1.html#StormHawks_Runtime_Presenters_Weapons_Players_PlayerWeaponTrigger_1__attackInput
+  commentId: F:StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeaponTrigger`1._attackInput
+  fullName: StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeaponTrigger<T>._attackInput
+  fullName.vb: StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeaponTrigger(Of T)._attackInput
+  nameWithType: PlayerWeaponTrigger<T>._attackInput
+  nameWithType.vb: PlayerWeaponTrigger(Of T)._attackInput
+- uid: StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeaponTrigger`1._detector
+  name: _detector
+  href: api/StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeaponTrigger-1.html#StormHawks_Runtime_Presenters_Weapons_Players_PlayerWeaponTrigger_1__detector
+  commentId: F:StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeaponTrigger`1._detector
+  fullName: StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeaponTrigger<T>._detector
+  fullName.vb: StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeaponTrigger(Of T)._detector
+  nameWithType: PlayerWeaponTrigger<T>._detector
+  nameWithType.vb: PlayerWeaponTrigger(Of T)._detector
+- uid: StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeaponTrigger`1._model
+  name: _model
+  href: api/StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeaponTrigger-1.html#StormHawks_Runtime_Presenters_Weapons_Players_PlayerWeaponTrigger_1__model
+  commentId: F:StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeaponTrigger`1._model
+  fullName: StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeaponTrigger<T>._model
+  fullName.vb: StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeaponTrigger(Of T)._model
+  nameWithType: PlayerWeaponTrigger<T>._model
+  nameWithType.vb: PlayerWeaponTrigger(Of T)._model
 - uid: StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeaponTrigger`1.Register(`0,IReadOnlyReactiveProperty{System.Boolean})
   name: Register(T, IReadOnlyReactiveProperty<Boolean>)
   href: api/StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeaponTrigger-1.html#StormHawks_Runtime_Presenters_Weapons_Players_PlayerWeaponTrigger_1_Register__0_IReadOnlyReactiveProperty_System_Boolean__
@@ -24020,6 +24032,22 @@ references:
   commentId: T:StormHawks.Runtime.Utilities.Extensions.ArrayExtensions
   fullName: StormHawks.Runtime.Utilities.Extensions.ArrayExtensions
   nameWithType: ArrayExtensions
+- uid: StormHawks.Runtime.Utilities.Extensions.ArrayExtensions.Pairwise*
+  name: Pairwise
+  href: api/StormHawks.Runtime.Utilities.Extensions.ArrayExtensions.html#StormHawks_Runtime_Utilities_Extensions_ArrayExtensions_Pairwise_
+  commentId: Overload:StormHawks.Runtime.Utilities.Extensions.ArrayExtensions.Pairwise
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Utilities.Extensions.ArrayExtensions.Pairwise
+  nameWithType: ArrayExtensions.Pairwise
+- uid: StormHawks.Runtime.Utilities.Extensions.ArrayExtensions.Pairwise``2(IEnumerable{``0},Func{``0,``0,``1})
+  name: Pairwise<TSource, TResult>(IEnumerable<TSource>, Func<TSource, TSource, TResult>)
+  href: api/StormHawks.Runtime.Utilities.Extensions.ArrayExtensions.html#StormHawks_Runtime_Utilities_Extensions_ArrayExtensions_Pairwise__2_IEnumerable___0__Func___0___0___1__
+  commentId: M:StormHawks.Runtime.Utilities.Extensions.ArrayExtensions.Pairwise``2(IEnumerable{``0},Func{``0,``0,``1})
+  name.vb: Pairwise(Of TSource, TResult)(IEnumerable(Of TSource), Func(Of TSource, TSource, TResult))
+  fullName: StormHawks.Runtime.Utilities.Extensions.ArrayExtensions.Pairwise<TSource, TResult>(IEnumerable<TSource>, Func<TSource, TSource, TResult>)
+  fullName.vb: StormHawks.Runtime.Utilities.Extensions.ArrayExtensions.Pairwise(Of TSource, TResult)(IEnumerable(Of TSource), Func(Of TSource, TSource, TResult))
+  nameWithType: ArrayExtensions.Pairwise<TSource, TResult>(IEnumerable<TSource>, Func<TSource, TSource, TResult>)
+  nameWithType.vb: ArrayExtensions.Pairwise(Of TSource, TResult)(IEnumerable(Of TSource), Func(Of TSource, TSource, TResult))
 - uid: StormHawks.Runtime.Utilities.Extensions.ArrayExtensions.Shift*
   name: Shift
   href: api/StormHawks.Runtime.Utilities.Extensions.ArrayExtensions.html#StormHawks_Runtime_Utilities_Extensions_ArrayExtensions_Shift_

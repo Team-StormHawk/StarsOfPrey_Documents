@@ -13547,6 +13547,19 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerWeaponModel.EnableRailgunWeapon
   nameWithType: PlayerWeaponModel.EnableRailgunWeapon
+- uid: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerWeaponModel.EnableSingleRailgunWeapon
+  name: EnableSingleRailgunWeapon
+  href: api/StormHawks.Runtime.Models.Runtime.Models.Players.PlayerWeaponModel.html#StormHawks_Runtime_Models_Runtime_Models_Players_PlayerWeaponModel_EnableSingleRailgunWeapon
+  commentId: P:StormHawks.Runtime.Models.Runtime.Models.Players.PlayerWeaponModel.EnableSingleRailgunWeapon
+  fullName: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerWeaponModel.EnableSingleRailgunWeapon
+  nameWithType: PlayerWeaponModel.EnableSingleRailgunWeapon
+- uid: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerWeaponModel.EnableSingleRailgunWeapon*
+  name: EnableSingleRailgunWeapon
+  href: api/StormHawks.Runtime.Models.Runtime.Models.Players.PlayerWeaponModel.html#StormHawks_Runtime_Models_Runtime_Models_Players_PlayerWeaponModel_EnableSingleRailgunWeapon_
+  commentId: Overload:StormHawks.Runtime.Models.Runtime.Models.Players.PlayerWeaponModel.EnableSingleRailgunWeapon
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerWeaponModel.EnableSingleRailgunWeapon
+  nameWithType: PlayerWeaponModel.EnableSingleRailgunWeapon
 - uid: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerWeaponModel.IncreaseMissileCount(System.Int32)
   name: IncreaseMissileCount(Int32)
   href: api/StormHawks.Runtime.Models.Runtime.Models.Players.PlayerWeaponModel.html#StormHawks_Runtime_Models_Runtime_Models_Players_PlayerWeaponModel_IncreaseMissileCount_System_Int32_
@@ -13624,6 +13637,19 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerWeaponModel.SetEnableRailgunWeapon
   nameWithType: PlayerWeaponModel.SetEnableRailgunWeapon
+- uid: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerWeaponModel.SetEnableSingleRailgunWeapon(System.Boolean)
+  name: SetEnableSingleRailgunWeapon(Boolean)
+  href: api/StormHawks.Runtime.Models.Runtime.Models.Players.PlayerWeaponModel.html#StormHawks_Runtime_Models_Runtime_Models_Players_PlayerWeaponModel_SetEnableSingleRailgunWeapon_System_Boolean_
+  commentId: M:StormHawks.Runtime.Models.Runtime.Models.Players.PlayerWeaponModel.SetEnableSingleRailgunWeapon(System.Boolean)
+  fullName: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerWeaponModel.SetEnableSingleRailgunWeapon(System.Boolean)
+  nameWithType: PlayerWeaponModel.SetEnableSingleRailgunWeapon(Boolean)
+- uid: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerWeaponModel.SetEnableSingleRailgunWeapon*
+  name: SetEnableSingleRailgunWeapon
+  href: api/StormHawks.Runtime.Models.Runtime.Models.Players.PlayerWeaponModel.html#StormHawks_Runtime_Models_Runtime_Models_Players_PlayerWeaponModel_SetEnableSingleRailgunWeapon_
+  commentId: Overload:StormHawks.Runtime.Models.Runtime.Models.Players.PlayerWeaponModel.SetEnableSingleRailgunWeapon
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerWeaponModel.SetEnableSingleRailgunWeapon
+  nameWithType: PlayerWeaponModel.SetEnableSingleRailgunWeapon
 - uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts
   name: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts
   href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.html
@@ -13636,6 +13662,19 @@ references:
   commentId: T:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRAttackInput
   fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRAttackInput
   nameWithType: IXRAttackInput
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRAttackInput.AnyTriggerPressed
+  name: AnyTriggerPressed
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRAttackInput.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_IXRAttackInput_AnyTriggerPressed
+  commentId: P:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRAttackInput.AnyTriggerPressed
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRAttackInput.AnyTriggerPressed
+  nameWithType: IXRAttackInput.AnyTriggerPressed
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRAttackInput.AnyTriggerPressed*
+  name: AnyTriggerPressed
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRAttackInput.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_IXRAttackInput_AnyTriggerPressed_
+  commentId: Overload:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRAttackInput.AnyTriggerPressed
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRAttackInput.AnyTriggerPressed
+  nameWithType: IXRAttackInput.AnyTriggerPressed
 - uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRAttackInput.LeftPrimaryButton
   name: LeftPrimaryButton
   href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRAttackInput.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_IXRAttackInput_LeftPrimaryButton
@@ -13720,19 +13759,19 @@ references:
   commentId: T:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRFlightInput
   fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRFlightInput
   nameWithType: IXRFlightInput
-- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRFlightInput.BothGripPressed
-  name: BothGripPressed
-  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRFlightInput.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_IXRFlightInput_BothGripPressed
-  commentId: P:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRFlightInput.BothGripPressed
-  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRFlightInput.BothGripPressed
-  nameWithType: IXRFlightInput.BothGripPressed
-- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRFlightInput.BothGripPressed*
-  name: BothGripPressed
-  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRFlightInput.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_IXRFlightInput_BothGripPressed_
-  commentId: Overload:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRFlightInput.BothGripPressed
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRFlightInput.AllGripPressed
+  name: AllGripPressed
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRFlightInput.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_IXRFlightInput_AllGripPressed
+  commentId: P:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRFlightInput.AllGripPressed
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRFlightInput.AllGripPressed
+  nameWithType: IXRFlightInput.AllGripPressed
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRFlightInput.AllGripPressed*
+  name: AllGripPressed
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRFlightInput.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_IXRFlightInput_AllGripPressed_
+  commentId: Overload:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRFlightInput.AllGripPressed
   isSpec: "True"
-  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRFlightInput.BothGripPressed
-  nameWithType: IXRFlightInput.BothGripPressed
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRFlightInput.AllGripPressed
+  nameWithType: IXRFlightInput.AllGripPressed
 - uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRFlightInput.LeftGrip
   name: LeftGrip
   href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRFlightInput.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_IXRFlightInput_LeftGrip
@@ -13804,6 +13843,19 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRAttackInputModel.XRAttackInputModel
   nameWithType: XRAttackInputModel.XRAttackInputModel
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRAttackInputModel.AnyTriggerPressed
+  name: AnyTriggerPressed
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRAttackInputModel.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_XRAttackInputModel_AnyTriggerPressed
+  commentId: P:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRAttackInputModel.AnyTriggerPressed
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRAttackInputModel.AnyTriggerPressed
+  nameWithType: XRAttackInputModel.AnyTriggerPressed
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRAttackInputModel.AnyTriggerPressed*
+  name: AnyTriggerPressed
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRAttackInputModel.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_XRAttackInputModel_AnyTriggerPressed_
+  commentId: Overload:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRAttackInputModel.AnyTriggerPressed
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRAttackInputModel.AnyTriggerPressed
+  nameWithType: XRAttackInputModel.AnyTriggerPressed
 - uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRAttackInputModel.Dispose
   name: Dispose()
   href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRAttackInputModel.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_XRAttackInputModel_Dispose
@@ -14005,19 +14057,19 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRFlightInputModel.XRFlightInputModel
   nameWithType: XRFlightInputModel.XRFlightInputModel
-- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRFlightInputModel.BothGripPressed
-  name: BothGripPressed
-  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRFlightInputModel.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_XRFlightInputModel_BothGripPressed
-  commentId: P:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRFlightInputModel.BothGripPressed
-  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRFlightInputModel.BothGripPressed
-  nameWithType: XRFlightInputModel.BothGripPressed
-- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRFlightInputModel.BothGripPressed*
-  name: BothGripPressed
-  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRFlightInputModel.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_XRFlightInputModel_BothGripPressed_
-  commentId: Overload:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRFlightInputModel.BothGripPressed
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRFlightInputModel.AllGripPressed
+  name: AllGripPressed
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRFlightInputModel.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_XRFlightInputModel_AllGripPressed
+  commentId: P:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRFlightInputModel.AllGripPressed
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRFlightInputModel.AllGripPressed
+  nameWithType: XRFlightInputModel.AllGripPressed
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRFlightInputModel.AllGripPressed*
+  name: AllGripPressed
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRFlightInputModel.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_XRFlightInputModel_AllGripPressed_
+  commentId: Overload:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRFlightInputModel.AllGripPressed
   isSpec: "True"
-  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRFlightInputModel.BothGripPressed
-  nameWithType: XRFlightInputModel.BothGripPressed
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRFlightInputModel.AllGripPressed
+  nameWithType: XRFlightInputModel.AllGripPressed
 - uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRFlightInputModel.Dispose
   name: Dispose()
   href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRFlightInputModel.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_XRFlightInputModel_Dispose
@@ -17873,6 +17925,12 @@ references:
   commentId: N:StormHawks.Runtime.Presenters.Facilities
   fullName: StormHawks.Runtime.Presenters.Facilities
   nameWithType: StormHawks.Runtime.Presenters.Facilities
+- uid: StormHawks.Runtime.Presenters.Facilities.ColliderSignalInvoker
+  name: ColliderSignalInvoker
+  href: api/StormHawks.Runtime.Presenters.Facilities.ColliderSignalInvoker.html
+  commentId: T:StormHawks.Runtime.Presenters.Facilities.ColliderSignalInvoker
+  fullName: StormHawks.Runtime.Presenters.Facilities.ColliderSignalInvoker
+  nameWithType: ColliderSignalInvoker
 - uid: StormHawks.Runtime.Presenters.Facilities.FacilityPresenter
   name: FacilityPresenter
   href: api/StormHawks.Runtime.Presenters.Facilities.FacilityPresenter.html
@@ -18055,6 +18113,55 @@ references:
   commentId: T:StormHawks.Runtime.Presenters.Facilities.ForceMovePresenter
   fullName: StormHawks.Runtime.Presenters.Facilities.ForceMovePresenter
   nameWithType: ForceMovePresenter
+- uid: StormHawks.Runtime.Presenters.Facilities.PlayerElevatorPresenter
+  name: PlayerElevatorPresenter
+  href: api/StormHawks.Runtime.Presenters.Facilities.PlayerElevatorPresenter.html
+  commentId: T:StormHawks.Runtime.Presenters.Facilities.PlayerElevatorPresenter
+  fullName: StormHawks.Runtime.Presenters.Facilities.PlayerElevatorPresenter
+  nameWithType: PlayerElevatorPresenter
+- uid: StormHawks.Runtime.Presenters.Facilities.PlayerFacilityPresenter
+  name: PlayerFacilityPresenter
+  href: api/StormHawks.Runtime.Presenters.Facilities.PlayerFacilityPresenter.html
+  commentId: T:StormHawks.Runtime.Presenters.Facilities.PlayerFacilityPresenter
+  fullName: StormHawks.Runtime.Presenters.Facilities.PlayerFacilityPresenter
+  nameWithType: PlayerFacilityPresenter
+- uid: StormHawks.Runtime.Presenters.Facilities.PlayerFacilityPresenter._flightModel
+  name: _flightModel
+  href: api/StormHawks.Runtime.Presenters.Facilities.PlayerFacilityPresenter.html#StormHawks_Runtime_Presenters_Facilities_PlayerFacilityPresenter__flightModel
+  commentId: F:StormHawks.Runtime.Presenters.Facilities.PlayerFacilityPresenter._flightModel
+  fullName: StormHawks.Runtime.Presenters.Facilities.PlayerFacilityPresenter._flightModel
+  nameWithType: PlayerFacilityPresenter._flightModel
+- uid: StormHawks.Runtime.Presenters.Facilities.PlayerFacilityPresenter._playerModel
+  name: _playerModel
+  href: api/StormHawks.Runtime.Presenters.Facilities.PlayerFacilityPresenter.html#StormHawks_Runtime_Presenters_Facilities_PlayerFacilityPresenter__playerModel
+  commentId: F:StormHawks.Runtime.Presenters.Facilities.PlayerFacilityPresenter._playerModel
+  fullName: StormHawks.Runtime.Presenters.Facilities.PlayerFacilityPresenter._playerModel
+  nameWithType: PlayerFacilityPresenter._playerModel
+- uid: StormHawks.Runtime.Presenters.Facilities.PlayerFacilityPresenter._weaponModel
+  name: _weaponModel
+  href: api/StormHawks.Runtime.Presenters.Facilities.PlayerFacilityPresenter.html#StormHawks_Runtime_Presenters_Facilities_PlayerFacilityPresenter__weaponModel
+  commentId: F:StormHawks.Runtime.Presenters.Facilities.PlayerFacilityPresenter._weaponModel
+  fullName: StormHawks.Runtime.Presenters.Facilities.PlayerFacilityPresenter._weaponModel
+  nameWithType: PlayerFacilityPresenter._weaponModel
+- uid: StormHawks.Runtime.Presenters.Facilities.PlayerFacilityPresenter.SetControlsActive(System.Boolean)
+  name: SetControlsActive(Boolean)
+  href: api/StormHawks.Runtime.Presenters.Facilities.PlayerFacilityPresenter.html#StormHawks_Runtime_Presenters_Facilities_PlayerFacilityPresenter_SetControlsActive_System_Boolean_
+  commentId: M:StormHawks.Runtime.Presenters.Facilities.PlayerFacilityPresenter.SetControlsActive(System.Boolean)
+  fullName: StormHawks.Runtime.Presenters.Facilities.PlayerFacilityPresenter.SetControlsActive(System.Boolean)
+  nameWithType: PlayerFacilityPresenter.SetControlsActive(Boolean)
+- uid: StormHawks.Runtime.Presenters.Facilities.PlayerFacilityPresenter.SetControlsActive*
+  name: SetControlsActive
+  href: api/StormHawks.Runtime.Presenters.Facilities.PlayerFacilityPresenter.html#StormHawks_Runtime_Presenters_Facilities_PlayerFacilityPresenter_SetControlsActive_
+  commentId: Overload:StormHawks.Runtime.Presenters.Facilities.PlayerFacilityPresenter.SetControlsActive
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.Facilities.PlayerFacilityPresenter.SetControlsActive
+  nameWithType: PlayerFacilityPresenter.SetControlsActive
+- uid: StormHawks.Runtime.Presenters.Facilities.PlayerInducePresenter
+  name: PlayerInducePresenter
+  href: api/StormHawks.Runtime.Presenters.Facilities.PlayerInducePresenter.html
+  commentId: T:StormHawks.Runtime.Presenters.Facilities.PlayerInducePresenter
+  fullName: StormHawks.Runtime.Presenters.Facilities.PlayerInducePresenter
+  nameWithType: PlayerInducePresenter
 - uid: StormHawks.Runtime.Presenters.Facilities.PowerPlantPresenter
   name: PowerPlantPresenter
   href: api/StormHawks.Runtime.Presenters.Facilities.PowerPlantPresenter.html
@@ -18214,6 +18321,18 @@ references:
   commentId: F:StormHawks.Runtime.Presenters.Facilities.SignalType.CollisionExit
   fullName: StormHawks.Runtime.Presenters.Facilities.SignalType.CollisionExit
   nameWithType: SignalType.CollisionExit
+- uid: StormHawks.Runtime.Presenters.Facilities.SignalType.OnEnd
+  name: OnEnd
+  href: api/StormHawks.Runtime.Presenters.Facilities.SignalType.html#StormHawks_Runtime_Presenters_Facilities_SignalType_OnEnd
+  commentId: F:StormHawks.Runtime.Presenters.Facilities.SignalType.OnEnd
+  fullName: StormHawks.Runtime.Presenters.Facilities.SignalType.OnEnd
+  nameWithType: SignalType.OnEnd
+- uid: StormHawks.Runtime.Presenters.Facilities.SignalType.OnStart
+  name: OnStart
+  href: api/StormHawks.Runtime.Presenters.Facilities.SignalType.html#StormHawks_Runtime_Presenters_Facilities_SignalType_OnStart
+  commentId: F:StormHawks.Runtime.Presenters.Facilities.SignalType.OnStart
+  fullName: StormHawks.Runtime.Presenters.Facilities.SignalType.OnStart
+  nameWithType: SignalType.OnStart
 - uid: StormHawks.Runtime.Presenters.Facilities.SignalType.TriggerEnter
   name: TriggerEnter
   href: api/StormHawks.Runtime.Presenters.Facilities.SignalType.html#StormHawks_Runtime_Presenters_Facilities_SignalType_TriggerEnter
@@ -18226,12 +18345,38 @@ references:
   commentId: F:StormHawks.Runtime.Presenters.Facilities.SignalType.TriggerExit
   fullName: StormHawks.Runtime.Presenters.Facilities.SignalType.TriggerExit
   nameWithType: SignalType.TriggerExit
-- uid: StormHawks.Runtime.Presenters.Facilities.TriggerSignalInvoker
-  name: TriggerSignalInvoker
-  href: api/StormHawks.Runtime.Presenters.Facilities.TriggerSignalInvoker.html
-  commentId: T:StormHawks.Runtime.Presenters.Facilities.TriggerSignalInvoker
-  fullName: StormHawks.Runtime.Presenters.Facilities.TriggerSignalInvoker
-  nameWithType: TriggerSignalInvoker
+- uid: StormHawks.Runtime.Presenters.Facilities.TaskSignalInvoker
+  name: TaskSignalInvoker
+  href: api/StormHawks.Runtime.Presenters.Facilities.TaskSignalInvoker.html
+  commentId: T:StormHawks.Runtime.Presenters.Facilities.TaskSignalInvoker
+  fullName: StormHawks.Runtime.Presenters.Facilities.TaskSignalInvoker
+  nameWithType: TaskSignalInvoker
+- uid: StormHawks.Runtime.Presenters.Facilities.TaskSignalInvoker.EndTask(GameObject)
+  name: EndTask(GameObject)
+  href: api/StormHawks.Runtime.Presenters.Facilities.TaskSignalInvoker.html#StormHawks_Runtime_Presenters_Facilities_TaskSignalInvoker_EndTask_GameObject_
+  commentId: M:StormHawks.Runtime.Presenters.Facilities.TaskSignalInvoker.EndTask(GameObject)
+  fullName: StormHawks.Runtime.Presenters.Facilities.TaskSignalInvoker.EndTask(GameObject)
+  nameWithType: TaskSignalInvoker.EndTask(GameObject)
+- uid: StormHawks.Runtime.Presenters.Facilities.TaskSignalInvoker.EndTask*
+  name: EndTask
+  href: api/StormHawks.Runtime.Presenters.Facilities.TaskSignalInvoker.html#StormHawks_Runtime_Presenters_Facilities_TaskSignalInvoker_EndTask_
+  commentId: Overload:StormHawks.Runtime.Presenters.Facilities.TaskSignalInvoker.EndTask
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.Facilities.TaskSignalInvoker.EndTask
+  nameWithType: TaskSignalInvoker.EndTask
+- uid: StormHawks.Runtime.Presenters.Facilities.TaskSignalInvoker.StartTask(GameObject)
+  name: StartTask(GameObject)
+  href: api/StormHawks.Runtime.Presenters.Facilities.TaskSignalInvoker.html#StormHawks_Runtime_Presenters_Facilities_TaskSignalInvoker_StartTask_GameObject_
+  commentId: M:StormHawks.Runtime.Presenters.Facilities.TaskSignalInvoker.StartTask(GameObject)
+  fullName: StormHawks.Runtime.Presenters.Facilities.TaskSignalInvoker.StartTask(GameObject)
+  nameWithType: TaskSignalInvoker.StartTask(GameObject)
+- uid: StormHawks.Runtime.Presenters.Facilities.TaskSignalInvoker.StartTask*
+  name: StartTask
+  href: api/StormHawks.Runtime.Presenters.Facilities.TaskSignalInvoker.html#StormHawks_Runtime_Presenters_Facilities_TaskSignalInvoker_StartTask_
+  commentId: Overload:StormHawks.Runtime.Presenters.Facilities.TaskSignalInvoker.StartTask
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.Facilities.TaskSignalInvoker.StartTask
+  nameWithType: TaskSignalInvoker.StartTask
 - uid: StormHawks.Runtime.Presenters.Fires
   name: StormHawks.Runtime.Presenters.Fires
   href: api/StormHawks.Runtime.Presenters.Fires.html
@@ -19616,6 +19761,28 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Presenters.Weapons.Players.PlayerRailgunWeaponTrigger.Register
   nameWithType: PlayerRailgunWeaponTrigger.Register
+- uid: StormHawks.Runtime.Presenters.Weapons.Players.PlayerSingleRailgunWeaponTrigger
+  name: PlayerSingleRailgunWeaponTrigger
+  href: api/StormHawks.Runtime.Presenters.Weapons.Players.PlayerSingleRailgunWeaponTrigger.html
+  commentId: T:StormHawks.Runtime.Presenters.Weapons.Players.PlayerSingleRailgunWeaponTrigger
+  fullName: StormHawks.Runtime.Presenters.Weapons.Players.PlayerSingleRailgunWeaponTrigger
+  nameWithType: PlayerSingleRailgunWeaponTrigger
+- uid: StormHawks.Runtime.Presenters.Weapons.Players.PlayerSingleRailgunWeaponTrigger.Register(StormHawks.Runtime.Presenters.Weapons.Players.PlayerRailgunWeapon,IReadOnlyReactiveProperty{System.Boolean})
+  name: Register(PlayerRailgunWeapon, IReadOnlyReactiveProperty<Boolean>)
+  href: api/StormHawks.Runtime.Presenters.Weapons.Players.PlayerSingleRailgunWeaponTrigger.html#StormHawks_Runtime_Presenters_Weapons_Players_PlayerSingleRailgunWeaponTrigger_Register_StormHawks_Runtime_Presenters_Weapons_Players_PlayerRailgunWeapon_IReadOnlyReactiveProperty_System_Boolean__
+  commentId: M:StormHawks.Runtime.Presenters.Weapons.Players.PlayerSingleRailgunWeaponTrigger.Register(StormHawks.Runtime.Presenters.Weapons.Players.PlayerRailgunWeapon,IReadOnlyReactiveProperty{System.Boolean})
+  name.vb: Register(PlayerRailgunWeapon, IReadOnlyReactiveProperty(Of Boolean))
+  fullName: StormHawks.Runtime.Presenters.Weapons.Players.PlayerSingleRailgunWeaponTrigger.Register(StormHawks.Runtime.Presenters.Weapons.Players.PlayerRailgunWeapon, IReadOnlyReactiveProperty<System.Boolean>)
+  fullName.vb: StormHawks.Runtime.Presenters.Weapons.Players.PlayerSingleRailgunWeaponTrigger.Register(StormHawks.Runtime.Presenters.Weapons.Players.PlayerRailgunWeapon, IReadOnlyReactiveProperty(Of System.Boolean))
+  nameWithType: PlayerSingleRailgunWeaponTrigger.Register(PlayerRailgunWeapon, IReadOnlyReactiveProperty<Boolean>)
+  nameWithType.vb: PlayerSingleRailgunWeaponTrigger.Register(PlayerRailgunWeapon, IReadOnlyReactiveProperty(Of Boolean))
+- uid: StormHawks.Runtime.Presenters.Weapons.Players.PlayerSingleRailgunWeaponTrigger.Register*
+  name: Register
+  href: api/StormHawks.Runtime.Presenters.Weapons.Players.PlayerSingleRailgunWeaponTrigger.html#StormHawks_Runtime_Presenters_Weapons_Players_PlayerSingleRailgunWeaponTrigger_Register_
+  commentId: Overload:StormHawks.Runtime.Presenters.Weapons.Players.PlayerSingleRailgunWeaponTrigger.Register
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.Weapons.Players.PlayerSingleRailgunWeaponTrigger.Register
+  nameWithType: PlayerSingleRailgunWeaponTrigger.Register
 - uid: StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeapon
   name: PlayerWeapon
   href: api/StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeapon.html

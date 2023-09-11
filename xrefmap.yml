@@ -18715,12 +18715,15 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Presenters.Projectiles.Enemies.EnemyMissilePresenter.ReleaseAggro
   nameWithType: EnemyMissilePresenter.ReleaseAggro
-- uid: StormHawks.Runtime.Presenters.Projectiles.Enemies.EnemyMissilePresenter.SetAggroTarget(AggroTarget)
-  name: SetAggroTarget(AggroTarget)
-  href: api/StormHawks.Runtime.Presenters.Projectiles.Enemies.EnemyMissilePresenter.html#StormHawks_Runtime_Presenters_Projectiles_Enemies_EnemyMissilePresenter_SetAggroTarget_AggroTarget_
-  commentId: M:StormHawks.Runtime.Presenters.Projectiles.Enemies.EnemyMissilePresenter.SetAggroTarget(AggroTarget)
-  fullName: StormHawks.Runtime.Presenters.Projectiles.Enemies.EnemyMissilePresenter.SetAggroTarget(AggroTarget)
-  nameWithType: EnemyMissilePresenter.SetAggroTarget(AggroTarget)
+- uid: StormHawks.Runtime.Presenters.Projectiles.Enemies.EnemyMissilePresenter.SetAggroTarget(System.Nullable{AggroTarget})
+  name: SetAggroTarget(Nullable<AggroTarget>)
+  href: api/StormHawks.Runtime.Presenters.Projectiles.Enemies.EnemyMissilePresenter.html#StormHawks_Runtime_Presenters_Projectiles_Enemies_EnemyMissilePresenter_SetAggroTarget_System_Nullable_AggroTarget__
+  commentId: M:StormHawks.Runtime.Presenters.Projectiles.Enemies.EnemyMissilePresenter.SetAggroTarget(System.Nullable{AggroTarget})
+  name.vb: SetAggroTarget(Nullable(Of AggroTarget))
+  fullName: StormHawks.Runtime.Presenters.Projectiles.Enemies.EnemyMissilePresenter.SetAggroTarget(System.Nullable<AggroTarget>)
+  fullName.vb: StormHawks.Runtime.Presenters.Projectiles.Enemies.EnemyMissilePresenter.SetAggroTarget(System.Nullable(Of AggroTarget))
+  nameWithType: EnemyMissilePresenter.SetAggroTarget(Nullable<AggroTarget>)
+  nameWithType.vb: EnemyMissilePresenter.SetAggroTarget(Nullable(Of AggroTarget))
 - uid: StormHawks.Runtime.Presenters.Projectiles.Enemies.EnemyMissilePresenter.SetAggroTarget*
   name: SetAggroTarget
   href: api/StormHawks.Runtime.Presenters.Projectiles.Enemies.EnemyMissilePresenter.html#StormHawks_Runtime_Presenters_Projectiles_Enemies_EnemyMissilePresenter_SetAggroTarget_
@@ -19088,15 +19091,15 @@ references:
   commentId: T:StormHawks.Runtime.Presenters.Spawners.EnemySpawner
   fullName: StormHawks.Runtime.Presenters.Spawners.EnemySpawner
   nameWithType: EnemySpawner
-- uid: StormHawks.Runtime.Presenters.Spawners.EnemySpawner.#ctor(IObjectResolver,List{EnemySpawnerSettings})
-  name: EnemySpawner(IObjectResolver, List<EnemySpawnerSettings>)
-  href: api/StormHawks.Runtime.Presenters.Spawners.EnemySpawner.html#StormHawks_Runtime_Presenters_Spawners_EnemySpawner__ctor_IObjectResolver_List_EnemySpawnerSettings__
-  commentId: M:StormHawks.Runtime.Presenters.Spawners.EnemySpawner.#ctor(IObjectResolver,List{EnemySpawnerSettings})
-  name.vb: EnemySpawner(IObjectResolver, List(Of EnemySpawnerSettings))
-  fullName: StormHawks.Runtime.Presenters.Spawners.EnemySpawner.EnemySpawner(IObjectResolver, List<EnemySpawnerSettings>)
-  fullName.vb: StormHawks.Runtime.Presenters.Spawners.EnemySpawner.EnemySpawner(IObjectResolver, List(Of EnemySpawnerSettings))
-  nameWithType: EnemySpawner.EnemySpawner(IObjectResolver, List<EnemySpawnerSettings>)
-  nameWithType.vb: EnemySpawner.EnemySpawner(IObjectResolver, List(Of EnemySpawnerSettings))
+- uid: StormHawks.Runtime.Presenters.Spawners.EnemySpawner.#ctor(IObjectResolver,List{EnemySpawnerSettings},List{EliteEnemySpawnerSettings})
+  name: EnemySpawner(IObjectResolver, List<EnemySpawnerSettings>, List<EliteEnemySpawnerSettings>)
+  href: api/StormHawks.Runtime.Presenters.Spawners.EnemySpawner.html#StormHawks_Runtime_Presenters_Spawners_EnemySpawner__ctor_IObjectResolver_List_EnemySpawnerSettings__List_EliteEnemySpawnerSettings__
+  commentId: M:StormHawks.Runtime.Presenters.Spawners.EnemySpawner.#ctor(IObjectResolver,List{EnemySpawnerSettings},List{EliteEnemySpawnerSettings})
+  name.vb: EnemySpawner(IObjectResolver, List(Of EnemySpawnerSettings), List(Of EliteEnemySpawnerSettings))
+  fullName: StormHawks.Runtime.Presenters.Spawners.EnemySpawner.EnemySpawner(IObjectResolver, List<EnemySpawnerSettings>, List<EliteEnemySpawnerSettings>)
+  fullName.vb: StormHawks.Runtime.Presenters.Spawners.EnemySpawner.EnemySpawner(IObjectResolver, List(Of EnemySpawnerSettings), List(Of EliteEnemySpawnerSettings))
+  nameWithType: EnemySpawner.EnemySpawner(IObjectResolver, List<EnemySpawnerSettings>, List<EliteEnemySpawnerSettings>)
+  nameWithType.vb: EnemySpawner.EnemySpawner(IObjectResolver, List(Of EnemySpawnerSettings), List(Of EliteEnemySpawnerSettings))
 - uid: StormHawks.Runtime.Presenters.Spawners.EnemySpawner.#ctor*
   name: EnemySpawner
   href: api/StormHawks.Runtime.Presenters.Spawners.EnemySpawner.html#StormHawks_Runtime_Presenters_Spawners_EnemySpawner__ctor_
@@ -19117,6 +19120,12 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Presenters.Spawners.EnemySpawner.Dispose
   nameWithType: EnemySpawner.Dispose
+- uid: StormHawks.Runtime.Presenters.Spawners.EnemySpawner.Get(EliteType)
+  name: Get(EliteType)
+  href: api/StormHawks.Runtime.Presenters.Spawners.EnemySpawner.html#StormHawks_Runtime_Presenters_Spawners_EnemySpawner_Get_EliteType_
+  commentId: M:StormHawks.Runtime.Presenters.Spawners.EnemySpawner.Get(EliteType)
+  fullName: StormHawks.Runtime.Presenters.Spawners.EnemySpawner.Get(EliteType)
+  nameWithType: EnemySpawner.Get(EliteType)
 - uid: StormHawks.Runtime.Presenters.Spawners.EnemySpawner.Get(EnemyType)
   name: Get(EnemyType)
   href: api/StormHawks.Runtime.Presenters.Spawners.EnemySpawner.html#StormHawks_Runtime_Presenters_Spawners_EnemySpawner_Get_EnemyType_

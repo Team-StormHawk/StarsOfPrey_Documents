@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Interface IWaypointsOwner
+    <title>Class EnemyPath
    | Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Interface IWaypointsOwner
+    <meta name="title" content="Class EnemyPath
    | Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -78,42 +78,49 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Environments.Waypoints.IWaypointsOwner">
+            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Presenters.Environments.Paths.EnemyPath">
   
   
-  <h1 id="StormHawks_Runtime_Environments_Waypoints_IWaypointsOwner" data-uid="StormHawks.Runtime.Environments.Waypoints.IWaypointsOwner" class="text-break">Interface IWaypointsOwner
+  <h1 id="StormHawks_Runtime_Presenters_Environments_Paths_EnemyPath" data-uid="StormHawks.Runtime.Presenters.Environments.Paths.EnemyPath" class="text-break">Class EnemyPath
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Environments.Waypoints.html">StormHawks.Runtime.Environments.Waypoints</a></h6>
-  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="StormHawks_Runtime_Environments_Waypoints_IWaypointsOwner_syntax">Syntax</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface IWaypointsOwner</code></pre>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">EnemyPath</span></div>
   </div>
-  <h3 id="properties">Properties
+  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Presenters.Environments.Paths.html">StormHawks.Runtime.Presenters.Environments.Paths</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="StormHawks_Runtime_Presenters_Environments_Paths_EnemyPath_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class EnemyPath : MonoBehaviour</code></pre>
+  </div>
+  <h3 id="methods">Methods
   </h3>
   
   
-  <a id="StormHawks_Runtime_Environments_Waypoints_IWaypointsOwner_WayPoints_" data-uid="StormHawks.Runtime.Environments.Waypoints.IWaypointsOwner.WayPoints*"></a>
-  <h4 id="StormHawks_Runtime_Environments_Waypoints_IWaypointsOwner_WayPoints" data-uid="StormHawks.Runtime.Environments.Waypoints.IWaypointsOwner.WayPoints">WayPoints</h4>
+  <a id="StormHawks_Runtime_Presenters_Environments_Paths_EnemyPath_AddFollowers_" data-uid="StormHawks.Runtime.Presenters.Environments.Paths.EnemyPath.AddFollowers*"></a>
+  <h4 id="StormHawks_Runtime_Presenters_Environments_Paths_EnemyPath_AddFollowers_List_IPathFollower__" data-uid="StormHawks.Runtime.Presenters.Environments.Paths.EnemyPath.AddFollowers(List{IPathFollower})">AddFollowers(List&lt;IPathFollower&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">List&lt;Waypoint&gt; WayPoints { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public void AddFollowers(List&lt;IPathFollower&gt; followers)</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
+        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">List</span>&lt;<span class="xref">Waypoint</span>&gt;</td>
+        <td><span class="xref">List</span>&lt;<span class="xref">IPathFollower</span>&gt;</td>
+        <td><span class="parametername">followers</span></td>
         <td></td>
       </tr>
     </tbody>

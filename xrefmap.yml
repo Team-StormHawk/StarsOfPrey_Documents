@@ -6021,6 +6021,18 @@ references:
   commentId: N:StormHawks.Runtime.Enums
   fullName: StormHawks.Runtime.Enums
   nameWithType: StormHawks.Runtime.Enums
+- uid: StormHawks.Runtime.Enums.CutSceneType
+  name: CutSceneType
+  href: api/StormHawks.Runtime.Enums.CutSceneType.html
+  commentId: T:StormHawks.Runtime.Enums.CutSceneType
+  fullName: StormHawks.Runtime.Enums.CutSceneType
+  nameWithType: CutSceneType
+- uid: StormHawks.Runtime.Enums.CutSceneType.IntroCutScene
+  name: IntroCutScene
+  href: api/StormHawks.Runtime.Enums.CutSceneType.html#StormHawks_Runtime_Enums_CutSceneType_IntroCutScene
+  commentId: F:StormHawks.Runtime.Enums.CutSceneType.IntroCutScene
+  fullName: StormHawks.Runtime.Enums.CutSceneType.IntroCutScene
+  nameWithType: CutSceneType.IntroCutScene
 - uid: StormHawks.Runtime.Enums.EliteType
   name: EliteType
   href: api/StormHawks.Runtime.Enums.EliteType.html
@@ -7158,12 +7170,12 @@ references:
   commentId: T:StormHawks.Runtime.GameFlows.GameFlowPresenter
   fullName: StormHawks.Runtime.GameFlows.GameFlowPresenter
   nameWithType: GameFlowPresenter
-- uid: StormHawks.Runtime.GameFlows.GameFlowPresenter.Construct(BossModel,PowerPlantModel)
-  name: Construct(BossModel, PowerPlantModel)
-  href: api/StormHawks.Runtime.GameFlows.GameFlowPresenter.html#StormHawks_Runtime_GameFlows_GameFlowPresenter_Construct_BossModel_PowerPlantModel_
-  commentId: M:StormHawks.Runtime.GameFlows.GameFlowPresenter.Construct(BossModel,PowerPlantModel)
-  fullName: StormHawks.Runtime.GameFlows.GameFlowPresenter.Construct(BossModel, PowerPlantModel)
-  nameWithType: GameFlowPresenter.Construct(BossModel, PowerPlantModel)
+- uid: StormHawks.Runtime.GameFlows.GameFlowPresenter.Construct(BossModel,PowerPlantModel,CutSceneLoader)
+  name: Construct(BossModel, PowerPlantModel, CutSceneLoader)
+  href: api/StormHawks.Runtime.GameFlows.GameFlowPresenter.html#StormHawks_Runtime_GameFlows_GameFlowPresenter_Construct_BossModel_PowerPlantModel_CutSceneLoader_
+  commentId: M:StormHawks.Runtime.GameFlows.GameFlowPresenter.Construct(BossModel,PowerPlantModel,CutSceneLoader)
+  fullName: StormHawks.Runtime.GameFlows.GameFlowPresenter.Construct(BossModel, PowerPlantModel, CutSceneLoader)
+  nameWithType: GameFlowPresenter.Construct(BossModel, PowerPlantModel, CutSceneLoader)
 - uid: StormHawks.Runtime.GameFlows.GameFlowPresenter.Construct*
   name: Construct
   href: api/StormHawks.Runtime.GameFlows.GameFlowPresenter.html#StormHawks_Runtime_GameFlows_GameFlowPresenter_Construct_
@@ -13414,6 +13426,54 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Models.GameFlows.Types.Actions.BossWaypointEnableFlow.OnExit
   nameWithType: BossWaypointEnableFlow.OnExit
+- uid: StormHawks.Runtime.Models.GameFlows.Types.Actions.CutScenePlayFlow
+  name: CutScenePlayFlow
+  href: api/StormHawks.Runtime.Models.GameFlows.Types.Actions.CutScenePlayFlow.html
+  commentId: T:StormHawks.Runtime.Models.GameFlows.Types.Actions.CutScenePlayFlow
+  fullName: StormHawks.Runtime.Models.GameFlows.Types.Actions.CutScenePlayFlow
+  nameWithType: CutScenePlayFlow
+- uid: StormHawks.Runtime.Models.GameFlows.Types.Actions.CutScenePlayFlow.#ctor(Func{CutSceneType,UniTask},CutSceneType)
+  name: CutScenePlayFlow(Func<CutSceneType, UniTask>, CutSceneType)
+  href: api/StormHawks.Runtime.Models.GameFlows.Types.Actions.CutScenePlayFlow.html#StormHawks_Runtime_Models_GameFlows_Types_Actions_CutScenePlayFlow__ctor_Func_CutSceneType_UniTask__CutSceneType_
+  commentId: M:StormHawks.Runtime.Models.GameFlows.Types.Actions.CutScenePlayFlow.#ctor(Func{CutSceneType,UniTask},CutSceneType)
+  name.vb: CutScenePlayFlow(Func(Of CutSceneType, UniTask), CutSceneType)
+  fullName: StormHawks.Runtime.Models.GameFlows.Types.Actions.CutScenePlayFlow.CutScenePlayFlow(Func<CutSceneType, UniTask>, CutSceneType)
+  fullName.vb: StormHawks.Runtime.Models.GameFlows.Types.Actions.CutScenePlayFlow.CutScenePlayFlow(Func(Of CutSceneType, UniTask), CutSceneType)
+  nameWithType: CutScenePlayFlow.CutScenePlayFlow(Func<CutSceneType, UniTask>, CutSceneType)
+  nameWithType.vb: CutScenePlayFlow.CutScenePlayFlow(Func(Of CutSceneType, UniTask), CutSceneType)
+- uid: StormHawks.Runtime.Models.GameFlows.Types.Actions.CutScenePlayFlow.#ctor*
+  name: CutScenePlayFlow
+  href: api/StormHawks.Runtime.Models.GameFlows.Types.Actions.CutScenePlayFlow.html#StormHawks_Runtime_Models_GameFlows_Types_Actions_CutScenePlayFlow__ctor_
+  commentId: Overload:StormHawks.Runtime.Models.GameFlows.Types.Actions.CutScenePlayFlow.#ctor
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.GameFlows.Types.Actions.CutScenePlayFlow.CutScenePlayFlow
+  nameWithType: CutScenePlayFlow.CutScenePlayFlow
+- uid: StormHawks.Runtime.Models.GameFlows.Types.Actions.CutScenePlayFlow.OnEnter
+  name: OnEnter()
+  href: api/StormHawks.Runtime.Models.GameFlows.Types.Actions.CutScenePlayFlow.html#StormHawks_Runtime_Models_GameFlows_Types_Actions_CutScenePlayFlow_OnEnter
+  commentId: M:StormHawks.Runtime.Models.GameFlows.Types.Actions.CutScenePlayFlow.OnEnter
+  fullName: StormHawks.Runtime.Models.GameFlows.Types.Actions.CutScenePlayFlow.OnEnter()
+  nameWithType: CutScenePlayFlow.OnEnter()
+- uid: StormHawks.Runtime.Models.GameFlows.Types.Actions.CutScenePlayFlow.OnEnter*
+  name: OnEnter
+  href: api/StormHawks.Runtime.Models.GameFlows.Types.Actions.CutScenePlayFlow.html#StormHawks_Runtime_Models_GameFlows_Types_Actions_CutScenePlayFlow_OnEnter_
+  commentId: Overload:StormHawks.Runtime.Models.GameFlows.Types.Actions.CutScenePlayFlow.OnEnter
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.GameFlows.Types.Actions.CutScenePlayFlow.OnEnter
+  nameWithType: CutScenePlayFlow.OnEnter
+- uid: StormHawks.Runtime.Models.GameFlows.Types.Actions.CutScenePlayFlow.OnExit
+  name: OnExit()
+  href: api/StormHawks.Runtime.Models.GameFlows.Types.Actions.CutScenePlayFlow.html#StormHawks_Runtime_Models_GameFlows_Types_Actions_CutScenePlayFlow_OnExit
+  commentId: M:StormHawks.Runtime.Models.GameFlows.Types.Actions.CutScenePlayFlow.OnExit
+  fullName: StormHawks.Runtime.Models.GameFlows.Types.Actions.CutScenePlayFlow.OnExit()
+  nameWithType: CutScenePlayFlow.OnExit()
+- uid: StormHawks.Runtime.Models.GameFlows.Types.Actions.CutScenePlayFlow.OnExit*
+  name: OnExit
+  href: api/StormHawks.Runtime.Models.GameFlows.Types.Actions.CutScenePlayFlow.html#StormHawks_Runtime_Models_GameFlows_Types_Actions_CutScenePlayFlow_OnExit_
+  commentId: Overload:StormHawks.Runtime.Models.GameFlows.Types.Actions.CutScenePlayFlow.OnExit
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.GameFlows.Types.Actions.CutScenePlayFlow.OnExit
+  nameWithType: CutScenePlayFlow.OnExit
 - uid: StormHawks.Runtime.Models.GameFlows.Types.Actions.FacilityEnableFlow
   name: FacilityEnableFlow
   href: api/StormHawks.Runtime.Models.GameFlows.Types.Actions.FacilityEnableFlow.html
@@ -17036,6 +17096,12 @@ references:
   commentId: T:StormHawks.Runtime.Players.SpeedLineHandler
   fullName: StormHawks.Runtime.Players.SpeedLineHandler
   nameWithType: SpeedLineHandler
+- uid: StormHawks.Runtime.Presenters
+  name: StormHawks.Runtime.Presenters
+  href: api/StormHawks.Runtime.Presenters.html
+  commentId: N:StormHawks.Runtime.Presenters
+  fullName: StormHawks.Runtime.Presenters
+  nameWithType: StormHawks.Runtime.Presenters
 - uid: StormHawks.Runtime.Presenters.Animators
   name: StormHawks.Runtime.Presenters.Animators
   href: api/StormHawks.Runtime.Presenters.Animators.html
@@ -17482,6 +17548,51 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Presenters.Bosses.BossPresenter.Transform
   nameWithType: BossPresenter.Transform
+- uid: StormHawks.Runtime.Presenters.CutSceneLoader
+  name: CutSceneLoader
+  href: api/StormHawks.Runtime.Presenters.CutSceneLoader.html
+  commentId: T:StormHawks.Runtime.Presenters.CutSceneLoader
+  fullName: StormHawks.Runtime.Presenters.CutSceneLoader
+  nameWithType: CutSceneLoader
+- uid: StormHawks.Runtime.Presenters.CutSceneLoader.#ctor
+  name: CutSceneLoader()
+  href: api/StormHawks.Runtime.Presenters.CutSceneLoader.html#StormHawks_Runtime_Presenters_CutSceneLoader__ctor
+  commentId: M:StormHawks.Runtime.Presenters.CutSceneLoader.#ctor
+  fullName: StormHawks.Runtime.Presenters.CutSceneLoader.CutSceneLoader()
+  nameWithType: CutSceneLoader.CutSceneLoader()
+- uid: StormHawks.Runtime.Presenters.CutSceneLoader.#ctor*
+  name: CutSceneLoader
+  href: api/StormHawks.Runtime.Presenters.CutSceneLoader.html#StormHawks_Runtime_Presenters_CutSceneLoader__ctor_
+  commentId: Overload:StormHawks.Runtime.Presenters.CutSceneLoader.#ctor
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.CutSceneLoader.CutSceneLoader
+  nameWithType: CutSceneLoader.CutSceneLoader
+- uid: StormHawks.Runtime.Presenters.CutSceneLoader.PlayNext(CutSceneType)
+  name: PlayNext(CutSceneType)
+  href: api/StormHawks.Runtime.Presenters.CutSceneLoader.html#StormHawks_Runtime_Presenters_CutSceneLoader_PlayNext_CutSceneType_
+  commentId: M:StormHawks.Runtime.Presenters.CutSceneLoader.PlayNext(CutSceneType)
+  fullName: StormHawks.Runtime.Presenters.CutSceneLoader.PlayNext(CutSceneType)
+  nameWithType: CutSceneLoader.PlayNext(CutSceneType)
+- uid: StormHawks.Runtime.Presenters.CutSceneLoader.PlayNext*
+  name: PlayNext
+  href: api/StormHawks.Runtime.Presenters.CutSceneLoader.html#StormHawks_Runtime_Presenters_CutSceneLoader_PlayNext_
+  commentId: Overload:StormHawks.Runtime.Presenters.CutSceneLoader.PlayNext
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.CutSceneLoader.PlayNext
+  nameWithType: CutSceneLoader.PlayNext
+- uid: StormHawks.Runtime.Presenters.CutSceneLoader.StartAsync(CancellationToken)
+  name: StartAsync(CancellationToken)
+  href: api/StormHawks.Runtime.Presenters.CutSceneLoader.html#StormHawks_Runtime_Presenters_CutSceneLoader_StartAsync_CancellationToken_
+  commentId: M:StormHawks.Runtime.Presenters.CutSceneLoader.StartAsync(CancellationToken)
+  fullName: StormHawks.Runtime.Presenters.CutSceneLoader.StartAsync(CancellationToken)
+  nameWithType: CutSceneLoader.StartAsync(CancellationToken)
+- uid: StormHawks.Runtime.Presenters.CutSceneLoader.StartAsync*
+  name: StartAsync
+  href: api/StormHawks.Runtime.Presenters.CutSceneLoader.html#StormHawks_Runtime_Presenters_CutSceneLoader_StartAsync_
+  commentId: Overload:StormHawks.Runtime.Presenters.CutSceneLoader.StartAsync
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.CutSceneLoader.StartAsync
+  nameWithType: CutSceneLoader.StartAsync
 - uid: StormHawks.Runtime.Presenters.Entities
   name: StormHawks.Runtime.Presenters.Entities
   href: api/StormHawks.Runtime.Presenters.Entities.html

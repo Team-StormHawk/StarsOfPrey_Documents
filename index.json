@@ -924,6 +924,11 @@
     "title": "Class SteeringEntityModel | Developer Reference",
     "keywords": "Class SteeringEntityModel Inheritance Object SteeringEntityModel Namespace : StormHawks.Runtime.Entities.Models.Entities Assembly : cs.temp.dll.dll Syntax public abstract class SteeringEntityModel Constructors SteeringEntityModel(SteeringEntityContext) Declaration public SteeringEntityModel(SteeringEntityContext context) Parameters Type Name Description SteeringEntityContext context Properties Context Declaration public SteeringEntityContext Context { get; } Property Value Type Description SteeringEntityContext Methods AddSteeringForce<T>(T) Declaration public void AddSteeringForce<T>(T steeringForce) where T : SteeringForce Parameters Type Name Description T steeringForce Type Parameters Name Description T ContainSteeringForce<T>(T) Declaration public bool ContainSteeringForce<T>(T force) where T : SteeringForce Parameters Type Name Description T force Returns Type Description Boolean Type Parameters Name Description T GetSteeringSum() Declaration public Vector3 GetSteeringSum() Returns Type Description Vector3 RemoveAllForces() Declaration public void RemoveAllForces() RemoveSteeringForce<T>(T) Declaration public void RemoveSteeringForce<T>(T steeringForce) where T : SteeringForce Parameters Type Name Description T steeringForce Type Parameters Name Description T"
   },
+  "api/StormHawks.Runtime.Enums.CutSceneType.html": {
+    "href": "api/StormHawks.Runtime.Enums.CutSceneType.html",
+    "title": "Enum CutSceneType | Developer Reference",
+    "keywords": "Enum CutSceneType Namespace : StormHawks.Runtime.Enums Assembly : cs.temp.dll.dll Syntax public enum CutSceneType Fields Name Description IntroCutScene"
+  },
   "api/StormHawks.Runtime.Enums.EliteType.html": {
     "href": "api/StormHawks.Runtime.Enums.EliteType.html",
     "title": "Enum EliteType | Developer Reference",
@@ -937,7 +942,7 @@
   "api/StormHawks.Runtime.Enums.html": {
     "href": "api/StormHawks.Runtime.Enums.html",
     "title": "Namespace StormHawks.Runtime.Enums | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Enums Enums EliteType EnemyType"
+    "keywords": "Namespace StormHawks.Runtime.Enums Enums CutSceneType EliteType EnemyType"
   },
   "api/StormHawks.Runtime.Environments.Waypoints.EliteWaypoint.html": {
     "href": "api/StormHawks.Runtime.Environments.Waypoints.EliteWaypoint.html",
@@ -1087,7 +1092,7 @@
   "api/StormHawks.Runtime.GameFlows.GameFlowPresenter.html": {
     "href": "api/StormHawks.Runtime.GameFlows.GameFlowPresenter.html",
     "title": "Class GameFlowPresenter | Developer Reference",
-    "keywords": "Class GameFlowPresenter Inheritance Object GameFlowPresenter Namespace : StormHawks.Runtime.GameFlows Assembly : cs.temp.dll.dll Syntax public class GameFlowPresenter : MonoBehaviour Methods Construct(BossModel, PowerPlantModel) Declaration public void Construct(BossModel bossModel, PowerPlantModel powerPlantModel) Parameters Type Name Description BossModel bossModel PowerPlantModel powerPlantModel"
+    "keywords": "Class GameFlowPresenter Inheritance Object GameFlowPresenter Namespace : StormHawks.Runtime.GameFlows Assembly : cs.temp.dll.dll Syntax public class GameFlowPresenter : MonoBehaviour Methods Construct(BossModel, PowerPlantModel, CutSceneLoader) Declaration public void Construct(BossModel bossModel, PowerPlantModel powerPlantModel, CutSceneLoader cutSceneLoader) Parameters Type Name Description BossModel bossModel PowerPlantModel powerPlantModel CutSceneLoader cutSceneLoader"
   },
   "api/StormHawks.Runtime.GameFlows.html": {
     "href": "api/StormHawks.Runtime.GameFlows.html",
@@ -1562,7 +1567,7 @@
   "api/StormHawks.Runtime.Models.GameFlows.Types.Actions.ActionFlow.html": {
     "href": "api/StormHawks.Runtime.Models.GameFlows.Types.Actions.ActionFlow.html",
     "title": "Class ActionFlow | Developer Reference",
-    "keywords": "Class ActionFlow Inheritance Object GameFlow ActionFlow BossWaypointDisableFlow BossWaypointEnableFlow FacilityEnableFlow LogFlow Inherited Members GameFlow._cancellation GameFlow.OnEnter() GameFlow.OnExit() Namespace : StormHawks.Runtime.Models.GameFlows.Types.Actions Assembly : cs.temp.dll.dll Syntax public abstract class ActionFlow : GameFlow Methods Run() Declaration public sealed override async UniTask Run() Returns Type Description UniTask Overrides GameFlow.Run()"
+    "keywords": "Class ActionFlow Inheritance Object GameFlow ActionFlow BossWaypointDisableFlow BossWaypointEnableFlow CutScenePlayFlow FacilityEnableFlow LogFlow Inherited Members GameFlow._cancellation GameFlow.OnEnter() GameFlow.OnExit() Namespace : StormHawks.Runtime.Models.GameFlows.Types.Actions Assembly : cs.temp.dll.dll Syntax public abstract class ActionFlow : GameFlow Methods Run() Declaration public sealed override async UniTask Run() Returns Type Description UniTask Overrides GameFlow.Run()"
   },
   "api/StormHawks.Runtime.Models.GameFlows.Types.Actions.BossWaypointDisableFlow.html": {
     "href": "api/StormHawks.Runtime.Models.GameFlows.Types.Actions.BossWaypointDisableFlow.html",
@@ -1574,6 +1579,11 @@
     "title": "Class BossWaypointEnableFlow | Developer Reference",
     "keywords": "Class BossWaypointEnableFlow Inheritance Object GameFlow ActionFlow BossWaypointEnableFlow Inherited Members ActionFlow.Run() GameFlow._cancellation Namespace : StormHawks.Runtime.Models.GameFlows.Types.Actions Assembly : cs.temp.dll.dll Syntax public class BossWaypointEnableFlow : ActionFlow Constructors BossWaypointEnableFlow(BossModel) Declaration public BossWaypointEnableFlow(BossModel boss) Parameters Type Name Description BossModel boss Methods OnEnter() Declaration public override async UniTask OnEnter() Returns Type Description UniTask Overrides GameFlow.OnEnter() OnExit() Declaration public override async UniTask OnExit() Returns Type Description UniTask Overrides GameFlow.OnExit()"
   },
+  "api/StormHawks.Runtime.Models.GameFlows.Types.Actions.CutScenePlayFlow.html": {
+    "href": "api/StormHawks.Runtime.Models.GameFlows.Types.Actions.CutScenePlayFlow.html",
+    "title": "Class CutScenePlayFlow | Developer Reference",
+    "keywords": "Class CutScenePlayFlow Inheritance Object GameFlow ActionFlow CutScenePlayFlow Inherited Members ActionFlow.Run() GameFlow._cancellation Namespace : StormHawks.Runtime.Models.GameFlows.Types.Actions Assembly : cs.temp.dll.dll Syntax public class CutScenePlayFlow : ActionFlow Constructors CutScenePlayFlow(Func<CutSceneType, UniTask>, CutSceneType) Declaration public CutScenePlayFlow(Func<CutSceneType, UniTask> activeCutSceneTask, CutSceneType type) Parameters Type Name Description Func < CutSceneType , UniTask > activeCutSceneTask CutSceneType type Methods OnEnter() Declaration public override async UniTask OnEnter() Returns Type Description UniTask Overrides GameFlow.OnEnter() OnExit() Declaration public override async UniTask OnExit() Returns Type Description UniTask Overrides GameFlow.OnExit()"
+  },
   "api/StormHawks.Runtime.Models.GameFlows.Types.Actions.FacilityEnableFlow.html": {
     "href": "api/StormHawks.Runtime.Models.GameFlows.Types.Actions.FacilityEnableFlow.html",
     "title": "Class FacilityEnableFlow | Developer Reference",
@@ -1582,7 +1592,7 @@
   "api/StormHawks.Runtime.Models.GameFlows.Types.Actions.html": {
     "href": "api/StormHawks.Runtime.Models.GameFlows.Types.Actions.html",
     "title": "Namespace StormHawks.Runtime.Models.GameFlows.Types.Actions | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Models.GameFlows.Types.Actions Classes ActionFlow BossWaypointDisableFlow BossWaypointEnableFlow FacilityEnableFlow LogFlow"
+    "keywords": "Namespace StormHawks.Runtime.Models.GameFlows.Types.Actions Classes ActionFlow BossWaypointDisableFlow BossWaypointEnableFlow CutScenePlayFlow FacilityEnableFlow LogFlow"
   },
   "api/StormHawks.Runtime.Models.GameFlows.Types.Actions.LogFlow.html": {
     "href": "api/StormHawks.Runtime.Models.GameFlows.Types.Actions.LogFlow.html",
@@ -1959,6 +1969,11 @@
     "title": "Namespace StormHawks.Runtime.Presenters.Bosses | Developer Reference",
     "keywords": "Namespace StormHawks.Runtime.Presenters.Bosses Classes BossEye BossPresenter"
   },
+  "api/StormHawks.Runtime.Presenters.CutSceneLoader.html": {
+    "href": "api/StormHawks.Runtime.Presenters.CutSceneLoader.html",
+    "title": "Class CutSceneLoader | Developer Reference",
+    "keywords": "Class CutSceneLoader Inheritance Object CutSceneLoader Namespace : StormHawks.Runtime.Presenters Assembly : cs.temp.dll.dll Syntax public class CutSceneLoader : IAsyncStartable Constructors CutSceneLoader() Declaration public CutSceneLoader() Methods PlayNext(CutSceneType) Declaration public async UniTask PlayNext(CutSceneType type) Parameters Type Name Description CutSceneType type Returns Type Description UniTask StartAsync(CancellationToken) Declaration public async UniTask StartAsync(CancellationToken cancellation) Parameters Type Name Description CancellationToken cancellation Returns Type Description UniTask"
+  },
   "api/StormHawks.Runtime.Presenters.Entities.BTEntityPresenter.html": {
     "href": "api/StormHawks.Runtime.Presenters.Entities.BTEntityPresenter.html",
     "title": "Class BTEntityPresenter | Developer Reference",
@@ -2168,6 +2183,11 @@
     "href": "api/StormHawks.Runtime.Presenters.Fires.SequentialFire.html",
     "title": "Class SequentialFire | Developer Reference",
     "keywords": "Class SequentialFire Inheritance Object SequentialFire Implements IProjectileFire Namespace : StormHawks.Runtime.Presenters.Fires Assembly : cs.temp.dll.dll Syntax public class SequentialFire : IProjectileFire Constructors SequentialFire(Func<List<ProjectilePresenter>>, ProjectileWeaponSettings) Declaration public SequentialFire(Func<List<ProjectilePresenter>> spawnProjectileTask, ProjectileWeaponSettings settings) Parameters Type Name Description Func < List < ProjectilePresenter >> spawnProjectileTask ProjectileWeaponSettings settings Methods FireTask(CancellationToken) Declaration public async UniTaskVoid FireTask(CancellationToken cancellation) Parameters Type Name Description CancellationToken cancellation Returns Type Description UniTaskVoid Events OnBeforeFire Declaration public event Action OnBeforeFire Event Type Type Description Action OnComplete Declaration public event Action OnComplete Event Type Type Description Action OnFire Declaration public event Action<Transform> OnFire Event Type Type Description Action < Transform > Implements IProjectileFire"
+  },
+  "api/StormHawks.Runtime.Presenters.html": {
+    "href": "api/StormHawks.Runtime.Presenters.html",
+    "title": "Namespace StormHawks.Runtime.Presenters | Developer Reference",
+    "keywords": "Namespace StormHawks.Runtime.Presenters Classes CutSceneLoader"
   },
   "api/StormHawks.Runtime.Presenters.Projectiles.DestructableProjectilePresenter.html": {
     "href": "api/StormHawks.Runtime.Presenters.Projectiles.DestructableProjectilePresenter.html",

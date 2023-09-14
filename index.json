@@ -1989,6 +1989,21 @@
     "title": "Namespace StormHawks.Runtime.Presenters.Behaviors.Players | Developer Reference",
     "keywords": "Namespace StormHawks.Runtime.Presenters.Behaviors.Players Classes BehaviorPlayer"
   },
+  "api/StormHawks.Runtime.Presenters.Boss.BossMissileWeaponSet.html": {
+    "href": "api/StormHawks.Runtime.Presenters.Boss.BossMissileWeaponSet.html",
+    "title": "Class BossMissileWeaponSet | Developer Reference",
+    "keywords": "Class BossMissileWeaponSet Inheritance Object BossMissileWeaponSet Implements IBossWeaponSet Namespace : StormHawks.Runtime.Presenters.Boss Assembly : cs.temp.dll.dll Syntax public class BossMissileWeaponSet : MonoBehaviour, IBossWeaponSet Methods CanLaunch() Declaration public bool CanLaunch() Returns Type Description Boolean IncreaseWaitTime(Single) Declaration public void IncreaseWaitTime(float waitTime) Parameters Type Name Description Single waitTime Inject(IObjectResolver) Declaration public void Inject(IObjectResolver resolver) Parameters Type Name Description IObjectResolver resolver Launch() Declaration public void Launch() OnChangeAggroTarget(Nullable<AggroTarget>) Declaration public void OnChangeAggroTarget(AggroTarget? aggroTarget) Parameters Type Name Description Nullable < AggroTarget > aggroTarget Events OnLaunch Declaration public event Action OnLaunch Event Type Type Description Action Implements IBossWeaponSet"
+  },
+  "api/StormHawks.Runtime.Presenters.Boss.html": {
+    "href": "api/StormHawks.Runtime.Presenters.Boss.html",
+    "title": "Namespace StormHawks.Runtime.Presenters.Boss | Developer Reference",
+    "keywords": "Namespace StormHawks.Runtime.Presenters.Boss Classes BossMissileWeaponSet Interfaces IBossWeaponSet"
+  },
+  "api/StormHawks.Runtime.Presenters.Boss.IBossWeaponSet.html": {
+    "href": "api/StormHawks.Runtime.Presenters.Boss.IBossWeaponSet.html",
+    "title": "Interface IBossWeaponSet | Developer Reference",
+    "keywords": "Interface IBossWeaponSet Namespace : StormHawks.Runtime.Presenters.Boss Assembly : cs.temp.dll.dll Syntax public interface IBossWeaponSet Methods CanLaunch() Declaration bool CanLaunch() Returns Type Description Boolean IncreaseWaitTime(Single) Declaration void IncreaseWaitTime(float waitTime) Parameters Type Name Description Single waitTime Launch() Declaration void Launch() Events OnLaunch Declaration event Action OnLaunch Event Type Type Description Action"
+  },
   "api/StormHawks.Runtime.Presenters.Bosses.BossEye.html": {
     "href": "api/StormHawks.Runtime.Presenters.Bosses.BossEye.html",
     "title": "Class BossEye | Developer Reference",

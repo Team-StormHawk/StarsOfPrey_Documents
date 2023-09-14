@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class BattleAreaPresenter
+    <title>Class BossPathModel
    | Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class BattleAreaPresenter
+    <meta name="title" content="Class BossPathModel
    | Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -78,39 +78,80 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Presenters.Environments.BattleArea.BattleAreaPresenter">
+            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Models.Environments.Paths.BossPathModel">
   
   
-  <h1 id="StormHawks_Runtime_Presenters_Environments_BattleArea_BattleAreaPresenter" data-uid="StormHawks.Runtime.Presenters.Environments.BattleArea.BattleAreaPresenter" class="text-break">Class BattleAreaPresenter
+  <h1 id="StormHawks_Runtime_Models_Environments_Paths_BossPathModel" data-uid="StormHawks.Runtime.Models.Environments.Paths.BossPathModel" class="text-break">Class BossPathModel
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">BattleAreaPresenter</span></div>
+    <div class="level1"><span class="xref">BossPathModel</span></div>
   </div>
-  <div class="implements">
-    <h5>Implements</h5>
-    <div><span class="xref">IEnemyGroupOwnerRx</span></div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Presenters.Environments.BattleArea.html">StormHawks.Runtime.Presenters.Environments.BattleArea</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Models.Environments.Paths.html">StormHawks.Runtime.Models.Environments.Paths</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="StormHawks_Runtime_Presenters_Environments_BattleArea_BattleAreaPresenter_syntax">Syntax</h5>
+  <h5 id="StormHawks_Runtime_Models_Environments_Paths_BossPathModel_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class BattleAreaPresenter : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">[Serializable]
+public class BossPathModel</code></pre>
   </div>
-  <h3 id="properties">Properties
+  <h3 id="constructors">Constructors
   </h3>
   
   
-  <a id="StormHawks_Runtime_Presenters_Environments_BattleArea_BattleAreaPresenter_Groups_" data-uid="StormHawks.Runtime.Presenters.Environments.BattleArea.BattleAreaPresenter.Groups*"></a>
-  <h4 id="StormHawks_Runtime_Presenters_Environments_BattleArea_BattleAreaPresenter_Groups" data-uid="StormHawks.Runtime.Presenters.Environments.BattleArea.BattleAreaPresenter.Groups">Groups</h4>
+  <a id="StormHawks_Runtime_Models_Environments_Paths_BossPathModel__ctor_" data-uid="StormHawks.Runtime.Models.Environments.Paths.BossPathModel.#ctor*"></a>
+  <h4 id="StormHawks_Runtime_Models_Environments_Paths_BossPathModel__ctor_BossPathType_List_Vector3__System_Single_Ease_" data-uid="StormHawks.Runtime.Models.Environments.Paths.BossPathModel.#ctor(BossPathType,List{Vector3},System.Single,Ease)">BossPathModel(BossPathType, List&lt;Vector3&gt;, Single, Ease)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public List&lt;EnemyGroup&gt; Groups { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public BossPathModel(BossPathType pathType, List&lt;Vector3&gt; wps, float duration, Ease easeType)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">BossPathType</span></td>
+        <td><span class="parametername">pathType</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">List</span>&lt;<span class="xref">Vector3</span>&gt;</td>
+        <td><span class="parametername">wps</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">duration</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Ease</span></td>
+        <td><span class="parametername">easeType</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="StormHawks_Runtime_Models_Environments_Paths_BossPathModel_Duration_" data-uid="StormHawks.Runtime.Models.Environments.Paths.BossPathModel.Duration*"></a>
+  <h4 id="StormHawks_Runtime_Models_Environments_Paths_BossPathModel_Duration" data-uid="StormHawks.Runtime.Models.Environments.Paths.BossPathModel.Duration">Duration</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float Duration { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -122,73 +163,47 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">List</span>&lt;<span class="xref">EnemyGroup</span>&gt;</td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h3 id="methods">Methods
-  </h3>
   
   
-  <a id="StormHawks_Runtime_Presenters_Environments_BattleArea_BattleAreaPresenter_Construct_" data-uid="StormHawks.Runtime.Presenters.Environments.BattleArea.BattleAreaPresenter.Construct*"></a>
-  <h4 id="StormHawks_Runtime_Presenters_Environments_BattleArea_BattleAreaPresenter_Construct_EnemySpawner_" data-uid="StormHawks.Runtime.Presenters.Environments.BattleArea.BattleAreaPresenter.Construct(EnemySpawner)">Construct(EnemySpawner)</h4>
+  <a id="StormHawks_Runtime_Models_Environments_Paths_BossPathModel_EaseType_" data-uid="StormHawks.Runtime.Models.Environments.Paths.BossPathModel.EaseType*"></a>
+  <h4 id="StormHawks_Runtime_Models_Environments_Paths_BossPathModel_EaseType" data-uid="StormHawks.Runtime.Models.Environments.Paths.BossPathModel.EaseType">EaseType</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Construct(EnemySpawner enemySpawner)</code></pre>
+    <pre><code class="lang-csharp hljs">public Ease EaseType { get; }</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">EnemySpawner</span></td>
-        <td><span class="parametername">enemySpawner</span></td>
+        <td><span class="xref">Ease</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="StormHawks_Runtime_Presenters_Environments_BattleArea_BattleAreaPresenter_CreateNewGroupOrNull_" data-uid="StormHawks.Runtime.Presenters.Environments.BattleArea.BattleAreaPresenter.CreateNewGroupOrNull*"></a>
-  <h4 id="StormHawks_Runtime_Presenters_Environments_BattleArea_BattleAreaPresenter_CreateNewGroupOrNull_List_IEnemyGroupMemberRx__List_IBattleAreaPathFollower__" data-uid="StormHawks.Runtime.Presenters.Environments.BattleArea.BattleAreaPresenter.CreateNewGroupOrNull(List{IEnemyGroupMemberRx},List{IBattleAreaPathFollower})">CreateNewGroupOrNull(List&lt;IEnemyGroupMemberRx&gt;, List&lt;IBattleAreaPathFollower&gt;)</h4>
+  <a id="StormHawks_Runtime_Models_Environments_Paths_BossPathModel_PathType_" data-uid="StormHawks.Runtime.Models.Environments.Paths.BossPathModel.PathType*"></a>
+  <h4 id="StormHawks_Runtime_Models_Environments_Paths_BossPathModel_PathType" data-uid="StormHawks.Runtime.Models.Environments.Paths.BossPathModel.PathType">PathType</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EnemyGroup CreateNewGroupOrNull(List&lt;IEnemyGroupMemberRx&gt; members, List&lt;IBattleAreaPathFollower&gt; followers)</code></pre>
+    <pre><code class="lang-csharp hljs">public BossPathType PathType { get; }</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">List</span>&lt;<span class="xref">IEnemyGroupMemberRx</span>&gt;</td>
-        <td><span class="parametername">members</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">List</span>&lt;<span class="xref">IBattleAreaPathFollower</span>&gt;</td>
-        <td><span class="parametername">followers</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -198,15 +213,36 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">EnemyGroup</span></td>
+        <td><span class="xref">BossPathType</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <span class="xref">IEnemyGroupOwnerRx</span>
+  
+  
+  <a id="StormHawks_Runtime_Models_Environments_Paths_BossPathModel_Waypoints_" data-uid="StormHawks.Runtime.Models.Environments.Paths.BossPathModel.Waypoints*"></a>
+  <h4 id="StormHawks_Runtime_Models_Environments_Paths_BossPathModel_Waypoints" data-uid="StormHawks.Runtime.Models.Environments.Paths.BossPathModel.Waypoints">Waypoints</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Vector3&gt; Waypoints { get; }</code></pre>
   </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;<span class="xref">Vector3</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           

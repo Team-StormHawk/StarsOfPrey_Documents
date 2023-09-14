@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class CutScenePlayFlow
+    <title>Class WaitUntilBossPathFollowFlow
    | Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class CutScenePlayFlow
+    <meta name="title" content="Class WaitUntilBossPathFollowFlow
    | Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -78,10 +78,10 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Models.GameFlows.Types.Actions.CutScenePlayFlow">
+            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Models.GameFlows.Types.Actions.WaitUntilBossPathFollowFlow">
   
   
-  <h1 id="StormHawks_Runtime_Models_GameFlows_Types_Actions_CutScenePlayFlow" data-uid="StormHawks.Runtime.Models.GameFlows.Types.Actions.CutScenePlayFlow" class="text-break">Class CutScenePlayFlow
+  <h1 id="StormHawks_Runtime_Models_GameFlows_Types_Actions_WaitUntilBossPathFollowFlow" data-uid="StormHawks.Runtime.Models.GameFlows.Types.Actions.WaitUntilBossPathFollowFlow" class="text-break">Class WaitUntilBossPathFollowFlow
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
@@ -89,35 +89,31 @@
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
     <div class="level1"><a class="xref" href="StormHawks.Runtime.Models.GameFlows.GameFlow.html">GameFlow</a></div>
-    <div class="level2"><a class="xref" href="StormHawks.Runtime.Models.GameFlows.Types.Actions.ActionFlow.html">ActionFlow</a></div>
-    <div class="level3"><span class="xref">CutScenePlayFlow</span></div>
+    <div class="level2"><span class="xref">WaitUntilBossPathFollowFlow</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
-    <div>
-      <a class="xref" href="StormHawks.Runtime.Models.GameFlows.Types.Actions.ActionFlow.html#StormHawks_Runtime_Models_GameFlows_Types_Actions_ActionFlow_Run">ActionFlow.Run()</a>
-    </div>
     <div>
       <a class="xref" href="StormHawks.Runtime.Models.GameFlows.GameFlow.html#StormHawks_Runtime_Models_GameFlows_GameFlow__cancellation">GameFlow._cancellation</a>
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Models.GameFlows.Types.Actions.html">StormHawks.Runtime.Models.GameFlows.Types.Actions</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="StormHawks_Runtime_Models_GameFlows_Types_Actions_CutScenePlayFlow_syntax">Syntax</h5>
+  <h5 id="StormHawks_Runtime_Models_GameFlows_Types_Actions_WaitUntilBossPathFollowFlow_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class CutScenePlayFlow : ActionFlow</code></pre>
+    <pre><code class="lang-csharp hljs">public class WaitUntilBossPathFollowFlow : GameFlow</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   
   
-  <a id="StormHawks_Runtime_Models_GameFlows_Types_Actions_CutScenePlayFlow__ctor_" data-uid="StormHawks.Runtime.Models.GameFlows.Types.Actions.CutScenePlayFlow.#ctor*"></a>
-  <h4 id="StormHawks_Runtime_Models_GameFlows_Types_Actions_CutScenePlayFlow__ctor_Func_CutSceneType_UniTask__CutSceneType_" data-uid="StormHawks.Runtime.Models.GameFlows.Types.Actions.CutScenePlayFlow.#ctor(Func{CutSceneType,UniTask},CutSceneType)">CutScenePlayFlow(Func&lt;CutSceneType, UniTask&gt;, CutSceneType)</h4>
+  <a id="StormHawks_Runtime_Models_GameFlows_Types_Actions_WaitUntilBossPathFollowFlow__ctor_" data-uid="StormHawks.Runtime.Models.GameFlows.Types.Actions.WaitUntilBossPathFollowFlow.#ctor*"></a>
+  <h4 id="StormHawks_Runtime_Models_GameFlows_Types_Actions_WaitUntilBossPathFollowFlow__ctor_BossModel_BossPathModel_" data-uid="StormHawks.Runtime.Models.GameFlows.Types.Actions.WaitUntilBossPathFollowFlow.#ctor(BossModel,BossPathModel)">WaitUntilBossPathFollowFlow(BossModel, BossPathModel)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public CutScenePlayFlow(Func&lt;CutSceneType, UniTask&gt; activeCutSceneTask, CutSceneType type)</code></pre>
+    <pre><code class="lang-csharp hljs">public WaitUntilBossPathFollowFlow(BossModel boss, BossPathModel path)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -130,13 +126,13 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Func</span>&lt;<span class="xref">CutSceneType</span>, <span class="xref">UniTask</span>&gt;</td>
-        <td><span class="parametername">activeCutSceneTask</span></td>
+        <td><span class="xref">BossModel</span></td>
+        <td><span class="parametername">boss</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">CutSceneType</span></td>
-        <td><span class="parametername">type</span></td>
+        <td><span class="xref">BossPathModel</span></td>
+        <td><span class="parametername">path</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -145,8 +141,8 @@
   </h3>
   
   
-  <a id="StormHawks_Runtime_Models_GameFlows_Types_Actions_CutScenePlayFlow_OnEnter_" data-uid="StormHawks.Runtime.Models.GameFlows.Types.Actions.CutScenePlayFlow.OnEnter*"></a>
-  <h4 id="StormHawks_Runtime_Models_GameFlows_Types_Actions_CutScenePlayFlow_OnEnter" data-uid="StormHawks.Runtime.Models.GameFlows.Types.Actions.CutScenePlayFlow.OnEnter">OnEnter()</h4>
+  <a id="StormHawks_Runtime_Models_GameFlows_Types_Actions_WaitUntilBossPathFollowFlow_OnEnter_" data-uid="StormHawks.Runtime.Models.GameFlows.Types.Actions.WaitUntilBossPathFollowFlow.OnEnter*"></a>
+  <h4 id="StormHawks_Runtime_Models_GameFlows_Types_Actions_WaitUntilBossPathFollowFlow_OnEnter" data-uid="StormHawks.Runtime.Models.GameFlows.Types.Actions.WaitUntilBossPathFollowFlow.OnEnter">OnEnter()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -172,8 +168,8 @@
   <div><a class="xref" href="StormHawks.Runtime.Models.GameFlows.GameFlow.html#StormHawks_Runtime_Models_GameFlows_GameFlow_OnEnter">GameFlow.OnEnter()</a></div>
   
   
-  <a id="StormHawks_Runtime_Models_GameFlows_Types_Actions_CutScenePlayFlow_OnExit_" data-uid="StormHawks.Runtime.Models.GameFlows.Types.Actions.CutScenePlayFlow.OnExit*"></a>
-  <h4 id="StormHawks_Runtime_Models_GameFlows_Types_Actions_CutScenePlayFlow_OnExit" data-uid="StormHawks.Runtime.Models.GameFlows.Types.Actions.CutScenePlayFlow.OnExit">OnExit()</h4>
+  <a id="StormHawks_Runtime_Models_GameFlows_Types_Actions_WaitUntilBossPathFollowFlow_OnExit_" data-uid="StormHawks.Runtime.Models.GameFlows.Types.Actions.WaitUntilBossPathFollowFlow.OnExit*"></a>
+  <h4 id="StormHawks_Runtime_Models_GameFlows_Types_Actions_WaitUntilBossPathFollowFlow_OnExit" data-uid="StormHawks.Runtime.Models.GameFlows.Types.Actions.WaitUntilBossPathFollowFlow.OnExit">OnExit()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -197,6 +193,33 @@
   </table>
   <h5 class="overrides">Overrides</h5>
   <div><a class="xref" href="StormHawks.Runtime.Models.GameFlows.GameFlow.html#StormHawks_Runtime_Models_GameFlows_GameFlow_OnExit">GameFlow.OnExit()</a></div>
+  
+  
+  <a id="StormHawks_Runtime_Models_GameFlows_Types_Actions_WaitUntilBossPathFollowFlow_Run_" data-uid="StormHawks.Runtime.Models.GameFlows.Types.Actions.WaitUntilBossPathFollowFlow.Run*"></a>
+  <h4 id="StormHawks_Runtime_Models_GameFlows_Types_Actions_WaitUntilBossPathFollowFlow_Run" data-uid="StormHawks.Runtime.Models.GameFlows.Types.Actions.WaitUntilBossPathFollowFlow.Run">Run()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override async UniTask Run()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UniTask</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="StormHawks.Runtime.Models.GameFlows.GameFlow.html#StormHawks_Runtime_Models_GameFlows_GameFlow_Run">GameFlow.Run()</a></div>
 </article>
           </div>
           

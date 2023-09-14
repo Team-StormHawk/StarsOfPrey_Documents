@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class BattleAreaPresenter
+    <title>Class CompactFacilityPresenter
    | Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class BattleAreaPresenter
+    <meta name="title" content="Class CompactFacilityPresenter
    | Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -78,39 +78,40 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Presenters.Environments.BattleArea.BattleAreaPresenter">
+            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Presenters.Facilities.CompactFacilityPresenter">
   
   
-  <h1 id="StormHawks_Runtime_Presenters_Environments_BattleArea_BattleAreaPresenter" data-uid="StormHawks.Runtime.Presenters.Environments.BattleArea.BattleAreaPresenter" class="text-break">Class BattleAreaPresenter
+  <h1 id="StormHawks_Runtime_Presenters_Facilities_CompactFacilityPresenter" data-uid="StormHawks.Runtime.Presenters.Facilities.CompactFacilityPresenter" class="text-break">Class CompactFacilityPresenter
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">BattleAreaPresenter</span></div>
+    <div class="level1"><span class="xref">CompactFacilityPresenter</span></div>
   </div>
   <div class="implements">
     <h5>Implements</h5>
-    <div><span class="xref">IEnemyGroupOwnerRx</span></div>
+    <div><span class="xref">IAggressiveTargetable</span></div>
+    <div><span class="xref">IHasHealthRx</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Presenters.Environments.BattleArea.html">StormHawks.Runtime.Presenters.Environments.BattleArea</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Presenters.Facilities.html">StormHawks.Runtime.Presenters.Facilities</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="StormHawks_Runtime_Presenters_Environments_BattleArea_BattleAreaPresenter_syntax">Syntax</h5>
+  <h5 id="StormHawks_Runtime_Presenters_Facilities_CompactFacilityPresenter_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class BattleAreaPresenter : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public class CompactFacilityPresenter : MonoBehaviour, IAggressiveTargetable</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
   
   
-  <a id="StormHawks_Runtime_Presenters_Environments_BattleArea_BattleAreaPresenter_Groups_" data-uid="StormHawks.Runtime.Presenters.Environments.BattleArea.BattleAreaPresenter.Groups*"></a>
-  <h4 id="StormHawks_Runtime_Presenters_Environments_BattleArea_BattleAreaPresenter_Groups" data-uid="StormHawks.Runtime.Presenters.Environments.BattleArea.BattleAreaPresenter.Groups">Groups</h4>
+  <a id="StormHawks_Runtime_Presenters_Facilities_CompactFacilityPresenter_AggroTargetCollider_" data-uid="StormHawks.Runtime.Presenters.Facilities.CompactFacilityPresenter.AggroTargetCollider*"></a>
+  <h4 id="StormHawks_Runtime_Presenters_Facilities_CompactFacilityPresenter_AggroTargetCollider" data-uid="StormHawks.Runtime.Presenters.Facilities.CompactFacilityPresenter.AggroTargetCollider">AggroTargetCollider</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public List&lt;EnemyGroup&gt; Groups { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public Collider AggroTargetCollider { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -122,7 +123,32 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">List</span>&lt;<span class="xref">EnemyGroup</span>&gt;</td>
+        <td><span class="xref">Collider</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StormHawks_Runtime_Presenters_Facilities_CompactFacilityPresenter_OnDamaged_" data-uid="StormHawks.Runtime.Presenters.Facilities.CompactFacilityPresenter.OnDamaged*"></a>
+  <h4 id="StormHawks_Runtime_Presenters_Facilities_CompactFacilityPresenter_OnDamaged" data-uid="StormHawks.Runtime.Presenters.Facilities.CompactFacilityPresenter.OnDamaged">OnDamaged</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IObservable&lt;Damage&gt; OnDamaged { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IObservable</span>&lt;<span class="xref">Damage</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -131,63 +157,14 @@
   </h3>
   
   
-  <a id="StormHawks_Runtime_Presenters_Environments_BattleArea_BattleAreaPresenter_Construct_" data-uid="StormHawks.Runtime.Presenters.Environments.BattleArea.BattleAreaPresenter.Construct*"></a>
-  <h4 id="StormHawks_Runtime_Presenters_Environments_BattleArea_BattleAreaPresenter_Construct_EnemySpawner_" data-uid="StormHawks.Runtime.Presenters.Environments.BattleArea.BattleAreaPresenter.Construct(EnemySpawner)">Construct(EnemySpawner)</h4>
+  <a id="StormHawks_Runtime_Presenters_Facilities_CompactFacilityPresenter_GetAggroTarget_" data-uid="StormHawks.Runtime.Presenters.Facilities.CompactFacilityPresenter.GetAggroTarget*"></a>
+  <h4 id="StormHawks_Runtime_Presenters_Facilities_CompactFacilityPresenter_GetAggroTarget" data-uid="StormHawks.Runtime.Presenters.Facilities.CompactFacilityPresenter.GetAggroTarget">GetAggroTarget()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Construct(EnemySpawner enemySpawner)</code></pre>
+    <pre><code class="lang-csharp hljs">public AggroTarget GetAggroTarget()</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">EnemySpawner</span></td>
-        <td><span class="parametername">enemySpawner</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="StormHawks_Runtime_Presenters_Environments_BattleArea_BattleAreaPresenter_CreateNewGroupOrNull_" data-uid="StormHawks.Runtime.Presenters.Environments.BattleArea.BattleAreaPresenter.CreateNewGroupOrNull*"></a>
-  <h4 id="StormHawks_Runtime_Presenters_Environments_BattleArea_BattleAreaPresenter_CreateNewGroupOrNull_List_IEnemyGroupMemberRx__List_IBattleAreaPathFollower__" data-uid="StormHawks.Runtime.Presenters.Environments.BattleArea.BattleAreaPresenter.CreateNewGroupOrNull(List{IEnemyGroupMemberRx},List{IBattleAreaPathFollower})">CreateNewGroupOrNull(List&lt;IEnemyGroupMemberRx&gt;, List&lt;IBattleAreaPathFollower&gt;)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EnemyGroup CreateNewGroupOrNull(List&lt;IEnemyGroupMemberRx&gt; members, List&lt;IBattleAreaPathFollower&gt; followers)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">List</span>&lt;<span class="xref">IEnemyGroupMemberRx</span>&gt;</td>
-        <td><span class="parametername">members</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">List</span>&lt;<span class="xref">IBattleAreaPathFollower</span>&gt;</td>
-        <td><span class="parametername">followers</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -198,14 +175,54 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">EnemyGroup</span></td>
+        <td><span class="xref">AggroTarget</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StormHawks_Runtime_Presenters_Facilities_CompactFacilityPresenter_OnDestroyed_" data-uid="StormHawks.Runtime.Presenters.Facilities.CompactFacilityPresenter.OnDestroyed*"></a>
+  <h4 id="StormHawks_Runtime_Presenters_Facilities_CompactFacilityPresenter_OnDestroyed" data-uid="StormHawks.Runtime.Presenters.Facilities.CompactFacilityPresenter.OnDestroyed">OnDestroyed()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnDestroyed()</code></pre>
+  </div>
+  
+  
+  <a id="StormHawks_Runtime_Presenters_Facilities_CompactFacilityPresenter_TakeDamage_" data-uid="StormHawks.Runtime.Presenters.Facilities.CompactFacilityPresenter.TakeDamage*"></a>
+  <h4 id="StormHawks_Runtime_Presenters_Facilities_CompactFacilityPresenter_TakeDamage_Damage_" data-uid="StormHawks.Runtime.Presenters.Facilities.CompactFacilityPresenter.TakeDamage(Damage)">TakeDamage(Damage)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void TakeDamage(Damage damage)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Damage</span></td>
+        <td><span class="parametername">damage</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <h3 id="implements">Implements</h3>
   <div>
-      <span class="xref">IEnemyGroupOwnerRx</span>
+      <span class="xref">IAggressiveTargetable</span>
+  </div>
+  <div>
+      <span class="xref">IHasHealthRx</span>
   </div>
 </article>
           </div>

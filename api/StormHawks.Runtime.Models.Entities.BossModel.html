@@ -154,6 +154,56 @@
   </table>
   
   
+  <a id="StormHawks_Runtime_Models_Entities_BossModel_BossTransform_" data-uid="StormHawks.Runtime.Models.Entities.BossModel.BossTransform*"></a>
+  <h4 id="StormHawks_Runtime_Models_Entities_BossModel_BossTransform" data-uid="StormHawks.Runtime.Models.Entities.BossModel.BossTransform">BossTransform</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Transform BossTransform { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Transform</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StormHawks_Runtime_Models_Entities_BossModel_CurrentPath_" data-uid="StormHawks.Runtime.Models.Entities.BossModel.CurrentPath*"></a>
+  <h4 id="StormHawks_Runtime_Models_Entities_BossModel_CurrentPath" data-uid="StormHawks.Runtime.Models.Entities.BossModel.CurrentPath">CurrentPath</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IReadOnlyReactiveProperty&lt;BossPathModel&gt; CurrentPath { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IReadOnlyReactiveProperty</span>&lt;<span class="xref">BossPathModel</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="StormHawks_Runtime_Models_Entities_BossModel_IsAggressive_" data-uid="StormHawks.Runtime.Models.Entities.BossModel.IsAggressive*"></a>
   <h4 id="StormHawks_Runtime_Models_Entities_BossModel_IsAggressive" data-uid="StormHawks.Runtime.Models.Entities.BossModel.IsAggressive">IsAggressive</h4>
   <div class="markdown level1 summary"></div>
@@ -339,6 +389,87 @@
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<span class="xref">AggroTarget</span>&gt;</td>
         <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StormHawks_Runtime_Models_Entities_BossModel_SetPath_" data-uid="StormHawks.Runtime.Models.Entities.BossModel.SetPath*"></a>
+  <h4 id="StormHawks_Runtime_Models_Entities_BossModel_SetPath_BossPathModel_" data-uid="StormHawks.Runtime.Models.Entities.BossModel.SetPath(BossPathModel)">SetPath(BossPathModel)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetPath(BossPathModel path)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">BossPathModel</span></td>
+        <td><span class="parametername">path</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StormHawks_Runtime_Models_Entities_BossModel_SetTransform_" data-uid="StormHawks.Runtime.Models.Entities.BossModel.SetTransform*"></a>
+  <h4 id="StormHawks_Runtime_Models_Entities_BossModel_SetTransform_Transform_" data-uid="StormHawks.Runtime.Models.Entities.BossModel.SetTransform(Transform)">SetTransform(Transform)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetTransform(Transform transform)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Transform</span></td>
+        <td><span class="parametername">transform</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StormHawks_Runtime_Models_Entities_BossModel_TakeDamage_" data-uid="StormHawks.Runtime.Models.Entities.BossModel.TakeDamage*"></a>
+  <h4 id="StormHawks_Runtime_Models_Entities_BossModel_TakeDamage_System_Single_" data-uid="StormHawks.Runtime.Models.Entities.BossModel.TakeDamage(System.Single)">TakeDamage(Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void TakeDamage(float damage)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">damage</span></td>
         <td></td>
       </tr>
     </tbody>

@@ -93,6 +93,7 @@
   <div class="implements">
     <h5>Implements</h5>
     <div><span class="xref">IAggressiveRx</span></div>
+    <div><span class="xref">IHasHealthRx</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Presenters.Bosses.html">StormHawks.Runtime.Presenters.Bosses</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
@@ -148,6 +149,31 @@
     <tbody>
       <tr>
         <td><span class="xref">IObservable</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<span class="xref">AggroTarget</span>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StormHawks_Runtime_Presenters_Bosses_BossPresenter_OnDamaged_" data-uid="StormHawks.Runtime.Presenters.Bosses.BossPresenter.OnDamaged*"></a>
+  <h4 id="StormHawks_Runtime_Presenters_Bosses_BossPresenter_OnDamaged" data-uid="StormHawks.Runtime.Presenters.Bosses.BossPresenter.OnDamaged">OnDamaged</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IObservable&lt;Damage&gt; OnDamaged { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IObservable</span>&lt;<span class="xref">Damage</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -298,9 +324,39 @@
       </tr>
     </tbody>
   </table>
+  
+  
+  <a id="StormHawks_Runtime_Presenters_Bosses_BossPresenter_TakeDamage_" data-uid="StormHawks.Runtime.Presenters.Bosses.BossPresenter.TakeDamage*"></a>
+  <h4 id="StormHawks_Runtime_Presenters_Bosses_BossPresenter_TakeDamage_Damage_" data-uid="StormHawks.Runtime.Presenters.Bosses.BossPresenter.TakeDamage(Damage)">TakeDamage(Damage)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void TakeDamage(Damage damage)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Damage</span></td>
+        <td><span class="parametername">damage</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="implements">Implements</h3>
   <div>
       <span class="xref">IAggressiveRx</span>
+  </div>
+  <div>
+      <span class="xref">IHasHealthRx</span>
   </div>
 </article>
           </div>

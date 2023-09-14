@@ -3097,6 +3097,31 @@ references:
   isSpec: "True"
   fullName: StormHawks.Editor.Utilities.TextUtility.RemoveWhitespaces
   nameWithType: TextUtility.RemoveWhitespaces
+- uid: StormHawks.Presenters.Environments.Paths
+  name: StormHawks.Presenters.Environments.Paths
+  href: api/StormHawks.Presenters.Environments.Paths.html
+  commentId: N:StormHawks.Presenters.Environments.Paths
+  fullName: StormHawks.Presenters.Environments.Paths
+  nameWithType: StormHawks.Presenters.Environments.Paths
+- uid: StormHawks.Presenters.Environments.Paths.BossPathModelGetter
+  name: BossPathModelGetter
+  href: api/StormHawks.Presenters.Environments.Paths.BossPathModelGetter.html
+  commentId: T:StormHawks.Presenters.Environments.Paths.BossPathModelGetter
+  fullName: StormHawks.Presenters.Environments.Paths.BossPathModelGetter
+  nameWithType: BossPathModelGetter
+- uid: StormHawks.Presenters.Environments.Paths.BossPathModelGetter.Get(BossPathType)
+  name: Get(BossPathType)
+  href: api/StormHawks.Presenters.Environments.Paths.BossPathModelGetter.html#StormHawks_Presenters_Environments_Paths_BossPathModelGetter_Get_BossPathType_
+  commentId: M:StormHawks.Presenters.Environments.Paths.BossPathModelGetter.Get(BossPathType)
+  fullName: StormHawks.Presenters.Environments.Paths.BossPathModelGetter.Get(BossPathType)
+  nameWithType: BossPathModelGetter.Get(BossPathType)
+- uid: StormHawks.Presenters.Environments.Paths.BossPathModelGetter.Get*
+  name: Get
+  href: api/StormHawks.Presenters.Environments.Paths.BossPathModelGetter.html#StormHawks_Presenters_Environments_Paths_BossPathModelGetter_Get_
+  commentId: Overload:StormHawks.Presenters.Environments.Paths.BossPathModelGetter.Get
+  isSpec: "True"
+  fullName: StormHawks.Presenters.Environments.Paths.BossPathModelGetter.Get
+  nameWithType: BossPathModelGetter.Get
 - uid: StormHawks.Runtime
   name: StormHawks.Runtime
   href: api/StormHawks.Runtime.html
@@ -6021,6 +6046,36 @@ references:
   commentId: N:StormHawks.Runtime.Enums
   fullName: StormHawks.Runtime.Enums
   nameWithType: StormHawks.Runtime.Enums
+- uid: StormHawks.Runtime.Enums.BossPathType
+  name: BossPathType
+  href: api/StormHawks.Runtime.Enums.BossPathType.html
+  commentId: T:StormHawks.Runtime.Enums.BossPathType
+  fullName: StormHawks.Runtime.Enums.BossPathType
+  nameWithType: BossPathType
+- uid: StormHawks.Runtime.Enums.BossPathType.EntryPointToPowerPlant
+  name: EntryPointToPowerPlant
+  href: api/StormHawks.Runtime.Enums.BossPathType.html#StormHawks_Runtime_Enums_BossPathType_EntryPointToPowerPlant
+  commentId: F:StormHawks.Runtime.Enums.BossPathType.EntryPointToPowerPlant
+  fullName: StormHawks.Runtime.Enums.BossPathType.EntryPointToPowerPlant
+  nameWithType: BossPathType.EntryPointToPowerPlant
+- uid: StormHawks.Runtime.Enums.BossPathType.FactoryToTowers
+  name: FactoryToTowers
+  href: api/StormHawks.Runtime.Enums.BossPathType.html#StormHawks_Runtime_Enums_BossPathType_FactoryToTowers
+  commentId: F:StormHawks.Runtime.Enums.BossPathType.FactoryToTowers
+  fullName: StormHawks.Runtime.Enums.BossPathType.FactoryToTowers
+  nameWithType: BossPathType.FactoryToTowers
+- uid: StormHawks.Runtime.Enums.BossPathType.None
+  name: None
+  href: api/StormHawks.Runtime.Enums.BossPathType.html#StormHawks_Runtime_Enums_BossPathType_None
+  commentId: F:StormHawks.Runtime.Enums.BossPathType.None
+  fullName: StormHawks.Runtime.Enums.BossPathType.None
+  nameWithType: BossPathType.None
+- uid: StormHawks.Runtime.Enums.BossPathType.PowerPlantToFactory
+  name: PowerPlantToFactory
+  href: api/StormHawks.Runtime.Enums.BossPathType.html#StormHawks_Runtime_Enums_BossPathType_PowerPlantToFactory
+  commentId: F:StormHawks.Runtime.Enums.BossPathType.PowerPlantToFactory
+  fullName: StormHawks.Runtime.Enums.BossPathType.PowerPlantToFactory
+  nameWithType: BossPathType.PowerPlantToFactory
 - uid: StormHawks.Runtime.Enums.CutSceneType
   name: CutSceneType
   href: api/StormHawks.Runtime.Enums.CutSceneType.html
@@ -6033,6 +6088,18 @@ references:
   commentId: F:StormHawks.Runtime.Enums.CutSceneType.IntroCutScene
   fullName: StormHawks.Runtime.Enums.CutSceneType.IntroCutScene
   nameWithType: CutSceneType.IntroCutScene
+- uid: StormHawks.Runtime.Enums.CutSceneType.IntroCutScene2
+  name: IntroCutScene2
+  href: api/StormHawks.Runtime.Enums.CutSceneType.html#StormHawks_Runtime_Enums_CutSceneType_IntroCutScene2
+  commentId: F:StormHawks.Runtime.Enums.CutSceneType.IntroCutScene2
+  fullName: StormHawks.Runtime.Enums.CutSceneType.IntroCutScene2
+  nameWithType: CutSceneType.IntroCutScene2
+- uid: StormHawks.Runtime.Enums.CutSceneType.None
+  name: None
+  href: api/StormHawks.Runtime.Enums.CutSceneType.html#StormHawks_Runtime_Enums_CutSceneType_None
+  commentId: F:StormHawks.Runtime.Enums.CutSceneType.None
+  fullName: StormHawks.Runtime.Enums.CutSceneType.None
+  nameWithType: CutSceneType.None
 - uid: StormHawks.Runtime.Enums.EliteType
   name: EliteType
   href: api/StormHawks.Runtime.Enums.EliteType.html
@@ -7170,19 +7237,32 @@ references:
   commentId: T:StormHawks.Runtime.GameFlows.GameFlowPresenter
   fullName: StormHawks.Runtime.GameFlows.GameFlowPresenter
   nameWithType: GameFlowPresenter
-- uid: StormHawks.Runtime.GameFlows.GameFlowPresenter.Construct(BossModel,PowerPlantModel,CutSceneLoader)
-  name: Construct(BossModel, PowerPlantModel, CutSceneLoader)
-  href: api/StormHawks.Runtime.GameFlows.GameFlowPresenter.html#StormHawks_Runtime_GameFlows_GameFlowPresenter_Construct_BossModel_PowerPlantModel_CutSceneLoader_
-  commentId: M:StormHawks.Runtime.GameFlows.GameFlowPresenter.Construct(BossModel,PowerPlantModel,CutSceneLoader)
-  fullName: StormHawks.Runtime.GameFlows.GameFlowPresenter.Construct(BossModel, PowerPlantModel, CutSceneLoader)
-  nameWithType: GameFlowPresenter.Construct(BossModel, PowerPlantModel, CutSceneLoader)
-- uid: StormHawks.Runtime.GameFlows.GameFlowPresenter.Construct*
-  name: Construct
-  href: api/StormHawks.Runtime.GameFlows.GameFlowPresenter.html#StormHawks_Runtime_GameFlows_GameFlowPresenter_Construct_
-  commentId: Overload:StormHawks.Runtime.GameFlows.GameFlowPresenter.Construct
+- uid: StormHawks.Runtime.GameFlows.GameFlowPresenter.#ctor(BossModel,PowerPlantModel,BossPathModelGetter,CutSceneLoader)
+  name: GameFlowPresenter(BossModel, PowerPlantModel, BossPathModelGetter, CutSceneLoader)
+  href: api/StormHawks.Runtime.GameFlows.GameFlowPresenter.html#StormHawks_Runtime_GameFlows_GameFlowPresenter__ctor_BossModel_PowerPlantModel_BossPathModelGetter_CutSceneLoader_
+  commentId: M:StormHawks.Runtime.GameFlows.GameFlowPresenter.#ctor(BossModel,PowerPlantModel,BossPathModelGetter,CutSceneLoader)
+  fullName: StormHawks.Runtime.GameFlows.GameFlowPresenter.GameFlowPresenter(BossModel, PowerPlantModel, BossPathModelGetter, CutSceneLoader)
+  nameWithType: GameFlowPresenter.GameFlowPresenter(BossModel, PowerPlantModel, BossPathModelGetter, CutSceneLoader)
+- uid: StormHawks.Runtime.GameFlows.GameFlowPresenter.#ctor*
+  name: GameFlowPresenter
+  href: api/StormHawks.Runtime.GameFlows.GameFlowPresenter.html#StormHawks_Runtime_GameFlows_GameFlowPresenter__ctor_
+  commentId: Overload:StormHawks.Runtime.GameFlows.GameFlowPresenter.#ctor
   isSpec: "True"
-  fullName: StormHawks.Runtime.GameFlows.GameFlowPresenter.Construct
-  nameWithType: GameFlowPresenter.Construct
+  fullName: StormHawks.Runtime.GameFlows.GameFlowPresenter.GameFlowPresenter
+  nameWithType: GameFlowPresenter.GameFlowPresenter
+- uid: StormHawks.Runtime.GameFlows.GameFlowPresenter.Start
+  name: Start()
+  href: api/StormHawks.Runtime.GameFlows.GameFlowPresenter.html#StormHawks_Runtime_GameFlows_GameFlowPresenter_Start
+  commentId: M:StormHawks.Runtime.GameFlows.GameFlowPresenter.Start
+  fullName: StormHawks.Runtime.GameFlows.GameFlowPresenter.Start()
+  nameWithType: GameFlowPresenter.Start()
+- uid: StormHawks.Runtime.GameFlows.GameFlowPresenter.Start*
+  name: Start
+  href: api/StormHawks.Runtime.GameFlows.GameFlowPresenter.html#StormHawks_Runtime_GameFlows_GameFlowPresenter_Start_
+  commentId: Overload:StormHawks.Runtime.GameFlows.GameFlowPresenter.Start
+  isSpec: "True"
+  fullName: StormHawks.Runtime.GameFlows.GameFlowPresenter.Start
+  nameWithType: GameFlowPresenter.Start
 - uid: StormHawks.Runtime.GameFlows.Types
   name: StormHawks.Runtime.GameFlows.Types
   href: api/StormHawks.Runtime.GameFlows.Types.html
@@ -11893,6 +11973,38 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Interfaces.IArriver.GetArrivePosition
   nameWithType: IArriver.GetArrivePosition
+- uid: StormHawks.Runtime.Interfaces.IBattleAreaPathFollower
+  name: IBattleAreaPathFollower
+  href: api/StormHawks.Runtime.Interfaces.IBattleAreaPathFollower.html
+  commentId: T:StormHawks.Runtime.Interfaces.IBattleAreaPathFollower
+  fullName: StormHawks.Runtime.Interfaces.IBattleAreaPathFollower
+  nameWithType: IBattleAreaPathFollower
+- uid: StormHawks.Runtime.Interfaces.IBattleAreaPathFollower.CurrentPathTarget
+  name: CurrentPathTarget
+  href: api/StormHawks.Runtime.Interfaces.IBattleAreaPathFollower.html#StormHawks_Runtime_Interfaces_IBattleAreaPathFollower_CurrentPathTarget
+  commentId: P:StormHawks.Runtime.Interfaces.IBattleAreaPathFollower.CurrentPathTarget
+  fullName: StormHawks.Runtime.Interfaces.IBattleAreaPathFollower.CurrentPathTarget
+  nameWithType: IBattleAreaPathFollower.CurrentPathTarget
+- uid: StormHawks.Runtime.Interfaces.IBattleAreaPathFollower.CurrentPathTarget*
+  name: CurrentPathTarget
+  href: api/StormHawks.Runtime.Interfaces.IBattleAreaPathFollower.html#StormHawks_Runtime_Interfaces_IBattleAreaPathFollower_CurrentPathTarget_
+  commentId: Overload:StormHawks.Runtime.Interfaces.IBattleAreaPathFollower.CurrentPathTarget
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Interfaces.IBattleAreaPathFollower.CurrentPathTarget
+  nameWithType: IBattleAreaPathFollower.CurrentPathTarget
+- uid: StormHawks.Runtime.Interfaces.IBattleAreaPathFollower.SetPathTarget(PathTarget)
+  name: SetPathTarget(PathTarget)
+  href: api/StormHawks.Runtime.Interfaces.IBattleAreaPathFollower.html#StormHawks_Runtime_Interfaces_IBattleAreaPathFollower_SetPathTarget_PathTarget_
+  commentId: M:StormHawks.Runtime.Interfaces.IBattleAreaPathFollower.SetPathTarget(PathTarget)
+  fullName: StormHawks.Runtime.Interfaces.IBattleAreaPathFollower.SetPathTarget(PathTarget)
+  nameWithType: IBattleAreaPathFollower.SetPathTarget(PathTarget)
+- uid: StormHawks.Runtime.Interfaces.IBattleAreaPathFollower.SetPathTarget*
+  name: SetPathTarget
+  href: api/StormHawks.Runtime.Interfaces.IBattleAreaPathFollower.html#StormHawks_Runtime_Interfaces_IBattleAreaPathFollower_SetPathTarget_
+  commentId: Overload:StormHawks.Runtime.Interfaces.IBattleAreaPathFollower.SetPathTarget
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Interfaces.IBattleAreaPathFollower.SetPathTarget
+  nameWithType: IBattleAreaPathFollower.SetPathTarget
 - uid: StormHawks.Runtime.Interfaces.IEnemyGroupMemberRx
   name: IEnemyGroupMemberRx
   href: api/StormHawks.Runtime.Interfaces.IEnemyGroupMemberRx.html
@@ -12005,15 +12117,15 @@ references:
   commentId: T:StormHawks.Runtime.Interfaces.IEnemyGroupOwnerRx
   fullName: StormHawks.Runtime.Interfaces.IEnemyGroupOwnerRx
   nameWithType: IEnemyGroupOwnerRx
-- uid: StormHawks.Runtime.Interfaces.IEnemyGroupOwnerRx.CreateNewGroupOrNull(List{StormHawks.Runtime.Interfaces.IEnemyGroupMemberRx},List{StormHawks.Runtime.Interfaces.IPathFollower})
-  name: CreateNewGroupOrNull(List<IEnemyGroupMemberRx>, List<IPathFollower>)
-  href: api/StormHawks.Runtime.Interfaces.IEnemyGroupOwnerRx.html#StormHawks_Runtime_Interfaces_IEnemyGroupOwnerRx_CreateNewGroupOrNull_List_StormHawks_Runtime_Interfaces_IEnemyGroupMemberRx__List_StormHawks_Runtime_Interfaces_IPathFollower__
-  commentId: M:StormHawks.Runtime.Interfaces.IEnemyGroupOwnerRx.CreateNewGroupOrNull(List{StormHawks.Runtime.Interfaces.IEnemyGroupMemberRx},List{StormHawks.Runtime.Interfaces.IPathFollower})
-  name.vb: CreateNewGroupOrNull(List(Of IEnemyGroupMemberRx), List(Of IPathFollower))
-  fullName: StormHawks.Runtime.Interfaces.IEnemyGroupOwnerRx.CreateNewGroupOrNull(List<StormHawks.Runtime.Interfaces.IEnemyGroupMemberRx>, List<StormHawks.Runtime.Interfaces.IPathFollower>)
-  fullName.vb: StormHawks.Runtime.Interfaces.IEnemyGroupOwnerRx.CreateNewGroupOrNull(List(Of StormHawks.Runtime.Interfaces.IEnemyGroupMemberRx), List(Of StormHawks.Runtime.Interfaces.IPathFollower))
-  nameWithType: IEnemyGroupOwnerRx.CreateNewGroupOrNull(List<IEnemyGroupMemberRx>, List<IPathFollower>)
-  nameWithType.vb: IEnemyGroupOwnerRx.CreateNewGroupOrNull(List(Of IEnemyGroupMemberRx), List(Of IPathFollower))
+- uid: StormHawks.Runtime.Interfaces.IEnemyGroupOwnerRx.CreateNewGroupOrNull(List{StormHawks.Runtime.Interfaces.IEnemyGroupMemberRx},List{StormHawks.Runtime.Interfaces.IBattleAreaPathFollower})
+  name: CreateNewGroupOrNull(List<IEnemyGroupMemberRx>, List<IBattleAreaPathFollower>)
+  href: api/StormHawks.Runtime.Interfaces.IEnemyGroupOwnerRx.html#StormHawks_Runtime_Interfaces_IEnemyGroupOwnerRx_CreateNewGroupOrNull_List_StormHawks_Runtime_Interfaces_IEnemyGroupMemberRx__List_StormHawks_Runtime_Interfaces_IBattleAreaPathFollower__
+  commentId: M:StormHawks.Runtime.Interfaces.IEnemyGroupOwnerRx.CreateNewGroupOrNull(List{StormHawks.Runtime.Interfaces.IEnemyGroupMemberRx},List{StormHawks.Runtime.Interfaces.IBattleAreaPathFollower})
+  name.vb: CreateNewGroupOrNull(List(Of IEnemyGroupMemberRx), List(Of IBattleAreaPathFollower))
+  fullName: StormHawks.Runtime.Interfaces.IEnemyGroupOwnerRx.CreateNewGroupOrNull(List<StormHawks.Runtime.Interfaces.IEnemyGroupMemberRx>, List<StormHawks.Runtime.Interfaces.IBattleAreaPathFollower>)
+  fullName.vb: StormHawks.Runtime.Interfaces.IEnemyGroupOwnerRx.CreateNewGroupOrNull(List(Of StormHawks.Runtime.Interfaces.IEnemyGroupMemberRx), List(Of StormHawks.Runtime.Interfaces.IBattleAreaPathFollower))
+  nameWithType: IEnemyGroupOwnerRx.CreateNewGroupOrNull(List<IEnemyGroupMemberRx>, List<IBattleAreaPathFollower>)
+  nameWithType.vb: IEnemyGroupOwnerRx.CreateNewGroupOrNull(List(Of IEnemyGroupMemberRx), List(Of IBattleAreaPathFollower))
 - uid: StormHawks.Runtime.Interfaces.IEnemyGroupOwnerRx.CreateNewGroupOrNull*
   name: CreateNewGroupOrNull
   href: api/StormHawks.Runtime.Interfaces.IEnemyGroupOwnerRx.html#StormHawks_Runtime_Interfaces_IEnemyGroupOwnerRx_CreateNewGroupOrNull_
@@ -12175,38 +12287,6 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Interfaces.IInitializable.IsInitialized
   nameWithType: IInitializable.IsInitialized
-- uid: StormHawks.Runtime.Interfaces.IPathFollower
-  name: IPathFollower
-  href: api/StormHawks.Runtime.Interfaces.IPathFollower.html
-  commentId: T:StormHawks.Runtime.Interfaces.IPathFollower
-  fullName: StormHawks.Runtime.Interfaces.IPathFollower
-  nameWithType: IPathFollower
-- uid: StormHawks.Runtime.Interfaces.IPathFollower.CurrentPathTarget
-  name: CurrentPathTarget
-  href: api/StormHawks.Runtime.Interfaces.IPathFollower.html#StormHawks_Runtime_Interfaces_IPathFollower_CurrentPathTarget
-  commentId: P:StormHawks.Runtime.Interfaces.IPathFollower.CurrentPathTarget
-  fullName: StormHawks.Runtime.Interfaces.IPathFollower.CurrentPathTarget
-  nameWithType: IPathFollower.CurrentPathTarget
-- uid: StormHawks.Runtime.Interfaces.IPathFollower.CurrentPathTarget*
-  name: CurrentPathTarget
-  href: api/StormHawks.Runtime.Interfaces.IPathFollower.html#StormHawks_Runtime_Interfaces_IPathFollower_CurrentPathTarget_
-  commentId: Overload:StormHawks.Runtime.Interfaces.IPathFollower.CurrentPathTarget
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Interfaces.IPathFollower.CurrentPathTarget
-  nameWithType: IPathFollower.CurrentPathTarget
-- uid: StormHawks.Runtime.Interfaces.IPathFollower.SetPathTarget(PathTarget)
-  name: SetPathTarget(PathTarget)
-  href: api/StormHawks.Runtime.Interfaces.IPathFollower.html#StormHawks_Runtime_Interfaces_IPathFollower_SetPathTarget_PathTarget_
-  commentId: M:StormHawks.Runtime.Interfaces.IPathFollower.SetPathTarget(PathTarget)
-  fullName: StormHawks.Runtime.Interfaces.IPathFollower.SetPathTarget(PathTarget)
-  nameWithType: IPathFollower.SetPathTarget(PathTarget)
-- uid: StormHawks.Runtime.Interfaces.IPathFollower.SetPathTarget*
-  name: SetPathTarget
-  href: api/StormHawks.Runtime.Interfaces.IPathFollower.html#StormHawks_Runtime_Interfaces_IPathFollower_SetPathTarget_
-  commentId: Overload:StormHawks.Runtime.Interfaces.IPathFollower.SetPathTarget
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Interfaces.IPathFollower.SetPathTarget
-  nameWithType: IPathFollower.SetPathTarget
 - uid: StormHawks.Runtime.Interfaces.IPlayerRespawnEvent
   name: IPlayerRespawnEvent
   href: api/StormHawks.Runtime.Interfaces.IPlayerRespawnEvent.html
@@ -12707,6 +12787,32 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Models.Entities.BossModel.AggroTarget
   nameWithType: BossModel.AggroTarget
+- uid: StormHawks.Runtime.Models.Entities.BossModel.BossTransform
+  name: BossTransform
+  href: api/StormHawks.Runtime.Models.Entities.BossModel.html#StormHawks_Runtime_Models_Entities_BossModel_BossTransform
+  commentId: P:StormHawks.Runtime.Models.Entities.BossModel.BossTransform
+  fullName: StormHawks.Runtime.Models.Entities.BossModel.BossTransform
+  nameWithType: BossModel.BossTransform
+- uid: StormHawks.Runtime.Models.Entities.BossModel.BossTransform*
+  name: BossTransform
+  href: api/StormHawks.Runtime.Models.Entities.BossModel.html#StormHawks_Runtime_Models_Entities_BossModel_BossTransform_
+  commentId: Overload:StormHawks.Runtime.Models.Entities.BossModel.BossTransform
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.Entities.BossModel.BossTransform
+  nameWithType: BossModel.BossTransform
+- uid: StormHawks.Runtime.Models.Entities.BossModel.CurrentPath
+  name: CurrentPath
+  href: api/StormHawks.Runtime.Models.Entities.BossModel.html#StormHawks_Runtime_Models_Entities_BossModel_CurrentPath
+  commentId: P:StormHawks.Runtime.Models.Entities.BossModel.CurrentPath
+  fullName: StormHawks.Runtime.Models.Entities.BossModel.CurrentPath
+  nameWithType: BossModel.CurrentPath
+- uid: StormHawks.Runtime.Models.Entities.BossModel.CurrentPath*
+  name: CurrentPath
+  href: api/StormHawks.Runtime.Models.Entities.BossModel.html#StormHawks_Runtime_Models_Entities_BossModel_CurrentPath_
+  commentId: Overload:StormHawks.Runtime.Models.Entities.BossModel.CurrentPath
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.Entities.BossModel.CurrentPath
+  nameWithType: BossModel.CurrentPath
 - uid: StormHawks.Runtime.Models.Entities.BossModel.DisableWaypoints
   name: DisableWaypoints()
   href: api/StormHawks.Runtime.Models.Entities.BossModel.html#StormHawks_Runtime_Models_Entities_BossModel_DisableWaypoints
@@ -12814,6 +12920,45 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Models.Entities.BossModel.SetAggroTarget
   nameWithType: BossModel.SetAggroTarget
+- uid: StormHawks.Runtime.Models.Entities.BossModel.SetPath(BossPathModel)
+  name: SetPath(BossPathModel)
+  href: api/StormHawks.Runtime.Models.Entities.BossModel.html#StormHawks_Runtime_Models_Entities_BossModel_SetPath_BossPathModel_
+  commentId: M:StormHawks.Runtime.Models.Entities.BossModel.SetPath(BossPathModel)
+  fullName: StormHawks.Runtime.Models.Entities.BossModel.SetPath(BossPathModel)
+  nameWithType: BossModel.SetPath(BossPathModel)
+- uid: StormHawks.Runtime.Models.Entities.BossModel.SetPath*
+  name: SetPath
+  href: api/StormHawks.Runtime.Models.Entities.BossModel.html#StormHawks_Runtime_Models_Entities_BossModel_SetPath_
+  commentId: Overload:StormHawks.Runtime.Models.Entities.BossModel.SetPath
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.Entities.BossModel.SetPath
+  nameWithType: BossModel.SetPath
+- uid: StormHawks.Runtime.Models.Entities.BossModel.SetTransform(Transform)
+  name: SetTransform(Transform)
+  href: api/StormHawks.Runtime.Models.Entities.BossModel.html#StormHawks_Runtime_Models_Entities_BossModel_SetTransform_Transform_
+  commentId: M:StormHawks.Runtime.Models.Entities.BossModel.SetTransform(Transform)
+  fullName: StormHawks.Runtime.Models.Entities.BossModel.SetTransform(Transform)
+  nameWithType: BossModel.SetTransform(Transform)
+- uid: StormHawks.Runtime.Models.Entities.BossModel.SetTransform*
+  name: SetTransform
+  href: api/StormHawks.Runtime.Models.Entities.BossModel.html#StormHawks_Runtime_Models_Entities_BossModel_SetTransform_
+  commentId: Overload:StormHawks.Runtime.Models.Entities.BossModel.SetTransform
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.Entities.BossModel.SetTransform
+  nameWithType: BossModel.SetTransform
+- uid: StormHawks.Runtime.Models.Entities.BossModel.TakeDamage(System.Single)
+  name: TakeDamage(Single)
+  href: api/StormHawks.Runtime.Models.Entities.BossModel.html#StormHawks_Runtime_Models_Entities_BossModel_TakeDamage_System_Single_
+  commentId: M:StormHawks.Runtime.Models.Entities.BossModel.TakeDamage(System.Single)
+  fullName: StormHawks.Runtime.Models.Entities.BossModel.TakeDamage(System.Single)
+  nameWithType: BossModel.TakeDamage(Single)
+- uid: StormHawks.Runtime.Models.Entities.BossModel.TakeDamage*
+  name: TakeDamage
+  href: api/StormHawks.Runtime.Models.Entities.BossModel.html#StormHawks_Runtime_Models_Entities_BossModel_TakeDamage_
+  commentId: Overload:StormHawks.Runtime.Models.Entities.BossModel.TakeDamage
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.Entities.BossModel.TakeDamage
+  nameWithType: BossModel.TakeDamage
 - uid: StormHawks.Runtime.Models.Entities.BossModel.UpdatePosition(Vector3)
   name: UpdatePosition(Vector3)
   href: api/StormHawks.Runtime.Models.Entities.BossModel.html#StormHawks_Runtime_Models_Entities_BossModel_UpdatePosition_Vector3_
@@ -13074,6 +13219,86 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Models.Entities.SteeringEnemyModel.TakeDamage
   nameWithType: SteeringEnemyModel.TakeDamage
+- uid: StormHawks.Runtime.Models.Environments.Paths
+  name: StormHawks.Runtime.Models.Environments.Paths
+  href: api/StormHawks.Runtime.Models.Environments.Paths.html
+  commentId: N:StormHawks.Runtime.Models.Environments.Paths
+  fullName: StormHawks.Runtime.Models.Environments.Paths
+  nameWithType: StormHawks.Runtime.Models.Environments.Paths
+- uid: StormHawks.Runtime.Models.Environments.Paths.BossPathModel
+  name: BossPathModel
+  href: api/StormHawks.Runtime.Models.Environments.Paths.BossPathModel.html
+  commentId: T:StormHawks.Runtime.Models.Environments.Paths.BossPathModel
+  fullName: StormHawks.Runtime.Models.Environments.Paths.BossPathModel
+  nameWithType: BossPathModel
+- uid: StormHawks.Runtime.Models.Environments.Paths.BossPathModel.#ctor(BossPathType,List{Vector3},System.Single,Ease)
+  name: BossPathModel(BossPathType, List<Vector3>, Single, Ease)
+  href: api/StormHawks.Runtime.Models.Environments.Paths.BossPathModel.html#StormHawks_Runtime_Models_Environments_Paths_BossPathModel__ctor_BossPathType_List_Vector3__System_Single_Ease_
+  commentId: M:StormHawks.Runtime.Models.Environments.Paths.BossPathModel.#ctor(BossPathType,List{Vector3},System.Single,Ease)
+  name.vb: BossPathModel(BossPathType, List(Of Vector3), Single, Ease)
+  fullName: StormHawks.Runtime.Models.Environments.Paths.BossPathModel.BossPathModel(BossPathType, List<Vector3>, System.Single, Ease)
+  fullName.vb: StormHawks.Runtime.Models.Environments.Paths.BossPathModel.BossPathModel(BossPathType, List(Of Vector3), System.Single, Ease)
+  nameWithType: BossPathModel.BossPathModel(BossPathType, List<Vector3>, Single, Ease)
+  nameWithType.vb: BossPathModel.BossPathModel(BossPathType, List(Of Vector3), Single, Ease)
+- uid: StormHawks.Runtime.Models.Environments.Paths.BossPathModel.#ctor*
+  name: BossPathModel
+  href: api/StormHawks.Runtime.Models.Environments.Paths.BossPathModel.html#StormHawks_Runtime_Models_Environments_Paths_BossPathModel__ctor_
+  commentId: Overload:StormHawks.Runtime.Models.Environments.Paths.BossPathModel.#ctor
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.Environments.Paths.BossPathModel.BossPathModel
+  nameWithType: BossPathModel.BossPathModel
+- uid: StormHawks.Runtime.Models.Environments.Paths.BossPathModel.Duration
+  name: Duration
+  href: api/StormHawks.Runtime.Models.Environments.Paths.BossPathModel.html#StormHawks_Runtime_Models_Environments_Paths_BossPathModel_Duration
+  commentId: P:StormHawks.Runtime.Models.Environments.Paths.BossPathModel.Duration
+  fullName: StormHawks.Runtime.Models.Environments.Paths.BossPathModel.Duration
+  nameWithType: BossPathModel.Duration
+- uid: StormHawks.Runtime.Models.Environments.Paths.BossPathModel.Duration*
+  name: Duration
+  href: api/StormHawks.Runtime.Models.Environments.Paths.BossPathModel.html#StormHawks_Runtime_Models_Environments_Paths_BossPathModel_Duration_
+  commentId: Overload:StormHawks.Runtime.Models.Environments.Paths.BossPathModel.Duration
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.Environments.Paths.BossPathModel.Duration
+  nameWithType: BossPathModel.Duration
+- uid: StormHawks.Runtime.Models.Environments.Paths.BossPathModel.EaseType
+  name: EaseType
+  href: api/StormHawks.Runtime.Models.Environments.Paths.BossPathModel.html#StormHawks_Runtime_Models_Environments_Paths_BossPathModel_EaseType
+  commentId: P:StormHawks.Runtime.Models.Environments.Paths.BossPathModel.EaseType
+  fullName: StormHawks.Runtime.Models.Environments.Paths.BossPathModel.EaseType
+  nameWithType: BossPathModel.EaseType
+- uid: StormHawks.Runtime.Models.Environments.Paths.BossPathModel.EaseType*
+  name: EaseType
+  href: api/StormHawks.Runtime.Models.Environments.Paths.BossPathModel.html#StormHawks_Runtime_Models_Environments_Paths_BossPathModel_EaseType_
+  commentId: Overload:StormHawks.Runtime.Models.Environments.Paths.BossPathModel.EaseType
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.Environments.Paths.BossPathModel.EaseType
+  nameWithType: BossPathModel.EaseType
+- uid: StormHawks.Runtime.Models.Environments.Paths.BossPathModel.PathType
+  name: PathType
+  href: api/StormHawks.Runtime.Models.Environments.Paths.BossPathModel.html#StormHawks_Runtime_Models_Environments_Paths_BossPathModel_PathType
+  commentId: P:StormHawks.Runtime.Models.Environments.Paths.BossPathModel.PathType
+  fullName: StormHawks.Runtime.Models.Environments.Paths.BossPathModel.PathType
+  nameWithType: BossPathModel.PathType
+- uid: StormHawks.Runtime.Models.Environments.Paths.BossPathModel.PathType*
+  name: PathType
+  href: api/StormHawks.Runtime.Models.Environments.Paths.BossPathModel.html#StormHawks_Runtime_Models_Environments_Paths_BossPathModel_PathType_
+  commentId: Overload:StormHawks.Runtime.Models.Environments.Paths.BossPathModel.PathType
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.Environments.Paths.BossPathModel.PathType
+  nameWithType: BossPathModel.PathType
+- uid: StormHawks.Runtime.Models.Environments.Paths.BossPathModel.Waypoints
+  name: Waypoints
+  href: api/StormHawks.Runtime.Models.Environments.Paths.BossPathModel.html#StormHawks_Runtime_Models_Environments_Paths_BossPathModel_Waypoints
+  commentId: P:StormHawks.Runtime.Models.Environments.Paths.BossPathModel.Waypoints
+  fullName: StormHawks.Runtime.Models.Environments.Paths.BossPathModel.Waypoints
+  nameWithType: BossPathModel.Waypoints
+- uid: StormHawks.Runtime.Models.Environments.Paths.BossPathModel.Waypoints*
+  name: Waypoints
+  href: api/StormHawks.Runtime.Models.Environments.Paths.BossPathModel.html#StormHawks_Runtime_Models_Environments_Paths_BossPathModel_Waypoints_
+  commentId: Overload:StormHawks.Runtime.Models.Environments.Paths.BossPathModel.Waypoints
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.Environments.Paths.BossPathModel.Waypoints
+  nameWithType: BossPathModel.Waypoints
 - uid: StormHawks.Runtime.Models.Facilities
   name: StormHawks.Runtime.Models.Facilities
   href: api/StormHawks.Runtime.Models.Facilities.html
@@ -13426,54 +13651,6 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Models.GameFlows.Types.Actions.BossWaypointEnableFlow.OnExit
   nameWithType: BossWaypointEnableFlow.OnExit
-- uid: StormHawks.Runtime.Models.GameFlows.Types.Actions.CutScenePlayFlow
-  name: CutScenePlayFlow
-  href: api/StormHawks.Runtime.Models.GameFlows.Types.Actions.CutScenePlayFlow.html
-  commentId: T:StormHawks.Runtime.Models.GameFlows.Types.Actions.CutScenePlayFlow
-  fullName: StormHawks.Runtime.Models.GameFlows.Types.Actions.CutScenePlayFlow
-  nameWithType: CutScenePlayFlow
-- uid: StormHawks.Runtime.Models.GameFlows.Types.Actions.CutScenePlayFlow.#ctor(Func{CutSceneType,UniTask},CutSceneType)
-  name: CutScenePlayFlow(Func<CutSceneType, UniTask>, CutSceneType)
-  href: api/StormHawks.Runtime.Models.GameFlows.Types.Actions.CutScenePlayFlow.html#StormHawks_Runtime_Models_GameFlows_Types_Actions_CutScenePlayFlow__ctor_Func_CutSceneType_UniTask__CutSceneType_
-  commentId: M:StormHawks.Runtime.Models.GameFlows.Types.Actions.CutScenePlayFlow.#ctor(Func{CutSceneType,UniTask},CutSceneType)
-  name.vb: CutScenePlayFlow(Func(Of CutSceneType, UniTask), CutSceneType)
-  fullName: StormHawks.Runtime.Models.GameFlows.Types.Actions.CutScenePlayFlow.CutScenePlayFlow(Func<CutSceneType, UniTask>, CutSceneType)
-  fullName.vb: StormHawks.Runtime.Models.GameFlows.Types.Actions.CutScenePlayFlow.CutScenePlayFlow(Func(Of CutSceneType, UniTask), CutSceneType)
-  nameWithType: CutScenePlayFlow.CutScenePlayFlow(Func<CutSceneType, UniTask>, CutSceneType)
-  nameWithType.vb: CutScenePlayFlow.CutScenePlayFlow(Func(Of CutSceneType, UniTask), CutSceneType)
-- uid: StormHawks.Runtime.Models.GameFlows.Types.Actions.CutScenePlayFlow.#ctor*
-  name: CutScenePlayFlow
-  href: api/StormHawks.Runtime.Models.GameFlows.Types.Actions.CutScenePlayFlow.html#StormHawks_Runtime_Models_GameFlows_Types_Actions_CutScenePlayFlow__ctor_
-  commentId: Overload:StormHawks.Runtime.Models.GameFlows.Types.Actions.CutScenePlayFlow.#ctor
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Models.GameFlows.Types.Actions.CutScenePlayFlow.CutScenePlayFlow
-  nameWithType: CutScenePlayFlow.CutScenePlayFlow
-- uid: StormHawks.Runtime.Models.GameFlows.Types.Actions.CutScenePlayFlow.OnEnter
-  name: OnEnter()
-  href: api/StormHawks.Runtime.Models.GameFlows.Types.Actions.CutScenePlayFlow.html#StormHawks_Runtime_Models_GameFlows_Types_Actions_CutScenePlayFlow_OnEnter
-  commentId: M:StormHawks.Runtime.Models.GameFlows.Types.Actions.CutScenePlayFlow.OnEnter
-  fullName: StormHawks.Runtime.Models.GameFlows.Types.Actions.CutScenePlayFlow.OnEnter()
-  nameWithType: CutScenePlayFlow.OnEnter()
-- uid: StormHawks.Runtime.Models.GameFlows.Types.Actions.CutScenePlayFlow.OnEnter*
-  name: OnEnter
-  href: api/StormHawks.Runtime.Models.GameFlows.Types.Actions.CutScenePlayFlow.html#StormHawks_Runtime_Models_GameFlows_Types_Actions_CutScenePlayFlow_OnEnter_
-  commentId: Overload:StormHawks.Runtime.Models.GameFlows.Types.Actions.CutScenePlayFlow.OnEnter
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Models.GameFlows.Types.Actions.CutScenePlayFlow.OnEnter
-  nameWithType: CutScenePlayFlow.OnEnter
-- uid: StormHawks.Runtime.Models.GameFlows.Types.Actions.CutScenePlayFlow.OnExit
-  name: OnExit()
-  href: api/StormHawks.Runtime.Models.GameFlows.Types.Actions.CutScenePlayFlow.html#StormHawks_Runtime_Models_GameFlows_Types_Actions_CutScenePlayFlow_OnExit
-  commentId: M:StormHawks.Runtime.Models.GameFlows.Types.Actions.CutScenePlayFlow.OnExit
-  fullName: StormHawks.Runtime.Models.GameFlows.Types.Actions.CutScenePlayFlow.OnExit()
-  nameWithType: CutScenePlayFlow.OnExit()
-- uid: StormHawks.Runtime.Models.GameFlows.Types.Actions.CutScenePlayFlow.OnExit*
-  name: OnExit
-  href: api/StormHawks.Runtime.Models.GameFlows.Types.Actions.CutScenePlayFlow.html#StormHawks_Runtime_Models_GameFlows_Types_Actions_CutScenePlayFlow_OnExit_
-  commentId: Overload:StormHawks.Runtime.Models.GameFlows.Types.Actions.CutScenePlayFlow.OnExit
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Models.GameFlows.Types.Actions.CutScenePlayFlow.OnExit
-  nameWithType: CutScenePlayFlow.OnExit
 - uid: StormHawks.Runtime.Models.GameFlows.Types.Actions.FacilityEnableFlow
   name: FacilityEnableFlow
   href: api/StormHawks.Runtime.Models.GameFlows.Types.Actions.FacilityEnableFlow.html
@@ -13564,6 +13741,131 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Models.GameFlows.Types.Actions.LogFlow.OnExit
   nameWithType: LogFlow.OnExit
+- uid: StormHawks.Runtime.Models.GameFlows.Types.Actions.WaitUntilBossPathFollowFlow
+  name: WaitUntilBossPathFollowFlow
+  href: api/StormHawks.Runtime.Models.GameFlows.Types.Actions.WaitUntilBossPathFollowFlow.html
+  commentId: T:StormHawks.Runtime.Models.GameFlows.Types.Actions.WaitUntilBossPathFollowFlow
+  fullName: StormHawks.Runtime.Models.GameFlows.Types.Actions.WaitUntilBossPathFollowFlow
+  nameWithType: WaitUntilBossPathFollowFlow
+- uid: StormHawks.Runtime.Models.GameFlows.Types.Actions.WaitUntilBossPathFollowFlow.#ctor(BossModel,BossPathModel)
+  name: WaitUntilBossPathFollowFlow(BossModel, BossPathModel)
+  href: api/StormHawks.Runtime.Models.GameFlows.Types.Actions.WaitUntilBossPathFollowFlow.html#StormHawks_Runtime_Models_GameFlows_Types_Actions_WaitUntilBossPathFollowFlow__ctor_BossModel_BossPathModel_
+  commentId: M:StormHawks.Runtime.Models.GameFlows.Types.Actions.WaitUntilBossPathFollowFlow.#ctor(BossModel,BossPathModel)
+  fullName: StormHawks.Runtime.Models.GameFlows.Types.Actions.WaitUntilBossPathFollowFlow.WaitUntilBossPathFollowFlow(BossModel, BossPathModel)
+  nameWithType: WaitUntilBossPathFollowFlow.WaitUntilBossPathFollowFlow(BossModel, BossPathModel)
+- uid: StormHawks.Runtime.Models.GameFlows.Types.Actions.WaitUntilBossPathFollowFlow.#ctor*
+  name: WaitUntilBossPathFollowFlow
+  href: api/StormHawks.Runtime.Models.GameFlows.Types.Actions.WaitUntilBossPathFollowFlow.html#StormHawks_Runtime_Models_GameFlows_Types_Actions_WaitUntilBossPathFollowFlow__ctor_
+  commentId: Overload:StormHawks.Runtime.Models.GameFlows.Types.Actions.WaitUntilBossPathFollowFlow.#ctor
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.GameFlows.Types.Actions.WaitUntilBossPathFollowFlow.WaitUntilBossPathFollowFlow
+  nameWithType: WaitUntilBossPathFollowFlow.WaitUntilBossPathFollowFlow
+- uid: StormHawks.Runtime.Models.GameFlows.Types.Actions.WaitUntilBossPathFollowFlow.OnEnter
+  name: OnEnter()
+  href: api/StormHawks.Runtime.Models.GameFlows.Types.Actions.WaitUntilBossPathFollowFlow.html#StormHawks_Runtime_Models_GameFlows_Types_Actions_WaitUntilBossPathFollowFlow_OnEnter
+  commentId: M:StormHawks.Runtime.Models.GameFlows.Types.Actions.WaitUntilBossPathFollowFlow.OnEnter
+  fullName: StormHawks.Runtime.Models.GameFlows.Types.Actions.WaitUntilBossPathFollowFlow.OnEnter()
+  nameWithType: WaitUntilBossPathFollowFlow.OnEnter()
+- uid: StormHawks.Runtime.Models.GameFlows.Types.Actions.WaitUntilBossPathFollowFlow.OnEnter*
+  name: OnEnter
+  href: api/StormHawks.Runtime.Models.GameFlows.Types.Actions.WaitUntilBossPathFollowFlow.html#StormHawks_Runtime_Models_GameFlows_Types_Actions_WaitUntilBossPathFollowFlow_OnEnter_
+  commentId: Overload:StormHawks.Runtime.Models.GameFlows.Types.Actions.WaitUntilBossPathFollowFlow.OnEnter
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.GameFlows.Types.Actions.WaitUntilBossPathFollowFlow.OnEnter
+  nameWithType: WaitUntilBossPathFollowFlow.OnEnter
+- uid: StormHawks.Runtime.Models.GameFlows.Types.Actions.WaitUntilBossPathFollowFlow.OnExit
+  name: OnExit()
+  href: api/StormHawks.Runtime.Models.GameFlows.Types.Actions.WaitUntilBossPathFollowFlow.html#StormHawks_Runtime_Models_GameFlows_Types_Actions_WaitUntilBossPathFollowFlow_OnExit
+  commentId: M:StormHawks.Runtime.Models.GameFlows.Types.Actions.WaitUntilBossPathFollowFlow.OnExit
+  fullName: StormHawks.Runtime.Models.GameFlows.Types.Actions.WaitUntilBossPathFollowFlow.OnExit()
+  nameWithType: WaitUntilBossPathFollowFlow.OnExit()
+- uid: StormHawks.Runtime.Models.GameFlows.Types.Actions.WaitUntilBossPathFollowFlow.OnExit*
+  name: OnExit
+  href: api/StormHawks.Runtime.Models.GameFlows.Types.Actions.WaitUntilBossPathFollowFlow.html#StormHawks_Runtime_Models_GameFlows_Types_Actions_WaitUntilBossPathFollowFlow_OnExit_
+  commentId: Overload:StormHawks.Runtime.Models.GameFlows.Types.Actions.WaitUntilBossPathFollowFlow.OnExit
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.GameFlows.Types.Actions.WaitUntilBossPathFollowFlow.OnExit
+  nameWithType: WaitUntilBossPathFollowFlow.OnExit
+- uid: StormHawks.Runtime.Models.GameFlows.Types.Actions.WaitUntilBossPathFollowFlow.Run
+  name: Run()
+  href: api/StormHawks.Runtime.Models.GameFlows.Types.Actions.WaitUntilBossPathFollowFlow.html#StormHawks_Runtime_Models_GameFlows_Types_Actions_WaitUntilBossPathFollowFlow_Run
+  commentId: M:StormHawks.Runtime.Models.GameFlows.Types.Actions.WaitUntilBossPathFollowFlow.Run
+  fullName: StormHawks.Runtime.Models.GameFlows.Types.Actions.WaitUntilBossPathFollowFlow.Run()
+  nameWithType: WaitUntilBossPathFollowFlow.Run()
+- uid: StormHawks.Runtime.Models.GameFlows.Types.Actions.WaitUntilBossPathFollowFlow.Run*
+  name: Run
+  href: api/StormHawks.Runtime.Models.GameFlows.Types.Actions.WaitUntilBossPathFollowFlow.html#StormHawks_Runtime_Models_GameFlows_Types_Actions_WaitUntilBossPathFollowFlow_Run_
+  commentId: Overload:StormHawks.Runtime.Models.GameFlows.Types.Actions.WaitUntilBossPathFollowFlow.Run
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.GameFlows.Types.Actions.WaitUntilBossPathFollowFlow.Run
+  nameWithType: WaitUntilBossPathFollowFlow.Run
+- uid: StormHawks.Runtime.Models.GameFlows.Types.Waiters
+  name: StormHawks.Runtime.Models.GameFlows.Types.Waiters
+  href: api/StormHawks.Runtime.Models.GameFlows.Types.Waiters.html
+  commentId: N:StormHawks.Runtime.Models.GameFlows.Types.Waiters
+  fullName: StormHawks.Runtime.Models.GameFlows.Types.Waiters
+  nameWithType: StormHawks.Runtime.Models.GameFlows.Types.Waiters
+- uid: StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitUntilCutSceneCompletedFlow
+  name: WaitUntilCutSceneCompletedFlow
+  href: api/StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitUntilCutSceneCompletedFlow.html
+  commentId: T:StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitUntilCutSceneCompletedFlow
+  fullName: StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitUntilCutSceneCompletedFlow
+  nameWithType: WaitUntilCutSceneCompletedFlow
+- uid: StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitUntilCutSceneCompletedFlow.#ctor(Func{CutSceneType,UniTask},CutSceneType,Func{UniTask},SequenceGameFlow)
+  name: WaitUntilCutSceneCompletedFlow(Func<CutSceneType, UniTask>, CutSceneType, Func<UniTask>, SequenceGameFlow)
+  href: api/StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitUntilCutSceneCompletedFlow.html#StormHawks_Runtime_Models_GameFlows_Types_Waiters_WaitUntilCutSceneCompletedFlow__ctor_Func_CutSceneType_UniTask__CutSceneType_Func_UniTask__SequenceGameFlow_
+  commentId: M:StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitUntilCutSceneCompletedFlow.#ctor(Func{CutSceneType,UniTask},CutSceneType,Func{UniTask},SequenceGameFlow)
+  name.vb: WaitUntilCutSceneCompletedFlow(Func(Of CutSceneType, UniTask), CutSceneType, Func(Of UniTask), SequenceGameFlow)
+  fullName: StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitUntilCutSceneCompletedFlow.WaitUntilCutSceneCompletedFlow(Func<CutSceneType, UniTask>, CutSceneType, Func<UniTask>, SequenceGameFlow)
+  fullName.vb: StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitUntilCutSceneCompletedFlow.WaitUntilCutSceneCompletedFlow(Func(Of CutSceneType, UniTask), CutSceneType, Func(Of UniTask), SequenceGameFlow)
+  nameWithType: WaitUntilCutSceneCompletedFlow.WaitUntilCutSceneCompletedFlow(Func<CutSceneType, UniTask>, CutSceneType, Func<UniTask>, SequenceGameFlow)
+  nameWithType.vb: WaitUntilCutSceneCompletedFlow.WaitUntilCutSceneCompletedFlow(Func(Of CutSceneType, UniTask), CutSceneType, Func(Of UniTask), SequenceGameFlow)
+- uid: StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitUntilCutSceneCompletedFlow.#ctor*
+  name: WaitUntilCutSceneCompletedFlow
+  href: api/StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitUntilCutSceneCompletedFlow.html#StormHawks_Runtime_Models_GameFlows_Types_Waiters_WaitUntilCutSceneCompletedFlow__ctor_
+  commentId: Overload:StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitUntilCutSceneCompletedFlow.#ctor
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitUntilCutSceneCompletedFlow.WaitUntilCutSceneCompletedFlow
+  nameWithType: WaitUntilCutSceneCompletedFlow.WaitUntilCutSceneCompletedFlow
+- uid: StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitUntilCutSceneCompletedFlow.OnEnter
+  name: OnEnter()
+  href: api/StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitUntilCutSceneCompletedFlow.html#StormHawks_Runtime_Models_GameFlows_Types_Waiters_WaitUntilCutSceneCompletedFlow_OnEnter
+  commentId: M:StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitUntilCutSceneCompletedFlow.OnEnter
+  fullName: StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitUntilCutSceneCompletedFlow.OnEnter()
+  nameWithType: WaitUntilCutSceneCompletedFlow.OnEnter()
+- uid: StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitUntilCutSceneCompletedFlow.OnEnter*
+  name: OnEnter
+  href: api/StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitUntilCutSceneCompletedFlow.html#StormHawks_Runtime_Models_GameFlows_Types_Waiters_WaitUntilCutSceneCompletedFlow_OnEnter_
+  commentId: Overload:StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitUntilCutSceneCompletedFlow.OnEnter
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitUntilCutSceneCompletedFlow.OnEnter
+  nameWithType: WaitUntilCutSceneCompletedFlow.OnEnter
+- uid: StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitUntilCutSceneCompletedFlow.OnExit
+  name: OnExit()
+  href: api/StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitUntilCutSceneCompletedFlow.html#StormHawks_Runtime_Models_GameFlows_Types_Waiters_WaitUntilCutSceneCompletedFlow_OnExit
+  commentId: M:StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitUntilCutSceneCompletedFlow.OnExit
+  fullName: StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitUntilCutSceneCompletedFlow.OnExit()
+  nameWithType: WaitUntilCutSceneCompletedFlow.OnExit()
+- uid: StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitUntilCutSceneCompletedFlow.OnExit*
+  name: OnExit
+  href: api/StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitUntilCutSceneCompletedFlow.html#StormHawks_Runtime_Models_GameFlows_Types_Waiters_WaitUntilCutSceneCompletedFlow_OnExit_
+  commentId: Overload:StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitUntilCutSceneCompletedFlow.OnExit
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitUntilCutSceneCompletedFlow.OnExit
+  nameWithType: WaitUntilCutSceneCompletedFlow.OnExit
+- uid: StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitUntilCutSceneCompletedFlow.Run
+  name: Run()
+  href: api/StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitUntilCutSceneCompletedFlow.html#StormHawks_Runtime_Models_GameFlows_Types_Waiters_WaitUntilCutSceneCompletedFlow_Run
+  commentId: M:StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitUntilCutSceneCompletedFlow.Run
+  fullName: StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitUntilCutSceneCompletedFlow.Run()
+  nameWithType: WaitUntilCutSceneCompletedFlow.Run()
+- uid: StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitUntilCutSceneCompletedFlow.Run*
+  name: Run
+  href: api/StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitUntilCutSceneCompletedFlow.html#StormHawks_Runtime_Models_GameFlows_Types_Waiters_WaitUntilCutSceneCompletedFlow_Run_
+  commentId: Overload:StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitUntilCutSceneCompletedFlow.Run
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitUntilCutSceneCompletedFlow.Run
+  nameWithType: WaitUntilCutSceneCompletedFlow.Run
 - uid: StormHawks.Runtime.Models.GameFlows.Types.WaitUntilGameFlow
   name: WaitUntilGameFlow
   href: api/StormHawks.Runtime.Models.GameFlows.Types.WaitUntilGameFlow.html
@@ -17409,19 +17711,6 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Presenters.Bosses.BossEye.AggroTargetCollider
   nameWithType: BossEye.AggroTargetCollider
-- uid: StormHawks.Runtime.Presenters.Bosses.BossEye.DetectAggroTarget
-  name: DetectAggroTarget()
-  href: api/StormHawks.Runtime.Presenters.Bosses.BossEye.html#StormHawks_Runtime_Presenters_Bosses_BossEye_DetectAggroTarget
-  commentId: M:StormHawks.Runtime.Presenters.Bosses.BossEye.DetectAggroTarget
-  fullName: StormHawks.Runtime.Presenters.Bosses.BossEye.DetectAggroTarget()
-  nameWithType: BossEye.DetectAggroTarget()
-- uid: StormHawks.Runtime.Presenters.Bosses.BossEye.DetectAggroTarget*
-  name: DetectAggroTarget
-  href: api/StormHawks.Runtime.Presenters.Bosses.BossEye.html#StormHawks_Runtime_Presenters_Bosses_BossEye_DetectAggroTarget_
-  commentId: Overload:StormHawks.Runtime.Presenters.Bosses.BossEye.DetectAggroTarget
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Presenters.Bosses.BossEye.DetectAggroTarget
-  nameWithType: BossEye.DetectAggroTarget
 - uid: StormHawks.Runtime.Presenters.Bosses.BossEye.GetAggroTarget
   name: GetAggroTarget()
   href: api/StormHawks.Runtime.Presenters.Bosses.BossEye.html#StormHawks_Runtime_Presenters_Bosses_BossEye_GetAggroTarget
@@ -17493,6 +17782,19 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Presenters.Bosses.BossPresenter.OnAggressive
   nameWithType: BossPresenter.OnAggressive
+- uid: StormHawks.Runtime.Presenters.Bosses.BossPresenter.OnDamaged
+  name: OnDamaged
+  href: api/StormHawks.Runtime.Presenters.Bosses.BossPresenter.html#StormHawks_Runtime_Presenters_Bosses_BossPresenter_OnDamaged
+  commentId: P:StormHawks.Runtime.Presenters.Bosses.BossPresenter.OnDamaged
+  fullName: StormHawks.Runtime.Presenters.Bosses.BossPresenter.OnDamaged
+  nameWithType: BossPresenter.OnDamaged
+- uid: StormHawks.Runtime.Presenters.Bosses.BossPresenter.OnDamaged*
+  name: OnDamaged
+  href: api/StormHawks.Runtime.Presenters.Bosses.BossPresenter.html#StormHawks_Runtime_Presenters_Bosses_BossPresenter_OnDamaged_
+  commentId: Overload:StormHawks.Runtime.Presenters.Bosses.BossPresenter.OnDamaged
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.Bosses.BossPresenter.OnDamaged
+  nameWithType: BossPresenter.OnDamaged
 - uid: StormHawks.Runtime.Presenters.Bosses.BossPresenter.Position
   name: Position
   href: api/StormHawks.Runtime.Presenters.Bosses.BossPresenter.html#StormHawks_Runtime_Presenters_Bosses_BossPresenter_Position
@@ -17535,6 +17837,19 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Presenters.Bosses.BossPresenter.SetAggroTarget
   nameWithType: BossPresenter.SetAggroTarget
+- uid: StormHawks.Runtime.Presenters.Bosses.BossPresenter.TakeDamage(Damage)
+  name: TakeDamage(Damage)
+  href: api/StormHawks.Runtime.Presenters.Bosses.BossPresenter.html#StormHawks_Runtime_Presenters_Bosses_BossPresenter_TakeDamage_Damage_
+  commentId: M:StormHawks.Runtime.Presenters.Bosses.BossPresenter.TakeDamage(Damage)
+  fullName: StormHawks.Runtime.Presenters.Bosses.BossPresenter.TakeDamage(Damage)
+  nameWithType: BossPresenter.TakeDamage(Damage)
+- uid: StormHawks.Runtime.Presenters.Bosses.BossPresenter.TakeDamage*
+  name: TakeDamage
+  href: api/StormHawks.Runtime.Presenters.Bosses.BossPresenter.html#StormHawks_Runtime_Presenters_Bosses_BossPresenter_TakeDamage_
+  commentId: Overload:StormHawks.Runtime.Presenters.Bosses.BossPresenter.TakeDamage
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.Bosses.BossPresenter.TakeDamage
+  nameWithType: BossPresenter.TakeDamage
 - uid: StormHawks.Runtime.Presenters.Bosses.BossPresenter.Transform
   name: Transform
   href: api/StormHawks.Runtime.Presenters.Bosses.BossPresenter.html#StormHawks_Runtime_Presenters_Bosses_BossPresenter_Transform
@@ -17567,19 +17882,19 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Presenters.CutSceneLoader.CutSceneLoader
   nameWithType: CutSceneLoader.CutSceneLoader
-- uid: StormHawks.Runtime.Presenters.CutSceneLoader.PlayNext(CutSceneType)
-  name: PlayNext(CutSceneType)
-  href: api/StormHawks.Runtime.Presenters.CutSceneLoader.html#StormHawks_Runtime_Presenters_CutSceneLoader_PlayNext_CutSceneType_
-  commentId: M:StormHawks.Runtime.Presenters.CutSceneLoader.PlayNext(CutSceneType)
-  fullName: StormHawks.Runtime.Presenters.CutSceneLoader.PlayNext(CutSceneType)
-  nameWithType: CutSceneLoader.PlayNext(CutSceneType)
-- uid: StormHawks.Runtime.Presenters.CutSceneLoader.PlayNext*
-  name: PlayNext
-  href: api/StormHawks.Runtime.Presenters.CutSceneLoader.html#StormHawks_Runtime_Presenters_CutSceneLoader_PlayNext_
-  commentId: Overload:StormHawks.Runtime.Presenters.CutSceneLoader.PlayNext
+- uid: StormHawks.Runtime.Presenters.CutSceneLoader.Play(CutSceneType)
+  name: Play(CutSceneType)
+  href: api/StormHawks.Runtime.Presenters.CutSceneLoader.html#StormHawks_Runtime_Presenters_CutSceneLoader_Play_CutSceneType_
+  commentId: M:StormHawks.Runtime.Presenters.CutSceneLoader.Play(CutSceneType)
+  fullName: StormHawks.Runtime.Presenters.CutSceneLoader.Play(CutSceneType)
+  nameWithType: CutSceneLoader.Play(CutSceneType)
+- uid: StormHawks.Runtime.Presenters.CutSceneLoader.Play*
+  name: Play
+  href: api/StormHawks.Runtime.Presenters.CutSceneLoader.html#StormHawks_Runtime_Presenters_CutSceneLoader_Play_
+  commentId: Overload:StormHawks.Runtime.Presenters.CutSceneLoader.Play
   isSpec: "True"
-  fullName: StormHawks.Runtime.Presenters.CutSceneLoader.PlayNext
-  nameWithType: CutSceneLoader.PlayNext
+  fullName: StormHawks.Runtime.Presenters.CutSceneLoader.Play
+  nameWithType: CutSceneLoader.Play
 - uid: StormHawks.Runtime.Presenters.CutSceneLoader.StartAsync(CancellationToken)
   name: StartAsync(CancellationToken)
   href: api/StormHawks.Runtime.Presenters.CutSceneLoader.html#StormHawks_Runtime_Presenters_CutSceneLoader_StartAsync_CancellationToken_
@@ -17593,6 +17908,19 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Presenters.CutSceneLoader.StartAsync
   nameWithType: CutSceneLoader.StartAsync
+- uid: StormHawks.Runtime.Presenters.CutSceneLoader.WaitCutSceneCompleted
+  name: WaitCutSceneCompleted()
+  href: api/StormHawks.Runtime.Presenters.CutSceneLoader.html#StormHawks_Runtime_Presenters_CutSceneLoader_WaitCutSceneCompleted
+  commentId: M:StormHawks.Runtime.Presenters.CutSceneLoader.WaitCutSceneCompleted
+  fullName: StormHawks.Runtime.Presenters.CutSceneLoader.WaitCutSceneCompleted()
+  nameWithType: CutSceneLoader.WaitCutSceneCompleted()
+- uid: StormHawks.Runtime.Presenters.CutSceneLoader.WaitCutSceneCompleted*
+  name: WaitCutSceneCompleted
+  href: api/StormHawks.Runtime.Presenters.CutSceneLoader.html#StormHawks_Runtime_Presenters_CutSceneLoader_WaitCutSceneCompleted_
+  commentId: Overload:StormHawks.Runtime.Presenters.CutSceneLoader.WaitCutSceneCompleted
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.CutSceneLoader.WaitCutSceneCompleted
+  nameWithType: CutSceneLoader.WaitCutSceneCompleted
 - uid: StormHawks.Runtime.Presenters.Entities
   name: StormHawks.Runtime.Presenters.Entities
   href: api/StormHawks.Runtime.Presenters.Entities.html
@@ -18726,15 +19054,15 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Presenters.Environments.BattleArea.BattleAreaPresenter.Construct
   nameWithType: BattleAreaPresenter.Construct
-- uid: StormHawks.Runtime.Presenters.Environments.BattleArea.BattleAreaPresenter.CreateNewGroupOrNull(List{IEnemyGroupMemberRx},List{IPathFollower})
-  name: CreateNewGroupOrNull(List<IEnemyGroupMemberRx>, List<IPathFollower>)
-  href: api/StormHawks.Runtime.Presenters.Environments.BattleArea.BattleAreaPresenter.html#StormHawks_Runtime_Presenters_Environments_BattleArea_BattleAreaPresenter_CreateNewGroupOrNull_List_IEnemyGroupMemberRx__List_IPathFollower__
-  commentId: M:StormHawks.Runtime.Presenters.Environments.BattleArea.BattleAreaPresenter.CreateNewGroupOrNull(List{IEnemyGroupMemberRx},List{IPathFollower})
-  name.vb: CreateNewGroupOrNull(List(Of IEnemyGroupMemberRx), List(Of IPathFollower))
-  fullName: StormHawks.Runtime.Presenters.Environments.BattleArea.BattleAreaPresenter.CreateNewGroupOrNull(List<IEnemyGroupMemberRx>, List<IPathFollower>)
-  fullName.vb: StormHawks.Runtime.Presenters.Environments.BattleArea.BattleAreaPresenter.CreateNewGroupOrNull(List(Of IEnemyGroupMemberRx), List(Of IPathFollower))
-  nameWithType: BattleAreaPresenter.CreateNewGroupOrNull(List<IEnemyGroupMemberRx>, List<IPathFollower>)
-  nameWithType.vb: BattleAreaPresenter.CreateNewGroupOrNull(List(Of IEnemyGroupMemberRx), List(Of IPathFollower))
+- uid: StormHawks.Runtime.Presenters.Environments.BattleArea.BattleAreaPresenter.CreateNewGroupOrNull(List{IEnemyGroupMemberRx},List{IBattleAreaPathFollower})
+  name: CreateNewGroupOrNull(List<IEnemyGroupMemberRx>, List<IBattleAreaPathFollower>)
+  href: api/StormHawks.Runtime.Presenters.Environments.BattleArea.BattleAreaPresenter.html#StormHawks_Runtime_Presenters_Environments_BattleArea_BattleAreaPresenter_CreateNewGroupOrNull_List_IEnemyGroupMemberRx__List_IBattleAreaPathFollower__
+  commentId: M:StormHawks.Runtime.Presenters.Environments.BattleArea.BattleAreaPresenter.CreateNewGroupOrNull(List{IEnemyGroupMemberRx},List{IBattleAreaPathFollower})
+  name.vb: CreateNewGroupOrNull(List(Of IEnemyGroupMemberRx), List(Of IBattleAreaPathFollower))
+  fullName: StormHawks.Runtime.Presenters.Environments.BattleArea.BattleAreaPresenter.CreateNewGroupOrNull(List<IEnemyGroupMemberRx>, List<IBattleAreaPathFollower>)
+  fullName.vb: StormHawks.Runtime.Presenters.Environments.BattleArea.BattleAreaPresenter.CreateNewGroupOrNull(List(Of IEnemyGroupMemberRx), List(Of IBattleAreaPathFollower))
+  nameWithType: BattleAreaPresenter.CreateNewGroupOrNull(List<IEnemyGroupMemberRx>, List<IBattleAreaPathFollower>)
+  nameWithType.vb: BattleAreaPresenter.CreateNewGroupOrNull(List(Of IEnemyGroupMemberRx), List(Of IBattleAreaPathFollower))
 - uid: StormHawks.Runtime.Presenters.Environments.BattleArea.BattleAreaPresenter.CreateNewGroupOrNull*
   name: CreateNewGroupOrNull
   href: api/StormHawks.Runtime.Presenters.Environments.BattleArea.BattleAreaPresenter.html#StormHawks_Runtime_Presenters_Environments_BattleArea_BattleAreaPresenter_CreateNewGroupOrNull_
@@ -18761,21 +19089,40 @@ references:
   commentId: N:StormHawks.Runtime.Presenters.Environments.Paths
   fullName: StormHawks.Runtime.Presenters.Environments.Paths
   nameWithType: StormHawks.Runtime.Presenters.Environments.Paths
+- uid: StormHawks.Runtime.Presenters.Environments.Paths.BossPath
+  name: BossPath
+  href: api/StormHawks.Runtime.Presenters.Environments.Paths.BossPath.html
+  commentId: T:StormHawks.Runtime.Presenters.Environments.Paths.BossPath
+  fullName: StormHawks.Runtime.Presenters.Environments.Paths.BossPath
+  nameWithType: BossPath
+- uid: StormHawks.Runtime.Presenters.Environments.Paths.BossPath.Model
+  name: Model
+  href: api/StormHawks.Runtime.Presenters.Environments.Paths.BossPath.html#StormHawks_Runtime_Presenters_Environments_Paths_BossPath_Model
+  commentId: P:StormHawks.Runtime.Presenters.Environments.Paths.BossPath.Model
+  fullName: StormHawks.Runtime.Presenters.Environments.Paths.BossPath.Model
+  nameWithType: BossPath.Model
+- uid: StormHawks.Runtime.Presenters.Environments.Paths.BossPath.Model*
+  name: Model
+  href: api/StormHawks.Runtime.Presenters.Environments.Paths.BossPath.html#StormHawks_Runtime_Presenters_Environments_Paths_BossPath_Model_
+  commentId: Overload:StormHawks.Runtime.Presenters.Environments.Paths.BossPath.Model
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.Environments.Paths.BossPath.Model
+  nameWithType: BossPath.Model
 - uid: StormHawks.Runtime.Presenters.Environments.Paths.EnemyPath
   name: EnemyPath
   href: api/StormHawks.Runtime.Presenters.Environments.Paths.EnemyPath.html
   commentId: T:StormHawks.Runtime.Presenters.Environments.Paths.EnemyPath
   fullName: StormHawks.Runtime.Presenters.Environments.Paths.EnemyPath
   nameWithType: EnemyPath
-- uid: StormHawks.Runtime.Presenters.Environments.Paths.EnemyPath.AddFollowers(List{IPathFollower})
-  name: AddFollowers(List<IPathFollower>)
-  href: api/StormHawks.Runtime.Presenters.Environments.Paths.EnemyPath.html#StormHawks_Runtime_Presenters_Environments_Paths_EnemyPath_AddFollowers_List_IPathFollower__
-  commentId: M:StormHawks.Runtime.Presenters.Environments.Paths.EnemyPath.AddFollowers(List{IPathFollower})
-  name.vb: AddFollowers(List(Of IPathFollower))
-  fullName: StormHawks.Runtime.Presenters.Environments.Paths.EnemyPath.AddFollowers(List<IPathFollower>)
-  fullName.vb: StormHawks.Runtime.Presenters.Environments.Paths.EnemyPath.AddFollowers(List(Of IPathFollower))
-  nameWithType: EnemyPath.AddFollowers(List<IPathFollower>)
-  nameWithType.vb: EnemyPath.AddFollowers(List(Of IPathFollower))
+- uid: StormHawks.Runtime.Presenters.Environments.Paths.EnemyPath.AddFollowers(List{IBattleAreaPathFollower})
+  name: AddFollowers(List<IBattleAreaPathFollower>)
+  href: api/StormHawks.Runtime.Presenters.Environments.Paths.EnemyPath.html#StormHawks_Runtime_Presenters_Environments_Paths_EnemyPath_AddFollowers_List_IBattleAreaPathFollower__
+  commentId: M:StormHawks.Runtime.Presenters.Environments.Paths.EnemyPath.AddFollowers(List{IBattleAreaPathFollower})
+  name.vb: AddFollowers(List(Of IBattleAreaPathFollower))
+  fullName: StormHawks.Runtime.Presenters.Environments.Paths.EnemyPath.AddFollowers(List<IBattleAreaPathFollower>)
+  fullName.vb: StormHawks.Runtime.Presenters.Environments.Paths.EnemyPath.AddFollowers(List(Of IBattleAreaPathFollower))
+  nameWithType: EnemyPath.AddFollowers(List<IBattleAreaPathFollower>)
+  nameWithType.vb: EnemyPath.AddFollowers(List(Of IBattleAreaPathFollower))
 - uid: StormHawks.Runtime.Presenters.Environments.Paths.EnemyPath.AddFollowers*
   name: AddFollowers
   href: api/StormHawks.Runtime.Presenters.Environments.Paths.EnemyPath.html#StormHawks_Runtime_Presenters_Environments_Paths_EnemyPath_AddFollowers_
@@ -18937,6 +19284,77 @@ references:
   commentId: T:StormHawks.Runtime.Presenters.Facilities.ColliderSignalInvoker
   fullName: StormHawks.Runtime.Presenters.Facilities.ColliderSignalInvoker
   nameWithType: ColliderSignalInvoker
+- uid: StormHawks.Runtime.Presenters.Facilities.CompactFacilityPresenter
+  name: CompactFacilityPresenter
+  href: api/StormHawks.Runtime.Presenters.Facilities.CompactFacilityPresenter.html
+  commentId: T:StormHawks.Runtime.Presenters.Facilities.CompactFacilityPresenter
+  fullName: StormHawks.Runtime.Presenters.Facilities.CompactFacilityPresenter
+  nameWithType: CompactFacilityPresenter
+- uid: StormHawks.Runtime.Presenters.Facilities.CompactFacilityPresenter.AggroTargetCollider
+  name: AggroTargetCollider
+  href: api/StormHawks.Runtime.Presenters.Facilities.CompactFacilityPresenter.html#StormHawks_Runtime_Presenters_Facilities_CompactFacilityPresenter_AggroTargetCollider
+  commentId: P:StormHawks.Runtime.Presenters.Facilities.CompactFacilityPresenter.AggroTargetCollider
+  fullName: StormHawks.Runtime.Presenters.Facilities.CompactFacilityPresenter.AggroTargetCollider
+  nameWithType: CompactFacilityPresenter.AggroTargetCollider
+- uid: StormHawks.Runtime.Presenters.Facilities.CompactFacilityPresenter.AggroTargetCollider*
+  name: AggroTargetCollider
+  href: api/StormHawks.Runtime.Presenters.Facilities.CompactFacilityPresenter.html#StormHawks_Runtime_Presenters_Facilities_CompactFacilityPresenter_AggroTargetCollider_
+  commentId: Overload:StormHawks.Runtime.Presenters.Facilities.CompactFacilityPresenter.AggroTargetCollider
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.Facilities.CompactFacilityPresenter.AggroTargetCollider
+  nameWithType: CompactFacilityPresenter.AggroTargetCollider
+- uid: StormHawks.Runtime.Presenters.Facilities.CompactFacilityPresenter.GetAggroTarget
+  name: GetAggroTarget()
+  href: api/StormHawks.Runtime.Presenters.Facilities.CompactFacilityPresenter.html#StormHawks_Runtime_Presenters_Facilities_CompactFacilityPresenter_GetAggroTarget
+  commentId: M:StormHawks.Runtime.Presenters.Facilities.CompactFacilityPresenter.GetAggroTarget
+  fullName: StormHawks.Runtime.Presenters.Facilities.CompactFacilityPresenter.GetAggroTarget()
+  nameWithType: CompactFacilityPresenter.GetAggroTarget()
+- uid: StormHawks.Runtime.Presenters.Facilities.CompactFacilityPresenter.GetAggroTarget*
+  name: GetAggroTarget
+  href: api/StormHawks.Runtime.Presenters.Facilities.CompactFacilityPresenter.html#StormHawks_Runtime_Presenters_Facilities_CompactFacilityPresenter_GetAggroTarget_
+  commentId: Overload:StormHawks.Runtime.Presenters.Facilities.CompactFacilityPresenter.GetAggroTarget
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.Facilities.CompactFacilityPresenter.GetAggroTarget
+  nameWithType: CompactFacilityPresenter.GetAggroTarget
+- uid: StormHawks.Runtime.Presenters.Facilities.CompactFacilityPresenter.OnDamaged
+  name: OnDamaged
+  href: api/StormHawks.Runtime.Presenters.Facilities.CompactFacilityPresenter.html#StormHawks_Runtime_Presenters_Facilities_CompactFacilityPresenter_OnDamaged
+  commentId: P:StormHawks.Runtime.Presenters.Facilities.CompactFacilityPresenter.OnDamaged
+  fullName: StormHawks.Runtime.Presenters.Facilities.CompactFacilityPresenter.OnDamaged
+  nameWithType: CompactFacilityPresenter.OnDamaged
+- uid: StormHawks.Runtime.Presenters.Facilities.CompactFacilityPresenter.OnDamaged*
+  name: OnDamaged
+  href: api/StormHawks.Runtime.Presenters.Facilities.CompactFacilityPresenter.html#StormHawks_Runtime_Presenters_Facilities_CompactFacilityPresenter_OnDamaged_
+  commentId: Overload:StormHawks.Runtime.Presenters.Facilities.CompactFacilityPresenter.OnDamaged
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.Facilities.CompactFacilityPresenter.OnDamaged
+  nameWithType: CompactFacilityPresenter.OnDamaged
+- uid: StormHawks.Runtime.Presenters.Facilities.CompactFacilityPresenter.OnDestroyed
+  name: OnDestroyed()
+  href: api/StormHawks.Runtime.Presenters.Facilities.CompactFacilityPresenter.html#StormHawks_Runtime_Presenters_Facilities_CompactFacilityPresenter_OnDestroyed
+  commentId: M:StormHawks.Runtime.Presenters.Facilities.CompactFacilityPresenter.OnDestroyed
+  fullName: StormHawks.Runtime.Presenters.Facilities.CompactFacilityPresenter.OnDestroyed()
+  nameWithType: CompactFacilityPresenter.OnDestroyed()
+- uid: StormHawks.Runtime.Presenters.Facilities.CompactFacilityPresenter.OnDestroyed*
+  name: OnDestroyed
+  href: api/StormHawks.Runtime.Presenters.Facilities.CompactFacilityPresenter.html#StormHawks_Runtime_Presenters_Facilities_CompactFacilityPresenter_OnDestroyed_
+  commentId: Overload:StormHawks.Runtime.Presenters.Facilities.CompactFacilityPresenter.OnDestroyed
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.Facilities.CompactFacilityPresenter.OnDestroyed
+  nameWithType: CompactFacilityPresenter.OnDestroyed
+- uid: StormHawks.Runtime.Presenters.Facilities.CompactFacilityPresenter.TakeDamage(Damage)
+  name: TakeDamage(Damage)
+  href: api/StormHawks.Runtime.Presenters.Facilities.CompactFacilityPresenter.html#StormHawks_Runtime_Presenters_Facilities_CompactFacilityPresenter_TakeDamage_Damage_
+  commentId: M:StormHawks.Runtime.Presenters.Facilities.CompactFacilityPresenter.TakeDamage(Damage)
+  fullName: StormHawks.Runtime.Presenters.Facilities.CompactFacilityPresenter.TakeDamage(Damage)
+  nameWithType: CompactFacilityPresenter.TakeDamage(Damage)
+- uid: StormHawks.Runtime.Presenters.Facilities.CompactFacilityPresenter.TakeDamage*
+  name: TakeDamage
+  href: api/StormHawks.Runtime.Presenters.Facilities.CompactFacilityPresenter.html#StormHawks_Runtime_Presenters_Facilities_CompactFacilityPresenter_TakeDamage_
+  commentId: Overload:StormHawks.Runtime.Presenters.Facilities.CompactFacilityPresenter.TakeDamage
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.Facilities.CompactFacilityPresenter.TakeDamage
+  nameWithType: CompactFacilityPresenter.TakeDamage
 - uid: StormHawks.Runtime.Presenters.Facilities.FacilityPresenter
   name: FacilityPresenter
   href: api/StormHawks.Runtime.Presenters.Facilities.FacilityPresenter.html
@@ -27489,15 +27907,15 @@ references:
   commentId: T:StormHawks.Runtime.Values.EnemyGroup
   fullName: StormHawks.Runtime.Values.EnemyGroup
   nameWithType: EnemyGroup
-- uid: StormHawks.Runtime.Values.EnemyGroup.#ctor(System.Int32,List{IEnemyGroupMemberRx},List{IPathFollower})
-  name: EnemyGroup(Int32, List<IEnemyGroupMemberRx>, List<IPathFollower>)
-  href: api/StormHawks.Runtime.Values.EnemyGroup.html#StormHawks_Runtime_Values_EnemyGroup__ctor_System_Int32_List_IEnemyGroupMemberRx__List_IPathFollower__
-  commentId: M:StormHawks.Runtime.Values.EnemyGroup.#ctor(System.Int32,List{IEnemyGroupMemberRx},List{IPathFollower})
-  name.vb: EnemyGroup(Int32, List(Of IEnemyGroupMemberRx), List(Of IPathFollower))
-  fullName: StormHawks.Runtime.Values.EnemyGroup.EnemyGroup(System.Int32, List<IEnemyGroupMemberRx>, List<IPathFollower>)
-  fullName.vb: StormHawks.Runtime.Values.EnemyGroup.EnemyGroup(System.Int32, List(Of IEnemyGroupMemberRx), List(Of IPathFollower))
-  nameWithType: EnemyGroup.EnemyGroup(Int32, List<IEnemyGroupMemberRx>, List<IPathFollower>)
-  nameWithType.vb: EnemyGroup.EnemyGroup(Int32, List(Of IEnemyGroupMemberRx), List(Of IPathFollower))
+- uid: StormHawks.Runtime.Values.EnemyGroup.#ctor(System.Int32,List{IEnemyGroupMemberRx},List{IBattleAreaPathFollower})
+  name: EnemyGroup(Int32, List<IEnemyGroupMemberRx>, List<IBattleAreaPathFollower>)
+  href: api/StormHawks.Runtime.Values.EnemyGroup.html#StormHawks_Runtime_Values_EnemyGroup__ctor_System_Int32_List_IEnemyGroupMemberRx__List_IBattleAreaPathFollower__
+  commentId: M:StormHawks.Runtime.Values.EnemyGroup.#ctor(System.Int32,List{IEnemyGroupMemberRx},List{IBattleAreaPathFollower})
+  name.vb: EnemyGroup(Int32, List(Of IEnemyGroupMemberRx), List(Of IBattleAreaPathFollower))
+  fullName: StormHawks.Runtime.Values.EnemyGroup.EnemyGroup(System.Int32, List<IEnemyGroupMemberRx>, List<IBattleAreaPathFollower>)
+  fullName.vb: StormHawks.Runtime.Values.EnemyGroup.EnemyGroup(System.Int32, List(Of IEnemyGroupMemberRx), List(Of IBattleAreaPathFollower))
+  nameWithType: EnemyGroup.EnemyGroup(Int32, List<IEnemyGroupMemberRx>, List<IBattleAreaPathFollower>)
+  nameWithType.vb: EnemyGroup.EnemyGroup(Int32, List(Of IEnemyGroupMemberRx), List(Of IBattleAreaPathFollower))
 - uid: StormHawks.Runtime.Values.EnemyGroup.#ctor*
   name: EnemyGroup
   href: api/StormHawks.Runtime.Values.EnemyGroup.html#StormHawks_Runtime_Values_EnemyGroup__ctor_
@@ -27602,12 +28020,12 @@ references:
   commentId: T:StormHawks.Runtime.Values.PathTarget
   fullName: StormHawks.Runtime.Values.PathTarget
   nameWithType: PathTarget
-- uid: StormHawks.Runtime.Values.PathTarget.AddFollower(IPathFollower)
-  name: AddFollower(IPathFollower)
-  href: api/StormHawks.Runtime.Values.PathTarget.html#StormHawks_Runtime_Values_PathTarget_AddFollower_IPathFollower_
-  commentId: M:StormHawks.Runtime.Values.PathTarget.AddFollower(IPathFollower)
-  fullName: StormHawks.Runtime.Values.PathTarget.AddFollower(IPathFollower)
-  nameWithType: PathTarget.AddFollower(IPathFollower)
+- uid: StormHawks.Runtime.Values.PathTarget.AddFollower(IBattleAreaPathFollower)
+  name: AddFollower(IBattleAreaPathFollower)
+  href: api/StormHawks.Runtime.Values.PathTarget.html#StormHawks_Runtime_Values_PathTarget_AddFollower_IBattleAreaPathFollower_
+  commentId: M:StormHawks.Runtime.Values.PathTarget.AddFollower(IBattleAreaPathFollower)
+  fullName: StormHawks.Runtime.Values.PathTarget.AddFollower(IBattleAreaPathFollower)
+  nameWithType: PathTarget.AddFollower(IBattleAreaPathFollower)
 - uid: StormHawks.Runtime.Values.PathTarget.AddFollower*
   name: AddFollower
   href: api/StormHawks.Runtime.Values.PathTarget.html#StormHawks_Runtime_Values_PathTarget_AddFollower_

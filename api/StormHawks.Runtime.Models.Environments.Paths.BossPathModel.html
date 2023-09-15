@@ -102,12 +102,12 @@ public class BossPathModel</code></pre>
   
   
   <a id="StormHawks_Runtime_Models_Environments_Paths_BossPathModel__ctor_" data-uid="StormHawks.Runtime.Models.Environments.Paths.BossPathModel.#ctor*"></a>
-  <h4 id="StormHawks_Runtime_Models_Environments_Paths_BossPathModel__ctor_BossPathType_List_Vector3__System_Single_Ease_" data-uid="StormHawks.Runtime.Models.Environments.Paths.BossPathModel.#ctor(BossPathType,List{Vector3},System.Single,Ease)">BossPathModel(BossPathType, List&lt;Vector3&gt;, Single, Ease)</h4>
+  <h4 id="StormHawks_Runtime_Models_Environments_Paths_BossPathModel__ctor_BossPathType_List_Vector3__System_Single_Ease_System_Boolean_System_Single_" data-uid="StormHawks.Runtime.Models.Environments.Paths.BossPathModel.#ctor(BossPathType,List{Vector3},System.Single,Ease,System.Boolean,System.Single)">BossPathModel(BossPathType, List&lt;Vector3&gt;, Single, Ease, Boolean, Single)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public BossPathModel(BossPathType pathType, List&lt;Vector3&gt; wps, float duration, Ease easeType)</code></pre>
+    <pre><code class="lang-csharp hljs">public BossPathModel(BossPathType pathType, List&lt;Vector3&gt; wps, float duration, Ease easeType, bool isLookAhead, float lookAhead)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -137,6 +137,16 @@ public class BossPathModel</code></pre>
       <tr>
         <td><span class="xref">Ease</span></td>
         <td><span class="parametername">easeType</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">isLookAhead</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">lookAhead</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -195,6 +205,56 @@ public class BossPathModel</code></pre>
   </table>
   
   
+  <a id="StormHawks_Runtime_Models_Environments_Paths_BossPathModel_IsLookAhead_" data-uid="StormHawks.Runtime.Models.Environments.Paths.BossPathModel.IsLookAhead*"></a>
+  <h4 id="StormHawks_Runtime_Models_Environments_Paths_BossPathModel_IsLookAhead" data-uid="StormHawks.Runtime.Models.Environments.Paths.BossPathModel.IsLookAhead">IsLookAhead</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsLookAhead { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StormHawks_Runtime_Models_Environments_Paths_BossPathModel_LookAhead_" data-uid="StormHawks.Runtime.Models.Environments.Paths.BossPathModel.LookAhead*"></a>
+  <h4 id="StormHawks_Runtime_Models_Environments_Paths_BossPathModel_LookAhead" data-uid="StormHawks.Runtime.Models.Environments.Paths.BossPathModel.LookAhead">LookAhead</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float LookAhead { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="StormHawks_Runtime_Models_Environments_Paths_BossPathModel_PathType_" data-uid="StormHawks.Runtime.Models.Environments.Paths.BossPathModel.PathType*"></a>
   <h4 id="StormHawks_Runtime_Models_Environments_Paths_BossPathModel_PathType" data-uid="StormHawks.Runtime.Models.Environments.Paths.BossPathModel.PathType">PathType</h4>
   <div class="markdown level1 summary"></div>
@@ -226,7 +286,7 @@ public class BossPathModel</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public List&lt;Vector3&gt; Waypoints { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public Vector3[] Waypoints { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -238,7 +298,7 @@ public class BossPathModel</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">List</span>&lt;<span class="xref">Vector3</span>&gt;</td>
+        <td><span class="xref">Vector3</span>[]</td>
         <td></td>
       </tr>
     </tbody>

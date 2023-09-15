@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Enum AggroPriority
+    <title>Class BossPathFollowBehavior
    | Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Enum AggroPriority
+    <meta name="title" content="Class BossPathFollowBehavior
    | Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -78,47 +78,112 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Utilities.Values.AggroPriority">
+            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Presenters.Behaviors.BehaviorPlayers.Boss.BossPathFollowBehavior">
   
   
-  <h1 id="StormHawks_Runtime_Utilities_Values_AggroPriority" data-uid="StormHawks.Runtime.Utilities.Values.AggroPriority" class="text-break">Enum AggroPriority
+  <h1 id="StormHawks_Runtime_Presenters_Behaviors_BehaviorPlayers_Boss_BossPathFollowBehavior" data-uid="StormHawks.Runtime.Presenters.Behaviors.BehaviorPlayers.Boss.BossPathFollowBehavior" class="text-break">Class BossPathFollowBehavior
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Utilities.Values.html">StormHawks.Runtime.Utilities.Values</a></h6>
-  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="StormHawks_Runtime_Utilities_Values_AggroPriority_syntax">Syntax</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public enum AggroPriority</code></pre>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">BossPathFollowBehavior</span></div>
   </div>
-  <h3 id="fields">Fields
+  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Presenters.Behaviors.BehaviorPlayers.Boss.html">StormHawks.Runtime.Presenters.Behaviors.BehaviorPlayers.Boss</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="StormHawks_Runtime_Presenters_Behaviors_BehaviorPlayers_Boss_BossPathFollowBehavior_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class BossPathFollowBehavior : BossBehavior</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
   </h3>
+  
+  
+  <a id="StormHawks_Runtime_Presenters_Behaviors_BehaviorPlayers_Boss_BossPathFollowBehavior__ctor_" data-uid="StormHawks.Runtime.Presenters.Behaviors.BehaviorPlayers.Boss.BossPathFollowBehavior.#ctor*"></a>
+  <h4 id="StormHawks_Runtime_Presenters_Behaviors_BehaviorPlayers_Boss_BossPathFollowBehavior__ctor_BossPresenter_IEntityAnimator_BossBehaviorSettings_BossPathModel_" data-uid="StormHawks.Runtime.Presenters.Behaviors.BehaviorPlayers.Boss.BossPathFollowBehavior.#ctor(BossPresenter,IEntityAnimator,BossBehaviorSettings,BossPathModel)">BossPathFollowBehavior(BossPresenter, IEntityAnimator, BossBehaviorSettings, BossPathModel)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BossPathFollowBehavior(BossPresenter bossPresenter, IEntityAnimator animator, BossBehaviorSettings settings, BossPathModel path)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
+        <th>Type</th>
         <th>Name</th>
         <th>Description</th>
       </tr>
-    <thead>
+    </thead>
     <tbody>
       <tr>
-        <td id="StormHawks_Runtime_Utilities_Values_AggroPriority_Default">Default</td>
+        <td><span class="xref">BossPresenter</span></td>
+        <td><span class="parametername">bossPresenter</span></td>
         <td></td>
       </tr>
       <tr>
-        <td id="StormHawks_Runtime_Utilities_Values_AggroPriority_High">High</td>
+        <td><span class="xref">IEntityAnimator</span></td>
+        <td><span class="parametername">animator</span></td>
         <td></td>
       </tr>
       <tr>
-        <td id="StormHawks_Runtime_Utilities_Values_AggroPriority_Low">Low</td>
+        <td><span class="xref">BossBehaviorSettings</span></td>
+        <td><span class="parametername">settings</span></td>
         <td></td>
       </tr>
       <tr>
-        <td id="StormHawks_Runtime_Utilities_Values_AggroPriority_VeryHigh">VeryHigh</td>
+        <td><span class="xref">BossPathModel</span></td>
+        <td><span class="parametername">path</span></td>
         <td></td>
       </tr>
     </tbody>
-  </thead></thead></table>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="StormHawks_Runtime_Presenters_Behaviors_BehaviorPlayers_Boss_BossPathFollowBehavior_Execute_" data-uid="StormHawks.Runtime.Presenters.Behaviors.BehaviorPlayers.Boss.BossPathFollowBehavior.Execute*"></a>
+  <h4 id="StormHawks_Runtime_Presenters_Behaviors_BehaviorPlayers_Boss_BossPathFollowBehavior_Execute_Action_" data-uid="StormHawks.Runtime.Presenters.Behaviors.BehaviorPlayers.Boss.BossPathFollowBehavior.Execute(Action)">Execute(Action)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override async UniTaskVoid Execute(Action onComplete = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Action</span></td>
+        <td><span class="parametername">onComplete</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UniTaskVoid</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           

@@ -100,13 +100,13 @@
   </h3>
   
   
-  <a id="StormHawks_Runtime_Utilities_Extensions_TransformExtensions_GetLocalPositionFromPivot_" data-uid="StormHawks.Runtime.Utilities.Extensions.TransformExtensions.GetLocalPositionFromPivot*"></a>
-  <h4 id="StormHawks_Runtime_Utilities_Extensions_TransformExtensions_GetLocalPositionFromPivot_Transform_Transform_" data-uid="StormHawks.Runtime.Utilities.Extensions.TransformExtensions.GetLocalPositionFromPivot(Transform,Transform)">GetLocalPositionFromPivot(Transform, Transform)</h4>
+  <a id="StormHawks_Runtime_Utilities_Extensions_TransformExtensions_RotateTo_" data-uid="StormHawks.Runtime.Utilities.Extensions.TransformExtensions.RotateTo*"></a>
+  <h4 id="StormHawks_Runtime_Utilities_Extensions_TransformExtensions_RotateTo_Transform_Vector3_" data-uid="StormHawks.Runtime.Utilities.Extensions.TransformExtensions.RotateTo(Transform,Vector3)">RotateTo(Transform, Vector3)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Vector3 GetLocalPositionFromPivot(this Transform tf, Transform pivot)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void RotateTo(this Transform transform, Vector3 target)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -120,12 +120,81 @@
     <tbody>
       <tr>
         <td><span class="xref">Transform</span></td>
-        <td><span class="parametername">tf</span></td>
+        <td><span class="parametername">transform</span></td>
         <td></td>
       </tr>
       <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td><span class="parametername">target</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StormHawks_Runtime_Utilities_Extensions_TransformExtensions_RotateTo_" data-uid="StormHawks.Runtime.Utilities.Extensions.TransformExtensions.RotateTo*"></a>
+  <h4 id="StormHawks_Runtime_Utilities_Extensions_TransformExtensions_RotateTo_Transform_Vector3_System_Single_" data-uid="StormHawks.Runtime.Utilities.Extensions.TransformExtensions.RotateTo(Transform,Vector3,System.Single)">RotateTo(Transform, Vector3, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RotateTo(this Transform transform, Vector3 target, float lerpPoint)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
         <td><span class="xref">Transform</span></td>
-        <td><span class="parametername">pivot</span></td>
+        <td><span class="parametername">transform</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td><span class="parametername">target</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">lerpPoint</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StormHawks_Runtime_Utilities_Extensions_TransformExtensions_ToLocalRotation_" data-uid="StormHawks.Runtime.Utilities.Extensions.TransformExtensions.ToLocalRotation*"></a>
+  <h4 id="StormHawks_Runtime_Utilities_Extensions_TransformExtensions_ToLocalRotation_Transform_Quaternion_" data-uid="StormHawks.Runtime.Utilities.Extensions.TransformExtensions.ToLocalRotation(Transform,Quaternion)">ToLocalRotation(Transform, Quaternion)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Quaternion ToLocalRotation(this Transform transform, Quaternion worldRotation)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Transform</span></td>
+        <td><span class="parametername">transform</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Quaternion</span></td>
+        <td><span class="parametername">worldRotation</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -140,20 +209,20 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Vector3</span></td>
+        <td><span class="xref">Quaternion</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="StormHawks_Runtime_Utilities_Extensions_TransformExtensions_SetPositionAndRotation_" data-uid="StormHawks.Runtime.Utilities.Extensions.TransformExtensions.SetPositionAndRotation*"></a>
-  <h4 id="StormHawks_Runtime_Utilities_Extensions_TransformExtensions_SetPositionAndRotation_Transform_Transform_" data-uid="StormHawks.Runtime.Utilities.Extensions.TransformExtensions.SetPositionAndRotation(Transform,Transform)">SetPositionAndRotation(Transform, Transform)</h4>
+  <a id="StormHawks_Runtime_Utilities_Extensions_TransformExtensions_ToWorldRotation_" data-uid="StormHawks.Runtime.Utilities.Extensions.TransformExtensions.ToWorldRotation*"></a>
+  <h4 id="StormHawks_Runtime_Utilities_Extensions_TransformExtensions_ToWorldRotation_Transform_Quaternion_" data-uid="StormHawks.Runtime.Utilities.Extensions.TransformExtensions.ToWorldRotation(Transform,Quaternion)">ToWorldRotation(Transform, Quaternion)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void SetPositionAndRotation(this Transform target, Transform origin)</code></pre>
+    <pre><code class="lang-csharp hljs">public static Quaternion ToWorldRotation(this Transform transform, Quaternion localRotation)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -167,12 +236,27 @@
     <tbody>
       <tr>
         <td><span class="xref">Transform</span></td>
-        <td><span class="parametername">target</span></td>
+        <td><span class="parametername">transform</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">Transform</span></td>
-        <td><span class="parametername">origin</span></td>
+        <td><span class="xref">Quaternion</span></td>
+        <td><span class="parametername">localRotation</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Quaternion</span></td>
         <td></td>
       </tr>
     </tbody>

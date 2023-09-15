@@ -3995,6 +3995,19 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Detectors.AngleDetector.HorizontalAngle
   nameWithType: AngleDetector.HorizontalAngle
+- uid: StormHawks.Runtime.Detectors.AngleDetector.MaxDetectCount
+  name: MaxDetectCount
+  href: api/StormHawks.Runtime.Detectors.AngleDetector.html#StormHawks_Runtime_Detectors_AngleDetector_MaxDetectCount
+  commentId: P:StormHawks.Runtime.Detectors.AngleDetector.MaxDetectCount
+  fullName: StormHawks.Runtime.Detectors.AngleDetector.MaxDetectCount
+  nameWithType: AngleDetector.MaxDetectCount
+- uid: StormHawks.Runtime.Detectors.AngleDetector.MaxDetectCount*
+  name: MaxDetectCount
+  href: api/StormHawks.Runtime.Detectors.AngleDetector.html#StormHawks_Runtime_Detectors_AngleDetector_MaxDetectCount_
+  commentId: Overload:StormHawks.Runtime.Detectors.AngleDetector.MaxDetectCount
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Detectors.AngleDetector.MaxDetectCount
+  nameWithType: AngleDetector.MaxDetectCount
 - uid: StormHawks.Runtime.Detectors.AngleDetector.Radius
   name: Radius
   href: api/StormHawks.Runtime.Detectors.AngleDetector.html#StormHawks_Runtime_Detectors_AngleDetector_Radius
@@ -4056,6 +4069,19 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Detectors.BoxDetector.Detect
   nameWithType: BoxDetector.Detect
+- uid: StormHawks.Runtime.Detectors.BoxDetector.MaxDetectCount
+  name: MaxDetectCount
+  href: api/StormHawks.Runtime.Detectors.BoxDetector.html#StormHawks_Runtime_Detectors_BoxDetector_MaxDetectCount
+  commentId: P:StormHawks.Runtime.Detectors.BoxDetector.MaxDetectCount
+  fullName: StormHawks.Runtime.Detectors.BoxDetector.MaxDetectCount
+  nameWithType: BoxDetector.MaxDetectCount
+- uid: StormHawks.Runtime.Detectors.BoxDetector.MaxDetectCount*
+  name: MaxDetectCount
+  href: api/StormHawks.Runtime.Detectors.BoxDetector.html#StormHawks_Runtime_Detectors_BoxDetector_MaxDetectCount_
+  commentId: Overload:StormHawks.Runtime.Detectors.BoxDetector.MaxDetectCount
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Detectors.BoxDetector.MaxDetectCount
+  nameWithType: BoxDetector.MaxDetectCount
 - uid: StormHawks.Runtime.Detectors.Cameras
   name: StormHawks.Runtime.Detectors.Cameras
   href: api/StormHawks.Runtime.Detectors.Cameras.html
@@ -4269,19 +4295,6 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Detectors.DetectorBase.DetectLayer
   nameWithType: DetectorBase.DetectLayer
-- uid: StormHawks.Runtime.Detectors.DetectorBase.MaxDetectCount
-  name: MaxDetectCount
-  href: api/StormHawks.Runtime.Detectors.DetectorBase.html#StormHawks_Runtime_Detectors_DetectorBase_MaxDetectCount
-  commentId: P:StormHawks.Runtime.Detectors.DetectorBase.MaxDetectCount
-  fullName: StormHawks.Runtime.Detectors.DetectorBase.MaxDetectCount
-  nameWithType: DetectorBase.MaxDetectCount
-- uid: StormHawks.Runtime.Detectors.DetectorBase.MaxDetectCount*
-  name: MaxDetectCount
-  href: api/StormHawks.Runtime.Detectors.DetectorBase.html#StormHawks_Runtime_Detectors_DetectorBase_MaxDetectCount_
-  commentId: Overload:StormHawks.Runtime.Detectors.DetectorBase.MaxDetectCount
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Detectors.DetectorBase.MaxDetectCount
-  nameWithType: DetectorBase.MaxDetectCount
 - uid: StormHawks.Runtime.Detectors.DetectorBase.Player
   name: Player
   href: api/StormHawks.Runtime.Detectors.DetectorBase.html#StormHawks_Runtime_Detectors_DetectorBase_Player
@@ -5171,19 +5184,19 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Detectors.Jobs.PrepareOverlapBoxCommandJobRunner.Results
   nameWithType: PrepareOverlapBoxCommandJobRunner.Results
-- uid: StormHawks.Runtime.Detectors.Jobs.PrepareOverlapBoxCommandJobRunner.ScheduleJob(Vector3,Vector3,Quaternion,LayerMask,System.Int32,JobHandle)
-  name: ScheduleJob(Vector3, Vector3, Quaternion, LayerMask, Int32, JobHandle)
-  href: api/StormHawks.Runtime.Detectors.Jobs.PrepareOverlapBoxCommandJobRunner.html#StormHawks_Runtime_Detectors_Jobs_PrepareOverlapBoxCommandJobRunner_ScheduleJob_Vector3_Vector3_Quaternion_LayerMask_System_Int32_JobHandle_
-  commentId: M:StormHawks.Runtime.Detectors.Jobs.PrepareOverlapBoxCommandJobRunner.ScheduleJob(Vector3,Vector3,Quaternion,LayerMask,System.Int32,JobHandle)
-  fullName: StormHawks.Runtime.Detectors.Jobs.PrepareOverlapBoxCommandJobRunner.ScheduleJob(Vector3, Vector3, Quaternion, LayerMask, System.Int32, JobHandle)
-  nameWithType: PrepareOverlapBoxCommandJobRunner.ScheduleJob(Vector3, Vector3, Quaternion, LayerMask, Int32, JobHandle)
-- uid: StormHawks.Runtime.Detectors.Jobs.PrepareOverlapBoxCommandJobRunner.ScheduleJob*
-  name: ScheduleJob
-  href: api/StormHawks.Runtime.Detectors.Jobs.PrepareOverlapBoxCommandJobRunner.html#StormHawks_Runtime_Detectors_Jobs_PrepareOverlapBoxCommandJobRunner_ScheduleJob_
-  commentId: Overload:StormHawks.Runtime.Detectors.Jobs.PrepareOverlapBoxCommandJobRunner.ScheduleJob
+- uid: StormHawks.Runtime.Detectors.Jobs.PrepareOverlapBoxCommandJobRunner.RunJob(Vector3,Vector3,Quaternion,LayerMask,System.Int32,JobHandle)
+  name: RunJob(Vector3, Vector3, Quaternion, LayerMask, Int32, JobHandle)
+  href: api/StormHawks.Runtime.Detectors.Jobs.PrepareOverlapBoxCommandJobRunner.html#StormHawks_Runtime_Detectors_Jobs_PrepareOverlapBoxCommandJobRunner_RunJob_Vector3_Vector3_Quaternion_LayerMask_System_Int32_JobHandle_
+  commentId: M:StormHawks.Runtime.Detectors.Jobs.PrepareOverlapBoxCommandJobRunner.RunJob(Vector3,Vector3,Quaternion,LayerMask,System.Int32,JobHandle)
+  fullName: StormHawks.Runtime.Detectors.Jobs.PrepareOverlapBoxCommandJobRunner.RunJob(Vector3, Vector3, Quaternion, LayerMask, System.Int32, JobHandle)
+  nameWithType: PrepareOverlapBoxCommandJobRunner.RunJob(Vector3, Vector3, Quaternion, LayerMask, Int32, JobHandle)
+- uid: StormHawks.Runtime.Detectors.Jobs.PrepareOverlapBoxCommandJobRunner.RunJob*
+  name: RunJob
+  href: api/StormHawks.Runtime.Detectors.Jobs.PrepareOverlapBoxCommandJobRunner.html#StormHawks_Runtime_Detectors_Jobs_PrepareOverlapBoxCommandJobRunner_RunJob_
+  commentId: Overload:StormHawks.Runtime.Detectors.Jobs.PrepareOverlapBoxCommandJobRunner.RunJob
   isSpec: "True"
-  fullName: StormHawks.Runtime.Detectors.Jobs.PrepareOverlapBoxCommandJobRunner.ScheduleJob
-  nameWithType: PrepareOverlapBoxCommandJobRunner.ScheduleJob
+  fullName: StormHawks.Runtime.Detectors.Jobs.PrepareOverlapBoxCommandJobRunner.RunJob
+  nameWithType: PrepareOverlapBoxCommandJobRunner.RunJob
 - uid: StormHawks.Runtime.Detectors.Jobs.PrepareOverlapSphereCommandJob
   name: PrepareOverlapSphereCommandJob
   href: api/StormHawks.Runtime.Detectors.Jobs.PrepareOverlapSphereCommandJob.html
@@ -5272,19 +5285,19 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Detectors.Jobs.PrepareOverlapSphereCommandJobRunner.ReadyJob
   nameWithType: PrepareOverlapSphereCommandJobRunner.ReadyJob
-- uid: StormHawks.Runtime.Detectors.Jobs.PrepareOverlapSphereCommandJobRunner.ScheduleJob(Vector3,System.Single,LayerMask,System.Int32,JobHandle)
-  name: ScheduleJob(Vector3, Single, LayerMask, Int32, JobHandle)
-  href: api/StormHawks.Runtime.Detectors.Jobs.PrepareOverlapSphereCommandJobRunner.html#StormHawks_Runtime_Detectors_Jobs_PrepareOverlapSphereCommandJobRunner_ScheduleJob_Vector3_System_Single_LayerMask_System_Int32_JobHandle_
-  commentId: M:StormHawks.Runtime.Detectors.Jobs.PrepareOverlapSphereCommandJobRunner.ScheduleJob(Vector3,System.Single,LayerMask,System.Int32,JobHandle)
-  fullName: StormHawks.Runtime.Detectors.Jobs.PrepareOverlapSphereCommandJobRunner.ScheduleJob(Vector3, System.Single, LayerMask, System.Int32, JobHandle)
-  nameWithType: PrepareOverlapSphereCommandJobRunner.ScheduleJob(Vector3, Single, LayerMask, Int32, JobHandle)
-- uid: StormHawks.Runtime.Detectors.Jobs.PrepareOverlapSphereCommandJobRunner.ScheduleJob*
-  name: ScheduleJob
-  href: api/StormHawks.Runtime.Detectors.Jobs.PrepareOverlapSphereCommandJobRunner.html#StormHawks_Runtime_Detectors_Jobs_PrepareOverlapSphereCommandJobRunner_ScheduleJob_
-  commentId: Overload:StormHawks.Runtime.Detectors.Jobs.PrepareOverlapSphereCommandJobRunner.ScheduleJob
+- uid: StormHawks.Runtime.Detectors.Jobs.PrepareOverlapSphereCommandJobRunner.RunJob(Vector3,System.Single,LayerMask,System.Int32,JobHandle)
+  name: RunJob(Vector3, Single, LayerMask, Int32, JobHandle)
+  href: api/StormHawks.Runtime.Detectors.Jobs.PrepareOverlapSphereCommandJobRunner.html#StormHawks_Runtime_Detectors_Jobs_PrepareOverlapSphereCommandJobRunner_RunJob_Vector3_System_Single_LayerMask_System_Int32_JobHandle_
+  commentId: M:StormHawks.Runtime.Detectors.Jobs.PrepareOverlapSphereCommandJobRunner.RunJob(Vector3,System.Single,LayerMask,System.Int32,JobHandle)
+  fullName: StormHawks.Runtime.Detectors.Jobs.PrepareOverlapSphereCommandJobRunner.RunJob(Vector3, System.Single, LayerMask, System.Int32, JobHandle)
+  nameWithType: PrepareOverlapSphereCommandJobRunner.RunJob(Vector3, Single, LayerMask, Int32, JobHandle)
+- uid: StormHawks.Runtime.Detectors.Jobs.PrepareOverlapSphereCommandJobRunner.RunJob*
+  name: RunJob
+  href: api/StormHawks.Runtime.Detectors.Jobs.PrepareOverlapSphereCommandJobRunner.html#StormHawks_Runtime_Detectors_Jobs_PrepareOverlapSphereCommandJobRunner_RunJob_
+  commentId: Overload:StormHawks.Runtime.Detectors.Jobs.PrepareOverlapSphereCommandJobRunner.RunJob
   isSpec: "True"
-  fullName: StormHawks.Runtime.Detectors.Jobs.PrepareOverlapSphereCommandJobRunner.ScheduleJob
-  nameWithType: PrepareOverlapSphereCommandJobRunner.ScheduleJob
+  fullName: StormHawks.Runtime.Detectors.Jobs.PrepareOverlapSphereCommandJobRunner.RunJob
+  nameWithType: PrepareOverlapSphereCommandJobRunner.RunJob
 - uid: StormHawks.Runtime.Detectors.Jobs.PrepareRaycastCommandJob
   name: PrepareRaycastCommandJob
   href: api/StormHawks.Runtime.Detectors.Jobs.PrepareRaycastCommandJob.html
@@ -5379,132 +5392,19 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Detectors.Jobs.PrepareRaycastCommandJobRunner.ReadyJob
   nameWithType: PrepareRaycastCommandJobRunner.ReadyJob
-- uid: StormHawks.Runtime.Detectors.Jobs.PrepareRaycastCommandJobRunner.ScheduleJob(Vector3,Vector3,System.Single,LayerMask,JobHandle)
-  name: ScheduleJob(Vector3, Vector3, Single, LayerMask, JobHandle)
-  href: api/StormHawks.Runtime.Detectors.Jobs.PrepareRaycastCommandJobRunner.html#StormHawks_Runtime_Detectors_Jobs_PrepareRaycastCommandJobRunner_ScheduleJob_Vector3_Vector3_System_Single_LayerMask_JobHandle_
-  commentId: M:StormHawks.Runtime.Detectors.Jobs.PrepareRaycastCommandJobRunner.ScheduleJob(Vector3,Vector3,System.Single,LayerMask,JobHandle)
-  fullName: StormHawks.Runtime.Detectors.Jobs.PrepareRaycastCommandJobRunner.ScheduleJob(Vector3, Vector3, System.Single, LayerMask, JobHandle)
-  nameWithType: PrepareRaycastCommandJobRunner.ScheduleJob(Vector3, Vector3, Single, LayerMask, JobHandle)
-- uid: StormHawks.Runtime.Detectors.Jobs.PrepareRaycastCommandJobRunner.ScheduleJob*
-  name: ScheduleJob
-  href: api/StormHawks.Runtime.Detectors.Jobs.PrepareRaycastCommandJobRunner.html#StormHawks_Runtime_Detectors_Jobs_PrepareRaycastCommandJobRunner_ScheduleJob_
-  commentId: Overload:StormHawks.Runtime.Detectors.Jobs.PrepareRaycastCommandJobRunner.ScheduleJob
+- uid: StormHawks.Runtime.Detectors.Jobs.PrepareRaycastCommandJobRunner.RunJob(Vector3,Vector3,System.Single,LayerMask,JobHandle)
+  name: RunJob(Vector3, Vector3, Single, LayerMask, JobHandle)
+  href: api/StormHawks.Runtime.Detectors.Jobs.PrepareRaycastCommandJobRunner.html#StormHawks_Runtime_Detectors_Jobs_PrepareRaycastCommandJobRunner_RunJob_Vector3_Vector3_System_Single_LayerMask_JobHandle_
+  commentId: M:StormHawks.Runtime.Detectors.Jobs.PrepareRaycastCommandJobRunner.RunJob(Vector3,Vector3,System.Single,LayerMask,JobHandle)
+  fullName: StormHawks.Runtime.Detectors.Jobs.PrepareRaycastCommandJobRunner.RunJob(Vector3, Vector3, System.Single, LayerMask, JobHandle)
+  nameWithType: PrepareRaycastCommandJobRunner.RunJob(Vector3, Vector3, Single, LayerMask, JobHandle)
+- uid: StormHawks.Runtime.Detectors.Jobs.PrepareRaycastCommandJobRunner.RunJob*
+  name: RunJob
+  href: api/StormHawks.Runtime.Detectors.Jobs.PrepareRaycastCommandJobRunner.html#StormHawks_Runtime_Detectors_Jobs_PrepareRaycastCommandJobRunner_RunJob_
+  commentId: Overload:StormHawks.Runtime.Detectors.Jobs.PrepareRaycastCommandJobRunner.RunJob
   isSpec: "True"
-  fullName: StormHawks.Runtime.Detectors.Jobs.PrepareRaycastCommandJobRunner.ScheduleJob
-  nameWithType: PrepareRaycastCommandJobRunner.ScheduleJob
-- uid: StormHawks.Runtime.Detectors.Jobs.PrepareSphereCastJobRunner
-  name: PrepareSphereCastJobRunner
-  href: api/StormHawks.Runtime.Detectors.Jobs.PrepareSphereCastJobRunner.html
-  commentId: T:StormHawks.Runtime.Detectors.Jobs.PrepareSphereCastJobRunner
-  fullName: StormHawks.Runtime.Detectors.Jobs.PrepareSphereCastJobRunner
-  nameWithType: PrepareSphereCastJobRunner
-- uid: StormHawks.Runtime.Detectors.Jobs.PrepareSphereCastJobRunner.Dispose
-  name: Dispose()
-  href: api/StormHawks.Runtime.Detectors.Jobs.PrepareSphereCastJobRunner.html#StormHawks_Runtime_Detectors_Jobs_PrepareSphereCastJobRunner_Dispose
-  commentId: M:StormHawks.Runtime.Detectors.Jobs.PrepareSphereCastJobRunner.Dispose
-  fullName: StormHawks.Runtime.Detectors.Jobs.PrepareSphereCastJobRunner.Dispose()
-  nameWithType: PrepareSphereCastJobRunner.Dispose()
-- uid: StormHawks.Runtime.Detectors.Jobs.PrepareSphereCastJobRunner.Dispose*
-  name: Dispose
-  href: api/StormHawks.Runtime.Detectors.Jobs.PrepareSphereCastJobRunner.html#StormHawks_Runtime_Detectors_Jobs_PrepareSphereCastJobRunner_Dispose_
-  commentId: Overload:StormHawks.Runtime.Detectors.Jobs.PrepareSphereCastJobRunner.Dispose
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Detectors.Jobs.PrepareSphereCastJobRunner.Dispose
-  nameWithType: PrepareSphereCastJobRunner.Dispose
-- uid: StormHawks.Runtime.Detectors.Jobs.PrepareSphereCastJobRunner.GetResult
-  name: GetResult()
-  href: api/StormHawks.Runtime.Detectors.Jobs.PrepareSphereCastJobRunner.html#StormHawks_Runtime_Detectors_Jobs_PrepareSphereCastJobRunner_GetResult
-  commentId: M:StormHawks.Runtime.Detectors.Jobs.PrepareSphereCastJobRunner.GetResult
-  fullName: StormHawks.Runtime.Detectors.Jobs.PrepareSphereCastJobRunner.GetResult()
-  nameWithType: PrepareSphereCastJobRunner.GetResult()
-- uid: StormHawks.Runtime.Detectors.Jobs.PrepareSphereCastJobRunner.GetResult*
-  name: GetResult
-  href: api/StormHawks.Runtime.Detectors.Jobs.PrepareSphereCastJobRunner.html#StormHawks_Runtime_Detectors_Jobs_PrepareSphereCastJobRunner_GetResult_
-  commentId: Overload:StormHawks.Runtime.Detectors.Jobs.PrepareSphereCastJobRunner.GetResult
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Detectors.Jobs.PrepareSphereCastJobRunner.GetResult
-  nameWithType: PrepareSphereCastJobRunner.GetResult
-- uid: StormHawks.Runtime.Detectors.Jobs.PrepareSphereCastJobRunner.PrepareSpherecastCommandJob
-  name: PrepareSphereCastJobRunner.PrepareSpherecastCommandJob
-  href: api/StormHawks.Runtime.Detectors.Jobs.PrepareSphereCastJobRunner.PrepareSpherecastCommandJob.html
-  commentId: T:StormHawks.Runtime.Detectors.Jobs.PrepareSphereCastJobRunner.PrepareSpherecastCommandJob
-  fullName: StormHawks.Runtime.Detectors.Jobs.PrepareSphereCastJobRunner.PrepareSpherecastCommandJob
-  nameWithType: PrepareSphereCastJobRunner.PrepareSpherecastCommandJob
-- uid: StormHawks.Runtime.Detectors.Jobs.PrepareSphereCastJobRunner.PrepareSpherecastCommandJob.Commands
-  name: Commands
-  href: api/StormHawks.Runtime.Detectors.Jobs.PrepareSphereCastJobRunner.PrepareSpherecastCommandJob.html#StormHawks_Runtime_Detectors_Jobs_PrepareSphereCastJobRunner_PrepareSpherecastCommandJob_Commands
-  commentId: F:StormHawks.Runtime.Detectors.Jobs.PrepareSphereCastJobRunner.PrepareSpherecastCommandJob.Commands
-  fullName: StormHawks.Runtime.Detectors.Jobs.PrepareSphereCastJobRunner.PrepareSpherecastCommandJob.Commands
-  nameWithType: PrepareSphereCastJobRunner.PrepareSpherecastCommandJob.Commands
-- uid: StormHawks.Runtime.Detectors.Jobs.PrepareSphereCastJobRunner.PrepareSpherecastCommandJob.DetectLayer
-  name: DetectLayer
-  href: api/StormHawks.Runtime.Detectors.Jobs.PrepareSphereCastJobRunner.PrepareSpherecastCommandJob.html#StormHawks_Runtime_Detectors_Jobs_PrepareSphereCastJobRunner_PrepareSpherecastCommandJob_DetectLayer
-  commentId: F:StormHawks.Runtime.Detectors.Jobs.PrepareSphereCastJobRunner.PrepareSpherecastCommandJob.DetectLayer
-  fullName: StormHawks.Runtime.Detectors.Jobs.PrepareSphereCastJobRunner.PrepareSpherecastCommandJob.DetectLayer
-  nameWithType: PrepareSphereCastJobRunner.PrepareSpherecastCommandJob.DetectLayer
-- uid: StormHawks.Runtime.Detectors.Jobs.PrepareSphereCastJobRunner.PrepareSpherecastCommandJob.Direction
-  name: Direction
-  href: api/StormHawks.Runtime.Detectors.Jobs.PrepareSphereCastJobRunner.PrepareSpherecastCommandJob.html#StormHawks_Runtime_Detectors_Jobs_PrepareSphereCastJobRunner_PrepareSpherecastCommandJob_Direction
-  commentId: F:StormHawks.Runtime.Detectors.Jobs.PrepareSphereCastJobRunner.PrepareSpherecastCommandJob.Direction
-  fullName: StormHawks.Runtime.Detectors.Jobs.PrepareSphereCastJobRunner.PrepareSpherecastCommandJob.Direction
-  nameWithType: PrepareSphereCastJobRunner.PrepareSpherecastCommandJob.Direction
-- uid: StormHawks.Runtime.Detectors.Jobs.PrepareSphereCastJobRunner.PrepareSpherecastCommandJob.Distance
-  name: Distance
-  href: api/StormHawks.Runtime.Detectors.Jobs.PrepareSphereCastJobRunner.PrepareSpherecastCommandJob.html#StormHawks_Runtime_Detectors_Jobs_PrepareSphereCastJobRunner_PrepareSpherecastCommandJob_Distance
-  commentId: F:StormHawks.Runtime.Detectors.Jobs.PrepareSphereCastJobRunner.PrepareSpherecastCommandJob.Distance
-  fullName: StormHawks.Runtime.Detectors.Jobs.PrepareSphereCastJobRunner.PrepareSpherecastCommandJob.Distance
-  nameWithType: PrepareSphereCastJobRunner.PrepareSpherecastCommandJob.Distance
-- uid: StormHawks.Runtime.Detectors.Jobs.PrepareSphereCastJobRunner.PrepareSpherecastCommandJob.Execute
-  name: Execute()
-  href: api/StormHawks.Runtime.Detectors.Jobs.PrepareSphereCastJobRunner.PrepareSpherecastCommandJob.html#StormHawks_Runtime_Detectors_Jobs_PrepareSphereCastJobRunner_PrepareSpherecastCommandJob_Execute
-  commentId: M:StormHawks.Runtime.Detectors.Jobs.PrepareSphereCastJobRunner.PrepareSpherecastCommandJob.Execute
-  fullName: StormHawks.Runtime.Detectors.Jobs.PrepareSphereCastJobRunner.PrepareSpherecastCommandJob.Execute()
-  nameWithType: PrepareSphereCastJobRunner.PrepareSpherecastCommandJob.Execute()
-- uid: StormHawks.Runtime.Detectors.Jobs.PrepareSphereCastJobRunner.PrepareSpherecastCommandJob.Execute*
-  name: Execute
-  href: api/StormHawks.Runtime.Detectors.Jobs.PrepareSphereCastJobRunner.PrepareSpherecastCommandJob.html#StormHawks_Runtime_Detectors_Jobs_PrepareSphereCastJobRunner_PrepareSpherecastCommandJob_Execute_
-  commentId: Overload:StormHawks.Runtime.Detectors.Jobs.PrepareSphereCastJobRunner.PrepareSpherecastCommandJob.Execute
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Detectors.Jobs.PrepareSphereCastJobRunner.PrepareSpherecastCommandJob.Execute
-  nameWithType: PrepareSphereCastJobRunner.PrepareSpherecastCommandJob.Execute
-- uid: StormHawks.Runtime.Detectors.Jobs.PrepareSphereCastJobRunner.PrepareSpherecastCommandJob.Origin
-  name: Origin
-  href: api/StormHawks.Runtime.Detectors.Jobs.PrepareSphereCastJobRunner.PrepareSpherecastCommandJob.html#StormHawks_Runtime_Detectors_Jobs_PrepareSphereCastJobRunner_PrepareSpherecastCommandJob_Origin
-  commentId: F:StormHawks.Runtime.Detectors.Jobs.PrepareSphereCastJobRunner.PrepareSpherecastCommandJob.Origin
-  fullName: StormHawks.Runtime.Detectors.Jobs.PrepareSphereCastJobRunner.PrepareSpherecastCommandJob.Origin
-  nameWithType: PrepareSphereCastJobRunner.PrepareSpherecastCommandJob.Origin
-- uid: StormHawks.Runtime.Detectors.Jobs.PrepareSphereCastJobRunner.PrepareSpherecastCommandJob.Radius
-  name: Radius
-  href: api/StormHawks.Runtime.Detectors.Jobs.PrepareSphereCastJobRunner.PrepareSpherecastCommandJob.html#StormHawks_Runtime_Detectors_Jobs_PrepareSphereCastJobRunner_PrepareSpherecastCommandJob_Radius
-  commentId: F:StormHawks.Runtime.Detectors.Jobs.PrepareSphereCastJobRunner.PrepareSpherecastCommandJob.Radius
-  fullName: StormHawks.Runtime.Detectors.Jobs.PrepareSphereCastJobRunner.PrepareSpherecastCommandJob.Radius
-  nameWithType: PrepareSphereCastJobRunner.PrepareSpherecastCommandJob.Radius
-- uid: StormHawks.Runtime.Detectors.Jobs.PrepareSphereCastJobRunner.ReadyJob
-  name: ReadyJob()
-  href: api/StormHawks.Runtime.Detectors.Jobs.PrepareSphereCastJobRunner.html#StormHawks_Runtime_Detectors_Jobs_PrepareSphereCastJobRunner_ReadyJob
-  commentId: M:StormHawks.Runtime.Detectors.Jobs.PrepareSphereCastJobRunner.ReadyJob
-  fullName: StormHawks.Runtime.Detectors.Jobs.PrepareSphereCastJobRunner.ReadyJob()
-  nameWithType: PrepareSphereCastJobRunner.ReadyJob()
-- uid: StormHawks.Runtime.Detectors.Jobs.PrepareSphereCastJobRunner.ReadyJob*
-  name: ReadyJob
-  href: api/StormHawks.Runtime.Detectors.Jobs.PrepareSphereCastJobRunner.html#StormHawks_Runtime_Detectors_Jobs_PrepareSphereCastJobRunner_ReadyJob_
-  commentId: Overload:StormHawks.Runtime.Detectors.Jobs.PrepareSphereCastJobRunner.ReadyJob
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Detectors.Jobs.PrepareSphereCastJobRunner.ReadyJob
-  nameWithType: PrepareSphereCastJobRunner.ReadyJob
-- uid: StormHawks.Runtime.Detectors.Jobs.PrepareSphereCastJobRunner.ScheduleJob(Vector3,System.Single,Vector3,System.Single,LayerMask,JobHandle)
-  name: ScheduleJob(Vector3, Single, Vector3, Single, LayerMask, JobHandle)
-  href: api/StormHawks.Runtime.Detectors.Jobs.PrepareSphereCastJobRunner.html#StormHawks_Runtime_Detectors_Jobs_PrepareSphereCastJobRunner_ScheduleJob_Vector3_System_Single_Vector3_System_Single_LayerMask_JobHandle_
-  commentId: M:StormHawks.Runtime.Detectors.Jobs.PrepareSphereCastJobRunner.ScheduleJob(Vector3,System.Single,Vector3,System.Single,LayerMask,JobHandle)
-  fullName: StormHawks.Runtime.Detectors.Jobs.PrepareSphereCastJobRunner.ScheduleJob(Vector3, System.Single, Vector3, System.Single, LayerMask, JobHandle)
-  nameWithType: PrepareSphereCastJobRunner.ScheduleJob(Vector3, Single, Vector3, Single, LayerMask, JobHandle)
-- uid: StormHawks.Runtime.Detectors.Jobs.PrepareSphereCastJobRunner.ScheduleJob*
-  name: ScheduleJob
-  href: api/StormHawks.Runtime.Detectors.Jobs.PrepareSphereCastJobRunner.html#StormHawks_Runtime_Detectors_Jobs_PrepareSphereCastJobRunner_ScheduleJob_
-  commentId: Overload:StormHawks.Runtime.Detectors.Jobs.PrepareSphereCastJobRunner.ScheduleJob
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Detectors.Jobs.PrepareSphereCastJobRunner.ScheduleJob
-  nameWithType: PrepareSphereCastJobRunner.ScheduleJob
+  fullName: StormHawks.Runtime.Detectors.Jobs.PrepareRaycastCommandJobRunner.RunJob
+  nameWithType: PrepareRaycastCommandJobRunner.RunJob
 - uid: StormHawks.Runtime.Detectors.LockOn
   name: StormHawks.Runtime.Detectors.LockOn
   href: api/StormHawks.Runtime.Detectors.LockOn.html
@@ -5865,6 +5765,19 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Detectors.SphereDetector.Detect
   nameWithType: SphereDetector.Detect
+- uid: StormHawks.Runtime.Detectors.SphereDetector.MaxDetectCount
+  name: MaxDetectCount
+  href: api/StormHawks.Runtime.Detectors.SphereDetector.html#StormHawks_Runtime_Detectors_SphereDetector_MaxDetectCount
+  commentId: P:StormHawks.Runtime.Detectors.SphereDetector.MaxDetectCount
+  fullName: StormHawks.Runtime.Detectors.SphereDetector.MaxDetectCount
+  nameWithType: SphereDetector.MaxDetectCount
+- uid: StormHawks.Runtime.Detectors.SphereDetector.MaxDetectCount*
+  name: MaxDetectCount
+  href: api/StormHawks.Runtime.Detectors.SphereDetector.html#StormHawks_Runtime_Detectors_SphereDetector_MaxDetectCount_
+  commentId: Overload:StormHawks.Runtime.Detectors.SphereDetector.MaxDetectCount
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Detectors.SphereDetector.MaxDetectCount
+  nameWithType: SphereDetector.MaxDetectCount
 - uid: StormHawks.Runtime.Detectors.SphereDetector.Radius
   name: Radius
   href: api/StormHawks.Runtime.Detectors.SphereDetector.html#StormHawks_Runtime_Detectors_SphereDetector_Radius
@@ -9080,12 +8993,6 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Inputs.PlayerInputActions.UIActions.SetCallbacks
   nameWithType: PlayerInputActions.UIActions.SetCallbacks
-- uid: StormHawks.Runtime.Inputs.TrackedPoseDriverFixer
-  name: TrackedPoseDriverFixer
-  href: api/StormHawks.Runtime.Inputs.TrackedPoseDriverFixer.html
-  commentId: T:StormHawks.Runtime.Inputs.TrackedPoseDriverFixer
-  fullName: StormHawks.Runtime.Inputs.TrackedPoseDriverFixer
-  nameWithType: TrackedPoseDriverFixer
 - uid: StormHawks.Runtime.Inputs.TransformInjector
   name: TransformInjector
   href: api/StormHawks.Runtime.Inputs.TransformInjector.html
@@ -12291,38 +12198,6 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Interfaces.IHasHealthRx.TakeDamage
   nameWithType: IHasHealthRx.TakeDamage
-- uid: StormHawks.Runtime.Interfaces.IInitializable
-  name: IInitializable
-  href: api/StormHawks.Runtime.Interfaces.IInitializable.html
-  commentId: T:StormHawks.Runtime.Interfaces.IInitializable
-  fullName: StormHawks.Runtime.Interfaces.IInitializable
-  nameWithType: IInitializable
-- uid: StormHawks.Runtime.Interfaces.IInitializable.Initialize
-  name: Initialize()
-  href: api/StormHawks.Runtime.Interfaces.IInitializable.html#StormHawks_Runtime_Interfaces_IInitializable_Initialize
-  commentId: M:StormHawks.Runtime.Interfaces.IInitializable.Initialize
-  fullName: StormHawks.Runtime.Interfaces.IInitializable.Initialize()
-  nameWithType: IInitializable.Initialize()
-- uid: StormHawks.Runtime.Interfaces.IInitializable.Initialize*
-  name: Initialize
-  href: api/StormHawks.Runtime.Interfaces.IInitializable.html#StormHawks_Runtime_Interfaces_IInitializable_Initialize_
-  commentId: Overload:StormHawks.Runtime.Interfaces.IInitializable.Initialize
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Interfaces.IInitializable.Initialize
-  nameWithType: IInitializable.Initialize
-- uid: StormHawks.Runtime.Interfaces.IInitializable.IsInitialized
-  name: IsInitialized
-  href: api/StormHawks.Runtime.Interfaces.IInitializable.html#StormHawks_Runtime_Interfaces_IInitializable_IsInitialized
-  commentId: P:StormHawks.Runtime.Interfaces.IInitializable.IsInitialized
-  fullName: StormHawks.Runtime.Interfaces.IInitializable.IsInitialized
-  nameWithType: IInitializable.IsInitialized
-- uid: StormHawks.Runtime.Interfaces.IInitializable.IsInitialized*
-  name: IsInitialized
-  href: api/StormHawks.Runtime.Interfaces.IInitializable.html#StormHawks_Runtime_Interfaces_IInitializable_IsInitialized_
-  commentId: Overload:StormHawks.Runtime.Interfaces.IInitializable.IsInitialized
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Interfaces.IInitializable.IsInitialized
-  nameWithType: IInitializable.IsInitialized
 - uid: StormHawks.Runtime.Interfaces.IPlayerRespawnEvent
   name: IPlayerRespawnEvent
   href: api/StormHawks.Runtime.Interfaces.IPlayerRespawnEvent.html
@@ -15014,12 +14889,12 @@ references:
   commentId: T:StormHawks.Runtime.Models.Runtime.Models.Players.PlayerWeaponModel
   fullName: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerWeaponModel
   nameWithType: PlayerWeaponModel
-- uid: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerWeaponModel.#ctor(PlayerMissileMagazineSettings)
-  name: PlayerWeaponModel(PlayerMissileMagazineSettings)
-  href: api/StormHawks.Runtime.Models.Runtime.Models.Players.PlayerWeaponModel.html#StormHawks_Runtime_Models_Runtime_Models_Players_PlayerWeaponModel__ctor_PlayerMissileMagazineSettings_
-  commentId: M:StormHawks.Runtime.Models.Runtime.Models.Players.PlayerWeaponModel.#ctor(PlayerMissileMagazineSettings)
-  fullName: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerWeaponModel.PlayerWeaponModel(PlayerMissileMagazineSettings)
-  nameWithType: PlayerWeaponModel.PlayerWeaponModel(PlayerMissileMagazineSettings)
+- uid: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerWeaponModel.#ctor(PlayerMissileWeaponSettings)
+  name: PlayerWeaponModel(PlayerMissileWeaponSettings)
+  href: api/StormHawks.Runtime.Models.Runtime.Models.Players.PlayerWeaponModel.html#StormHawks_Runtime_Models_Runtime_Models_Players_PlayerWeaponModel__ctor_PlayerMissileWeaponSettings_
+  commentId: M:StormHawks.Runtime.Models.Runtime.Models.Players.PlayerWeaponModel.#ctor(PlayerMissileWeaponSettings)
+  fullName: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerWeaponModel.PlayerWeaponModel(PlayerMissileWeaponSettings)
+  nameWithType: PlayerWeaponModel.PlayerWeaponModel(PlayerMissileWeaponSettings)
 - uid: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerWeaponModel.#ctor*
   name: PlayerWeaponModel
   href: api/StormHawks.Runtime.Models.Runtime.Models.Players.PlayerWeaponModel.html#StormHawks_Runtime_Models_Runtime_Models_Players_PlayerWeaponModel__ctor_
@@ -15188,6 +15063,48 @@ references:
   commentId: N:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts
   fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts
   nameWithType: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.FingerType
+  name: FingerType
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.FingerType.html
+  commentId: T:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.FingerType
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.FingerType
+  nameWithType: FingerType
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.FingerType.LeftGrip
+  name: LeftGrip
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.FingerType.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_FingerType_LeftGrip
+  commentId: F:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.FingerType.LeftGrip
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.FingerType.LeftGrip
+  nameWithType: FingerType.LeftGrip
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.FingerType.LeftPrimaryButton
+  name: LeftPrimaryButton
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.FingerType.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_FingerType_LeftPrimaryButton
+  commentId: F:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.FingerType.LeftPrimaryButton
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.FingerType.LeftPrimaryButton
+  nameWithType: FingerType.LeftPrimaryButton
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.FingerType.LeftTrigger
+  name: LeftTrigger
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.FingerType.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_FingerType_LeftTrigger
+  commentId: F:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.FingerType.LeftTrigger
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.FingerType.LeftTrigger
+  nameWithType: FingerType.LeftTrigger
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.FingerType.RightGrip
+  name: RightGrip
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.FingerType.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_FingerType_RightGrip
+  commentId: F:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.FingerType.RightGrip
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.FingerType.RightGrip
+  nameWithType: FingerType.RightGrip
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.FingerType.RightPrimaryButton
+  name: RightPrimaryButton
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.FingerType.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_FingerType_RightPrimaryButton
+  commentId: F:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.FingerType.RightPrimaryButton
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.FingerType.RightPrimaryButton
+  nameWithType: FingerType.RightPrimaryButton
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.FingerType.RightTrigger
+  name: RightTrigger
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.FingerType.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_FingerType_RightTrigger
+  commentId: F:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.FingerType.RightTrigger
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.FingerType.RightTrigger
+  nameWithType: FingerType.RightTrigger
 - uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRAttackInput
   name: IXRAttackInput
   href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRAttackInput.html
@@ -15356,6 +15273,138 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRFlightInput.RightGripPressed
   nameWithType: IXRFlightInput.RightGripPressed
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRHandsTrackingInput
+  name: IXRHandsTrackingInput
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRHandsTrackingInput.html
+  commentId: T:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRHandsTrackingInput
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRHandsTrackingInput
+  nameWithType: IXRHandsTrackingInput
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRHandsTrackingInput.Item(StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.FingerType)
+  name: Item[FingerType]
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRHandsTrackingInput.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_IXRHandsTrackingInput_Item_StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_FingerType_
+  commentId: P:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRHandsTrackingInput.Item(StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.FingerType)
+  name.vb: Item(FingerType)
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRHandsTrackingInput.Item[StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.FingerType]
+  fullName.vb: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRHandsTrackingInput.Item(StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.FingerType)
+  nameWithType: IXRHandsTrackingInput.Item[FingerType]
+  nameWithType.vb: IXRHandsTrackingInput.Item(FingerType)
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRHandsTrackingInput.Item*
+  name: Item
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRHandsTrackingInput.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_IXRHandsTrackingInput_Item_
+  commentId: Overload:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRHandsTrackingInput.Item
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRHandsTrackingInput.Item
+  nameWithType: IXRHandsTrackingInput.Item
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRHandsTrackingInput.LeftGrip
+  name: LeftGrip
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRHandsTrackingInput.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_IXRHandsTrackingInput_LeftGrip
+  commentId: P:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRHandsTrackingInput.LeftGrip
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRHandsTrackingInput.LeftGrip
+  nameWithType: IXRHandsTrackingInput.LeftGrip
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRHandsTrackingInput.LeftGrip*
+  name: LeftGrip
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRHandsTrackingInput.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_IXRHandsTrackingInput_LeftGrip_
+  commentId: Overload:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRHandsTrackingInput.LeftGrip
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRHandsTrackingInput.LeftGrip
+  nameWithType: IXRHandsTrackingInput.LeftGrip
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRHandsTrackingInput.LeftPrimaryButton
+  name: LeftPrimaryButton
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRHandsTrackingInput.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_IXRHandsTrackingInput_LeftPrimaryButton
+  commentId: P:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRHandsTrackingInput.LeftPrimaryButton
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRHandsTrackingInput.LeftPrimaryButton
+  nameWithType: IXRHandsTrackingInput.LeftPrimaryButton
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRHandsTrackingInput.LeftPrimaryButton*
+  name: LeftPrimaryButton
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRHandsTrackingInput.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_IXRHandsTrackingInput_LeftPrimaryButton_
+  commentId: Overload:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRHandsTrackingInput.LeftPrimaryButton
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRHandsTrackingInput.LeftPrimaryButton
+  nameWithType: IXRHandsTrackingInput.LeftPrimaryButton
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRHandsTrackingInput.LeftTrigger
+  name: LeftTrigger
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRHandsTrackingInput.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_IXRHandsTrackingInput_LeftTrigger
+  commentId: P:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRHandsTrackingInput.LeftTrigger
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRHandsTrackingInput.LeftTrigger
+  nameWithType: IXRHandsTrackingInput.LeftTrigger
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRHandsTrackingInput.LeftTrigger*
+  name: LeftTrigger
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRHandsTrackingInput.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_IXRHandsTrackingInput_LeftTrigger_
+  commentId: Overload:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRHandsTrackingInput.LeftTrigger
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRHandsTrackingInput.LeftTrigger
+  nameWithType: IXRHandsTrackingInput.LeftTrigger
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRHandsTrackingInput.RightGrip
+  name: RightGrip
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRHandsTrackingInput.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_IXRHandsTrackingInput_RightGrip
+  commentId: P:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRHandsTrackingInput.RightGrip
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRHandsTrackingInput.RightGrip
+  nameWithType: IXRHandsTrackingInput.RightGrip
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRHandsTrackingInput.RightGrip*
+  name: RightGrip
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRHandsTrackingInput.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_IXRHandsTrackingInput_RightGrip_
+  commentId: Overload:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRHandsTrackingInput.RightGrip
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRHandsTrackingInput.RightGrip
+  nameWithType: IXRHandsTrackingInput.RightGrip
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRHandsTrackingInput.RightPrimaryButton
+  name: RightPrimaryButton
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRHandsTrackingInput.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_IXRHandsTrackingInput_RightPrimaryButton
+  commentId: P:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRHandsTrackingInput.RightPrimaryButton
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRHandsTrackingInput.RightPrimaryButton
+  nameWithType: IXRHandsTrackingInput.RightPrimaryButton
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRHandsTrackingInput.RightPrimaryButton*
+  name: RightPrimaryButton
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRHandsTrackingInput.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_IXRHandsTrackingInput_RightPrimaryButton_
+  commentId: Overload:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRHandsTrackingInput.RightPrimaryButton
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRHandsTrackingInput.RightPrimaryButton
+  nameWithType: IXRHandsTrackingInput.RightPrimaryButton
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRHandsTrackingInput.RightTrigger
+  name: RightTrigger
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRHandsTrackingInput.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_IXRHandsTrackingInput_RightTrigger
+  commentId: P:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRHandsTrackingInput.RightTrigger
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRHandsTrackingInput.RightTrigger
+  nameWithType: IXRHandsTrackingInput.RightTrigger
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRHandsTrackingInput.RightTrigger*
+  name: RightTrigger
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRHandsTrackingInput.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_IXRHandsTrackingInput_RightTrigger_
+  commentId: Overload:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRHandsTrackingInput.RightTrigger
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRHandsTrackingInput.RightTrigger
+  nameWithType: IXRHandsTrackingInput.RightTrigger
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRHMDInput
+  name: IXRHMDInput
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRHMDInput.html
+  commentId: T:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRHMDInput
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRHMDInput
+  nameWithType: IXRHMDInput
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRHMDInput.Position
+  name: Position
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRHMDInput.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_IXRHMDInput_Position
+  commentId: P:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRHMDInput.Position
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRHMDInput.Position
+  nameWithType: IXRHMDInput.Position
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRHMDInput.Position*
+  name: Position
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRHMDInput.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_IXRHMDInput_Position_
+  commentId: Overload:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRHMDInput.Position
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRHMDInput.Position
+  nameWithType: IXRHMDInput.Position
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRHMDInput.Rotation
+  name: Rotation
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRHMDInput.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_IXRHMDInput_Rotation
+  commentId: P:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRHMDInput.Rotation
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRHMDInput.Rotation
+  nameWithType: IXRHMDInput.Rotation
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRHMDInput.Rotation*
+  name: Rotation
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRHMDInput.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_IXRHMDInput_Rotation_
+  commentId: Overload:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRHMDInput.Rotation
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.IXRHMDInput.Rotation
+  nameWithType: IXRHMDInput.Rotation
 - uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRAttackInputModel
   name: XRAttackInputModel
   href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRAttackInputModel.html
@@ -15732,6 +15781,346 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRFlightInputModel.RightGripPressed
   nameWithType: XRFlightInputModel.RightGripPressed
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel
+  name: XRHandsTrackingInputModel
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.html
+  commentId: T:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel
+  nameWithType: XRHandsTrackingInputModel
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.#ctor(XRInputActions)
+  name: XRHandsTrackingInputModel(XRInputActions)
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_XRHandsTrackingInputModel__ctor_XRInputActions_
+  commentId: M:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.#ctor(XRInputActions)
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.XRHandsTrackingInputModel(XRInputActions)
+  nameWithType: XRHandsTrackingInputModel.XRHandsTrackingInputModel(XRInputActions)
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.#ctor*
+  name: XRHandsTrackingInputModel
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_XRHandsTrackingInputModel__ctor_
+  commentId: Overload:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.#ctor
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.XRHandsTrackingInputModel
+  nameWithType: XRHandsTrackingInputModel.XRHandsTrackingInputModel
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.Dispose
+  name: Dispose()
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_XRHandsTrackingInputModel_Dispose
+  commentId: M:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.Dispose
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.Dispose()
+  nameWithType: XRHandsTrackingInputModel.Dispose()
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.Dispose*
+  name: Dispose
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_XRHandsTrackingInputModel_Dispose_
+  commentId: Overload:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.Dispose
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.Dispose
+  nameWithType: XRHandsTrackingInputModel.Dispose
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.Initialize
+  name: Initialize()
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_XRHandsTrackingInputModel_Initialize
+  commentId: M:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.Initialize
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.Initialize()
+  nameWithType: XRHandsTrackingInputModel.Initialize()
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.Initialize*
+  name: Initialize
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_XRHandsTrackingInputModel_Initialize_
+  commentId: Overload:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.Initialize
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.Initialize
+  nameWithType: XRHandsTrackingInputModel.Initialize
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.Item(StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.FingerType)
+  name: Item[FingerType]
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_XRHandsTrackingInputModel_Item_StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_FingerType_
+  commentId: P:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.Item(StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.FingerType)
+  name.vb: Item(FingerType)
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.Item[StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.FingerType]
+  fullName.vb: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.Item(StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.FingerType)
+  nameWithType: XRHandsTrackingInputModel.Item[FingerType]
+  nameWithType.vb: XRHandsTrackingInputModel.Item(FingerType)
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.Item*
+  name: Item
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_XRHandsTrackingInputModel_Item_
+  commentId: Overload:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.Item
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.Item
+  nameWithType: XRHandsTrackingInputModel.Item
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.LeftGrip
+  name: LeftGrip
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_XRHandsTrackingInputModel_LeftGrip
+  commentId: P:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.LeftGrip
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.LeftGrip
+  nameWithType: XRHandsTrackingInputModel.LeftGrip
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.LeftGrip*
+  name: LeftGrip
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_XRHandsTrackingInputModel_LeftGrip_
+  commentId: Overload:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.LeftGrip
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.LeftGrip
+  nameWithType: XRHandsTrackingInputModel.LeftGrip
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.LeftPrimaryButton
+  name: LeftPrimaryButton
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_XRHandsTrackingInputModel_LeftPrimaryButton
+  commentId: P:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.LeftPrimaryButton
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.LeftPrimaryButton
+  nameWithType: XRHandsTrackingInputModel.LeftPrimaryButton
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.LeftPrimaryButton*
+  name: LeftPrimaryButton
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_XRHandsTrackingInputModel_LeftPrimaryButton_
+  commentId: Overload:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.LeftPrimaryButton
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.LeftPrimaryButton
+  nameWithType: XRHandsTrackingInputModel.LeftPrimaryButton
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.LeftTrigger
+  name: LeftTrigger
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_XRHandsTrackingInputModel_LeftTrigger
+  commentId: P:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.LeftTrigger
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.LeftTrigger
+  nameWithType: XRHandsTrackingInputModel.LeftTrigger
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.LeftTrigger*
+  name: LeftTrigger
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_XRHandsTrackingInputModel_LeftTrigger_
+  commentId: Overload:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.LeftTrigger
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.LeftTrigger
+  nameWithType: XRHandsTrackingInputModel.LeftTrigger
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.OnLeftGrip(InputAction.CallbackContext)
+  name: OnLeftGrip(InputAction.CallbackContext)
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_XRHandsTrackingInputModel_OnLeftGrip_InputAction_CallbackContext_
+  commentId: M:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.OnLeftGrip(InputAction.CallbackContext)
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.OnLeftGrip(InputAction.CallbackContext)
+  nameWithType: XRHandsTrackingInputModel.OnLeftGrip(InputAction.CallbackContext)
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.OnLeftGrip*
+  name: OnLeftGrip
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_XRHandsTrackingInputModel_OnLeftGrip_
+  commentId: Overload:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.OnLeftGrip
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.OnLeftGrip
+  nameWithType: XRHandsTrackingInputModel.OnLeftGrip
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.OnLeftPrimary(InputAction.CallbackContext)
+  name: OnLeftPrimary(InputAction.CallbackContext)
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_XRHandsTrackingInputModel_OnLeftPrimary_InputAction_CallbackContext_
+  commentId: M:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.OnLeftPrimary(InputAction.CallbackContext)
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.OnLeftPrimary(InputAction.CallbackContext)
+  nameWithType: XRHandsTrackingInputModel.OnLeftPrimary(InputAction.CallbackContext)
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.OnLeftPrimary*
+  name: OnLeftPrimary
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_XRHandsTrackingInputModel_OnLeftPrimary_
+  commentId: Overload:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.OnLeftPrimary
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.OnLeftPrimary
+  nameWithType: XRHandsTrackingInputModel.OnLeftPrimary
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.OnLeftTrigger(InputAction.CallbackContext)
+  name: OnLeftTrigger(InputAction.CallbackContext)
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_XRHandsTrackingInputModel_OnLeftTrigger_InputAction_CallbackContext_
+  commentId: M:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.OnLeftTrigger(InputAction.CallbackContext)
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.OnLeftTrigger(InputAction.CallbackContext)
+  nameWithType: XRHandsTrackingInputModel.OnLeftTrigger(InputAction.CallbackContext)
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.OnLeftTrigger*
+  name: OnLeftTrigger
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_XRHandsTrackingInputModel_OnLeftTrigger_
+  commentId: Overload:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.OnLeftTrigger
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.OnLeftTrigger
+  nameWithType: XRHandsTrackingInputModel.OnLeftTrigger
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.OnRightGrip(InputAction.CallbackContext)
+  name: OnRightGrip(InputAction.CallbackContext)
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_XRHandsTrackingInputModel_OnRightGrip_InputAction_CallbackContext_
+  commentId: M:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.OnRightGrip(InputAction.CallbackContext)
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.OnRightGrip(InputAction.CallbackContext)
+  nameWithType: XRHandsTrackingInputModel.OnRightGrip(InputAction.CallbackContext)
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.OnRightGrip*
+  name: OnRightGrip
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_XRHandsTrackingInputModel_OnRightGrip_
+  commentId: Overload:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.OnRightGrip
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.OnRightGrip
+  nameWithType: XRHandsTrackingInputModel.OnRightGrip
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.OnRightPrimary(InputAction.CallbackContext)
+  name: OnRightPrimary(InputAction.CallbackContext)
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_XRHandsTrackingInputModel_OnRightPrimary_InputAction_CallbackContext_
+  commentId: M:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.OnRightPrimary(InputAction.CallbackContext)
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.OnRightPrimary(InputAction.CallbackContext)
+  nameWithType: XRHandsTrackingInputModel.OnRightPrimary(InputAction.CallbackContext)
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.OnRightPrimary*
+  name: OnRightPrimary
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_XRHandsTrackingInputModel_OnRightPrimary_
+  commentId: Overload:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.OnRightPrimary
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.OnRightPrimary
+  nameWithType: XRHandsTrackingInputModel.OnRightPrimary
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.OnRightTrigger(InputAction.CallbackContext)
+  name: OnRightTrigger(InputAction.CallbackContext)
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_XRHandsTrackingInputModel_OnRightTrigger_InputAction_CallbackContext_
+  commentId: M:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.OnRightTrigger(InputAction.CallbackContext)
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.OnRightTrigger(InputAction.CallbackContext)
+  nameWithType: XRHandsTrackingInputModel.OnRightTrigger(InputAction.CallbackContext)
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.OnRightTrigger*
+  name: OnRightTrigger
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_XRHandsTrackingInputModel_OnRightTrigger_
+  commentId: Overload:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.OnRightTrigger
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.OnRightTrigger
+  nameWithType: XRHandsTrackingInputModel.OnRightTrigger
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.RightGrip
+  name: RightGrip
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_XRHandsTrackingInputModel_RightGrip
+  commentId: P:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.RightGrip
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.RightGrip
+  nameWithType: XRHandsTrackingInputModel.RightGrip
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.RightGrip*
+  name: RightGrip
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_XRHandsTrackingInputModel_RightGrip_
+  commentId: Overload:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.RightGrip
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.RightGrip
+  nameWithType: XRHandsTrackingInputModel.RightGrip
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.RightPrimaryButton
+  name: RightPrimaryButton
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_XRHandsTrackingInputModel_RightPrimaryButton
+  commentId: P:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.RightPrimaryButton
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.RightPrimaryButton
+  nameWithType: XRHandsTrackingInputModel.RightPrimaryButton
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.RightPrimaryButton*
+  name: RightPrimaryButton
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_XRHandsTrackingInputModel_RightPrimaryButton_
+  commentId: Overload:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.RightPrimaryButton
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.RightPrimaryButton
+  nameWithType: XRHandsTrackingInputModel.RightPrimaryButton
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.RightTrigger
+  name: RightTrigger
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_XRHandsTrackingInputModel_RightTrigger
+  commentId: P:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.RightTrigger
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.RightTrigger
+  nameWithType: XRHandsTrackingInputModel.RightTrigger
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.RightTrigger*
+  name: RightTrigger
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_XRHandsTrackingInputModel_RightTrigger_
+  commentId: Overload:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.RightTrigger
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHandsTrackingInputModel.RightTrigger
+  nameWithType: XRHandsTrackingInputModel.RightTrigger
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHMDInputModel
+  name: XRHMDInputModel
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHMDInputModel.html
+  commentId: T:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHMDInputModel
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHMDInputModel
+  nameWithType: XRHMDInputModel
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHMDInputModel.#ctor(XRInputActions)
+  name: XRHMDInputModel(XRInputActions)
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHMDInputModel.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_XRHMDInputModel__ctor_XRInputActions_
+  commentId: M:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHMDInputModel.#ctor(XRInputActions)
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHMDInputModel.XRHMDInputModel(XRInputActions)
+  nameWithType: XRHMDInputModel.XRHMDInputModel(XRInputActions)
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHMDInputModel.#ctor*
+  name: XRHMDInputModel
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHMDInputModel.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_XRHMDInputModel__ctor_
+  commentId: Overload:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHMDInputModel.#ctor
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHMDInputModel.XRHMDInputModel
+  nameWithType: XRHMDInputModel.XRHMDInputModel
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHMDInputModel.Dispose
+  name: Dispose()
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHMDInputModel.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_XRHMDInputModel_Dispose
+  commentId: M:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHMDInputModel.Dispose
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHMDInputModel.Dispose()
+  nameWithType: XRHMDInputModel.Dispose()
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHMDInputModel.Dispose*
+  name: Dispose
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHMDInputModel.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_XRHMDInputModel_Dispose_
+  commentId: Overload:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHMDInputModel.Dispose
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHMDInputModel.Dispose
+  nameWithType: XRHMDInputModel.Dispose
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHMDInputModel.Initialize
+  name: Initialize()
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHMDInputModel.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_XRHMDInputModel_Initialize
+  commentId: M:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHMDInputModel.Initialize
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHMDInputModel.Initialize()
+  nameWithType: XRHMDInputModel.Initialize()
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHMDInputModel.Initialize*
+  name: Initialize
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHMDInputModel.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_XRHMDInputModel_Initialize_
+  commentId: Overload:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHMDInputModel.Initialize
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHMDInputModel.Initialize
+  nameWithType: XRHMDInputModel.Initialize
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHMDInputModel.OnPosition(InputAction.CallbackContext)
+  name: OnPosition(InputAction.CallbackContext)
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHMDInputModel.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_XRHMDInputModel_OnPosition_InputAction_CallbackContext_
+  commentId: M:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHMDInputModel.OnPosition(InputAction.CallbackContext)
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHMDInputModel.OnPosition(InputAction.CallbackContext)
+  nameWithType: XRHMDInputModel.OnPosition(InputAction.CallbackContext)
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHMDInputModel.OnPosition*
+  name: OnPosition
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHMDInputModel.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_XRHMDInputModel_OnPosition_
+  commentId: Overload:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHMDInputModel.OnPosition
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHMDInputModel.OnPosition
+  nameWithType: XRHMDInputModel.OnPosition
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHMDInputModel.OnRotation(InputAction.CallbackContext)
+  name: OnRotation(InputAction.CallbackContext)
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHMDInputModel.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_XRHMDInputModel_OnRotation_InputAction_CallbackContext_
+  commentId: M:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHMDInputModel.OnRotation(InputAction.CallbackContext)
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHMDInputModel.OnRotation(InputAction.CallbackContext)
+  nameWithType: XRHMDInputModel.OnRotation(InputAction.CallbackContext)
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHMDInputModel.OnRotation*
+  name: OnRotation
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHMDInputModel.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_XRHMDInputModel_OnRotation_
+  commentId: Overload:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHMDInputModel.OnRotation
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHMDInputModel.OnRotation
+  nameWithType: XRHMDInputModel.OnRotation
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHMDInputModel.OnTrackingState(InputAction.CallbackContext)
+  name: OnTrackingState(InputAction.CallbackContext)
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHMDInputModel.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_XRHMDInputModel_OnTrackingState_InputAction_CallbackContext_
+  commentId: M:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHMDInputModel.OnTrackingState(InputAction.CallbackContext)
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHMDInputModel.OnTrackingState(InputAction.CallbackContext)
+  nameWithType: XRHMDInputModel.OnTrackingState(InputAction.CallbackContext)
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHMDInputModel.OnTrackingState*
+  name: OnTrackingState
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHMDInputModel.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_XRHMDInputModel_OnTrackingState_
+  commentId: Overload:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHMDInputModel.OnTrackingState
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHMDInputModel.OnTrackingState
+  nameWithType: XRHMDInputModel.OnTrackingState
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHMDInputModel.Position
+  name: Position
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHMDInputModel.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_XRHMDInputModel_Position
+  commentId: P:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHMDInputModel.Position
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHMDInputModel.Position
+  nameWithType: XRHMDInputModel.Position
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHMDInputModel.Position*
+  name: Position
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHMDInputModel.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_XRHMDInputModel_Position_
+  commentId: Overload:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHMDInputModel.Position
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHMDInputModel.Position
+  nameWithType: XRHMDInputModel.Position
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHMDInputModel.Rotation
+  name: Rotation
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHMDInputModel.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_XRHMDInputModel_Rotation
+  commentId: P:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHMDInputModel.Rotation
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHMDInputModel.Rotation
+  nameWithType: XRHMDInputModel.Rotation
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHMDInputModel.Rotation*
+  name: Rotation
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHMDInputModel.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_XRHMDInputModel_Rotation_
+  commentId: Overload:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHMDInputModel.Rotation
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHMDInputModel.Rotation
+  nameWithType: XRHMDInputModel.Rotation
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHMDInputModel.TrackingState
+  name: TrackingState
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHMDInputModel.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_XRHMDInputModel_TrackingState
+  commentId: P:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHMDInputModel.TrackingState
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHMDInputModel.TrackingState
+  nameWithType: XRHMDInputModel.TrackingState
+- uid: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHMDInputModel.TrackingState*
+  name: TrackingState
+  href: api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHMDInputModel.html#StormHawks_Runtime_Models_Runtime_Models_XR_Contexts_XRHMDInputModel_TrackingState_
+  commentId: Overload:StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHMDInputModel.TrackingState
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHMDInputModel.TrackingState
+  nameWithType: XRHMDInputModel.TrackingState
 - uid: StormHawks.Runtime.Pivots
   name: StormHawks.Runtime.Pivots
   href: api/StormHawks.Runtime.Pivots.html
@@ -15795,12 +16184,6 @@ references:
   commentId: N:StormHawks.Runtime.Players.Animations
   fullName: StormHawks.Runtime.Players.Animations
   nameWithType: StormHawks.Runtime.Players.Animations
-- uid: StormHawks.Runtime.Players.Animations.HandAnimator
-  name: HandAnimator
-  href: api/StormHawks.Runtime.Players.Animations.HandAnimator.html
-  commentId: T:StormHawks.Runtime.Players.Animations.HandAnimator
-  fullName: StormHawks.Runtime.Players.Animations.HandAnimator
-  nameWithType: HandAnimator
 - uid: StormHawks.Runtime.Players.Animations.IKFootSolver
   name: IKFootSolver
   href: api/StormHawks.Runtime.Players.Animations.IKFootSolver.html
@@ -15874,6 +16257,32 @@ references:
   commentId: T:StormHawks.Runtime.Players.Attack.PlayerMissileWeaponSettings
   fullName: StormHawks.Runtime.Players.Attack.PlayerMissileWeaponSettings
   nameWithType: PlayerMissileWeaponSettings
+- uid: StormHawks.Runtime.Players.Attack.PlayerMissileWeaponSettings.MaxCount
+  name: MaxCount
+  href: api/StormHawks.Runtime.Players.Attack.PlayerMissileWeaponSettings.html#StormHawks_Runtime_Players_Attack_PlayerMissileWeaponSettings_MaxCount
+  commentId: P:StormHawks.Runtime.Players.Attack.PlayerMissileWeaponSettings.MaxCount
+  fullName: StormHawks.Runtime.Players.Attack.PlayerMissileWeaponSettings.MaxCount
+  nameWithType: PlayerMissileWeaponSettings.MaxCount
+- uid: StormHawks.Runtime.Players.Attack.PlayerMissileWeaponSettings.MaxCount*
+  name: MaxCount
+  href: api/StormHawks.Runtime.Players.Attack.PlayerMissileWeaponSettings.html#StormHawks_Runtime_Players_Attack_PlayerMissileWeaponSettings_MaxCount_
+  commentId: Overload:StormHawks.Runtime.Players.Attack.PlayerMissileWeaponSettings.MaxCount
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Players.Attack.PlayerMissileWeaponSettings.MaxCount
+  nameWithType: PlayerMissileWeaponSettings.MaxCount
+- uid: StormHawks.Runtime.Players.Attack.PlayerMissileWeaponSettings.ReloadTime
+  name: ReloadTime
+  href: api/StormHawks.Runtime.Players.Attack.PlayerMissileWeaponSettings.html#StormHawks_Runtime_Players_Attack_PlayerMissileWeaponSettings_ReloadTime
+  commentId: P:StormHawks.Runtime.Players.Attack.PlayerMissileWeaponSettings.ReloadTime
+  fullName: StormHawks.Runtime.Players.Attack.PlayerMissileWeaponSettings.ReloadTime
+  nameWithType: PlayerMissileWeaponSettings.ReloadTime
+- uid: StormHawks.Runtime.Players.Attack.PlayerMissileWeaponSettings.ReloadTime*
+  name: ReloadTime
+  href: api/StormHawks.Runtime.Players.Attack.PlayerMissileWeaponSettings.html#StormHawks_Runtime_Players_Attack_PlayerMissileWeaponSettings_ReloadTime_
+  commentId: Overload:StormHawks.Runtime.Players.Attack.PlayerMissileWeaponSettings.ReloadTime
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Players.Attack.PlayerMissileWeaponSettings.ReloadTime
+  nameWithType: PlayerMissileWeaponSettings.ReloadTime
 - uid: StormHawks.Runtime.Players.Audio
   name: StormHawks.Runtime.Players.Audio
   href: api/StormHawks.Runtime.Players.Audio.html
@@ -16405,57 +16814,6 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Players.Controllers.PlayerWingConfigSO.YawWingRotatePower
   nameWithType: PlayerWingConfigSO.YawWingRotatePower
-- uid: StormHawks.Runtime.Players.Controllers.RingControllerVisualizer
-  name: RingControllerVisualizer
-  href: api/StormHawks.Runtime.Players.Controllers.RingControllerVisualizer.html
-  commentId: T:StormHawks.Runtime.Players.Controllers.RingControllerVisualizer
-  fullName: StormHawks.Runtime.Players.Controllers.RingControllerVisualizer
-  nameWithType: RingControllerVisualizer
-- uid: StormHawks.Runtime.Players.Controllers.RingControllerVisualizer.RingSet
-  name: RingControllerVisualizer.RingSet
-  href: api/StormHawks.Runtime.Players.Controllers.RingControllerVisualizer.RingSet.html
-  commentId: T:StormHawks.Runtime.Players.Controllers.RingControllerVisualizer.RingSet
-  fullName: StormHawks.Runtime.Players.Controllers.RingControllerVisualizer.RingSet
-  nameWithType: RingControllerVisualizer.RingSet
-- uid: StormHawks.Runtime.Players.Controllers.RingControllerVisualizer.RingSet.Initialize(AnalogButton)
-  name: Initialize(AnalogButton)
-  href: api/StormHawks.Runtime.Players.Controllers.RingControllerVisualizer.RingSet.html#StormHawks_Runtime_Players_Controllers_RingControllerVisualizer_RingSet_Initialize_AnalogButton_
-  commentId: M:StormHawks.Runtime.Players.Controllers.RingControllerVisualizer.RingSet.Initialize(AnalogButton)
-  fullName: StormHawks.Runtime.Players.Controllers.RingControllerVisualizer.RingSet.Initialize(AnalogButton)
-  nameWithType: RingControllerVisualizer.RingSet.Initialize(AnalogButton)
-- uid: StormHawks.Runtime.Players.Controllers.RingControllerVisualizer.RingSet.Initialize*
-  name: Initialize
-  href: api/StormHawks.Runtime.Players.Controllers.RingControllerVisualizer.RingSet.html#StormHawks_Runtime_Players_Controllers_RingControllerVisualizer_RingSet_Initialize_
-  commentId: Overload:StormHawks.Runtime.Players.Controllers.RingControllerVisualizer.RingSet.Initialize
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Players.Controllers.RingControllerVisualizer.RingSet.Initialize
-  nameWithType: RingControllerVisualizer.RingSet.Initialize
-- uid: StormHawks.Runtime.Players.Controllers.RingControllerVisualizer.RingSet.Release(AnalogButton)
-  name: Release(AnalogButton)
-  href: api/StormHawks.Runtime.Players.Controllers.RingControllerVisualizer.RingSet.html#StormHawks_Runtime_Players_Controllers_RingControllerVisualizer_RingSet_Release_AnalogButton_
-  commentId: M:StormHawks.Runtime.Players.Controllers.RingControllerVisualizer.RingSet.Release(AnalogButton)
-  fullName: StormHawks.Runtime.Players.Controllers.RingControllerVisualizer.RingSet.Release(AnalogButton)
-  nameWithType: RingControllerVisualizer.RingSet.Release(AnalogButton)
-- uid: StormHawks.Runtime.Players.Controllers.RingControllerVisualizer.RingSet.Release*
-  name: Release
-  href: api/StormHawks.Runtime.Players.Controllers.RingControllerVisualizer.RingSet.html#StormHawks_Runtime_Players_Controllers_RingControllerVisualizer_RingSet_Release_
-  commentId: Overload:StormHawks.Runtime.Players.Controllers.RingControllerVisualizer.RingSet.Release
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Players.Controllers.RingControllerVisualizer.RingSet.Release
-  nameWithType: RingControllerVisualizer.RingSet.Release
-- uid: StormHawks.Runtime.Players.Controllers.RingControllerVisualizer.RingSet.UpdateRing
-  name: UpdateRing()
-  href: api/StormHawks.Runtime.Players.Controllers.RingControllerVisualizer.RingSet.html#StormHawks_Runtime_Players_Controllers_RingControllerVisualizer_RingSet_UpdateRing
-  commentId: M:StormHawks.Runtime.Players.Controllers.RingControllerVisualizer.RingSet.UpdateRing
-  fullName: StormHawks.Runtime.Players.Controllers.RingControllerVisualizer.RingSet.UpdateRing()
-  nameWithType: RingControllerVisualizer.RingSet.UpdateRing()
-- uid: StormHawks.Runtime.Players.Controllers.RingControllerVisualizer.RingSet.UpdateRing*
-  name: UpdateRing
-  href: api/StormHawks.Runtime.Players.Controllers.RingControllerVisualizer.RingSet.html#StormHawks_Runtime_Players_Controllers_RingControllerVisualizer_RingSet_UpdateRing_
-  commentId: Overload:StormHawks.Runtime.Players.Controllers.RingControllerVisualizer.RingSet.UpdateRing
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Players.Controllers.RingControllerVisualizer.RingSet.UpdateRing
-  nameWithType: RingControllerVisualizer.RingSet.UpdateRing
 - uid: StormHawks.Runtime.Players.Controllers.VRController
   name: VRController
   href: api/StormHawks.Runtime.Players.Controllers.VRController.html
@@ -16512,12 +16870,6 @@ references:
   commentId: N:StormHawks.Runtime.Players.Flights
   fullName: StormHawks.Runtime.Players.Flights
   nameWithType: StormHawks.Runtime.Players.Flights
-- uid: StormHawks.Runtime.Players.Flights.MuzzleTransformPresenter
-  name: MuzzleTransformPresenter
-  href: api/StormHawks.Runtime.Players.Flights.MuzzleTransformPresenter.html
-  commentId: T:StormHawks.Runtime.Players.Flights.MuzzleTransformPresenter
-  fullName: StormHawks.Runtime.Players.Flights.MuzzleTransformPresenter
-  nameWithType: MuzzleTransformPresenter
 - uid: StormHawks.Runtime.Players.Flights.PlayerFlightControlSettings
   name: PlayerFlightControlSettings
   href: api/StormHawks.Runtime.Players.Flights.PlayerFlightControlSettings.html
@@ -16621,19 +16973,6 @@ references:
   commentId: T:StormHawks.Runtime.Players.Flights.PlayerFlightControlUpdater
   fullName: StormHawks.Runtime.Players.Flights.PlayerFlightControlUpdater
   nameWithType: PlayerFlightControlUpdater
-- uid: StormHawks.Runtime.Players.Flights.PlayerFlightControlUpdater.Awake
-  name: Awake()
-  href: api/StormHawks.Runtime.Players.Flights.PlayerFlightControlUpdater.html#StormHawks_Runtime_Players_Flights_PlayerFlightControlUpdater_Awake
-  commentId: M:StormHawks.Runtime.Players.Flights.PlayerFlightControlUpdater.Awake
-  fullName: StormHawks.Runtime.Players.Flights.PlayerFlightControlUpdater.Awake()
-  nameWithType: PlayerFlightControlUpdater.Awake()
-- uid: StormHawks.Runtime.Players.Flights.PlayerFlightControlUpdater.Awake*
-  name: Awake
-  href: api/StormHawks.Runtime.Players.Flights.PlayerFlightControlUpdater.html#StormHawks_Runtime_Players_Flights_PlayerFlightControlUpdater_Awake_
-  commentId: Overload:StormHawks.Runtime.Players.Flights.PlayerFlightControlUpdater.Awake
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Players.Flights.PlayerFlightControlUpdater.Awake
-  nameWithType: PlayerFlightControlUpdater.Awake
 - uid: StormHawks.Runtime.Players.Flights.PlayerFlightSettings
   name: PlayerFlightSettings
   href: api/StormHawks.Runtime.Players.Flights.PlayerFlightSettings.html
@@ -17955,6 +18294,95 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Presenters.Animators.IEntityAnimator.PlayAnimation
   nameWithType: IEntityAnimator.PlayAnimation
+- uid: StormHawks.Runtime.Presenters.Animators.Players
+  name: StormHawks.Runtime.Presenters.Animators.Players
+  href: api/StormHawks.Runtime.Presenters.Animators.Players.html
+  commentId: N:StormHawks.Runtime.Presenters.Animators.Players
+  fullName: StormHawks.Runtime.Presenters.Animators.Players
+  nameWithType: StormHawks.Runtime.Presenters.Animators.Players
+- uid: StormHawks.Runtime.Presenters.Animators.Players.HandAnimationPresenter
+  name: HandAnimationPresenter
+  href: api/StormHawks.Runtime.Presenters.Animators.Players.HandAnimationPresenter.html
+  commentId: T:StormHawks.Runtime.Presenters.Animators.Players.HandAnimationPresenter
+  fullName: StormHawks.Runtime.Presenters.Animators.Players.HandAnimationPresenter
+  nameWithType: HandAnimationPresenter
+- uid: StormHawks.Runtime.Presenters.Animators.Players.RingControllerPresenter
+  name: RingControllerPresenter
+  href: api/StormHawks.Runtime.Presenters.Animators.Players.RingControllerPresenter.html
+  commentId: T:StormHawks.Runtime.Presenters.Animators.Players.RingControllerPresenter
+  fullName: StormHawks.Runtime.Presenters.Animators.Players.RingControllerPresenter
+  nameWithType: RingControllerPresenter
+- uid: StormHawks.Runtime.Presenters.Animators.Players.RingControllerPresenter.RingController
+  name: RingControllerPresenter.RingController
+  href: api/StormHawks.Runtime.Presenters.Animators.Players.RingControllerPresenter.RingController.html
+  commentId: T:StormHawks.Runtime.Presenters.Animators.Players.RingControllerPresenter.RingController
+  fullName: StormHawks.Runtime.Presenters.Animators.Players.RingControllerPresenter.RingController
+  nameWithType: RingControllerPresenter.RingController
+- uid: StormHawks.Runtime.Presenters.Animators.Players.RingControllerPresenter.RingController.HideRing
+  name: HideRing()
+  href: api/StormHawks.Runtime.Presenters.Animators.Players.RingControllerPresenter.RingController.html#StormHawks_Runtime_Presenters_Animators_Players_RingControllerPresenter_RingController_HideRing
+  commentId: M:StormHawks.Runtime.Presenters.Animators.Players.RingControllerPresenter.RingController.HideRing
+  fullName: StormHawks.Runtime.Presenters.Animators.Players.RingControllerPresenter.RingController.HideRing()
+  nameWithType: RingControllerPresenter.RingController.HideRing()
+- uid: StormHawks.Runtime.Presenters.Animators.Players.RingControllerPresenter.RingController.HideRing*
+  name: HideRing
+  href: api/StormHawks.Runtime.Presenters.Animators.Players.RingControllerPresenter.RingController.html#StormHawks_Runtime_Presenters_Animators_Players_RingControllerPresenter_RingController_HideRing_
+  commentId: Overload:StormHawks.Runtime.Presenters.Animators.Players.RingControllerPresenter.RingController.HideRing
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.Animators.Players.RingControllerPresenter.RingController.HideRing
+  nameWithType: RingControllerPresenter.RingController.HideRing
+- uid: StormHawks.Runtime.Presenters.Animators.Players.RingControllerPresenter.RingController.Initialize(Transform,GameObject,GameObject,System.Single,System.Single)
+  name: Initialize(Transform, GameObject, GameObject, Single, Single)
+  href: api/StormHawks.Runtime.Presenters.Animators.Players.RingControllerPresenter.RingController.html#StormHawks_Runtime_Presenters_Animators_Players_RingControllerPresenter_RingController_Initialize_Transform_GameObject_GameObject_System_Single_System_Single_
+  commentId: M:StormHawks.Runtime.Presenters.Animators.Players.RingControllerPresenter.RingController.Initialize(Transform,GameObject,GameObject,System.Single,System.Single)
+  fullName: StormHawks.Runtime.Presenters.Animators.Players.RingControllerPresenter.RingController.Initialize(Transform, GameObject, GameObject, System.Single, System.Single)
+  nameWithType: RingControllerPresenter.RingController.Initialize(Transform, GameObject, GameObject, Single, Single)
+- uid: StormHawks.Runtime.Presenters.Animators.Players.RingControllerPresenter.RingController.Initialize*
+  name: Initialize
+  href: api/StormHawks.Runtime.Presenters.Animators.Players.RingControllerPresenter.RingController.html#StormHawks_Runtime_Presenters_Animators_Players_RingControllerPresenter_RingController_Initialize_
+  commentId: Overload:StormHawks.Runtime.Presenters.Animators.Players.RingControllerPresenter.RingController.Initialize
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.Animators.Players.RingControllerPresenter.RingController.Initialize
+  nameWithType: RingControllerPresenter.RingController.Initialize
+- uid: StormHawks.Runtime.Presenters.Animators.Players.RingControllerPresenter.RingController.IsActivated
+  name: IsActivated
+  href: api/StormHawks.Runtime.Presenters.Animators.Players.RingControllerPresenter.RingController.html#StormHawks_Runtime_Presenters_Animators_Players_RingControllerPresenter_RingController_IsActivated
+  commentId: P:StormHawks.Runtime.Presenters.Animators.Players.RingControllerPresenter.RingController.IsActivated
+  fullName: StormHawks.Runtime.Presenters.Animators.Players.RingControllerPresenter.RingController.IsActivated
+  nameWithType: RingControllerPresenter.RingController.IsActivated
+- uid: StormHawks.Runtime.Presenters.Animators.Players.RingControllerPresenter.RingController.IsActivated*
+  name: IsActivated
+  href: api/StormHawks.Runtime.Presenters.Animators.Players.RingControllerPresenter.RingController.html#StormHawks_Runtime_Presenters_Animators_Players_RingControllerPresenter_RingController_IsActivated_
+  commentId: Overload:StormHawks.Runtime.Presenters.Animators.Players.RingControllerPresenter.RingController.IsActivated
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.Animators.Players.RingControllerPresenter.RingController.IsActivated
+  nameWithType: RingControllerPresenter.RingController.IsActivated
+- uid: StormHawks.Runtime.Presenters.Animators.Players.RingControllerPresenter.RingController.ShowRing
+  name: ShowRing()
+  href: api/StormHawks.Runtime.Presenters.Animators.Players.RingControllerPresenter.RingController.html#StormHawks_Runtime_Presenters_Animators_Players_RingControllerPresenter_RingController_ShowRing
+  commentId: M:StormHawks.Runtime.Presenters.Animators.Players.RingControllerPresenter.RingController.ShowRing
+  fullName: StormHawks.Runtime.Presenters.Animators.Players.RingControllerPresenter.RingController.ShowRing()
+  nameWithType: RingControllerPresenter.RingController.ShowRing()
+- uid: StormHawks.Runtime.Presenters.Animators.Players.RingControllerPresenter.RingController.ShowRing*
+  name: ShowRing
+  href: api/StormHawks.Runtime.Presenters.Animators.Players.RingControllerPresenter.RingController.html#StormHawks_Runtime_Presenters_Animators_Players_RingControllerPresenter_RingController_ShowRing_
+  commentId: Overload:StormHawks.Runtime.Presenters.Animators.Players.RingControllerPresenter.RingController.ShowRing
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.Animators.Players.RingControllerPresenter.RingController.ShowRing
+  nameWithType: RingControllerPresenter.RingController.ShowRing
+- uid: StormHawks.Runtime.Presenters.Animators.Players.RingControllerPresenter.RingController.UpdateRing
+  name: UpdateRing()
+  href: api/StormHawks.Runtime.Presenters.Animators.Players.RingControllerPresenter.RingController.html#StormHawks_Runtime_Presenters_Animators_Players_RingControllerPresenter_RingController_UpdateRing
+  commentId: M:StormHawks.Runtime.Presenters.Animators.Players.RingControllerPresenter.RingController.UpdateRing
+  fullName: StormHawks.Runtime.Presenters.Animators.Players.RingControllerPresenter.RingController.UpdateRing()
+  nameWithType: RingControllerPresenter.RingController.UpdateRing()
+- uid: StormHawks.Runtime.Presenters.Animators.Players.RingControllerPresenter.RingController.UpdateRing*
+  name: UpdateRing
+  href: api/StormHawks.Runtime.Presenters.Animators.Players.RingControllerPresenter.RingController.html#StormHawks_Runtime_Presenters_Animators_Players_RingControllerPresenter_RingController_UpdateRing_
+  commentId: Overload:StormHawks.Runtime.Presenters.Animators.Players.RingControllerPresenter.RingController.UpdateRing
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.Animators.Players.RingControllerPresenter.RingController.UpdateRing
+  nameWithType: RingControllerPresenter.RingController.UpdateRing
 - uid: StormHawks.Runtime.Presenters.Behaviors.BehaviorPlayers.Boss
   name: StormHawks.Runtime.Presenters.Behaviors.BehaviorPlayers.Boss
   href: api/StormHawks.Runtime.Presenters.Behaviors.BehaviorPlayers.Boss.html
@@ -20765,6 +21193,24 @@ references:
   commentId: E:StormHawks.Runtime.Presenters.Fires.SequentialFire.OnFire
   fullName: StormHawks.Runtime.Presenters.Fires.SequentialFire.OnFire
   nameWithType: SequentialFire.OnFire
+- uid: StormHawks.Runtime.Presenters.Players
+  name: StormHawks.Runtime.Presenters.Players
+  href: api/StormHawks.Runtime.Presenters.Players.html
+  commentId: N:StormHawks.Runtime.Presenters.Players
+  fullName: StormHawks.Runtime.Presenters.Players
+  nameWithType: StormHawks.Runtime.Presenters.Players
+- uid: StormHawks.Runtime.Presenters.Players.MuzzleRotatePresenter
+  name: MuzzleRotatePresenter
+  href: api/StormHawks.Runtime.Presenters.Players.MuzzleRotatePresenter.html
+  commentId: T:StormHawks.Runtime.Presenters.Players.MuzzleRotatePresenter
+  fullName: StormHawks.Runtime.Presenters.Players.MuzzleRotatePresenter
+  nameWithType: MuzzleRotatePresenter
+- uid: StormHawks.Runtime.Presenters.Players.WingTransformPresenter
+  name: WingTransformPresenter
+  href: api/StormHawks.Runtime.Presenters.Players.WingTransformPresenter.html
+  commentId: T:StormHawks.Runtime.Presenters.Players.WingTransformPresenter
+  fullName: StormHawks.Runtime.Presenters.Players.WingTransformPresenter
+  nameWithType: WingTransformPresenter
 - uid: StormHawks.Runtime.Presenters.Projectiles
   name: StormHawks.Runtime.Presenters.Projectiles
   href: api/StormHawks.Runtime.Presenters.Projectiles.html
@@ -21340,12 +21786,101 @@ references:
   commentId: N:StormHawks.Runtime.Presenters.Runtime.Presenters
   fullName: StormHawks.Runtime.Presenters.Runtime.Presenters
   nameWithType: StormHawks.Runtime.Presenters.Runtime.Presenters
+- uid: StormHawks.Runtime.Presenters.Runtime.Presenters.InjectableMonoBehaviour
+  name: InjectableMonoBehaviour
+  href: api/StormHawks.Runtime.Presenters.Runtime.Presenters.InjectableMonoBehaviour.html
+  commentId: T:StormHawks.Runtime.Presenters.Runtime.Presenters.InjectableMonoBehaviour
+  fullName: StormHawks.Runtime.Presenters.Runtime.Presenters.InjectableMonoBehaviour
+  nameWithType: InjectableMonoBehaviour
 - uid: StormHawks.Runtime.Presenters.Runtime.Presenters.PlayerPresenter
   name: PlayerPresenter
   href: api/StormHawks.Runtime.Presenters.Runtime.Presenters.PlayerPresenter.html
   commentId: T:StormHawks.Runtime.Presenters.Runtime.Presenters.PlayerPresenter
   fullName: StormHawks.Runtime.Presenters.Runtime.Presenters.PlayerPresenter
   nameWithType: PlayerPresenter
+- uid: StormHawks.Runtime.Presenters.Runtime.Presenters.UI.HUD
+  name: StormHawks.Runtime.Presenters.Runtime.Presenters.UI.HUD
+  href: api/StormHawks.Runtime.Presenters.Runtime.Presenters.UI.HUD.html
+  commentId: N:StormHawks.Runtime.Presenters.Runtime.Presenters.UI.HUD
+  fullName: StormHawks.Runtime.Presenters.Runtime.Presenters.UI.HUD
+  nameWithType: StormHawks.Runtime.Presenters.Runtime.Presenters.UI.HUD
+- uid: StormHawks.Runtime.Presenters.Runtime.Presenters.UI.HUD.MissileLockOnDelayLayerUI
+  name: MissileLockOnDelayLayerUI
+  href: api/StormHawks.Runtime.Presenters.Runtime.Presenters.UI.HUD.MissileLockOnDelayLayerUI.html
+  commentId: T:StormHawks.Runtime.Presenters.Runtime.Presenters.UI.HUD.MissileLockOnDelayLayerUI
+  fullName: StormHawks.Runtime.Presenters.Runtime.Presenters.UI.HUD.MissileLockOnDelayLayerUI
+  nameWithType: MissileLockOnDelayLayerUI
+- uid: StormHawks.Runtime.Presenters.Runtime.Presenters.UI.HUD.MissileLockOnDelayLayerUI.Layer
+  name: MissileLockOnDelayLayerUI.Layer
+  href: api/StormHawks.Runtime.Presenters.Runtime.Presenters.UI.HUD.MissileLockOnDelayLayerUI.Layer.html
+  commentId: T:StormHawks.Runtime.Presenters.Runtime.Presenters.UI.HUD.MissileLockOnDelayLayerUI.Layer
+  fullName: StormHawks.Runtime.Presenters.Runtime.Presenters.UI.HUD.MissileLockOnDelayLayerUI.Layer
+  nameWithType: MissileLockOnDelayLayerUI.Layer
+- uid: StormHawks.Runtime.Presenters.Runtime.Presenters.UI.HUD.MissileLockOnDelayLayerUI.Layer.Delay
+  name: Delay
+  href: api/StormHawks.Runtime.Presenters.Runtime.Presenters.UI.HUD.MissileLockOnDelayLayerUI.Layer.html#StormHawks_Runtime_Presenters_Runtime_Presenters_UI_HUD_MissileLockOnDelayLayerUI_Layer_Delay
+  commentId: P:StormHawks.Runtime.Presenters.Runtime.Presenters.UI.HUD.MissileLockOnDelayLayerUI.Layer.Delay
+  fullName: StormHawks.Runtime.Presenters.Runtime.Presenters.UI.HUD.MissileLockOnDelayLayerUI.Layer.Delay
+  nameWithType: MissileLockOnDelayLayerUI.Layer.Delay
+- uid: StormHawks.Runtime.Presenters.Runtime.Presenters.UI.HUD.MissileLockOnDelayLayerUI.Layer.Delay*
+  name: Delay
+  href: api/StormHawks.Runtime.Presenters.Runtime.Presenters.UI.HUD.MissileLockOnDelayLayerUI.Layer.html#StormHawks_Runtime_Presenters_Runtime_Presenters_UI_HUD_MissileLockOnDelayLayerUI_Layer_Delay_
+  commentId: Overload:StormHawks.Runtime.Presenters.Runtime.Presenters.UI.HUD.MissileLockOnDelayLayerUI.Layer.Delay
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.Runtime.Presenters.UI.HUD.MissileLockOnDelayLayerUI.Layer.Delay
+  nameWithType: MissileLockOnDelayLayerUI.Layer.Delay
+- uid: StormHawks.Runtime.Presenters.Runtime.Presenters.UI.HUD.MissileLockOnDelayLayerUI.Layer.Distance
+  name: Distance
+  href: api/StormHawks.Runtime.Presenters.Runtime.Presenters.UI.HUD.MissileLockOnDelayLayerUI.Layer.html#StormHawks_Runtime_Presenters_Runtime_Presenters_UI_HUD_MissileLockOnDelayLayerUI_Layer_Distance
+  commentId: P:StormHawks.Runtime.Presenters.Runtime.Presenters.UI.HUD.MissileLockOnDelayLayerUI.Layer.Distance
+  fullName: StormHawks.Runtime.Presenters.Runtime.Presenters.UI.HUD.MissileLockOnDelayLayerUI.Layer.Distance
+  nameWithType: MissileLockOnDelayLayerUI.Layer.Distance
+- uid: StormHawks.Runtime.Presenters.Runtime.Presenters.UI.HUD.MissileLockOnDelayLayerUI.Layer.Distance*
+  name: Distance
+  href: api/StormHawks.Runtime.Presenters.Runtime.Presenters.UI.HUD.MissileLockOnDelayLayerUI.Layer.html#StormHawks_Runtime_Presenters_Runtime_Presenters_UI_HUD_MissileLockOnDelayLayerUI_Layer_Distance_
+  commentId: Overload:StormHawks.Runtime.Presenters.Runtime.Presenters.UI.HUD.MissileLockOnDelayLayerUI.Layer.Distance
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.Runtime.Presenters.UI.HUD.MissileLockOnDelayLayerUI.Layer.Distance
+  nameWithType: MissileLockOnDelayLayerUI.Layer.Distance
+- uid: StormHawks.Runtime.Presenters.Runtime.Presenters.UI.HUD.MissileLockOnDelayLayerUI.Layer.IsLocked
+  name: IsLocked
+  href: api/StormHawks.Runtime.Presenters.Runtime.Presenters.UI.HUD.MissileLockOnDelayLayerUI.Layer.html#StormHawks_Runtime_Presenters_Runtime_Presenters_UI_HUD_MissileLockOnDelayLayerUI_Layer_IsLocked
+  commentId: P:StormHawks.Runtime.Presenters.Runtime.Presenters.UI.HUD.MissileLockOnDelayLayerUI.Layer.IsLocked
+  fullName: StormHawks.Runtime.Presenters.Runtime.Presenters.UI.HUD.MissileLockOnDelayLayerUI.Layer.IsLocked
+  nameWithType: MissileLockOnDelayLayerUI.Layer.IsLocked
+- uid: StormHawks.Runtime.Presenters.Runtime.Presenters.UI.HUD.MissileLockOnDelayLayerUI.Layer.IsLocked*
+  name: IsLocked
+  href: api/StormHawks.Runtime.Presenters.Runtime.Presenters.UI.HUD.MissileLockOnDelayLayerUI.Layer.html#StormHawks_Runtime_Presenters_Runtime_Presenters_UI_HUD_MissileLockOnDelayLayerUI_Layer_IsLocked_
+  commentId: Overload:StormHawks.Runtime.Presenters.Runtime.Presenters.UI.HUD.MissileLockOnDelayLayerUI.Layer.IsLocked
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.Runtime.Presenters.UI.HUD.MissileLockOnDelayLayerUI.Layer.IsLocked
+  nameWithType: MissileLockOnDelayLayerUI.Layer.IsLocked
+- uid: StormHawks.Runtime.Presenters.Runtime.Presenters.UI.HUD.MissileLockOnDelayLayerUI.Layer.SetDistance(System.Single)
+  name: SetDistance(Single)
+  href: api/StormHawks.Runtime.Presenters.Runtime.Presenters.UI.HUD.MissileLockOnDelayLayerUI.Layer.html#StormHawks_Runtime_Presenters_Runtime_Presenters_UI_HUD_MissileLockOnDelayLayerUI_Layer_SetDistance_System_Single_
+  commentId: M:StormHawks.Runtime.Presenters.Runtime.Presenters.UI.HUD.MissileLockOnDelayLayerUI.Layer.SetDistance(System.Single)
+  fullName: StormHawks.Runtime.Presenters.Runtime.Presenters.UI.HUD.MissileLockOnDelayLayerUI.Layer.SetDistance(System.Single)
+  nameWithType: MissileLockOnDelayLayerUI.Layer.SetDistance(Single)
+- uid: StormHawks.Runtime.Presenters.Runtime.Presenters.UI.HUD.MissileLockOnDelayLayerUI.Layer.SetDistance*
+  name: SetDistance
+  href: api/StormHawks.Runtime.Presenters.Runtime.Presenters.UI.HUD.MissileLockOnDelayLayerUI.Layer.html#StormHawks_Runtime_Presenters_Runtime_Presenters_UI_HUD_MissileLockOnDelayLayerUI_Layer_SetDistance_
+  commentId: Overload:StormHawks.Runtime.Presenters.Runtime.Presenters.UI.HUD.MissileLockOnDelayLayerUI.Layer.SetDistance
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.Runtime.Presenters.UI.HUD.MissileLockOnDelayLayerUI.Layer.SetDistance
+  nameWithType: MissileLockOnDelayLayerUI.Layer.SetDistance
+- uid: StormHawks.Runtime.Presenters.Runtime.Presenters.UI.HUD.MissileLockOnDelayLayerUI.Layer.UITransform
+  name: UITransform
+  href: api/StormHawks.Runtime.Presenters.Runtime.Presenters.UI.HUD.MissileLockOnDelayLayerUI.Layer.html#StormHawks_Runtime_Presenters_Runtime_Presenters_UI_HUD_MissileLockOnDelayLayerUI_Layer_UITransform
+  commentId: P:StormHawks.Runtime.Presenters.Runtime.Presenters.UI.HUD.MissileLockOnDelayLayerUI.Layer.UITransform
+  fullName: StormHawks.Runtime.Presenters.Runtime.Presenters.UI.HUD.MissileLockOnDelayLayerUI.Layer.UITransform
+  nameWithType: MissileLockOnDelayLayerUI.Layer.UITransform
+- uid: StormHawks.Runtime.Presenters.Runtime.Presenters.UI.HUD.MissileLockOnDelayLayerUI.Layer.UITransform*
+  name: UITransform
+  href: api/StormHawks.Runtime.Presenters.Runtime.Presenters.UI.HUD.MissileLockOnDelayLayerUI.Layer.html#StormHawks_Runtime_Presenters_Runtime_Presenters_UI_HUD_MissileLockOnDelayLayerUI_Layer_UITransform_
+  commentId: Overload:StormHawks.Runtime.Presenters.Runtime.Presenters.UI.HUD.MissileLockOnDelayLayerUI.Layer.UITransform
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.Runtime.Presenters.UI.HUD.MissileLockOnDelayLayerUI.Layer.UITransform
+  nameWithType: MissileLockOnDelayLayerUI.Layer.UITransform
 - uid: StormHawks.Runtime.Presenters.Spawners
   name: StormHawks.Runtime.Presenters.Spawners
   href: api/StormHawks.Runtime.Presenters.Spawners.html
@@ -21581,6 +22116,24 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Presenters.Spawners.ProjectileSpawner.Warmup
   nameWithType: ProjectileSpawner.Warmup
+- uid: StormHawks.Runtime.Presenters.UI
+  name: StormHawks.Runtime.Presenters.UI
+  href: api/StormHawks.Runtime.Presenters.UI.html
+  commentId: N:StormHawks.Runtime.Presenters.UI
+  fullName: StormHawks.Runtime.Presenters.UI
+  nameWithType: StormHawks.Runtime.Presenters.UI
+- uid: StormHawks.Runtime.Presenters.UI.InjectableUIBase
+  name: InjectableUIBase
+  href: api/StormHawks.Runtime.Presenters.UI.InjectableUIBase.html
+  commentId: T:StormHawks.Runtime.Presenters.UI.InjectableUIBase
+  fullName: StormHawks.Runtime.Presenters.UI.InjectableUIBase
+  nameWithType: InjectableUIBase
+- uid: StormHawks.Runtime.Presenters.UI.UIBase
+  name: UIBase
+  href: api/StormHawks.Runtime.Presenters.UI.UIBase.html
+  commentId: T:StormHawks.Runtime.Presenters.UI.UIBase
+  fullName: StormHawks.Runtime.Presenters.UI.UIBase
+  nameWithType: UIBase
 - uid: StormHawks.Runtime.Presenters.Weapons
   name: StormHawks.Runtime.Presenters.Weapons
   href: api/StormHawks.Runtime.Presenters.Weapons.html
@@ -22233,6 +22786,18 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Presenters.Weapons.ProjectileWeapon.Rotation
   nameWithType: ProjectileWeapon.Rotation
+- uid: StormHawks.Runtime.Presenters.XR
+  name: StormHawks.Runtime.Presenters.XR
+  href: api/StormHawks.Runtime.Presenters.XR.html
+  commentId: N:StormHawks.Runtime.Presenters.XR
+  fullName: StormHawks.Runtime.Presenters.XR
+  nameWithType: StormHawks.Runtime.Presenters.XR
+- uid: StormHawks.Runtime.Presenters.XR.XRCameraTransformPresenter
+  name: XRCameraTransformPresenter
+  href: api/StormHawks.Runtime.Presenters.XR.XRCameraTransformPresenter.html
+  commentId: T:StormHawks.Runtime.Presenters.XR.XRCameraTransformPresenter
+  fullName: StormHawks.Runtime.Presenters.XR.XRCameraTransformPresenter
+  nameWithType: XRCameraTransformPresenter
 - uid: StormHawks.Runtime.Rig
   name: StormHawks.Runtime.Rig
   href: api/StormHawks.Runtime.Rig.html
@@ -22358,38 +22923,12 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Rig.RigMapper.GetModifiedRotation
   nameWithType: RigMapper.GetModifiedRotation
-- uid: StormHawks.Runtime.Rig.RigOffsetSO
-  name: RigOffsetSO
-  href: api/StormHawks.Runtime.Rig.RigOffsetSO.html
-  commentId: T:StormHawks.Runtime.Rig.RigOffsetSO
-  fullName: StormHawks.Runtime.Rig.RigOffsetSO
-  nameWithType: RigOffsetSO
-- uid: StormHawks.Runtime.Rig.RigOffsetSO.PositionOffset
-  name: PositionOffset
-  href: api/StormHawks.Runtime.Rig.RigOffsetSO.html#StormHawks_Runtime_Rig_RigOffsetSO_PositionOffset
-  commentId: P:StormHawks.Runtime.Rig.RigOffsetSO.PositionOffset
-  fullName: StormHawks.Runtime.Rig.RigOffsetSO.PositionOffset
-  nameWithType: RigOffsetSO.PositionOffset
-- uid: StormHawks.Runtime.Rig.RigOffsetSO.PositionOffset*
-  name: PositionOffset
-  href: api/StormHawks.Runtime.Rig.RigOffsetSO.html#StormHawks_Runtime_Rig_RigOffsetSO_PositionOffset_
-  commentId: Overload:StormHawks.Runtime.Rig.RigOffsetSO.PositionOffset
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Rig.RigOffsetSO.PositionOffset
-  nameWithType: RigOffsetSO.PositionOffset
-- uid: StormHawks.Runtime.Rig.RigOffsetSO.RotationOffset
-  name: RotationOffset
-  href: api/StormHawks.Runtime.Rig.RigOffsetSO.html#StormHawks_Runtime_Rig_RigOffsetSO_RotationOffset
-  commentId: P:StormHawks.Runtime.Rig.RigOffsetSO.RotationOffset
-  fullName: StormHawks.Runtime.Rig.RigOffsetSO.RotationOffset
-  nameWithType: RigOffsetSO.RotationOffset
-- uid: StormHawks.Runtime.Rig.RigOffsetSO.RotationOffset*
-  name: RotationOffset
-  href: api/StormHawks.Runtime.Rig.RigOffsetSO.html#StormHawks_Runtime_Rig_RigOffsetSO_RotationOffset_
-  commentId: Overload:StormHawks.Runtime.Rig.RigOffsetSO.RotationOffset
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Rig.RigOffsetSO.RotationOffset
-  nameWithType: RigOffsetSO.RotationOffset
+- uid: StormHawks.Runtime.Rig.RigOffsetConfig
+  name: RigOffsetConfig
+  href: api/StormHawks.Runtime.Rig.RigOffsetConfig.html
+  commentId: T:StormHawks.Runtime.Rig.RigOffsetConfig
+  fullName: StormHawks.Runtime.Rig.RigOffsetConfig
+  nameWithType: RigOffsetConfig
 - uid: StormHawks.Runtime.Scenes
   name: StormHawks.Runtime.Scenes
   href: api/StormHawks.Runtime.Scenes.html
@@ -26644,32 +27183,51 @@ references:
   commentId: T:StormHawks.Runtime.Utilities.Extensions.TransformExtensions
   fullName: StormHawks.Runtime.Utilities.Extensions.TransformExtensions
   nameWithType: TransformExtensions
-- uid: StormHawks.Runtime.Utilities.Extensions.TransformExtensions.GetLocalPositionFromPivot(Transform,Transform)
-  name: GetLocalPositionFromPivot(Transform, Transform)
-  href: api/StormHawks.Runtime.Utilities.Extensions.TransformExtensions.html#StormHawks_Runtime_Utilities_Extensions_TransformExtensions_GetLocalPositionFromPivot_Transform_Transform_
-  commentId: M:StormHawks.Runtime.Utilities.Extensions.TransformExtensions.GetLocalPositionFromPivot(Transform,Transform)
-  fullName: StormHawks.Runtime.Utilities.Extensions.TransformExtensions.GetLocalPositionFromPivot(Transform, Transform)
-  nameWithType: TransformExtensions.GetLocalPositionFromPivot(Transform, Transform)
-- uid: StormHawks.Runtime.Utilities.Extensions.TransformExtensions.GetLocalPositionFromPivot*
-  name: GetLocalPositionFromPivot
-  href: api/StormHawks.Runtime.Utilities.Extensions.TransformExtensions.html#StormHawks_Runtime_Utilities_Extensions_TransformExtensions_GetLocalPositionFromPivot_
-  commentId: Overload:StormHawks.Runtime.Utilities.Extensions.TransformExtensions.GetLocalPositionFromPivot
+- uid: StormHawks.Runtime.Utilities.Extensions.TransformExtensions.RotateTo(Transform,Vector3)
+  name: RotateTo(Transform, Vector3)
+  href: api/StormHawks.Runtime.Utilities.Extensions.TransformExtensions.html#StormHawks_Runtime_Utilities_Extensions_TransformExtensions_RotateTo_Transform_Vector3_
+  commentId: M:StormHawks.Runtime.Utilities.Extensions.TransformExtensions.RotateTo(Transform,Vector3)
+  fullName: StormHawks.Runtime.Utilities.Extensions.TransformExtensions.RotateTo(Transform, Vector3)
+  nameWithType: TransformExtensions.RotateTo(Transform, Vector3)
+- uid: StormHawks.Runtime.Utilities.Extensions.TransformExtensions.RotateTo(Transform,Vector3,System.Single)
+  name: RotateTo(Transform, Vector3, Single)
+  href: api/StormHawks.Runtime.Utilities.Extensions.TransformExtensions.html#StormHawks_Runtime_Utilities_Extensions_TransformExtensions_RotateTo_Transform_Vector3_System_Single_
+  commentId: M:StormHawks.Runtime.Utilities.Extensions.TransformExtensions.RotateTo(Transform,Vector3,System.Single)
+  fullName: StormHawks.Runtime.Utilities.Extensions.TransformExtensions.RotateTo(Transform, Vector3, System.Single)
+  nameWithType: TransformExtensions.RotateTo(Transform, Vector3, Single)
+- uid: StormHawks.Runtime.Utilities.Extensions.TransformExtensions.RotateTo*
+  name: RotateTo
+  href: api/StormHawks.Runtime.Utilities.Extensions.TransformExtensions.html#StormHawks_Runtime_Utilities_Extensions_TransformExtensions_RotateTo_
+  commentId: Overload:StormHawks.Runtime.Utilities.Extensions.TransformExtensions.RotateTo
   isSpec: "True"
-  fullName: StormHawks.Runtime.Utilities.Extensions.TransformExtensions.GetLocalPositionFromPivot
-  nameWithType: TransformExtensions.GetLocalPositionFromPivot
-- uid: StormHawks.Runtime.Utilities.Extensions.TransformExtensions.SetPositionAndRotation(Transform,Transform)
-  name: SetPositionAndRotation(Transform, Transform)
-  href: api/StormHawks.Runtime.Utilities.Extensions.TransformExtensions.html#StormHawks_Runtime_Utilities_Extensions_TransformExtensions_SetPositionAndRotation_Transform_Transform_
-  commentId: M:StormHawks.Runtime.Utilities.Extensions.TransformExtensions.SetPositionAndRotation(Transform,Transform)
-  fullName: StormHawks.Runtime.Utilities.Extensions.TransformExtensions.SetPositionAndRotation(Transform, Transform)
-  nameWithType: TransformExtensions.SetPositionAndRotation(Transform, Transform)
-- uid: StormHawks.Runtime.Utilities.Extensions.TransformExtensions.SetPositionAndRotation*
-  name: SetPositionAndRotation
-  href: api/StormHawks.Runtime.Utilities.Extensions.TransformExtensions.html#StormHawks_Runtime_Utilities_Extensions_TransformExtensions_SetPositionAndRotation_
-  commentId: Overload:StormHawks.Runtime.Utilities.Extensions.TransformExtensions.SetPositionAndRotation
+  fullName: StormHawks.Runtime.Utilities.Extensions.TransformExtensions.RotateTo
+  nameWithType: TransformExtensions.RotateTo
+- uid: StormHawks.Runtime.Utilities.Extensions.TransformExtensions.ToLocalRotation(Transform,Quaternion)
+  name: ToLocalRotation(Transform, Quaternion)
+  href: api/StormHawks.Runtime.Utilities.Extensions.TransformExtensions.html#StormHawks_Runtime_Utilities_Extensions_TransformExtensions_ToLocalRotation_Transform_Quaternion_
+  commentId: M:StormHawks.Runtime.Utilities.Extensions.TransformExtensions.ToLocalRotation(Transform,Quaternion)
+  fullName: StormHawks.Runtime.Utilities.Extensions.TransformExtensions.ToLocalRotation(Transform, Quaternion)
+  nameWithType: TransformExtensions.ToLocalRotation(Transform, Quaternion)
+- uid: StormHawks.Runtime.Utilities.Extensions.TransformExtensions.ToLocalRotation*
+  name: ToLocalRotation
+  href: api/StormHawks.Runtime.Utilities.Extensions.TransformExtensions.html#StormHawks_Runtime_Utilities_Extensions_TransformExtensions_ToLocalRotation_
+  commentId: Overload:StormHawks.Runtime.Utilities.Extensions.TransformExtensions.ToLocalRotation
   isSpec: "True"
-  fullName: StormHawks.Runtime.Utilities.Extensions.TransformExtensions.SetPositionAndRotation
-  nameWithType: TransformExtensions.SetPositionAndRotation
+  fullName: StormHawks.Runtime.Utilities.Extensions.TransformExtensions.ToLocalRotation
+  nameWithType: TransformExtensions.ToLocalRotation
+- uid: StormHawks.Runtime.Utilities.Extensions.TransformExtensions.ToWorldRotation(Transform,Quaternion)
+  name: ToWorldRotation(Transform, Quaternion)
+  href: api/StormHawks.Runtime.Utilities.Extensions.TransformExtensions.html#StormHawks_Runtime_Utilities_Extensions_TransformExtensions_ToWorldRotation_Transform_Quaternion_
+  commentId: M:StormHawks.Runtime.Utilities.Extensions.TransformExtensions.ToWorldRotation(Transform,Quaternion)
+  fullName: StormHawks.Runtime.Utilities.Extensions.TransformExtensions.ToWorldRotation(Transform, Quaternion)
+  nameWithType: TransformExtensions.ToWorldRotation(Transform, Quaternion)
+- uid: StormHawks.Runtime.Utilities.Extensions.TransformExtensions.ToWorldRotation*
+  name: ToWorldRotation
+  href: api/StormHawks.Runtime.Utilities.Extensions.TransformExtensions.html#StormHawks_Runtime_Utilities_Extensions_TransformExtensions_ToWorldRotation_
+  commentId: Overload:StormHawks.Runtime.Utilities.Extensions.TransformExtensions.ToWorldRotation
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Utilities.Extensions.TransformExtensions.ToWorldRotation
+  nameWithType: TransformExtensions.ToWorldRotation
 - uid: StormHawks.Runtime.Utilities.Extensions.TypeExtensions
   name: TypeExtensions
   href: api/StormHawks.Runtime.Utilities.Extensions.TypeExtensions.html
@@ -27743,6 +28301,56 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Utilities.TrackingOffsetSO.FollowRotationOffset
   nameWithType: TrackingOffsetSO.FollowRotationOffset
+- uid: StormHawks.Runtime.Utilities.Transforms
+  name: StormHawks.Runtime.Utilities.Transforms
+  href: api/StormHawks.Runtime.Utilities.Transforms.html
+  commentId: N:StormHawks.Runtime.Utilities.Transforms
+  fullName: StormHawks.Runtime.Utilities.Transforms
+  nameWithType: StormHawks.Runtime.Utilities.Transforms
+- uid: StormHawks.Runtime.Utilities.Transforms.TransformSyncReceiver
+  name: TransformSyncReceiver
+  href: api/StormHawks.Runtime.Utilities.Transforms.TransformSyncReceiver.html
+  commentId: T:StormHawks.Runtime.Utilities.Transforms.TransformSyncReceiver
+  fullName: StormHawks.Runtime.Utilities.Transforms.TransformSyncReceiver
+  nameWithType: TransformSyncReceiver
+- uid: StormHawks.Runtime.Utilities.Transforms.TransformSyncReceiver.SetLocalTransform(Vector3,Quaternion)
+  name: SetLocalTransform(Vector3, Quaternion)
+  href: api/StormHawks.Runtime.Utilities.Transforms.TransformSyncReceiver.html#StormHawks_Runtime_Utilities_Transforms_TransformSyncReceiver_SetLocalTransform_Vector3_Quaternion_
+  commentId: M:StormHawks.Runtime.Utilities.Transforms.TransformSyncReceiver.SetLocalTransform(Vector3,Quaternion)
+  fullName: StormHawks.Runtime.Utilities.Transforms.TransformSyncReceiver.SetLocalTransform(Vector3, Quaternion)
+  nameWithType: TransformSyncReceiver.SetLocalTransform(Vector3, Quaternion)
+- uid: StormHawks.Runtime.Utilities.Transforms.TransformSyncReceiver.SetLocalTransform*
+  name: SetLocalTransform
+  href: api/StormHawks.Runtime.Utilities.Transforms.TransformSyncReceiver.html#StormHawks_Runtime_Utilities_Transforms_TransformSyncReceiver_SetLocalTransform_
+  commentId: Overload:StormHawks.Runtime.Utilities.Transforms.TransformSyncReceiver.SetLocalTransform
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Utilities.Transforms.TransformSyncReceiver.SetLocalTransform
+  nameWithType: TransformSyncReceiver.SetLocalTransform
+- uid: StormHawks.Runtime.Utilities.Transforms.TransformSyncReceiver.SetWorldTransform(Vector3,Quaternion)
+  name: SetWorldTransform(Vector3, Quaternion)
+  href: api/StormHawks.Runtime.Utilities.Transforms.TransformSyncReceiver.html#StormHawks_Runtime_Utilities_Transforms_TransformSyncReceiver_SetWorldTransform_Vector3_Quaternion_
+  commentId: M:StormHawks.Runtime.Utilities.Transforms.TransformSyncReceiver.SetWorldTransform(Vector3,Quaternion)
+  fullName: StormHawks.Runtime.Utilities.Transforms.TransformSyncReceiver.SetWorldTransform(Vector3, Quaternion)
+  nameWithType: TransformSyncReceiver.SetWorldTransform(Vector3, Quaternion)
+- uid: StormHawks.Runtime.Utilities.Transforms.TransformSyncReceiver.SetWorldTransform*
+  name: SetWorldTransform
+  href: api/StormHawks.Runtime.Utilities.Transforms.TransformSyncReceiver.html#StormHawks_Runtime_Utilities_Transforms_TransformSyncReceiver_SetWorldTransform_
+  commentId: Overload:StormHawks.Runtime.Utilities.Transforms.TransformSyncReceiver.SetWorldTransform
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Utilities.Transforms.TransformSyncReceiver.SetWorldTransform
+  nameWithType: TransformSyncReceiver.SetWorldTransform
+- uid: StormHawks.Runtime.Utilities.Transforms.TransformSyncSender
+  name: TransformSyncSender
+  href: api/StormHawks.Runtime.Utilities.Transforms.TransformSyncSender.html
+  commentId: T:StormHawks.Runtime.Utilities.Transforms.TransformSyncSender
+  fullName: StormHawks.Runtime.Utilities.Transforms.TransformSyncSender
+  nameWithType: TransformSyncSender
+- uid: StormHawks.Runtime.Utilities.TransformSyncer
+  name: TransformSyncer
+  href: api/StormHawks.Runtime.Utilities.TransformSyncer.html
+  commentId: T:StormHawks.Runtime.Utilities.TransformSyncer
+  fullName: StormHawks.Runtime.Utilities.TransformSyncer
+  nameWithType: TransformSyncer
 - uid: StormHawks.Runtime.Utilities.TransformTracker
   name: TransformTracker
   href: api/StormHawks.Runtime.Utilities.TransformTracker.html
@@ -27882,92 +28490,6 @@ references:
   commentId: N:StormHawks.Runtime.Utilities.Types.Dictionaries
   fullName: StormHawks.Runtime.Utilities.Types.Dictionaries
   nameWithType: StormHawks.Runtime.Utilities.Types.Dictionaries
-- uid: StormHawks.Runtime.Utilities.Types.Dictionaries.EnumDictionary`2
-  name: EnumDictionary<TKey, TValue>
-  href: api/StormHawks.Runtime.Utilities.Types.Dictionaries.EnumDictionary-2.html
-  commentId: T:StormHawks.Runtime.Utilities.Types.Dictionaries.EnumDictionary`2
-  name.vb: EnumDictionary(Of TKey, TValue)
-  fullName: StormHawks.Runtime.Utilities.Types.Dictionaries.EnumDictionary<TKey, TValue>
-  fullName.vb: StormHawks.Runtime.Utilities.Types.Dictionaries.EnumDictionary(Of TKey, TValue)
-  nameWithType: EnumDictionary<TKey, TValue>
-  nameWithType.vb: EnumDictionary(Of TKey, TValue)
-- uid: StormHawks.Runtime.Utilities.Types.Dictionaries.EnumDictionary`2.#ctor
-  name: EnumDictionary()
-  href: api/StormHawks.Runtime.Utilities.Types.Dictionaries.EnumDictionary-2.html#StormHawks_Runtime_Utilities_Types_Dictionaries_EnumDictionary_2__ctor
-  commentId: M:StormHawks.Runtime.Utilities.Types.Dictionaries.EnumDictionary`2.#ctor
-  fullName: StormHawks.Runtime.Utilities.Types.Dictionaries.EnumDictionary<TKey, TValue>.EnumDictionary()
-  fullName.vb: StormHawks.Runtime.Utilities.Types.Dictionaries.EnumDictionary(Of TKey, TValue).EnumDictionary()
-  nameWithType: EnumDictionary<TKey, TValue>.EnumDictionary()
-  nameWithType.vb: EnumDictionary(Of TKey, TValue).EnumDictionary()
-- uid: StormHawks.Runtime.Utilities.Types.Dictionaries.EnumDictionary`2.#ctor*
-  name: EnumDictionary
-  href: api/StormHawks.Runtime.Utilities.Types.Dictionaries.EnumDictionary-2.html#StormHawks_Runtime_Utilities_Types_Dictionaries_EnumDictionary_2__ctor_
-  commentId: Overload:StormHawks.Runtime.Utilities.Types.Dictionaries.EnumDictionary`2.#ctor
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Utilities.Types.Dictionaries.EnumDictionary<TKey, TValue>.EnumDictionary
-  fullName.vb: StormHawks.Runtime.Utilities.Types.Dictionaries.EnumDictionary(Of TKey, TValue).EnumDictionary
-  nameWithType: EnumDictionary<TKey, TValue>.EnumDictionary
-  nameWithType.vb: EnumDictionary(Of TKey, TValue).EnumDictionary
-- uid: StormHawks.Runtime.Utilities.Types.Dictionaries.EnumDictionary`2.GetValue(`0)
-  name: GetValue(TKey)
-  href: api/StormHawks.Runtime.Utilities.Types.Dictionaries.EnumDictionary-2.html#StormHawks_Runtime_Utilities_Types_Dictionaries_EnumDictionary_2_GetValue__0_
-  commentId: M:StormHawks.Runtime.Utilities.Types.Dictionaries.EnumDictionary`2.GetValue(`0)
-  fullName: StormHawks.Runtime.Utilities.Types.Dictionaries.EnumDictionary<TKey, TValue>.GetValue(TKey)
-  fullName.vb: StormHawks.Runtime.Utilities.Types.Dictionaries.EnumDictionary(Of TKey, TValue).GetValue(TKey)
-  nameWithType: EnumDictionary<TKey, TValue>.GetValue(TKey)
-  nameWithType.vb: EnumDictionary(Of TKey, TValue).GetValue(TKey)
-- uid: StormHawks.Runtime.Utilities.Types.Dictionaries.EnumDictionary`2.GetValue*
-  name: GetValue
-  href: api/StormHawks.Runtime.Utilities.Types.Dictionaries.EnumDictionary-2.html#StormHawks_Runtime_Utilities_Types_Dictionaries_EnumDictionary_2_GetValue_
-  commentId: Overload:StormHawks.Runtime.Utilities.Types.Dictionaries.EnumDictionary`2.GetValue
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Utilities.Types.Dictionaries.EnumDictionary<TKey, TValue>.GetValue
-  fullName.vb: StormHawks.Runtime.Utilities.Types.Dictionaries.EnumDictionary(Of TKey, TValue).GetValue
-  nameWithType: EnumDictionary<TKey, TValue>.GetValue
-  nameWithType.vb: EnumDictionary(Of TKey, TValue).GetValue
-- uid: StormHawks.Runtime.Utilities.Types.Dictionaries.InitEnumDictionary`2
-  name: InitEnumDictionary<TKey, TValue>
-  href: api/StormHawks.Runtime.Utilities.Types.Dictionaries.InitEnumDictionary-2.html
-  commentId: T:StormHawks.Runtime.Utilities.Types.Dictionaries.InitEnumDictionary`2
-  name.vb: InitEnumDictionary(Of TKey, TValue)
-  fullName: StormHawks.Runtime.Utilities.Types.Dictionaries.InitEnumDictionary<TKey, TValue>
-  fullName.vb: StormHawks.Runtime.Utilities.Types.Dictionaries.InitEnumDictionary(Of TKey, TValue)
-  nameWithType: InitEnumDictionary<TKey, TValue>
-  nameWithType.vb: InitEnumDictionary(Of TKey, TValue)
-- uid: StormHawks.Runtime.Utilities.Types.Dictionaries.InitEnumDictionary`2.Initialize
-  name: Initialize()
-  href: api/StormHawks.Runtime.Utilities.Types.Dictionaries.InitEnumDictionary-2.html#StormHawks_Runtime_Utilities_Types_Dictionaries_InitEnumDictionary_2_Initialize
-  commentId: M:StormHawks.Runtime.Utilities.Types.Dictionaries.InitEnumDictionary`2.Initialize
-  fullName: StormHawks.Runtime.Utilities.Types.Dictionaries.InitEnumDictionary<TKey, TValue>.Initialize()
-  fullName.vb: StormHawks.Runtime.Utilities.Types.Dictionaries.InitEnumDictionary(Of TKey, TValue).Initialize()
-  nameWithType: InitEnumDictionary<TKey, TValue>.Initialize()
-  nameWithType.vb: InitEnumDictionary(Of TKey, TValue).Initialize()
-- uid: StormHawks.Runtime.Utilities.Types.Dictionaries.InitEnumDictionary`2.Initialize*
-  name: Initialize
-  href: api/StormHawks.Runtime.Utilities.Types.Dictionaries.InitEnumDictionary-2.html#StormHawks_Runtime_Utilities_Types_Dictionaries_InitEnumDictionary_2_Initialize_
-  commentId: Overload:StormHawks.Runtime.Utilities.Types.Dictionaries.InitEnumDictionary`2.Initialize
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Utilities.Types.Dictionaries.InitEnumDictionary<TKey, TValue>.Initialize
-  fullName.vb: StormHawks.Runtime.Utilities.Types.Dictionaries.InitEnumDictionary(Of TKey, TValue).Initialize
-  nameWithType: InitEnumDictionary<TKey, TValue>.Initialize
-  nameWithType.vb: InitEnumDictionary(Of TKey, TValue).Initialize
-- uid: StormHawks.Runtime.Utilities.Types.Dictionaries.InitEnumDictionary`2.IsInitialized
-  name: IsInitialized
-  href: api/StormHawks.Runtime.Utilities.Types.Dictionaries.InitEnumDictionary-2.html#StormHawks_Runtime_Utilities_Types_Dictionaries_InitEnumDictionary_2_IsInitialized
-  commentId: P:StormHawks.Runtime.Utilities.Types.Dictionaries.InitEnumDictionary`2.IsInitialized
-  fullName: StormHawks.Runtime.Utilities.Types.Dictionaries.InitEnumDictionary<TKey, TValue>.IsInitialized
-  fullName.vb: StormHawks.Runtime.Utilities.Types.Dictionaries.InitEnumDictionary(Of TKey, TValue).IsInitialized
-  nameWithType: InitEnumDictionary<TKey, TValue>.IsInitialized
-  nameWithType.vb: InitEnumDictionary(Of TKey, TValue).IsInitialized
-- uid: StormHawks.Runtime.Utilities.Types.Dictionaries.InitEnumDictionary`2.IsInitialized*
-  name: IsInitialized
-  href: api/StormHawks.Runtime.Utilities.Types.Dictionaries.InitEnumDictionary-2.html#StormHawks_Runtime_Utilities_Types_Dictionaries_InitEnumDictionary_2_IsInitialized_
-  commentId: Overload:StormHawks.Runtime.Utilities.Types.Dictionaries.InitEnumDictionary`2.IsInitialized
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Utilities.Types.Dictionaries.InitEnumDictionary<TKey, TValue>.IsInitialized
-  fullName.vb: StormHawks.Runtime.Utilities.Types.Dictionaries.InitEnumDictionary(Of TKey, TValue).IsInitialized
-  nameWithType: InitEnumDictionary<TKey, TValue>.IsInitialized
-  nameWithType.vb: InitEnumDictionary(Of TKey, TValue).IsInitialized
 - uid: StormHawks.Runtime.Utilities.Types.Dictionaries.UnitySerializedDictionary`2
   name: UnitySerializedDictionary<TKey, TValue>
   href: api/StormHawks.Runtime.Utilities.Types.Dictionaries.UnitySerializedDictionary-2.html
@@ -28046,63 +28568,6 @@ references:
   fullName.vb: StormHawks.Runtime.Utilities.Types.Dictionaries.UnitySerializedDictionary(Of TKey, TValue).OnBeforeSerialize
   nameWithType: UnitySerializedDictionary<TKey, TValue>.OnBeforeSerialize
   nameWithType.vb: UnitySerializedDictionary(Of TKey, TValue).OnBeforeSerialize
-- uid: StormHawks.Runtime.Utilities.Types.PointValue
-  name: PointValue
-  href: api/StormHawks.Runtime.Utilities.Types.PointValue.html
-  commentId: T:StormHawks.Runtime.Utilities.Types.PointValue
-  fullName: StormHawks.Runtime.Utilities.Types.PointValue
-  nameWithType: PointValue
-- uid: StormHawks.Runtime.Utilities.Types.PointValue.AddRotation(Quaternion)
-  name: AddRotation(Quaternion)
-  href: api/StormHawks.Runtime.Utilities.Types.PointValue.html#StormHawks_Runtime_Utilities_Types_PointValue_AddRotation_Quaternion_
-  commentId: M:StormHawks.Runtime.Utilities.Types.PointValue.AddRotation(Quaternion)
-  fullName: StormHawks.Runtime.Utilities.Types.PointValue.AddRotation(Quaternion)
-  nameWithType: PointValue.AddRotation(Quaternion)
-- uid: StormHawks.Runtime.Utilities.Types.PointValue.AddRotation*
-  name: AddRotation
-  href: api/StormHawks.Runtime.Utilities.Types.PointValue.html#StormHawks_Runtime_Utilities_Types_PointValue_AddRotation_
-  commentId: Overload:StormHawks.Runtime.Utilities.Types.PointValue.AddRotation
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Utilities.Types.PointValue.AddRotation
-  nameWithType: PointValue.AddRotation
-- uid: StormHawks.Runtime.Utilities.Types.PointValue.Initialize
-  name: Initialize()
-  href: api/StormHawks.Runtime.Utilities.Types.PointValue.html#StormHawks_Runtime_Utilities_Types_PointValue_Initialize
-  commentId: M:StormHawks.Runtime.Utilities.Types.PointValue.Initialize
-  fullName: StormHawks.Runtime.Utilities.Types.PointValue.Initialize()
-  nameWithType: PointValue.Initialize()
-- uid: StormHawks.Runtime.Utilities.Types.PointValue.Initialize*
-  name: Initialize
-  href: api/StormHawks.Runtime.Utilities.Types.PointValue.html#StormHawks_Runtime_Utilities_Types_PointValue_Initialize_
-  commentId: Overload:StormHawks.Runtime.Utilities.Types.PointValue.Initialize
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Utilities.Types.PointValue.Initialize
-  nameWithType: PointValue.Initialize
-- uid: StormHawks.Runtime.Utilities.Types.PointValue.IsInitialized
-  name: IsInitialized
-  href: api/StormHawks.Runtime.Utilities.Types.PointValue.html#StormHawks_Runtime_Utilities_Types_PointValue_IsInitialized
-  commentId: P:StormHawks.Runtime.Utilities.Types.PointValue.IsInitialized
-  fullName: StormHawks.Runtime.Utilities.Types.PointValue.IsInitialized
-  nameWithType: PointValue.IsInitialized
-- uid: StormHawks.Runtime.Utilities.Types.PointValue.IsInitialized*
-  name: IsInitialized
-  href: api/StormHawks.Runtime.Utilities.Types.PointValue.html#StormHawks_Runtime_Utilities_Types_PointValue_IsInitialized_
-  commentId: Overload:StormHawks.Runtime.Utilities.Types.PointValue.IsInitialized
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Utilities.Types.PointValue.IsInitialized
-  nameWithType: PointValue.IsInitialized
-- uid: StormHawks.Runtime.Utilities.Types.PointValue.position
-  name: position
-  href: api/StormHawks.Runtime.Utilities.Types.PointValue.html#StormHawks_Runtime_Utilities_Types_PointValue_position
-  commentId: F:StormHawks.Runtime.Utilities.Types.PointValue.position
-  fullName: StormHawks.Runtime.Utilities.Types.PointValue.position
-  nameWithType: PointValue.position
-- uid: StormHawks.Runtime.Utilities.Types.PointValue.rotation
-  name: rotation
-  href: api/StormHawks.Runtime.Utilities.Types.PointValue.html#StormHawks_Runtime_Utilities_Types_PointValue_rotation
-  commentId: F:StormHawks.Runtime.Utilities.Types.PointValue.rotation
-  fullName: StormHawks.Runtime.Utilities.Types.PointValue.rotation
-  nameWithType: PointValue.rotation
 - uid: StormHawks.Runtime.Utilities.Types.RangeValue
   name: RangeValue
   href: api/StormHawks.Runtime.Utilities.Types.RangeValue.html
@@ -28393,6 +28858,260 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Utilities.Types.UpdateMonoBehaviour.UpdateType
   nameWithType: UpdateMonoBehaviour.UpdateType
+- uid: StormHawks.Runtime.Utilities.UI
+  name: StormHawks.Runtime.Utilities.UI
+  href: api/StormHawks.Runtime.Utilities.UI.html
+  commentId: N:StormHawks.Runtime.Utilities.UI
+  fullName: StormHawks.Runtime.Utilities.UI
+  nameWithType: StormHawks.Runtime.Utilities.UI
+- uid: StormHawks.Runtime.Utilities.UI.RadialLayoutGroup
+  name: RadialLayoutGroup
+  href: api/StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.html
+  commentId: T:StormHawks.Runtime.Utilities.UI.RadialLayoutGroup
+  fullName: StormHawks.Runtime.Utilities.UI.RadialLayoutGroup
+  nameWithType: RadialLayoutGroup
+- uid: StormHawks.Runtime.Utilities.UI.RadialLayoutGroup._clockwise
+  name: _clockwise
+  href: api/StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.html#StormHawks_Runtime_Utilities_UI_RadialLayoutGroup__clockwise
+  commentId: F:StormHawks.Runtime.Utilities.UI.RadialLayoutGroup._clockwise
+  fullName: StormHawks.Runtime.Utilities.UI.RadialLayoutGroup._clockwise
+  nameWithType: RadialLayoutGroup._clockwise
+- uid: StormHawks.Runtime.Utilities.UI.RadialLayoutGroup._customRebuild
+  name: _customRebuild
+  href: api/StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.html#StormHawks_Runtime_Utilities_UI_RadialLayoutGroup__customRebuild
+  commentId: F:StormHawks.Runtime.Utilities.UI.RadialLayoutGroup._customRebuild
+  fullName: StormHawks.Runtime.Utilities.UI.RadialLayoutGroup._customRebuild
+  nameWithType: RadialLayoutGroup._customRebuild
+- uid: StormHawks.Runtime.Utilities.UI.RadialLayoutGroup._fitToAngle
+  name: _fitToAngle
+  href: api/StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.html#StormHawks_Runtime_Utilities_UI_RadialLayoutGroup__fitToAngle
+  commentId: F:StormHawks.Runtime.Utilities.UI.RadialLayoutGroup._fitToAngle
+  fullName: StormHawks.Runtime.Utilities.UI.RadialLayoutGroup._fitToAngle
+  nameWithType: RadialLayoutGroup._fitToAngle
+- uid: StormHawks.Runtime.Utilities.UI.RadialLayoutGroup._maxAngle
+  name: _maxAngle
+  href: api/StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.html#StormHawks_Runtime_Utilities_UI_RadialLayoutGroup__maxAngle
+  commentId: F:StormHawks.Runtime.Utilities.UI.RadialLayoutGroup._maxAngle
+  fullName: StormHawks.Runtime.Utilities.UI.RadialLayoutGroup._maxAngle
+  nameWithType: RadialLayoutGroup._maxAngle
+- uid: StormHawks.Runtime.Utilities.UI.RadialLayoutGroup._minAngle
+  name: _minAngle
+  href: api/StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.html#StormHawks_Runtime_Utilities_UI_RadialLayoutGroup__minAngle
+  commentId: F:StormHawks.Runtime.Utilities.UI.RadialLayoutGroup._minAngle
+  fullName: StormHawks.Runtime.Utilities.UI.RadialLayoutGroup._minAngle
+  nameWithType: RadialLayoutGroup._minAngle
+- uid: StormHawks.Runtime.Utilities.UI.RadialLayoutGroup._predefinedChildCount
+  name: _predefinedChildCount
+  href: api/StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.html#StormHawks_Runtime_Utilities_UI_RadialLayoutGroup__predefinedChildCount
+  commentId: F:StormHawks.Runtime.Utilities.UI.RadialLayoutGroup._predefinedChildCount
+  fullName: StormHawks.Runtime.Utilities.UI.RadialLayoutGroup._predefinedChildCount
+  nameWithType: RadialLayoutGroup._predefinedChildCount
+- uid: StormHawks.Runtime.Utilities.UI.RadialLayoutGroup._radius
+  name: _radius
+  href: api/StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.html#StormHawks_Runtime_Utilities_UI_RadialLayoutGroup__radius
+  commentId: F:StormHawks.Runtime.Utilities.UI.RadialLayoutGroup._radius
+  fullName: StormHawks.Runtime.Utilities.UI.RadialLayoutGroup._radius
+  nameWithType: RadialLayoutGroup._radius
+- uid: StormHawks.Runtime.Utilities.UI.RadialLayoutGroup._rotateElements
+  name: _rotateElements
+  href: api/StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.html#StormHawks_Runtime_Utilities_UI_RadialLayoutGroup__rotateElements
+  commentId: F:StormHawks.Runtime.Utilities.UI.RadialLayoutGroup._rotateElements
+  fullName: StormHawks.Runtime.Utilities.UI.RadialLayoutGroup._rotateElements
+  nameWithType: RadialLayoutGroup._rotateElements
+- uid: StormHawks.Runtime.Utilities.UI.RadialLayoutGroup._startAngle
+  name: _startAngle
+  href: api/StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.html#StormHawks_Runtime_Utilities_UI_RadialLayoutGroup__startAngle
+  commentId: F:StormHawks.Runtime.Utilities.UI.RadialLayoutGroup._startAngle
+  fullName: StormHawks.Runtime.Utilities.UI.RadialLayoutGroup._startAngle
+  nameWithType: RadialLayoutGroup._startAngle
+- uid: StormHawks.Runtime.Utilities.UI.RadialLayoutGroup._startElementAngle
+  name: _startElementAngle
+  href: api/StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.html#StormHawks_Runtime_Utilities_UI_RadialLayoutGroup__startElementAngle
+  commentId: F:StormHawks.Runtime.Utilities.UI.RadialLayoutGroup._startElementAngle
+  fullName: StormHawks.Runtime.Utilities.UI.RadialLayoutGroup._startElementAngle
+  nameWithType: RadialLayoutGroup._startElementAngle
+- uid: StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.CalculateLayoutInputHorizontal
+  name: CalculateLayoutInputHorizontal()
+  href: api/StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.html#StormHawks_Runtime_Utilities_UI_RadialLayoutGroup_CalculateLayoutInputHorizontal
+  commentId: M:StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.CalculateLayoutInputHorizontal
+  fullName: StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.CalculateLayoutInputHorizontal()
+  nameWithType: RadialLayoutGroup.CalculateLayoutInputHorizontal()
+- uid: StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.CalculateLayoutInputHorizontal*
+  name: CalculateLayoutInputHorizontal
+  href: api/StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.html#StormHawks_Runtime_Utilities_UI_RadialLayoutGroup_CalculateLayoutInputHorizontal_
+  commentId: Overload:StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.CalculateLayoutInputHorizontal
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.CalculateLayoutInputHorizontal
+  nameWithType: RadialLayoutGroup.CalculateLayoutInputHorizontal
+- uid: StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.CalculateLayoutInputVertical
+  name: CalculateLayoutInputVertical()
+  href: api/StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.html#StormHawks_Runtime_Utilities_UI_RadialLayoutGroup_CalculateLayoutInputVertical
+  commentId: M:StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.CalculateLayoutInputVertical
+  fullName: StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.CalculateLayoutInputVertical()
+  nameWithType: RadialLayoutGroup.CalculateLayoutInputVertical()
+- uid: StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.CalculateLayoutInputVertical*
+  name: CalculateLayoutInputVertical
+  href: api/StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.html#StormHawks_Runtime_Utilities_UI_RadialLayoutGroup_CalculateLayoutInputVertical_
+  commentId: Overload:StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.CalculateLayoutInputVertical
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.CalculateLayoutInputVertical
+  nameWithType: RadialLayoutGroup.CalculateLayoutInputVertical
+- uid: StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.CalculateRadial
+  name: CalculateRadial()
+  href: api/StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.html#StormHawks_Runtime_Utilities_UI_RadialLayoutGroup_CalculateRadial
+  commentId: M:StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.CalculateRadial
+  fullName: StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.CalculateRadial()
+  nameWithType: RadialLayoutGroup.CalculateRadial()
+- uid: StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.CalculateRadial*
+  name: CalculateRadial
+  href: api/StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.html#StormHawks_Runtime_Utilities_UI_RadialLayoutGroup_CalculateRadial_
+  commentId: Overload:StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.CalculateRadial
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.CalculateRadial
+  nameWithType: RadialLayoutGroup.CalculateRadial
+- uid: StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.Clockwise
+  name: Clockwise
+  href: api/StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.html#StormHawks_Runtime_Utilities_UI_RadialLayoutGroup_Clockwise
+  commentId: P:StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.Clockwise
+  fullName: StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.Clockwise
+  nameWithType: RadialLayoutGroup.Clockwise
+- uid: StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.Clockwise*
+  name: Clockwise
+  href: api/StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.html#StormHawks_Runtime_Utilities_UI_RadialLayoutGroup_Clockwise_
+  commentId: Overload:StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.Clockwise
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.Clockwise
+  nameWithType: RadialLayoutGroup.Clockwise
+- uid: StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.CustomRebuild
+  name: CustomRebuild
+  href: api/StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.html#StormHawks_Runtime_Utilities_UI_RadialLayoutGroup_CustomRebuild
+  commentId: P:StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.CustomRebuild
+  fullName: StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.CustomRebuild
+  nameWithType: RadialLayoutGroup.CustomRebuild
+- uid: StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.CustomRebuild*
+  name: CustomRebuild
+  href: api/StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.html#StormHawks_Runtime_Utilities_UI_RadialLayoutGroup_CustomRebuild_
+  commentId: Overload:StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.CustomRebuild
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.CustomRebuild
+  nameWithType: RadialLayoutGroup.CustomRebuild
+- uid: StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.FitToAngle
+  name: FitToAngle
+  href: api/StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.html#StormHawks_Runtime_Utilities_UI_RadialLayoutGroup_FitToAngle
+  commentId: P:StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.FitToAngle
+  fullName: StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.FitToAngle
+  nameWithType: RadialLayoutGroup.FitToAngle
+- uid: StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.FitToAngle*
+  name: FitToAngle
+  href: api/StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.html#StormHawks_Runtime_Utilities_UI_RadialLayoutGroup_FitToAngle_
+  commentId: Overload:StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.FitToAngle
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.FitToAngle
+  nameWithType: RadialLayoutGroup.FitToAngle
+- uid: StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.MaxAngle
+  name: MaxAngle
+  href: api/StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.html#StormHawks_Runtime_Utilities_UI_RadialLayoutGroup_MaxAngle
+  commentId: P:StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.MaxAngle
+  fullName: StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.MaxAngle
+  nameWithType: RadialLayoutGroup.MaxAngle
+- uid: StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.MaxAngle*
+  name: MaxAngle
+  href: api/StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.html#StormHawks_Runtime_Utilities_UI_RadialLayoutGroup_MaxAngle_
+  commentId: Overload:StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.MaxAngle
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.MaxAngle
+  nameWithType: RadialLayoutGroup.MaxAngle
+- uid: StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.MinAngle
+  name: MinAngle
+  href: api/StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.html#StormHawks_Runtime_Utilities_UI_RadialLayoutGroup_MinAngle
+  commentId: P:StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.MinAngle
+  fullName: StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.MinAngle
+  nameWithType: RadialLayoutGroup.MinAngle
+- uid: StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.MinAngle*
+  name: MinAngle
+  href: api/StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.html#StormHawks_Runtime_Utilities_UI_RadialLayoutGroup_MinAngle_
+  commentId: Overload:StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.MinAngle
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.MinAngle
+  nameWithType: RadialLayoutGroup.MinAngle
+- uid: StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.OnEnable
+  name: OnEnable()
+  href: api/StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.html#StormHawks_Runtime_Utilities_UI_RadialLayoutGroup_OnEnable
+  commentId: M:StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.OnEnable
+  fullName: StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.OnEnable()
+  nameWithType: RadialLayoutGroup.OnEnable()
+- uid: StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.OnEnable*
+  name: OnEnable
+  href: api/StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.html#StormHawks_Runtime_Utilities_UI_RadialLayoutGroup_OnEnable_
+  commentId: Overload:StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.OnEnable
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.OnEnable
+  nameWithType: RadialLayoutGroup.OnEnable
+- uid: StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.Radius
+  name: Radius
+  href: api/StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.html#StormHawks_Runtime_Utilities_UI_RadialLayoutGroup_Radius
+  commentId: P:StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.Radius
+  fullName: StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.Radius
+  nameWithType: RadialLayoutGroup.Radius
+- uid: StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.Radius*
+  name: Radius
+  href: api/StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.html#StormHawks_Runtime_Utilities_UI_RadialLayoutGroup_Radius_
+  commentId: Overload:StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.Radius
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.Radius
+  nameWithType: RadialLayoutGroup.Radius
+- uid: StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.SelfTransform
+  name: SelfTransform
+  href: api/StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.html#StormHawks_Runtime_Utilities_UI_RadialLayoutGroup_SelfTransform
+  commentId: P:StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.SelfTransform
+  fullName: StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.SelfTransform
+  nameWithType: RadialLayoutGroup.SelfTransform
+- uid: StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.SelfTransform*
+  name: SelfTransform
+  href: api/StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.html#StormHawks_Runtime_Utilities_UI_RadialLayoutGroup_SelfTransform_
+  commentId: Overload:StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.SelfTransform
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.SelfTransform
+  nameWithType: RadialLayoutGroup.SelfTransform
+- uid: StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.SetLayoutHorizontal
+  name: SetLayoutHorizontal()
+  href: api/StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.html#StormHawks_Runtime_Utilities_UI_RadialLayoutGroup_SetLayoutHorizontal
+  commentId: M:StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.SetLayoutHorizontal
+  fullName: StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.SetLayoutHorizontal()
+  nameWithType: RadialLayoutGroup.SetLayoutHorizontal()
+- uid: StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.SetLayoutHorizontal*
+  name: SetLayoutHorizontal
+  href: api/StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.html#StormHawks_Runtime_Utilities_UI_RadialLayoutGroup_SetLayoutHorizontal_
+  commentId: Overload:StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.SetLayoutHorizontal
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.SetLayoutHorizontal
+  nameWithType: RadialLayoutGroup.SetLayoutHorizontal
+- uid: StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.SetLayoutVertical
+  name: SetLayoutVertical()
+  href: api/StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.html#StormHawks_Runtime_Utilities_UI_RadialLayoutGroup_SetLayoutVertical
+  commentId: M:StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.SetLayoutVertical
+  fullName: StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.SetLayoutVertical()
+  nameWithType: RadialLayoutGroup.SetLayoutVertical()
+- uid: StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.SetLayoutVertical*
+  name: SetLayoutVertical
+  href: api/StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.html#StormHawks_Runtime_Utilities_UI_RadialLayoutGroup_SetLayoutVertical_
+  commentId: Overload:StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.SetLayoutVertical
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.SetLayoutVertical
+  nameWithType: RadialLayoutGroup.SetLayoutVertical
+- uid: StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.StartAngle
+  name: StartAngle
+  href: api/StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.html#StormHawks_Runtime_Utilities_UI_RadialLayoutGroup_StartAngle
+  commentId: P:StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.StartAngle
+  fullName: StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.StartAngle
+  nameWithType: RadialLayoutGroup.StartAngle
+- uid: StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.StartAngle*
+  name: StartAngle
+  href: api/StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.html#StormHawks_Runtime_Utilities_UI_RadialLayoutGroup_StartAngle_
+  commentId: Overload:StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.StartAngle
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Utilities.UI.RadialLayoutGroup.StartAngle
+  nameWithType: RadialLayoutGroup.StartAngle
 - uid: StormHawks.Runtime.Utilities.UIUtility
   name: UIUtility
   href: api/StormHawks.Runtime.Utilities.UIUtility.html
@@ -28816,12 +29535,12 @@ references:
   commentId: N:StormHawks.Runtime.XR
   fullName: StormHawks.Runtime.XR
   nameWithType: StormHawks.Runtime.XR
-- uid: StormHawks.Runtime.XR.VROrigin
-  name: VROrigin
-  href: api/StormHawks.Runtime.XR.VROrigin.html
-  commentId: T:StormHawks.Runtime.XR.VROrigin
-  fullName: StormHawks.Runtime.XR.VROrigin
-  nameWithType: VROrigin
+- uid: StormHawks.Runtime.XR.TrackedPoseDriverFixer
+  name: TrackedPoseDriverFixer
+  href: api/StormHawks.Runtime.XR.TrackedPoseDriverFixer.html
+  commentId: T:StormHawks.Runtime.XR.TrackedPoseDriverFixer
+  fullName: StormHawks.Runtime.XR.TrackedPoseDriverFixer
+  nameWithType: TrackedPoseDriverFixer
 - uid: StormHawks.Utilities.Assets.Scripts.Runtime.Utilities.Types
   name: StormHawks.Utilities.Assets.Scripts.Runtime.Utilities.Types
   href: api/StormHawks.Utilities.Assets.Scripts.Runtime.Utilities.Types.html
@@ -29039,6 +29758,153 @@ references:
   fullName.vb: StormHawks.Utilities.Assets.Scripts.Runtime.Utilities.Types.Optional(Of T).Value
   nameWithType: Optional<T>.Value
   nameWithType.vb: Optional(Of T).Value
+- uid: StormHawks.Utilities.Runtime.Utilities.Types
+  name: StormHawks.Utilities.Runtime.Utilities.Types
+  href: api/StormHawks.Utilities.Runtime.Utilities.Types.html
+  commentId: N:StormHawks.Utilities.Runtime.Utilities.Types
+  fullName: StormHawks.Utilities.Runtime.Utilities.Types
+  nameWithType: StormHawks.Utilities.Runtime.Utilities.Types
+- uid: StormHawks.Utilities.Runtime.Utilities.Types.GameObjectPair
+  name: GameObjectPair
+  href: api/StormHawks.Utilities.Runtime.Utilities.Types.GameObjectPair.html
+  commentId: T:StormHawks.Utilities.Runtime.Utilities.Types.GameObjectPair
+  fullName: StormHawks.Utilities.Runtime.Utilities.Types.GameObjectPair
+  nameWithType: GameObjectPair
+- uid: StormHawks.Utilities.Runtime.Utilities.Types.GameObjectPair.#ctor(GameObject,GameObject)
+  name: GameObjectPair(GameObject, GameObject)
+  href: api/StormHawks.Utilities.Runtime.Utilities.Types.GameObjectPair.html#StormHawks_Utilities_Runtime_Utilities_Types_GameObjectPair__ctor_GameObject_GameObject_
+  commentId: M:StormHawks.Utilities.Runtime.Utilities.Types.GameObjectPair.#ctor(GameObject,GameObject)
+  fullName: StormHawks.Utilities.Runtime.Utilities.Types.GameObjectPair.GameObjectPair(GameObject, GameObject)
+  nameWithType: GameObjectPair.GameObjectPair(GameObject, GameObject)
+- uid: StormHawks.Utilities.Runtime.Utilities.Types.GameObjectPair.#ctor*
+  name: GameObjectPair
+  href: api/StormHawks.Utilities.Runtime.Utilities.Types.GameObjectPair.html#StormHawks_Utilities_Runtime_Utilities_Types_GameObjectPair__ctor_
+  commentId: Overload:StormHawks.Utilities.Runtime.Utilities.Types.GameObjectPair.#ctor
+  isSpec: "True"
+  fullName: StormHawks.Utilities.Runtime.Utilities.Types.GameObjectPair.GameObjectPair
+  nameWithType: GameObjectPair.GameObjectPair
+- uid: StormHawks.Utilities.Runtime.Utilities.Types.Pair`1
+  name: Pair<T>
+  href: api/StormHawks.Utilities.Runtime.Utilities.Types.Pair-1.html
+  commentId: T:StormHawks.Utilities.Runtime.Utilities.Types.Pair`1
+  name.vb: Pair(Of T)
+  fullName: StormHawks.Utilities.Runtime.Utilities.Types.Pair<T>
+  fullName.vb: StormHawks.Utilities.Runtime.Utilities.Types.Pair(Of T)
+  nameWithType: Pair<T>
+  nameWithType.vb: Pair(Of T)
+- uid: StormHawks.Utilities.Runtime.Utilities.Types.Pair`1.#ctor(`0,`0)
+  name: Pair(T, T)
+  href: api/StormHawks.Utilities.Runtime.Utilities.Types.Pair-1.html#StormHawks_Utilities_Runtime_Utilities_Types_Pair_1__ctor__0__0_
+  commentId: M:StormHawks.Utilities.Runtime.Utilities.Types.Pair`1.#ctor(`0,`0)
+  fullName: StormHawks.Utilities.Runtime.Utilities.Types.Pair<T>.Pair(T, T)
+  fullName.vb: StormHawks.Utilities.Runtime.Utilities.Types.Pair(Of T).Pair(T, T)
+  nameWithType: Pair<T>.Pair(T, T)
+  nameWithType.vb: Pair(Of T).Pair(T, T)
+- uid: StormHawks.Utilities.Runtime.Utilities.Types.Pair`1.#ctor*
+  name: Pair
+  href: api/StormHawks.Utilities.Runtime.Utilities.Types.Pair-1.html#StormHawks_Utilities_Runtime_Utilities_Types_Pair_1__ctor_
+  commentId: Overload:StormHawks.Utilities.Runtime.Utilities.Types.Pair`1.#ctor
+  isSpec: "True"
+  fullName: StormHawks.Utilities.Runtime.Utilities.Types.Pair<T>.Pair
+  fullName.vb: StormHawks.Utilities.Runtime.Utilities.Types.Pair(Of T).Pair
+  nameWithType: Pair<T>.Pair
+  nameWithType.vb: Pair(Of T).Pair
+- uid: StormHawks.Utilities.Runtime.Utilities.Types.Pair`1.SetPair(`0,`0)
+  name: SetPair(T, T)
+  href: api/StormHawks.Utilities.Runtime.Utilities.Types.Pair-1.html#StormHawks_Utilities_Runtime_Utilities_Types_Pair_1_SetPair__0__0_
+  commentId: M:StormHawks.Utilities.Runtime.Utilities.Types.Pair`1.SetPair(`0,`0)
+  fullName: StormHawks.Utilities.Runtime.Utilities.Types.Pair<T>.SetPair(T, T)
+  fullName.vb: StormHawks.Utilities.Runtime.Utilities.Types.Pair(Of T).SetPair(T, T)
+  nameWithType: Pair<T>.SetPair(T, T)
+  nameWithType.vb: Pair(Of T).SetPair(T, T)
+- uid: StormHawks.Utilities.Runtime.Utilities.Types.Pair`1.SetPair*
+  name: SetPair
+  href: api/StormHawks.Utilities.Runtime.Utilities.Types.Pair-1.html#StormHawks_Utilities_Runtime_Utilities_Types_Pair_1_SetPair_
+  commentId: Overload:StormHawks.Utilities.Runtime.Utilities.Types.Pair`1.SetPair
+  isSpec: "True"
+  fullName: StormHawks.Utilities.Runtime.Utilities.Types.Pair<T>.SetPair
+  fullName.vb: StormHawks.Utilities.Runtime.Utilities.Types.Pair(Of T).SetPair
+  nameWithType: Pair<T>.SetPair
+  nameWithType.vb: Pair(Of T).SetPair
+- uid: StormHawks.Utilities.Runtime.Utilities.Types.Pair`1.X
+  name: X
+  href: api/StormHawks.Utilities.Runtime.Utilities.Types.Pair-1.html#StormHawks_Utilities_Runtime_Utilities_Types_Pair_1_X
+  commentId: P:StormHawks.Utilities.Runtime.Utilities.Types.Pair`1.X
+  fullName: StormHawks.Utilities.Runtime.Utilities.Types.Pair<T>.X
+  fullName.vb: StormHawks.Utilities.Runtime.Utilities.Types.Pair(Of T).X
+  nameWithType: Pair<T>.X
+  nameWithType.vb: Pair(Of T).X
+- uid: StormHawks.Utilities.Runtime.Utilities.Types.Pair`1.X*
+  name: X
+  href: api/StormHawks.Utilities.Runtime.Utilities.Types.Pair-1.html#StormHawks_Utilities_Runtime_Utilities_Types_Pair_1_X_
+  commentId: Overload:StormHawks.Utilities.Runtime.Utilities.Types.Pair`1.X
+  isSpec: "True"
+  fullName: StormHawks.Utilities.Runtime.Utilities.Types.Pair<T>.X
+  fullName.vb: StormHawks.Utilities.Runtime.Utilities.Types.Pair(Of T).X
+  nameWithType: Pair<T>.X
+  nameWithType.vb: Pair(Of T).X
+- uid: StormHawks.Utilities.Runtime.Utilities.Types.Pair`1.Y
+  name: Y
+  href: api/StormHawks.Utilities.Runtime.Utilities.Types.Pair-1.html#StormHawks_Utilities_Runtime_Utilities_Types_Pair_1_Y
+  commentId: P:StormHawks.Utilities.Runtime.Utilities.Types.Pair`1.Y
+  fullName: StormHawks.Utilities.Runtime.Utilities.Types.Pair<T>.Y
+  fullName.vb: StormHawks.Utilities.Runtime.Utilities.Types.Pair(Of T).Y
+  nameWithType: Pair<T>.Y
+  nameWithType.vb: Pair(Of T).Y
+- uid: StormHawks.Utilities.Runtime.Utilities.Types.Pair`1.Y*
+  name: Y
+  href: api/StormHawks.Utilities.Runtime.Utilities.Types.Pair-1.html#StormHawks_Utilities_Runtime_Utilities_Types_Pair_1_Y_
+  commentId: Overload:StormHawks.Utilities.Runtime.Utilities.Types.Pair`1.Y
+  isSpec: "True"
+  fullName: StormHawks.Utilities.Runtime.Utilities.Types.Pair<T>.Y
+  fullName.vb: StormHawks.Utilities.Runtime.Utilities.Types.Pair(Of T).Y
+  nameWithType: Pair<T>.Y
+  nameWithType.vb: Pair(Of T).Y
+- uid: StormHawks.Utilities.Runtime.Utilities.Types.TransformSyncPair
+  name: TransformSyncPair
+  href: api/StormHawks.Utilities.Runtime.Utilities.Types.TransformSyncPair.html
+  commentId: T:StormHawks.Utilities.Runtime.Utilities.Types.TransformSyncPair
+  fullName: StormHawks.Utilities.Runtime.Utilities.Types.TransformSyncPair
+  nameWithType: TransformSyncPair
+- uid: StormHawks.Utilities.Runtime.Utilities.Types.TransformSyncPair.#ctor(Transform,Transform)
+  name: TransformSyncPair(Transform, Transform)
+  href: api/StormHawks.Utilities.Runtime.Utilities.Types.TransformSyncPair.html#StormHawks_Utilities_Runtime_Utilities_Types_TransformSyncPair__ctor_Transform_Transform_
+  commentId: M:StormHawks.Utilities.Runtime.Utilities.Types.TransformSyncPair.#ctor(Transform,Transform)
+  fullName: StormHawks.Utilities.Runtime.Utilities.Types.TransformSyncPair.TransformSyncPair(Transform, Transform)
+  nameWithType: TransformSyncPair.TransformSyncPair(Transform, Transform)
+- uid: StormHawks.Utilities.Runtime.Utilities.Types.TransformSyncPair.#ctor*
+  name: TransformSyncPair
+  href: api/StormHawks.Utilities.Runtime.Utilities.Types.TransformSyncPair.html#StormHawks_Utilities_Runtime_Utilities_Types_TransformSyncPair__ctor_
+  commentId: Overload:StormHawks.Utilities.Runtime.Utilities.Types.TransformSyncPair.#ctor
+  isSpec: "True"
+  fullName: StormHawks.Utilities.Runtime.Utilities.Types.TransformSyncPair.TransformSyncPair
+  nameWithType: TransformSyncPair.TransformSyncPair
+- uid: StormHawks.Utilities.Runtime.Utilities.Types.TransformSyncPair.PositionOffset
+  name: PositionOffset
+  href: api/StormHawks.Utilities.Runtime.Utilities.Types.TransformSyncPair.html#StormHawks_Utilities_Runtime_Utilities_Types_TransformSyncPair_PositionOffset
+  commentId: P:StormHawks.Utilities.Runtime.Utilities.Types.TransformSyncPair.PositionOffset
+  fullName: StormHawks.Utilities.Runtime.Utilities.Types.TransformSyncPair.PositionOffset
+  nameWithType: TransformSyncPair.PositionOffset
+- uid: StormHawks.Utilities.Runtime.Utilities.Types.TransformSyncPair.PositionOffset*
+  name: PositionOffset
+  href: api/StormHawks.Utilities.Runtime.Utilities.Types.TransformSyncPair.html#StormHawks_Utilities_Runtime_Utilities_Types_TransformSyncPair_PositionOffset_
+  commentId: Overload:StormHawks.Utilities.Runtime.Utilities.Types.TransformSyncPair.PositionOffset
+  isSpec: "True"
+  fullName: StormHawks.Utilities.Runtime.Utilities.Types.TransformSyncPair.PositionOffset
+  nameWithType: TransformSyncPair.PositionOffset
+- uid: StormHawks.Utilities.Runtime.Utilities.Types.TransformSyncPair.RotationOffset
+  name: RotationOffset
+  href: api/StormHawks.Utilities.Runtime.Utilities.Types.TransformSyncPair.html#StormHawks_Utilities_Runtime_Utilities_Types_TransformSyncPair_RotationOffset
+  commentId: P:StormHawks.Utilities.Runtime.Utilities.Types.TransformSyncPair.RotationOffset
+  fullName: StormHawks.Utilities.Runtime.Utilities.Types.TransformSyncPair.RotationOffset
+  nameWithType: TransformSyncPair.RotationOffset
+- uid: StormHawks.Utilities.Runtime.Utilities.Types.TransformSyncPair.RotationOffset*
+  name: RotationOffset
+  href: api/StormHawks.Utilities.Runtime.Utilities.Types.TransformSyncPair.html#StormHawks_Utilities_Runtime_Utilities_Types_TransformSyncPair_RotationOffset_
+  commentId: Overload:StormHawks.Utilities.Runtime.Utilities.Types.TransformSyncPair.RotationOffset
+  isSpec: "True"
+  fullName: StormHawks.Utilities.Runtime.Utilities.Types.TransformSyncPair.RotationOffset
+  nameWithType: TransformSyncPair.RotationOffset
 - uid: StormHawks.Utilities.Values
   name: StormHawks.Utilities.Values
   href: api/StormHawks.Utilities.Values.html

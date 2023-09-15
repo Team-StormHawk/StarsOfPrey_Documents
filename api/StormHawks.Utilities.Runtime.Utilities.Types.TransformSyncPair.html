@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Struct PrepareSphereCastJobRunner.PrepareSpherecastCommandJob
+    <title>Class TransformSyncPair
    | Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Struct PrepareSphereCastJobRunner.PrepareSpherecastCommandJob
+    <meta name="title" content="Class TransformSyncPair
    | Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -78,83 +78,85 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Detectors.Jobs.PrepareSphereCastJobRunner.PrepareSpherecastCommandJob">
+            <article class="content wrap" id="_content" data-uid="StormHawks.Utilities.Runtime.Utilities.Types.TransformSyncPair">
   
   
-  <h1 id="StormHawks_Runtime_Detectors_Jobs_PrepareSphereCastJobRunner_PrepareSpherecastCommandJob" data-uid="StormHawks.Runtime.Detectors.Jobs.PrepareSphereCastJobRunner.PrepareSpherecastCommandJob" class="text-break">Struct PrepareSphereCastJobRunner.PrepareSpherecastCommandJob
+  <h1 id="StormHawks_Utilities_Runtime_Utilities_Types_TransformSyncPair" data-uid="StormHawks.Utilities.Runtime.Utilities.Types.TransformSyncPair" class="text-break">Class TransformSyncPair
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
-  <div class="implements">
-    <h5>Implements</h5>
-    <div><span class="xref">IJob</span></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><a class="xref" href="StormHawks.Utilities.Runtime.Utilities.Types.Pair-1.html">Pair</a>&lt;<span class="xref">Transform</span>&gt;</div>
+    <div class="level2"><span class="xref">TransformSyncPair</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Detectors.Jobs.html">StormHawks.Runtime.Detectors.Jobs</a></h6>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="StormHawks.Utilities.Runtime.Utilities.Types.Pair-1.html#StormHawks_Utilities_Runtime_Utilities_Types_Pair_1_X">Pair&lt;Transform&gt;.X</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Utilities.Runtime.Utilities.Types.Pair-1.html#StormHawks_Utilities_Runtime_Utilities_Types_Pair_1_Y">Pair&lt;Transform&gt;.Y</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Utilities.Runtime.Utilities.Types.Pair-1.html#StormHawks_Utilities_Runtime_Utilities_Types_Pair_1_SetPair__0__0_">Pair&lt;Transform&gt;.SetPair(Transform, Transform)</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Utilities.Runtime.Utilities.Types.html">StormHawks.Utilities.Runtime.Utilities.Types</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="StormHawks_Runtime_Detectors_Jobs_PrepareSphereCastJobRunner_PrepareSpherecastCommandJob_syntax">Syntax</h5>
+  <h5 id="StormHawks_Utilities_Runtime_Utilities_Types_TransformSyncPair_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public struct PrepareSpherecastCommandJob</code></pre>
+    <pre><code class="lang-csharp hljs">[Serializable]
+public class TransformSyncPair : Pair&lt;Transform&gt;</code></pre>
   </div>
-  <h3 id="fields">Fields
+  <h3 id="constructors">Constructors
   </h3>
   
   
-  <h4 id="StormHawks_Runtime_Detectors_Jobs_PrepareSphereCastJobRunner_PrepareSpherecastCommandJob_Commands" data-uid="StormHawks.Runtime.Detectors.Jobs.PrepareSphereCastJobRunner.PrepareSpherecastCommandJob.Commands">Commands</h4>
+  <a id="StormHawks_Utilities_Runtime_Utilities_Types_TransformSyncPair__ctor_" data-uid="StormHawks.Utilities.Runtime.Utilities.Types.TransformSyncPair.#ctor*"></a>
+  <h4 id="StormHawks_Utilities_Runtime_Utilities_Types_TransformSyncPair__ctor_Transform_Transform_" data-uid="StormHawks.Utilities.Runtime.Utilities.Types.TransformSyncPair.#ctor(Transform,Transform)">TransformSyncPair(Transform, Transform)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public NativeArray&lt;SpherecastCommand&gt; Commands</code></pre>
+    <pre><code class="lang-csharp hljs">public TransformSyncPair(Transform x, Transform y)</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
+        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">NativeArray</span>&lt;<span class="xref">SpherecastCommand</span>&gt;</td>
+        <td><span class="xref">Transform</span></td>
+        <td><span class="parametername">x</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Transform</span></td>
+        <td><span class="parametername">y</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  <h3 id="properties">Properties
+  </h3>
   
   
-  <h4 id="StormHawks_Runtime_Detectors_Jobs_PrepareSphereCastJobRunner_PrepareSpherecastCommandJob_DetectLayer" data-uid="StormHawks.Runtime.Detectors.Jobs.PrepareSphereCastJobRunner.PrepareSpherecastCommandJob.DetectLayer">DetectLayer</h4>
+  <a id="StormHawks_Utilities_Runtime_Utilities_Types_TransformSyncPair_PositionOffset_" data-uid="StormHawks.Utilities.Runtime.Utilities.Types.TransformSyncPair.PositionOffset*"></a>
+  <h4 id="StormHawks_Utilities_Runtime_Utilities_Types_TransformSyncPair_PositionOffset" data-uid="StormHawks.Utilities.Runtime.Utilities.Types.TransformSyncPair.PositionOffset">PositionOffset</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public LayerMask DetectLayer</code></pre>
+    <pre><code class="lang-csharp hljs">public Vector3 PositionOffset { get; }</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">LayerMask</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="StormHawks_Runtime_Detectors_Jobs_PrepareSphereCastJobRunner_PrepareSpherecastCommandJob_Direction" data-uid="StormHawks.Runtime.Detectors.Jobs.PrepareSphereCastJobRunner.PrepareSpherecastCommandJob.Direction">Direction</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Vector3 Direction</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -171,38 +173,15 @@
   </table>
   
   
-  <h4 id="StormHawks_Runtime_Detectors_Jobs_PrepareSphereCastJobRunner_PrepareSpherecastCommandJob_Distance" data-uid="StormHawks.Runtime.Detectors.Jobs.PrepareSphereCastJobRunner.PrepareSpherecastCommandJob.Distance">Distance</h4>
+  <a id="StormHawks_Utilities_Runtime_Utilities_Types_TransformSyncPair_RotationOffset_" data-uid="StormHawks.Utilities.Runtime.Utilities.Types.TransformSyncPair.RotationOffset*"></a>
+  <h4 id="StormHawks_Utilities_Runtime_Utilities_Types_TransformSyncPair_RotationOffset" data-uid="StormHawks.Utilities.Runtime.Utilities.Types.TransformSyncPair.RotationOffset">RotationOffset</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float Distance</code></pre>
+    <pre><code class="lang-csharp hljs">public Vector3 RotationOffset { get; }</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="StormHawks_Runtime_Detectors_Jobs_PrepareSphereCastJobRunner_PrepareSpherecastCommandJob_Origin" data-uid="StormHawks.Runtime.Detectors.Jobs.PrepareSphereCastJobRunner.PrepareSpherecastCommandJob.Origin">Origin</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Vector3 Origin</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -217,46 +196,6 @@
       </tr>
     </tbody>
   </table>
-  
-  
-  <h4 id="StormHawks_Runtime_Detectors_Jobs_PrepareSphereCastJobRunner_PrepareSpherecastCommandJob_Radius" data-uid="StormHawks.Runtime.Detectors.Jobs.PrepareSphereCastJobRunner.PrepareSpherecastCommandJob.Radius">Radius</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float Radius</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="methods">Methods
-  </h3>
-  
-  
-  <a id="StormHawks_Runtime_Detectors_Jobs_PrepareSphereCastJobRunner_PrepareSpherecastCommandJob_Execute_" data-uid="StormHawks.Runtime.Detectors.Jobs.PrepareSphereCastJobRunner.PrepareSpherecastCommandJob.Execute*"></a>
-  <h4 id="StormHawks_Runtime_Detectors_Jobs_PrepareSphereCastJobRunner_PrepareSpherecastCommandJob_Execute" data-uid="StormHawks.Runtime.Detectors.Jobs.PrepareSphereCastJobRunner.PrepareSpherecastCommandJob.Execute">Execute()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Execute()</code></pre>
-  </div>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <span class="xref">IJob</span>
-  </div>
 </article>
           </div>
           

@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class SequentialFire
+    <title>Class WaitBossEyeRailgunChargeBehaviorCompleted
    | Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class SequentialFire
+    <meta name="title" content="Class WaitBossEyeRailgunChargeBehaviorCompleted
    | Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -78,39 +78,42 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Presenters.Fires.SequentialFire">
+            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossEyeRailgunChargeBehaviorCompleted">
   
   
-  <h1 id="StormHawks_Runtime_Presenters_Fires_SequentialFire" data-uid="StormHawks.Runtime.Presenters.Fires.SequentialFire" class="text-break">Class SequentialFire
+  <h1 id="StormHawks_Runtime_Models_GameFlows_Types_Waiters_WaitBossEyeRailgunChargeBehaviorCompleted" data-uid="StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossEyeRailgunChargeBehaviorCompleted" class="text-break">Class WaitBossEyeRailgunChargeBehaviorCompleted
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">SequentialFire</span></div>
+    <div class="level1"><a class="xref" href="StormHawks.Runtime.Models.GameFlows.GameFlow.html">GameFlow</a></div>
+    <div class="level2"><span class="xref">WaitBossEyeRailgunChargeBehaviorCompleted</span></div>
   </div>
-  <div class="implements">
-    <h5>Implements</h5>
-    <div><a class="xref" href="StormHawks.Runtime.Presenters.Fires.IProjectileFire.html">IProjectileFire</a></div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Models.GameFlows.GameFlow.html#StormHawks_Runtime_Models_GameFlows_GameFlow__cancellation">GameFlow._cancellation</a>
+    </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Presenters.Fires.html">StormHawks.Runtime.Presenters.Fires</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Models.GameFlows.Types.Waiters.html">StormHawks.Runtime.Models.GameFlows.Types.Waiters</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="StormHawks_Runtime_Presenters_Fires_SequentialFire_syntax">Syntax</h5>
+  <h5 id="StormHawks_Runtime_Models_GameFlows_Types_Waiters_WaitBossEyeRailgunChargeBehaviorCompleted_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class SequentialFire : IProjectileFire</code></pre>
+    <pre><code class="lang-csharp hljs">public class WaitBossEyeRailgunChargeBehaviorCompleted : GameFlow</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   
   
-  <a id="StormHawks_Runtime_Presenters_Fires_SequentialFire__ctor_" data-uid="StormHawks.Runtime.Presenters.Fires.SequentialFire.#ctor*"></a>
-  <h4 id="StormHawks_Runtime_Presenters_Fires_SequentialFire__ctor_Func_List_ProjectilePresenter___ProjectileWeaponSettings_" data-uid="StormHawks.Runtime.Presenters.Fires.SequentialFire.#ctor(Func{List{ProjectilePresenter}},ProjectileWeaponSettings)">SequentialFire(Func&lt;List&lt;ProjectilePresenter&gt;&gt;, ProjectileWeaponSettings)</h4>
+  <a id="StormHawks_Runtime_Models_GameFlows_Types_Waiters_WaitBossEyeRailgunChargeBehaviorCompleted__ctor_" data-uid="StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossEyeRailgunChargeBehaviorCompleted.#ctor*"></a>
+  <h4 id="StormHawks_Runtime_Models_GameFlows_Types_Waiters_WaitBossEyeRailgunChargeBehaviorCompleted__ctor_BossModel_BossEyeModel_SequenceGameFlow_SequenceGameFlow_" data-uid="StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossEyeRailgunChargeBehaviorCompleted.#ctor(BossModel,BossEyeModel,SequenceGameFlow,SequenceGameFlow)">WaitBossEyeRailgunChargeBehaviorCompleted(BossModel, BossEyeModel, SequenceGameFlow, SequenceGameFlow)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SequentialFire(Func&lt;List&lt;ProjectilePresenter&gt;&gt; spawnProjectileTask, ProjectileWeaponSettings settings)</code></pre>
+    <pre><code class="lang-csharp hljs">public WaitBossEyeRailgunChargeBehaviorCompleted(BossModel boss, BossEyeModel eyeModel, SequenceGameFlow successSequence, SequenceGameFlow failureSequence)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -123,13 +126,23 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Func</span>&lt;<span class="xref">List</span>&lt;<span class="xref">ProjectilePresenter</span>&gt;&gt;</td>
-        <td><span class="parametername">spawnProjectileTask</span></td>
+        <td><span class="xref">BossModel</span></td>
+        <td><span class="parametername">boss</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">ProjectileWeaponSettings</span></td>
-        <td><span class="parametername">settings</span></td>
+        <td><span class="xref">BossEyeModel</span></td>
+        <td><span class="parametername">eyeModel</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">SequenceGameFlow</span></td>
+        <td><span class="parametername">successSequence</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">SequenceGameFlow</span></td>
+        <td><span class="parametername">failureSequence</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -138,31 +151,14 @@
   </h3>
   
   
-  <a id="StormHawks_Runtime_Presenters_Fires_SequentialFire_FireTask_" data-uid="StormHawks.Runtime.Presenters.Fires.SequentialFire.FireTask*"></a>
-  <h4 id="StormHawks_Runtime_Presenters_Fires_SequentialFire_FireTask_CancellationToken_" data-uid="StormHawks.Runtime.Presenters.Fires.SequentialFire.FireTask(CancellationToken)">FireTask(CancellationToken)</h4>
+  <a id="StormHawks_Runtime_Models_GameFlows_Types_Waiters_WaitBossEyeRailgunChargeBehaviorCompleted_OnEnter_" data-uid="StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossEyeRailgunChargeBehaviorCompleted.OnEnter*"></a>
+  <h4 id="StormHawks_Runtime_Models_GameFlows_Types_Waiters_WaitBossEyeRailgunChargeBehaviorCompleted_OnEnter" data-uid="StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossEyeRailgunChargeBehaviorCompleted.OnEnter">OnEnter()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public async UniTaskVoid FireTask(CancellationToken cancellation)</code></pre>
+    <pre><code class="lang-csharp hljs">public override async UniTask OnEnter()</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">CancellationToken</span></td>
-        <td><span class="parametername">cancellation</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -173,23 +169,24 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">UniTaskVoid</span></td>
+        <td><span class="xref">UniTask</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h3 id="events">Events
-  </h3>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="StormHawks.Runtime.Models.GameFlows.GameFlow.html#StormHawks_Runtime_Models_GameFlows_GameFlow_OnEnter">GameFlow.OnEnter()</a></div>
   
   
-  <h4 id="StormHawks_Runtime_Presenters_Fires_SequentialFire_OnBeforeFire" data-uid="StormHawks.Runtime.Presenters.Fires.SequentialFire.OnBeforeFire">OnBeforeFire</h4>
+  <a id="StormHawks_Runtime_Models_GameFlows_Types_Waiters_WaitBossEyeRailgunChargeBehaviorCompleted_OnExit_" data-uid="StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossEyeRailgunChargeBehaviorCompleted.OnExit*"></a>
+  <h4 id="StormHawks_Runtime_Models_GameFlows_Types_Waiters_WaitBossEyeRailgunChargeBehaviorCompleted_OnExit" data-uid="StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossEyeRailgunChargeBehaviorCompleted.OnExit">OnExit()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public event Action OnBeforeFire</code></pre>
+    <pre><code class="lang-csharp hljs">public override async UniTask OnExit()</code></pre>
   </div>
-  <h5 class="eventType">Event Type</h5>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -199,21 +196,24 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Action</span></td>
+        <td><span class="xref">UniTask</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="StormHawks.Runtime.Models.GameFlows.GameFlow.html#StormHawks_Runtime_Models_GameFlows_GameFlow_OnExit">GameFlow.OnExit()</a></div>
   
   
-  <h4 id="StormHawks_Runtime_Presenters_Fires_SequentialFire_OnComplete" data-uid="StormHawks.Runtime.Presenters.Fires.SequentialFire.OnComplete">OnComplete</h4>
+  <a id="StormHawks_Runtime_Models_GameFlows_Types_Waiters_WaitBossEyeRailgunChargeBehaviorCompleted_Run_" data-uid="StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossEyeRailgunChargeBehaviorCompleted.Run*"></a>
+  <h4 id="StormHawks_Runtime_Models_GameFlows_Types_Waiters_WaitBossEyeRailgunChargeBehaviorCompleted_Run" data-uid="StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossEyeRailgunChargeBehaviorCompleted.Run">Run()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public event Action OnComplete</code></pre>
+    <pre><code class="lang-csharp hljs">public override async UniTask Run()</code></pre>
   </div>
-  <h5 class="eventType">Event Type</h5>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -223,39 +223,13 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Action</span></td>
+        <td><span class="xref">UniTask</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  
-  
-  <h4 id="StormHawks_Runtime_Presenters_Fires_SequentialFire_OnFire" data-uid="StormHawks.Runtime.Presenters.Fires.SequentialFire.OnFire">OnFire</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public event Action OnFire</code></pre>
-  </div>
-  <h5 class="eventType">Event Type</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Action</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <a class="xref" href="StormHawks.Runtime.Presenters.Fires.IProjectileFire.html">IProjectileFire</a>
-  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="StormHawks.Runtime.Models.GameFlows.GameFlow.html#StormHawks_Runtime_Models_GameFlows_GameFlow_Run">GameFlow.Run()</a></div>
 </article>
           </div>
           

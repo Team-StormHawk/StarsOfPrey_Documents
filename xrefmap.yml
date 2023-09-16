@@ -7186,12 +7186,12 @@ references:
   commentId: T:StormHawks.Runtime.GameFlows.GameFlowPresenter
   fullName: StormHawks.Runtime.GameFlows.GameFlowPresenter
   nameWithType: GameFlowPresenter
-- uid: StormHawks.Runtime.GameFlows.GameFlowPresenter.#ctor(BossModel,PowerPlantModel,BossPathModelGetter,PlayerFlightModel,PlayerModel,CutSceneLoader,PlayerWeaponModel)
-  name: GameFlowPresenter(BossModel, PowerPlantModel, BossPathModelGetter, PlayerFlightModel, PlayerModel, CutSceneLoader, PlayerWeaponModel)
-  href: api/StormHawks.Runtime.GameFlows.GameFlowPresenter.html#StormHawks_Runtime_GameFlows_GameFlowPresenter__ctor_BossModel_PowerPlantModel_BossPathModelGetter_PlayerFlightModel_PlayerModel_CutSceneLoader_PlayerWeaponModel_
-  commentId: M:StormHawks.Runtime.GameFlows.GameFlowPresenter.#ctor(BossModel,PowerPlantModel,BossPathModelGetter,PlayerFlightModel,PlayerModel,CutSceneLoader,PlayerWeaponModel)
-  fullName: StormHawks.Runtime.GameFlows.GameFlowPresenter.GameFlowPresenter(BossModel, PowerPlantModel, BossPathModelGetter, PlayerFlightModel, PlayerModel, CutSceneLoader, PlayerWeaponModel)
-  nameWithType: GameFlowPresenter.GameFlowPresenter(BossModel, PowerPlantModel, BossPathModelGetter, PlayerFlightModel, PlayerModel, CutSceneLoader, PlayerWeaponModel)
+- uid: StormHawks.Runtime.GameFlows.GameFlowPresenter.#ctor(BossModel,BossEyeModel,PowerPlantModel,BossPathModelGetter,PlayerFlightModel,PlayerModel,CutSceneLoader,PlayerWeaponModel)
+  name: GameFlowPresenter(BossModel, BossEyeModel, PowerPlantModel, BossPathModelGetter, PlayerFlightModel, PlayerModel, CutSceneLoader, PlayerWeaponModel)
+  href: api/StormHawks.Runtime.GameFlows.GameFlowPresenter.html#StormHawks_Runtime_GameFlows_GameFlowPresenter__ctor_BossModel_BossEyeModel_PowerPlantModel_BossPathModelGetter_PlayerFlightModel_PlayerModel_CutSceneLoader_PlayerWeaponModel_
+  commentId: M:StormHawks.Runtime.GameFlows.GameFlowPresenter.#ctor(BossModel,BossEyeModel,PowerPlantModel,BossPathModelGetter,PlayerFlightModel,PlayerModel,CutSceneLoader,PlayerWeaponModel)
+  fullName: StormHawks.Runtime.GameFlows.GameFlowPresenter.GameFlowPresenter(BossModel, BossEyeModel, PowerPlantModel, BossPathModelGetter, PlayerFlightModel, PlayerModel, CutSceneLoader, PlayerWeaponModel)
+  nameWithType: GameFlowPresenter.GameFlowPresenter(BossModel, BossEyeModel, PowerPlantModel, BossPathModelGetter, PlayerFlightModel, PlayerModel, CutSceneLoader, PlayerWeaponModel)
 - uid: StormHawks.Runtime.GameFlows.GameFlowPresenter.#ctor*
   name: GameFlowPresenter
   href: api/StormHawks.Runtime.GameFlows.GameFlowPresenter.html#StormHawks_Runtime_GameFlows_GameFlowPresenter__ctor_
@@ -12666,6 +12666,109 @@ references:
   commentId: N:StormHawks.Runtime.Models.Entities
   fullName: StormHawks.Runtime.Models.Entities
   nameWithType: StormHawks.Runtime.Models.Entities
+- uid: StormHawks.Runtime.Models.Entities.BossEyeModel
+  name: BossEyeModel
+  href: api/StormHawks.Runtime.Models.Entities.BossEyeModel.html
+  commentId: T:StormHawks.Runtime.Models.Entities.BossEyeModel
+  fullName: StormHawks.Runtime.Models.Entities.BossEyeModel
+  nameWithType: BossEyeModel
+- uid: StormHawks.Runtime.Models.Entities.BossEyeModel.#ctor(System.Single,System.Single)
+  name: BossEyeModel(Single, Single)
+  href: api/StormHawks.Runtime.Models.Entities.BossEyeModel.html#StormHawks_Runtime_Models_Entities_BossEyeModel__ctor_System_Single_System_Single_
+  commentId: M:StormHawks.Runtime.Models.Entities.BossEyeModel.#ctor(System.Single,System.Single)
+  fullName: StormHawks.Runtime.Models.Entities.BossEyeModel.BossEyeModel(System.Single, System.Single)
+  nameWithType: BossEyeModel.BossEyeModel(Single, Single)
+- uid: StormHawks.Runtime.Models.Entities.BossEyeModel.#ctor*
+  name: BossEyeModel
+  href: api/StormHawks.Runtime.Models.Entities.BossEyeModel.html#StormHawks_Runtime_Models_Entities_BossEyeModel__ctor_
+  commentId: Overload:StormHawks.Runtime.Models.Entities.BossEyeModel.#ctor
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.Entities.BossEyeModel.BossEyeModel
+  nameWithType: BossEyeModel.BossEyeModel
+- uid: StormHawks.Runtime.Models.Entities.BossEyeModel.ChargeTime
+  name: ChargeTime
+  href: api/StormHawks.Runtime.Models.Entities.BossEyeModel.html#StormHawks_Runtime_Models_Entities_BossEyeModel_ChargeTime
+  commentId: P:StormHawks.Runtime.Models.Entities.BossEyeModel.ChargeTime
+  fullName: StormHawks.Runtime.Models.Entities.BossEyeModel.ChargeTime
+  nameWithType: BossEyeModel.ChargeTime
+- uid: StormHawks.Runtime.Models.Entities.BossEyeModel.ChargeTime*
+  name: ChargeTime
+  href: api/StormHawks.Runtime.Models.Entities.BossEyeModel.html#StormHawks_Runtime_Models_Entities_BossEyeModel_ChargeTime_
+  commentId: Overload:StormHawks.Runtime.Models.Entities.BossEyeModel.ChargeTime
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.Entities.BossEyeModel.ChargeTime
+  nameWithType: BossEyeModel.ChargeTime
+- uid: StormHawks.Runtime.Models.Entities.BossEyeModel.EndRailgun
+  name: EndRailgun()
+  href: api/StormHawks.Runtime.Models.Entities.BossEyeModel.html#StormHawks_Runtime_Models_Entities_BossEyeModel_EndRailgun
+  commentId: M:StormHawks.Runtime.Models.Entities.BossEyeModel.EndRailgun
+  fullName: StormHawks.Runtime.Models.Entities.BossEyeModel.EndRailgun()
+  nameWithType: BossEyeModel.EndRailgun()
+- uid: StormHawks.Runtime.Models.Entities.BossEyeModel.EndRailgun*
+  name: EndRailgun
+  href: api/StormHawks.Runtime.Models.Entities.BossEyeModel.html#StormHawks_Runtime_Models_Entities_BossEyeModel_EndRailgun_
+  commentId: Overload:StormHawks.Runtime.Models.Entities.BossEyeModel.EndRailgun
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.Entities.BossEyeModel.EndRailgun
+  nameWithType: BossEyeModel.EndRailgun
+- uid: StormHawks.Runtime.Models.Entities.BossEyeModel.EyeHealth
+  name: EyeHealth
+  href: api/StormHawks.Runtime.Models.Entities.BossEyeModel.html#StormHawks_Runtime_Models_Entities_BossEyeModel_EyeHealth
+  commentId: P:StormHawks.Runtime.Models.Entities.BossEyeModel.EyeHealth
+  fullName: StormHawks.Runtime.Models.Entities.BossEyeModel.EyeHealth
+  nameWithType: BossEyeModel.EyeHealth
+- uid: StormHawks.Runtime.Models.Entities.BossEyeModel.EyeHealth*
+  name: EyeHealth
+  href: api/StormHawks.Runtime.Models.Entities.BossEyeModel.html#StormHawks_Runtime_Models_Entities_BossEyeModel_EyeHealth_
+  commentId: Overload:StormHawks.Runtime.Models.Entities.BossEyeModel.EyeHealth
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.Entities.BossEyeModel.EyeHealth
+  nameWithType: BossEyeModel.EyeHealth
+- uid: StormHawks.Runtime.Models.Entities.BossEyeModel.IsDestroyed
+  name: IsDestroyed
+  href: api/StormHawks.Runtime.Models.Entities.BossEyeModel.html#StormHawks_Runtime_Models_Entities_BossEyeModel_IsDestroyed
+  commentId: F:StormHawks.Runtime.Models.Entities.BossEyeModel.IsDestroyed
+  fullName: StormHawks.Runtime.Models.Entities.BossEyeModel.IsDestroyed
+  nameWithType: BossEyeModel.IsDestroyed
+- uid: StormHawks.Runtime.Models.Entities.BossEyeModel.IsRailgunCharging
+  name: IsRailgunCharging
+  href: api/StormHawks.Runtime.Models.Entities.BossEyeModel.html#StormHawks_Runtime_Models_Entities_BossEyeModel_IsRailgunCharging
+  commentId: P:StormHawks.Runtime.Models.Entities.BossEyeModel.IsRailgunCharging
+  fullName: StormHawks.Runtime.Models.Entities.BossEyeModel.IsRailgunCharging
+  nameWithType: BossEyeModel.IsRailgunCharging
+- uid: StormHawks.Runtime.Models.Entities.BossEyeModel.IsRailgunCharging*
+  name: IsRailgunCharging
+  href: api/StormHawks.Runtime.Models.Entities.BossEyeModel.html#StormHawks_Runtime_Models_Entities_BossEyeModel_IsRailgunCharging_
+  commentId: Overload:StormHawks.Runtime.Models.Entities.BossEyeModel.IsRailgunCharging
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.Entities.BossEyeModel.IsRailgunCharging
+  nameWithType: BossEyeModel.IsRailgunCharging
+- uid: StormHawks.Runtime.Models.Entities.BossEyeModel.StartRailgun
+  name: StartRailgun()
+  href: api/StormHawks.Runtime.Models.Entities.BossEyeModel.html#StormHawks_Runtime_Models_Entities_BossEyeModel_StartRailgun
+  commentId: M:StormHawks.Runtime.Models.Entities.BossEyeModel.StartRailgun
+  fullName: StormHawks.Runtime.Models.Entities.BossEyeModel.StartRailgun()
+  nameWithType: BossEyeModel.StartRailgun()
+- uid: StormHawks.Runtime.Models.Entities.BossEyeModel.StartRailgun*
+  name: StartRailgun
+  href: api/StormHawks.Runtime.Models.Entities.BossEyeModel.html#StormHawks_Runtime_Models_Entities_BossEyeModel_StartRailgun_
+  commentId: Overload:StormHawks.Runtime.Models.Entities.BossEyeModel.StartRailgun
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.Entities.BossEyeModel.StartRailgun
+  nameWithType: BossEyeModel.StartRailgun
+- uid: StormHawks.Runtime.Models.Entities.BossEyeModel.TakeDamage(System.Single)
+  name: TakeDamage(Single)
+  href: api/StormHawks.Runtime.Models.Entities.BossEyeModel.html#StormHawks_Runtime_Models_Entities_BossEyeModel_TakeDamage_System_Single_
+  commentId: M:StormHawks.Runtime.Models.Entities.BossEyeModel.TakeDamage(System.Single)
+  fullName: StormHawks.Runtime.Models.Entities.BossEyeModel.TakeDamage(System.Single)
+  nameWithType: BossEyeModel.TakeDamage(Single)
+- uid: StormHawks.Runtime.Models.Entities.BossEyeModel.TakeDamage*
+  name: TakeDamage
+  href: api/StormHawks.Runtime.Models.Entities.BossEyeModel.html#StormHawks_Runtime_Models_Entities_BossEyeModel_TakeDamage_
+  commentId: Overload:StormHawks.Runtime.Models.Entities.BossEyeModel.TakeDamage
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.Entities.BossEyeModel.TakeDamage
+  nameWithType: BossEyeModel.TakeDamage
 - uid: StormHawks.Runtime.Models.Entities.BossModel
   name: BossModel
   href: api/StormHawks.Runtime.Models.Entities.BossModel.html
@@ -12711,19 +12814,6 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Models.Entities.BossModel.BehaviorType
   nameWithType: BossModel.BehaviorType
-- uid: StormHawks.Runtime.Models.Entities.BossModel.BossEyeRailgunChargeTime
-  name: BossEyeRailgunChargeTime
-  href: api/StormHawks.Runtime.Models.Entities.BossModel.html#StormHawks_Runtime_Models_Entities_BossModel_BossEyeRailgunChargeTime
-  commentId: P:StormHawks.Runtime.Models.Entities.BossModel.BossEyeRailgunChargeTime
-  fullName: StormHawks.Runtime.Models.Entities.BossModel.BossEyeRailgunChargeTime
-  nameWithType: BossModel.BossEyeRailgunChargeTime
-- uid: StormHawks.Runtime.Models.Entities.BossModel.BossEyeRailgunChargeTime*
-  name: BossEyeRailgunChargeTime
-  href: api/StormHawks.Runtime.Models.Entities.BossModel.html#StormHawks_Runtime_Models_Entities_BossModel_BossEyeRailgunChargeTime_
-  commentId: Overload:StormHawks.Runtime.Models.Entities.BossModel.BossEyeRailgunChargeTime
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Models.Entities.BossModel.BossEyeRailgunChargeTime
-  nameWithType: BossModel.BossEyeRailgunChargeTime
 - uid: StormHawks.Runtime.Models.Entities.BossModel.BossTransform
   name: BossTransform
   href: api/StormHawks.Runtime.Models.Entities.BossModel.html#StormHawks_Runtime_Models_Entities_BossModel_BossTransform
@@ -12876,19 +12966,6 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Models.Entities.BossModel.SetAggroTarget
   nameWithType: BossModel.SetAggroTarget
-- uid: StormHawks.Runtime.Models.Entities.BossModel.SetEyeRailgunChargeTime(System.Single)
-  name: SetEyeRailgunChargeTime(Single)
-  href: api/StormHawks.Runtime.Models.Entities.BossModel.html#StormHawks_Runtime_Models_Entities_BossModel_SetEyeRailgunChargeTime_System_Single_
-  commentId: M:StormHawks.Runtime.Models.Entities.BossModel.SetEyeRailgunChargeTime(System.Single)
-  fullName: StormHawks.Runtime.Models.Entities.BossModel.SetEyeRailgunChargeTime(System.Single)
-  nameWithType: BossModel.SetEyeRailgunChargeTime(Single)
-- uid: StormHawks.Runtime.Models.Entities.BossModel.SetEyeRailgunChargeTime*
-  name: SetEyeRailgunChargeTime
-  href: api/StormHawks.Runtime.Models.Entities.BossModel.html#StormHawks_Runtime_Models_Entities_BossModel_SetEyeRailgunChargeTime_
-  commentId: Overload:StormHawks.Runtime.Models.Entities.BossModel.SetEyeRailgunChargeTime
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Models.Entities.BossModel.SetEyeRailgunChargeTime
-  nameWithType: BossModel.SetEyeRailgunChargeTime
 - uid: StormHawks.Runtime.Models.Entities.BossModel.SetTransform(Transform)
   name: SetTransform(Transform)
   href: api/StormHawks.Runtime.Models.Entities.BossModel.html#StormHawks_Runtime_Models_Entities_BossModel_SetTransform_Transform_
@@ -13993,64 +14070,64 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossBehaviorCompleted.Run
   nameWithType: WaitBossBehaviorCompleted.Run
-- uid: StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossEyeRailgunAttackBehaviorCompleted
-  name: WaitBossEyeRailgunAttackBehaviorCompleted
-  href: api/StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossEyeRailgunAttackBehaviorCompleted.html
-  commentId: T:StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossEyeRailgunAttackBehaviorCompleted
-  fullName: StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossEyeRailgunAttackBehaviorCompleted
-  nameWithType: WaitBossEyeRailgunAttackBehaviorCompleted
-- uid: StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossEyeRailgunAttackBehaviorCompleted.#ctor(BossModel,SequenceGameFlow,SequenceGameFlow)
-  name: WaitBossEyeRailgunAttackBehaviorCompleted(BossModel, SequenceGameFlow, SequenceGameFlow)
-  href: api/StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossEyeRailgunAttackBehaviorCompleted.html#StormHawks_Runtime_Models_GameFlows_Types_Waiters_WaitBossEyeRailgunAttackBehaviorCompleted__ctor_BossModel_SequenceGameFlow_SequenceGameFlow_
-  commentId: M:StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossEyeRailgunAttackBehaviorCompleted.#ctor(BossModel,SequenceGameFlow,SequenceGameFlow)
-  fullName: StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossEyeRailgunAttackBehaviorCompleted.WaitBossEyeRailgunAttackBehaviorCompleted(BossModel, SequenceGameFlow, SequenceGameFlow)
-  nameWithType: WaitBossEyeRailgunAttackBehaviorCompleted.WaitBossEyeRailgunAttackBehaviorCompleted(BossModel, SequenceGameFlow, SequenceGameFlow)
-- uid: StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossEyeRailgunAttackBehaviorCompleted.#ctor*
-  name: WaitBossEyeRailgunAttackBehaviorCompleted
-  href: api/StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossEyeRailgunAttackBehaviorCompleted.html#StormHawks_Runtime_Models_GameFlows_Types_Waiters_WaitBossEyeRailgunAttackBehaviorCompleted__ctor_
-  commentId: Overload:StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossEyeRailgunAttackBehaviorCompleted.#ctor
+- uid: StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossEyeRailgunChargeBehaviorCompleted
+  name: WaitBossEyeRailgunChargeBehaviorCompleted
+  href: api/StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossEyeRailgunChargeBehaviorCompleted.html
+  commentId: T:StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossEyeRailgunChargeBehaviorCompleted
+  fullName: StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossEyeRailgunChargeBehaviorCompleted
+  nameWithType: WaitBossEyeRailgunChargeBehaviorCompleted
+- uid: StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossEyeRailgunChargeBehaviorCompleted.#ctor(BossModel,BossEyeModel,SequenceGameFlow,SequenceGameFlow)
+  name: WaitBossEyeRailgunChargeBehaviorCompleted(BossModel, BossEyeModel, SequenceGameFlow, SequenceGameFlow)
+  href: api/StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossEyeRailgunChargeBehaviorCompleted.html#StormHawks_Runtime_Models_GameFlows_Types_Waiters_WaitBossEyeRailgunChargeBehaviorCompleted__ctor_BossModel_BossEyeModel_SequenceGameFlow_SequenceGameFlow_
+  commentId: M:StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossEyeRailgunChargeBehaviorCompleted.#ctor(BossModel,BossEyeModel,SequenceGameFlow,SequenceGameFlow)
+  fullName: StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossEyeRailgunChargeBehaviorCompleted.WaitBossEyeRailgunChargeBehaviorCompleted(BossModel, BossEyeModel, SequenceGameFlow, SequenceGameFlow)
+  nameWithType: WaitBossEyeRailgunChargeBehaviorCompleted.WaitBossEyeRailgunChargeBehaviorCompleted(BossModel, BossEyeModel, SequenceGameFlow, SequenceGameFlow)
+- uid: StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossEyeRailgunChargeBehaviorCompleted.#ctor*
+  name: WaitBossEyeRailgunChargeBehaviorCompleted
+  href: api/StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossEyeRailgunChargeBehaviorCompleted.html#StormHawks_Runtime_Models_GameFlows_Types_Waiters_WaitBossEyeRailgunChargeBehaviorCompleted__ctor_
+  commentId: Overload:StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossEyeRailgunChargeBehaviorCompleted.#ctor
   isSpec: "True"
-  fullName: StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossEyeRailgunAttackBehaviorCompleted.WaitBossEyeRailgunAttackBehaviorCompleted
-  nameWithType: WaitBossEyeRailgunAttackBehaviorCompleted.WaitBossEyeRailgunAttackBehaviorCompleted
-- uid: StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossEyeRailgunAttackBehaviorCompleted.OnEnter
+  fullName: StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossEyeRailgunChargeBehaviorCompleted.WaitBossEyeRailgunChargeBehaviorCompleted
+  nameWithType: WaitBossEyeRailgunChargeBehaviorCompleted.WaitBossEyeRailgunChargeBehaviorCompleted
+- uid: StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossEyeRailgunChargeBehaviorCompleted.OnEnter
   name: OnEnter()
-  href: api/StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossEyeRailgunAttackBehaviorCompleted.html#StormHawks_Runtime_Models_GameFlows_Types_Waiters_WaitBossEyeRailgunAttackBehaviorCompleted_OnEnter
-  commentId: M:StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossEyeRailgunAttackBehaviorCompleted.OnEnter
-  fullName: StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossEyeRailgunAttackBehaviorCompleted.OnEnter()
-  nameWithType: WaitBossEyeRailgunAttackBehaviorCompleted.OnEnter()
-- uid: StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossEyeRailgunAttackBehaviorCompleted.OnEnter*
+  href: api/StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossEyeRailgunChargeBehaviorCompleted.html#StormHawks_Runtime_Models_GameFlows_Types_Waiters_WaitBossEyeRailgunChargeBehaviorCompleted_OnEnter
+  commentId: M:StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossEyeRailgunChargeBehaviorCompleted.OnEnter
+  fullName: StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossEyeRailgunChargeBehaviorCompleted.OnEnter()
+  nameWithType: WaitBossEyeRailgunChargeBehaviorCompleted.OnEnter()
+- uid: StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossEyeRailgunChargeBehaviorCompleted.OnEnter*
   name: OnEnter
-  href: api/StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossEyeRailgunAttackBehaviorCompleted.html#StormHawks_Runtime_Models_GameFlows_Types_Waiters_WaitBossEyeRailgunAttackBehaviorCompleted_OnEnter_
-  commentId: Overload:StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossEyeRailgunAttackBehaviorCompleted.OnEnter
+  href: api/StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossEyeRailgunChargeBehaviorCompleted.html#StormHawks_Runtime_Models_GameFlows_Types_Waiters_WaitBossEyeRailgunChargeBehaviorCompleted_OnEnter_
+  commentId: Overload:StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossEyeRailgunChargeBehaviorCompleted.OnEnter
   isSpec: "True"
-  fullName: StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossEyeRailgunAttackBehaviorCompleted.OnEnter
-  nameWithType: WaitBossEyeRailgunAttackBehaviorCompleted.OnEnter
-- uid: StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossEyeRailgunAttackBehaviorCompleted.OnExit
+  fullName: StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossEyeRailgunChargeBehaviorCompleted.OnEnter
+  nameWithType: WaitBossEyeRailgunChargeBehaviorCompleted.OnEnter
+- uid: StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossEyeRailgunChargeBehaviorCompleted.OnExit
   name: OnExit()
-  href: api/StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossEyeRailgunAttackBehaviorCompleted.html#StormHawks_Runtime_Models_GameFlows_Types_Waiters_WaitBossEyeRailgunAttackBehaviorCompleted_OnExit
-  commentId: M:StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossEyeRailgunAttackBehaviorCompleted.OnExit
-  fullName: StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossEyeRailgunAttackBehaviorCompleted.OnExit()
-  nameWithType: WaitBossEyeRailgunAttackBehaviorCompleted.OnExit()
-- uid: StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossEyeRailgunAttackBehaviorCompleted.OnExit*
+  href: api/StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossEyeRailgunChargeBehaviorCompleted.html#StormHawks_Runtime_Models_GameFlows_Types_Waiters_WaitBossEyeRailgunChargeBehaviorCompleted_OnExit
+  commentId: M:StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossEyeRailgunChargeBehaviorCompleted.OnExit
+  fullName: StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossEyeRailgunChargeBehaviorCompleted.OnExit()
+  nameWithType: WaitBossEyeRailgunChargeBehaviorCompleted.OnExit()
+- uid: StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossEyeRailgunChargeBehaviorCompleted.OnExit*
   name: OnExit
-  href: api/StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossEyeRailgunAttackBehaviorCompleted.html#StormHawks_Runtime_Models_GameFlows_Types_Waiters_WaitBossEyeRailgunAttackBehaviorCompleted_OnExit_
-  commentId: Overload:StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossEyeRailgunAttackBehaviorCompleted.OnExit
+  href: api/StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossEyeRailgunChargeBehaviorCompleted.html#StormHawks_Runtime_Models_GameFlows_Types_Waiters_WaitBossEyeRailgunChargeBehaviorCompleted_OnExit_
+  commentId: Overload:StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossEyeRailgunChargeBehaviorCompleted.OnExit
   isSpec: "True"
-  fullName: StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossEyeRailgunAttackBehaviorCompleted.OnExit
-  nameWithType: WaitBossEyeRailgunAttackBehaviorCompleted.OnExit
-- uid: StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossEyeRailgunAttackBehaviorCompleted.Run
+  fullName: StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossEyeRailgunChargeBehaviorCompleted.OnExit
+  nameWithType: WaitBossEyeRailgunChargeBehaviorCompleted.OnExit
+- uid: StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossEyeRailgunChargeBehaviorCompleted.Run
   name: Run()
-  href: api/StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossEyeRailgunAttackBehaviorCompleted.html#StormHawks_Runtime_Models_GameFlows_Types_Waiters_WaitBossEyeRailgunAttackBehaviorCompleted_Run
-  commentId: M:StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossEyeRailgunAttackBehaviorCompleted.Run
-  fullName: StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossEyeRailgunAttackBehaviorCompleted.Run()
-  nameWithType: WaitBossEyeRailgunAttackBehaviorCompleted.Run()
-- uid: StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossEyeRailgunAttackBehaviorCompleted.Run*
+  href: api/StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossEyeRailgunChargeBehaviorCompleted.html#StormHawks_Runtime_Models_GameFlows_Types_Waiters_WaitBossEyeRailgunChargeBehaviorCompleted_Run
+  commentId: M:StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossEyeRailgunChargeBehaviorCompleted.Run
+  fullName: StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossEyeRailgunChargeBehaviorCompleted.Run()
+  nameWithType: WaitBossEyeRailgunChargeBehaviorCompleted.Run()
+- uid: StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossEyeRailgunChargeBehaviorCompleted.Run*
   name: Run
-  href: api/StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossEyeRailgunAttackBehaviorCompleted.html#StormHawks_Runtime_Models_GameFlows_Types_Waiters_WaitBossEyeRailgunAttackBehaviorCompleted_Run_
-  commentId: Overload:StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossEyeRailgunAttackBehaviorCompleted.Run
+  href: api/StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossEyeRailgunChargeBehaviorCompleted.html#StormHawks_Runtime_Models_GameFlows_Types_Waiters_WaitBossEyeRailgunChargeBehaviorCompleted_Run_
+  commentId: Overload:StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossEyeRailgunChargeBehaviorCompleted.Run
   isSpec: "True"
-  fullName: StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossEyeRailgunAttackBehaviorCompleted.Run
-  nameWithType: WaitBossEyeRailgunAttackBehaviorCompleted.Run
+  fullName: StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossEyeRailgunChargeBehaviorCompleted.Run
+  nameWithType: WaitBossEyeRailgunChargeBehaviorCompleted.Run
 - uid: StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitPowerPlantGimmickCompletedFlow
   name: WaitPowerPlantGimmickCompletedFlow
   href: api/StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitPowerPlantGimmickCompletedFlow.html
@@ -18465,12 +18542,12 @@ references:
   commentId: T:StormHawks.Runtime.Presenters.Behaviors.Boss.BossEyeRailgunAttackBehavior
   fullName: StormHawks.Runtime.Presenters.Behaviors.Boss.BossEyeRailgunAttackBehavior
   nameWithType: BossEyeRailgunAttackBehavior
-- uid: StormHawks.Runtime.Presenters.Behaviors.Boss.BossEyeRailgunAttackBehavior.#ctor(BossPresenter,IEntityAnimator,BossBehaviorSettings)
-  name: BossEyeRailgunAttackBehavior(BossPresenter, IEntityAnimator, BossBehaviorSettings)
-  href: api/StormHawks.Runtime.Presenters.Behaviors.Boss.BossEyeRailgunAttackBehavior.html#StormHawks_Runtime_Presenters_Behaviors_Boss_BossEyeRailgunAttackBehavior__ctor_BossPresenter_IEntityAnimator_BossBehaviorSettings_
-  commentId: M:StormHawks.Runtime.Presenters.Behaviors.Boss.BossEyeRailgunAttackBehavior.#ctor(BossPresenter,IEntityAnimator,BossBehaviorSettings)
-  fullName: StormHawks.Runtime.Presenters.Behaviors.Boss.BossEyeRailgunAttackBehavior.BossEyeRailgunAttackBehavior(BossPresenter, IEntityAnimator, BossBehaviorSettings)
-  nameWithType: BossEyeRailgunAttackBehavior.BossEyeRailgunAttackBehavior(BossPresenter, IEntityAnimator, BossBehaviorSettings)
+- uid: StormHawks.Runtime.Presenters.Behaviors.Boss.BossEyeRailgunAttackBehavior.#ctor(BossPresenter,IEntityAnimator,BossBehaviorSettings,BossEyeModel)
+  name: BossEyeRailgunAttackBehavior(BossPresenter, IEntityAnimator, BossBehaviorSettings, BossEyeModel)
+  href: api/StormHawks.Runtime.Presenters.Behaviors.Boss.BossEyeRailgunAttackBehavior.html#StormHawks_Runtime_Presenters_Behaviors_Boss_BossEyeRailgunAttackBehavior__ctor_BossPresenter_IEntityAnimator_BossBehaviorSettings_BossEyeModel_
+  commentId: M:StormHawks.Runtime.Presenters.Behaviors.Boss.BossEyeRailgunAttackBehavior.#ctor(BossPresenter,IEntityAnimator,BossBehaviorSettings,BossEyeModel)
+  fullName: StormHawks.Runtime.Presenters.Behaviors.Boss.BossEyeRailgunAttackBehavior.BossEyeRailgunAttackBehavior(BossPresenter, IEntityAnimator, BossBehaviorSettings, BossEyeModel)
+  nameWithType: BossEyeRailgunAttackBehavior.BossEyeRailgunAttackBehavior(BossPresenter, IEntityAnimator, BossBehaviorSettings, BossEyeModel)
 - uid: StormHawks.Runtime.Presenters.Behaviors.Boss.BossEyeRailgunAttackBehavior.#ctor*
   name: BossEyeRailgunAttackBehavior
   href: api/StormHawks.Runtime.Presenters.Behaviors.Boss.BossEyeRailgunAttackBehavior.html#StormHawks_Runtime_Presenters_Behaviors_Boss_BossEyeRailgunAttackBehavior__ctor_
@@ -18478,19 +18555,6 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Presenters.Behaviors.Boss.BossEyeRailgunAttackBehavior.BossEyeRailgunAttackBehavior
   nameWithType: BossEyeRailgunAttackBehavior.BossEyeRailgunAttackBehavior
-- uid: StormHawks.Runtime.Presenters.Behaviors.Boss.BossEyeRailgunAttackBehavior.Cancel
-  name: Cancel()
-  href: api/StormHawks.Runtime.Presenters.Behaviors.Boss.BossEyeRailgunAttackBehavior.html#StormHawks_Runtime_Presenters_Behaviors_Boss_BossEyeRailgunAttackBehavior_Cancel
-  commentId: M:StormHawks.Runtime.Presenters.Behaviors.Boss.BossEyeRailgunAttackBehavior.Cancel
-  fullName: StormHawks.Runtime.Presenters.Behaviors.Boss.BossEyeRailgunAttackBehavior.Cancel()
-  nameWithType: BossEyeRailgunAttackBehavior.Cancel()
-- uid: StormHawks.Runtime.Presenters.Behaviors.Boss.BossEyeRailgunAttackBehavior.Cancel*
-  name: Cancel
-  href: api/StormHawks.Runtime.Presenters.Behaviors.Boss.BossEyeRailgunAttackBehavior.html#StormHawks_Runtime_Presenters_Behaviors_Boss_BossEyeRailgunAttackBehavior_Cancel_
-  commentId: Overload:StormHawks.Runtime.Presenters.Behaviors.Boss.BossEyeRailgunAttackBehavior.Cancel
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Presenters.Behaviors.Boss.BossEyeRailgunAttackBehavior.Cancel
-  nameWithType: BossEyeRailgunAttackBehavior.Cancel
 - uid: StormHawks.Runtime.Presenters.Behaviors.Boss.BossEyeRailgunAttackBehavior.Execute(Action)
   name: Execute(Action)
   href: api/StormHawks.Runtime.Presenters.Behaviors.Boss.BossEyeRailgunAttackBehavior.html#StormHawks_Runtime_Presenters_Behaviors_Boss_BossEyeRailgunAttackBehavior_Execute_Action_
@@ -18852,12 +18916,12 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Presenters.Bosses.BossEyePresenter.GetAggroTarget
   nameWithType: BossEyePresenter.GetAggroTarget
-- uid: StormHawks.Runtime.Presenters.Bosses.BossEyePresenter.Initialize(BossModel,BossBehaviorSettings)
-  name: Initialize(BossModel, BossBehaviorSettings)
-  href: api/StormHawks.Runtime.Presenters.Bosses.BossEyePresenter.html#StormHawks_Runtime_Presenters_Bosses_BossEyePresenter_Initialize_BossModel_BossBehaviorSettings_
-  commentId: M:StormHawks.Runtime.Presenters.Bosses.BossEyePresenter.Initialize(BossModel,BossBehaviorSettings)
-  fullName: StormHawks.Runtime.Presenters.Bosses.BossEyePresenter.Initialize(BossModel, BossBehaviorSettings)
-  nameWithType: BossEyePresenter.Initialize(BossModel, BossBehaviorSettings)
+- uid: StormHawks.Runtime.Presenters.Bosses.BossEyePresenter.Initialize(BossModel,BossEyeModel)
+  name: Initialize(BossModel, BossEyeModel)
+  href: api/StormHawks.Runtime.Presenters.Bosses.BossEyePresenter.html#StormHawks_Runtime_Presenters_Bosses_BossEyePresenter_Initialize_BossModel_BossEyeModel_
+  commentId: M:StormHawks.Runtime.Presenters.Bosses.BossEyePresenter.Initialize(BossModel,BossEyeModel)
+  fullName: StormHawks.Runtime.Presenters.Bosses.BossEyePresenter.Initialize(BossModel, BossEyeModel)
+  nameWithType: BossEyePresenter.Initialize(BossModel, BossEyeModel)
 - uid: StormHawks.Runtime.Presenters.Bosses.BossEyePresenter.Initialize*
   name: Initialize
   href: api/StormHawks.Runtime.Presenters.Bosses.BossEyePresenter.html#StormHawks_Runtime_Presenters_Bosses_BossEyePresenter_Initialize_
@@ -18897,12 +18961,12 @@ references:
   commentId: T:StormHawks.Runtime.Presenters.Bosses.BossPresenter
   fullName: StormHawks.Runtime.Presenters.Bosses.BossPresenter
   nameWithType: BossPresenter
-- uid: StormHawks.Runtime.Presenters.Bosses.BossPresenter.Construct(BossModel,BossBehaviorSettings,EnemySpawner,BossPathModelGetter,IObjectResolver)
-  name: Construct(BossModel, BossBehaviorSettings, EnemySpawner, BossPathModelGetter, IObjectResolver)
-  href: api/StormHawks.Runtime.Presenters.Bosses.BossPresenter.html#StormHawks_Runtime_Presenters_Bosses_BossPresenter_Construct_BossModel_BossBehaviorSettings_EnemySpawner_BossPathModelGetter_IObjectResolver_
-  commentId: M:StormHawks.Runtime.Presenters.Bosses.BossPresenter.Construct(BossModel,BossBehaviorSettings,EnemySpawner,BossPathModelGetter,IObjectResolver)
-  fullName: StormHawks.Runtime.Presenters.Bosses.BossPresenter.Construct(BossModel, BossBehaviorSettings, EnemySpawner, BossPathModelGetter, IObjectResolver)
-  nameWithType: BossPresenter.Construct(BossModel, BossBehaviorSettings, EnemySpawner, BossPathModelGetter, IObjectResolver)
+- uid: StormHawks.Runtime.Presenters.Bosses.BossPresenter.Construct(BossModel,BossEyeModel,BossBehaviorSettings,EnemySpawner,BossPathModelGetter,IObjectResolver)
+  name: Construct(BossModel, BossEyeModel, BossBehaviorSettings, EnemySpawner, BossPathModelGetter, IObjectResolver)
+  href: api/StormHawks.Runtime.Presenters.Bosses.BossPresenter.html#StormHawks_Runtime_Presenters_Bosses_BossPresenter_Construct_BossModel_BossEyeModel_BossBehaviorSettings_EnemySpawner_BossPathModelGetter_IObjectResolver_
+  commentId: M:StormHawks.Runtime.Presenters.Bosses.BossPresenter.Construct(BossModel,BossEyeModel,BossBehaviorSettings,EnemySpawner,BossPathModelGetter,IObjectResolver)
+  fullName: StormHawks.Runtime.Presenters.Bosses.BossPresenter.Construct(BossModel, BossEyeModel, BossBehaviorSettings, EnemySpawner, BossPathModelGetter, IObjectResolver)
+  nameWithType: BossPresenter.Construct(BossModel, BossEyeModel, BossBehaviorSettings, EnemySpawner, BossPathModelGetter, IObjectResolver)
 - uid: StormHawks.Runtime.Presenters.Bosses.BossPresenter.Construct*
   name: Construct
   href: api/StormHawks.Runtime.Presenters.Bosses.BossPresenter.html#StormHawks_Runtime_Presenters_Bosses_BossPresenter_Construct_
@@ -22146,6 +22210,93 @@ references:
   commentId: N:StormHawks.Runtime.Presenters.Weapons.Boss
   fullName: StormHawks.Runtime.Presenters.Weapons.Boss
   nameWithType: StormHawks.Runtime.Presenters.Weapons.Boss
+- uid: StormHawks.Runtime.Presenters.Weapons.Boss.BossEyeRailgunWeapon
+  name: BossEyeRailgunWeapon
+  href: api/StormHawks.Runtime.Presenters.Weapons.Boss.BossEyeRailgunWeapon.html
+  commentId: T:StormHawks.Runtime.Presenters.Weapons.Boss.BossEyeRailgunWeapon
+  fullName: StormHawks.Runtime.Presenters.Weapons.Boss.BossEyeRailgunWeapon
+  nameWithType: BossEyeRailgunWeapon
+- uid: StormHawks.Runtime.Presenters.Weapons.Boss.BossEyeRailgunWeapon.Cancel
+  name: Cancel()
+  href: api/StormHawks.Runtime.Presenters.Weapons.Boss.BossEyeRailgunWeapon.html#StormHawks_Runtime_Presenters_Weapons_Boss_BossEyeRailgunWeapon_Cancel
+  commentId: M:StormHawks.Runtime.Presenters.Weapons.Boss.BossEyeRailgunWeapon.Cancel
+  fullName: StormHawks.Runtime.Presenters.Weapons.Boss.BossEyeRailgunWeapon.Cancel()
+  nameWithType: BossEyeRailgunWeapon.Cancel()
+- uid: StormHawks.Runtime.Presenters.Weapons.Boss.BossEyeRailgunWeapon.Cancel*
+  name: Cancel
+  href: api/StormHawks.Runtime.Presenters.Weapons.Boss.BossEyeRailgunWeapon.html#StormHawks_Runtime_Presenters_Weapons_Boss_BossEyeRailgunWeapon_Cancel_
+  commentId: Overload:StormHawks.Runtime.Presenters.Weapons.Boss.BossEyeRailgunWeapon.Cancel
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.Weapons.Boss.BossEyeRailgunWeapon.Cancel
+  nameWithType: BossEyeRailgunWeapon.Cancel
+- uid: StormHawks.Runtime.Presenters.Weapons.Boss.BossEyeRailgunWeapon.CanLaunch
+  name: CanLaunch()
+  href: api/StormHawks.Runtime.Presenters.Weapons.Boss.BossEyeRailgunWeapon.html#StormHawks_Runtime_Presenters_Weapons_Boss_BossEyeRailgunWeapon_CanLaunch
+  commentId: M:StormHawks.Runtime.Presenters.Weapons.Boss.BossEyeRailgunWeapon.CanLaunch
+  fullName: StormHawks.Runtime.Presenters.Weapons.Boss.BossEyeRailgunWeapon.CanLaunch()
+  nameWithType: BossEyeRailgunWeapon.CanLaunch()
+- uid: StormHawks.Runtime.Presenters.Weapons.Boss.BossEyeRailgunWeapon.CanLaunch*
+  name: CanLaunch
+  href: api/StormHawks.Runtime.Presenters.Weapons.Boss.BossEyeRailgunWeapon.html#StormHawks_Runtime_Presenters_Weapons_Boss_BossEyeRailgunWeapon_CanLaunch_
+  commentId: Overload:StormHawks.Runtime.Presenters.Weapons.Boss.BossEyeRailgunWeapon.CanLaunch
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.Weapons.Boss.BossEyeRailgunWeapon.CanLaunch
+  nameWithType: BossEyeRailgunWeapon.CanLaunch
+- uid: StormHawks.Runtime.Presenters.Weapons.Boss.BossEyeRailgunWeapon.Initialize(BossEyeModel)
+  name: Initialize(BossEyeModel)
+  href: api/StormHawks.Runtime.Presenters.Weapons.Boss.BossEyeRailgunWeapon.html#StormHawks_Runtime_Presenters_Weapons_Boss_BossEyeRailgunWeapon_Initialize_BossEyeModel_
+  commentId: M:StormHawks.Runtime.Presenters.Weapons.Boss.BossEyeRailgunWeapon.Initialize(BossEyeModel)
+  fullName: StormHawks.Runtime.Presenters.Weapons.Boss.BossEyeRailgunWeapon.Initialize(BossEyeModel)
+  nameWithType: BossEyeRailgunWeapon.Initialize(BossEyeModel)
+- uid: StormHawks.Runtime.Presenters.Weapons.Boss.BossEyeRailgunWeapon.Initialize*
+  name: Initialize
+  href: api/StormHawks.Runtime.Presenters.Weapons.Boss.BossEyeRailgunWeapon.html#StormHawks_Runtime_Presenters_Weapons_Boss_BossEyeRailgunWeapon_Initialize_
+  commentId: Overload:StormHawks.Runtime.Presenters.Weapons.Boss.BossEyeRailgunWeapon.Initialize
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.Weapons.Boss.BossEyeRailgunWeapon.Initialize
+  nameWithType: BossEyeRailgunWeapon.Initialize
+- uid: StormHawks.Runtime.Presenters.Weapons.Boss.BossEyeRailgunWeapon.OnLaunchCompleted
+  name: OnLaunchCompleted()
+  href: api/StormHawks.Runtime.Presenters.Weapons.Boss.BossEyeRailgunWeapon.html#StormHawks_Runtime_Presenters_Weapons_Boss_BossEyeRailgunWeapon_OnLaunchCompleted
+  commentId: M:StormHawks.Runtime.Presenters.Weapons.Boss.BossEyeRailgunWeapon.OnLaunchCompleted
+  fullName: StormHawks.Runtime.Presenters.Weapons.Boss.BossEyeRailgunWeapon.OnLaunchCompleted()
+  nameWithType: BossEyeRailgunWeapon.OnLaunchCompleted()
+- uid: StormHawks.Runtime.Presenters.Weapons.Boss.BossEyeRailgunWeapon.OnLaunchCompleted*
+  name: OnLaunchCompleted
+  href: api/StormHawks.Runtime.Presenters.Weapons.Boss.BossEyeRailgunWeapon.html#StormHawks_Runtime_Presenters_Weapons_Boss_BossEyeRailgunWeapon_OnLaunchCompleted_
+  commentId: Overload:StormHawks.Runtime.Presenters.Weapons.Boss.BossEyeRailgunWeapon.OnLaunchCompleted
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.Weapons.Boss.BossEyeRailgunWeapon.OnLaunchCompleted
+  nameWithType: BossEyeRailgunWeapon.OnLaunchCompleted
+- uid: StormHawks.Runtime.Presenters.Weapons.Boss.BossEyeRailgunWeapon.SetTarget(System.Nullable{AggroTarget})
+  name: SetTarget(Nullable<AggroTarget>)
+  href: api/StormHawks.Runtime.Presenters.Weapons.Boss.BossEyeRailgunWeapon.html#StormHawks_Runtime_Presenters_Weapons_Boss_BossEyeRailgunWeapon_SetTarget_System_Nullable_AggroTarget__
+  commentId: M:StormHawks.Runtime.Presenters.Weapons.Boss.BossEyeRailgunWeapon.SetTarget(System.Nullable{AggroTarget})
+  name.vb: SetTarget(Nullable(Of AggroTarget))
+  fullName: StormHawks.Runtime.Presenters.Weapons.Boss.BossEyeRailgunWeapon.SetTarget(System.Nullable<AggroTarget>)
+  fullName.vb: StormHawks.Runtime.Presenters.Weapons.Boss.BossEyeRailgunWeapon.SetTarget(System.Nullable(Of AggroTarget))
+  nameWithType: BossEyeRailgunWeapon.SetTarget(Nullable<AggroTarget>)
+  nameWithType.vb: BossEyeRailgunWeapon.SetTarget(Nullable(Of AggroTarget))
+- uid: StormHawks.Runtime.Presenters.Weapons.Boss.BossEyeRailgunWeapon.SetTarget*
+  name: SetTarget
+  href: api/StormHawks.Runtime.Presenters.Weapons.Boss.BossEyeRailgunWeapon.html#StormHawks_Runtime_Presenters_Weapons_Boss_BossEyeRailgunWeapon_SetTarget_
+  commentId: Overload:StormHawks.Runtime.Presenters.Weapons.Boss.BossEyeRailgunWeapon.SetTarget
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.Weapons.Boss.BossEyeRailgunWeapon.SetTarget
+  nameWithType: BossEyeRailgunWeapon.SetTarget
+- uid: StormHawks.Runtime.Presenters.Weapons.Boss.BossEyeRailgunWeapon.SpawnRailgun
+  name: SpawnRailgun()
+  href: api/StormHawks.Runtime.Presenters.Weapons.Boss.BossEyeRailgunWeapon.html#StormHawks_Runtime_Presenters_Weapons_Boss_BossEyeRailgunWeapon_SpawnRailgun
+  commentId: M:StormHawks.Runtime.Presenters.Weapons.Boss.BossEyeRailgunWeapon.SpawnRailgun
+  fullName: StormHawks.Runtime.Presenters.Weapons.Boss.BossEyeRailgunWeapon.SpawnRailgun()
+  nameWithType: BossEyeRailgunWeapon.SpawnRailgun()
+- uid: StormHawks.Runtime.Presenters.Weapons.Boss.BossEyeRailgunWeapon.SpawnRailgun*
+  name: SpawnRailgun
+  href: api/StormHawks.Runtime.Presenters.Weapons.Boss.BossEyeRailgunWeapon.html#StormHawks_Runtime_Presenters_Weapons_Boss_BossEyeRailgunWeapon_SpawnRailgun_
+  commentId: Overload:StormHawks.Runtime.Presenters.Weapons.Boss.BossEyeRailgunWeapon.SpawnRailgun
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.Weapons.Boss.BossEyeRailgunWeapon.SpawnRailgun
+  nameWithType: BossEyeRailgunWeapon.SpawnRailgun
 - uid: StormHawks.Runtime.Presenters.Weapons.Boss.BossMissileWeapon
   name: BossMissileWeapon
   href: api/StormHawks.Runtime.Presenters.Weapons.Boss.BossMissileWeapon.html

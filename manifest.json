@@ -2248,7 +2248,7 @@
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.Enums.BossBehaviorType.html",
-          "hash": "BPZwhwpMM+nckWsH0U4AqX0Y4oTpf816vDhuDpkAa8E="
+          "hash": "IjF/5VWbUPGTEDv3Qdp08fGKPmE3Q3i+KhSGB5p3YxM="
         }
       },
       "is_incremental": false,
@@ -2304,11 +2304,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/StormHawks.Runtime.Enums.PlayerTeleportSpotType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StormHawks.Runtime.Enums.PlayerTeleportSpotType.html",
+          "hash": "pmpd2A3Ce+QZsxA97BDsg/UikSwVVKkGcY434vQU8mY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/StormHawks.Runtime.Enums.yml",
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.Enums.html",
-          "hash": "6sJNLq+uHQf+MpjRhP6DRWn4PvAvCVWGm2A27zLfjdE="
+          "hash": "VbIEomznqT5Re8T6sCc//8unkseYNBwKuKyCdRS1rfc="
         }
       },
       "is_incremental": false,
@@ -2668,7 +2680,7 @@
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.GameFlows.GameFlowPresenter.html",
-          "hash": "4oHAL8QHiHieHGNn08glM9YjwFENV6yCX4NJiv7XIc8="
+          "hash": "u4Dicnpn2f1xprv9QJGBTWREvPKHLYDZr9JESSoHRR8="
         }
       },
       "is_incremental": false,
@@ -3796,7 +3808,7 @@
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.Models.GameFlows.Types.Actions.ActionFlow.html",
-          "hash": "vgEwwhGBpqeb87nmT22Qc20Gq2aBoQ5hgcN1/ciiISE="
+          "hash": "1Y8sZb32nuPfB3ueZ6DbtZVEhaChGmAYD185tq1OS/E="
         }
       },
       "is_incremental": false,
@@ -3888,6 +3900,30 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/StormHawks.Runtime.Models.GameFlows.Types.Actions.PlayerFadeFlow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StormHawks.Runtime.Models.GameFlows.Types.Actions.PlayerFadeFlow.html",
+          "hash": "q90Ge28Y1Tg+obunsqzDRbKCtEc7LrnT7K8WSIYS2Yg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/StormHawks.Runtime.Models.GameFlows.Types.Actions.PlayerTeleportFlow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StormHawks.Runtime.Models.GameFlows.Types.Actions.PlayerTeleportFlow.html",
+          "hash": "JD6b6kVsxahUs9TEaTmM9Hc6MBvIwIbE4f6pvCDZe4E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/StormHawks.Runtime.Models.GameFlows.Types.Actions.SetPlayerAggroPrioirtyFlow.yml",
       "output": {
         ".html": {
@@ -3904,7 +3940,7 @@
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.Models.GameFlows.Types.Actions.html",
-          "hash": "WNwTQ1AX67psgxfiXLDcBtZabVbXJSzDKI3Xja48t1U="
+          "hash": "ETsS8NIh1mvRx6xsxKA+CWUb6EX5SxA0iPH2opIMU2Q="
         }
       },
       "is_incremental": false,
@@ -5285,6 +5321,42 @@
         ".html": {
           "relative_path": "api/StormHawks.Runtime.Presenters.Environments.Paths.html",
           "hash": "ztqjddSxBEDk5JmBVs3tPbFYJ7RDzj8Puy6iNsQjx08="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/StormHawks.Runtime.Presenters.Environments.TeleportSpots.PlayerTeleportSpot.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StormHawks.Runtime.Presenters.Environments.TeleportSpots.PlayerTeleportSpot.html",
+          "hash": "0XtFnRpSHfy7Lp4W4aGsyqCTw57mm7viqbeGgfHSRz0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/StormHawks.Runtime.Presenters.Environments.TeleportSpots.PlayerTeleportSpotGetter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StormHawks.Runtime.Presenters.Environments.TeleportSpots.PlayerTeleportSpotGetter.html",
+          "hash": "ZgOzOGFe8tIbpzed3GTJx/pPpW4peoEHM+d3LjdAgOU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/StormHawks.Runtime.Presenters.Environments.TeleportSpots.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StormHawks.Runtime.Presenters.Environments.TeleportSpots.html",
+          "hash": "rYTGHOJNCkpKUq1F3tVlTaRs+F3BjM5G4uirgyoNyBo="
         }
       },
       "is_incremental": false,
@@ -8668,7 +8740,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "uuVluvTU4GkkqdMcboPHE1rWHFTjSVg5X6axa/xFgmg="
+          "hash": "1j/9OCxMak09pp3ODC2/+xHPawqxWxwQ7RBOx4oBFS4="
         }
       },
       "is_incremental": false,
@@ -8869,7 +8941,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 720,
+          "total_file_count": 726,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

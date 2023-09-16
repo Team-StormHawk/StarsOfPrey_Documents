@@ -5983,6 +5983,12 @@ references:
   commentId: F:StormHawks.Runtime.Enums.BossBehaviorType.MoveEntryPointToPowerPlant
   fullName: StormHawks.Runtime.Enums.BossBehaviorType.MoveEntryPointToPowerPlant
   nameWithType: BossBehaviorType.MoveEntryPointToPowerPlant
+- uid: StormHawks.Runtime.Enums.BossBehaviorType.MovePowerPlantToFactory
+  name: MovePowerPlantToFactory
+  href: api/StormHawks.Runtime.Enums.BossBehaviorType.html#StormHawks_Runtime_Enums_BossBehaviorType_MovePowerPlantToFactory
+  commentId: F:StormHawks.Runtime.Enums.BossBehaviorType.MovePowerPlantToFactory
+  fullName: StormHawks.Runtime.Enums.BossBehaviorType.MovePowerPlantToFactory
+  nameWithType: BossBehaviorType.MovePowerPlantToFactory
 - uid: StormHawks.Runtime.Enums.BossBehaviorType.None
   name: None
   href: api/StormHawks.Runtime.Enums.BossBehaviorType.html#StormHawks_Runtime_Enums_BossBehaviorType_None
@@ -6085,6 +6091,24 @@ references:
   commentId: F:StormHawks.Runtime.Enums.EnemyType.Looker
   fullName: StormHawks.Runtime.Enums.EnemyType.Looker
   nameWithType: EnemyType.Looker
+- uid: StormHawks.Runtime.Enums.PlayerTeleportSpotType
+  name: PlayerTeleportSpotType
+  href: api/StormHawks.Runtime.Enums.PlayerTeleportSpotType.html
+  commentId: T:StormHawks.Runtime.Enums.PlayerTeleportSpotType
+  fullName: StormHawks.Runtime.Enums.PlayerTeleportSpotType
+  nameWithType: PlayerTeleportSpotType
+- uid: StormHawks.Runtime.Enums.PlayerTeleportSpotType.EntryPoint
+  name: EntryPoint
+  href: api/StormHawks.Runtime.Enums.PlayerTeleportSpotType.html#StormHawks_Runtime_Enums_PlayerTeleportSpotType_EntryPoint
+  commentId: F:StormHawks.Runtime.Enums.PlayerTeleportSpotType.EntryPoint
+  fullName: StormHawks.Runtime.Enums.PlayerTeleportSpotType.EntryPoint
+  nameWithType: PlayerTeleportSpotType.EntryPoint
+- uid: StormHawks.Runtime.Enums.PlayerTeleportSpotType.PowerPlantFailure
+  name: PowerPlantFailure
+  href: api/StormHawks.Runtime.Enums.PlayerTeleportSpotType.html#StormHawks_Runtime_Enums_PlayerTeleportSpotType_PowerPlantFailure
+  commentId: F:StormHawks.Runtime.Enums.PlayerTeleportSpotType.PowerPlantFailure
+  fullName: StormHawks.Runtime.Enums.PlayerTeleportSpotType.PowerPlantFailure
+  nameWithType: PlayerTeleportSpotType.PowerPlantFailure
 - uid: StormHawks.Runtime.Environments.Waypoints
   name: StormHawks.Runtime.Environments.Waypoints
   href: api/StormHawks.Runtime.Environments.Waypoints.html
@@ -7186,12 +7210,12 @@ references:
   commentId: T:StormHawks.Runtime.GameFlows.GameFlowPresenter
   fullName: StormHawks.Runtime.GameFlows.GameFlowPresenter
   nameWithType: GameFlowPresenter
-- uid: StormHawks.Runtime.GameFlows.GameFlowPresenter.#ctor(BossModel,BossEyeModel,PowerPlantModel,BossPathModelGetter,PlayerFlightModel,PlayerModel,CutSceneLoader,PlayerWeaponModel)
-  name: GameFlowPresenter(BossModel, BossEyeModel, PowerPlantModel, BossPathModelGetter, PlayerFlightModel, PlayerModel, CutSceneLoader, PlayerWeaponModel)
-  href: api/StormHawks.Runtime.GameFlows.GameFlowPresenter.html#StormHawks_Runtime_GameFlows_GameFlowPresenter__ctor_BossModel_BossEyeModel_PowerPlantModel_BossPathModelGetter_PlayerFlightModel_PlayerModel_CutSceneLoader_PlayerWeaponModel_
-  commentId: M:StormHawks.Runtime.GameFlows.GameFlowPresenter.#ctor(BossModel,BossEyeModel,PowerPlantModel,BossPathModelGetter,PlayerFlightModel,PlayerModel,CutSceneLoader,PlayerWeaponModel)
-  fullName: StormHawks.Runtime.GameFlows.GameFlowPresenter.GameFlowPresenter(BossModel, BossEyeModel, PowerPlantModel, BossPathModelGetter, PlayerFlightModel, PlayerModel, CutSceneLoader, PlayerWeaponModel)
-  nameWithType: GameFlowPresenter.GameFlowPresenter(BossModel, BossEyeModel, PowerPlantModel, BossPathModelGetter, PlayerFlightModel, PlayerModel, CutSceneLoader, PlayerWeaponModel)
+- uid: StormHawks.Runtime.GameFlows.GameFlowPresenter.#ctor(BossModel,BossEyeModel,PowerPlantModel,BossPathModelGetter,PlayerTeleportSpotGetter,PlayerFlightModel,PlayerModel,CutSceneLoader,PlayerWeaponModel)
+  name: GameFlowPresenter(BossModel, BossEyeModel, PowerPlantModel, BossPathModelGetter, PlayerTeleportSpotGetter, PlayerFlightModel, PlayerModel, CutSceneLoader, PlayerWeaponModel)
+  href: api/StormHawks.Runtime.GameFlows.GameFlowPresenter.html#StormHawks_Runtime_GameFlows_GameFlowPresenter__ctor_BossModel_BossEyeModel_PowerPlantModel_BossPathModelGetter_PlayerTeleportSpotGetter_PlayerFlightModel_PlayerModel_CutSceneLoader_PlayerWeaponModel_
+  commentId: M:StormHawks.Runtime.GameFlows.GameFlowPresenter.#ctor(BossModel,BossEyeModel,PowerPlantModel,BossPathModelGetter,PlayerTeleportSpotGetter,PlayerFlightModel,PlayerModel,CutSceneLoader,PlayerWeaponModel)
+  fullName: StormHawks.Runtime.GameFlows.GameFlowPresenter.GameFlowPresenter(BossModel, BossEyeModel, PowerPlantModel, BossPathModelGetter, PlayerTeleportSpotGetter, PlayerFlightModel, PlayerModel, CutSceneLoader, PlayerWeaponModel)
+  nameWithType: GameFlowPresenter.GameFlowPresenter(BossModel, BossEyeModel, PowerPlantModel, BossPathModelGetter, PlayerTeleportSpotGetter, PlayerFlightModel, PlayerModel, CutSceneLoader, PlayerWeaponModel)
 - uid: StormHawks.Runtime.GameFlows.GameFlowPresenter.#ctor*
   name: GameFlowPresenter
   href: api/StormHawks.Runtime.GameFlows.GameFlowPresenter.html#StormHawks_Runtime_GameFlows_GameFlowPresenter__ctor_
@@ -13961,6 +13985,96 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Models.GameFlows.Types.Actions.LogFlow.OnExit
   nameWithType: LogFlow.OnExit
+- uid: StormHawks.Runtime.Models.GameFlows.Types.Actions.PlayerFadeFlow
+  name: PlayerFadeFlow
+  href: api/StormHawks.Runtime.Models.GameFlows.Types.Actions.PlayerFadeFlow.html
+  commentId: T:StormHawks.Runtime.Models.GameFlows.Types.Actions.PlayerFadeFlow
+  fullName: StormHawks.Runtime.Models.GameFlows.Types.Actions.PlayerFadeFlow
+  nameWithType: PlayerFadeFlow
+- uid: StormHawks.Runtime.Models.GameFlows.Types.Actions.PlayerFadeFlow.#ctor(PlayerModel,System.Boolean)
+  name: PlayerFadeFlow(PlayerModel, Boolean)
+  href: api/StormHawks.Runtime.Models.GameFlows.Types.Actions.PlayerFadeFlow.html#StormHawks_Runtime_Models_GameFlows_Types_Actions_PlayerFadeFlow__ctor_PlayerModel_System_Boolean_
+  commentId: M:StormHawks.Runtime.Models.GameFlows.Types.Actions.PlayerFadeFlow.#ctor(PlayerModel,System.Boolean)
+  fullName: StormHawks.Runtime.Models.GameFlows.Types.Actions.PlayerFadeFlow.PlayerFadeFlow(PlayerModel, System.Boolean)
+  nameWithType: PlayerFadeFlow.PlayerFadeFlow(PlayerModel, Boolean)
+- uid: StormHawks.Runtime.Models.GameFlows.Types.Actions.PlayerFadeFlow.#ctor*
+  name: PlayerFadeFlow
+  href: api/StormHawks.Runtime.Models.GameFlows.Types.Actions.PlayerFadeFlow.html#StormHawks_Runtime_Models_GameFlows_Types_Actions_PlayerFadeFlow__ctor_
+  commentId: Overload:StormHawks.Runtime.Models.GameFlows.Types.Actions.PlayerFadeFlow.#ctor
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.GameFlows.Types.Actions.PlayerFadeFlow.PlayerFadeFlow
+  nameWithType: PlayerFadeFlow.PlayerFadeFlow
+- uid: StormHawks.Runtime.Models.GameFlows.Types.Actions.PlayerFadeFlow.OnEnter
+  name: OnEnter()
+  href: api/StormHawks.Runtime.Models.GameFlows.Types.Actions.PlayerFadeFlow.html#StormHawks_Runtime_Models_GameFlows_Types_Actions_PlayerFadeFlow_OnEnter
+  commentId: M:StormHawks.Runtime.Models.GameFlows.Types.Actions.PlayerFadeFlow.OnEnter
+  fullName: StormHawks.Runtime.Models.GameFlows.Types.Actions.PlayerFadeFlow.OnEnter()
+  nameWithType: PlayerFadeFlow.OnEnter()
+- uid: StormHawks.Runtime.Models.GameFlows.Types.Actions.PlayerFadeFlow.OnEnter*
+  name: OnEnter
+  href: api/StormHawks.Runtime.Models.GameFlows.Types.Actions.PlayerFadeFlow.html#StormHawks_Runtime_Models_GameFlows_Types_Actions_PlayerFadeFlow_OnEnter_
+  commentId: Overload:StormHawks.Runtime.Models.GameFlows.Types.Actions.PlayerFadeFlow.OnEnter
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.GameFlows.Types.Actions.PlayerFadeFlow.OnEnter
+  nameWithType: PlayerFadeFlow.OnEnter
+- uid: StormHawks.Runtime.Models.GameFlows.Types.Actions.PlayerFadeFlow.OnExit
+  name: OnExit()
+  href: api/StormHawks.Runtime.Models.GameFlows.Types.Actions.PlayerFadeFlow.html#StormHawks_Runtime_Models_GameFlows_Types_Actions_PlayerFadeFlow_OnExit
+  commentId: M:StormHawks.Runtime.Models.GameFlows.Types.Actions.PlayerFadeFlow.OnExit
+  fullName: StormHawks.Runtime.Models.GameFlows.Types.Actions.PlayerFadeFlow.OnExit()
+  nameWithType: PlayerFadeFlow.OnExit()
+- uid: StormHawks.Runtime.Models.GameFlows.Types.Actions.PlayerFadeFlow.OnExit*
+  name: OnExit
+  href: api/StormHawks.Runtime.Models.GameFlows.Types.Actions.PlayerFadeFlow.html#StormHawks_Runtime_Models_GameFlows_Types_Actions_PlayerFadeFlow_OnExit_
+  commentId: Overload:StormHawks.Runtime.Models.GameFlows.Types.Actions.PlayerFadeFlow.OnExit
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.GameFlows.Types.Actions.PlayerFadeFlow.OnExit
+  nameWithType: PlayerFadeFlow.OnExit
+- uid: StormHawks.Runtime.Models.GameFlows.Types.Actions.PlayerTeleportFlow
+  name: PlayerTeleportFlow
+  href: api/StormHawks.Runtime.Models.GameFlows.Types.Actions.PlayerTeleportFlow.html
+  commentId: T:StormHawks.Runtime.Models.GameFlows.Types.Actions.PlayerTeleportFlow
+  fullName: StormHawks.Runtime.Models.GameFlows.Types.Actions.PlayerTeleportFlow
+  nameWithType: PlayerTeleportFlow
+- uid: StormHawks.Runtime.Models.GameFlows.Types.Actions.PlayerTeleportFlow.#ctor(PlayerModel,Transform)
+  name: PlayerTeleportFlow(PlayerModel, Transform)
+  href: api/StormHawks.Runtime.Models.GameFlows.Types.Actions.PlayerTeleportFlow.html#StormHawks_Runtime_Models_GameFlows_Types_Actions_PlayerTeleportFlow__ctor_PlayerModel_Transform_
+  commentId: M:StormHawks.Runtime.Models.GameFlows.Types.Actions.PlayerTeleportFlow.#ctor(PlayerModel,Transform)
+  fullName: StormHawks.Runtime.Models.GameFlows.Types.Actions.PlayerTeleportFlow.PlayerTeleportFlow(PlayerModel, Transform)
+  nameWithType: PlayerTeleportFlow.PlayerTeleportFlow(PlayerModel, Transform)
+- uid: StormHawks.Runtime.Models.GameFlows.Types.Actions.PlayerTeleportFlow.#ctor*
+  name: PlayerTeleportFlow
+  href: api/StormHawks.Runtime.Models.GameFlows.Types.Actions.PlayerTeleportFlow.html#StormHawks_Runtime_Models_GameFlows_Types_Actions_PlayerTeleportFlow__ctor_
+  commentId: Overload:StormHawks.Runtime.Models.GameFlows.Types.Actions.PlayerTeleportFlow.#ctor
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.GameFlows.Types.Actions.PlayerTeleportFlow.PlayerTeleportFlow
+  nameWithType: PlayerTeleportFlow.PlayerTeleportFlow
+- uid: StormHawks.Runtime.Models.GameFlows.Types.Actions.PlayerTeleportFlow.OnEnter
+  name: OnEnter()
+  href: api/StormHawks.Runtime.Models.GameFlows.Types.Actions.PlayerTeleportFlow.html#StormHawks_Runtime_Models_GameFlows_Types_Actions_PlayerTeleportFlow_OnEnter
+  commentId: M:StormHawks.Runtime.Models.GameFlows.Types.Actions.PlayerTeleportFlow.OnEnter
+  fullName: StormHawks.Runtime.Models.GameFlows.Types.Actions.PlayerTeleportFlow.OnEnter()
+  nameWithType: PlayerTeleportFlow.OnEnter()
+- uid: StormHawks.Runtime.Models.GameFlows.Types.Actions.PlayerTeleportFlow.OnEnter*
+  name: OnEnter
+  href: api/StormHawks.Runtime.Models.GameFlows.Types.Actions.PlayerTeleportFlow.html#StormHawks_Runtime_Models_GameFlows_Types_Actions_PlayerTeleportFlow_OnEnter_
+  commentId: Overload:StormHawks.Runtime.Models.GameFlows.Types.Actions.PlayerTeleportFlow.OnEnter
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.GameFlows.Types.Actions.PlayerTeleportFlow.OnEnter
+  nameWithType: PlayerTeleportFlow.OnEnter
+- uid: StormHawks.Runtime.Models.GameFlows.Types.Actions.PlayerTeleportFlow.OnExit
+  name: OnExit()
+  href: api/StormHawks.Runtime.Models.GameFlows.Types.Actions.PlayerTeleportFlow.html#StormHawks_Runtime_Models_GameFlows_Types_Actions_PlayerTeleportFlow_OnExit
+  commentId: M:StormHawks.Runtime.Models.GameFlows.Types.Actions.PlayerTeleportFlow.OnExit
+  fullName: StormHawks.Runtime.Models.GameFlows.Types.Actions.PlayerTeleportFlow.OnExit()
+  nameWithType: PlayerTeleportFlow.OnExit()
+- uid: StormHawks.Runtime.Models.GameFlows.Types.Actions.PlayerTeleportFlow.OnExit*
+  name: OnExit
+  href: api/StormHawks.Runtime.Models.GameFlows.Types.Actions.PlayerTeleportFlow.html#StormHawks_Runtime_Models_GameFlows_Types_Actions_PlayerTeleportFlow_OnExit_
+  commentId: Overload:StormHawks.Runtime.Models.GameFlows.Types.Actions.PlayerTeleportFlow.OnExit
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.GameFlows.Types.Actions.PlayerTeleportFlow.OnExit
+  nameWithType: PlayerTeleportFlow.OnExit
 - uid: StormHawks.Runtime.Models.GameFlows.Types.Actions.SetPlayerAggroPrioirtyFlow
   name: SetPlayerAggroPrioirtyFlow
   href: api/StormHawks.Runtime.Models.GameFlows.Types.Actions.SetPlayerAggroPrioirtyFlow.html
@@ -20348,6 +20462,50 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Presenters.Environments.Paths.EnemyPath.AddFollowers
   nameWithType: EnemyPath.AddFollowers
+- uid: StormHawks.Runtime.Presenters.Environments.TeleportSpots
+  name: StormHawks.Runtime.Presenters.Environments.TeleportSpots
+  href: api/StormHawks.Runtime.Presenters.Environments.TeleportSpots.html
+  commentId: N:StormHawks.Runtime.Presenters.Environments.TeleportSpots
+  fullName: StormHawks.Runtime.Presenters.Environments.TeleportSpots
+  nameWithType: StormHawks.Runtime.Presenters.Environments.TeleportSpots
+- uid: StormHawks.Runtime.Presenters.Environments.TeleportSpots.PlayerTeleportSpot
+  name: PlayerTeleportSpot
+  href: api/StormHawks.Runtime.Presenters.Environments.TeleportSpots.PlayerTeleportSpot.html
+  commentId: T:StormHawks.Runtime.Presenters.Environments.TeleportSpots.PlayerTeleportSpot
+  fullName: StormHawks.Runtime.Presenters.Environments.TeleportSpots.PlayerTeleportSpot
+  nameWithType: PlayerTeleportSpot
+- uid: StormHawks.Runtime.Presenters.Environments.TeleportSpots.PlayerTeleportSpot.Type
+  name: Type
+  href: api/StormHawks.Runtime.Presenters.Environments.TeleportSpots.PlayerTeleportSpot.html#StormHawks_Runtime_Presenters_Environments_TeleportSpots_PlayerTeleportSpot_Type
+  commentId: P:StormHawks.Runtime.Presenters.Environments.TeleportSpots.PlayerTeleportSpot.Type
+  fullName: StormHawks.Runtime.Presenters.Environments.TeleportSpots.PlayerTeleportSpot.Type
+  nameWithType: PlayerTeleportSpot.Type
+- uid: StormHawks.Runtime.Presenters.Environments.TeleportSpots.PlayerTeleportSpot.Type*
+  name: Type
+  href: api/StormHawks.Runtime.Presenters.Environments.TeleportSpots.PlayerTeleportSpot.html#StormHawks_Runtime_Presenters_Environments_TeleportSpots_PlayerTeleportSpot_Type_
+  commentId: Overload:StormHawks.Runtime.Presenters.Environments.TeleportSpots.PlayerTeleportSpot.Type
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.Environments.TeleportSpots.PlayerTeleportSpot.Type
+  nameWithType: PlayerTeleportSpot.Type
+- uid: StormHawks.Runtime.Presenters.Environments.TeleportSpots.PlayerTeleportSpotGetter
+  name: PlayerTeleportSpotGetter
+  href: api/StormHawks.Runtime.Presenters.Environments.TeleportSpots.PlayerTeleportSpotGetter.html
+  commentId: T:StormHawks.Runtime.Presenters.Environments.TeleportSpots.PlayerTeleportSpotGetter
+  fullName: StormHawks.Runtime.Presenters.Environments.TeleportSpots.PlayerTeleportSpotGetter
+  nameWithType: PlayerTeleportSpotGetter
+- uid: StormHawks.Runtime.Presenters.Environments.TeleportSpots.PlayerTeleportSpotGetter.Get(PlayerTeleportSpotType)
+  name: Get(PlayerTeleportSpotType)
+  href: api/StormHawks.Runtime.Presenters.Environments.TeleportSpots.PlayerTeleportSpotGetter.html#StormHawks_Runtime_Presenters_Environments_TeleportSpots_PlayerTeleportSpotGetter_Get_PlayerTeleportSpotType_
+  commentId: M:StormHawks.Runtime.Presenters.Environments.TeleportSpots.PlayerTeleportSpotGetter.Get(PlayerTeleportSpotType)
+  fullName: StormHawks.Runtime.Presenters.Environments.TeleportSpots.PlayerTeleportSpotGetter.Get(PlayerTeleportSpotType)
+  nameWithType: PlayerTeleportSpotGetter.Get(PlayerTeleportSpotType)
+- uid: StormHawks.Runtime.Presenters.Environments.TeleportSpots.PlayerTeleportSpotGetter.Get*
+  name: Get
+  href: api/StormHawks.Runtime.Presenters.Environments.TeleportSpots.PlayerTeleportSpotGetter.html#StormHawks_Runtime_Presenters_Environments_TeleportSpots_PlayerTeleportSpotGetter_Get_
+  commentId: Overload:StormHawks.Runtime.Presenters.Environments.TeleportSpots.PlayerTeleportSpotGetter.Get
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.Environments.TeleportSpots.PlayerTeleportSpotGetter.Get
+  nameWithType: PlayerTeleportSpotGetter.Get
 - uid: StormHawks.Runtime.Presenters.Environments.Waypoints
   name: StormHawks.Runtime.Presenters.Environments.Waypoints
   href: api/StormHawks.Runtime.Presenters.Environments.Waypoints.html

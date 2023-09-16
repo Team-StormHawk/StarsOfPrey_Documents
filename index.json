@@ -927,7 +927,7 @@
   "api/StormHawks.Runtime.Enums.BossBehaviorType.html": {
     "href": "api/StormHawks.Runtime.Enums.BossBehaviorType.html",
     "title": "Enum BossBehaviorType | Developer Reference",
-    "keywords": "Enum BossBehaviorType Namespace : StormHawks.Runtime.Enums Assembly : cs.temp.dll.dll Syntax public enum BossBehaviorType Fields Name Description EntryPowerPlant EyeRailgunAttack MoveEntryPointToPowerPlant None"
+    "keywords": "Enum BossBehaviorType Namespace : StormHawks.Runtime.Enums Assembly : cs.temp.dll.dll Syntax public enum BossBehaviorType Fields Name Description EntryPowerPlant EyeRailgunAttack MoveEntryPointToPowerPlant MovePowerPlantToFactory None"
   },
   "api/StormHawks.Runtime.Enums.BossPathType.html": {
     "href": "api/StormHawks.Runtime.Enums.BossPathType.html",
@@ -952,7 +952,12 @@
   "api/StormHawks.Runtime.Enums.html": {
     "href": "api/StormHawks.Runtime.Enums.html",
     "title": "Namespace StormHawks.Runtime.Enums | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Enums Enums BossBehaviorType BossPathType CutSceneType EliteType EnemyType"
+    "keywords": "Namespace StormHawks.Runtime.Enums Enums BossBehaviorType BossPathType CutSceneType EliteType EnemyType PlayerTeleportSpotType"
+  },
+  "api/StormHawks.Runtime.Enums.PlayerTeleportSpotType.html": {
+    "href": "api/StormHawks.Runtime.Enums.PlayerTeleportSpotType.html",
+    "title": "Enum PlayerTeleportSpotType | Developer Reference",
+    "keywords": "Enum PlayerTeleportSpotType Namespace : StormHawks.Runtime.Enums Assembly : cs.temp.dll.dll Syntax public enum PlayerTeleportSpotType Fields Name Description EntryPoint PowerPlantFailure"
   },
   "api/StormHawks.Runtime.Environments.Waypoints.EliteWaypoint.html": {
     "href": "api/StormHawks.Runtime.Environments.Waypoints.EliteWaypoint.html",
@@ -1102,7 +1107,7 @@
   "api/StormHawks.Runtime.GameFlows.GameFlowPresenter.html": {
     "href": "api/StormHawks.Runtime.GameFlows.GameFlowPresenter.html",
     "title": "Class GameFlowPresenter | Developer Reference",
-    "keywords": "Class GameFlowPresenter Inheritance Object GameFlowPresenter Namespace : StormHawks.Runtime.GameFlows Assembly : cs.temp.dll.dll Syntax public class GameFlowPresenter : IStartable Constructors GameFlowPresenter(BossModel, BossEyeModel, PowerPlantModel, BossPathModelGetter, PlayerFlightModel, PlayerModel, CutSceneLoader, PlayerWeaponModel) Declaration public GameFlowPresenter(BossModel bossModel, BossEyeModel eyeModel, PowerPlantModel powerPlantModel, BossPathModelGetter bossPathGetter, PlayerFlightModel flightModel, PlayerModel playerModel, CutSceneLoader cutSceneLoader, PlayerWeaponModel playerWeaponModel) Parameters Type Name Description BossModel bossModel BossEyeModel eyeModel PowerPlantModel powerPlantModel BossPathModelGetter bossPathGetter PlayerFlightModel flightModel PlayerModel playerModel CutSceneLoader cutSceneLoader PlayerWeaponModel playerWeaponModel Methods Start() Declaration public void Start()"
+    "keywords": "Class GameFlowPresenter Inheritance Object GameFlowPresenter Namespace : StormHawks.Runtime.GameFlows Assembly : cs.temp.dll.dll Syntax public class GameFlowPresenter : IStartable Constructors GameFlowPresenter(BossModel, BossEyeModel, PowerPlantModel, BossPathModelGetter, PlayerTeleportSpotGetter, PlayerFlightModel, PlayerModel, CutSceneLoader, PlayerWeaponModel) Declaration public GameFlowPresenter(BossModel bossModel, BossEyeModel eyeModel, PowerPlantModel powerPlantModel, BossPathModelGetter bossPathGetter, PlayerTeleportSpotGetter teleportSpotGetter, PlayerFlightModel flightModel, PlayerModel playerModel, CutSceneLoader cutSceneLoader, PlayerWeaponModel playerWeaponModel) Parameters Type Name Description BossModel bossModel BossEyeModel eyeModel PowerPlantModel powerPlantModel BossPathModelGetter bossPathGetter PlayerTeleportSpotGetter teleportSpotGetter PlayerFlightModel flightModel PlayerModel playerModel CutSceneLoader cutSceneLoader PlayerWeaponModel playerWeaponModel Methods Start() Declaration public void Start()"
   },
   "api/StormHawks.Runtime.GameFlows.html": {
     "href": "api/StormHawks.Runtime.GameFlows.html",
@@ -1582,7 +1587,7 @@
   "api/StormHawks.Runtime.Models.GameFlows.Types.Actions.ActionFlow.html": {
     "href": "api/StormHawks.Runtime.Models.GameFlows.Types.Actions.ActionFlow.html",
     "title": "Class ActionFlow | Developer Reference",
-    "keywords": "Class ActionFlow Inheritance Object GameFlow ActionFlow BossLookAtFlow BossMoveToFlow BossWaypointDisableFlow BossWaypointEnableFlow EnablePlayerSingleRailgunFlow FacilityEnableFlow LogFlow SetPlayerAggroPrioirtyFlow Inherited Members GameFlow._cancellation GameFlow.OnEnter() GameFlow.OnExit() Namespace : StormHawks.Runtime.Models.GameFlows.Types.Actions Assembly : cs.temp.dll.dll Syntax public abstract class ActionFlow : GameFlow Methods Run() Declaration public sealed override async UniTask Run() Returns Type Description UniTask Overrides GameFlow.Run()"
+    "keywords": "Class ActionFlow Inheritance Object GameFlow ActionFlow BossLookAtFlow BossMoveToFlow BossWaypointDisableFlow BossWaypointEnableFlow EnablePlayerSingleRailgunFlow FacilityEnableFlow LogFlow PlayerFadeFlow PlayerTeleportFlow SetPlayerAggroPrioirtyFlow Inherited Members GameFlow._cancellation GameFlow.OnEnter() GameFlow.OnExit() Namespace : StormHawks.Runtime.Models.GameFlows.Types.Actions Assembly : cs.temp.dll.dll Syntax public abstract class ActionFlow : GameFlow Methods Run() Declaration public sealed override async UniTask Run() Returns Type Description UniTask Overrides GameFlow.Run()"
   },
   "api/StormHawks.Runtime.Models.GameFlows.Types.Actions.BossLookAtFlow.html": {
     "href": "api/StormHawks.Runtime.Models.GameFlows.Types.Actions.BossLookAtFlow.html",
@@ -1617,12 +1622,22 @@
   "api/StormHawks.Runtime.Models.GameFlows.Types.Actions.html": {
     "href": "api/StormHawks.Runtime.Models.GameFlows.Types.Actions.html",
     "title": "Namespace StormHawks.Runtime.Models.GameFlows.Types.Actions | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Models.GameFlows.Types.Actions Classes ActionFlow BossLookAtFlow BossMoveToFlow BossWaypointDisableFlow BossWaypointEnableFlow EnablePlayerSingleRailgunFlow FacilityEnableFlow LogFlow SetPlayerAggroPrioirtyFlow"
+    "keywords": "Namespace StormHawks.Runtime.Models.GameFlows.Types.Actions Classes ActionFlow BossLookAtFlow BossMoveToFlow BossWaypointDisableFlow BossWaypointEnableFlow EnablePlayerSingleRailgunFlow FacilityEnableFlow LogFlow PlayerFadeFlow PlayerTeleportFlow SetPlayerAggroPrioirtyFlow"
   },
   "api/StormHawks.Runtime.Models.GameFlows.Types.Actions.LogFlow.html": {
     "href": "api/StormHawks.Runtime.Models.GameFlows.Types.Actions.LogFlow.html",
     "title": "Class LogFlow | Developer Reference",
     "keywords": "Class LogFlow Inheritance Object GameFlow ActionFlow LogFlow Inherited Members ActionFlow.Run() GameFlow._cancellation Namespace : StormHawks.Runtime.Models.GameFlows.Types.Actions Assembly : cs.temp.dll.dll Syntax public class LogFlow : ActionFlow Constructors LogFlow(String) Declaration public LogFlow(string log) Parameters Type Name Description String log Methods OnEnter() Declaration public override async UniTask OnEnter() Returns Type Description UniTask Overrides GameFlow.OnEnter() OnExit() Declaration public override async UniTask OnExit() Returns Type Description UniTask Overrides GameFlow.OnExit()"
+  },
+  "api/StormHawks.Runtime.Models.GameFlows.Types.Actions.PlayerFadeFlow.html": {
+    "href": "api/StormHawks.Runtime.Models.GameFlows.Types.Actions.PlayerFadeFlow.html",
+    "title": "Class PlayerFadeFlow | Developer Reference",
+    "keywords": "Class PlayerFadeFlow Inheritance Object GameFlow ActionFlow PlayerFadeFlow Inherited Members ActionFlow.Run() GameFlow._cancellation Namespace : StormHawks.Runtime.Models.GameFlows.Types.Actions Assembly : cs.temp.dll.dll Syntax public class PlayerFadeFlow : ActionFlow Constructors PlayerFadeFlow(PlayerModel, Boolean) Declaration public PlayerFadeFlow(PlayerModel player, bool isFadeIn) Parameters Type Name Description PlayerModel player Boolean isFadeIn Methods OnEnter() Declaration public override async UniTask OnEnter() Returns Type Description UniTask Overrides GameFlow.OnEnter() OnExit() Declaration public override async UniTask OnExit() Returns Type Description UniTask Overrides GameFlow.OnExit()"
+  },
+  "api/StormHawks.Runtime.Models.GameFlows.Types.Actions.PlayerTeleportFlow.html": {
+    "href": "api/StormHawks.Runtime.Models.GameFlows.Types.Actions.PlayerTeleportFlow.html",
+    "title": "Class PlayerTeleportFlow | Developer Reference",
+    "keywords": "Class PlayerTeleportFlow Inheritance Object GameFlow ActionFlow PlayerTeleportFlow Inherited Members ActionFlow.Run() GameFlow._cancellation Namespace : StormHawks.Runtime.Models.GameFlows.Types.Actions Assembly : cs.temp.dll.dll Syntax public class PlayerTeleportFlow : ActionFlow Constructors PlayerTeleportFlow(PlayerModel, Transform) Declaration public PlayerTeleportFlow(PlayerModel playerModel, Transform teleport) Parameters Type Name Description PlayerModel playerModel Transform teleport Methods OnEnter() Declaration public override async UniTask OnEnter() Returns Type Description UniTask Overrides GameFlow.OnEnter() OnExit() Declaration public override async UniTask OnExit() Returns Type Description UniTask Overrides GameFlow.OnExit()"
   },
   "api/StormHawks.Runtime.Models.GameFlows.Types.Actions.SetPlayerAggroPrioirtyFlow.html": {
     "href": "api/StormHawks.Runtime.Models.GameFlows.Types.Actions.SetPlayerAggroPrioirtyFlow.html",
@@ -2198,6 +2213,21 @@
     "href": "api/StormHawks.Runtime.Presenters.Environments.Paths.html",
     "title": "Namespace StormHawks.Runtime.Presenters.Environments.Paths | Developer Reference",
     "keywords": "Namespace StormHawks.Runtime.Presenters.Environments.Paths Classes BossPath EnemyPath"
+  },
+  "api/StormHawks.Runtime.Presenters.Environments.TeleportSpots.html": {
+    "href": "api/StormHawks.Runtime.Presenters.Environments.TeleportSpots.html",
+    "title": "Namespace StormHawks.Runtime.Presenters.Environments.TeleportSpots | Developer Reference",
+    "keywords": "Namespace StormHawks.Runtime.Presenters.Environments.TeleportSpots Classes PlayerTeleportSpot PlayerTeleportSpotGetter"
+  },
+  "api/StormHawks.Runtime.Presenters.Environments.TeleportSpots.PlayerTeleportSpot.html": {
+    "href": "api/StormHawks.Runtime.Presenters.Environments.TeleportSpots.PlayerTeleportSpot.html",
+    "title": "Class PlayerTeleportSpot | Developer Reference",
+    "keywords": "Class PlayerTeleportSpot Inheritance Object PlayerTeleportSpot Namespace : StormHawks.Runtime.Presenters.Environments.TeleportSpots Assembly : cs.temp.dll.dll Syntax public class PlayerTeleportSpot : MonoBehaviour Properties Type Declaration public PlayerTeleportSpotType Type { get; } Property Value Type Description PlayerTeleportSpotType"
+  },
+  "api/StormHawks.Runtime.Presenters.Environments.TeleportSpots.PlayerTeleportSpotGetter.html": {
+    "href": "api/StormHawks.Runtime.Presenters.Environments.TeleportSpots.PlayerTeleportSpotGetter.html",
+    "title": "Class PlayerTeleportSpotGetter | Developer Reference",
+    "keywords": "Class PlayerTeleportSpotGetter Inheritance Object PlayerTeleportSpotGetter Namespace : StormHawks.Runtime.Presenters.Environments.TeleportSpots Assembly : cs.temp.dll.dll Syntax public class PlayerTeleportSpotGetter : MonoBehaviour Methods Get(PlayerTeleportSpotType) Declaration public Transform Get(PlayerTeleportSpotType type) Parameters Type Name Description PlayerTeleportSpotType type Returns Type Description Transform"
   },
   "api/StormHawks.Runtime.Presenters.Environments.Waypoints.html": {
     "href": "api/StormHawks.Runtime.Presenters.Environments.Waypoints.html",

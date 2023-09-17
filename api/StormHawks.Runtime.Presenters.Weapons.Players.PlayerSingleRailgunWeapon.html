@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class GameFlowPresenter
+    <title>Class PlayerSingleRailgunWeapon
    | Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class GameFlowPresenter
+    <meta name="title" content="Class PlayerSingleRailgunWeapon
    | Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -78,35 +78,79 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.GameFlows.GameFlowPresenter">
+            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Presenters.Weapons.Players.PlayerSingleRailgunWeapon">
   
   
-  <h1 id="StormHawks_Runtime_GameFlows_GameFlowPresenter" data-uid="StormHawks.Runtime.GameFlows.GameFlowPresenter" class="text-break">Class GameFlowPresenter
+  <h1 id="StormHawks_Runtime_Presenters_Weapons_Players_PlayerSingleRailgunWeapon" data-uid="StormHawks.Runtime.Presenters.Weapons.Players.PlayerSingleRailgunWeapon" class="text-break">Class PlayerSingleRailgunWeapon
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">GameFlowPresenter</span></div>
+    <div class="level1"><a class="xref" href="StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeapon.html">PlayerWeapon</a></div>
+    <div class="level2"><span class="xref">PlayerSingleRailgunWeapon</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.GameFlows.html">StormHawks.Runtime.GameFlows</a></h6>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">IEntityWeapon</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeapon.html#StormHawks_Runtime_Presenters_Weapons_Players_PlayerWeapon__attackInput">PlayerWeapon._attackInput</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeapon.html#StormHawks_Runtime_Presenters_Weapons_Players_PlayerWeapon__audioService">PlayerWeapon._audioService</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeapon.html#StormHawks_Runtime_Presenters_Weapons_Players_PlayerWeapon__fire">PlayerWeapon._fire</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeapon.html#StormHawks_Runtime_Presenters_Weapons_Players_PlayerWeapon__launchSFX">PlayerWeapon._launchSFX</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeapon.html#StormHawks_Runtime_Presenters_Weapons_Players_PlayerWeapon__model">PlayerWeapon._model</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeapon.html#StormHawks_Runtime_Presenters_Weapons_Players_PlayerWeapon__projectileSpawner">PlayerWeapon._projectileSpawner</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeapon.html#StormHawks_Runtime_Presenters_Weapons_Players_PlayerWeapon_Construct_ProjectileSpawner_IAudioService_IXRAttackInput_PlayerWeaponModel_">PlayerWeapon.Construct(ProjectileSpawner, IAudioService, IXRAttackInput, PlayerWeaponModel)</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeapon.html#StormHawks_Runtime_Presenters_Weapons_Players_PlayerWeapon_CanLaunch">PlayerWeapon.CanLaunch()</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeapon.html#StormHawks_Runtime_Presenters_Weapons_Players_PlayerWeapon_IsFiring">PlayerWeapon.IsFiring</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeapon.html#StormHawks_Runtime_Presenters_Weapons_Players_PlayerWeapon_Launch">PlayerWeapon.Launch()</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeapon.html#StormHawks_Runtime_Presenters_Weapons_Players_PlayerWeapon_OnLaunchCompleted">PlayerWeapon.OnLaunchCompleted()</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Presenters.Weapons.Players.PlayerWeapon.html#StormHawks_Runtime_Presenters_Weapons_Players_PlayerWeapon_Cancel">PlayerWeapon.Cancel()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Presenters.Weapons.Players.html">StormHawks.Runtime.Presenters.Weapons.Players</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="StormHawks_Runtime_GameFlows_GameFlowPresenter_syntax">Syntax</h5>
+  <h5 id="StormHawks_Runtime_Presenters_Weapons_Players_PlayerSingleRailgunWeapon_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class GameFlowPresenter : IStartable</code></pre>
+    <pre><code class="lang-csharp hljs">public class PlayerSingleRailgunWeapon : PlayerWeapon, IEntityWeapon</code></pre>
   </div>
-  <h3 id="constructors">Constructors
+  <h3 id="methods">Methods
   </h3>
   
   
-  <a id="StormHawks_Runtime_GameFlows_GameFlowPresenter__ctor_" data-uid="StormHawks.Runtime.GameFlows.GameFlowPresenter.#ctor*"></a>
-  <h4 id="StormHawks_Runtime_GameFlows_GameFlowPresenter__ctor_BossModel_BossEyeModel_PowerPlantModel_BossTeleportSpotModelGetter_BossPathModelGetter_PlayerTeleportSpotGetter_PlayerFlightModel_PlayerModel_CutSceneLoader_PlayerWeaponModel_" data-uid="StormHawks.Runtime.GameFlows.GameFlowPresenter.#ctor(BossModel,BossEyeModel,PowerPlantModel,BossTeleportSpotModelGetter,BossPathModelGetter,PlayerTeleportSpotGetter,PlayerFlightModel,PlayerModel,CutSceneLoader,PlayerWeaponModel)">GameFlowPresenter(BossModel, BossEyeModel, PowerPlantModel, BossTeleportSpotModelGetter, BossPathModelGetter, PlayerTeleportSpotGetter, PlayerFlightModel, PlayerModel, CutSceneLoader, PlayerWeaponModel)</h4>
+  <a id="StormHawks_Runtime_Presenters_Weapons_Players_PlayerSingleRailgunWeapon_SetTarget_" data-uid="StormHawks.Runtime.Presenters.Weapons.Players.PlayerSingleRailgunWeapon.SetTarget*"></a>
+  <h4 id="StormHawks_Runtime_Presenters_Weapons_Players_PlayerSingleRailgunWeapon_SetTarget_System_Nullable_AggroTarget__" data-uid="StormHawks.Runtime.Presenters.Weapons.Players.PlayerSingleRailgunWeapon.SetTarget(System.Nullable{AggroTarget})">SetTarget(Nullable&lt;AggroTarget&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GameFlowPresenter(BossModel bossModel, BossEyeModel eyeModel, PowerPlantModel powerPlantModel, BossTeleportSpotModelGetter bossTeleportSpotGetter, BossPathModelGetter bossPathGetter, PlayerTeleportSpotGetter playerTeleportSpotGetter, PlayerFlightModel flightModel, PlayerModel playerModel, CutSceneLoader cutSceneLoader, PlayerWeaponModel playerWeaponModel)</code></pre>
+    <pre><code class="lang-csharp hljs">public void SetTarget(AggroTarget? target)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -119,68 +163,15 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">BossModel</span></td>
-        <td><span class="parametername">bossModel</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">BossEyeModel</span></td>
-        <td><span class="parametername">eyeModel</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">PowerPlantModel</span></td>
-        <td><span class="parametername">powerPlantModel</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">BossTeleportSpotModelGetter</span></td>
-        <td><span class="parametername">bossTeleportSpotGetter</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">BossPathModelGetter</span></td>
-        <td><span class="parametername">bossPathGetter</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">PlayerTeleportSpotGetter</span></td>
-        <td><span class="parametername">playerTeleportSpotGetter</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">PlayerFlightModel</span></td>
-        <td><span class="parametername">flightModel</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">PlayerModel</span></td>
-        <td><span class="parametername">playerModel</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">CutSceneLoader</span></td>
-        <td><span class="parametername">cutSceneLoader</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">PlayerWeaponModel</span></td>
-        <td><span class="parametername">playerWeaponModel</span></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<span class="xref">AggroTarget</span>&gt;</td>
+        <td><span class="parametername">target</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h3 id="methods">Methods
-  </h3>
-  
-  
-  <a id="StormHawks_Runtime_GameFlows_GameFlowPresenter_Start_" data-uid="StormHawks.Runtime.GameFlows.GameFlowPresenter.Start*"></a>
-  <h4 id="StormHawks_Runtime_GameFlows_GameFlowPresenter_Start" data-uid="StormHawks.Runtime.GameFlows.GameFlowPresenter.Start">Start()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Start()</code></pre>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">IEntityWeapon</span>
   </div>
 </article>
           </div>

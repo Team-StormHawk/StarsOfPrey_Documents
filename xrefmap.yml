@@ -4553,6 +4553,32 @@ references:
   commentId: F:StormHawks.Runtime.Detectors.Handlers.EntityDetectorHandler.maxDetectCount
   fullName: StormHawks.Runtime.Detectors.Handlers.EntityDetectorHandler.maxDetectCount
   nameWithType: EntityDetectorHandler.maxDetectCount
+- uid: StormHawks.Runtime.Detectors.Handlers.EntityDetectorHandler.OnDetect
+  name: OnDetect
+  href: api/StormHawks.Runtime.Detectors.Handlers.EntityDetectorHandler.html#StormHawks_Runtime_Detectors_Handlers_EntityDetectorHandler_OnDetect
+  commentId: P:StormHawks.Runtime.Detectors.Handlers.EntityDetectorHandler.OnDetect
+  fullName: StormHawks.Runtime.Detectors.Handlers.EntityDetectorHandler.OnDetect
+  nameWithType: EntityDetectorHandler.OnDetect
+- uid: StormHawks.Runtime.Detectors.Handlers.EntityDetectorHandler.OnDetect*
+  name: OnDetect
+  href: api/StormHawks.Runtime.Detectors.Handlers.EntityDetectorHandler.html#StormHawks_Runtime_Detectors_Handlers_EntityDetectorHandler_OnDetect_
+  commentId: Overload:StormHawks.Runtime.Detectors.Handlers.EntityDetectorHandler.OnDetect
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Detectors.Handlers.EntityDetectorHandler.OnDetect
+  nameWithType: EntityDetectorHandler.OnDetect
+- uid: StormHawks.Runtime.Detectors.Handlers.EntityDetectorHandler.OnReleased
+  name: OnReleased
+  href: api/StormHawks.Runtime.Detectors.Handlers.EntityDetectorHandler.html#StormHawks_Runtime_Detectors_Handlers_EntityDetectorHandler_OnReleased
+  commentId: P:StormHawks.Runtime.Detectors.Handlers.EntityDetectorHandler.OnReleased
+  fullName: StormHawks.Runtime.Detectors.Handlers.EntityDetectorHandler.OnReleased
+  nameWithType: EntityDetectorHandler.OnReleased
+- uid: StormHawks.Runtime.Detectors.Handlers.EntityDetectorHandler.OnReleased*
+  name: OnReleased
+  href: api/StormHawks.Runtime.Detectors.Handlers.EntityDetectorHandler.html#StormHawks_Runtime_Detectors_Handlers_EntityDetectorHandler_OnReleased_
+  commentId: Overload:StormHawks.Runtime.Detectors.Handlers.EntityDetectorHandler.OnReleased
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Detectors.Handlers.EntityDetectorHandler.OnReleased
+  nameWithType: EntityDetectorHandler.OnReleased
 - uid: StormHawks.Runtime.Detectors.Handlers.EntityDetectorHandler.RemoveDetected(StormHawks.Runtime.Detectors.DetectableEntity)
   name: RemoveDetected(DetectableEntity)
   href: api/StormHawks.Runtime.Detectors.Handlers.EntityDetectorHandler.html#StormHawks_Runtime_Detectors_Handlers_EntityDetectorHandler_RemoveDetected_StormHawks_Runtime_Detectors_DetectableEntity_
@@ -5552,209 +5578,189 @@ references:
   commentId: N:StormHawks.Runtime.Detectors.LockOn
   fullName: StormHawks.Runtime.Detectors.LockOn
   nameWithType: StormHawks.Runtime.Detectors.LockOn
-- uid: StormHawks.Runtime.Detectors.LockOn.EntityLockOnSender
-  name: EntityLockOnSender
-  href: api/StormHawks.Runtime.Detectors.LockOn.EntityLockOnSender.html
-  commentId: T:StormHawks.Runtime.Detectors.LockOn.EntityLockOnSender
-  fullName: StormHawks.Runtime.Detectors.LockOn.EntityLockOnSender
-  nameWithType: EntityLockOnSender
-- uid: StormHawks.Runtime.Detectors.LockOn.EntityLockOnSender.LockOff(StormHawks.Runtime.Detectors.DetectableEntity)
-  name: LockOff(DetectableEntity)
-  href: api/StormHawks.Runtime.Detectors.LockOn.EntityLockOnSender.html#StormHawks_Runtime_Detectors_LockOn_EntityLockOnSender_LockOff_StormHawks_Runtime_Detectors_DetectableEntity_
-  commentId: M:StormHawks.Runtime.Detectors.LockOn.EntityLockOnSender.LockOff(StormHawks.Runtime.Detectors.DetectableEntity)
-  fullName: StormHawks.Runtime.Detectors.LockOn.EntityLockOnSender.LockOff(StormHawks.Runtime.Detectors.DetectableEntity)
-  nameWithType: EntityLockOnSender.LockOff(DetectableEntity)
-- uid: StormHawks.Runtime.Detectors.LockOn.EntityLockOnSender.LockOff*
+- uid: StormHawks.Runtime.Detectors.LockOn.BaseLockOnReceiver
+  name: BaseLockOnReceiver
+  href: api/StormHawks.Runtime.Detectors.LockOn.BaseLockOnReceiver.html
+  commentId: T:StormHawks.Runtime.Detectors.LockOn.BaseLockOnReceiver
+  fullName: StormHawks.Runtime.Detectors.LockOn.BaseLockOnReceiver
+  nameWithType: BaseLockOnReceiver
+- uid: StormHawks.Runtime.Detectors.LockOn.BaseLockOnReceiver.IsLocked
+  name: IsLocked
+  href: api/StormHawks.Runtime.Detectors.LockOn.BaseLockOnReceiver.html#StormHawks_Runtime_Detectors_LockOn_BaseLockOnReceiver_IsLocked
+  commentId: P:StormHawks.Runtime.Detectors.LockOn.BaseLockOnReceiver.IsLocked
+  fullName: StormHawks.Runtime.Detectors.LockOn.BaseLockOnReceiver.IsLocked
+  nameWithType: BaseLockOnReceiver.IsLocked
+- uid: StormHawks.Runtime.Detectors.LockOn.BaseLockOnReceiver.IsLocked*
+  name: IsLocked
+  href: api/StormHawks.Runtime.Detectors.LockOn.BaseLockOnReceiver.html#StormHawks_Runtime_Detectors_LockOn_BaseLockOnReceiver_IsLocked_
+  commentId: Overload:StormHawks.Runtime.Detectors.LockOn.BaseLockOnReceiver.IsLocked
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Detectors.LockOn.BaseLockOnReceiver.IsLocked
+  nameWithType: BaseLockOnReceiver.IsLocked
+- uid: StormHawks.Runtime.Detectors.LockOn.BaseLockOnReceiver.LockOff
+  name: LockOff()
+  href: api/StormHawks.Runtime.Detectors.LockOn.BaseLockOnReceiver.html#StormHawks_Runtime_Detectors_LockOn_BaseLockOnReceiver_LockOff
+  commentId: M:StormHawks.Runtime.Detectors.LockOn.BaseLockOnReceiver.LockOff
+  fullName: StormHawks.Runtime.Detectors.LockOn.BaseLockOnReceiver.LockOff()
+  nameWithType: BaseLockOnReceiver.LockOff()
+- uid: StormHawks.Runtime.Detectors.LockOn.BaseLockOnReceiver.LockOff*
   name: LockOff
-  href: api/StormHawks.Runtime.Detectors.LockOn.EntityLockOnSender.html#StormHawks_Runtime_Detectors_LockOn_EntityLockOnSender_LockOff_
-  commentId: Overload:StormHawks.Runtime.Detectors.LockOn.EntityLockOnSender.LockOff
+  href: api/StormHawks.Runtime.Detectors.LockOn.BaseLockOnReceiver.html#StormHawks_Runtime_Detectors_LockOn_BaseLockOnReceiver_LockOff_
+  commentId: Overload:StormHawks.Runtime.Detectors.LockOn.BaseLockOnReceiver.LockOff
   isSpec: "True"
-  fullName: StormHawks.Runtime.Detectors.LockOn.EntityLockOnSender.LockOff
-  nameWithType: EntityLockOnSender.LockOff
-- uid: StormHawks.Runtime.Detectors.LockOn.EntityLockOnSender.LockOn(StormHawks.Runtime.Detectors.DetectableEntity)
-  name: LockOn(DetectableEntity)
-  href: api/StormHawks.Runtime.Detectors.LockOn.EntityLockOnSender.html#StormHawks_Runtime_Detectors_LockOn_EntityLockOnSender_LockOn_StormHawks_Runtime_Detectors_DetectableEntity_
-  commentId: M:StormHawks.Runtime.Detectors.LockOn.EntityLockOnSender.LockOn(StormHawks.Runtime.Detectors.DetectableEntity)
-  fullName: StormHawks.Runtime.Detectors.LockOn.EntityLockOnSender.LockOn(StormHawks.Runtime.Detectors.DetectableEntity)
-  nameWithType: EntityLockOnSender.LockOn(DetectableEntity)
-- uid: StormHawks.Runtime.Detectors.LockOn.EntityLockOnSender.LockOn*
+  fullName: StormHawks.Runtime.Detectors.LockOn.BaseLockOnReceiver.LockOff
+  nameWithType: BaseLockOnReceiver.LockOff
+- uid: StormHawks.Runtime.Detectors.LockOn.BaseLockOnReceiver.LockOn
+  name: LockOn()
+  href: api/StormHawks.Runtime.Detectors.LockOn.BaseLockOnReceiver.html#StormHawks_Runtime_Detectors_LockOn_BaseLockOnReceiver_LockOn
+  commentId: M:StormHawks.Runtime.Detectors.LockOn.BaseLockOnReceiver.LockOn
+  fullName: StormHawks.Runtime.Detectors.LockOn.BaseLockOnReceiver.LockOn()
+  nameWithType: BaseLockOnReceiver.LockOn()
+- uid: StormHawks.Runtime.Detectors.LockOn.BaseLockOnReceiver.LockOn*
   name: LockOn
-  href: api/StormHawks.Runtime.Detectors.LockOn.EntityLockOnSender.html#StormHawks_Runtime_Detectors_LockOn_EntityLockOnSender_LockOn_
-  commentId: Overload:StormHawks.Runtime.Detectors.LockOn.EntityLockOnSender.LockOn
+  href: api/StormHawks.Runtime.Detectors.LockOn.BaseLockOnReceiver.html#StormHawks_Runtime_Detectors_LockOn_BaseLockOnReceiver_LockOn_
+  commentId: Overload:StormHawks.Runtime.Detectors.LockOn.BaseLockOnReceiver.LockOn
   isSpec: "True"
-  fullName: StormHawks.Runtime.Detectors.LockOn.EntityLockOnSender.LockOn
-  nameWithType: EntityLockOnSender.LockOn
-- uid: StormHawks.Runtime.Detectors.LockOn.LockOnReceiver
-  name: LockOnReceiver
-  href: api/StormHawks.Runtime.Detectors.LockOn.LockOnReceiver.html
-  commentId: T:StormHawks.Runtime.Detectors.LockOn.LockOnReceiver
-  fullName: StormHawks.Runtime.Detectors.LockOn.LockOnReceiver
-  nameWithType: LockOnReceiver
-- uid: StormHawks.Runtime.Detectors.LockOn.LockOnReceiver.LockOff(StormHawks.Runtime.Detectors.LockOn.LockOnType)
-  name: LockOff(LockOnType)
-  href: api/StormHawks.Runtime.Detectors.LockOn.LockOnReceiver.html#StormHawks_Runtime_Detectors_LockOn_LockOnReceiver_LockOff_StormHawks_Runtime_Detectors_LockOn_LockOnType_
-  commentId: M:StormHawks.Runtime.Detectors.LockOn.LockOnReceiver.LockOff(StormHawks.Runtime.Detectors.LockOn.LockOnType)
-  fullName: StormHawks.Runtime.Detectors.LockOn.LockOnReceiver.LockOff(StormHawks.Runtime.Detectors.LockOn.LockOnType)
-  nameWithType: LockOnReceiver.LockOff(LockOnType)
-- uid: StormHawks.Runtime.Detectors.LockOn.LockOnReceiver.LockOff*
-  name: LockOff
-  href: api/StormHawks.Runtime.Detectors.LockOn.LockOnReceiver.html#StormHawks_Runtime_Detectors_LockOn_LockOnReceiver_LockOff_
-  commentId: Overload:StormHawks.Runtime.Detectors.LockOn.LockOnReceiver.LockOff
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Detectors.LockOn.LockOnReceiver.LockOff
-  nameWithType: LockOnReceiver.LockOff
-- uid: StormHawks.Runtime.Detectors.LockOn.LockOnReceiver.LockOn(StormHawks.Runtime.Detectors.LockOn.LockOnType)
-  name: LockOn(LockOnType)
-  href: api/StormHawks.Runtime.Detectors.LockOn.LockOnReceiver.html#StormHawks_Runtime_Detectors_LockOn_LockOnReceiver_LockOn_StormHawks_Runtime_Detectors_LockOn_LockOnType_
-  commentId: M:StormHawks.Runtime.Detectors.LockOn.LockOnReceiver.LockOn(StormHawks.Runtime.Detectors.LockOn.LockOnType)
-  fullName: StormHawks.Runtime.Detectors.LockOn.LockOnReceiver.LockOn(StormHawks.Runtime.Detectors.LockOn.LockOnType)
-  nameWithType: LockOnReceiver.LockOn(LockOnType)
-- uid: StormHawks.Runtime.Detectors.LockOn.LockOnReceiver.LockOn*
-  name: LockOn
-  href: api/StormHawks.Runtime.Detectors.LockOn.LockOnReceiver.html#StormHawks_Runtime_Detectors_LockOn_LockOnReceiver_LockOn_
-  commentId: Overload:StormHawks.Runtime.Detectors.LockOn.LockOnReceiver.LockOn
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Detectors.LockOn.LockOnReceiver.LockOn
-  nameWithType: LockOnReceiver.LockOn
-- uid: StormHawks.Runtime.Detectors.LockOn.LockOnReceiver.LockOnParticle
-  name: LockOnReceiver.LockOnParticle
-  href: api/StormHawks.Runtime.Detectors.LockOn.LockOnReceiver.LockOnParticle.html
-  commentId: T:StormHawks.Runtime.Detectors.LockOn.LockOnReceiver.LockOnParticle
-  fullName: StormHawks.Runtime.Detectors.LockOn.LockOnReceiver.LockOnParticle
-  nameWithType: LockOnReceiver.LockOnParticle
-- uid: StormHawks.Runtime.Detectors.LockOn.LockOnReceiver.LockOnParticle.#ctor(ParticleSystem)
-  name: LockOnParticle(ParticleSystem)
-  href: api/StormHawks.Runtime.Detectors.LockOn.LockOnReceiver.LockOnParticle.html#StormHawks_Runtime_Detectors_LockOn_LockOnReceiver_LockOnParticle__ctor_ParticleSystem_
-  commentId: M:StormHawks.Runtime.Detectors.LockOn.LockOnReceiver.LockOnParticle.#ctor(ParticleSystem)
-  fullName: StormHawks.Runtime.Detectors.LockOn.LockOnReceiver.LockOnParticle.LockOnParticle(ParticleSystem)
-  nameWithType: LockOnReceiver.LockOnParticle.LockOnParticle(ParticleSystem)
-- uid: StormHawks.Runtime.Detectors.LockOn.LockOnReceiver.LockOnParticle.#ctor*
-  name: LockOnParticle
-  href: api/StormHawks.Runtime.Detectors.LockOn.LockOnReceiver.LockOnParticle.html#StormHawks_Runtime_Detectors_LockOn_LockOnReceiver_LockOnParticle__ctor_
-  commentId: Overload:StormHawks.Runtime.Detectors.LockOn.LockOnReceiver.LockOnParticle.#ctor
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Detectors.LockOn.LockOnReceiver.LockOnParticle.LockOnParticle
-  nameWithType: LockOnReceiver.LockOnParticle.LockOnParticle
-- uid: StormHawks.Runtime.Detectors.LockOn.LockOnReceiver.LockOnParticle.IsLockedOn
-  name: IsLockedOn
-  href: api/StormHawks.Runtime.Detectors.LockOn.LockOnReceiver.LockOnParticle.html#StormHawks_Runtime_Detectors_LockOn_LockOnReceiver_LockOnParticle_IsLockedOn
-  commentId: P:StormHawks.Runtime.Detectors.LockOn.LockOnReceiver.LockOnParticle.IsLockedOn
-  fullName: StormHawks.Runtime.Detectors.LockOn.LockOnReceiver.LockOnParticle.IsLockedOn
-  nameWithType: LockOnReceiver.LockOnParticle.IsLockedOn
-- uid: StormHawks.Runtime.Detectors.LockOn.LockOnReceiver.LockOnParticle.IsLockedOn*
-  name: IsLockedOn
-  href: api/StormHawks.Runtime.Detectors.LockOn.LockOnReceiver.LockOnParticle.html#StormHawks_Runtime_Detectors_LockOn_LockOnReceiver_LockOnParticle_IsLockedOn_
-  commentId: Overload:StormHawks.Runtime.Detectors.LockOn.LockOnReceiver.LockOnParticle.IsLockedOn
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Detectors.LockOn.LockOnReceiver.LockOnParticle.IsLockedOn
-  nameWithType: LockOnReceiver.LockOnParticle.IsLockedOn
-- uid: StormHawks.Runtime.Detectors.LockOn.LockOnReceiver.LockOnParticle.Play(System.Boolean)
-  name: Play(Boolean)
-  href: api/StormHawks.Runtime.Detectors.LockOn.LockOnReceiver.LockOnParticle.html#StormHawks_Runtime_Detectors_LockOn_LockOnReceiver_LockOnParticle_Play_System_Boolean_
-  commentId: M:StormHawks.Runtime.Detectors.LockOn.LockOnReceiver.LockOnParticle.Play(System.Boolean)
-  fullName: StormHawks.Runtime.Detectors.LockOn.LockOnReceiver.LockOnParticle.Play(System.Boolean)
-  nameWithType: LockOnReceiver.LockOnParticle.Play(Boolean)
-- uid: StormHawks.Runtime.Detectors.LockOn.LockOnReceiver.LockOnParticle.Play*
-  name: Play
-  href: api/StormHawks.Runtime.Detectors.LockOn.LockOnReceiver.LockOnParticle.html#StormHawks_Runtime_Detectors_LockOn_LockOnReceiver_LockOnParticle_Play_
-  commentId: Overload:StormHawks.Runtime.Detectors.LockOn.LockOnReceiver.LockOnParticle.Play
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Detectors.LockOn.LockOnReceiver.LockOnParticle.Play
-  nameWithType: LockOnReceiver.LockOnParticle.Play
-- uid: StormHawks.Runtime.Detectors.LockOn.LockOnReceiver.LockOnParticle.Stop(System.Boolean)
-  name: Stop(Boolean)
-  href: api/StormHawks.Runtime.Detectors.LockOn.LockOnReceiver.LockOnParticle.html#StormHawks_Runtime_Detectors_LockOn_LockOnReceiver_LockOnParticle_Stop_System_Boolean_
-  commentId: M:StormHawks.Runtime.Detectors.LockOn.LockOnReceiver.LockOnParticle.Stop(System.Boolean)
-  fullName: StormHawks.Runtime.Detectors.LockOn.LockOnReceiver.LockOnParticle.Stop(System.Boolean)
-  nameWithType: LockOnReceiver.LockOnParticle.Stop(Boolean)
-- uid: StormHawks.Runtime.Detectors.LockOn.LockOnReceiver.LockOnParticle.Stop*
-  name: Stop
-  href: api/StormHawks.Runtime.Detectors.LockOn.LockOnReceiver.LockOnParticle.html#StormHawks_Runtime_Detectors_LockOn_LockOnReceiver_LockOnParticle_Stop_
-  commentId: Overload:StormHawks.Runtime.Detectors.LockOn.LockOnReceiver.LockOnParticle.Stop
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Detectors.LockOn.LockOnReceiver.LockOnParticle.Stop
-  nameWithType: LockOnReceiver.LockOnParticle.Stop
-- uid: StormHawks.Runtime.Detectors.LockOn.LockOnSender
-  name: LockOnSender
-  href: api/StormHawks.Runtime.Detectors.LockOn.LockOnSender.html
-  commentId: T:StormHawks.Runtime.Detectors.LockOn.LockOnSender
-  fullName: StormHawks.Runtime.Detectors.LockOn.LockOnSender
-  nameWithType: LockOnSender
-- uid: StormHawks.Runtime.Detectors.LockOn.LockOnSender._detector
+  fullName: StormHawks.Runtime.Detectors.LockOn.BaseLockOnReceiver.LockOn
+  nameWithType: BaseLockOnReceiver.LockOn
+- uid: StormHawks.Runtime.Detectors.LockOn.BaseLockOnSender`1
+  name: BaseLockOnSender<T>
+  href: api/StormHawks.Runtime.Detectors.LockOn.BaseLockOnSender-1.html
+  commentId: T:StormHawks.Runtime.Detectors.LockOn.BaseLockOnSender`1
+  name.vb: BaseLockOnSender(Of T)
+  fullName: StormHawks.Runtime.Detectors.LockOn.BaseLockOnSender<T>
+  fullName.vb: StormHawks.Runtime.Detectors.LockOn.BaseLockOnSender(Of T)
+  nameWithType: BaseLockOnSender<T>
+  nameWithType.vb: BaseLockOnSender(Of T)
+- uid: StormHawks.Runtime.Detectors.LockOn.BaseLockOnSender`1._detector
   name: _detector
-  href: api/StormHawks.Runtime.Detectors.LockOn.LockOnSender.html#StormHawks_Runtime_Detectors_LockOn_LockOnSender__detector
-  commentId: F:StormHawks.Runtime.Detectors.LockOn.LockOnSender._detector
-  fullName: StormHawks.Runtime.Detectors.LockOn.LockOnSender._detector
-  nameWithType: LockOnSender._detector
-- uid: StormHawks.Runtime.Detectors.LockOn.LockOnSender._type
-  name: _type
-  href: api/StormHawks.Runtime.Detectors.LockOn.LockOnSender.html#StormHawks_Runtime_Detectors_LockOn_LockOnSender__type
-  commentId: F:StormHawks.Runtime.Detectors.LockOn.LockOnSender._type
-  fullName: StormHawks.Runtime.Detectors.LockOn.LockOnSender._type
-  nameWithType: LockOnSender._type
-- uid: StormHawks.Runtime.Detectors.LockOn.LockOnSender.LockOff(StormHawks.Runtime.Detectors.DetectableEntity)
-  name: LockOff(DetectableEntity)
-  href: api/StormHawks.Runtime.Detectors.LockOn.LockOnSender.html#StormHawks_Runtime_Detectors_LockOn_LockOnSender_LockOff_StormHawks_Runtime_Detectors_DetectableEntity_
-  commentId: M:StormHawks.Runtime.Detectors.LockOn.LockOnSender.LockOff(StormHawks.Runtime.Detectors.DetectableEntity)
-  fullName: StormHawks.Runtime.Detectors.LockOn.LockOnSender.LockOff(StormHawks.Runtime.Detectors.DetectableEntity)
-  nameWithType: LockOnSender.LockOff(DetectableEntity)
-- uid: StormHawks.Runtime.Detectors.LockOn.LockOnSender.LockOff*
+  href: api/StormHawks.Runtime.Detectors.LockOn.BaseLockOnSender-1.html#StormHawks_Runtime_Detectors_LockOn_BaseLockOnSender_1__detector
+  commentId: F:StormHawks.Runtime.Detectors.LockOn.BaseLockOnSender`1._detector
+  fullName: StormHawks.Runtime.Detectors.LockOn.BaseLockOnSender<T>._detector
+  fullName.vb: StormHawks.Runtime.Detectors.LockOn.BaseLockOnSender(Of T)._detector
+  nameWithType: BaseLockOnSender<T>._detector
+  nameWithType.vb: BaseLockOnSender(Of T)._detector
+- uid: StormHawks.Runtime.Detectors.LockOn.BaseLockOnSender`1.OnLockOff(StormHawks.Runtime.Detectors.DetectableEntity)
+  name: OnLockOff(DetectableEntity)
+  href: api/StormHawks.Runtime.Detectors.LockOn.BaseLockOnSender-1.html#StormHawks_Runtime_Detectors_LockOn_BaseLockOnSender_1_OnLockOff_StormHawks_Runtime_Detectors_DetectableEntity_
+  commentId: M:StormHawks.Runtime.Detectors.LockOn.BaseLockOnSender`1.OnLockOff(StormHawks.Runtime.Detectors.DetectableEntity)
+  fullName: StormHawks.Runtime.Detectors.LockOn.BaseLockOnSender<T>.OnLockOff(StormHawks.Runtime.Detectors.DetectableEntity)
+  fullName.vb: StormHawks.Runtime.Detectors.LockOn.BaseLockOnSender(Of T).OnLockOff(StormHawks.Runtime.Detectors.DetectableEntity)
+  nameWithType: BaseLockOnSender<T>.OnLockOff(DetectableEntity)
+  nameWithType.vb: BaseLockOnSender(Of T).OnLockOff(DetectableEntity)
+- uid: StormHawks.Runtime.Detectors.LockOn.BaseLockOnSender`1.OnLockOff*
+  name: OnLockOff
+  href: api/StormHawks.Runtime.Detectors.LockOn.BaseLockOnSender-1.html#StormHawks_Runtime_Detectors_LockOn_BaseLockOnSender_1_OnLockOff_
+  commentId: Overload:StormHawks.Runtime.Detectors.LockOn.BaseLockOnSender`1.OnLockOff
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Detectors.LockOn.BaseLockOnSender<T>.OnLockOff
+  fullName.vb: StormHawks.Runtime.Detectors.LockOn.BaseLockOnSender(Of T).OnLockOff
+  nameWithType: BaseLockOnSender<T>.OnLockOff
+  nameWithType.vb: BaseLockOnSender(Of T).OnLockOff
+- uid: StormHawks.Runtime.Detectors.LockOn.BaseLockOnSender`1.OnLockOn(StormHawks.Runtime.Detectors.DetectableEntity)
+  name: OnLockOn(DetectableEntity)
+  href: api/StormHawks.Runtime.Detectors.LockOn.BaseLockOnSender-1.html#StormHawks_Runtime_Detectors_LockOn_BaseLockOnSender_1_OnLockOn_StormHawks_Runtime_Detectors_DetectableEntity_
+  commentId: M:StormHawks.Runtime.Detectors.LockOn.BaseLockOnSender`1.OnLockOn(StormHawks.Runtime.Detectors.DetectableEntity)
+  fullName: StormHawks.Runtime.Detectors.LockOn.BaseLockOnSender<T>.OnLockOn(StormHawks.Runtime.Detectors.DetectableEntity)
+  fullName.vb: StormHawks.Runtime.Detectors.LockOn.BaseLockOnSender(Of T).OnLockOn(StormHawks.Runtime.Detectors.DetectableEntity)
+  nameWithType: BaseLockOnSender<T>.OnLockOn(DetectableEntity)
+  nameWithType.vb: BaseLockOnSender(Of T).OnLockOn(DetectableEntity)
+- uid: StormHawks.Runtime.Detectors.LockOn.BaseLockOnSender`1.OnLockOn*
+  name: OnLockOn
+  href: api/StormHawks.Runtime.Detectors.LockOn.BaseLockOnSender-1.html#StormHawks_Runtime_Detectors_LockOn_BaseLockOnSender_1_OnLockOn_
+  commentId: Overload:StormHawks.Runtime.Detectors.LockOn.BaseLockOnSender`1.OnLockOn
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Detectors.LockOn.BaseLockOnSender<T>.OnLockOn
+  fullName.vb: StormHawks.Runtime.Detectors.LockOn.BaseLockOnSender(Of T).OnLockOn
+  nameWithType: BaseLockOnSender<T>.OnLockOn
+  nameWithType.vb: BaseLockOnSender(Of T).OnLockOn
+- uid: StormHawks.Runtime.Detectors.LockOn.BaseLockOnSender`1.Start
+  name: Start()
+  href: api/StormHawks.Runtime.Detectors.LockOn.BaseLockOnSender-1.html#StormHawks_Runtime_Detectors_LockOn_BaseLockOnSender_1_Start
+  commentId: M:StormHawks.Runtime.Detectors.LockOn.BaseLockOnSender`1.Start
+  fullName: StormHawks.Runtime.Detectors.LockOn.BaseLockOnSender<T>.Start()
+  fullName.vb: StormHawks.Runtime.Detectors.LockOn.BaseLockOnSender(Of T).Start()
+  nameWithType: BaseLockOnSender<T>.Start()
+  nameWithType.vb: BaseLockOnSender(Of T).Start()
+- uid: StormHawks.Runtime.Detectors.LockOn.BaseLockOnSender`1.Start*
+  name: Start
+  href: api/StormHawks.Runtime.Detectors.LockOn.BaseLockOnSender-1.html#StormHawks_Runtime_Detectors_LockOn_BaseLockOnSender_1_Start_
+  commentId: Overload:StormHawks.Runtime.Detectors.LockOn.BaseLockOnSender`1.Start
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Detectors.LockOn.BaseLockOnSender<T>.Start
+  fullName.vb: StormHawks.Runtime.Detectors.LockOn.BaseLockOnSender(Of T).Start
+  nameWithType: BaseLockOnSender<T>.Start
+  nameWithType.vb: BaseLockOnSender(Of T).Start
+- uid: StormHawks.Runtime.Detectors.LockOn.MissileLockOnReceiver
+  name: MissileLockOnReceiver
+  href: api/StormHawks.Runtime.Detectors.LockOn.MissileLockOnReceiver.html
+  commentId: T:StormHawks.Runtime.Detectors.LockOn.MissileLockOnReceiver
+  fullName: StormHawks.Runtime.Detectors.LockOn.MissileLockOnReceiver
+  nameWithType: MissileLockOnReceiver
+- uid: StormHawks.Runtime.Detectors.LockOn.MissileLockOnReceiver.LockOff
+  name: LockOff()
+  href: api/StormHawks.Runtime.Detectors.LockOn.MissileLockOnReceiver.html#StormHawks_Runtime_Detectors_LockOn_MissileLockOnReceiver_LockOff
+  commentId: M:StormHawks.Runtime.Detectors.LockOn.MissileLockOnReceiver.LockOff
+  fullName: StormHawks.Runtime.Detectors.LockOn.MissileLockOnReceiver.LockOff()
+  nameWithType: MissileLockOnReceiver.LockOff()
+- uid: StormHawks.Runtime.Detectors.LockOn.MissileLockOnReceiver.LockOff*
   name: LockOff
-  href: api/StormHawks.Runtime.Detectors.LockOn.LockOnSender.html#StormHawks_Runtime_Detectors_LockOn_LockOnSender_LockOff_
-  commentId: Overload:StormHawks.Runtime.Detectors.LockOn.LockOnSender.LockOff
+  href: api/StormHawks.Runtime.Detectors.LockOn.MissileLockOnReceiver.html#StormHawks_Runtime_Detectors_LockOn_MissileLockOnReceiver_LockOff_
+  commentId: Overload:StormHawks.Runtime.Detectors.LockOn.MissileLockOnReceiver.LockOff
   isSpec: "True"
-  fullName: StormHawks.Runtime.Detectors.LockOn.LockOnSender.LockOff
-  nameWithType: LockOnSender.LockOff
-- uid: StormHawks.Runtime.Detectors.LockOn.LockOnSender.LockOn(StormHawks.Runtime.Detectors.DetectableEntity)
-  name: LockOn(DetectableEntity)
-  href: api/StormHawks.Runtime.Detectors.LockOn.LockOnSender.html#StormHawks_Runtime_Detectors_LockOn_LockOnSender_LockOn_StormHawks_Runtime_Detectors_DetectableEntity_
-  commentId: M:StormHawks.Runtime.Detectors.LockOn.LockOnSender.LockOn(StormHawks.Runtime.Detectors.DetectableEntity)
-  fullName: StormHawks.Runtime.Detectors.LockOn.LockOnSender.LockOn(StormHawks.Runtime.Detectors.DetectableEntity)
-  nameWithType: LockOnSender.LockOn(DetectableEntity)
-- uid: StormHawks.Runtime.Detectors.LockOn.LockOnSender.LockOn*
+  fullName: StormHawks.Runtime.Detectors.LockOn.MissileLockOnReceiver.LockOff
+  nameWithType: MissileLockOnReceiver.LockOff
+- uid: StormHawks.Runtime.Detectors.LockOn.MissileLockOnReceiver.LockOn
+  name: LockOn()
+  href: api/StormHawks.Runtime.Detectors.LockOn.MissileLockOnReceiver.html#StormHawks_Runtime_Detectors_LockOn_MissileLockOnReceiver_LockOn
+  commentId: M:StormHawks.Runtime.Detectors.LockOn.MissileLockOnReceiver.LockOn
+  fullName: StormHawks.Runtime.Detectors.LockOn.MissileLockOnReceiver.LockOn()
+  nameWithType: MissileLockOnReceiver.LockOn()
+- uid: StormHawks.Runtime.Detectors.LockOn.MissileLockOnReceiver.LockOn*
   name: LockOn
-  href: api/StormHawks.Runtime.Detectors.LockOn.LockOnSender.html#StormHawks_Runtime_Detectors_LockOn_LockOnSender_LockOn_
-  commentId: Overload:StormHawks.Runtime.Detectors.LockOn.LockOnSender.LockOn
+  href: api/StormHawks.Runtime.Detectors.LockOn.MissileLockOnReceiver.html#StormHawks_Runtime_Detectors_LockOn_MissileLockOnReceiver_LockOn_
+  commentId: Overload:StormHawks.Runtime.Detectors.LockOn.MissileLockOnReceiver.LockOn
   isSpec: "True"
-  fullName: StormHawks.Runtime.Detectors.LockOn.LockOnSender.LockOn
-  nameWithType: LockOnSender.LockOn
-- uid: StormHawks.Runtime.Detectors.LockOn.LockOnSender.OnEnable
-  name: OnEnable()
-  href: api/StormHawks.Runtime.Detectors.LockOn.LockOnSender.html#StormHawks_Runtime_Detectors_LockOn_LockOnSender_OnEnable
-  commentId: M:StormHawks.Runtime.Detectors.LockOn.LockOnSender.OnEnable
-  fullName: StormHawks.Runtime.Detectors.LockOn.LockOnSender.OnEnable()
-  nameWithType: LockOnSender.OnEnable()
-- uid: StormHawks.Runtime.Detectors.LockOn.LockOnSender.OnEnable*
-  name: OnEnable
-  href: api/StormHawks.Runtime.Detectors.LockOn.LockOnSender.html#StormHawks_Runtime_Detectors_LockOn_LockOnSender_OnEnable_
-  commentId: Overload:StormHawks.Runtime.Detectors.LockOn.LockOnSender.OnEnable
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Detectors.LockOn.LockOnSender.OnEnable
-  nameWithType: LockOnSender.OnEnable
-- uid: StormHawks.Runtime.Detectors.LockOn.LockOnType
-  name: LockOnType
-  href: api/StormHawks.Runtime.Detectors.LockOn.LockOnType.html
-  commentId: T:StormHawks.Runtime.Detectors.LockOn.LockOnType
-  fullName: StormHawks.Runtime.Detectors.LockOn.LockOnType
-  nameWithType: LockOnType
-- uid: StormHawks.Runtime.Detectors.LockOn.LockOnType.Bullet
-  name: Bullet
-  href: api/StormHawks.Runtime.Detectors.LockOn.LockOnType.html#StormHawks_Runtime_Detectors_LockOn_LockOnType_Bullet
-  commentId: F:StormHawks.Runtime.Detectors.LockOn.LockOnType.Bullet
-  fullName: StormHawks.Runtime.Detectors.LockOn.LockOnType.Bullet
-  nameWithType: LockOnType.Bullet
-- uid: StormHawks.Runtime.Detectors.LockOn.LockOnType.Missile
-  name: Missile
-  href: api/StormHawks.Runtime.Detectors.LockOn.LockOnType.html#StormHawks_Runtime_Detectors_LockOn_LockOnType_Missile
-  commentId: F:StormHawks.Runtime.Detectors.LockOn.LockOnType.Missile
-  fullName: StormHawks.Runtime.Detectors.LockOn.LockOnType.Missile
-  nameWithType: LockOnType.Missile
+  fullName: StormHawks.Runtime.Detectors.LockOn.MissileLockOnReceiver.LockOn
+  nameWithType: MissileLockOnReceiver.LockOn
 - uid: StormHawks.Runtime.Detectors.LockOn.MissileLockOnSender
   name: MissileLockOnSender
   href: api/StormHawks.Runtime.Detectors.LockOn.MissileLockOnSender.html
   commentId: T:StormHawks.Runtime.Detectors.LockOn.MissileLockOnSender
   fullName: StormHawks.Runtime.Detectors.LockOn.MissileLockOnSender
   nameWithType: MissileLockOnSender
+- uid: StormHawks.Runtime.Detectors.LockOn.ProjectileLockOnReceiver
+  name: ProjectileLockOnReceiver
+  href: api/StormHawks.Runtime.Detectors.LockOn.ProjectileLockOnReceiver.html
+  commentId: T:StormHawks.Runtime.Detectors.LockOn.ProjectileLockOnReceiver
+  fullName: StormHawks.Runtime.Detectors.LockOn.ProjectileLockOnReceiver
+  nameWithType: ProjectileLockOnReceiver
+- uid: StormHawks.Runtime.Detectors.LockOn.ProjectileLockOnReceiver.LockOff
+  name: LockOff()
+  href: api/StormHawks.Runtime.Detectors.LockOn.ProjectileLockOnReceiver.html#StormHawks_Runtime_Detectors_LockOn_ProjectileLockOnReceiver_LockOff
+  commentId: M:StormHawks.Runtime.Detectors.LockOn.ProjectileLockOnReceiver.LockOff
+  fullName: StormHawks.Runtime.Detectors.LockOn.ProjectileLockOnReceiver.LockOff()
+  nameWithType: ProjectileLockOnReceiver.LockOff()
+- uid: StormHawks.Runtime.Detectors.LockOn.ProjectileLockOnReceiver.LockOff*
+  name: LockOff
+  href: api/StormHawks.Runtime.Detectors.LockOn.ProjectileLockOnReceiver.html#StormHawks_Runtime_Detectors_LockOn_ProjectileLockOnReceiver_LockOff_
+  commentId: Overload:StormHawks.Runtime.Detectors.LockOn.ProjectileLockOnReceiver.LockOff
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Detectors.LockOn.ProjectileLockOnReceiver.LockOff
+  nameWithType: ProjectileLockOnReceiver.LockOff
+- uid: StormHawks.Runtime.Detectors.LockOn.ProjectileLockOnReceiver.LockOn
+  name: LockOn()
+  href: api/StormHawks.Runtime.Detectors.LockOn.ProjectileLockOnReceiver.html#StormHawks_Runtime_Detectors_LockOn_ProjectileLockOnReceiver_LockOn
+  commentId: M:StormHawks.Runtime.Detectors.LockOn.ProjectileLockOnReceiver.LockOn
+  fullName: StormHawks.Runtime.Detectors.LockOn.ProjectileLockOnReceiver.LockOn()
+  nameWithType: ProjectileLockOnReceiver.LockOn()
+- uid: StormHawks.Runtime.Detectors.LockOn.ProjectileLockOnReceiver.LockOn*
+  name: LockOn
+  href: api/StormHawks.Runtime.Detectors.LockOn.ProjectileLockOnReceiver.html#StormHawks_Runtime_Detectors_LockOn_ProjectileLockOnReceiver_LockOn_
+  commentId: Overload:StormHawks.Runtime.Detectors.LockOn.ProjectileLockOnReceiver.LockOn
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Detectors.LockOn.ProjectileLockOnReceiver.LockOn
+  nameWithType: ProjectileLockOnReceiver.LockOn
 - uid: StormHawks.Runtime.Detectors.LockOn.ProjectileLockOnSender
   name: ProjectileLockOnSender
   href: api/StormHawks.Runtime.Detectors.LockOn.ProjectileLockOnSender.html

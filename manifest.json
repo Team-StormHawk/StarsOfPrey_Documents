@@ -1816,7 +1816,7 @@
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.Detectors.Handlers.AggroTargetDetectorHandler.html",
-          "hash": "oHYxSsRfRHa6Wo2h4DXoWuen5S+0BiQBCIY9i15IvUU="
+          "hash": "Ae0fc/NNa91dqF9TMzkgbLIvcxvaZ3nmpj8l6WGAyOM="
         }
       },
       "is_incremental": false,
@@ -1840,7 +1840,7 @@
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.Detectors.Handlers.EntityDetectorHandler.html",
-          "hash": "tYtFaWIbYzvG3+HW5TgojXjXc7pew5Z68PZhgAKxOzU="
+          "hash": "iNrDBVoAy1dNQOiS3xjXo/QjRxhiMFpDWUhMuKKhWF0="
         }
       },
       "is_incremental": false,
@@ -1888,7 +1888,7 @@
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.Detectors.Handlers.MissileDetectorHandler.html",
-          "hash": "O4YxqtBAxz08092v1iBcRBvh/FkL/eEB9zZ2nLDyJuQ="
+          "hash": "g3rlLU5UFiB/38HZ6bH41RWoPSwG87VuZFck313b9ao="
         }
       },
       "is_incremental": false,
@@ -1900,7 +1900,7 @@
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.Detectors.Handlers.RadarDetectorHandler.html",
-          "hash": "7YbfVh+N3knwXCehK/iPa0fEaC+3ol7v4AjUmDnTHrk="
+          "hash": "QxXzOD5s7/cQYqSi460Ne2yenEaJ7/ozbVyncFEgoII="
         }
       },
       "is_incremental": false,
@@ -2100,11 +2100,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StormHawks.Runtime.Detectors.LockOn.EntityLockOnSender.yml",
+      "source_relative_path": "api/StormHawks.Runtime.Detectors.LockOn.BaseLockOnReceiver.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StormHawks.Runtime.Detectors.LockOn.EntityLockOnSender.html",
-          "hash": "UBjDpup1JkmBXpbez38XwWymKK2yK4Kqml5oCnUtiAo="
+          "relative_path": "api/StormHawks.Runtime.Detectors.LockOn.BaseLockOnReceiver.html",
+          "hash": "j1GJ3QGRiADDyv0J5x1ZPgLZs0LdWFQLRfpXcrPc/Xo="
         }
       },
       "is_incremental": false,
@@ -2112,11 +2112,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StormHawks.Runtime.Detectors.LockOn.LockOnReceiver.LockOnParticle.yml",
+      "source_relative_path": "api/StormHawks.Runtime.Detectors.LockOn.BaseLockOnSender-1.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StormHawks.Runtime.Detectors.LockOn.LockOnReceiver.LockOnParticle.html",
-          "hash": "CvtcbP3usKxzU9mzc4tDTYaiG74E8gMwd/ZbS8EmNyM="
+          "relative_path": "api/StormHawks.Runtime.Detectors.LockOn.BaseLockOnSender-1.html",
+          "hash": "RKBLtuFO1KJob2uIchicj7VEHVP9efIlKGgdZDqYL8s="
         }
       },
       "is_incremental": false,
@@ -2124,35 +2124,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/StormHawks.Runtime.Detectors.LockOn.LockOnReceiver.yml",
+      "source_relative_path": "api/StormHawks.Runtime.Detectors.LockOn.MissileLockOnReceiver.yml",
       "output": {
         ".html": {
-          "relative_path": "api/StormHawks.Runtime.Detectors.LockOn.LockOnReceiver.html",
-          "hash": "n4IfIxg6Pwph2IJSXS87lThZDa692F4jLNLva5g4HJI="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/StormHawks.Runtime.Detectors.LockOn.LockOnSender.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/StormHawks.Runtime.Detectors.LockOn.LockOnSender.html",
-          "hash": "vABmD+XSswtVn9X06XAM11zMn17/aQcwRXwfba5eY6M="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/StormHawks.Runtime.Detectors.LockOn.LockOnType.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/StormHawks.Runtime.Detectors.LockOn.LockOnType.html",
-          "hash": "FqkIazhNhBN2eR8S4NIauToYpMGtT23IKZWVGlTaHxg="
+          "relative_path": "api/StormHawks.Runtime.Detectors.LockOn.MissileLockOnReceiver.html",
+          "hash": "6lVl6b3yqBeg4CKC9kCD6ssVU++fCzuJuf+zEiojpvw="
         }
       },
       "is_incremental": false,
@@ -2164,7 +2140,19 @@
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.Detectors.LockOn.MissileLockOnSender.html",
-          "hash": "ZGjd17FOyZv7q8GwZWtyHxJhXZFk/9bQJuS59k3VvU0="
+          "hash": "yrOql8snXuqf58r9z3gEX20ktZR4YZIbDpCWbUhHSiQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/StormHawks.Runtime.Detectors.LockOn.ProjectileLockOnReceiver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/StormHawks.Runtime.Detectors.LockOn.ProjectileLockOnReceiver.html",
+          "hash": "FWfgRlT6T0viCFZtWzLcujGtqpuPrBqniuwP3NTLRac="
         }
       },
       "is_incremental": false,
@@ -2176,7 +2164,7 @@
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.Detectors.LockOn.ProjectileLockOnSender.html",
-          "hash": "HtZt15oRbN/NEVQXasnBDyG8F3dhDEBayAXubKJo5Qk="
+          "hash": "SU/W5Sb38uAcbjLSvceMSlcY/NdWfSuU2Fu5sON5Ylo="
         }
       },
       "is_incremental": false,
@@ -2188,7 +2176,7 @@
       "output": {
         ".html": {
           "relative_path": "api/StormHawks.Runtime.Detectors.LockOn.html",
-          "hash": "RienLBtXhIk+SAbKXaJYOZ031nnpu7bv9spyeWozlfA="
+          "hash": "IfL6TXt9VCRvXvJSmcuMp0cFmJnYOvi2gXZjEo8Xlzo="
         }
       },
       "is_incremental": false,
@@ -9232,7 +9220,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "NeFMgqDXTqM7j/l+USpzj6ynO5p9tCJEBY+8Dr6Bsso="
+          "hash": "JHVrnqbvawCFDqEfELbEP2a9PcmTeL2ifZghOYeLL3c="
         }
       },
       "is_incremental": false,
@@ -9433,7 +9421,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 767,
+          "total_file_count": 766,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

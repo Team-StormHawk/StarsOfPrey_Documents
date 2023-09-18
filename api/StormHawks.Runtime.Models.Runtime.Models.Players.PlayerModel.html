@@ -93,6 +93,10 @@
   <div class="implements">
     <h5>Implements</h5>
     <div><span class="xref">IDisposable</span></div>
+    <div><span class="xref">IPlayerAggro</span></div>
+    <div><span class="xref">IPlayerSpace</span></div>
+    <div><span class="xref">IPlayerHealth</span></div>
+    <div><span class="xref">IPlayerShield</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Models.Runtime.Models.Players.html">StormHawks.Runtime.Models.Runtime.Models.Players</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
@@ -105,12 +109,12 @@
   
   
   <a id="StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel__ctor_" data-uid="StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.#ctor*"></a>
-  <h4 id="StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel__ctor_Transform_Rigidbody_EntityHealthSO_" data-uid="StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.#ctor(Transform,Rigidbody,EntityHealthSO)">PlayerModel(Transform, Rigidbody, EntityHealthSO)</h4>
+  <h4 id="StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel__ctor_Transform_Rigidbody_PlayerHealthSettings_PlayerShieldSettings_" data-uid="StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.#ctor(Transform,Rigidbody,PlayerHealthSettings,PlayerShieldSettings)">PlayerModel(Transform, Rigidbody, PlayerHealthSettings, PlayerShieldSettings)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PlayerModel(Transform playerTransform, Rigidbody playerRigidbody, EntityHealthSO playerHealth)</code></pre>
+    <pre><code class="lang-csharp hljs">public PlayerModel(Transform playerTransform, Rigidbody playerRigidbody, PlayerHealthSettings playerHealthSettings, PlayerShieldSettings playerShieldSettings)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -133,58 +137,13 @@
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">EntityHealthSO</span></td>
-        <td><span class="parametername">playerHealth</span></td>
+        <td><span class="xref">PlayerHealthSettings</span></td>
+        <td><span class="parametername">playerHealthSettings</span></td>
         <td></td>
       </tr>
-    </tbody>
-  </table>
-  <h3 id="fields">Fields
-  </h3>
-  
-  
-  <h4 id="StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_IsDead" data-uid="StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.IsDead">IsDead</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IReadOnlyReactiveProperty&lt;bool&gt; IsDead</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
       <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">IReadOnlyReactiveProperty</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_MaxHealth" data-uid="StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.MaxHealth">MaxHealth</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public readonly float MaxHealth</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="xref">PlayerShieldSettings</span></td>
+        <td><span class="parametername">playerShieldSettings</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -218,13 +177,238 @@
   </table>
   
   
-  <a id="StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_MyAggroTargetValue_" data-uid="StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.MyAggroTargetValue*"></a>
-  <h4 id="StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_MyAggroTargetValue" data-uid="StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.MyAggroTargetValue">MyAggroTargetValue</h4>
+  <a id="StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_CurrentShield_" data-uid="StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.CurrentShield*"></a>
+  <h4 id="StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_CurrentShield" data-uid="StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.CurrentShield">CurrentShield</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public AggroTarget MyAggroTargetValue { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public IReadOnlyReactiveProperty&lt;float&gt; CurrentShield { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IReadOnlyReactiveProperty</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_IsDead_" data-uid="StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.IsDead*"></a>
+  <h4 id="StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_IsDead" data-uid="StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.IsDead">IsDead</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IReadOnlyReactiveProperty&lt;bool&gt; IsDead { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IReadOnlyReactiveProperty</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_IsDestroyed_" data-uid="StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.IsDestroyed*"></a>
+  <h4 id="StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_IsDestroyed" data-uid="StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.IsDestroyed">IsDestroyed</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IReadOnlyReactiveProperty&lt;bool&gt; IsDestroyed { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IReadOnlyReactiveProperty</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_MaxHealth_" data-uid="StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.MaxHealth*"></a>
+  <h4 id="StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_MaxHealth" data-uid="StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.MaxHealth">MaxHealth</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float MaxHealth { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_MaxShield_" data-uid="StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.MaxShield*"></a>
+  <h4 id="StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_MaxShield" data-uid="StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.MaxShield">MaxShield</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float MaxShield { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_OnHealthDamage_" data-uid="StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.OnHealthDamage*"></a>
+  <h4 id="StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_OnHealthDamage" data-uid="StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.OnHealthDamage">OnHealthDamage</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ISubject&lt;float&gt; OnHealthDamage { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ISubject</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_OnHealthRecovery_" data-uid="StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.OnHealthRecovery*"></a>
+  <h4 id="StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_OnHealthRecovery" data-uid="StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.OnHealthRecovery">OnHealthRecovery</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ISubject&lt;float&gt; OnHealthRecovery { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ISubject</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_OnShieldDamage_" data-uid="StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.OnShieldDamage*"></a>
+  <h4 id="StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_OnShieldDamage" data-uid="StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.OnShieldDamage">OnShieldDamage</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ISubject&lt;float&gt; OnShieldDamage { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ISubject</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_OnShieldRecharge_" data-uid="StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.OnShieldRecharge*"></a>
+  <h4 id="StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_OnShieldRecharge" data-uid="StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.OnShieldRecharge">OnShieldRecharge</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ISubject&lt;float&gt; OnShieldRecharge { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ISubject</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_PlayersAggroTarget_" data-uid="StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.PlayersAggroTarget*"></a>
+  <h4 id="StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_PlayersAggroTarget" data-uid="StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.PlayersAggroTarget">PlayersAggroTarget</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AggroTarget PlayersAggroTarget { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -287,6 +471,56 @@
     <tbody>
       <tr>
         <td><span class="xref">Rigidbody</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_ShieldRechargeDelay_" data-uid="StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.ShieldRechargeDelay*"></a>
+  <h4 id="StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_ShieldRechargeDelay" data-uid="StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.ShieldRechargeDelay">ShieldRechargeDelay</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float ShieldRechargeDelay { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_ShieldRechargeRate_" data-uid="StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.ShieldRechargeRate*"></a>
+  <h4 id="StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_ShieldRechargeRate" data-uid="StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.ShieldRechargeRate">ShieldRechargeRate</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float ShieldRechargeRate { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -409,13 +643,13 @@
   </div>
   
   
-  <a id="StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_Heal_" data-uid="StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.Heal*"></a>
-  <h4 id="StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_Heal_System_Single_" data-uid="StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.Heal(System.Single)">Heal(Single)</h4>
+  <a id="StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_RechargeShield_" data-uid="StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.RechargeShield*"></a>
+  <h4 id="StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_RechargeShield_System_Single_" data-uid="StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.RechargeShield(System.Single)">RechargeShield(Single)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Heal(float heal)</code></pre>
+    <pre><code class="lang-csharp hljs">public void RechargeShield(float value)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -429,7 +663,34 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td><span class="parametername">heal</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_RecoverHealth_" data-uid="StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.RecoverHealth*"></a>
+  <h4 id="StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_RecoverHealth_System_Single_" data-uid="StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.RecoverHealth(System.Single)">RecoverHealth(Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RecoverHealth(float value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">value</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -463,13 +724,13 @@
   </table>
   
   
-  <a id="StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_SetMyAggroTargetValue_" data-uid="StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.SetMyAggroTargetValue*"></a>
-  <h4 id="StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_SetMyAggroTargetValue_AggroTarget_" data-uid="StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.SetMyAggroTargetValue(AggroTarget)">SetMyAggroTargetValue(AggroTarget)</h4>
+  <a id="StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_SetPlayersAggroTarget_" data-uid="StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.SetPlayersAggroTarget*"></a>
+  <h4 id="StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_SetPlayersAggroTarget_AggroTarget_" data-uid="StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.SetPlayersAggroTarget(AggroTarget)">SetPlayersAggroTarget(AggroTarget)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetMyAggroTargetValue(AggroTarget aggroTargetValue)</code></pre>
+    <pre><code class="lang-csharp hljs">public void SetPlayersAggroTarget(AggroTarget aggroTarget)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -483,7 +744,7 @@
     <tbody>
       <tr>
         <td><span class="xref">AggroTarget</span></td>
-        <td><span class="parametername">aggroTargetValue</span></td>
+        <td><span class="parametername">aggroTarget</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -500,13 +761,13 @@
   </div>
   
   
-  <a id="StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_TakeDamage_" data-uid="StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.TakeDamage*"></a>
-  <h4 id="StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_TakeDamage_System_Single_" data-uid="StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.TakeDamage(System.Single)">TakeDamage(Single)</h4>
+  <a id="StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_TakeHealthDamage_" data-uid="StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.TakeHealthDamage*"></a>
+  <h4 id="StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_TakeHealthDamage_System_Single_" data-uid="StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.TakeHealthDamage(System.Single)">TakeHealthDamage(Single)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void TakeDamage(float damage)</code></pre>
+    <pre><code class="lang-csharp hljs">public void TakeHealthDamage(float value)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -520,7 +781,34 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td><span class="parametername">damage</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_TakeShieldDamage_" data-uid="StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.TakeShieldDamage*"></a>
+  <h4 id="StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_TakeShieldDamage_System_Single_" data-uid="StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.TakeShieldDamage(System.Single)">TakeShieldDamage(Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void TakeShieldDamage(float value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">value</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -560,6 +848,18 @@
   <h3 id="implements">Implements</h3>
   <div>
       <span class="xref">IDisposable</span>
+  </div>
+  <div>
+      <span class="xref">IPlayerAggro</span>
+  </div>
+  <div>
+      <span class="xref">IPlayerSpace</span>
+  </div>
+  <div>
+      <span class="xref">IPlayerHealth</span>
+  </div>
+  <div>
+      <span class="xref">IPlayerShield</span>
   </div>
 </article>
           </div>

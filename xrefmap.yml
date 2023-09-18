@@ -5680,12 +5680,12 @@ references:
   commentId: T:StormHawks.Runtime.Detectors.LockOn.LockOnSender
   fullName: StormHawks.Runtime.Detectors.LockOn.LockOnSender
   nameWithType: LockOnSender
-- uid: StormHawks.Runtime.Detectors.LockOn.LockOnSender._detectorHandler
-  name: _detectorHandler
-  href: api/StormHawks.Runtime.Detectors.LockOn.LockOnSender.html#StormHawks_Runtime_Detectors_LockOn_LockOnSender__detectorHandler
-  commentId: F:StormHawks.Runtime.Detectors.LockOn.LockOnSender._detectorHandler
-  fullName: StormHawks.Runtime.Detectors.LockOn.LockOnSender._detectorHandler
-  nameWithType: LockOnSender._detectorHandler
+- uid: StormHawks.Runtime.Detectors.LockOn.LockOnSender._detector
+  name: _detector
+  href: api/StormHawks.Runtime.Detectors.LockOn.LockOnSender.html#StormHawks_Runtime_Detectors_LockOn_LockOnSender__detector
+  commentId: F:StormHawks.Runtime.Detectors.LockOn.LockOnSender._detector
+  fullName: StormHawks.Runtime.Detectors.LockOn.LockOnSender._detector
+  nameWithType: LockOnSender._detector
 - uid: StormHawks.Runtime.Detectors.LockOn.LockOnSender._type
   name: _type
   href: api/StormHawks.Runtime.Detectors.LockOn.LockOnSender.html#StormHawks_Runtime_Detectors_LockOn_LockOnSender__type
@@ -5749,6 +5749,18 @@ references:
   commentId: F:StormHawks.Runtime.Detectors.LockOn.LockOnType.Missile
   fullName: StormHawks.Runtime.Detectors.LockOn.LockOnType.Missile
   nameWithType: LockOnType.Missile
+- uid: StormHawks.Runtime.Detectors.LockOn.MissileLockOnSender
+  name: MissileLockOnSender
+  href: api/StormHawks.Runtime.Detectors.LockOn.MissileLockOnSender.html
+  commentId: T:StormHawks.Runtime.Detectors.LockOn.MissileLockOnSender
+  fullName: StormHawks.Runtime.Detectors.LockOn.MissileLockOnSender
+  nameWithType: MissileLockOnSender
+- uid: StormHawks.Runtime.Detectors.LockOn.ProjectileLockOnSender
+  name: ProjectileLockOnSender
+  href: api/StormHawks.Runtime.Detectors.LockOn.ProjectileLockOnSender.html
+  commentId: T:StormHawks.Runtime.Detectors.LockOn.ProjectileLockOnSender
+  fullName: StormHawks.Runtime.Detectors.LockOn.ProjectileLockOnSender
+  nameWithType: ProjectileLockOnSender
 - uid: StormHawks.Runtime.Detectors.SphereDetector
   name: SphereDetector
   href: api/StormHawks.Runtime.Detectors.SphereDetector.html
@@ -13939,6 +13951,19 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Models.Entities.BossModel.IsWaypointsEnabled
   nameWithType: BossModel.IsWaypointsEnabled
+- uid: StormHawks.Runtime.Models.Entities.BossModel.MaxHealth
+  name: MaxHealth
+  href: api/StormHawks.Runtime.Models.Entities.BossModel.html#StormHawks_Runtime_Models_Entities_BossModel_MaxHealth
+  commentId: P:StormHawks.Runtime.Models.Entities.BossModel.MaxHealth
+  fullName: StormHawks.Runtime.Models.Entities.BossModel.MaxHealth
+  nameWithType: BossModel.MaxHealth
+- uid: StormHawks.Runtime.Models.Entities.BossModel.MaxHealth*
+  name: MaxHealth
+  href: api/StormHawks.Runtime.Models.Entities.BossModel.html#StormHawks_Runtime_Models_Entities_BossModel_MaxHealth_
+  commentId: Overload:StormHawks.Runtime.Models.Entities.BossModel.MaxHealth
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.Entities.BossModel.MaxHealth
+  nameWithType: BossModel.MaxHealth
 - uid: StormHawks.Runtime.Models.Entities.BossModel.PlayBehavior(BossBehaviorType)
   name: PlayBehavior(BossBehaviorType)
   href: api/StormHawks.Runtime.Models.Entities.BossModel.html#StormHawks_Runtime_Models_Entities_BossModel_PlayBehavior_BossBehaviorType_
@@ -14489,6 +14514,19 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Models.Facilities.FacilityModel.FacilityModel
   nameWithType: FacilityModel.FacilityModel
+- uid: StormHawks.Runtime.Models.Facilities.FacilityModel.CurrentHealth
+  name: CurrentHealth
+  href: api/StormHawks.Runtime.Models.Facilities.FacilityModel.html#StormHawks_Runtime_Models_Facilities_FacilityModel_CurrentHealth
+  commentId: P:StormHawks.Runtime.Models.Facilities.FacilityModel.CurrentHealth
+  fullName: StormHawks.Runtime.Models.Facilities.FacilityModel.CurrentHealth
+  nameWithType: FacilityModel.CurrentHealth
+- uid: StormHawks.Runtime.Models.Facilities.FacilityModel.CurrentHealth*
+  name: CurrentHealth
+  href: api/StormHawks.Runtime.Models.Facilities.FacilityModel.html#StormHawks_Runtime_Models_Facilities_FacilityModel_CurrentHealth_
+  commentId: Overload:StormHawks.Runtime.Models.Facilities.FacilityModel.CurrentHealth
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.Facilities.FacilityModel.CurrentHealth
+  nameWithType: FacilityModel.CurrentHealth
 - uid: StormHawks.Runtime.Models.Facilities.FacilityModel.Enable
   name: Enable()
   href: api/StormHawks.Runtime.Models.Facilities.FacilityModel.html#StormHawks_Runtime_Models_Facilities_FacilityModel_Enable
@@ -16445,12 +16483,12 @@ references:
   commentId: T:StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel
   fullName: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel
   nameWithType: PlayerModel
-- uid: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.#ctor(Transform,Rigidbody,EntityHealthSO)
-  name: PlayerModel(Transform, Rigidbody, EntityHealthSO)
-  href: api/StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.html#StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel__ctor_Transform_Rigidbody_EntityHealthSO_
-  commentId: M:StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.#ctor(Transform,Rigidbody,EntityHealthSO)
-  fullName: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.PlayerModel(Transform, Rigidbody, EntityHealthSO)
-  nameWithType: PlayerModel.PlayerModel(Transform, Rigidbody, EntityHealthSO)
+- uid: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.#ctor(Transform,Rigidbody,PlayerHealthSettings,PlayerShieldSettings)
+  name: PlayerModel(Transform, Rigidbody, PlayerHealthSettings, PlayerShieldSettings)
+  href: api/StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.html#StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel__ctor_Transform_Rigidbody_PlayerHealthSettings_PlayerShieldSettings_
+  commentId: M:StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.#ctor(Transform,Rigidbody,PlayerHealthSettings,PlayerShieldSettings)
+  fullName: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.PlayerModel(Transform, Rigidbody, PlayerHealthSettings, PlayerShieldSettings)
+  nameWithType: PlayerModel.PlayerModel(Transform, Rigidbody, PlayerHealthSettings, PlayerShieldSettings)
 - uid: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.#ctor*
   name: PlayerModel
   href: api/StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.html#StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel__ctor_
@@ -16497,6 +16535,19 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.CurrentHealth
   nameWithType: PlayerModel.CurrentHealth
+- uid: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.CurrentShield
+  name: CurrentShield
+  href: api/StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.html#StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_CurrentShield
+  commentId: P:StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.CurrentShield
+  fullName: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.CurrentShield
+  nameWithType: PlayerModel.CurrentShield
+- uid: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.CurrentShield*
+  name: CurrentShield
+  href: api/StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.html#StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_CurrentShield_
+  commentId: Overload:StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.CurrentShield
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.CurrentShield
+  nameWithType: PlayerModel.CurrentShield
 - uid: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.Dispose
   name: Dispose()
   href: api/StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.html#StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_Dispose
@@ -16510,44 +16561,123 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.Dispose
   nameWithType: PlayerModel.Dispose
-- uid: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.Heal(System.Single)
-  name: Heal(Single)
-  href: api/StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.html#StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_Heal_System_Single_
-  commentId: M:StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.Heal(System.Single)
-  fullName: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.Heal(System.Single)
-  nameWithType: PlayerModel.Heal(Single)
-- uid: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.Heal*
-  name: Heal
-  href: api/StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.html#StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_Heal_
-  commentId: Overload:StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.Heal
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.Heal
-  nameWithType: PlayerModel.Heal
 - uid: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.IsDead
   name: IsDead
   href: api/StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.html#StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_IsDead
-  commentId: F:StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.IsDead
+  commentId: P:StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.IsDead
   fullName: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.IsDead
   nameWithType: PlayerModel.IsDead
+- uid: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.IsDead*
+  name: IsDead
+  href: api/StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.html#StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_IsDead_
+  commentId: Overload:StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.IsDead
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.IsDead
+  nameWithType: PlayerModel.IsDead
+- uid: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.IsDestroyed
+  name: IsDestroyed
+  href: api/StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.html#StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_IsDestroyed
+  commentId: P:StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.IsDestroyed
+  fullName: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.IsDestroyed
+  nameWithType: PlayerModel.IsDestroyed
+- uid: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.IsDestroyed*
+  name: IsDestroyed
+  href: api/StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.html#StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_IsDestroyed_
+  commentId: Overload:StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.IsDestroyed
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.IsDestroyed
+  nameWithType: PlayerModel.IsDestroyed
 - uid: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.MaxHealth
   name: MaxHealth
   href: api/StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.html#StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_MaxHealth
-  commentId: F:StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.MaxHealth
+  commentId: P:StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.MaxHealth
   fullName: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.MaxHealth
   nameWithType: PlayerModel.MaxHealth
-- uid: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.MyAggroTargetValue
-  name: MyAggroTargetValue
-  href: api/StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.html#StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_MyAggroTargetValue
-  commentId: P:StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.MyAggroTargetValue
-  fullName: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.MyAggroTargetValue
-  nameWithType: PlayerModel.MyAggroTargetValue
-- uid: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.MyAggroTargetValue*
-  name: MyAggroTargetValue
-  href: api/StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.html#StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_MyAggroTargetValue_
-  commentId: Overload:StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.MyAggroTargetValue
+- uid: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.MaxHealth*
+  name: MaxHealth
+  href: api/StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.html#StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_MaxHealth_
+  commentId: Overload:StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.MaxHealth
   isSpec: "True"
-  fullName: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.MyAggroTargetValue
-  nameWithType: PlayerModel.MyAggroTargetValue
+  fullName: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.MaxHealth
+  nameWithType: PlayerModel.MaxHealth
+- uid: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.MaxShield
+  name: MaxShield
+  href: api/StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.html#StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_MaxShield
+  commentId: P:StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.MaxShield
+  fullName: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.MaxShield
+  nameWithType: PlayerModel.MaxShield
+- uid: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.MaxShield*
+  name: MaxShield
+  href: api/StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.html#StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_MaxShield_
+  commentId: Overload:StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.MaxShield
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.MaxShield
+  nameWithType: PlayerModel.MaxShield
+- uid: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.OnHealthDamage
+  name: OnHealthDamage
+  href: api/StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.html#StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_OnHealthDamage
+  commentId: P:StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.OnHealthDamage
+  fullName: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.OnHealthDamage
+  nameWithType: PlayerModel.OnHealthDamage
+- uid: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.OnHealthDamage*
+  name: OnHealthDamage
+  href: api/StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.html#StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_OnHealthDamage_
+  commentId: Overload:StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.OnHealthDamage
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.OnHealthDamage
+  nameWithType: PlayerModel.OnHealthDamage
+- uid: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.OnHealthRecovery
+  name: OnHealthRecovery
+  href: api/StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.html#StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_OnHealthRecovery
+  commentId: P:StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.OnHealthRecovery
+  fullName: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.OnHealthRecovery
+  nameWithType: PlayerModel.OnHealthRecovery
+- uid: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.OnHealthRecovery*
+  name: OnHealthRecovery
+  href: api/StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.html#StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_OnHealthRecovery_
+  commentId: Overload:StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.OnHealthRecovery
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.OnHealthRecovery
+  nameWithType: PlayerModel.OnHealthRecovery
+- uid: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.OnShieldDamage
+  name: OnShieldDamage
+  href: api/StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.html#StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_OnShieldDamage
+  commentId: P:StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.OnShieldDamage
+  fullName: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.OnShieldDamage
+  nameWithType: PlayerModel.OnShieldDamage
+- uid: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.OnShieldDamage*
+  name: OnShieldDamage
+  href: api/StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.html#StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_OnShieldDamage_
+  commentId: Overload:StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.OnShieldDamage
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.OnShieldDamage
+  nameWithType: PlayerModel.OnShieldDamage
+- uid: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.OnShieldRecharge
+  name: OnShieldRecharge
+  href: api/StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.html#StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_OnShieldRecharge
+  commentId: P:StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.OnShieldRecharge
+  fullName: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.OnShieldRecharge
+  nameWithType: PlayerModel.OnShieldRecharge
+- uid: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.OnShieldRecharge*
+  name: OnShieldRecharge
+  href: api/StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.html#StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_OnShieldRecharge_
+  commentId: Overload:StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.OnShieldRecharge
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.OnShieldRecharge
+  nameWithType: PlayerModel.OnShieldRecharge
+- uid: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.PlayersAggroTarget
+  name: PlayersAggroTarget
+  href: api/StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.html#StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_PlayersAggroTarget
+  commentId: P:StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.PlayersAggroTarget
+  fullName: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.PlayersAggroTarget
+  nameWithType: PlayerModel.PlayersAggroTarget
+- uid: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.PlayersAggroTarget*
+  name: PlayersAggroTarget
+  href: api/StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.html#StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_PlayersAggroTarget_
+  commentId: Overload:StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.PlayersAggroTarget
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.PlayersAggroTarget
+  nameWithType: PlayerModel.PlayersAggroTarget
 - uid: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.Position
   name: Position
   href: api/StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.html#StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_Position
@@ -16561,6 +16691,32 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.Position
   nameWithType: PlayerModel.Position
+- uid: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.RechargeShield(System.Single)
+  name: RechargeShield(Single)
+  href: api/StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.html#StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_RechargeShield_System_Single_
+  commentId: M:StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.RechargeShield(System.Single)
+  fullName: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.RechargeShield(System.Single)
+  nameWithType: PlayerModel.RechargeShield(Single)
+- uid: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.RechargeShield*
+  name: RechargeShield
+  href: api/StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.html#StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_RechargeShield_
+  commentId: Overload:StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.RechargeShield
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.RechargeShield
+  nameWithType: PlayerModel.RechargeShield
+- uid: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.RecoverHealth(System.Single)
+  name: RecoverHealth(Single)
+  href: api/StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.html#StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_RecoverHealth_System_Single_
+  commentId: M:StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.RecoverHealth(System.Single)
+  fullName: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.RecoverHealth(System.Single)
+  nameWithType: PlayerModel.RecoverHealth(Single)
+- uid: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.RecoverHealth*
+  name: RecoverHealth
+  href: api/StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.html#StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_RecoverHealth_
+  commentId: Overload:StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.RecoverHealth
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.RecoverHealth
+  nameWithType: PlayerModel.RecoverHealth
 - uid: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.Rigidbody
   name: Rigidbody
   href: api/StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.html#StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_Rigidbody
@@ -16587,19 +16743,45 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.SetAggroPriority
   nameWithType: PlayerModel.SetAggroPriority
-- uid: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.SetMyAggroTargetValue(AggroTarget)
-  name: SetMyAggroTargetValue(AggroTarget)
-  href: api/StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.html#StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_SetMyAggroTargetValue_AggroTarget_
-  commentId: M:StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.SetMyAggroTargetValue(AggroTarget)
-  fullName: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.SetMyAggroTargetValue(AggroTarget)
-  nameWithType: PlayerModel.SetMyAggroTargetValue(AggroTarget)
-- uid: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.SetMyAggroTargetValue*
-  name: SetMyAggroTargetValue
-  href: api/StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.html#StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_SetMyAggroTargetValue_
-  commentId: Overload:StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.SetMyAggroTargetValue
+- uid: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.SetPlayersAggroTarget(AggroTarget)
+  name: SetPlayersAggroTarget(AggroTarget)
+  href: api/StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.html#StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_SetPlayersAggroTarget_AggroTarget_
+  commentId: M:StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.SetPlayersAggroTarget(AggroTarget)
+  fullName: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.SetPlayersAggroTarget(AggroTarget)
+  nameWithType: PlayerModel.SetPlayersAggroTarget(AggroTarget)
+- uid: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.SetPlayersAggroTarget*
+  name: SetPlayersAggroTarget
+  href: api/StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.html#StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_SetPlayersAggroTarget_
+  commentId: Overload:StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.SetPlayersAggroTarget
   isSpec: "True"
-  fullName: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.SetMyAggroTargetValue
-  nameWithType: PlayerModel.SetMyAggroTargetValue
+  fullName: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.SetPlayersAggroTarget
+  nameWithType: PlayerModel.SetPlayersAggroTarget
+- uid: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.ShieldRechargeDelay
+  name: ShieldRechargeDelay
+  href: api/StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.html#StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_ShieldRechargeDelay
+  commentId: P:StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.ShieldRechargeDelay
+  fullName: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.ShieldRechargeDelay
+  nameWithType: PlayerModel.ShieldRechargeDelay
+- uid: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.ShieldRechargeDelay*
+  name: ShieldRechargeDelay
+  href: api/StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.html#StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_ShieldRechargeDelay_
+  commentId: Overload:StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.ShieldRechargeDelay
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.ShieldRechargeDelay
+  nameWithType: PlayerModel.ShieldRechargeDelay
+- uid: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.ShieldRechargeRate
+  name: ShieldRechargeRate
+  href: api/StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.html#StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_ShieldRechargeRate
+  commentId: P:StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.ShieldRechargeRate
+  fullName: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.ShieldRechargeRate
+  nameWithType: PlayerModel.ShieldRechargeRate
+- uid: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.ShieldRechargeRate*
+  name: ShieldRechargeRate
+  href: api/StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.html#StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_ShieldRechargeRate_
+  commentId: Overload:StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.ShieldRechargeRate
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.ShieldRechargeRate
+  nameWithType: PlayerModel.ShieldRechargeRate
 - uid: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.Start
   name: Start()
   href: api/StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.html#StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_Start
@@ -16613,19 +16795,32 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.Start
   nameWithType: PlayerModel.Start
-- uid: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.TakeDamage(System.Single)
-  name: TakeDamage(Single)
-  href: api/StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.html#StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_TakeDamage_System_Single_
-  commentId: M:StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.TakeDamage(System.Single)
-  fullName: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.TakeDamage(System.Single)
-  nameWithType: PlayerModel.TakeDamage(Single)
-- uid: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.TakeDamage*
-  name: TakeDamage
-  href: api/StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.html#StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_TakeDamage_
-  commentId: Overload:StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.TakeDamage
+- uid: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.TakeHealthDamage(System.Single)
+  name: TakeHealthDamage(Single)
+  href: api/StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.html#StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_TakeHealthDamage_System_Single_
+  commentId: M:StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.TakeHealthDamage(System.Single)
+  fullName: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.TakeHealthDamage(System.Single)
+  nameWithType: PlayerModel.TakeHealthDamage(Single)
+- uid: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.TakeHealthDamage*
+  name: TakeHealthDamage
+  href: api/StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.html#StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_TakeHealthDamage_
+  commentId: Overload:StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.TakeHealthDamage
   isSpec: "True"
-  fullName: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.TakeDamage
-  nameWithType: PlayerModel.TakeDamage
+  fullName: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.TakeHealthDamage
+  nameWithType: PlayerModel.TakeHealthDamage
+- uid: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.TakeShieldDamage(System.Single)
+  name: TakeShieldDamage(Single)
+  href: api/StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.html#StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_TakeShieldDamage_System_Single_
+  commentId: M:StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.TakeShieldDamage(System.Single)
+  fullName: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.TakeShieldDamage(System.Single)
+  nameWithType: PlayerModel.TakeShieldDamage(Single)
+- uid: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.TakeShieldDamage*
+  name: TakeShieldDamage
+  href: api/StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.html#StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_TakeShieldDamage_
+  commentId: Overload:StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.TakeShieldDamage
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.TakeShieldDamage
+  nameWithType: PlayerModel.TakeShieldDamage
 - uid: StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.Teleport(Vector3,Quaternion)
   name: Teleport(Vector3, Quaternion)
   href: api/StormHawks.Runtime.Models.Runtime.Models.Players.PlayerModel.html#StormHawks_Runtime_Models_Runtime_Models_Players_PlayerModel_Teleport_Vector3_Quaternion_
@@ -20450,12 +20645,12 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Players.PlayerHealthPresenter.AggroTargetCollider
   nameWithType: PlayerHealthPresenter.AggroTargetCollider
-- uid: StormHawks.Runtime.Players.PlayerHealthPresenter.Construct(PlayerModel)
-  name: Construct(PlayerModel)
-  href: api/StormHawks.Runtime.Players.PlayerHealthPresenter.html#StormHawks_Runtime_Players_PlayerHealthPresenter_Construct_PlayerModel_
-  commentId: M:StormHawks.Runtime.Players.PlayerHealthPresenter.Construct(PlayerModel)
-  fullName: StormHawks.Runtime.Players.PlayerHealthPresenter.Construct(PlayerModel)
-  nameWithType: PlayerHealthPresenter.Construct(PlayerModel)
+- uid: StormHawks.Runtime.Players.PlayerHealthPresenter.Construct(IPlayerHealth,IPlayerAggro)
+  name: Construct(IPlayerHealth, IPlayerAggro)
+  href: api/StormHawks.Runtime.Players.PlayerHealthPresenter.html#StormHawks_Runtime_Players_PlayerHealthPresenter_Construct_IPlayerHealth_IPlayerAggro_
+  commentId: M:StormHawks.Runtime.Players.PlayerHealthPresenter.Construct(IPlayerHealth,IPlayerAggro)
+  fullName: StormHawks.Runtime.Players.PlayerHealthPresenter.Construct(IPlayerHealth, IPlayerAggro)
+  nameWithType: PlayerHealthPresenter.Construct(IPlayerHealth, IPlayerAggro)
 - uid: StormHawks.Runtime.Players.PlayerHealthPresenter.Construct*
   name: Construct
   href: api/StormHawks.Runtime.Players.PlayerHealthPresenter.html#StormHawks_Runtime_Players_PlayerHealthPresenter_Construct_
@@ -20476,6 +20671,19 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Players.PlayerHealthPresenter.GetAggroTarget
   nameWithType: PlayerHealthPresenter.GetAggroTarget
+- uid: StormHawks.Runtime.Players.PlayerHealthPresenter.Heal(System.Single)
+  name: Heal(Single)
+  href: api/StormHawks.Runtime.Players.PlayerHealthPresenter.html#StormHawks_Runtime_Players_PlayerHealthPresenter_Heal_System_Single_
+  commentId: M:StormHawks.Runtime.Players.PlayerHealthPresenter.Heal(System.Single)
+  fullName: StormHawks.Runtime.Players.PlayerHealthPresenter.Heal(System.Single)
+  nameWithType: PlayerHealthPresenter.Heal(Single)
+- uid: StormHawks.Runtime.Players.PlayerHealthPresenter.Heal*
+  name: Heal
+  href: api/StormHawks.Runtime.Players.PlayerHealthPresenter.html#StormHawks_Runtime_Players_PlayerHealthPresenter_Heal_
+  commentId: Overload:StormHawks.Runtime.Players.PlayerHealthPresenter.Heal
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Players.PlayerHealthPresenter.Heal
+  nameWithType: PlayerHealthPresenter.Heal
 - uid: StormHawks.Runtime.Players.PlayerHealthPresenter.TakeDamage(Damage)
   name: TakeDamage(Damage)
   href: api/StormHawks.Runtime.Players.PlayerHealthPresenter.html#StormHawks_Runtime_Players_PlayerHealthPresenter_TakeDamage_Damage_
@@ -20507,96 +20715,6 @@ references:
   commentId: F:StormHawks.Runtime.Players.PlayerRespawnInfo.RespawnPoint
   fullName: StormHawks.Runtime.Players.PlayerRespawnInfo.RespawnPoint
   nameWithType: PlayerRespawnInfo.RespawnPoint
-- uid: StormHawks.Runtime.Players.PlayerShield
-  name: PlayerShield
-  href: api/StormHawks.Runtime.Players.PlayerShield.html
-  commentId: T:StormHawks.Runtime.Players.PlayerShield
-  fullName: StormHawks.Runtime.Players.PlayerShield
-  nameWithType: PlayerShield
-- uid: StormHawks.Runtime.Players.PlayerShield.CurrentHealth
-  name: CurrentHealth
-  href: api/StormHawks.Runtime.Players.PlayerShield.html#StormHawks_Runtime_Players_PlayerShield_CurrentHealth
-  commentId: P:StormHawks.Runtime.Players.PlayerShield.CurrentHealth
-  fullName: StormHawks.Runtime.Players.PlayerShield.CurrentHealth
-  nameWithType: PlayerShield.CurrentHealth
-- uid: StormHawks.Runtime.Players.PlayerShield.CurrentHealth*
-  name: CurrentHealth
-  href: api/StormHawks.Runtime.Players.PlayerShield.html#StormHawks_Runtime_Players_PlayerShield_CurrentHealth_
-  commentId: Overload:StormHawks.Runtime.Players.PlayerShield.CurrentHealth
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Players.PlayerShield.CurrentHealth
-  nameWithType: PlayerShield.CurrentHealth
-- uid: StormHawks.Runtime.Players.PlayerShield.CurrentShieldHealth
-  name: CurrentShieldHealth
-  href: api/StormHawks.Runtime.Players.PlayerShield.html#StormHawks_Runtime_Players_PlayerShield_CurrentShieldHealth
-  commentId: P:StormHawks.Runtime.Players.PlayerShield.CurrentShieldHealth
-  fullName: StormHawks.Runtime.Players.PlayerShield.CurrentShieldHealth
-  nameWithType: PlayerShield.CurrentShieldHealth
-- uid: StormHawks.Runtime.Players.PlayerShield.CurrentShieldHealth*
-  name: CurrentShieldHealth
-  href: api/StormHawks.Runtime.Players.PlayerShield.html#StormHawks_Runtime_Players_PlayerShield_CurrentShieldHealth_
-  commentId: Overload:StormHawks.Runtime.Players.PlayerShield.CurrentShieldHealth
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Players.PlayerShield.CurrentShieldHealth
-  nameWithType: PlayerShield.CurrentShieldHealth
-- uid: StormHawks.Runtime.Players.PlayerShield.DisableShield
-  name: DisableShield()
-  href: api/StormHawks.Runtime.Players.PlayerShield.html#StormHawks_Runtime_Players_PlayerShield_DisableShield
-  commentId: M:StormHawks.Runtime.Players.PlayerShield.DisableShield
-  fullName: StormHawks.Runtime.Players.PlayerShield.DisableShield()
-  nameWithType: PlayerShield.DisableShield()
-- uid: StormHawks.Runtime.Players.PlayerShield.DisableShield*
-  name: DisableShield
-  href: api/StormHawks.Runtime.Players.PlayerShield.html#StormHawks_Runtime_Players_PlayerShield_DisableShield_
-  commentId: Overload:StormHawks.Runtime.Players.PlayerShield.DisableShield
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Players.PlayerShield.DisableShield
-  nameWithType: PlayerShield.DisableShield
-- uid: StormHawks.Runtime.Players.PlayerShield.EnableShield
-  name: EnableShield()
-  href: api/StormHawks.Runtime.Players.PlayerShield.html#StormHawks_Runtime_Players_PlayerShield_EnableShield
-  commentId: M:StormHawks.Runtime.Players.PlayerShield.EnableShield
-  fullName: StormHawks.Runtime.Players.PlayerShield.EnableShield()
-  nameWithType: PlayerShield.EnableShield()
-- uid: StormHawks.Runtime.Players.PlayerShield.EnableShield*
-  name: EnableShield
-  href: api/StormHawks.Runtime.Players.PlayerShield.html#StormHawks_Runtime_Players_PlayerShield_EnableShield_
-  commentId: Overload:StormHawks.Runtime.Players.PlayerShield.EnableShield
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Players.PlayerShield.EnableShield
-  nameWithType: PlayerShield.EnableShield
-- uid: StormHawks.Runtime.Players.PlayerShield.IsShieldEnabled
-  name: IsShieldEnabled
-  href: api/StormHawks.Runtime.Players.PlayerShield.html#StormHawks_Runtime_Players_PlayerShield_IsShieldEnabled
-  commentId: P:StormHawks.Runtime.Players.PlayerShield.IsShieldEnabled
-  fullName: StormHawks.Runtime.Players.PlayerShield.IsShieldEnabled
-  nameWithType: PlayerShield.IsShieldEnabled
-- uid: StormHawks.Runtime.Players.PlayerShield.IsShieldEnabled*
-  name: IsShieldEnabled
-  href: api/StormHawks.Runtime.Players.PlayerShield.html#StormHawks_Runtime_Players_PlayerShield_IsShieldEnabled_
-  commentId: Overload:StormHawks.Runtime.Players.PlayerShield.IsShieldEnabled
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Players.PlayerShield.IsShieldEnabled
-  nameWithType: PlayerShield.IsShieldEnabled
-- uid: StormHawks.Runtime.Players.PlayerShield.TakeDamage(Damage)
-  name: TakeDamage(Damage)
-  href: api/StormHawks.Runtime.Players.PlayerShield.html#StormHawks_Runtime_Players_PlayerShield_TakeDamage_Damage_
-  commentId: M:StormHawks.Runtime.Players.PlayerShield.TakeDamage(Damage)
-  fullName: StormHawks.Runtime.Players.PlayerShield.TakeDamage(Damage)
-  nameWithType: PlayerShield.TakeDamage(Damage)
-- uid: StormHawks.Runtime.Players.PlayerShield.TakeDamage(System.Single)
-  name: TakeDamage(Single)
-  href: api/StormHawks.Runtime.Players.PlayerShield.html#StormHawks_Runtime_Players_PlayerShield_TakeDamage_System_Single_
-  commentId: M:StormHawks.Runtime.Players.PlayerShield.TakeDamage(System.Single)
-  fullName: StormHawks.Runtime.Players.PlayerShield.TakeDamage(System.Single)
-  nameWithType: PlayerShield.TakeDamage(Single)
-- uid: StormHawks.Runtime.Players.PlayerShield.TakeDamage*
-  name: TakeDamage
-  href: api/StormHawks.Runtime.Players.PlayerShield.html#StormHawks_Runtime_Players_PlayerShield_TakeDamage_
-  commentId: Overload:StormHawks.Runtime.Players.PlayerShield.TakeDamage
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Players.PlayerShield.TakeDamage
-  nameWithType: PlayerShield.TakeDamage
 - uid: StormHawks.Runtime.Players.SpeedLineHandler
   name: SpeedLineHandler
   href: api/StormHawks.Runtime.Players.SpeedLineHandler.html
@@ -24191,6 +24309,69 @@ references:
   commentId: T:StormHawks.Runtime.Presenters.Runtime.Presenters.PlayerPresenter
   fullName: StormHawks.Runtime.Presenters.Runtime.Presenters.PlayerPresenter
   nameWithType: PlayerPresenter
+- uid: StormHawks.Runtime.Presenters.Runtime.Presenters.Players
+  name: StormHawks.Runtime.Presenters.Runtime.Presenters.Players
+  href: api/StormHawks.Runtime.Presenters.Runtime.Presenters.Players.html
+  commentId: N:StormHawks.Runtime.Presenters.Runtime.Presenters.Players
+  fullName: StormHawks.Runtime.Presenters.Runtime.Presenters.Players
+  nameWithType: StormHawks.Runtime.Presenters.Runtime.Presenters.Players
+- uid: StormHawks.Runtime.Presenters.Runtime.Presenters.Players.PlayerShieldPresenter
+  name: PlayerShieldPresenter
+  href: api/StormHawks.Runtime.Presenters.Runtime.Presenters.Players.PlayerShieldPresenter.html
+  commentId: T:StormHawks.Runtime.Presenters.Runtime.Presenters.Players.PlayerShieldPresenter
+  fullName: StormHawks.Runtime.Presenters.Runtime.Presenters.Players.PlayerShieldPresenter
+  nameWithType: PlayerShieldPresenter
+- uid: StormHawks.Runtime.Presenters.Runtime.Presenters.Players.PlayerShieldPresenter.IsShieldActive
+  name: IsShieldActive
+  href: api/StormHawks.Runtime.Presenters.Runtime.Presenters.Players.PlayerShieldPresenter.html#StormHawks_Runtime_Presenters_Runtime_Presenters_Players_PlayerShieldPresenter_IsShieldActive
+  commentId: P:StormHawks.Runtime.Presenters.Runtime.Presenters.Players.PlayerShieldPresenter.IsShieldActive
+  fullName: StormHawks.Runtime.Presenters.Runtime.Presenters.Players.PlayerShieldPresenter.IsShieldActive
+  nameWithType: PlayerShieldPresenter.IsShieldActive
+- uid: StormHawks.Runtime.Presenters.Runtime.Presenters.Players.PlayerShieldPresenter.IsShieldActive*
+  name: IsShieldActive
+  href: api/StormHawks.Runtime.Presenters.Runtime.Presenters.Players.PlayerShieldPresenter.html#StormHawks_Runtime_Presenters_Runtime_Presenters_Players_PlayerShieldPresenter_IsShieldActive_
+  commentId: Overload:StormHawks.Runtime.Presenters.Runtime.Presenters.Players.PlayerShieldPresenter.IsShieldActive
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.Runtime.Presenters.Players.PlayerShieldPresenter.IsShieldActive
+  nameWithType: PlayerShieldPresenter.IsShieldActive
+- uid: StormHawks.Runtime.Presenters.Runtime.Presenters.Players.PlayerShieldPresenter.Recharge(System.Single)
+  name: Recharge(Single)
+  href: api/StormHawks.Runtime.Presenters.Runtime.Presenters.Players.PlayerShieldPresenter.html#StormHawks_Runtime_Presenters_Runtime_Presenters_Players_PlayerShieldPresenter_Recharge_System_Single_
+  commentId: M:StormHawks.Runtime.Presenters.Runtime.Presenters.Players.PlayerShieldPresenter.Recharge(System.Single)
+  fullName: StormHawks.Runtime.Presenters.Runtime.Presenters.Players.PlayerShieldPresenter.Recharge(System.Single)
+  nameWithType: PlayerShieldPresenter.Recharge(Single)
+- uid: StormHawks.Runtime.Presenters.Runtime.Presenters.Players.PlayerShieldPresenter.Recharge*
+  name: Recharge
+  href: api/StormHawks.Runtime.Presenters.Runtime.Presenters.Players.PlayerShieldPresenter.html#StormHawks_Runtime_Presenters_Runtime_Presenters_Players_PlayerShieldPresenter_Recharge_
+  commentId: Overload:StormHawks.Runtime.Presenters.Runtime.Presenters.Players.PlayerShieldPresenter.Recharge
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.Runtime.Presenters.Players.PlayerShieldPresenter.Recharge
+  nameWithType: PlayerShieldPresenter.Recharge
+- uid: StormHawks.Runtime.Presenters.Runtime.Presenters.Players.PlayerShieldPresenter.TakeDamage(Damage)
+  name: TakeDamage(Damage)
+  href: api/StormHawks.Runtime.Presenters.Runtime.Presenters.Players.PlayerShieldPresenter.html#StormHawks_Runtime_Presenters_Runtime_Presenters_Players_PlayerShieldPresenter_TakeDamage_Damage_
+  commentId: M:StormHawks.Runtime.Presenters.Runtime.Presenters.Players.PlayerShieldPresenter.TakeDamage(Damage)
+  fullName: StormHawks.Runtime.Presenters.Runtime.Presenters.Players.PlayerShieldPresenter.TakeDamage(Damage)
+  nameWithType: PlayerShieldPresenter.TakeDamage(Damage)
+- uid: StormHawks.Runtime.Presenters.Runtime.Presenters.Players.PlayerShieldPresenter.TakeDamage*
+  name: TakeDamage
+  href: api/StormHawks.Runtime.Presenters.Runtime.Presenters.Players.PlayerShieldPresenter.html#StormHawks_Runtime_Presenters_Runtime_Presenters_Players_PlayerShieldPresenter_TakeDamage_
+  commentId: Overload:StormHawks.Runtime.Presenters.Runtime.Presenters.Players.PlayerShieldPresenter.TakeDamage
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.Runtime.Presenters.Players.PlayerShieldPresenter.TakeDamage
+  nameWithType: PlayerShieldPresenter.TakeDamage
+- uid: StormHawks.Runtime.Presenters.Runtime.Presenters.Players.States
+  name: StormHawks.Runtime.Presenters.Runtime.Presenters.Players.States
+  href: api/StormHawks.Runtime.Presenters.Runtime.Presenters.Players.States.html
+  commentId: N:StormHawks.Runtime.Presenters.Runtime.Presenters.Players.States
+  fullName: StormHawks.Runtime.Presenters.Runtime.Presenters.Players.States
+  nameWithType: StormHawks.Runtime.Presenters.Runtime.Presenters.Players.States
+- uid: StormHawks.Runtime.Presenters.Runtime.Presenters.Players.States.PlayerHapticReactPresenter
+  name: PlayerHapticReactPresenter
+  href: api/StormHawks.Runtime.Presenters.Runtime.Presenters.Players.States.PlayerHapticReactPresenter.html
+  commentId: T:StormHawks.Runtime.Presenters.Runtime.Presenters.Players.States.PlayerHapticReactPresenter
+  fullName: StormHawks.Runtime.Presenters.Runtime.Presenters.Players.States.PlayerHapticReactPresenter
+  nameWithType: PlayerHapticReactPresenter
 - uid: StormHawks.Runtime.Presenters.Runtime.Presenters.UI
   name: StormHawks.Runtime.Presenters.Runtime.Presenters.UI
   href: api/StormHawks.Runtime.Presenters.Runtime.Presenters.UI.html
@@ -27882,6 +28063,12 @@ references:
   commentId: N:StormHawks.Runtime.UI.Players
   fullName: StormHawks.Runtime.UI.Players
   nameWithType: StormHawks.Runtime.UI.Players
+- uid: StormHawks.Runtime.UI.Players.BossHealthUI
+  name: BossHealthUI
+  href: api/StormHawks.Runtime.UI.Players.BossHealthUI.html
+  commentId: T:StormHawks.Runtime.UI.Players.BossHealthUI
+  fullName: StormHawks.Runtime.UI.Players.BossHealthUI
+  nameWithType: BossHealthUI
 - uid: StormHawks.Runtime.UI.Players.BossRadarIndicatorUI
   name: BossRadarIndicatorUI
   href: api/StormHawks.Runtime.UI.Players.BossRadarIndicatorUI.html
@@ -27997,12 +28184,6 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.UI.Players.OnSightChangeUI.OnSight
   nameWithType: OnSightChangeUI.OnSight
-- uid: StormHawks.Runtime.UI.Players.OnSightChangeUI.OnSightSequence
-  name: OnSightSequence
-  href: api/StormHawks.Runtime.UI.Players.OnSightChangeUI.html#StormHawks_Runtime_UI_Players_OnSightChangeUI_OnSightSequence
-  commentId: F:StormHawks.Runtime.UI.Players.OnSightChangeUI.OnSightSequence
-  fullName: StormHawks.Runtime.UI.Players.OnSightChangeUI.OnSightSequence
-  nameWithType: OnSightChangeUI.OnSightSequence
 - uid: StormHawks.Runtime.UI.Players.OnSightChangeUI.OutSight
   name: OutSight()
   href: api/StormHawks.Runtime.UI.Players.OnSightChangeUI.html#StormHawks_Runtime_UI_Players_OnSightChangeUI_OutSight
@@ -28016,12 +28197,112 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.UI.Players.OnSightChangeUI.OutSight
   nameWithType: OnSightChangeUI.OutSight
-- uid: StormHawks.Runtime.UI.Players.OnSightChangeUI.OutSightSequence
-  name: OutSightSequence
-  href: api/StormHawks.Runtime.UI.Players.OnSightChangeUI.html#StormHawks_Runtime_UI_Players_OnSightChangeUI_OutSightSequence
-  commentId: F:StormHawks.Runtime.UI.Players.OnSightChangeUI.OutSightSequence
-  fullName: StormHawks.Runtime.UI.Players.OnSightChangeUI.OutSightSequence
-  nameWithType: OnSightChangeUI.OutSightSequence
+- uid: StormHawks.Runtime.UI.Players.States
+  name: StormHawks.Runtime.UI.Players.States
+  href: api/StormHawks.Runtime.UI.Players.States.html
+  commentId: N:StormHawks.Runtime.UI.Players.States
+  fullName: StormHawks.Runtime.UI.Players.States
+  nameWithType: StormHawks.Runtime.UI.Players.States
+- uid: StormHawks.Runtime.UI.Players.States.FacilityHealthUI
+  name: FacilityHealthUI
+  href: api/StormHawks.Runtime.UI.Players.States.FacilityHealthUI.html
+  commentId: T:StormHawks.Runtime.UI.Players.States.FacilityHealthUI
+  fullName: StormHawks.Runtime.UI.Players.States.FacilityHealthUI
+  nameWithType: FacilityHealthUI
+- uid: StormHawks.Runtime.UI.Players.States.PlayerHealthUI
+  name: PlayerHealthUI
+  href: api/StormHawks.Runtime.UI.Players.States.PlayerHealthUI.html
+  commentId: T:StormHawks.Runtime.UI.Players.States.PlayerHealthUI
+  fullName: StormHawks.Runtime.UI.Players.States.PlayerHealthUI
+  nameWithType: PlayerHealthUI
+- uid: StormHawks.Runtime.UI.Players.States.PlayerShieldUI
+  name: PlayerShieldUI
+  href: api/StormHawks.Runtime.UI.Players.States.PlayerShieldUI.html
+  commentId: T:StormHawks.Runtime.UI.Players.States.PlayerShieldUI
+  fullName: StormHawks.Runtime.UI.Players.States.PlayerShieldUI
+  nameWithType: PlayerShieldUI
+- uid: StormHawks.Runtime.UI.Players.States.StateHorizontalUI
+  name: StateHorizontalUI
+  href: api/StormHawks.Runtime.UI.Players.States.StateHorizontalUI.html
+  commentId: T:StormHawks.Runtime.UI.Players.States.StateHorizontalUI
+  fullName: StormHawks.Runtime.UI.Players.States.StateHorizontalUI
+  nameWithType: StateHorizontalUI
+- uid: StormHawks.Runtime.UI.Players.States.StateHorizontalUI.Reset
+  name: Reset()
+  href: api/StormHawks.Runtime.UI.Players.States.StateHorizontalUI.html#StormHawks_Runtime_UI_Players_States_StateHorizontalUI_Reset
+  commentId: M:StormHawks.Runtime.UI.Players.States.StateHorizontalUI.Reset
+  fullName: StormHawks.Runtime.UI.Players.States.StateHorizontalUI.Reset()
+  nameWithType: StateHorizontalUI.Reset()
+- uid: StormHawks.Runtime.UI.Players.States.StateHorizontalUI.Reset*
+  name: Reset
+  href: api/StormHawks.Runtime.UI.Players.States.StateHorizontalUI.html#StormHawks_Runtime_UI_Players_States_StateHorizontalUI_Reset_
+  commentId: Overload:StormHawks.Runtime.UI.Players.States.StateHorizontalUI.Reset
+  isSpec: "True"
+  fullName: StormHawks.Runtime.UI.Players.States.StateHorizontalUI.Reset
+  nameWithType: StateHorizontalUI.Reset
+- uid: StormHawks.Runtime.UI.Players.States.StateRadialUI
+  name: StateRadialUI
+  href: api/StormHawks.Runtime.UI.Players.States.StateRadialUI.html
+  commentId: T:StormHawks.Runtime.UI.Players.States.StateRadialUI
+  fullName: StormHawks.Runtime.UI.Players.States.StateRadialUI
+  nameWithType: StateRadialUI
+- uid: StormHawks.Runtime.UI.Players.States.StateRadialUI.Reset
+  name: Reset()
+  href: api/StormHawks.Runtime.UI.Players.States.StateRadialUI.html#StormHawks_Runtime_UI_Players_States_StateRadialUI_Reset
+  commentId: M:StormHawks.Runtime.UI.Players.States.StateRadialUI.Reset
+  fullName: StormHawks.Runtime.UI.Players.States.StateRadialUI.Reset()
+  nameWithType: StateRadialUI.Reset()
+- uid: StormHawks.Runtime.UI.Players.States.StateRadialUI.Reset*
+  name: Reset
+  href: api/StormHawks.Runtime.UI.Players.States.StateRadialUI.html#StormHawks_Runtime_UI_Players_States_StateRadialUI_Reset_
+  commentId: Overload:StormHawks.Runtime.UI.Players.States.StateRadialUI.Reset
+  isSpec: "True"
+  fullName: StormHawks.Runtime.UI.Players.States.StateRadialUI.Reset
+  nameWithType: StateRadialUI.Reset
+- uid: StormHawks.Runtime.UI.Players.States.StateUI
+  name: StateUI
+  href: api/StormHawks.Runtime.UI.Players.States.StateUI.html
+  commentId: T:StormHawks.Runtime.UI.Players.States.StateUI
+  fullName: StormHawks.Runtime.UI.Players.States.StateUI
+  nameWithType: StateUI
+- uid: StormHawks.Runtime.UI.Players.States.StateUI.Gauge
+  name: Gauge
+  href: api/StormHawks.Runtime.UI.Players.States.StateUI.html#StormHawks_Runtime_UI_Players_States_StateUI_Gauge
+  commentId: F:StormHawks.Runtime.UI.Players.States.StateUI.Gauge
+  fullName: StormHawks.Runtime.UI.Players.States.StateUI.Gauge
+  nameWithType: StateUI.Gauge
+- uid: StormHawks.Runtime.UI.Players.States.StateUI.Reset
+  name: Reset()
+  href: api/StormHawks.Runtime.UI.Players.States.StateUI.html#StormHawks_Runtime_UI_Players_States_StateUI_Reset
+  commentId: M:StormHawks.Runtime.UI.Players.States.StateUI.Reset
+  fullName: StormHawks.Runtime.UI.Players.States.StateUI.Reset()
+  nameWithType: StateUI.Reset()
+- uid: StormHawks.Runtime.UI.Players.States.StateUI.Reset*
+  name: Reset
+  href: api/StormHawks.Runtime.UI.Players.States.StateUI.html#StormHawks_Runtime_UI_Players_States_StateUI_Reset_
+  commentId: Overload:StormHawks.Runtime.UI.Players.States.StateUI.Reset
+  isSpec: "True"
+  fullName: StormHawks.Runtime.UI.Players.States.StateUI.Reset
+  nameWithType: StateUI.Reset
+- uid: StormHawks.Runtime.UI.Players.States.StateVerticalUI
+  name: StateVerticalUI
+  href: api/StormHawks.Runtime.UI.Players.States.StateVerticalUI.html
+  commentId: T:StormHawks.Runtime.UI.Players.States.StateVerticalUI
+  fullName: StormHawks.Runtime.UI.Players.States.StateVerticalUI
+  nameWithType: StateVerticalUI
+- uid: StormHawks.Runtime.UI.Players.States.StateVerticalUI.Reset
+  name: Reset()
+  href: api/StormHawks.Runtime.UI.Players.States.StateVerticalUI.html#StormHawks_Runtime_UI_Players_States_StateVerticalUI_Reset
+  commentId: M:StormHawks.Runtime.UI.Players.States.StateVerticalUI.Reset
+  fullName: StormHawks.Runtime.UI.Players.States.StateVerticalUI.Reset()
+  nameWithType: StateVerticalUI.Reset()
+- uid: StormHawks.Runtime.UI.Players.States.StateVerticalUI.Reset*
+  name: Reset
+  href: api/StormHawks.Runtime.UI.Players.States.StateVerticalUI.html#StormHawks_Runtime_UI_Players_States_StateVerticalUI_Reset_
+  commentId: Overload:StormHawks.Runtime.UI.Players.States.StateVerticalUI.Reset
+  isSpec: "True"
+  fullName: StormHawks.Runtime.UI.Players.States.StateVerticalUI.Reset
+  nameWithType: StateVerticalUI.Reset
 - uid: StormHawks.Runtime.UI.PlayerThrustUIHandler
   name: PlayerThrustUIHandler
   href: api/StormHawks.Runtime.UI.PlayerThrustUIHandler.html

@@ -99,7 +99,7 @@
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="StormHawks_Runtime_Players_PlayerHealthPresenter_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class PlayerHealthPresenter : MonoBehaviour, IAggressiveTargetable</code></pre>
+    <pre><code class="lang-csharp hljs">public class PlayerHealthPresenter : InjectableMonoBehaviour, IAggressiveTargetable</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
@@ -133,12 +133,12 @@
   
   
   <a id="StormHawks_Runtime_Players_PlayerHealthPresenter_Construct_" data-uid="StormHawks.Runtime.Players.PlayerHealthPresenter.Construct*"></a>
-  <h4 id="StormHawks_Runtime_Players_PlayerHealthPresenter_Construct_PlayerModel_" data-uid="StormHawks.Runtime.Players.PlayerHealthPresenter.Construct(PlayerModel)">Construct(PlayerModel)</h4>
+  <h4 id="StormHawks_Runtime_Players_PlayerHealthPresenter_Construct_IPlayerHealth_IPlayerAggro_" data-uid="StormHawks.Runtime.Players.PlayerHealthPresenter.Construct(IPlayerHealth,IPlayerAggro)">Construct(IPlayerHealth, IPlayerAggro)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Construct(PlayerModel model)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Construct(IPlayerHealth playerHealth, IPlayerAggro playerAggro)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -151,8 +151,13 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">PlayerModel</span></td>
-        <td><span class="parametername">model</span></td>
+        <td><span class="xref">IPlayerHealth</span></td>
+        <td><span class="parametername">playerHealth</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">IPlayerAggro</span></td>
+        <td><span class="parametername">playerAggro</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -178,6 +183,33 @@
     <tbody>
       <tr>
         <td><span class="xref">AggroTarget</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StormHawks_Runtime_Players_PlayerHealthPresenter_Heal_" data-uid="StormHawks.Runtime.Players.PlayerHealthPresenter.Heal*"></a>
+  <h4 id="StormHawks_Runtime_Players_PlayerHealthPresenter_Heal_System_Single_" data-uid="StormHawks.Runtime.Players.PlayerHealthPresenter.Heal(System.Single)">Heal(Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Heal(float heal)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">heal</span></td>
         <td></td>
       </tr>
     </tbody>

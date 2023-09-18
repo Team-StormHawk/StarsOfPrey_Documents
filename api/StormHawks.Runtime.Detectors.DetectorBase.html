@@ -92,6 +92,7 @@
       <div class="level2"><a class="xref" href="StormHawks.Runtime.Detectors.AngleDetector.html">AngleDetector</a></div>
       <div class="level2"><a class="xref" href="StormHawks.Runtime.Detectors.BoxDetector.html">BoxDetector</a></div>
       <div class="level2"><a class="xref" href="StormHawks.Runtime.Detectors.Handlers.LineDetector.html">LineDetector</a></div>
+      <div class="level2"><a class="xref" href="StormHawks.Runtime.Detectors.JobDetectorBase.html">JobDetectorBase</a></div>
       <div class="level2"><a class="xref" href="StormHawks.Runtime.Detectors.SphereDetector.html">SphereDetector</a></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Detectors.html">StormHawks.Runtime.Detectors</a></h6>
@@ -100,19 +101,18 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public abstract class DetectorBase : MonoBehaviour</code></pre>
   </div>
-  <h3 id="properties">Properties
+  <h3 id="fields">Fields
   </h3>
   
   
-  <a id="StormHawks_Runtime_Detectors_DetectorBase_DetectLayer_" data-uid="StormHawks.Runtime.Detectors.DetectorBase.DetectLayer*"></a>
-  <h4 id="StormHawks_Runtime_Detectors_DetectorBase_DetectLayer" data-uid="StormHawks.Runtime.Detectors.DetectorBase.DetectLayer">DetectLayer</h4>
+  <h4 id="StormHawks_Runtime_Detectors_DetectorBase__detectLayer" data-uid="StormHawks.Runtime.Detectors.DetectorBase._detectLayer">_detectLayer</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public LayerMask DetectLayer { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">protected LayerMask _detectLayer</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -129,15 +129,38 @@
   </table>
   
   
-  <a id="StormHawks_Runtime_Detectors_DetectorBase_Player_" data-uid="StormHawks.Runtime.Detectors.DetectorBase.Player*"></a>
-  <h4 id="StormHawks_Runtime_Detectors_DetectorBase_Player" data-uid="StormHawks.Runtime.Detectors.DetectorBase.Player">Player</h4>
+  <h4 id="StormHawks_Runtime_Detectors_DetectorBase__maxDetectCount" data-uid="StormHawks.Runtime.Detectors.DetectorBase._maxDetectCount">_maxDetectCount</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Transform Player { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">protected int _maxDetectCount</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="StormHawks_Runtime_Detectors_DetectorBase__pivot" data-uid="StormHawks.Runtime.Detectors.DetectorBase._pivot">_pivot</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Transform _pivot</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>

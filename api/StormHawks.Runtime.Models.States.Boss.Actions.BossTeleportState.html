@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class BehaviorPlayer
+    <title>Class BossTeleportState
    | Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class BehaviorPlayer
+    <meta name="title" content="Class BossTeleportState
    | Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -78,47 +78,59 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Presenters.Behaviors.Players.BehaviorPlayer">
+            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Models.States.Boss.Actions.BossTeleportState">
   
   
-  <h1 id="StormHawks_Runtime_Presenters_Behaviors_Players_BehaviorPlayer" data-uid="StormHawks.Runtime.Presenters.Behaviors.Players.BehaviorPlayer" class="text-break">Class BehaviorPlayer
+  <h1 id="StormHawks_Runtime_Models_States_Boss_Actions_BossTeleportState" data-uid="StormHawks.Runtime.Models.States.Boss.Actions.BossTeleportState" class="text-break">Class BossTeleportState
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">BehaviorPlayer</span></div>
-      <div class="level2"><a class="xref" href="StormHawks.Runtime.Presenters.Behaviors.Players.Boss.BossBehaviorPlayer.html">BossBehaviorPlayer</a></div>
+    <div class="level1"><span class="xref">BossTeleportState</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Presenters.Behaviors.Players.html">StormHawks.Runtime.Presenters.Behaviors.Players</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Models.States.Boss.Actions.html">StormHawks.Runtime.Models.States.Boss.Actions</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="StormHawks_Runtime_Presenters_Behaviors_Players_BehaviorPlayer_syntax">Syntax</h5>
+  <h5 id="StormHawks_Runtime_Models_States_Boss_Actions_BossTeleportState_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class BehaviorPlayer : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public class BossTeleportState : BossActionState</code></pre>
   </div>
-  <h3 id="fields">Fields
+  <h3 id="constructors">Constructors
   </h3>
   
   
-  <h4 id="StormHawks_Runtime_Presenters_Behaviors_Players_BehaviorPlayer__behavior" data-uid="StormHawks.Runtime.Presenters.Behaviors.Players.BehaviorPlayer._behavior">_behavior</h4>
+  <a id="StormHawks_Runtime_Models_States_Boss_Actions_BossTeleportState__ctor_" data-uid="StormHawks.Runtime.Models.States.Boss.Actions.BossTeleportState.#ctor*"></a>
+  <h4 id="StormHawks_Runtime_Models_States_Boss_Actions_BossTeleportState__ctor_StormHawks_Runtime_Models_States_Boss_BossStateFactory_BossModel_IEntityAnimator_" data-uid="StormHawks.Runtime.Models.States.Boss.Actions.BossTeleportState.#ctor(StormHawks.Runtime.Models.States.Boss.BossStateFactory,BossModel,IEntityAnimator)">BossTeleportState(BossStateFactory, BossModel, IEntityAnimator)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected IEntityBehavior _behavior</code></pre>
+    <pre><code class="lang-csharp hljs">public BossTeleportState(BossStateFactory factory, BossModel model, IEntityAnimator animator)</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
+        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IEntityBehavior</span></td>
+        <td><a class="xref" href="StormHawks.Runtime.Models.States.Boss.BossStateFactory.html">BossStateFactory</a></td>
+        <td><span class="parametername">factory</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">BossModel</span></td>
+        <td><span class="parametername">model</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">IEntityAnimator</span></td>
+        <td><span class="parametername">animator</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -127,23 +139,43 @@
   </h3>
   
   
-  <a id="StormHawks_Runtime_Presenters_Behaviors_Players_BehaviorPlayer_Cancel_" data-uid="StormHawks.Runtime.Presenters.Behaviors.Players.BehaviorPlayer.Cancel*"></a>
-  <h4 id="StormHawks_Runtime_Presenters_Behaviors_Players_BehaviorPlayer_Cancel" data-uid="StormHawks.Runtime.Presenters.Behaviors.Players.BehaviorPlayer.Cancel">Cancel()</h4>
+  <a id="StormHawks_Runtime_Models_States_Boss_Actions_BossTeleportState_CheckSwitchState_" data-uid="StormHawks.Runtime.Models.States.Boss.Actions.BossTeleportState.CheckSwitchState*"></a>
+  <h4 id="StormHawks_Runtime_Models_States_Boss_Actions_BossTeleportState_CheckSwitchState" data-uid="StormHawks.Runtime.Models.States.Boss.Actions.BossTeleportState.CheckSwitchState">CheckSwitchState()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract void Cancel()</code></pre>
+    <pre><code class="lang-csharp hljs">public override void CheckSwitchState()</code></pre>
   </div>
   
   
-  <a id="StormHawks_Runtime_Presenters_Behaviors_Players_BehaviorPlayer_Play_" data-uid="StormHawks.Runtime.Presenters.Behaviors.Players.BehaviorPlayer.Play*"></a>
-  <h4 id="StormHawks_Runtime_Presenters_Behaviors_Players_BehaviorPlayer_Play" data-uid="StormHawks.Runtime.Presenters.Behaviors.Players.BehaviorPlayer.Play">Play()</h4>
+  <a id="StormHawks_Runtime_Models_States_Boss_Actions_BossTeleportState_Enter_" data-uid="StormHawks.Runtime.Models.States.Boss.Actions.BossTeleportState.Enter*"></a>
+  <h4 id="StormHawks_Runtime_Models_States_Boss_Actions_BossTeleportState_Enter" data-uid="StormHawks.Runtime.Models.States.Boss.Actions.BossTeleportState.Enter">Enter()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract void Play()</code></pre>
+    <pre><code class="lang-csharp hljs">public override void Enter()</code></pre>
+  </div>
+  
+  
+  <a id="StormHawks_Runtime_Models_States_Boss_Actions_BossTeleportState_Exit_" data-uid="StormHawks.Runtime.Models.States.Boss.Actions.BossTeleportState.Exit*"></a>
+  <h4 id="StormHawks_Runtime_Models_States_Boss_Actions_BossTeleportState_Exit" data-uid="StormHawks.Runtime.Models.States.Boss.Actions.BossTeleportState.Exit">Exit()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Exit()</code></pre>
+  </div>
+  
+  
+  <a id="StormHawks_Runtime_Models_States_Boss_Actions_BossTeleportState_UpdateState_" data-uid="StormHawks.Runtime.Models.States.Boss.Actions.BossTeleportState.UpdateState*"></a>
+  <h4 id="StormHawks_Runtime_Models_States_Boss_Actions_BossTeleportState_UpdateState" data-uid="StormHawks.Runtime.Models.States.Boss.Actions.BossTeleportState.UpdateState">UpdateState()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void UpdateState()</code></pre>
   </div>
 </article>
           </div>

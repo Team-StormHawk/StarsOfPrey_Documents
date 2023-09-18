@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class BossRushBehaviorPlayer
+    <title>Class BossRepeatState
    | Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class BossRushBehaviorPlayer
+    <meta name="title" content="Class BossRepeatState
    | Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -78,58 +78,95 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Presenters.Behaviors.Players.Boss.BossRushBehaviorPlayer">
+            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Models.Boss.States.Repeats.BossRepeatState">
   
   
-  <h1 id="StormHawks_Runtime_Presenters_Behaviors_Players_Boss_BossRushBehaviorPlayer" data-uid="StormHawks.Runtime.Presenters.Behaviors.Players.Boss.BossRushBehaviorPlayer" class="text-break">Class BossRushBehaviorPlayer
+  <h1 id="StormHawks_Runtime_Models_Boss_States_Repeats_BossRepeatState" data-uid="StormHawks.Runtime.Models.Boss.States.Repeats.BossRepeatState" class="text-break">Class BossRepeatState
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><a class="xref" href="StormHawks.Runtime.Presenters.Behaviors.Players.BehaviorPlayer.html">BehaviorPlayer</a></div>
-    <div class="level2"><a class="xref" href="StormHawks.Runtime.Presenters.Behaviors.Players.Boss.BossBehaviorPlayer.html">BossBehaviorPlayer</a></div>
-    <div class="level3"><span class="xref">BossRushBehaviorPlayer</span></div>
+    <div class="level1"><a class="xref" href="StormHawks.Runtime.Models.Boss.States.BossState.html">BossState</a></div>
+    <div class="level2"><span class="xref">BossRepeatState</span></div>
+      <div class="level3"><a class="xref" href="StormHawks.Runtime.Models.Boss.States.Repeats.BossIdleState.html">BossIdleState</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <a class="xref" href="StormHawks.Runtime.Presenters.Behaviors.Players.Boss.BossBehaviorPlayer.html#StormHawks_Runtime_Presenters_Behaviors_Players_Boss_BossBehaviorPlayer__settings">BossBehaviorPlayer._settings</a>
+      <a class="xref" href="StormHawks.Runtime.Models.Boss.States.BossState.html#StormHawks_Runtime_Models_Boss_States_BossState__model">BossState._model</a>
     </div>
     <div>
-      <a class="xref" href="StormHawks.Runtime.Presenters.Behaviors.Players.Boss.BossBehaviorPlayer.html#StormHawks_Runtime_Presenters_Behaviors_Players_Boss_BossBehaviorPlayer__bossPresenter">BossBehaviorPlayer._bossPresenter</a>
+      <a class="xref" href="StormHawks.Runtime.Models.Boss.States.BossState.html#StormHawks_Runtime_Models_Boss_States_BossState__stateFactory">BossState._stateFactory</a>
     </div>
     <div>
-      <a class="xref" href="StormHawks.Runtime.Presenters.Behaviors.Players.Boss.BossBehaviorPlayer.html#StormHawks_Runtime_Presenters_Behaviors_Players_Boss_BossBehaviorPlayer__animator">BossBehaviorPlayer._animator</a>
+      <a class="xref" href="StormHawks.Runtime.Models.Boss.States.BossState.html#StormHawks_Runtime_Models_Boss_States_BossState__animator">BossState._animator</a>
     </div>
     <div>
-      <a class="xref" href="StormHawks.Runtime.Presenters.Behaviors.Players.Boss.BossBehaviorPlayer.html#StormHawks_Runtime_Presenters_Behaviors_Players_Boss_BossBehaviorPlayer_Cancel">BossBehaviorPlayer.Cancel()</a>
+      <a class="xref" href="StormHawks.Runtime.Models.Boss.States.BossState.html#StormHawks_Runtime_Models_Boss_States_BossState__cancellation">BossState._cancellation</a>
     </div>
     <div>
-      <a class="xref" href="StormHawks.Runtime.Presenters.Behaviors.Players.BehaviorPlayer.html#StormHawks_Runtime_Presenters_Behaviors_Players_BehaviorPlayer__behavior">BehaviorPlayer._behavior</a>
+      <a class="xref" href="StormHawks.Runtime.Models.Boss.States.BossState.html#StormHawks_Runtime_Models_Boss_States_BossState_Enter">BossState.Enter()</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Models.Boss.States.BossState.html#StormHawks_Runtime_Models_Boss_States_BossState_Exit">BossState.Exit()</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Models.Boss.States.BossState.html#StormHawks_Runtime_Models_Boss_States_BossState_CheckSwitchState">BossState.CheckSwitchState()</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Models.Boss.States.BossState.html#StormHawks_Runtime_Models_Boss_States_BossState_UpdateState">BossState.UpdateState()</a>
+    </div>
+    <div>
+      <a class="xref" href="StormHawks.Runtime.Models.Boss.States.BossState.html#StormHawks_Runtime_Models_Boss_States_BossState_Log_System_String_">BossState.Log(String)</a>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Presenters.Behaviors.Players.Boss.html">StormHawks.Runtime.Presenters.Behaviors.Players.Boss</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Models.Boss.States.Repeats.html">StormHawks.Runtime.Models.Boss.States.Repeats</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="StormHawks_Runtime_Presenters_Behaviors_Players_Boss_BossRushBehaviorPlayer_syntax">Syntax</h5>
+  <h5 id="StormHawks_Runtime_Models_Boss_States_Repeats_BossRepeatState_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class BossRushBehaviorPlayer : BossBehaviorPlayer</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class BossRepeatState : BossState</code></pre>
   </div>
-  <h3 id="methods">Methods
+  <h3 id="constructors">Constructors
   </h3>
   
   
-  <a id="StormHawks_Runtime_Presenters_Behaviors_Players_Boss_BossRushBehaviorPlayer_Play_" data-uid="StormHawks.Runtime.Presenters.Behaviors.Players.Boss.BossRushBehaviorPlayer.Play*"></a>
-  <h4 id="StormHawks_Runtime_Presenters_Behaviors_Players_Boss_BossRushBehaviorPlayer_Play" data-uid="StormHawks.Runtime.Presenters.Behaviors.Players.Boss.BossRushBehaviorPlayer.Play">Play()</h4>
+  <a id="StormHawks_Runtime_Models_Boss_States_Repeats_BossRepeatState__ctor_" data-uid="StormHawks.Runtime.Models.Boss.States.Repeats.BossRepeatState.#ctor*"></a>
+  <h4 id="StormHawks_Runtime_Models_Boss_States_Repeats_BossRepeatState__ctor_BossStateFactory_BossModel_IEntityAnimator_" data-uid="StormHawks.Runtime.Models.Boss.States.Repeats.BossRepeatState.#ctor(BossStateFactory,BossModel,IEntityAnimator)">BossRepeatState(BossStateFactory, BossModel, IEntityAnimator)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void Play()</code></pre>
+    <pre><code class="lang-csharp hljs">protected BossRepeatState(BossStateFactory factory, BossModel model, IEntityAnimator animator)</code></pre>
   </div>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="StormHawks.Runtime.Presenters.Behaviors.Players.Boss.BossBehaviorPlayer.html#StormHawks_Runtime_Presenters_Behaviors_Players_Boss_BossBehaviorPlayer_Play">BossBehaviorPlayer.Play()</a></div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">BossStateFactory</span></td>
+        <td><span class="parametername">factory</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">BossModel</span></td>
+        <td><span class="parametername">model</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">IEntityAnimator</span></td>
+        <td><span class="parametername">animator</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           

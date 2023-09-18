@@ -101,12 +101,12 @@
   
   
   <a id="StormHawks_Runtime_GameFlows_GameFlowPresenter__ctor_" data-uid="StormHawks.Runtime.GameFlows.GameFlowPresenter.#ctor*"></a>
-  <h4 id="StormHawks_Runtime_GameFlows_GameFlowPresenter__ctor_BossModel_BossEyeModel_PowerPlantModel_BossTeleportSpotModelGetter_BossPathModelGetter_PlayerTeleportSpotGetter_PlayerFlightModel_PlayerModel_CutSceneLoader_PlayerWeaponModel_" data-uid="StormHawks.Runtime.GameFlows.GameFlowPresenter.#ctor(BossModel,BossEyeModel,PowerPlantModel,BossTeleportSpotModelGetter,BossPathModelGetter,PlayerTeleportSpotGetter,PlayerFlightModel,PlayerModel,CutSceneLoader,PlayerWeaponModel)">GameFlowPresenter(BossModel, BossEyeModel, PowerPlantModel, BossTeleportSpotModelGetter, BossPathModelGetter, PlayerTeleportSpotGetter, PlayerFlightModel, PlayerModel, CutSceneLoader, PlayerWeaponModel)</h4>
+  <h4 id="StormHawks_Runtime_GameFlows_GameFlowPresenter__ctor_BossModel_BossStateFactory_PowerPlantModel_BossTeleportSpotGetter_BossPathGetter_PlayerTeleportSpotGetter_PlayerFlightModel_PlayerModel_CutSceneLoader_PlayerWeaponModel_" data-uid="StormHawks.Runtime.GameFlows.GameFlowPresenter.#ctor(BossModel,BossStateFactory,PowerPlantModel,BossTeleportSpotGetter,BossPathGetter,PlayerTeleportSpotGetter,PlayerFlightModel,PlayerModel,CutSceneLoader,PlayerWeaponModel)">GameFlowPresenter(BossModel, BossStateFactory, PowerPlantModel, BossTeleportSpotGetter, BossPathGetter, PlayerTeleportSpotGetter, PlayerFlightModel, PlayerModel, CutSceneLoader, PlayerWeaponModel)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GameFlowPresenter(BossModel bossModel, BossEyeModel eyeModel, PowerPlantModel powerPlantModel, BossTeleportSpotModelGetter bossTeleportSpotGetter, BossPathModelGetter bossPathGetter, PlayerTeleportSpotGetter playerTeleportSpotGetter, PlayerFlightModel flightModel, PlayerModel playerModel, CutSceneLoader cutSceneLoader, PlayerWeaponModel playerWeaponModel)</code></pre>
+    <pre><code class="lang-csharp hljs">public GameFlowPresenter(BossModel bossModel, BossStateFactory bossStateFactory, PowerPlantModel powerPlantModel, BossTeleportSpotGetter bossTeleportSpotGetter, BossPathGetter bossPathGetter, PlayerTeleportSpotGetter playerTeleportSpotGetter, PlayerFlightModel flightModel, PlayerModel playerModel, CutSceneLoader cutSceneLoader, PlayerWeaponModel playerWeaponModel)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -124,8 +124,8 @@
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">BossEyeModel</span></td>
-        <td><span class="parametername">eyeModel</span></td>
+        <td><span class="xref">BossStateFactory</span></td>
+        <td><span class="parametername">bossStateFactory</span></td>
         <td></td>
       </tr>
       <tr>
@@ -134,12 +134,12 @@
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">BossTeleportSpotModelGetter</span></td>
+        <td><span class="xref">BossTeleportSpotGetter</span></td>
         <td><span class="parametername">bossTeleportSpotGetter</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">BossPathModelGetter</span></td>
+        <td><span class="xref">BossPathGetter</span></td>
         <td><span class="parametername">bossPathGetter</span></td>
         <td></td>
       </tr>

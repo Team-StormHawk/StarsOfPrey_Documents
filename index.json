@@ -534,15 +534,15 @@
     "title": "Class TextUtility | Developer Reference",
     "keywords": "Class TextUtility Inheritance Object TextUtility Namespace : StormHawks.Editor.Utilities Assembly : cs.temp.dll.dll Syntax public static class TextUtility Methods IsWhitespace(Char) Declaration public static bool IsWhitespace(this char character) Parameters Type Name Description Char character Returns Type Description Boolean RemoveSpecialCharacters(String) Declaration public static string RemoveSpecialCharacters(this string text) Parameters Type Name Description String text Returns Type Description String RemoveWhitespaces(String) Declaration public static string RemoveWhitespaces(this string text) Parameters Type Name Description String text Returns Type Description String"
   },
-  "api/StormHawks.Presenters.Environments.Paths.BossPathModelGetter.html": {
-    "href": "api/StormHawks.Presenters.Environments.Paths.BossPathModelGetter.html",
-    "title": "Class BossPathModelGetter | Developer Reference",
-    "keywords": "Class BossPathModelGetter Inheritance Object BossPathModelGetter Namespace : StormHawks.Presenters.Environments.Paths Assembly : cs.temp.dll.dll Syntax public class BossPathModelGetter : MonoBehaviour Methods Get(BossPathType) Declaration public BossPathModel Get(BossPathType type) Parameters Type Name Description BossPathType type Returns Type Description BossPathModel"
+  "api/StormHawks.Presenters.Environments.Paths.BossPathGetter.html": {
+    "href": "api/StormHawks.Presenters.Environments.Paths.BossPathGetter.html",
+    "title": "Class BossPathGetter | Developer Reference",
+    "keywords": "Class BossPathGetter Inheritance Object BossPathGetter Namespace : StormHawks.Presenters.Environments.Paths Assembly : cs.temp.dll.dll Syntax public class BossPathGetter : MonoBehaviour Methods Get(BossPathType) Declaration public IBossPath Get(BossPathType type) Parameters Type Name Description BossPathType type Returns Type Description IBossPath"
   },
   "api/StormHawks.Presenters.Environments.Paths.html": {
     "href": "api/StormHawks.Presenters.Environments.Paths.html",
     "title": "Namespace StormHawks.Presenters.Environments.Paths | Developer Reference",
-    "keywords": "Namespace StormHawks.Presenters.Environments.Paths Classes BossPathModelGetter"
+    "keywords": "Namespace StormHawks.Presenters.Environments.Paths Classes BossPathGetter"
   },
   "api/StormHawks.Runtime.Animators.AnimationTypeFormat.html": {
     "href": "api/StormHawks.Runtime.Animators.AnimationTypeFormat.html",
@@ -608,36 +608,6 @@
     "href": "api/StormHawks.Runtime.Attributes.html",
     "title": "Namespace StormHawks.Runtime.Attributes | Developer Reference",
     "keywords": "Namespace StormHawks.Runtime.Attributes Classes DataMenuAttribute"
-  },
-  "api/StormHawks.Runtime.Behaviors.Boss.BossBehavior.html": {
-    "href": "api/StormHawks.Runtime.Behaviors.Boss.BossBehavior.html",
-    "title": "Class BossBehavior | Developer Reference",
-    "keywords": "Class BossBehavior Inheritance Object EntityBehavior BossBehavior BossRushBehavior Implements IEntityBehavior Inherited Members EntityBehavior._cancellation EntityBehavior._isPlaying EntityBehavior.IsPlaying EntityBehavior.Execute(Action) EntityBehavior.Cancel() Namespace : StormHawks.Runtime.Behaviors.Boss Assembly : cs.temp.dll.dll Syntax public abstract class BossBehavior : EntityBehavior, IEntityBehavior Constructors BossBehavior(BossPresenter, IEntityAnimator, BossBehaviorSettings) Declaration public BossBehavior(BossPresenter bossPresenter, IEntityAnimator animator, BossBehaviorSettings settings) Parameters Type Name Description BossPresenter bossPresenter IEntityAnimator animator BossBehaviorSettings settings Fields _animator Declaration protected readonly IEntityAnimator _animator Field Value Type Description IEntityAnimator _bossPresenter Declaration protected readonly BossPresenter _bossPresenter Field Value Type Description BossPresenter _settings Declaration protected readonly BossBehaviorSettings _settings Field Value Type Description BossBehaviorSettings Implements IEntityBehavior"
-  },
-  "api/StormHawks.Runtime.Behaviors.Boss.BossRushBehavior.html": {
-    "href": "api/StormHawks.Runtime.Behaviors.Boss.BossRushBehavior.html",
-    "title": "Class BossRushBehavior | Developer Reference",
-    "keywords": "Class BossRushBehavior Inheritance Object EntityBehavior BossBehavior BossRushBehavior Implements IEntityBehavior Inherited Members BossBehavior._bossPresenter BossBehavior._animator BossBehavior._settings EntityBehavior._cancellation EntityBehavior._isPlaying EntityBehavior.IsPlaying EntityBehavior.Cancel() Namespace : StormHawks.Runtime.Behaviors.Boss Assembly : cs.temp.dll.dll Syntax public class BossRushBehavior : BossBehavior, IEntityBehavior Constructors BossRushBehavior(BossPresenter, IEntityAnimator, BossBehaviorSettings, Path) Declaration public BossRushBehavior(BossPresenter bossPresenter, IEntityAnimator animator, BossBehaviorSettings settings, Path retreatPath) Parameters Type Name Description BossPresenter bossPresenter IEntityAnimator animator BossBehaviorSettings settings Path retreatPath Methods Execute(Action) Declaration public override async UniTaskVoid Execute(Action onComplete = null) Parameters Type Name Description Action onComplete Returns Type Description UniTaskVoid Overrides EntityBehavior.Execute(Action) Implements IEntityBehavior"
-  },
-  "api/StormHawks.Runtime.Behaviors.Boss.html": {
-    "href": "api/StormHawks.Runtime.Behaviors.Boss.html",
-    "title": "Namespace StormHawks.Runtime.Behaviors.Boss | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Behaviors.Boss Classes BossBehavior BossRushBehavior"
-  },
-  "api/StormHawks.Runtime.Behaviors.EntityBehavior.html": {
-    "href": "api/StormHawks.Runtime.Behaviors.EntityBehavior.html",
-    "title": "Class EntityBehavior | Developer Reference",
-    "keywords": "Class EntityBehavior Inheritance Object EntityBehavior BossBehavior Implements IEntityBehavior Namespace : StormHawks.Runtime.Behaviors Assembly : cs.temp.dll.dll Syntax public abstract class EntityBehavior : IEntityBehavior Fields _cancellation Declaration protected CancellationTokenSource _cancellation Field Value Type Description CancellationTokenSource _isPlaying Declaration protected bool _isPlaying Field Value Type Description Boolean Properties IsPlaying Declaration public bool IsPlaying { get; } Property Value Type Description Boolean Methods Cancel() Declaration public virtual void Cancel() Execute(Action) Declaration public abstract UniTaskVoid Execute(Action onComplete = null) Parameters Type Name Description Action onComplete Returns Type Description UniTaskVoid Implements IEntityBehavior"
-  },
-  "api/StormHawks.Runtime.Behaviors.html": {
-    "href": "api/StormHawks.Runtime.Behaviors.html",
-    "title": "Namespace StormHawks.Runtime.Behaviors | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Behaviors Classes EntityBehavior Interfaces IEntityBehavior"
-  },
-  "api/StormHawks.Runtime.Behaviors.IEntityBehavior.html": {
-    "href": "api/StormHawks.Runtime.Behaviors.IEntityBehavior.html",
-    "title": "Interface IEntityBehavior | Developer Reference",
-    "keywords": "Interface IEntityBehavior Namespace : StormHawks.Runtime.Behaviors Assembly : cs.temp.dll.dll Syntax public interface IEntityBehavior Methods Cancel() Declaration void Cancel() Execute(Action) Declaration UniTaskVoid Execute(Action onComplete = null) Parameters Type Name Description Action onComplete Returns Type Description UniTaskVoid"
   },
   "api/StormHawks.Runtime.BehaviorTree.Core.Composites.html": {
     "href": "api/StormHawks.Runtime.BehaviorTree.Core.Composites.html",
@@ -977,7 +947,7 @@
   "api/StormHawks.Runtime.Environments.Portals.Portal.html": {
     "href": "api/StormHawks.Runtime.Environments.Portals.Portal.html",
     "title": "Class Portal | Developer Reference",
-    "keywords": "Class Portal Inheritance Object Portal Namespace : StormHawks.Runtime.Environments.Portals Assembly : cs.temp.dll.dll Syntax public class Portal : MonoBehaviour Methods Close() Declaration public async UniTask Close() Returns Type Description UniTask Open() Declaration public async UniTask Open() Returns Type Description UniTask"
+    "keywords": "Class Portal Inheritance Object Portal Namespace : StormHawks.Runtime.Environments.Portals Assembly : cs.temp.dll.dll Syntax public class Portal : MonoBehaviour Properties Duration Declaration public float Duration { get; } Property Value Type Description Single Methods Close() Declaration public void Close() Open() Declaration public void Open()"
   },
   "api/StormHawks.Runtime.Environments.Waypoints.EliteWaypoint.html": {
     "href": "api/StormHawks.Runtime.Environments.Waypoints.EliteWaypoint.html",
@@ -1127,7 +1097,7 @@
   "api/StormHawks.Runtime.GameFlows.GameFlowPresenter.html": {
     "href": "api/StormHawks.Runtime.GameFlows.GameFlowPresenter.html",
     "title": "Class GameFlowPresenter | Developer Reference",
-    "keywords": "Class GameFlowPresenter Inheritance Object GameFlowPresenter Namespace : StormHawks.Runtime.GameFlows Assembly : cs.temp.dll.dll Syntax public class GameFlowPresenter : IStartable Constructors GameFlowPresenter(BossModel, BossEyeModel, PowerPlantModel, BossTeleportSpotModelGetter, BossPathModelGetter, PlayerTeleportSpotGetter, PlayerFlightModel, PlayerModel, CutSceneLoader, PlayerWeaponModel) Declaration public GameFlowPresenter(BossModel bossModel, BossEyeModel eyeModel, PowerPlantModel powerPlantModel, BossTeleportSpotModelGetter bossTeleportSpotGetter, BossPathModelGetter bossPathGetter, PlayerTeleportSpotGetter playerTeleportSpotGetter, PlayerFlightModel flightModel, PlayerModel playerModel, CutSceneLoader cutSceneLoader, PlayerWeaponModel playerWeaponModel) Parameters Type Name Description BossModel bossModel BossEyeModel eyeModel PowerPlantModel powerPlantModel BossTeleportSpotModelGetter bossTeleportSpotGetter BossPathModelGetter bossPathGetter PlayerTeleportSpotGetter playerTeleportSpotGetter PlayerFlightModel flightModel PlayerModel playerModel CutSceneLoader cutSceneLoader PlayerWeaponModel playerWeaponModel Methods Start() Declaration public void Start()"
+    "keywords": "Class GameFlowPresenter Inheritance Object GameFlowPresenter Namespace : StormHawks.Runtime.GameFlows Assembly : cs.temp.dll.dll Syntax public class GameFlowPresenter : IStartable Constructors GameFlowPresenter(BossModel, BossStateFactory, PowerPlantModel, BossTeleportSpotGetter, BossPathGetter, PlayerTeleportSpotGetter, PlayerFlightModel, PlayerModel, CutSceneLoader, PlayerWeaponModel) Declaration public GameFlowPresenter(BossModel bossModel, BossStateFactory bossStateFactory, PowerPlantModel powerPlantModel, BossTeleportSpotGetter bossTeleportSpotGetter, BossPathGetter bossPathGetter, PlayerTeleportSpotGetter playerTeleportSpotGetter, PlayerFlightModel flightModel, PlayerModel playerModel, CutSceneLoader cutSceneLoader, PlayerWeaponModel playerWeaponModel) Parameters Type Name Description BossModel bossModel BossStateFactory bossStateFactory PowerPlantModel powerPlantModel BossTeleportSpotGetter bossTeleportSpotGetter BossPathGetter bossPathGetter PlayerTeleportSpotGetter playerTeleportSpotGetter PlayerFlightModel flightModel PlayerModel playerModel CutSceneLoader cutSceneLoader PlayerWeaponModel playerWeaponModel Methods Start() Declaration public void Start()"
   },
   "api/StormHawks.Runtime.GameFlows.html": {
     "href": "api/StormHawks.Runtime.GameFlows.html",
@@ -1412,7 +1382,7 @@
   "api/StormHawks.Runtime.Interfaces.html": {
     "href": "api/StormHawks.Runtime.Interfaces.html",
     "title": "Namespace StormHawks.Runtime.Interfaces | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Interfaces Interfaces IArriver IBattleAreaPathFollower IEnemyGroupMemberRx IEnemyGroupOwnerRx IGameMode IGameScene IHasHealthRx IPlayerRespawnEvent IPoolable<T> IRespawnEvent<T> ISeeker ISteeringForce IWaypointUser"
+    "keywords": "Namespace StormHawks.Runtime.Interfaces Interfaces IArriver IBattleAreaPathFollower IBossPath IEnemyGroupMemberRx IEnemyGroupOwnerRx IEntityAnimator IGameMode IGameScene IHasHealthRx IPlayerRespawnEvent IPoolable<T> IRespawnEvent<T> ISeeker IState ISteeringForce ITeleportSpot IWaypointUser"
   },
   "api/StormHawks.Runtime.Interfaces.IArriver.html": {
     "href": "api/StormHawks.Runtime.Interfaces.IArriver.html",
@@ -1424,6 +1394,11 @@
     "title": "Interface IBattleAreaPathFollower | Developer Reference",
     "keywords": "Interface IBattleAreaPathFollower Namespace : StormHawks.Runtime.Interfaces Assembly : cs.temp.dll.dll Syntax public interface IBattleAreaPathFollower Properties CurrentPathTarget Declaration PathTarget CurrentPathTarget { get; } Property Value Type Description PathTarget Methods SetPathTarget(PathTarget) Declaration void SetPathTarget(PathTarget target) Parameters Type Name Description PathTarget target"
   },
+  "api/StormHawks.Runtime.Interfaces.IBossPath.html": {
+    "href": "api/StormHawks.Runtime.Interfaces.IBossPath.html",
+    "title": "Interface IBossPath | Developer Reference",
+    "keywords": "Interface IBossPath Namespace : StormHawks.Runtime.Interfaces Assembly : cs.temp.dll.dll Syntax public interface IBossPath Properties Duration Declaration float Duration { get; } Property Value Type Description Single EaseType Declaration Ease EaseType { get; } Property Value Type Description Ease IsLookAhead Declaration bool IsLookAhead { get; } Property Value Type Description Boolean LookAhead Declaration float LookAhead { get; } Property Value Type Description Single StartRotation Declaration Quaternion StartRotation { get; } Property Value Type Description Quaternion Waypoints Declaration Vector3[] Waypoints { get; } Property Value Type Description Vector3 []"
+  },
   "api/StormHawks.Runtime.Interfaces.IEnemyGroupMemberRx.html": {
     "href": "api/StormHawks.Runtime.Interfaces.IEnemyGroupMemberRx.html",
     "title": "Interface IEnemyGroupMemberRx | Developer Reference",
@@ -1433,6 +1408,11 @@
     "href": "api/StormHawks.Runtime.Interfaces.IEnemyGroupOwnerRx.html",
     "title": "Interface IEnemyGroupOwnerRx | Developer Reference",
     "keywords": "Interface IEnemyGroupOwnerRx Namespace : StormHawks.Runtime.Interfaces Assembly : cs.temp.dll.dll Syntax public interface IEnemyGroupOwnerRx Properties Groups Declaration List<EnemyGroup> Groups { get; } Property Value Type Description List < EnemyGroup > Methods CreateNewGroupOrNull(List<IEnemyGroupMemberRx>, List<IBattleAreaPathFollower>) Declaration EnemyGroup CreateNewGroupOrNull(List<IEnemyGroupMemberRx> members, List<IBattleAreaPathFollower> followers) Parameters Type Name Description List < IEnemyGroupMemberRx > members List < IBattleAreaPathFollower > followers Returns Type Description EnemyGroup"
+  },
+  "api/StormHawks.Runtime.Interfaces.IEntityAnimator.html": {
+    "href": "api/StormHawks.Runtime.Interfaces.IEntityAnimator.html",
+    "title": "Interface IEntityAnimator | Developer Reference",
+    "keywords": "Interface IEntityAnimator Namespace : StormHawks.Runtime.Interfaces Assembly : cs.temp.dll.dll Syntax public interface IEntityAnimator Methods GetDuration(String) Declaration float GetDuration(string animationName) Parameters Type Name Description String animationName Returns Type Description Single IsAnyPlaying() Declaration bool IsAnyPlaying() Returns Type Description Boolean IsPlaying(String) Declaration bool IsPlaying(string animationName) Parameters Type Name Description String animationName Returns Type Description Boolean PlayAnimation(String, Action) Declaration void PlayAnimation(string animationName, Action onComplete = null) Parameters Type Name Description String animationName Action onComplete"
   },
   "api/StormHawks.Runtime.Interfaces.IGameMode.html": {
     "href": "api/StormHawks.Runtime.Interfaces.IGameMode.html",
@@ -1469,10 +1449,20 @@
     "title": "Interface ISeeker | Developer Reference",
     "keywords": "Interface ISeeker Namespace : StormHawks.Runtime.Interfaces Assembly : cs.temp.dll.dll Syntax public interface ISeeker Methods GetMinApproachDistance() Declaration float GetMinApproachDistance() Returns Type Description Single GetSeekTargetPosition() Declaration Vector3 GetSeekTargetPosition() Returns Type Description Vector3"
   },
+  "api/StormHawks.Runtime.Interfaces.IState.html": {
+    "href": "api/StormHawks.Runtime.Interfaces.IState.html",
+    "title": "Interface IState | Developer Reference",
+    "keywords": "Interface IState Namespace : StormHawks.Runtime.Interfaces Assembly : cs.temp.dll.dll Syntax public interface IState Methods CheckSwitchState() Declaration void CheckSwitchState() Enter() Declaration void Enter() Exit() Declaration void Exit() UpdateState() Declaration void UpdateState()"
+  },
   "api/StormHawks.Runtime.Interfaces.ISteeringForce.html": {
     "href": "api/StormHawks.Runtime.Interfaces.ISteeringForce.html",
     "title": "Interface ISteeringForce | Developer Reference",
     "keywords": "Interface ISteeringForce Namespace : StormHawks.Runtime.Interfaces Assembly : cs.temp.dll.dll Syntax public interface ISteeringForce Properties Weight Declaration float Weight { get; } Property Value Type Description Single Methods SteerForce() Declaration Vector3 SteerForce() Returns Type Description Vector3"
+  },
+  "api/StormHawks.Runtime.Interfaces.ITeleportSpot.html": {
+    "href": "api/StormHawks.Runtime.Interfaces.ITeleportSpot.html",
+    "title": "Interface ITeleportSpot | Developer Reference",
+    "keywords": "Interface ITeleportSpot Namespace : StormHawks.Runtime.Interfaces Assembly : cs.temp.dll.dll Syntax public interface ITeleportSpot Methods ClosePortal() Declaration void ClosePortal() GetPortalAnimationDuration() Declaration float GetPortalAnimationDuration() Returns Type Description Single GetPosition() Declaration Vector3 GetPosition() Returns Type Description Vector3 GetRotation() Declaration Quaternion GetRotation() Returns Type Description Quaternion OpenPortal() Declaration void OpenPortal()"
   },
   "api/StormHawks.Runtime.Interfaces.IWaypointUser.html": {
     "href": "api/StormHawks.Runtime.Interfaces.IWaypointUser.html",
@@ -1534,15 +1524,55 @@
     "title": "Namespace StormHawks.Runtime.Managers | Developer Reference",
     "keywords": "Namespace StormHawks.Runtime.Managers Classes BossSceneManager GameModeManager GameModeSwitch GameSceneManager"
   },
+  "api/StormHawks.Runtime.Models.Boss.States.Actions.BossActionState.html": {
+    "href": "api/StormHawks.Runtime.Models.Boss.States.Actions.BossActionState.html",
+    "title": "Class BossActionState | Developer Reference",
+    "keywords": "Class BossActionState Inheritance Object BossState BossActionState BossFollowPathState Inherited Members BossState._model BossState._stateFactory BossState._animator BossState._cancellation BossState.Enter() BossState.Exit() BossState.CheckSwitchState() BossState.UpdateState() BossState.Log(String) Namespace : StormHawks.Runtime.Models.Boss.States.Actions Assembly : cs.temp.dll.dll Syntax public abstract class BossActionState : BossState Constructors BossActionState(BossStateFactory, BossModel, IEntityAnimator) Declaration protected BossActionState(BossStateFactory factory, BossModel model, IEntityAnimator animator) Parameters Type Name Description BossStateFactory factory BossModel model IEntityAnimator animator"
+  },
+  "api/StormHawks.Runtime.Models.Boss.States.Actions.BossFollowPathState.html": {
+    "href": "api/StormHawks.Runtime.Models.Boss.States.Actions.BossFollowPathState.html",
+    "title": "Class BossFollowPathState | Developer Reference",
+    "keywords": "Class BossFollowPathState Inheritance Object BossState BossActionState BossFollowPathState Inherited Members BossState._model BossState._stateFactory BossState._animator BossState._cancellation BossState.Log(String) Namespace : StormHawks.Runtime.Models.Boss.States.Actions Assembly : cs.temp.dll.dll Syntax public class BossFollowPathState : BossActionState Constructors BossFollowPathState(BossStateFactory, BossModel, IEntityAnimator) Declaration public BossFollowPathState(BossStateFactory factory, BossModel model, IEntityAnimator animator) Parameters Type Name Description BossStateFactory factory BossModel model IEntityAnimator animator Methods CheckSwitchState() Declaration public override void CheckSwitchState() Overrides BossState.CheckSwitchState() Enter() Declaration public override void Enter() Overrides BossState.Enter() Exit() Declaration public override void Exit() Overrides BossState.Exit() UpdateState() Declaration public override void UpdateState() Overrides BossState.UpdateState()"
+  },
+  "api/StormHawks.Runtime.Models.Boss.States.Actions.html": {
+    "href": "api/StormHawks.Runtime.Models.Boss.States.Actions.html",
+    "title": "Namespace StormHawks.Runtime.Models.Boss.States.Actions | Developer Reference",
+    "keywords": "Namespace StormHawks.Runtime.Models.Boss.States.Actions Classes BossActionState BossFollowPathState"
+  },
+  "api/StormHawks.Runtime.Models.Boss.States.BossState.html": {
+    "href": "api/StormHawks.Runtime.Models.Boss.States.BossState.html",
+    "title": "Class BossState | Developer Reference",
+    "keywords": "Class BossState Inheritance Object BossState BossActionState BossRepeatState Namespace : StormHawks.Runtime.Models.Boss.States Assembly : cs.temp.dll.dll Syntax public abstract class BossState : IState Constructors BossState(BossStateFactory, BossModel, IEntityAnimator) Declaration protected BossState(BossStateFactory factory, BossModel model, IEntityAnimator animator) Parameters Type Name Description BossStateFactory factory BossModel model IEntityAnimator animator Fields _animator Declaration protected readonly IEntityAnimator _animator Field Value Type Description IEntityAnimator _cancellation Declaration protected CancellationTokenSource _cancellation Field Value Type Description CancellationTokenSource _model Declaration protected readonly BossModel _model Field Value Type Description BossModel _stateFactory Declaration protected readonly BossStateFactory _stateFactory Field Value Type Description BossStateFactory Methods CheckSwitchState() Declaration public abstract void CheckSwitchState() Enter() Declaration public abstract void Enter() Exit() Declaration public abstract void Exit() Log(String) Declaration protected void Log(string message) Parameters Type Name Description String message UpdateState() Declaration public abstract void UpdateState()"
+  },
+  "api/StormHawks.Runtime.Models.Boss.States.html": {
+    "href": "api/StormHawks.Runtime.Models.Boss.States.html",
+    "title": "Namespace StormHawks.Runtime.Models.Boss.States | Developer Reference",
+    "keywords": "Namespace StormHawks.Runtime.Models.Boss.States Classes BossState"
+  },
+  "api/StormHawks.Runtime.Models.Boss.States.Repeats.BossIdleState.html": {
+    "href": "api/StormHawks.Runtime.Models.Boss.States.Repeats.BossIdleState.html",
+    "title": "Class BossIdleState | Developer Reference",
+    "keywords": "Class BossIdleState Inheritance Object BossState BossRepeatState BossIdleState Inherited Members BossState._model BossState._stateFactory BossState._animator BossState._cancellation BossState.Log(String) Namespace : StormHawks.Runtime.Models.Boss.States.Repeats Assembly : cs.temp.dll.dll Syntax public class BossIdleState : BossRepeatState Constructors BossIdleState(BossStateFactory, BossModel, IEntityAnimator) Declaration public BossIdleState(BossStateFactory factory, BossModel model, IEntityAnimator animator) Parameters Type Name Description BossStateFactory factory BossModel model IEntityAnimator animator Methods CheckSwitchState() Declaration public override void CheckSwitchState() Overrides BossState.CheckSwitchState() Enter() Declaration public override void Enter() Overrides BossState.Enter() Exit() Declaration public override void Exit() Overrides BossState.Exit() UpdateState() Declaration public override void UpdateState() Overrides BossState.UpdateState()"
+  },
+  "api/StormHawks.Runtime.Models.Boss.States.Repeats.BossRepeatState.html": {
+    "href": "api/StormHawks.Runtime.Models.Boss.States.Repeats.BossRepeatState.html",
+    "title": "Class BossRepeatState | Developer Reference",
+    "keywords": "Class BossRepeatState Inheritance Object BossState BossRepeatState BossIdleState Inherited Members BossState._model BossState._stateFactory BossState._animator BossState._cancellation BossState.Enter() BossState.Exit() BossState.CheckSwitchState() BossState.UpdateState() BossState.Log(String) Namespace : StormHawks.Runtime.Models.Boss.States.Repeats Assembly : cs.temp.dll.dll Syntax public abstract class BossRepeatState : BossState Constructors BossRepeatState(BossStateFactory, BossModel, IEntityAnimator) Declaration protected BossRepeatState(BossStateFactory factory, BossModel model, IEntityAnimator animator) Parameters Type Name Description BossStateFactory factory BossModel model IEntityAnimator animator"
+  },
+  "api/StormHawks.Runtime.Models.Boss.States.Repeats.html": {
+    "href": "api/StormHawks.Runtime.Models.Boss.States.Repeats.html",
+    "title": "Namespace StormHawks.Runtime.Models.Boss.States.Repeats | Developer Reference",
+    "keywords": "Namespace StormHawks.Runtime.Models.Boss.States.Repeats Classes BossIdleState BossRepeatState"
+  },
   "api/StormHawks.Runtime.Models.Entities.BossEyeModel.html": {
     "href": "api/StormHawks.Runtime.Models.Entities.BossEyeModel.html",
     "title": "Class BossEyeModel | Developer Reference",
-    "keywords": "Class BossEyeModel Inheritance Object BossEyeModel Namespace : StormHawks.Runtime.Models.Entities Assembly : cs.temp.dll.dll Syntax public class BossEyeModel Constructors BossEyeModel(Single, Single) Declaration public BossEyeModel(float health, float chargeTime) Parameters Type Name Description Single health Single chargeTime Fields IsDestroyed Declaration public IReadOnlyReactiveProperty<bool> IsDestroyed Field Value Type Description IReadOnlyReactiveProperty < Boolean > Properties ChargeTime Declaration public IReadOnlyReactiveProperty<float> ChargeTime { get; } Property Value Type Description IReadOnlyReactiveProperty < Single > EyeHealth Declaration public IReadOnlyReactiveProperty<float> EyeHealth { get; } Property Value Type Description IReadOnlyReactiveProperty < Single > IsRailgunCharging Declaration public bool IsRailgunCharging { get; } Property Value Type Description Boolean Methods EndRailgun() Declaration public void EndRailgun() StartRailgun() Declaration public void StartRailgun() TakeDamage(Single) Declaration public void TakeDamage(float value) Parameters Type Name Description Single value"
+    "keywords": "Class BossEyeModel Inheritance Object BossEyeModel Namespace : StormHawks.Runtime.Models.Entities Assembly : cs.temp.dll.dll Syntax public class BossEyeModel Constructors BossEyeModel(Single, Single, Double) Declaration public BossEyeModel(float health, float chargeTime, double delayFireRailgun) Parameters Type Name Description Single health Single chargeTime Double delayFireRailgun Fields IsDestroyed Declaration public IReadOnlyReactiveProperty<bool> IsDestroyed Field Value Type Description IReadOnlyReactiveProperty < Boolean > Properties ChargeTime Declaration public IReadOnlyReactiveProperty<float> ChargeTime { get; } Property Value Type Description IReadOnlyReactiveProperty < Single > DelayFireRailgun Declaration public double DelayFireRailgun { get; } Property Value Type Description Double EyeHealth Declaration public IReadOnlyReactiveProperty<float> EyeHealth { get; } Property Value Type Description IReadOnlyReactiveProperty < Single > IsRailgunCharging Declaration public IReadOnlyReactiveProperty<bool> IsRailgunCharging { get; } Property Value Type Description IReadOnlyReactiveProperty < Boolean > Methods CancelRailgun() Declaration public void CancelRailgun() ChargeRailgun() Declaration public void ChargeRailgun() TakeDamage(Single) Declaration public void TakeDamage(float value) Parameters Type Name Description Single value"
   },
   "api/StormHawks.Runtime.Models.Entities.BossModel.html": {
     "href": "api/StormHawks.Runtime.Models.Entities.BossModel.html",
     "title": "Class BossModel | Developer Reference",
-    "keywords": "Class BossModel Inheritance Object BossModel Namespace : StormHawks.Runtime.Models.Entities Assembly : cs.temp.dll.dll Syntax public class BossModel Constructors BossModel(EntityHealthSO) Declaration public BossModel(EntityHealthSO health) Parameters Type Name Description EntityHealthSO health Fields IsPlayingBehavior Declaration public IReadOnlyReactiveProperty<bool> IsPlayingBehavior Field Value Type Description IReadOnlyReactiveProperty < Boolean > Properties AggroTarget Declaration public AggroTarget? AggroTarget { get; } Property Value Type Description Nullable < AggroTarget > BehaviorType Declaration public IReadOnlyReactiveProperty<BossBehaviorType> BehaviorType { get; } Property Value Type Description IReadOnlyReactiveProperty < BossBehaviorType > BossTransform Declaration public Transform BossTransform { get; } Property Value Type Description Transform CompulsoryAggroTarget Declaration public AggroTarget? CompulsoryAggroTarget { get; } Property Value Type Description Nullable < AggroTarget > CurrentHealth Declaration public IReadOnlyReactiveProperty<float> CurrentHealth { get; } Property Value Type Description IReadOnlyReactiveProperty < Single > HasCompulsoryAggroTarget Declaration public IReadOnlyReactiveProperty<bool> HasCompulsoryAggroTarget { get; } Property Value Type Description IReadOnlyReactiveProperty < Boolean > IsActive Declaration public IReadOnlyReactiveProperty<bool> IsActive { get; } Property Value Type Description IReadOnlyReactiveProperty < Boolean > IsAggressive Declaration public IReadOnlyReactiveProperty<bool> IsAggressive { get; } Property Value Type Description IReadOnlyReactiveProperty < Boolean > IsDead Declaration public IReadOnlyReactiveProperty<bool> IsDead { get; } Property Value Type Description IReadOnlyReactiveProperty < Boolean > IsWaypointsEnabled Declaration public IReadOnlyReactiveProperty<bool> IsWaypointsEnabled { get; } Property Value Type Description IReadOnlyReactiveProperty < Boolean > Position Declaration public Vector3 Position { get; } Property Value Type Description Vector3 Methods DisableWaypoints() Declaration public void DisableWaypoints() EnableWaypoints() Declaration public void EnableWaypoints() IsSameAggroTarget(AggroTarget) Declaration public bool IsSameAggroTarget(AggroTarget value) Parameters Type Name Description AggroTarget value Returns Type Description Boolean PlayBehavior(BossBehaviorType) Declaration public void PlayBehavior(BossBehaviorType type) Parameters Type Name Description BossBehaviorType type SetActive(Boolean) Declaration public void SetActive(bool active) Parameters Type Name Description Boolean active SetAggroTarget(Nullable<AggroTarget>) Declaration public void SetAggroTarget(AggroTarget? value) Parameters Type Name Description Nullable < AggroTarget > value SetCompulsoryAggroTarget(AggroTarget) Declaration public void SetCompulsoryAggroTarget(AggroTarget target) Parameters Type Name Description AggroTarget target SetPositionAndRotation(Vector3, Quaternion) Declaration public void SetPositionAndRotation(Vector3 position, Quaternion rotation) Parameters Type Name Description Vector3 position Quaternion rotation SetTransform(Transform) Declaration public void SetTransform(Transform transform) Parameters Type Name Description Transform transform TakeDamage(Single) Declaration public void TakeDamage(float damage) Parameters Type Name Description Single damage Teleport() Declaration public void Teleport() UpdatePosition(Vector3) Declaration public void UpdatePosition(Vector3 position) Parameters Type Name Description Vector3 position"
+    "keywords": "Class BossModel Inheritance Object BossModel Namespace : StormHawks.Runtime.Models.Entities Assembly : cs.temp.dll.dll Syntax public class BossModel Constructors BossModel(EntityHealthSO) Declaration public BossModel(EntityHealthSO health) Parameters Type Name Description EntityHealthSO health Fields IsPlayingBehavior Declaration public IReadOnlyReactiveProperty<bool> IsPlayingBehavior Field Value Type Description IReadOnlyReactiveProperty < Boolean > Properties AggroTarget Declaration public AggroTarget? AggroTarget { get; } Property Value Type Description Nullable < AggroTarget > BehaviorType Declaration public IReadOnlyReactiveProperty<BossBehaviorType> BehaviorType { get; } Property Value Type Description IReadOnlyReactiveProperty < BossBehaviorType > BossPath Declaration public IReadOnlyReactiveProperty<IBossPath> BossPath { get; } Property Value Type Description IReadOnlyReactiveProperty < IBossPath > BossTransform Declaration public Transform BossTransform { get; } Property Value Type Description Transform CompulsoryAggroTarget Declaration public AggroTarget? CompulsoryAggroTarget { get; } Property Value Type Description Nullable < AggroTarget > CurrentBossState Declaration public IReadOnlyReactiveProperty<BossState> CurrentBossState { get; } Property Value Type Description IReadOnlyReactiveProperty < BossState > CurrentHealth Declaration public IReadOnlyReactiveProperty<float> CurrentHealth { get; } Property Value Type Description IReadOnlyReactiveProperty < Single > HasCompulsoryAggroTarget Declaration public IReadOnlyReactiveProperty<bool> HasCompulsoryAggroTarget { get; } Property Value Type Description IReadOnlyReactiveProperty < Boolean > IsActive Declaration public IReadOnlyReactiveProperty<bool> IsActive { get; } Property Value Type Description IReadOnlyReactiveProperty < Boolean > IsAggressive Declaration public IReadOnlyReactiveProperty<bool> IsAggressive { get; } Property Value Type Description IReadOnlyReactiveProperty < Boolean > IsDead Declaration public IReadOnlyReactiveProperty<bool> IsDead { get; } Property Value Type Description IReadOnlyReactiveProperty < Boolean > IsWaypointsEnabled Declaration public IReadOnlyReactiveProperty<bool> IsWaypointsEnabled { get; } Property Value Type Description IReadOnlyReactiveProperty < Boolean > Position Declaration public Vector3 Position { get; } Property Value Type Description Vector3 TeleportSpot Declaration public IReadOnlyReactiveProperty<ITeleportSpot> TeleportSpot { get; } Property Value Type Description IReadOnlyReactiveProperty < ITeleportSpot > Methods ChangeState(BossState) Declaration public void ChangeState(BossState state) Parameters Type Name Description BossState state DisableWaypoints() Declaration public void DisableWaypoints() EnableWaypoints() Declaration public void EnableWaypoints() IsSameAggroTarget(AggroTarget) Declaration public bool IsSameAggroTarget(AggroTarget value) Parameters Type Name Description AggroTarget value Returns Type Description Boolean PlayBehavior(BossBehaviorType) Declaration public void PlayBehavior(BossBehaviorType type) Parameters Type Name Description BossBehaviorType type SetActive(Boolean) Declaration public void SetActive(bool active) Parameters Type Name Description Boolean active SetAggroTarget(Nullable<AggroTarget>) Declaration public void SetAggroTarget(AggroTarget? value) Parameters Type Name Description Nullable < AggroTarget > value SetBossPath(IBossPath) Declaration public void SetBossPath(IBossPath path) Parameters Type Name Description IBossPath path SetCompulsoryAggroTarget(AggroTarget) Declaration public void SetCompulsoryAggroTarget(AggroTarget target) Parameters Type Name Description AggroTarget target SetPositionAndRotation(Vector3, Quaternion) Declaration public void SetPositionAndRotation(Vector3 position, Quaternion rotation) Parameters Type Name Description Vector3 position Quaternion rotation SetTeleportSpot(ITeleportSpot) Declaration public void SetTeleportSpot(ITeleportSpot spot) Parameters Type Name Description ITeleportSpot spot SetTransform(Transform) Declaration public void SetTransform(Transform transform) Parameters Type Name Description Transform transform TakeDamage(Single) Declaration public void TakeDamage(float damage) Parameters Type Name Description Single damage Teleport() Declaration public void Teleport() UpdatePosition(Vector3) Declaration public void UpdatePosition(Vector3 position) Parameters Type Name Description Vector3 position"
   },
   "api/StormHawks.Runtime.Models.Entities.EliteModel.html": {
     "href": "api/StormHawks.Runtime.Models.Entities.EliteModel.html",
@@ -1597,7 +1627,7 @@
   "api/StormHawks.Runtime.Models.GameFlows.GameFlow.html": {
     "href": "api/StormHawks.Runtime.Models.GameFlows.GameFlow.html",
     "title": "Class GameFlow | Developer Reference",
-    "keywords": "Class GameFlow Inheritance Object GameFlow ActionFlow WaitBossBehaviorCompleted WaitBossEyeRailgunChargeBehaviorCompleted WaitBossTeleportBehaviorCompleted WaitPowerPlantGimmickCompletedFlow WaitUntilCutSceneCompletedFlow WaitUntilGameFlow Namespace : StormHawks.Runtime.Models.GameFlows Assembly : cs.temp.dll.dll Syntax public abstract class GameFlow Constructors GameFlow() Declaration public GameFlow() Fields _cancellation Declaration protected readonly CancellationTokenSource _cancellation Field Value Type Description CancellationTokenSource Methods OnEnter() Declaration public abstract UniTask OnEnter() Returns Type Description UniTask OnExit() Declaration public abstract UniTask OnExit() Returns Type Description UniTask Run() Declaration public abstract UniTask Run() Returns Type Description UniTask"
+    "keywords": "Class GameFlow Inheritance Object GameFlow ActionFlow PredictFlow WaitChangedBossStateCompleted WaitPowerPlantGimmickCompletedFlow WaitUntilCutSceneCompletedFlow WaitUntilGameFlow Namespace : StormHawks.Runtime.Models.GameFlows Assembly : cs.temp.dll.dll Syntax public abstract class GameFlow Constructors GameFlow() Declaration public GameFlow() Fields _cancellation Declaration protected readonly CancellationTokenSource _cancellation Field Value Type Description CancellationTokenSource Methods OnEnter() Declaration public abstract UniTask OnEnter() Returns Type Description UniTask OnExit() Declaration public abstract UniTask OnExit() Returns Type Description UniTask Run() Declaration public abstract UniTask Run() Returns Type Description UniTask"
   },
   "api/StormHawks.Runtime.Models.GameFlows.html": {
     "href": "api/StormHawks.Runtime.Models.GameFlows.html",
@@ -1607,22 +1637,12 @@
   "api/StormHawks.Runtime.Models.GameFlows.Types.Actions.ActionFlow.html": {
     "href": "api/StormHawks.Runtime.Models.GameFlows.Types.Actions.ActionFlow.html",
     "title": "Class ActionFlow | Developer Reference",
-    "keywords": "Class ActionFlow Inheritance Object GameFlow ActionFlow BossLookAtFlow BossMoveToFlow BossTeleportFlow BossWaypointDisableFlow BossWaypointEnableFlow FacilityEnableFlow LogFlow PlayerAddForwardForceFlow PlayerControlEnableAllFlow PlayerFadeFlow PlayerLookAtFlow PlayerTeleportFlow SetBossCompulsoryAggroTarget SetEanblePlayerSingleRailgunFlow SetPlayerAggroPrioirtyFlow SetPlayerDefaultWeaponControls SetPlayerFlightControls UpgradePlayerBulletWeaponFlow Inherited Members GameFlow._cancellation GameFlow.OnEnter() GameFlow.OnExit() Namespace : StormHawks.Runtime.Models.GameFlows.Types.Actions Assembly : cs.temp.dll.dll Syntax public abstract class ActionFlow : GameFlow Methods Run() Declaration public sealed override async UniTask Run() Returns Type Description UniTask Overrides GameFlow.Run()"
+    "keywords": "Class ActionFlow Inheritance Object GameFlow ActionFlow BossMoveTeleportSpot BossWaypointDisableFlow BossWaypointEnableFlow ChangeBossStateFlow FacilityEnableFlow LogFlow PlayerAddForwardForceFlow PlayerControlEnableAllFlow PlayerFadeFlow PlayerLookAtFlow PlayerTeleportFlow SetBossCompulsoryAggroTarget SetBossPath SetEnablePlayerSingleRailgunFlow SetPlayerAggroPrioirtyFlow SetPlayerDefaultWeaponControls SetPlayerFlightControls UpgradePlayerBulletWeaponFlow Inherited Members GameFlow._cancellation GameFlow.OnEnter() GameFlow.OnExit() Namespace : StormHawks.Runtime.Models.GameFlows.Types.Actions Assembly : cs.temp.dll.dll Syntax public abstract class ActionFlow : GameFlow Methods Run() Declaration public sealed override async UniTask Run() Returns Type Description UniTask Overrides GameFlow.Run()"
   },
-  "api/StormHawks.Runtime.Models.GameFlows.Types.Actions.BossLookAtFlow.html": {
-    "href": "api/StormHawks.Runtime.Models.GameFlows.Types.Actions.BossLookAtFlow.html",
-    "title": "Class BossLookAtFlow | Developer Reference",
-    "keywords": "Class BossLookAtFlow Inheritance Object GameFlow ActionFlow BossLookAtFlow Inherited Members ActionFlow.Run() GameFlow._cancellation Namespace : StormHawks.Runtime.Models.GameFlows.Types.Actions Assembly : cs.temp.dll.dll Syntax public class BossLookAtFlow : ActionFlow Constructors BossLookAtFlow(BossModel, Transform) Declaration public BossLookAtFlow(BossModel boss, Transform lookTransform) Parameters Type Name Description BossModel boss Transform lookTransform Methods OnEnter() Declaration public override async UniTask OnEnter() Returns Type Description UniTask Overrides GameFlow.OnEnter() OnExit() Declaration public override async UniTask OnExit() Returns Type Description UniTask Overrides GameFlow.OnExit()"
-  },
-  "api/StormHawks.Runtime.Models.GameFlows.Types.Actions.BossMoveToFlow.html": {
-    "href": "api/StormHawks.Runtime.Models.GameFlows.Types.Actions.BossMoveToFlow.html",
-    "title": "Class BossMoveToFlow | Developer Reference",
-    "keywords": "Class BossMoveToFlow Inheritance Object GameFlow ActionFlow BossMoveToFlow Inherited Members ActionFlow.Run() GameFlow._cancellation Namespace : StormHawks.Runtime.Models.GameFlows.Types.Actions Assembly : cs.temp.dll.dll Syntax public class BossMoveToFlow : ActionFlow Constructors BossMoveToFlow(BossModel, Vector3) Declaration public BossMoveToFlow(BossModel boss, Vector3 movePos) Parameters Type Name Description BossModel boss Vector3 movePos Methods OnEnter() Declaration public override async UniTask OnEnter() Returns Type Description UniTask Overrides GameFlow.OnEnter() OnExit() Declaration public override async UniTask OnExit() Returns Type Description UniTask Overrides GameFlow.OnExit()"
-  },
-  "api/StormHawks.Runtime.Models.GameFlows.Types.Actions.BossTeleportFlow.html": {
-    "href": "api/StormHawks.Runtime.Models.GameFlows.Types.Actions.BossTeleportFlow.html",
-    "title": "Class BossTeleportFlow | Developer Reference",
-    "keywords": "Class BossTeleportFlow Inheritance Object GameFlow ActionFlow BossTeleportFlow Inherited Members ActionFlow.Run() GameFlow._cancellation Namespace : StormHawks.Runtime.Models.GameFlows.Types.Actions Assembly : cs.temp.dll.dll Syntax public class BossTeleportFlow : ActionFlow Constructors BossTeleportFlow(BossModel, BossTeleportSpotModel) Declaration public BossTeleportFlow(BossModel boss, BossTeleportSpotModel spot) Parameters Type Name Description BossModel boss BossTeleportSpotModel spot Methods OnEnter() Declaration public override async UniTask OnEnter() Returns Type Description UniTask Overrides GameFlow.OnEnter() OnExit() Declaration public override async UniTask OnExit() Returns Type Description UniTask Overrides GameFlow.OnExit()"
+  "api/StormHawks.Runtime.Models.GameFlows.Types.Actions.BossMoveTeleportSpot.html": {
+    "href": "api/StormHawks.Runtime.Models.GameFlows.Types.Actions.BossMoveTeleportSpot.html",
+    "title": "Class BossMoveTeleportSpot | Developer Reference",
+    "keywords": "Class BossMoveTeleportSpot Inheritance Object GameFlow ActionFlow BossMoveTeleportSpot Inherited Members ActionFlow.Run() GameFlow._cancellation Namespace : StormHawks.Runtime.Models.GameFlows.Types.Actions Assembly : cs.temp.dll.dll Syntax public class BossMoveTeleportSpot : ActionFlow Constructors BossMoveTeleportSpot(BossModel, ITeleportSpot) Declaration public BossMoveTeleportSpot(BossModel boss, ITeleportSpot spot) Parameters Type Name Description BossModel boss ITeleportSpot spot Methods OnEnter() Declaration public override async UniTask OnEnter() Returns Type Description UniTask Overrides GameFlow.OnEnter() OnExit() Declaration public override async UniTask OnExit() Returns Type Description UniTask Overrides GameFlow.OnExit()"
   },
   "api/StormHawks.Runtime.Models.GameFlows.Types.Actions.BossWaypointDisableFlow.html": {
     "href": "api/StormHawks.Runtime.Models.GameFlows.Types.Actions.BossWaypointDisableFlow.html",
@@ -1634,6 +1654,11 @@
     "title": "Class BossWaypointEnableFlow | Developer Reference",
     "keywords": "Class BossWaypointEnableFlow Inheritance Object GameFlow ActionFlow BossWaypointEnableFlow Inherited Members ActionFlow.Run() GameFlow._cancellation Namespace : StormHawks.Runtime.Models.GameFlows.Types.Actions Assembly : cs.temp.dll.dll Syntax public class BossWaypointEnableFlow : ActionFlow Constructors BossWaypointEnableFlow(BossModel) Declaration public BossWaypointEnableFlow(BossModel boss) Parameters Type Name Description BossModel boss Methods OnEnter() Declaration public override async UniTask OnEnter() Returns Type Description UniTask Overrides GameFlow.OnEnter() OnExit() Declaration public override async UniTask OnExit() Returns Type Description UniTask Overrides GameFlow.OnExit()"
   },
+  "api/StormHawks.Runtime.Models.GameFlows.Types.Actions.ChangeBossStateFlow.html": {
+    "href": "api/StormHawks.Runtime.Models.GameFlows.Types.Actions.ChangeBossStateFlow.html",
+    "title": "Class ChangeBossStateFlow | Developer Reference",
+    "keywords": "Class ChangeBossStateFlow Inheritance Object GameFlow ActionFlow ChangeBossStateFlow Inherited Members ActionFlow.Run() GameFlow._cancellation Namespace : StormHawks.Runtime.Models.GameFlows.Types.Actions Assembly : cs.temp.dll.dll Syntax public class ChangeBossStateFlow : ActionFlow Constructors ChangeBossStateFlow(BossModel, BossState) Declaration public ChangeBossStateFlow(BossModel boss, BossState changedState) Parameters Type Name Description BossModel boss BossState changedState Methods OnEnter() Declaration public override async UniTask OnEnter() Returns Type Description UniTask Overrides GameFlow.OnEnter() OnExit() Declaration public override async UniTask OnExit() Returns Type Description UniTask Overrides GameFlow.OnExit()"
+  },
   "api/StormHawks.Runtime.Models.GameFlows.Types.Actions.FacilityEnableFlow.html": {
     "href": "api/StormHawks.Runtime.Models.GameFlows.Types.Actions.FacilityEnableFlow.html",
     "title": "Class FacilityEnableFlow | Developer Reference",
@@ -1642,7 +1667,7 @@
   "api/StormHawks.Runtime.Models.GameFlows.Types.Actions.html": {
     "href": "api/StormHawks.Runtime.Models.GameFlows.Types.Actions.html",
     "title": "Namespace StormHawks.Runtime.Models.GameFlows.Types.Actions | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Models.GameFlows.Types.Actions Classes ActionFlow BossLookAtFlow BossMoveToFlow BossTeleportFlow BossWaypointDisableFlow BossWaypointEnableFlow FacilityEnableFlow LogFlow PlayerAddForwardForceFlow PlayerControlEnableAllFlow PlayerFadeFlow PlayerLookAtFlow PlayerTeleportFlow SetBossCompulsoryAggroTarget SetEanblePlayerSingleRailgunFlow SetPlayerAggroPrioirtyFlow SetPlayerDefaultWeaponControls SetPlayerFlightControls UpgradePlayerBulletWeaponFlow"
+    "keywords": "Namespace StormHawks.Runtime.Models.GameFlows.Types.Actions Classes ActionFlow BossMoveTeleportSpot BossWaypointDisableFlow BossWaypointEnableFlow ChangeBossStateFlow FacilityEnableFlow LogFlow PlayerAddForwardForceFlow PlayerControlEnableAllFlow PlayerFadeFlow PlayerLookAtFlow PlayerTeleportFlow SetBossCompulsoryAggroTarget SetBossPath SetEnablePlayerSingleRailgunFlow SetPlayerAggroPrioirtyFlow SetPlayerDefaultWeaponControls SetPlayerFlightControls UpgradePlayerBulletWeaponFlow"
   },
   "api/StormHawks.Runtime.Models.GameFlows.Types.Actions.LogFlow.html": {
     "href": "api/StormHawks.Runtime.Models.GameFlows.Types.Actions.LogFlow.html",
@@ -1679,10 +1704,15 @@
     "title": "Class SetBossCompulsoryAggroTarget | Developer Reference",
     "keywords": "Class SetBossCompulsoryAggroTarget Inheritance Object GameFlow ActionFlow SetBossCompulsoryAggroTarget Inherited Members ActionFlow.Run() GameFlow._cancellation Namespace : StormHawks.Runtime.Models.GameFlows.Types.Actions Assembly : cs.temp.dll.dll Syntax public class SetBossCompulsoryAggroTarget : ActionFlow Constructors SetBossCompulsoryAggroTarget(BossModel, AggroTarget) Declaration public SetBossCompulsoryAggroTarget(BossModel model, AggroTarget target) Parameters Type Name Description BossModel model AggroTarget target Methods OnEnter() Declaration public override async UniTask OnEnter() Returns Type Description UniTask Overrides GameFlow.OnEnter() OnExit() Declaration public override async UniTask OnExit() Returns Type Description UniTask Overrides GameFlow.OnExit()"
   },
-  "api/StormHawks.Runtime.Models.GameFlows.Types.Actions.SetEanblePlayerSingleRailgunFlow.html": {
-    "href": "api/StormHawks.Runtime.Models.GameFlows.Types.Actions.SetEanblePlayerSingleRailgunFlow.html",
-    "title": "Class SetEanblePlayerSingleRailgunFlow | Developer Reference",
-    "keywords": "Class SetEanblePlayerSingleRailgunFlow Inheritance Object GameFlow ActionFlow SetEanblePlayerSingleRailgunFlow Inherited Members ActionFlow.Run() GameFlow._cancellation Namespace : StormHawks.Runtime.Models.GameFlows.Types.Actions Assembly : cs.temp.dll.dll Syntax public class SetEanblePlayerSingleRailgunFlow : ActionFlow Constructors SetEanblePlayerSingleRailgunFlow(PlayerFlightModel, PlayerWeaponModel, Boolean) Declaration public SetEanblePlayerSingleRailgunFlow(PlayerFlightModel flight, PlayerWeaponModel weapon, bool enable) Parameters Type Name Description PlayerFlightModel flight PlayerWeaponModel weapon Boolean enable Methods OnEnter() Declaration public override async UniTask OnEnter() Returns Type Description UniTask Overrides GameFlow.OnEnter() OnExit() Declaration public override async UniTask OnExit() Returns Type Description UniTask Overrides GameFlow.OnExit()"
+  "api/StormHawks.Runtime.Models.GameFlows.Types.Actions.SetBossPath.html": {
+    "href": "api/StormHawks.Runtime.Models.GameFlows.Types.Actions.SetBossPath.html",
+    "title": "Class SetBossPath | Developer Reference",
+    "keywords": "Class SetBossPath Inheritance Object GameFlow ActionFlow SetBossPath Inherited Members ActionFlow.Run() GameFlow._cancellation Namespace : StormHawks.Runtime.Models.GameFlows.Types.Actions Assembly : cs.temp.dll.dll Syntax public class SetBossPath : ActionFlow Constructors SetBossPath(BossModel, IBossPath) Declaration public SetBossPath(BossModel boss, IBossPath path) Parameters Type Name Description BossModel boss IBossPath path Methods OnEnter() Declaration public override async UniTask OnEnter() Returns Type Description UniTask Overrides GameFlow.OnEnter() OnExit() Declaration public override async UniTask OnExit() Returns Type Description UniTask Overrides GameFlow.OnExit()"
+  },
+  "api/StormHawks.Runtime.Models.GameFlows.Types.Actions.SetEnablePlayerSingleRailgunFlow.html": {
+    "href": "api/StormHawks.Runtime.Models.GameFlows.Types.Actions.SetEnablePlayerSingleRailgunFlow.html",
+    "title": "Class SetEnablePlayerSingleRailgunFlow | Developer Reference",
+    "keywords": "Class SetEnablePlayerSingleRailgunFlow Inheritance Object GameFlow ActionFlow SetEnablePlayerSingleRailgunFlow Inherited Members ActionFlow.Run() GameFlow._cancellation Namespace : StormHawks.Runtime.Models.GameFlows.Types.Actions Assembly : cs.temp.dll.dll Syntax public class SetEnablePlayerSingleRailgunFlow : ActionFlow Constructors SetEnablePlayerSingleRailgunFlow(PlayerFlightModel, PlayerWeaponModel, Boolean) Declaration public SetEnablePlayerSingleRailgunFlow(PlayerFlightModel flight, PlayerWeaponModel weapon, bool enable) Parameters Type Name Description PlayerFlightModel flight PlayerWeaponModel weapon Boolean enable Methods OnEnter() Declaration public override async UniTask OnEnter() Returns Type Description UniTask Overrides GameFlow.OnEnter() OnExit() Declaration public override async UniTask OnExit() Returns Type Description UniTask Overrides GameFlow.OnExit()"
   },
   "api/StormHawks.Runtime.Models.GameFlows.Types.Actions.SetPlayerAggroPrioirtyFlow.html": {
     "href": "api/StormHawks.Runtime.Models.GameFlows.Types.Actions.SetPlayerAggroPrioirtyFlow.html",
@@ -1707,27 +1737,22 @@
   "api/StormHawks.Runtime.Models.GameFlows.Types.html": {
     "href": "api/StormHawks.Runtime.Models.GameFlows.Types.html",
     "title": "Namespace StormHawks.Runtime.Models.GameFlows.Types | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Models.GameFlows.Types Classes WaitUntilGameFlow"
+    "keywords": "Namespace StormHawks.Runtime.Models.GameFlows.Types Classes PredictFlow WaitUntilGameFlow"
+  },
+  "api/StormHawks.Runtime.Models.GameFlows.Types.PredictFlow.html": {
+    "href": "api/StormHawks.Runtime.Models.GameFlows.Types.PredictFlow.html",
+    "title": "Class PredictFlow | Developer Reference",
+    "keywords": "Class PredictFlow Inheritance Object GameFlow PredictFlow Inherited Members GameFlow._cancellation Namespace : StormHawks.Runtime.Models.GameFlows.Types Assembly : cs.temp.dll.dll Syntax public class PredictFlow : GameFlow Constructors PredictFlow(Func<Boolean>, SequenceGameFlow, SequenceGameFlow) Declaration public PredictFlow(Func<bool> predict, SequenceGameFlow success, SequenceGameFlow failure) Parameters Type Name Description Func < Boolean > predict SequenceGameFlow success SequenceGameFlow failure Methods OnEnter() Declaration public override async UniTask OnEnter() Returns Type Description UniTask Overrides GameFlow.OnEnter() OnExit() Declaration public override async UniTask OnExit() Returns Type Description UniTask Overrides GameFlow.OnExit() Run() Declaration public override async UniTask Run() Returns Type Description UniTask Overrides GameFlow.Run()"
   },
   "api/StormHawks.Runtime.Models.GameFlows.Types.Waiters.html": {
     "href": "api/StormHawks.Runtime.Models.GameFlows.Types.Waiters.html",
     "title": "Namespace StormHawks.Runtime.Models.GameFlows.Types.Waiters | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Models.GameFlows.Types.Waiters Classes WaitBossBehaviorCompleted WaitBossEyeRailgunChargeBehaviorCompleted WaitBossTeleportBehaviorCompleted WaitPowerPlantGimmickCompletedFlow WaitUntilCutSceneCompletedFlow"
+    "keywords": "Namespace StormHawks.Runtime.Models.GameFlows.Types.Waiters Classes WaitChangedBossStateCompleted WaitPowerPlantGimmickCompletedFlow WaitUntilCutSceneCompletedFlow"
   },
-  "api/StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossBehaviorCompleted.html": {
-    "href": "api/StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossBehaviorCompleted.html",
-    "title": "Class WaitBossBehaviorCompleted | Developer Reference",
-    "keywords": "Class WaitBossBehaviorCompleted Inheritance Object GameFlow WaitBossBehaviorCompleted Inherited Members GameFlow._cancellation Namespace : StormHawks.Runtime.Models.GameFlows.Types.Waiters Assembly : cs.temp.dll.dll Syntax public class WaitBossBehaviorCompleted : GameFlow Constructors WaitBossBehaviorCompleted(BossModel, BossBehaviorType) Declaration public WaitBossBehaviorCompleted(BossModel model, BossBehaviorType type) Parameters Type Name Description BossModel model BossBehaviorType type Methods OnEnter() Declaration public override async UniTask OnEnter() Returns Type Description UniTask Overrides GameFlow.OnEnter() OnExit() Declaration public override async UniTask OnExit() Returns Type Description UniTask Overrides GameFlow.OnExit() Run() Declaration public override async UniTask Run() Returns Type Description UniTask Overrides GameFlow.Run()"
-  },
-  "api/StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossEyeRailgunChargeBehaviorCompleted.html": {
-    "href": "api/StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossEyeRailgunChargeBehaviorCompleted.html",
-    "title": "Class WaitBossEyeRailgunChargeBehaviorCompleted | Developer Reference",
-    "keywords": "Class WaitBossEyeRailgunChargeBehaviorCompleted Inheritance Object GameFlow WaitBossEyeRailgunChargeBehaviorCompleted Inherited Members GameFlow._cancellation Namespace : StormHawks.Runtime.Models.GameFlows.Types.Waiters Assembly : cs.temp.dll.dll Syntax public class WaitBossEyeRailgunChargeBehaviorCompleted : GameFlow Constructors WaitBossEyeRailgunChargeBehaviorCompleted(BossModel, BossEyeModel, SequenceGameFlow, SequenceGameFlow) Declaration public WaitBossEyeRailgunChargeBehaviorCompleted(BossModel boss, BossEyeModel eyeModel, SequenceGameFlow successSequence, SequenceGameFlow failureSequence) Parameters Type Name Description BossModel boss BossEyeModel eyeModel SequenceGameFlow successSequence SequenceGameFlow failureSequence Methods OnEnter() Declaration public override async UniTask OnEnter() Returns Type Description UniTask Overrides GameFlow.OnEnter() OnExit() Declaration public override async UniTask OnExit() Returns Type Description UniTask Overrides GameFlow.OnExit() Run() Declaration public override async UniTask Run() Returns Type Description UniTask Overrides GameFlow.Run()"
-  },
-  "api/StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossTeleportBehaviorCompleted.html": {
-    "href": "api/StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitBossTeleportBehaviorCompleted.html",
-    "title": "Class WaitBossTeleportBehaviorCompleted | Developer Reference",
-    "keywords": "Class WaitBossTeleportBehaviorCompleted Inheritance Object GameFlow WaitBossTeleportBehaviorCompleted Inherited Members GameFlow._cancellation Namespace : StormHawks.Runtime.Models.GameFlows.Types.Waiters Assembly : cs.temp.dll.dll Syntax public class WaitBossTeleportBehaviorCompleted : GameFlow Constructors WaitBossTeleportBehaviorCompleted(BossModel, BossTeleportSpotModel) Declaration public WaitBossTeleportBehaviorCompleted(BossModel boss, BossTeleportSpotModel teleportSpot) Parameters Type Name Description BossModel boss BossTeleportSpotModel teleportSpot Methods OnEnter() Declaration public override async UniTask OnEnter() Returns Type Description UniTask Overrides GameFlow.OnEnter() OnExit() Declaration public override async UniTask OnExit() Returns Type Description UniTask Overrides GameFlow.OnExit() Run() Declaration public override async UniTask Run() Returns Type Description UniTask Overrides GameFlow.Run()"
+  "api/StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitChangedBossStateCompleted.html": {
+    "href": "api/StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitChangedBossStateCompleted.html",
+    "title": "Class WaitChangedBossStateCompleted | Developer Reference",
+    "keywords": "Class WaitChangedBossStateCompleted Inheritance Object GameFlow WaitChangedBossStateCompleted Inherited Members GameFlow._cancellation Namespace : StormHawks.Runtime.Models.GameFlows.Types.Waiters Assembly : cs.temp.dll.dll Syntax public class WaitChangedBossStateCompleted : GameFlow Constructors WaitChangedBossStateCompleted(BossModel, BossState) Declaration public WaitChangedBossStateCompleted(BossModel bossModel, BossState changedState) Parameters Type Name Description BossModel bossModel BossState changedState Methods OnEnter() Declaration public override async UniTask OnEnter() Returns Type Description UniTask Overrides GameFlow.OnEnter() OnExit() Declaration public override async UniTask OnExit() Returns Type Description UniTask Overrides GameFlow.OnExit() Run() Declaration public override async UniTask Run() Returns Type Description UniTask Overrides GameFlow.Run()"
   },
   "api/StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitPowerPlantGimmickCompletedFlow.html": {
     "href": "api/StormHawks.Runtime.Models.GameFlows.Types.Waiters.WaitPowerPlantGimmickCompletedFlow.html",
@@ -1823,6 +1848,36 @@
     "href": "api/StormHawks.Runtime.Models.Runtime.Models.XR.Contexts.XRHMDInputModel.html",
     "title": "Class XRHMDInputModel | Developer Reference",
     "keywords": "Class XRHMDInputModel Inheritance Object XRHMDInputModel Implements XRInputActions.IHMDActions IXRHMDInput IInitializable IDisposable Namespace : StormHawks.Runtime.Models.Runtime.Models.XR.Contexts Assembly : cs.temp.dll.dll Syntax public class XRHMDInputModel : XRInputActions.IHMDActions, IXRHMDInput Constructors XRHMDInputModel(XRInputActions) Declaration public XRHMDInputModel(XRInputActions inputActions) Parameters Type Name Description XRInputActions inputActions Properties Position Declaration public IReadOnlyReactiveProperty<Vector3> Position { get; } Property Value Type Description IReadOnlyReactiveProperty < Vector3 > Rotation Declaration public IReadOnlyReactiveProperty<Quaternion> Rotation { get; } Property Value Type Description IReadOnlyReactiveProperty < Quaternion > TrackingState Declaration public IReadOnlyReactiveProperty<int> TrackingState { get; } Property Value Type Description IReadOnlyReactiveProperty < Int32 > Methods Dispose() Declaration public void Dispose() Initialize() Declaration public void Initialize() OnPosition(InputAction.CallbackContext) Declaration public void OnPosition(InputAction.CallbackContext context) Parameters Type Name Description InputAction.CallbackContext context OnRotation(InputAction.CallbackContext) Declaration public void OnRotation(InputAction.CallbackContext context) Parameters Type Name Description InputAction.CallbackContext context OnTrackingState(InputAction.CallbackContext) Declaration public void OnTrackingState(InputAction.CallbackContext context) Parameters Type Name Description InputAction.CallbackContext context Implements XRInputActions.IHMDActions IXRHMDInput IInitializable IDisposable"
+  },
+  "api/StormHawks.Runtime.Models.States.Boss.Actions.BossChargeEyeRailgunState.html": {
+    "href": "api/StormHawks.Runtime.Models.States.Boss.Actions.BossChargeEyeRailgunState.html",
+    "title": "Class BossChargeEyeRailgunState | Developer Reference",
+    "keywords": "Class BossChargeEyeRailgunState Inheritance Object BossChargeEyeRailgunState Namespace : StormHawks.Runtime.Models.States.Boss.Actions Assembly : cs.temp.dll.dll Syntax public class BossChargeEyeRailgunState : BossActionState Constructors BossChargeEyeRailgunState(BossStateFactory, BossModel, IEntityAnimator, BossEyeModel) Declaration public BossChargeEyeRailgunState(BossStateFactory factory, BossModel model, IEntityAnimator animator, BossEyeModel eye) Parameters Type Name Description BossStateFactory factory BossModel model IEntityAnimator animator BossEyeModel eye Methods CheckSwitchState() Declaration public override void CheckSwitchState() Enter() Declaration public override void Enter() Exit() Declaration public override void Exit() UpdateState() Declaration public override void UpdateState()"
+  },
+  "api/StormHawks.Runtime.Models.States.Boss.Actions.BossFireEyeRailgunState.html": {
+    "href": "api/StormHawks.Runtime.Models.States.Boss.Actions.BossFireEyeRailgunState.html",
+    "title": "Class BossFireEyeRailgunState | Developer Reference",
+    "keywords": "Class BossFireEyeRailgunState Inheritance Object BossFireEyeRailgunState Namespace : StormHawks.Runtime.Models.States.Boss.Actions Assembly : cs.temp.dll.dll Syntax public class BossFireEyeRailgunState : BossActionState Constructors BossFireEyeRailgunState(BossStateFactory, BossModel, IEntityAnimator, BossEyeModel) Declaration public BossFireEyeRailgunState(BossStateFactory factory, BossModel model, IEntityAnimator animator, BossEyeModel eyeModel) Parameters Type Name Description BossStateFactory factory BossModel model IEntityAnimator animator BossEyeModel eyeModel Methods CheckSwitchState() Declaration public override void CheckSwitchState() Enter() Declaration public override void Enter() Exit() Declaration public override void Exit() UpdateState() Declaration public override void UpdateState()"
+  },
+  "api/StormHawks.Runtime.Models.States.Boss.Actions.BossTeleportState.html": {
+    "href": "api/StormHawks.Runtime.Models.States.Boss.Actions.BossTeleportState.html",
+    "title": "Class BossTeleportState | Developer Reference",
+    "keywords": "Class BossTeleportState Inheritance Object BossTeleportState Namespace : StormHawks.Runtime.Models.States.Boss.Actions Assembly : cs.temp.dll.dll Syntax public class BossTeleportState : BossActionState Constructors BossTeleportState(BossStateFactory, BossModel, IEntityAnimator) Declaration public BossTeleportState(BossStateFactory factory, BossModel model, IEntityAnimator animator) Parameters Type Name Description BossStateFactory factory BossModel model IEntityAnimator animator Methods CheckSwitchState() Declaration public override void CheckSwitchState() Enter() Declaration public override void Enter() Exit() Declaration public override void Exit() UpdateState() Declaration public override void UpdateState()"
+  },
+  "api/StormHawks.Runtime.Models.States.Boss.Actions.html": {
+    "href": "api/StormHawks.Runtime.Models.States.Boss.Actions.html",
+    "title": "Namespace StormHawks.Runtime.Models.States.Boss.Actions | Developer Reference",
+    "keywords": "Namespace StormHawks.Runtime.Models.States.Boss.Actions Classes BossChargeEyeRailgunState BossFireEyeRailgunState BossTeleportState"
+  },
+  "api/StormHawks.Runtime.Models.States.Boss.BossStateFactory.html": {
+    "href": "api/StormHawks.Runtime.Models.States.Boss.BossStateFactory.html",
+    "title": "Class BossStateFactory | Developer Reference",
+    "keywords": "Class BossStateFactory Inheritance Object BossStateFactory Namespace : StormHawks.Runtime.Models.States.Boss Assembly : cs.temp.dll.dll Syntax public class BossStateFactory Constructors BossStateFactory(BossModel, BossEyeModel, IEntityAnimator) Declaration public BossStateFactory(BossModel model, BossEyeModel eyeModel, IEntityAnimator animator) Parameters Type Name Description BossModel model BossEyeModel eyeModel IEntityAnimator animator Methods GetState<T>() Declaration public BossState GetState<T>() where T : BossState Returns Type Description BossState Type Parameters Name Description T"
+  },
+  "api/StormHawks.Runtime.Models.States.Boss.html": {
+    "href": "api/StormHawks.Runtime.Models.States.Boss.html",
+    "title": "Namespace StormHawks.Runtime.Models.States.Boss | Developer Reference",
+    "keywords": "Namespace StormHawks.Runtime.Models.States.Boss Classes BossStateFactory"
   },
   "api/StormHawks.Runtime.Pivots.html": {
     "href": "api/StormHawks.Runtime.Pivots.html",
@@ -2047,17 +2102,12 @@
   "api/StormHawks.Runtime.Presenters.Animators.EntityAnimatorPresenter.html": {
     "href": "api/StormHawks.Runtime.Presenters.Animators.EntityAnimatorPresenter.html",
     "title": "Class EntityAnimatorPresenter | Developer Reference",
-    "keywords": "Class EntityAnimatorPresenter Inheritance Object EntityAnimatorPresenter Implements IEntityAnimator Namespace : StormHawks.Runtime.Presenters.Animators Assembly : cs.temp.dll.dll Syntax public class EntityAnimatorPresenter : MonoBehaviour, IEntityAnimator Methods GetDuration(String) Declaration public float GetDuration(string animationName) Parameters Type Name Description String animationName Returns Type Description Single IsAnyPlaying() Declaration public bool IsAnyPlaying() Returns Type Description Boolean IsPlaying(String) Declaration public bool IsPlaying(string stateName) Parameters Type Name Description String stateName Returns Type Description Boolean PlayAnimation(String, Action) Declaration public void PlayAnimation(string stateName, Action onComplete = null) Parameters Type Name Description String stateName Action onComplete Implements IEntityAnimator"
+    "keywords": "Class EntityAnimatorPresenter Inheritance Object EntityAnimatorPresenter Implements IEntityAnimator Namespace : StormHawks.Runtime.Presenters.Animators Assembly : cs.temp.dll.dll Syntax public class EntityAnimatorPresenter : MonoBehaviour Methods GetDuration(String) Declaration public float GetDuration(string animationName) Parameters Type Name Description String animationName Returns Type Description Single IsAnyPlaying() Declaration public bool IsAnyPlaying() Returns Type Description Boolean IsPlaying(String) Declaration public bool IsPlaying(string stateName) Parameters Type Name Description String stateName Returns Type Description Boolean PlayAnimation(String, Action) Declaration public void PlayAnimation(string stateName, Action onComplete = null) Parameters Type Name Description String stateName Action onComplete Implements IEntityAnimator"
   },
   "api/StormHawks.Runtime.Presenters.Animators.html": {
     "href": "api/StormHawks.Runtime.Presenters.Animators.html",
     "title": "Namespace StormHawks.Runtime.Presenters.Animators | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Presenters.Animators Classes EntityAnimatorPresenter Interfaces IEntityAnimator"
-  },
-  "api/StormHawks.Runtime.Presenters.Animators.IEntityAnimator.html": {
-    "href": "api/StormHawks.Runtime.Presenters.Animators.IEntityAnimator.html",
-    "title": "Interface IEntityAnimator | Developer Reference",
-    "keywords": "Interface IEntityAnimator Namespace : StormHawks.Runtime.Presenters.Animators Assembly : cs.temp.dll.dll Syntax public interface IEntityAnimator Methods GetDuration(String) Declaration float GetDuration(string animationName) Parameters Type Name Description String animationName Returns Type Description Single IsAnyPlaying() Declaration bool IsAnyPlaying() Returns Type Description Boolean IsPlaying(String) Declaration bool IsPlaying(string animationName) Parameters Type Name Description String animationName Returns Type Description Boolean PlayAnimation(String, Action) Declaration void PlayAnimation(string animationName, Action onComplete = null) Parameters Type Name Description String animationName Action onComplete"
+    "keywords": "Namespace StormHawks.Runtime.Presenters.Animators Classes EntityAnimatorPresenter"
   },
   "api/StormHawks.Runtime.Presenters.Animators.Players.HandAnimationPresenter.html": {
     "href": "api/StormHawks.Runtime.Presenters.Animators.Players.HandAnimationPresenter.html",
@@ -2079,71 +2129,6 @@
     "title": "Class RingControllerPresenter.RingController | Developer Reference",
     "keywords": "Class RingControllerPresenter.RingController Inheritance Object RingControllerPresenter.RingController Namespace : StormHawks.Runtime.Presenters.Animators.Players Assembly : cs.temp.dll.dll Syntax [Serializable] public class RingController Properties IsActivated Declaration public bool IsActivated { get; } Property Value Type Description Boolean Methods HideRing() Declaration public void HideRing() Initialize(Transform, GameObject, GameObject, Single, Single) Declaration public void Initialize(Transform parent, GameObject followRingPrefab, GameObject fixedRingPrefab, float showTime, float hideTime) Parameters Type Name Description Transform parent GameObject followRingPrefab GameObject fixedRingPrefab Single showTime Single hideTime ShowRing() Declaration public void ShowRing() UpdateRing() Declaration public void UpdateRing()"
   },
-  "api/StormHawks.Runtime.Presenters.Behaviors.BehaviorPlayers.Boss.BossPathFollowBehavior.html": {
-    "href": "api/StormHawks.Runtime.Presenters.Behaviors.BehaviorPlayers.Boss.BossPathFollowBehavior.html",
-    "title": "Class BossPathFollowBehavior | Developer Reference",
-    "keywords": "Class BossPathFollowBehavior Inheritance Object BossPathFollowBehavior Namespace : StormHawks.Runtime.Presenters.Behaviors.BehaviorPlayers.Boss Assembly : cs.temp.dll.dll Syntax public class BossPathFollowBehavior : BossBehavior Constructors BossPathFollowBehavior(BossPresenter, IEntityAnimator, BossBehaviorSettings, BossPathModel) Declaration public BossPathFollowBehavior(BossPresenter bossPresenter, IEntityAnimator animator, BossBehaviorSettings settings, BossPathModel path) Parameters Type Name Description BossPresenter bossPresenter IEntityAnimator animator BossBehaviorSettings settings BossPathModel path Methods Execute(Action) Declaration public override async UniTaskVoid Execute(Action onComplete = null) Parameters Type Name Description Action onComplete Returns Type Description UniTaskVoid"
-  },
-  "api/StormHawks.Runtime.Presenters.Behaviors.BehaviorPlayers.Boss.html": {
-    "href": "api/StormHawks.Runtime.Presenters.Behaviors.BehaviorPlayers.Boss.html",
-    "title": "Namespace StormHawks.Runtime.Presenters.Behaviors.BehaviorPlayers.Boss | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Presenters.Behaviors.BehaviorPlayers.Boss Classes BossPathFollowBehavior"
-  },
-  "api/StormHawks.Runtime.Presenters.Behaviors.Boss.BossEntryPowerPlantBehavior.html": {
-    "href": "api/StormHawks.Runtime.Presenters.Behaviors.Boss.BossEntryPowerPlantBehavior.html",
-    "title": "Class BossEntryPowerPlantBehavior | Developer Reference",
-    "keywords": "Class BossEntryPowerPlantBehavior Inheritance Object BossEntryPowerPlantBehavior Namespace : StormHawks.Runtime.Presenters.Behaviors.Boss Assembly : cs.temp.dll.dll Syntax public class BossEntryPowerPlantBehavior : BossBehavior Constructors BossEntryPowerPlantBehavior(BossPresenter, IEntityAnimator, BossBehaviorSettings, BossPathModel) Declaration public BossEntryPowerPlantBehavior(BossPresenter bossPresenter, IEntityAnimator animator, BossBehaviorSettings settings, BossPathModel path) Parameters Type Name Description BossPresenter bossPresenter IEntityAnimator animator BossBehaviorSettings settings BossPathModel path Methods Execute(Action) Declaration public override async UniTaskVoid Execute(Action onComplete = null) Parameters Type Name Description Action onComplete Returns Type Description UniTaskVoid"
-  },
-  "api/StormHawks.Runtime.Presenters.Behaviors.Boss.BossEyeRailgunAttackBehavior.html": {
-    "href": "api/StormHawks.Runtime.Presenters.Behaviors.Boss.BossEyeRailgunAttackBehavior.html",
-    "title": "Class BossEyeRailgunAttackBehavior | Developer Reference",
-    "keywords": "Class BossEyeRailgunAttackBehavior Inheritance Object BossEyeRailgunAttackBehavior Namespace : StormHawks.Runtime.Presenters.Behaviors.Boss Assembly : cs.temp.dll.dll Syntax public class BossEyeRailgunAttackBehavior : BossBehavior Constructors BossEyeRailgunAttackBehavior(BossPresenter, IEntityAnimator, BossBehaviorSettings, BossEyeModel) Declaration public BossEyeRailgunAttackBehavior(BossPresenter bossPresenter, IEntityAnimator animator, BossBehaviorSettings settings, BossEyeModel eyeModel) Parameters Type Name Description BossPresenter bossPresenter IEntityAnimator animator BossBehaviorSettings settings BossEyeModel eyeModel Methods Execute(Action) Declaration public override async UniTaskVoid Execute(Action onComplete = null) Parameters Type Name Description Action onComplete Returns Type Description UniTaskVoid"
-  },
-  "api/StormHawks.Runtime.Presenters.Behaviors.Boss.BossLaunchMissileBehavior.html": {
-    "href": "api/StormHawks.Runtime.Presenters.Behaviors.Boss.BossLaunchMissileBehavior.html",
-    "title": "Class BossLaunchMissileBehavior | Developer Reference",
-    "keywords": "Class BossLaunchMissileBehavior Inheritance Object BossLaunchMissileBehavior Namespace : StormHawks.Runtime.Presenters.Behaviors.Boss Assembly : cs.temp.dll.dll Syntax public class BossLaunchMissileBehavior : BossBehavior Constructors BossLaunchMissileBehavior(BossPresenter, IEntityAnimator, BossBehaviorSettings, BossMissileWeapon[]) Declaration public BossLaunchMissileBehavior(BossPresenter bossPresenter, IEntityAnimator animator, BossBehaviorSettings settings, BossMissileWeapon[] missileWeapons) Parameters Type Name Description BossPresenter bossPresenter IEntityAnimator animator BossBehaviorSettings settings BossMissileWeapon [] missileWeapons Methods Execute(Action) Declaration public override async UniTaskVoid Execute(Action onComplete = null) Parameters Type Name Description Action onComplete Returns Type Description UniTaskVoid"
-  },
-  "api/StormHawks.Runtime.Presenters.Behaviors.Boss.BossTeleportBehavior.html": {
-    "href": "api/StormHawks.Runtime.Presenters.Behaviors.Boss.BossTeleportBehavior.html",
-    "title": "Class BossTeleportBehavior | Developer Reference",
-    "keywords": "Class BossTeleportBehavior Inheritance Object BossTeleportBehavior Namespace : StormHawks.Runtime.Presenters.Behaviors.Boss Assembly : cs.temp.dll.dll Syntax public class BossTeleportBehavior : BossBehavior Constructors BossTeleportBehavior(BossPresenter, IEntityAnimator, BossBehaviorSettings) Declaration public BossTeleportBehavior(BossPresenter bossPresenter, IEntityAnimator animator, BossBehaviorSettings settings) Parameters Type Name Description BossPresenter bossPresenter IEntityAnimator animator BossBehaviorSettings settings Methods Execute(Action) Declaration public override async UniTaskVoid Execute(Action onComplete = null) Parameters Type Name Description Action onComplete Returns Type Description UniTaskVoid"
-  },
-  "api/StormHawks.Runtime.Presenters.Behaviors.Boss.html": {
-    "href": "api/StormHawks.Runtime.Presenters.Behaviors.Boss.html",
-    "title": "Namespace StormHawks.Runtime.Presenters.Behaviors.Boss | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Presenters.Behaviors.Boss Classes BossEntryPowerPlantBehavior BossEyeRailgunAttackBehavior BossLaunchMissileBehavior BossTeleportBehavior"
-  },
-  "api/StormHawks.Runtime.Presenters.Behaviors.Players.BehaviorPlayer.html": {
-    "href": "api/StormHawks.Runtime.Presenters.Behaviors.Players.BehaviorPlayer.html",
-    "title": "Class BehaviorPlayer | Developer Reference",
-    "keywords": "Class BehaviorPlayer Inheritance Object BehaviorPlayer BossBehaviorPlayer Namespace : StormHawks.Runtime.Presenters.Behaviors.Players Assembly : cs.temp.dll.dll Syntax public abstract class BehaviorPlayer : MonoBehaviour Fields _behavior Declaration protected IEntityBehavior _behavior Field Value Type Description IEntityBehavior Methods Cancel() Declaration public abstract void Cancel() Play() Declaration public abstract void Play()"
-  },
-  "api/StormHawks.Runtime.Presenters.Behaviors.Players.Boss.BossBehaviorPlayer.html": {
-    "href": "api/StormHawks.Runtime.Presenters.Behaviors.Players.Boss.BossBehaviorPlayer.html",
-    "title": "Class BossBehaviorPlayer | Developer Reference",
-    "keywords": "Class BossBehaviorPlayer Inheritance Object BehaviorPlayer BossBehaviorPlayer BossPathFollowBehaviorPlayer BossRushBehaviorPlayer Inherited Members BehaviorPlayer._behavior Namespace : StormHawks.Runtime.Presenters.Behaviors.Players.Boss Assembly : cs.temp.dll.dll Syntax public abstract class BossBehaviorPlayer : BehaviorPlayer Fields _animator Declaration protected EntityAnimatorPresenter _animator Field Value Type Description EntityAnimatorPresenter _bossPresenter Declaration protected BossPresenter _bossPresenter Field Value Type Description BossPresenter _settings Declaration protected BossBehaviorSettings _settings Field Value Type Description BossBehaviorSettings Methods Cancel() Declaration public override void Cancel() Overrides BehaviorPlayer.Cancel() Play() Declaration public override void Play() Overrides BehaviorPlayer.Play()"
-  },
-  "api/StormHawks.Runtime.Presenters.Behaviors.Players.Boss.BossPathFollowBehaviorPlayer.html": {
-    "href": "api/StormHawks.Runtime.Presenters.Behaviors.Players.Boss.BossPathFollowBehaviorPlayer.html",
-    "title": "Class BossPathFollowBehaviorPlayer | Developer Reference",
-    "keywords": "Class BossPathFollowBehaviorPlayer Inheritance Object BehaviorPlayer BossBehaviorPlayer BossPathFollowBehaviorPlayer Inherited Members BossBehaviorPlayer._settings BossBehaviorPlayer._bossPresenter BossBehaviorPlayer._animator BossBehaviorPlayer.Cancel() BehaviorPlayer._behavior Namespace : StormHawks.Runtime.Presenters.Behaviors.Players.Boss Assembly : cs.temp.dll.dll Syntax public class BossPathFollowBehaviorPlayer : BossBehaviorPlayer Methods Play() Declaration public override void Play() Overrides BossBehaviorPlayer.Play()"
-  },
-  "api/StormHawks.Runtime.Presenters.Behaviors.Players.Boss.BossRushBehaviorPlayer.html": {
-    "href": "api/StormHawks.Runtime.Presenters.Behaviors.Players.Boss.BossRushBehaviorPlayer.html",
-    "title": "Class BossRushBehaviorPlayer | Developer Reference",
-    "keywords": "Class BossRushBehaviorPlayer Inheritance Object BehaviorPlayer BossBehaviorPlayer BossRushBehaviorPlayer Inherited Members BossBehaviorPlayer._settings BossBehaviorPlayer._bossPresenter BossBehaviorPlayer._animator BossBehaviorPlayer.Cancel() BehaviorPlayer._behavior Namespace : StormHawks.Runtime.Presenters.Behaviors.Players.Boss Assembly : cs.temp.dll.dll Syntax public class BossRushBehaviorPlayer : BossBehaviorPlayer Methods Play() Declaration public override void Play() Overrides BossBehaviorPlayer.Play()"
-  },
-  "api/StormHawks.Runtime.Presenters.Behaviors.Players.Boss.html": {
-    "href": "api/StormHawks.Runtime.Presenters.Behaviors.Players.Boss.html",
-    "title": "Namespace StormHawks.Runtime.Presenters.Behaviors.Players.Boss | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Presenters.Behaviors.Players.Boss Classes BossBehaviorPlayer BossPathFollowBehaviorPlayer BossRushBehaviorPlayer"
-  },
-  "api/StormHawks.Runtime.Presenters.Behaviors.Players.html": {
-    "href": "api/StormHawks.Runtime.Presenters.Behaviors.Players.html",
-    "title": "Namespace StormHawks.Runtime.Presenters.Behaviors.Players | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Presenters.Behaviors.Players Classes BehaviorPlayer"
-  },
   "api/StormHawks.Runtime.Presenters.Boss.BossMissileWeaponSet.html": {
     "href": "api/StormHawks.Runtime.Presenters.Boss.BossMissileWeaponSet.html",
     "title": "Class BossMissileWeaponSet | Developer Reference",
@@ -2162,12 +2147,12 @@
   "api/StormHawks.Runtime.Presenters.Bosses.BossEyePresenter.html": {
     "href": "api/StormHawks.Runtime.Presenters.Bosses.BossEyePresenter.html",
     "title": "Class BossEyePresenter | Developer Reference",
-    "keywords": "Class BossEyePresenter Inheritance Object BossEyePresenter Implements IAggressiveTargetable IHasHealthRx Namespace : StormHawks.Runtime.Presenters.Bosses Assembly : cs.temp.dll.dll Syntax public class BossEyePresenter : MonoBehaviour, IAggressiveTargetable Properties AggroTargetCollider Declaration public Collider AggroTargetCollider { get; } Property Value Type Description Collider OnDamaged Declaration public IObservable<Damage> OnDamaged { get; } Property Value Type Description IObservable < Damage > Methods GetAggroTarget() Declaration public AggroTarget GetAggroTarget() Returns Type Description AggroTarget Initialize(BossModel, BossEyeModel) Declaration public void Initialize(BossModel model, BossEyeModel eyeModel) Parameters Type Name Description BossModel model BossEyeModel eyeModel TakeDamage(Damage) Declaration public void TakeDamage(Damage damage) Parameters Type Name Description Damage damage Implements IAggressiveTargetable IHasHealthRx"
+    "keywords": "Class BossEyePresenter Inheritance Object BossEyePresenter Implements IAggressiveTargetable IHasHealthRx Namespace : StormHawks.Runtime.Presenters.Bosses Assembly : cs.temp.dll.dll Syntax public class BossEyePresenter : MonoBehaviour, IAggressiveTargetable Properties AggroTargetCollider Declaration public Collider AggroTargetCollider { get; } Property Value Type Description Collider OnDamaged Declaration public IObservable<Damage> OnDamaged { get; } Property Value Type Description IObservable < Damage > Methods GetAggroTarget() Declaration public AggroTarget GetAggroTarget() Returns Type Description AggroTarget Initialize(BossModel, BossEyeModel, BossStateFactory) Declaration public void Initialize(BossModel model, BossEyeModel eyeModel, BossStateFactory stateFactory) Parameters Type Name Description BossModel model BossEyeModel eyeModel BossStateFactory stateFactory TakeDamage(Damage) Declaration public void TakeDamage(Damage damage) Parameters Type Name Description Damage damage Implements IAggressiveTargetable IHasHealthRx"
   },
   "api/StormHawks.Runtime.Presenters.Bosses.BossPresenter.html": {
     "href": "api/StormHawks.Runtime.Presenters.Bosses.BossPresenter.html",
     "title": "Class BossPresenter | Developer Reference",
-    "keywords": "Class BossPresenter Inheritance Object BossPresenter Implements IAggressiveRx IHasHealthRx Namespace : StormHawks.Runtime.Presenters.Bosses Assembly : cs.temp.dll.dll Syntax public class BossPresenter : BTEntityPresenter, IAggressiveRx Fields _detectedAggroTargets Declaration protected List<AggroTarget> _detectedAggroTargets Field Value Type Description List < AggroTarget > Properties IsAggressive Declaration public bool IsAggressive { get; } Property Value Type Description Boolean OnAggressive Declaration public IObservable<AggroTarget?> OnAggressive { get; } Property Value Type Description IObservable < Nullable < AggroTarget >> OnDamaged Declaration public IObservable<Damage> OnDamaged { get; } Property Value Type Description IObservable < Damage > Position Declaration public Vector3 Position { get; } Property Value Type Description Vector3 Rotation Declaration public Quaternion Rotation { get; } Property Value Type Description Quaternion Transform Declaration public Transform Transform { get; } Property Value Type Description Transform Methods Construct(BossModel, BossEyeModel, BossBehaviorSettings, EnemySpawner, BossPathModelGetter, IObjectResolver) Declaration public void Construct(BossModel model, BossEyeModel eyeModel, BossBehaviorSettings behaviorSettings, EnemySpawner entitySpawner, BossPathModelGetter pathGetter, IObjectResolver resolver) Parameters Type Name Description BossModel model BossEyeModel eyeModel BossBehaviorSettings behaviorSettings EnemySpawner entitySpawner BossPathModelGetter pathGetter IObjectResolver resolver SetAggroTarget(Nullable<AggroTarget>) Declaration public void SetAggroTarget(AggroTarget? target) Parameters Type Name Description Nullable < AggroTarget > target SetBehavior(BossBehaviorType) Declaration public void SetBehavior(BossBehaviorType type) Parameters Type Name Description BossBehaviorType type TakeDamage(Damage) Declaration public void TakeDamage(Damage damage) Parameters Type Name Description Damage damage Implements IAggressiveRx IHasHealthRx"
+    "keywords": "Class BossPresenter Inheritance Object EntityStateMachinePresenter BossPresenter Implements IAggressiveRx IHasHealthRx Inherited Members EntityStateMachinePresenter._animator EntityStateMachinePresenter._states Namespace : StormHawks.Runtime.Presenters.Bosses Assembly : cs.temp.dll.dll Syntax public class BossPresenter : EntityStateMachinePresenter, IAggressiveRx Fields _detectedAggroTargets Declaration protected List<AggroTarget> _detectedAggroTargets Field Value Type Description List < AggroTarget > Properties IsAggressive Declaration public bool IsAggressive { get; } Property Value Type Description Boolean OnAggressive Declaration public IObservable<AggroTarget?> OnAggressive { get; } Property Value Type Description IObservable < Nullable < AggroTarget >> OnDamaged Declaration public IObservable<Damage> OnDamaged { get; } Property Value Type Description IObservable < Damage > Position Declaration public Vector3 Position { get; } Property Value Type Description Vector3 Rotation Declaration public Quaternion Rotation { get; } Property Value Type Description Quaternion Transform Declaration public Transform Transform { get; } Property Value Type Description Transform Methods Construct(BossModel, BossEyeModel, BossStateFactory, EnemySpawner, BossPathGetter, IObjectResolver) Declaration public void Construct(BossModel model, BossEyeModel eyeModel, BossStateFactory stateFactory, EnemySpawner entitySpawner, BossPathGetter pathGetter, IObjectResolver resolver) Parameters Type Name Description BossModel model BossEyeModel eyeModel BossStateFactory stateFactory EnemySpawner entitySpawner BossPathGetter pathGetter IObjectResolver resolver SetAggroTarget(Nullable<AggroTarget>) Declaration public void SetAggroTarget(AggroTarget? target) Parameters Type Name Description Nullable < AggroTarget > target SetBehavior(BossBehaviorType) Declaration public void SetBehavior(BossBehaviorType type) Parameters Type Name Description BossBehaviorType type TakeDamage(Damage) Declaration public void TakeDamage(Damage damage) Parameters Type Name Description Damage damage Implements IAggressiveRx IHasHealthRx"
   },
   "api/StormHawks.Runtime.Presenters.Bosses.html": {
     "href": "api/StormHawks.Runtime.Presenters.Bosses.html",
@@ -2234,6 +2219,11 @@
     "title": "Class SteeringEntityPresenter<T> | Developer Reference",
     "keywords": "Class SteeringEntityPresenter<T> Inheritance Object EntityPresenter BTEntityPresenter SteeringEntityPresenter<T> SteeringEnemyPresenter<T> Implements ISteeringEntity Inherited Members BTEntityPresenter._runner BTEntityPresenter.SetBlackboardValue<T>(String, T) Namespace : StormHawks.Runtime.Presenters.Entities Assembly : cs.temp.dll.dll Syntax public abstract class SteeringEntityPresenter<T> : BTEntityPresenter where T : SteeringEntityModel Type Parameters Name Description T Fields _model Declaration protected T _model Field Value Type Description T _rigidbody Declaration protected Rigidbody _rigidbody Field Value Type Description Rigidbody _transform Declaration protected Transform _transform Field Value Type Description Transform Properties Forward Declaration public Vector3 Forward { get; } Property Value Type Description Vector3 OnCreateNewSteeringForce Declaration public IObservable<SteeringForce> OnCreateNewSteeringForce { get; } Property Value Type Description IObservable < SteeringForce > OnRemoveSteeringForce Declaration public IObservable<SteeringForce> OnRemoveSteeringForce { get; } Property Value Type Description IObservable < SteeringForce > Position Declaration public Vector3 Position { get; } Property Value Type Description Vector3 SpeedRange Declaration public RangeValue SpeedRange { get; } Property Value Type Description RangeValue Velocity Declaration public Vector3 Velocity { get; } Property Value Type Description Vector3 Methods AddSteeringForce<T1>(T1) Declaration public void AddSteeringForce<T1>(T1 force) where T1 : SteeringForce Parameters Type Name Description T1 force Type Parameters Name Description T1 Awake() Declaration public abstract void Awake() ContainSteeringForce<T1>(T1) Declaration public bool ContainSteeringForce<T1>(T1 force) where T1 : SteeringForce Parameters Type Name Description T1 force Returns Type Description Boolean Type Parameters Name Description T1 RemoveAllForces() Declaration public void RemoveAllForces() RemoveSteeringForce<T1>(T1) Declaration public void RemoveSteeringForce<T1>(T1 force) where T1 : SteeringForce Parameters Type Name Description T1 force Type Parameters Name Description T1 Start() Declaration public virtual void Start() Stop() Declaration public void Stop() Implements ISteeringEntity"
   },
+  "api/StormHawks.Runtime.Presenters.EntityStateMachinePresenter.html": {
+    "href": "api/StormHawks.Runtime.Presenters.EntityStateMachinePresenter.html",
+    "title": "Class EntityStateMachinePresenter | Developer Reference",
+    "keywords": "Class EntityStateMachinePresenter Inheritance Object EntityStateMachinePresenter BossPresenter Namespace : StormHawks.Runtime.Presenters Assembly : cs.temp.dll.dll Syntax public abstract class EntityStateMachinePresenter : EntityPresenter Fields _animator Declaration protected IEntityAnimator _animator Field Value Type Description IEntityAnimator _states Declaration protected List<IState> _states Field Value Type Description List < IState >"
+  },
   "api/StormHawks.Runtime.Presenters.Environments.BattleArea.BattleAreaEnemyGroupSet.EliteEnemyGroupSet.html": {
     "href": "api/StormHawks.Runtime.Presenters.Environments.BattleArea.BattleAreaEnemyGroupSet.EliteEnemyGroupSet.html",
     "title": "Class BattleAreaEnemyGroupSet.EliteEnemyGroupSet | Developer Reference",
@@ -2272,7 +2262,7 @@
   "api/StormHawks.Runtime.Presenters.Environments.Paths.BossPath.html": {
     "href": "api/StormHawks.Runtime.Presenters.Environments.Paths.BossPath.html",
     "title": "Class BossPath | Developer Reference",
-    "keywords": "Class BossPath Inheritance Object BossPath Namespace : StormHawks.Runtime.Presenters.Environments.Paths Assembly : cs.temp.dll.dll Syntax public class BossPath : MonoBehaviour Properties Model Declaration public BossPathModel Model { get; } Property Value Type Description BossPathModel"
+    "keywords": "Class BossPath Inheritance Object BossPath Implements IBossPath Namespace : StormHawks.Runtime.Presenters.Environments.Paths Assembly : cs.temp.dll.dll Syntax public class BossPath : MonoBehaviour Properties Duration Declaration public float Duration { get; } Property Value Type Description Single EaseType Declaration public Ease EaseType { get; } Property Value Type Description Ease IsLookAhead Declaration public bool IsLookAhead { get; } Property Value Type Description Boolean LookAhead Declaration public float LookAhead { get; } Property Value Type Description Single Model Declaration public BossPathModel Model { get; } Property Value Type Description BossPathModel StartRotation Declaration public Quaternion StartRotation { get; } Property Value Type Description Quaternion Waypoints Declaration public Vector3[] Waypoints { get; } Property Value Type Description Vector3 [] Implements IBossPath"
   },
   "api/StormHawks.Runtime.Presenters.Environments.Paths.EnemyPath.html": {
     "href": "api/StormHawks.Runtime.Presenters.Environments.Paths.EnemyPath.html",
@@ -2287,17 +2277,17 @@
   "api/StormHawks.Runtime.Presenters.Environments.TeleportSpots.BossTeleportSpot.html": {
     "href": "api/StormHawks.Runtime.Presenters.Environments.TeleportSpots.BossTeleportSpot.html",
     "title": "Class BossTeleportSpot | Developer Reference",
-    "keywords": "Class BossTeleportSpot Inheritance Object BossTeleportSpot Namespace : StormHawks.Runtime.Presenters.Environments.TeleportSpots Assembly : cs.temp.dll.dll Syntax public class BossTeleportSpot : MonoBehaviour Properties Model Declaration public BossTeleportSpotModel Model { get; } Property Value Type Description BossTeleportSpotModel"
+    "keywords": "Class BossTeleportSpot Inheritance Object BossTeleportSpot Implements ITeleportSpot Namespace : StormHawks.Runtime.Presenters.Environments.TeleportSpots Assembly : cs.temp.dll.dll Syntax public class BossTeleportSpot : MonoBehaviour Properties Model Declaration public BossTeleportSpotModel Model { get; } Property Value Type Description BossTeleportSpotModel Methods ClosePortal() Declaration public void ClosePortal() GetPortalAnimationDuration() Declaration public float GetPortalAnimationDuration() Returns Type Description Single GetPosition() Declaration public Vector3 GetPosition() Returns Type Description Vector3 GetRotation() Declaration public Quaternion GetRotation() Returns Type Description Quaternion OpenPortal() Declaration public void OpenPortal() Implements ITeleportSpot"
   },
-  "api/StormHawks.Runtime.Presenters.Environments.TeleportSpots.BossTeleportSpotModelGetter.html": {
-    "href": "api/StormHawks.Runtime.Presenters.Environments.TeleportSpots.BossTeleportSpotModelGetter.html",
-    "title": "Class BossTeleportSpotModelGetter | Developer Reference",
-    "keywords": "Class BossTeleportSpotModelGetter Inheritance Object BossTeleportSpotModelGetter Namespace : StormHawks.Runtime.Presenters.Environments.TeleportSpots Assembly : cs.temp.dll.dll Syntax public class BossTeleportSpotModelGetter : MonoBehaviour Methods Get(BossTeleportSpotType) Declaration public BossTeleportSpotModel Get(BossTeleportSpotType type) Parameters Type Name Description BossTeleportSpotType type Returns Type Description BossTeleportSpotModel"
+  "api/StormHawks.Runtime.Presenters.Environments.TeleportSpots.BossTeleportSpotGetter.html": {
+    "href": "api/StormHawks.Runtime.Presenters.Environments.TeleportSpots.BossTeleportSpotGetter.html",
+    "title": "Class BossTeleportSpotGetter | Developer Reference",
+    "keywords": "Class BossTeleportSpotGetter Inheritance Object BossTeleportSpotGetter Namespace : StormHawks.Runtime.Presenters.Environments.TeleportSpots Assembly : cs.temp.dll.dll Syntax public class BossTeleportSpotGetter : MonoBehaviour Methods Get(BossTeleportSpotType) Declaration public ITeleportSpot Get(BossTeleportSpotType type) Parameters Type Name Description BossTeleportSpotType type Returns Type Description ITeleportSpot"
   },
   "api/StormHawks.Runtime.Presenters.Environments.TeleportSpots.html": {
     "href": "api/StormHawks.Runtime.Presenters.Environments.TeleportSpots.html",
     "title": "Namespace StormHawks.Runtime.Presenters.Environments.TeleportSpots | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Presenters.Environments.TeleportSpots Classes BossTeleportSpot BossTeleportSpotModelGetter PlayerTeleportSpot PlayerTeleportSpotGetter"
+    "keywords": "Namespace StormHawks.Runtime.Presenters.Environments.TeleportSpots Classes BossTeleportSpot BossTeleportSpotGetter PlayerTeleportSpot PlayerTeleportSpotGetter"
   },
   "api/StormHawks.Runtime.Presenters.Environments.TeleportSpots.PlayerTeleportSpot.html": {
     "href": "api/StormHawks.Runtime.Presenters.Environments.TeleportSpots.PlayerTeleportSpot.html",
@@ -2427,7 +2417,7 @@
   "api/StormHawks.Runtime.Presenters.html": {
     "href": "api/StormHawks.Runtime.Presenters.html",
     "title": "Namespace StormHawks.Runtime.Presenters | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Presenters Classes CutSceneLoader"
+    "keywords": "Namespace StormHawks.Runtime.Presenters Classes CutSceneLoader EntityStateMachinePresenter"
   },
   "api/StormHawks.Runtime.Presenters.Players.html": {
     "href": "api/StormHawks.Runtime.Presenters.Players.html",

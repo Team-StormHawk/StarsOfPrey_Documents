@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class BossRushBehavior
+    <title>Class ChangeBossStateFlow
    | Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class BossRushBehavior
+    <meta name="title" content="Class ChangeBossStateFlow
    | Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -78,65 +78,46 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Behaviors.Boss.BossRushBehavior">
+            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Models.GameFlows.Types.Actions.ChangeBossStateFlow">
   
   
-  <h1 id="StormHawks_Runtime_Behaviors_Boss_BossRushBehavior" data-uid="StormHawks.Runtime.Behaviors.Boss.BossRushBehavior" class="text-break">Class BossRushBehavior
+  <h1 id="StormHawks_Runtime_Models_GameFlows_Types_Actions_ChangeBossStateFlow" data-uid="StormHawks.Runtime.Models.GameFlows.Types.Actions.ChangeBossStateFlow" class="text-break">Class ChangeBossStateFlow
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><a class="xref" href="StormHawks.Runtime.Behaviors.EntityBehavior.html">EntityBehavior</a></div>
-    <div class="level2"><a class="xref" href="StormHawks.Runtime.Behaviors.Boss.BossBehavior.html">BossBehavior</a></div>
-    <div class="level3"><span class="xref">BossRushBehavior</span></div>
-  </div>
-  <div class="implements">
-    <h5>Implements</h5>
-    <div><a class="xref" href="StormHawks.Runtime.Behaviors.IEntityBehavior.html">IEntityBehavior</a></div>
+    <div class="level1"><a class="xref" href="StormHawks.Runtime.Models.GameFlows.GameFlow.html">GameFlow</a></div>
+    <div class="level2"><a class="xref" href="StormHawks.Runtime.Models.GameFlows.Types.Actions.ActionFlow.html">ActionFlow</a></div>
+    <div class="level3"><span class="xref">ChangeBossStateFlow</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <a class="xref" href="StormHawks.Runtime.Behaviors.Boss.BossBehavior.html#StormHawks_Runtime_Behaviors_Boss_BossBehavior__bossPresenter">BossBehavior._bossPresenter</a>
+      <a class="xref" href="StormHawks.Runtime.Models.GameFlows.Types.Actions.ActionFlow.html#StormHawks_Runtime_Models_GameFlows_Types_Actions_ActionFlow_Run">ActionFlow.Run()</a>
     </div>
     <div>
-      <a class="xref" href="StormHawks.Runtime.Behaviors.Boss.BossBehavior.html#StormHawks_Runtime_Behaviors_Boss_BossBehavior__animator">BossBehavior._animator</a>
-    </div>
-    <div>
-      <a class="xref" href="StormHawks.Runtime.Behaviors.Boss.BossBehavior.html#StormHawks_Runtime_Behaviors_Boss_BossBehavior__settings">BossBehavior._settings</a>
-    </div>
-    <div>
-      <a class="xref" href="StormHawks.Runtime.Behaviors.EntityBehavior.html#StormHawks_Runtime_Behaviors_EntityBehavior__cancellation">EntityBehavior._cancellation</a>
-    </div>
-    <div>
-      <a class="xref" href="StormHawks.Runtime.Behaviors.EntityBehavior.html#StormHawks_Runtime_Behaviors_EntityBehavior__isPlaying">EntityBehavior._isPlaying</a>
-    </div>
-    <div>
-      <a class="xref" href="StormHawks.Runtime.Behaviors.EntityBehavior.html#StormHawks_Runtime_Behaviors_EntityBehavior_IsPlaying">EntityBehavior.IsPlaying</a>
-    </div>
-    <div>
-      <a class="xref" href="StormHawks.Runtime.Behaviors.EntityBehavior.html#StormHawks_Runtime_Behaviors_EntityBehavior_Cancel">EntityBehavior.Cancel()</a>
+      <a class="xref" href="StormHawks.Runtime.Models.GameFlows.GameFlow.html#StormHawks_Runtime_Models_GameFlows_GameFlow__cancellation">GameFlow._cancellation</a>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Behaviors.Boss.html">StormHawks.Runtime.Behaviors.Boss</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="StormHawks.Runtime.Models.GameFlows.Types.Actions.html">StormHawks.Runtime.Models.GameFlows.Types.Actions</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="StormHawks_Runtime_Behaviors_Boss_BossRushBehavior_syntax">Syntax</h5>
+  <h5 id="StormHawks_Runtime_Models_GameFlows_Types_Actions_ChangeBossStateFlow_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class BossRushBehavior : BossBehavior, IEntityBehavior</code></pre>
+    <pre><code class="lang-csharp hljs">public class ChangeBossStateFlow : ActionFlow</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   
   
-  <a id="StormHawks_Runtime_Behaviors_Boss_BossRushBehavior__ctor_" data-uid="StormHawks.Runtime.Behaviors.Boss.BossRushBehavior.#ctor*"></a>
-  <h4 id="StormHawks_Runtime_Behaviors_Boss_BossRushBehavior__ctor_BossPresenter_IEntityAnimator_BossBehaviorSettings_Path_" data-uid="StormHawks.Runtime.Behaviors.Boss.BossRushBehavior.#ctor(BossPresenter,IEntityAnimator,BossBehaviorSettings,Path)">BossRushBehavior(BossPresenter, IEntityAnimator, BossBehaviorSettings, Path)</h4>
+  <a id="StormHawks_Runtime_Models_GameFlows_Types_Actions_ChangeBossStateFlow__ctor_" data-uid="StormHawks.Runtime.Models.GameFlows.Types.Actions.ChangeBossStateFlow.#ctor*"></a>
+  <h4 id="StormHawks_Runtime_Models_GameFlows_Types_Actions_ChangeBossStateFlow__ctor_BossModel_BossState_" data-uid="StormHawks.Runtime.Models.GameFlows.Types.Actions.ChangeBossStateFlow.#ctor(BossModel,BossState)">ChangeBossStateFlow(BossModel, BossState)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public BossRushBehavior(BossPresenter bossPresenter, IEntityAnimator animator, BossBehaviorSettings settings, Path retreatPath)</code></pre>
+    <pre><code class="lang-csharp hljs">public ChangeBossStateFlow(BossModel boss, BossState changedState)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -149,23 +130,13 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">BossPresenter</span></td>
-        <td><span class="parametername">bossPresenter</span></td>
+        <td><span class="xref">BossModel</span></td>
+        <td><span class="parametername">boss</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">IEntityAnimator</span></td>
-        <td><span class="parametername">animator</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">BossBehaviorSettings</span></td>
-        <td><span class="parametername">settings</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">Path</span></td>
-        <td><span class="parametername">retreatPath</span></td>
+        <td><span class="xref">BossState</span></td>
+        <td><span class="parametername">changedState</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -174,31 +145,14 @@
   </h3>
   
   
-  <a id="StormHawks_Runtime_Behaviors_Boss_BossRushBehavior_Execute_" data-uid="StormHawks.Runtime.Behaviors.Boss.BossRushBehavior.Execute*"></a>
-  <h4 id="StormHawks_Runtime_Behaviors_Boss_BossRushBehavior_Execute_Action_" data-uid="StormHawks.Runtime.Behaviors.Boss.BossRushBehavior.Execute(Action)">Execute(Action)</h4>
+  <a id="StormHawks_Runtime_Models_GameFlows_Types_Actions_ChangeBossStateFlow_OnEnter_" data-uid="StormHawks.Runtime.Models.GameFlows.Types.Actions.ChangeBossStateFlow.OnEnter*"></a>
+  <h4 id="StormHawks_Runtime_Models_GameFlows_Types_Actions_ChangeBossStateFlow_OnEnter" data-uid="StormHawks.Runtime.Models.GameFlows.Types.Actions.ChangeBossStateFlow.OnEnter">OnEnter()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override async UniTaskVoid Execute(Action onComplete = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public override async UniTask OnEnter()</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Action</span></td>
-        <td><span class="parametername">onComplete</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -209,17 +163,40 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">UniTaskVoid</span></td>
+        <td><span class="xref">UniTask</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="StormHawks.Runtime.Behaviors.EntityBehavior.html#StormHawks_Runtime_Behaviors_EntityBehavior_Execute_Action_">EntityBehavior.Execute(Action)</a></div>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <a class="xref" href="StormHawks.Runtime.Behaviors.IEntityBehavior.html">IEntityBehavior</a>
+  <div><a class="xref" href="StormHawks.Runtime.Models.GameFlows.GameFlow.html#StormHawks_Runtime_Models_GameFlows_GameFlow_OnEnter">GameFlow.OnEnter()</a></div>
+  
+  
+  <a id="StormHawks_Runtime_Models_GameFlows_Types_Actions_ChangeBossStateFlow_OnExit_" data-uid="StormHawks.Runtime.Models.GameFlows.Types.Actions.ChangeBossStateFlow.OnExit*"></a>
+  <h4 id="StormHawks_Runtime_Models_GameFlows_Types_Actions_ChangeBossStateFlow_OnExit" data-uid="StormHawks.Runtime.Models.GameFlows.Types.Actions.ChangeBossStateFlow.OnExit">OnExit()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override async UniTask OnExit()</code></pre>
   </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UniTask</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="StormHawks.Runtime.Models.GameFlows.GameFlow.html#StormHawks_Runtime_Models_GameFlows_GameFlow_OnExit">GameFlow.OnExit()</a></div>
 </article>
           </div>
           

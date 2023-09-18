@@ -6272,12 +6272,18 @@ references:
   commentId: F:StormHawks.Runtime.Enums.BossTeleportSpotType.PowerPlant
   fullName: StormHawks.Runtime.Enums.BossTeleportSpotType.PowerPlant
   nameWithType: BossTeleportSpotType.PowerPlant
-- uid: StormHawks.Runtime.Enums.BossTeleportSpotType.PowerPlantTeleportPoint
-  name: PowerPlantTeleportPoint
-  href: api/StormHawks.Runtime.Enums.BossTeleportSpotType.html#StormHawks_Runtime_Enums_BossTeleportSpotType_PowerPlantTeleportPoint
-  commentId: F:StormHawks.Runtime.Enums.BossTeleportSpotType.PowerPlantTeleportPoint
-  fullName: StormHawks.Runtime.Enums.BossTeleportSpotType.PowerPlantTeleportPoint
-  nameWithType: BossTeleportSpotType.PowerPlantTeleportPoint
+- uid: StormHawks.Runtime.Enums.BossTeleportSpotType.PowerPlantTeleportPoint1
+  name: PowerPlantTeleportPoint1
+  href: api/StormHawks.Runtime.Enums.BossTeleportSpotType.html#StormHawks_Runtime_Enums_BossTeleportSpotType_PowerPlantTeleportPoint1
+  commentId: F:StormHawks.Runtime.Enums.BossTeleportSpotType.PowerPlantTeleportPoint1
+  fullName: StormHawks.Runtime.Enums.BossTeleportSpotType.PowerPlantTeleportPoint1
+  nameWithType: BossTeleportSpotType.PowerPlantTeleportPoint1
+- uid: StormHawks.Runtime.Enums.BossTeleportSpotType.PowerPlantTeleportPoint2
+  name: PowerPlantTeleportPoint2
+  href: api/StormHawks.Runtime.Enums.BossTeleportSpotType.html#StormHawks_Runtime_Enums_BossTeleportSpotType_PowerPlantTeleportPoint2
+  commentId: F:StormHawks.Runtime.Enums.BossTeleportSpotType.PowerPlantTeleportPoint2
+  fullName: StormHawks.Runtime.Enums.BossTeleportSpotType.PowerPlantTeleportPoint2
+  nameWithType: BossTeleportSpotType.PowerPlantTeleportPoint2
 - uid: StormHawks.Runtime.Enums.CutSceneType
   name: CutSceneType
   href: api/StormHawks.Runtime.Enums.CutSceneType.html
@@ -13880,19 +13886,32 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Models.Entities.BossModel.HasCompulsoryAggroTarget
   nameWithType: BossModel.HasCompulsoryAggroTarget
-- uid: StormHawks.Runtime.Models.Entities.BossModel.IsActive
-  name: IsActive
-  href: api/StormHawks.Runtime.Models.Entities.BossModel.html#StormHawks_Runtime_Models_Entities_BossModel_IsActive
-  commentId: P:StormHawks.Runtime.Models.Entities.BossModel.IsActive
-  fullName: StormHawks.Runtime.Models.Entities.BossModel.IsActive
-  nameWithType: BossModel.IsActive
-- uid: StormHawks.Runtime.Models.Entities.BossModel.IsActive*
-  name: IsActive
-  href: api/StormHawks.Runtime.Models.Entities.BossModel.html#StormHawks_Runtime_Models_Entities_BossModel_IsActive_
-  commentId: Overload:StormHawks.Runtime.Models.Entities.BossModel.IsActive
+- uid: StormHawks.Runtime.Models.Entities.BossModel.IKHeadTransform
+  name: IKHeadTransform
+  href: api/StormHawks.Runtime.Models.Entities.BossModel.html#StormHawks_Runtime_Models_Entities_BossModel_IKHeadTransform
+  commentId: P:StormHawks.Runtime.Models.Entities.BossModel.IKHeadTransform
+  fullName: StormHawks.Runtime.Models.Entities.BossModel.IKHeadTransform
+  nameWithType: BossModel.IKHeadTransform
+- uid: StormHawks.Runtime.Models.Entities.BossModel.IKHeadTransform*
+  name: IKHeadTransform
+  href: api/StormHawks.Runtime.Models.Entities.BossModel.html#StormHawks_Runtime_Models_Entities_BossModel_IKHeadTransform_
+  commentId: Overload:StormHawks.Runtime.Models.Entities.BossModel.IKHeadTransform
   isSpec: "True"
-  fullName: StormHawks.Runtime.Models.Entities.BossModel.IsActive
-  nameWithType: BossModel.IsActive
+  fullName: StormHawks.Runtime.Models.Entities.BossModel.IKHeadTransform
+  nameWithType: BossModel.IKHeadTransform
+- uid: StormHawks.Runtime.Models.Entities.BossModel.IKTransform
+  name: IKTransform
+  href: api/StormHawks.Runtime.Models.Entities.BossModel.html#StormHawks_Runtime_Models_Entities_BossModel_IKTransform
+  commentId: P:StormHawks.Runtime.Models.Entities.BossModel.IKTransform
+  fullName: StormHawks.Runtime.Models.Entities.BossModel.IKTransform
+  nameWithType: BossModel.IKTransform
+- uid: StormHawks.Runtime.Models.Entities.BossModel.IKTransform*
+  name: IKTransform
+  href: api/StormHawks.Runtime.Models.Entities.BossModel.html#StormHawks_Runtime_Models_Entities_BossModel_IKTransform_
+  commentId: Overload:StormHawks.Runtime.Models.Entities.BossModel.IKTransform
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Models.Entities.BossModel.IKTransform
+  nameWithType: BossModel.IKTransform
 - uid: StormHawks.Runtime.Models.Entities.BossModel.IsAggressive
   name: IsAggressive
   href: api/StormHawks.Runtime.Models.Entities.BossModel.html#StormHawks_Runtime_Models_Entities_BossModel_IsAggressive
@@ -13977,32 +13996,6 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Models.Entities.BossModel.PlayBehavior
   nameWithType: BossModel.PlayBehavior
-- uid: StormHawks.Runtime.Models.Entities.BossModel.Position
-  name: Position
-  href: api/StormHawks.Runtime.Models.Entities.BossModel.html#StormHawks_Runtime_Models_Entities_BossModel_Position
-  commentId: P:StormHawks.Runtime.Models.Entities.BossModel.Position
-  fullName: StormHawks.Runtime.Models.Entities.BossModel.Position
-  nameWithType: BossModel.Position
-- uid: StormHawks.Runtime.Models.Entities.BossModel.Position*
-  name: Position
-  href: api/StormHawks.Runtime.Models.Entities.BossModel.html#StormHawks_Runtime_Models_Entities_BossModel_Position_
-  commentId: Overload:StormHawks.Runtime.Models.Entities.BossModel.Position
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Models.Entities.BossModel.Position
-  nameWithType: BossModel.Position
-- uid: StormHawks.Runtime.Models.Entities.BossModel.SetActive(System.Boolean)
-  name: SetActive(Boolean)
-  href: api/StormHawks.Runtime.Models.Entities.BossModel.html#StormHawks_Runtime_Models_Entities_BossModel_SetActive_System_Boolean_
-  commentId: M:StormHawks.Runtime.Models.Entities.BossModel.SetActive(System.Boolean)
-  fullName: StormHawks.Runtime.Models.Entities.BossModel.SetActive(System.Boolean)
-  nameWithType: BossModel.SetActive(Boolean)
-- uid: StormHawks.Runtime.Models.Entities.BossModel.SetActive*
-  name: SetActive
-  href: api/StormHawks.Runtime.Models.Entities.BossModel.html#StormHawks_Runtime_Models_Entities_BossModel_SetActive_
-  commentId: Overload:StormHawks.Runtime.Models.Entities.BossModel.SetActive
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Models.Entities.BossModel.SetActive
-  nameWithType: BossModel.SetActive
 - uid: StormHawks.Runtime.Models.Entities.BossModel.SetAggroTarget(System.Nullable{AggroTarget})
   name: SetAggroTarget(Nullable<AggroTarget>)
   href: api/StormHawks.Runtime.Models.Entities.BossModel.html#StormHawks_Runtime_Models_Entities_BossModel_SetAggroTarget_System_Nullable_AggroTarget__
@@ -14071,19 +14064,19 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Models.Entities.BossModel.SetTeleportSpot
   nameWithType: BossModel.SetTeleportSpot
-- uid: StormHawks.Runtime.Models.Entities.BossModel.SetTransform(Transform)
-  name: SetTransform(Transform)
-  href: api/StormHawks.Runtime.Models.Entities.BossModel.html#StormHawks_Runtime_Models_Entities_BossModel_SetTransform_Transform_
-  commentId: M:StormHawks.Runtime.Models.Entities.BossModel.SetTransform(Transform)
-  fullName: StormHawks.Runtime.Models.Entities.BossModel.SetTransform(Transform)
-  nameWithType: BossModel.SetTransform(Transform)
-- uid: StormHawks.Runtime.Models.Entities.BossModel.SetTransform*
-  name: SetTransform
-  href: api/StormHawks.Runtime.Models.Entities.BossModel.html#StormHawks_Runtime_Models_Entities_BossModel_SetTransform_
-  commentId: Overload:StormHawks.Runtime.Models.Entities.BossModel.SetTransform
+- uid: StormHawks.Runtime.Models.Entities.BossModel.SetTransforms(Transform,Transform,Transform)
+  name: SetTransforms(Transform, Transform, Transform)
+  href: api/StormHawks.Runtime.Models.Entities.BossModel.html#StormHawks_Runtime_Models_Entities_BossModel_SetTransforms_Transform_Transform_Transform_
+  commentId: M:StormHawks.Runtime.Models.Entities.BossModel.SetTransforms(Transform,Transform,Transform)
+  fullName: StormHawks.Runtime.Models.Entities.BossModel.SetTransforms(Transform, Transform, Transform)
+  nameWithType: BossModel.SetTransforms(Transform, Transform, Transform)
+- uid: StormHawks.Runtime.Models.Entities.BossModel.SetTransforms*
+  name: SetTransforms
+  href: api/StormHawks.Runtime.Models.Entities.BossModel.html#StormHawks_Runtime_Models_Entities_BossModel_SetTransforms_
+  commentId: Overload:StormHawks.Runtime.Models.Entities.BossModel.SetTransforms
   isSpec: "True"
-  fullName: StormHawks.Runtime.Models.Entities.BossModel.SetTransform
-  nameWithType: BossModel.SetTransform
+  fullName: StormHawks.Runtime.Models.Entities.BossModel.SetTransforms
+  nameWithType: BossModel.SetTransforms
 - uid: StormHawks.Runtime.Models.Entities.BossModel.TakeDamage(System.Single)
   name: TakeDamage(Single)
   href: api/StormHawks.Runtime.Models.Entities.BossModel.html#StormHawks_Runtime_Models_Entities_BossModel_TakeDamage_System_Single_
@@ -14097,19 +14090,6 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Models.Entities.BossModel.TakeDamage
   nameWithType: BossModel.TakeDamage
-- uid: StormHawks.Runtime.Models.Entities.BossModel.Teleport
-  name: Teleport()
-  href: api/StormHawks.Runtime.Models.Entities.BossModel.html#StormHawks_Runtime_Models_Entities_BossModel_Teleport
-  commentId: M:StormHawks.Runtime.Models.Entities.BossModel.Teleport
-  fullName: StormHawks.Runtime.Models.Entities.BossModel.Teleport()
-  nameWithType: BossModel.Teleport()
-- uid: StormHawks.Runtime.Models.Entities.BossModel.Teleport*
-  name: Teleport
-  href: api/StormHawks.Runtime.Models.Entities.BossModel.html#StormHawks_Runtime_Models_Entities_BossModel_Teleport_
-  commentId: Overload:StormHawks.Runtime.Models.Entities.BossModel.Teleport
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Models.Entities.BossModel.Teleport
-  nameWithType: BossModel.Teleport
 - uid: StormHawks.Runtime.Models.Entities.BossModel.TeleportSpot
   name: TeleportSpot
   href: api/StormHawks.Runtime.Models.Entities.BossModel.html#StormHawks_Runtime_Models_Entities_BossModel_TeleportSpot
@@ -14123,19 +14103,6 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Models.Entities.BossModel.TeleportSpot
   nameWithType: BossModel.TeleportSpot
-- uid: StormHawks.Runtime.Models.Entities.BossModel.UpdatePosition(Vector3)
-  name: UpdatePosition(Vector3)
-  href: api/StormHawks.Runtime.Models.Entities.BossModel.html#StormHawks_Runtime_Models_Entities_BossModel_UpdatePosition_Vector3_
-  commentId: M:StormHawks.Runtime.Models.Entities.BossModel.UpdatePosition(Vector3)
-  fullName: StormHawks.Runtime.Models.Entities.BossModel.UpdatePosition(Vector3)
-  nameWithType: BossModel.UpdatePosition(Vector3)
-- uid: StormHawks.Runtime.Models.Entities.BossModel.UpdatePosition*
-  name: UpdatePosition
-  href: api/StormHawks.Runtime.Models.Entities.BossModel.html#StormHawks_Runtime_Models_Entities_BossModel_UpdatePosition_
-  commentId: Overload:StormHawks.Runtime.Models.Entities.BossModel.UpdatePosition
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Models.Entities.BossModel.UpdatePosition
-  nameWithType: BossModel.UpdatePosition
 - uid: StormHawks.Runtime.Models.Entities.EliteModel
   name: EliteModel
   href: api/StormHawks.Runtime.Models.Entities.EliteModel.html
@@ -21125,6 +21092,19 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Presenters.Bosses.BossPresenter.Construct
   nameWithType: BossPresenter.Construct
+- uid: StormHawks.Runtime.Presenters.Bosses.BossPresenter.IKTransform
+  name: IKTransform
+  href: api/StormHawks.Runtime.Presenters.Bosses.BossPresenter.html#StormHawks_Runtime_Presenters_Bosses_BossPresenter_IKTransform
+  commentId: P:StormHawks.Runtime.Presenters.Bosses.BossPresenter.IKTransform
+  fullName: StormHawks.Runtime.Presenters.Bosses.BossPresenter.IKTransform
+  nameWithType: BossPresenter.IKTransform
+- uid: StormHawks.Runtime.Presenters.Bosses.BossPresenter.IKTransform*
+  name: IKTransform
+  href: api/StormHawks.Runtime.Presenters.Bosses.BossPresenter.html#StormHawks_Runtime_Presenters_Bosses_BossPresenter_IKTransform_
+  commentId: Overload:StormHawks.Runtime.Presenters.Bosses.BossPresenter.IKTransform
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Presenters.Bosses.BossPresenter.IKTransform
+  nameWithType: BossPresenter.IKTransform
 - uid: StormHawks.Runtime.Presenters.Bosses.BossPresenter.IsAggressive
   name: IsAggressive
   href: api/StormHawks.Runtime.Presenters.Bosses.BossPresenter.html#StormHawks_Runtime_Presenters_Bosses_BossPresenter_IsAggressive
@@ -21164,32 +21144,6 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Presenters.Bosses.BossPresenter.OnDamaged
   nameWithType: BossPresenter.OnDamaged
-- uid: StormHawks.Runtime.Presenters.Bosses.BossPresenter.Position
-  name: Position
-  href: api/StormHawks.Runtime.Presenters.Bosses.BossPresenter.html#StormHawks_Runtime_Presenters_Bosses_BossPresenter_Position
-  commentId: P:StormHawks.Runtime.Presenters.Bosses.BossPresenter.Position
-  fullName: StormHawks.Runtime.Presenters.Bosses.BossPresenter.Position
-  nameWithType: BossPresenter.Position
-- uid: StormHawks.Runtime.Presenters.Bosses.BossPresenter.Position*
-  name: Position
-  href: api/StormHawks.Runtime.Presenters.Bosses.BossPresenter.html#StormHawks_Runtime_Presenters_Bosses_BossPresenter_Position_
-  commentId: Overload:StormHawks.Runtime.Presenters.Bosses.BossPresenter.Position
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Presenters.Bosses.BossPresenter.Position
-  nameWithType: BossPresenter.Position
-- uid: StormHawks.Runtime.Presenters.Bosses.BossPresenter.Rotation
-  name: Rotation
-  href: api/StormHawks.Runtime.Presenters.Bosses.BossPresenter.html#StormHawks_Runtime_Presenters_Bosses_BossPresenter_Rotation
-  commentId: P:StormHawks.Runtime.Presenters.Bosses.BossPresenter.Rotation
-  fullName: StormHawks.Runtime.Presenters.Bosses.BossPresenter.Rotation
-  nameWithType: BossPresenter.Rotation
-- uid: StormHawks.Runtime.Presenters.Bosses.BossPresenter.Rotation*
-  name: Rotation
-  href: api/StormHawks.Runtime.Presenters.Bosses.BossPresenter.html#StormHawks_Runtime_Presenters_Bosses_BossPresenter_Rotation_
-  commentId: Overload:StormHawks.Runtime.Presenters.Bosses.BossPresenter.Rotation
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Presenters.Bosses.BossPresenter.Rotation
-  nameWithType: BossPresenter.Rotation
 - uid: StormHawks.Runtime.Presenters.Bosses.BossPresenter.SetAggroTarget(System.Nullable{AggroTarget})
   name: SetAggroTarget(Nullable<AggroTarget>)
   href: api/StormHawks.Runtime.Presenters.Bosses.BossPresenter.html#StormHawks_Runtime_Presenters_Bosses_BossPresenter_SetAggroTarget_System_Nullable_AggroTarget__
@@ -21232,19 +21186,6 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Presenters.Bosses.BossPresenter.TakeDamage
   nameWithType: BossPresenter.TakeDamage
-- uid: StormHawks.Runtime.Presenters.Bosses.BossPresenter.Transform
-  name: Transform
-  href: api/StormHawks.Runtime.Presenters.Bosses.BossPresenter.html#StormHawks_Runtime_Presenters_Bosses_BossPresenter_Transform
-  commentId: P:StormHawks.Runtime.Presenters.Bosses.BossPresenter.Transform
-  fullName: StormHawks.Runtime.Presenters.Bosses.BossPresenter.Transform
-  nameWithType: BossPresenter.Transform
-- uid: StormHawks.Runtime.Presenters.Bosses.BossPresenter.Transform*
-  name: Transform
-  href: api/StormHawks.Runtime.Presenters.Bosses.BossPresenter.html#StormHawks_Runtime_Presenters_Bosses_BossPresenter_Transform_
-  commentId: Overload:StormHawks.Runtime.Presenters.Bosses.BossPresenter.Transform
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Presenters.Bosses.BossPresenter.Transform
-  nameWithType: BossPresenter.Transform
 - uid: StormHawks.Runtime.Presenters.CutSceneLoader
   name: CutSceneLoader
   href: api/StormHawks.Runtime.Presenters.CutSceneLoader.html

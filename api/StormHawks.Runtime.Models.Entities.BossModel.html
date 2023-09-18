@@ -355,13 +355,13 @@
   </table>
   
   
-  <a id="StormHawks_Runtime_Models_Entities_BossModel_IsActive_" data-uid="StormHawks.Runtime.Models.Entities.BossModel.IsActive*"></a>
-  <h4 id="StormHawks_Runtime_Models_Entities_BossModel_IsActive" data-uid="StormHawks.Runtime.Models.Entities.BossModel.IsActive">IsActive</h4>
+  <a id="StormHawks_Runtime_Models_Entities_BossModel_IKHeadTransform_" data-uid="StormHawks.Runtime.Models.Entities.BossModel.IKHeadTransform*"></a>
+  <h4 id="StormHawks_Runtime_Models_Entities_BossModel_IKHeadTransform" data-uid="StormHawks.Runtime.Models.Entities.BossModel.IKHeadTransform">IKHeadTransform</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IReadOnlyReactiveProperty&lt;bool&gt; IsActive { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public Transform IKHeadTransform { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -373,7 +373,32 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IReadOnlyReactiveProperty</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a>&gt;</td>
+        <td><span class="xref">Transform</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StormHawks_Runtime_Models_Entities_BossModel_IKTransform_" data-uid="StormHawks.Runtime.Models.Entities.BossModel.IKTransform*"></a>
+  <h4 id="StormHawks_Runtime_Models_Entities_BossModel_IKTransform" data-uid="StormHawks.Runtime.Models.Entities.BossModel.IKTransform">IKTransform</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Transform IKTransform { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Transform</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -474,31 +499,6 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="StormHawks_Runtime_Models_Entities_BossModel_Position_" data-uid="StormHawks.Runtime.Models.Entities.BossModel.Position*"></a>
-  <h4 id="StormHawks_Runtime_Models_Entities_BossModel_Position" data-uid="StormHawks.Runtime.Models.Entities.BossModel.Position">Position</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Vector3 Position { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Vector3</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -648,33 +648,6 @@
   </table>
   
   
-  <a id="StormHawks_Runtime_Models_Entities_BossModel_SetActive_" data-uid="StormHawks.Runtime.Models.Entities.BossModel.SetActive*"></a>
-  <h4 id="StormHawks_Runtime_Models_Entities_BossModel_SetActive_System_Boolean_" data-uid="StormHawks.Runtime.Models.Entities.BossModel.SetActive(System.Boolean)">SetActive(Boolean)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetActive(bool active)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td><span class="parametername">active</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
   <a id="StormHawks_Runtime_Models_Entities_BossModel_SetAggroTarget_" data-uid="StormHawks.Runtime.Models.Entities.BossModel.SetAggroTarget*"></a>
   <h4 id="StormHawks_Runtime_Models_Entities_BossModel_SetAggroTarget_System_Nullable_AggroTarget__" data-uid="StormHawks.Runtime.Models.Entities.BossModel.SetAggroTarget(System.Nullable{AggroTarget})">SetAggroTarget(Nullable&lt;AggroTarget&gt;)</h4>
   <div class="markdown level1 summary"></div>
@@ -815,13 +788,13 @@
   </table>
   
   
-  <a id="StormHawks_Runtime_Models_Entities_BossModel_SetTransform_" data-uid="StormHawks.Runtime.Models.Entities.BossModel.SetTransform*"></a>
-  <h4 id="StormHawks_Runtime_Models_Entities_BossModel_SetTransform_Transform_" data-uid="StormHawks.Runtime.Models.Entities.BossModel.SetTransform(Transform)">SetTransform(Transform)</h4>
+  <a id="StormHawks_Runtime_Models_Entities_BossModel_SetTransforms_" data-uid="StormHawks.Runtime.Models.Entities.BossModel.SetTransforms*"></a>
+  <h4 id="StormHawks_Runtime_Models_Entities_BossModel_SetTransforms_Transform_Transform_Transform_" data-uid="StormHawks.Runtime.Models.Entities.BossModel.SetTransforms(Transform,Transform,Transform)">SetTransforms(Transform, Transform, Transform)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetTransform(Transform transform)</code></pre>
+    <pre><code class="lang-csharp hljs">public void SetTransforms(Transform ikTransform, Transform headTransform, Transform bossTransform)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -835,7 +808,17 @@
     <tbody>
       <tr>
         <td><span class="xref">Transform</span></td>
-        <td><span class="parametername">transform</span></td>
+        <td><span class="parametername">ikTransform</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Transform</span></td>
+        <td><span class="parametername">headTransform</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Transform</span></td>
+        <td><span class="parametername">bossTransform</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -863,43 +846,6 @@
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
         <td><span class="parametername">damage</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="StormHawks_Runtime_Models_Entities_BossModel_Teleport_" data-uid="StormHawks.Runtime.Models.Entities.BossModel.Teleport*"></a>
-  <h4 id="StormHawks_Runtime_Models_Entities_BossModel_Teleport" data-uid="StormHawks.Runtime.Models.Entities.BossModel.Teleport">Teleport()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Teleport()</code></pre>
-  </div>
-  
-  
-  <a id="StormHawks_Runtime_Models_Entities_BossModel_UpdatePosition_" data-uid="StormHawks.Runtime.Models.Entities.BossModel.UpdatePosition*"></a>
-  <h4 id="StormHawks_Runtime_Models_Entities_BossModel_UpdatePosition_Vector3_" data-uid="StormHawks.Runtime.Models.Entities.BossModel.UpdatePosition(Vector3)">UpdatePosition(Vector3)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void UpdatePosition(Vector3 position)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Vector3</span></td>
-        <td><span class="parametername">position</span></td>
         <td></td>
       </tr>
     </tbody>

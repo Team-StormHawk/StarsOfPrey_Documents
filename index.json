@@ -2129,6 +2129,11 @@
     "title": "Class RingControllerPresenter.RingController | Developer Reference",
     "keywords": "Class RingControllerPresenter.RingController Inheritance Object RingControllerPresenter.RingController Namespace : StormHawks.Runtime.Presenters.Animators.Players Assembly : cs.temp.dll.dll Syntax [Serializable] public class RingController Properties IsActivated Declaration public bool IsActivated { get; } Property Value Type Description Boolean Methods HideRing() Declaration public void HideRing() Initialize(Transform, GameObject, GameObject, Single, Single) Declaration public void Initialize(Transform parent, GameObject followRingPrefab, GameObject fixedRingPrefab, float showTime, float hideTime) Parameters Type Name Description Transform parent GameObject followRingPrefab GameObject fixedRingPrefab Single showTime Single hideTime ShowRing() Declaration public void ShowRing() UpdateRing() Declaration public void UpdateRing()"
   },
+  "api/StormHawks.Runtime.Presenters.Boss.BossIKPresenter.html": {
+    "href": "api/StormHawks.Runtime.Presenters.Boss.BossIKPresenter.html",
+    "title": "Class BossIKPresenter | Developer Reference",
+    "keywords": "Class BossIKPresenter Inheritance Object BossIKPresenter Namespace : StormHawks.Runtime.Presenters.Boss Assembly : cs.temp.dll.dll Syntax public class BossIKPresenter : MonoBehaviour"
+  },
   "api/StormHawks.Runtime.Presenters.Boss.BossMissileWeaponSet.html": {
     "href": "api/StormHawks.Runtime.Presenters.Boss.BossMissileWeaponSet.html",
     "title": "Class BossMissileWeaponSet | Developer Reference",
@@ -2137,7 +2142,7 @@
   "api/StormHawks.Runtime.Presenters.Boss.html": {
     "href": "api/StormHawks.Runtime.Presenters.Boss.html",
     "title": "Namespace StormHawks.Runtime.Presenters.Boss | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Presenters.Boss Classes BossMissileWeaponSet Interfaces IBossWeaponSet"
+    "keywords": "Namespace StormHawks.Runtime.Presenters.Boss Classes BossIKPresenter BossMissileWeaponSet Interfaces IBossWeaponSet"
   },
   "api/StormHawks.Runtime.Presenters.Boss.IBossWeaponSet.html": {
     "href": "api/StormHawks.Runtime.Presenters.Boss.IBossWeaponSet.html",

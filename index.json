@@ -2092,7 +2092,7 @@
   "api/StormHawks.Runtime.Players.html": {
     "href": "api/StormHawks.Runtime.Players.html",
     "title": "Namespace StormHawks.Runtime.Players | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Players Classes PlayerContext PlayerHealthPresenter PlayerRespawnInfo"
+    "keywords": "Namespace StormHawks.Runtime.Players Classes PlayerContext PlayerHealthPresenter PlayerRespawnInfo SpeedLineHandler"
   },
   "api/StormHawks.Runtime.Players.Movement.BoostStateType.html": {
     "href": "api/StormHawks.Runtime.Players.Movement.BoostStateType.html",
@@ -2183,6 +2183,11 @@
     "href": "api/StormHawks.Runtime.Players.PlayerRespawnInfo.html",
     "title": "Class PlayerRespawnInfo | Developer Reference",
     "keywords": "Class PlayerRespawnInfo Inheritance Object PlayerRespawnInfo Namespace : StormHawks.Runtime.Players Assembly : cs.temp.dll.dll Syntax public class PlayerRespawnInfo Fields LookDirection Declaration public Vector3 LookDirection Field Value Type Description Vector3 RespawnPoint Declaration public Vector3 RespawnPoint Field Value Type Description Vector3"
+  },
+  "api/StormHawks.Runtime.Players.SpeedLineHandler.html": {
+    "href": "api/StormHawks.Runtime.Players.SpeedLineHandler.html",
+    "title": "Class SpeedLineHandler | Developer Reference",
+    "keywords": "Class SpeedLineHandler Inheritance Object SpeedLineHandler Namespace : StormHawks.Runtime.Players Assembly : cs.temp.dll.dll Syntax public class SpeedLineHandler : MonoBehaviour"
   },
   "api/StormHawks.Runtime.Presenters.Animators.EntityAnimatorPresenter.html": {
     "href": "api/StormHawks.Runtime.Presenters.Animators.EntityAnimatorPresenter.html",
@@ -2602,27 +2607,12 @@
   "api/StormHawks.Runtime.Presenters.Runtime.Presenters.InjectableMonoBehaviour.html": {
     "href": "api/StormHawks.Runtime.Presenters.Runtime.Presenters.InjectableMonoBehaviour.html",
     "title": "Class InjectableMonoBehaviour | Developer Reference",
-    "keywords": "Class InjectableMonoBehaviour Inheritance Object InjectableMonoBehaviour PlayerPresenter BoostEffectPresenter SpeedLinePresenter PlayerShieldPresenter PlayerHapticImpulsePresenter Namespace : StormHawks.Runtime.Presenters.Runtime.Presenters Assembly : cs.temp.dll.dll Syntax public class InjectableMonoBehaviour : MonoBehaviour"
+    "keywords": "Class InjectableMonoBehaviour Inheritance Object InjectableMonoBehaviour PlayerPresenter PlayerShieldPresenter PlayerHapticReactPresenter Namespace : StormHawks.Runtime.Presenters.Runtime.Presenters Assembly : cs.temp.dll.dll Syntax public class InjectableMonoBehaviour : MonoBehaviour"
   },
   "api/StormHawks.Runtime.Presenters.Runtime.Presenters.PlayerPresenter.html": {
     "href": "api/StormHawks.Runtime.Presenters.Runtime.Presenters.PlayerPresenter.html",
     "title": "Class PlayerPresenter | Developer Reference",
     "keywords": "Class PlayerPresenter Inheritance Object InjectableMonoBehaviour PlayerPresenter Namespace : StormHawks.Runtime.Presenters.Runtime.Presenters Assembly : cs.temp.dll.dll Syntax public class PlayerPresenter : InjectableMonoBehaviour"
-  },
-  "api/StormHawks.Runtime.Presenters.Runtime.Presenters.Players.Flights.BoostEffectPresenter.html": {
-    "href": "api/StormHawks.Runtime.Presenters.Runtime.Presenters.Players.Flights.BoostEffectPresenter.html",
-    "title": "Class BoostEffectPresenter | Developer Reference",
-    "keywords": "Class BoostEffectPresenter Inheritance Object InjectableMonoBehaviour BoostEffectPresenter Namespace : StormHawks.Runtime.Presenters.Runtime.Presenters.Players.Flights Assembly : cs.temp.dll.dll Syntax public class BoostEffectPresenter : InjectableMonoBehaviour"
-  },
-  "api/StormHawks.Runtime.Presenters.Runtime.Presenters.Players.Flights.html": {
-    "href": "api/StormHawks.Runtime.Presenters.Runtime.Presenters.Players.Flights.html",
-    "title": "Namespace StormHawks.Runtime.Presenters.Runtime.Presenters.Players.Flights | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Presenters.Runtime.Presenters.Players.Flights Classes BoostEffectPresenter SpeedLinePresenter"
-  },
-  "api/StormHawks.Runtime.Presenters.Runtime.Presenters.Players.Flights.SpeedLinePresenter.html": {
-    "href": "api/StormHawks.Runtime.Presenters.Runtime.Presenters.Players.Flights.SpeedLinePresenter.html",
-    "title": "Class SpeedLinePresenter | Developer Reference",
-    "keywords": "Class SpeedLinePresenter Inheritance Object InjectableMonoBehaviour SpeedLinePresenter Namespace : StormHawks.Runtime.Presenters.Runtime.Presenters.Players.Flights Assembly : cs.temp.dll.dll Syntax public class SpeedLinePresenter : InjectableMonoBehaviour"
   },
   "api/StormHawks.Runtime.Presenters.Runtime.Presenters.Players.html": {
     "href": "api/StormHawks.Runtime.Presenters.Runtime.Presenters.Players.html",
@@ -2637,12 +2627,12 @@
   "api/StormHawks.Runtime.Presenters.Runtime.Presenters.Players.States.html": {
     "href": "api/StormHawks.Runtime.Presenters.Runtime.Presenters.Players.States.html",
     "title": "Namespace StormHawks.Runtime.Presenters.Runtime.Presenters.Players.States | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.Presenters.Runtime.Presenters.Players.States Classes PlayerHapticImpulsePresenter"
+    "keywords": "Namespace StormHawks.Runtime.Presenters.Runtime.Presenters.Players.States Classes PlayerHapticReactPresenter"
   },
-  "api/StormHawks.Runtime.Presenters.Runtime.Presenters.Players.States.PlayerHapticImpulsePresenter.html": {
-    "href": "api/StormHawks.Runtime.Presenters.Runtime.Presenters.Players.States.PlayerHapticImpulsePresenter.html",
-    "title": "Class PlayerHapticImpulsePresenter | Developer Reference",
-    "keywords": "Class PlayerHapticImpulsePresenter Inheritance Object InjectableMonoBehaviour PlayerHapticImpulsePresenter Namespace : StormHawks.Runtime.Presenters.Runtime.Presenters.Players.States Assembly : cs.temp.dll.dll Syntax public class PlayerHapticImpulsePresenter : InjectableMonoBehaviour"
+  "api/StormHawks.Runtime.Presenters.Runtime.Presenters.Players.States.PlayerHapticReactPresenter.html": {
+    "href": "api/StormHawks.Runtime.Presenters.Runtime.Presenters.Players.States.PlayerHapticReactPresenter.html",
+    "title": "Class PlayerHapticReactPresenter | Developer Reference",
+    "keywords": "Class PlayerHapticReactPresenter Inheritance Object InjectableMonoBehaviour PlayerHapticReactPresenter Namespace : StormHawks.Runtime.Presenters.Runtime.Presenters.Players.States Assembly : cs.temp.dll.dll Syntax public class PlayerHapticReactPresenter : InjectableMonoBehaviour"
   },
   "api/StormHawks.Runtime.Presenters.Runtime.Presenters.UI.html": {
     "href": "api/StormHawks.Runtime.Presenters.Runtime.Presenters.UI.html",
@@ -3218,21 +3208,6 @@
     "href": "api/StormHawks.Runtime.UI.Players.BossRadarIndicatorUI.html",
     "title": "Class BossRadarIndicatorUI | Developer Reference",
     "keywords": "Class BossRadarIndicatorUI Inheritance Object BossRadarIndicatorUI Namespace : StormHawks.Runtime.UI.Players Assembly : cs.temp.dll.dll Syntax public class BossRadarIndicatorUI : UIBase"
-  },
-  "api/StormHawks.Runtime.UI.Players.Flights.html": {
-    "href": "api/StormHawks.Runtime.UI.Players.Flights.html",
-    "title": "Namespace StormHawks.Runtime.UI.Players.Flights | Developer Reference",
-    "keywords": "Namespace StormHawks.Runtime.UI.Players.Flights Classes ThrustGraphElement ThrustGraphUI"
-  },
-  "api/StormHawks.Runtime.UI.Players.Flights.ThrustGraphElement.html": {
-    "href": "api/StormHawks.Runtime.UI.Players.Flights.ThrustGraphElement.html",
-    "title": "Class ThrustGraphElement | Developer Reference",
-    "keywords": "Class ThrustGraphElement Inheritance Object ThrustGraphElement Namespace : StormHawks.Runtime.UI.Players.Flights Assembly : cs.temp.dll.dll Syntax public class ThrustGraphElement : MonoBehaviour Methods SetImageOpacity(Single) Declaration public void SetImageOpacity(float opacity) Parameters Type Name Description Single opacity SetThrustSprite(Boolean) Declaration public void SetThrustSprite(bool isBoost) Parameters Type Name Description Boolean isBoost"
-  },
-  "api/StormHawks.Runtime.UI.Players.Flights.ThrustGraphUI.html": {
-    "href": "api/StormHawks.Runtime.UI.Players.Flights.ThrustGraphUI.html",
-    "title": "Class ThrustGraphUI | Developer Reference",
-    "keywords": "Class ThrustGraphUI Inheritance Object ThrustGraphUI Namespace : StormHawks.Runtime.UI.Players.Flights Assembly : cs.temp.dll.dll Syntax public class ThrustGraphUI : InjectableUIBase"
   },
   "api/StormHawks.Runtime.UI.Players.html": {
     "href": "api/StormHawks.Runtime.UI.Players.html",

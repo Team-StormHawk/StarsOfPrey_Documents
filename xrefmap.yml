@@ -20736,6 +20736,12 @@ references:
   commentId: F:StormHawks.Runtime.Players.PlayerRespawnInfo.RespawnPoint
   fullName: StormHawks.Runtime.Players.PlayerRespawnInfo.RespawnPoint
   nameWithType: PlayerRespawnInfo.RespawnPoint
+- uid: StormHawks.Runtime.Players.SpeedLineHandler
+  name: SpeedLineHandler
+  href: api/StormHawks.Runtime.Players.SpeedLineHandler.html
+  commentId: T:StormHawks.Runtime.Players.SpeedLineHandler
+  fullName: StormHawks.Runtime.Players.SpeedLineHandler
+  nameWithType: SpeedLineHandler
 - uid: StormHawks.Runtime.Presenters
   name: StormHawks.Runtime.Presenters
   href: api/StormHawks.Runtime.Presenters.html
@@ -24407,24 +24413,6 @@ references:
   commentId: N:StormHawks.Runtime.Presenters.Runtime.Presenters.Players
   fullName: StormHawks.Runtime.Presenters.Runtime.Presenters.Players
   nameWithType: StormHawks.Runtime.Presenters.Runtime.Presenters.Players
-- uid: StormHawks.Runtime.Presenters.Runtime.Presenters.Players.Flights
-  name: StormHawks.Runtime.Presenters.Runtime.Presenters.Players.Flights
-  href: api/StormHawks.Runtime.Presenters.Runtime.Presenters.Players.Flights.html
-  commentId: N:StormHawks.Runtime.Presenters.Runtime.Presenters.Players.Flights
-  fullName: StormHawks.Runtime.Presenters.Runtime.Presenters.Players.Flights
-  nameWithType: StormHawks.Runtime.Presenters.Runtime.Presenters.Players.Flights
-- uid: StormHawks.Runtime.Presenters.Runtime.Presenters.Players.Flights.BoostEffectPresenter
-  name: BoostEffectPresenter
-  href: api/StormHawks.Runtime.Presenters.Runtime.Presenters.Players.Flights.BoostEffectPresenter.html
-  commentId: T:StormHawks.Runtime.Presenters.Runtime.Presenters.Players.Flights.BoostEffectPresenter
-  fullName: StormHawks.Runtime.Presenters.Runtime.Presenters.Players.Flights.BoostEffectPresenter
-  nameWithType: BoostEffectPresenter
-- uid: StormHawks.Runtime.Presenters.Runtime.Presenters.Players.Flights.SpeedLinePresenter
-  name: SpeedLinePresenter
-  href: api/StormHawks.Runtime.Presenters.Runtime.Presenters.Players.Flights.SpeedLinePresenter.html
-  commentId: T:StormHawks.Runtime.Presenters.Runtime.Presenters.Players.Flights.SpeedLinePresenter
-  fullName: StormHawks.Runtime.Presenters.Runtime.Presenters.Players.Flights.SpeedLinePresenter
-  nameWithType: SpeedLinePresenter
 - uid: StormHawks.Runtime.Presenters.Runtime.Presenters.Players.PlayerShieldPresenter
   name: PlayerShieldPresenter
   href: api/StormHawks.Runtime.Presenters.Runtime.Presenters.Players.PlayerShieldPresenter.html
@@ -24476,12 +24464,12 @@ references:
   commentId: N:StormHawks.Runtime.Presenters.Runtime.Presenters.Players.States
   fullName: StormHawks.Runtime.Presenters.Runtime.Presenters.Players.States
   nameWithType: StormHawks.Runtime.Presenters.Runtime.Presenters.Players.States
-- uid: StormHawks.Runtime.Presenters.Runtime.Presenters.Players.States.PlayerHapticImpulsePresenter
-  name: PlayerHapticImpulsePresenter
-  href: api/StormHawks.Runtime.Presenters.Runtime.Presenters.Players.States.PlayerHapticImpulsePresenter.html
-  commentId: T:StormHawks.Runtime.Presenters.Runtime.Presenters.Players.States.PlayerHapticImpulsePresenter
-  fullName: StormHawks.Runtime.Presenters.Runtime.Presenters.Players.States.PlayerHapticImpulsePresenter
-  nameWithType: PlayerHapticImpulsePresenter
+- uid: StormHawks.Runtime.Presenters.Runtime.Presenters.Players.States.PlayerHapticReactPresenter
+  name: PlayerHapticReactPresenter
+  href: api/StormHawks.Runtime.Presenters.Runtime.Presenters.Players.States.PlayerHapticReactPresenter.html
+  commentId: T:StormHawks.Runtime.Presenters.Runtime.Presenters.Players.States.PlayerHapticReactPresenter
+  fullName: StormHawks.Runtime.Presenters.Runtime.Presenters.Players.States.PlayerHapticReactPresenter
+  nameWithType: PlayerHapticReactPresenter
 - uid: StormHawks.Runtime.Presenters.Runtime.Presenters.UI
   name: StormHawks.Runtime.Presenters.Runtime.Presenters.UI
   href: api/StormHawks.Runtime.Presenters.Runtime.Presenters.UI.html
@@ -28259,50 +28247,6 @@ references:
   commentId: T:StormHawks.Runtime.UI.Players.BossRadarIndicatorUI
   fullName: StormHawks.Runtime.UI.Players.BossRadarIndicatorUI
   nameWithType: BossRadarIndicatorUI
-- uid: StormHawks.Runtime.UI.Players.Flights
-  name: StormHawks.Runtime.UI.Players.Flights
-  href: api/StormHawks.Runtime.UI.Players.Flights.html
-  commentId: N:StormHawks.Runtime.UI.Players.Flights
-  fullName: StormHawks.Runtime.UI.Players.Flights
-  nameWithType: StormHawks.Runtime.UI.Players.Flights
-- uid: StormHawks.Runtime.UI.Players.Flights.ThrustGraphElement
-  name: ThrustGraphElement
-  href: api/StormHawks.Runtime.UI.Players.Flights.ThrustGraphElement.html
-  commentId: T:StormHawks.Runtime.UI.Players.Flights.ThrustGraphElement
-  fullName: StormHawks.Runtime.UI.Players.Flights.ThrustGraphElement
-  nameWithType: ThrustGraphElement
-- uid: StormHawks.Runtime.UI.Players.Flights.ThrustGraphElement.SetImageOpacity(System.Single)
-  name: SetImageOpacity(Single)
-  href: api/StormHawks.Runtime.UI.Players.Flights.ThrustGraphElement.html#StormHawks_Runtime_UI_Players_Flights_ThrustGraphElement_SetImageOpacity_System_Single_
-  commentId: M:StormHawks.Runtime.UI.Players.Flights.ThrustGraphElement.SetImageOpacity(System.Single)
-  fullName: StormHawks.Runtime.UI.Players.Flights.ThrustGraphElement.SetImageOpacity(System.Single)
-  nameWithType: ThrustGraphElement.SetImageOpacity(Single)
-- uid: StormHawks.Runtime.UI.Players.Flights.ThrustGraphElement.SetImageOpacity*
-  name: SetImageOpacity
-  href: api/StormHawks.Runtime.UI.Players.Flights.ThrustGraphElement.html#StormHawks_Runtime_UI_Players_Flights_ThrustGraphElement_SetImageOpacity_
-  commentId: Overload:StormHawks.Runtime.UI.Players.Flights.ThrustGraphElement.SetImageOpacity
-  isSpec: "True"
-  fullName: StormHawks.Runtime.UI.Players.Flights.ThrustGraphElement.SetImageOpacity
-  nameWithType: ThrustGraphElement.SetImageOpacity
-- uid: StormHawks.Runtime.UI.Players.Flights.ThrustGraphElement.SetThrustSprite(System.Boolean)
-  name: SetThrustSprite(Boolean)
-  href: api/StormHawks.Runtime.UI.Players.Flights.ThrustGraphElement.html#StormHawks_Runtime_UI_Players_Flights_ThrustGraphElement_SetThrustSprite_System_Boolean_
-  commentId: M:StormHawks.Runtime.UI.Players.Flights.ThrustGraphElement.SetThrustSprite(System.Boolean)
-  fullName: StormHawks.Runtime.UI.Players.Flights.ThrustGraphElement.SetThrustSprite(System.Boolean)
-  nameWithType: ThrustGraphElement.SetThrustSprite(Boolean)
-- uid: StormHawks.Runtime.UI.Players.Flights.ThrustGraphElement.SetThrustSprite*
-  name: SetThrustSprite
-  href: api/StormHawks.Runtime.UI.Players.Flights.ThrustGraphElement.html#StormHawks_Runtime_UI_Players_Flights_ThrustGraphElement_SetThrustSprite_
-  commentId: Overload:StormHawks.Runtime.UI.Players.Flights.ThrustGraphElement.SetThrustSprite
-  isSpec: "True"
-  fullName: StormHawks.Runtime.UI.Players.Flights.ThrustGraphElement.SetThrustSprite
-  nameWithType: ThrustGraphElement.SetThrustSprite
-- uid: StormHawks.Runtime.UI.Players.Flights.ThrustGraphUI
-  name: ThrustGraphUI
-  href: api/StormHawks.Runtime.UI.Players.Flights.ThrustGraphUI.html
-  commentId: T:StormHawks.Runtime.UI.Players.Flights.ThrustGraphUI
-  fullName: StormHawks.Runtime.UI.Players.Flights.ThrustGraphUI
-  nameWithType: ThrustGraphUI
 - uid: StormHawks.Runtime.UI.Players.MissileCounterUI
   name: MissileCounterUI
   href: api/StormHawks.Runtime.UI.Players.MissileCounterUI.html

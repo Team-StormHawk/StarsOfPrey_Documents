@@ -13953,19 +13953,6 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Models.Entities.BossModel.IKHeadTransform
   nameWithType: BossModel.IKHeadTransform
-- uid: StormHawks.Runtime.Models.Entities.BossModel.IKTransform
-  name: IKTransform
-  href: api/StormHawks.Runtime.Models.Entities.BossModel.html#StormHawks_Runtime_Models_Entities_BossModel_IKTransform
-  commentId: P:StormHawks.Runtime.Models.Entities.BossModel.IKTransform
-  fullName: StormHawks.Runtime.Models.Entities.BossModel.IKTransform
-  nameWithType: BossModel.IKTransform
-- uid: StormHawks.Runtime.Models.Entities.BossModel.IKTransform*
-  name: IKTransform
-  href: api/StormHawks.Runtime.Models.Entities.BossModel.html#StormHawks_Runtime_Models_Entities_BossModel_IKTransform_
-  commentId: Overload:StormHawks.Runtime.Models.Entities.BossModel.IKTransform
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Models.Entities.BossModel.IKTransform
-  nameWithType: BossModel.IKTransform
 - uid: StormHawks.Runtime.Models.Entities.BossModel.IsAggressive
   name: IsAggressive
   href: api/StormHawks.Runtime.Models.Entities.BossModel.html#StormHawks_Runtime_Models_Entities_BossModel_IsAggressive
@@ -14118,12 +14105,12 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Models.Entities.BossModel.SetTeleportSpot
   nameWithType: BossModel.SetTeleportSpot
-- uid: StormHawks.Runtime.Models.Entities.BossModel.SetTransforms(Transform,Transform,Transform)
-  name: SetTransforms(Transform, Transform, Transform)
-  href: api/StormHawks.Runtime.Models.Entities.BossModel.html#StormHawks_Runtime_Models_Entities_BossModel_SetTransforms_Transform_Transform_Transform_
-  commentId: M:StormHawks.Runtime.Models.Entities.BossModel.SetTransforms(Transform,Transform,Transform)
-  fullName: StormHawks.Runtime.Models.Entities.BossModel.SetTransforms(Transform, Transform, Transform)
-  nameWithType: BossModel.SetTransforms(Transform, Transform, Transform)
+- uid: StormHawks.Runtime.Models.Entities.BossModel.SetTransforms(Transform,Transform)
+  name: SetTransforms(Transform, Transform)
+  href: api/StormHawks.Runtime.Models.Entities.BossModel.html#StormHawks_Runtime_Models_Entities_BossModel_SetTransforms_Transform_Transform_
+  commentId: M:StormHawks.Runtime.Models.Entities.BossModel.SetTransforms(Transform,Transform)
+  fullName: StormHawks.Runtime.Models.Entities.BossModel.SetTransforms(Transform, Transform)
+  nameWithType: BossModel.SetTransforms(Transform, Transform)
 - uid: StormHawks.Runtime.Models.Entities.BossModel.SetTransforms*
   name: SetTransforms
   href: api/StormHawks.Runtime.Models.Entities.BossModel.html#StormHawks_Runtime_Models_Entities_BossModel_SetTransforms_
@@ -21140,19 +21127,6 @@ references:
   isSpec: "True"
   fullName: StormHawks.Runtime.Presenters.Bosses.BossPresenter.Construct
   nameWithType: BossPresenter.Construct
-- uid: StormHawks.Runtime.Presenters.Bosses.BossPresenter.IKTransform
-  name: IKTransform
-  href: api/StormHawks.Runtime.Presenters.Bosses.BossPresenter.html#StormHawks_Runtime_Presenters_Bosses_BossPresenter_IKTransform
-  commentId: P:StormHawks.Runtime.Presenters.Bosses.BossPresenter.IKTransform
-  fullName: StormHawks.Runtime.Presenters.Bosses.BossPresenter.IKTransform
-  nameWithType: BossPresenter.IKTransform
-- uid: StormHawks.Runtime.Presenters.Bosses.BossPresenter.IKTransform*
-  name: IKTransform
-  href: api/StormHawks.Runtime.Presenters.Bosses.BossPresenter.html#StormHawks_Runtime_Presenters_Bosses_BossPresenter_IKTransform_
-  commentId: Overload:StormHawks.Runtime.Presenters.Bosses.BossPresenter.IKTransform
-  isSpec: "True"
-  fullName: StormHawks.Runtime.Presenters.Bosses.BossPresenter.IKTransform
-  nameWithType: BossPresenter.IKTransform
 - uid: StormHawks.Runtime.Presenters.Bosses.BossPresenter.IsAggressive
   name: IsAggressive
   href: api/StormHawks.Runtime.Presenters.Bosses.BossPresenter.html#StormHawks_Runtime_Presenters_Bosses_BossPresenter_IsAggressive
@@ -30192,6 +30166,22 @@ references:
   fullName.vb: StormHawks.Runtime.Utilities.Extensions.ListUtility.AddIfNotExists(Of T)(List(Of T), T)
   nameWithType: ListUtility.AddIfNotExists<T>(List<T>, T)
   nameWithType.vb: ListUtility.AddIfNotExists(Of T)(List(Of T), T)
+- uid: StormHawks.Runtime.Utilities.Extensions.ListUtility.ForEach*
+  name: ForEach
+  href: api/StormHawks.Runtime.Utilities.Extensions.ListUtility.html#StormHawks_Runtime_Utilities_Extensions_ListUtility_ForEach_
+  commentId: Overload:StormHawks.Runtime.Utilities.Extensions.ListUtility.ForEach
+  isSpec: "True"
+  fullName: StormHawks.Runtime.Utilities.Extensions.ListUtility.ForEach
+  nameWithType: ListUtility.ForEach
+- uid: StormHawks.Runtime.Utilities.Extensions.ListUtility.ForEach``1(IEnumerable{``0},Action{``0,System.Int32})
+  name: ForEach<T>(IEnumerable<T>, Action<T, Int32>)
+  href: api/StormHawks.Runtime.Utilities.Extensions.ListUtility.html#StormHawks_Runtime_Utilities_Extensions_ListUtility_ForEach__1_IEnumerable___0__Action___0_System_Int32__
+  commentId: M:StormHawks.Runtime.Utilities.Extensions.ListUtility.ForEach``1(IEnumerable{``0},Action{``0,System.Int32})
+  name.vb: ForEach(Of T)(IEnumerable(Of T), Action(Of T, Int32))
+  fullName: StormHawks.Runtime.Utilities.Extensions.ListUtility.ForEach<T>(IEnumerable<T>, Action<T, System.Int32>)
+  fullName.vb: StormHawks.Runtime.Utilities.Extensions.ListUtility.ForEach(Of T)(IEnumerable(Of T), Action(Of T, System.Int32))
+  nameWithType: ListUtility.ForEach<T>(IEnumerable<T>, Action<T, Int32>)
+  nameWithType.vb: ListUtility.ForEach(Of T)(IEnumerable(Of T), Action(Of T, Int32))
 - uid: StormHawks.Runtime.Utilities.Extensions.MathUtility
   name: MathUtility
   href: api/StormHawks.Runtime.Utilities.Extensions.MathUtility.html

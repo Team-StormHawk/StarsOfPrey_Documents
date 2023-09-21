@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Namespace StormHawks.Runtime.Configs.Transforms
+    <title>Namespace BT.Core.Composites
    | Developer Reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Namespace StormHawks.Runtime.Configs.Transforms
+    <meta name="title" content="Namespace BT.Core.Composites
    | Developer Reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -78,20 +78,40 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="StormHawks.Runtime.Configs.Transforms">
+            <article class="content wrap" id="_content" data-uid="BT.Core.Composites">
   
-  <h1 id="StormHawks_Runtime_Configs_Transforms" data-uid="StormHawks.Runtime.Configs.Transforms" class="text-break">Namespace StormHawks.Runtime.Configs.Transforms
+  <h1 id="BT_Core_Composites" data-uid="BT.Core.Composites" class="text-break">Namespace BT.Core.Composites
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="markdown level0 remarks"></div>
     <h3 id="classes">Classes
   </h3>
-      <h4><a class="xref" href="StormHawks.Runtime.Configs.Transforms.TransformOffsetConfig.html">TransformOffsetConfig</a></h4>
+      <h4><a class="xref" href="BT.Core.Composites.AllNode.html">AllNode</a></h4>
+      <section><p>모든 자식 노드들을 실행 시키는 <a class="xref" href="BT.Core.Composites.CompositeNode.html">CompositeNode</a>.
+만약 하나의 자식 노드라도 <a class="xref" href="BT.Core.BehaviorNodeState.html#BT_Core_BehaviorNodeState_Failure">Failure</a>를 반환한다면, Failure
+모든 자식노드가 <a class="xref" href="BT.Core.BehaviorNodeState.html#BT_Core_BehaviorNodeState_Success">Success</a>라면 Success
+하나의 자식노드라도 <a class="xref" href="BT.Core.BehaviorNodeState.html#BT_Core_BehaviorNodeState_Running">Running</a>이라면 Running</p>
+</section>
+      <h4><a class="xref" href="BT.Core.Composites.CompositeNode.html">CompositeNode</a></h4>
+      <section><p>자식노드들을 실행시킬 방식을 가지고 있는 노드.</p>
+</section>
+      <h4><a class="xref" href="BT.Core.Composites.ParallelNode.html">ParallelNode</a></h4>
       <section></section>
-    <h3 id="interfaces">Interfaces
-  </h3>
-      <h4><a class="xref" href="StormHawks.Runtime.Configs.Transforms.ITransformOffset.html">ITransformOffset</a></h4>
+      <h4><a class="xref" href="BT.Core.Composites.RandomSelectorNode.html">RandomSelectorNode</a></h4>
+      <section><p>자식 노드들 중에서 하나를 램덤으로 선택해서 실행시키는 <a class="xref" href="BT.Core.Composites.CompositeNode.html">CompositeNode</a>.</p>
+</section>
+      <h4><a class="xref" href="BT.Core.Composites.SelectorNode.html">SelectorNode</a></h4>
+      <section><p>자식노드들을 왼쪽부터 실행시키며, 그 중에 먼저 실행 가능한 자식노드를 발견한다면
+그 자식노드를 실행시는 <a class="xref" href="BT.Core.Composites.CompositeNode.html">CompositeNode</a>.</p>
+</section>
+      <h4><a class="xref" href="BT.Core.Composites.SequenceNode.html">SequenceNode</a></h4>
+      <section><p>자식노드들을 왼쪽부터 실행시키는 <a class="xref" href="BT.Core.Composites.CompositeNode.html">CompositeNode</a>
+만약 실행시킨 자식노드가 Failure를 반환한다면, <a class="xref" href="BT.Core.BehaviorNodeState.html#BT_Core_BehaviorNodeState_Failure">Failure</a>.
+모든 자식노드가 정상적으로 실행되었다면, <a class="xref" href="BT.Core.BehaviorNodeState.html#BT_Core_BehaviorNodeState_Success">Success</a>.
+자식노드 중 하나라도 실행중이라면, <a class="xref" href="BT.Core.BehaviorNodeState.html#BT_Core_BehaviorNodeState_Running">Running</a>.</p>
+</section>
+      <h4><a class="xref" href="BT.Core.Composites.UntilSuccess.html">UntilSuccess</a></h4>
       <section></section>
 </article>
           </div>

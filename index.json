@@ -264,165 +264,180 @@
     "title": "Class Vector4Key | Developer Reference",
     "keywords": "Class Vector4Key Inheritance Object BlackboardKey BlackboardKey < Vector4 > Vector4Key Inherited Members BlackboardKey<Vector4>.Value BlackboardKey<Vector4>.ToString() BlackboardKey<Vector4>.CopyFrom(BlackboardKey) BlackboardKey<Vector4>.Equals(BlackboardKey) BlackboardKey.Name BlackboardKey.UnderlyingType BlackboardKey.TypeName BlackboardKey.OnBeforeSerialize() BlackboardKey.OnAfterDeserialize() BlackboardKey.CreateKey(Type) Namespace : BT.Core Assembly : cs.temp.dll.dll Syntax [Serializable] public class Vector4Key : BlackboardKey<Vector4>"
   },
-  "api/BT.Editor.BehaviorTreeEditorWindow.BehaviourTreeEditorAssetModificationProcessor.html": {
-    "href": "api/BT.Editor.BehaviorTreeEditorWindow.BehaviourTreeEditorAssetModificationProcessor.html",
-    "title": "Class BehaviorTreeEditorWindow.BehaviourTreeEditorAssetModificationProcessor | Developer Reference",
-    "keywords": "Class BehaviorTreeEditorWindow.BehaviourTreeEditorAssetModificationProcessor Inheritance Object BehaviorTreeEditorWindow.BehaviourTreeEditorAssetModificationProcessor Namespace : BT.Editor Assembly : cs.temp.dll.dll Syntax public class BehaviourTreeEditorAssetModificationProcessor : AssetModificationProcessor"
-  },
-  "api/BT.Editor.BehaviorTreeEditorWindow.html": {
-    "href": "api/BT.Editor.BehaviorTreeEditorWindow.html",
-    "title": "Class BehaviorTreeEditorWindow | Developer Reference",
-    "keywords": "Class BehaviorTreeEditorWindow Inheritance Object BehaviorTreeEditorWindow Namespace : BT.Editor Assembly : cs.temp.dll.dll Syntax public class BehaviorTreeEditorWindow : EditorWindow Fields ActionNodeScriptTemplate Declaration public TextAsset ActionNodeScriptTemplate Field Value Type Description TextAsset BTStyle Declaration public StyleSheet BTStyle Field Value Type Description StyleSheet BTXml Declaration public VisualTreeAsset BTXml Field Value Type Description VisualTreeAsset CompositeNodeScriptTemplate Declaration public TextAsset CompositeNodeScriptTemplate Field Value Type Description TextAsset ConditionalNodeScriptTemplate Declaration public TextAsset ConditionalNodeScriptTemplate Field Value Type Description TextAsset DecoratorNodeScriptTemplate Declaration public TextAsset DecoratorNodeScriptTemplate Field Value Type Description TextAsset Instance Declaration public static BehaviorTreeEditorWindow Instance Field Value Type Description BehaviorTreeEditorWindow NodeXml Declaration public VisualTreeAsset NodeXml Field Value Type Description VisualTreeAsset PendingScriptCreation Declaration public BehaviorTreeEditorWindow.PendingScriptCreate PendingScriptCreation Field Value Type Description BehaviorTreeEditorWindow.PendingScriptCreate Serializer Declaration public SerializedBehaviourTree Serializer Field Value Type Description SerializedBehaviourTree Settings Declaration public BehaviorTreeProjectSettings Settings Field Value Type Description BehaviorTreeProjectSettings Tree Declaration public BehaviorTreeSO Tree Field Value Type Description BehaviorTreeSO Properties NewScriptDialog Declaration public NewScriptDialogView NewScriptDialog { get; } Property Value Type Description NewScriptDialogView TreeView Declaration public BehaviourTreeView TreeView { get; } Property Value Type Description BehaviourTreeView Methods CreateGUI() Editor 생성 Declaration public void CreateGUI() OnOpenAsset(Int32, Int32) Asset을 열었을 때의 CALLBACK함수. Declaration public static bool OnOpenAsset(int instanceId, int line) Parameters Type Name Description Int32 instanceId Int32 line Returns Type Description Boolean OpenWindow() Declaration public static void OpenWindow() OpenWindow(BehaviorTreeSO) Declaration public static void OpenWindow(BehaviorTreeSO tree) Parameters Type Name Description BehaviorTreeSO tree"
-  },
-  "api/BT.Editor.BehaviorTreeEditorWindow.PendingScriptCreate.html": {
-    "href": "api/BT.Editor.BehaviorTreeEditorWindow.PendingScriptCreate.html",
-    "title": "Class BehaviorTreeEditorWindow.PendingScriptCreate | Developer Reference",
-    "keywords": "Class BehaviorTreeEditorWindow.PendingScriptCreate Inheritance Object BehaviorTreeEditorWindow.PendingScriptCreate Namespace : BT.Editor Assembly : cs.temp.dll.dll Syntax public class PendingScriptCreate Fields IsSourceParent Declaration public bool IsSourceParent Field Value Type Description Boolean NodePosition Declaration public Vector2 NodePosition Field Value Type Description Vector2 PendingCreate Declaration public bool PendingCreate Field Value Type Description Boolean ScriptName Declaration public string ScriptName Field Value Type Description String SourceGuid Declaration public string SourceGuid Field Value Type Description String Methods Reset() Declaration public void Reset()"
-  },
-  "api/BT.Editor.BehaviorTreeProjectSettings.html": {
-    "href": "api/BT.Editor.BehaviorTreeProjectSettings.html",
+  "api/BT.Editor.BehaviorTreeEditor.BehaviorTreeProjectSettings.html": {
+    "href": "api/BT.Editor.BehaviorTreeEditor.BehaviorTreeProjectSettings.html",
     "title": "Class BehaviorTreeProjectSettings | Developer Reference",
-    "keywords": "Class BehaviorTreeProjectSettings Inheritance Object BehaviorTreeProjectSettings Namespace : BT.Editor Assembly : cs.temp.dll.dll Syntax public class BehaviorTreeProjectSettings : ScriptableObject Fields ActionNodeScriptTemplate Declaration public TextAsset ActionNodeScriptTemplate Field Value Type Description TextAsset CompositeNodeScriptTemplate Declaration public TextAsset CompositeNodeScriptTemplate Field Value Type Description TextAsset ConditionalNodeScriptTemplate Declaration public TextAsset ConditionalNodeScriptTemplate Field Value Type Description TextAsset DecoratorNodeScriptTemplate Declaration public TextAsset DecoratorNodeScriptTemplate Field Value Type Description TextAsset NewNodePath Declaration public string NewNodePath Field Value Type Description String NewTreePath Declaration public string NewTreePath Field Value Type Description String"
+    "keywords": "Class BehaviorTreeProjectSettings Inheritance Object BehaviorTreeProjectSettings Namespace : BT.Editor.BehaviorTreeEditor Assembly : cs.temp.dll.dll Syntax public class BehaviorTreeProjectSettings : ScriptableObject Fields ActionNodeScriptTemplate Declaration public TextAsset ActionNodeScriptTemplate Field Value Type Description TextAsset CompositeNodeScriptTemplate Declaration public TextAsset CompositeNodeScriptTemplate Field Value Type Description TextAsset ConditionalNodeScriptTemplate Declaration public TextAsset ConditionalNodeScriptTemplate Field Value Type Description TextAsset DecoratorNodeScriptTemplate Declaration public TextAsset DecoratorNodeScriptTemplate Field Value Type Description TextAsset NewNodePath Declaration public string NewNodePath Field Value Type Description String NewTreePath Declaration public string NewTreePath Field Value Type Description String"
   },
-  "api/BT.Editor.BehaviorTreeRunnerEditor.html": {
-    "href": "api/BT.Editor.BehaviorTreeRunnerEditor.html",
+  "api/BT.Editor.BehaviorTreeEditor.BehaviorTreeRunnerEditor.html": {
+    "href": "api/BT.Editor.BehaviorTreeEditor.BehaviorTreeRunnerEditor.html",
     "title": "Class BehaviorTreeRunnerEditor | Developer Reference",
-    "keywords": "Class BehaviorTreeRunnerEditor Inheritance Object BehaviorTreeRunnerEditor Namespace : BT.Editor Assembly : cs.temp.dll.dll Syntax public class BehaviorTreeRunnerEditor : UnityEditor.Editor Methods CreateInspectorGUI() Declaration public override VisualElement CreateInspectorGUI() Returns Type Description VisualElement"
+    "keywords": "Class BehaviorTreeRunnerEditor Inheritance Object BehaviorTreeRunnerEditor Namespace : BT.Editor.BehaviorTreeEditor Assembly : cs.temp.dll.dll Syntax public class BehaviorTreeRunnerEditor : UnityEditor.Editor Methods CreateInspectorGUI() Declaration public override VisualElement CreateInspectorGUI() Returns Type Description VisualElement"
   },
-  "api/BT.Editor.BlackboardKeyPropertyDrawer.html": {
-    "href": "api/BT.Editor.BlackboardKeyPropertyDrawer.html",
-    "title": "Class BlackboardKeyPropertyDrawer | Developer Reference",
-    "keywords": "Class BlackboardKeyPropertyDrawer Inheritance Object BlackboardKeyPropertyDrawer Namespace : BT.Editor Assembly : cs.temp.dll.dll Syntax public class BlackboardKeyPropertyDrawer : UnityEditor.PropertyDrawer Methods CreatePropertyGUI(SerializedProperty) Declaration public override VisualElement CreatePropertyGUI(SerializedProperty property) Parameters Type Name Description SerializedProperty property Returns Type Description VisualElement"
+  "api/BT.Editor.BehaviorTreeEditor.html": {
+    "href": "api/BT.Editor.BehaviorTreeEditor.html",
+    "title": "Namespace BT.Editor.BehaviorTreeEditor | Developer Reference",
+    "keywords": "Namespace BT.Editor.BehaviorTreeEditor Classes BehaviorTreeProjectSettings BehaviorTreeRunnerEditor SerializedBehaviourTree"
   },
-  "api/BT.Editor.BlackboardKeyValuePairPropertyDrawer.html": {
-    "href": "api/BT.Editor.BlackboardKeyValuePairPropertyDrawer.html",
-    "title": "Class BlackboardKeyValuePairPropertyDrawer | Developer Reference",
-    "keywords": "Class BlackboardKeyValuePairPropertyDrawer Inheritance Object BlackboardKeyValuePairPropertyDrawer Namespace : BT.Editor Assembly : cs.temp.dll.dll Syntax public class BlackboardKeyValuePairPropertyDrawer : UnityEditor.PropertyDrawer Methods CreatePropertyGUI(SerializedProperty) Declaration public override VisualElement CreatePropertyGUI(SerializedProperty property) Parameters Type Name Description SerializedProperty property Returns Type Description VisualElement"
-  },
-  "api/BT.Editor.CreateNodeWindow.html": {
-    "href": "api/BT.Editor.CreateNodeWindow.html",
-    "title": "Class CreateNodeWindow | Developer Reference",
-    "keywords": "Class CreateNodeWindow Inheritance Object CreateNodeWindow Implements ISearchWindowProvider Namespace : BT.Editor Assembly : cs.temp.dll.dll Syntax public class CreateNodeWindow : ScriptableObject Methods CreateScript(BehaviorTreeEditorUtility.ScriptTemplate, SearchWindowContext) Declaration public void CreateScript(BehaviorTreeEditorUtility.ScriptTemplate scriptTemplate, SearchWindowContext context) Parameters Type Name Description BehaviorTreeEditorUtility.ScriptTemplate scriptTemplate SearchWindowContext context CreateSearchTree(SearchWindowContext) Declaration public List<SearchTreeEntry> CreateSearchTree(SearchWindowContext context) Parameters Type Name Description SearchWindowContext context Returns Type Description List < SearchTreeEntry > Initialize(BehaviourTreeView, NodeView, Boolean) Declaration public void Initialize(BehaviourTreeView treeView, NodeView source, bool isSourceParent) Parameters Type Name Description BehaviourTreeView treeView NodeView source Boolean isSourceParent OnSelectEntry(SearchTreeEntry, SearchWindowContext) Declaration public bool OnSelectEntry(SearchTreeEntry searchTreeEntry, SearchWindowContext context) Parameters Type Name Description SearchTreeEntry searchTreeEntry SearchWindowContext context Returns Type Description Boolean Show(Vector2, NodeView, Boolean) Declaration public static void Show(Vector2 mousePos, NodeView source, bool isSourceParent = false) Parameters Type Name Description Vector2 mousePos NodeView source Boolean isSourceParent Implements ISearchWindowProvider"
-  },
-  "api/BT.Editor.DoubleClickNode.html": {
-    "href": "api/BT.Editor.DoubleClickNode.html",
+  "api/BT.Editor.BehaviorTreeEditor.Manipulators.DoubleClickNode.html": {
+    "href": "api/BT.Editor.BehaviorTreeEditor.Manipulators.DoubleClickNode.html",
     "title": "Class DoubleClickNode | Developer Reference",
-    "keywords": "Class DoubleClickNode Inheritance Object DoubleClickNode Namespace : BT.Editor Assembly : cs.temp.dll.dll Syntax public class DoubleClickNode : MouseManipulator Constructors DoubleClickNode() Declaration public DoubleClickNode() Methods RegisterCallbacksOnTarget() Declaration protected override void RegisterCallbacksOnTarget() UnregisterCallbacksFromTarget() Declaration protected override void UnregisterCallbacksFromTarget()"
+    "keywords": "Class DoubleClickNode Inheritance Object DoubleClickNode Namespace : BT.Editor.BehaviorTreeEditor.Manipulators Assembly : cs.temp.dll.dll Syntax public class DoubleClickNode : MouseManipulator Constructors DoubleClickNode() Declaration public DoubleClickNode() Methods RegisterCallbacksOnTarget() Declaration protected override void RegisterCallbacksOnTarget() UnregisterCallbacksFromTarget() Declaration protected override void UnregisterCallbacksFromTarget()"
   },
-  "api/BT.Editor.GenericNodePropertyPropertyDrawer.html": {
-    "href": "api/BT.Editor.GenericNodePropertyPropertyDrawer.html",
-    "title": "Class GenericNodePropertyPropertyDrawer | Developer Reference",
-    "keywords": "Class GenericNodePropertyPropertyDrawer Inheritance Object GenericNodePropertyPropertyDrawer Namespace : BT.Editor Assembly : cs.temp.dll.dll Syntax public class GenericNodePropertyPropertyDrawer : UnityEditor.PropertyDrawer Methods CreatePropertyGUI(SerializedProperty) Declaration public override VisualElement CreatePropertyGUI(SerializedProperty property) Parameters Type Name Description SerializedProperty property Returns Type Description VisualElement"
-  },
-  "api/BT.Editor.HierarchySelector.html": {
-    "href": "api/BT.Editor.HierarchySelector.html",
+  "api/BT.Editor.BehaviorTreeEditor.Manipulators.HierarchySelector.html": {
+    "href": "api/BT.Editor.BehaviorTreeEditor.Manipulators.HierarchySelector.html",
     "title": "Class HierarchySelector | Developer Reference",
-    "keywords": "Class HierarchySelector Inheritance Object HierarchySelector Namespace : BT.Editor Assembly : cs.temp.dll.dll Syntax public class HierarchySelector : MouseManipulator Methods RegisterCallbacksOnTarget() Declaration protected override void RegisterCallbacksOnTarget() UnregisterCallbacksFromTarget() Declaration protected override void UnregisterCallbacksFromTarget()"
+    "keywords": "Class HierarchySelector Inheritance Object HierarchySelector Namespace : BT.Editor.BehaviorTreeEditor.Manipulators Assembly : cs.temp.dll.dll Syntax public class HierarchySelector : MouseManipulator Methods RegisterCallbacksOnTarget() Declaration protected override void RegisterCallbacksOnTarget() UnregisterCallbacksFromTarget() Declaration protected override void UnregisterCallbacksFromTarget()"
   },
-  "api/BT.Editor.html": {
-    "href": "api/BT.Editor.html",
-    "title": "Namespace BT.Editor | Developer Reference",
-    "keywords": "Namespace BT.Editor Classes BehaviorTreeEditorWindow BehaviorTreeEditorWindow.BehaviourTreeEditorAssetModificationProcessor BehaviorTreeEditorWindow.PendingScriptCreate BehaviorTreeProjectSettings BehaviorTreeRunnerEditor BlackboardKeyPropertyDrawer BlackboardKeyValuePairPropertyDrawer CreateNodeWindow DoubleClickNode GenericNodePropertyPropertyDrawer HierarchySelector NodePropertyPropertyDrawer SerializedBehaviourTree"
+  "api/BT.Editor.BehaviorTreeEditor.Manipulators.html": {
+    "href": "api/BT.Editor.BehaviorTreeEditor.Manipulators.html",
+    "title": "Namespace BT.Editor.BehaviorTreeEditor.Manipulators | Developer Reference",
+    "keywords": "Namespace BT.Editor.BehaviorTreeEditor.Manipulators Classes DoubleClickNode HierarchySelector"
   },
-  "api/BT.Editor.NodePropertyPropertyDrawer.html": {
-    "href": "api/BT.Editor.NodePropertyPropertyDrawer.html",
+  "api/BT.Editor.BehaviorTreeEditor.PropertyDrawers.BlackboardKeyPropertyDrawer.html": {
+    "href": "api/BT.Editor.BehaviorTreeEditor.PropertyDrawers.BlackboardKeyPropertyDrawer.html",
+    "title": "Class BlackboardKeyPropertyDrawer | Developer Reference",
+    "keywords": "Class BlackboardKeyPropertyDrawer Inheritance Object BlackboardKeyPropertyDrawer Namespace : BT.Editor.BehaviorTreeEditor.PropertyDrawers Assembly : cs.temp.dll.dll Syntax public class BlackboardKeyPropertyDrawer : UnityEditor.PropertyDrawer Methods CreatePropertyGUI(SerializedProperty) Declaration public override VisualElement CreatePropertyGUI(SerializedProperty property) Parameters Type Name Description SerializedProperty property Returns Type Description VisualElement"
+  },
+  "api/BT.Editor.BehaviorTreeEditor.PropertyDrawers.BlackboardKeyValuePairPropertyDrawer.html": {
+    "href": "api/BT.Editor.BehaviorTreeEditor.PropertyDrawers.BlackboardKeyValuePairPropertyDrawer.html",
+    "title": "Class BlackboardKeyValuePairPropertyDrawer | Developer Reference",
+    "keywords": "Class BlackboardKeyValuePairPropertyDrawer Inheritance Object BlackboardKeyValuePairPropertyDrawer Namespace : BT.Editor.BehaviorTreeEditor.PropertyDrawers Assembly : cs.temp.dll.dll Syntax public class BlackboardKeyValuePairPropertyDrawer : UnityEditor.PropertyDrawer Methods CreatePropertyGUI(SerializedProperty) Declaration public override VisualElement CreatePropertyGUI(SerializedProperty property) Parameters Type Name Description SerializedProperty property Returns Type Description VisualElement"
+  },
+  "api/BT.Editor.BehaviorTreeEditor.PropertyDrawers.GenericNodePropertyPropertyDrawer.html": {
+    "href": "api/BT.Editor.BehaviorTreeEditor.PropertyDrawers.GenericNodePropertyPropertyDrawer.html",
+    "title": "Class GenericNodePropertyPropertyDrawer | Developer Reference",
+    "keywords": "Class GenericNodePropertyPropertyDrawer Inheritance Object GenericNodePropertyPropertyDrawer Namespace : BT.Editor.BehaviorTreeEditor.PropertyDrawers Assembly : cs.temp.dll.dll Syntax public class GenericNodePropertyPropertyDrawer : UnityEditor.PropertyDrawer Methods CreatePropertyGUI(SerializedProperty) Declaration public override VisualElement CreatePropertyGUI(SerializedProperty property) Parameters Type Name Description SerializedProperty property Returns Type Description VisualElement"
+  },
+  "api/BT.Editor.BehaviorTreeEditor.PropertyDrawers.html": {
+    "href": "api/BT.Editor.BehaviorTreeEditor.PropertyDrawers.html",
+    "title": "Namespace BT.Editor.BehaviorTreeEditor.PropertyDrawers | Developer Reference",
+    "keywords": "Namespace BT.Editor.BehaviorTreeEditor.PropertyDrawers Classes BlackboardKeyPropertyDrawer BlackboardKeyValuePairPropertyDrawer GenericNodePropertyPropertyDrawer NodePropertyPropertyDrawer"
+  },
+  "api/BT.Editor.BehaviorTreeEditor.PropertyDrawers.NodePropertyPropertyDrawer.html": {
+    "href": "api/BT.Editor.BehaviorTreeEditor.PropertyDrawers.NodePropertyPropertyDrawer.html",
     "title": "Class NodePropertyPropertyDrawer | Developer Reference",
-    "keywords": "Class NodePropertyPropertyDrawer Inheritance Object NodePropertyPropertyDrawer Namespace : BT.Editor Assembly : cs.temp.dll.dll Syntax public class NodePropertyPropertyDrawer : UnityEditor.PropertyDrawer Methods CreatePropertyGUI(SerializedProperty) Declaration public override VisualElement CreatePropertyGUI(SerializedProperty property) Parameters Type Name Description SerializedProperty property Returns Type Description VisualElement"
+    "keywords": "Class NodePropertyPropertyDrawer Inheritance Object NodePropertyPropertyDrawer Namespace : BT.Editor.BehaviorTreeEditor.PropertyDrawers Assembly : cs.temp.dll.dll Syntax public class NodePropertyPropertyDrawer : UnityEditor.PropertyDrawer Methods CreatePropertyGUI(SerializedProperty) Declaration public override VisualElement CreatePropertyGUI(SerializedProperty property) Parameters Type Name Description SerializedProperty property Returns Type Description VisualElement"
   },
-  "api/BT.Editor.SerializedBehaviourTree.html": {
-    "href": "api/BT.Editor.SerializedBehaviourTree.html",
+  "api/BT.Editor.BehaviorTreeEditor.SerializedBehaviourTree.html": {
+    "href": "api/BT.Editor.BehaviorTreeEditor.SerializedBehaviourTree.html",
     "title": "Class SerializedBehaviourTree | Developer Reference",
-    "keywords": "Class SerializedBehaviourTree Inheritance Object SerializedBehaviourTree Namespace : BT.Editor Assembly : cs.temp.dll.dll Syntax [Serializable] public class SerializedBehaviourTree Constructors SerializedBehaviourTree(BehaviorTreeSO) Declaration public SerializedBehaviourTree(BehaviorTreeSO tree) Parameters Type Name Description BehaviorTreeSO tree Fields SerializedObject Declaration public SerializedObject SerializedObject Field Value Type Description SerializedObject Tree Declaration public BehaviorTreeSO Tree Field Value Type Description BehaviorTreeSO Properties BlackboardKeys Declaration public SerializedProperty BlackboardKeys { get; } Property Value Type Description SerializedProperty BlackboardProperty Declaration public SerializedProperty BlackboardProperty { get; } Property Value Type Description SerializedProperty Nodes Declaration public SerializedProperty Nodes { get; } Property Value Type Description SerializedProperty RootNode Declaration public SerializedProperty RootNode { get; } Property Value Type Description SerializedProperty Methods AddChild(BehaviorNode, BehaviorNode) Declaration public void AddChild(BehaviorNode parent, BehaviorNode child) Parameters Type Name Description BehaviorNode parent BehaviorNode child ApplyChanges() Declaration public void ApplyChanges() BeginBatch() Declaration public void BeginBatch() CreateBlackboardKey(String, Type) Declaration public void CreateBlackboardKey(string keyName, Type keyType) Parameters Type Name Description String keyName Type keyType CreateNode(Type, Vector2) Declaration public BehaviorNode CreateNode(Type type, Vector2 pos) Parameters Type Name Description Type type Vector2 pos Returns Type Description BehaviorNode CreateNodeInstance(Type) Declaration public BehaviorNode CreateNodeInstance(Type type) Parameters Type Name Description Type type Returns Type Description BehaviorNode DeleteBlackboardKey(String) Declaration public void DeleteBlackboardKey(string keyName) Parameters Type Name Description String keyName DeleteNode(BehaviorNode) Declaration public void DeleteNode(BehaviorNode node) Parameters Type Name Description BehaviorNode node EndBatch() Declaration public void EndBatch() FindNode(SerializedProperty, BehaviorNode) Declaration public SerializedProperty FindNode(SerializedProperty array, BehaviorNode node) Parameters Type Name Description SerializedProperty array BehaviorNode node Returns Type Description SerializedProperty RemoveChild(BehaviorNode, BehaviorNode) Declaration public void RemoveChild(BehaviorNode parent, BehaviorNode child) Parameters Type Name Description BehaviorNode parent BehaviorNode child RemoveNodeArrayElement(SerializedProperty, BehaviorNode) Declaration public void RemoveNodeArrayElement(SerializedProperty array, BehaviorNode node) Parameters Type Name Description SerializedProperty array BehaviorNode node SetNodePosition(BehaviorNode, Vector2) Declaration public void SetNodePosition(BehaviorNode node, Vector2 pos) Parameters Type Name Description BehaviorNode node Vector2 pos SetRootNode(RootNode) Declaration public void SetRootNode(RootNode node) Parameters Type Name Description RootNode node SetViewTransform(Vector3, Vector3) Declaration public void SetViewTransform(Vector3 position, Vector3 scale) Parameters Type Name Description Vector3 position Vector3 scale"
+    "keywords": "Class SerializedBehaviourTree Inheritance Object SerializedBehaviourTree Namespace : BT.Editor.BehaviorTreeEditor Assembly : cs.temp.dll.dll Syntax [Serializable] public class SerializedBehaviourTree Constructors SerializedBehaviourTree(BehaviorTreeSO) Declaration public SerializedBehaviourTree(BehaviorTreeSO tree) Parameters Type Name Description BehaviorTreeSO tree Fields SerializedObject Declaration public SerializedObject SerializedObject Field Value Type Description SerializedObject Tree Declaration public BehaviorTreeSO Tree Field Value Type Description BehaviorTreeSO Properties BlackboardKeys Declaration public SerializedProperty BlackboardKeys { get; } Property Value Type Description SerializedProperty BlackboardProperty Declaration public SerializedProperty BlackboardProperty { get; } Property Value Type Description SerializedProperty Nodes Declaration public SerializedProperty Nodes { get; } Property Value Type Description SerializedProperty RootNode Declaration public SerializedProperty RootNode { get; } Property Value Type Description SerializedProperty Methods AddChild(BehaviorNode, BehaviorNode) Declaration public void AddChild(BehaviorNode parent, BehaviorNode child) Parameters Type Name Description BehaviorNode parent BehaviorNode child ApplyChanges() Declaration public void ApplyChanges() BeginBatch() Declaration public void BeginBatch() CreateBlackboardKey(String, Type) Declaration public void CreateBlackboardKey(string keyName, Type keyType) Parameters Type Name Description String keyName Type keyType CreateNode(Type, Vector2) Declaration public BehaviorNode CreateNode(Type type, Vector2 pos) Parameters Type Name Description Type type Vector2 pos Returns Type Description BehaviorNode CreateNodeInstance(Type) Declaration public BehaviorNode CreateNodeInstance(Type type) Parameters Type Name Description Type type Returns Type Description BehaviorNode DeleteBlackboardKey(String) Declaration public void DeleteBlackboardKey(string keyName) Parameters Type Name Description String keyName DeleteNode(BehaviorNode) Declaration public void DeleteNode(BehaviorNode node) Parameters Type Name Description BehaviorNode node EndBatch() Declaration public void EndBatch() FindNode(SerializedProperty, BehaviorNode) Declaration public SerializedProperty FindNode(SerializedProperty array, BehaviorNode node) Parameters Type Name Description SerializedProperty array BehaviorNode node Returns Type Description SerializedProperty RemoveChild(BehaviorNode, BehaviorNode) Declaration public void RemoveChild(BehaviorNode parent, BehaviorNode child) Parameters Type Name Description BehaviorNode parent BehaviorNode child RemoveNodeArrayElement(SerializedProperty, BehaviorNode) Declaration public void RemoveNodeArrayElement(SerializedProperty array, BehaviorNode node) Parameters Type Name Description SerializedProperty array BehaviorNode node SetNodePosition(BehaviorNode, Vector2) Declaration public void SetNodePosition(BehaviorNode node, Vector2 pos) Parameters Type Name Description BehaviorNode node Vector2 pos SetRootNode(RootNode) Declaration public void SetRootNode(RootNode node) Parameters Type Name Description RootNode node SetViewTransform(Vector3, Vector3) Declaration public void SetViewTransform(Vector3 position, Vector3 scale) Parameters Type Name Description Vector3 position Vector3 scale"
   },
-  "api/BT.Editor.Utilities.BehaviorTreeEditorUtility.html": {
-    "href": "api/BT.Editor.Utilities.BehaviorTreeEditorUtility.html",
+  "api/BT.Editor.BehaviorTreeEditor.Utilities.BehaviorTreeEditorUtility.html": {
+    "href": "api/BT.Editor.BehaviorTreeEditor.Utilities.BehaviorTreeEditorUtility.html",
     "title": "Class BehaviorTreeEditorUtility | Developer Reference",
-    "keywords": "Class BehaviorTreeEditorUtility Inheritance Object BehaviorTreeEditorUtility Namespace : BT.Editor.Utilities Assembly : cs.temp.dll.dll Syntax public static class BehaviorTreeEditorUtility Methods CreateNewScript(BehaviorTreeEditorUtility.ScriptTemplate, NodeView, Boolean, Vector2) Declaration public static void CreateNewScript(BehaviorTreeEditorUtility.ScriptTemplate template, NodeView source, bool isSourceParent, Vector2 pos) Parameters Type Name Description BehaviorTreeEditorUtility.ScriptTemplate template NodeView source Boolean isSourceParent Vector2 pos CreateNewTree(String, String) Declaration public static BehaviorTreeSO CreateNewTree(string assetName, string folder) Parameters Type Name Description String assetName String folder Returns Type Description BehaviorTreeSO"
+    "keywords": "Class BehaviorTreeEditorUtility Inheritance Object BehaviorTreeEditorUtility Namespace : BT.Editor.BehaviorTreeEditor.Utilities Assembly : cs.temp.dll.dll Syntax public static class BehaviorTreeEditorUtility Methods CreateNewScript(BehaviorTreeEditorUtility.ScriptTemplate, NodeView, Boolean, Vector2) Declaration public static void CreateNewScript(BehaviorTreeEditorUtility.ScriptTemplate template, NodeView source, bool isSourceParent, Vector2 pos) Parameters Type Name Description BehaviorTreeEditorUtility.ScriptTemplate template NodeView source Boolean isSourceParent Vector2 pos CreateNewTree(String, String) Declaration public static BehaviorTreeSO CreateNewTree(string assetName, string folder) Parameters Type Name Description String assetName String folder Returns Type Description BehaviorTreeSO"
   },
-  "api/BT.Editor.Utilities.BehaviorTreeEditorUtility.ScriptTemplate.html": {
-    "href": "api/BT.Editor.Utilities.BehaviorTreeEditorUtility.ScriptTemplate.html",
+  "api/BT.Editor.BehaviorTreeEditor.Utilities.BehaviorTreeEditorUtility.ScriptTemplate.html": {
+    "href": "api/BT.Editor.BehaviorTreeEditor.Utilities.BehaviorTreeEditorUtility.ScriptTemplate.html",
     "title": "Struct BehaviorTreeEditorUtility.ScriptTemplate | Developer Reference",
-    "keywords": "Struct BehaviorTreeEditorUtility.ScriptTemplate Namespace : BT.Editor.Utilities Assembly : cs.temp.dll.dll Syntax public struct ScriptTemplate Fields DefaultFileName Declaration public string DefaultFileName Field Value Type Description String SubFolder Declaration public string SubFolder Field Value Type Description String TemplateFile Declaration public TextAsset TemplateFile Field Value Type Description TextAsset"
+    "keywords": "Struct BehaviorTreeEditorUtility.ScriptTemplate Namespace : BT.Editor.BehaviorTreeEditor.Utilities Assembly : cs.temp.dll.dll Syntax public struct ScriptTemplate Fields DefaultFileName Declaration public string DefaultFileName Field Value Type Description String SubFolder Declaration public string SubFolder Field Value Type Description String TemplateFile Declaration public TextAsset TemplateFile Field Value Type Description TextAsset"
   },
-  "api/BT.Editor.Utilities.html": {
-    "href": "api/BT.Editor.Utilities.html",
-    "title": "Namespace BT.Editor.Utilities | Developer Reference",
-    "keywords": "Namespace BT.Editor.Utilities Classes BehaviorTreeEditorUtility Structs BehaviorTreeEditorUtility.ScriptTemplate"
+  "api/BT.Editor.BehaviorTreeEditor.Utilities.html": {
+    "href": "api/BT.Editor.BehaviorTreeEditor.Utilities.html",
+    "title": "Namespace BT.Editor.BehaviorTreeEditor.Utilities | Developer Reference",
+    "keywords": "Namespace BT.Editor.BehaviorTreeEditor.Utilities Classes BehaviorTreeEditorUtility Structs BehaviorTreeEditorUtility.ScriptTemplate"
   },
-  "api/BT.Editor.Views.BehaviourTreeView.html": {
-    "href": "api/BT.Editor.Views.BehaviourTreeView.html",
+  "api/BT.Editor.BehaviorTreeEditor.Views.BehaviourTreeView.html": {
+    "href": "api/BT.Editor.BehaviorTreeEditor.Views.BehaviourTreeView.html",
     "title": "Class BehaviourTreeView | Developer Reference",
-    "keywords": "Class BehaviourTreeView Inheritance Object BehaviourTreeView Namespace : BT.Editor.Views Assembly : cs.temp.dll.dll Syntax public class BehaviourTreeView : GraphView Constructors BehaviourTreeView() Declaration public BehaviourTreeView() Fields GridSnapSize Declaration public static int GridSnapSize Field Value Type Description Int32 OnNodeSelected Declaration public Action<NodeView> OnNodeSelected Field Value Type Description Action < NodeView > Properties canCopySelection Declaration protected override bool canCopySelection { get; } Property Value Type Description Boolean canCutSelection Declaration protected override bool canCutSelection { get; } Property Value Type Description Boolean canDeleteSelection Declaration protected override bool canDeleteSelection { get; } Property Value Type Description Boolean canDuplicateSelection Declaration protected override bool canDuplicateSelection { get; } Property Value Type Description Boolean canPaste Declaration protected override bool canPaste { get; } Property Value Type Description Boolean Methods AddChild(NodeView, NodeView) Declaration public void AddChild(NodeView parentView, NodeView childView) Parameters Type Name Description NodeView parentView NodeView childView BuildContextualMenu(ContextualMenuPopulateEvent) Declaration public override void BuildContextualMenu(ContextualMenuPopulateEvent evt) Parameters Type Name Description ContextualMenuPopulateEvent evt ClearView() Declaration public void ClearView() CreateNode(Type, Vector2, NodeView) Declaration public NodeView CreateNode(Type type, Vector2 pos, NodeView parentView) Parameters Type Name Description Type type Vector2 pos NodeView parentView Returns Type Description NodeView CreateNodeWithChild(Type, Vector2, NodeView) Declaration public NodeView CreateNodeWithChild(Type type, Vector2 pos, NodeView childView) Parameters Type Name Description Type type Vector2 pos NodeView childView Returns Type Description NodeView FindNodeView(BehaviorNode) Declaration public NodeView FindNodeView(BehaviorNode node) Parameters Type Name Description BehaviorNode node Returns Type Description NodeView FindNodeView(String) Declaration public NodeView FindNodeView(string guid) Parameters Type Name Description String guid Returns Type Description NodeView GetCompatiblePorts(Port, NodeAdapter) Declaration public override List<Port> GetCompatiblePorts(Port startPort, NodeAdapter nodeAdapter) Parameters Type Name Description Port startPort NodeAdapter nodeAdapter Returns Type Description List < Port > PopulateView(SerializedBehaviourTree) BehaviorTreeSO를 이용해서 View를 재구성함. Declaration public void PopulateView(SerializedBehaviourTree bt) Parameters Type Name Description SerializedBehaviourTree bt View를 구성하기 위한 BehaviorTree RemoveElements(IEnumerable<GraphElement>) Declaration public void RemoveElements(IEnumerable<GraphElement> elementsToRemove) Parameters Type Name Description IEnumerable < GraphElement > elementsToRemove SelectNode(NodeView) Declaration public void SelectNode(NodeView view) Parameters Type Name Description NodeView view UpdateNodeStates() Declaration public void UpdateNodeStates()"
+    "keywords": "Class BehaviourTreeView Inheritance Object BehaviourTreeView Namespace : BT.Editor.BehaviorTreeEditor.Views Assembly : cs.temp.dll.dll Syntax public class BehaviourTreeView : GraphView Constructors BehaviourTreeView() Declaration public BehaviourTreeView() Fields GridSnapSize Declaration public static int GridSnapSize Field Value Type Description Int32 OnNodeSelected Declaration public Action<NodeView> OnNodeSelected Field Value Type Description Action < NodeView > Properties canCopySelection Declaration protected override bool canCopySelection { get; } Property Value Type Description Boolean canCutSelection Declaration protected override bool canCutSelection { get; } Property Value Type Description Boolean canDeleteSelection Declaration protected override bool canDeleteSelection { get; } Property Value Type Description Boolean canDuplicateSelection Declaration protected override bool canDuplicateSelection { get; } Property Value Type Description Boolean canPaste Declaration protected override bool canPaste { get; } Property Value Type Description Boolean Methods AddChild(NodeView, NodeView) Declaration public void AddChild(NodeView parentView, NodeView childView) Parameters Type Name Description NodeView parentView NodeView childView BuildContextualMenu(ContextualMenuPopulateEvent) Declaration public override void BuildContextualMenu(ContextualMenuPopulateEvent evt) Parameters Type Name Description ContextualMenuPopulateEvent evt ClearView() Declaration public void ClearView() CreateNode(Type, Vector2, NodeView) Declaration public NodeView CreateNode(Type type, Vector2 pos, NodeView parentView) Parameters Type Name Description Type type Vector2 pos NodeView parentView Returns Type Description NodeView CreateNodeWithChild(Type, Vector2, NodeView) Declaration public NodeView CreateNodeWithChild(Type type, Vector2 pos, NodeView childView) Parameters Type Name Description Type type Vector2 pos NodeView childView Returns Type Description NodeView FindNodeView(BehaviorNode) Declaration public NodeView FindNodeView(BehaviorNode node) Parameters Type Name Description BehaviorNode node Returns Type Description NodeView FindNodeView(String) Declaration public NodeView FindNodeView(string guid) Parameters Type Name Description String guid Returns Type Description NodeView GetCompatiblePorts(Port, NodeAdapter) Declaration public override List<Port> GetCompatiblePorts(Port startPort, NodeAdapter nodeAdapter) Parameters Type Name Description Port startPort NodeAdapter nodeAdapter Returns Type Description List < Port > PopulateView(SerializedBehaviourTree) BehaviorTreeSO를 이용해서 View를 재구성함. Declaration public void PopulateView(SerializedBehaviourTree bt) Parameters Type Name Description SerializedBehaviourTree bt View를 구성하기 위한 BehaviorTree RemoveElements(IEnumerable<GraphElement>) Declaration public void RemoveElements(IEnumerable<GraphElement> elementsToRemove) Parameters Type Name Description IEnumerable < GraphElement > elementsToRemove SelectNode(NodeView) Declaration public void SelectNode(NodeView view) Parameters Type Name Description NodeView view UpdateNodeStates() Declaration public void UpdateNodeStates()"
   },
-  "api/BT.Editor.Views.BehaviourTreeView.UxmlFactory.html": {
-    "href": "api/BT.Editor.Views.BehaviourTreeView.UxmlFactory.html",
+  "api/BT.Editor.BehaviorTreeEditor.Views.BehaviourTreeView.UxmlFactory.html": {
+    "href": "api/BT.Editor.BehaviorTreeEditor.Views.BehaviourTreeView.UxmlFactory.html",
     "title": "Class BehaviourTreeView.UxmlFactory | Developer Reference",
-    "keywords": "Class BehaviourTreeView.UxmlFactory Inheritance Object BehaviourTreeView.UxmlFactory Namespace : BT.Editor.Views Assembly : cs.temp.dll.dll Syntax public class UxmlFactory : BehaviourTreeView.UxmlFactory<BehaviourTreeView, GraphView.UxmlTraits>"
+    "keywords": "Class BehaviourTreeView.UxmlFactory Inheritance Object BehaviourTreeView.UxmlFactory Namespace : BT.Editor.BehaviorTreeEditor.Views Assembly : cs.temp.dll.dll Syntax public class UxmlFactory : BehaviourTreeView.UxmlFactory<BehaviourTreeView, GraphView.UxmlTraits>"
   },
-  "api/BT.Editor.Views.BlackboardView.html": {
-    "href": "api/BT.Editor.Views.BlackboardView.html",
+  "api/BT.Editor.BehaviorTreeEditor.Views.BlackboardView.html": {
+    "href": "api/BT.Editor.BehaviorTreeEditor.Views.BlackboardView.html",
     "title": "Class BlackboardView | Developer Reference",
-    "keywords": "Class BlackboardView Inheritance Object BlackboardView Namespace : BT.Editor.Views Assembly : cs.temp.dll.dll Syntax public class BlackboardView : VisualElement Methods ClearView() Declaration public void ClearView()"
+    "keywords": "Class BlackboardView Inheritance Object BlackboardView Namespace : BT.Editor.BehaviorTreeEditor.Views Assembly : cs.temp.dll.dll Syntax public class BlackboardView : VisualElement Methods ClearView() Declaration public void ClearView()"
   },
-  "api/BT.Editor.Views.BlackboardView.UxmlFactory.html": {
-    "href": "api/BT.Editor.Views.BlackboardView.UxmlFactory.html",
+  "api/BT.Editor.BehaviorTreeEditor.Views.BlackboardView.UxmlFactory.html": {
+    "href": "api/BT.Editor.BehaviorTreeEditor.Views.BlackboardView.UxmlFactory.html",
     "title": "Class BlackboardView.UxmlFactory | Developer Reference",
-    "keywords": "Class BlackboardView.UxmlFactory Inheritance Object BlackboardView.UxmlFactory Namespace : BT.Editor.Views Assembly : cs.temp.dll.dll Syntax public class UxmlFactory : BlackboardView.UxmlFactory<BlackboardView, VisualElement.UxmlTraits>"
+    "keywords": "Class BlackboardView.UxmlFactory Inheritance Object BlackboardView.UxmlFactory Namespace : BT.Editor.BehaviorTreeEditor.Views Assembly : cs.temp.dll.dll Syntax public class UxmlFactory : BlackboardView.UxmlFactory<BlackboardView, VisualElement.UxmlTraits>"
   },
-  "api/BT.Editor.Views.html": {
-    "href": "api/BT.Editor.Views.html",
-    "title": "Namespace BT.Editor.Views | Developer Reference",
-    "keywords": "Namespace BT.Editor.Views Classes BehaviourTreeView BehaviourTreeView.UxmlFactory BlackboardView BlackboardView.UxmlFactory InspectorView 의 Inspector창을 표시하기위한 View InspectorView.UxmlFactory NewScriptDialogView NewScriptDialogView.UxmlFactory NodePort NodeView Node를 GraphView에서 표시하기위한 View. OverlayView OverlayView.UxmlFactory SplitView SplitView.UxmlFactory"
+  "api/BT.Editor.BehaviorTreeEditor.Views.html": {
+    "href": "api/BT.Editor.BehaviorTreeEditor.Views.html",
+    "title": "Namespace BT.Editor.BehaviorTreeEditor.Views | Developer Reference",
+    "keywords": "Namespace BT.Editor.BehaviorTreeEditor.Views Classes BehaviourTreeView BehaviourTreeView.UxmlFactory BlackboardView BlackboardView.UxmlFactory InspectorView 의 Inspector창을 표시하기위한 View InspectorView.UxmlFactory NewScriptDialogView NewScriptDialogView.UxmlFactory NodePort NodeView Node를 GraphView에서 표시하기위한 View. OverlayView OverlayView.UxmlFactory SplitView SplitView.UxmlFactory"
   },
-  "api/BT.Editor.Views.InspectorView.html": {
-    "href": "api/BT.Editor.Views.InspectorView.html",
+  "api/BT.Editor.BehaviorTreeEditor.Views.InspectorView.html": {
+    "href": "api/BT.Editor.BehaviorTreeEditor.Views.InspectorView.html",
     "title": "Class InspectorView | Developer Reference",
-    "keywords": "Class InspectorView 의 Inspector창을 표시하기위한 View Inheritance Object InspectorView Namespace : BT.Editor.Views Assembly : cs.temp.dll.dll Syntax public class InspectorView : VisualElement Constructors InspectorView() Declaration public InspectorView()"
+    "keywords": "Class InspectorView 의 Inspector창을 표시하기위한 View Inheritance Object InspectorView Namespace : BT.Editor.BehaviorTreeEditor.Views Assembly : cs.temp.dll.dll Syntax public class InspectorView : VisualElement Constructors InspectorView() Declaration public InspectorView()"
   },
-  "api/BT.Editor.Views.InspectorView.UxmlFactory.html": {
-    "href": "api/BT.Editor.Views.InspectorView.UxmlFactory.html",
+  "api/BT.Editor.BehaviorTreeEditor.Views.InspectorView.UxmlFactory.html": {
+    "href": "api/BT.Editor.BehaviorTreeEditor.Views.InspectorView.UxmlFactory.html",
     "title": "Class InspectorView.UxmlFactory | Developer Reference",
-    "keywords": "Class InspectorView.UxmlFactory Inheritance Object InspectorView.UxmlFactory Namespace : BT.Editor.Views Assembly : cs.temp.dll.dll Syntax public class UxmlFactory : InspectorView.UxmlFactory<InspectorView, VisualElement.UxmlTraits>"
+    "keywords": "Class InspectorView.UxmlFactory Inheritance Object InspectorView.UxmlFactory Namespace : BT.Editor.BehaviorTreeEditor.Views Assembly : cs.temp.dll.dll Syntax public class UxmlFactory : InspectorView.UxmlFactory<InspectorView, VisualElement.UxmlTraits>"
   },
-  "api/BT.Editor.Views.NewScriptDialogView.html": {
-    "href": "api/BT.Editor.Views.NewScriptDialogView.html",
+  "api/BT.Editor.BehaviorTreeEditor.Views.NewScriptDialogView.html": {
+    "href": "api/BT.Editor.BehaviorTreeEditor.Views.NewScriptDialogView.html",
     "title": "Class NewScriptDialogView | Developer Reference",
-    "keywords": "Class NewScriptDialogView Inheritance Object NewScriptDialogView Namespace : BT.Editor.Views Assembly : cs.temp.dll.dll Syntax public class NewScriptDialogView : VisualElement Methods CreateScript(BehaviorTreeEditorUtility.ScriptTemplate, NodeView, Boolean, Vector2) Declaration public void CreateScript(BehaviorTreeEditorUtility.ScriptTemplate template, NodeView source, bool isSourceParent, Vector2 nodePos) Parameters Type Name Description BehaviorTreeEditorUtility.ScriptTemplate template NodeView source Boolean isSourceParent Vector2 nodePos"
+    "keywords": "Class NewScriptDialogView Inheritance Object NewScriptDialogView Namespace : BT.Editor.BehaviorTreeEditor.Views Assembly : cs.temp.dll.dll Syntax public class NewScriptDialogView : VisualElement Methods CreateScript(BehaviorTreeEditorUtility.ScriptTemplate, NodeView, Boolean, Vector2) Declaration public void CreateScript(BehaviorTreeEditorUtility.ScriptTemplate template, NodeView source, bool isSourceParent, Vector2 nodePos) Parameters Type Name Description BehaviorTreeEditorUtility.ScriptTemplate template NodeView source Boolean isSourceParent Vector2 nodePos"
   },
-  "api/BT.Editor.Views.NewScriptDialogView.UxmlFactory.html": {
-    "href": "api/BT.Editor.Views.NewScriptDialogView.UxmlFactory.html",
+  "api/BT.Editor.BehaviorTreeEditor.Views.NewScriptDialogView.UxmlFactory.html": {
+    "href": "api/BT.Editor.BehaviorTreeEditor.Views.NewScriptDialogView.UxmlFactory.html",
     "title": "Class NewScriptDialogView.UxmlFactory | Developer Reference",
-    "keywords": "Class NewScriptDialogView.UxmlFactory Inheritance Object NewScriptDialogView.UxmlFactory Namespace : BT.Editor.Views Assembly : cs.temp.dll.dll Syntax public class UxmlFactory : NewScriptDialogView.UxmlFactory<NewScriptDialogView, UxmlTraits>"
+    "keywords": "Class NewScriptDialogView.UxmlFactory Inheritance Object NewScriptDialogView.UxmlFactory Namespace : BT.Editor.BehaviorTreeEditor.Views Assembly : cs.temp.dll.dll Syntax public class UxmlFactory : NewScriptDialogView.UxmlFactory<NewScriptDialogView, UxmlTraits>"
   },
-  "api/BT.Editor.Views.NodePort.html": {
-    "href": "api/BT.Editor.Views.NodePort.html",
+  "api/BT.Editor.BehaviorTreeEditor.Views.NodePort.html": {
+    "href": "api/BT.Editor.BehaviorTreeEditor.Views.NodePort.html",
     "title": "Class NodePort | Developer Reference",
-    "keywords": "Class NodePort Inheritance Object NodePort Namespace : BT.Editor.Views Assembly : cs.temp.dll.dll Syntax public class NodePort : Port Constructors NodePort(Direction, Capacity) Declaration protected NodePort(Direction portDirection, Capacity portCapacity) Parameters Type Name Description Direction portDirection Capacity portCapacity Methods ContainsPoint(Vector2) Declaration public override bool ContainsPoint(Vector2 localPoint) Parameters Type Name Description Vector2 localPoint Returns Type Description Boolean"
+    "keywords": "Class NodePort Inheritance Object NodePort Namespace : BT.Editor.BehaviorTreeEditor.Views Assembly : cs.temp.dll.dll Syntax public class NodePort : Port Constructors NodePort(Direction, Capacity) Declaration protected NodePort(Direction portDirection, Capacity portCapacity) Parameters Type Name Description Direction portDirection Capacity portCapacity Methods ContainsPoint(Vector2) Declaration public override bool ContainsPoint(Vector2 localPoint) Parameters Type Name Description Vector2 localPoint Returns Type Description Boolean"
   },
-  "api/BT.Editor.Views.NodeView.html": {
-    "href": "api/BT.Editor.Views.NodeView.html",
+  "api/BT.Editor.BehaviorTreeEditor.Views.NodeView.html": {
+    "href": "api/BT.Editor.BehaviorTreeEditor.Views.NodeView.html",
     "title": "Class NodeView | Developer Reference",
-    "keywords": "Class NodeView Node를 GraphView에서 표시하기위한 View. Inheritance Object NodeView Namespace : BT.Editor.Views Assembly : cs.temp.dll.dll Syntax public class NodeView : Node Constructors NodeView(BehaviorNode, VisualTreeAsset) Declaration public NodeView(BehaviorNode node, VisualTreeAsset nodeXml) Parameters Type Name Description BehaviorNode node VisualTreeAsset nodeXml Fields InputPort Declaration public Port InputPort Field Value Type Description Port Node Declaration public readonly BehaviorNode Node Field Value Type Description BehaviorNode OnNodeSelected Declaration public Action<NodeView> OnNodeSelected Field Value Type Description Action < NodeView > OutputPort Declaration public Port OutputPort Field Value Type Description Port Properties ChildrenNode Declaration public List<NodeView> ChildrenNode { get; } Property Value Type Description List < NodeView > ParentNode Declaration public NodeView ParentNode { get; } Property Value Type Description NodeView Methods OnSelected() Declaration public override void OnSelected() SetPosition(Rect) Declaration public override void SetPosition(Rect newPos) Parameters Type Name Description Rect newPos SetupDataBinding() Declaration public void SetupDataBinding() SortChildren() NodeView의 x좌표에 따라 sort함. Declaration public void SortChildren() UpdateState() Node의 현 상태에 따라 표시를 하기 위해 Class를 추가함. Declaration public void UpdateState()"
+    "keywords": "Class NodeView Node를 GraphView에서 표시하기위한 View. Inheritance Object NodeView Namespace : BT.Editor.BehaviorTreeEditor.Views Assembly : cs.temp.dll.dll Syntax public class NodeView : Node Constructors NodeView(BehaviorNode, VisualTreeAsset) Declaration public NodeView(BehaviorNode node, VisualTreeAsset nodeXml) Parameters Type Name Description BehaviorNode node VisualTreeAsset nodeXml Fields InputPort Declaration public Port InputPort Field Value Type Description Port Node Declaration public readonly BehaviorNode Node Field Value Type Description BehaviorNode OnNodeSelected Declaration public Action<NodeView> OnNodeSelected Field Value Type Description Action < NodeView > OutputPort Declaration public Port OutputPort Field Value Type Description Port Properties ChildrenNode Declaration public List<NodeView> ChildrenNode { get; } Property Value Type Description List < NodeView > ParentNode Declaration public NodeView ParentNode { get; } Property Value Type Description NodeView Methods OnSelected() Declaration public override void OnSelected() SetPosition(Rect) Declaration public override void SetPosition(Rect newPos) Parameters Type Name Description Rect newPos SetupDataBinding() Declaration public void SetupDataBinding() SortChildren() NodeView의 x좌표에 따라 sort함. Declaration public void SortChildren() UpdateState() Node의 현 상태에 따라 표시를 하기 위해 Class를 추가함. Declaration public void UpdateState()"
   },
-  "api/BT.Editor.Views.OverlayView.html": {
-    "href": "api/BT.Editor.Views.OverlayView.html",
+  "api/BT.Editor.BehaviorTreeEditor.Views.OverlayView.html": {
+    "href": "api/BT.Editor.BehaviorTreeEditor.Views.OverlayView.html",
     "title": "Class OverlayView | Developer Reference",
-    "keywords": "Class OverlayView Inheritance Object OverlayView Namespace : BT.Editor.Views Assembly : cs.temp.dll.dll Syntax public class OverlayView : VisualElement Fields OnTreeSelected Declaration public Action<BehaviorTreeSO> OnTreeSelected Field Value Type Description Action < BehaviorTreeSO > Methods Hide() Declaration public void Hide() Show() Declaration public void Show() ToAssetFormat(String) Declaration public string ToAssetFormat(string str) Parameters Type Name Description String str Returns Type Description String ToMenuFormat(String) Declaration public string ToMenuFormat(string str) Parameters Type Name Description String str Returns Type Description String"
+    "keywords": "Class OverlayView Inheritance Object OverlayView Namespace : BT.Editor.BehaviorTreeEditor.Views Assembly : cs.temp.dll.dll Syntax public class OverlayView : VisualElement Fields OnTreeSelected Declaration public Action<BehaviorTreeSO> OnTreeSelected Field Value Type Description Action < BehaviorTreeSO > Methods Hide() Declaration public void Hide() Show() Declaration public void Show() ToAssetFormat(String) Declaration public string ToAssetFormat(string str) Parameters Type Name Description String str Returns Type Description String ToMenuFormat(String) Declaration public string ToMenuFormat(string str) Parameters Type Name Description String str Returns Type Description String"
   },
-  "api/BT.Editor.Views.OverlayView.UxmlFactory.html": {
-    "href": "api/BT.Editor.Views.OverlayView.UxmlFactory.html",
+  "api/BT.Editor.BehaviorTreeEditor.Views.OverlayView.UxmlFactory.html": {
+    "href": "api/BT.Editor.BehaviorTreeEditor.Views.OverlayView.UxmlFactory.html",
     "title": "Class OverlayView.UxmlFactory | Developer Reference",
-    "keywords": "Class OverlayView.UxmlFactory Inheritance Object OverlayView.UxmlFactory Namespace : BT.Editor.Views Assembly : cs.temp.dll.dll Syntax public class UxmlFactory : OverlayView.UxmlFactory<OverlayView, UxmlTraits>"
+    "keywords": "Class OverlayView.UxmlFactory Inheritance Object OverlayView.UxmlFactory Namespace : BT.Editor.BehaviorTreeEditor.Views Assembly : cs.temp.dll.dll Syntax public class UxmlFactory : OverlayView.UxmlFactory<OverlayView, UxmlTraits>"
   },
-  "api/BT.Editor.Views.SplitView.html": {
-    "href": "api/BT.Editor.Views.SplitView.html",
+  "api/BT.Editor.BehaviorTreeEditor.Views.SplitView.html": {
+    "href": "api/BT.Editor.BehaviorTreeEditor.Views.SplitView.html",
     "title": "Class SplitView | Developer Reference",
-    "keywords": "Class SplitView Inheritance Object SplitView Namespace : BT.Editor.Views Assembly : cs.temp.dll.dll Syntax public class SplitView : TwoPaneSplitView"
+    "keywords": "Class SplitView Inheritance Object SplitView Namespace : BT.Editor.BehaviorTreeEditor.Views Assembly : cs.temp.dll.dll Syntax public class SplitView : TwoPaneSplitView"
   },
-  "api/BT.Editor.Views.SplitView.UxmlFactory.html": {
-    "href": "api/BT.Editor.Views.SplitView.UxmlFactory.html",
+  "api/BT.Editor.BehaviorTreeEditor.Views.SplitView.UxmlFactory.html": {
+    "href": "api/BT.Editor.BehaviorTreeEditor.Views.SplitView.UxmlFactory.html",
     "title": "Class SplitView.UxmlFactory | Developer Reference",
-    "keywords": "Class SplitView.UxmlFactory Inheritance Object SplitView.UxmlFactory Namespace : BT.Editor.Views Assembly : cs.temp.dll.dll Syntax public class UxmlFactory : SplitView.UxmlFactory<SplitView, TwoPaneSplitView.UxmlTraits>"
+    "keywords": "Class SplitView.UxmlFactory Inheritance Object SplitView.UxmlFactory Namespace : BT.Editor.BehaviorTreeEditor.Views Assembly : cs.temp.dll.dll Syntax public class UxmlFactory : SplitView.UxmlFactory<SplitView, TwoPaneSplitView.UxmlTraits>"
+  },
+  "api/BT.Editor.BehaviorTreeEditor.Windows.BehaviorTreeEditorWindow.BehaviourTreeEditorAssetModificationProcessor.html": {
+    "href": "api/BT.Editor.BehaviorTreeEditor.Windows.BehaviorTreeEditorWindow.BehaviourTreeEditorAssetModificationProcessor.html",
+    "title": "Class BehaviorTreeEditorWindow.BehaviourTreeEditorAssetModificationProcessor | Developer Reference",
+    "keywords": "Class BehaviorTreeEditorWindow.BehaviourTreeEditorAssetModificationProcessor Inheritance Object BehaviorTreeEditorWindow.BehaviourTreeEditorAssetModificationProcessor Namespace : BT.Editor.BehaviorTreeEditor.Windows Assembly : cs.temp.dll.dll Syntax public class BehaviourTreeEditorAssetModificationProcessor : AssetModificationProcessor"
+  },
+  "api/BT.Editor.BehaviorTreeEditor.Windows.BehaviorTreeEditorWindow.html": {
+    "href": "api/BT.Editor.BehaviorTreeEditor.Windows.BehaviorTreeEditorWindow.html",
+    "title": "Class BehaviorTreeEditorWindow | Developer Reference",
+    "keywords": "Class BehaviorTreeEditorWindow Inheritance Object BehaviorTreeEditorWindow Namespace : BT.Editor.BehaviorTreeEditor.Windows Assembly : cs.temp.dll.dll Syntax public class BehaviorTreeEditorWindow : EditorWindow Fields ActionNodeScriptTemplate Declaration public TextAsset ActionNodeScriptTemplate Field Value Type Description TextAsset BTStyle Declaration public StyleSheet BTStyle Field Value Type Description StyleSheet BTXml Declaration public VisualTreeAsset BTXml Field Value Type Description VisualTreeAsset CompositeNodeScriptTemplate Declaration public TextAsset CompositeNodeScriptTemplate Field Value Type Description TextAsset ConditionalNodeScriptTemplate Declaration public TextAsset ConditionalNodeScriptTemplate Field Value Type Description TextAsset DecoratorNodeScriptTemplate Declaration public TextAsset DecoratorNodeScriptTemplate Field Value Type Description TextAsset Instance Declaration public static BehaviorTreeEditorWindow Instance Field Value Type Description BehaviorTreeEditorWindow NodeXml Declaration public VisualTreeAsset NodeXml Field Value Type Description VisualTreeAsset PendingScriptCreation Declaration public BehaviorTreeEditorWindow.PendingScriptCreate PendingScriptCreation Field Value Type Description BehaviorTreeEditorWindow.PendingScriptCreate Serializer Declaration public SerializedBehaviourTree Serializer Field Value Type Description SerializedBehaviourTree Settings Declaration public BehaviorTreeProjectSettings Settings Field Value Type Description BehaviorTreeProjectSettings Tree Declaration public BehaviorTreeSO Tree Field Value Type Description BehaviorTreeSO Properties NewScriptDialog Declaration public NewScriptDialogView NewScriptDialog { get; } Property Value Type Description NewScriptDialogView TreeView Declaration public BehaviourTreeView TreeView { get; } Property Value Type Description BehaviourTreeView Methods CreateGUI() Editor 생성 Declaration public void CreateGUI() OnOpenAsset(Int32, Int32) Asset을 열었을 때의 CALLBACK함수. Declaration public static bool OnOpenAsset(int instanceId, int line) Parameters Type Name Description Int32 instanceId Int32 line Returns Type Description Boolean OpenWindow() Declaration public static void OpenWindow() OpenWindow(BehaviorTreeSO) Declaration public static void OpenWindow(BehaviorTreeSO tree) Parameters Type Name Description BehaviorTreeSO tree"
+  },
+  "api/BT.Editor.BehaviorTreeEditor.Windows.BehaviorTreeEditorWindow.PendingScriptCreate.html": {
+    "href": "api/BT.Editor.BehaviorTreeEditor.Windows.BehaviorTreeEditorWindow.PendingScriptCreate.html",
+    "title": "Class BehaviorTreeEditorWindow.PendingScriptCreate | Developer Reference",
+    "keywords": "Class BehaviorTreeEditorWindow.PendingScriptCreate Inheritance Object BehaviorTreeEditorWindow.PendingScriptCreate Namespace : BT.Editor.BehaviorTreeEditor.Windows Assembly : cs.temp.dll.dll Syntax public class PendingScriptCreate Fields IsSourceParent Declaration public bool IsSourceParent Field Value Type Description Boolean NodePosition Declaration public Vector2 NodePosition Field Value Type Description Vector2 PendingCreate Declaration public bool PendingCreate Field Value Type Description Boolean ScriptName Declaration public string ScriptName Field Value Type Description String SourceGuid Declaration public string SourceGuid Field Value Type Description String Methods Reset() Declaration public void Reset()"
+  },
+  "api/BT.Editor.BehaviorTreeEditor.Windows.CreateNodeWindow.html": {
+    "href": "api/BT.Editor.BehaviorTreeEditor.Windows.CreateNodeWindow.html",
+    "title": "Class CreateNodeWindow | Developer Reference",
+    "keywords": "Class CreateNodeWindow Inheritance Object CreateNodeWindow Implements ISearchWindowProvider Namespace : BT.Editor.BehaviorTreeEditor.Windows Assembly : cs.temp.dll.dll Syntax public class CreateNodeWindow : ScriptableObject Methods CreateScript(BehaviorTreeEditorUtility.ScriptTemplate, SearchWindowContext) Declaration public void CreateScript(BehaviorTreeEditorUtility.ScriptTemplate scriptTemplate, SearchWindowContext context) Parameters Type Name Description BehaviorTreeEditorUtility.ScriptTemplate scriptTemplate SearchWindowContext context CreateSearchTree(SearchWindowContext) Declaration public List<SearchTreeEntry> CreateSearchTree(SearchWindowContext context) Parameters Type Name Description SearchWindowContext context Returns Type Description List < SearchTreeEntry > Initialize(BehaviourTreeView, NodeView, Boolean) Declaration public void Initialize(BehaviourTreeView treeView, NodeView source, bool isSourceParent) Parameters Type Name Description BehaviourTreeView treeView NodeView source Boolean isSourceParent OnSelectEntry(SearchTreeEntry, SearchWindowContext) Declaration public bool OnSelectEntry(SearchTreeEntry searchTreeEntry, SearchWindowContext context) Parameters Type Name Description SearchTreeEntry searchTreeEntry SearchWindowContext context Returns Type Description Boolean Show(Vector2, NodeView, Boolean) Declaration public static void Show(Vector2 mousePos, NodeView source, bool isSourceParent = false) Parameters Type Name Description Vector2 mousePos NodeView source Boolean isSourceParent Implements ISearchWindowProvider"
+  },
+  "api/BT.Editor.BehaviorTreeEditor.Windows.html": {
+    "href": "api/BT.Editor.BehaviorTreeEditor.Windows.html",
+    "title": "Namespace BT.Editor.BehaviorTreeEditor.Windows | Developer Reference",
+    "keywords": "Namespace BT.Editor.BehaviorTreeEditor.Windows Classes BehaviorTreeEditorWindow BehaviorTreeEditorWindow.BehaviourTreeEditorAssetModificationProcessor BehaviorTreeEditorWindow.PendingScriptCreate CreateNodeWindow"
   },
   "api/BT.html": {
     "href": "api/BT.html",
@@ -452,7 +467,12 @@
   "api/BT.Nodes.html": {
     "href": "api/BT.Nodes.html",
     "title": "Namespace BT.Nodes | Developer Reference",
-    "keywords": "Namespace BT.Nodes Classes ProjectileWeaponKey"
+    "keywords": "Namespace BT.Nodes Classes ParticleSystemKey ProjectileWeaponKey"
+  },
+  "api/BT.Nodes.ParticleSystemKey.html": {
+    "href": "api/BT.Nodes.ParticleSystemKey.html",
+    "title": "Class ParticleSystemKey | Developer Reference",
+    "keywords": "Class ParticleSystemKey Inheritance Object ParticleSystemKey Namespace : BT.Nodes Assembly : cs.temp.dll.dll Syntax [Serializable] public class ParticleSystemKey : BlackboardKey<ParticleSystem>"
   },
   "api/BT.Nodes.ProjectileWeaponKey.html": {
     "href": "api/BT.Nodes.ProjectileWeaponKey.html",
